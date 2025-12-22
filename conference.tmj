@@ -177,7 +177,7 @@
          "layers":[
                 {
                  "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 1827, 0, 0, 0, 0, 0, 0, 0, 1828, 1829, 1830, 1831, 1832, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -496,7 +496,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.2",
+ "tiledversion":"1.11.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -601,21 +601,8 @@
          "tilewidth":32
         }, 
         {
-         "columns":6,
-         "firstgid":1827,
-         "image":"tilesets\/WA_Logo_Long.png",
-         "imageheight":32,
-         "imagewidth":192,
-         "margin":0,
-         "name":"WA_Logo_Long",
-         "spacing":0,
-         "tilecount":6,
-         "tileheight":32,
-         "tilewidth":32
-        }, 
-        {
          "columns":25,
-         "firstgid":1833,
+         "firstgid":1827,
          "image":"tilesets\/WA_Exterior.png",
          "imageheight":1088,
          "imagewidth":800,
@@ -628,7 +615,7 @@
         }, 
         {
          "columns":13,
-         "firstgid":2683,
+         "firstgid":2677,
          "image":"tilesets\/WA_User_Interface.png",
          "imageheight":672,
          "imagewidth":416,

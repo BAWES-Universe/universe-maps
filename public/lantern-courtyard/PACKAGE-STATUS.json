@@ -1,0 +1,24 @@
+{
+  "revision": 2,
+  "status": "local-validated-candidate",
+  "fullUniversePlaytest": false,
+  "published": false,
+  "remoteWritesPerformedByThisTask": false,
+  "approvedFurnitureVisiblePixels": {
+    "table": [
+      56,
+      23
+    ],
+    "chair": [
+      28,
+      27
+    ]
+  },
+  "gregModified": false,
+  "visualProof": "Separate motion MP4 recorded in focused source-based Phaser harness; not full Universe.",
+  "remainingAcceptance": [
+    "Hosted asset fetch and CORS",
+    "Universe script bridge and real input/pathfinding/mobile touch",
+    "Role permissions and edited-object persistence"
+  ]
+}

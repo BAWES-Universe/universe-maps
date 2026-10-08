@@ -1,0 +1,41 @@
+Source pins inspected for this proof (read-only):
+
+Universe map validator:
+https://github.com/BAWES-Universe/workadventure-universe/blob/702fe51ce293217271dc43bcc60d74de523cbef3/libs/map-editor/src/GameMap/MapValidator.ts
+
+WAM / object schemas:
+https://github.com/BAWES-Universe/workadventure-universe/blob/702fe51ce293217271dc43bcc60d74de523cbef3/libs/map-editor/src/types.ts
+
+Object collection loader:
+https://github.com/BAWES-Universe/workadventure-universe/blob/702fe51ce293217271dc43bcc60d74de523cbef3/play/src/front/Phaser/Game/MapEditor/EntitiesCollectionsManager.ts
+
+Camera API:
+https://github.com/BAWES-Universe/workadventure-universe/blob/702fe51ce293217271dc43bcc60d74de523cbef3/play/src/front/Api/Iframe/camera.ts
+
+Camera state/restore behavior:
+https://github.com/BAWES-Universe/workadventure-universe/blob/702fe51ce293217271dc43bcc60d74de523cbef3/play/src/front/Phaser/Game/CameraManager.ts
+
+Existing adventure interactive map:
+https://github.com/BAWES-Universe/universe-maps/blob/813d51f59bcde0bc69e49ecc812cb423a8da49f3/adventure.tmj
+
+Existing conference interactive map:
+https://github.com/BAWES-Universe/universe-maps/blob/813d51f59bcde0bc69e49ecc812cb423a8da49f3/conference.tmj
+
+Enter/leave glow pattern:
+https://github.com/BAWES-Universe/universe-maps/blob/813d51f59bcde0bc69e49ecc812cb423a8da49f3/src/main.ts
+
+No engine source code or third-party JavaScript dependencies are redistributed inside this import package. Validator sources/dependencies were used only in an isolated local test fixture. The included map script is a small authored integration of public WA API calls.
+
+
+Revision02 technical references (technique only, no copied art):
+Conference-campus TMJ supplied by the user: https://workadventure-chat-uploads.s3.eu-west-1.amazonaws.com/upload/map-parteners/partners-162.map-storage.staging.workadventu.re/100-roads/conference-campus.tmj
+Pawapp reference: https://rveiio.github.io/BAWES-virtual/pawapp.tmj
+Campus roof/furniture foreground toggling and independent collision masks were studied. Pawapp coordinated native Tiled water/animal cycles were studied. Neither reference's artwork is redistributed.
+
+Source-extracted local QA primitives, Universe bae18306bdfa63e58cd4124b1a3b5b290b61c286:
+play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts (layer ordering; visibility and collision)
+play/src/front/Phaser/Entity/Character.ts (16×16 foot body and centerY+16 depth)
+play/src/front/Phaser/ECS/Entity.ts (whole-object topY+height+depthOffset)
+play/package.json (Phaser3.86.0; pinned AnimatedTiles plugin)
+https://github.com/workadventure/phaser-animated-tiles/tree/7e02ce91a100338a27f75f7b443bacd12459fd0f
+Current editor/runtime behavior also reviewed at875c75b6961aef516baddd8e95316083e63547a1: native image dimensions, separate32px collision grid, negative pixel depthOffset.

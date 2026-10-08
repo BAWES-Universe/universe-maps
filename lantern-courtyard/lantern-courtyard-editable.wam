@@ -1,0 +1,152 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "https://bawes-universe.github.io/universe-maps/lantern-courtyard/lantern-courtyard-editable.tmj",
+  "entities": {
+    "proof-coffee-table-01": {
+      "x": 192,
+      "y": 320,
+      "name": "Courtyard coffee table",
+      "prefabRef": {
+        "collectionName": "Lantern Courtyard Proof",
+        "id": "lantern-courtyard:coffee-table:teal:down"
+      },
+      "properties": [
+        {
+          "id": "table-description",
+          "type": "entityDescriptionProperties",
+          "description": "A movable coffee table. An authorized room editor can reposition this object.",
+          "searchable": true
+        }
+      ]
+    },
+    "olive-left": {
+      "x": 0,
+      "y": 160,
+      "name": "Olive Left",
+      "prefabRef": {
+        "collectionName": "Lantern Courtyard Proof",
+        "id": "lantern-courtyard:olive-large:terracotta:down"
+      },
+      "properties": []
+    },
+    "olive-right": {
+      "x": 608,
+      "y": 160,
+      "name": "Olive Right",
+      "prefabRef": {
+        "collectionName": "Lantern Courtyard Proof",
+        "id": "lantern-courtyard:olive-large:terracotta:down"
+      },
+      "properties": []
+    },
+    "entry-olive-left": {
+      "x": 256,
+      "y": 448,
+      "name": "Entry Olive Left",
+      "prefabRef": {
+        "collectionName": "Lantern Courtyard Proof",
+        "id": "lantern-courtyard:olive-small:terracotta:down"
+      },
+      "properties": []
+    },
+    "entry-olive-right": {
+      "x": 448,
+      "y": 448,
+      "name": "Entry Olive Right",
+      "prefabRef": {
+        "collectionName": "Lantern Courtyard Proof",
+        "id": "lantern-courtyard:olive-small:terracotta:down"
+      },
+      "properties": []
+    },
+    "alcove-chair-0": {
+      "x": 128,
+      "y": 96,
+      "name": "Alcove Chair 0",
+      "prefabRef": {
+        "collectionName": "Lantern Courtyard Proof",
+        "id": "lantern-courtyard:chair:teal:down"
+      },
+      "properties": []
+    },
+    "alcove-chair-1": {
+      "x": 160,
+      "y": 96,
+      "name": "Alcove Chair 1",
+      "prefabRef": {
+        "collectionName": "Lantern Courtyard Proof",
+        "id": "lantern-courtyard:chair:teal:down"
+      },
+      "properties": []
+    },
+    "alcove-chair-2": {
+      "x": 192,
+      "y": 96,
+      "name": "Alcove Chair 2",
+      "prefabRef": {
+        "collectionName": "Lantern Courtyard Proof",
+        "id": "lantern-courtyard:chair:teal:down"
+      },
+      "properties": []
+    },
+    "alcove-chair-3": {
+      "x": 544,
+      "y": 96,
+      "name": "Alcove Chair 3",
+      "prefabRef": {
+        "collectionName": "Lantern Courtyard Proof",
+        "id": "lantern-courtyard:chair:teal:down"
+      },
+      "properties": []
+    },
+    "alcove-chair-4": {
+      "x": 576,
+      "y": 96,
+      "name": "Alcove Chair 4",
+      "prefabRef": {
+        "collectionName": "Lantern Courtyard Proof",
+        "id": "lantern-courtyard:chair:teal:down"
+      },
+      "properties": []
+    },
+    "alcove-chair-5": {
+      "x": 608,
+      "y": 96,
+      "name": "Alcove Chair 5",
+      "prefabRef": {
+        "collectionName": "Lantern Courtyard Proof",
+        "id": "lantern-courtyard:chair:teal:down"
+      },
+      "properties": []
+    }
+  },
+  "areas": [
+    {
+      "id": "proof-start",
+      "name": "courtyard-entry",
+      "x": 352,
+      "y": 480,
+      "width": 64,
+      "height": 64,
+      "visible": true,
+      "properties": [
+        {
+          "id": "proof-default-start",
+          "type": "start",
+          "isDefault": true
+        }
+      ]
+    }
+  ],
+  "entityCollections": [
+    {
+      "url": "https://bawes-universe.github.io/universe-maps/lantern-courtyard/collections/courtyard-furniture.json",
+      "type": "file"
+    }
+  ],
+  "metadata": {
+    "name": "Lantern Courtyard \u00b7 Editable layered proof",
+    "description": "Optional editable variant. Import overlay only into a NEW authorized room; see README.md. TMJ-only testing uses lantern-courtyard.tmj instead.",
+    "copyright": "Original map and AI-assisted artwork; see LICENSE.assets.txt."
+  }
+}

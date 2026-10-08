@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "checks": {
+    "olive-large": {
+      "nativeSize": [
+        160,
+        192
+      ],
+      "canopyHullPixels": 7612,
+      "genuineTransparentGapPixels": 1185,
+      "gapFraction": 0.156,
+      "alignmentRevision": "Same canopy pixels translated8px right/down with zero clipping or alpha edits"
+    },
+    "olive-small": {
+      "nativeSize": [
+        64,
+        96
+      ],
+      "canopyHullPixels": 2051,
+      "genuineTransparentGapPixels": 308,
+      "gapFraction": 0.15
+    },
+    "lantern-light-cycle": {
+      "alphaExtrema": [
+        0,
+        79
+      ]
+    },
+    "pool-ripple-cycle": {
+      "alphaExtrema": [
+        0,
+        43
+      ]
+    }
+  }
+}

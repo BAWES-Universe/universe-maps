@@ -1,0 +1,195 @@
+{
+  "scope": "Focused actual Phaser + source-extracted fork primitives, not full Universe",
+  "variant": "WAM entities",
+  "checks": [
+    {
+      "name": "Pinned Phaser 3.86.0",
+      "pass": true
+    },
+    {
+      "name": "All images loaded",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "Greg native 32px",
+      "pass": true
+    },
+    {
+      "name": "Exact fork body",
+      "pass": true
+    },
+    {
+      "name": "Table back stops at support, upper row walkable",
+      "end": {
+        "x": 224,
+        "y": 336
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Table front stops at support",
+      "end": {
+        "x": 224,
+        "y": 384
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Table left side blocks",
+      "end": {
+        "x": 184,
+        "y": 360
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Table right side blocks",
+      "end": {
+        "x": 264,
+        "y": 360
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Table diagonal approach cannot enter support",
+      "end": {
+        "x": 184,
+        "y": 368
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Canopy is walkable",
+      "end": {
+        "x": 104,
+        "y": 252
+      },
+      "hits": 0,
+      "pass": true
+    },
+    {
+      "name": "Large pot blocks",
+      "end": {
+        "x": 80,
+        "y": 272
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Right pot rear support after alignment",
+      "end": {
+        "x": 688,
+        "y": 272
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Right pot front support after alignment",
+      "end": {
+        "x": 688,
+        "y": 320
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Right pot left support after alignment",
+      "end": {
+        "x": 632,
+        "y": 296
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Right pot right support after alignment",
+      "end": {
+        "x": 712,
+        "y": 296
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Right canopy remains walkable",
+      "end": {
+        "x": 728,
+        "y": 246
+      },
+      "hits": 0,
+      "pass": true
+    },
+    {
+      "name": "Arch opening stays walkable",
+      "end": {
+        "x": 384,
+        "y": 446
+      },
+      "hits": 0,
+      "pass": true
+    },
+    {
+      "name": "Roof hides inside",
+      "pass": true
+    },
+    {
+      "name": "Roof restores outside; blockers unchanged",
+      "pass": true
+    },
+    {
+      "name": "Gathering lights and butterfly visible",
+      "pass": true
+    },
+    {
+      "name": "Gathering exit restores camera once",
+      "pass": true
+    },
+    {
+      "name": "Active camera lock releases on narrow resize",
+      "pass": true
+    },
+    {
+      "name": "Pinned plugin advances pool and lantern frames",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion steady light and no water loop",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "body": {
+    "width": 16,
+    "height": 16,
+    "offset": {
+      "x": 0,
+      "y": 8
+    }
+  },
+  "cameraCalls": [
+    {
+      "type": "set",
+      "x": 552,
+      "y": 352
+    },
+    {
+      "type": "follow"
+    },
+    {
+      "type": "set",
+      "x": 552,
+      "y": 352
+    },
+    {
+      "type": "follow"
+    }
+  ]
+}

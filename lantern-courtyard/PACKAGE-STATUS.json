@@ -1,0 +1,25 @@
+{
+  "revision": 3,
+  "status": "local-validated-candidate",
+  "fullUniversePlaytest": false,
+  "published": false,
+  "remoteWritesPerformedByThisTask": false,
+  "approvedFurnitureVisiblePixels": {
+    "table": [
+      56,
+      23
+    ],
+    "chair": [
+      28,
+      27
+    ]
+  },
+  "gregModified": false,
+  "visualProof": "Existing motion MP4 demonstrates revision02 behavior. Revision03 only restores olive-bed alignment, verified in aligned-runtime.jpg and updated static preview.",
+  "remainingAcceptance": [
+    "Hosted asset fetch and CORS",
+    "Universe script bridge and real input/pathfinding/mobile touch",
+    "Role permissions and edited-object persistence"
+  ],
+  "minimalCorrection": "Restore both large olive pots to their original square ground beds; unchanged source RGBA pixels, adjusted padding, placement and matching support/depth metadata."
+}

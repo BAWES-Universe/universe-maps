@@ -1,0 +1,86 @@
+{
+  "change": "Original large olive artwork translated, never redrawn/rescaled",
+  "sourceSpriteSize": [
+    128,
+    160
+  ],
+  "paddedSpriteSize": [
+    160,
+    192
+  ],
+  "pixelTranslation": [
+    8,
+    8
+  ],
+  "allOriginalRGBABytesPreserved": true,
+  "leftEntityOrigin": [
+    0,
+    160
+  ],
+  "rightEntityOrigin": [
+    608,
+    160
+  ],
+  "previousRightOrigin": [
+    640,
+    160
+  ],
+  "visiblePotCentersApprox": [
+    [
+      80,
+      308
+    ],
+    [
+      688,
+      308
+    ]
+  ],
+  "contactYLocal": 148,
+  "entityDepthOffset": -44,
+  "collisionGrid": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "staticSplitLocalY": 128,
+  "note": "Existing32px support cells stay separate from transparent canopy. Right support footprint shifts one tile left with the tree."
+}

@@ -1,25 +1,19 @@
-# The Butterfly Gate · StudentHub Town
+# Butterfly Town
 
-A single finite 144 × 96 TMJ, 32 px tiles, with an original monumental gate and a separate living town scene. Crossing the magical threshold teleports only the local player to town. The gate's visual layers disappear locally. StudentHub, Lantern Café and Atlas Archive reveal their interiors at the same physical location when entered; stepping out restores each roof and surrounding light.
+This folder contains the Butterfly Town map family. Each release has its own version folder so that testing a new version does not change an existing map URL.
 
-## Install in universe-maps
+## Published versions
 
-Copy this complete folder to `public/butterfly-town/` and keep the relative structure. Map entry: `butterfly-town.tmj`. Script: `scripts/town.js`. No WAM, service, secret, backend change or external paid dependency is required. Existing maps are unaffected.
+| Version | Map | Scope |
+| --- | --- | --- |
+| v1 | [butterfly-town.tmj](v1/butterfly-town.tmj) | Original frozen Butterfly Gate / StudentHub Town experience |
 
-## Native behavior
+GitHub Pages map URL for v1:
 
-- `start` marker begins on the lower gate approach.
-- One guarded `WA.player.teleport()` moves between spatially separated scenes, landing outside return triggers.
-- Room entry is position-driven, using native Tiled area feet coordinates (`y + 16`, inclusive edges).
-- Visual visibility is local to the map script; there are no shared-state writes.
-- Permanent collisions never hide. All roof, furniture canopy, focus, fog and effect layers are non-colliding.
-- Furniture uses actual alpha cutouts, feet below `floorLayer`, canopies above. Pots alone block the two promenade olives. Perimeter cliff/garden scenery is outside the walkable area.
-- The gate camera pulls back once on approach. Focus ownership is restored before another focus, preventing the fork's one-slot saved-zoom overwrite. Aspect-ratio changes and reduced-motion changes restore player follow.
-- No control lock is acquired, including on teleport failure.
-- Water, butterfly flow and lantern spill use native Tiled animations. Reduced motion retains steady illumination and hides loops.
+https://bawes-universe.github.io/universe-maps/butterfly-town/v1/butterfly-town.tmj
 
-## Validation status
+## v1 status
 
-Local release candidate. The repository TypeScript/Vite build, unmodified pinned Universe map validator, deterministic lifecycle tests, and focused Phaser/source-primitive browser checks are included in the source package. This is not a live Universe multiplayer session. Before deployment signoff, test the hosted map in the actual fork with two players, reconnect inside each interior, device orientation changes and room-map-editor permissions.
+The v1 map, script, images, and original documentation are preserved byte-for-byte from the reviewed source candidate. Known town greenery collision and occlusion defects remain in this release. Live Universe two-client, reconnect, and real-device acceptance are still pending.
 
-No push, merge, deployment or public hosting was performed for this package.
+Future releases belong in separate folders such as `v2/`; creating a draft does not publish it. Keep existing version URLs stable. Other map families, including Lantern Courtyard and production maps outside this folder, are independent and unchanged.

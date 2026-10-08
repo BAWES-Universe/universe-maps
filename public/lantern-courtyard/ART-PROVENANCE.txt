@@ -40,3 +40,6 @@ Lantern light and pool ripple frames are original code-authored transparent effe
 Accepted Greg v3 remains unchanged and is used only in private local QA/preview evidence at native32px. It is not a map dependency or included as an editable map asset.
 
 Final scale correction: both oversized sofa-like arched mosaic backs and raised stone seat platforms were also removed through built-in image editing. Flat wall/paving and a modest tile band replace them. Accepted small table/chair sprites remain unchanged.
+
+REVISION03 — OLIVE ALIGNMENT ONLY
+Both large olive pots returned to their original square ground beds. Existing128×160RGBA sprite translated(+8,+8) into a transparent160×192canvas; every original pixel retained exactly. Right placement moved one32px tile left, with its support footprint. Large-pot local ground contact148, depthOffset−44. No new tree drawing, rescale, background edit, furniture, animation, avatar, or camera changes.

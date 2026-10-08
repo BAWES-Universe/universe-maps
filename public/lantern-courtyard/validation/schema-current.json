@@ -1,161 +1,161 @@
 {
   "sourceCommit": "bae18306bdfa63e58cd4124b1a3b5b290b61c286",
   "validator": "Unmodified Universe MapValidator at info level, unmodified WAM and entity-collection schemas/migrations. See build-provenance.json.",
-  "target": "/workspace/shared/lantern-depth-proof/map",
-  "checkedAt": "2026-10-08T11:28:42.523Z",
+  "target": "/workspace/shared/lantern-olive-alignment/map",
+  "checkedAt": "2026-10-08T12:34:02.576Z",
   "localAssetsOnly": true,
   "liveGameTest": false,
   "maps": [
     {
       "file": "lantern-courtyard.tmj",
-      "sha256": "4b47946b069c7ead8db7df468c47bd30e4df9e8bb9f0b371833ad7930e6c3ada",
+      "sha256": "37eec0cbcef0f4f41248854923b6218138ddbea009f28aa36b52d9c7ca69f7b1",
       "ok": true,
       "checkedResources": [
         {
           "resource": "tilesets/markers.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/markers.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/markers.png",
           "exists": true
         },
         {
           "resource": "tilesets/courtyard.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/courtyard.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/courtyard.png",
           "exists": true
         },
         {
           "resource": "tilesets/arch.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/arch.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/arch.png",
           "exists": true
         },
         {
           "resource": "tilesets/butterflies.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/butterflies.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/butterflies.png",
           "exists": true
         },
         {
           "resource": "tilesets/gathering-glow.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/gathering-glow.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/gathering-glow.png",
           "exists": true
         },
         {
           "resource": "images/olive-large.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/images/olive-large.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/images/olive-large.png",
           "exists": true
         },
         {
           "resource": "images/olive-small.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/images/olive-small.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/images/olive-small.png",
           "exists": true
         },
         {
           "resource": "images/coffee-table.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/images/coffee-table.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/images/coffee-table.png",
           "exists": true
         },
         {
           "resource": "images/alcove-chair.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/images/alcove-chair.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/images/alcove-chair.png",
           "exists": true
         },
         {
           "resource": "tilesets/alcove-canopy.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/alcove-canopy.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/alcove-canopy.png",
           "exists": true
         },
         {
           "resource": "tilesets/alcove-posts.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/alcove-posts.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/alcove-posts.png",
           "exists": true
         },
         {
           "resource": "tilesets/lantern-light-cycle.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/lantern-light-cycle.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/lantern-light-cycle.png",
           "exists": true
         },
         {
           "resource": "tilesets/pool-ripple-cycle.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/pool-ripple-cycle.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/pool-ripple-cycle.png",
           "exists": true
         },
         {
           "resource": "tilesets/lantern-steady.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/lantern-steady.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/lantern-steady.png",
           "exists": true
         }
       ]
     },
     {
       "file": "lantern-courtyard-editable.tmj",
-      "sha256": "70ff0014e2558893571d02c3586c78e21787c2c70441397e609ea48d5428df16",
+      "sha256": "fb6bc285776e5c73f56c6ad24e03a0af30e5ec60d2357510d2cbe7560a8288dd",
       "ok": true,
       "checkedResources": [
         {
           "resource": "tilesets/markers.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/markers.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/markers.png",
           "exists": true
         },
         {
           "resource": "tilesets/courtyard.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/courtyard.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/courtyard.png",
           "exists": true
         },
         {
           "resource": "tilesets/arch.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/arch.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/arch.png",
           "exists": true
         },
         {
           "resource": "tilesets/butterflies.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/butterflies.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/butterflies.png",
           "exists": true
         },
         {
           "resource": "tilesets/gathering-glow.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/gathering-glow.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/gathering-glow.png",
           "exists": true
         },
         {
           "resource": "images/olive-large.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/images/olive-large.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/images/olive-large.png",
           "exists": true
         },
         {
           "resource": "images/olive-small.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/images/olive-small.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/images/olive-small.png",
           "exists": true
         },
         {
           "resource": "images/coffee-table.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/images/coffee-table.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/images/coffee-table.png",
           "exists": true
         },
         {
           "resource": "images/alcove-chair.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/images/alcove-chair.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/images/alcove-chair.png",
           "exists": true
         },
         {
           "resource": "tilesets/alcove-canopy.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/alcove-canopy.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/alcove-canopy.png",
           "exists": true
         },
         {
           "resource": "tilesets/alcove-posts.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/alcove-posts.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/alcove-posts.png",
           "exists": true
         },
         {
           "resource": "tilesets/lantern-light-cycle.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/lantern-light-cycle.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/lantern-light-cycle.png",
           "exists": true
         },
         {
           "resource": "tilesets/pool-ripple-cycle.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/pool-ripple-cycle.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/pool-ripple-cycle.png",
           "exists": true
         },
         {
           "resource": "tilesets/lantern-steady.png",
-          "resolved": "file:///workspace/shared/lantern-depth-proof/map/tilesets/lantern-steady.png",
+          "resolved": "file:///workspace/shared/lantern-olive-alignment/map/tilesets/lantern-steady.png",
           "exists": true
         }
       ]
@@ -164,7 +164,7 @@
   "wams": [
     {
       "file": "lantern-courtyard-editable.wam",
-      "sha256": "bde27262e7af6a585fd6ecd0736e14c24f85510e33e3a107fee0e85e329936fa",
+      "sha256": "166b8d25f0c16cd636815b2d5f929e05e491839d0539f67a8edbc9a325669482",
       "ok": true,
       "directSchemaOk": true,
       "migratedSchemaOk": true,
@@ -177,7 +177,7 @@
   "collections": [
     {
       "file": "collections/courtyard-furniture.json",
-      "sha256": "44e7acbbfc0a976ec36723cd73e0c9601c7b5a9868979da6cb7867af06ea64e2",
+      "sha256": "9375326b653b686e2b66a7b07342726f73c3fb4a39439a2606b2779fa9c90075",
       "ok": true,
       "directSchemaOk": true,
       "migratedSchemaOk": true,

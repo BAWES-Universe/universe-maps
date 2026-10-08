@@ -69,3 +69,8 @@ npm run build
 ```
 
 Compare every file in `public/lantern-courtyard/` against its matching `dist/lantern-courtyard/` file; they must be byte-identical. The final future standalone URL is `https://bawes-universe.github.io/universe-maps/lantern-courtyard/lantern-courtyard.tmj`. This is a planned publication path, not a currently hosted-map claim. A draft PR does not merge or deploy it. Keep the motion MP4 as a separate review attachment rather than a required map dependency.
+
+
+## Revision03: original olive-bed alignment
+
+Both large pots are again centered on the original square planting beds. The existing tree RGBA pixels are unchanged: transparent padding moves each sprite8px right/down, and the right placement moves one32px tile left. The right collision footprint moves with it. The large-pot prefab now uses160×192 transparent canvas, contactY148 and depthOffset−44. Original furniture scale, foliage gaps, water/light animation and camera behavior stay unchanged.

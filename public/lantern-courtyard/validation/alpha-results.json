@@ -3,12 +3,13 @@
   "checks": {
     "olive-large": {
       "nativeSize": [
-        128,
-        160
+        160,
+        192
       ],
       "canopyHullPixels": 7612,
       "genuineTransparentGapPixels": 1185,
-      "gapFraction": 0.156
+      "gapFraction": 0.156,
+      "alignmentRevision": "Same canopy pixels translated8px right/down with zero clipping or alpha edits"
     },
     "olive-small": {
       "nativeSize": [

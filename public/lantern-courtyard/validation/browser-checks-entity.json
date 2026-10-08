@@ -83,6 +83,51 @@
       "pass": true
     },
     {
+      "name": "Right pot rear support after alignment",
+      "end": {
+        "x": 688,
+        "y": 272
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Right pot front support after alignment",
+      "end": {
+        "x": 688,
+        "y": 320
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Right pot left support after alignment",
+      "end": {
+        "x": 632,
+        "y": 296
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Right pot right support after alignment",
+      "end": {
+        "x": 712,
+        "y": 296
+      },
+      "hits": 1,
+      "pass": true
+    },
+    {
+      "name": "Right canopy remains walkable",
+      "end": {
+        "x": 728,
+        "y": 246
+      },
+      "hits": 0,
+      "pass": true
+    },
+    {
       "name": "Arch opening stays walkable",
       "end": {
         "x": 384,

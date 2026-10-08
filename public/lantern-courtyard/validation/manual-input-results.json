@@ -1,0 +1,46 @@
+{
+  "scope": "Manual input in focused harness, not complete Universe controls or mobile hardware",
+  "keyboard": {
+    "key": "Up held500ms",
+    "before": [
+      384,
+      496
+    ],
+    "after": [
+      384,
+      441
+    ],
+    "pass": true
+  },
+  "portrait": {
+    "canvasWidth": 360,
+    "gregSpriteWidth": 32,
+    "zoom": 1,
+    "pass": true
+  },
+  "clickToWalk": {
+    "before": [
+      384,
+      391
+    ],
+    "after": [
+      464,
+      392
+    ],
+    "pass": true
+  },
+  "pointerHeldDirection": {
+    "direction": "right",
+    "durationMs": 500,
+    "before": [
+      464,
+      392
+    ],
+    "after": [
+      514,
+      392
+    ],
+    "pass": true
+  },
+  "actualUniverseRightClickAndTouch": "not tested"
+}

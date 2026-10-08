@@ -1,0 +1,45 @@
+ARTWORK PROMPTS AND EXPORTS
+
+Built-in OpenAI image generation was used. Technical exports produce the final PNG atlases; original Greg pixels were only used in preview rendering.
+
+Courtyard
+Use case: stylized-concept. Asset type: finished production pixel-art background for a TOP-DOWN 2D RPG social room, 24 columns ×18 rows of 32px cells; exact canvas 768×576 pixels, landscape 4:3. Orthographic view with visible short front-facing wall faces, classic SNES/Pipoya game camera, no isometric distortion, no perspective convergence.
+Create a beautiful warm sandstone courtyard/majlis lounge. Restrained pixel clusters and crisp edges, approximately 1px detail at 768×576. Cream limestone, terracotta, muted teal cushions, dark walnut, small olive-green planting, warm lamps. Coherent classy welcoming BAWES Universe social space, no text, no labels or UI, no people.
+Strict production layout: outer masonry boundary within the first and last tile columns, far/north wall spans top three rows, lower/south boundary occupies last row with a wide clear 128px entrance gap centred at x=384. All walkable area uses quiet pale square stone paving, readable and uncluttered. Four small tiled floor accents for interest, but no arbitrary objects cluttering paths.
+Fixed scene furnishings: one compact 128px-wide low teal upholstered bench built into upper-left alcove at x=96..224,y=128..192, another at x=544..672,y=128..192. A tall potted small olive tree at x=64..128,y=288..384 and its counterpart x=640..704,y=288..384. A small low mosaic reflecting pool/fountain basin centred at x=384,y=224, footprint exactly x=320..448 and y=192..288. Its water should be turquoise and still, no high jet. Plain walking floor around it with minimum 64px passages.
+Lower half x=160..608,y=320..480 stays largely empty for separate movable furniture and character walking. Centre x=320..448,y=384..544 is a clear broad entrance path reserved for a separately rendered overhead arch, don't draw an arch. Add subtle floor medallion at x=560,y=352 as a gathering marker and three inset glowing wall niches on far wall. The floor must reach the image edges at the entry, no giant exterior margin, no frame, no title. Ground is entirely opaque. This is the actual game-map texture, not a mockup screenshot; geometrically tidy orthogonal architecture sized for 32px tall characters.
+
+Props
+Use case: stylized-concept. Asset type: transparent production 2D RPG prop sprite sheet, matching the courtyard game map in the reference image. Reference is style only, do not redraw the map.
+Draw ONLY these two separated objects on true transparency, with generous transparent padding, no labels/text/shadows detached from objects. Crisp hand-clustered pixel art for 32px-tall RPG characters. Orthogonal top-down RPG viewpoint with short visible front face, no isometric perspective. Palette sandstone cream, muted teal mosaic, warm walnut.
+UPPER HALF: one elegant decorative sandstone overhead doorway bridge / lintel, width 256 game pixels and height 96 game pixels, viewed straight-on in the same RPG camera. It has a broad shallow pointed arch opening beneath it, carved top frieze, teal mosaic accents. Only the high horizontal arch/lintel; no long vertical columns descending to ground. A single tiny lit hanging brass lamp in the centre hanging from the underside. It will be composited over already-existing gate pillars, so the actual bridge ends need to be at the same horizontal baseline. Bottom of central hanging lamp within same 96px envelope. Transparent arch opening.
+LOWER HALF: one low dark walnut octagonal coffee table with tasteful marquetry and a small brass coffee pot plus two cups, compact footprint 64×64 game pixels including legs and attached soft shadow, isolated sprite, visually the scale of two 32px characters standing side-by-side. The tabletop has a teal inlay matching the lounge cushions. No rug beneath it, no other furniture.
+Arrange the arch clearly above the much smaller table, with at least 64 game pixels fully transparent separation, centred alignment. These are real game assets not a mockup, and must have genuine alpha everywhere around and beneath the arch opening.
+
+Butterflies
+Use case: stylized-concept. Asset type: looping 2D game animation spritesheet, true transparent RGBA background. Make a horizontal strip of exactly 4 equally wide frames. Canvas 1536×512, four slots384×512. Each frame contains the SAME tiny cluster of three magical luminous teal-and-gold butterflies, viewed top-down as flat crisp pixel-art sprites. Modest small wing shapes with clean pixel silhouettes, soft glow only immediately next to wing. They are not realistic photographic insects. The clusters have exactly the same scale and centre in all four slots. Wings change from open to half to closed to half for a repeatable flutter loop; cluster has a gentle clockwise movement of only a few pixels. At intended game size each full frame will be 64×64, so no fine detail that would be lost. Keep each sprite cluster within central70% of its frame with fully transparent outer margins; absolutely no frame boundaries, captions, grid, words, numbers, background, gradient or decoration. This is an animation asset for a warm sandstone courtyard with teal mosaic. Magical, delicate, legible.
+
+Props alpha-cleanup instruction: preserve the existing arch/table and remove background haze, detached shadows and halos; retain transparent silhouettes.
+
+Final exports:
+tilesets/courtyard.png 768x576
+tilesets/arch.png 256x96
+images/coffee-table.png 64x64
+tilesets/butterflies.png 256x64, four 64x64 frames at 180ms each
+
+
+REVISION 02 — LAYERED, NATIVE-SCALE AND ANIMATED PROOF
+8 October 2026
+
+Built-in OpenAI image generation edited the original courtyard into a clean ground plate, removing four freestanding olive trees and the oversized upholstered sofas while preserving sandstone architecture, pool and mosaics. It generated matching isolated alpha olive/pot artwork, a compact teal-and-gold canopy, a low native-scale tea table and a small lounge chair. Technical nearest-neighbour exports pack these onto intentional32px canvases. The full generation prompts and original PNGs are retained in the local authoring project; no third-party reference pixels are included.
+
+Final redraws: coffee-table.png64×64 with visible art56×23; alcove-chair.png32×64 with visible art28×27; olive-large.png128×160; olive-small.png64×96; alcove-canopy.png160×128 plus separately retained support-post pixels. Tree internal leaf gaps retain genuine alpha. Table/chair/plant feet are drawn below players; upper sprites above. Optional WAM variant uses whole-image Y sorting instead.
+
+Lantern light and pool ripple frames are original code-authored transparent effects packed as synchronized Tiled animation. Eight light frames at260ms, eight water frames at320ms. No engine modifications or external rendering service. Reduced motion hides moving effect layers and shows a steady light plate.
+
+Accepted Greg v3 remains unchanged and is used only in private local QA/preview evidence at native32px. It is not a map dependency or included as an editable map asset.
+
+Final scale correction: both oversized sofa-like arched mosaic backs and raised stone seat platforms were also removed through built-in image editing. Flat wall/paving and a modest tile band replace them. Accepted small table/chair sprites remain unchanged.
+
+REVISION03 — OLIVE ALIGNMENT ONLY
+Both large olive pots returned to their original square ground beds. Existing128×160RGBA sprite translated(+8,+8) into a transparent160×192canvas; every original pixel retained exactly. Right placement moved one32px tile left, with its support footprint. Large-pot local ground contact148, depthOffset−44. No new tree drawing, rescale, background edit, furniture, animation, avatar, or camera changes.

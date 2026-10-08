@@ -1,0 +1,34 @@
+{
+  "contactPlaneSource": "Furniture uses authored rear-contact/split plane, not lowest front-foot pixel. Plants use opaque pot ground contact excluding shadow and padding.",
+  "prefabs": [
+    {
+      "image": "coffee-table.png",
+      "height": 64,
+      "contactY": 32,
+      "depthOffset": -32,
+      "basis": "Rear foot/contact plane below tabletop"
+    },
+    {
+      "image": "alcove-chair.png",
+      "height": 64,
+      "contactY": 32,
+      "depthOffset": -32,
+      "basis": "Authored rear support plane; wall-backed seats are not approachable from behind"
+    },
+    {
+      "image": "olive-large.png",
+      "height": 192,
+      "contactY": 148,
+      "depthOffset": -44,
+      "basis": "Original opaque pot base translated8px down; transparent padding excluded"
+    },
+    {
+      "image": "olive-small.png",
+      "height": 96,
+      "contactY": 84,
+      "depthOffset": -12,
+      "basis": "Opaque pot base, excluding soft shadow"
+    }
+  ],
+  "collisionRule": "Physical32px support grid is independent. Static TMJ uses a split overlay and cannot reproduce all whole-object diagonal Y-sort crossovers."
+}

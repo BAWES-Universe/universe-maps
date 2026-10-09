@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "scope": "adapter lifecycle against deterministic fake WebAudio, not a browser playback claim",
+  "contexts": 1,
+  "starts": 1,
+  "stops": 1,
+  "fetches": 2,
+  "checks": [
+    {
+      "name": "No context before explicit start",
+      "passed": true
+    },
+    {
+      "name": "Default integration installs no visibility listener",
+      "passed": true
+    },
+    {
+      "name": "Recoverable load failure leaves no loop",
+      "passed": true
+    },
+    {
+      "name": "Retry and repeated starts share one context",
+      "passed": true
+    },
+    {
+      "name": "Only one looping source is created",
+      "passed": true
+    },
+    {
+      "name": "Local gain present near fire",
+      "passed": true
+    },
+    {
+      "name": "Mute targets zero",
+      "passed": true
+    },
+    {
+      "name": "Far entry is quiet",
+      "passed": true
+    },
+    {
+      "name": "Explicit local suppression targets zero",
+      "passed": true
+    },
+    {
+      "name": "Local restore remains one source",
+      "passed": true
+    },
+    {
+      "name": "Dispose stops loop",
+      "passed": true
+    },
+    {
+      "name": "Disposed controller cannot restart",
+      "passed": true
+    }
+  ]
+}

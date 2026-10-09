@@ -1,0 +1,147 @@
+{
+  "id": "magical-universe-arrival-avenue",
+  "nativeSize": {
+    "width": 1472,
+    "height": 576
+  },
+  "tileSize": 32,
+  "worldOrigin": {
+    "x": 704,
+    "y": 2480
+  },
+  "arrival": {
+    "x": 800,
+    "y": 432
+  },
+  "avatar": {
+    "frame": {
+      "x": -16,
+      "y": -16,
+      "width": 32,
+      "height": 32
+    },
+    "body": {
+      "x": -8,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "scale": 1
+  },
+  "walkable": [
+    [
+      [
+        736,
+        0
+      ],
+      [
+        864,
+        0
+      ],
+      [
+        864,
+        576
+      ],
+      [
+        736,
+        576
+      ]
+    ],
+    [
+      [
+        0,
+        256
+      ],
+      [
+        800,
+        256
+      ],
+      [
+        800,
+        352
+      ],
+      [
+        0,
+        352
+      ]
+    ]
+  ],
+  "obstacles": [
+    {
+      "id": "northwest-garden",
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "width": 736,
+      "height": 256
+    },
+    {
+      "id": "southwest-garden",
+      "type": "rect",
+      "x": 0,
+      "y": 352,
+      "width": 736,
+      "height": 224
+    },
+    {
+      "id": "east-garden",
+      "type": "rect",
+      "x": 864,
+      "y": 0,
+      "width": 608,
+      "height": 576
+    }
+  ],
+  "receivers": {
+    "north": {
+      "edge": "north",
+      "center": 800,
+      "from": 736,
+      "to": 864,
+      "clearWidth": 128,
+      "world": {
+        "x": 1504,
+        "y": 2480
+      },
+      "connectsTo": "courtyard-south"
+    },
+    "west": {
+      "edge": "west",
+      "center": 304,
+      "from": 256,
+      "to": 352,
+      "clearWidth": 96,
+      "world": {
+        "x": 704,
+        "y": 2784
+      },
+      "connectsTo": "civic-stage-cloister",
+      "hostBridge": {
+        "x": 608,
+        "y": 2736,
+        "width": 96,
+        "height": 96
+      }
+    },
+    "south": {
+      "edge": "south",
+      "center": 800,
+      "from": 736,
+      "to": 864,
+      "clearWidth": 128,
+      "world": {
+        "x": 1504,
+        "y": 3056
+      },
+      "connectsTo": "preserved-gate-portal-approach"
+    }
+  },
+  "benches": [],
+  "nativeFeatures": [],
+  "animation": [],
+  "layerOrder": [
+    "avenue-base",
+    "native-avatar",
+    "avenue-foliage-foreground"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "status": "Layered source snapshot; browser validation pending at freeze",
+  "native_world_size": [
+    1024,
+    1024
+  ],
+  "source_size": [
+    1254,
+    1254
+  ],
+  "authored_at": "2026-10-09T11:00:00Z",
+  "initial_snapshot_preserved": true,
+  "runtime_evidence": "See final runtime-work/results; this still is a compiler composite, not a gameplay screenshot.",
+  "files": [
+    {
+      "file": "master-1254.png",
+      "from": "art-source/arrival-door-revision.png",
+      "sha256": "0dd8941e0ae99f46255b9bcff2d9938a1e55b8d80be9db3d48475ba7d15794fc",
+      "bytes": 3474148
+    },
+    {
+      "file": "art-preview-1024.png",
+      "from": "docs/door-revision-native.png",
+      "sha256": "a585b1783e7001dade36dc1fecf0d25d7ac172b820d7aeb4b9f95fc1cf067cf6",
+      "bytes": 2599415
+    },
+    {
+      "file": "layered-chair-preview-1024.png",
+      "from": "docs/assembled-chair-native.png",
+      "sha256": "112f336aadc55fb9ad23cce1e7589f23737b1b91808081b8e251d36e77f1131e",
+      "bytes": 2677304
+    },
+    {
+      "file": "ground-clean-1254.png",
+      "from": "art-source/ground-clean-pass.png",
+      "sha256": "2636ed6caf7e6e820bb46939be7131974a43a25f7329aa68685bbc5f81c14673",
+      "bytes": 3367230
+    },
+    {
+      "file": "objects-alpha-1254.png",
+      "from": "art-source/objects-door-alpha.png",
+      "sha256": "364da8ecc11fc80f1064aaa1dc2fd6f894fc5270faeb3b203784afee57bf4006",
+      "bytes": 3298427
+    },
+    {
+      "file": "fountain-motion-strip.png",
+      "from": "art-source/fountain-motion-strip.png",
+      "sha256": "8207ed0d3f94b54396bc62fa649957f95a52b436d98ce55fa171aba773db2498",
+      "bytes": 805071
+    },
+    {
+      "file": "semantic-masks.json",
+      "from": "mask-work/semantic-mask-proposal.json",
+      "sha256": "19ac23f0c0dbf36cf532c8d5c915fc86de449d7305d0855e88b781533561549c",
+      "bytes": 56460
+    },
+    {
+      "file": "compile_painted_section.py",
+      "from": "tools/compile_painted_section.py",
+      "sha256": "3c89582bcf873f0758ab76c9f0870646f2797a63deade04701e193322c9afcc4",
+      "bytes": 10193
+    }
+  ]
+}

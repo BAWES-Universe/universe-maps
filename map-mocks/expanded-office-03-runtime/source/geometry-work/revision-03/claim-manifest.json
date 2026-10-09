@@ -1,0 +1,514 @@
+{
+  "coordinateSpace": "source office pixels",
+  "renderTranslation": {
+    "x": 32,
+    "y": 32
+  },
+  "areas": [
+    {
+      "id": "studenthub-operations-workbench-north-1-plot",
+      "name": "Operations unassigned north-1 place",
+      "x": 208,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-operations-workbench-north-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-operations-workbench-north-2-plot",
+      "name": "Operations unassigned north-2 place",
+      "x": 272,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-operations-workbench-north-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-operations-workbench-south-1-plot",
+      "name": "Operations unassigned south-1 place",
+      "x": 208,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-operations-workbench-south-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-operations-workbench-south-2-plot",
+      "name": "Operations unassigned south-2 place",
+      "x": 272,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-operations-workbench-south-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-1-plot",
+      "name": "Recruitment unassigned north-1 place",
+      "x": 688,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-recruitment-workbench-north-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-2-plot",
+      "name": "Recruitment unassigned north-2 place",
+      "x": 752,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-recruitment-workbench-north-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-1-plot",
+      "name": "Recruitment unassigned south-1 place",
+      "x": 688,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-recruitment-workbench-south-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-2-plot",
+      "name": "Recruitment unassigned south-2 place",
+      "x": 752,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-recruitment-workbench-south-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-sales-workbench-north-1-plot",
+      "name": "Sales unassigned north-1 place",
+      "x": 1200,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-sales-workbench-north-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-sales-workbench-north-2-plot",
+      "name": "Sales unassigned north-2 place",
+      "x": 1264,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-sales-workbench-north-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-sales-workbench-south-1-plot",
+      "name": "Sales unassigned south-1 place",
+      "x": 1200,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-sales-workbench-south-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-sales-workbench-south-2-plot",
+      "name": "Sales unassigned south-2 place",
+      "x": 1264,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-sales-workbench-south-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-tech-workbench-north-1-plot",
+      "name": "Tech unassigned north-1 place",
+      "x": 1680,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-tech-workbench-north-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-tech-workbench-north-2-plot",
+      "name": "Tech unassigned north-2 place",
+      "x": 1744,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-tech-workbench-north-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-tech-workbench-south-1-plot",
+      "name": "Tech unassigned south-1 place",
+      "x": 1680,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-tech-workbench-south-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-tech-workbench-south-2-plot",
+      "name": "Tech unassigned south-2 place",
+      "x": 1744,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-tech-workbench-south-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-1-plot",
+      "name": "Design / Media unassigned north-1 place",
+      "x": 208,
+      "y": 784,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-design-media-workbench-north-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-2-plot",
+      "name": "Design / Media unassigned north-2 place",
+      "x": 272,
+      "y": 784,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-design-media-workbench-north-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-1-plot",
+      "name": "Design / Media unassigned south-1 place",
+      "x": 208,
+      "y": 896,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-design-media-workbench-south-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-2-plot",
+      "name": "Design / Media unassigned south-2 place",
+      "x": 272,
+      "y": 896,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-design-media-workbench-south-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-1-plot",
+      "name": "Marketing unassigned north-1 place",
+      "x": 688,
+      "y": 784,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-marketing-workbench-north-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-2-plot",
+      "name": "Marketing unassigned north-2 place",
+      "x": 752,
+      "y": 784,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-marketing-workbench-north-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-1-plot",
+      "name": "Marketing unassigned south-1 place",
+      "x": 688,
+      "y": 896,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-marketing-workbench-south-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-2-plot",
+      "name": "Marketing unassigned south-2 place",
+      "x": 752,
+      "y": 896,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-marketing-workbench-south-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-research-workbench-north-1-plot",
+      "name": "Research unassigned north-1 place",
+      "x": 1200,
+      "y": 784,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-research-workbench-north-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-research-workbench-north-2-plot",
+      "name": "Research unassigned north-2 place",
+      "x": 1264,
+      "y": 784,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-research-workbench-north-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-research-workbench-south-1-plot",
+      "name": "Research unassigned south-1 place",
+      "x": 1200,
+      "y": 896,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-research-workbench-south-1-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    },
+    {
+      "id": "studenthub-research-workbench-south-2-plot",
+      "name": "Research unassigned south-2 place",
+      "x": 1264,
+      "y": 896,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "studenthub-research-workbench-south-2-personal-area",
+          "type": "personalAreaPropertyData",
+          "accessClaimMode": "dynamic",
+          "allowedTags": [],
+          "ownerId": null
+        }
+      ]
+    }
+  ],
+  "fixedBenchesAreNotEntities": true
+}

@@ -1,0 +1,35 @@
+{
+  "id": "painted-arrival-02-open-glass-door",
+  "title": "Painted arrival \u00b7 open glass doorway 02",
+  "kind": "visual-proposal",
+  "status": "unaccepted-painted-art-experiment",
+  "catalogReady": false,
+  "playable": false,
+  "map": null,
+  "screenshot": "screenshot.png",
+  "screenshotDescription": "Frozen offline compiler composite at 1024 \u00d7 1024; not a gameplay screenshot.",
+  "source": "Open-glass-door layered source snapshot frozen 2026-10-09 at 11:00 UTC",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {},
+  "sourceArtifactSha256": {
+    "source/master-1254.png": "0dd8941e0ae99f46255b9bcff2d9938a1e55b8d80be9db3d48475ba7d15794fc",
+    "source/art-preview-1024.png": "a585b1783e7001dade36dc1fecf0d25d7ac172b820d7aeb4b9f95fc1cf067cf6",
+    "source/layered-chair-preview-1024.png": "112f336aadc55fb9ad23cce1e7589f23737b1b91808081b8e251d36e77f1131e",
+    "source/ground-clean-1254.png": "2636ed6caf7e6e820bb46939be7131974a43a25f7329aa68685bbc5f81c14673",
+    "source/objects-alpha-1254.png": "364da8ecc11fc80f1064aaa1dc2fd6f894fc5270faeb3b203784afee57bf4006",
+    "source/fountain-motion-strip.png": "8207ed0d3f94b54396bc62fa649957f95a52b436d98ce55fa171aba773db2498",
+    "source/semantic-masks.json": "19ac23f0c0dbf36cf532c8d5c915fc86de449d7305d0855e88b781533561549c",
+    "source/compile_painted_section.py": "3c89582bcf873f0758ab76c9f0870646f2797a63deade04701e193322c9afcc4"
+  },
+  "silentAreas": {},
+  "dailyWorkChairs": 4,
+  "knownLimitations": [
+    "The layout and palette were liked, but the painted perspective and furniture usability were rejected as the main map direction on 2026-10-09. Preserve this as an unaccepted art experiment; any technical route evidence does not imply visual approval.",
+    "The four-chair footprint is historical and is not the current office brief. A larger interior with seven team clusters and claimable desk footprints was requested afterward; that later direction is not implemented here.",
+    "Runtime/browser validation was pending at this source freeze; no user acceptance or full-client playability is asserted.",
+    "Exact later image-generation prompt strings were not persisted; only known edit intents are documented.",
+    "Saved compiler is historical project source and is not standalone in this snapshot: a separately finalized integration must provide the complete runtime/audio-layout dependency set.",
+    "Snapshot 01 and its exact delivered bytes are preserved independently."
+  ],
+  "archiveValidation": "All eight frozen source hashes and both native preview sizes checked; no new browser or audio acceptance claimed."
+}

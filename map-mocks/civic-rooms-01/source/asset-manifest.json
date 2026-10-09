@@ -1,0 +1,890 @@
+{
+  "version": 1,
+  "units": "native world pixels; half-open rectangles",
+  "scope": "Frozen static original-art module with offline geometry checks and separate browser harness",
+  "worldOrigin": [
+    0,
+    1792
+  ],
+  "size": [
+    640,
+    1152
+  ],
+  "doorways": [
+    {
+      "local": [
+        608,
+        384
+      ],
+      "global": [
+        608,
+        2176
+      ],
+      "clearOpening": {
+        "x": 608,
+        "y": 344,
+        "width": 32,
+        "height": 80
+      }
+    },
+    {
+      "local": [
+        608,
+        992
+      ],
+      "global": [
+        608,
+        2784
+      ],
+      "clearOpening": {
+        "x": 608,
+        "y": 952,
+        "width": 32,
+        "height": 80
+      }
+    }
+  ],
+  "maskSources": {
+    "student": "Original validated source whole chair back at source (144,112,96,128). Exact source RGBA; not painted coverup.",
+    "audience": "Original measured north chair foreground, unchanged.",
+    "podium": "Original generated source top/rim selected with explicit U-shaped path in podium-foreground-native.svg. Visible top at native y24, head-safe at center y24.",
+    "glass": "Original code-native 10% teal pane tint after player; independent collider data.",
+    "shadow": "Original code-native 12% violet spatial tint after player; no blockers."
+  },
+  "registration": "Image generation followed by SVG/Sharp mechanical code-native module rendering at native dimensions. No Python image editing. Source masters unchanged; Greg sheet unchanged. Native full-canvas render preserves source transparent padding.",
+  "alphaFringe": "Original generated sources contain alpha1–4 traces outside meaningful solids. Bounds are recorded by threshold; these traces are never treated as collision or size.",
+  "records": [
+    {
+      "file": "art-source/civic-architecture-master.png",
+      "size": [
+        935,
+        1683
+      ],
+      "sha256": "06cb1142aa4c17068003889cc9b32a4e30676341ec809d3a7cf542282768a130",
+      "alpha": {
+        "1": {
+          "bounds": [
+            0,
+            3,
+            935,
+            1653
+          ],
+          "pixels": 1384508
+        },
+        "5": {
+          "bounds": [
+            40,
+            41,
+            935,
+            1642
+          ],
+          "pixels": 1359339
+        },
+        "16": {
+          "bounds": [
+            42,
+            43,
+            928,
+            1640
+          ],
+          "pixels": 1355641
+        },
+        "64": {
+          "bounds": [
+            42,
+            43,
+            927,
+            1640
+          ],
+          "pixels": 1353415
+        },
+        "128": {
+          "bounds": [
+            42,
+            44,
+            927,
+            1640
+          ],
+          "pixels": 1352578
+        },
+        "240": {
+          "bounds": [
+            43,
+            45,
+            926,
+            1639
+          ],
+          "pixels": 1347142
+        }
+      }
+    },
+    {
+      "file": "art-source/podium-master.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "sha256": "a52998c0b41c8e2a3deebd6eea9181bf27234bf432a03bbceb14f19d2bf9c6a4",
+      "alpha": {
+        "1": {
+          "bounds": [
+            25,
+            23,
+            1144,
+            1328
+          ],
+          "pixels": 562737
+        },
+        "5": {
+          "bounds": [
+            114,
+            342,
+            1031,
+            1004
+          ],
+          "pixels": 548726
+        },
+        "16": {
+          "bounds": [
+            114,
+            345,
+            1031,
+            1004
+          ],
+          "pixels": 546283
+        },
+        "64": {
+          "bounds": [
+            115,
+            346,
+            1030,
+            1003
+          ],
+          "pixels": 544099
+        },
+        "128": {
+          "bounds": [
+            115,
+            346,
+            1029,
+            1003
+          ],
+          "pixels": 542872
+        },
+        "240": {
+          "bounds": [
+            116,
+            347,
+            1029,
+            1002
+          ],
+          "pixels": 539762
+        }
+      }
+    },
+    {
+      "file": "assets/architecture-native.png",
+      "size": [
+        640,
+        1152
+      ],
+      "sha256": "51a7b0869f59e3b781dcef65042b656282483bcc92964d1c9e3b931d8db583d6",
+      "alpha": {
+        "1": {
+          "bounds": [
+            0,
+            2,
+            640,
+            1131
+          ],
+          "pixels": 649915
+        },
+        "5": {
+          "bounds": [
+            27,
+            28,
+            640,
+            1124
+          ],
+          "pixels": 637659
+        },
+        "16": {
+          "bounds": [
+            28,
+            29,
+            635,
+            1123
+          ],
+          "pixels": 636100
+        },
+        "64": {
+          "bounds": [
+            29,
+            30,
+            635,
+            1123
+          ],
+          "pixels": 634352
+        },
+        "128": {
+          "bounds": [
+            29,
+            30,
+            634,
+            1122
+          ],
+          "pixels": 633920
+        },
+        "240": {
+          "bounds": [
+            30,
+            31,
+            634,
+            1121
+          ],
+          "pixels": 630516
+        }
+      }
+    },
+    {
+      "file": "assets/podium-native.png",
+      "size": [
+        80,
+        96
+      ],
+      "sha256": "364f5373045b488c3b64f88143b93dd07ff581fb81c59e96a6b2f68e1676bf31",
+      "alpha": {
+        "1": {
+          "bounds": [
+            7,
+            23,
+            73,
+            71
+          ],
+          "pixels": 2864
+        },
+        "5": {
+          "bounds": [
+            8,
+            24,
+            72,
+            71
+          ],
+          "pixels": 2751
+        },
+        "16": {
+          "bounds": [
+            8,
+            24,
+            72,
+            71
+          ],
+          "pixels": 2749
+        },
+        "64": {
+          "bounds": [
+            8,
+            24,
+            72,
+            70
+          ],
+          "pixels": 2668
+        },
+        "128": {
+          "bounds": [
+            8,
+            24,
+            72,
+            70
+          ],
+          "pixels": 2659
+        },
+        "240": {
+          "bounds": [
+            9,
+            25,
+            71,
+            70
+          ],
+          "pixels": 2529
+        }
+      }
+    },
+    {
+      "file": "assets/podium-foreground-native.png",
+      "size": [
+        80,
+        96
+      ],
+      "sha256": "60a8af65dd316995c525b5c51b3aa90b4a243daf92a346a19ba158eb1156e163",
+      "alpha": {
+        "1": {
+          "bounds": [
+            8,
+            24,
+            72,
+            48
+          ],
+          "pixels": 1396
+        },
+        "5": {
+          "bounds": [
+            8,
+            24,
+            72,
+            48
+          ],
+          "pixels": 1396
+        },
+        "16": {
+          "bounds": [
+            8,
+            24,
+            72,
+            48
+          ],
+          "pixels": 1396
+        },
+        "64": {
+          "bounds": [
+            8,
+            24,
+            72,
+            48
+          ],
+          "pixels": 1394
+        },
+        "128": {
+          "bounds": [
+            8,
+            24,
+            72,
+            48
+          ],
+          "pixels": 1389
+        },
+        "240": {
+          "bounds": [
+            9,
+            25,
+            71,
+            48
+          ],
+          "pixels": 1300
+        }
+      }
+    },
+    {
+      "file": "assets/student-station-native.png",
+      "size": [
+        96,
+        128
+      ],
+      "sha256": "4c9779e08e9ff50d46b67afe668c339145b4ec8992e4ed100b44c4c1fba7280d",
+      "alpha": {
+        "1": {
+          "bounds": [
+            13,
+            3,
+            83,
+            123
+          ],
+          "pixels": 5381
+        },
+        "5": {
+          "bounds": [
+            15,
+            15,
+            81,
+            107
+          ],
+          "pixels": 5003
+        },
+        "16": {
+          "bounds": [
+            15,
+            15,
+            81,
+            107
+          ],
+          "pixels": 4988
+        },
+        "64": {
+          "bounds": [
+            16,
+            16,
+            80,
+            107
+          ],
+          "pixels": 4792
+        },
+        "128": {
+          "bounds": [
+            16,
+            16,
+            80,
+            106
+          ],
+          "pixels": 4781
+        },
+        "240": {
+          "bounds": [
+            16,
+            17,
+            80,
+            106
+          ],
+          "pixels": 4607
+        }
+      }
+    },
+    {
+      "file": "assets/chair-north-native.png",
+      "size": [
+        48,
+        64
+      ],
+      "sha256": "395e24ee7246bad853e98295bf0e68edb8a4dffe95ff4a0a485b1d2f7c533094",
+      "alpha": {
+        "1": {
+          "bounds": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "pixels": 1020
+        },
+        "5": {
+          "bounds": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "pixels": 1000
+        },
+        "16": {
+          "bounds": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "pixels": 989
+        },
+        "64": {
+          "bounds": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "pixels": 980
+        },
+        "128": {
+          "bounds": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "pixels": 972
+        },
+        "240": {
+          "bounds": [
+            9,
+            8,
+            39,
+            43
+          ],
+          "pixels": 930
+        }
+      }
+    },
+    {
+      "file": "assets/chair-north-foreground-native.png",
+      "size": [
+        48,
+        64
+      ],
+      "sha256": "7afa1390f432e292992777c2957b2dd747e17637135667591130c58f835c2848",
+      "alpha": {
+        "1": {
+          "bounds": [
+            11,
+            19,
+            39,
+            39
+          ],
+          "pixels": 535
+        },
+        "5": {
+          "bounds": [
+            11,
+            19,
+            39,
+            39
+          ],
+          "pixels": 535
+        },
+        "16": {
+          "bounds": [
+            11,
+            19,
+            39,
+            39
+          ],
+          "pixels": 535
+        },
+        "64": {
+          "bounds": [
+            11,
+            19,
+            39,
+            39
+          ],
+          "pixels": 535
+        },
+        "128": {
+          "bounds": [
+            11,
+            19,
+            39,
+            39
+          ],
+          "pixels": 535
+        },
+        "240": {
+          "bounds": [
+            11,
+            19,
+            39,
+            39
+          ],
+          "pixels": 535
+        }
+      }
+    },
+    {
+      "file": "assets/furniture-native.png",
+      "size": [
+        640,
+        1152
+      ],
+      "sha256": "1831dafe7d22444833ae9e4f495764bf2470953f9ddabdbfe2b0bb556581b2d4",
+      "alpha": {
+        "1": {
+          "bounds": [
+            125,
+            179,
+            515,
+            1036
+          ],
+          "pixels": 59630
+        },
+        "5": {
+          "bounds": [
+            127,
+            191,
+            513,
+            1036
+          ],
+          "pixels": 56769
+        },
+        "16": {
+          "bounds": [
+            127,
+            191,
+            513,
+            1036
+          ],
+          "pixels": 56413
+        },
+        "64": {
+          "bounds": [
+            128,
+            192,
+            512,
+            1036
+          ],
+          "pixels": 54940
+        },
+        "128": {
+          "bounds": [
+            128,
+            192,
+            512,
+            1036
+          ],
+          "pixels": 54673
+        },
+        "240": {
+          "bounds": [
+            128,
+            193,
+            512,
+            1035
+          ],
+          "pixels": 52491
+        }
+      }
+    },
+    {
+      "file": "assets/foreground-native.png",
+      "size": [
+        640,
+        1152
+      ],
+      "sha256": "0fd166ca30c2c00162029178b214f5e171ac852332ac534f8567fbe5fbf5044a",
+      "alpha": {
+        "1": {
+          "bounds": [
+            131,
+            257,
+            511,
+            1031
+          ],
+          "pixels": 17962
+        },
+        "5": {
+          "bounds": [
+            131,
+            257,
+            511,
+            1031
+          ],
+          "pixels": 17962
+        },
+        "16": {
+          "bounds": [
+            131,
+            257,
+            511,
+            1031
+          ],
+          "pixels": 17962
+        },
+        "64": {
+          "bounds": [
+            131,
+            257,
+            511,
+            1031
+          ],
+          "pixels": 17960
+        },
+        "128": {
+          "bounds": [
+            131,
+            257,
+            511,
+            1031
+          ],
+          "pixels": 17955
+        },
+        "240": {
+          "bounds": [
+            131,
+            257,
+            511,
+            1031
+          ],
+          "pixels": 17866
+        }
+      }
+    },
+    {
+      "file": "assets/glass-native.png",
+      "size": [
+        640,
+        1152
+      ],
+      "sha256": "e43b0d773b93aab6afcb096b90b72d0280f51ad97ccd977943386b466ed5ac9b",
+      "alpha": {
+        "1": {
+          "bounds": [
+            65,
+            220,
+            575,
+            948
+          ],
+          "pixels": 4704
+        },
+        "5": {
+          "bounds": [
+            65,
+            220,
+            575,
+            948
+          ],
+          "pixels": 4704
+        },
+        "16": {
+          "bounds": [
+            65,
+            220,
+            575,
+            948
+          ],
+          "pixels": 4704
+        },
+        "64": {
+          "bounds": [
+            640,
+            1152,
+            0,
+            0
+          ],
+          "pixels": 0
+        },
+        "128": {
+          "bounds": [
+            640,
+            1152,
+            0,
+            0
+          ],
+          "pixels": 0
+        },
+        "240": {
+          "bounds": [
+            640,
+            1152,
+            0,
+            0
+          ],
+          "pixels": 0
+        }
+      }
+    },
+    {
+      "file": "assets/shadow-native.png",
+      "size": [
+        640,
+        1152
+      ],
+      "sha256": "80b57735978ac6df1f8e35c2f9baa59668f4f5f7368d2a4022cf3d5c43da9415",
+      "alpha": {
+        "1": {
+          "bounds": [
+            66,
+            268,
+            164,
+            1004
+          ],
+          "pixels": 3617
+        },
+        "5": {
+          "bounds": [
+            66,
+            268,
+            164,
+            1004
+          ],
+          "pixels": 3509
+        },
+        "16": {
+          "bounds": [
+            66,
+            268,
+            163,
+            1004
+          ],
+          "pixels": 3369
+        },
+        "64": {
+          "bounds": [
+            640,
+            1152,
+            0,
+            0
+          ],
+          "pixels": 0
+        },
+        "128": {
+          "bounds": [
+            640,
+            1152,
+            0,
+            0
+          ],
+          "pixels": 0
+        },
+        "240": {
+          "bounds": [
+            640,
+            1152,
+            0,
+            0
+          ],
+          "pixels": 0
+        }
+      }
+    },
+    {
+      "file": "assets/greg.png",
+      "size": [
+        96,
+        128
+      ],
+      "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+      "alpha": {
+        "1": {
+          "bounds": [
+            2,
+            0,
+            93,
+            128
+          ],
+          "pixels": 6891
+        },
+        "5": {
+          "bounds": [
+            2,
+            0,
+            93,
+            128
+          ],
+          "pixels": 6891
+        },
+        "16": {
+          "bounds": [
+            2,
+            0,
+            93,
+            128
+          ],
+          "pixels": 6891
+        },
+        "64": {
+          "bounds": [
+            2,
+            0,
+            93,
+            128
+          ],
+          "pixels": 6891
+        },
+        "128": {
+          "bounds": [
+            2,
+            0,
+            93,
+            128
+          ],
+          "pixels": 6891
+        },
+        "240": {
+          "bounds": [
+            2,
+            0,
+            93,
+            128
+          ],
+          "pixels": 6891
+        }
+      }
+    }
+  ]
+}

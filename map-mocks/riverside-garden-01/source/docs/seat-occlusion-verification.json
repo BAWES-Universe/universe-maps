@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "scope": "pixel-accurate offline map render of four functional bench-position slots, not a browser screenshot or invented sitting animation",
+  "checks": [
+    {
+      "bench": "north",
+      "nativeAvatarFrame": [
+        32,
+        32
+      ],
+      "headPixelsPreserved": true,
+      "opaqueBodyPixelsBehindBenchRim": 34,
+      "spriteRow": 0,
+      "center": {
+        "x": 492,
+        "y": 392
+      },
+      "sittingAnimation": false
+    },
+    {
+      "bench": "south",
+      "nativeAvatarFrame": [
+        32,
+        32
+      ],
+      "headPixelsPreserved": true,
+      "opaqueBodyPixelsBehindBenchRim": 31,
+      "spriteRow": 3,
+      "center": {
+        "x": 492,
+        "y": 623
+      },
+      "sittingAnimation": false
+    },
+    {
+      "bench": "west",
+      "nativeAvatarFrame": [
+        32,
+        32
+      ],
+      "headPixelsPreserved": true,
+      "opaqueBodyPixelsBehindBenchRim": 15,
+      "spriteRow": 2,
+      "center": {
+        "x": 378,
+        "y": 520
+      },
+      "sittingAnimation": false
+    },
+    {
+      "bench": "east",
+      "nativeAvatarFrame": [
+        32,
+        32
+      ],
+      "headPixelsPreserved": true,
+      "opaqueBodyPixelsBehindBenchRim": 39,
+      "spriteRow": 1,
+      "center": {
+        "x": 606,
+        "y": 520
+      },
+      "sittingAnimation": false
+    }
+  ]
+}

@@ -1,0 +1,2631 @@
+{
+  "status": "passed",
+  "routeCount": 122,
+  "directionalTestCount": 244,
+  "endpointCount": 62,
+  "contactTestCount": 45,
+  "failedCount": 0,
+  "coordinateSpace": "source office pixels; full-canvas grid verified by translated equivalence",
+  "physicalBody": {
+    "xOffset": -8,
+    "yOffset": 0,
+    "width": 16,
+    "height": 16
+  },
+  "gridCellSize": 16,
+  "occupiedState": "Every other furniture/reception goal body is blocked; this is an offline conservative occupancy fixture, not live multiplayer.",
+  "endpointChecks": [
+    {
+      "id": "studenthub-operations-workbench-north-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-operations-workbench-north-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-operations-workbench-south-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-operations-workbench-south-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-sales-workbench-north-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-sales-workbench-north-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-sales-workbench-south-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-sales-workbench-south-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-tech-workbench-north-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-tech-workbench-north-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-tech-workbench-south-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-tech-workbench-south-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-research-workbench-north-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-research-workbench-north-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-research-workbench-south-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "studenthub-research-workbench-south-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "cross-lounge-west-sofa-seat-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "cross-lounge-west-sofa-seat-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "cross-lounge-west-guest",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "cross-lounge-east-sofa-seat-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "cross-lounge-east-sofa-seat-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "cross-lounge-east-guest",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "foyer-south-facing-sofa-seat-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "foyer-south-facing-sofa-seat-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "foyer-north-facing-sofa-seat-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "foyer-north-facing-sofa-seat-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "reception-staff",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "reception-visitor",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "meeting-a-north-place",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "meeting-a-south-place",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "meeting-a-west-place",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "meeting-a-east-place",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "meeting-b-north-place",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "meeting-b-south-place",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "meeting-b-west-place",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "meeting-b-east-place",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "conference-north-place-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "conference-south-place-1",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "conference-north-place-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "conference-south-place-2",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "conference-north-place-3",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "conference-south-place-3",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "main-entrance",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "shared-spine-center",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "gallery-main-threshold",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "gallery-corridor-entry",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "gallery-south-entry",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "meeting-a-threshold",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "meeting-b-threshold",
+      "sourceConflicts": [],
+      "gridClear": true
+    },
+    {
+      "id": "conference-threshold",
+      "sourceConflicts": [],
+      "gridClear": true
+    }
+  ],
+  "contactChecks": [
+    {
+      "id": "studenthub-operations-workbench-north-1",
+      "approach": {
+        "x": 272,
+        "y": 192
+      },
+      "seat": {
+        "x": 240,
+        "y": 192
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-operations-workbench-north-2",
+      "approach": {
+        "x": 272,
+        "y": 192
+      },
+      "seat": {
+        "x": 304,
+        "y": 192
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-operations-workbench-south-1",
+      "approach": {
+        "x": 240,
+        "y": 336
+      },
+      "seat": {
+        "x": 240,
+        "y": 304
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-operations-workbench-south-2",
+      "approach": {
+        "x": 304,
+        "y": 336
+      },
+      "seat": {
+        "x": 304,
+        "y": 304
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-1",
+      "approach": {
+        "x": 752,
+        "y": 192
+      },
+      "seat": {
+        "x": 720,
+        "y": 192
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-2",
+      "approach": {
+        "x": 752,
+        "y": 192
+      },
+      "seat": {
+        "x": 784,
+        "y": 192
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-1",
+      "approach": {
+        "x": 720,
+        "y": 336
+      },
+      "seat": {
+        "x": 720,
+        "y": 304
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-2",
+      "approach": {
+        "x": 784,
+        "y": 336
+      },
+      "seat": {
+        "x": 784,
+        "y": 304
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-sales-workbench-north-1",
+      "approach": {
+        "x": 1264,
+        "y": 192
+      },
+      "seat": {
+        "x": 1232,
+        "y": 192
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-sales-workbench-north-2",
+      "approach": {
+        "x": 1264,
+        "y": 192
+      },
+      "seat": {
+        "x": 1296,
+        "y": 192
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-sales-workbench-south-1",
+      "approach": {
+        "x": 1232,
+        "y": 336
+      },
+      "seat": {
+        "x": 1232,
+        "y": 304
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-sales-workbench-south-2",
+      "approach": {
+        "x": 1296,
+        "y": 336
+      },
+      "seat": {
+        "x": 1296,
+        "y": 304
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-tech-workbench-north-1",
+      "approach": {
+        "x": 1744,
+        "y": 192
+      },
+      "seat": {
+        "x": 1712,
+        "y": 192
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-tech-workbench-north-2",
+      "approach": {
+        "x": 1744,
+        "y": 192
+      },
+      "seat": {
+        "x": 1776,
+        "y": 192
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-tech-workbench-south-1",
+      "approach": {
+        "x": 1712,
+        "y": 336
+      },
+      "seat": {
+        "x": 1712,
+        "y": 304
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-tech-workbench-south-2",
+      "approach": {
+        "x": 1776,
+        "y": 336
+      },
+      "seat": {
+        "x": 1776,
+        "y": 304
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-1",
+      "approach": {
+        "x": 272,
+        "y": 832
+      },
+      "seat": {
+        "x": 240,
+        "y": 832
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-2",
+      "approach": {
+        "x": 272,
+        "y": 832
+      },
+      "seat": {
+        "x": 304,
+        "y": 832
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-1",
+      "approach": {
+        "x": 240,
+        "y": 976
+      },
+      "seat": {
+        "x": 240,
+        "y": 944
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-2",
+      "approach": {
+        "x": 304,
+        "y": 976
+      },
+      "seat": {
+        "x": 304,
+        "y": 944
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-1",
+      "approach": {
+        "x": 752,
+        "y": 832
+      },
+      "seat": {
+        "x": 720,
+        "y": 832
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-2",
+      "approach": {
+        "x": 752,
+        "y": 832
+      },
+      "seat": {
+        "x": 784,
+        "y": 832
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-1",
+      "approach": {
+        "x": 720,
+        "y": 976
+      },
+      "seat": {
+        "x": 720,
+        "y": 944
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-2",
+      "approach": {
+        "x": 784,
+        "y": 976
+      },
+      "seat": {
+        "x": 784,
+        "y": 944
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-research-workbench-north-1",
+      "approach": {
+        "x": 1264,
+        "y": 832
+      },
+      "seat": {
+        "x": 1232,
+        "y": 832
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-research-workbench-north-2",
+      "approach": {
+        "x": 1264,
+        "y": 832
+      },
+      "seat": {
+        "x": 1296,
+        "y": 832
+      },
+      "pushDirection": "south",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-research-workbench-south-1",
+      "approach": {
+        "x": 1232,
+        "y": 976
+      },
+      "seat": {
+        "x": 1232,
+        "y": 944
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "studenthub-research-workbench-south-2",
+      "approach": {
+        "x": 1296,
+        "y": 976
+      },
+      "seat": {
+        "x": 1296,
+        "y": 944
+      },
+      "pushDirection": "north",
+      "sourceApproachPassed": true,
+      "onePixelTowardTableBlocked": true,
+      "issues": []
+    },
+    {
+      "id": "cross-lounge-west-guest",
+      "seat": {
+        "x": 256,
+        "y": 608
+      },
+      "pushDirection": "north",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "cross-lounge-east-guest",
+      "seat": {
+        "x": 1248,
+        "y": 608
+      },
+      "pushDirection": "north",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "reception-staff",
+      "seat": {
+        "x": 1200,
+        "y": 1168
+      },
+      "pushDirection": "south",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "meeting-a-north-place",
+      "seat": {
+        "x": 2272,
+        "y": 528
+      },
+      "pushDirection": "south",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "meeting-a-south-place",
+      "seat": {
+        "x": 2272,
+        "y": 608
+      },
+      "pushDirection": "north",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "meeting-a-west-place",
+      "seat": {
+        "x": 2216,
+        "y": 568
+      },
+      "pushDirection": "east",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "meeting-a-east-place",
+      "seat": {
+        "x": 2328,
+        "y": 568
+      },
+      "pushDirection": "west",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "meeting-b-north-place",
+      "seat": {
+        "x": 2272,
+        "y": 720
+      },
+      "pushDirection": "south",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "meeting-b-south-place",
+      "seat": {
+        "x": 2272,
+        "y": 800
+      },
+      "pushDirection": "north",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "meeting-b-west-place",
+      "seat": {
+        "x": 2216,
+        "y": 760
+      },
+      "pushDirection": "east",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "meeting-b-east-place",
+      "seat": {
+        "x": 2328,
+        "y": 760
+      },
+      "pushDirection": "west",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "conference-north-place-1",
+      "seat": {
+        "x": 2208,
+        "y": 1008
+      },
+      "pushDirection": "south",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "conference-south-place-1",
+      "seat": {
+        "x": 2208,
+        "y": 1120
+      },
+      "pushDirection": "north",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "conference-north-place-2",
+      "seat": {
+        "x": 2272,
+        "y": 1008
+      },
+      "pushDirection": "south",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "conference-south-place-2",
+      "seat": {
+        "x": 2272,
+        "y": 1120
+      },
+      "pushDirection": "north",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "conference-north-place-3",
+      "seat": {
+        "x": 2336,
+        "y": 1008
+      },
+      "pushDirection": "south",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    },
+    {
+      "id": "conference-south-place-3",
+      "seat": {
+        "x": 2336,
+        "y": 1120
+      },
+      "pushDirection": "north",
+      "onePixelTowardTableBlocked": true,
+      "sourceApproachPassed": true
+    }
+  ],
+  "results": [
+    {
+      "id": "main-entrance-to-studenthub-operations-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-studenthub-operations-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-studenthub-operations-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-studenthub-operations-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-studenthub-operations-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 13
+    },
+    {
+      "id": "main-entrance-to-studenthub-operations-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 13
+    },
+    {
+      "id": "main-entrance-to-studenthub-operations-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 13
+    },
+    {
+      "id": "main-entrance-to-studenthub-operations-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 13
+    },
+    {
+      "id": "main-entrance-to-studenthub-recruitment-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 8
+    },
+    {
+      "id": "main-entrance-to-studenthub-recruitment-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 8
+    },
+    {
+      "id": "main-entrance-to-studenthub-recruitment-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-studenthub-recruitment-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-studenthub-recruitment-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 9
+    },
+    {
+      "id": "main-entrance-to-studenthub-recruitment-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 9
+    },
+    {
+      "id": "main-entrance-to-studenthub-recruitment-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 9
+    },
+    {
+      "id": "main-entrance-to-studenthub-recruitment-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 9
+    },
+    {
+      "id": "main-entrance-to-studenthub-sales-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-studenthub-sales-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-studenthub-sales-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-studenthub-sales-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-studenthub-sales-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 13
+    },
+    {
+      "id": "main-entrance-to-studenthub-sales-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 13
+    },
+    {
+      "id": "main-entrance-to-studenthub-sales-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 13
+    },
+    {
+      "id": "main-entrance-to-studenthub-sales-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 13
+    },
+    {
+      "id": "main-entrance-to-studenthub-tech-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-studenthub-tech-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-studenthub-tech-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-studenthub-tech-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-studenthub-tech-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 11
+    },
+    {
+      "id": "main-entrance-to-studenthub-tech-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 11
+    },
+    {
+      "id": "main-entrance-to-studenthub-tech-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 11
+    },
+    {
+      "id": "main-entrance-to-studenthub-tech-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 11
+    },
+    {
+      "id": "main-entrance-to-studenthub-design-media-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-studenthub-design-media-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-studenthub-design-media-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 8
+    },
+    {
+      "id": "main-entrance-to-studenthub-design-media-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 8
+    },
+    {
+      "id": "main-entrance-to-studenthub-design-media-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 3
+    },
+    {
+      "id": "main-entrance-to-studenthub-design-media-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 3
+    },
+    {
+      "id": "main-entrance-to-studenthub-design-media-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 3
+    },
+    {
+      "id": "main-entrance-to-studenthub-design-media-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 3
+    },
+    {
+      "id": "main-entrance-to-studenthub-marketing-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 6
+    },
+    {
+      "id": "main-entrance-to-studenthub-marketing-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 6
+    },
+    {
+      "id": "main-entrance-to-studenthub-marketing-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-studenthub-marketing-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-studenthub-marketing-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 3
+    },
+    {
+      "id": "main-entrance-to-studenthub-marketing-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 3
+    },
+    {
+      "id": "main-entrance-to-studenthub-marketing-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 3
+    },
+    {
+      "id": "main-entrance-to-studenthub-marketing-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 3
+    },
+    {
+      "id": "main-entrance-to-studenthub-research-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-studenthub-research-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-studenthub-research-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 6
+    },
+    {
+      "id": "main-entrance-to-studenthub-research-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 6
+    },
+    {
+      "id": "main-entrance-to-studenthub-research-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 3
+    },
+    {
+      "id": "main-entrance-to-studenthub-research-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 3
+    },
+    {
+      "id": "main-entrance-to-studenthub-research-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 7
+    },
+    {
+      "id": "main-entrance-to-studenthub-research-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 7
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-west-sofa-seat-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-west-sofa-seat-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-west-sofa-seat-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-west-sofa-seat-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-west-guest",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-west-guest-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-east-sofa-seat-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-east-sofa-seat-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-east-sofa-seat-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-east-sofa-seat-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-east-guest",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-east-guest-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-foyer-south-facing-sofa-seat-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-foyer-south-facing-sofa-seat-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-foyer-south-facing-sofa-seat-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-foyer-south-facing-sofa-seat-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-foyer-north-facing-sofa-seat-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-foyer-north-facing-sofa-seat-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-foyer-north-facing-sofa-seat-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-foyer-north-facing-sofa-seat-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-reception-staff",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 6
+    },
+    {
+      "id": "main-entrance-to-reception-staff-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 6
+    },
+    {
+      "id": "main-entrance-to-reception-visitor",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 2
+    },
+    {
+      "id": "main-entrance-to-reception-visitor-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 2
+    },
+    {
+      "id": "main-entrance-to-meeting-a-north-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-meeting-a-north-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-meeting-a-south-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-meeting-a-south-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-meeting-a-west-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 9
+    },
+    {
+      "id": "main-entrance-to-meeting-a-west-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 9
+    },
+    {
+      "id": "main-entrance-to-meeting-a-east-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 9
+    },
+    {
+      "id": "main-entrance-to-meeting-a-east-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 9
+    },
+    {
+      "id": "main-entrance-to-meeting-b-north-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-meeting-b-north-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 12
+    },
+    {
+      "id": "main-entrance-to-meeting-b-south-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 8
+    },
+    {
+      "id": "main-entrance-to-meeting-b-south-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 8
+    },
+    {
+      "id": "main-entrance-to-meeting-b-west-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 9
+    },
+    {
+      "id": "main-entrance-to-meeting-b-west-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 9
+    },
+    {
+      "id": "main-entrance-to-meeting-b-east-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 11
+    },
+    {
+      "id": "main-entrance-to-meeting-b-east-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 11
+    },
+    {
+      "id": "main-entrance-to-conference-north-place-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-conference-north-place-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-conference-south-place-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-conference-south-place-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-conference-north-place-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-conference-north-place-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-conference-south-place-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-conference-south-place-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-conference-north-place-3",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-conference-north-place-3-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-conference-south-place-3",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-conference-south-place-3-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 14
+    },
+    {
+      "id": "main-entrance-to-shared-spine-center",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 2
+    },
+    {
+      "id": "main-entrance-to-shared-spine-center-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 2
+    },
+    {
+      "id": "main-entrance-to-gallery-main-threshold",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 8
+    },
+    {
+      "id": "main-entrance-to-gallery-main-threshold-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 8
+    },
+    {
+      "id": "main-entrance-to-gallery-corridor-entry",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 8
+    },
+    {
+      "id": "main-entrance-to-gallery-corridor-entry-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 8
+    },
+    {
+      "id": "main-entrance-to-gallery-south-entry",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 8
+    },
+    {
+      "id": "main-entrance-to-gallery-south-entry-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 8
+    },
+    {
+      "id": "main-entrance-to-meeting-a-threshold",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-meeting-a-threshold-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-meeting-b-threshold",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-meeting-b-threshold-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-conference-threshold",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 10
+    },
+    {
+      "id": "main-entrance-to-conference-threshold-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 54,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-studenthub-operations-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-studenthub-operations-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-studenthub-operations-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-studenthub-operations-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-studenthub-operations-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 11
+    },
+    {
+      "id": "reception-visitor-to-studenthub-operations-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 11
+    },
+    {
+      "id": "reception-visitor-to-studenthub-operations-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 11
+    },
+    {
+      "id": "reception-visitor-to-studenthub-operations-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 11
+    },
+    {
+      "id": "reception-visitor-to-studenthub-recruitment-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-studenthub-recruitment-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-studenthub-recruitment-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-studenthub-recruitment-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-studenthub-recruitment-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-studenthub-recruitment-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-studenthub-recruitment-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-studenthub-recruitment-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-studenthub-sales-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-studenthub-sales-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-studenthub-sales-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-studenthub-sales-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-studenthub-sales-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 11
+    },
+    {
+      "id": "reception-visitor-to-studenthub-sales-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 11
+    },
+    {
+      "id": "reception-visitor-to-studenthub-sales-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 11
+    },
+    {
+      "id": "reception-visitor-to-studenthub-sales-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 11
+    },
+    {
+      "id": "reception-visitor-to-studenthub-tech-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-studenthub-tech-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-studenthub-tech-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-studenthub-tech-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-studenthub-tech-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-studenthub-tech-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-studenthub-tech-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-studenthub-tech-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-studenthub-design-media-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-studenthub-design-media-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-studenthub-design-media-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 6
+    },
+    {
+      "id": "reception-visitor-to-studenthub-design-media-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 6
+    },
+    {
+      "id": "reception-visitor-to-studenthub-design-media-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-studenthub-design-media-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-studenthub-design-media-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-studenthub-design-media-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-studenthub-marketing-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 4
+    },
+    {
+      "id": "reception-visitor-to-studenthub-marketing-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 4
+    },
+    {
+      "id": "reception-visitor-to-studenthub-marketing-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-studenthub-marketing-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-studenthub-marketing-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 5
+    },
+    {
+      "id": "reception-visitor-to-studenthub-marketing-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 5
+    },
+    {
+      "id": "reception-visitor-to-studenthub-marketing-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 5
+    },
+    {
+      "id": "reception-visitor-to-studenthub-marketing-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 5
+    },
+    {
+      "id": "reception-visitor-to-studenthub-research-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-studenthub-research-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-studenthub-research-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 4
+    },
+    {
+      "id": "reception-visitor-to-studenthub-research-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 4
+    },
+    {
+      "id": "reception-visitor-to-studenthub-research-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 7
+    },
+    {
+      "id": "reception-visitor-to-studenthub-research-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 7
+    },
+    {
+      "id": "reception-visitor-to-studenthub-research-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 5
+    },
+    {
+      "id": "reception-visitor-to-studenthub-research-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 5
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-west-sofa-seat-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-west-sofa-seat-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-west-sofa-seat-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-west-sofa-seat-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-west-guest",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-west-guest-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-east-sofa-seat-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-east-sofa-seat-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-east-sofa-seat-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-east-sofa-seat-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-east-guest",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-east-guest-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-foyer-south-facing-sofa-seat-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-foyer-south-facing-sofa-seat-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-foyer-south-facing-sofa-seat-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-foyer-south-facing-sofa-seat-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-foyer-north-facing-sofa-seat-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-foyer-north-facing-sofa-seat-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-foyer-north-facing-sofa-seat-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-foyer-north-facing-sofa-seat-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-reception-staff",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 4
+    },
+    {
+      "id": "reception-visitor-to-reception-staff-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 4
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-north-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-north-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-south-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-south-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-west-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 7
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-west-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 7
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-east-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 7
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-east-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 7
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-north-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-north-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 10
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-south-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 6
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-south-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 6
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-west-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 7
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-west-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 7
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-east-place",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-east-place-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 9
+    },
+    {
+      "id": "reception-visitor-to-conference-north-place-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-conference-north-place-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-conference-south-place-1",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-conference-south-place-1-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-conference-north-place-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-conference-north-place-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-conference-south-place-2",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-conference-south-place-2-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-conference-north-place-3",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-conference-north-place-3-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-conference-south-place-3",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-conference-south-place-3-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 52,
+      "waypointCount": 12
+    },
+    {
+      "id": "reception-visitor-to-main-entrance",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 2
+    },
+    {
+      "id": "reception-visitor-to-main-entrance-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 2
+    },
+    {
+      "id": "reception-visitor-to-shared-spine-center",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 4
+    },
+    {
+      "id": "reception-visitor-to-shared-spine-center-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 4
+    },
+    {
+      "id": "reception-visitor-to-gallery-main-threshold",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 2
+    },
+    {
+      "id": "reception-visitor-to-gallery-main-threshold-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 2
+    },
+    {
+      "id": "reception-visitor-to-gallery-corridor-entry",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 6
+    },
+    {
+      "id": "reception-visitor-to-gallery-corridor-entry-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 6
+    },
+    {
+      "id": "reception-visitor-to-gallery-south-entry",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 6
+    },
+    {
+      "id": "reception-visitor-to-gallery-south-entry-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 6
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-threshold",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-threshold-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-threshold",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-threshold-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 8
+    },
+    {
+      "id": "reception-visitor-to-conference-threshold",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 2
+    },
+    {
+      "id": "reception-visitor-to-conference-threshold-reverse",
+      "passed": true,
+      "issues": [],
+      "occupiedBodiesTested": 53,
+      "waypointCount": 2
+    }
+  ]
+}

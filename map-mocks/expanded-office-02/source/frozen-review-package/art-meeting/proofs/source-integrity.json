@@ -1,0 +1,161 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "asset": "chair-north",
+      "test": "original master hash",
+      "passed": true
+    },
+    {
+      "asset": "chair-north",
+      "test": "native visible size",
+      "passed": true
+    },
+    {
+      "asset": "chair-north",
+      "test": "foreground exact source RGBA",
+      "selectedPixels": 535,
+      "passed": true
+    },
+    {
+      "asset": "chair-north",
+      "test": "contact exact source RGBA",
+      "selectedPixels": 96,
+      "passed": true
+    },
+    {
+      "asset": "chair-south",
+      "test": "original master hash",
+      "passed": true
+    },
+    {
+      "asset": "chair-south",
+      "test": "native visible size",
+      "passed": true
+    },
+    {
+      "asset": "chair-south",
+      "test": "foreground exact source RGBA",
+      "selectedPixels": 138,
+      "passed": true
+    },
+    {
+      "asset": "chair-south",
+      "test": "contact exact source RGBA",
+      "selectedPixels": 94,
+      "passed": true
+    },
+    {
+      "asset": "chair-east",
+      "test": "original master hash",
+      "passed": true
+    },
+    {
+      "asset": "chair-east",
+      "test": "native visible size",
+      "passed": true
+    },
+    {
+      "asset": "chair-east",
+      "test": "foreground exact source RGBA",
+      "selectedPixels": 153,
+      "passed": true
+    },
+    {
+      "asset": "chair-east",
+      "test": "contact exact source RGBA",
+      "selectedPixels": 99,
+      "passed": true
+    },
+    {
+      "asset": "chair-west",
+      "test": "original master hash",
+      "passed": true
+    },
+    {
+      "asset": "chair-west",
+      "test": "native visible size",
+      "passed": true
+    },
+    {
+      "asset": "chair-west",
+      "test": "foreground exact source RGBA",
+      "selectedPixels": 148,
+      "passed": true
+    },
+    {
+      "asset": "chair-west",
+      "test": "contact exact source RGBA",
+      "selectedPixels": 74,
+      "passed": true
+    },
+    {
+      "asset": "table-small",
+      "test": "original master hash",
+      "passed": true
+    },
+    {
+      "asset": "table-small",
+      "test": "native visible size",
+      "passed": true
+    },
+    {
+      "asset": "table-small",
+      "test": "contact exact source RGBA",
+      "selectedPixels": 332,
+      "passed": true
+    },
+    {
+      "asset": "table-conference",
+      "test": "original master hash",
+      "passed": true
+    },
+    {
+      "asset": "table-conference",
+      "test": "native visible size",
+      "passed": true
+    },
+    {
+      "asset": "table-conference",
+      "test": "contact exact source RGBA",
+      "selectedPixels": 623,
+      "passed": true
+    },
+    {
+      "asset": "table-small",
+      "test": "side table contact exact source RGBA",
+      "selectedPixels": 153,
+      "passed": true
+    },
+    {
+      "asset": "small-four-cardinal-empty-native",
+      "test": "transparent RGBA and native dimensions",
+      "passed": true
+    },
+    {
+      "asset": "small-four-cardinal-foreground-native",
+      "test": "transparent RGBA and native dimensions",
+      "passed": true
+    },
+    {
+      "asset": "conference-six-empty-native",
+      "test": "transparent RGBA and native dimensions",
+      "passed": true
+    },
+    {
+      "asset": "conference-six-foreground-native",
+      "test": "transparent RGBA and native dimensions",
+      "passed": true
+    },
+    {
+      "asset": "pixel-checks.json",
+      "test": "reported checks pass",
+      "passed": true
+    },
+    {
+      "asset": "route-checks.json",
+      "test": "reported checks pass",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "source": "art-source/avenue-master-03-layout.png",
+  "masterSize": [
+    2004,
+    785
+  ],
+  "nativeSize": [
+    1472,
+    576
+  ],
+  "resampling": "Each of nine regions is downsampled once directly from the original generated master with Lanczos. No region is enlarged. This registers original painted lane shoulders, without repainting or tiling.",
+  "regions": [
+    {
+      "source": [
+        0,
+        0,
+        1032,
+        320
+      ],
+      "destination": [
+        0,
+        0,
+        736,
+        256
+      ],
+      "scale": [
+        0.7131782945736435,
+        0.8
+      ]
+    },
+    {
+      "source": [
+        1032,
+        0,
+        1178,
+        320
+      ],
+      "destination": [
+        736,
+        0,
+        864,
+        256
+      ],
+      "scale": [
+        0.8767123287671232,
+        0.8
+      ]
+    },
+    {
+      "source": [
+        1178,
+        0,
+        2004,
+        320
+      ],
+      "destination": [
+        864,
+        0,
+        1472,
+        256
+      ],
+      "scale": [
+        0.7360774818401937,
+        0.8
+      ]
+    },
+    {
+      "source": [
+        0,
+        320,
+        1032,
+        424
+      ],
+      "destination": [
+        0,
+        256,
+        736,
+        352
+      ],
+      "scale": [
+        0.7131782945736435,
+        0.9230769230769231
+      ]
+    },
+    {
+      "source": [
+        1032,
+        320,
+        1178,
+        424
+      ],
+      "destination": [
+        736,
+        256,
+        864,
+        352
+      ],
+      "scale": [
+        0.8767123287671232,
+        0.9230769230769231
+      ]
+    },
+    {
+      "source": [
+        1178,
+        320,
+        2004,
+        424
+      ],
+      "destination": [
+        864,
+        256,
+        1472,
+        352
+      ],
+      "scale": [
+        0.7360774818401937,
+        0.9230769230769231
+      ]
+    },
+    {
+      "source": [
+        0,
+        424,
+        1032,
+        785
+      ],
+      "destination": [
+        0,
+        352,
+        736,
+        576
+      ],
+      "scale": [
+        0.7131782945736435,
+        0.6204986149584487
+      ]
+    },
+    {
+      "source": [
+        1032,
+        424,
+        1178,
+        785
+      ],
+      "destination": [
+        736,
+        352,
+        864,
+        576
+      ],
+      "scale": [
+        0.8767123287671232,
+        0.6204986149584487
+      ]
+    },
+    {
+      "source": [
+        1178,
+        424,
+        2004,
+        785
+      ],
+      "destination": [
+        864,
+        352,
+        1472,
+        576
+      ],
+      "scale": [
+        0.7360774818401937,
+        0.6204986149584487
+      ]
+    }
+  ],
+  "mainPath": {
+    "registeredOuterWidth": 128,
+    "approximateCentralTileWidthAtNorth": 96,
+    "includes": "Low flush paving shoulders/curbs within the nominal corridor; no vegetation in body route."
+  },
+  "branch": {
+    "centerY": 304,
+    "registeredWidth": 96
+  },
+  "foreground": "Original source pixel extraction restricted to path-facing foliage; no newly generated overlay props."
+}

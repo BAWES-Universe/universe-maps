@@ -1,0 +1,15 @@
+{
+  "status": "not verified",
+  "harness": "qa/index.html",
+  "engine": "Phaser 3.86 Arcade with source-extracted Universe body/depth primitives",
+  "scope": "Prepared native browser harness, separate from passed offline geometry and mask tests.",
+  "blockers": [
+    "Shell executor loopback is isolated from cloud browser; browser connection refused.",
+    "Shell Chromium could not create its process socket; no further launch attempts are part of reproduction.",
+    "Supported cloud desktop terminal route was attempted, but CUA reported ambiguous AT-SPI terminal window identity before any server command executed."
+  ],
+  "nextStep": "Use a working supported cloud desktop terminal to run python qa/server.py and open the local qa/ URL in the cloud browser. Do not report runtime success until physical-route-report.json passes.",
+  "broadcastConfigured": false,
+  "liveMultiplayerTested": false,
+  "deployed": false
+}

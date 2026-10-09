@@ -1,0 +1,82 @@
+{
+  "status": "Static occupied geometry independently reviewed; runtime pending",
+  "native_canvas": [
+    512,
+    384
+  ],
+  "asset_canvas": [
+    96,
+    128
+  ],
+  "source_master": [
+    1086,
+    1448
+  ],
+  "scale": "one premultiplied downsample, unchanged32px avatars",
+  "actual_alpha_bounds_by_threshold": {
+    "1": [
+      13,
+      3,
+      83,
+      123
+    ],
+    "5": [
+      15,
+      15,
+      81,
+      107
+    ],
+    "64": [
+      16,
+      16,
+      80,
+      107
+    ],
+    "128": [
+      16,
+      16,
+      80,
+      106
+    ],
+    "240": [
+      16,
+      17,
+      80,
+      106
+    ]
+  },
+  "alpha_fringe_note": "Generated source contains alpha1..4 traces outside solid silhouettes. Kept separate from meaningful shape; never used for collision or usable furniture size.",
+  "desk_world_rectangles": [
+    [
+      160,
+      128,
+      64,
+      64
+    ],
+    [
+      256,
+      128,
+      64,
+      64
+    ]
+  ],
+  "seated_centers": [
+    [
+      192,
+      192
+    ],
+    [
+      288,
+      192
+    ]
+  ],
+  "actual_back_top_world_y": 193,
+  "planned_back_top_world_y": 191,
+  "deviation_review": "2px lower; independent review found zero changed protected-head pixels and389/544 changed torso-region pixels per avatar",
+  "floor": "Neutral calibration receiver; not finished interior art",
+  "sprite_file": "assets/greg-reference.png",
+  "sprite_sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+  "source_master_sha256": "d1907b72d011a36874f002cd4c64cbacd6154a8f519984a5e706119effe976b4",
+  "native_asset_sha256": "4c9779e08e9ff50d46b67afe668c339145b4ec8992e4ed100b44c4c1fba7280d",
+  "claim_configuration": "Preparedgeometryonly. WAM areasrequired; no liveclaims or owners. See current-source personal-area contract."
+}

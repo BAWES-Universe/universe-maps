@@ -1,0 +1,25 @@
+{
+  "normalizedTextFiles": [
+    "source/assemble_office_v2.py",
+    "source/frozen-review-package/art-meeting/geometry-plan.json",
+    "source/frozen-review-package/art-meeting/source/generation-record.json",
+    "source/frozen-review-package/art-meeting/tools/build_geometry.py",
+    "source/frozen-review-package/art-reception-lounge/asset-manifest.json",
+    "source/frozen-review-package/art-reception-lounge/geometry-plan.json",
+    "source/frozen-review-package/art-reception-lounge/tools/make_geometry.py",
+    "source/frozen-review-package/art-workbench/asset-manifest.json",
+    "source/frozen-review-package/art-workbench/geometry-plan.json",
+    "source/frozen-review-package/art-workbench/proofs/source-integrity.json",
+    "source/frozen-review-package/art-workbench/source/generation-record.json",
+    "source/frozen-review-package/art-workbench/tools/package_assets.py",
+    "source/frozen-review-package/geometry-work/revision-02/build_revision.py",
+    "source/frozen-review-package/geometry-work/revision-02/route-validation.json",
+    "source/frozen-review-package/geometry-work/revision-02/source-coordinate-geometry.json",
+    "source/frozen-review-package/geometry-work/revision-02/verify_geometry.py",
+    "source/frozen-review-package/tools/assemble_office.py",
+    "source/frozen-review-package/tools/assemble_office_v2.py",
+    "source/frozen-review-package/geometry-work/revision-02/verify_routes.cjs"
+  ],
+  "normalization": "Machine-specific prefixes replaced with project-relative provenance. Historical scripts may need original sibling projects; no standalone regeneration claim.",
+  "unchangedBinarySources": true
+}

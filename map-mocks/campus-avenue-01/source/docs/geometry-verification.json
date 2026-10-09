@@ -1,0 +1,49 @@
+{
+  "arrival": true,
+  "arrivalWorld": {
+    "x": 1504,
+    "y": 2912
+  },
+  "northToArrival": true,
+  "leftToJunction": true,
+  "arrivalToSouth": true,
+  "northBoundary": true,
+  "westBoundary": true,
+  "southBoundary": true,
+  "rightBranchAbsent": true,
+  "gardenBlocked": true,
+  "rasterDimensions": {
+    "avenue-base.png": [
+      1472,
+      576
+    ],
+    "avenue-collision-mask.png": [
+      1472,
+      576
+    ],
+    "avenue-foliage-foreground.png": [
+      1472,
+      576
+    ],
+    "avenue-foreground-mask.png": [
+      1472,
+      576
+    ],
+    "avenue-walkable-mask.png": [
+      1472,
+      576
+    ]
+  },
+  "allRastersNative": true,
+  "maskChecks": {
+    "north": true,
+    "west": true,
+    "south": true,
+    "noRightBranch": true,
+    "inversePolarity": true
+  },
+  "browserSmokeTest": {
+    "status": "blocked",
+    "reason": "Chromium launch failed because its process singleton socket operation was not permitted in this execution sandbox. No browser verification is claimed."
+  }
+}

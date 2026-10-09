@@ -1,0 +1,494 @@
+{
+  "status": "Proposed calibration geometry. Not owner-approved artwork and not runtime proof.",
+  "purpose": "Prove two individually usable workstations at native 32 px Woka scale before repeating them into the larger connected seven-team office. This is not the office capacity.",
+  "coordinates": {
+    "units": "native world pixels",
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 512,
+      "height": 384
+    },
+    "usable_module": {
+      "x": 96,
+      "y": 64,
+      "width": 320,
+      "height": 256
+    },
+    "rectangles": "half-open",
+    "avatar_anchor": "sprite center (cx,cy); frame bounds cx-16,cy-16,32,32; tested body cx-8,cy,16,16"
+  },
+  "avatar_source": {
+    "path": "../universe-painted-arrival/runtime-work/greg.png",
+    "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+    "sheet_size": [
+      96,
+      128
+    ],
+    "frame_size": [
+      32,
+      32
+    ],
+    "north_idle_frame_index": 10,
+    "source_frame_rect": {
+      "x": 32,
+      "y": 96,
+      "width": 32,
+      "height": 32
+    },
+    "scale": 1,
+    "resample": false,
+    "presentation": "Two copies of unchanged Greg are labeled scale fixtures; do not describe them as two live multiplayer users."
+  },
+  "camera_and_art": {
+    "projection": "One consistent high-angle orthographic/three-quarter top-down projection, with readable seat/top planes and shallow vertical table fronts. No perspective convergence or diagonal chair facing.",
+    "palette": "Retain the approved lush gold, teal, warm wood, soft lantern lighting, and cohesive material style. This proof uses no facade, monument, planting wall, or enlarged floor medallion.",
+    "desk_top_visible_depth": 48,
+    "desk_front_visible_depth": 12,
+    "desk_foot_depth": 4,
+    "forbidden_shortcuts": [
+      "Do not scale Greg.",
+      "Do not shrink the foreground back to a thin lower strip just to uncover the head.",
+      "Do not move seat anchors to make a mismatched image seem usable.",
+      "Do not count transparent asset padding as visible furniture size.",
+      "Do not change approved geometry during art generation without updating and re-reviewing this manifest."
+    ]
+  },
+  "workstations": [
+    {
+      "id": "left",
+      "desk": {
+        "asset_canvas": {
+          "x": 160,
+          "y": 128,
+          "width": 64,
+          "height": 64
+        },
+        "planned_visible_bounds": {
+          "x": 160,
+          "y": 128,
+          "width": 64,
+          "height": 64
+        },
+        "tabletop": {
+          "x": 160,
+          "y": 128,
+          "width": 64,
+          "height": 48
+        },
+        "front_apron": {
+          "x": 160,
+          "y": 176,
+          "width": 64,
+          "height": 12
+        },
+        "feet_contact_band": {
+          "x": 160,
+          "y": 188,
+          "width": 64,
+          "height": 4
+        },
+        "collision_footprint": {
+          "x": 160,
+          "y": 128,
+          "width": 64,
+          "height": 64
+        },
+        "decoration_limit": "Small work objects within tabletop; no large vase, foliage, or lamp covering the occupant head or task surface."
+      },
+      "chair": {
+        "asset_canvas": {
+          "x": 176,
+          "y": 176,
+          "width": 32,
+          "height": 64
+        },
+        "planned_visible_bounds": {
+          "x": 177,
+          "y": 184,
+          "width": 30,
+          "height": 36
+        },
+        "seat_top_below_player": {
+          "x": 181,
+          "y": 184,
+          "width": 22,
+          "height": 12
+        },
+        "back_above_player_bounds": {
+          "x": 178,
+          "y": 191,
+          "width": 28,
+          "height": 24
+        },
+        "legs_band": {
+          "x": 179,
+          "y": 212,
+          "width": 26,
+          "height": 8
+        },
+        "collision": "Walkable seat allocation; no rectangular chair blocker.",
+        "foreground_note": "Use the actual shaped full back within these bounds, not a blanket rectangle. Back top follows native head/torso boundary."
+      },
+      "occupant": {
+        "center": [
+          192,
+          192
+        ],
+        "facing": "north",
+        "source_frame_index": 10,
+        "sprite_bounds": {
+          "x": 176,
+          "y": 176,
+          "width": 32,
+          "height": 32
+        },
+        "body_bounds": {
+          "x": 184,
+          "y": 192,
+          "width": 16,
+          "height": 16
+        },
+        "protected_head_region": {
+          "x": 176,
+          "y": 176,
+          "width": 32,
+          "height": 14
+        },
+        "seat_claim_patch_candidate": {
+          "x": 176,
+          "y": 192,
+          "width": 32,
+          "height": 32
+        },
+        "claim_state": "Geometry proposal only; validate existing claim contract before implementing."
+      },
+      "approach_center": [
+        192,
+        272
+      ]
+    },
+    {
+      "id": "right",
+      "desk": {
+        "asset_canvas": {
+          "x": 256,
+          "y": 128,
+          "width": 64,
+          "height": 64
+        },
+        "planned_visible_bounds": {
+          "x": 256,
+          "y": 128,
+          "width": 64,
+          "height": 64
+        },
+        "tabletop": {
+          "x": 256,
+          "y": 128,
+          "width": 64,
+          "height": 48
+        },
+        "front_apron": {
+          "x": 256,
+          "y": 176,
+          "width": 64,
+          "height": 12
+        },
+        "feet_contact_band": {
+          "x": 256,
+          "y": 188,
+          "width": 64,
+          "height": 4
+        },
+        "collision_footprint": {
+          "x": 256,
+          "y": 128,
+          "width": 64,
+          "height": 64
+        },
+        "decoration_limit": "Small work objects within tabletop; no large vase, foliage, or lamp covering the occupant head or task surface."
+      },
+      "chair": {
+        "asset_canvas": {
+          "x": 272,
+          "y": 176,
+          "width": 32,
+          "height": 64
+        },
+        "planned_visible_bounds": {
+          "x": 273,
+          "y": 184,
+          "width": 30,
+          "height": 36
+        },
+        "seat_top_below_player": {
+          "x": 277,
+          "y": 184,
+          "width": 22,
+          "height": 12
+        },
+        "back_above_player_bounds": {
+          "x": 274,
+          "y": 191,
+          "width": 28,
+          "height": 24
+        },
+        "legs_band": {
+          "x": 275,
+          "y": 212,
+          "width": 26,
+          "height": 8
+        },
+        "collision": "Walkable seat allocation; no rectangular chair blocker.",
+        "foreground_note": "Use the actual shaped full back within these bounds, not a blanket rectangle. Back top follows native head/torso boundary."
+      },
+      "occupant": {
+        "center": [
+          288,
+          192
+        ],
+        "facing": "north",
+        "source_frame_index": 10,
+        "sprite_bounds": {
+          "x": 272,
+          "y": 176,
+          "width": 32,
+          "height": 32
+        },
+        "body_bounds": {
+          "x": 280,
+          "y": 192,
+          "width": 16,
+          "height": 16
+        },
+        "protected_head_region": {
+          "x": 272,
+          "y": 176,
+          "width": 32,
+          "height": 14
+        },
+        "seat_claim_patch_candidate": {
+          "x": 272,
+          "y": 192,
+          "width": 32,
+          "height": 32
+        },
+        "claim_state": "Geometry proposal only; validate existing claim contract before implementing."
+      },
+      "approach_center": [
+        288,
+        272
+      ]
+    }
+  ],
+  "walkable_lanes": [
+    {
+      "id": "north_bypass",
+      "rect": {
+        "x": 96,
+        "y": 64,
+        "width": 320,
+        "height": 64
+      }
+    },
+    {
+      "id": "west_bypass",
+      "rect": {
+        "x": 96,
+        "y": 128,
+        "width": 64,
+        "height": 160
+      }
+    },
+    {
+      "id": "east_bypass",
+      "rect": {
+        "x": 320,
+        "y": 128,
+        "width": 64,
+        "height": 160
+      }
+    },
+    {
+      "id": "behind_occupied_chairs",
+      "rect": {
+        "x": 160,
+        "y": 224,
+        "width": 160,
+        "height": 64
+      }
+    },
+    {
+      "id": "desk_separation_not_primary_aisle",
+      "rect": {
+        "x": 224,
+        "y": 128,
+        "width": 32,
+        "height": 96
+      }
+    }
+  ],
+  "occupied_proof": {
+    "centers": [
+      [
+        192,
+        192
+      ],
+      [
+        288,
+        192
+      ]
+    ],
+    "facing": "north",
+    "frame_index": 10,
+    "label": "Two native-size Greg scale fixtures",
+    "native_output": [
+      512,
+      384
+    ],
+    "diagnostic_output": "Separate 2x nearest-neighbor view; the 1x proof remains the scale authority."
+  },
+  "route_tests": [
+    {
+      "id": "enter_left_seat",
+      "centers": [
+        [
+          128,
+          272
+        ],
+        [
+          192,
+          272
+        ],
+        [
+          192,
+          192
+        ]
+      ],
+      "other_seat_occupied": true
+    },
+    {
+      "id": "exit_left_seat",
+      "centers": [
+        [
+          192,
+          192
+        ],
+        [
+          192,
+          272
+        ],
+        [
+          128,
+          272
+        ]
+      ],
+      "other_seat_occupied": true
+    },
+    {
+      "id": "enter_right_seat",
+      "centers": [
+        [
+          352,
+          272
+        ],
+        [
+          288,
+          272
+        ],
+        [
+          288,
+          192
+        ]
+      ],
+      "other_seat_occupied": true
+    },
+    {
+      "id": "exit_right_seat",
+      "centers": [
+        [
+          288,
+          192
+        ],
+        [
+          288,
+          272
+        ],
+        [
+          352,
+          272
+        ]
+      ],
+      "other_seat_occupied": true
+    },
+    {
+      "id": "walk_behind_both_occupied",
+      "centers": [
+        [
+          128,
+          272
+        ],
+        [
+          352,
+          272
+        ]
+      ],
+      "both_seats_occupied": true
+    },
+    {
+      "id": "walk_around_module",
+      "centers": [
+        [
+          128,
+          272
+        ],
+        [
+          128,
+          96
+        ],
+        [
+          352,
+          96
+        ],
+        [
+          352,
+          272
+        ]
+      ],
+      "both_seats_occupied": true
+    },
+    {
+      "id": "north_contact_stop",
+      "instructions": "Approach each seat from south and continue north; the unchanged 16x16 body should stop at desk south collision edge y192, coinciding with the specified seat center. Verify exact engine coordinates rather than infer from a screenshot."
+    }
+  ],
+  "registration_requirements": [
+    "For every delivered PNG, record asset origin, canvas dimensions, measured nontransparent bounding box, contact-shadow bounds, collision footprint, seat center and facing, and foreground-mask bounds.",
+    "Return separate full chair below-player and real front-facing chair-back above-player art. At north-facing occupied anchor, preserve Greg local rows 0..13 and show the substantial back over torso from local row 15 downward. Check alpha pixels, not a rectangular guess.",
+    "The planned chair-back top y191 is center minus 1, reconciled against the actual native north frame. The exact contour can vary inside the visible bounds, but the top must not invade protected head pixels.",
+    "The two desks must remain separate visible 64x64 workstations with their own usable surface and occupant, not one decorative bank labeled as two desks.",
+    "Existing claim-feature schema and allowed footprint sizes must be checked by the runtime owner. Candidate seat patches in this file describe geometry only; do not invent a new claim API or report successful claimability."
+  ],
+  "acceptance": [
+    "Both unchanged 32px avatars visibly occupy their own chairs and face their own desks at 1x.",
+    "Full meaningful chair backs cover torso without covering protected head/hat pixels at the final seated anchors.",
+    "Seat-to-table contact reads naturally; neither torso nor feet appear planted on the tabletop or hanging in a decorative facade.",
+    "Collision matches actual painted desk placement, and all listed routes run with the other occupied fixture visible.",
+    "The actual source-coordinate overlay matches painted extents. A blueprint that does not match the generated asset fails.",
+    "Owner review of this bounded furniture proof precedes full-campus artwork regeneration."
+  ],
+  "deferred_variants": {
+    "instruction": "Do not cram these into this proof. After the two proper desks pass, make separate N/S/E/W chair/table, sofa and reception fixtures using the same calibrated camera and native scale.",
+    "team_context": [
+      "ops",
+      "recruitment",
+      "sales",
+      "tech",
+      "researchers",
+      "design",
+      "marketing"
+    ],
+    "headcounts": "Not specified; no total inferred."
+  }
+}

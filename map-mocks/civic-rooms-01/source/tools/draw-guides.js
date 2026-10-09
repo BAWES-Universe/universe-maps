@@ -1,0 +1,3 @@
+const fs=require('fs');const sharp=require('sharp');const root='../universe-civic-rooms';
+const chair=`<svg xmlns="http://www.w3.org/2000/svg" width="640" height="768" viewBox="0 0 40 48"><rect width="40" height="48" fill="#eee7d5"/><rect x="5" y="6" width="30" height="36" fill="none" stroke="#9e733d" stroke-width=".2"/><path d="M9 8 Q20 4 31 8L31 23L9 23Z" fill="#317576" stroke="#8e6737" stroke-width="1"/><path d="M8 18Q20 14 32 18L34 33Q34 38 28 39L12 39Q6 38 6 33Z" fill="#15484d" stroke="#b88b42" stroke-width="1"/><path d="M8 38V42H11V39M29 39V42H32V37" stroke="#926130" stroke-width="1" fill="none"/></svg>`;
+fs.writeFileSync(root+'/art-source/chair-geometry-guide.svg',chair);sharp(Buffer.from(chair)).png().toFile(root+'/art-source/chair-geometry-guide.png');

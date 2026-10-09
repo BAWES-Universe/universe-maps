@@ -1,0 +1,173 @@
+{
+  "reception": {
+    "source": "source/reception-master.png",
+    "source_size": [
+      1619,
+      971
+    ],
+    "source_sha256": "3319b7611fd813f523f1190d6095b7c49ac2890956efaa787e8093f0d20bd35d",
+    "meaningful_source_crop_xyxy": [
+      93,
+      167,
+      1527,
+      805
+    ],
+    "native_asset": "native/reception.png",
+    "canvas": [
+      160,
+      96
+    ],
+    "target_visible_size": [
+      128,
+      64
+    ],
+    "native_alpha_bounds_xyxy": {
+      "1": [
+        16,
+        16,
+        144,
+        80
+      ],
+      "5": [
+        16,
+        16,
+        144,
+        80
+      ],
+      "64": [
+        16,
+        16,
+        144,
+        80
+      ],
+      "128": [
+        16,
+        16,
+        144,
+        80
+      ],
+      "240": [
+        17,
+        17,
+        143,
+        79
+      ]
+    },
+    "native_sha256": "40629a987f3b29ad5b488cff1c8bef5627c01aaedb220f092725c99d91582296",
+    "transform": "Source alpha>=5 bounding box cropped then exactly one premultiplied Lanczos downsample to target object size; placed at (16,16); final alpha<=4 traces zeroed. No painted pixels synthesized, no avatar scaling."
+  },
+  "sofa": {
+    "source": "source/sofa-master.png",
+    "source_size": [
+      1619,
+      971
+    ],
+    "source_sha256": "cde8facd26f1ae8b825a40a9a215bbeb7597e5ce60596ec3ec407a60981d9e19",
+    "meaningful_source_crop_xyxy": [
+      155,
+      168,
+      1465,
+      793
+    ],
+    "native_asset": "native/sofa.png",
+    "canvas": [
+      160,
+      96
+    ],
+    "target_visible_size": [
+      128,
+      64
+    ],
+    "native_alpha_bounds_xyxy": {
+      "1": [
+        16,
+        16,
+        144,
+        80
+      ],
+      "5": [
+        16,
+        16,
+        144,
+        80
+      ],
+      "64": [
+        16,
+        16,
+        144,
+        80
+      ],
+      "128": [
+        16,
+        16,
+        144,
+        80
+      ],
+      "240": [
+        17,
+        17,
+        143,
+        80
+      ]
+    },
+    "native_sha256": "218fa7c41a85791f5746a1a3420cf4de70960ca0227863b47da1edd1a7c83b1e",
+    "transform": "Source alpha>=5 bounding box cropped then exactly one premultiplied Lanczos downsample to target object size; placed at (16,16); final alpha<=4 traces zeroed. No painted pixels synthesized, no avatar scaling."
+  },
+  "coffee-table": {
+    "source": "source/coffee-table-master.png",
+    "source_size": [
+      1536,
+      1024
+    ],
+    "source_sha256": "db31e8cd13fa7f276a0d1f77e896a78751d14107539cae459c035028edff5844",
+    "meaningful_source_crop_xyxy": [
+      209,
+      216,
+      1330,
+      784
+    ],
+    "native_asset": "native/coffee-table.png",
+    "canvas": [
+      96,
+      64
+    ],
+    "target_visible_size": [
+      64,
+      32
+    ],
+    "native_alpha_bounds_xyxy": {
+      "1": [
+        16,
+        16,
+        80,
+        48
+      ],
+      "5": [
+        16,
+        16,
+        80,
+        48
+      ],
+      "64": [
+        16,
+        16,
+        80,
+        48
+      ],
+      "128": [
+        16,
+        16,
+        80,
+        48
+      ],
+      "240": [
+        16,
+        17,
+        80,
+        48
+      ]
+    },
+    "native_sha256": "3d10d8fdc3e2cbce00174a5483d22212ab69217d016ddbb2c9beebbfc9fbe924",
+    "transform": "Source alpha>=5 bounding box cropped then exactly one premultiplied Lanczos downsample to target object size; placed at (16,16); final alpha<=4 traces zeroed. No painted pixels synthesized, no avatar scaling."
+  }
+}

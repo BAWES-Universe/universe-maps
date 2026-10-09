@@ -1,0 +1,224 @@
+{
+  "compressionlevel": -1,
+  "height": 18,
+  "width": 46,
+  "infinite": false,
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "tileheight": 32,
+  "tilewidth": 32,
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "nextlayerid": 5,
+  "nextobjectid": 21,
+  "tilesets": [],
+  "properties": [
+    {
+      "name": "worldOriginX",
+      "type": "int",
+      "value": 704
+    },
+    {
+      "name": "worldOriginY",
+      "type": "int",
+      "value": 2480
+    },
+    {
+      "name": "sourceModule",
+      "type": "string",
+      "value": "magical-universe-arrival-avenue"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "avenue-base",
+      "type": "imagelayer",
+      "x": 0,
+      "y": 0,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true,
+      "image": "layers/avenue-base.png",
+      "imagewidth": 1472,
+      "imageheight": 576
+    },
+    {
+      "id": 2,
+      "name": "garden-collision",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "opacity": 1,
+      "visible": false,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 1,
+          "name": "northwest-garden",
+          "type": "collision",
+          "x": 0,
+          "y": 0,
+          "width": 736,
+          "height": 256,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "collides",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "southwest-garden",
+          "type": "collision",
+          "x": 0,
+          "y": 352,
+          "width": 736,
+          "height": 224,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "collides",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "east-garden",
+          "type": "collision",
+          "x": 864,
+          "y": 0,
+          "width": 608,
+          "height": 576,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "collides",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "receivers-and-arrival",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "opacity": 1,
+      "visible": false,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 10,
+          "name": "north-receiver",
+          "type": "receiver",
+          "x": 800,
+          "y": 0,
+          "point": true,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "clearWidth",
+              "type": "int",
+              "value": 128
+            },
+            {
+              "name": "connectsTo",
+              "type": "string",
+              "value": "courtyard-south"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "west-receiver",
+          "type": "receiver",
+          "x": 0,
+          "y": 304,
+          "point": true,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "clearWidth",
+              "type": "int",
+              "value": 96
+            },
+            {
+              "name": "connectsTo",
+              "type": "string",
+              "value": "civic-stage-cloister"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "south-receiver",
+          "type": "receiver",
+          "x": 800,
+          "y": 576,
+          "point": true,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "clearWidth",
+              "type": "int",
+              "value": 128
+            },
+            {
+              "name": "connectsTo",
+              "type": "string",
+              "value": "preserved-gate-portal-approach"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "town-arrival",
+          "type": "start",
+          "x": 800,
+          "y": 432,
+          "point": true,
+          "rotation": 0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "avenue-foliage-foreground",
+      "type": "imagelayer",
+      "x": 0,
+      "y": 0,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true,
+      "image": "layers/avenue-foliage-foreground.png",
+      "imagewidth": 1472,
+      "imageheight": 576,
+      "properties": [
+        {
+          "name": "aboveNativeAvatar",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    }
+  ]
+}

@@ -74,7 +74,7 @@ for item in catalog['templates']:
   if not p.is_file() or digest(p)!=expected:fail(f'{d.name}: checksum mismatch: {name}')
  for p in d.rglob('*'):
   if p.is_symlink():fail(f'{d.name}: symlink is not self-contained: {p.name}')
-  if p.is_file() and p.suffix in ['.py','.js','.mjs','.json','.tmj','.md','.txt','.wam']:
+  if p.is_file() and p.suffix in ['.py','.js','.mjs','.cjs','.html','.svg','.json','.tmj','.md','.txt','.wam']:
    text=p.read_text(errors='replace')
    for token in ['/workspace/','libfile_','Bearer ','PRIVATE KEY-----']:
     if token in text:fail(f'{d.name}: private/environment-specific marker in {p.relative_to(d)}: {token}')

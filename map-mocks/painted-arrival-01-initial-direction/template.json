@@ -1,0 +1,30 @@
+{
+  "id": "painted-arrival-01-initial-direction",
+  "title": "Painted arrival \u00b7 initial direction 01",
+  "kind": "visual-proposal",
+  "status": "unaccepted-painted-art-experiment",
+  "catalogReady": false,
+  "playable": false,
+  "map": null,
+  "screenshot": "screenshot.png",
+  "screenshotDescription": "Exact delivered 1024 \u00d7 1024 painted still with the unchanged 32px avatar for scale; not a gameplay screenshot.",
+  "source": "Frozen initial painted-direction snapshot, 2026-10-09; original 1254 \u00d7 1254 generated master and exact generation prompt",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {},
+  "sourceArtifactSha256": {
+    "source/master-1254.png": "ba1ad7c5b8ad12259ea247a14550b58691754bd24a9427d9d09bfbe01258e8f7",
+    "source/generation-prompt.txt": "4a598c58635712f723a6bd9288087e73093dcc68a59917dd820a48323ca9269e",
+    "screenshot.png": "68fab973391587aac2f920cb2226cd433f72f0ce97d42d545e9ada0623ad3580"
+  },
+  "silentAreas": {},
+  "dailyWorkChairs": 4,
+  "knownLimitations": [
+    "The layout and palette were liked, but the painted perspective and furniture usability were rejected as the main map direction on 2026-10-09. Preserve this as an unaccepted art experiment; any technical route evidence does not imply visual approval.",
+    "The four-chair footprint is historical and is not the current office brief. A larger interior with seven team clusters and claimable desk footprints was requested afterward; that later direction is not implemented here.",
+    "Art direction only: no TMJ, validated collision, independent final layers, roof behavior, runtime walkthrough, animation or audio claim.",
+    "The original generation prompt asked for six work positions; it is preserved as provenance. This historical painting has four daily work chairs, separate from meeting-room seating.",
+    "The initial doorway/glass/threshold remains an unresolved visual and gameplay concern. A later correction must be archived as a separate snapshot, never overwrite this delivered still.",
+    "Active ground/object extraction passes and runtime/audio work are not part of this frozen art snapshot and are excluded."
+  ],
+  "archiveValidation": "Source/preview/prompt hashes checked; source reduced once and avatar composition reproduces the delivered PNG exactly with Pillow 12.3.0."
+}

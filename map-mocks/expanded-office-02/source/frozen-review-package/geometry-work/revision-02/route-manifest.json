@@ -1,0 +1,1588 @@
+{
+  "format": "studenthub-route-manifest-v2",
+  "coordinateSystem": {
+    "units": "native world pixels",
+    "gridSize": 16,
+    "rectangleConvention": "half-open",
+    "origin": "top-left of main StudentHub shell",
+    "mapEnvelope": {
+      "x": 0,
+      "y": 0,
+      "width": 2432,
+      "height": 1344
+    },
+    "mainShell": {
+      "x": 0,
+      "y": 0,
+      "width": 1984,
+      "height": 1344
+    },
+    "avatarFrame": {
+      "x": -16,
+      "y": -16,
+      "width": 32,
+      "height": 32
+    },
+    "avatarBody": {
+      "x": -8,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "avatarScale": 1,
+    "artAndAvatarNativeScale": 32,
+    "gridPurpose": "16px TMJ cells preserve exact workbench/body collision; native32px art and Wokas are unchanged"
+  },
+  "status": "offline draft; excludes revised receiver art-obstacle masks",
+  "routes": [
+    {
+      "id": "entrance-to-studenthub-operations-workbench-north-1",
+      "targetStationId": "studenthub-operations-workbench-north-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 368
+        },
+        {
+          "x": 160,
+          "y": 368
+        },
+        {
+          "x": 160,
+          "y": 192
+        },
+        {
+          "x": 208,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-operations-workbench-north-2",
+      "targetStationId": "studenthub-operations-workbench-north-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 368
+        },
+        {
+          "x": 320,
+          "y": 368
+        },
+        {
+          "x": 320,
+          "y": 192
+        },
+        {
+          "x": 272,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-operations-workbench-south-1",
+      "targetStationId": "studenthub-operations-workbench-south-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 368
+        },
+        {
+          "x": 208,
+          "y": 368
+        },
+        {
+          "x": 208,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-operations-workbench-south-2",
+      "targetStationId": "studenthub-operations-workbench-south-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 368
+        },
+        {
+          "x": 272,
+          "y": 368
+        },
+        {
+          "x": 272,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "studenthub-operations-workbench-all-seats-occupied-circulation",
+      "purpose": "through bay opening and around bench while all four seat bodies are occupied",
+      "points": [
+        {
+          "x": 240,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 368
+        },
+        {
+          "x": 160,
+          "y": 368
+        },
+        {
+          "x": 160,
+          "y": 128
+        },
+        {
+          "x": 320,
+          "y": 128
+        },
+        {
+          "x": 320,
+          "y": 368
+        },
+        {
+          "x": 160,
+          "y": 368
+        },
+        {
+          "x": 240,
+          "y": 368
+        },
+        {
+          "x": 240,
+          "y": 576
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-recruitment-workbench-north-1",
+      "targetStationId": "studenthub-recruitment-workbench-north-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 368
+        },
+        {
+          "x": 640,
+          "y": 368
+        },
+        {
+          "x": 640,
+          "y": 192
+        },
+        {
+          "x": 688,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-recruitment-workbench-north-2",
+      "targetStationId": "studenthub-recruitment-workbench-north-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 368
+        },
+        {
+          "x": 800,
+          "y": 368
+        },
+        {
+          "x": 800,
+          "y": 192
+        },
+        {
+          "x": 752,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-recruitment-workbench-south-1",
+      "targetStationId": "studenthub-recruitment-workbench-south-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 368
+        },
+        {
+          "x": 688,
+          "y": 368
+        },
+        {
+          "x": 688,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-recruitment-workbench-south-2",
+      "targetStationId": "studenthub-recruitment-workbench-south-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 368
+        },
+        {
+          "x": 752,
+          "y": 368
+        },
+        {
+          "x": 752,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "studenthub-recruitment-workbench-all-seats-occupied-circulation",
+      "purpose": "through bay opening and around bench while all four seat bodies are occupied",
+      "points": [
+        {
+          "x": 720,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 368
+        },
+        {
+          "x": 640,
+          "y": 368
+        },
+        {
+          "x": 640,
+          "y": 128
+        },
+        {
+          "x": 800,
+          "y": 128
+        },
+        {
+          "x": 800,
+          "y": 368
+        },
+        {
+          "x": 640,
+          "y": 368
+        },
+        {
+          "x": 720,
+          "y": 368
+        },
+        {
+          "x": 720,
+          "y": 576
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-sales-workbench-north-1",
+      "targetStationId": "studenthub-sales-workbench-north-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 368
+        },
+        {
+          "x": 1152,
+          "y": 368
+        },
+        {
+          "x": 1152,
+          "y": 192
+        },
+        {
+          "x": 1200,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-sales-workbench-north-2",
+      "targetStationId": "studenthub-sales-workbench-north-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 368
+        },
+        {
+          "x": 1312,
+          "y": 368
+        },
+        {
+          "x": 1312,
+          "y": 192
+        },
+        {
+          "x": 1264,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-sales-workbench-south-1",
+      "targetStationId": "studenthub-sales-workbench-south-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 368
+        },
+        {
+          "x": 1200,
+          "y": 368
+        },
+        {
+          "x": 1200,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-sales-workbench-south-2",
+      "targetStationId": "studenthub-sales-workbench-south-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 368
+        },
+        {
+          "x": 1264,
+          "y": 368
+        },
+        {
+          "x": 1264,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "studenthub-sales-workbench-all-seats-occupied-circulation",
+      "purpose": "through bay opening and around bench while all four seat bodies are occupied",
+      "points": [
+        {
+          "x": 1232,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 368
+        },
+        {
+          "x": 1152,
+          "y": 368
+        },
+        {
+          "x": 1152,
+          "y": 128
+        },
+        {
+          "x": 1312,
+          "y": 128
+        },
+        {
+          "x": 1312,
+          "y": 368
+        },
+        {
+          "x": 1152,
+          "y": 368
+        },
+        {
+          "x": 1232,
+          "y": 368
+        },
+        {
+          "x": 1232,
+          "y": 576
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-tech-workbench-north-1",
+      "targetStationId": "studenthub-tech-workbench-north-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 1712,
+          "y": 576
+        },
+        {
+          "x": 1712,
+          "y": 368
+        },
+        {
+          "x": 1632,
+          "y": 368
+        },
+        {
+          "x": 1632,
+          "y": 192
+        },
+        {
+          "x": 1680,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-tech-workbench-north-2",
+      "targetStationId": "studenthub-tech-workbench-north-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 1712,
+          "y": 576
+        },
+        {
+          "x": 1712,
+          "y": 368
+        },
+        {
+          "x": 1792,
+          "y": 368
+        },
+        {
+          "x": 1792,
+          "y": 192
+        },
+        {
+          "x": 1744,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-tech-workbench-south-1",
+      "targetStationId": "studenthub-tech-workbench-south-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 1712,
+          "y": 576
+        },
+        {
+          "x": 1712,
+          "y": 368
+        },
+        {
+          "x": 1680,
+          "y": 368
+        },
+        {
+          "x": 1680,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-tech-workbench-south-2",
+      "targetStationId": "studenthub-tech-workbench-south-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 1712,
+          "y": 576
+        },
+        {
+          "x": 1712,
+          "y": 368
+        },
+        {
+          "x": 1744,
+          "y": 368
+        },
+        {
+          "x": 1744,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "studenthub-tech-workbench-all-seats-occupied-circulation",
+      "purpose": "through bay opening and around bench while all four seat bodies are occupied",
+      "points": [
+        {
+          "x": 1712,
+          "y": 576
+        },
+        {
+          "x": 1712,
+          "y": 368
+        },
+        {
+          "x": 1632,
+          "y": 368
+        },
+        {
+          "x": 1632,
+          "y": 128
+        },
+        {
+          "x": 1792,
+          "y": 128
+        },
+        {
+          "x": 1792,
+          "y": 368
+        },
+        {
+          "x": 1632,
+          "y": 368
+        },
+        {
+          "x": 1712,
+          "y": 368
+        },
+        {
+          "x": 1712,
+          "y": 576
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-design-media-workbench-north-1",
+      "targetStationId": "studenthub-design-media-workbench-north-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 768
+        },
+        {
+          "x": 160,
+          "y": 768
+        },
+        {
+          "x": 160,
+          "y": 832
+        },
+        {
+          "x": 208,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-design-media-workbench-north-2",
+      "targetStationId": "studenthub-design-media-workbench-north-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 768
+        },
+        {
+          "x": 320,
+          "y": 768
+        },
+        {
+          "x": 320,
+          "y": 832
+        },
+        {
+          "x": 272,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-design-media-workbench-south-1",
+      "targetStationId": "studenthub-design-media-workbench-south-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 768
+        },
+        {
+          "x": 160,
+          "y": 768
+        },
+        {
+          "x": 160,
+          "y": 1008
+        },
+        {
+          "x": 208,
+          "y": 1008
+        },
+        {
+          "x": 208,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-design-media-workbench-south-2",
+      "targetStationId": "studenthub-design-media-workbench-south-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 768
+        },
+        {
+          "x": 320,
+          "y": 768
+        },
+        {
+          "x": 320,
+          "y": 1008
+        },
+        {
+          "x": 272,
+          "y": 1008
+        },
+        {
+          "x": 272,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "studenthub-design-media-workbench-all-seats-occupied-circulation",
+      "purpose": "through bay opening and around bench while all four seat bodies are occupied",
+      "points": [
+        {
+          "x": 240,
+          "y": 576
+        },
+        {
+          "x": 240,
+          "y": 768
+        },
+        {
+          "x": 160,
+          "y": 768
+        },
+        {
+          "x": 320,
+          "y": 768
+        },
+        {
+          "x": 320,
+          "y": 1008
+        },
+        {
+          "x": 160,
+          "y": 1008
+        },
+        {
+          "x": 160,
+          "y": 768
+        },
+        {
+          "x": 240,
+          "y": 768
+        },
+        {
+          "x": 240,
+          "y": 576
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-marketing-workbench-north-1",
+      "targetStationId": "studenthub-marketing-workbench-north-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 768
+        },
+        {
+          "x": 640,
+          "y": 768
+        },
+        {
+          "x": 640,
+          "y": 832
+        },
+        {
+          "x": 688,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-marketing-workbench-north-2",
+      "targetStationId": "studenthub-marketing-workbench-north-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 768
+        },
+        {
+          "x": 800,
+          "y": 768
+        },
+        {
+          "x": 800,
+          "y": 832
+        },
+        {
+          "x": 752,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-marketing-workbench-south-1",
+      "targetStationId": "studenthub-marketing-workbench-south-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 768
+        },
+        {
+          "x": 640,
+          "y": 768
+        },
+        {
+          "x": 640,
+          "y": 1008
+        },
+        {
+          "x": 688,
+          "y": 1008
+        },
+        {
+          "x": 688,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-marketing-workbench-south-2",
+      "targetStationId": "studenthub-marketing-workbench-south-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 768
+        },
+        {
+          "x": 800,
+          "y": 768
+        },
+        {
+          "x": 800,
+          "y": 1008
+        },
+        {
+          "x": 752,
+          "y": 1008
+        },
+        {
+          "x": 752,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "studenthub-marketing-workbench-all-seats-occupied-circulation",
+      "purpose": "through bay opening and around bench while all four seat bodies are occupied",
+      "points": [
+        {
+          "x": 720,
+          "y": 576
+        },
+        {
+          "x": 720,
+          "y": 768
+        },
+        {
+          "x": 640,
+          "y": 768
+        },
+        {
+          "x": 800,
+          "y": 768
+        },
+        {
+          "x": 800,
+          "y": 1008
+        },
+        {
+          "x": 640,
+          "y": 1008
+        },
+        {
+          "x": 640,
+          "y": 768
+        },
+        {
+          "x": 720,
+          "y": 768
+        },
+        {
+          "x": 720,
+          "y": 576
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-research-workbench-north-1",
+      "targetStationId": "studenthub-research-workbench-north-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 768
+        },
+        {
+          "x": 1152,
+          "y": 768
+        },
+        {
+          "x": 1152,
+          "y": 832
+        },
+        {
+          "x": 1200,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-research-workbench-north-2",
+      "targetStationId": "studenthub-research-workbench-north-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 768
+        },
+        {
+          "x": 1312,
+          "y": 768
+        },
+        {
+          "x": 1312,
+          "y": 832
+        },
+        {
+          "x": 1264,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-research-workbench-south-1",
+      "targetStationId": "studenthub-research-workbench-south-1",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 768
+        },
+        {
+          "x": 1152,
+          "y": 768
+        },
+        {
+          "x": 1152,
+          "y": 1008
+        },
+        {
+          "x": 1200,
+          "y": 1008
+        },
+        {
+          "x": 1200,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-studenthub-research-workbench-south-2",
+      "targetStationId": "studenthub-research-workbench-south-2",
+      "purpose": "through bay opening to own seat with the other three bench seats occupied",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 768
+        },
+        {
+          "x": 1312,
+          "y": 768
+        },
+        {
+          "x": 1312,
+          "y": 1008
+        },
+        {
+          "x": 1264,
+          "y": 1008
+        },
+        {
+          "x": 1264,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "studenthub-research-workbench-all-seats-occupied-circulation",
+      "purpose": "through bay opening and around bench while all four seat bodies are occupied",
+      "points": [
+        {
+          "x": 1232,
+          "y": 576
+        },
+        {
+          "x": 1232,
+          "y": 768
+        },
+        {
+          "x": 1152,
+          "y": 768
+        },
+        {
+          "x": 1312,
+          "y": 768
+        },
+        {
+          "x": 1312,
+          "y": 1008
+        },
+        {
+          "x": 1152,
+          "y": 1008
+        },
+        {
+          "x": 1152,
+          "y": 768
+        },
+        {
+          "x": 1232,
+          "y": 768
+        },
+        {
+          "x": 1232,
+          "y": 576
+        }
+      ],
+      "alsoTestReverse": true,
+      "avoidOtherClaimPlots": true,
+      "alsoTestOtherSeatsOccupied": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-meeting-a",
+      "purpose": "Entrance to Quiet meeting A threshold; furnishing pending",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 1104
+        },
+        {
+          "x": 2064,
+          "y": 1104
+        },
+        {
+          "x": 2064,
+          "y": 584
+        },
+        {
+          "x": 2160,
+          "y": 584
+        }
+      ],
+      "alsoTestReverse": true,
+      "targetReservation": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-meeting-b",
+      "purpose": "Entrance to Quiet meeting B threshold; furnishing pending",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 1104
+        },
+        {
+          "x": 2064,
+          "y": 1104
+        },
+        {
+          "x": 2064,
+          "y": 808
+        },
+        {
+          "x": 2160,
+          "y": 808
+        }
+      ],
+      "alsoTestReverse": true,
+      "targetReservation": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-meeting-conference",
+      "purpose": "Entrance to Conference threshold; furnishing pending",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 1104
+        },
+        {
+          "x": 2064,
+          "y": 1104
+        },
+        {
+          "x": 2064,
+          "y": 1128
+        },
+        {
+          "x": 2160,
+          "y": 1128
+        }
+      ],
+      "alsoTestReverse": true,
+      "targetReservation": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "visitor-entrance-to-main",
+      "purpose": "Public visitor gallery connection without crossing department plots",
+      "points": [
+        {
+          "x": 2064,
+          "y": 1312
+        },
+        {
+          "x": 2064,
+          "y": 1104
+        },
+        {
+          "x": 992,
+          "y": 1104
+        },
+        {
+          "x": 992,
+          "y": 1312
+        }
+      ],
+      "alsoTestReverse": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "cross-spine-west-to-east",
+      "purpose": "Unobstructed central cross-spine",
+      "points": [
+        {
+          "x": 64,
+          "y": 576
+        },
+        {
+          "x": 1920,
+          "y": 576
+        }
+      ],
+      "alsoTestReverse": true,
+      "receiverObstacleMasksIncluded": false
+    },
+    {
+      "id": "entrance-to-cross-spine",
+      "purpose": "Unobstructed 128px entrance spine",
+      "points": [
+        {
+          "x": 992,
+          "y": 1312
+        },
+        {
+          "x": 992,
+          "y": 576
+        }
+      ],
+      "alsoTestReverse": true,
+      "receiverObstacleMasksIncluded": false
+    }
+  ]
+}

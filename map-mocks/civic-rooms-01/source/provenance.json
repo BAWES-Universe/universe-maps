@@ -1,0 +1,44 @@
+{
+  "generated": [
+    {
+      "file": "art-source/civic-architecture-master.png",
+      "tool": "built-in image_gen.imagegen",
+      "prompt": "art-source/ARCHITECTURE-PROMPT.txt",
+      "guide": "art-source/architecture-geometry-guide.svg"
+    },
+    {
+      "file": "art-source/podium-master.png",
+      "tool": "built-in image_gen.imagegen",
+      "prompt": "art-source/PODIUM-PROMPT.txt",
+      "guide": "art-source/podium-geometry-guide.svg"
+    }
+  ],
+  "reusedOriginalAssets": [
+    {
+      "local": "assets/student-station-native.png",
+      "source": "../universe-native-team-fixture/art-source/single-station-native.png",
+      "sha256": "4c9779e08e9ff50d46b67afe668c339145b4ec8992e4ed100b44c4c1fba7280d",
+      "unchanged": true
+    },
+    {
+      "local": "assets/greg.png",
+      "source": "../universe-native-team-fixture/assets/greg-reference.png",
+      "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+      "unchanged": true
+    },
+    {
+      "local": "assets/chair-north-native.png",
+      "source": "../universe-expanded-office/art-meeting/assets/chair-north-native.png",
+      "sha256": "395e24ee7246bad853e98295bf0e68edb8a4dffe95ff4a0a485b1d2f7c533094",
+      "unchanged": true
+    },
+    {
+      "local": "assets/chair-north-foreground-native.png",
+      "source": "../universe-expanded-office/art-meeting/assets/chair-north-foreground-native.png",
+      "sha256": "7afa1390f432e292992777c2957b2dd747e17637135667591130c58f835c2848",
+      "unchanged": true
+    }
+  ],
+  "referenceArt": "No third-party conference-map art copied. Source study informed layering mechanics only.",
+  "nativeRegistration": "Full-canvas downsample in browser Canvas renderer at stated native dimensions; no Python image editing or source repainting. Editable mask paths select original source pixels."
+}

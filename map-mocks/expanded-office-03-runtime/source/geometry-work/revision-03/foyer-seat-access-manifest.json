@@ -1,0 +1,295 @@
+{
+  "status": "passed",
+  "coordinateSpace": "source office pixels",
+  "renderTranslation": {
+    "x": 32,
+    "y": 32
+  },
+  "routeCount": 8,
+  "directionalTests": 16,
+  "note": "North-facing seats use the genuine16px grid-safe slot between the table and rounded sofa arm, then the row y1232. Actual back-floor starts1264. No art moved.",
+  "routes": [
+    {
+      "id": "west-approach-to-foyer-south-facing-sofa-seat-1",
+      "targetId": "foyer-south-facing-sofa-seat-1",
+      "points": [
+        {
+          "x": 288,
+          "y": 1184
+        },
+        {
+          "x": 356,
+          "y": 1184
+        },
+        {
+          "x": 356,
+          "y": 1156
+        }
+      ],
+      "alsoTestReverse": true
+    },
+    {
+      "id": "east-approach-to-foyer-south-facing-sofa-seat-1",
+      "targetId": "foyer-south-facing-sofa-seat-1",
+      "points": [
+        {
+          "x": 480,
+          "y": 1184
+        },
+        {
+          "x": 356,
+          "y": 1184
+        },
+        {
+          "x": 356,
+          "y": 1156
+        }
+      ],
+      "alsoTestReverse": true
+    },
+    {
+      "id": "west-approach-to-foyer-south-facing-sofa-seat-2",
+      "targetId": "foyer-south-facing-sofa-seat-2",
+      "points": [
+        {
+          "x": 288,
+          "y": 1184
+        },
+        {
+          "x": 412,
+          "y": 1184
+        },
+        {
+          "x": 412,
+          "y": 1156
+        }
+      ],
+      "alsoTestReverse": true
+    },
+    {
+      "id": "east-approach-to-foyer-south-facing-sofa-seat-2",
+      "targetId": "foyer-south-facing-sofa-seat-2",
+      "points": [
+        {
+          "x": 480,
+          "y": 1184
+        },
+        {
+          "x": 412,
+          "y": 1184
+        },
+        {
+          "x": 412,
+          "y": 1156
+        }
+      ],
+      "alsoTestReverse": true
+    },
+    {
+      "id": "west-approach-to-foyer-north-facing-sofa-seat-1",
+      "targetId": "foyer-north-facing-sofa-seat-1",
+      "points": [
+        {
+          "x": 288,
+          "y": 1184
+        },
+        {
+          "x": 344,
+          "y": 1184
+        },
+        {
+          "x": 344,
+          "y": 1232
+        },
+        {
+          "x": 356,
+          "y": 1232
+        },
+        {
+          "x": 356,
+          "y": 1248
+        }
+      ],
+      "alsoTestReverse": true
+    },
+    {
+      "id": "east-approach-to-foyer-north-facing-sofa-seat-1",
+      "targetId": "foyer-north-facing-sofa-seat-1",
+      "points": [
+        {
+          "x": 480,
+          "y": 1184
+        },
+        {
+          "x": 424,
+          "y": 1184
+        },
+        {
+          "x": 424,
+          "y": 1232
+        },
+        {
+          "x": 356,
+          "y": 1232
+        },
+        {
+          "x": 356,
+          "y": 1248
+        }
+      ],
+      "alsoTestReverse": true
+    },
+    {
+      "id": "west-approach-to-foyer-north-facing-sofa-seat-2",
+      "targetId": "foyer-north-facing-sofa-seat-2",
+      "points": [
+        {
+          "x": 288,
+          "y": 1184
+        },
+        {
+          "x": 344,
+          "y": 1184
+        },
+        {
+          "x": 344,
+          "y": 1232
+        },
+        {
+          "x": 412,
+          "y": 1232
+        },
+        {
+          "x": 412,
+          "y": 1248
+        }
+      ],
+      "alsoTestReverse": true
+    },
+    {
+      "id": "east-approach-to-foyer-north-facing-sofa-seat-2",
+      "targetId": "foyer-north-facing-sofa-seat-2",
+      "points": [
+        {
+          "x": 480,
+          "y": 1184
+        },
+        {
+          "x": 424,
+          "y": 1184
+        },
+        {
+          "x": 424,
+          "y": 1232
+        },
+        {
+          "x": 412,
+          "y": 1232
+        },
+        {
+          "x": 412,
+          "y": 1248
+        }
+      ],
+      "alsoTestReverse": true
+    }
+  ],
+  "checks": [
+    {
+      "id": "west-approach-to-foyer-south-facing-sofa-seat-1",
+      "passed": true,
+      "sampledPositions": 98,
+      "issues": []
+    },
+    {
+      "id": "west-approach-to-foyer-south-facing-sofa-seat-1-reverse",
+      "passed": true,
+      "sampledPositions": 98,
+      "issues": []
+    },
+    {
+      "id": "east-approach-to-foyer-south-facing-sofa-seat-1",
+      "passed": true,
+      "sampledPositions": 154,
+      "issues": []
+    },
+    {
+      "id": "east-approach-to-foyer-south-facing-sofa-seat-1-reverse",
+      "passed": true,
+      "sampledPositions": 154,
+      "issues": []
+    },
+    {
+      "id": "west-approach-to-foyer-south-facing-sofa-seat-2",
+      "passed": true,
+      "sampledPositions": 154,
+      "issues": []
+    },
+    {
+      "id": "west-approach-to-foyer-south-facing-sofa-seat-2-reverse",
+      "passed": true,
+      "sampledPositions": 154,
+      "issues": []
+    },
+    {
+      "id": "east-approach-to-foyer-south-facing-sofa-seat-2",
+      "passed": true,
+      "sampledPositions": 98,
+      "issues": []
+    },
+    {
+      "id": "east-approach-to-foyer-south-facing-sofa-seat-2-reverse",
+      "passed": true,
+      "sampledPositions": 98,
+      "issues": []
+    },
+    {
+      "id": "west-approach-to-foyer-north-facing-sofa-seat-1",
+      "passed": true,
+      "sampledPositions": 136,
+      "issues": []
+    },
+    {
+      "id": "west-approach-to-foyer-north-facing-sofa-seat-1-reverse",
+      "passed": true,
+      "sampledPositions": 136,
+      "issues": []
+    },
+    {
+      "id": "east-approach-to-foyer-north-facing-sofa-seat-1",
+      "passed": true,
+      "sampledPositions": 192,
+      "issues": []
+    },
+    {
+      "id": "east-approach-to-foyer-north-facing-sofa-seat-1-reverse",
+      "passed": true,
+      "sampledPositions": 192,
+      "issues": []
+    },
+    {
+      "id": "west-approach-to-foyer-north-facing-sofa-seat-2",
+      "passed": true,
+      "sampledPositions": 192,
+      "issues": []
+    },
+    {
+      "id": "west-approach-to-foyer-north-facing-sofa-seat-2-reverse",
+      "passed": true,
+      "sampledPositions": 192,
+      "issues": []
+    },
+    {
+      "id": "east-approach-to-foyer-north-facing-sofa-seat-2",
+      "passed": true,
+      "sampledPositions": 136,
+      "issues": []
+    },
+    {
+      "id": "east-approach-to-foyer-north-facing-sofa-seat-2-reverse",
+      "passed": true,
+      "sampledPositions": 136,
+      "issues": []
+    }
+  ]
+}

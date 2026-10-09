@@ -1,0 +1,32 @@
+{
+  "status": "offline workbench geometry ready; receiver obstacle masks pending",
+  "baselineFilesVerifiedUnchanged": 11,
+  "workbenchCount": 7,
+  "provisionalSeatCount": 28,
+  "claimCount": 28,
+  "geometryChecks": 274,
+  "directionalRouteChecks": 82,
+  "contactStopChecks": 28,
+  "tmjCellSize": 16,
+  "worldPixels": [
+    2432,
+    1344
+  ],
+  "wokaFrameSize": 32,
+  "requiredNextStep": "Integrate registered receiver/cabinet obstacle masks into actual map collision and rerun all routes.",
+  "files": {
+    "frozen-baseline-sha256.json": "0b32538a7140875ca9003b5856cdb0c14216ea2f996c910ba7e03a61f4702f71",
+    "collision-grid.json": "c63f61b6738489f421db2a4ac491c388ceb52645ad9d183f98c1c940e9c3827c",
+    "README.md": "05c633d54a001a810262b0cb850d2448337ef4bf7915efbf94cadcf4d476ebf9",
+    "route-manifest.json": "026859c0cfc8d53238744adc2a3a83fcacdec1d69aaee30bed9d4fdaf6eb7ba0",
+    "geometry-validation.json": "9792928e0d99cfcadb0facc2dcba18b80c0827e18a9fa59ef655ae5869732ef1",
+    "source-coordinate-geometry.json": "6b3775f6020cb217bd0912e2841ac8321706410ee88a4cc0afe31a3ace8192f6",
+    "personal-areas.offline-draft.wam": "10bd4f1f293e44942911659f230700e70075e42f3906966b75140dfa50eb7656",
+    "verify_routes.cjs": "45b2e8747f8e89f199e4920d8100967c6f90ca86110da5519b177feb0660fca0",
+    "verify_geometry.py": "572592265b4bf95128b8f78a333adb69d6be8b7f61615781576313bef248475f",
+    "claim-manifest.json": "2f47306036de384a9bfe1a054f033d72ef0445f87418f31f6af0ed784a5bfde1",
+    "furniture-collision-rectangles.json": "fa74cbf21d635eb9ed90cdc50b3ee544077dfa8aed8d9db39b9b7837cb4d9cc3",
+    "route-validation.json": "d641bffcc4596b2b1da1733e89f09d5c4ff51bec97cfd37b5b7491a1f630baa6",
+    "build_revision.py": "7ba691bc1adb3257bea0fa0ff56f8df76e882ae5a8ea96fe1d130da7e87c07ff"
+  }
+}

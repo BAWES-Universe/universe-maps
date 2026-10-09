@@ -1,0 +1,247 @@
+{
+  "status": "compact benches only; art-obstacle masks pending",
+  "units": "native world pixels; half-open",
+  "tmjCollisionCellSize": 16,
+  "avatarBody": {
+    "x": -8,
+    "y": 0,
+    "width": 16,
+    "height": 16
+  },
+  "fixedWorkbenches": [
+    {
+      "id": "studenthub-operations-workbench",
+      "kind": "fixed-shared-workbench",
+      "x": 176,
+      "y": 208,
+      "width": 128,
+      "height": 96
+    },
+    {
+      "id": "studenthub-recruitment-workbench",
+      "kind": "fixed-shared-workbench",
+      "x": 656,
+      "y": 208,
+      "width": 128,
+      "height": 96
+    },
+    {
+      "id": "studenthub-sales-workbench",
+      "kind": "fixed-shared-workbench",
+      "x": 1168,
+      "y": 208,
+      "width": 128,
+      "height": 96
+    },
+    {
+      "id": "studenthub-tech-workbench",
+      "kind": "fixed-shared-workbench",
+      "x": 1648,
+      "y": 208,
+      "width": 128,
+      "height": 96
+    },
+    {
+      "id": "studenthub-design-media-workbench",
+      "kind": "fixed-shared-workbench",
+      "x": 176,
+      "y": 848,
+      "width": 128,
+      "height": 96
+    },
+    {
+      "id": "studenthub-marketing-workbench",
+      "kind": "fixed-shared-workbench",
+      "x": 656,
+      "y": 848,
+      "width": 128,
+      "height": 96
+    },
+    {
+      "id": "studenthub-research-workbench",
+      "kind": "fixed-shared-workbench",
+      "x": 1168,
+      "y": 848,
+      "width": 128,
+      "height": 96
+    }
+  ],
+  "retainedLowDividers": [
+    {
+      "id": "studenthub-pod-operations-divider-west",
+      "name": "Operations low divider west",
+      "x": 64,
+      "y": 416,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    },
+    {
+      "id": "studenthub-pod-operations-divider-east",
+      "name": "Operations low divider east",
+      "x": 320,
+      "y": 416,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    },
+    {
+      "id": "studenthub-pod-recruitment-divider-west",
+      "name": "Recruitment low divider west",
+      "x": 544,
+      "y": 416,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    },
+    {
+      "id": "studenthub-pod-recruitment-divider-east",
+      "name": "Recruitment low divider east",
+      "x": 800,
+      "y": 416,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    },
+    {
+      "id": "studenthub-pod-sales-divider-west",
+      "name": "Sales low divider west",
+      "x": 1056,
+      "y": 416,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    },
+    {
+      "id": "studenthub-pod-sales-divider-east",
+      "name": "Sales low divider east",
+      "x": 1312,
+      "y": 416,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    },
+    {
+      "id": "studenthub-pod-tech-divider-west",
+      "name": "Tech low divider west",
+      "x": 1536,
+      "y": 416,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    },
+    {
+      "id": "studenthub-pod-tech-divider-east",
+      "name": "Tech low divider east",
+      "x": 1792,
+      "y": 416,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    },
+    {
+      "id": "studenthub-pod-design-media-divider-west",
+      "name": "Design / Media low divider west",
+      "x": 64,
+      "y": 704,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    },
+    {
+      "id": "studenthub-pod-design-media-divider-east",
+      "name": "Design / Media low divider east",
+      "x": 320,
+      "y": 704,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    },
+    {
+      "id": "studenthub-pod-marketing-divider-west",
+      "name": "Marketing low divider west",
+      "x": 544,
+      "y": 704,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    },
+    {
+      "id": "studenthub-pod-marketing-divider-east",
+      "name": "Marketing low divider east",
+      "x": 800,
+      "y": 704,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    },
+    {
+      "id": "studenthub-pod-research-divider-west",
+      "name": "Research low divider west",
+      "x": 1056,
+      "y": 704,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    },
+    {
+      "id": "studenthub-pod-research-divider-east",
+      "name": "Research low divider east",
+      "x": 1312,
+      "y": 704,
+      "width": 96,
+      "height": 32,
+      "material": "low-planter",
+      "collision": true,
+      "visualHeight": "low; no acoustic/privacy guarantee"
+    }
+  ],
+  "chairsAreWalkable": true,
+  "pendingObstacleMasks": {
+    "status": "required after assembled-art registration",
+    "sources": "revised receiver back and side cabinets; planter/trim masks as applicable",
+    "referenceObservationsOnly": {
+      "backCabinetY": [
+        144,
+        176
+      ],
+      "westCabinetX": [
+        96,
+        144
+      ],
+      "eastCabinetX": [
+        400,
+        448
+      ],
+      "sideCabinetBottomY": 352
+    },
+    "authoritativeCollisionRectangles": null,
+    "requiredNextStep": "Extract exact registered obstacle masks from assembled source art, include them in real TMJ collision, and rerun all routes."
+  }
+}

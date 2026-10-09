@@ -1,0 +1,396 @@
+{
+  "status": "passed",
+  "testCount": 54,
+  "failedCount": 0,
+  "checks": [
+    {
+      "id": "studenthub-operations-workbench-north-1",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-operations-workbench-north-2",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-operations-workbench-south-1",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-operations-workbench-south-2",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-1",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-2",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-1",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-2",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-sales-workbench-north-1",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-sales-workbench-north-2",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-sales-workbench-south-1",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-sales-workbench-south-2",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-tech-workbench-north-1",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-tech-workbench-north-2",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-tech-workbench-south-1",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-tech-workbench-south-2",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-1",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-2",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-1",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-2",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-1",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-2",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-1",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-2",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-research-workbench-north-1",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-research-workbench-north-2",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-research-workbench-south-1",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "studenthub-research-workbench-south-2",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "cross-lounge-west-sofa-seat-1",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "cross-lounge-west-sofa-seat-2",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "cross-lounge-west-guest",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "cross-lounge-east-sofa-seat-1",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "cross-lounge-east-sofa-seat-2",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "cross-lounge-east-guest",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "foyer-south-facing-sofa-seat-1",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "foyer-south-facing-sofa-seat-2",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "foyer-north-facing-sofa-seat-1",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "foyer-north-facing-sofa-seat-2",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "reception-staff",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "reception-visitor",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "meeting-a-north-place",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "meeting-a-south-place",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "meeting-a-west-place",
+      "facing": "east",
+      "protectedHeadOpaquePixels": 235,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "meeting-a-east-place",
+      "facing": "west",
+      "protectedHeadOpaquePixels": 235,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "meeting-b-north-place",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "meeting-b-south-place",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "meeting-b-west-place",
+      "facing": "east",
+      "protectedHeadOpaquePixels": 235,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "meeting-b-east-place",
+      "facing": "west",
+      "protectedHeadOpaquePixels": 235,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "conference-north-place-1",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "conference-south-place-1",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "conference-north-place-2",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "conference-south-place-2",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "conference-north-place-3",
+      "facing": "south",
+      "protectedHeadOpaquePixels": 290,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    },
+    {
+      "id": "conference-south-place-3",
+      "facing": "north",
+      "protectedHeadOpaquePixels": 248,
+      "protectedHeadForegroundPixels": 0,
+      "passed": true
+    }
+  ],
+  "foreground": {
+    "path": "../universe-expanded-office/layers/office-v2-foreground.png",
+    "sha256": "b63a40537dff5623146b480a9c9f3043dceac1a8e60a977a3852600147ccd22d"
+  },
+  "sprite": {
+    "path": "../universe-native-team-fixture/assets/greg-reference.png",
+    "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+    "frameSize": 32,
+    "scale": 1
+  },
+  "scope": "Actual directional Woka alpha in upper14sprite rows against assembled furniture foreground. Separate low-alpha overhead shade intentionally tints actors and is not treated as a clipping occluder."
+}

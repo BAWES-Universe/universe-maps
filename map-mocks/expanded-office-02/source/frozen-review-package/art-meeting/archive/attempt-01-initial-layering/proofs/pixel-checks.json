@@ -1,0 +1,98 @@
+{
+  "gregSha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+  "gregUnchanged": true,
+  "fixtureLabel": "Repeated unchanged32\u00d732 Greg directional frame scale fixtures; no live multiplayer.",
+  "passed": false,
+  "checks": [
+    {
+      "layout": "small-four-cardinal",
+      "seat": "north-place",
+      "frame": 1,
+      "scale": 1,
+      "protectedHeadPixelsCovered": 13,
+      "torsoPixelsOccluded": 110,
+      "passed": false
+    },
+    {
+      "layout": "small-four-cardinal",
+      "seat": "south-place",
+      "frame": 10,
+      "scale": 1,
+      "protectedHeadPixelsCovered": 0,
+      "torsoPixelsOccluded": 233,
+      "passed": true
+    },
+    {
+      "layout": "small-four-cardinal",
+      "seat": "west-place",
+      "frame": 7,
+      "scale": 1,
+      "protectedHeadPixelsCovered": 0,
+      "torsoPixelsOccluded": 115,
+      "passed": true
+    },
+    {
+      "layout": "small-four-cardinal",
+      "seat": "east-place",
+      "frame": 4,
+      "scale": 1,
+      "protectedHeadPixelsCovered": 0,
+      "torsoPixelsOccluded": 107,
+      "passed": true
+    },
+    {
+      "layout": "conference-six",
+      "seat": "north-place-1",
+      "frame": 1,
+      "scale": 1,
+      "protectedHeadPixelsCovered": 13,
+      "torsoPixelsOccluded": 110,
+      "passed": false
+    },
+    {
+      "layout": "conference-six",
+      "seat": "south-place-1",
+      "frame": 10,
+      "scale": 1,
+      "protectedHeadPixelsCovered": 0,
+      "torsoPixelsOccluded": 233,
+      "passed": true
+    },
+    {
+      "layout": "conference-six",
+      "seat": "north-place-2",
+      "frame": 1,
+      "scale": 1,
+      "protectedHeadPixelsCovered": 13,
+      "torsoPixelsOccluded": 110,
+      "passed": false
+    },
+    {
+      "layout": "conference-six",
+      "seat": "south-place-2",
+      "frame": 10,
+      "scale": 1,
+      "protectedHeadPixelsCovered": 0,
+      "torsoPixelsOccluded": 233,
+      "passed": true
+    },
+    {
+      "layout": "conference-six",
+      "seat": "north-place-3",
+      "frame": 1,
+      "scale": 1,
+      "protectedHeadPixelsCovered": 13,
+      "torsoPixelsOccluded": 110,
+      "passed": false
+    },
+    {
+      "layout": "conference-six",
+      "seat": "south-place-3",
+      "frame": 10,
+      "scale": 1,
+      "protectedHeadPixelsCovered": 0,
+      "torsoPixelsOccluded": 233,
+      "passed": true
+    }
+  ]
+}

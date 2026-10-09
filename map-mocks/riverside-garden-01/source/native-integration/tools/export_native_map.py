@@ -1,0 +1,20 @@
+from pathlib import Path
+from PIL import Image,ImageDraw
+import json,hashlib
+N=Path(__file__).resolve().parents[1];R=N.parent;g=json.loads((N/'native-manifest.json').read_text());grid=json.loads((N/'collision-grid-8px.json').read_text());routes=json.loads((N/'docs/permanent-grid-verification.json').read_text());heads=json.loads((N/'docs/fixed-mask-verification.json').read_text())
+fg=Image.open(R/'layers/garden-foliage-foreground.png').convert('RGBA');fg.alpha_composite(Image.open(N/'masks/benches-fixed-foreground.png').convert('RGBA'));fg.save(N/'masks/bench-and-foliage-fixed-foreground.png')
+Image.new('RGBA',(8,8),(0,0,0,0)).save(N/'masks/collision-8px.png')
+physical=Image.new('L',(1024,1024),0);d=ImageDraw.Draw(physical)
+for i,v in enumerate(grid['blocked']):
+ if v:d.rectangle((i%128*8,i//128*8,i%128*8+7,i//128*8+7),fill=255)
+physical.save(N/'masks/permanent-physical-mask.png')
+props=lambda o:[{'name':k,'type':'bool' if isinstance(v,bool) else 'int' if isinstance(v,int) else 'string','value':v} for k,v in o.items()]
+def tileset(first,name,img,count=16384,cols=128):return {'firstgid':first,'name':name,'image':img,'imagewidth':cols*8,'imageheight':count//cols*8,'tilewidth':8,'tileheight':8,'columns':cols,'tilecount':count,'margin':0,'spacing':0}
+collision=tileset(1,'permanent-native-collision','masks/collision-8px.png',1,1);collision['tiles']=[{'id':0,'properties':props({'collides':True})}]
+def layer(i,name,data):return {'id':i,'name':name,'type':'tilelayer','width':128,'height':128,'x':0,'y':0,'visible':True,'opacity':1,'data':data}
+map={'type':'map','version':'1.10','tiledversion':'1.11.2','orientation':'orthogonal','renderorder':'right-down','width':128,'height':128,'tilewidth':8,'tileheight':8,'infinite':False,'nextlayerid':6,'nextobjectid':20,'properties':props({'worldOriginX':2176,'worldOriginY':1920,'nativeWokaSize':32,'bodyWidth':16,'bodyHeight':16,'permanentCollision':True,'avatarDependentMasking':False,'sittingAnimation':False,'status':'static-native-grid-candidate; runtime verification pending'}),'tilesets':[collision,tileset(2,'garden-painted-base','../layers/garden-base.png'),tileset(16386,'garden-fixed-foreground','masks/bench-and-foliage-fixed-foreground.png')],'layers':[layer(1,'permanent-collisions',grid['blocked']),layer(2,'garden-base',list(range(2,16386))),{'id':3,'name':'floorLayer','type':'objectgroup','objects':[]},layer(4,'garden-fixed-foreground',list(range(16386,32770))),{'id':5,'name':'garden-position-markers','type':'objectgroup','objects':[{'id':i+1,'name':f"{s['id']}-bench-position",'type':'point','point':True,'x':s['position']['x'],'y':s['position']['y'],'properties':props({'facing':s['facing'],'approachX':s['approach']['x'],'approachY':s['approach']['y'],'requiresColliderChange':False,'sittingAnimation':False})} for i,s in enumerate(g['spots'])]}]}
+(N/'riverside-native-static-8px.tmj').write_text(json.dumps(map,separators=(',',':'))+'\n')
+for s in g['spots']:
+ r=next(x for x in routes['results'] if x['id']==s['id']);h=next(x for x in heads['checks'] if x['id']==s['id']);s['support']={'permanentGridReachable':r['entryToPosition'],'reverseExit':r['reverseExit'],'fixedForegroundHeadClear':h['headClearAtFixedPosition'],'nativeClientVerified':False,'actualSittingAnimation':False,'status':'supported static bench-position fixture; live engine acceptance pending'}
+g['status']='static grid and fixed mask tests passed; native client acceptance pending';g['collisionGrid']='collision-grid-8px.json';g['collisionRectangles']='collision-rectangles.json';g['physicalMask']='masks/permanent-physical-mask.png';g['fixedForeground']='masks/bench-and-foliage-fixed-foreground.png';g['tiledMap']='riverside-native-static-8px.tmj';(N/'native-manifest.json').write_text(json.dumps(g,indent=2)+'\n')
+files=sorted(p for p in N.rglob('*') if p.is_file() and p.name!='SOURCE.sha256');(N/'SOURCE.sha256').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+str(p.relative_to(N))+'\n' for p in files));print({'files':len(files),'support':'all4 static fixtures; no native runtime claim','rectangles':len(json.loads((N/'collision-rectangles.json').read_text())['rectangles'])})

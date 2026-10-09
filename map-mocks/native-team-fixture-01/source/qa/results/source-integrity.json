@@ -1,0 +1,51 @@
+[
+  {
+    "copy": "vendor/phaser.js",
+    "source": "../universe-painted-arrival/runtime-work/vendor/phaser.js",
+    "sha256": "dfbb83908d77fe2eadcd273ccde33c93542d54f3de68f2fe919dd9c4f97d1510",
+    "sourceSha256": "dfbb83908d77fe2eadcd273ccde33c93542d54f3de68f2fe919dd9c4f97d1510",
+    "byteIdentical": true
+  },
+  {
+    "copy": "vendor/fork-primitives.js",
+    "source": "../universe-painted-arrival/runtime-work/fork-primitives.js",
+    "sha256": "bed92aaa523fd8bd6f37a81cdb6a795639e7b04ff1a328cbf84792ff258d995a",
+    "sourceSha256": "bed92aaa523fd8bd6f37a81cdb6a795639e7b04ff1a328cbf84792ff258d995a",
+    "byteIdentical": true
+  },
+  {
+    "copy": "assets/greg.png",
+    "source": "../universe-painted-arrival/runtime-work/greg.png",
+    "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+    "sourceSha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+    "byteIdentical": true
+  },
+  {
+    "copy": "vendor/PHASER-LICENSE.md",
+    "source": "../universe-painted-arrival/runtime-work/vendor/PHASER-LICENSE.md",
+    "sha256": "080f3d5539e766bb556df5b8e86c4f5d581ece35c692b80956ca352b84d29134",
+    "sourceSha256": "080f3d5539e766bb556df5b8e86c4f5d581ece35c692b80956ca352b84d29134",
+    "byteIdentical": true
+  },
+  {
+    "copy": "vendor/UNIVERSE-SOURCE-LICENSE.txt",
+    "source": "../universe-painted-arrival/runtime-work/vendor/UNIVERSE-SOURCE-LICENSE.txt",
+    "sha256": "12aae5db7f9d80223d418b1dc97deb235ab207fa3cd4821e16c6ac00072cea41",
+    "sourceSha256": "12aae5db7f9d80223d418b1dc97deb235ab207fa3cd4821e16c6ac00072cea41",
+    "byteIdentical": true
+  },
+  {
+    "copy": "assets/single-station-native.png",
+    "source": "../universe-native-team-fixture/art-source/single-station-native.png",
+    "sha256": "4c9779e08e9ff50d46b67afe668c339145b4ec8992e4ed100b44c4c1fba7280d",
+    "sourceSha256": "4c9779e08e9ff50d46b67afe668c339145b4ec8992e4ed100b44c4c1fba7280d",
+    "byteIdentical": true
+  },
+  {
+    "copy": "assets/fixture-chair-backs-native.png",
+    "source": "../universe-native-team-fixture/art-source/fixture-chair-backs-native.png",
+    "sha256": "387773d91cbe868668ed9f43f6e67502cce33e98c21bab0aa7be74cf7e66c9e6",
+    "sourceSha256": "387773d91cbe868668ed9f43f6e67502cce33e98c21bab0aa7be74cf7e66c9e6",
+    "byteIdentical": true
+  }
+]

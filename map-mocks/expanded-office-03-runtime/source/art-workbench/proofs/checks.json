@@ -1,0 +1,92 @@
+{
+  "heads": [
+    {
+      "seat": "north-1",
+      "scale": 1,
+      "headPixelsCovered": 0,
+      "torsoPixelsOccluded": 106,
+      "passed": true
+    },
+    {
+      "seat": "north-2",
+      "scale": 1,
+      "headPixelsCovered": 0,
+      "torsoPixelsOccluded": 106,
+      "passed": true
+    },
+    {
+      "seat": "south-1",
+      "scale": 1,
+      "headPixelsCovered": 0,
+      "torsoPixelsOccluded": 233,
+      "passed": true
+    },
+    {
+      "seat": "south-2",
+      "scale": 1,
+      "headPixelsCovered": 0,
+      "torsoPixelsOccluded": 233,
+      "passed": true
+    }
+  ],
+  "routes": [
+    {
+      "seat": "north-1",
+      "direction": "entry",
+      "sampledPositions": 228,
+      "collisions": [],
+      "passed": true
+    },
+    {
+      "seat": "north-1",
+      "direction": "exit",
+      "sampledPositions": 228,
+      "collisions": [],
+      "passed": true
+    },
+    {
+      "seat": "north-2",
+      "direction": "entry",
+      "sampledPositions": 292,
+      "collisions": [],
+      "passed": true
+    },
+    {
+      "seat": "north-2",
+      "direction": "exit",
+      "sampledPositions": 292,
+      "collisions": [],
+      "passed": true
+    },
+    {
+      "seat": "south-1",
+      "direction": "entry",
+      "sampledPositions": 228,
+      "collisions": [],
+      "passed": true
+    },
+    {
+      "seat": "south-1",
+      "direction": "exit",
+      "sampledPositions": 228,
+      "collisions": [],
+      "passed": true
+    },
+    {
+      "seat": "south-2",
+      "direction": "entry",
+      "sampledPositions": 292,
+      "collisions": [],
+      "passed": true
+    },
+    {
+      "seat": "south-2",
+      "direction": "exit",
+      "sampledPositions": 292,
+      "collisions": [],
+      "passed": true
+    }
+  ],
+  "allPassed": true,
+  "scope": "Offline static fixture. No runtime claim or multiplayer acceptance implied."
+}

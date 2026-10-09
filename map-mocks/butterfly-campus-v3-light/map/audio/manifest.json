@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "runtimeDefault": "OFF",
+  "provenance": "Unchanged procedural originals copied from magical-town-map-v2/map/assets/audio. No paid APIs, external samples or global music.",
+  "sourceLicense": "CC0-1.0",
+  "tracks": [
+    {
+      "file": "fountain.mp3",
+      "sha256": "629e31d1ba5298364a04a7845c91769d6a0ff3eaa9b1805f85fb3a86cf8a267e",
+      "codec": "mp3",
+      "channels": 2,
+      "durationSeconds": 12.0,
+      "peakDbFS": -20.87,
+      "rmsDbFS": -35.45,
+      "loopSeamJump": 0.0035142451524734497,
+      "p999AdjacentSampleStep": 0.021916240453720093,
+      "pass": true
+    },
+    {
+      "file": "cascade-soft.mp3",
+      "sha256": "40a838261cd33bbb1d1f4ad8c271ca821ffc76c7923d8bf6a2cea4198a815ff8",
+      "codec": "mp3",
+      "channels": 2,
+      "durationSeconds": 16.0,
+      "peakDbFS": -21.6,
+      "rmsDbFS": -35.08,
+      "loopSeamJump": 0.0075182002037763596,
+      "p999AdjacentSampleStep": 0.01836298033595085,
+      "pass": true
+    }
+  ]
+}

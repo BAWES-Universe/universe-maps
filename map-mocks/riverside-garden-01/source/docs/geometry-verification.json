@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "scope": "isolated original native-body geometry and local audio policy; no live Universe client or physical listening",
+  "avatar": {
+    "frame": {
+      "x": -16,
+      "y": -16,
+      "width": 32,
+      "height": 32
+    },
+    "body": {
+      "x": -8,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "scale": 1
+  },
+  "entry": {
+    "x": 16,
+    "y": 272
+  },
+  "worldOrigin": {
+    "x": 2176,
+    "y": 1920
+  },
+  "checks": [
+    {
+      "bench": "north",
+      "reachable": true,
+      "pathWaypoints": 81,
+      "seatEntrySweep": true,
+      "seatExitSweep": true,
+      "otherBenchSolidsPreserved": true
+    },
+    {
+      "bench": "south",
+      "reachable": true,
+      "pathWaypoints": 101,
+      "seatEntrySweep": true,
+      "seatExitSweep": true,
+      "otherBenchSolidsPreserved": true
+    },
+    {
+      "bench": "west",
+      "reachable": true,
+      "pathWaypoints": 82,
+      "seatEntrySweep": true,
+      "seatExitSweep": true,
+      "otherBenchSolidsPreserved": true
+    },
+    {
+      "bench": "east",
+      "reachable": true,
+      "pathWaypoints": 101,
+      "seatEntrySweep": true,
+      "seatExitSweep": true,
+      "otherBenchSolidsPreserved": true
+    }
+  ],
+  "waterAndFireBlocked": true,
+  "workAndMeetingSamplesSilent": true,
+  "mutedAndHiddenSilent": true,
+  "fireGainMax": 0.06
+}

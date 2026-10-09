@@ -1,0 +1,967 @@
+{
+  "status": "passed",
+  "testCount": 191,
+  "failedCount": 0,
+  "checks": [
+    {
+      "name": "frozen baseline unchanged: collision-grid.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: build_geometry.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: route-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: geometry-validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: source-coordinate-geometry.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: personal-areas.offline-draft.wam",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: verify_routes.cjs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: verify_geometry.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: claim-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: route-validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "revision02 geometry unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source/full grid cell and dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "full-canvas interior exactly equals source translated32px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "full-canvas outer margin blocked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all colliders conservatively represented in source16px cells",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "narrow sofa arms retain source12px geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "north-sofa rear floor begins local48, not visual33",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all28 team seats preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench: authorized exact32px east move",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench: fixed unowned nonentity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench: authorized exact32px east move",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench: fixed unowned nonentity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench: authorized exact32px east move",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench: fixed unowned nonentity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench: authorized exact32px east move",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench: fixed unowned nonentity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench: authorized exact32px east move",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench: fixed unowned nonentity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench: authorized exact32px east move",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench: fixed unowned nonentity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench: authorized exact32px east move",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench: fixed unowned nonentity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-1: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-1: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-1: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-2: body and full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-2: plot inside original bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-2: exact approach and contact sequence populated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "claim plots nonoverlapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "main-entrance: actual opening clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "office-gallery-connection: actual opening clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gallery-visitor-entrance: actual opening clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-a-door: actual opening clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-b-door: actual opening clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "conference-door: actual opening clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cross-lounge-west-sofa-seat-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cross-lounge-west-sofa-seat-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cross-lounge-west-guest: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cross-lounge-east-sofa-seat-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cross-lounge-east-sofa-seat-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cross-lounge-east-guest: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "foyer-south-facing-sofa-seat-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "foyer-south-facing-sofa-seat-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "foyer-north-facing-sofa-seat-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "foyer-north-facing-sofa-seat-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reception-staff: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reception-visitor: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-a-north-place: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-a-south-place: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-a-west-place: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-a-east-place: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-b-north-place: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-b-south-place: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-b-west-place: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-b-east-place: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "conference-north-place-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "conference-south-place-1: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "conference-north-place-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "conference-south-place-2: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "conference-north-place-3: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "conference-south-place-3: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "main-entrance: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "shared-spine-center: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gallery-main-threshold: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gallery-corridor-entry: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gallery-south-entry: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-a-threshold: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-b-threshold: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "conference-threshold: source body clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline WAM uses full-canvas translated areas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline WAM no owners or bench entities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline WAM valid2.0.0 schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all122 route pairs and62 source anchors pass",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all45 exact contact checks pass",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "colliderCount": 75,
+  "sourceBlockedCellCount": 4724,
+  "fullCanvasBlockedCellCount": 5684,
+  "sourceToGridPolicy": "All physical source rectangles covered conservatively by16px cells; all54 occupancy anchors and244 routes pass with that exact coverage.",
+  "visualAudit": "See assembled-head-clearance.json. It is separate from this physical freeze."
+}

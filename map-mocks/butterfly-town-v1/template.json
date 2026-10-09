@@ -1,0 +1,21 @@
+{
+  "id": "butterfly-town-v1",
+  "title": "Butterfly Town \u00b7 frozen v1",
+  "kind": "tiled-map",
+  "status": "historical-published-source",
+  "catalogReady": false,
+  "map": "map/butterfly-town.tmj",
+  "screenshot": "screenshot.png",
+  "source": "Butterfly-Town-source-candidate.zip; frozen v1 map source",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {
+    "butterfly-town.tmj": "fa8ab92db5915020ca2beea631ac5df0c7436398e1bc640be7c0e60e5ee8669e"
+  },
+  "silentAreas": {},
+  "knownLimitations": [
+    "Archived review candidate; not added to the live template catalog by this change.",
+    "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+    "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse."
+  ],
+  "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+}

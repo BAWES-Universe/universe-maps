@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "provenance": "Original procedural synthesis from tools/generate_town_audio.py. No third-party samples, models, recordings or borrowed compositions.",
+  "sampleRate": 24000,
+  "sourceLicense": "CC0-1.0 for generated audio; generator follows repository code license.",
+  "tracks": [
+    {
+      "id": "gate-air",
+      "duration": 48.0,
+      "peakDbFS": -17.23,
+      "rmsDbFS": -31.64,
+      "seamJump": 0.0,
+      "loop": true,
+      "sources": [
+        "gate-air.ogg",
+        "gate-air.mp3"
+      ],
+      "sha256": "304c79b9c3d44540731d79686533e65054f0abab6d93b6b491d177031ae7d888",
+      "runtimeUse": "historical-sketch-not-enabled"
+    },
+    {
+      "id": "gate-music",
+      "duration": 48.0,
+      "peakDbFS": -19.07,
+      "rmsDbFS": -32.1,
+      "seamJump": 0.0019279,
+      "loop": true,
+      "sources": [
+        "gate-music.ogg",
+        "gate-music.mp3"
+      ],
+      "sha256": "18d2242e7a5fd6d61a83c863ce1d98db732914a5d650f4cde0c02ceda8b8e486",
+      "runtimeUse": "historical-sketch-not-enabled"
+    },
+    {
+      "id": "town-music",
+      "duration": 48.0,
+      "peakDbFS": -17.94,
+      "rmsDbFS": -30.77,
+      "seamJump": 0.0020637,
+      "loop": true,
+      "sources": [
+        "town-music.ogg",
+        "town-music.mp3"
+      ],
+      "sha256": "d056566cee5f60c1648096e5dd0edcf93ee07e659be4e2825ac719ef120668ed",
+      "runtimeUse": "historical-sketch-not-enabled"
+    },
+    {
+      "id": "interior-music",
+      "duration": 48.0,
+      "peakDbFS": -20.67,
+      "rmsDbFS": -33.18,
+      "seamJump": 0.0018866,
+      "loop": true,
+      "sources": [
+        "interior-music.ogg",
+        "interior-music.mp3"
+      ],
+      "sha256": "5c1657123e617ea1dd50cbd93d5002a5984638dc8b41fc898f5f14d2cc869171",
+      "runtimeUse": "historical-sketch-not-enabled"
+    },
+    {
+      "id": "fountain",
+      "duration": 12.0,
+      "peakDbFS": -20.3,
+      "rmsDbFS": -35.0,
+      "seamJump": 0.0,
+      "loop": true,
+      "sources": [
+        "fountain.ogg",
+        "fountain.mp3"
+      ],
+      "sha256": "efaa165a41ef9b75390fc0c767aad18c4e250add729d3ddccbb5aa5c8f1f046a",
+      "runtimeUse": "localized-candidate-only"
+    },
+    {
+      "id": "gate-crossing",
+      "duration": 5.0,
+      "peakDbFS": -18.73,
+      "rmsDbFS": -33.91,
+      "seamJump": 0.0,
+      "loop": false,
+      "sources": [
+        "gate-crossing.ogg",
+        "gate-crossing.mp3"
+      ],
+      "sha256": "182655cf6df33748889d706f16a1939859a2b5064c31e431a835ac25b4ad8418",
+      "runtimeUse": "optional-disabled-by-default"
+    },
+    {
+      "id": "town-bed",
+      "duration": 48.0,
+      "peakDbFS": -18.4,
+      "rmsDbFS": -32.6,
+      "seamJump": 0.0014446,
+      "loop": true,
+      "sources": [
+        "town-bed.ogg",
+        "town-bed.mp3"
+      ],
+      "sha256": "41c3f06943454a56c44f4978d61a3942e8fa688594a0141c148606f1ba92cf52",
+      "runtimeUse": "historical-sketch-not-enabled"
+    },
+    {
+      "id": "scene-gate",
+      "duration": 48.0,
+      "peakDbFS": -23.65,
+      "rmsDbFS": -38.32,
+      "loop": true,
+      "sources": [
+        "scene-gate.mp3"
+      ],
+      "role": "Premixed native single-channel scene, not activated",
+      "sha256": "91425cab0c0cf12b23ce68184e35ef123db592620a2969047d34960e4a4969dc",
+      "runtimeUse": "historical-sketch-not-enabled"
+    },
+    {
+      "id": "scene-approach",
+      "duration": 48.0,
+      "peakDbFS": -21.65,
+      "rmsDbFS": -35.18,
+      "loop": true,
+      "sources": [
+        "scene-approach.mp3"
+      ],
+      "role": "Premixed native single-channel scene, not activated",
+      "sha256": "461a8ea995347b76ee9ae882fd386703cd07d2b872f67b04a7d0b82c2398d186",
+      "runtimeUse": "historical-sketch-not-enabled"
+    },
+    {
+      "id": "scene-town",
+      "duration": 48.0,
+      "peakDbFS": -22.72,
+      "rmsDbFS": -35.69,
+      "loop": true,
+      "sources": [
+        "scene-town.mp3"
+      ],
+      "role": "Premixed native single-channel scene, not activated",
+      "sha256": "2126b69f8292750fe54b0e0cdd0187c8181c7ec1f728036b040c459025a351a7",
+      "runtimeUse": "historical-sketch-not-enabled"
+    },
+    {
+      "id": "scene-fountain",
+      "duration": 48.0,
+      "peakDbFS": -22.96,
+      "rmsDbFS": -36.11,
+      "loop": true,
+      "sources": [
+        "scene-fountain.mp3"
+      ],
+      "role": "Premixed native single-channel scene, not activated",
+      "sha256": "7bd51b64a33b45f84fc18a16192feca89b575427043fa0b5e8548c635c4fb4d2",
+      "runtimeUse": "historical-sketch-not-enabled"
+    },
+    {
+      "id": "scene-interior",
+      "duration": 48.0,
+      "peakDbFS": -25.71,
+      "rmsDbFS": -38.22,
+      "loop": true,
+      "sources": [
+        "scene-interior.mp3"
+      ],
+      "role": "Premixed native single-channel scene, not activated",
+      "sha256": "8011a38fd4c3e12d54c9f192015ebd1a8ef54ed8ad6fd113bb8b17c026099e51",
+      "runtimeUse": "historical-sketch-not-enabled"
+    },
+    {
+      "id": "scene-arrival",
+      "duration": 8.0,
+      "peakDbFS": -21.61,
+      "rmsDbFS": -34.61,
+      "loop": false,
+      "sources": [
+        "scene-arrival.mp3"
+      ],
+      "role": "Premixed native single-channel scene, not activated",
+      "sha256": "d0fc1a6c4406e07c6c6c2fce7af9229aa1677e6c90701c5e2aed0d415aab31b8",
+      "runtimeUse": "historical-sketch-not-enabled"
+    },
+    {
+      "id": "cascade-soft",
+      "duration": 16,
+      "loop": true,
+      "sources": [
+        "cascade-soft.mp3",
+        "cascade-soft.ogg"
+      ],
+      "runtimeUse": "localized-candidate-only",
+      "provenance": "Original deterministic FFT-filtered noise synthesis; no recordings, borrowed samples, melodies or paid tools",
+      "integratedLUFS": -31.82,
+      "truePeakDbTP": -21.53,
+      "loudnessRangeLU": 0.7,
+      "targetRawIntegratedLUFS": -31.39,
+      "authoredGainNote": "At .35 authored gain, approximately9.12dB below raw, then native master volume. Ear calibration remains pending.",
+      "sha256": "40a838261cd33bbb1d1f4ad8c271ca821ffc76c7923d8bf6a2cea4198a815ff8"
+    }
+  ],
+  "runtimePolicy": "runtime-policy.json",
+  "runtimePlanStatus": "Quiet-world policy v2 supersedes scored-town sketch"
+}

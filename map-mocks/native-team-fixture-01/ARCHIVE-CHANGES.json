@@ -1,0 +1,10 @@
+{
+  "normalizedTextFiles": [
+    "source/README.md",
+    "source/fixture-plan.json",
+    "source/qa/README.md",
+    "source/qa/results/source-integrity.json"
+  ],
+  "normalization": "Machine-specific prefixes replaced with project-relative provenance. Historical scripts may need original sibling projects; no standalone regeneration claim.",
+  "unchangedBinarySources": true
+}

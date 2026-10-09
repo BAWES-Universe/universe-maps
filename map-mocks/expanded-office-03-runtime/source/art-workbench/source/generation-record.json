@@ -1,0 +1,29 @@
+{
+  "generator": "built-in image_gen.imagegen",
+  "transparentBackground": true,
+  "calls": [
+    {
+      "prompt": "source/workbench-prompt.txt",
+      "inputs": [
+        "guides/workbench-geometry.png",
+        "../universe-native-team-fixture/art-source/single-station-master.png"
+      ],
+      "output": "source/workbench-master-attempt-01.png",
+      "originalOutput": "authoring-session/generated_images/exec-69d7c9b0-13c2-4f6b-9d06-18537291f41a.png"
+    },
+    {
+      "prompt": "source/workbench-orientation-refine-prompt.txt",
+      "inputs": [
+        "source/workbench-master-attempt-01.png"
+      ],
+      "output": "source/workbench-master.png",
+      "originalOutput": "authoring-session/generated_images/exec-3e3c5e3f-7fa2-4024-9468-bca44f4ed29b.png"
+    }
+  ],
+  "paidExternalApi": false,
+  "generatedPixelEditsOutsideImagegen": false,
+  "nativeMechanicalRegistration": "trim transparent padding; premultiplied LANCZOS resize and alpha composite",
+  "engineEdits": false,
+  "published": false,
+  "liveConfiguration": false
+}

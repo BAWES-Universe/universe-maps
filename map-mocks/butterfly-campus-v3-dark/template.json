@@ -1,0 +1,23 @@
+{
+  "id": "butterfly-campus-v3-dark",
+  "title": "Butterfly Campus \u00b7 dark interior version",
+  "kind": "tiled-map",
+  "status": "rejected-main-direction-preserved",
+  "catalogReady": false,
+  "map": "map/butterfly-campus.tmj",
+  "screenshot": "screenshot.png",
+  "source": "Butterfly-Campus-v3-Git-ready-map.zip, frozen rejected-dark revision",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {
+    "butterfly-campus.tmj": "bff3d7226b78aa89ee91a98a374073b9d9be012d81527792663fbe52c8075b9d"
+  },
+  "silentAreas": {},
+  "knownLimitations": [
+    "Archived review candidate; not added to the live template catalog by this change.",
+    "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+    "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+    "Dark interiors and furniture placement were not accepted for the main campus. Retained as an alternate template starting point.",
+    "Historical return portal intersects the ordinary sales-to-fountain route; fix navigation before reuse."
+  ],
+  "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+}

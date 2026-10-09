@@ -1,0 +1,621 @@
+{
+  "coordinateSpace": "source office pixels",
+  "renderTranslation": {
+    "x": 32,
+    "y": 32
+  },
+  "permanentWalls": [
+    {
+      "id": "main-rear-solid",
+      "x": 0,
+      "y": 0,
+      "width": 1984,
+      "height": 176,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-west-solid",
+      "x": 0,
+      "y": 176,
+      "width": 96,
+      "height": 1168,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-east-solid-north",
+      "x": 1920,
+      "y": 176,
+      "width": 64,
+      "height": 912,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-east-solid-south",
+      "x": 1920,
+      "y": 1136,
+      "width": 64,
+      "height": 208,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-south-west",
+      "x": 96,
+      "y": 1328,
+      "width": 832,
+      "height": 16,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-south-east",
+      "x": 1056,
+      "y": 1328,
+      "width": 864,
+      "height": 16,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-north-solid",
+      "x": 1984,
+      "y": 448,
+      "width": 448,
+      "height": 64,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-east-solid",
+      "x": 2400,
+      "y": 512,
+      "width": 32,
+      "height": 832,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-west-upper",
+      "x": 1984,
+      "y": 512,
+      "width": 32,
+      "height": 576,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-west-lower",
+      "x": 1984,
+      "y": 1136,
+      "width": 32,
+      "height": 208,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-south-room-wall",
+      "x": 2112,
+      "y": 1312,
+      "width": 288,
+      "height": 32,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-corridor-glass-1",
+      "x": 2112,
+      "y": 448,
+      "width": 16,
+      "height": 112,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-corridor-glass-2",
+      "x": 2112,
+      "y": 640,
+      "width": 16,
+      "height": 96,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-corridor-glass-3",
+      "x": 2112,
+      "y": 816,
+      "width": 16,
+      "height": 208,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-corridor-glass-4",
+      "x": 2112,
+      "y": 1120,
+      "width": 16,
+      "height": 160,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-room-rail-1",
+      "x": 2128,
+      "y": 640,
+      "width": 272,
+      "height": 16,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-room-rail-2",
+      "x": 2128,
+      "y": 848,
+      "width": 272,
+      "height": 16,
+      "kind": "permanent-glass-rail"
+    }
+  ],
+  "receiverCabinets": [
+    {
+      "id": "studenthub-pod-operations-cabinet-back",
+      "x": 144,
+      "y": 144,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-west",
+      "x": 96,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-east",
+      "x": 400,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-elbow",
+      "x": 144,
+      "y": 176,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-back",
+      "x": 624,
+      "y": 144,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-west",
+      "x": 576,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-east",
+      "x": 880,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-elbow",
+      "x": 816,
+      "y": 176,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-sales-cabinet-back",
+      "x": 1136,
+      "y": 144,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-sales-cabinet-west",
+      "x": 1088,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-sales-cabinet-east",
+      "x": 1392,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-sales-cabinet-elbow",
+      "x": 1136,
+      "y": 176,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-tech-cabinet-back",
+      "x": 1616,
+      "y": 144,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-tech-cabinet-west",
+      "x": 1568,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-tech-cabinet-east",
+      "x": 1872,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-tech-cabinet-elbow",
+      "x": 1808,
+      "y": 176,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-design-media-cabinet-back",
+      "x": 144,
+      "y": 784,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-design-media-cabinet-west",
+      "x": 96,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-design-media-cabinet-east",
+      "x": 400,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-design-media-cabinet-elbow",
+      "x": 144,
+      "y": 816,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-marketing-cabinet-back",
+      "x": 624,
+      "y": 784,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-marketing-cabinet-west",
+      "x": 576,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-marketing-cabinet-east",
+      "x": 880,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-marketing-cabinet-elbow",
+      "x": 816,
+      "y": 816,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-research-cabinet-back",
+      "x": 1136,
+      "y": 784,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-research-cabinet-west",
+      "x": 1088,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-research-cabinet-east",
+      "x": 1392,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-research-cabinet-elbow",
+      "x": 1136,
+      "y": 816,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-growth-cabinet-back",
+      "x": 1616,
+      "y": 784,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-growth-cabinet-west",
+      "x": 1568,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-growth-cabinet-east",
+      "x": 1872,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-growth-cabinet-elbow",
+      "x": 1808,
+      "y": 816,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    }
+  ],
+  "furniture": [
+    {
+      "id": "studenthub-operations-workbench",
+      "x": 208,
+      "y": 208,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-recruitment-workbench",
+      "x": 688,
+      "y": 208,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-sales-workbench",
+      "x": 1200,
+      "y": 208,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-tech-workbench",
+      "x": 1680,
+      "y": 208,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-design-media-workbench",
+      "x": 208,
+      "y": 848,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-marketing-workbench",
+      "x": 688,
+      "y": 848,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-research-workbench",
+      "x": 1200,
+      "y": 848,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "cross-lounge-west-sofa-part-0",
+      "x": 192,
+      "y": 480,
+      "width": 128,
+      "height": 18,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-west-sofa-part-1",
+      "x": 192,
+      "y": 498,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-west-sofa-part-2",
+      "x": 308,
+      "y": 498,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-west-coffee",
+      "x": 224,
+      "y": 576,
+      "width": 64,
+      "height": 32,
+      "kind": "coffee-table"
+    },
+    {
+      "id": "cross-lounge-east-sofa-part-0",
+      "x": 1184,
+      "y": 480,
+      "width": 128,
+      "height": 18,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-east-sofa-part-1",
+      "x": 1184,
+      "y": 498,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-east-sofa-part-2",
+      "x": 1300,
+      "y": 498,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-east-coffee",
+      "x": 1216,
+      "y": 576,
+      "width": 64,
+      "height": 32,
+      "kind": "coffee-table"
+    },
+    {
+      "id": "foyer-south-facing-sofa-part-0",
+      "x": 320,
+      "y": 1120,
+      "width": 128,
+      "height": 18,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-south-facing-sofa-part-1",
+      "x": 320,
+      "y": 1138,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-south-facing-sofa-part-2",
+      "x": 436,
+      "y": 1138,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-coffee",
+      "x": 352,
+      "y": 1200,
+      "width": 64,
+      "height": 32,
+      "kind": "coffee-table"
+    },
+    {
+      "id": "foyer-north-facing-sofa-part-0",
+      "x": 320,
+      "y": 1264,
+      "width": 128,
+      "height": 32,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-north-facing-sofa-part-1",
+      "x": 320,
+      "y": 1232,
+      "width": 12,
+      "height": 32,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-north-facing-sofa-part-2",
+      "x": 436,
+      "y": 1232,
+      "width": 12,
+      "height": 32,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "reception-counter",
+      "x": 1136,
+      "y": 1184,
+      "width": 128,
+      "height": 64,
+      "kind": "reception-counter"
+    },
+    {
+      "id": "meeting-a-table",
+      "x": 2224,
+      "y": 544,
+      "width": 96,
+      "height": 64,
+      "kind": "meeting-table"
+    },
+    {
+      "id": "meeting-b-table",
+      "x": 2224,
+      "y": 736,
+      "width": 96,
+      "height": 64,
+      "kind": "meeting-table"
+    },
+    {
+      "id": "conference-table",
+      "x": 2176,
+      "y": 1024,
+      "width": 192,
+      "height": 96,
+      "kind": "meeting-table"
+    }
+  ]
+}

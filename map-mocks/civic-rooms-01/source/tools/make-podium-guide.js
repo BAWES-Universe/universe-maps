@@ -1,0 +1,2 @@
+const fs=require('fs'),sharp=require('sharp'),R='../universe-civic-rooms';
+const s=`<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1152" viewBox="0 0 80 96"><path d="M8 24H30V31H50V24H72V46H8Z" fill="#b88740" stroke="#654721" stroke-width="1"/><path d="M13 46H67V69H13Z" fill="#24555b" stroke="#a97c3b" stroke-width="2"/><path d="M8 69H72V72H8Z" fill="#73542c"/><path d="M13 43H67V48H13Z" fill="#7f592e"/></svg>`;fs.writeFileSync(R+'/art-source/podium-geometry-guide.svg',s);sharp(Buffer.from(s)).png().toFile(R+'/art-source/podium-geometry-guide.png');

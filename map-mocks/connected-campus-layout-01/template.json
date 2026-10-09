@@ -1,0 +1,28 @@
+{
+  "id": "connected-campus-layout-01",
+  "title": "Connected campus \u00b7 full-layout schematic 01",
+  "kind": "visual-proposal",
+  "status": "unbuilt-spatial-proposal",
+  "catalogReady": false,
+  "playable": false,
+  "map": null,
+  "screenshot": "screenshot.png",
+  "screenshotDescription": "Exact delivered full-campus planning schematic; not a finished render, painted floorplan or built map.",
+  "source": "Reviewed connected-campus planning overview and editable SVG, 2026-10-09",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {},
+  "sourceArtifactSha256": {
+    "01-connected-campus-concept.png": "32bdabb6a5ed9d1189bf836eadab28cf01702d071116c7876383dc78c3cd67c3",
+    "01-connected-campus-concept.svg": "5aa1b6380ea58d517c8168db03237ce7b7a8aa5c3e220b8ed22d254657eeb48f",
+    "SPATIAL-PROPOSAL.md": "e3228554e64e2cc9955d39e26e49483c66efaad60dc707ccfc0d2acd2164f9a0"
+  },
+  "silentAreas": {},
+  "dailyWorkChairs": 4,
+  "knownLimitations": [
+    "Whole-campus schematic only. Surrounding classrooms, events, meeting gallery, market and portal extensions are unbuilt. No TMJ or gameplay acceptance is claimed.",
+    "Footprints are planning relationships, not a pixel-exact trace or verified collision coordinates for the painting.",
+    "The six-seat detailed alternative is preserved only under history/superseded-six-seat-study and is not the current painted floorplan.",
+    "Spatial access boundaries do not configure sound privacy, meeting permissions, bots, commerce or account integrations."
+  ],
+  "archiveValidation": "Delivered PNG and editable SVG preserved exactly; Python renderer has only a portable output-path change; superseded diagram is segregated and labeled."
+}

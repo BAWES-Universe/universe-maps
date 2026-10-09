@@ -1,0 +1,240 @@
+{
+  "status": "full-room source composition, no runtime claim",
+  "canvas": [
+    2496,
+    1408
+  ],
+  "translation": [
+    32,
+    32
+  ],
+  "nativeReceiver": [
+    1024,
+    704
+  ],
+  "benchPlacements": [
+    {
+      "team": "Operations",
+      "table": [
+        208,
+        208,
+        128,
+        96
+      ],
+      "seats": [
+        [
+          240,
+          192,
+          "south"
+        ],
+        [
+          304,
+          192,
+          "south"
+        ],
+        [
+          240,
+          304,
+          "north"
+        ],
+        [
+          304,
+          304,
+          "north"
+        ]
+      ]
+    },
+    {
+      "team": "Recruitment",
+      "table": [
+        688,
+        208,
+        128,
+        96
+      ],
+      "seats": [
+        [
+          720,
+          192,
+          "south"
+        ],
+        [
+          784,
+          192,
+          "south"
+        ],
+        [
+          720,
+          304,
+          "north"
+        ],
+        [
+          784,
+          304,
+          "north"
+        ]
+      ]
+    },
+    {
+      "team": "Sales",
+      "table": [
+        1200,
+        208,
+        128,
+        96
+      ],
+      "seats": [
+        [
+          1232,
+          192,
+          "south"
+        ],
+        [
+          1296,
+          192,
+          "south"
+        ],
+        [
+          1232,
+          304,
+          "north"
+        ],
+        [
+          1296,
+          304,
+          "north"
+        ]
+      ]
+    },
+    {
+      "team": "Tech",
+      "table": [
+        1680,
+        208,
+        128,
+        96
+      ],
+      "seats": [
+        [
+          1712,
+          192,
+          "south"
+        ],
+        [
+          1776,
+          192,
+          "south"
+        ],
+        [
+          1712,
+          304,
+          "north"
+        ],
+        [
+          1776,
+          304,
+          "north"
+        ]
+      ]
+    },
+    {
+      "team": "Design / Media",
+      "table": [
+        208,
+        848,
+        128,
+        96
+      ],
+      "seats": [
+        [
+          240,
+          832,
+          "south"
+        ],
+        [
+          304,
+          832,
+          "south"
+        ],
+        [
+          240,
+          944,
+          "north"
+        ],
+        [
+          304,
+          944,
+          "north"
+        ]
+      ]
+    },
+    {
+      "team": "Marketing",
+      "table": [
+        688,
+        848,
+        128,
+        96
+      ],
+      "seats": [
+        [
+          720,
+          832,
+          "south"
+        ],
+        [
+          784,
+          832,
+          "south"
+        ],
+        [
+          720,
+          944,
+          "north"
+        ],
+        [
+          784,
+          944,
+          "north"
+        ]
+      ]
+    },
+    {
+      "team": "Research",
+      "table": [
+        1200,
+        848,
+        128,
+        96
+      ],
+      "seats": [
+        [
+          1232,
+          832,
+          "south"
+        ],
+        [
+          1296,
+          832,
+          "south"
+        ],
+        [
+          1232,
+          944,
+          "north"
+        ],
+        [
+          1296,
+          944,
+          "north"
+        ]
+      ]
+    }
+  ],
+  "pending": [
+    "precise built-in collision mask",
+    "foreground structural alpha",
+    "final transition roof treatment",
+    "runtime route validation"
+  ]
+}

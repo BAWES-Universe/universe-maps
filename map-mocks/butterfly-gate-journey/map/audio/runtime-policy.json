@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "deploymentEnabled": false,
+  "nativeChannel": "campus-audio-control",
+  "engineReview": {
+    "commit": "3fccc2890dbd30ed48bdefe79b00be0e0c915af8",
+    "deploymentVerified": false
+  },
+  "feetOffsetY": 16,
+  "geometry": {
+    "gate": {
+      "x": 1056,
+      "y": 1664,
+      "width": 960,
+      "height": 1440
+    },
+    "campus": {
+      "x": 2144,
+      "y": 128,
+      "width": 2944,
+      "height": 3104
+    },
+    "silentZones": [
+      {
+        "id": "learning",
+        "x": 2272,
+        "y": 336,
+        "width": 640,
+        "height": 592
+      },
+      {
+        "id": "events",
+        "x": 3360,
+        "y": 336,
+        "width": 640,
+        "height": 592
+      },
+      {
+        "id": "hq",
+        "x": 2272,
+        "y": 1168,
+        "width": 896,
+        "height": 752
+      },
+      {
+        "id": "creative",
+        "x": 4320,
+        "y": 976,
+        "width": 640,
+        "height": 592
+      },
+      {
+        "id": "research",
+        "x": 4320,
+        "y": 1968,
+        "width": 640,
+        "height": 528
+      },
+      {
+        "id": "operations",
+        "x": 2304,
+        "y": 2352,
+        "width": 864,
+        "height": 528
+      }
+    ]
+  },
+  "geometrySha256": "a25374cdc967326373dc6a119992ab73b4b623f9c791ad68d2f8442ee43ad338",
+  "assets": {
+    "fountain": "audio/fountain.mp3",
+    "cascade": "audio/cascade-soft.mp3"
+  },
+  "sources": [
+    {
+      "id": "campus-fountain",
+      "kind": "fountain",
+      "scene": "campus",
+      "url": "audio/fountain.mp3",
+      "center": {
+        "x": 3648,
+        "y": 1456
+      },
+      "paintedRect": {
+        "x": 3552,
+        "y": 1328,
+        "width": 192,
+        "height": 192
+      },
+      "innerRadius": 96,
+      "outerRadius": 208,
+      "bounds": {
+        "x": 3440,
+        "y": 1248,
+        "width": 416,
+        "height": 416
+      },
+      "edgeFade": 48,
+      "maxGain": 0.06
+    },
+    {
+      "id": "gate-west-upper",
+      "kind": "cascade",
+      "scene": "gate",
+      "url": "audio/cascade-soft.mp3",
+      "side": "west",
+      "paintedRect": {
+        "x": 1189,
+        "y": 2339,
+        "width": 39,
+        "height": 85
+      },
+      "center": {
+        "x": 1208.5,
+        "y": 2381.5
+      },
+      "innerRadius": 120,
+      "outerRadius": 260,
+      "maxGain": 0.05,
+      "edgeFade": 48,
+      "bounds": {
+        "x": 1109,
+        "y": 2275,
+        "width": 363,
+        "height": 213
+      }
+    },
+    {
+      "id": "gate-east-upper",
+      "kind": "cascade",
+      "scene": "gate",
+      "url": "audio/cascade-soft.mp3",
+      "side": "east",
+      "paintedRect": {
+        "x": 1843,
+        "y": 2339,
+        "width": 38,
+        "height": 85
+      },
+      "center": {
+        "x": 1862,
+        "y": 2381.5
+      },
+      "innerRadius": 120,
+      "outerRadius": 260,
+      "maxGain": 0.05,
+      "edgeFade": 48,
+      "bounds": {
+        "x": 1632,
+        "y": 2275,
+        "width": 329,
+        "height": 213
+      }
+    },
+    {
+      "id": "gate-west-middle",
+      "kind": "cascade",
+      "scene": "gate",
+      "url": "audio/cascade-soft.mp3",
+      "side": "west",
+      "paintedRect": {
+        "x": 1206,
+        "y": 2508,
+        "width": 31,
+        "height": 97
+      },
+      "center": {
+        "x": 1221.5,
+        "y": 2556.5
+      },
+      "innerRadius": 120,
+      "outerRadius": 260,
+      "maxGain": 0.05,
+      "edgeFade": 48,
+      "bounds": {
+        "x": 1126,
+        "y": 2444,
+        "width": 346,
+        "height": 225
+      }
+    },
+    {
+      "id": "gate-east-middle",
+      "kind": "cascade",
+      "scene": "gate",
+      "url": "audio/cascade-soft.mp3",
+      "side": "east",
+      "paintedRect": {
+        "x": 1840,
+        "y": 2508,
+        "width": 29,
+        "height": 97
+      },
+      "center": {
+        "x": 1854.5,
+        "y": 2556.5
+      },
+      "innerRadius": 120,
+      "outerRadius": 260,
+      "maxGain": 0.05,
+      "edgeFade": 48,
+      "bounds": {
+        "x": 1632,
+        "y": 2444,
+        "width": 317,
+        "height": 225
+      }
+    },
+    {
+      "id": "gate-west-lower",
+      "kind": "cascade",
+      "scene": "gate",
+      "url": "audio/cascade-soft.mp3",
+      "side": "west",
+      "paintedRect": {
+        "x": 1218,
+        "y": 2773,
+        "width": 38,
+        "height": 142
+      },
+      "center": {
+        "x": 1237,
+        "y": 2844
+      },
+      "innerRadius": 120,
+      "outerRadius": 260,
+      "maxGain": 0.05,
+      "edgeFade": 48,
+      "bounds": {
+        "x": 1138,
+        "y": 2709,
+        "width": 334,
+        "height": 270
+      }
+    },
+    {
+      "id": "gate-east-lower",
+      "kind": "cascade",
+      "scene": "gate",
+      "url": "audio/cascade-soft.mp3",
+      "side": "east",
+      "paintedRect": {
+        "x": 1822,
+        "y": 2773,
+        "width": 34,
+        "height": 142
+      },
+      "center": {
+        "x": 1839,
+        "y": 2844
+      },
+      "innerRadius": 120,
+      "outerRadius": 260,
+      "maxGain": 0.05,
+      "edgeFade": 48,
+      "bounds": {
+        "x": 1632,
+        "y": 2709,
+        "width": 304,
+        "height": 270
+      }
+    }
+  ],
+  "globalScore": false,
+  "gateCue": false,
+  "functionalSilence": "Ambient water only; never sets generic silent or alters conversations/media.",
+  "selection": "Strongest eligible single water source. Different water assets unload before switch. Same source uses local gain only.",
+  "requiredAcceptance": [
+    "Compatible native build deployed and verified",
+    "Real desktop and physical-phone listening/mute/pause/position acceptance",
+    "Explicit owner activation approval"
+  ]
+}

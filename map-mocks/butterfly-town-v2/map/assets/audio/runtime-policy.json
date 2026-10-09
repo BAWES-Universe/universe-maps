@@ -1,0 +1,265 @@
+{
+  "version": 3,
+  "direction": "Quiet functional world; localized water only by default",
+  "entry": "silent",
+  "gateApproach": "silent",
+  "townArrival": "silent",
+  "townMusic": "disabled",
+  "interiorMusic": "disabled",
+  "fountain": {
+    "asset": "fountain.mp3",
+    "center": {
+      "x": 3072,
+      "y": 991
+    },
+    "innerRadius": 104,
+    "outerRadius": 160,
+    "bounds": {
+      "x": 2912,
+      "y": 831,
+      "width": 320,
+      "height": 320
+    },
+    "edgeFade": 32,
+    "maxAuthoredGain": 0.35,
+    "requiresLiveListeningCalibration": true,
+    "bodyClearCalibrationPoint": {
+      "x": 3072,
+      "y": 872,
+      "gain": 0.35
+    },
+    "rawAssetIntegratedLUFS": -31.39,
+    "rawAssetTruePeakDbTP": -20.81,
+    "assetUnchanged": true
+  },
+  "waterfalls": [
+    {
+      "id": "gate-west-high",
+      "kind": "waterfall",
+      "url": "assets/audio/cascade-soft.mp3",
+      "scene": "gate",
+      "center": {
+        "x": 726,
+        "y": 775
+      },
+      "paintedRect": {
+        "x": 700,
+        "y": 700,
+        "width": 52,
+        "height": 150
+      },
+      "innerRadius": 220,
+      "outerRadius": 360,
+      "maxGain": 0.35,
+      "bounds": {
+        "x": 636,
+        "y": 636,
+        "width": 316,
+        "height": 388
+      },
+      "edgeFade": 48
+    },
+    {
+      "id": "gate-east-high",
+      "kind": "waterfall",
+      "url": "assets/audio/cascade-soft.mp3",
+      "scene": "gate",
+      "center": {
+        "x": 1322,
+        "y": 775
+      },
+      "paintedRect": {
+        "x": 1296,
+        "y": 700,
+        "width": 52,
+        "height": 150
+      },
+      "innerRadius": 220,
+      "outerRadius": 360,
+      "maxGain": 0.35,
+      "bounds": {
+        "x": 1112,
+        "y": 636,
+        "width": 300,
+        "height": 388
+      },
+      "edgeFade": 48
+    },
+    {
+      "id": "gate-west-upper",
+      "kind": "waterfall",
+      "url": "assets/audio/cascade-soft.mp3",
+      "scene": "gate",
+      "center": {
+        "x": 632,
+        "y": 1127
+      },
+      "paintedRect": {
+        "x": 596,
+        "y": 1056,
+        "width": 72,
+        "height": 142
+      },
+      "innerRadius": 220,
+      "outerRadius": 360,
+      "maxGain": 0.35,
+      "bounds": {
+        "x": 532,
+        "y": 992,
+        "width": 420,
+        "height": 270
+      },
+      "edgeFade": 48
+    },
+    {
+      "id": "gate-east-upper",
+      "kind": "waterfall",
+      "url": "assets/audio/cascade-soft.mp3",
+      "scene": "gate",
+      "center": {
+        "x": 1423,
+        "y": 1127
+      },
+      "paintedRect": {
+        "x": 1388,
+        "y": 1056,
+        "width": 70,
+        "height": 142
+      },
+      "innerRadius": 220,
+      "outerRadius": 360,
+      "maxGain": 0.35,
+      "bounds": {
+        "x": 1112,
+        "y": 992,
+        "width": 410,
+        "height": 270
+      },
+      "edgeFade": 48
+    },
+    {
+      "id": "gate-west-middle",
+      "kind": "waterfall",
+      "url": "assets/audio/cascade-soft.mp3",
+      "scene": "gate",
+      "center": {
+        "x": 637,
+        "y": 1338
+      },
+      "paintedRect": {
+        "x": 600,
+        "y": 1266,
+        "width": 74,
+        "height": 144
+      },
+      "innerRadius": 220,
+      "outerRadius": 360,
+      "maxGain": 0.35,
+      "bounds": {
+        "x": 536,
+        "y": 1202,
+        "width": 416,
+        "height": 272
+      },
+      "edgeFade": 48
+    },
+    {
+      "id": "gate-east-middle",
+      "kind": "waterfall",
+      "url": "assets/audio/cascade-soft.mp3",
+      "scene": "gate",
+      "center": {
+        "x": 1417,
+        "y": 1338
+      },
+      "paintedRect": {
+        "x": 1382,
+        "y": 1266,
+        "width": 70,
+        "height": 144
+      },
+      "innerRadius": 220,
+      "outerRadius": 360,
+      "maxGain": 0.35,
+      "bounds": {
+        "x": 1112,
+        "y": 1202,
+        "width": 404,
+        "height": 272
+      },
+      "edgeFade": 48
+    },
+    {
+      "id": "gate-west-lower",
+      "kind": "waterfall",
+      "url": "assets/audio/cascade-soft.mp3",
+      "scene": "gate",
+      "center": {
+        "x": 654,
+        "y": 1692
+      },
+      "paintedRect": {
+        "x": 620,
+        "y": 1584,
+        "width": 68,
+        "height": 216
+      },
+      "innerRadius": 220,
+      "outerRadius": 360,
+      "maxGain": 0.35,
+      "bounds": {
+        "x": 556,
+        "y": 1520,
+        "width": 396,
+        "height": 344
+      },
+      "edgeFade": 48
+    },
+    {
+      "id": "gate-east-lower",
+      "kind": "waterfall",
+      "url": "assets/audio/cascade-soft.mp3",
+      "scene": "gate",
+      "center": {
+        "x": 1389,
+        "y": 1692
+      },
+      "paintedRect": {
+        "x": 1358,
+        "y": 1584,
+        "width": 62,
+        "height": 216
+      },
+      "innerRadius": 220,
+      "outerRadius": 360,
+      "maxGain": 0.35,
+      "bounds": {
+        "x": 1112,
+        "y": 1520,
+        "width": 372,
+        "height": 344
+      },
+      "edgeFade": 48
+    }
+  ],
+  "waterfallStatus": "Eight painted terrace cascade ROIs verified by map author. Source bounds remain strictly lateral; central x952–1112 is quiet. Native activation is explicitly review-gated.",
+  "functionalAreas": "Silent; current building zones plus explicitly configured meeting/classroom/studio/work zones override all water sources",
+  "gateCue": {
+    "enabledByDefault": false,
+    "asset": "gate-crossing.mp3",
+    "maxAuthoredGain": 0.12,
+    "rule": "Optional future native-channel cue only; never on reload, failed teleport, work-area entry, background-tab return or default crossings"
+  },
+  "featureExit": "Immediate native unload, including both crossfade slots",
+  "overlaps": "Select one water source; never stack",
+  "historicalSketch": "68-second musical preview and scene-* premixes are retained as artistic work only and superseded as runtime direction",
+  "integration": "Inactive pending reviewed native patch and explicit review configuration; no feature-probe auto-enablement",
+  "backgroundPlayback": "Tab visibility never forces mute, unload, or loop restart. Native user controls retain ownership. Actual position, feature exit and functional silent zones still apply.",
+  "cascadeAsset": {
+    "asset": "cascade-soft.mp3",
+    "rawAssetIntegratedLUFS": -31.82,
+    "rawAssetTruePeakDbTP": -21.53,
+    "use": "Bounded actual painted terrace cascades; shared original quiet source, one strongest at a time"
+  },
+  "mobileReleaseGate": "Physical iOS playback and volume attenuation must be tested. HTMLMediaElement volume may be unsupported; continuous authored attenuation is not promised there. Intrinsically quiet sources limit the fallback level."
+}

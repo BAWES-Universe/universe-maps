@@ -1,0 +1,62 @@
+{
+  "actualGamePNG": "final-occupied-native-1x.png",
+  "canvasDimensions": [
+    512,
+    384
+  ],
+  "comparison": "Actual Phaser Canvas output compared with approved static composition; tolerate one channel value for browser/Pillow alpha rounding.",
+  "maximumStaticReferenceChannelDifference": 1,
+  "occupants": [
+    {
+      "center": [
+        192,
+        192
+      ],
+      "headProtectedWorldRect": [
+        176,
+        176,
+        32,
+        14
+      ],
+      "headPixelsChangedBeyondOneChannelLevel": 0,
+      "headMaximumChannelDifference": 1,
+      "torsoRect": [
+        176,
+        191,
+        32,
+        17
+      ],
+      "torsoPixelsChangedBeyondOneChannelLevel": 389,
+      "torsoRegionPixels": 544
+    },
+    {
+      "center": [
+        288,
+        192
+      ],
+      "headProtectedWorldRect": [
+        272,
+        176,
+        32,
+        14
+      ],
+      "headPixelsChangedBeyondOneChannelLevel": 0,
+      "headMaximumChannelDifference": 1,
+      "torsoRect": [
+        272,
+        191,
+        32,
+        17
+      ],
+      "torsoPixelsChangedBeyondOneChannelLevel": 389,
+      "torsoRegionPixels": 544
+    }
+  ],
+  "cropRect": [
+    128,
+    112,
+    240,
+    160
+  ],
+  "diagnosticScaling": "2x nearest-neighbor only; source art, Greg and camera remain native."
+}

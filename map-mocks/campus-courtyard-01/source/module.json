@@ -1,0 +1,265 @@
+{
+  "id": "studenthub-fountain-court",
+  "size": [
+    1472,
+    704
+  ],
+  "worldOrigin": [
+    704,
+    1776
+  ],
+  "tilePacking": 8,
+  "avatarSize": 32,
+  "avatarBody": [
+    -8,
+    0,
+    16,
+    16
+  ],
+  "entryAnchors": {
+    "office": [
+      800,
+      16
+    ],
+    "avenue": [
+      800,
+      688
+    ],
+    "civic": [
+      16,
+      440
+    ],
+    "river": [
+      1456,
+      432
+    ]
+  },
+  "walkablePolygons": [
+    [
+      [
+        752,
+        0
+      ],
+      [
+        848,
+        0
+      ],
+      [
+        848,
+        340
+      ],
+      [
+        880,
+        384
+      ],
+      [
+        1472,
+        400
+      ],
+      [
+        1472,
+        488
+      ],
+      [
+        880,
+        488
+      ],
+      [
+        848,
+        512
+      ],
+      [
+        848,
+        704
+      ],
+      [
+        744,
+        704
+      ],
+      [
+        744,
+        512
+      ],
+      [
+        720,
+        488
+      ],
+      [
+        0,
+        488
+      ],
+      [
+        0,
+        400
+      ],
+      [
+        228,
+        400
+      ],
+      [
+        236,
+        296
+      ],
+      [
+        260,
+        224
+      ],
+      [
+        336,
+        168
+      ],
+      [
+        416,
+        144
+      ],
+      [
+        496,
+        144
+      ],
+      [
+        580,
+        168
+      ],
+      [
+        652,
+        224
+      ],
+      [
+        692,
+        296
+      ],
+      [
+        704,
+        368
+      ],
+      [
+        736,
+        384
+      ],
+      [
+        752,
+        352
+      ]
+    ]
+  ],
+  "obstacles": [
+    {
+      "id": "fountain-stone-basin",
+      "type": "ellipse",
+      "cx": 488,
+      "cy": 303,
+      "rx": 132,
+      "ry": 96
+    },
+    {
+      "id": "bench-northwest",
+      "type": "polygon",
+      "points": [
+        [
+          256,
+          176
+        ],
+        [
+          352,
+          136
+        ],
+        [
+          380,
+          168
+        ],
+        [
+          284,
+          216
+        ]
+      ]
+    },
+    {
+      "id": "bench-west",
+      "type": "polygon",
+      "points": [
+        [
+          238,
+          318
+        ],
+        [
+          266,
+          304
+        ],
+        [
+          292,
+          398
+        ],
+        [
+          264,
+          412
+        ]
+      ]
+    },
+    {
+      "id": "fountain-planter-west",
+      "type": "circle",
+      "cx": 348,
+      "cy": 292,
+      "radius": 24
+    },
+    {
+      "id": "fountain-planter-east",
+      "type": "circle",
+      "cx": 624,
+      "cy": 297,
+      "radius": 24
+    },
+    {
+      "id": "fountain-planter-south",
+      "type": "circle",
+      "cx": 438,
+      "cy": 400,
+      "radius": 24
+    },
+    {
+      "id": "fountain-ring-north-pot",
+      "type": "circle",
+      "cx": 476,
+      "cy": 200,
+      "radius": 20
+    },
+    {
+      "id": "bench-north-pot",
+      "type": "circle",
+      "cx": 274,
+      "cy": 232,
+      "radius": 24
+    },
+    {
+      "id": "bench-south-pot",
+      "type": "circle",
+      "cx": 312,
+      "cy": 412,
+      "radius": 22
+    },
+    {
+      "id": "fountain-right-border-pot",
+      "type": "circle",
+      "cx": 704,
+      "cy": 352,
+      "radius": 24
+    }
+  ],
+  "notes": [
+    "Diagonal garden benches are decorative here, no native seated-position claim.",
+    "Actual painted path registered1776 rather than guide1664;112pxporch connector aligns officeentry.",
+    "Onlyeast rivergarden iswatercourse; firstart accidentalrightwater preserved separately."
+  ],
+  "water": {
+    "center": [
+      488,
+      303
+    ],
+    "radii": [
+      103,
+      70
+    ],
+    "localAudioMaxGain": 0.035
+  },
+  "runtimeVerified": false
+}

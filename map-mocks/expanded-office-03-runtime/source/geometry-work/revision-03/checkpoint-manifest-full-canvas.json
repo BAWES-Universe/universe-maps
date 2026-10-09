@@ -1,0 +1,1255 @@
+{
+  "status": "passed",
+  "coordinateSpace": "rendered full canvas",
+  "translationApplied": {
+    "x": 32,
+    "y": 32
+  },
+  "origins": [
+    "main-entrance",
+    "reception-visitor"
+  ],
+  "goals": [
+    {
+      "id": "studenthub-operations-workbench-north-1",
+      "x": 272,
+      "y": 224,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 264,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-operations-workbench-north-1-plot",
+      "fixtureId": "studenthub-operations-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 304,
+        "y": 224
+      },
+      "contactApproach": {
+        "x": 304,
+        "y": 224,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-operations-workbench-north-2",
+      "x": 336,
+      "y": 224,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 328,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-operations-workbench-north-2-plot",
+      "fixtureId": "studenthub-operations-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 304,
+        "y": 224
+      },
+      "contactApproach": {
+        "x": 304,
+        "y": 224,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-operations-workbench-south-1",
+      "x": 272,
+      "y": 336,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 264,
+        "y": 336,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-operations-workbench-south-1-plot",
+      "fixtureId": "studenthub-operations-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 272,
+        "y": 368
+      },
+      "contactApproach": {
+        "x": 272,
+        "y": 368,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-operations-workbench-south-2",
+      "x": 336,
+      "y": 336,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 328,
+        "y": 336,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-operations-workbench-south-2-plot",
+      "fixtureId": "studenthub-operations-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 336,
+        "y": 368
+      },
+      "contactApproach": {
+        "x": 336,
+        "y": 368,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-1",
+      "x": 752,
+      "y": 224,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 744,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-recruitment-workbench-north-1-plot",
+      "fixtureId": "studenthub-recruitment-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 784,
+        "y": 224
+      },
+      "contactApproach": {
+        "x": 784,
+        "y": 224,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-2",
+      "x": 816,
+      "y": 224,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 808,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-recruitment-workbench-north-2-plot",
+      "fixtureId": "studenthub-recruitment-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 784,
+        "y": 224
+      },
+      "contactApproach": {
+        "x": 784,
+        "y": 224,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-1",
+      "x": 752,
+      "y": 336,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 744,
+        "y": 336,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-recruitment-workbench-south-1-plot",
+      "fixtureId": "studenthub-recruitment-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 752,
+        "y": 368
+      },
+      "contactApproach": {
+        "x": 752,
+        "y": 368,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-2",
+      "x": 816,
+      "y": 336,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 808,
+        "y": 336,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-recruitment-workbench-south-2-plot",
+      "fixtureId": "studenthub-recruitment-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 816,
+        "y": 368
+      },
+      "contactApproach": {
+        "x": 816,
+        "y": 368,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-sales-workbench-north-1",
+      "x": 1264,
+      "y": 224,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1256,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-sales-workbench-north-1-plot",
+      "fixtureId": "studenthub-sales-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 1296,
+        "y": 224
+      },
+      "contactApproach": {
+        "x": 1296,
+        "y": 224,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-sales-workbench-north-2",
+      "x": 1328,
+      "y": 224,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1320,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-sales-workbench-north-2-plot",
+      "fixtureId": "studenthub-sales-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 1296,
+        "y": 224
+      },
+      "contactApproach": {
+        "x": 1296,
+        "y": 224,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-sales-workbench-south-1",
+      "x": 1264,
+      "y": 336,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1256,
+        "y": 336,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-sales-workbench-south-1-plot",
+      "fixtureId": "studenthub-sales-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 1264,
+        "y": 368
+      },
+      "contactApproach": {
+        "x": 1264,
+        "y": 368,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-sales-workbench-south-2",
+      "x": 1328,
+      "y": 336,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1320,
+        "y": 336,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-sales-workbench-south-2-plot",
+      "fixtureId": "studenthub-sales-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 1328,
+        "y": 368
+      },
+      "contactApproach": {
+        "x": 1328,
+        "y": 368,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-tech-workbench-north-1",
+      "x": 1744,
+      "y": 224,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1736,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-tech-workbench-north-1-plot",
+      "fixtureId": "studenthub-tech-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 1776,
+        "y": 224
+      },
+      "contactApproach": {
+        "x": 1776,
+        "y": 224,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-tech-workbench-north-2",
+      "x": 1808,
+      "y": 224,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1800,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-tech-workbench-north-2-plot",
+      "fixtureId": "studenthub-tech-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 1776,
+        "y": 224
+      },
+      "contactApproach": {
+        "x": 1776,
+        "y": 224,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-tech-workbench-south-1",
+      "x": 1744,
+      "y": 336,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1736,
+        "y": 336,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-tech-workbench-south-1-plot",
+      "fixtureId": "studenthub-tech-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 1744,
+        "y": 368
+      },
+      "contactApproach": {
+        "x": 1744,
+        "y": 368,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-tech-workbench-south-2",
+      "x": 1808,
+      "y": 336,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1800,
+        "y": 336,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-tech-workbench-south-2-plot",
+      "fixtureId": "studenthub-tech-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 1808,
+        "y": 368
+      },
+      "contactApproach": {
+        "x": 1808,
+        "y": 368,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-1",
+      "x": 272,
+      "y": 864,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 264,
+        "y": 864,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-design-media-workbench-north-1-plot",
+      "fixtureId": "studenthub-design-media-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 304,
+        "y": 864
+      },
+      "contactApproach": {
+        "x": 304,
+        "y": 864,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-2",
+      "x": 336,
+      "y": 864,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 328,
+        "y": 864,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-design-media-workbench-north-2-plot",
+      "fixtureId": "studenthub-design-media-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 304,
+        "y": 864
+      },
+      "contactApproach": {
+        "x": 304,
+        "y": 864,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-1",
+      "x": 272,
+      "y": 976,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 264,
+        "y": 976,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-design-media-workbench-south-1-plot",
+      "fixtureId": "studenthub-design-media-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 272,
+        "y": 1008
+      },
+      "contactApproach": {
+        "x": 272,
+        "y": 1008,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-2",
+      "x": 336,
+      "y": 976,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 328,
+        "y": 976,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-design-media-workbench-south-2-plot",
+      "fixtureId": "studenthub-design-media-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 336,
+        "y": 1008
+      },
+      "contactApproach": {
+        "x": 336,
+        "y": 1008,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-1",
+      "x": 752,
+      "y": 864,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 744,
+        "y": 864,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-marketing-workbench-north-1-plot",
+      "fixtureId": "studenthub-marketing-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 784,
+        "y": 864
+      },
+      "contactApproach": {
+        "x": 784,
+        "y": 864,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-2",
+      "x": 816,
+      "y": 864,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 808,
+        "y": 864,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-marketing-workbench-north-2-plot",
+      "fixtureId": "studenthub-marketing-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 784,
+        "y": 864
+      },
+      "contactApproach": {
+        "x": 784,
+        "y": 864,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-1",
+      "x": 752,
+      "y": 976,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 744,
+        "y": 976,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-marketing-workbench-south-1-plot",
+      "fixtureId": "studenthub-marketing-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 752,
+        "y": 1008
+      },
+      "contactApproach": {
+        "x": 752,
+        "y": 1008,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-2",
+      "x": 816,
+      "y": 976,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 808,
+        "y": 976,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-marketing-workbench-south-2-plot",
+      "fixtureId": "studenthub-marketing-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 816,
+        "y": 1008
+      },
+      "contactApproach": {
+        "x": 816,
+        "y": 1008,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-research-workbench-north-1",
+      "x": 1264,
+      "y": 864,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1256,
+        "y": 864,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-research-workbench-north-1-plot",
+      "fixtureId": "studenthub-research-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 1296,
+        "y": 864
+      },
+      "contactApproach": {
+        "x": 1296,
+        "y": 864,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-research-workbench-north-2",
+      "x": 1328,
+      "y": 864,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1320,
+        "y": 864,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-research-workbench-north-2-plot",
+      "fixtureId": "studenthub-research-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 1296,
+        "y": 864
+      },
+      "contactApproach": {
+        "x": 1296,
+        "y": 864,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-research-workbench-south-1",
+      "x": 1264,
+      "y": 976,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1256,
+        "y": 976,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-research-workbench-south-1-plot",
+      "fixtureId": "studenthub-research-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 1264,
+        "y": 1008
+      },
+      "contactApproach": {
+        "x": 1264,
+        "y": 1008,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-research-workbench-south-2",
+      "x": 1328,
+      "y": 976,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1320,
+        "y": 976,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-research-workbench-south-2-plot",
+      "fixtureId": "studenthub-research-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 1328,
+        "y": 1008
+      },
+      "contactApproach": {
+        "x": 1328,
+        "y": 1008,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "cross-lounge-west-sofa-seat-1",
+      "x": 260,
+      "y": 548,
+      "facing": "south",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 252,
+        "y": 548,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "cross-lounge-west-sofa"
+    },
+    {
+      "id": "cross-lounge-west-sofa-seat-2",
+      "x": 316,
+      "y": 548,
+      "facing": "south",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 308,
+        "y": 548,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "cross-lounge-west-sofa"
+    },
+    {
+      "id": "cross-lounge-west-guest",
+      "x": 288,
+      "y": 640,
+      "facing": "north",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 280,
+        "y": 640,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "cross-lounge-west-guest-chair",
+      "contactDirection": "north"
+    },
+    {
+      "id": "cross-lounge-east-sofa-seat-1",
+      "x": 1252,
+      "y": 548,
+      "facing": "south",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 1244,
+        "y": 548,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "cross-lounge-east-sofa"
+    },
+    {
+      "id": "cross-lounge-east-sofa-seat-2",
+      "x": 1308,
+      "y": 548,
+      "facing": "south",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 1300,
+        "y": 548,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "cross-lounge-east-sofa"
+    },
+    {
+      "id": "cross-lounge-east-guest",
+      "x": 1280,
+      "y": 640,
+      "facing": "north",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 1272,
+        "y": 640,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "cross-lounge-east-guest-chair",
+      "contactDirection": "north"
+    },
+    {
+      "id": "foyer-south-facing-sofa-seat-1",
+      "x": 388,
+      "y": 1188,
+      "facing": "south",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 380,
+        "y": 1188,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "foyer-south-facing-sofa"
+    },
+    {
+      "id": "foyer-south-facing-sofa-seat-2",
+      "x": 444,
+      "y": 1188,
+      "facing": "south",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 436,
+        "y": 1188,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "foyer-south-facing-sofa"
+    },
+    {
+      "id": "foyer-north-facing-sofa-seat-1",
+      "x": 388,
+      "y": 1280,
+      "facing": "north",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 380,
+        "y": 1280,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "foyer-north-facing-sofa"
+    },
+    {
+      "id": "foyer-north-facing-sofa-seat-2",
+      "x": 444,
+      "y": 1280,
+      "facing": "north",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 436,
+        "y": 1280,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "foyer-north-facing-sofa"
+    },
+    {
+      "id": "reception-staff",
+      "x": 1232,
+      "y": 1200,
+      "facing": "south",
+      "kind": "reception-position",
+      "bodyBounds": {
+        "x": 1224,
+        "y": 1200,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "reception-counter",
+      "contactDirection": "south"
+    },
+    {
+      "id": "reception-visitor",
+      "x": 1232,
+      "y": 1296,
+      "facing": "north",
+      "kind": "reception-position",
+      "bodyBounds": {
+        "x": 1224,
+        "y": 1296,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "reception-counter"
+    },
+    {
+      "id": "meeting-a-north-place",
+      "x": 2304,
+      "y": 560,
+      "facing": "south",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2296,
+        "y": 560,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-a-table",
+      "contactDirection": "south"
+    },
+    {
+      "id": "meeting-a-south-place",
+      "x": 2304,
+      "y": 640,
+      "facing": "north",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2296,
+        "y": 640,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-a-table",
+      "contactDirection": "north"
+    },
+    {
+      "id": "meeting-a-west-place",
+      "x": 2248,
+      "y": 600,
+      "facing": "east",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2240,
+        "y": 600,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-a-table",
+      "contactDirection": "east"
+    },
+    {
+      "id": "meeting-a-east-place",
+      "x": 2360,
+      "y": 600,
+      "facing": "west",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2352,
+        "y": 600,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-a-table",
+      "contactDirection": "west"
+    },
+    {
+      "id": "meeting-b-north-place",
+      "x": 2304,
+      "y": 752,
+      "facing": "south",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2296,
+        "y": 752,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-b-table",
+      "contactDirection": "south"
+    },
+    {
+      "id": "meeting-b-south-place",
+      "x": 2304,
+      "y": 832,
+      "facing": "north",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2296,
+        "y": 832,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-b-table",
+      "contactDirection": "north"
+    },
+    {
+      "id": "meeting-b-west-place",
+      "x": 2248,
+      "y": 792,
+      "facing": "east",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2240,
+        "y": 792,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-b-table",
+      "contactDirection": "east"
+    },
+    {
+      "id": "meeting-b-east-place",
+      "x": 2360,
+      "y": 792,
+      "facing": "west",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2352,
+        "y": 792,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-b-table",
+      "contactDirection": "west"
+    },
+    {
+      "id": "conference-north-place-1",
+      "x": 2240,
+      "y": 1040,
+      "facing": "south",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2232,
+        "y": 1040,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "conference-table",
+      "contactDirection": "south"
+    },
+    {
+      "id": "conference-south-place-1",
+      "x": 2240,
+      "y": 1152,
+      "facing": "north",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2232,
+        "y": 1152,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "conference-table",
+      "contactDirection": "north"
+    },
+    {
+      "id": "conference-north-place-2",
+      "x": 2304,
+      "y": 1040,
+      "facing": "south",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2296,
+        "y": 1040,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "conference-table",
+      "contactDirection": "south"
+    },
+    {
+      "id": "conference-south-place-2",
+      "x": 2304,
+      "y": 1152,
+      "facing": "north",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2296,
+        "y": 1152,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "conference-table",
+      "contactDirection": "north"
+    },
+    {
+      "id": "conference-north-place-3",
+      "x": 2368,
+      "y": 1040,
+      "facing": "south",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2360,
+        "y": 1040,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "conference-table",
+      "contactDirection": "south"
+    },
+    {
+      "id": "conference-south-place-3",
+      "x": 2368,
+      "y": 1152,
+      "facing": "north",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2360,
+        "y": 1152,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "conference-table",
+      "contactDirection": "north"
+    },
+    {
+      "id": "main-entrance",
+      "x": 1024,
+      "y": 1360,
+      "facing": "north",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 1016,
+        "y": 1360,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "shared-spine-center",
+      "x": 1024,
+      "y": 656,
+      "facing": "north",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 1016,
+        "y": 656,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "gallery-main-threshold",
+      "x": 2000,
+      "y": 1136,
+      "facing": "east",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 1992,
+        "y": 1136,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "gallery-corridor-entry",
+      "x": 2096,
+      "y": 1136,
+      "facing": "north",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2088,
+        "y": 1136,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "gallery-south-entry",
+      "x": 2096,
+      "y": 1360,
+      "facing": "north",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2088,
+        "y": 1360,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "meeting-a-threshold",
+      "x": 2176,
+      "y": 616,
+      "facing": "east",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2168,
+        "y": 616,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "meeting-b-threshold",
+      "x": 2176,
+      "y": 792,
+      "facing": "east",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2168,
+        "y": 792,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "conference-threshold",
+      "x": 2176,
+      "y": 1096,
+      "facing": "east",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2168,
+        "y": 1096,
+        "width": 16,
+        "height": 16
+      }
+    }
+  ]
+}

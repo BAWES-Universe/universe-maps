@@ -1,0 +1,443 @@
+{
+  "id": "magical-universe-riverside-garden",
+  "nativeSize": {
+    "width": 1024,
+    "height": 1024
+  },
+  "tileSize": 32,
+  "worldOrigin": {
+    "x": 2176,
+    "y": 1920
+  },
+  "entry": {
+    "x": 16,
+    "y": 272
+  },
+  "attachment": {
+    "x": 0,
+    "y": 288,
+    "width": 96
+  },
+  "avatar": {
+    "frame": {
+      "x": -16,
+      "y": -16,
+      "width": 32,
+      "height": 32
+    },
+    "body": {
+      "x": -8,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "scale": 1
+  },
+  "fire": {
+    "x": 492,
+    "y": 520,
+    "radius": 62,
+    "plannedCenter": {
+      "x": 496,
+      "y": 528
+    }
+  },
+  "walkable": [
+    [
+      [
+        0,
+        244
+      ],
+      [
+        180,
+        244
+      ],
+      [
+        262,
+        256
+      ],
+      [
+        408,
+        240
+      ],
+      [
+        568,
+        232
+      ],
+      [
+        654,
+        236
+      ],
+      [
+        700,
+        264
+      ],
+      [
+        720,
+        300
+      ],
+      [
+        728,
+        424
+      ],
+      [
+        720,
+        708
+      ],
+      [
+        729,
+        838
+      ],
+      [
+        792,
+        960
+      ],
+      [
+        834,
+        1024
+      ],
+      [
+        790,
+        1024
+      ],
+      [
+        756,
+        951
+      ],
+      [
+        683,
+        858
+      ],
+      [
+        650,
+        812
+      ],
+      [
+        650,
+        714
+      ],
+      [
+        635,
+        701
+      ],
+      [
+        590,
+        717
+      ],
+      [
+        539,
+        735
+      ],
+      [
+        451,
+        735
+      ],
+      [
+        379,
+        711
+      ],
+      [
+        322,
+        676
+      ],
+      [
+        290,
+        626
+      ],
+      [
+        274,
+        566
+      ],
+      [
+        280,
+        483
+      ],
+      [
+        295,
+        418
+      ],
+      [
+        325,
+        378
+      ],
+      [
+        304,
+        354
+      ],
+      [
+        249,
+        350
+      ],
+      [
+        208,
+        348
+      ],
+      [
+        151,
+        348
+      ],
+      [
+        125,
+        338
+      ],
+      [
+        0,
+        338
+      ]
+    ]
+  ],
+  "obstacles": [
+    {
+      "id": "fire-ring-and-flower-corners",
+      "type": "circle",
+      "x": 492,
+      "y": 520,
+      "radius": 62
+    },
+    {
+      "id": "north-bench",
+      "type": "rect",
+      "x": 417,
+      "y": 362,
+      "width": 148,
+      "height": 56
+    },
+    {
+      "id": "south-bench",
+      "type": "rect",
+      "x": 417,
+      "y": 602,
+      "width": 148,
+      "height": 59
+    },
+    {
+      "id": "west-bench",
+      "type": "rect",
+      "x": 344,
+      "y": 453,
+      "width": 56,
+      "height": 126
+    },
+    {
+      "id": "east-bench",
+      "type": "rect",
+      "x": 587,
+      "y": 453,
+      "width": 52,
+      "height": 126
+    },
+    {
+      "id": "upper-west-planter",
+      "type": "circle",
+      "x": 327,
+      "y": 349,
+      "radius": 25
+    },
+    {
+      "id": "upper-east-planter",
+      "type": "circle",
+      "x": 625,
+      "y": 320,
+      "radius": 27
+    },
+    {
+      "id": "lower-east-planter",
+      "type": "circle",
+      "x": 624,
+      "y": 698,
+      "radius": 26
+    },
+    {
+      "id": "river-path-planter",
+      "type": "circle",
+      "x": 774,
+      "y": 817,
+      "radius": 22
+    },
+    {
+      "id": "low-left-court-flowers",
+      "type": "circle",
+      "x": 348,
+      "y": 672,
+      "radius": 23
+    }
+  ],
+  "benches": [
+    {
+      "id": "north",
+      "facing": "down",
+      "spriteRow": 0,
+      "approach": {
+        "x": 492,
+        "y": 426
+      },
+      "seat": {
+        "x": 492,
+        "y": 392
+      },
+      "exit": {
+        "x": 492,
+        "y": 426
+      },
+      "bodyPassage": {
+        "x": 470,
+        "y": 384,
+        "width": 44,
+        "height": 62
+      },
+      "occlusion": [
+        444,
+        405,
+        548,
+        414
+      ]
+    },
+    {
+      "id": "south",
+      "facing": "up",
+      "spriteRow": 3,
+      "approach": {
+        "x": 492,
+        "y": 584
+      },
+      "seat": {
+        "x": 492,
+        "y": 623
+      },
+      "exit": {
+        "x": 492,
+        "y": 584
+      },
+      "bodyPassage": {
+        "x": 470,
+        "y": 584,
+        "width": 44,
+        "height": 68
+      },
+      "occlusion": [
+        443,
+        636,
+        548,
+        651
+      ]
+    },
+    {
+      "id": "west",
+      "facing": "right",
+      "spriteRow": 2,
+      "approach": {
+        "x": 416,
+        "y": 520
+      },
+      "seat": {
+        "x": 378,
+        "y": 520
+      },
+      "exit": {
+        "x": 416,
+        "y": 520
+      },
+      "bodyPassage": {
+        "x": 368,
+        "y": 508,
+        "width": 64,
+        "height": 40
+      },
+      "occlusion": [
+        383,
+        483,
+        396,
+        561
+      ]
+    },
+    {
+      "id": "east",
+      "facing": "left",
+      "spriteRow": 1,
+      "approach": {
+        "x": 568,
+        "y": 520
+      },
+      "seat": {
+        "x": 606,
+        "y": 520
+      },
+      "exit": {
+        "x": 568,
+        "y": 520
+      },
+      "bodyPassage": {
+        "x": 558,
+        "y": 508,
+        "width": 65,
+        "height": 40
+      },
+      "occlusion": [
+        589,
+        483,
+        602,
+        561
+      ]
+    }
+  ],
+  "receivers": {
+    "west": {
+      "edge": "west",
+      "from": 240,
+      "to": 336,
+      "center": 288,
+      "clearWidth": 96
+    },
+    "northRiver": {
+      "edge": "north",
+      "from": 836,
+      "to": 1024
+    },
+    "southRiver": {
+      "edge": "south",
+      "from": 874,
+      "to": 1024
+    },
+    "southPath": {
+      "edge": "south",
+      "from": 790,
+      "to": 834,
+      "status": "closed until host connects"
+    }
+  },
+  "quietZonesWorld": [
+    {
+      "id": "StudentHub-all-teams",
+      "x": 512,
+      "y": 320,
+      "width": 1984,
+      "height": 1344
+    },
+    {
+      "id": "meeting-gallery",
+      "x": 2560,
+      "y": 768,
+      "width": 384,
+      "height": 832
+    }
+  ],
+  "audio": {
+    "id": "riverside-fire",
+    "kind": "fire",
+    "url": "./audio/fire-gentle-original.mp3",
+    "center": {
+      "x": 492,
+      "y": 520
+    },
+    "innerRadius": 160,
+    "outerRadius": 384,
+    "maxGain": 0.06,
+    "bounds": {
+      "x": 80,
+      "y": 136,
+      "width": 796,
+      "height": 784
+    },
+    "edgeFade": 48
+  }
+}

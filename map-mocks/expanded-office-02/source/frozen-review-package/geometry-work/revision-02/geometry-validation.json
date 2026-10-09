@@ -1,0 +1,1386 @@
+{
+  "status": "passed",
+  "testCount": 274,
+  "failedCount": 0,
+  "checks": [
+    {
+      "name": "frozen baseline unchanged: collision-grid.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: build_geometry.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: route-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: geometry-validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: source-coordinate-geometry.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: personal-areas.offline-draft.wam",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: verify_routes.cjs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: verify_geometry.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: claim-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen baseline unchanged: route-validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "baseline pods unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "baseline protectedSpines unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "baseline permanentWalls unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "baseline lowDividers unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "baseline doorOpenings unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "baseline rooms unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "baseline reservations unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "baseline namedAreas unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "world dimensions unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native32px avatar unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual TMJ collision packaging specified16px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "seven shared fixed workbenches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "28 provisional seats and compact claims",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "growth bay remains empty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "receiver cabinet masks explicitly pending",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all claim rectangles nonoverlapping, touching edges allowed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "furniture and permanent collision rectangles nonoverlapping",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all collisions exactly fit16px TMJ cells",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "furniture collision list contains only seven shared tables",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench: exact pod offset",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench: full composite canvas fits bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench: fixed shared unowned fixture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench: four separated claim quadrants",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench: no claim owns entire shared table",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench: exact pod offset",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench: full composite canvas fits bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench: fixed shared unowned fixture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench: four separated claim quadrants",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench: no claim owns entire shared table",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench: exact pod offset",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench: full composite canvas fits bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench: fixed shared unowned fixture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench: four separated claim quadrants",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench: no claim owns entire shared table",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench: exact pod offset",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench: full composite canvas fits bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench: fixed shared unowned fixture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench: four separated claim quadrants",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench: no claim owns entire shared table",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench: exact pod offset",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench: full composite canvas fits bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench: fixed shared unowned fixture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench: four separated claim quadrants",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench: no claim owns entire shared table",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench: exact pod offset",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench: full composite canvas fits bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench: fixed shared unowned fixture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench: four separated claim quadrants",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench: no claim owns entire shared table",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench: exact pod offset",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench: full composite canvas fits bay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench: fixed shared unowned fixture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench: four separated claim quadrants",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench: no claim owns entire shared table",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-north-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-operations-workbench-south-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-north-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-recruitment-workbench-south-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-north-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-sales-workbench-south-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-north-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-tech-workbench-south-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-north-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-design-media-workbench-south-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-north-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-marketing-workbench-south-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-north-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-1: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-1: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-1: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-1: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-1: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-1: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-1: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-2: plot in own pod",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-2: seat body in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-2: full chair canvas in own plot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-2: body clear of physical geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-2: claim clear of existing walls/dividers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-2: exact table-edge body contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "studenthub-research-workbench-south-2: unassigned and unscaled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "shared-cross-spine: fully clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entrance-spine: fully clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "main-entrance: actual collision opening",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "main-gallery-door: actual collision opening",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gallery-visitor-entrance: actual collision opening",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-a-door: actual collision opening",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "meeting-b-door: actual collision opening",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "conference-door: actual collision opening",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WAM area/property IDs unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WAM has no editable bench entities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all WAM claim properties draft unassigned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WAM areas match exact proposed64\u00d7112 plots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline WAM passes source2.0.0 schema",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "scope": "Workbench-only source geometry; revised painted receiver/cabinet collision masks are excluded until integration.",
+  "limitations": [
+    "Revised painted receiver/cabinet obstacles are excluded until pixel-aligned masks are assembled. This is not final furnished-bay route acceptance.",
+    "Reported reference cabinet bands around y144..176 and x96..144 / x400..448 to y352 are art observations, not final collision rectangles.",
+    "Use16px TMJ cells for exact table collisions;32px rounding falsely blocks north contact seats. Art and Wokas remain native32px and unscaled.",
+    "The 64\u00d7112 claims touch at edges and cover separate seat/work-edge quadrants. The fixed shared bench deliberately crosses four plots and remains baked, unowned, and non-movable.",
+    "Reception, lounge, and meeting furniture footprints remain the baseline reservations pending separate final integration.",
+    "Geometry checks do not establish live engine behavior, claimability, multiplayer collision policy, privacy, or seated animation."
+  ]
+}

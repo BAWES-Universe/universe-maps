@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "scope": "explicit garden-only integration with fake adapter, not browser output; no global background audio changes",
+  "checks": [
+    {
+      "name": "Gesture and mute required",
+      "passed": true
+    },
+    {
+      "name": "Mapped world source audible at fire",
+      "passed": true
+    },
+    {
+      "name": "Route departure silences only garden source",
+      "passed": true
+    },
+    {
+      "name": "Return restores current map source",
+      "passed": true
+    },
+    {
+      "name": "Office position stays quiet",
+      "passed": true
+    },
+    {
+      "name": "Meeting position stays quiet",
+      "passed": true
+    },
+    {
+      "name": "User mute is preserved",
+      "passed": true
+    },
+    {
+      "name": "Route return never unmutes user",
+      "passed": true
+    },
+    {
+      "name": "Optional local SFX suppression",
+      "passed": true
+    },
+    {
+      "name": "Optional local SFX restore",
+      "passed": true
+    },
+    {
+      "name": "Dispose releases adapter",
+      "passed": true
+    }
+  ],
+  "callCount": 56
+}

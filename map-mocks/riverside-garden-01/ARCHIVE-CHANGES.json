@@ -1,0 +1,17 @@
+{
+  "normalizedTextFiles": [
+    "source/tools/build_native.py",
+    "source/tests/browser-smoke.cjs"
+  ],
+  "normalization": "Machine-specific prefixes replaced with project-relative provenance. Historical scripts may need original sibling projects; no standalone regeneration claim.",
+  "unchangedBinarySources": true,
+  "licensingCorrection": {
+    "file": "source/audio/LICENSE.txt",
+    "change": "Removed unauthorized draft CC0 dedication. Rights undecided; no new license granted.",
+    "originalPreservedLocally": true,
+    "additionalFiles": [
+      "source/audio/synthesize_gentle_fire.py",
+      "source/audio/fire-original-provenance.json"
+    ]
+  }
+}

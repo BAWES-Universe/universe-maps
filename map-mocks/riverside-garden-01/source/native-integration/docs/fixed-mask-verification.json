@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "scope": "fixed architectural masks over original unchanged32\u00d732 facing sprites at permanent grid positions; no per-avatar erased rectangle and no stateful collision",
+  "fixedMaskSha256": "5ab4d78fbfcdfceeeef32bd0812312644f58a3d15a25593baa9e43d289238cfc",
+  "checks": [
+    {
+      "id": "north",
+      "headClearAtFixedPosition": true,
+      "samples": [
+        {
+          "frame": 0,
+          "opaqueHeadPixelsCovered": 0,
+          "opaqueLowerBodyPixelsCovered": 0
+        },
+        {
+          "frame": 1,
+          "opaqueHeadPixelsCovered": 0,
+          "opaqueLowerBodyPixelsCovered": 0
+        },
+        {
+          "frame": 2,
+          "opaqueHeadPixelsCovered": 0,
+          "opaqueLowerBodyPixelsCovered": 0
+        }
+      ]
+    },
+    {
+      "id": "south",
+      "headClearAtFixedPosition": true,
+      "samples": [
+        {
+          "frame": 0,
+          "opaqueHeadPixelsCovered": 0,
+          "opaqueLowerBodyPixelsCovered": 65
+        },
+        {
+          "frame": 1,
+          "opaqueHeadPixelsCovered": 0,
+          "opaqueLowerBodyPixelsCovered": 63
+        },
+        {
+          "frame": 2,
+          "opaqueHeadPixelsCovered": 0,
+          "opaqueLowerBodyPixelsCovered": 66
+        }
+      ]
+    },
+    {
+      "id": "west",
+      "headClearAtFixedPosition": true,
+      "samples": [
+        {
+          "frame": 0,
+          "opaqueHeadPixelsCovered": 0,
+          "opaqueLowerBodyPixelsCovered": 0
+        },
+        {
+          "frame": 1,
+          "opaqueHeadPixelsCovered": 0,
+          "opaqueLowerBodyPixelsCovered": 0
+        },
+        {
+          "frame": 2,
+          "opaqueHeadPixelsCovered": 0,
+          "opaqueLowerBodyPixelsCovered": 0
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "headClearAtFixedPosition": true,
+      "samples": [
+        {
+          "frame": 0,
+          "opaqueHeadPixelsCovered": 0,
+          "opaqueLowerBodyPixelsCovered": 0
+        },
+        {
+          "frame": 1,
+          "opaqueHeadPixelsCovered": 0,
+          "opaqueLowerBodyPixelsCovered": 0
+        },
+        {
+          "frame": 2,
+          "opaqueHeadPixelsCovered": 0,
+          "opaqueLowerBodyPixelsCovered": 0
+        }
+      ]
+    }
+  ],
+  "sittingAnimation": false
+}

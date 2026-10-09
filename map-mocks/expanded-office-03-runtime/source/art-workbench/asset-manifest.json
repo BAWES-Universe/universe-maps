@@ -1,0 +1,343 @@
+{
+  "status": "native artwork and static geometry verified",
+  "generator": "built-in imagegen only; no paid external API",
+  "promptFiles": [
+    "source/workbench-prompt.txt",
+    "source/workbench-orientation-refine-prompt.txt"
+  ],
+  "table": {
+    "source": "source/workbench-master.png",
+    "sourceSha256": "b7faf44bfa8ffcda7921d9e4836ed4bc7131f89ca8976d07760ee06c24fa6035",
+    "sourceCanvas": [
+      1403,
+      1121
+    ],
+    "sourceCrop": [
+      139,
+      131,
+      1266,
+      958
+    ],
+    "registration": {
+      "method": "trim largest alpha>=32 connected object bounds, premultiplied LANCZOS resize to128x96, paste at16,16",
+      "artRedrawn": false,
+      "rotation": false,
+      "reflection": false
+    },
+    "native": {
+      "canvas": [
+        160,
+        128
+      ],
+      "alphaBounds": {
+        "1": [
+          16,
+          16,
+          144,
+          112
+        ],
+        "16": [
+          16,
+          16,
+          144,
+          112
+        ],
+        "32": [
+          16,
+          16,
+          144,
+          112
+        ],
+        "64": [
+          16,
+          16,
+          144,
+          112
+        ],
+        "128": [
+          16,
+          16,
+          144,
+          112
+        ],
+        "240": [
+          16,
+          17,
+          144,
+          112
+        ]
+      },
+      "nonzeroPixels": 11961,
+      "opaquePixels": 11395
+    },
+    "visible": {
+      "canvas": [
+        128,
+        96
+      ],
+      "alphaBounds": {
+        "1": [
+          0,
+          0,
+          128,
+          96
+        ],
+        "16": [
+          0,
+          0,
+          128,
+          96
+        ],
+        "32": [
+          0,
+          0,
+          128,
+          96
+        ],
+        "64": [
+          0,
+          0,
+          128,
+          96
+        ],
+        "128": [
+          0,
+          0,
+          128,
+          96
+        ],
+        "240": [
+          0,
+          1,
+          128,
+          96
+        ]
+      },
+      "nonzeroPixels": 11961,
+      "opaquePixels": 11395
+    },
+    "contact": {
+      "canvas": [
+        160,
+        128
+      ],
+      "alphaBounds": {
+        "1": [
+          18,
+          106,
+          143,
+          112
+        ],
+        "16": [
+          18,
+          106,
+          142,
+          112
+        ],
+        "32": [
+          18,
+          106,
+          142,
+          112
+        ],
+        "64": [
+          18,
+          106,
+          142,
+          112
+        ],
+        "128": [
+          18,
+          106,
+          142,
+          112
+        ],
+        "240": [
+          19,
+          106,
+          141,
+          112
+        ]
+      },
+      "nonzeroPixels": 101,
+      "opaquePixels": 65,
+      "nativePolygons": [
+        [
+          [
+            18,
+            106
+          ],
+          [
+            26,
+            106
+          ],
+          [
+            26,
+            111
+          ],
+          [
+            18,
+            111
+          ]
+        ],
+        [
+          [
+            134,
+            106
+          ],
+          [
+            142,
+            106
+          ],
+          [
+            142,
+            111
+          ],
+          [
+            134,
+            111
+          ]
+        ]
+      ],
+      "meaning": "Actual generated foot/contact pixels; decorative antialiasing is not a physical obstacle."
+    }
+  },
+  "chairs": {
+    "north": {
+      "source": "../universe-expanded-office/art-meeting/assets/chair-north-native.png",
+      "sha256": "395e24ee7246bad853e98295bf0e68edb8a4dffe95ff4a0a485b1d2f7c533094",
+      "unmodifiedCopy": true,
+      "canvas": [
+        48,
+        64
+      ],
+      "alphaBounds": {
+        "1": [
+          9,
+          8,
+          39,
+          44
+        ],
+        "16": [
+          9,
+          8,
+          39,
+          44
+        ],
+        "32": [
+          9,
+          8,
+          39,
+          44
+        ],
+        "64": [
+          9,
+          8,
+          39,
+          44
+        ],
+        "128": [
+          9,
+          8,
+          39,
+          44
+        ],
+        "240": [
+          9,
+          8,
+          39,
+          43
+        ]
+      },
+      "nonzeroPixels": 1020,
+      "opaquePixels": 930
+    },
+    "south": {
+      "source": "../universe-expanded-office/art-meeting/assets/chair-south-native.png",
+      "sha256": "74013215bab90f4d4bc4133fd6fc8993d778a1b719c3b9face44a2e2986abef6",
+      "unmodifiedCopy": true,
+      "canvas": [
+        48,
+        64
+      ],
+      "alphaBounds": {
+        "1": [
+          9,
+          8,
+          39,
+          44
+        ],
+        "16": [
+          9,
+          8,
+          39,
+          44
+        ],
+        "32": [
+          9,
+          8,
+          39,
+          44
+        ],
+        "64": [
+          9,
+          8,
+          39,
+          44
+        ],
+        "128": [
+          9,
+          8,
+          39,
+          44
+        ],
+        "240": [
+          9,
+          8,
+          39,
+          43
+        ]
+      },
+      "nonzeroPixels": 1022,
+      "opaquePixels": 884
+    }
+  },
+  "composite": {
+    "empty": "assets/workbench-four-empty-native.png",
+    "foreground": "assets/workbench-four-foreground-native.png",
+    "visibleTableOrigin": [
+      64,
+      80
+    ],
+    "canvas": [
+      256,
+      256
+    ],
+    "baseAlphaBounds": [
+      64,
+      40,
+      192,
+      204
+    ],
+    "baseBoundsRelativeToVisibleTable": [
+      0,
+      -40,
+      128,
+      164
+    ],
+    "foregroundAlphaBounds": [
+      81,
+      63,
+      175,
+      199
+    ],
+    "foregroundBoundsRelativeToVisibleTable": [
+      17,
+      -17,
+      94,
+      136
+    ]
+  },
+  "checks": "proofs/checks.json",
+  "sourceIntegrity": "proofs/source-integrity.json"
+}

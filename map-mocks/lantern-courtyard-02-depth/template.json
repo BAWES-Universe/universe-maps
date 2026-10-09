@@ -1,0 +1,24 @@
+{
+  "id": "lantern-courtyard-02-depth",
+  "title": "Lantern Courtyard \u00b7 depth proof",
+  "kind": "tiled-map",
+  "status": "experimental",
+  "catalogReady": false,
+  "map": "map/lantern-courtyard.tmj",
+  "screenshot": "screenshot.png",
+  "source": "Universe-Lantern-Courtyard-Proof-01.zip, revision 2",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {
+    "lantern-courtyard-editable.tmj": "70ff0014e2558893571d02c3586c78e21787c2c70441397e609ea48d5428df16",
+    "lantern-courtyard.tmj": "4b47946b069c7ead8db7df468c47bd30e4df9e8bb9f0b371833ad7930e6c3ada"
+  },
+  "silentAreas": {},
+  "knownLimitations": [
+    "Archived review candidate; not added to the live template catalog by this change.",
+    "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+    "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+    "The optional WAM is an import proposal and requires supported map-storage/editor routing; simply hosting it beside a TMJ does not activate entities.",
+    "WAM hosting URLs are normalized to relative local references for safe reuse; original TMJ bytes are unchanged."
+  ],
+  "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+}

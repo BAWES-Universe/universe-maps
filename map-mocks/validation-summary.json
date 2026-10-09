@@ -1,0 +1,123 @@
+{
+  "dateUTC": "2026-10-09",
+  "archiveStructuralValidation": {
+    "passed": true,
+    "candidates": 14,
+    "tiledMaps": 12,
+    "localReferencesChecked": 217,
+    "errors": []
+  },
+  "liveBuild": {
+    "baseline": "passed",
+    "archiveBranch": "passed",
+    "command": "npm run build",
+    "archiveFilesInDist": 0,
+    "publishedInputsUnchanged": true,
+    "inputMaps": [
+      "./adventure.tmj",
+      "./conference.tmj",
+      "./office.tmj",
+      "./public/butterfly-town/v1/butterfly-town.tmj",
+      "./public/lantern-courtyard/lantern-courtyard-editable.tmj",
+      "./public/lantern-courtyard/lantern-courtyard.tmj",
+      "./universe-empty-sharp.tmj",
+      "./universe-empty-wide.tmj",
+      "./universe-empty.tmj",
+      "./universe.tmj"
+    ]
+  },
+  "sourceRebuilds": [
+    {
+      "candidate": "studenthub-interior-01-prototype",
+      "exitCode": 0,
+      "screenshotReproducedExactly": true
+    },
+    {
+      "candidate": "studenthub-interior-02-refined-dark",
+      "exitCode": 0,
+      "screenshotReproducedExactly": true
+    },
+    {
+      "candidate": "studenthub-interior-03-light",
+      "exitCode": 0,
+      "screenshotReproducedExactly": true
+    },
+    {
+      "candidate": "studenthub-roofless-outdoor-office",
+      "exitCode": 0,
+      "screenshotReproducedExactly": true
+    }
+  ],
+  "standaloneLanternValidators": {
+    "depth": 2251,
+    "aligned": 2254
+  },
+  "fullUniverseAcceptance": "Not performed for this archive; no merge or deployment.",
+  "knownSchemaRejections": [
+    "studenthub-connected-glass-proof: three area objects omit visible",
+    "studenthub-roofless-outdoor-office: three area objects omit visible"
+  ],
+  "intentionalIncompleteCheckpoint": "butterfly-town-v2/history/pre-water-checkpoint (not a standalone template)",
+  "artStudyValidation": [
+    {
+      "file": "art-source/studenthub-arrival.blend",
+      "opensInBlender": "4.3.2",
+      "objects": 2752,
+      "meshes": 2736,
+      "materials": 41,
+      "packedImages": 5,
+      "packedImageHashesUnchanged": true,
+      "allResourcesLocal": true,
+      "noExternalLibrariesOrEmbeddedScripts": true,
+      "noPrivatePathsInDecodedFile": true,
+      "nativePixels": [
+        1536,
+        1152
+      ],
+      "sha256": "b9a9da7f42f66f0d5c767899feae3a40720da23716c3958c64276c1f0d6ba6b6"
+    },
+    {
+      "file": "experiments/brown-maquette/scene.blend",
+      "opensInBlender": "4.3.2",
+      "objects": 2125,
+      "meshes": 2109,
+      "materials": 41,
+      "packedImages": 4,
+      "packedImageHashesUnchanged": true,
+      "allResourcesLocal": true,
+      "noExternalLibrariesOrEmbeddedScripts": true,
+      "noPrivatePathsInDecodedFile": true,
+      "nativePixels": [
+        1536,
+        1152
+      ],
+      "sha256": "5a6538f2618e7884af6e765a5d0b6d17c05927a9182abd332d51d19acf423b77"
+    }
+  ],
+  "arrivalStudy": {
+    "playable": false,
+    "tmjFiles": 0,
+    "finalRendersUnchanged": true,
+    "existingThirteenFoldersUnchanged": true,
+    "preparedCompilerAndHarnessExcluded": true
+  },
+  "latestArchiveUpdate": {
+    "designSnapshots": 26,
+    "newTopLevelSnapshots": 12,
+    "original14CandidateFoldersUnchanged": true,
+    "publishedFilesUnchanged": true,
+    "sourceReviewModules": 5,
+    "canonicalMapAcceptanceCountUnchanged": true,
+    "sourceReviewRuntimeAcceptance": false,
+    "knownOfficeWallOverlapAndSocialEgressIssue": true,
+    "nativeRiverReadiness": "unconfirmed",
+    "merged": false,
+    "deployed": false,
+    "typeScriptCheck": "passed",
+    "publishedMapInputs": 10,
+    "publishedMapDiscoveryMatchesBaseline": true,
+    "latestFullBuild": "killed during existing tileset rendering; not passed",
+    "independentArchiveOnlyReview": "passed",
+    "sourceTmjLocalAssetReferencesChecked": 16
+  }
+}

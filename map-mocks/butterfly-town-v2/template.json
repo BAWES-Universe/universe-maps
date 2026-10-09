@@ -1,0 +1,23 @@
+{
+  "id": "butterfly-town-v2",
+  "title": "Butterfly Town \u00b7 scenery and water v2",
+  "kind": "tiled-map",
+  "status": "experimental",
+  "catalogReady": false,
+  "map": "map/butterfly-town.tmj",
+  "screenshot": "screenshot.png",
+  "source": "Butterfly-Town-v2-source-review.zip, final map snapshot",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {
+    "butterfly-town.tmj": "dff32360181d8e4c465756ab5e2f9577faad17083e2bfde19084eac8af749831"
+  },
+  "silentAreas": {},
+  "knownLimitations": [
+    "Archived review candidate; not added to the live template catalog by this change.",
+    "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+    "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+    "Water and audio work was tested in a source-based harness. Native playback and current deployed-engine/device behavior still require acceptance."
+  ],
+  "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest.",
+  "screenshotDescription": "Historical scenery comparison; the right half is this corrected v2 candidate and the left half is v1."
+}

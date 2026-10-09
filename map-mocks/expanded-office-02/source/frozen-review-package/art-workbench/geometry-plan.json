@@ -1,0 +1,398 @@
+{
+  "format": "shared-workbench-native-geometry-v1",
+  "units": "native world pixels; rectangles half-open",
+  "status": "static art and geometry proof; no runtime or live claim wiring",
+  "table": {
+    "visibleRectangle": [
+      0,
+      0,
+      128,
+      96
+    ],
+    "asset": "assets/workbench-native.png",
+    "assetCanvas": [
+      160,
+      128
+    ],
+    "assetOriginRelativeToVisible": [
+      -16,
+      -16
+    ],
+    "collisionRectangle": [
+      0,
+      0,
+      128,
+      96
+    ],
+    "topPlaneApproximateRectangle": [
+      0,
+      0,
+      128,
+      86
+    ],
+    "ownership": "shared fixed fixture; no owner or whole-table claim"
+  },
+  "avatar": {
+    "source": "../universe-native-team-fixture/assets/greg-reference.png",
+    "sourceSha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+    "frameSize": [
+      32,
+      32
+    ],
+    "scale": 1,
+    "bodyRelativeToCenter": [
+      -8,
+      0,
+      16,
+      16
+    ],
+    "protectedHeadRelativeToCenter": [
+      -16,
+      -16,
+      32,
+      14
+    ]
+  },
+  "chairs": {
+    "canvas": [
+      48,
+      64
+    ],
+    "paintedBounds": [
+      9,
+      8,
+      30,
+      36
+    ],
+    "collision": "none; walkable seat allocations"
+  },
+  "seats": [
+    {
+      "id": "north-1",
+      "centerRelativeToTable": [
+        32,
+        -16
+      ],
+      "facing": "south",
+      "frameIndex": 1,
+      "spriteRelativeToTable": [
+        16,
+        -32,
+        32,
+        32
+      ],
+      "bodyRelativeToTable": [
+        24,
+        -16,
+        16,
+        16
+      ],
+      "chairAsset": "assets/chair-south-native.png",
+      "foregroundAsset": "assets/chair-south-foreground-native.png",
+      "chairAnchorLocal": [
+        24,
+        32
+      ],
+      "chairOriginRelativeToTable": [
+        8,
+        -48
+      ],
+      "entryRouteProof": [
+        [
+          16,
+          128
+        ],
+        [
+          32,
+          128
+        ],
+        [
+          32,
+          24
+        ],
+        [
+          96,
+          24
+        ],
+        [
+          96,
+          64
+        ]
+      ],
+      "exitRouteProof": [
+        [
+          96,
+          64
+        ],
+        [
+          96,
+          24
+        ],
+        [
+          32,
+          24
+        ],
+        [
+          32,
+          128
+        ],
+        [
+          16,
+          128
+        ]
+      ],
+      "scale": 1,
+      "livePlayer": false,
+      "claim": "seat/work-edge scope only; exact claim rectangle left to integrating parent"
+    },
+    {
+      "id": "north-2",
+      "centerRelativeToTable": [
+        96,
+        -16
+      ],
+      "facing": "south",
+      "frameIndex": 1,
+      "spriteRelativeToTable": [
+        80,
+        -32,
+        32,
+        32
+      ],
+      "bodyRelativeToTable": [
+        88,
+        -16,
+        16,
+        16
+      ],
+      "chairAsset": "assets/chair-south-native.png",
+      "foregroundAsset": "assets/chair-south-foreground-native.png",
+      "chairAnchorLocal": [
+        24,
+        32
+      ],
+      "chairOriginRelativeToTable": [
+        72,
+        -48
+      ],
+      "entryRouteProof": [
+        [
+          16,
+          128
+        ],
+        [
+          32,
+          128
+        ],
+        [
+          32,
+          24
+        ],
+        [
+          160,
+          24
+        ],
+        [
+          160,
+          64
+        ]
+      ],
+      "exitRouteProof": [
+        [
+          160,
+          64
+        ],
+        [
+          160,
+          24
+        ],
+        [
+          32,
+          24
+        ],
+        [
+          32,
+          128
+        ],
+        [
+          16,
+          128
+        ]
+      ],
+      "scale": 1,
+      "livePlayer": false,
+      "claim": "seat/work-edge scope only; exact claim rectangle left to integrating parent"
+    },
+    {
+      "id": "south-1",
+      "centerRelativeToTable": [
+        32,
+        96
+      ],
+      "facing": "north",
+      "frameIndex": 10,
+      "spriteRelativeToTable": [
+        16,
+        80,
+        32,
+        32
+      ],
+      "bodyRelativeToTable": [
+        24,
+        96,
+        16,
+        16
+      ],
+      "chairAsset": "assets/chair-north-native.png",
+      "foregroundAsset": "assets/chair-north-foreground-native.png",
+      "chairAnchorLocal": [
+        24,
+        16
+      ],
+      "chairOriginRelativeToTable": [
+        8,
+        80
+      ],
+      "entryRouteProof": [
+        [
+          16,
+          128
+        ],
+        [
+          32,
+          128
+        ],
+        [
+          32,
+          224
+        ],
+        [
+          96,
+          224
+        ],
+        [
+          96,
+          176
+        ]
+      ],
+      "exitRouteProof": [
+        [
+          96,
+          176
+        ],
+        [
+          96,
+          224
+        ],
+        [
+          32,
+          224
+        ],
+        [
+          32,
+          128
+        ],
+        [
+          16,
+          128
+        ]
+      ],
+      "scale": 1,
+      "livePlayer": false,
+      "claim": "seat/work-edge scope only; exact claim rectangle left to integrating parent"
+    },
+    {
+      "id": "south-2",
+      "centerRelativeToTable": [
+        96,
+        96
+      ],
+      "facing": "north",
+      "frameIndex": 10,
+      "spriteRelativeToTable": [
+        80,
+        80,
+        32,
+        32
+      ],
+      "bodyRelativeToTable": [
+        88,
+        96,
+        16,
+        16
+      ],
+      "chairAsset": "assets/chair-north-native.png",
+      "foregroundAsset": "assets/chair-north-foreground-native.png",
+      "chairAnchorLocal": [
+        24,
+        16
+      ],
+      "chairOriginRelativeToTable": [
+        72,
+        80
+      ],
+      "entryRouteProof": [
+        [
+          16,
+          128
+        ],
+        [
+          32,
+          128
+        ],
+        [
+          32,
+          224
+        ],
+        [
+          160,
+          224
+        ],
+        [
+          160,
+          176
+        ]
+      ],
+      "exitRouteProof": [
+        [
+          160,
+          176
+        ],
+        [
+          160,
+          224
+        ],
+        [
+          32,
+          224
+        ],
+        [
+          32,
+          128
+        ],
+        [
+          16,
+          128
+        ]
+      ],
+      "scale": 1,
+      "livePlayer": false,
+      "claim": "seat/work-edge scope only; exact claim rectangle left to integrating parent"
+    }
+  ],
+  "proof": {
+    "canvas": [
+      256,
+      256
+    ],
+    "tableVisibleOrigin": [
+      64,
+      80
+    ],
+    "gateway": [
+      16,
+      128
+    ],
+    "allOtherSeatsOccupied": true
+  }
+}

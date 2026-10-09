@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "layout": "small-four-cardinal",
+      "seat": "north-place",
+      "samples": 236,
+      "otherSeatsOccupied": true,
+      "forwardAndReverseSameSweptEnvelope": true,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "layout": "small-four-cardinal",
+      "seat": "south-place",
+      "samples": 204,
+      "otherSeatsOccupied": true,
+      "forwardAndReverseSameSweptEnvelope": true,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "layout": "small-four-cardinal",
+      "seat": "west-place",
+      "samples": 75,
+      "otherSeatsOccupied": true,
+      "forwardAndReverseSameSweptEnvelope": true,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "layout": "small-four-cardinal",
+      "seat": "east-place",
+      "samples": 381,
+      "otherSeatsOccupied": true,
+      "forwardAndReverseSameSweptEnvelope": true,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "layout": "conference-six",
+      "seat": "north-place-1",
+      "samples": 235,
+      "otherSeatsOccupied": true,
+      "forwardAndReverseSameSweptEnvelope": true,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "layout": "conference-six",
+      "seat": "south-place-1",
+      "samples": 203,
+      "otherSeatsOccupied": true,
+      "forwardAndReverseSameSweptEnvelope": true,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "layout": "conference-six",
+      "seat": "north-place-2",
+      "samples": 299,
+      "otherSeatsOccupied": true,
+      "forwardAndReverseSameSweptEnvelope": true,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "layout": "conference-six",
+      "seat": "south-place-2",
+      "samples": 267,
+      "otherSeatsOccupied": true,
+      "forwardAndReverseSameSweptEnvelope": true,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "layout": "conference-six",
+      "seat": "north-place-3",
+      "samples": 363,
+      "otherSeatsOccupied": true,
+      "forwardAndReverseSameSweptEnvelope": true,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "layout": "conference-six",
+      "seat": "south-place-3",
+      "samples": 331,
+      "otherSeatsOccupied": true,
+      "forwardAndReverseSameSweptEnvelope": true,
+      "passed": true,
+      "failures": []
+    }
+  ]
+}

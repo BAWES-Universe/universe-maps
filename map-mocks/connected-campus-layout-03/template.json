@@ -1,0 +1,31 @@
+{
+  "id": "connected-campus-layout-03",
+  "title": "Connected campus \u00b7 expanded seven-team plan 03",
+  "kind": "visual-proposal",
+  "status": "unbuilt-spatial-proposal",
+  "catalogReady": false,
+  "playable": false,
+  "map": null,
+  "screenshot": "screenshot.png",
+  "screenshotDescription": "Preserved review composition; see README for exact runtime evidence limitations.",
+  "archiveDate": "2026-10-09",
+  "source": "Project-authored frozen review files from 2026-10-09",
+  "sourceMapSha256": {},
+  "sourceArtifactSha256": {
+    "source/04-expanded-office-riverside-plan-v3.png": "842b7b6c05931bfe61cb82833644bb72d07a123871873aa232efc1467e12fa1a",
+    "source/04-expanded-office-riverside-plan-v3.svg": "f07ab7cb933e3b1f070a8f5c74ac535d128410703d29134facb550b05df38ffc",
+    "source/render_layout_v3.py": "be2f456bd04ed8262d18ff07e14ad02b750d4bfa8be144acc30652eac51f77ba",
+    "source/build_v3.py": "734650299fa2087396a30f0473f1939098def57d1dba5f473bf0dcb269ed87de",
+    "source/render_layout.py": "8cf2b3cdf89e093ea77042b39ecd737812c7c2991b154b65d0c6cbb932c141ba",
+    "source/SPATIAL-PROPOSAL.md": "4f634e8d26e80b65eab6f3d02c39276cecd2b1daba299659acf7b27528c9adde",
+    "source/03-connected-campus-riverside-v2.png": "f515c486a0866a83cd9ffd85e50248749470cf93aaa00c85d64996181f438b7f",
+    "source/03-connected-campus-riverside-v2.svg": "904f40a9cee56a12931b1b90ba06596bf0dd0435a26f4e5d5ecd049f6fbf7925"
+  },
+  "knownLimitations": [
+    "Planning schematic for seven team clusters, public paths, riverside garden and market behind HQ. Geometry is a proposal, not a collision-verified built campus.",
+    "Previous riverside layout 02 PNG/SVG is retained as a discrete planning revision within source.",
+    "No live claims, social isolation, meeting services, bot or commerce integrations are configured by this diagram.",
+    "Rendering scripts retain historical dependencies and may need path adaptation; editable SVGs and delivered PNGs are preserved unchanged."
+  ],
+  "archiveValidation": "Source and preview copy hashes verified. Machine paths removed from listed text files; no new runtime validation."
+}

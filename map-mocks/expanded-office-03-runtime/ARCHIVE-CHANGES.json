@@ -1,0 +1,27 @@
+{
+  "normalizedTextFiles": [
+    "source/art-reception-lounge/geometry-plan.json",
+    "source/art-reception-lounge/asset-manifest.json",
+    "source/runtime-work/README.md",
+    "source/runtime-work/source-integrity.json",
+    "source/compiled-work/runtime-geometry.json",
+    "source/art-workbench/geometry-plan.json",
+    "source/art-workbench/asset-manifest.json",
+    "source/tools/assemble_office.py",
+    "source/tools/assemble_office_v2.py",
+    "source/art-meeting/geometry-plan.json",
+    "source/art-reception-lounge/tools/make_geometry.py",
+    "source/art-workbench/tools/package_assets.py",
+    "source/art-workbench/source/generation-record.json",
+    "source/art-workbench/proofs/source-integrity.json",
+    "source/geometry-work/revision-03/verify_final_geometry.py",
+    "source/geometry-work/revision-03/verify_assembled_heads.py",
+    "source/geometry-work/revision-03/source-coordinate-geometry.json",
+    "source/geometry-work/revision-03/assembled-head-clearance.json",
+    "source/art-meeting/tools/build_geometry.py",
+    "source/art-meeting/source/generation-record.json",
+    "source/geometry-work/revision-03/verify_final_routes.cjs"
+  ],
+  "normalization": "Machine-specific prefixes replaced with project-relative provenance. Historical scripts may need original sibling projects; no standalone regeneration claim.",
+  "unchangedBinarySources": true
+}

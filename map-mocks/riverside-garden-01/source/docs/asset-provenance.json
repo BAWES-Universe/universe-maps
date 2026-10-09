@@ -1,0 +1,36 @@
+{
+  "nativeSize": [
+    1024,
+    1024
+  ],
+  "sourceSize": [
+    1254,
+    1254
+  ],
+  "renderSampling": "uniform reduction with Lanczos; no avatar scaling",
+  "gregFrame": [
+    32,
+    32
+  ],
+  "gregHash": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+  "worldOrigin": [
+    2176,
+    1920
+  ],
+  "generationTool": "built-in image_gen",
+  "selectedSource": "art-source/garden-master-v3.png",
+  "attempts": [
+    {
+      "version": 1,
+      "status": "rejected for northward geometry drift; preserved"
+    },
+    {
+      "version": 2,
+      "status": "court improved; west entrance too narrow/north; preserved"
+    },
+    {
+      "version": 3,
+      "status": "selected, west entry widened and shifted; as-built collision geometry follows actual painting"
+    }
+  ]
+}

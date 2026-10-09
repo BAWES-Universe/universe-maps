@@ -1,0 +1,5514 @@
+{
+  "format": "studenthub-source-geometry-v3",
+  "status": "assembled-art geometry and route checks passed; compiled runtime verification separate",
+  "coordinateSystem": {
+    "units": "native world pixels",
+    "gridSize": 16,
+    "rectangleConvention": "half-open",
+    "origin": "upper-left of source main office; rendered source origin at(32,32)",
+    "mapEnvelope": {
+      "x": 0,
+      "y": 0,
+      "width": 2432,
+      "height": 1344
+    },
+    "mainShell": {
+      "x": 0,
+      "y": 0,
+      "width": 1984,
+      "height": 1344
+    },
+    "avatarFrame": {
+      "x": -16,
+      "y": -16,
+      "width": 32,
+      "height": 32
+    },
+    "avatarBody": {
+      "x": -8,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "avatarScale": 1,
+    "artAndAvatarNativeScale": 32,
+    "gridPurpose": "16px TMJ cells preserve exact workbench/body collision; native32px art and Wokas are unchanged"
+  },
+  "floor": {
+    "envelopes": [
+      {
+        "id": "main-shell-floor-envelope",
+        "name": "Main shell envelope",
+        "x": 0,
+        "y": 0,
+        "width": 1984,
+        "height": 1344
+      },
+      {
+        "id": "gallery-floor-envelope",
+        "name": "Attached gallery envelope",
+        "x": 1984,
+        "y": 448,
+        "width": 448,
+        "height": 896
+      }
+    ],
+    "exteriorBoundaryPolygon": [
+      [
+        0,
+        0
+      ],
+      [
+        1984,
+        0
+      ],
+      [
+        1984,
+        448
+      ],
+      [
+        2432,
+        448
+      ],
+      [
+        2432,
+        1344
+      ],
+      [
+        0,
+        1344
+      ]
+    ],
+    "policy": "Union of source main and gallery floor envelopes minus allCollisionRectangles. Outside floor is blocked. Full canvas adds32px outer margin."
+  },
+  "permanentWalls": [
+    {
+      "id": "main-rear-solid",
+      "x": 0,
+      "y": 0,
+      "width": 1984,
+      "height": 176,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-west-solid",
+      "x": 0,
+      "y": 176,
+      "width": 96,
+      "height": 1168,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-east-solid-north",
+      "x": 1920,
+      "y": 176,
+      "width": 64,
+      "height": 912,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-east-solid-south",
+      "x": 1920,
+      "y": 1136,
+      "width": 64,
+      "height": 208,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-south-west",
+      "x": 96,
+      "y": 1328,
+      "width": 832,
+      "height": 16,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-south-east",
+      "x": 1056,
+      "y": 1328,
+      "width": 864,
+      "height": 16,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-north-solid",
+      "x": 1984,
+      "y": 448,
+      "width": 448,
+      "height": 64,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-east-solid",
+      "x": 2400,
+      "y": 512,
+      "width": 32,
+      "height": 832,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-west-upper",
+      "x": 1984,
+      "y": 512,
+      "width": 32,
+      "height": 576,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-west-lower",
+      "x": 1984,
+      "y": 1136,
+      "width": 32,
+      "height": 208,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-south-room-wall",
+      "x": 2112,
+      "y": 1312,
+      "width": 288,
+      "height": 32,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-corridor-glass-1",
+      "x": 2112,
+      "y": 448,
+      "width": 16,
+      "height": 112,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-corridor-glass-2",
+      "x": 2112,
+      "y": 640,
+      "width": 16,
+      "height": 96,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-corridor-glass-3",
+      "x": 2112,
+      "y": 816,
+      "width": 16,
+      "height": 208,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-corridor-glass-4",
+      "x": 2112,
+      "y": 1120,
+      "width": 16,
+      "height": 160,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-room-rail-1",
+      "x": 2128,
+      "y": 640,
+      "width": 272,
+      "height": 16,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-room-rail-2",
+      "x": 2128,
+      "y": 848,
+      "width": 272,
+      "height": 16,
+      "kind": "permanent-glass-rail"
+    }
+  ],
+  "doorOpenings": [
+    {
+      "id": "main-entrance",
+      "x": 928,
+      "y": 1328,
+      "width": 128,
+      "height": 16
+    },
+    {
+      "id": "office-gallery-connection",
+      "x": 1920,
+      "y": 1088,
+      "width": 96,
+      "height": 48
+    },
+    {
+      "id": "gallery-visitor-entrance",
+      "x": 2016,
+      "y": 1312,
+      "width": 96,
+      "height": 32
+    },
+    {
+      "id": "meeting-a-door",
+      "x": 2112,
+      "y": 560,
+      "width": 16,
+      "height": 80
+    },
+    {
+      "id": "meeting-b-door",
+      "x": 2112,
+      "y": 736,
+      "width": 16,
+      "height": 80
+    },
+    {
+      "id": "conference-door",
+      "x": 2112,
+      "y": 1024,
+      "width": 16,
+      "height": 96
+    }
+  ],
+  "lowDividers": [
+    {
+      "id": "studenthub-pod-operations-cabinet-back",
+      "x": 144,
+      "y": 144,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-west",
+      "x": 96,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-east",
+      "x": 400,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-elbow",
+      "x": 144,
+      "y": 176,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-back",
+      "x": 624,
+      "y": 144,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-west",
+      "x": 576,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-east",
+      "x": 880,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-elbow",
+      "x": 816,
+      "y": 176,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-sales-cabinet-back",
+      "x": 1136,
+      "y": 144,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-sales-cabinet-west",
+      "x": 1088,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-sales-cabinet-east",
+      "x": 1392,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-sales-cabinet-elbow",
+      "x": 1136,
+      "y": 176,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-tech-cabinet-back",
+      "x": 1616,
+      "y": 144,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-tech-cabinet-west",
+      "x": 1568,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-tech-cabinet-east",
+      "x": 1872,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-tech-cabinet-elbow",
+      "x": 1808,
+      "y": 176,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-design-media-cabinet-back",
+      "x": 144,
+      "y": 784,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-design-media-cabinet-west",
+      "x": 96,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-design-media-cabinet-east",
+      "x": 400,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-design-media-cabinet-elbow",
+      "x": 144,
+      "y": 816,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-marketing-cabinet-back",
+      "x": 624,
+      "y": 784,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-marketing-cabinet-west",
+      "x": 576,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-marketing-cabinet-east",
+      "x": 880,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-marketing-cabinet-elbow",
+      "x": 816,
+      "y": 816,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-research-cabinet-back",
+      "x": 1136,
+      "y": 784,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-research-cabinet-west",
+      "x": 1088,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-research-cabinet-east",
+      "x": 1392,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-research-cabinet-elbow",
+      "x": 1136,
+      "y": 816,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-growth-cabinet-back",
+      "x": 1616,
+      "y": 784,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-growth-cabinet-west",
+      "x": 1568,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-growth-cabinet-east",
+      "x": 1872,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-growth-cabinet-elbow",
+      "x": 1808,
+      "y": 816,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    }
+  ],
+  "protectedSpines": [
+    {
+      "id": "central-entrance-spine",
+      "x": 928,
+      "y": 176,
+      "width": 128,
+      "height": 1168
+    }
+  ],
+  "pods": [
+    {
+      "id": "studenthub-pod-operations",
+      "name": "Operations",
+      "x": 64,
+      "y": 64,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 160,
+        "y": 416,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-recruitment",
+      "name": "Recruitment",
+      "x": 544,
+      "y": 64,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 640,
+        "y": 416,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-sales",
+      "name": "Sales",
+      "x": 1056,
+      "y": 64,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 1152,
+        "y": 416,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-tech",
+      "name": "Tech",
+      "x": 1536,
+      "y": 64,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 1632,
+        "y": 416,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-design-media",
+      "name": "Design / Media",
+      "x": 64,
+      "y": 704,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 160,
+        "y": 704,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-marketing",
+      "name": "Marketing",
+      "x": 544,
+      "y": 704,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 640,
+        "y": 704,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-research",
+      "name": "Research",
+      "x": 1056,
+      "y": 704,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 1152,
+        "y": 704,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-growth",
+      "name": "Flexible growth",
+      "x": 1536,
+      "y": 704,
+      "width": 352,
+      "height": 384,
+      "kind": "growth-reservation",
+      "initialMapStationCount": 0,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 1632,
+        "y": 704,
+        "width": 160,
+        "height": 32
+      }
+    }
+  ],
+  "rooms": [
+    {
+      "id": "meeting-a",
+      "name": "Meeting A",
+      "x": 2128,
+      "y": 512,
+      "width": 272,
+      "height": 128
+    },
+    {
+      "id": "meeting-b",
+      "name": "Meeting B",
+      "x": 2128,
+      "y": 656,
+      "width": 272,
+      "height": 192
+    },
+    {
+      "id": "conference",
+      "name": "Conference",
+      "x": 2128,
+      "y": 864,
+      "width": 272,
+      "height": 448
+    }
+  ],
+  "reservations": [],
+  "stations": [
+    {
+      "id": "studenthub-operations-workbench-north-1",
+      "name": "Operations provisional north-1 seat",
+      "podId": "studenthub-pod-operations",
+      "sharedWorkbenchId": "studenthub-operations-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-operations-workbench-north-1-plot",
+      "seat": {
+        "x": 240,
+        "y": 192,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 224,
+          "y": 176,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 232,
+          "y": 192,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 216,
+        "y": 160,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 272,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 272,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-operations-workbench-north-2",
+      "name": "Operations provisional north-2 seat",
+      "podId": "studenthub-pod-operations",
+      "sharedWorkbenchId": "studenthub-operations-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-operations-workbench-north-2-plot",
+      "seat": {
+        "x": 304,
+        "y": 192,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 288,
+          "y": 176,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 296,
+          "y": 192,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 280,
+        "y": 160,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 272,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 272,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-operations-workbench-south-1",
+      "name": "Operations provisional south-1 seat",
+      "podId": "studenthub-pod-operations",
+      "sharedWorkbenchId": "studenthub-operations-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-operations-workbench-south-1-plot",
+      "seat": {
+        "x": 240,
+        "y": 304,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 224,
+          "y": 288,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 232,
+          "y": 304,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 216,
+        "y": 288,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 240,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 240,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-operations-workbench-south-2",
+      "name": "Operations provisional south-2 seat",
+      "podId": "studenthub-pod-operations",
+      "sharedWorkbenchId": "studenthub-operations-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-operations-workbench-south-2-plot",
+      "seat": {
+        "x": 304,
+        "y": 304,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 288,
+          "y": 288,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 296,
+          "y": 304,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 280,
+        "y": 288,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 304,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 304,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-1",
+      "name": "Recruitment provisional north-1 seat",
+      "podId": "studenthub-pod-recruitment",
+      "sharedWorkbenchId": "studenthub-recruitment-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-recruitment-workbench-north-1-plot",
+      "seat": {
+        "x": 720,
+        "y": 192,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 704,
+          "y": 176,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 712,
+          "y": 192,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 696,
+        "y": 160,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 752,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 752,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-2",
+      "name": "Recruitment provisional north-2 seat",
+      "podId": "studenthub-pod-recruitment",
+      "sharedWorkbenchId": "studenthub-recruitment-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-recruitment-workbench-north-2-plot",
+      "seat": {
+        "x": 784,
+        "y": 192,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 768,
+          "y": 176,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 776,
+          "y": 192,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 760,
+        "y": 160,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 752,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 752,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-1",
+      "name": "Recruitment provisional south-1 seat",
+      "podId": "studenthub-pod-recruitment",
+      "sharedWorkbenchId": "studenthub-recruitment-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-recruitment-workbench-south-1-plot",
+      "seat": {
+        "x": 720,
+        "y": 304,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 704,
+          "y": 288,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 712,
+          "y": 304,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 696,
+        "y": 288,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 720,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 720,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-2",
+      "name": "Recruitment provisional south-2 seat",
+      "podId": "studenthub-pod-recruitment",
+      "sharedWorkbenchId": "studenthub-recruitment-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-recruitment-workbench-south-2-plot",
+      "seat": {
+        "x": 784,
+        "y": 304,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 768,
+          "y": 288,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 776,
+          "y": 304,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 760,
+        "y": 288,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 784,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 784,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-sales-workbench-north-1",
+      "name": "Sales provisional north-1 seat",
+      "podId": "studenthub-pod-sales",
+      "sharedWorkbenchId": "studenthub-sales-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-sales-workbench-north-1-plot",
+      "seat": {
+        "x": 1232,
+        "y": 192,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 1216,
+          "y": 176,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 1224,
+          "y": 192,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 1208,
+        "y": 160,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 1264,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 1264,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-sales-workbench-north-2",
+      "name": "Sales provisional north-2 seat",
+      "podId": "studenthub-pod-sales",
+      "sharedWorkbenchId": "studenthub-sales-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-sales-workbench-north-2-plot",
+      "seat": {
+        "x": 1296,
+        "y": 192,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 1280,
+          "y": 176,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 1288,
+          "y": 192,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 1272,
+        "y": 160,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 1264,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 1264,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-sales-workbench-south-1",
+      "name": "Sales provisional south-1 seat",
+      "podId": "studenthub-pod-sales",
+      "sharedWorkbenchId": "studenthub-sales-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-sales-workbench-south-1-plot",
+      "seat": {
+        "x": 1232,
+        "y": 304,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 1216,
+          "y": 288,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 1224,
+          "y": 304,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 1208,
+        "y": 288,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 1232,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 1232,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-sales-workbench-south-2",
+      "name": "Sales provisional south-2 seat",
+      "podId": "studenthub-pod-sales",
+      "sharedWorkbenchId": "studenthub-sales-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-sales-workbench-south-2-plot",
+      "seat": {
+        "x": 1296,
+        "y": 304,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 1280,
+          "y": 288,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 1288,
+          "y": 304,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 1272,
+        "y": 288,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 1296,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 1296,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-tech-workbench-north-1",
+      "name": "Tech provisional north-1 seat",
+      "podId": "studenthub-pod-tech",
+      "sharedWorkbenchId": "studenthub-tech-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-tech-workbench-north-1-plot",
+      "seat": {
+        "x": 1712,
+        "y": 192,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 1696,
+          "y": 176,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 1704,
+          "y": 192,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 1688,
+        "y": 160,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 1744,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 1744,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-tech-workbench-north-2",
+      "name": "Tech provisional north-2 seat",
+      "podId": "studenthub-pod-tech",
+      "sharedWorkbenchId": "studenthub-tech-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-tech-workbench-north-2-plot",
+      "seat": {
+        "x": 1776,
+        "y": 192,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 1760,
+          "y": 176,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 1768,
+          "y": 192,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 1752,
+        "y": 160,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 1744,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 1744,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-tech-workbench-south-1",
+      "name": "Tech provisional south-1 seat",
+      "podId": "studenthub-pod-tech",
+      "sharedWorkbenchId": "studenthub-tech-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-tech-workbench-south-1-plot",
+      "seat": {
+        "x": 1712,
+        "y": 304,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 1696,
+          "y": 288,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 1704,
+          "y": 304,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 1688,
+        "y": 288,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 1712,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 1712,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-tech-workbench-south-2",
+      "name": "Tech provisional south-2 seat",
+      "podId": "studenthub-pod-tech",
+      "sharedWorkbenchId": "studenthub-tech-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-tech-workbench-south-2-plot",
+      "seat": {
+        "x": 1776,
+        "y": 304,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 1760,
+          "y": 288,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 1768,
+          "y": 304,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 1752,
+        "y": 288,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 1776,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 1776,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-1",
+      "name": "Design / Media provisional north-1 seat",
+      "podId": "studenthub-pod-design-media",
+      "sharedWorkbenchId": "studenthub-design-media-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-design-media-workbench-north-1-plot",
+      "seat": {
+        "x": 240,
+        "y": 832,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 224,
+          "y": 816,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 232,
+          "y": 832,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 216,
+        "y": 800,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 272,
+        "y": 832
+      },
+      "contactApproach": {
+        "x": 272,
+        "y": 832,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-2",
+      "name": "Design / Media provisional north-2 seat",
+      "podId": "studenthub-pod-design-media",
+      "sharedWorkbenchId": "studenthub-design-media-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-design-media-workbench-north-2-plot",
+      "seat": {
+        "x": 304,
+        "y": 832,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 288,
+          "y": 816,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 296,
+          "y": 832,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 280,
+        "y": 800,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 272,
+        "y": 832
+      },
+      "contactApproach": {
+        "x": 272,
+        "y": 832,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-1",
+      "name": "Design / Media provisional south-1 seat",
+      "podId": "studenthub-pod-design-media",
+      "sharedWorkbenchId": "studenthub-design-media-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-design-media-workbench-south-1-plot",
+      "seat": {
+        "x": 240,
+        "y": 944,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 224,
+          "y": 928,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 232,
+          "y": 944,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 216,
+        "y": 928,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 240,
+        "y": 976
+      },
+      "contactApproach": {
+        "x": 240,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-2",
+      "name": "Design / Media provisional south-2 seat",
+      "podId": "studenthub-pod-design-media",
+      "sharedWorkbenchId": "studenthub-design-media-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-design-media-workbench-south-2-plot",
+      "seat": {
+        "x": 304,
+        "y": 944,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 288,
+          "y": 928,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 296,
+          "y": 944,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 280,
+        "y": 928,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 304,
+        "y": 976
+      },
+      "contactApproach": {
+        "x": 304,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-1",
+      "name": "Marketing provisional north-1 seat",
+      "podId": "studenthub-pod-marketing",
+      "sharedWorkbenchId": "studenthub-marketing-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-marketing-workbench-north-1-plot",
+      "seat": {
+        "x": 720,
+        "y": 832,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 704,
+          "y": 816,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 712,
+          "y": 832,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 696,
+        "y": 800,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 752,
+        "y": 832
+      },
+      "contactApproach": {
+        "x": 752,
+        "y": 832,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-2",
+      "name": "Marketing provisional north-2 seat",
+      "podId": "studenthub-pod-marketing",
+      "sharedWorkbenchId": "studenthub-marketing-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-marketing-workbench-north-2-plot",
+      "seat": {
+        "x": 784,
+        "y": 832,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 768,
+          "y": 816,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 776,
+          "y": 832,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 760,
+        "y": 800,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 752,
+        "y": 832
+      },
+      "contactApproach": {
+        "x": 752,
+        "y": 832,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-1",
+      "name": "Marketing provisional south-1 seat",
+      "podId": "studenthub-pod-marketing",
+      "sharedWorkbenchId": "studenthub-marketing-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-marketing-workbench-south-1-plot",
+      "seat": {
+        "x": 720,
+        "y": 944,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 704,
+          "y": 928,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 712,
+          "y": 944,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 696,
+        "y": 928,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 720,
+        "y": 976
+      },
+      "contactApproach": {
+        "x": 720,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-2",
+      "name": "Marketing provisional south-2 seat",
+      "podId": "studenthub-pod-marketing",
+      "sharedWorkbenchId": "studenthub-marketing-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-marketing-workbench-south-2-plot",
+      "seat": {
+        "x": 784,
+        "y": 944,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 768,
+          "y": 928,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 776,
+          "y": 944,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 760,
+        "y": 928,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 784,
+        "y": 976
+      },
+      "contactApproach": {
+        "x": 784,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-research-workbench-north-1",
+      "name": "Research provisional north-1 seat",
+      "podId": "studenthub-pod-research",
+      "sharedWorkbenchId": "studenthub-research-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-research-workbench-north-1-plot",
+      "seat": {
+        "x": 1232,
+        "y": 832,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 1216,
+          "y": 816,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 1224,
+          "y": 832,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 1208,
+        "y": 800,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 1264,
+        "y": 832
+      },
+      "contactApproach": {
+        "x": 1264,
+        "y": 832,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-research-workbench-north-2",
+      "name": "Research provisional north-2 seat",
+      "podId": "studenthub-pod-research",
+      "sharedWorkbenchId": "studenthub-research-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-research-workbench-north-2-plot",
+      "seat": {
+        "x": 1296,
+        "y": 832,
+        "facing": "south",
+        "frameIndex": 1,
+        "spriteBounds": {
+          "x": 1280,
+          "y": 816,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 1288,
+          "y": 832,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 1272,
+        "y": 800,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-south-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-south-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 1264,
+        "y": 832
+      },
+      "contactApproach": {
+        "x": 1264,
+        "y": 832,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-research-workbench-south-1",
+      "name": "Research provisional south-1 seat",
+      "podId": "studenthub-pod-research",
+      "sharedWorkbenchId": "studenthub-research-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-research-workbench-south-1-plot",
+      "seat": {
+        "x": 1232,
+        "y": 944,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 1216,
+          "y": 928,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 1224,
+          "y": 944,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 1208,
+        "y": 928,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 1232,
+        "y": 976
+      },
+      "contactApproach": {
+        "x": 1232,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-research-workbench-south-2",
+      "name": "Research provisional south-2 seat",
+      "podId": "studenthub-pod-research",
+      "sharedWorkbenchId": "studenthub-research-workbench",
+      "ownerId": null,
+      "headcountEvidence": null,
+      "claimPlotId": "studenthub-research-workbench-south-2-plot",
+      "seat": {
+        "x": 1296,
+        "y": 944,
+        "facing": "north",
+        "frameIndex": 10,
+        "spriteBounds": {
+          "x": 1280,
+          "y": 928,
+          "width": 32,
+          "height": 32
+        },
+        "bodyBounds": {
+          "x": 1288,
+          "y": 944,
+          "width": 16,
+          "height": 16
+        },
+        "sittingAnimationImplemented": false
+      },
+      "chairAssetCanvas": {
+        "x": 1272,
+        "y": 928,
+        "width": 48,
+        "height": 64
+      },
+      "chairAsset": "../universe-expanded-office/art-workbench/assets/chair-north-native.png",
+      "chairForegroundAsset": "../universe-expanded-office/art-workbench/assets/chair-north-foreground-native.png",
+      "assetScale": 1,
+      "assetResampling": false,
+      "chairCollision": "none; walkable seat allocation",
+      "movableWamEntity": false,
+      "approach": {
+        "x": 1296,
+        "y": 976
+      },
+      "contactApproach": {
+        "x": 1296,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    }
+  ],
+  "claimPlots": [
+    {
+      "id": "studenthub-operations-workbench-north-1-plot",
+      "name": "Operations unassigned north-1 place",
+      "x": 208,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-operations",
+      "stationId": "studenthub-operations-workbench-north-1",
+      "workbenchId": "studenthub-operations-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-operations-workbench-north-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-operations-workbench-north-2-plot",
+      "name": "Operations unassigned north-2 place",
+      "x": 272,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-operations",
+      "stationId": "studenthub-operations-workbench-north-2",
+      "workbenchId": "studenthub-operations-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-operations-workbench-north-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-operations-workbench-south-1-plot",
+      "name": "Operations unassigned south-1 place",
+      "x": 208,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-operations",
+      "stationId": "studenthub-operations-workbench-south-1",
+      "workbenchId": "studenthub-operations-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-operations-workbench-south-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-operations-workbench-south-2-plot",
+      "name": "Operations unassigned south-2 place",
+      "x": 272,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-operations",
+      "stationId": "studenthub-operations-workbench-south-2",
+      "workbenchId": "studenthub-operations-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-operations-workbench-south-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-1-plot",
+      "name": "Recruitment unassigned north-1 place",
+      "x": 688,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-recruitment",
+      "stationId": "studenthub-recruitment-workbench-north-1",
+      "workbenchId": "studenthub-recruitment-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-recruitment-workbench-north-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-2-plot",
+      "name": "Recruitment unassigned north-2 place",
+      "x": 752,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-recruitment",
+      "stationId": "studenthub-recruitment-workbench-north-2",
+      "workbenchId": "studenthub-recruitment-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-recruitment-workbench-north-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-1-plot",
+      "name": "Recruitment unassigned south-1 place",
+      "x": 688,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-recruitment",
+      "stationId": "studenthub-recruitment-workbench-south-1",
+      "workbenchId": "studenthub-recruitment-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-recruitment-workbench-south-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-2-plot",
+      "name": "Recruitment unassigned south-2 place",
+      "x": 752,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-recruitment",
+      "stationId": "studenthub-recruitment-workbench-south-2",
+      "workbenchId": "studenthub-recruitment-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-recruitment-workbench-south-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-sales-workbench-north-1-plot",
+      "name": "Sales unassigned north-1 place",
+      "x": 1200,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-sales",
+      "stationId": "studenthub-sales-workbench-north-1",
+      "workbenchId": "studenthub-sales-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-sales-workbench-north-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-sales-workbench-north-2-plot",
+      "name": "Sales unassigned north-2 place",
+      "x": 1264,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-sales",
+      "stationId": "studenthub-sales-workbench-north-2",
+      "workbenchId": "studenthub-sales-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-sales-workbench-north-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-sales-workbench-south-1-plot",
+      "name": "Sales unassigned south-1 place",
+      "x": 1200,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-sales",
+      "stationId": "studenthub-sales-workbench-south-1",
+      "workbenchId": "studenthub-sales-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-sales-workbench-south-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-sales-workbench-south-2-plot",
+      "name": "Sales unassigned south-2 place",
+      "x": 1264,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-sales",
+      "stationId": "studenthub-sales-workbench-south-2",
+      "workbenchId": "studenthub-sales-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-sales-workbench-south-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-tech-workbench-north-1-plot",
+      "name": "Tech unassigned north-1 place",
+      "x": 1680,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-tech",
+      "stationId": "studenthub-tech-workbench-north-1",
+      "workbenchId": "studenthub-tech-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-tech-workbench-north-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-tech-workbench-north-2-plot",
+      "name": "Tech unassigned north-2 place",
+      "x": 1744,
+      "y": 144,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-tech",
+      "stationId": "studenthub-tech-workbench-north-2",
+      "workbenchId": "studenthub-tech-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-tech-workbench-north-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-tech-workbench-south-1-plot",
+      "name": "Tech unassigned south-1 place",
+      "x": 1680,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-tech",
+      "stationId": "studenthub-tech-workbench-south-1",
+      "workbenchId": "studenthub-tech-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-tech-workbench-south-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-tech-workbench-south-2-plot",
+      "name": "Tech unassigned south-2 place",
+      "x": 1744,
+      "y": 256,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-tech",
+      "stationId": "studenthub-tech-workbench-south-2",
+      "workbenchId": "studenthub-tech-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-tech-workbench-south-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-1-plot",
+      "name": "Design / Media unassigned north-1 place",
+      "x": 208,
+      "y": 784,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-design-media",
+      "stationId": "studenthub-design-media-workbench-north-1",
+      "workbenchId": "studenthub-design-media-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-design-media-workbench-north-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-2-plot",
+      "name": "Design / Media unassigned north-2 place",
+      "x": 272,
+      "y": 784,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-design-media",
+      "stationId": "studenthub-design-media-workbench-north-2",
+      "workbenchId": "studenthub-design-media-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-design-media-workbench-north-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-1-plot",
+      "name": "Design / Media unassigned south-1 place",
+      "x": 208,
+      "y": 896,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-design-media",
+      "stationId": "studenthub-design-media-workbench-south-1",
+      "workbenchId": "studenthub-design-media-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-design-media-workbench-south-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-2-plot",
+      "name": "Design / Media unassigned south-2 place",
+      "x": 272,
+      "y": 896,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-design-media",
+      "stationId": "studenthub-design-media-workbench-south-2",
+      "workbenchId": "studenthub-design-media-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-design-media-workbench-south-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-1-plot",
+      "name": "Marketing unassigned north-1 place",
+      "x": 688,
+      "y": 784,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-marketing",
+      "stationId": "studenthub-marketing-workbench-north-1",
+      "workbenchId": "studenthub-marketing-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-marketing-workbench-north-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-2-plot",
+      "name": "Marketing unassigned north-2 place",
+      "x": 752,
+      "y": 784,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-marketing",
+      "stationId": "studenthub-marketing-workbench-north-2",
+      "workbenchId": "studenthub-marketing-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-marketing-workbench-north-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-1-plot",
+      "name": "Marketing unassigned south-1 place",
+      "x": 688,
+      "y": 896,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-marketing",
+      "stationId": "studenthub-marketing-workbench-south-1",
+      "workbenchId": "studenthub-marketing-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-marketing-workbench-south-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-2-plot",
+      "name": "Marketing unassigned south-2 place",
+      "x": 752,
+      "y": 896,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-marketing",
+      "stationId": "studenthub-marketing-workbench-south-2",
+      "workbenchId": "studenthub-marketing-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-marketing-workbench-south-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-research-workbench-north-1-plot",
+      "name": "Research unassigned north-1 place",
+      "x": 1200,
+      "y": 784,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-research",
+      "stationId": "studenthub-research-workbench-north-1",
+      "workbenchId": "studenthub-research-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-research-workbench-north-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-research-workbench-north-2-plot",
+      "name": "Research unassigned north-2 place",
+      "x": 1264,
+      "y": 784,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-research",
+      "stationId": "studenthub-research-workbench-north-2",
+      "workbenchId": "studenthub-research-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-research-workbench-north-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-research-workbench-south-1-plot",
+      "name": "Research unassigned south-1 place",
+      "x": 1200,
+      "y": 896,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-research",
+      "stationId": "studenthub-research-workbench-south-1",
+      "workbenchId": "studenthub-research-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-research-workbench-south-1-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    },
+    {
+      "id": "studenthub-research-workbench-south-2-plot",
+      "name": "Research unassigned south-2 place",
+      "x": 1264,
+      "y": 896,
+      "width": 64,
+      "height": 112,
+      "podId": "studenthub-pod-research",
+      "stationId": "studenthub-research-workbench-south-2",
+      "workbenchId": "studenthub-research-workbench",
+      "ownerId": null,
+      "propertyId": "studenthub-research-workbench-south-2-personal-area",
+      "scope": "seat plus nearest half-table work edge; fixed shared bench is not an editable entity"
+    }
+  ],
+  "namedAreas": [
+    {
+      "id": "studenthub-pod-operations",
+      "name": "Operations",
+      "x": 64,
+      "y": 64,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 160,
+        "y": 416,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-recruitment",
+      "name": "Recruitment",
+      "x": 544,
+      "y": 64,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 640,
+        "y": 416,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-sales",
+      "name": "Sales",
+      "x": 1056,
+      "y": 64,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 1152,
+        "y": 416,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-tech",
+      "name": "Tech",
+      "x": 1536,
+      "y": 64,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 1632,
+        "y": 416,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-design-media",
+      "name": "Design / Media",
+      "x": 64,
+      "y": 704,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 160,
+        "y": 704,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-marketing",
+      "name": "Marketing",
+      "x": 544,
+      "y": 704,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 640,
+        "y": 704,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-research",
+      "name": "Research",
+      "x": 1056,
+      "y": 704,
+      "width": 352,
+      "height": 384,
+      "kind": "team-pod",
+      "initialMapStationCount": 4,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 1152,
+        "y": 704,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "studenthub-pod-growth",
+      "name": "Flexible growth",
+      "x": 1536,
+      "y": 704,
+      "width": 352,
+      "height": 384,
+      "kind": "growth-reservation",
+      "initialMapStationCount": 0,
+      "headcount": null,
+      "staffAssignments": [],
+      "entry": {
+        "x": 1632,
+        "y": 704,
+        "width": 160,
+        "height": 32
+      }
+    },
+    {
+      "id": "meeting-a",
+      "name": "Meeting A",
+      "x": 2128,
+      "y": 512,
+      "width": 272,
+      "height": 128
+    },
+    {
+      "id": "meeting-b",
+      "name": "Meeting B",
+      "x": 2128,
+      "y": 656,
+      "width": 272,
+      "height": 192
+    },
+    {
+      "id": "conference",
+      "name": "Conference",
+      "x": 2128,
+      "y": 864,
+      "width": 272,
+      "height": 448
+    },
+    {
+      "id": "south-foyer",
+      "name": "South foyer",
+      "x": 96,
+      "y": 1088,
+      "width": 1824,
+      "height": 240
+    }
+  ],
+  "capacity": {
+    "teamPods": 7,
+    "growthBays": 1,
+    "provisionalStationsPerTeamPod": 4,
+    "initialMapStationCount": 28,
+    "staffCount": null,
+    "growthBayStations": 0,
+    "statement": "Seven fixed shared workbenches with four provisional seat/work-edge places each. Initial map capacity only; no headcounts or assignments.",
+    "sharedWorkbenches": 7,
+    "provisionalSeatsPerWorkbench": 4
+  },
+  "claims": {
+    "status": "unassigned offline proposal",
+    "liveRoutingConfigured": false,
+    "ownersAssigned": false,
+    "entitiesInstantiated": false,
+    "claimGuidesActivateFeature": false,
+    "companionWamActivatesByAdjacency": false,
+    "actualActivation": "Room must load the WAM route; WAM loads its mapUrl. Live authorization and claimant behavior need separate verification.",
+    "fixedBenchesMovable": false,
+    "claimedScope": "one seat and work-edge quadrant only; shared fixed bench remains unowned",
+    "routeMeaning": "Ownership areas do not restrict walking; final routes may cross unoccupied work-edge parts of other draft plots while avoiding every occupied body."
+  },
+  "limitations": [
+    "Offline assembled-art source checks plus real16px collision-grid packing; compiled runtime execution remains a separate verification step.",
+    "No live claiming, permissions, audio/video isolation or sitting animation configured.",
+    "Sofa floor colliders are distinct from elevated visual backs. Conservative16px cell coverage is accepted only after all exact seat bodies and routes pass.",
+    "Receiver cabinet elbows were included from actual pixel inspection; decorative upper foliage does not become a blanket floor blocker."
+  ],
+  "provenance": [
+    {
+      "path": "../magical-arrival-layout/SPATIAL-PROPOSAL.md",
+      "sha256": "4f634e8d26e80b65eab6f3d02c39276cecd2b1daba299659acf7b27528c9adde"
+    },
+    {
+      "path": "../magical-arrival-layout/build_v3.py",
+      "sha256": "734650299fa2087396a30f0473f1939098def57d1dba5f473bf0dcb269ed87de"
+    },
+    {
+      "path": "../universe-native-team-fixture/fixture-plan.json",
+      "sha256": "7867838a77e34e48198b9c25e0d860c1f5ac9f108ed243afb82f3ec5a499e262"
+    },
+    {
+      "path": "../universe-native-team-fixture/applied-art-manifest.json",
+      "sha256": "7d456846649fae3aba826b881fb1f10a70a297df8753ac44c94612f638f03146"
+    },
+    {
+      "path": "../universe-painted-arrival/runtime-work/PERSONAL-AREA-CONTRACT.md",
+      "sha256": "78f74c0726ce3dae0f6b7c8b9f0aba75d25da0a1c68713284215fef2209ac63b"
+    },
+    {
+      "path": "../universe-painted-arrival/runtime-work/route-core.js",
+      "sha256": "1d7c5f6da49dbcce8e7d3a0bb1b992f2b69f272ddbffb627e7696d8e0a672292"
+    },
+    {
+      "path": "../universe-audio-fix/docs/schema/2.0.0/wam.json",
+      "sha256": "deec089be19d959963e8ee9ec6069c615d3fa43fba6cadbd1a4d027e8c0d8d61"
+    },
+    {
+      "path": "../universe-expanded-office/art-workbench/geometry-plan.json",
+      "sha256": "d1dcfac331b84d0a51165da3ff5b5b3d924d15df214cb486482ef91c07972d38"
+    },
+    {
+      "path": "../universe-expanded-office/art-workbench/asset-manifest.json",
+      "sha256": "559a3996970be5bc92b93442ca8273d48a8cce73fb1ba1a434a88bf24e87e1dc"
+    },
+    {
+      "path": "../universe-expanded-office/art-workbench/proofs/checks.json",
+      "sha256": "20ca237153d634787ba574fd4f2773823dc37646e31220e60241a641f93bbb72"
+    },
+    {
+      "path": "../universe-expanded-office/geometry-work/revision-02/frozen-baseline-sha256.json",
+      "sha256": "0b32538a7140875ca9003b5856cdb0c14216ea2f996c910ba7e03a61f4702f71"
+    }
+  ],
+  "revision": "03-final-assembled-art",
+  "packaging": {
+    "tmjTileWidth": 16,
+    "tmjTileHeight": 16,
+    "widthTiles": 156,
+    "heightTiles": 88,
+    "mapPixelWidth": 2496,
+    "mapPixelHeight": 1408,
+    "avatarFrameSize": 32,
+    "avatarScale": 1,
+    "requirement": "Use full-canvas collision-grid.json exactly, or translate collision-grid-source.json once. Art/Wokas remain unscaled.",
+    "sourceEnvelope": {
+      "x": 0,
+      "y": 0,
+      "width": 2432,
+      "height": 1344
+    },
+    "renderTranslation": {
+      "x": 32,
+      "y": 32
+    }
+  },
+  "workbenches": [
+    {
+      "id": "studenthub-operations-workbench",
+      "podId": "studenthub-pod-operations",
+      "name": "Operations shared workbench",
+      "table": {
+        "x": 208,
+        "y": 208,
+        "width": 128,
+        "height": 96
+      },
+      "collision": {
+        "x": 208,
+        "y": 208,
+        "width": 128,
+        "height": 96
+      },
+      "tableAssetCanvas": {
+        "x": 192,
+        "y": 192,
+        "width": 160,
+        "height": 128
+      },
+      "tableAsset": "../universe-expanded-office/art-workbench/assets/workbench-native.png",
+      "tableTightAsset": "../universe-expanded-office/art-workbench/assets/workbench-visible-native.png",
+      "compositeAssetCanvas": {
+        "x": 144,
+        "y": 128,
+        "width": 256,
+        "height": 256
+      },
+      "compositeBaseAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-empty-native.png",
+      "compositeForegroundAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-foreground-native.png",
+      "visibleFurnitureBounds": {
+        "x": 208,
+        "y": 168,
+        "width": 128,
+        "height": 164
+      },
+      "scale": 1,
+      "collisionType": "fixed full table rectangle",
+      "furnishingType": "fixed baked TMJ fixture",
+      "ownerId": null,
+      "movableWamEntity": false,
+      "wholeTableClaim": false,
+      "seatIds": [
+        "studenthub-operations-workbench-north-1",
+        "studenthub-operations-workbench-north-2",
+        "studenthub-operations-workbench-south-1",
+        "studenthub-operations-workbench-south-2"
+      ]
+    },
+    {
+      "id": "studenthub-recruitment-workbench",
+      "podId": "studenthub-pod-recruitment",
+      "name": "Recruitment shared workbench",
+      "table": {
+        "x": 688,
+        "y": 208,
+        "width": 128,
+        "height": 96
+      },
+      "collision": {
+        "x": 688,
+        "y": 208,
+        "width": 128,
+        "height": 96
+      },
+      "tableAssetCanvas": {
+        "x": 672,
+        "y": 192,
+        "width": 160,
+        "height": 128
+      },
+      "tableAsset": "../universe-expanded-office/art-workbench/assets/workbench-native.png",
+      "tableTightAsset": "../universe-expanded-office/art-workbench/assets/workbench-visible-native.png",
+      "compositeAssetCanvas": {
+        "x": 624,
+        "y": 128,
+        "width": 256,
+        "height": 256
+      },
+      "compositeBaseAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-empty-native.png",
+      "compositeForegroundAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-foreground-native.png",
+      "visibleFurnitureBounds": {
+        "x": 688,
+        "y": 168,
+        "width": 128,
+        "height": 164
+      },
+      "scale": 1,
+      "collisionType": "fixed full table rectangle",
+      "furnishingType": "fixed baked TMJ fixture",
+      "ownerId": null,
+      "movableWamEntity": false,
+      "wholeTableClaim": false,
+      "seatIds": [
+        "studenthub-recruitment-workbench-north-1",
+        "studenthub-recruitment-workbench-north-2",
+        "studenthub-recruitment-workbench-south-1",
+        "studenthub-recruitment-workbench-south-2"
+      ]
+    },
+    {
+      "id": "studenthub-sales-workbench",
+      "podId": "studenthub-pod-sales",
+      "name": "Sales shared workbench",
+      "table": {
+        "x": 1200,
+        "y": 208,
+        "width": 128,
+        "height": 96
+      },
+      "collision": {
+        "x": 1200,
+        "y": 208,
+        "width": 128,
+        "height": 96
+      },
+      "tableAssetCanvas": {
+        "x": 1184,
+        "y": 192,
+        "width": 160,
+        "height": 128
+      },
+      "tableAsset": "../universe-expanded-office/art-workbench/assets/workbench-native.png",
+      "tableTightAsset": "../universe-expanded-office/art-workbench/assets/workbench-visible-native.png",
+      "compositeAssetCanvas": {
+        "x": 1136,
+        "y": 128,
+        "width": 256,
+        "height": 256
+      },
+      "compositeBaseAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-empty-native.png",
+      "compositeForegroundAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-foreground-native.png",
+      "visibleFurnitureBounds": {
+        "x": 1200,
+        "y": 168,
+        "width": 128,
+        "height": 164
+      },
+      "scale": 1,
+      "collisionType": "fixed full table rectangle",
+      "furnishingType": "fixed baked TMJ fixture",
+      "ownerId": null,
+      "movableWamEntity": false,
+      "wholeTableClaim": false,
+      "seatIds": [
+        "studenthub-sales-workbench-north-1",
+        "studenthub-sales-workbench-north-2",
+        "studenthub-sales-workbench-south-1",
+        "studenthub-sales-workbench-south-2"
+      ]
+    },
+    {
+      "id": "studenthub-tech-workbench",
+      "podId": "studenthub-pod-tech",
+      "name": "Tech shared workbench",
+      "table": {
+        "x": 1680,
+        "y": 208,
+        "width": 128,
+        "height": 96
+      },
+      "collision": {
+        "x": 1680,
+        "y": 208,
+        "width": 128,
+        "height": 96
+      },
+      "tableAssetCanvas": {
+        "x": 1664,
+        "y": 192,
+        "width": 160,
+        "height": 128
+      },
+      "tableAsset": "../universe-expanded-office/art-workbench/assets/workbench-native.png",
+      "tableTightAsset": "../universe-expanded-office/art-workbench/assets/workbench-visible-native.png",
+      "compositeAssetCanvas": {
+        "x": 1616,
+        "y": 128,
+        "width": 256,
+        "height": 256
+      },
+      "compositeBaseAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-empty-native.png",
+      "compositeForegroundAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-foreground-native.png",
+      "visibleFurnitureBounds": {
+        "x": 1680,
+        "y": 168,
+        "width": 128,
+        "height": 164
+      },
+      "scale": 1,
+      "collisionType": "fixed full table rectangle",
+      "furnishingType": "fixed baked TMJ fixture",
+      "ownerId": null,
+      "movableWamEntity": false,
+      "wholeTableClaim": false,
+      "seatIds": [
+        "studenthub-tech-workbench-north-1",
+        "studenthub-tech-workbench-north-2",
+        "studenthub-tech-workbench-south-1",
+        "studenthub-tech-workbench-south-2"
+      ]
+    },
+    {
+      "id": "studenthub-design-media-workbench",
+      "podId": "studenthub-pod-design-media",
+      "name": "Design / Media shared workbench",
+      "table": {
+        "x": 208,
+        "y": 848,
+        "width": 128,
+        "height": 96
+      },
+      "collision": {
+        "x": 208,
+        "y": 848,
+        "width": 128,
+        "height": 96
+      },
+      "tableAssetCanvas": {
+        "x": 192,
+        "y": 832,
+        "width": 160,
+        "height": 128
+      },
+      "tableAsset": "../universe-expanded-office/art-workbench/assets/workbench-native.png",
+      "tableTightAsset": "../universe-expanded-office/art-workbench/assets/workbench-visible-native.png",
+      "compositeAssetCanvas": {
+        "x": 144,
+        "y": 768,
+        "width": 256,
+        "height": 256
+      },
+      "compositeBaseAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-empty-native.png",
+      "compositeForegroundAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-foreground-native.png",
+      "visibleFurnitureBounds": {
+        "x": 208,
+        "y": 808,
+        "width": 128,
+        "height": 164
+      },
+      "scale": 1,
+      "collisionType": "fixed full table rectangle",
+      "furnishingType": "fixed baked TMJ fixture",
+      "ownerId": null,
+      "movableWamEntity": false,
+      "wholeTableClaim": false,
+      "seatIds": [
+        "studenthub-design-media-workbench-north-1",
+        "studenthub-design-media-workbench-north-2",
+        "studenthub-design-media-workbench-south-1",
+        "studenthub-design-media-workbench-south-2"
+      ]
+    },
+    {
+      "id": "studenthub-marketing-workbench",
+      "podId": "studenthub-pod-marketing",
+      "name": "Marketing shared workbench",
+      "table": {
+        "x": 688,
+        "y": 848,
+        "width": 128,
+        "height": 96
+      },
+      "collision": {
+        "x": 688,
+        "y": 848,
+        "width": 128,
+        "height": 96
+      },
+      "tableAssetCanvas": {
+        "x": 672,
+        "y": 832,
+        "width": 160,
+        "height": 128
+      },
+      "tableAsset": "../universe-expanded-office/art-workbench/assets/workbench-native.png",
+      "tableTightAsset": "../universe-expanded-office/art-workbench/assets/workbench-visible-native.png",
+      "compositeAssetCanvas": {
+        "x": 624,
+        "y": 768,
+        "width": 256,
+        "height": 256
+      },
+      "compositeBaseAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-empty-native.png",
+      "compositeForegroundAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-foreground-native.png",
+      "visibleFurnitureBounds": {
+        "x": 688,
+        "y": 808,
+        "width": 128,
+        "height": 164
+      },
+      "scale": 1,
+      "collisionType": "fixed full table rectangle",
+      "furnishingType": "fixed baked TMJ fixture",
+      "ownerId": null,
+      "movableWamEntity": false,
+      "wholeTableClaim": false,
+      "seatIds": [
+        "studenthub-marketing-workbench-north-1",
+        "studenthub-marketing-workbench-north-2",
+        "studenthub-marketing-workbench-south-1",
+        "studenthub-marketing-workbench-south-2"
+      ]
+    },
+    {
+      "id": "studenthub-research-workbench",
+      "podId": "studenthub-pod-research",
+      "name": "Research shared workbench",
+      "table": {
+        "x": 1200,
+        "y": 848,
+        "width": 128,
+        "height": 96
+      },
+      "collision": {
+        "x": 1200,
+        "y": 848,
+        "width": 128,
+        "height": 96
+      },
+      "tableAssetCanvas": {
+        "x": 1184,
+        "y": 832,
+        "width": 160,
+        "height": 128
+      },
+      "tableAsset": "../universe-expanded-office/art-workbench/assets/workbench-native.png",
+      "tableTightAsset": "../universe-expanded-office/art-workbench/assets/workbench-visible-native.png",
+      "compositeAssetCanvas": {
+        "x": 1136,
+        "y": 768,
+        "width": 256,
+        "height": 256
+      },
+      "compositeBaseAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-empty-native.png",
+      "compositeForegroundAsset": "../universe-expanded-office/art-workbench/assets/workbench-four-foreground-native.png",
+      "visibleFurnitureBounds": {
+        "x": 1200,
+        "y": 808,
+        "width": 128,
+        "height": 164
+      },
+      "scale": 1,
+      "collisionType": "fixed full table rectangle",
+      "furnishingType": "fixed baked TMJ fixture",
+      "ownerId": null,
+      "movableWamEntity": false,
+      "wholeTableClaim": false,
+      "seatIds": [
+        "studenthub-research-workbench-north-1",
+        "studenthub-research-workbench-north-2",
+        "studenthub-research-workbench-south-1",
+        "studenthub-research-workbench-south-2"
+      ]
+    }
+  ],
+  "furnitureCollisionRectangles": [
+    {
+      "id": "studenthub-operations-workbench",
+      "x": 208,
+      "y": 208,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-recruitment-workbench",
+      "x": 688,
+      "y": 208,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-sales-workbench",
+      "x": 1200,
+      "y": 208,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-tech-workbench",
+      "x": 1680,
+      "y": 208,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-design-media-workbench",
+      "x": 208,
+      "y": 848,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-marketing-workbench",
+      "x": 688,
+      "y": 848,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-research-workbench",
+      "x": 1200,
+      "y": 848,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "cross-lounge-west-sofa-part-0",
+      "x": 192,
+      "y": 480,
+      "width": 128,
+      "height": 18,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-west-sofa-part-1",
+      "x": 192,
+      "y": 498,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-west-sofa-part-2",
+      "x": 308,
+      "y": 498,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-west-coffee",
+      "x": 224,
+      "y": 576,
+      "width": 64,
+      "height": 32,
+      "kind": "coffee-table"
+    },
+    {
+      "id": "cross-lounge-east-sofa-part-0",
+      "x": 1184,
+      "y": 480,
+      "width": 128,
+      "height": 18,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-east-sofa-part-1",
+      "x": 1184,
+      "y": 498,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-east-sofa-part-2",
+      "x": 1300,
+      "y": 498,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-east-coffee",
+      "x": 1216,
+      "y": 576,
+      "width": 64,
+      "height": 32,
+      "kind": "coffee-table"
+    },
+    {
+      "id": "foyer-south-facing-sofa-part-0",
+      "x": 320,
+      "y": 1120,
+      "width": 128,
+      "height": 18,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-south-facing-sofa-part-1",
+      "x": 320,
+      "y": 1138,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-south-facing-sofa-part-2",
+      "x": 436,
+      "y": 1138,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-coffee",
+      "x": 352,
+      "y": 1200,
+      "width": 64,
+      "height": 32,
+      "kind": "coffee-table"
+    },
+    {
+      "id": "foyer-north-facing-sofa-part-0",
+      "x": 320,
+      "y": 1264,
+      "width": 128,
+      "height": 32,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-north-facing-sofa-part-1",
+      "x": 320,
+      "y": 1232,
+      "width": 12,
+      "height": 32,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-north-facing-sofa-part-2",
+      "x": 436,
+      "y": 1232,
+      "width": 12,
+      "height": 32,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "reception-counter",
+      "x": 1136,
+      "y": 1184,
+      "width": 128,
+      "height": 64,
+      "kind": "reception-counter"
+    },
+    {
+      "id": "meeting-a-table",
+      "x": 2224,
+      "y": 544,
+      "width": 96,
+      "height": 64,
+      "kind": "meeting-table"
+    },
+    {
+      "id": "meeting-b-table",
+      "x": 2224,
+      "y": 736,
+      "width": 96,
+      "height": 64,
+      "kind": "meeting-table"
+    },
+    {
+      "id": "conference-table",
+      "x": 2176,
+      "y": 1024,
+      "width": 192,
+      "height": 96,
+      "kind": "meeting-table"
+    }
+  ],
+  "pendingObstacleMasks": null,
+  "coordinateSpace": "office source pixels; add renderTranslation once",
+  "renderTranslation": {
+    "x": 32,
+    "y": 32
+  },
+  "fullCanvas": {
+    "x": 0,
+    "y": 0,
+    "width": 2496,
+    "height": 1408
+  },
+  "integrationChanges": [
+    "Every complete shared workbench group and its four personal plots moved32px east: table=pod+(144,144). Native geometry and artwork unchanged.",
+    "Cross-aisle guest chairs moved8px south to asset y592 / north-facing center608, clearing coffee collision ending608.",
+    "Actual receiver U cabinets, inset rear wall, outer strips and gallery rails replace prior diagram walls/dividers."
+  ],
+  "allCollisionRectangles": [
+    {
+      "id": "main-rear-solid",
+      "x": 0,
+      "y": 0,
+      "width": 1984,
+      "height": 176,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-west-solid",
+      "x": 0,
+      "y": 176,
+      "width": 96,
+      "height": 1168,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-east-solid-north",
+      "x": 1920,
+      "y": 176,
+      "width": 64,
+      "height": 912,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-east-solid-south",
+      "x": 1920,
+      "y": 1136,
+      "width": 64,
+      "height": 208,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-south-west",
+      "x": 96,
+      "y": 1328,
+      "width": 832,
+      "height": 16,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "main-south-east",
+      "x": 1056,
+      "y": 1328,
+      "width": 864,
+      "height": 16,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-north-solid",
+      "x": 1984,
+      "y": 448,
+      "width": 448,
+      "height": 64,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-east-solid",
+      "x": 2400,
+      "y": 512,
+      "width": 32,
+      "height": 832,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-west-upper",
+      "x": 1984,
+      "y": 512,
+      "width": 32,
+      "height": 576,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-west-lower",
+      "x": 1984,
+      "y": 1136,
+      "width": 32,
+      "height": 208,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-south-room-wall",
+      "x": 2112,
+      "y": 1312,
+      "width": 288,
+      "height": 32,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-corridor-glass-1",
+      "x": 2112,
+      "y": 448,
+      "width": 16,
+      "height": 112,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-corridor-glass-2",
+      "x": 2112,
+      "y": 640,
+      "width": 16,
+      "height": 96,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-corridor-glass-3",
+      "x": 2112,
+      "y": 816,
+      "width": 16,
+      "height": 208,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-corridor-glass-4",
+      "x": 2112,
+      "y": 1120,
+      "width": 16,
+      "height": 160,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-room-rail-1",
+      "x": 2128,
+      "y": 640,
+      "width": 272,
+      "height": 16,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-room-rail-2",
+      "x": 2128,
+      "y": 848,
+      "width": 272,
+      "height": 16,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-back",
+      "x": 144,
+      "y": 144,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-west",
+      "x": 96,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-east",
+      "x": 400,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-elbow",
+      "x": 144,
+      "y": 176,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-back",
+      "x": 624,
+      "y": 144,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-west",
+      "x": 576,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-east",
+      "x": 880,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-elbow",
+      "x": 816,
+      "y": 176,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-sales-cabinet-back",
+      "x": 1136,
+      "y": 144,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-sales-cabinet-west",
+      "x": 1088,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-sales-cabinet-east",
+      "x": 1392,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-sales-cabinet-elbow",
+      "x": 1136,
+      "y": 176,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-tech-cabinet-back",
+      "x": 1616,
+      "y": 144,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-tech-cabinet-west",
+      "x": 1568,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-tech-cabinet-east",
+      "x": 1872,
+      "y": 160,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-tech-cabinet-elbow",
+      "x": 1808,
+      "y": 176,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-design-media-cabinet-back",
+      "x": 144,
+      "y": 784,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-design-media-cabinet-west",
+      "x": 96,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-design-media-cabinet-east",
+      "x": 400,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-design-media-cabinet-elbow",
+      "x": 144,
+      "y": 816,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-marketing-cabinet-back",
+      "x": 624,
+      "y": 784,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-marketing-cabinet-west",
+      "x": 576,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-marketing-cabinet-east",
+      "x": 880,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-marketing-cabinet-elbow",
+      "x": 816,
+      "y": 816,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-research-cabinet-back",
+      "x": 1136,
+      "y": 784,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-research-cabinet-west",
+      "x": 1088,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-research-cabinet-east",
+      "x": 1392,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-research-cabinet-elbow",
+      "x": 1136,
+      "y": 816,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-pod-growth-cabinet-back",
+      "x": 1616,
+      "y": 784,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-growth-cabinet-west",
+      "x": 1568,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-growth-cabinet-east",
+      "x": 1872,
+      "y": 800,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-growth-cabinet-elbow",
+      "x": 1808,
+      "y": 816,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet",
+      "evidence": "Native receiver pixel inspection; same crop transform as the authoritative assembler."
+    },
+    {
+      "id": "studenthub-operations-workbench",
+      "x": 208,
+      "y": 208,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-recruitment-workbench",
+      "x": 688,
+      "y": 208,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-sales-workbench",
+      "x": 1200,
+      "y": 208,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-tech-workbench",
+      "x": 1680,
+      "y": 208,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-design-media-workbench",
+      "x": 208,
+      "y": 848,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-marketing-workbench",
+      "x": 688,
+      "y": 848,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "studenthub-research-workbench",
+      "x": 1200,
+      "y": 848,
+      "width": 128,
+      "height": 96,
+      "kind": "fixed-shared-workbench"
+    },
+    {
+      "id": "cross-lounge-west-sofa-part-0",
+      "x": 192,
+      "y": 480,
+      "width": 128,
+      "height": 18,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-west-sofa-part-1",
+      "x": 192,
+      "y": 498,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-west-sofa-part-2",
+      "x": 308,
+      "y": 498,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-west-coffee",
+      "x": 224,
+      "y": 576,
+      "width": 64,
+      "height": 32,
+      "kind": "coffee-table"
+    },
+    {
+      "id": "cross-lounge-east-sofa-part-0",
+      "x": 1184,
+      "y": 480,
+      "width": 128,
+      "height": 18,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-east-sofa-part-1",
+      "x": 1184,
+      "y": 498,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-east-sofa-part-2",
+      "x": 1300,
+      "y": 498,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-east-coffee",
+      "x": 1216,
+      "y": 576,
+      "width": 64,
+      "height": 32,
+      "kind": "coffee-table"
+    },
+    {
+      "id": "foyer-south-facing-sofa-part-0",
+      "x": 320,
+      "y": 1120,
+      "width": 128,
+      "height": 18,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-south-facing-sofa-part-1",
+      "x": 320,
+      "y": 1138,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-south-facing-sofa-part-2",
+      "x": 436,
+      "y": 1138,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-coffee",
+      "x": 352,
+      "y": 1200,
+      "width": 64,
+      "height": 32,
+      "kind": "coffee-table"
+    },
+    {
+      "id": "foyer-north-facing-sofa-part-0",
+      "x": 320,
+      "y": 1264,
+      "width": 128,
+      "height": 32,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-north-facing-sofa-part-1",
+      "x": 320,
+      "y": 1232,
+      "width": 12,
+      "height": 32,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "foyer-north-facing-sofa-part-2",
+      "x": 436,
+      "y": 1232,
+      "width": 12,
+      "height": 32,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "reception-counter",
+      "x": 1136,
+      "y": 1184,
+      "width": 128,
+      "height": 64,
+      "kind": "reception-counter"
+    },
+    {
+      "id": "meeting-a-table",
+      "x": 2224,
+      "y": 544,
+      "width": 96,
+      "height": 64,
+      "kind": "meeting-table"
+    },
+    {
+      "id": "meeting-b-table",
+      "x": 2224,
+      "y": 736,
+      "width": 96,
+      "height": 64,
+      "kind": "meeting-table"
+    },
+    {
+      "id": "conference-table",
+      "x": 2176,
+      "y": 1024,
+      "width": 192,
+      "height": 96,
+      "kind": "meeting-table"
+    }
+  ],
+  "sharedSpacePlacements": [
+    {
+      "id": "cross-lounge-west-sofa",
+      "assetOrigin": {
+        "x": 176,
+        "y": 464
+      },
+      "facing": "south",
+      "sourceManifest": "art-reception-lounge/geometry-plan.json"
+    },
+    {
+      "id": "cross-lounge-west-coffee",
+      "assetOrigin": {
+        "x": 208,
+        "y": 560
+      },
+      "sourceManifest": "art-reception-lounge/geometry-plan.json"
+    },
+    {
+      "id": "cross-lounge-west-guest-chair",
+      "assetOrigin": {
+        "x": 232,
+        "y": 592
+      },
+      "facing": "north",
+      "sourceManifest": "art-meeting/geometry-plan.json",
+      "chairAnchorLocal": {
+        "x": 24,
+        "y": 16
+      }
+    },
+    {
+      "id": "cross-lounge-east-sofa",
+      "assetOrigin": {
+        "x": 1168,
+        "y": 464
+      },
+      "facing": "south",
+      "sourceManifest": "art-reception-lounge/geometry-plan.json"
+    },
+    {
+      "id": "cross-lounge-east-coffee",
+      "assetOrigin": {
+        "x": 1200,
+        "y": 560
+      },
+      "sourceManifest": "art-reception-lounge/geometry-plan.json"
+    },
+    {
+      "id": "cross-lounge-east-guest-chair",
+      "assetOrigin": {
+        "x": 1224,
+        "y": 592
+      },
+      "facing": "north",
+      "sourceManifest": "art-meeting/geometry-plan.json",
+      "chairAnchorLocal": {
+        "x": 24,
+        "y": 16
+      }
+    },
+    {
+      "id": "foyer-south-facing-sofa",
+      "assetOrigin": {
+        "x": 304,
+        "y": 1104
+      },
+      "facing": "south",
+      "sourceManifest": "art-reception-lounge/geometry-plan.json"
+    },
+    {
+      "id": "foyer-coffee",
+      "assetOrigin": {
+        "x": 336,
+        "y": 1184
+      },
+      "sourceManifest": "art-reception-lounge/geometry-plan.json"
+    },
+    {
+      "id": "foyer-north-facing-sofa",
+      "assetOrigin": {
+        "x": 304,
+        "y": 1216
+      },
+      "facing": "north",
+      "sourceManifest": "art-reception-lounge/sofa-north-manifest.json"
+    },
+    {
+      "id": "meeting-a",
+      "layoutId": "small-four-cardinal",
+      "assetOrigin": {
+        "x": 2144,
+        "y": 480
+      },
+      "sourceManifest": "art-meeting/geometry-plan.json",
+      "placementSource": "authoritative assembler; overrides older manifest placements"
+    },
+    {
+      "id": "meeting-b",
+      "layoutId": "small-four-cardinal",
+      "assetOrigin": {
+        "x": 2144,
+        "y": 672
+      },
+      "sourceManifest": "art-meeting/geometry-plan.json",
+      "placementSource": "authoritative assembler; overrides older manifest placements"
+    },
+    {
+      "id": "conference",
+      "layoutId": "conference-six",
+      "assetOrigin": {
+        "x": 2144,
+        "y": 896
+      },
+      "sourceManifest": "art-meeting/geometry-plan.json",
+      "placementSource": "authoritative assembler; overrides older manifest placements"
+    }
+  ],
+  "goals": [
+    {
+      "id": "studenthub-operations-workbench-north-1",
+      "x": 240,
+      "y": 192,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 232,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-operations-workbench-north-1-plot",
+      "fixtureId": "studenthub-operations-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 272,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 272,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-operations-workbench-north-2",
+      "x": 304,
+      "y": 192,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 296,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-operations-workbench-north-2-plot",
+      "fixtureId": "studenthub-operations-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 272,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 272,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-operations-workbench-south-1",
+      "x": 240,
+      "y": 304,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 232,
+        "y": 304,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-operations-workbench-south-1-plot",
+      "fixtureId": "studenthub-operations-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 240,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 240,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-operations-workbench-south-2",
+      "x": 304,
+      "y": 304,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 296,
+        "y": 304,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-operations-workbench-south-2-plot",
+      "fixtureId": "studenthub-operations-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 304,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 304,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-1",
+      "x": 720,
+      "y": 192,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 712,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-recruitment-workbench-north-1-plot",
+      "fixtureId": "studenthub-recruitment-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 752,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 752,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-2",
+      "x": 784,
+      "y": 192,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 776,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-recruitment-workbench-north-2-plot",
+      "fixtureId": "studenthub-recruitment-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 752,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 752,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-1",
+      "x": 720,
+      "y": 304,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 712,
+        "y": 304,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-recruitment-workbench-south-1-plot",
+      "fixtureId": "studenthub-recruitment-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 720,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 720,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-2",
+      "x": 784,
+      "y": 304,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 776,
+        "y": 304,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-recruitment-workbench-south-2-plot",
+      "fixtureId": "studenthub-recruitment-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 784,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 784,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-sales-workbench-north-1",
+      "x": 1232,
+      "y": 192,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1224,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-sales-workbench-north-1-plot",
+      "fixtureId": "studenthub-sales-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 1264,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 1264,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-sales-workbench-north-2",
+      "x": 1296,
+      "y": 192,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1288,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-sales-workbench-north-2-plot",
+      "fixtureId": "studenthub-sales-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 1264,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 1264,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-sales-workbench-south-1",
+      "x": 1232,
+      "y": 304,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1224,
+        "y": 304,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-sales-workbench-south-1-plot",
+      "fixtureId": "studenthub-sales-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 1232,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 1232,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-sales-workbench-south-2",
+      "x": 1296,
+      "y": 304,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1288,
+        "y": 304,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-sales-workbench-south-2-plot",
+      "fixtureId": "studenthub-sales-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 1296,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 1296,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-tech-workbench-north-1",
+      "x": 1712,
+      "y": 192,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1704,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-tech-workbench-north-1-plot",
+      "fixtureId": "studenthub-tech-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 1744,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 1744,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-tech-workbench-north-2",
+      "x": 1776,
+      "y": 192,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1768,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-tech-workbench-north-2-plot",
+      "fixtureId": "studenthub-tech-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 1744,
+        "y": 192
+      },
+      "contactApproach": {
+        "x": 1744,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-tech-workbench-south-1",
+      "x": 1712,
+      "y": 304,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1704,
+        "y": 304,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-tech-workbench-south-1-plot",
+      "fixtureId": "studenthub-tech-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 1712,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 1712,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-tech-workbench-south-2",
+      "x": 1776,
+      "y": 304,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1768,
+        "y": 304,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-tech-workbench-south-2-plot",
+      "fixtureId": "studenthub-tech-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 1776,
+        "y": 336
+      },
+      "contactApproach": {
+        "x": 1776,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-1",
+      "x": 240,
+      "y": 832,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 232,
+        "y": 832,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-design-media-workbench-north-1-plot",
+      "fixtureId": "studenthub-design-media-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 272,
+        "y": 832
+      },
+      "contactApproach": {
+        "x": 272,
+        "y": 832,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-2",
+      "x": 304,
+      "y": 832,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 296,
+        "y": 832,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-design-media-workbench-north-2-plot",
+      "fixtureId": "studenthub-design-media-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 272,
+        "y": 832
+      },
+      "contactApproach": {
+        "x": 272,
+        "y": 832,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-1",
+      "x": 240,
+      "y": 944,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 232,
+        "y": 944,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-design-media-workbench-south-1-plot",
+      "fixtureId": "studenthub-design-media-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 240,
+        "y": 976
+      },
+      "contactApproach": {
+        "x": 240,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-2",
+      "x": 304,
+      "y": 944,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 296,
+        "y": 944,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-design-media-workbench-south-2-plot",
+      "fixtureId": "studenthub-design-media-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 304,
+        "y": 976
+      },
+      "contactApproach": {
+        "x": 304,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-1",
+      "x": 720,
+      "y": 832,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 712,
+        "y": 832,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-marketing-workbench-north-1-plot",
+      "fixtureId": "studenthub-marketing-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 752,
+        "y": 832
+      },
+      "contactApproach": {
+        "x": 752,
+        "y": 832,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-2",
+      "x": 784,
+      "y": 832,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 776,
+        "y": 832,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-marketing-workbench-north-2-plot",
+      "fixtureId": "studenthub-marketing-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 752,
+        "y": 832
+      },
+      "contactApproach": {
+        "x": 752,
+        "y": 832,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-1",
+      "x": 720,
+      "y": 944,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 712,
+        "y": 944,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-marketing-workbench-south-1-plot",
+      "fixtureId": "studenthub-marketing-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 720,
+        "y": 976
+      },
+      "contactApproach": {
+        "x": 720,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-2",
+      "x": 784,
+      "y": 944,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 776,
+        "y": 944,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-marketing-workbench-south-2-plot",
+      "fixtureId": "studenthub-marketing-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 784,
+        "y": 976
+      },
+      "contactApproach": {
+        "x": 784,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-research-workbench-north-1",
+      "x": 1232,
+      "y": 832,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1224,
+        "y": 832,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-research-workbench-north-1-plot",
+      "fixtureId": "studenthub-research-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 1264,
+        "y": 832
+      },
+      "contactApproach": {
+        "x": 1264,
+        "y": 832,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-research-workbench-north-2",
+      "x": 1296,
+      "y": 832,
+      "facing": "south",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1288,
+        "y": 832,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-research-workbench-north-2-plot",
+      "fixtureId": "studenthub-research-workbench",
+      "contactDirection": "south",
+      "approach": {
+        "x": 1264,
+        "y": 832
+      },
+      "contactApproach": {
+        "x": 1264,
+        "y": 832,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-research-workbench-south-1",
+      "x": 1232,
+      "y": 944,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1224,
+        "y": 944,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-research-workbench-south-1-plot",
+      "fixtureId": "studenthub-research-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 1232,
+        "y": 976
+      },
+      "contactApproach": {
+        "x": 1232,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "studenthub-research-workbench-south-2",
+      "x": 1296,
+      "y": 944,
+      "facing": "north",
+      "kind": "team-seat",
+      "bodyBounds": {
+        "x": 1288,
+        "y": 944,
+        "width": 16,
+        "height": 16
+      },
+      "claimPlotId": "studenthub-research-workbench-south-2-plot",
+      "fixtureId": "studenthub-research-workbench",
+      "contactDirection": "north",
+      "approach": {
+        "x": 1296,
+        "y": 976
+      },
+      "contactApproach": {
+        "x": 1296,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "cross-lounge-west-sofa-seat-1",
+      "x": 228,
+      "y": 516,
+      "facing": "south",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 220,
+        "y": 516,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "cross-lounge-west-sofa"
+    },
+    {
+      "id": "cross-lounge-west-sofa-seat-2",
+      "x": 284,
+      "y": 516,
+      "facing": "south",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 276,
+        "y": 516,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "cross-lounge-west-sofa"
+    },
+    {
+      "id": "cross-lounge-west-guest",
+      "x": 256,
+      "y": 608,
+      "facing": "north",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 248,
+        "y": 608,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "cross-lounge-west-guest-chair",
+      "contactDirection": "north"
+    },
+    {
+      "id": "cross-lounge-east-sofa-seat-1",
+      "x": 1220,
+      "y": 516,
+      "facing": "south",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 1212,
+        "y": 516,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "cross-lounge-east-sofa"
+    },
+    {
+      "id": "cross-lounge-east-sofa-seat-2",
+      "x": 1276,
+      "y": 516,
+      "facing": "south",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 1268,
+        "y": 516,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "cross-lounge-east-sofa"
+    },
+    {
+      "id": "cross-lounge-east-guest",
+      "x": 1248,
+      "y": 608,
+      "facing": "north",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 1240,
+        "y": 608,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "cross-lounge-east-guest-chair",
+      "contactDirection": "north"
+    },
+    {
+      "id": "foyer-south-facing-sofa-seat-1",
+      "x": 356,
+      "y": 1156,
+      "facing": "south",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 348,
+        "y": 1156,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "foyer-south-facing-sofa"
+    },
+    {
+      "id": "foyer-south-facing-sofa-seat-2",
+      "x": 412,
+      "y": 1156,
+      "facing": "south",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 404,
+        "y": 1156,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "foyer-south-facing-sofa"
+    },
+    {
+      "id": "foyer-north-facing-sofa-seat-1",
+      "x": 356,
+      "y": 1248,
+      "facing": "north",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 348,
+        "y": 1248,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "foyer-north-facing-sofa"
+    },
+    {
+      "id": "foyer-north-facing-sofa-seat-2",
+      "x": 412,
+      "y": 1248,
+      "facing": "north",
+      "kind": "lounge-seat",
+      "bodyBounds": {
+        "x": 404,
+        "y": 1248,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "foyer-north-facing-sofa"
+    },
+    {
+      "id": "reception-staff",
+      "x": 1200,
+      "y": 1168,
+      "facing": "south",
+      "kind": "reception-position",
+      "bodyBounds": {
+        "x": 1192,
+        "y": 1168,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "reception-counter",
+      "contactDirection": "south"
+    },
+    {
+      "id": "reception-visitor",
+      "x": 1200,
+      "y": 1264,
+      "facing": "north",
+      "kind": "reception-position",
+      "bodyBounds": {
+        "x": 1192,
+        "y": 1264,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "reception-counter"
+    },
+    {
+      "id": "meeting-a-north-place",
+      "x": 2272,
+      "y": 528,
+      "facing": "south",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2264,
+        "y": 528,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-a-table",
+      "contactDirection": "south"
+    },
+    {
+      "id": "meeting-a-south-place",
+      "x": 2272,
+      "y": 608,
+      "facing": "north",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2264,
+        "y": 608,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-a-table",
+      "contactDirection": "north"
+    },
+    {
+      "id": "meeting-a-west-place",
+      "x": 2216,
+      "y": 568,
+      "facing": "east",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2208,
+        "y": 568,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-a-table",
+      "contactDirection": "east"
+    },
+    {
+      "id": "meeting-a-east-place",
+      "x": 2328,
+      "y": 568,
+      "facing": "west",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2320,
+        "y": 568,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-a-table",
+      "contactDirection": "west"
+    },
+    {
+      "id": "meeting-b-north-place",
+      "x": 2272,
+      "y": 720,
+      "facing": "south",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2264,
+        "y": 720,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-b-table",
+      "contactDirection": "south"
+    },
+    {
+      "id": "meeting-b-south-place",
+      "x": 2272,
+      "y": 800,
+      "facing": "north",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2264,
+        "y": 800,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-b-table",
+      "contactDirection": "north"
+    },
+    {
+      "id": "meeting-b-west-place",
+      "x": 2216,
+      "y": 760,
+      "facing": "east",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2208,
+        "y": 760,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-b-table",
+      "contactDirection": "east"
+    },
+    {
+      "id": "meeting-b-east-place",
+      "x": 2328,
+      "y": 760,
+      "facing": "west",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2320,
+        "y": 760,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "meeting-b-table",
+      "contactDirection": "west"
+    },
+    {
+      "id": "conference-north-place-1",
+      "x": 2208,
+      "y": 1008,
+      "facing": "south",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2200,
+        "y": 1008,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "conference-table",
+      "contactDirection": "south"
+    },
+    {
+      "id": "conference-south-place-1",
+      "x": 2208,
+      "y": 1120,
+      "facing": "north",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2200,
+        "y": 1120,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "conference-table",
+      "contactDirection": "north"
+    },
+    {
+      "id": "conference-north-place-2",
+      "x": 2272,
+      "y": 1008,
+      "facing": "south",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2264,
+        "y": 1008,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "conference-table",
+      "contactDirection": "south"
+    },
+    {
+      "id": "conference-south-place-2",
+      "x": 2272,
+      "y": 1120,
+      "facing": "north",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2264,
+        "y": 1120,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "conference-table",
+      "contactDirection": "north"
+    },
+    {
+      "id": "conference-north-place-3",
+      "x": 2336,
+      "y": 1008,
+      "facing": "south",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2328,
+        "y": 1008,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "conference-table",
+      "contactDirection": "south"
+    },
+    {
+      "id": "conference-south-place-3",
+      "x": 2336,
+      "y": 1120,
+      "facing": "north",
+      "kind": "meeting-seat",
+      "bodyBounds": {
+        "x": 2328,
+        "y": 1120,
+        "width": 16,
+        "height": 16
+      },
+      "fixtureId": "conference-table",
+      "contactDirection": "north"
+    },
+    {
+      "id": "main-entrance",
+      "x": 992,
+      "y": 1328,
+      "facing": "north",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 984,
+        "y": 1328,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "shared-spine-center",
+      "x": 992,
+      "y": 624,
+      "facing": "north",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 984,
+        "y": 624,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "gallery-main-threshold",
+      "x": 1968,
+      "y": 1104,
+      "facing": "east",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 1960,
+        "y": 1104,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "gallery-corridor-entry",
+      "x": 2064,
+      "y": 1104,
+      "facing": "north",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2056,
+        "y": 1104,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "gallery-south-entry",
+      "x": 2064,
+      "y": 1328,
+      "facing": "north",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2056,
+        "y": 1328,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "meeting-a-threshold",
+      "x": 2144,
+      "y": 584,
+      "facing": "east",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2136,
+        "y": 584,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "meeting-b-threshold",
+      "x": 2144,
+      "y": 760,
+      "facing": "east",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2136,
+        "y": 760,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "conference-threshold",
+      "x": 2144,
+      "y": 1064,
+      "facing": "east",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2136,
+        "y": 1064,
+        "width": 16,
+        "height": 16
+      }
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "main-entrance",
+      "x": 992,
+      "y": 1328,
+      "facing": "north",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 984,
+        "y": 1328,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "shared-spine-center",
+      "x": 992,
+      "y": 624,
+      "facing": "north",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 984,
+        "y": 624,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "gallery-main-threshold",
+      "x": 1968,
+      "y": 1104,
+      "facing": "east",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 1960,
+        "y": 1104,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "gallery-corridor-entry",
+      "x": 2064,
+      "y": 1104,
+      "facing": "north",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2056,
+        "y": 1104,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "gallery-south-entry",
+      "x": 2064,
+      "y": 1328,
+      "facing": "north",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2056,
+        "y": 1328,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "meeting-a-threshold",
+      "x": 2144,
+      "y": 584,
+      "facing": "east",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2136,
+        "y": 584,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "meeting-b-threshold",
+      "x": 2144,
+      "y": 760,
+      "facing": "east",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2136,
+        "y": 760,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "conference-threshold",
+      "x": 2144,
+      "y": 1064,
+      "facing": "east",
+      "kind": "checkpoint",
+      "bodyBounds": {
+        "x": 2136,
+        "y": 1064,
+        "width": 16,
+        "height": 16
+      }
+    }
+  ],
+  "assembledArtProvenance": [
+    {
+      "path": "../universe-expanded-office/tools/assemble_office_v2.py",
+      "sha256": "0fb87036786e3909f2edfea6861555b74f31363510b34665f0eb3a1e8f567814"
+    },
+    {
+      "path": "../universe-expanded-office/docs/assembly-02-manifest.json",
+      "sha256": "9d3dca9a97d1d6aebe27a2c6a38a06dfddb5ea4bcf33451f4702bd0ee57927da"
+    },
+    {
+      "path": "../universe-expanded-office/docs/office-interior-assembly-02-native.png",
+      "sha256": "521119f360cd88a82ca5c84038657dd0746dffb72056eee5ead427196def0f3c"
+    },
+    {
+      "path": "../universe-expanded-office/materials/receiver-panel-native-01.png",
+      "sha256": "1bd175eba53ed91315cfebc29461b6a37c9d33be8db14410f0851193a9a5f4c5"
+    },
+    {
+      "path": "../universe-expanded-office/materials/gallery-native-02-open-doors.png",
+      "sha256": "7bfb74c579783896746530dad5c4b463e166799155cd612bb45c134c3094d0cf"
+    },
+    {
+      "path": "../universe-expanded-office/art-reception-lounge/geometry-plan.json",
+      "sha256": "e6e53309d042c435caf6f9c253cd9ad0fe87cffd965327ad52ac04516a335f6c"
+    },
+    {
+      "path": "../universe-expanded-office/art-reception-lounge/sofa-north-manifest.json",
+      "sha256": "4043921b9827b0ff96d7313750d49a9410b11d2c2c6b4ddc8d7d5bb56773da17"
+    },
+    {
+      "path": "../universe-expanded-office/art-meeting/geometry-plan.json",
+      "sha256": "61a2258e62e9416a1a5242bc86d2274ae415d4608b3565e2abdd60093e275607"
+    }
+  ],
+  "baselineProvenance": {
+    "revision02Geometry": "../universe-expanded-office/geometry-work/revision-02/source-coordinate-geometry.json",
+    "sha256": "6b3775f6020cb217bd0912e2841ac8321706410ee88a4cc0afe31a3ace8192f6"
+  }
+}

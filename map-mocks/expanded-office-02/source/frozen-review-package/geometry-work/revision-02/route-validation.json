@@ -1,0 +1,943 @@
+{
+  "status": "passed",
+  "routeCount": 41,
+  "directionalTestCount": 82,
+  "failedCount": 0,
+  "blockedTileCount": 2496,
+  "widthTiles": 152,
+  "heightTiles": 84,
+  "nativeTileSize": 16,
+  "body": {
+    "xOffset": -8,
+    "yOffset": 0,
+    "width": 16,
+    "height": 16
+  },
+  "implementation": {
+    "path": "../universe-painted-arrival/runtime-work/route-core.js",
+    "sha256": "1d7c5f6da49dbcce8e7d3a0bb1b992f2b69f272ddbffb627e7696d8e0a672292"
+  },
+  "claimPlotAvoidance": "Exact half-open rectangle sweeps; claims are deliberately not tile-rounded.",
+  "scope": "Physical workbench geometry plus offline native-body routing; revised receiver cabinet masks are EXCLUDED pending assembly. No engine, audio, permissions, ownership, or live multiplayer behavior asserted.",
+  "furniturePending": [
+    "reception-reservation",
+    "lounge-reservation",
+    "meeting-a",
+    "meeting-b",
+    "conference"
+  ],
+  "pendingObstacleMasks": {
+    "status": "required after assembled-art registration",
+    "sources": "revised receiver back and side cabinets; planter/trim masks as applicable",
+    "referenceObservationsOnly": {
+      "backCabinetY": [
+        144,
+        176
+      ],
+      "westCabinetX": [
+        96,
+        144
+      ],
+      "eastCabinetX": [
+        400,
+        448
+      ],
+      "sideCabinetBottomY": 352
+    },
+    "authoritativeCollisionRectangles": null,
+    "requiredNextStep": "Extract exact registered obstacle masks from assembled source art, include them in real TMJ collision, and rerun all routes."
+  },
+  "tmjPackaging": {
+    "tmjTileWidth": 16,
+    "tmjTileHeight": 16,
+    "widthTiles": 152,
+    "heightTiles": 84,
+    "mapPixelWidth": 2432,
+    "mapPixelHeight": 1344,
+    "avatarFrameSize": 32,
+    "avatarScale": 1,
+    "requirement": "Use real TMJ/engine 16px collision cells or equivalent supported exact object collision. Do not round to32px or substitute preview-only static colliders."
+  },
+  "results": [
+    {
+      "id": "entrance-to-studenthub-operations-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 121,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-operations-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 121,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-operations-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 117,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-operations-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 117,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-operations-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 114,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-operations-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 114,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-operations-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 110,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-operations-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 110,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "studenthub-operations-workbench-all-seats-occupied-circulation",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "studenthub-operations-workbench-all-seats-occupied-circulation-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-studenthub-recruitment-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 91,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-recruitment-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 91,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-recruitment-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 87,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-recruitment-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 87,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-recruitment-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 84,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-recruitment-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 84,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-recruitment-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 80,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-recruitment-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 80,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "studenthub-recruitment-workbench-all-seats-occupied-circulation",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "studenthub-recruitment-workbench-all-seats-occupied-circulation-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-studenthub-sales-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 85,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-sales-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 85,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-sales-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 89,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-sales-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 89,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-sales-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 78,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-sales-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 78,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-sales-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 82,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-sales-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 82,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "studenthub-sales-workbench-all-seats-occupied-circulation",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "studenthub-sales-workbench-all-seats-occupied-circulation-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-studenthub-tech-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 115,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-tech-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 115,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-tech-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 119,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-tech-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 119,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-tech-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 108,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-tech-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 108,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-tech-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 112,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-tech-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 6,
+      "coreGeneratedWaypointCount": 112,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "studenthub-tech-workbench-all-seats-occupied-circulation",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "studenthub-tech-workbench-all-seats-occupied-circulation-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-studenthub-design-media-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 81,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-design-media-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 81,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-design-media-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 77,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-design-media-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 77,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-design-media-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 8,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-design-media-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 8,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-design-media-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 8,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-design-media-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 8,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "studenthub-design-media-workbench-all-seats-occupied-circulation",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "studenthub-design-media-workbench-all-seats-occupied-circulation-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-studenthub-marketing-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 51,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-marketing-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 51,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-marketing-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 47,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-marketing-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 47,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-marketing-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 8,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-marketing-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 8,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-marketing-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 8,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-marketing-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 8,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "studenthub-marketing-workbench-all-seats-occupied-circulation",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "studenthub-marketing-workbench-all-seats-occupied-circulation-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-studenthub-research-workbench-north-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 45,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-research-workbench-north-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 45,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-research-workbench-north-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 49,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-research-workbench-north-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 7,
+      "coreGeneratedWaypointCount": 49,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-research-workbench-south-1",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 8,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-research-workbench-south-1-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 8,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-research-workbench-south-2",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 8,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "entrance-to-studenthub-research-workbench-south-2-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 8,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 27
+    },
+    {
+      "id": "studenthub-research-workbench-all-seats-occupied-circulation",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "studenthub-research-workbench-all-seats-occupied-circulation-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 9,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-meeting-a",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 5,
+      "coreGeneratedWaypointCount": 120,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-meeting-a-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 5,
+      "coreGeneratedWaypointCount": 120,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-meeting-b",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 5,
+      "coreGeneratedWaypointCount": 106,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-meeting-b-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 5,
+      "coreGeneratedWaypointCount": 106,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-meeting-conference",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 5,
+      "coreGeneratedWaypointCount": 86,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-meeting-conference-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 5,
+      "coreGeneratedWaypointCount": 86,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "visitor-entrance-to-main",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 4,
+      "coreGeneratedWaypointCount": 83,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "visitor-entrance-to-main-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 4,
+      "coreGeneratedWaypointCount": 83,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "cross-spine-west-to-east",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 2,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "cross-spine-west-to-east-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 2,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-cross-spine",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 2,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    },
+    {
+      "id": "entrance-to-cross-spine-reverse",
+      "passed": true,
+      "issues": [],
+      "sourceWaypointCount": 2,
+      "coreGeneratedWaypointCount": 1,
+      "exactOtherPlotAvoidance": true,
+      "otherSeatBodiesTested": 28
+    }
+  ],
+  "contactStops": [
+    {
+      "id": "studenthub-operations-workbench-north-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-operations-workbench-north-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-operations-workbench-south-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-operations-workbench-south-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-recruitment-workbench-north-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-recruitment-workbench-south-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-sales-workbench-north-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-sales-workbench-north-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-sales-workbench-south-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-sales-workbench-south-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-tech-workbench-north-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-tech-workbench-north-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-tech-workbench-south-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-tech-workbench-south-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-design-media-workbench-north-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-design-media-workbench-south-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-marketing-workbench-north-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-marketing-workbench-south-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-research-workbench-north-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-research-workbench-north-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-research-workbench-south-1",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    },
+    {
+      "id": "studenthub-research-workbench-south-2",
+      "seatBodyClear": true,
+      "onePixelTowardTableBlocked": true
+    }
+  ]
+}

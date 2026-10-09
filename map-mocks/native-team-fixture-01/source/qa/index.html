@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Native workstation module · physical proof</title>
+<style>body{margin:20px;background:#f1eee6;color:#242821;font:14px system-ui}h1{font-size:20px;margin:0 0 8px}button{padding:9px 13px;margin-right:8px}canvas{display:block;image-rendering:pixelated}#game{margin:18px 0;width:512px;height:384px}#state{white-space:pre-wrap;font:12px monospace}p{max-width:800px}</style></head>
+<body><h1>Native two-workstation physical proof</h1><p>512 × 384 world pixels · unchanged 32 × 32 Greg · one moving player + one stationary scale fixture · local Phaser source harness</p>
+<button id="verify" disabled>Run physical route + record</button><button id="capture" disabled>Save current native frame</button><button onclick="location.reload()">Reset proof</button>
+<div id="game"></div><p id="status">Loading unchanged source assets…</p><p>Arrow keys / WASD to walk. Seats are reached by walking north until the actual desk collider stops the player. Full chair-back masks stay fixed above the player. No sit, claim or multiplayer API.</p><pre id="state"></pre>
+<script src="vendor/phaser.js"></script><script src="vendor/fork-primitives.js"></script><script src="harness.js"></script></body></html>

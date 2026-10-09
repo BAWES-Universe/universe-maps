@@ -1,0 +1,1 @@
+Native two-workstation calibration, isolated from all prior map files. The source-coordinate plan controls furniture, seat anchors, collision and clear circulation. New art is unaccepted until actual occupied scale is inspected. Larger office plan is proposed separately.

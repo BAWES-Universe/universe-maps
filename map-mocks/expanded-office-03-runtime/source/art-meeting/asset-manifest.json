@@ -1,0 +1,1390 @@
+{
+  "status": "native registration proof; review required",
+  "assets": {
+    "chair-north": {
+      "source": "source/chair-north-master.png",
+      "sourceSha256": "9e2e47b8a4c27eddcb111439aa921ae4c0c1d058125a7d132eed53f9c360b371",
+      "sourceCanvas": [
+        1086,
+        1448
+      ],
+      "sourceCrop": [
+        204,
+        181,
+        881,
+        995
+      ],
+      "registration": {
+        "method": "largest alpha>=32 connected object bounding box, trim transparent padding then premultiplied LANCZOS resize",
+        "targetVisibleRectangle": [
+          9,
+          8,
+          30,
+          36
+        ],
+        "targetCanvas": [
+          48,
+          64
+        ],
+        "artRedrawn": false,
+        "rotation": false,
+        "reflection": false
+      },
+      "native": {
+        "canvas": [
+          48,
+          64
+        ],
+        "alphaBounds": {
+          "1": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "16": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "64": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "128": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "240": [
+            9,
+            8,
+            39,
+            43
+          ]
+        },
+        "opaquePixels": 930,
+        "nonzeroPixels": 1020
+      },
+      "foreground": {
+        "canvas": [
+          48,
+          64
+        ],
+        "alphaBounds": {
+          "1": [
+            11,
+            19,
+            39,
+            39
+          ],
+          "16": [
+            11,
+            19,
+            39,
+            39
+          ],
+          "64": [
+            11,
+            19,
+            39,
+            39
+          ],
+          "128": [
+            11,
+            19,
+            39,
+            39
+          ],
+          "240": [
+            11,
+            19,
+            39,
+            39
+          ]
+        },
+        "opaquePixels": 535,
+        "nonzeroPixels": 535,
+        "nativePolygons": [
+          [
+            [
+              11,
+              20
+            ],
+            [
+              13,
+              19
+            ],
+            [
+              35,
+              19
+            ],
+            [
+              37,
+              20
+            ],
+            [
+              38,
+              24
+            ],
+            [
+              37,
+              35
+            ],
+            [
+              35,
+              38
+            ],
+            [
+              13,
+              38
+            ],
+            [
+              11,
+              35
+            ]
+          ]
+        ],
+        "sourcePolygons": [
+          [
+            [
+              249.13333333333333,
+              452.3333333333333
+            ],
+            [
+              294.26666666666665,
+              429.72222222222223
+            ],
+            [
+              790.7333333333333,
+              429.72222222222223
+            ],
+            [
+              835.8666666666667,
+              452.3333333333333
+            ],
+            [
+              858.4333333333333,
+              542.7777777777778
+            ],
+            [
+              835.8666666666667,
+              791.5
+            ],
+            [
+              790.7333333333333,
+              859.3333333333334
+            ],
+            [
+              294.26666666666665,
+              859.3333333333334
+            ],
+            [
+              249.13333333333333,
+              791.5
+            ]
+          ]
+        ],
+        "pixelIntegrity": "Every nontransparent foreground pixel is unchanged RGBA from the registered native base asset.",
+        "layerPartition": "North: full meaningful nearest upholstered back. South: near ends of both armrests and seat lip; rear arm sections remain behind the head. East/west: nearest complete horizontal armrest."
+      },
+      "contact": {
+        "canvas": [
+          48,
+          64
+        ],
+        "alphaBounds": {
+          "1": [
+            9,
+            39,
+            39,
+            44
+          ],
+          "16": [
+            10,
+            39,
+            38,
+            44
+          ],
+          "64": [
+            10,
+            39,
+            38,
+            44
+          ],
+          "128": [
+            10,
+            39,
+            38,
+            44
+          ],
+          "240": [
+            11,
+            39,
+            37,
+            43
+          ]
+        },
+        "opaquePixels": 26,
+        "nonzeroPixels": 96,
+        "nativePolygons": [
+          [
+            [
+              9,
+              39
+            ],
+            [
+              39,
+              39
+            ],
+            [
+              39,
+              44
+            ],
+            [
+              9,
+              44
+            ]
+          ]
+        ],
+        "meaning": "Actual source pixels in the foot/contact band; antialiasing and painted contact shadow preserved, not classified as a separate physical obstacle."
+      }
+    },
+    "chair-south": {
+      "source": "source/chair-south-master.png",
+      "sourceSha256": "e3032ae10ebab3e488bf40fef80aa5d66945a1093f9cfa61d0aa3b27f177263b",
+      "sourceCanvas": [
+        1086,
+        1448
+      ],
+      "sourceCrop": [
+        209,
+        209,
+        878,
+        1000
+      ],
+      "registration": {
+        "method": "largest alpha>=32 connected object bounding box, trim transparent padding then premultiplied LANCZOS resize",
+        "targetVisibleRectangle": [
+          9,
+          8,
+          30,
+          36
+        ],
+        "targetCanvas": [
+          48,
+          64
+        ],
+        "artRedrawn": false,
+        "rotation": false,
+        "reflection": false
+      },
+      "native": {
+        "canvas": [
+          48,
+          64
+        ],
+        "alphaBounds": {
+          "1": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "16": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "64": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "128": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "240": [
+            9,
+            8,
+            39,
+            43
+          ]
+        },
+        "opaquePixels": 884,
+        "nonzeroPixels": 1022
+      },
+      "foreground": {
+        "canvas": [
+          48,
+          64
+        ],
+        "alphaBounds": {
+          "1": [
+            9,
+            31,
+            39,
+            40
+          ],
+          "16": [
+            9,
+            31,
+            39,
+            40
+          ],
+          "64": [
+            9,
+            31,
+            39,
+            40
+          ],
+          "128": [
+            9,
+            31,
+            39,
+            40
+          ],
+          "240": [
+            9,
+            31,
+            39,
+            40
+          ]
+        },
+        "opaquePixels": 94,
+        "nonzeroPixels": 138,
+        "nativePolygons": [
+          [
+            [
+              9,
+              31
+            ],
+            [
+              13,
+              31
+            ],
+            [
+              13,
+              37
+            ],
+            [
+              12,
+              39
+            ],
+            [
+              10,
+              39
+            ]
+          ],
+          [
+            [
+              35,
+              31
+            ],
+            [
+              38,
+              31
+            ],
+            [
+              39,
+              36
+            ],
+            [
+              37,
+              39
+            ],
+            [
+              35,
+              38
+            ]
+          ],
+          [
+            [
+              13,
+              37
+            ],
+            [
+              35,
+              37
+            ],
+            [
+              36,
+              39
+            ],
+            [
+              12,
+              39
+            ]
+          ]
+        ],
+        "sourcePolygons": [
+          [
+            [
+              209.0,
+              714.3611111111111
+            ],
+            [
+              298.2,
+              714.3611111111111
+            ],
+            [
+              298.2,
+              846.1944444444445
+            ],
+            [
+              275.9,
+              890.1388888888889
+            ],
+            [
+              231.3,
+              890.1388888888889
+            ]
+          ],
+          [
+            [
+              788.8,
+              714.3611111111111
+            ],
+            [
+              855.7,
+              714.3611111111111
+            ],
+            [
+              878.0,
+              824.2222222222222
+            ],
+            [
+              833.4,
+              890.1388888888889
+            ],
+            [
+              788.8,
+              868.1666666666666
+            ]
+          ],
+          [
+            [
+              298.2,
+              846.1944444444445
+            ],
+            [
+              788.8,
+              846.1944444444445
+            ],
+            [
+              811.1,
+              890.1388888888889
+            ],
+            [
+              275.9,
+              890.1388888888889
+            ]
+          ]
+        ],
+        "pixelIntegrity": "Every nontransparent foreground pixel is unchanged RGBA from the registered native base asset.",
+        "layerPartition": "North: full meaningful nearest upholstered back. South: near ends of both armrests and seat lip; rear arm sections remain behind the head. East/west: nearest complete horizontal armrest."
+      },
+      "contact": {
+        "canvas": [
+          48,
+          64
+        ],
+        "alphaBounds": {
+          "1": [
+            9,
+            39,
+            39,
+            44
+          ],
+          "16": [
+            10,
+            39,
+            38,
+            44
+          ],
+          "64": [
+            10,
+            39,
+            38,
+            44
+          ],
+          "128": [
+            10,
+            39,
+            38,
+            44
+          ],
+          "240": [
+            11,
+            39,
+            37,
+            43
+          ]
+        },
+        "opaquePixels": 24,
+        "nonzeroPixels": 94,
+        "nativePolygons": [
+          [
+            [
+              9,
+              39
+            ],
+            [
+              39,
+              39
+            ],
+            [
+              39,
+              44
+            ],
+            [
+              9,
+              44
+            ]
+          ]
+        ],
+        "meaning": "Actual source pixels in the foot/contact band; antialiasing and painted contact shadow preserved, not classified as a separate physical obstacle."
+      }
+    },
+    "chair-east": {
+      "source": "source/chair-east-master.png",
+      "sourceSha256": "d883546cb1688412978c294c1d2fff9633c49077722ac69290cd392695e8219c",
+      "sourceCanvas": [
+        1086,
+        1448
+      ],
+      "sourceCrop": [
+        201,
+        174,
+        896,
+        1021
+      ],
+      "registration": {
+        "method": "largest alpha>=32 connected object bounding box, trim transparent padding then premultiplied LANCZOS resize",
+        "targetVisibleRectangle": [
+          9,
+          8,
+          30,
+          36
+        ],
+        "targetCanvas": [
+          48,
+          64
+        ],
+        "artRedrawn": false,
+        "rotation": false,
+        "reflection": false
+      },
+      "native": {
+        "canvas": [
+          48,
+          64
+        ],
+        "alphaBounds": {
+          "1": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "16": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "64": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "128": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "240": [
+            9,
+            8,
+            39,
+            43
+          ]
+        },
+        "opaquePixels": 608,
+        "nonzeroPixels": 791
+      },
+      "foreground": {
+        "canvas": [
+          48,
+          64
+        ],
+        "alphaBounds": {
+          "1": [
+            15,
+            33,
+            39,
+            40
+          ],
+          "16": [
+            15,
+            33,
+            39,
+            40
+          ],
+          "64": [
+            15,
+            33,
+            39,
+            40
+          ],
+          "128": [
+            15,
+            33,
+            39,
+            40
+          ],
+          "240": [
+            15,
+            33,
+            39,
+            40
+          ]
+        },
+        "opaquePixels": 133,
+        "nonzeroPixels": 153,
+        "nativePolygons": [
+          [
+            [
+              16,
+              34
+            ],
+            [
+              18,
+              33
+            ],
+            [
+              35,
+              33
+            ],
+            [
+              38,
+              35
+            ],
+            [
+              38,
+              37
+            ],
+            [
+              36,
+              39
+            ],
+            [
+              16,
+              39
+            ],
+            [
+              15,
+              37
+            ]
+          ]
+        ],
+        "sourcePolygons": [
+          [
+            [
+              363.16666666666663,
+              785.7222222222222
+            ],
+            [
+              409.5,
+              762.1944444444445
+            ],
+            [
+              803.3333333333334,
+              762.1944444444445
+            ],
+            [
+              872.8333333333334,
+              809.25
+            ],
+            [
+              872.8333333333334,
+              856.3055555555555
+            ],
+            [
+              826.5,
+              903.3611111111111
+            ],
+            [
+              363.16666666666663,
+              903.3611111111111
+            ],
+            [
+              340.0,
+              856.3055555555555
+            ]
+          ]
+        ],
+        "pixelIntegrity": "Every nontransparent foreground pixel is unchanged RGBA from the registered native base asset.",
+        "layerPartition": "North: full meaningful nearest upholstered back. South: near ends of both armrests and seat lip; rear arm sections remain behind the head. East/west: nearest complete horizontal armrest."
+      },
+      "contact": {
+        "canvas": [
+          48,
+          64
+        ],
+        "alphaBounds": {
+          "1": [
+            9,
+            39,
+            39,
+            44
+          ],
+          "16": [
+            11,
+            39,
+            38,
+            44
+          ],
+          "64": [
+            11,
+            39,
+            37,
+            44
+          ],
+          "128": [
+            11,
+            39,
+            37,
+            44
+          ],
+          "240": [
+            12,
+            39,
+            36,
+            43
+          ]
+        },
+        "opaquePixels": 24,
+        "nonzeroPixels": 99,
+        "nativePolygons": [
+          [
+            [
+              9,
+              39
+            ],
+            [
+              39,
+              39
+            ],
+            [
+              39,
+              44
+            ],
+            [
+              9,
+              44
+            ]
+          ]
+        ],
+        "meaning": "Actual source pixels in the foot/contact band; antialiasing and painted contact shadow preserved, not classified as a separate physical obstacle."
+      }
+    },
+    "chair-west": {
+      "source": "source/chair-west-master.png",
+      "sourceSha256": "6ebfb59acba82caac58dc92dccd00b44291c4b4acc1baf7c4f56f531a6621527",
+      "sourceCanvas": [
+        1086,
+        1448
+      ],
+      "sourceCrop": [
+        234,
+        204,
+        901,
+        1020
+      ],
+      "registration": {
+        "method": "largest alpha>=32 connected object bounding box, trim transparent padding then premultiplied LANCZOS resize",
+        "targetVisibleRectangle": [
+          9,
+          8,
+          30,
+          36
+        ],
+        "targetCanvas": [
+          48,
+          64
+        ],
+        "artRedrawn": false,
+        "rotation": false,
+        "reflection": false
+      },
+      "native": {
+        "canvas": [
+          48,
+          64
+        ],
+        "alphaBounds": {
+          "1": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "16": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "64": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "128": [
+            9,
+            8,
+            39,
+            44
+          ],
+          "240": [
+            9,
+            8,
+            39,
+            43
+          ]
+        },
+        "opaquePixels": 598,
+        "nonzeroPixels": 747
+      },
+      "foreground": {
+        "canvas": [
+          48,
+          64
+        ],
+        "alphaBounds": {
+          "1": [
+            9,
+            33,
+            34,
+            40
+          ],
+          "16": [
+            9,
+            33,
+            34,
+            40
+          ],
+          "64": [
+            9,
+            33,
+            34,
+            40
+          ],
+          "128": [
+            9,
+            33,
+            34,
+            40
+          ],
+          "240": [
+            9,
+            33,
+            34,
+            40
+          ]
+        },
+        "opaquePixels": 126,
+        "nonzeroPixels": 148,
+        "nativePolygons": [
+          [
+            [
+              10,
+              34
+            ],
+            [
+              11,
+              33
+            ],
+            [
+              30,
+              33
+            ],
+            [
+              33,
+              34
+            ],
+            [
+              33,
+              38
+            ],
+            [
+              31,
+              39
+            ],
+            [
+              11,
+              39
+            ],
+            [
+              9,
+              37
+            ]
+          ]
+        ],
+        "sourcePolygons": [
+          [
+            [
+              256.23333333333335,
+              793.3333333333334
+            ],
+            [
+              278.4666666666667,
+              770.6666666666666
+            ],
+            [
+              700.9,
+              770.6666666666666
+            ],
+            [
+              767.6,
+              793.3333333333334
+            ],
+            [
+              767.6,
+              884.0
+            ],
+            [
+              723.1333333333333,
+              906.6666666666666
+            ],
+            [
+              278.4666666666667,
+              906.6666666666666
+            ],
+            [
+              234.0,
+              861.3333333333334
+            ]
+          ]
+        ],
+        "pixelIntegrity": "Every nontransparent foreground pixel is unchanged RGBA from the registered native base asset.",
+        "layerPartition": "North: full meaningful nearest upholstered back. South: near ends of both armrests and seat lip; rear arm sections remain behind the head. East/west: nearest complete horizontal armrest."
+      },
+      "contact": {
+        "canvas": [
+          48,
+          64
+        ],
+        "alphaBounds": {
+          "1": [
+            9,
+            39,
+            39,
+            44
+          ],
+          "16": [
+            10,
+            39,
+            38,
+            44
+          ],
+          "64": [
+            11,
+            39,
+            37,
+            44
+          ],
+          "128": [
+            11,
+            39,
+            37,
+            44
+          ],
+          "240": [
+            11,
+            39,
+            37,
+            43
+          ]
+        },
+        "opaquePixels": 31,
+        "nonzeroPixels": 74,
+        "nativePolygons": [
+          [
+            [
+              9,
+              39
+            ],
+            [
+              39,
+              39
+            ],
+            [
+              39,
+              44
+            ],
+            [
+              9,
+              44
+            ]
+          ]
+        ],
+        "meaning": "Actual source pixels in the foot/contact band; antialiasing and painted contact shadow preserved, not classified as a separate physical obstacle."
+      }
+    },
+    "table-small": {
+      "source": "source/table-small-master.png",
+      "sourceSha256": "a81da14a3dc4470151729c496e0aa54d5744e5efa350a9ff5db144c62b2bd769",
+      "sourceCanvas": [
+        1448,
+        1086
+      ],
+      "sourceCrop": [
+        133,
+        170,
+        1318,
+        911
+      ],
+      "registration": {
+        "method": "largest alpha>=32 connected object bounding box, trim transparent padding then premultiplied LANCZOS resize",
+        "targetVisibleRectangle": [
+          16,
+          16,
+          96,
+          64
+        ],
+        "targetCanvas": [
+          128,
+          96
+        ],
+        "artRedrawn": false,
+        "rotation": false,
+        "reflection": false
+      },
+      "native": {
+        "canvas": [
+          128,
+          96
+        ],
+        "alphaBounds": {
+          "1": [
+            16,
+            16,
+            112,
+            80
+          ],
+          "16": [
+            16,
+            16,
+            112,
+            80
+          ],
+          "64": [
+            16,
+            16,
+            112,
+            80
+          ],
+          "128": [
+            16,
+            16,
+            112,
+            80
+          ],
+          "240": [
+            17,
+            17,
+            111,
+            79
+          ]
+        },
+        "opaquePixels": 5469,
+        "nonzeroPixels": 5888
+      },
+      "contact": {
+        "canvas": [
+          128,
+          96
+        ],
+        "alphaBounds": {
+          "1": [
+            16,
+            74,
+            112,
+            80
+          ],
+          "16": [
+            17,
+            74,
+            111,
+            80
+          ],
+          "64": [
+            17,
+            74,
+            111,
+            80
+          ],
+          "128": [
+            18,
+            74,
+            110,
+            80
+          ],
+          "240": [
+            18,
+            74,
+            110,
+            79
+          ]
+        },
+        "opaquePixels": 127,
+        "nonzeroPixels": 332,
+        "nativePolygons": [
+          [
+            [
+              16,
+              74
+            ],
+            [
+              112,
+              74
+            ],
+            [
+              112,
+              80
+            ],
+            [
+              16,
+              80
+            ]
+          ]
+        ],
+        "meaning": "Actual source pixels in the foot/contact band; antialiasing and painted contact shadow preserved, not classified as a separate physical obstacle."
+      },
+      "foreground": {
+        "canvas": [
+          128,
+          96
+        ],
+        "alphaBounds": {
+          "1": [
+            16,
+            40,
+            112,
+            57
+          ],
+          "16": [
+            16,
+            40,
+            112,
+            57
+          ],
+          "64": [
+            16,
+            40,
+            112,
+            57
+          ],
+          "128": [
+            16,
+            40,
+            112,
+            57
+          ],
+          "240": [
+            17,
+            40,
+            111,
+            57
+          ]
+        },
+        "opaquePixels": 119,
+        "nonzeroPixels": 153,
+        "nativePolygons": [
+          [
+            [
+              16,
+              40
+            ],
+            [
+              20,
+              40
+            ],
+            [
+              20,
+              56
+            ],
+            [
+              16,
+              56
+            ]
+          ],
+          [
+            [
+              108,
+              40
+            ],
+            [
+              112,
+              40
+            ],
+            [
+              112,
+              56
+            ],
+            [
+              108,
+              56
+            ]
+          ]
+        ],
+        "purpose": "Real table edge pixels can occlude side-facing hands/lower bodies; starts at seat center y88, below protected head."
+      }
+    },
+    "table-conference": {
+      "source": "source/table-conference-master.png",
+      "sourceSha256": "c04640478411dae159e2487f613b2a277bdf5e893295f54c86359a27a698f6bc",
+      "sourceCanvas": [
+        1659,
+        948
+      ],
+      "sourceCrop": [
+        106,
+        113,
+        1553,
+        829
+      ],
+      "registration": {
+        "method": "largest alpha>=32 connected object bounding box, trim transparent padding then premultiplied LANCZOS resize",
+        "targetVisibleRectangle": [
+          16,
+          16,
+          192,
+          96
+        ],
+        "targetCanvas": [
+          224,
+          128
+        ],
+        "artRedrawn": false,
+        "rotation": false,
+        "reflection": false
+      },
+      "native": {
+        "canvas": [
+          224,
+          128
+        ],
+        "alphaBounds": {
+          "1": [
+            16,
+            16,
+            208,
+            112
+          ],
+          "16": [
+            16,
+            16,
+            208,
+            112
+          ],
+          "64": [
+            16,
+            16,
+            208,
+            112
+          ],
+          "128": [
+            16,
+            16,
+            208,
+            112
+          ],
+          "240": [
+            17,
+            17,
+            207,
+            111
+          ]
+        },
+        "opaquePixels": 16943,
+        "nonzeroPixels": 17885
+      },
+      "contact": {
+        "canvas": [
+          224,
+          128
+        ],
+        "alphaBounds": {
+          "1": [
+            16,
+            106,
+            208,
+            112
+          ],
+          "16": [
+            17,
+            106,
+            207,
+            112
+          ],
+          "64": [
+            17,
+            106,
+            207,
+            112
+          ],
+          "128": [
+            18,
+            106,
+            207,
+            112
+          ],
+          "240": [
+            18,
+            106,
+            206,
+            111
+          ]
+        },
+        "opaquePixels": 53,
+        "nonzeroPixels": 623,
+        "nativePolygons": [
+          [
+            [
+              16,
+              106
+            ],
+            [
+              208,
+              106
+            ],
+            [
+              208,
+              112
+            ],
+            [
+              16,
+              112
+            ]
+          ]
+        ],
+        "meaning": "Actual source pixels in the foot/contact band; antialiasing and painted contact shadow preserved, not classified as a separate physical obstacle."
+      }
+    }
+  }
+}

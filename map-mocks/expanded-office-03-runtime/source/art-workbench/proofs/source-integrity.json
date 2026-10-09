@@ -1,0 +1,43 @@
+{
+  "chairCopies": [
+    {
+      "file": "assets/chair-north-native.png",
+      "source": "../universe-expanded-office/art-meeting/assets/chair-north-native.png",
+      "sha256": "395e24ee7246bad853e98295bf0e68edb8a4dffe95ff4a0a485b1d2f7c533094",
+      "byteIdentical": true
+    },
+    {
+      "file": "assets/chair-north-foreground-native.png",
+      "source": "../universe-expanded-office/art-meeting/assets/chair-north-foreground-native.png",
+      "sha256": "7afa1390f432e292992777c2957b2dd747e17637135667591130c58f835c2848",
+      "byteIdentical": true
+    },
+    {
+      "file": "assets/chair-north-contact-native.png",
+      "source": "../universe-expanded-office/art-meeting/assets/chair-north-contact-native.png",
+      "sha256": "5c82ce4180aeabd21da84c68a02fb9283967637160f574f002765a4bf95206db",
+      "byteIdentical": true
+    },
+    {
+      "file": "assets/chair-south-native.png",
+      "source": "../universe-expanded-office/art-meeting/assets/chair-south-native.png",
+      "sha256": "74013215bab90f4d4bc4133fd6fc8993d778a1b719c3b9face44a2e2986abef6",
+      "byteIdentical": true
+    },
+    {
+      "file": "assets/chair-south-foreground-native.png",
+      "source": "../universe-expanded-office/art-meeting/assets/chair-south-foreground-native.png",
+      "sha256": "11525dd63927122b1b8e8f9cf7d4107493ac07771e0ad8580c60b667c89de34f",
+      "byteIdentical": true
+    },
+    {
+      "file": "assets/chair-south-contact-native.png",
+      "source": "../universe-expanded-office/art-meeting/assets/chair-south-contact-native.png",
+      "sha256": "c127f2b5ebc10e92e176bd3343cb8a0037d2db462302f55d19a5b119251957b4",
+      "byteIdentical": true
+    }
+  ],
+  "tableContactUnchangedSourcePixels": true,
+  "artworkMethod": "Generated table pixels; only alpha-bound trim, registered premultiplied resize, pixel-subset masks and compositing. No painted or generated character modifications; no sprite rotations/reflections.",
+  "allPassed": true
+}

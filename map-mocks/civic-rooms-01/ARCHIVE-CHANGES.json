@@ -1,0 +1,11 @@
+{
+  "normalizedTextFiles": [
+    "source/provenance.json",
+    "source/tools/make-podium-guide.js",
+    "source/tools/make-architecture-guide.js",
+    "source/tools/build-module.js",
+    "source/tools/draw-guides.js"
+  ],
+  "normalization": "Machine-specific prefixes replaced with project-relative provenance. Historical scripts may need original sibling projects; no standalone regeneration claim.",
+  "unchangedBinarySources": true
+}

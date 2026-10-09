@@ -1,0 +1,6422 @@
+{
+  "status": "passed",
+  "coordinateSpace": "source office pixels",
+  "renderTranslation": {
+    "x": 32,
+    "y": 32
+  },
+  "routes": [
+    {
+      "id": "main-entrance-to-studenthub-operations-workbench-north-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-operations-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 344,
+          "y": 768
+        },
+        {
+          "x": 344,
+          "y": 192
+        },
+        {
+          "x": 328,
+          "y": 192
+        },
+        {
+          "x": 328,
+          "y": 176
+        },
+        {
+          "x": 280,
+          "y": 176
+        },
+        {
+          "x": 280,
+          "y": 192
+        },
+        {
+          "x": 240,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-operations-workbench-north-2-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 272,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-operations-workbench-north-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-operations-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 344,
+          "y": 768
+        },
+        {
+          "x": 344,
+          "y": 192
+        },
+        {
+          "x": 304,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 272,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-operations-workbench-south-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-operations-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 328,
+          "y": 768
+        },
+        {
+          "x": 328,
+          "y": 464
+        },
+        {
+          "x": 248,
+          "y": 464
+        },
+        {
+          "x": 248,
+          "y": 336
+        },
+        {
+          "x": 240,
+          "y": 336
+        },
+        {
+          "x": 240,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 240,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-operations-workbench-south-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-operations-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 328,
+          "y": 768
+        },
+        {
+          "x": 328,
+          "y": 464
+        },
+        {
+          "x": 312,
+          "y": 464
+        },
+        {
+          "x": 312,
+          "y": 336
+        },
+        {
+          "x": 304,
+          "y": 336
+        },
+        {
+          "x": 304,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 304,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-recruitment-workbench-north-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-recruitment-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 768
+        },
+        {
+          "x": 680,
+          "y": 768
+        },
+        {
+          "x": 680,
+          "y": 192
+        },
+        {
+          "x": 720,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 752,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-recruitment-workbench-north-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-recruitment-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 768
+        },
+        {
+          "x": 680,
+          "y": 768
+        },
+        {
+          "x": 680,
+          "y": 192
+        },
+        {
+          "x": 696,
+          "y": 192
+        },
+        {
+          "x": 696,
+          "y": 176
+        },
+        {
+          "x": 760,
+          "y": 176
+        },
+        {
+          "x": 760,
+          "y": 192
+        },
+        {
+          "x": 784,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-recruitment-workbench-north-1-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 752,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-recruitment-workbench-south-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-recruitment-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 768
+        },
+        {
+          "x": 728,
+          "y": 768
+        },
+        {
+          "x": 728,
+          "y": 336
+        },
+        {
+          "x": 720,
+          "y": 336
+        },
+        {
+          "x": 720,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 720,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-recruitment-workbench-south-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-recruitment-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 768
+        },
+        {
+          "x": 792,
+          "y": 768
+        },
+        {
+          "x": 792,
+          "y": 336
+        },
+        {
+          "x": 784,
+          "y": 336
+        },
+        {
+          "x": 784,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 784,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-sales-workbench-north-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-sales-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 768
+        },
+        {
+          "x": 1336,
+          "y": 768
+        },
+        {
+          "x": 1336,
+          "y": 192
+        },
+        {
+          "x": 1320,
+          "y": 192
+        },
+        {
+          "x": 1320,
+          "y": 176
+        },
+        {
+          "x": 1272,
+          "y": 176
+        },
+        {
+          "x": 1272,
+          "y": 192
+        },
+        {
+          "x": 1232,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-sales-workbench-north-2-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1264,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-sales-workbench-north-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-sales-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 768
+        },
+        {
+          "x": 1336,
+          "y": 768
+        },
+        {
+          "x": 1336,
+          "y": 192
+        },
+        {
+          "x": 1296,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1264,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-sales-workbench-south-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-sales-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 768
+        },
+        {
+          "x": 1176,
+          "y": 768
+        },
+        {
+          "x": 1176,
+          "y": 464
+        },
+        {
+          "x": 1240,
+          "y": 464
+        },
+        {
+          "x": 1240,
+          "y": 336
+        },
+        {
+          "x": 1232,
+          "y": 336
+        },
+        {
+          "x": 1232,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1232,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-sales-workbench-south-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-sales-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 768
+        },
+        {
+          "x": 1176,
+          "y": 768
+        },
+        {
+          "x": 1176,
+          "y": 464
+        },
+        {
+          "x": 1304,
+          "y": 464
+        },
+        {
+          "x": 1304,
+          "y": 336
+        },
+        {
+          "x": 1296,
+          "y": 336
+        },
+        {
+          "x": 1296,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1296,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-tech-workbench-north-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-tech-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1560,
+          "y": 1312
+        },
+        {
+          "x": 1560,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 768
+        },
+        {
+          "x": 1672,
+          "y": 768
+        },
+        {
+          "x": 1672,
+          "y": 192
+        },
+        {
+          "x": 1712,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1744,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-tech-workbench-north-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-tech-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1560,
+          "y": 1312
+        },
+        {
+          "x": 1560,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 768
+        },
+        {
+          "x": 1672,
+          "y": 768
+        },
+        {
+          "x": 1672,
+          "y": 192
+        },
+        {
+          "x": 1688,
+          "y": 192
+        },
+        {
+          "x": 1688,
+          "y": 176
+        },
+        {
+          "x": 1752,
+          "y": 176
+        },
+        {
+          "x": 1752,
+          "y": 192
+        },
+        {
+          "x": 1776,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-tech-workbench-north-1-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1744,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-tech-workbench-south-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-tech-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1560,
+          "y": 1312
+        },
+        {
+          "x": 1560,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 768
+        },
+        {
+          "x": 1720,
+          "y": 768
+        },
+        {
+          "x": 1720,
+          "y": 336
+        },
+        {
+          "x": 1712,
+          "y": 336
+        },
+        {
+          "x": 1712,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1712,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-tech-workbench-south-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-tech-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1560,
+          "y": 1312
+        },
+        {
+          "x": 1560,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 768
+        },
+        {
+          "x": 1784,
+          "y": 768
+        },
+        {
+          "x": 1784,
+          "y": 336
+        },
+        {
+          "x": 1776,
+          "y": 336
+        },
+        {
+          "x": 1776,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1776,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-design-media-workbench-north-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-design-media-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1104
+        },
+        {
+          "x": 344,
+          "y": 1104
+        },
+        {
+          "x": 344,
+          "y": 832
+        },
+        {
+          "x": 328,
+          "y": 832
+        },
+        {
+          "x": 328,
+          "y": 816
+        },
+        {
+          "x": 280,
+          "y": 816
+        },
+        {
+          "x": 280,
+          "y": 832
+        },
+        {
+          "x": 240,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-design-media-workbench-north-2-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 272,
+        "y": 832,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-design-media-workbench-north-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-design-media-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1104
+        },
+        {
+          "x": 344,
+          "y": 1104
+        },
+        {
+          "x": 344,
+          "y": 832
+        },
+        {
+          "x": 304,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 272,
+        "y": 832,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-design-media-workbench-south-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-design-media-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 240,
+          "y": 976
+        },
+        {
+          "x": 240,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-design-media-workbench-south-2-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 240,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-design-media-workbench-south-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-design-media-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 304,
+          "y": 976
+        },
+        {
+          "x": 304,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 304,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-marketing-workbench-north-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-marketing-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 680,
+          "y": 1312
+        },
+        {
+          "x": 680,
+          "y": 832
+        },
+        {
+          "x": 720,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 752,
+        "y": 832,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-marketing-workbench-north-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-marketing-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 680,
+          "y": 1312
+        },
+        {
+          "x": 680,
+          "y": 832
+        },
+        {
+          "x": 696,
+          "y": 832
+        },
+        {
+          "x": 696,
+          "y": 816
+        },
+        {
+          "x": 760,
+          "y": 816
+        },
+        {
+          "x": 760,
+          "y": 832
+        },
+        {
+          "x": 784,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-marketing-workbench-north-1-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 752,
+        "y": 832,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-marketing-workbench-south-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-marketing-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 720,
+          "y": 976
+        },
+        {
+          "x": 720,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-marketing-workbench-south-2-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 720,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-marketing-workbench-south-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-marketing-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 784,
+          "y": 976
+        },
+        {
+          "x": 784,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 784,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-research-workbench-north-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-research-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1336,
+          "y": 1312
+        },
+        {
+          "x": 1336,
+          "y": 832
+        },
+        {
+          "x": 1320,
+          "y": 832
+        },
+        {
+          "x": 1320,
+          "y": 816
+        },
+        {
+          "x": 1272,
+          "y": 816
+        },
+        {
+          "x": 1272,
+          "y": 832
+        },
+        {
+          "x": 1232,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-research-workbench-north-2-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1264,
+        "y": 832,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-research-workbench-north-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-research-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1336,
+          "y": 1312
+        },
+        {
+          "x": 1336,
+          "y": 832
+        },
+        {
+          "x": 1296,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1264,
+        "y": 832,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-research-workbench-south-1",
+      "startId": "main-entrance",
+      "targetId": "studenthub-research-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1232,
+          "y": 976
+        },
+        {
+          "x": 1232,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1232,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-studenthub-research-workbench-south-2",
+      "startId": "main-entrance",
+      "targetId": "studenthub-research-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1304,
+          "y": 1312
+        },
+        {
+          "x": 1304,
+          "y": 976
+        },
+        {
+          "x": 1296,
+          "y": 976
+        },
+        {
+          "x": 1296,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1296,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-west-sofa-seat-1",
+      "startId": "main-entrance",
+      "targetId": "cross-lounge-west-sofa-seat-1",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 296,
+          "y": 768
+        },
+        {
+          "x": 296,
+          "y": 560
+        },
+        {
+          "x": 232,
+          "y": 560
+        },
+        {
+          "x": 232,
+          "y": 512
+        },
+        {
+          "x": 228,
+          "y": 516
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-west-sofa-seat-2",
+      "startId": "main-entrance",
+      "targetId": "cross-lounge-west-sofa-seat-2",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 296,
+          "y": 768
+        },
+        {
+          "x": 296,
+          "y": 560
+        },
+        {
+          "x": 280,
+          "y": 560
+        },
+        {
+          "x": 280,
+          "y": 512
+        },
+        {
+          "x": 284,
+          "y": 516
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-west-guest",
+      "startId": "main-entrance",
+      "targetId": "cross-lounge-west-guest",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 264,
+          "y": 768
+        },
+        {
+          "x": 264,
+          "y": 608
+        },
+        {
+          "x": 256,
+          "y": 608
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-east-sofa-seat-1",
+      "startId": "main-entrance",
+      "targetId": "cross-lounge-east-sofa-seat-1",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 768
+        },
+        {
+          "x": 1208,
+          "y": 768
+        },
+        {
+          "x": 1208,
+          "y": 560
+        },
+        {
+          "x": 1224,
+          "y": 560
+        },
+        {
+          "x": 1224,
+          "y": 512
+        },
+        {
+          "x": 1220,
+          "y": 516
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-east-sofa-seat-2",
+      "startId": "main-entrance",
+      "targetId": "cross-lounge-east-sofa-seat-2",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 768
+        },
+        {
+          "x": 1208,
+          "y": 768
+        },
+        {
+          "x": 1208,
+          "y": 560
+        },
+        {
+          "x": 1272,
+          "y": 560
+        },
+        {
+          "x": 1272,
+          "y": 512
+        },
+        {
+          "x": 1276,
+          "y": 516
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-cross-lounge-east-guest",
+      "startId": "main-entrance",
+      "targetId": "cross-lounge-east-guest",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 1312
+        },
+        {
+          "x": 1080,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 768
+        },
+        {
+          "x": 1256,
+          "y": 768
+        },
+        {
+          "x": 1256,
+          "y": 608
+        },
+        {
+          "x": 1248,
+          "y": 608
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-foyer-south-facing-sofa-seat-1",
+      "startId": "main-entrance",
+      "targetId": "foyer-south-facing-sofa-seat-1",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1184
+        },
+        {
+          "x": 360,
+          "y": 1184
+        },
+        {
+          "x": 360,
+          "y": 1152
+        },
+        {
+          "x": 356,
+          "y": 1156
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-foyer-south-facing-sofa-seat-2",
+      "startId": "main-entrance",
+      "targetId": "foyer-south-facing-sofa-seat-2",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1184
+        },
+        {
+          "x": 408,
+          "y": 1184
+        },
+        {
+          "x": 408,
+          "y": 1152
+        },
+        {
+          "x": 412,
+          "y": 1156
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-foyer-north-facing-sofa-seat-1",
+      "startId": "main-entrance",
+      "targetId": "foyer-north-facing-sofa-seat-1",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1232
+        },
+        {
+          "x": 360,
+          "y": 1232
+        },
+        {
+          "x": 360,
+          "y": 1248
+        },
+        {
+          "x": 356,
+          "y": 1248
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-foyer-north-facing-sofa-seat-2",
+      "startId": "main-entrance",
+      "targetId": "foyer-north-facing-sofa-seat-2",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1328
+        },
+        {
+          "x": 936,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1312
+        },
+        {
+          "x": 456,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1232
+        },
+        {
+          "x": 408,
+          "y": 1232
+        },
+        {
+          "x": 408,
+          "y": 1248
+        },
+        {
+          "x": 412,
+          "y": 1248
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-reception-staff",
+      "startId": "main-entrance",
+      "targetId": "reception-staff",
+      "targetKind": "reception-position",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1128,
+          "y": 1312
+        },
+        {
+          "x": 1128,
+          "y": 1168
+        },
+        {
+          "x": 1200,
+          "y": 1168
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-reception-visitor",
+      "startId": "main-entrance",
+      "targetId": "reception-visitor",
+      "targetKind": "reception-position",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1200,
+          "y": 1264
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-meeting-a-north-place",
+      "startId": "main-entrance",
+      "targetId": "meeting-a-north-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 624
+        },
+        {
+          "x": 2200,
+          "y": 624
+        },
+        {
+          "x": 2200,
+          "y": 544
+        },
+        {
+          "x": 2216,
+          "y": 544
+        },
+        {
+          "x": 2216,
+          "y": 528
+        },
+        {
+          "x": 2272,
+          "y": 528
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-meeting-a-south-place",
+      "startId": "main-entrance",
+      "targetId": "meeting-a-south-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 624
+        },
+        {
+          "x": 2280,
+          "y": 624
+        },
+        {
+          "x": 2280,
+          "y": 608
+        },
+        {
+          "x": 2272,
+          "y": 608
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-meeting-a-west-place",
+      "startId": "main-entrance",
+      "targetId": "meeting-a-west-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 624
+        },
+        {
+          "x": 2216,
+          "y": 624
+        },
+        {
+          "x": 2216,
+          "y": 568
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-meeting-a-east-place",
+      "startId": "main-entrance",
+      "targetId": "meeting-a-east-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 624
+        },
+        {
+          "x": 2328,
+          "y": 624
+        },
+        {
+          "x": 2328,
+          "y": 568
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-meeting-b-north-place",
+      "startId": "main-entrance",
+      "targetId": "meeting-b-north-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 800
+        },
+        {
+          "x": 2200,
+          "y": 800
+        },
+        {
+          "x": 2200,
+          "y": 736
+        },
+        {
+          "x": 2216,
+          "y": 736
+        },
+        {
+          "x": 2216,
+          "y": 720
+        },
+        {
+          "x": 2272,
+          "y": 720
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-meeting-b-south-place",
+      "startId": "main-entrance",
+      "targetId": "meeting-b-south-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 800
+        },
+        {
+          "x": 2272,
+          "y": 800
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-meeting-b-west-place",
+      "startId": "main-entrance",
+      "targetId": "meeting-b-west-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 800
+        },
+        {
+          "x": 2216,
+          "y": 800
+        },
+        {
+          "x": 2216,
+          "y": 760
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-meeting-b-east-place",
+      "startId": "main-entrance",
+      "targetId": "meeting-b-east-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 800
+        },
+        {
+          "x": 2248,
+          "y": 800
+        },
+        {
+          "x": 2248,
+          "y": 816
+        },
+        {
+          "x": 2328,
+          "y": 816
+        },
+        {
+          "x": 2328,
+          "y": 760
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-conference-north-place-1",
+      "startId": "main-entrance",
+      "targetId": "conference-north-place-1",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1008
+        },
+        {
+          "x": 2208,
+          "y": 1008
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-conference-south-place-1",
+      "startId": "main-entrance",
+      "targetId": "conference-south-place-1",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1120
+        },
+        {
+          "x": 2208,
+          "y": 1120
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-conference-north-place-2",
+      "startId": "main-entrance",
+      "targetId": "conference-north-place-2",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1008
+        },
+        {
+          "x": 2184,
+          "y": 1008
+        },
+        {
+          "x": 2184,
+          "y": 992
+        },
+        {
+          "x": 2280,
+          "y": 992
+        },
+        {
+          "x": 2280,
+          "y": 1008
+        },
+        {
+          "x": 2272,
+          "y": 1008
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-conference-south-place-2",
+      "startId": "main-entrance",
+      "targetId": "conference-south-place-2",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1120
+        },
+        {
+          "x": 2184,
+          "y": 1120
+        },
+        {
+          "x": 2184,
+          "y": 1136
+        },
+        {
+          "x": 2280,
+          "y": 1136
+        },
+        {
+          "x": 2280,
+          "y": 1120
+        },
+        {
+          "x": 2272,
+          "y": 1120
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-conference-north-place-3",
+      "startId": "main-entrance",
+      "targetId": "conference-north-place-3",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1008
+        },
+        {
+          "x": 2184,
+          "y": 1008
+        },
+        {
+          "x": 2184,
+          "y": 992
+        },
+        {
+          "x": 2344,
+          "y": 992
+        },
+        {
+          "x": 2344,
+          "y": 1008
+        },
+        {
+          "x": 2336,
+          "y": 1008
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-conference-south-place-3",
+      "startId": "main-entrance",
+      "targetId": "conference-south-place-3",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1120
+        },
+        {
+          "x": 2184,
+          "y": 1120
+        },
+        {
+          "x": 2184,
+          "y": 1136
+        },
+        {
+          "x": 2344,
+          "y": 1136
+        },
+        {
+          "x": 2344,
+          "y": 1120
+        },
+        {
+          "x": 2336,
+          "y": 1120
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-shared-spine-center",
+      "startId": "main-entrance",
+      "targetId": "shared-spine-center",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 992,
+          "y": 624
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 54,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-gallery-main-threshold",
+      "startId": "main-entrance",
+      "targetId": "gallery-main-threshold",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 1976,
+          "y": 1120
+        },
+        {
+          "x": 1976,
+          "y": 1104
+        },
+        {
+          "x": 1968,
+          "y": 1104
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 54,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-gallery-corridor-entry",
+      "startId": "main-entrance",
+      "targetId": "gallery-corridor-entry",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2072,
+          "y": 1120
+        },
+        {
+          "x": 2072,
+          "y": 1104
+        },
+        {
+          "x": 2064,
+          "y": 1104
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 54,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-gallery-south-entry",
+      "startId": "main-entrance",
+      "targetId": "gallery-south-entry",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2072,
+          "y": 1120
+        },
+        {
+          "x": 2072,
+          "y": 1328
+        },
+        {
+          "x": 2064,
+          "y": 1328
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 54,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-meeting-a-threshold",
+      "startId": "main-entrance",
+      "targetId": "meeting-a-threshold",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 624
+        },
+        {
+          "x": 2152,
+          "y": 624
+        },
+        {
+          "x": 2152,
+          "y": 592
+        },
+        {
+          "x": 2144,
+          "y": 584
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 54,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-meeting-b-threshold",
+      "startId": "main-entrance",
+      "targetId": "meeting-b-threshold",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 800
+        },
+        {
+          "x": 2152,
+          "y": 800
+        },
+        {
+          "x": 2152,
+          "y": 768
+        },
+        {
+          "x": 2144,
+          "y": 760
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 54,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "main-entrance-to-conference-threshold",
+      "startId": "main-entrance",
+      "targetId": "conference-threshold",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 992,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1328
+        },
+        {
+          "x": 1048,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1312
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1104
+        },
+        {
+          "x": 2152,
+          "y": 1104
+        },
+        {
+          "x": 2152,
+          "y": 1072
+        },
+        {
+          "x": 2144,
+          "y": 1064
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 54,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-studenthub-operations-workbench-north-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-operations-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 344,
+          "y": 768
+        },
+        {
+          "x": 344,
+          "y": 192
+        },
+        {
+          "x": 328,
+          "y": 192
+        },
+        {
+          "x": 328,
+          "y": 176
+        },
+        {
+          "x": 280,
+          "y": 176
+        },
+        {
+          "x": 280,
+          "y": 192
+        },
+        {
+          "x": 240,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-operations-workbench-north-2-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 272,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-operations-workbench-north-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-operations-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 344,
+          "y": 768
+        },
+        {
+          "x": 344,
+          "y": 192
+        },
+        {
+          "x": 304,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 272,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-operations-workbench-south-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-operations-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 328,
+          "y": 768
+        },
+        {
+          "x": 328,
+          "y": 464
+        },
+        {
+          "x": 248,
+          "y": 464
+        },
+        {
+          "x": 248,
+          "y": 336
+        },
+        {
+          "x": 240,
+          "y": 336
+        },
+        {
+          "x": 240,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 240,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-operations-workbench-south-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-operations-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 328,
+          "y": 768
+        },
+        {
+          "x": 328,
+          "y": 464
+        },
+        {
+          "x": 312,
+          "y": 464
+        },
+        {
+          "x": 312,
+          "y": 336
+        },
+        {
+          "x": 304,
+          "y": 336
+        },
+        {
+          "x": 304,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 304,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-recruitment-workbench-north-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-recruitment-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 936,
+          "y": 1264
+        },
+        {
+          "x": 936,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 768
+        },
+        {
+          "x": 680,
+          "y": 768
+        },
+        {
+          "x": 680,
+          "y": 192
+        },
+        {
+          "x": 720,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 752,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-recruitment-workbench-north-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-recruitment-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 936,
+          "y": 1264
+        },
+        {
+          "x": 936,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 768
+        },
+        {
+          "x": 680,
+          "y": 768
+        },
+        {
+          "x": 680,
+          "y": 192
+        },
+        {
+          "x": 696,
+          "y": 192
+        },
+        {
+          "x": 696,
+          "y": 176
+        },
+        {
+          "x": 760,
+          "y": 176
+        },
+        {
+          "x": 760,
+          "y": 192
+        },
+        {
+          "x": 784,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-recruitment-workbench-north-1-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 752,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-recruitment-workbench-south-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-recruitment-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 936,
+          "y": 1264
+        },
+        {
+          "x": 936,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 768
+        },
+        {
+          "x": 728,
+          "y": 768
+        },
+        {
+          "x": 728,
+          "y": 336
+        },
+        {
+          "x": 720,
+          "y": 336
+        },
+        {
+          "x": 720,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 720,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-recruitment-workbench-south-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-recruitment-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 936,
+          "y": 1264
+        },
+        {
+          "x": 936,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 784
+        },
+        {
+          "x": 888,
+          "y": 768
+        },
+        {
+          "x": 792,
+          "y": 768
+        },
+        {
+          "x": 792,
+          "y": 336
+        },
+        {
+          "x": 784,
+          "y": 336
+        },
+        {
+          "x": 784,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 784,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-sales-workbench-north-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-sales-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1448,
+          "y": 1264
+        },
+        {
+          "x": 1448,
+          "y": 784
+        },
+        {
+          "x": 1400,
+          "y": 784
+        },
+        {
+          "x": 1400,
+          "y": 768
+        },
+        {
+          "x": 1336,
+          "y": 768
+        },
+        {
+          "x": 1336,
+          "y": 192
+        },
+        {
+          "x": 1320,
+          "y": 192
+        },
+        {
+          "x": 1320,
+          "y": 176
+        },
+        {
+          "x": 1272,
+          "y": 176
+        },
+        {
+          "x": 1272,
+          "y": 192
+        },
+        {
+          "x": 1232,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-sales-workbench-north-2-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1264,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-sales-workbench-north-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-sales-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1448,
+          "y": 1264
+        },
+        {
+          "x": 1448,
+          "y": 784
+        },
+        {
+          "x": 1400,
+          "y": 784
+        },
+        {
+          "x": 1400,
+          "y": 768
+        },
+        {
+          "x": 1336,
+          "y": 768
+        },
+        {
+          "x": 1336,
+          "y": 192
+        },
+        {
+          "x": 1296,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1264,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-sales-workbench-south-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-sales-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1080,
+          "y": 1264
+        },
+        {
+          "x": 1080,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 768
+        },
+        {
+          "x": 1176,
+          "y": 768
+        },
+        {
+          "x": 1176,
+          "y": 464
+        },
+        {
+          "x": 1240,
+          "y": 464
+        },
+        {
+          "x": 1240,
+          "y": 336
+        },
+        {
+          "x": 1232,
+          "y": 336
+        },
+        {
+          "x": 1232,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1232,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-sales-workbench-south-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-sales-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1080,
+          "y": 1264
+        },
+        {
+          "x": 1080,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 768
+        },
+        {
+          "x": 1176,
+          "y": 768
+        },
+        {
+          "x": 1176,
+          "y": 464
+        },
+        {
+          "x": 1304,
+          "y": 464
+        },
+        {
+          "x": 1304,
+          "y": 336
+        },
+        {
+          "x": 1296,
+          "y": 336
+        },
+        {
+          "x": 1296,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1296,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-tech-workbench-north-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-tech-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1560,
+          "y": 1264
+        },
+        {
+          "x": 1560,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 768
+        },
+        {
+          "x": 1672,
+          "y": 768
+        },
+        {
+          "x": 1672,
+          "y": 192
+        },
+        {
+          "x": 1712,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1744,
+        "y": 192,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-tech-workbench-north-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-tech-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1560,
+          "y": 1264
+        },
+        {
+          "x": 1560,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 768
+        },
+        {
+          "x": 1672,
+          "y": 768
+        },
+        {
+          "x": 1672,
+          "y": 192
+        },
+        {
+          "x": 1688,
+          "y": 192
+        },
+        {
+          "x": 1688,
+          "y": 176
+        },
+        {
+          "x": 1752,
+          "y": 176
+        },
+        {
+          "x": 1752,
+          "y": 192
+        },
+        {
+          "x": 1776,
+          "y": 192
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-tech-workbench-north-1-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1744,
+        "y": 192,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-tech-workbench-south-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-tech-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1560,
+          "y": 1264
+        },
+        {
+          "x": 1560,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 768
+        },
+        {
+          "x": 1720,
+          "y": 768
+        },
+        {
+          "x": 1720,
+          "y": 336
+        },
+        {
+          "x": 1712,
+          "y": 336
+        },
+        {
+          "x": 1712,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1712,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-tech-workbench-south-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-tech-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1560,
+          "y": 1264
+        },
+        {
+          "x": 1560,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 784
+        },
+        {
+          "x": 1608,
+          "y": 768
+        },
+        {
+          "x": 1784,
+          "y": 768
+        },
+        {
+          "x": 1784,
+          "y": 336
+        },
+        {
+          "x": 1776,
+          "y": 336
+        },
+        {
+          "x": 1776,
+          "y": 304
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1776,
+        "y": 336,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-design-media-workbench-north-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-design-media-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1104
+        },
+        {
+          "x": 344,
+          "y": 1104
+        },
+        {
+          "x": 344,
+          "y": 832
+        },
+        {
+          "x": 328,
+          "y": 832
+        },
+        {
+          "x": 328,
+          "y": 816
+        },
+        {
+          "x": 280,
+          "y": 816
+        },
+        {
+          "x": 280,
+          "y": 832
+        },
+        {
+          "x": 240,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-design-media-workbench-north-2-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 272,
+        "y": 832,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-design-media-workbench-north-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-design-media-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1104
+        },
+        {
+          "x": 344,
+          "y": 1104
+        },
+        {
+          "x": 344,
+          "y": 832
+        },
+        {
+          "x": 304,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 272,
+        "y": 832,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-design-media-workbench-south-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-design-media-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1184
+        },
+        {
+          "x": 248,
+          "y": 1184
+        },
+        {
+          "x": 248,
+          "y": 976
+        },
+        {
+          "x": 240,
+          "y": 976
+        },
+        {
+          "x": 240,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 240,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-design-media-workbench-south-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-design-media-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1184
+        },
+        {
+          "x": 312,
+          "y": 1184
+        },
+        {
+          "x": 312,
+          "y": 976
+        },
+        {
+          "x": 304,
+          "y": 976
+        },
+        {
+          "x": 304,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 304,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-marketing-workbench-north-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-marketing-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 680,
+          "y": 1264
+        },
+        {
+          "x": 680,
+          "y": 832
+        },
+        {
+          "x": 720,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 752,
+        "y": 832,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-marketing-workbench-north-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-marketing-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 680,
+          "y": 1264
+        },
+        {
+          "x": 680,
+          "y": 832
+        },
+        {
+          "x": 696,
+          "y": 832
+        },
+        {
+          "x": 696,
+          "y": 816
+        },
+        {
+          "x": 760,
+          "y": 816
+        },
+        {
+          "x": 760,
+          "y": 832
+        },
+        {
+          "x": 784,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-marketing-workbench-north-1-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 752,
+        "y": 832,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-marketing-workbench-south-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-marketing-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 728,
+          "y": 1264
+        },
+        {
+          "x": 728,
+          "y": 976
+        },
+        {
+          "x": 720,
+          "y": 976
+        },
+        {
+          "x": 720,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 720,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-marketing-workbench-south-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-marketing-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 792,
+          "y": 1264
+        },
+        {
+          "x": 792,
+          "y": 976
+        },
+        {
+          "x": 784,
+          "y": 976
+        },
+        {
+          "x": 784,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 784,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-research-workbench-north-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-research-workbench-north-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1336,
+          "y": 1264
+        },
+        {
+          "x": 1336,
+          "y": 832
+        },
+        {
+          "x": 1320,
+          "y": 832
+        },
+        {
+          "x": 1320,
+          "y": 816
+        },
+        {
+          "x": 1272,
+          "y": 816
+        },
+        {
+          "x": 1272,
+          "y": 832
+        },
+        {
+          "x": 1232,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [
+        "studenthub-research-workbench-north-2-plot"
+      ],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1264,
+        "y": 832,
+        "finalWalkDirection": "west",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-research-workbench-north-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-research-workbench-north-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1336,
+          "y": 1264
+        },
+        {
+          "x": 1336,
+          "y": 832
+        },
+        {
+          "x": 1296,
+          "y": 832
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1264,
+        "y": 832,
+        "finalWalkDirection": "east",
+        "pushDirection": "south",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-research-workbench-south-1",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-research-workbench-south-1",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1272,
+          "y": 1264
+        },
+        {
+          "x": 1272,
+          "y": 1168
+        },
+        {
+          "x": 1240,
+          "y": 1168
+        },
+        {
+          "x": 1240,
+          "y": 976
+        },
+        {
+          "x": 1232,
+          "y": 976
+        },
+        {
+          "x": 1232,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1232,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-studenthub-research-workbench-south-2",
+      "startId": "reception-visitor",
+      "targetId": "studenthub-research-workbench-south-2",
+      "targetKind": "team-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1304,
+          "y": 1264
+        },
+        {
+          "x": 1304,
+          "y": 976
+        },
+        {
+          "x": 1296,
+          "y": 976
+        },
+        {
+          "x": 1296,
+          "y": 944
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": {
+        "x": 1296,
+        "y": 976,
+        "finalWalkDirection": "north",
+        "pushDirection": "north",
+        "method": "walk checked approach to seat; then attempt1px toward table"
+      }
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-west-sofa-seat-1",
+      "startId": "reception-visitor",
+      "targetId": "cross-lounge-west-sofa-seat-1",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 296,
+          "y": 768
+        },
+        {
+          "x": 296,
+          "y": 560
+        },
+        {
+          "x": 232,
+          "y": 560
+        },
+        {
+          "x": 232,
+          "y": 512
+        },
+        {
+          "x": 228,
+          "y": 516
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-west-sofa-seat-2",
+      "startId": "reception-visitor",
+      "targetId": "cross-lounge-west-sofa-seat-2",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 296,
+          "y": 768
+        },
+        {
+          "x": 296,
+          "y": 560
+        },
+        {
+          "x": 280,
+          "y": 560
+        },
+        {
+          "x": 280,
+          "y": 512
+        },
+        {
+          "x": 284,
+          "y": 516
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-west-guest",
+      "startId": "reception-visitor",
+      "targetId": "cross-lounge-west-guest",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 784
+        },
+        {
+          "x": 408,
+          "y": 768
+        },
+        {
+          "x": 264,
+          "y": 768
+        },
+        {
+          "x": 264,
+          "y": 608
+        },
+        {
+          "x": 256,
+          "y": 608
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-east-sofa-seat-1",
+      "startId": "reception-visitor",
+      "targetId": "cross-lounge-east-sofa-seat-1",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1080,
+          "y": 1264
+        },
+        {
+          "x": 1080,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 768
+        },
+        {
+          "x": 1208,
+          "y": 768
+        },
+        {
+          "x": 1208,
+          "y": 560
+        },
+        {
+          "x": 1224,
+          "y": 560
+        },
+        {
+          "x": 1224,
+          "y": 512
+        },
+        {
+          "x": 1220,
+          "y": 516
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-east-sofa-seat-2",
+      "startId": "reception-visitor",
+      "targetId": "cross-lounge-east-sofa-seat-2",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1080,
+          "y": 1264
+        },
+        {
+          "x": 1080,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 768
+        },
+        {
+          "x": 1208,
+          "y": 768
+        },
+        {
+          "x": 1208,
+          "y": 560
+        },
+        {
+          "x": 1272,
+          "y": 560
+        },
+        {
+          "x": 1272,
+          "y": 512
+        },
+        {
+          "x": 1276,
+          "y": 516
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-cross-lounge-east-guest",
+      "startId": "reception-visitor",
+      "targetId": "cross-lounge-east-guest",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1080,
+          "y": 1264
+        },
+        {
+          "x": 1080,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 784
+        },
+        {
+          "x": 1128,
+          "y": 768
+        },
+        {
+          "x": 1256,
+          "y": 768
+        },
+        {
+          "x": 1256,
+          "y": 608
+        },
+        {
+          "x": 1248,
+          "y": 608
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-foyer-south-facing-sofa-seat-1",
+      "startId": "reception-visitor",
+      "targetId": "foyer-south-facing-sofa-seat-1",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1184
+        },
+        {
+          "x": 360,
+          "y": 1184
+        },
+        {
+          "x": 360,
+          "y": 1152
+        },
+        {
+          "x": 356,
+          "y": 1156
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-foyer-south-facing-sofa-seat-2",
+      "startId": "reception-visitor",
+      "targetId": "foyer-south-facing-sofa-seat-2",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1184
+        },
+        {
+          "x": 408,
+          "y": 1184
+        },
+        {
+          "x": 408,
+          "y": 1152
+        },
+        {
+          "x": 412,
+          "y": 1156
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-foyer-north-facing-sofa-seat-1",
+      "startId": "reception-visitor",
+      "targetId": "foyer-north-facing-sofa-seat-1",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1232
+        },
+        {
+          "x": 360,
+          "y": 1232
+        },
+        {
+          "x": 360,
+          "y": 1248
+        },
+        {
+          "x": 356,
+          "y": 1248
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-foyer-north-facing-sofa-seat-2",
+      "startId": "reception-visitor",
+      "targetId": "foyer-north-facing-sofa-seat-2",
+      "targetKind": "lounge-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1264
+        },
+        {
+          "x": 456,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1216
+        },
+        {
+          "x": 424,
+          "y": 1232
+        },
+        {
+          "x": 408,
+          "y": 1232
+        },
+        {
+          "x": 408,
+          "y": 1248
+        },
+        {
+          "x": 412,
+          "y": 1248
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-reception-staff",
+      "startId": "reception-visitor",
+      "targetId": "reception-staff",
+      "targetKind": "reception-position",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1272,
+          "y": 1264
+        },
+        {
+          "x": 1272,
+          "y": 1168
+        },
+        {
+          "x": 1200,
+          "y": 1168
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-north-place",
+      "startId": "reception-visitor",
+      "targetId": "meeting-a-north-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 624
+        },
+        {
+          "x": 2200,
+          "y": 624
+        },
+        {
+          "x": 2200,
+          "y": 544
+        },
+        {
+          "x": 2216,
+          "y": 544
+        },
+        {
+          "x": 2216,
+          "y": 528
+        },
+        {
+          "x": 2272,
+          "y": 528
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-south-place",
+      "startId": "reception-visitor",
+      "targetId": "meeting-a-south-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 624
+        },
+        {
+          "x": 2280,
+          "y": 624
+        },
+        {
+          "x": 2280,
+          "y": 608
+        },
+        {
+          "x": 2272,
+          "y": 608
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-west-place",
+      "startId": "reception-visitor",
+      "targetId": "meeting-a-west-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 624
+        },
+        {
+          "x": 2216,
+          "y": 624
+        },
+        {
+          "x": 2216,
+          "y": 568
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-east-place",
+      "startId": "reception-visitor",
+      "targetId": "meeting-a-east-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 624
+        },
+        {
+          "x": 2328,
+          "y": 624
+        },
+        {
+          "x": 2328,
+          "y": 568
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-north-place",
+      "startId": "reception-visitor",
+      "targetId": "meeting-b-north-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 800
+        },
+        {
+          "x": 2200,
+          "y": 800
+        },
+        {
+          "x": 2200,
+          "y": 736
+        },
+        {
+          "x": 2216,
+          "y": 736
+        },
+        {
+          "x": 2216,
+          "y": 720
+        },
+        {
+          "x": 2272,
+          "y": 720
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-south-place",
+      "startId": "reception-visitor",
+      "targetId": "meeting-b-south-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 800
+        },
+        {
+          "x": 2272,
+          "y": 800
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-west-place",
+      "startId": "reception-visitor",
+      "targetId": "meeting-b-west-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 800
+        },
+        {
+          "x": 2216,
+          "y": 800
+        },
+        {
+          "x": 2216,
+          "y": 760
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-east-place",
+      "startId": "reception-visitor",
+      "targetId": "meeting-b-east-place",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 800
+        },
+        {
+          "x": 2248,
+          "y": 800
+        },
+        {
+          "x": 2248,
+          "y": 816
+        },
+        {
+          "x": 2328,
+          "y": 816
+        },
+        {
+          "x": 2328,
+          "y": 760
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-conference-north-place-1",
+      "startId": "reception-visitor",
+      "targetId": "conference-north-place-1",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1008
+        },
+        {
+          "x": 2208,
+          "y": 1008
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-conference-south-place-1",
+      "startId": "reception-visitor",
+      "targetId": "conference-south-place-1",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1120
+        },
+        {
+          "x": 2208,
+          "y": 1120
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-conference-north-place-2",
+      "startId": "reception-visitor",
+      "targetId": "conference-north-place-2",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1008
+        },
+        {
+          "x": 2184,
+          "y": 1008
+        },
+        {
+          "x": 2184,
+          "y": 992
+        },
+        {
+          "x": 2280,
+          "y": 992
+        },
+        {
+          "x": 2280,
+          "y": 1008
+        },
+        {
+          "x": 2272,
+          "y": 1008
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-conference-south-place-2",
+      "startId": "reception-visitor",
+      "targetId": "conference-south-place-2",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1120
+        },
+        {
+          "x": 2184,
+          "y": 1120
+        },
+        {
+          "x": 2184,
+          "y": 1136
+        },
+        {
+          "x": 2280,
+          "y": 1136
+        },
+        {
+          "x": 2280,
+          "y": 1120
+        },
+        {
+          "x": 2272,
+          "y": 1120
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-conference-north-place-3",
+      "startId": "reception-visitor",
+      "targetId": "conference-north-place-3",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1008
+        },
+        {
+          "x": 2184,
+          "y": 1008
+        },
+        {
+          "x": 2184,
+          "y": 992
+        },
+        {
+          "x": 2344,
+          "y": 992
+        },
+        {
+          "x": 2344,
+          "y": 1008
+        },
+        {
+          "x": 2336,
+          "y": 1008
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-conference-south-place-3",
+      "startId": "reception-visitor",
+      "targetId": "conference-south-place-3",
+      "targetKind": "meeting-seat",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1104
+        },
+        {
+          "x": 2168,
+          "y": 1120
+        },
+        {
+          "x": 2184,
+          "y": 1120
+        },
+        {
+          "x": 2184,
+          "y": 1136
+        },
+        {
+          "x": 2344,
+          "y": 1136
+        },
+        {
+          "x": 2344,
+          "y": 1120
+        },
+        {
+          "x": 2336,
+          "y": 1120
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 52,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-main-entrance",
+      "startId": "reception-visitor",
+      "targetId": "main-entrance",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 992,
+          "y": 1328
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-shared-spine-center",
+      "startId": "reception-visitor",
+      "targetId": "shared-spine-center",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1000,
+          "y": 1264
+        },
+        {
+          "x": 1000,
+          "y": 624
+        },
+        {
+          "x": 992,
+          "y": 624
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-gallery-main-threshold",
+      "startId": "reception-visitor",
+      "targetId": "gallery-main-threshold",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1968,
+          "y": 1104
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-gallery-corridor-entry",
+      "startId": "reception-visitor",
+      "targetId": "gallery-corridor-entry",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2072,
+          "y": 1120
+        },
+        {
+          "x": 2072,
+          "y": 1104
+        },
+        {
+          "x": 2064,
+          "y": 1104
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-gallery-south-entry",
+      "startId": "reception-visitor",
+      "targetId": "gallery-south-entry",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2072,
+          "y": 1120
+        },
+        {
+          "x": 2072,
+          "y": 1328
+        },
+        {
+          "x": 2064,
+          "y": 1328
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-meeting-a-threshold",
+      "startId": "reception-visitor",
+      "targetId": "meeting-a-threshold",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 624
+        },
+        {
+          "x": 2152,
+          "y": 624
+        },
+        {
+          "x": 2152,
+          "y": 592
+        },
+        {
+          "x": 2144,
+          "y": 584
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-meeting-b-threshold",
+      "startId": "reception-visitor",
+      "targetId": "meeting-b-threshold",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1264
+        },
+        {
+          "x": 1912,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 1120
+        },
+        {
+          "x": 2104,
+          "y": 800
+        },
+        {
+          "x": 2152,
+          "y": 800
+        },
+        {
+          "x": 2152,
+          "y": 768
+        },
+        {
+          "x": 2144,
+          "y": 760
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    },
+    {
+      "id": "reception-visitor-to-conference-threshold",
+      "startId": "reception-visitor",
+      "targetId": "conference-threshold",
+      "targetKind": "checkpoint",
+      "coordinateSpace": "source office pixels",
+      "points": [
+        {
+          "x": 1200,
+          "y": 1264
+        },
+        {
+          "x": 2144,
+          "y": 1064
+        }
+      ],
+      "alsoTestReverse": true,
+      "otherOccupiedBodies": 53,
+      "otherDraftClaimAreasTraversed": [],
+      "claimNote": "Draft ownership areas do not restrict physical entry.",
+      "contactApproach": null
+    }
+  ]
+}

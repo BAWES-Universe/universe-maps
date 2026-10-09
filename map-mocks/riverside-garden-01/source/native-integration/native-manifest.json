@@ -1,0 +1,683 @@
+{
+  "format": "riverside-native-static-variant-v1",
+  "worldOrigin": {
+    "x": 2176,
+    "y": 1920
+  },
+  "size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "tileSize": 8,
+  "artGrid": 32,
+  "avatar": {
+    "frame": {
+      "x": -16,
+      "y": -16,
+      "width": 32,
+      "height": 32
+    },
+    "body": {
+      "x": -8,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "scale": 1
+  },
+  "entry": {
+    "x": 16,
+    "y": 272
+  },
+  "attachment": {
+    "x": 0,
+    "y": 288,
+    "width": 96
+  },
+  "walkable": [
+    [
+      [
+        0,
+        244
+      ],
+      [
+        180,
+        244
+      ],
+      [
+        262,
+        256
+      ],
+      [
+        408,
+        240
+      ],
+      [
+        568,
+        232
+      ],
+      [
+        654,
+        236
+      ],
+      [
+        700,
+        264
+      ],
+      [
+        720,
+        300
+      ],
+      [
+        728,
+        424
+      ],
+      [
+        720,
+        708
+      ],
+      [
+        729,
+        838
+      ],
+      [
+        792,
+        960
+      ],
+      [
+        834,
+        1024
+      ],
+      [
+        790,
+        1024
+      ],
+      [
+        756,
+        951
+      ],
+      [
+        683,
+        858
+      ],
+      [
+        650,
+        812
+      ],
+      [
+        650,
+        714
+      ],
+      [
+        635,
+        701
+      ],
+      [
+        590,
+        717
+      ],
+      [
+        539,
+        735
+      ],
+      [
+        451,
+        735
+      ],
+      [
+        379,
+        711
+      ],
+      [
+        322,
+        676
+      ],
+      [
+        290,
+        626
+      ],
+      [
+        274,
+        566
+      ],
+      [
+        280,
+        483
+      ],
+      [
+        295,
+        418
+      ],
+      [
+        325,
+        378
+      ],
+      [
+        304,
+        354
+      ],
+      [
+        249,
+        350
+      ],
+      [
+        208,
+        348
+      ],
+      [
+        151,
+        348
+      ],
+      [
+        125,
+        338
+      ],
+      [
+        0,
+        338
+      ]
+    ]
+  ],
+  "obstacles": [
+    {
+      "id": "fire-ring-and-flower-corners",
+      "type": "circle",
+      "x": 492,
+      "y": 520,
+      "radius": 62
+    },
+    {
+      "id": "upper-west-planter",
+      "type": "circle",
+      "x": 327,
+      "y": 349,
+      "radius": 25
+    },
+    {
+      "id": "upper-east-planter",
+      "type": "circle",
+      "x": 625,
+      "y": 320,
+      "radius": 27
+    },
+    {
+      "id": "lower-east-planter",
+      "type": "circle",
+      "x": 624,
+      "y": 698,
+      "radius": 26
+    },
+    {
+      "id": "river-path-planter",
+      "type": "circle",
+      "x": 774,
+      "y": 817,
+      "radius": 22
+    },
+    {
+      "id": "low-left-court-flowers",
+      "type": "circle",
+      "x": 348,
+      "y": 672,
+      "radius": 23
+    },
+    {
+      "id": "north-permanent-structure-0",
+      "type": "rect",
+      "x": 416,
+      "y": 360,
+      "width": 32,
+      "height": 64
+    },
+    {
+      "id": "north-permanent-structure-1",
+      "type": "rect",
+      "x": 536,
+      "y": 360,
+      "width": 32,
+      "height": 64
+    },
+    {
+      "id": "north-permanent-structure-2",
+      "type": "rect",
+      "x": 448,
+      "y": 368,
+      "width": 88,
+      "height": 16
+    },
+    {
+      "id": "south-permanent-structure-0",
+      "type": "rect",
+      "x": 416,
+      "y": 600,
+      "width": 32,
+      "height": 64
+    },
+    {
+      "id": "south-permanent-structure-1",
+      "type": "rect",
+      "x": 536,
+      "y": 600,
+      "width": 32,
+      "height": 64
+    },
+    {
+      "id": "south-permanent-structure-2",
+      "type": "rect",
+      "x": 448,
+      "y": 640,
+      "width": 88,
+      "height": 16
+    },
+    {
+      "id": "west-permanent-structure-0",
+      "type": "rect",
+      "x": 344,
+      "y": 448,
+      "width": 24,
+      "height": 136
+    },
+    {
+      "id": "west-permanent-structure-1",
+      "type": "rect",
+      "x": 368,
+      "y": 448,
+      "width": 32,
+      "height": 40
+    },
+    {
+      "id": "west-permanent-structure-2",
+      "type": "rect",
+      "x": 368,
+      "y": 552,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "east-permanent-structure-0",
+      "type": "rect",
+      "x": 624,
+      "y": 448,
+      "width": 24,
+      "height": 136
+    },
+    {
+      "id": "east-permanent-structure-1",
+      "type": "rect",
+      "x": 584,
+      "y": 448,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "east-permanent-structure-2",
+      "type": "rect",
+      "x": 584,
+      "y": 552,
+      "width": 40,
+      "height": 32
+    }
+  ],
+  "spots": [
+    {
+      "id": "north",
+      "facing": "down",
+      "spriteRow": 0,
+      "approach": {
+        "x": 496,
+        "y": 432
+      },
+      "position": {
+        "x": 496,
+        "y": 392
+      },
+      "support": {
+        "permanentGridReachable": true,
+        "reverseExit": true,
+        "fixedForegroundHeadClear": true,
+        "nativeClientVerified": false,
+        "actualSittingAnimation": false,
+        "status": "supported static bench-position fixture; live engine acceptance pending"
+      }
+    },
+    {
+      "id": "south",
+      "facing": "up",
+      "spriteRow": 3,
+      "approach": {
+        "x": 496,
+        "y": 584
+      },
+      "position": {
+        "x": 496,
+        "y": 624
+      },
+      "support": {
+        "permanentGridReachable": true,
+        "reverseExit": true,
+        "fixedForegroundHeadClear": true,
+        "nativeClientVerified": false,
+        "actualSittingAnimation": false,
+        "status": "supported static bench-position fixture; live engine acceptance pending"
+      }
+    },
+    {
+      "id": "west",
+      "facing": "right",
+      "spriteRow": 2,
+      "approach": {
+        "x": 416,
+        "y": 520
+      },
+      "position": {
+        "x": 384,
+        "y": 520
+      },
+      "support": {
+        "permanentGridReachable": true,
+        "reverseExit": true,
+        "fixedForegroundHeadClear": true,
+        "nativeClientVerified": false,
+        "actualSittingAnimation": false,
+        "status": "supported static bench-position fixture; live engine acceptance pending"
+      }
+    },
+    {
+      "id": "east",
+      "facing": "left",
+      "spriteRow": 1,
+      "approach": {
+        "x": 568,
+        "y": 520
+      },
+      "position": {
+        "x": 608,
+        "y": 520
+      },
+      "support": {
+        "permanentGridReachable": true,
+        "reverseExit": true,
+        "fixedForegroundHeadClear": true,
+        "nativeClientVerified": false,
+        "actualSittingAnimation": false,
+        "status": "supported static bench-position fixture; live engine acceptance pending"
+      }
+    }
+  ],
+  "fixedForegroundSemantics": {
+    "north": {
+      "above": [
+        [
+          [
+            430,
+            377
+          ],
+          [
+            445,
+            373
+          ],
+          [
+            448,
+            407
+          ],
+          [
+            444,
+            417
+          ],
+          [
+            434,
+            417
+          ]
+        ],
+        [
+          [
+            540,
+            373
+          ],
+          [
+            553,
+            377
+          ],
+          [
+            556,
+            417
+          ],
+          [
+            544,
+            416
+          ]
+        ]
+      ],
+      "behind": "North backrail and low front seat fascia stay in the base: the backrail is behind the occupant and the fascia is below head/body occlusion height."
+    },
+    "south": {
+      "above": [
+        [
+          [
+            434,
+            608
+          ],
+          [
+            445,
+            607
+          ],
+          [
+            448,
+            638
+          ],
+          [
+            443,
+            649
+          ],
+          [
+            434,
+            646
+          ]
+        ],
+        [
+          [
+            541,
+            607
+          ],
+          [
+            553,
+            610
+          ],
+          [
+            554,
+            647
+          ],
+          [
+            543,
+            648
+          ]
+        ],
+        [
+          [
+            445,
+            635
+          ],
+          [
+            539,
+            635
+          ],
+          [
+            547,
+            642
+          ],
+          [
+            543,
+            650
+          ],
+          [
+            443,
+            650
+          ],
+          [
+            438,
+            642
+          ]
+        ]
+      ],
+      "behind": "Seat slats stay below the avatar. The nearer south backrail and arms are fixed foreground."
+    },
+    "west": {
+      "above": [
+        [
+          [
+            350,
+            475
+          ],
+          [
+            360,
+            469
+          ],
+          [
+            366,
+            475
+          ],
+          [
+            365,
+            555
+          ],
+          [
+            359,
+            566
+          ],
+          [
+            351,
+            560
+          ]
+        ],
+        [
+          [
+            361,
+            469
+          ],
+          [
+            390,
+            470
+          ],
+          [
+            397,
+            478
+          ],
+          [
+            392,
+            486
+          ],
+          [
+            364,
+            486
+          ]
+        ],
+        [
+          [
+            362,
+            554
+          ],
+          [
+            391,
+            554
+          ],
+          [
+            398,
+            562
+          ],
+          [
+            391,
+            570
+          ],
+          [
+            362,
+            568
+          ]
+        ]
+      ],
+      "behind": "Seat slats and fire-facing low edge stay in base. Actual outside west back and end arms remain fixed foreground."
+    },
+    "east": {
+      "above": [
+        [
+          [
+            624,
+            472
+          ],
+          [
+            633,
+            475
+          ],
+          [
+            635,
+            559
+          ],
+          [
+            628,
+            568
+          ],
+          [
+            623,
+            557
+          ]
+        ],
+        [
+          [
+            592,
+            469
+          ],
+          [
+            622,
+            470
+          ],
+          [
+            629,
+            478
+          ],
+          [
+            623,
+            486
+          ],
+          [
+            592,
+            486
+          ]
+        ],
+        [
+          [
+            592,
+            554
+          ],
+          [
+            621,
+            554
+          ],
+          [
+            629,
+            562
+          ],
+          [
+            622,
+            570
+          ],
+          [
+            590,
+            569
+          ]
+        ]
+      ],
+      "behind": "Seat slats and fire-facing low edge stay in base. Actual outside east back and end arms remain fixed foreground."
+    }
+  },
+  "base": "../layers/garden-base.png",
+  "foreground": "masks/benches-fixed-foreground.png",
+  "modeDependentCollision": false,
+  "avatarDependentMasking": false,
+  "sittingAnimation": false,
+  "status": "static grid and fixed mask tests passed; native client acceptance pending",
+  "sourceArtSha256": "6f924982fbcbc5399bd53ad793e2fe47ea6dd212214cdc4fdee4d93f91c0a8df",
+  "collisionGrid": "collision-grid-8px.json",
+  "collisionRectangles": "collision-rectangles.json",
+  "physicalMask": "masks/permanent-physical-mask.png",
+  "fixedForeground": "masks/bench-and-foliage-fixed-foreground.png",
+  "tiledMap": "riverside-native-static-8px.tmj"
+}

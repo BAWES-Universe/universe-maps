@@ -1,0 +1,474 @@
+{
+  "scope": "Offline swept 16x16 native body routes and source alpha-mask pixel checks. Not browser runtime or live multiplayer.",
+  "routes": {
+    "passed": true,
+    "checks": [
+      {
+        "route": "enter-student-1",
+        "samples": 596,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-student-2",
+        "samples": 436,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-student-3",
+        "samples": 276,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-student-4",
+        "samples": 580,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-student-5",
+        "samples": 420,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-student-6",
+        "samples": 260,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-1",
+        "samples": 742,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-2",
+        "samples": 686,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-3",
+        "samples": 630,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-4",
+        "samples": 630,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-5",
+        "samples": 686,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-6",
+        "samples": 742,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-7",
+        "samples": 678,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-8",
+        "samples": 622,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-9",
+        "samples": 566,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-10",
+        "samples": 566,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-11",
+        "samples": 622,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-12",
+        "samples": 678,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-13",
+        "samples": 614,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-14",
+        "samples": 558,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-15",
+        "samples": 502,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-16",
+        "samples": 502,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-17",
+        "samples": 558,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-18",
+        "samples": 614,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-19",
+        "samples": 582,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-20",
+        "samples": 526,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-21",
+        "samples": 470,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-22",
+        "samples": 470,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-23",
+        "samples": 526,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "enter-attendee-24",
+        "samples": 582,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "teacher-front",
+        "samples": 541,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "speaker-via-right-stairs",
+        "samples": 680,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      },
+      {
+        "route": "speaker-via-left-stairs",
+        "samples": 1144,
+        "allOtherSeatsOccupied": true,
+        "forwardAndReverse": true,
+        "passed": true,
+        "failures": []
+      }
+    ]
+  },
+  "pixels": {
+    "passed": true,
+    "checks": [
+      {
+        "id": "student-1",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 281,
+        "pass": true
+      },
+      {
+        "id": "student-2",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 281,
+        "pass": true
+      },
+      {
+        "id": "student-3",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 281,
+        "pass": true
+      },
+      {
+        "id": "student-4",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 281,
+        "pass": true
+      },
+      {
+        "id": "student-5",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 281,
+        "pass": true
+      },
+      {
+        "id": "student-6",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 281,
+        "pass": true
+      },
+      {
+        "id": "attendee-1",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-2",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-3",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-4",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-5",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-6",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-7",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-8",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-9",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-10",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-11",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-12",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-13",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-14",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-15",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-16",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-17",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-18",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-19",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-20",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-21",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-22",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-23",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "attendee-24",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 233,
+        "pass": true
+      },
+      {
+        "id": "teacher",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 0,
+        "pass": true
+      },
+      {
+        "id": "speaker",
+        "protectedHeadPixelsCovered": 0,
+        "torsoPixelsOccluded": 190,
+        "pass": true
+      }
+    ]
+  },
+  "nativeAvatar": [
+    32,
+    32
+  ],
+  "capacities": "6 example classroom desks, 24 example audience seats. Provisional."
+}

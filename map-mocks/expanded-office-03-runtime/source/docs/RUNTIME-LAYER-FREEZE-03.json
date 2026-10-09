@@ -1,0 +1,40 @@
+{
+  "status": "Final office layer freeze for revision03 runtime",
+  "units": "native worldpixels",
+  "avatar": 32,
+  "tile": 16,
+  "canvas": [
+    2496,
+    1408
+  ],
+  "geometry": "geometry-work/revision-03",
+  "layer_order": [
+    "floor",
+    "environment",
+    "rugs",
+    "objects",
+    "PLAYER",
+    "foreground",
+    "glass",
+    "overhead-shade",
+    "labels"
+  ],
+  "notes": [
+    "allworkbenchgroups shifted32pxright to clear real cabinetelbows",
+    "guestchaircontact originsy592",
+    "coffeetables entirelybelowplayer to preventheadcrop",
+    "realchair/sofabacks aboveplayer",
+    "overheadshade intentionally tintsplayers,alpha45percentofgeneratedsource,notopaqueoccluder",
+    "displayedsnapshot02 preserved immutable"
+  ],
+  "files": {
+    "layers/office-v2-overhead-shade.png": "f1f15df9c2f3311ac58af19c2ecce00ecbf8c4188244a26537ae8790b7a8f6d2",
+    "layers/office-v2-objects.png": "e7cb969a75d5d9d9914731254a79b428568e659428049146b3d326c1ebb2e31c",
+    "layers/office-v2-glass.png": "37d63e3da2bc9dfb0c394ff384b3beabe0fc6670bd2e81494874bcd901009a80",
+    "layers/office-v2-labels.png": "2c2ef34106ec3757bfba22c3fbfc190d19d8dda65c17b6ea9d6d656d1e5fd9de",
+    "layers/office-v2-foreground.png": "b63a40537dff5623146b480a9c9f3043dceac1a8e60a977a3852600147ccd22d",
+    "layers/office-v2-rugs.png": "70afd8a06434f211bd8171f04fd3f3d430a9569e401d7057bca5dcda6b2dfd0e",
+    "layers/office-v2-environment.png": "c9b8688a9f62198b116dea4745068aa330a19bbb241f15d6406201f1b6d9aa91",
+    "layers/office-v2-floor.png": "f0e3803d1ceeacf43a023560cf4b9aa5284841560a81a058dd3d932d77c9f738"
+  }
+}

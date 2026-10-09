@@ -1,0 +1,1264 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "continuous-office-route-conference-north-place-1",
+      "player": {
+        "x": 2240,
+        "y": 1040,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-conference-north-place-2",
+      "player": {
+        "x": 2304,
+        "y": 1040,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-conference-north-place-3",
+      "player": {
+        "x": 2368,
+        "y": 1040,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-conference-south-place-1",
+      "player": {
+        "x": 2240,
+        "y": 1152,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-conference-south-place-2",
+      "player": {
+        "x": 2304,
+        "y": 1152,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-conference-south-place-3",
+      "player": {
+        "x": 2368,
+        "y": 1152,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-cross-lounge-east-guest",
+      "player": {
+        "x": 1280,
+        "y": 640,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.4583333333333333,
+      "sourceShadeHeadPixels": 182,
+      "observedShadeHeadPixels": 182,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-cross-lounge-east-sofa-seat-1",
+      "player": {
+        "x": 1252,
+        "y": 548,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.49885057471264366,
+      "sourceShadeHeadPixels": 117,
+      "observedShadeHeadPixels": 117,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-cross-lounge-east-sofa-seat-2",
+      "player": {
+        "x": 1308,
+        "y": 548,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.3,
+      "sourceShadeHeadPixels": 94,
+      "observedShadeHeadPixels": 94,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-cross-lounge-west-guest",
+      "player": {
+        "x": 288,
+        "y": 640,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.4583333333333333,
+      "sourceShadeHeadPixels": 182,
+      "observedShadeHeadPixels": 182,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-cross-lounge-west-sofa-seat-1",
+      "player": {
+        "x": 260,
+        "y": 548,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.49885057471264366,
+      "sourceShadeHeadPixels": 117,
+      "observedShadeHeadPixels": 117,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-cross-lounge-west-sofa-seat-2",
+      "player": {
+        "x": 316,
+        "y": 548,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.3,
+      "sourceShadeHeadPixels": 94,
+      "observedShadeHeadPixels": 94,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-foyer-north-facing-sofa-seat-1",
+      "player": {
+        "x": 388,
+        "y": 1280,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-foyer-north-facing-sofa-seat-2",
+      "player": {
+        "x": 444,
+        "y": 1280,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-foyer-south-facing-sofa-seat-1",
+      "player": {
+        "x": 388,
+        "y": 1188,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-foyer-south-facing-sofa-seat-2",
+      "player": {
+        "x": 444,
+        "y": 1188,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-meeting-a-east-place",
+      "player": {
+        "x": 2360,
+        "y": 600,
+        "frame": 4
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 235,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 235,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-meeting-a-north-place",
+      "player": {
+        "x": 2304,
+        "y": 560,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-meeting-a-south-place",
+      "player": {
+        "x": 2304,
+        "y": 640,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-meeting-a-west-place",
+      "player": {
+        "x": 2248,
+        "y": 600,
+        "frame": 7
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 235,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 235,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-meeting-b-east-place",
+      "player": {
+        "x": 2360,
+        "y": 792,
+        "frame": 4
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 235,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 235,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-meeting-b-north-place",
+      "player": {
+        "x": 2304,
+        "y": 752,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-meeting-b-south-place",
+      "player": {
+        "x": 2304,
+        "y": 832,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-meeting-b-west-place",
+      "player": {
+        "x": 2248,
+        "y": 792,
+        "frame": 7
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 235,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 235,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-reception-staff",
+      "player": {
+        "x": 1232,
+        "y": 1200,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-reception-visitor",
+      "player": {
+        "x": 1232,
+        "y": 1296,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 0,
+      "actualHeadMeanChannelError": 0.0,
+      "sourceShadeHeadPixels": 0,
+      "observedShadeHeadPixels": 0,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-studenthub-design-media-workbench-south-2",
+      "player": {
+        "x": 336,
+        "y": 976,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.005376344086021506,
+      "sourceShadeHeadPixels": 67,
+      "observedShadeHeadPixels": 67,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-studenthub-marketing-workbench-south-2",
+      "player": {
+        "x": 816,
+        "y": 976,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.2325268817204301,
+      "sourceShadeHeadPixels": 85,
+      "observedShadeHeadPixels": 85,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-studenthub-operations-workbench-north-1",
+      "player": {
+        "x": 272,
+        "y": 224,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.4114942528735632,
+      "sourceShadeHeadPixels": 245,
+      "observedShadeHeadPixels": 245,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-studenthub-operations-workbench-south-2",
+      "player": {
+        "x": 336,
+        "y": 336,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.005376344086021506,
+      "sourceShadeHeadPixels": 67,
+      "observedShadeHeadPixels": 67,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-studenthub-recruitment-workbench-south-2",
+      "player": {
+        "x": 816,
+        "y": 336,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.2325268817204301,
+      "sourceShadeHeadPixels": 85,
+      "observedShadeHeadPixels": 85,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-studenthub-research-workbench-south-2",
+      "player": {
+        "x": 1328,
+        "y": 976,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.005376344086021506,
+      "sourceShadeHeadPixels": 67,
+      "observedShadeHeadPixels": 67,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-studenthub-sales-workbench-south-2",
+      "player": {
+        "x": 1328,
+        "y": 336,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.005376344086021506,
+      "sourceShadeHeadPixels": 67,
+      "observedShadeHeadPixels": 67,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "continuous-office-route-studenthub-tech-workbench-south-2",
+      "player": {
+        "x": 1808,
+        "y": 336,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.2325268817204301,
+      "sourceShadeHeadPixels": 85,
+      "observedShadeHeadPixels": 85,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "short-desk-walk-studenthub-operations-workbench-north-1",
+      "player": {
+        "x": 272,
+        "y": 224,
+        "frame": 1
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 290,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 290,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.4114942528735632,
+      "sourceShadeHeadPixels": 245,
+      "observedShadeHeadPixels": 245,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    },
+    {
+      "name": "short-desk-walk-studenthub-operations-workbench-south-2",
+      "player": {
+        "x": 336,
+        "y": 336,
+        "frame": 10
+      },
+      "nativeCanvas": [
+        1024,
+        704
+      ],
+      "nativeSprite": [
+        32,
+        32
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "headPixels": 248,
+      "hardForegroundHeadOverlap": 0,
+      "otherOpaqueHeadOverlap": 0,
+      "opaqueHeadPixels": 248,
+      "actualHeadMaxChannelError": 1,
+      "actualHeadMeanChannelError": 0.005376344086021506,
+      "sourceShadeHeadPixels": 67,
+      "observedShadeHeadPixels": 67,
+      "shadeDeltaThreshold": {
+        "predicted": 6,
+        "observed": 3
+      },
+      "shadeAppliedAtNativeAlpha": true,
+      "headAndShadePassed": true
+    }
+  ],
+  "sourceFreeze": [
+    {
+      "path": "layers/office-v2-overhead-shade.png",
+      "unchanged": true
+    },
+    {
+      "path": "layers/office-v2-objects.png",
+      "unchanged": true
+    },
+    {
+      "path": "layers/office-v2-glass.png",
+      "unchanged": true
+    },
+    {
+      "path": "layers/office-v2-labels.png",
+      "unchanged": true
+    },
+    {
+      "path": "layers/office-v2-foreground.png",
+      "unchanged": true
+    },
+    {
+      "path": "layers/office-v2-rugs.png",
+      "unchanged": true
+    },
+    {
+      "path": "layers/office-v2-environment.png",
+      "unchanged": true
+    },
+    {
+      "path": "layers/office-v2-floor.png",
+      "unchanged": true
+    }
+  ],
+  "scope": "Actual Phaser canvas captures compared with the frozen RGBA layer stack and unchanged directional Greg pixels. Top14 sprite rows are protected heads. Low-alpha overhead shade is intentional color tint; opaque furniture foreground must not cut these pixels."
+}

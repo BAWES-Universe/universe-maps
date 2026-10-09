@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Validate archive integrity and local Tiled/runtime asset closure (Python 3)."""
 from pathlib import Path
-import hashlib,json,re,struct,sys,urllib.parse,xml.etree.ElementTree as ET
+import gzip,hashlib,json,re,struct,sys,urllib.parse,xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[1]
 errors=[];checked_refs=0;checked_maps=0
 
@@ -33,9 +33,17 @@ for item in catalog['templates']:
  if meta!=item:fail(f'{d.name}: catalog metadata differs')
  if not (d/'README.md').is_file():fail(f'{d.name}: README missing')
  if not (d/meta['screenshot']).is_file():fail(f'{d.name}: screenshot missing')
- if meta['kind']=='visual-proposal' and meta['map'] is not None:fail(f'{d.name}: visual-only proposal claims TMJ')
+ if meta['kind'] in ['visual-proposal','art-study'] and meta['map'] is not None:fail(f'{d.name}: visual-only proposal claims TMJ')
  if meta['kind']=='tiled-map' and not (d/meta['map']).is_file():fail(f'{d.name}: map missing')
  if meta['catalogReady'] is not False:fail(f'{d.name}: candidate incorrectly advertised ready')
+ if meta['kind']=='art-study' and list(d.rglob('*.tmj')):fail(f'{d.name}: art study unexpectedly includes a TMJ')
+ for name in meta.get('editableSources',[]):
+  p=d/name
+  if not p.is_file():fail(f'{d.name}: editable source missing: {name}');continue
+  if p.suffix=='.blend':
+   raw=gzip.decompress(p.read_bytes())
+   if not raw.startswith(b'BLENDER'):fail(f'{d.name}: invalid Blender source: {name}')
+   if re.search(rb'/(?:workspace|tmp|home|root)/|section/art-source/',raw):fail(f'{d.name}: private path inside Blender source: {name}')
  for p in (d/'map').rglob('*') if (d/'map').exists() else []:
   if not p.is_file():continue
   if p.suffix in ['.tmj','.tsj','.wam'] or p.parent.name=='collections' and p.suffix=='.json':

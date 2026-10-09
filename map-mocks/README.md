@@ -2,7 +2,7 @@
 
 Every recoverable design has its own folder with a representative image, editable source where it exists, local assets, and a status note. These are preserved for iteration and future space-template selection. Rejected main-map directions are intentionally retained.
 
-**13 design folders: 10 Tiled candidates and 3 visual-only proposals.** The archive does not populate the live template list or deploy any candidate. All candidates remain `catalogReady: false` until selected, refined and tested. Existing published maps remain at their original paths.
+**14 design folders: 10 Tiled candidates, 3 visual-only proposals, and 1 art/lighting study.** The archive does not populate the live template list or deploy any candidate. All candidates remain `catalogReady: false` until selected, refined and tested. Existing published maps remain at their original paths.
 
 ## Browse candidates
 
@@ -21,6 +21,7 @@ Every recoverable design has its own folder with a representative image, editabl
 | [StudentHub · refined dark composition](./studenthub-interior-02-refined-dark/README.md) | [Image](./studenthub-interior-02-refined-dark/screenshot.png) | Visual compositor; no TMJ | visual-only-preserved |
 | [StudentHub · light sandstone room proposal](./studenthub-interior-03-light/README.md) | [Image](./studenthub-interior-03-light/screenshot.png) | Visual compositor; no TMJ | visual-only-preserved |
 | [StudentHub · roofless outdoor office](./studenthub-roofless-outdoor-office/README.md) | [Image](./studenthub-roofless-outdoor-office/screenshot.png) | [TMJ](./studenthub-roofless-outdoor-office/map/studenthub-outdoor-office.tmj) | future-template-candidate |
+| [StudentHub arrival · art and lighting study](./studenthub-arrival-lighting-study/README.md) | [Image](./studenthub-arrival-lighting-study/screenshot.png) | Packed Blender sources; no TMJ | rejected-main-direction-art-study |
 
 ## What is preserved
 
@@ -29,6 +30,9 @@ Every recoverable design has its own folder with a representative image, editabl
 - Dark and light full campus snapshots, plus the monumental gate-journey revision
 - Connected glass workplace proof and its separate roofless outdoor-office derivative
 - First, refined dark, and light standalone StudentHub interior visual proposals
+- Final StudentHub arrival lighting study and its earlier brown maquette, with packed Blender sources and native offline renders
+
+The arrival lighting study has no TMJ or play link; its prepared compiler/harness was not validated and is excluded.
 
 The three visual proposals have Python compositor sources and their required local art inputs. They never had importable TMJs; none has been invented. The roofless template also includes its portable source generator. Other maps are editable directly in Tiled using their included PNG assets; the full large source-review/video bundles are not duplicated here.
 

@@ -1,0 +1,15 @@
+# Strongest next art step
+
+Keep this scene as a camera, spatial and lighting guide. Do not spend another pass making procedural boxes, repeated windows and noise materials more ornate. Those objects established physical consistency but not the desired art.
+
+The next bounded test should be one original painted threshold vignette at native gameplay scale: a distinctive stone/glass entrance, one planted edge, a small fountain-water corner and the nearest compact conversation group. Use the v1/gate as an atmosphere comparison, not as artwork to copy or enlarge. Keep the existing small-team/shared-sightline plan.
+
+## Proposed hybrid authoring process
+
+1. Render the approved geometry as independent guides: flat material colors, object IDs/silhouettes, normals/heights, contact lighting, broad overhead shade and the actual32px Woka scale. These guides constrain viewpoint, proportions, anchors and masks; the current primitive silhouettes are not a final art requirement.
+2. Author a small coherent set of original painted assets/materials against those guides, using the built-in image tool for raster art where useful. Use a common style and material specification, and inspect the complete grouping as it develops. Ask for diffuse/material color and form detail rather than new global light directions. Work on the floor, architectural shell, furnishings and planting separately, including the normally hidden floor beneath movable/occluding objects. Do not generate one finished campus image and invent layers afterwards.
+3. Replace generic shapes with deliberately designed silhouettes and painted surface structure: masonry follows individual stones and joints, cloth follows cushions/rug edges, wood follows grain and trim, foliage forms readable varied masses. Furniture must keep its measured seat/table relationship. The artwork may refine outlines while retaining the verified ground anchor and approachable occupied positions; reconcile collision/foreground masks with actual pixels afterward.
+4. Keep scene-wide illumination and actual contact/overhead shadow masks separate, applying each contribution once. If a painted asset arrives with strong baked light or shadow that conflicts with the common scene, revise it before compositing; extra broad lighting cannot repair it reliably. Use actual alpha from the final art for glass, chair backs, lectern edges and canopy coverage, not a broad rectangular foreground mask.
+5. Review one native-size composite with Greg against v1 before producing the full room or gameplay atlas. It must be richer and more welcoming as an environment, with believable silhouettes and materials. Only after that visual acceptance should the existing Phaser harness test shade on Greg, seated appearance, lectern approach, glass visibility and permanent collision.
+
+This is a proposed next test, not a claim that projection-painted assets or lighting masks have already been validated together. The useful result of this experiment is the spatial/light guide and exact failure diagnosis. It has not solved the final main-world artwork.

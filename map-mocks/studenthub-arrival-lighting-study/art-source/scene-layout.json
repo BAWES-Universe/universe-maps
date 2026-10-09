@@ -1,0 +1,511 @@
+{
+  "width": 1536,
+  "height": 1152,
+  "tile": 32,
+  "spawn": {
+    "x": 768,
+    "y": 1104
+  },
+  "footprints": [
+    {
+      "x": 258.0,
+      "y": 738.0,
+      "width": 28,
+      "height": 28,
+      "label": "front stone pier"
+    },
+    {
+      "x": 626.0,
+      "y": 738.0,
+      "width": 28,
+      "height": 28,
+      "label": "front stone pier"
+    },
+    {
+      "x": 882.0,
+      "y": 738.0,
+      "width": 28,
+      "height": 28,
+      "label": "front stone pier"
+    },
+    {
+      "x": 1250.0,
+      "y": 738.0,
+      "width": 28,
+      "height": 28,
+      "label": "front stone pier"
+    },
+    {
+      "x": 672.0,
+      "y": 736.0,
+      "width": 32,
+      "height": 32,
+      "label": "entry pier"
+    },
+    {
+      "x": 832.0,
+      "y": 736.0,
+      "width": 32,
+      "height": 32,
+      "label": "entry pier"
+    },
+    {
+      "x": 280.0,
+      "y": 742.0,
+      "width": 352,
+      "height": 20,
+      "label": "front glass"
+    },
+    {
+      "x": 848.0,
+      "y": 742.0,
+      "width": 400,
+      "height": 20,
+      "label": "front glass"
+    },
+    {
+      "x": 262.0,
+      "y": 296.0,
+      "width": 20,
+      "height": 448,
+      "label": "left glass"
+    },
+    {
+      "x": 1254.0,
+      "y": 296.0,
+      "width": 20,
+      "height": 448,
+      "label": "right glass"
+    },
+    {
+      "x": 240.0,
+      "y": 256.0,
+      "width": 1056,
+      "height": 32,
+      "label": "rear wall"
+    },
+    {
+      "x": 321.0,
+      "y": 354.0,
+      "width": 62,
+      "height": 28,
+      "label": "Team station 1"
+    },
+    {
+      "x": 417.0,
+      "y": 354.0,
+      "width": 62,
+      "height": 28,
+      "label": "Team station 2"
+    },
+    {
+      "x": 513.0,
+      "y": 354.0,
+      "width": 62,
+      "height": 28,
+      "label": "Team station 3"
+    },
+    {
+      "x": 673.0,
+      "y": 354.0,
+      "width": 62,
+      "height": 28,
+      "label": "Team station 4"
+    },
+    {
+      "x": 769.0,
+      "y": 354.0,
+      "width": 62,
+      "height": 28,
+      "label": "Team station 5"
+    },
+    {
+      "x": 865.0,
+      "y": 354.0,
+      "width": 62,
+      "height": 28,
+      "label": "Team station 6"
+    },
+    {
+      "x": 725.0,
+      "y": 536.0,
+      "width": 118,
+      "height": 48,
+      "label": "Shared table"
+    },
+    {
+      "x": 372.0,
+      "y": 529.0,
+      "width": 136,
+      "height": 42,
+      "label": "sofa"
+    },
+    {
+      "x": 372.0,
+      "y": 639.0,
+      "width": 136,
+      "height": 42,
+      "label": "sofa"
+    },
+    {
+      "x": 413.0,
+      "y": 594.0,
+      "width": 54,
+      "height": 24,
+      "label": "Low tea table"
+    },
+    {
+      "x": 998.0,
+      "y": 448.0,
+      "width": 20,
+      "height": 80,
+      "label": "meeting glass north segment"
+    },
+    {
+      "x": 998.0,
+      "y": 592.0,
+      "width": 20,
+      "height": 112,
+      "label": "meeting glass south segment"
+    },
+    {
+      "x": 1008.0,
+      "y": 694.0,
+      "width": 240,
+      "height": 20,
+      "label": "meeting front glass"
+    },
+    {
+      "x": 1008.0,
+      "y": 438.0,
+      "width": 240,
+      "height": 20,
+      "label": "meeting back glass"
+    },
+    {
+      "x": 1081.0,
+      "y": 539.0,
+      "width": 94,
+      "height": 44,
+      "label": "Glass room table"
+    },
+    {
+      "x": 886.0,
+      "y": 705.0,
+      "width": 96,
+      "height": 32,
+      "label": "Reception"
+    },
+    {
+      "x": 1136.0,
+      "y": 384.0,
+      "width": 32,
+      "height": 26,
+      "label": "lectern base"
+    },
+    {
+      "x": 292.9,
+      "y": 456.875,
+      "width": 18.2,
+      "height": 16.25,
+      "label": "planter"
+    },
+    {
+      "x": 592.9,
+      "y": 457.875,
+      "width": 18.2,
+      "height": 16.25,
+      "label": "planter"
+    },
+    {
+      "x": 963.9,
+      "y": 450.875,
+      "width": 18.2,
+      "height": 16.25,
+      "label": "planter"
+    },
+    {
+      "x": 1220.9,
+      "y": 651.875,
+      "width": 18.2,
+      "height": 16.25,
+      "label": "planter"
+    },
+    {
+      "x": 316.0,
+      "y": 846.0,
+      "width": 32,
+      "height": 32,
+      "label": "tree trunk"
+    },
+    {
+      "x": 1224.0,
+      "y": 904.0,
+      "width": 32,
+      "height": 32,
+      "label": "tree trunk"
+    },
+    {
+      "x": 332.1,
+      "y": 742.375,
+      "width": 23.799999999999997,
+      "height": 21.25,
+      "label": "planter"
+    },
+    {
+      "x": 588.1,
+      "y": 762.375,
+      "width": 23.799999999999997,
+      "height": 21.25,
+      "label": "planter"
+    },
+    {
+      "x": 848.1,
+      "y": 775.375,
+      "width": 23.799999999999997,
+      "height": 21.25,
+      "label": "planter"
+    },
+    {
+      "x": 1183.1,
+      "y": 759.375,
+      "width": 23.799999999999997,
+      "height": 21.25,
+      "label": "planter"
+    },
+    {
+      "x": 672.1,
+      "y": 1045.375,
+      "width": 23.799999999999997,
+      "height": 21.25,
+      "label": "planter"
+    },
+    {
+      "x": 843.1,
+      "y": 1045.375,
+      "width": 23.799999999999997,
+      "height": 21.25,
+      "label": "planter"
+    },
+    {
+      "x": 472.0,
+      "y": 832.0,
+      "width": 176,
+      "height": 176,
+      "label": "fountain basin"
+    },
+    {
+      "x": 641.0,
+      "y": 819.0,
+      "width": 22,
+      "height": 22,
+      "label": "lantern pier"
+    },
+    {
+      "x": 853.0,
+      "y": 824.0,
+      "width": 22,
+      "height": 22,
+      "label": "lantern pier"
+    },
+    {
+      "x": 384.0,
+      "y": 994.0,
+      "width": 22,
+      "height": 22,
+      "label": "lantern pier"
+    },
+    {
+      "x": 1061.0,
+      "y": 994.0,
+      "width": 22,
+      "height": 22,
+      "label": "lantern pier"
+    },
+    {
+      "x": 677.0,
+      "y": 1099.0,
+      "width": 22,
+      "height": 22,
+      "label": "lantern pier"
+    },
+    {
+      "x": 837.0,
+      "y": 1099.0,
+      "width": 22,
+      "height": 22,
+      "label": "lantern pier"
+    }
+  ],
+  "chairs": [
+    {
+      "x": 352,
+      "y": 401,
+      "face": "north",
+      "occupied": {
+        "x": 352,
+        "y": 386
+      },
+      "label": "Team chair 1"
+    },
+    {
+      "x": 448,
+      "y": 401,
+      "face": "north",
+      "occupied": {
+        "x": 448,
+        "y": 386
+      },
+      "label": "Team chair 2"
+    },
+    {
+      "x": 544,
+      "y": 401,
+      "face": "north",
+      "occupied": {
+        "x": 544,
+        "y": 386
+      },
+      "label": "Team chair 3"
+    },
+    {
+      "x": 704,
+      "y": 401,
+      "face": "north",
+      "occupied": {
+        "x": 704,
+        "y": 386
+      },
+      "label": "Team chair 4"
+    },
+    {
+      "x": 800,
+      "y": 401,
+      "face": "north",
+      "occupied": {
+        "x": 800,
+        "y": 386
+      },
+      "label": "Team chair 5"
+    },
+    {
+      "x": 896,
+      "y": 401,
+      "face": "north",
+      "occupied": {
+        "x": 896,
+        "y": 386
+      },
+      "label": "Team chair 6"
+    },
+    {
+      "x": 752,
+      "y": 516,
+      "face": "south",
+      "occupied": {
+        "x": 752,
+        "y": 501
+      },
+      "label": "North shared chair"
+    },
+    {
+      "x": 752,
+      "y": 603,
+      "face": "north",
+      "occupied": {
+        "x": 752,
+        "y": 588
+      },
+      "label": "South shared chair"
+    },
+    {
+      "x": 816,
+      "y": 516,
+      "face": "south",
+      "occupied": {
+        "x": 816,
+        "y": 501
+      },
+      "label": "North shared chair"
+    },
+    {
+      "x": 816,
+      "y": 603,
+      "face": "north",
+      "occupied": {
+        "x": 816,
+        "y": 588
+      },
+      "label": "South shared chair"
+    },
+    {
+      "x": 1102,
+      "y": 518,
+      "face": "south",
+      "occupied": {
+        "x": 1102,
+        "y": 503
+      },
+      "label": "Meeting north chair"
+    },
+    {
+      "x": 1102,
+      "y": 608,
+      "face": "north",
+      "occupied": {
+        "x": 1102,
+        "y": 593
+      },
+      "label": "Meeting south chair"
+    },
+    {
+      "x": 1154,
+      "y": 518,
+      "face": "south",
+      "occupied": {
+        "x": 1154,
+        "y": 503
+      },
+      "label": "Meeting north chair"
+    },
+    {
+      "x": 1154,
+      "y": 608,
+      "face": "north",
+      "occupied": {
+        "x": 1154,
+        "y": 593
+      },
+      "label": "Meeting south chair"
+    },
+    {
+      "x": 934,
+      "y": 676,
+      "face": "south",
+      "occupied": {
+        "x": 934,
+        "y": 661
+      },
+      "label": "Reception chair"
+    }
+  ],
+  "inside": {
+    "x": 288,
+    "y": 296,
+    "width": 960,
+    "height": 444
+  },
+  "roofReveals": [
+    {
+      "area": "commons-inside",
+      "layers": [
+        "roof"
+      ]
+    }
+  ],
+  "assetMethod": "original calibrated orthographic scene; no reused furniture cutouts",
+  "projection": {
+    "xUnitPixels": 32,
+    "yUnitPixels": 32
+  }
+}

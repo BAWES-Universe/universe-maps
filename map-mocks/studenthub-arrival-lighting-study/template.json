@@ -1,0 +1,32 @@
+{
+  "id": "studenthub-arrival-lighting-study",
+  "title": "StudentHub arrival \u00b7 art and lighting study",
+  "kind": "art-study",
+  "status": "rejected-main-direction-art-study",
+  "catalogReady": false,
+  "playable": false,
+  "map": null,
+  "screenshot": "screenshot.png",
+  "screenshotDescription": "Offline native Blender scene render with the unchanged avatar as a scale reference; not a game screenshot.",
+  "editableSources": [
+    "art-source/studenthub-arrival.blend",
+    "experiments/brown-maquette/scene.blend"
+  ],
+  "source": "Frozen StudentHub arrival art/lighting experiment, including earlier brown maquette, 2026-10-09",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {},
+  "sourceArtifactSha256": {
+    "art-source/studenthub-arrival.blend": "33e65dfa66f5cab0adc47645cf38f5a6bd6cd7fdba7ad501e6a0befa4220dad6",
+    "experiments/brown-maquette/scene.blend": "0d904f3aee7f035393219462a23b2cbe3137f63f5b28f53d32ab724360f2c8b6"
+  },
+  "archiveSourceChanges": "Resource/render paths and cached environment filenames were normalized for portability/privacy. Compressed Blender files were reopened and their object/mesh/material counts and all packed-image hashes verified unchanged.",
+  "silentAreas": {},
+  "knownLimitations": [
+    "Rejected as the main Universe visual direction; retained as an editable art/lighting experiment.",
+    "No TMJ or gameplay atlas was produced. There is no play link, browser walkthrough, mobile test or runtime acceptance.",
+    "The earlier brown maquette is preserved under experiments/brown-maquette, with its own editable packed source and preview.",
+    "Prepared but unvalidated map compiler and Phaser harness are excluded. Native meetings, bots, portals, audio and live integrations are not configured.",
+    "Build-scene source can regenerate draft renders; exact final review compositions were preserved as delivered and were not rerendered during this archival task."
+  ],
+  "archiveValidation": "Native image hashes/dimensions and packed Blender source reopen/resource checks passed; no gameplay claim."
+}

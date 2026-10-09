@@ -2,7 +2,7 @@
   "dateUTC": "2026-10-09",
   "archiveStructuralValidation": {
     "passed": true,
-    "candidates": 13,
+    "candidates": 14,
     "tiledMaps": 12,
     "localReferencesChecked": 217,
     "errors": []
@@ -57,5 +57,48 @@
     "studenthub-connected-glass-proof: three area objects omit visible",
     "studenthub-roofless-outdoor-office: three area objects omit visible"
   ],
-  "intentionalIncompleteCheckpoint": "butterfly-town-v2/history/pre-water-checkpoint (not a standalone template)"
+  "intentionalIncompleteCheckpoint": "butterfly-town-v2/history/pre-water-checkpoint (not a standalone template)",
+  "artStudyValidation": [
+    {
+      "file": "art-source/studenthub-arrival.blend",
+      "opensInBlender": "4.3.2",
+      "objects": 2752,
+      "meshes": 2736,
+      "materials": 41,
+      "packedImages": 5,
+      "packedImageHashesUnchanged": true,
+      "allResourcesLocal": true,
+      "noExternalLibrariesOrEmbeddedScripts": true,
+      "noPrivatePathsInDecodedFile": true,
+      "nativePixels": [
+        1536,
+        1152
+      ],
+      "sha256": "b9a9da7f42f66f0d5c767899feae3a40720da23716c3958c64276c1f0d6ba6b6"
+    },
+    {
+      "file": "experiments/brown-maquette/scene.blend",
+      "opensInBlender": "4.3.2",
+      "objects": 2125,
+      "meshes": 2109,
+      "materials": 41,
+      "packedImages": 4,
+      "packedImageHashesUnchanged": true,
+      "allResourcesLocal": true,
+      "noExternalLibrariesOrEmbeddedScripts": true,
+      "noPrivatePathsInDecodedFile": true,
+      "nativePixels": [
+        1536,
+        1152
+      ],
+      "sha256": "5a6538f2618e7884af6e765a5d0b6d17c05927a9182abd332d51d19acf423b77"
+    }
+  ],
+  "arrivalStudy": {
+    "playable": false,
+    "tmjFiles": 0,
+    "finalRendersUnchanged": true,
+    "existingThirteenFoldersUnchanged": true,
+    "preparedCompilerAndHarnessExcluded": true
+  }
 }

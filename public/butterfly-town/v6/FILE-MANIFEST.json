@@ -1,0 +1,317 @@
+{
+  "entries": [
+    "map16/magical-campus.tmj",
+    "gate/map/gate.tmj",
+    "companion-wam/native-meetings.wam"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2385,
+      "sha256": "3b97239ad76b866fd388735282fb00a4e5df25a9438cc312e7c14629ca0ea570"
+    },
+    {
+      "path": "companion-wam/ACTIVATION.md",
+      "bytes": 13487,
+      "sha256": "93ce681c46d9cf6b4a2d57333575fa58536a16cded64647f267742d49a4ef377"
+    },
+    {
+      "path": "companion-wam/native-meetings.wam",
+      "bytes": 2352,
+      "sha256": "6cf09a5c41a01898b1df98d3dc8d85217be4867c1d0bd46af4da07175d25d2a5"
+    },
+    {
+      "path": "gate/map/gate.tmj",
+      "bytes": 422971,
+      "sha256": "d284ee94a6c608903e3858efc30fcae12837d4ee7e89a6cf9f49c5a5cec8f104"
+    },
+    {
+      "path": "gate/map/native-audio/assets/PROVENANCE.txt",
+      "bytes": 462,
+      "sha256": "22ea70c03cc169f086c9612644e604764de9fbf111f087a300c81e8eaddfd529"
+    },
+    {
+      "path": "gate/map/native-audio/assets/cascade-soft.mp3",
+      "bytes": 193004,
+      "sha256": "40a838261cd33bbb1d1f4ad8c271ca821ffc76c7923d8bf6a2cea4198a815ff8"
+    },
+    {
+      "path": "gate/map/native-audio/assets/fire-gentle-original.mp3",
+      "bytes": 193004,
+      "sha256": "ea9a73835ea6c8a1700810ed8f69a1301dd242cd45e8cecc0f4564e00a767012"
+    },
+    {
+      "path": "gate/map/native-audio/assets/fountain.mp3",
+      "bytes": 144908,
+      "sha256": "629e31d1ba5298364a04a7845c91769d6a0ff3eaa9b1805f85fb3a86cf8a267e"
+    },
+    {
+      "path": "gate/map/native-audio/assets/gate-crossing.mp3",
+      "bytes": 61100,
+      "sha256": "7757417f5a2a9a2029ea23c62f9b0ec36e3573cc6b4fd9468c53c37ee1017c19"
+    },
+    {
+      "path": "gate/map/native-audio/assets/hashes.json",
+      "bytes": 367,
+      "sha256": "7abd3e6932eb420d4d53b8563219895caadcb3fc56e56e26a09b220d7259b0b4"
+    },
+    {
+      "path": "gate/map/native-audio/gate-with-native-audio.js",
+      "bytes": 6632,
+      "sha256": "1fba66853d33e47c56ead0bfe9f393680d9a1649354216f9e83a04f0f71602de"
+    },
+    {
+      "path": "gate/map/native-audio/native-audio.mjs",
+      "bytes": 13842,
+      "sha256": "39ddb2ba0783a770bb390fa21ce9a3cc7bd92d72a123967c4770bf2eb198150f"
+    },
+    {
+      "path": "gate/map/tilesets/campus-atlas-01.png",
+      "bytes": 1893644,
+      "sha256": "aa3059caa74f6feb3caf15dcdb8925635917971cf100af0ab366fabee0903c02"
+    },
+    {
+      "path": "gate/map/tilesets/campus-atlas-04.png",
+      "bytes": 1501659,
+      "sha256": "e95364bb655d9876e0b37e27693d90229ba3a5d5364f9361289d4a9626e0295c"
+    },
+    {
+      "path": "gate/map/tilesets/campus-atlas-05.png",
+      "bytes": 2508029,
+      "sha256": "8a02b46aaf4cf3b32393d7f8ef7a9d5e101c079619e87f8ecb16397350350ab1"
+    },
+    {
+      "path": "gate/map/tilesets/campus-atlas-06.png",
+      "bytes": 282717,
+      "sha256": "55a67da657cab2635959567e4e5517a09c629417e362e4193e9e77ccbacdcc6e"
+    },
+    {
+      "path": "gate/map/tilesets/gate-journey-01.png",
+      "bytes": 246279,
+      "sha256": "946d23a0997502f333e1c2e55ef16157817d0f32e7a0fcd4b9e0850086deccc0"
+    },
+    {
+      "path": "gate/map/tilesets/gate-journey-02.png",
+      "bytes": 482169,
+      "sha256": "970b35477537ee52a202a653931b963abff2c36e2228fe8544e18490bc7953b8"
+    },
+    {
+      "path": "gate/map/tilesets/gate-journey-03.png",
+      "bytes": 424313,
+      "sha256": "d92e697b03221671050901e4cbe0bb53b909f49891a66042ca4e9d7f8b85d4fa"
+    },
+    {
+      "path": "gate/map/tilesets/gate-journey-04.png",
+      "bytes": 133827,
+      "sha256": "d5d77f5c3e287dd0b3bdbad73907e383aa992bd0a5f723096331e5be880d07e5"
+    },
+    {
+      "path": "gate/map/tilesets/gate-stage-controls.png",
+      "bytes": 188,
+      "sha256": "370537ad3acd9ac43fce743d3216a3666db4680027f40313633acc8ebbf469d5"
+    },
+    {
+      "path": "gate/map/tilesets/gate-waterfalls-01.png",
+      "bytes": 739417,
+      "sha256": "821b4a9f33b70b025498a589e58d3a4650d40a2e0c331269c00a9637c181cf5c"
+    },
+    {
+      "path": "gate/map/tilesets/gate-waterfalls-02.png",
+      "bytes": 883034,
+      "sha256": "01375f14090870020b8499caace61a76171019bb5d36be25d3bc6215027219dd"
+    },
+    {
+      "path": "gate/map/tilesets/gate-waterfalls-03.png",
+      "bytes": 936630,
+      "sha256": "bbdab69e6d490b8045c7ffafd3aa384652cff409b11c1495811e8dd4e60710e7"
+    },
+    {
+      "path": "gate/map/tilesets/gate-waterfalls-04.png",
+      "bytes": 827744,
+      "sha256": "7893fbedbf8511a5dc192cd008eddfb68084859d35ba2a2a45e90ed9399e0e34"
+    },
+    {
+      "path": "gate/map/tilesets/gate-waterfalls-05.png",
+      "bytes": 836437,
+      "sha256": "3fe5ebebbbf0c806ccbfbb0a9293d20a719b5e25d0e7032133eedab3c90d98d7"
+    },
+    {
+      "path": "gate/map/tilesets/gate-waterfalls-06.png",
+      "bytes": 363130,
+      "sha256": "e04a7ac07bdbd75ffb29491e323b8711f6b5aa0f4a694b2b66b5ff0580db9022"
+    },
+    {
+      "path": "map16/base-p0.png",
+      "bytes": 2429626,
+      "sha256": "dbd995831114d9fd6070304d45aac16a2a38231573aa6154e3382f21c3f599fd"
+    },
+    {
+      "path": "map16/base-p1.png",
+      "bytes": 2409740,
+      "sha256": "44dd1be04fab2790cd1c60f3538bd18ef9db27da9f9ecf48c14f56c61766baf7"
+    },
+    {
+      "path": "map16/base-p2.png",
+      "bytes": 2269324,
+      "sha256": "80f54d7fa5dee0d4d4e5a8e9234f843705e374e678c8c2d3920823d4337f85b5"
+    },
+    {
+      "path": "map16/base-p3.png",
+      "bytes": 2413215,
+      "sha256": "ac9a96b8be52a84f04a0f7cde3359145f6e16666dcea911795406c8ab3195d12"
+    },
+    {
+      "path": "map16/base-p4.png",
+      "bytes": 2444256,
+      "sha256": "9f17db9eaef96d3cbc220ead7b54ac3a5ea2c50110be00b0523e2882b1dd3752"
+    },
+    {
+      "path": "map16/base-p5.png",
+      "bytes": 2470313,
+      "sha256": "38d08bdba76e64dae526a4221f266c6c68a9b115361cf43d68470920c842753c"
+    },
+    {
+      "path": "map16/base-p6.png",
+      "bytes": 2523957,
+      "sha256": "1fcf4d5e2cc118ca81b700b03604fbc28ed48ab6375a0f833a7780efbcff7a8e"
+    },
+    {
+      "path": "map16/base-p7.png",
+      "bytes": 2618062,
+      "sha256": "7fa43788b57b41502e396c4837e082b9a59bc094980bd02114b92475c6d7bac8"
+    },
+    {
+      "path": "map16/base-p8.png",
+      "bytes": 1337892,
+      "sha256": "edfc54456e2d0a341188d65e2904dd3ba9465bbcac500e0964eaddd5cba422c4"
+    },
+    {
+      "path": "map16/collision-cell.png",
+      "bytes": 86,
+      "sha256": "40bf551344f54ab7873c72ba7d072e57dccf144efeffcf69f5f8cc6a64282904"
+    },
+    {
+      "path": "map16/fire-flame-p0.png",
+      "bytes": 24310,
+      "sha256": "c4ae73017fe491d26d2b0d07f936ac0324a1b208a7ed1e552130479905bb852c"
+    },
+    {
+      "path": "map16/fixed-foreground-p0.png",
+      "bytes": 1968122,
+      "sha256": "01e623cda917d378767d32c0c831878846e1e540c0d5fb6dff71913160ca5def"
+    },
+    {
+      "path": "map16/fixed-foreground-p1.png",
+      "bytes": 959527,
+      "sha256": "d05c36449dc989efa39b4aa81ca712c2684ba28eae0bbb0c54d2b142e266a295"
+    },
+    {
+      "path": "map16/fountain-water-p0.png",
+      "bytes": 118781,
+      "sha256": "ee04d850b29c9b477fd5255c607e9933df1ba56777546bb4fa56b5dd6e17944e"
+    },
+    {
+      "path": "map16/magical-campus.tmj",
+      "bytes": 1437437,
+      "sha256": "b3b124bd6bbb4ab573eb2848ca4681a58991a3e4a481a7dc1e0f046c62171696"
+    },
+    {
+      "path": "map16/native-audio/assets/PROVENANCE.txt",
+      "bytes": 462,
+      "sha256": "22ea70c03cc169f086c9612644e604764de9fbf111f087a300c81e8eaddfd529"
+    },
+    {
+      "path": "map16/native-audio/assets/cascade-soft.mp3",
+      "bytes": 193004,
+      "sha256": "40a838261cd33bbb1d1f4ad8c271ca821ffc76c7923d8bf6a2cea4198a815ff8"
+    },
+    {
+      "path": "map16/native-audio/assets/fire-gentle-original.mp3",
+      "bytes": 193004,
+      "sha256": "ea9a73835ea6c8a1700810ed8f69a1301dd242cd45e8cecc0f4564e00a767012"
+    },
+    {
+      "path": "map16/native-audio/assets/fountain.mp3",
+      "bytes": 144908,
+      "sha256": "629e31d1ba5298364a04a7845c91769d6a0ff3eaa9b1805f85fb3a86cf8a267e"
+    },
+    {
+      "path": "map16/native-audio/assets/gate-crossing.mp3",
+      "bytes": 61100,
+      "sha256": "7757417f5a2a9a2029ea23c62f9b0ec36e3573cc6b4fd9468c53c37ee1017c19"
+    },
+    {
+      "path": "map16/native-audio/assets/hashes.json",
+      "bytes": 367,
+      "sha256": "7abd3e6932eb420d4d53b8563219895caadcb3fc56e56e26a09b220d7259b0b4"
+    },
+    {
+      "path": "map16/native-audio/campus-entry.js",
+      "bytes": 79,
+      "sha256": "e6b837463c24516a0265db0c6ec7a8c18fe238d6c6f304f17e0e1aafa1a70849"
+    },
+    {
+      "path": "map16/native-audio/native-audio.mjs",
+      "bytes": 13842,
+      "sha256": "39ddb2ba0783a770bb390fa21ce9a3cc7bd92d72a123967c4770bf2eb198150f"
+    },
+    {
+      "path": "map16/native-ocean.png",
+      "bytes": 834738,
+      "sha256": "a57b64a475cf7b0cb2011b01d67c63ffdcdb594ec0d1e6215b1d21170ae4a651"
+    },
+    {
+      "path": "map16/river-water-p0.png",
+      "bytes": 67904,
+      "sha256": "513be3af9bea18e20b583de6f02c2d5f457ac1de65b74f47e6aea1e853df09f8"
+    },
+    {
+      "path": "map16/roof-classroom-p0.png",
+      "bytes": 528974,
+      "sha256": "2f1e72684a19e64d78054ad0008feb2de0409c2c6eca1c2820d3496a0e5b6623"
+    },
+    {
+      "path": "map16/roof-event-p0.png",
+      "bytes": 583054,
+      "sha256": "3737d24aad9154f8c014abd2af5c5f61cb72d6ff296071eb90af6fa73480ec78"
+    },
+    {
+      "path": "map16/roof-office-p0.png",
+      "bytes": 2309476,
+      "sha256": "ab8f4c7059006698edaec4232212f03c5a8dc9cf7c4eb75df22d886ba9847fd6"
+    },
+    {
+      "path": "map16/roof-office-p1.png",
+      "bytes": 846795,
+      "sha256": "159e170710b836ac85dbbac4d377e9e1b9a8d2bc29e778cc5d437addddcf3d13"
+    },
+    {
+      "path": "map16/roof-translucent-shared-p0.png",
+      "bytes": 2310218,
+      "sha256": "0018b9f2bf5124edc885519e4cffa8c5843acba3afbc631135b4f9e3a74039f2"
+    },
+    {
+      "path": "map16/roof-translucent-shared-p1.png",
+      "bytes": 2261254,
+      "sha256": "5bcb57eeaba8edb936eecd16875a610d0ffeeca6053ed16bb97423eb9cdb23fc"
+    },
+    {
+      "path": "map16/roof-translucent-shared-p2.png",
+      "bytes": 350543,
+      "sha256": "75d14b57dd2ea8a4e81d111f628f95b56b8f8e35db631984ce6444cd8485c50c"
+    },
+    {
+      "path": "map16/scripts/adaptive-roofs.js",
+      "bytes": 5590,
+      "sha256": "d7b805ff444ad326d0e8dcc12d5e209b2f8ba2472157f8c1c5db6221621ed790"
+    },
+    {
+      "path": "map16/scripts/campus-return.js",
+      "bytes": 3975,
+      "sha256": "974dbaed0bb61648fbf95957adca5b38ce1de52ec69267f5a70980fa08746971"
+    }
+  ],
+  "bytes": 49247666,
+  "liveURLsAssigned": false,
+  "browserHarnessIncluded": false
+}

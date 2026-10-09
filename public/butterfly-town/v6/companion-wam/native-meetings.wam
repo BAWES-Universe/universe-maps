@@ -1,0 +1,86 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "../map16/magical-campus.tmj",
+  "entities": {},
+  "areas": [
+    {
+      "x": 1904,
+      "y": 1072,
+      "width": 272,
+      "height": 272,
+      "id": "campus06-office-meeting-a",
+      "visible": true,
+      "name": "Meeting A",
+      "properties": [
+        {
+          "id": "campus06-office-meeting-a-native-call",
+          "type": "livekitRoomProperty",
+          "roomName": "campus06-office-meeting-a",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "x": 2224,
+      "y": 1072,
+      "width": 256,
+      "height": 272,
+      "id": "campus06-office-meeting-b",
+      "visible": true,
+      "name": "Meeting B",
+      "properties": [
+        {
+          "id": "campus06-office-meeting-b-native-call",
+          "type": "livekitRoomProperty",
+          "roomName": "campus06-office-meeting-b",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "x": 2528,
+      "y": 1072,
+      "width": 320,
+      "height": 272,
+      "id": "campus06-office-conference",
+      "visible": true,
+      "name": "Conference",
+      "properties": [
+        {
+          "id": "campus06-office-conference-native-call",
+          "type": "livekitRoomProperty",
+          "roomName": "campus06-office-conference",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    }
+  ],
+  "entityCollections": [],
+  "metadata": {
+    "name": "Campus 06 native meeting rooms",
+    "description": "Offline companion draft for the connected campus: Meeting A, Meeting B and Conference."
+  },
+  "vendor": {
+    "campus06": {
+      "status": "offline draft; no live room or registration modified",
+      "sourceCommit": "6accae707e5a26bc56231ef241c64b397a5cea70",
+      "geometryRevision": "03-as-built-registration",
+      "geometryFinalConfirmed": true,
+      "coordinateUnits": "native world pixels; office origin applied exactly once",
+      "runtimeVerified": false,
+      "deploymentVerified": false
+    }
+  }
+}

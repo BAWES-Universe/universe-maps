@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "collectionName": "Lantern Courtyard Proof",
+  "tags": [
+    "proof",
+    "courtyard"
+  ],
+  "collection": [
+    {
+      "id": "lantern-courtyard:coffee-table:teal:down",
+      "name": "Courtyard coffee table",
+      "tags": [
+        "table",
+        "editable"
+      ],
+      "imagePath": "../images/coffee-table.png",
+      "direction": "Down",
+      "color": "teal",
+      "collisionGrid": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "depthOffset": -32
+    }
+  ]
+}

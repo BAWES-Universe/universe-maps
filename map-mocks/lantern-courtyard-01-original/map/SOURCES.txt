@@ -1,0 +1,27 @@
+Source pins inspected for this proof (read-only):
+
+Universe map validator:
+https://github.com/BAWES-Universe/workadventure-universe/blob/702fe51ce293217271dc43bcc60d74de523cbef3/libs/map-editor/src/GameMap/MapValidator.ts
+
+WAM / object schemas:
+https://github.com/BAWES-Universe/workadventure-universe/blob/702fe51ce293217271dc43bcc60d74de523cbef3/libs/map-editor/src/types.ts
+
+Object collection loader:
+https://github.com/BAWES-Universe/workadventure-universe/blob/702fe51ce293217271dc43bcc60d74de523cbef3/play/src/front/Phaser/Game/MapEditor/EntitiesCollectionsManager.ts
+
+Camera API:
+https://github.com/BAWES-Universe/workadventure-universe/blob/702fe51ce293217271dc43bcc60d74de523cbef3/play/src/front/Api/Iframe/camera.ts
+
+Camera state/restore behavior:
+https://github.com/BAWES-Universe/workadventure-universe/blob/702fe51ce293217271dc43bcc60d74de523cbef3/play/src/front/Phaser/Game/CameraManager.ts
+
+Existing adventure interactive map:
+https://github.com/BAWES-Universe/universe-maps/blob/813d51f59bcde0bc69e49ecc812cb423a8da49f3/adventure.tmj
+
+Existing conference interactive map:
+https://github.com/BAWES-Universe/universe-maps/blob/813d51f59bcde0bc69e49ecc812cb423a8da49f3/conference.tmj
+
+Enter/leave glow pattern:
+https://github.com/BAWES-Universe/universe-maps/blob/813d51f59bcde0bc69e49ecc812cb423a8da49f3/src/main.ts
+
+No engine source code or third-party JavaScript dependencies are redistributed inside this import package. Validator sources/dependencies were used only in an isolated local test fixture. The included map script is a small authored integration of public WA API calls.

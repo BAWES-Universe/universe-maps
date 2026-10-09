@@ -1,0 +1,23 @@
+{
+  "id": "butterfly-campus-v3-light",
+  "title": "Butterfly Campus \u00b7 light sandstone version",
+  "kind": "tiled-map",
+  "status": "experimental",
+  "catalogReady": false,
+  "map": "map/butterfly-campus.tmj",
+  "screenshot": "screenshot.png",
+  "source": "Butterfly-Campus-v3-source-review.zip, full light campus snapshot",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {
+    "butterfly-campus.tmj": "9f3f6dab4d6742184fd473d81864538fc7a831abbe54008a5a22679edeee74b7"
+  },
+  "silentAreas": {},
+  "knownLimitations": [
+    "Archived review candidate; not added to the live template catalog by this change.",
+    "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+    "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+    "The complete connected campus remains a review candidate. Native meeting/stage proposals, bots, market destinations and permissions are not activated.",
+    "Native water audio is disabled by default pending deployed-engine and listening/device acceptance."
+  ],
+  "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+}

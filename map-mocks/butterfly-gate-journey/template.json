@@ -1,0 +1,23 @@
+{
+  "id": "butterfly-gate-journey",
+  "title": "Butterfly Gate \u00b7 monumental journey revision",
+  "kind": "tiled-map",
+  "status": "experimental",
+  "catalogReady": false,
+  "map": "map/butterfly-campus.tmj",
+  "screenshot": "screenshot.png",
+  "source": "Butterfly-Gate-playable-revision.zip; TMJ verified byte-for-byte against durable package",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {
+    "butterfly-campus.tmj": "afffaf38ffffab0af6530aea7078d1524cb63f4799ec1b531542369408e737ba"
+  },
+  "silentAreas": {},
+  "knownLimitations": [
+    "Archived review candidate; not added to the live template catalog by this change.",
+    "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+    "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+    "Camera/gate journey extends the light campus. This retains its experimental architecture and interaction limitations.",
+    "Native water audio is disabled by default."
+  ],
+  "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+}

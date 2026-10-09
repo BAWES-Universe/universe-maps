@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "archiveDate": "2026-10-09",
+  "liveCatalogChanged": false,
+  "templates": [
+    {
+      "id": "butterfly-campus-v3-dark",
+      "title": "Butterfly Campus \u00b7 dark interior version",
+      "kind": "tiled-map",
+      "status": "rejected-main-direction-preserved",
+      "catalogReady": false,
+      "map": "map/butterfly-campus.tmj",
+      "screenshot": "screenshot.png",
+      "source": "Butterfly-Campus-v3-Git-ready-map.zip, frozen rejected-dark revision",
+      "archiveDate": "2026-10-09",
+      "sourceMapSha256": {
+        "butterfly-campus.tmj": "bff3d7226b78aa89ee91a98a374073b9d9be012d81527792663fbe52c8075b9d"
+      },
+      "silentAreas": {},
+      "knownLimitations": [
+        "Archived review candidate; not added to the live template catalog by this change.",
+        "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+        "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+        "Dark interiors and furniture placement were not accepted for the main campus. Retained as an alternate template starting point.",
+        "Historical return portal intersects the ordinary sales-to-fountain route; fix navigation before reuse."
+      ],
+      "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+    },
+    {
+      "id": "butterfly-campus-v3-light",
+      "title": "Butterfly Campus \u00b7 light sandstone version",
+      "kind": "tiled-map",
+      "status": "experimental",
+      "catalogReady": false,
+      "map": "map/butterfly-campus.tmj",
+      "screenshot": "screenshot.png",
+      "source": "Butterfly-Campus-v3-source-review.zip, full light campus snapshot",
+      "archiveDate": "2026-10-09",
+      "sourceMapSha256": {
+        "butterfly-campus.tmj": "9f3f6dab4d6742184fd473d81864538fc7a831abbe54008a5a22679edeee74b7"
+      },
+      "silentAreas": {},
+      "knownLimitations": [
+        "Archived review candidate; not added to the live template catalog by this change.",
+        "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+        "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+        "The complete connected campus remains a review candidate. Native meeting/stage proposals, bots, market destinations and permissions are not activated.",
+        "Native water audio is disabled by default pending deployed-engine and listening/device acceptance."
+      ],
+      "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+    },
+    {
+      "id": "butterfly-gate-journey",
+      "title": "Butterfly Gate \u00b7 monumental journey revision",
+      "kind": "tiled-map",
+      "status": "experimental",
+      "catalogReady": false,
+      "map": "map/butterfly-campus.tmj",
+      "screenshot": "screenshot.png",
+      "source": "Butterfly-Gate-playable-revision.zip; TMJ verified byte-for-byte against durable package",
+      "archiveDate": "2026-10-09",
+      "sourceMapSha256": {
+        "butterfly-campus.tmj": "afffaf38ffffab0af6530aea7078d1524cb63f4799ec1b531542369408e737ba"
+      },
+      "silentAreas": {},
+      "knownLimitations": [
+        "Archived review candidate; not added to the live template catalog by this change.",
+        "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+        "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+        "Camera/gate journey extends the light campus. This retains its experimental architecture and interaction limitations.",
+        "Native water audio is disabled by default."
+      ],
+      "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+    },
+    {
+      "id": "butterfly-town-v1",
+      "title": "Butterfly Town \u00b7 frozen v1",
+      "kind": "tiled-map",
+      "status": "historical-published-source",
+      "catalogReady": false,
+      "map": "map/butterfly-town.tmj",
+      "screenshot": "screenshot.png",
+      "source": "Butterfly-Town-source-candidate.zip; frozen v1 map source",
+      "archiveDate": "2026-10-09",
+      "sourceMapSha256": {
+        "butterfly-town.tmj": "fa8ab92db5915020ca2beea631ac5df0c7436398e1bc640be7c0e60e5ee8669e"
+      },
+      "silentAreas": {},
+      "knownLimitations": [
+        "Archived review candidate; not added to the live template catalog by this change.",
+        "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+        "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse."
+      ],
+      "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+    },
+    {
+      "id": "butterfly-town-v2",
+      "title": "Butterfly Town \u00b7 scenery and water v2",
+      "kind": "tiled-map",
+      "status": "experimental",
+      "catalogReady": false,
+      "map": "map/butterfly-town.tmj",
+      "screenshot": "screenshot.png",
+      "source": "Butterfly-Town-v2-source-review.zip, final map snapshot",
+      "archiveDate": "2026-10-09",
+      "sourceMapSha256": {
+        "butterfly-town.tmj": "dff32360181d8e4c465756ab5e2f9577faad17083e2bfde19084eac8af749831"
+      },
+      "silentAreas": {},
+      "knownLimitations": [
+        "Archived review candidate; not added to the live template catalog by this change.",
+        "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+        "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+        "Water and audio work was tested in a source-based harness. Native playback and current deployed-engine/device behavior still require acceptance."
+      ],
+      "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest.",
+      "screenshotDescription": "Historical scenery comparison; the right half is this corrected v2 candidate and the left half is v1."
+    },
+    {
+      "id": "lantern-courtyard-01-original",
+      "title": "Lantern Courtyard \u00b7 original mock",
+      "kind": "tiled-map",
+      "status": "experimental",
+      "catalogReady": false,
+      "map": "map/lantern-courtyard.tmj",
+      "screenshot": "screenshot.png",
+      "source": "Universe-Lantern-Courtyard-Proof-01.zip, original revision",
+      "archiveDate": "2026-10-09",
+      "sourceMapSha256": {
+        "lantern-courtyard.tmj": "1532fcd573f5b6584134c4296ef0cd7aea27da7fcaf51a769ce83f31707cc8d0"
+      },
+      "silentAreas": {},
+      "knownLimitations": [
+        "Archived review candidate; not added to the live template catalog by this change.",
+        "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+        "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+        "The optional WAM is an import proposal and requires supported map-storage/editor routing; simply hosting it beside a TMJ does not activate entities.",
+        "WAM hosting URLs are normalized to relative local references for safe reuse; original TMJ bytes are unchanged."
+      ],
+      "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+    },
+    {
+      "id": "lantern-courtyard-02-depth",
+      "title": "Lantern Courtyard \u00b7 depth proof",
+      "kind": "tiled-map",
+      "status": "experimental",
+      "catalogReady": false,
+      "map": "map/lantern-courtyard.tmj",
+      "screenshot": "screenshot.png",
+      "source": "Universe-Lantern-Courtyard-Proof-01.zip, revision 2",
+      "archiveDate": "2026-10-09",
+      "sourceMapSha256": {
+        "lantern-courtyard-editable.tmj": "70ff0014e2558893571d02c3586c78e21787c2c70441397e609ea48d5428df16",
+        "lantern-courtyard.tmj": "4b47946b069c7ead8db7df468c47bd30e4df9e8bb9f0b371833ad7930e6c3ada"
+      },
+      "silentAreas": {},
+      "knownLimitations": [
+        "Archived review candidate; not added to the live template catalog by this change.",
+        "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+        "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+        "The optional WAM is an import proposal and requires supported map-storage/editor routing; simply hosting it beside a TMJ does not activate entities.",
+        "WAM hosting URLs are normalized to relative local references for safe reuse; original TMJ bytes are unchanged."
+      ],
+      "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+    },
+    {
+      "id": "lantern-courtyard-03-aligned",
+      "title": "Lantern Courtyard \u00b7 aligned olive beds",
+      "kind": "tiled-map",
+      "status": "experimental",
+      "catalogReady": false,
+      "map": "map/lantern-courtyard.tmj",
+      "screenshot": "screenshot.jpg",
+      "source": "Universe-Lantern-Courtyard-Proof-01.zip, revision 3; aligned published-map source",
+      "archiveDate": "2026-10-09",
+      "sourceMapSha256": {
+        "lantern-courtyard-editable.tmj": "fb6bc285776e5c73f56c6ad24e03a0af30e5ec60d2357510d2cbe7560a8288dd",
+        "lantern-courtyard.tmj": "37eec0cbcef0f4f41248854923b6218138ddbea009f28aa36b52d9c7ca69f7b1"
+      },
+      "silentAreas": {},
+      "knownLimitations": [
+        "Archived review candidate; not added to the live template catalog by this change.",
+        "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+        "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+        "The optional WAM is an import proposal and requires supported map-storage/editor routing; simply hosting it beside a TMJ does not activate entities.",
+        "WAM hosting URLs are normalized to relative local references for safe reuse; original TMJ bytes are unchanged."
+      ],
+      "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+    },
+    {
+      "id": "studenthub-connected-glass-proof",
+      "title": "StudentHub \u00b7 connected glass workplace proof",
+      "kind": "tiled-map",
+      "status": "rejected-mechanism-proof-preserved",
+      "catalogReady": false,
+      "map": "map/studenthub-proof.tmj",
+      "screenshot": "screenshot.png",
+      "source": "StudentHub method-proof source package; historical roof-and-glass construction proof",
+      "archiveDate": "2026-10-09",
+      "sourceMapSha256": {
+        "studenthub-proof.tmj": "0a70a16ef729d66939899d12f04de3c2b1ae7ab635dae1c9c43b60a56b8ca8be"
+      },
+      "silentAreas": {
+        "studenthub-proof.tmj": [
+          "team-inside"
+        ]
+      },
+      "knownLimitations": [
+        "BUILD/IMPORT LIMIT: the pinned repository Tiled schema validator rejects three area objects because their visible booleans are omitted. Original TMJ bytes are preserved; add explicit object visibility in a separately named, tested derivative before publishing with this repository build.",
+        "KNOWN ISSUE: historical Tiled silent=true areas disable proximity conversations. Ambient quiet was the intended behavior; audit and correct this before using this candidate as a social office.",
+        "Archived review candidate; not added to the live template catalog by this change.",
+        "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+        "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+        "A construction and visibility proof, not an accepted replacement campus. Roof/glass visibility needs review against the current office reference.",
+        "The complete large gate is deliberately absent from this isolated small-space proof."
+      ],
+      "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest.",
+      "screenshotDescription": "Primary preview is the native composition with repeated unchanged avatar sprites for scale; screenshots/browser-room-open.png is the actual single-avatar browser capture.",
+      "repositorySchemaValidation": "fails: three area objects omit visible booleans"
+    },
+    {
+      "id": "studenthub-interior-01-prototype",
+      "title": "StudentHub \u00b7 first interior composition",
+      "kind": "visual-proposal",
+      "status": "visual-only-preserved",
+      "catalogReady": false,
+      "map": null,
+      "screenshot": "screenshot.png",
+      "source": "Historical campus interior compositor prototype.py",
+      "archiveDate": "2026-10-09",
+      "sourceMapSha256": {},
+      "silentAreas": {},
+      "knownLimitations": [
+        "Archived review candidate; not added to the live template catalog by this change.",
+        "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+        "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+        "No TMJ was authored for this isolated proposal. Included Python compositor and layer outputs support visual iteration only."
+      ],
+      "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+    },
+    {
+      "id": "studenthub-interior-02-refined-dark",
+      "title": "StudentHub \u00b7 refined dark composition",
+      "kind": "visual-proposal",
+      "status": "visual-only-preserved",
+      "catalogReady": false,
+      "map": null,
+      "screenshot": "screenshot.png",
+      "source": "Historical campus interior compositor refined_prototype.py",
+      "archiveDate": "2026-10-09",
+      "sourceMapSha256": {},
+      "silentAreas": {},
+      "knownLimitations": [
+        "Archived review candidate; not added to the live template catalog by this change.",
+        "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+        "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+        "No TMJ was authored for this isolated proposal. Included Python compositor and layer outputs support visual iteration only."
+      ],
+      "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+    },
+    {
+      "id": "studenthub-interior-03-light",
+      "title": "StudentHub \u00b7 light sandstone room proposal",
+      "kind": "visual-proposal",
+      "status": "visual-only-preserved",
+      "catalogReady": false,
+      "map": null,
+      "screenshot": "screenshot.png",
+      "source": "Single-room light interior composition; preceded the complete light campus",
+      "archiveDate": "2026-10-09",
+      "sourceMapSha256": {},
+      "silentAreas": {},
+      "knownLimitations": [
+        "Archived review candidate; not added to the live template catalog by this change.",
+        "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+        "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+        "No TMJ exists for this isolated proposal. Included native parts and Python compositor support visual editing; map collision and routes were not authored here."
+      ],
+      "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+    },
+    {
+      "id": "studenthub-roofless-outdoor-office",
+      "title": "StudentHub \u00b7 roofless outdoor office",
+      "kind": "tiled-map",
+      "status": "future-template-candidate",
+      "catalogReady": false,
+      "map": "map/studenthub-outdoor-office.tmj",
+      "screenshot": "screenshot.png",
+      "source": "Separate roofless derivative of the connected StudentHub proof, 2026-10-09",
+      "archiveDate": "2026-10-09",
+      "sourceMapSha256": {
+        "studenthub-outdoor-office.tmj": "b500ccee258ad358777731615cda96e7e93b4ad9613c9facb655d092719311c3"
+      },
+      "silentAreas": {},
+      "knownLimitations": [
+        "BUILD/IMPORT LIMIT: the pinned repository Tiled schema validator rejects three area objects because their visible booleans are omitted. Original TMJ bytes are preserved; add explicit object visibility in a separately named, tested derivative before publishing with this repository build.",
+        "Archived review candidate; not added to the live template catalog by this change.",
+        "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+        "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+        "Rejected as the main Universe art direction; preserved specifically for a future small outdoor office, world room or hangout.",
+        "This derivative removes the roof, reveal script and unintended generic silent property; its collision footprint is unchanged.",
+        "The screenshot is the native authored composition with repeated unchanged avatars for scale, not a multiplayer session. No full Universe or physical-device acceptance was performed."
+      ],
+      "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest.",
+      "repositorySchemaValidation": "fails: three area objects omit visible booleans"
+    }
+  ]
+}

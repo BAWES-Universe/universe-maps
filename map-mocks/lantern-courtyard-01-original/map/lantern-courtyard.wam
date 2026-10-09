@@ -1,0 +1,69 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./lantern-courtyard.tmj",
+  "entities": {
+    "proof-coffee-table-01": {
+      "x": 192,
+      "y": 320,
+      "name": "Courtyard coffee table",
+      "prefabRef": {
+        "collectionName": "Lantern Courtyard Proof",
+        "id": "lantern-courtyard:coffee-table:teal:down"
+      },
+      "properties": [
+        {
+          "id": "table-description",
+          "type": "entityDescriptionProperties",
+          "description": "A movable coffee table. An authorized room editor can reposition this object.",
+          "searchable": true
+        }
+      ]
+    }
+  },
+  "areas": [
+    {
+      "id": "proof-start",
+      "name": "courtyard-entry",
+      "x": 352,
+      "y": 480,
+      "width": 64,
+      "height": 64,
+      "visible": true,
+      "properties": [
+        {
+          "id": "proof-default-start",
+          "type": "start",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": "proof-guide",
+      "name": "Butterfly gathering",
+      "x": 480,
+      "y": 288,
+      "width": 160,
+      "height": 160,
+      "visible": true,
+      "properties": [
+        {
+          "id": "proof-tooltip",
+          "type": "tooltipPropertyData",
+          "content": "Welcome to the butterfly gathering. Step onto the mosaic to light the courtyard. Step away to return to your view.",
+          "duration": 6500
+        }
+      ]
+    }
+  ],
+  "entityCollections": [
+    {
+      "url": "collections/courtyard-furniture.json",
+      "type": "file"
+    }
+  ],
+  "metadata": {
+    "name": "Lantern Courtyard \u00b7 Universe proof 01",
+    "description": "24\u00d718 tile social-room proof. Isolated test room only. See README for one-time collection URL binding.",
+    "copyright": "Original map and AI-assisted artwork; see LICENSE.assets.txt."
+  }
+}

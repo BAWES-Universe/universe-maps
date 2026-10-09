@@ -1,0 +1,122 @@
+{
+  "version": "1.0",
+  "collectionName": "Lantern Courtyard Proof",
+  "tags": [
+    "proof",
+    "courtyard"
+  ],
+  "collection": [
+    {
+      "id": "lantern-courtyard:coffee-table:teal:down",
+      "name": "Courtyard coffee table",
+      "tags": [
+        "table",
+        "editable"
+      ],
+      "imagePath": "../images/coffee-table.png",
+      "direction": "Down",
+      "color": "teal",
+      "collisionGrid": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "depthOffset": -32
+    },
+    {
+      "id": "lantern-courtyard:olive-large:terracotta:down",
+      "name": "Courtyard olive tree",
+      "tags": [
+        "tree",
+        "terracotta"
+      ],
+      "imagePath": "../images/olive-large.png",
+      "direction": "Down",
+      "color": "terracotta",
+      "collisionGrid": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "depthOffset": -20
+    },
+    {
+      "id": "lantern-courtyard:olive-small:terracotta:down",
+      "name": "Entry olive tree",
+      "tags": [
+        "tree",
+        "terracotta"
+      ],
+      "imagePath": "../images/olive-small.png",
+      "direction": "Down",
+      "color": "terracotta",
+      "collisionGrid": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "depthOffset": -12
+    },
+    {
+      "id": "lantern-courtyard:chair:teal:down",
+      "name": "Alcove lounge chair",
+      "tags": [
+        "chair",
+        "teal"
+      ],
+      "imagePath": "../images/alcove-chair.png",
+      "direction": "Down",
+      "color": "teal",
+      "collisionGrid": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "depthOffset": -32
+    }
+  ]
+}

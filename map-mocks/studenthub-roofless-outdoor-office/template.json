@@ -1,0 +1,26 @@
+{
+  "id": "studenthub-roofless-outdoor-office",
+  "title": "StudentHub \u00b7 roofless outdoor office",
+  "kind": "tiled-map",
+  "status": "future-template-candidate",
+  "catalogReady": false,
+  "map": "map/studenthub-outdoor-office.tmj",
+  "screenshot": "screenshot.png",
+  "source": "Separate roofless derivative of the connected StudentHub proof, 2026-10-09",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {
+    "studenthub-outdoor-office.tmj": "b500ccee258ad358777731615cda96e7e93b4ad9613c9facb655d092719311c3"
+  },
+  "silentAreas": {},
+  "knownLimitations": [
+    "BUILD/IMPORT LIMIT: the pinned repository Tiled schema validator rejects three area objects because their visible booleans are omitted. Original TMJ bytes are preserved; add explicit object visibility in a separately named, tested derivative before publishing with this repository build.",
+    "Archived review candidate; not added to the live template catalog by this change.",
+    "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+    "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+    "Rejected as the main Universe art direction; preserved specifically for a future small outdoor office, world room or hangout.",
+    "This derivative removes the roof, reveal script and unintended generic silent property; its collision footprint is unchanged.",
+    "The screenshot is the native authored composition with repeated unchanged avatars for scale, not a multiplayer session. No full Universe or physical-device acceptance was performed."
+  ],
+  "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest.",
+  "repositorySchemaValidation": "fails: three area objects omit visible booleans"
+}

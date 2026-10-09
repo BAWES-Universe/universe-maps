@@ -1,0 +1,61 @@
+{
+  "dateUTC": "2026-10-09",
+  "archiveStructuralValidation": {
+    "passed": true,
+    "candidates": 13,
+    "tiledMaps": 12,
+    "localReferencesChecked": 217,
+    "errors": []
+  },
+  "liveBuild": {
+    "baseline": "passed",
+    "archiveBranch": "passed",
+    "command": "npm run build",
+    "archiveFilesInDist": 0,
+    "publishedInputsUnchanged": true,
+    "inputMaps": [
+      "./adventure.tmj",
+      "./conference.tmj",
+      "./office.tmj",
+      "./public/butterfly-town/v1/butterfly-town.tmj",
+      "./public/lantern-courtyard/lantern-courtyard-editable.tmj",
+      "./public/lantern-courtyard/lantern-courtyard.tmj",
+      "./universe-empty-sharp.tmj",
+      "./universe-empty-wide.tmj",
+      "./universe-empty.tmj",
+      "./universe.tmj"
+    ]
+  },
+  "sourceRebuilds": [
+    {
+      "candidate": "studenthub-interior-01-prototype",
+      "exitCode": 0,
+      "screenshotReproducedExactly": true
+    },
+    {
+      "candidate": "studenthub-interior-02-refined-dark",
+      "exitCode": 0,
+      "screenshotReproducedExactly": true
+    },
+    {
+      "candidate": "studenthub-interior-03-light",
+      "exitCode": 0,
+      "screenshotReproducedExactly": true
+    },
+    {
+      "candidate": "studenthub-roofless-outdoor-office",
+      "exitCode": 0,
+      "screenshotReproducedExactly": true
+    }
+  ],
+  "standaloneLanternValidators": {
+    "depth": 2251,
+    "aligned": 2254
+  },
+  "fullUniverseAcceptance": "Not performed for this archive; no merge or deployment.",
+  "knownSchemaRejections": [
+    "studenthub-connected-glass-proof: three area objects omit visible",
+    "studenthub-roofless-outdoor-office: three area objects omit visible"
+  ],
+  "intentionalIncompleteCheckpoint": "butterfly-town-v2/history/pre-water-checkpoint (not a standalone template)"
+}

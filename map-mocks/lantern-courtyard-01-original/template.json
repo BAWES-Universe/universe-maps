@@ -1,0 +1,23 @@
+{
+  "id": "lantern-courtyard-01-original",
+  "title": "Lantern Courtyard \u00b7 original mock",
+  "kind": "tiled-map",
+  "status": "experimental",
+  "catalogReady": false,
+  "map": "map/lantern-courtyard.tmj",
+  "screenshot": "screenshot.png",
+  "source": "Universe-Lantern-Courtyard-Proof-01.zip, original revision",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {
+    "lantern-courtyard.tmj": "1532fcd573f5b6584134c4296ef0cd7aea27da7fcaf51a769ce83f31707cc8d0"
+  },
+  "silentAreas": {},
+  "knownLimitations": [
+    "Archived review candidate; not added to the live template catalog by this change.",
+    "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+    "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+    "The optional WAM is an import proposal and requires supported map-storage/editor routing; simply hosting it beside a TMJ does not activate entities.",
+    "WAM hosting URLs are normalized to relative local references for safe reuse; original TMJ bytes are unchanged."
+  ],
+  "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest."
+}

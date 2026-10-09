@@ -92,3 +92,7 @@ This project contains multiple licenses as follows:
 ## ❓ Need Help
 
 If you have any questions or need further assistance, don't hesitate to ask either by [email](mailto:hello@workadventu.re) or [Discord](https://discord.gg/G6Xh9ZM9aR)!
+
+## Preserved map mocks
+
+Browse the [map mock archive](./map-mocks/README.md) for editable variants, screenshots, and future space-template candidates. These archived designs are excluded from the published build.

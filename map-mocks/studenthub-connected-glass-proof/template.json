@@ -1,0 +1,31 @@
+{
+  "id": "studenthub-connected-glass-proof",
+  "title": "StudentHub \u00b7 connected glass workplace proof",
+  "kind": "tiled-map",
+  "status": "rejected-mechanism-proof-preserved",
+  "catalogReady": false,
+  "map": "map/studenthub-proof.tmj",
+  "screenshot": "screenshot.png",
+  "source": "StudentHub method-proof source package; historical roof-and-glass construction proof",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {
+    "studenthub-proof.tmj": "0a70a16ef729d66939899d12f04de3c2b1ae7ab635dae1c9c43b60a56b8ca8be"
+  },
+  "silentAreas": {
+    "studenthub-proof.tmj": [
+      "team-inside"
+    ]
+  },
+  "knownLimitations": [
+    "BUILD/IMPORT LIMIT: the pinned repository Tiled schema validator rejects three area objects because their visible booleans are omitted. Original TMJ bytes are preserved; add explicit object visibility in a separately named, tested derivative before publishing with this repository build.",
+    "KNOWN ISSUE: historical Tiled silent=true areas disable proximity conversations. Ambient quiet was the intended behavior; audit and correct this before using this candidate as a social office.",
+    "Archived review candidate; not added to the live template catalog by this change.",
+    "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+    "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+    "A construction and visibility proof, not an accepted replacement campus. Roof/glass visibility needs review against the current office reference.",
+    "The complete large gate is deliberately absent from this isolated small-space proof."
+  ],
+  "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest.",
+  "screenshotDescription": "Primary preview is the native composition with repeated unchanged avatar sprites for scale; screenshots/browser-room-open.png is the actual single-avatar browser capture.",
+  "repositorySchemaValidation": "fails: three area objects omit visible booleans"
+}

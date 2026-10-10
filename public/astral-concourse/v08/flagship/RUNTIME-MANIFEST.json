@@ -1,0 +1,126 @@
+{
+  "nativeTileSize": 32,
+  "files": [
+    {
+      "path": "collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092"
+    },
+    {
+      "path": "garden-accent.png",
+      "bytes": 5163,
+      "sha256": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646"
+    },
+    {
+      "path": "grand-auditorium.tmj",
+      "bytes": 293297,
+      "sha256": "a9120457e63c3118de7a884879471b6219442bb26a72971f8c4ce163615e8f7b"
+    },
+    {
+      "path": "grand-auditorium.wam",
+      "bytes": 3484,
+      "sha256": "dd5a4d310640f82e6b4acc28f068733142b8f5f9bc3f0bda384c7fd3c00467f5"
+    },
+    {
+      "path": "hall-above-p0.png",
+      "bytes": 18474,
+      "sha256": "7f665ab1b7bdec5f8ae8f02d0225709dd5eaa2c675ffdc1e99ca74b2a68948e3"
+    },
+    {
+      "path": "hall-base-p0.png",
+      "bytes": 2082495,
+      "sha256": "c6e9ee5b6d60778f1e09b9f1e931d795b5955ba4e11cb45a441c8d54e5be7589"
+    },
+    {
+      "path": "hall-base-p1.png",
+      "bytes": 1888462,
+      "sha256": "c1a4a765aa95bbb57160969345230b1531aab6ece3fef05ea4413f8d3d415f41"
+    },
+    {
+      "path": "hall-base-p2.png",
+      "bytes": 2021746,
+      "sha256": "c66677c3b7b9f1035f15ab5d5b29ed617363ff254a4e84a4ef318e394cdfec9d"
+    },
+    {
+      "path": "hall-base-p3.png",
+      "bytes": 1746267,
+      "sha256": "5492b195318fe5a3495be7c2a828dd1c84e4b8cfe66e9e27fa48a2b3d114d517"
+    },
+    {
+      "path": "quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    }
+  ],
+  "nativeFocus": {
+    "bounds": [
+      0,
+      0,
+      1536,
+      1008
+    ],
+    "zoomMargin": 0.15,
+    "initialFocusVerifiedBySource": true,
+    "rotationVerified": false
+  },
+  "script": false,
+  "dynamicVisibility": false,
+  "quietCells": 16,
+  "atlasRoundTrips": [
+    {
+      "layer": "hall-base",
+      "tiles": 4061,
+      "pixelExact": true
+    },
+    {
+      "layer": "hall-above",
+      "tiles": 34,
+      "pixelExact": true
+    }
+  ],
+  "liveMediaVerified": false,
+  "nativeAnimation": {
+    "asset": "assets/garden-leaf-accent-native.png",
+    "frameSize": [
+      32,
+      32
+    ],
+    "durationsMs": [
+      350,
+      450,
+      350,
+      650
+    ],
+    "placements": [
+      {
+        "id": "southwest-hedge-tip",
+        "cell": [
+          51,
+          24
+        ],
+        "setting": "blocked established planting, outside all walking lanes"
+      },
+      {
+        "id": "northwest-flowerbed-tip",
+        "cell": [
+          58,
+          5
+        ],
+        "setting": "blocked established planting, outside all walking lanes"
+      },
+      {
+        "id": "southeast-leaf-mass",
+        "cell": [
+          75,
+          27
+        ],
+        "setting": "blocked established planting, outside all walking lanes"
+      }
+    ],
+    "behaviorProperties": false,
+    "belowActors": true,
+    "script": false,
+    "nativePauseSettingSupported": true
+  },
+  "animationPlacementCount": 3
+}

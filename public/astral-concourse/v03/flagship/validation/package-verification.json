@@ -1,0 +1,193 @@
+{
+  "allPass": true,
+  "checks": [
+    {
+      "check": "native32_finite_orthogonal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "portable_companion_url",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "atlas_hall-base-p0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "atlas_hall-base-p1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "atlas_hall-base-p2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "atlas_hall-base-p3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "atlas_hall-above-p0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "atlas_permanent-collision",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "atlas_quiet-marker-noncolliding",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "hall-base_data_count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "hall-base_exact_compiled_pixels",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "hall-above_data_count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "hall-above_exact_compiled_pixels",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "hall-base_preserved_v01_top944",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "hall-above_preserved_v01_top944",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_unlisted_runtime_files",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "floor_depth_order",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_external_services_scripts_audio_or_exit_links",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "234_seat_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "geometry.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "native-routes.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_hypothetical_geometry_in_final_route_test",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recorded_all_route_samples",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "v03-zone-verification.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "v03-zone-verification.json_hash_matches",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "v03-independent-route-verification.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "v03-independent-route-verification.json_hash_matches",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "runtimeFiles": [
+    {
+      "file": "collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092"
+    },
+    {
+      "file": "grand-auditorium.tmj",
+      "bytes": 240798,
+      "sha256": "9a123c34b66e21bc9672b6d10f0a1cc7f2a477a9669236dfa0ddaae6730bd3c6"
+    },
+    {
+      "file": "grand-auditorium.wam",
+      "bytes": 3484,
+      "sha256": "ce0d330b88cae4da3c42461ed3e015cee8b8f359e36b9e5bf4be6645da5d2d6b"
+    },
+    {
+      "file": "hall-above-p0.png",
+      "bytes": 5887,
+      "sha256": "292693ac7093d69a54bb11a5f601ddc38432d64b5ed15e4b6553efe48cfa2835"
+    },
+    {
+      "file": "hall-base-p0.png",
+      "bytes": 1898378,
+      "sha256": "c2ef81b883133a86af63044f2107124102cc3767ddf6058428da8edd7c8977dd"
+    },
+    {
+      "file": "hall-base-p1.png",
+      "bytes": 1742497,
+      "sha256": "a62253cec48039e9de56a327a733d11f439d5b59c359dba8e36e4a5f8009e9e0"
+    },
+    {
+      "file": "hall-base-p2.png",
+      "bytes": 1883248,
+      "sha256": "2350d24ce032775322ca5f1dff2b584fb763a3f74e5683eb5e595c6e20b601bd"
+    },
+    {
+      "file": "hall-base-p3.png",
+      "bytes": 1244133,
+      "sha256": "5fbb36245d5685196e2f8fb840524e3f55af7cc780077b42d60d7a45eb0fb22d"
+    },
+    {
+      "file": "quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    }
+  ],
+  "runtimeBytes": 7018619,
+  "sourceOnly": true,
+  "browserVerified": false,
+  "mediaVerified": false,
+  "multiplayerVerified": false,
+  "published": false
+}

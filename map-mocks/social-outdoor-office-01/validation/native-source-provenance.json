@@ -1,0 +1,80 @@
+{
+  "scope": "Actual source-extracted path/input methods plus real EasyStar0.4.4. Store/network/rendering side effects stubbed for source-model tests. Does not claim complete Universe client.",
+  "universeCommit": "f00b3482f23c51976b4b339d7a891cad683d6498",
+  "files": [
+    {
+      "file": "PathfindingManager.ts",
+      "sha256": "024d4993bb265a602043414a78faba8e1b223e74c82a25ee721b23ae3369fb40"
+    },
+    {
+      "file": "Player.ts",
+      "sha256": "f3d32d9bf2300e14c16ff2abfcee96c6a7db65584c3e2bc9bf811747705e3eb5"
+    },
+    {
+      "file": "GameScene.ts",
+      "sha256": "70af47302e64c7abb6f928768d58c79c661699e5c51b25ec1d1b8df5abdb9fbc"
+    },
+    {
+      "file": "GameSceneUserInputHandler.ts",
+      "sha256": "9719fe689f3e79e51fc11a48a88c0e6809761cbfc7a6d728f252a1d57b996df3"
+    },
+    {
+      "file": "GameMapFrontWrapper.ts",
+      "sha256": "9be51d25200d86cff71b5fa468e8e62fae64339e2ebde67547ea930b6bf18349"
+    },
+    {
+      "file": "Character.ts",
+      "sha256": "4d49eb7865fc7cad41dadab2af5cf2b6523dbcf9551258cfec9aa1d4b52fcafc"
+    }
+  ],
+  "extractedPlayerMethods": [
+    "setPathToFollow",
+    "getCurrentPathDestinationPoint",
+    "finishFollowingPath",
+    "deduceSpeed",
+    "adjustPathToFollowToColliderBounds",
+    "followPath",
+    "moveToPos"
+  ],
+  "easyStar": {
+    "version": "0.4.4",
+    "source": "https://github.com/prettymuchbryce/easystarjs/blob/master/bin/easystar-0.4.4.js",
+    "sha256": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95"
+  },
+  "observations": {
+    "original04PointerListener": false,
+    "currentPointerTouchOrRightClick": true,
+    "firstNative16PlayerWaypointYOffset": -8,
+    "showHideRefreshesGrid": true,
+    "gridRefreshReplansActivePath": true
+  },
+  "pinnedRemoteComparisons": [
+    {
+      "file": "PathfindingManager.ts",
+      "exactContentMatch": true,
+      "sha256": "024d4993bb265a602043414a78faba8e1b223e74c82a25ee721b23ae3369fb40"
+    },
+    {
+      "file": "Player.ts",
+      "exactContentMatch": true,
+      "sha256": "f3d32d9bf2300e14c16ff2abfcee96c6a7db65584c3e2bc9bf811747705e3eb5"
+    },
+    {
+      "file": "GameSceneUserInputHandler.ts",
+      "exactContentMatch": true,
+      "sha256": "9719fe689f3e79e51fc11a48a88c0e6809761cbfc7a6d728f252a1d57b996df3"
+    }
+  ],
+  "playerFidelity": {
+    "immovable": false,
+    "WOKA_SPEED": 9,
+    "normalPixelsPerSecond": 180,
+    "basis": "Player constructor explicitly overrides Character immovable=true to false; EnvironmentVariableValidator.ts lines370-372 defaults WOKA_SPEED to9 at pinned Universe commit.",
+    "speedSource": "https://github.com/BAWES-Universe/workadventure-universe/blob/f00b3482f23c51976b4b339d7a891cad683d6498/play/src/pusher/enums/EnvironmentVariableValidator.ts",
+    "harnessSha256": {
+      "native-path-model-default9.mjs": "b62e7372aebc1384798b6476086033a677d9dd13224873b40b4da868e33a5665",
+      "tap-browser-immovable-false.mjs": "84ca5ff013a61079821b743c6eb31a4660a3a6191585ce3127305f8fedacfe46",
+      "tap-browser-immovable-false.html": "161a8dd78873736c0323a76f911e7e78b52be26ce704888495335f221c367ce7"
+    }
+  }
+}

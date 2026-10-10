@@ -1,0 +1,49 @@
+{
+  "id": "social-outdoor-office-01",
+  "title": "Social Room / Outdoor Office 01",
+  "kind": "tiled-map",
+  "status": "review-candidate-not-published",
+  "catalogReady": false,
+  "map": "map/studenthub-outdoor-office.tmj",
+  "screenshot": "preview.webp",
+  "source": "Pinned external archive03d83f2dd74108a6f75847bd2f7d03c5d619c950; retrieve using README instructions, independent of master archive merge.",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {
+    "studenthub-outdoor-office.tmj": "e421842c675eecd84cfabf9b0e1dbedb7f1d2268a0396eab48b09f1008734b8e"
+  },
+  "silentAreas": {},
+  "knownLimitations": [
+    "Standalone source-derived Phaser evidence is not full Universe import or multiplayer acceptance.",
+    "No native sitting action, reservation, movable furniture, media room or integration is created.",
+    "Desk and lounge chairs are decorative, not part of the eight verified table positions.",
+    "Actual proximity conversations, native current deployment and physical-device behavior remain untested.",
+    "Fixed foreground masks, not arbitrary per-object y sorting."
+  ],
+  "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest.",
+  "repositorySchemaValidation": "Local reference/structure/area validation passes; official repository build/import not run.",
+  "parentSource": {
+    "repository": "BAWES-Universe/universe-maps",
+    "commit": "03d83f2dd74108a6f75847bd2f7d03c5d619c950",
+    "path": "map-mocks/studenthub-roofless-outdoor-office"
+  },
+  "derivativeChanges": [
+    "Explicit visible=true on three area objects.",
+    "Native32 tile grid and complete original permanent collision grid preserved.",
+    "Four near-side chair sprites moved down8px; their exact original backrest pixels move into foreground.",
+    "Exact original tabletop pixels move into foreground for far-side occupants.",
+    "Eight authored seat positions with independent egress routes; no sitting animation or lock."
+  ],
+  "runtimeVerification": {
+    "nativeOccupiedBodyRoutes": "PASS8/8 approach and exit routes with seven solid16px occupant fixtures",
+    "nativeSourceTapRoutes": "PASS16/16 approaches/exits, immovable=false, pinned default speed9 (180px/s); zero attempted or resolved body overlaps",
+    "furnitureArt": "Exact original pixels, four documented8px chair relocations, foreground split verified pixel-exact",
+    "permanentCollision": "All720 original32px collision cells preserved",
+    "headClearance": "Top10px of each authored native32 avatar frame unobscured by seat masks",
+    "limits": "Standalone Phaser3.86 + source-extracted Universe f00b3482f23c51976b4b339d7a891cad683d6498. Not full client import, multiplayer, or physical phone."
+  },
+  "reviewDependency": {
+    "pullRequest": 3,
+    "baseBranch": "archive/map-mock-library-2026-10-09",
+    "live": false
+  }
+}

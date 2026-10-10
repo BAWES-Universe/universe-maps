@@ -1,0 +1,1672 @@
+{
+  "pass": true,
+  "scope": "Actual Phaser3.86 with source-extracted native touch handler, EasyStar0.4.4 and Player methods; immovable=false, defaultspeed9 (180px/s);16 approaches/exits. Synthetic100ms taps, single client, not a physical phone or full Universe.",
+  "mapSha256": "e421842c675eecd84cfabf9b0e1dbedb7f1d2268a0396eab48b09f1008734b8e",
+  "rows": [
+    {
+      "start": {
+        "x": 496,
+        "y": 704
+      },
+      "target": {
+        "x": 376,
+        "y": 312
+      },
+      "retry": false,
+      "frames": 171,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 180,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 167,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 376,
+          "y": 296,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 493.8782553923715,
+          "y": 701.8782553923714
+        },
+        {
+          "x": 491.756510784743,
+          "y": 699.756510784743
+        },
+        {
+          "x": 489.6360389693211,
+          "y": 697.636038969321
+        },
+        {
+          "x": 487.5142943616926,
+          "y": 695.5142943616926
+        },
+        {
+          "x": 485.3925497540641,
+          "y": 693.392549754064
+        },
+        {
+          "x": 483.26953235422974,
+          "y": 691.2695323542297
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 376,
+          "y": 296
+        },
+        "body": {
+          "x": 368,
+          "y": 296,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 15803499,
+          "total": 19094983
+        }
+      },
+      "expected": {
+        "x": 376,
+        "y": 296
+      },
+      "pass": true,
+      "label": "table-352-far-24",
+      "inbound": true
+    },
+    {
+      "start": {
+        "x": 376,
+        "y": 296
+      },
+      "target": {
+        "x": 496,
+        "y": 720
+      },
+      "retry": false,
+      "frames": 181,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 184,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 177,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 496,
+          "y": 704,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 378.84661910413007,
+          "y": 295.05112696529
+        },
+        {
+          "x": 381.69323820826065,
+          "y": 294.10225393057976
+        },
+        {
+          "x": 384.53985731239123,
+          "y": 293.1533808958696
+        },
+        {
+          "x": 387.3847687865847,
+          "y": 292.2050770711384
+        },
+        {
+          "x": 390.22968026077865,
+          "y": 291.25677324640714
+        },
+        {
+          "x": 393.07459173497267,
+          "y": 290.3084694216758
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 496,
+          "y": 704
+        },
+        "body": {
+          "x": 488,
+          "y": 704,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 64,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 15715272,
+          "total": 18779640
+        }
+      },
+      "expected": {
+        "x": 496,
+        "y": 704
+      },
+      "pass": true,
+      "label": "table-352-far-24",
+      "inbound": false
+    },
+    {
+      "start": {
+        "x": 496,
+        "y": 704
+      },
+      "target": {
+        "x": 376,
+        "y": 400
+      },
+      "retry": false,
+      "frames": 128,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 131,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 122,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 376,
+          "y": 384,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 493.8795281845777,
+          "y": 701.8795281845777
+        },
+        {
+          "x": 491.7590563691554,
+          "y": 699.7590563691554
+        },
+        {
+          "x": 489.6373117615269,
+          "y": 697.6373117615269
+        },
+        {
+          "x": 487.51556715389876,
+          "y": 695.5155671538988
+        },
+        {
+          "x": 485.3950953384765,
+          "y": 693.3950953384765
+        },
+        {
+          "x": 483.2746235230542,
+          "y": 691.2746235230542
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 376,
+          "y": 384
+        },
+        "body": {
+          "x": 368,
+          "y": 384,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 32,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 15849508,
+          "total": 19303928
+        }
+      },
+      "expected": {
+        "x": 376,
+        "y": 384
+      },
+      "pass": true,
+      "label": "table-352-near-24",
+      "inbound": true
+    },
+    {
+      "start": {
+        "x": 376,
+        "y": 384
+      },
+      "target": {
+        "x": 496,
+        "y": 720
+      },
+      "retry": false,
+      "frames": 124,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 129,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 119,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 496,
+          "y": 704,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 378.69892000000027,
+          "y": 387.59856000000036
+        },
+        {
+          "x": 381.39892000000026,
+          "y": 391.1985600000003
+        },
+        {
+          "x": 383.3774800000004,
+          "y": 393.8366400000005
+        },
+        {
+          "x": 385.3571200000006,
+          "y": 396.47616000000073
+        },
+        {
+          "x": 387.3367600000004,
+          "y": 399.11568000000057
+        },
+        {
+          "x": 389.3164000000003,
+          "y": 401.7552000000004
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 496,
+          "y": 704
+        },
+        "body": {
+          "x": 488,
+          "y": 704,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 64,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 15720220,
+          "total": 19303928
+        }
+      },
+      "expected": {
+        "x": 496,
+        "y": 704
+      },
+      "pass": true,
+      "label": "table-352-near-24",
+      "inbound": false
+    },
+    {
+      "start": {
+        "x": 496,
+        "y": 704
+      },
+      "target": {
+        "x": 432,
+        "y": 312
+      },
+      "retry": false,
+      "frames": 162,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 166,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 157,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 432,
+          "y": 296,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 496,
+          "y": 701.0011999999999
+        },
+        {
+          "x": 496,
+          "y": 698.0005999999997
+        },
+        {
+          "x": 496,
+          "y": 695.0017999999995
+        },
+        {
+          "x": 496,
+          "y": 692.003
+        },
+        {
+          "x": 496,
+          "y": 689.0041999999999
+        },
+        {
+          "x": 496,
+          "y": 686.0053999999998
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 432,
+          "y": 296
+        },
+        "body": {
+          "x": 424,
+          "y": 296,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 16190620,
+          "total": 19566072
+        }
+      },
+      "expected": {
+        "x": 432,
+        "y": 296
+      },
+      "pass": true,
+      "label": "table-352-far-80",
+      "inbound": true
+    },
+    {
+      "start": {
+        "x": 432,
+        "y": 296
+      },
+      "target": {
+        "x": 496,
+        "y": 720
+      },
+      "retry": false,
+      "frames": 161,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 163,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 158,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 496,
+          "y": 704,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 435.49076674402284,
+          "y": 295.1273083139943
+        },
+        {
+          "x": 438.98327974454605,
+          "y": 294.2541800638635
+        },
+        {
+          "x": 441.8925430739819,
+          "y": 293.52686423150453
+        },
+        {
+          "x": 444.80180640341786,
+          "y": 292.7995483991455
+        },
+        {
+          "x": 447.7110697328538,
+          "y": 292.07223256678657
+        },
+        {
+          "x": 450.6203330622892,
+          "y": 291.34491673442767
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 496,
+          "y": 704
+        },
+        "body": {
+          "x": 488,
+          "y": 704,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 64,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 16215928,
+          "total": 19303928
+        }
+      },
+      "expected": {
+        "x": 496,
+        "y": 704
+      },
+      "pass": true,
+      "label": "table-352-far-80",
+      "inbound": false
+    },
+    {
+      "start": {
+        "x": 496,
+        "y": 704
+      },
+      "target": {
+        "x": 432,
+        "y": 400
+      },
+      "retry": false,
+      "frames": 108,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 122,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 103,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 432,
+          "y": 384,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 493.6669718861529,
+          "y": 701.6669718861529
+        },
+        {
+          "x": 491.54522727852475,
+          "y": 699.5452272785247
+        },
+        {
+          "x": 489.42348267089665,
+          "y": 697.4234826708966
+        },
+        {
+          "x": 487.3030108554743,
+          "y": 695.3030108554743
+        },
+        {
+          "x": 485.182539040052,
+          "y": 693.182539040052
+        },
+        {
+          "x": 483.0607944324239,
+          "y": 691.0607944324239
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 432,
+          "y": 384
+        },
+        "body": {
+          "x": 424,
+          "y": 384,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 32,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 15819788,
+          "total": 19303928
+        }
+      },
+      "expected": {
+        "x": 432,
+        "y": 384
+      },
+      "pass": true,
+      "label": "table-352-near-80",
+      "inbound": true
+    },
+    {
+      "start": {
+        "x": 432,
+        "y": 384
+      },
+      "target": {
+        "x": 496,
+        "y": 720
+      },
+      "retry": false,
+      "frames": 107,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 123,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 102,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 496,
+          "y": 704,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 435.3932640215581,
+          "y": 387.3932640215581
+        },
+        {
+          "x": 437.9375756416238,
+          "y": 389.9375756416238
+        },
+        {
+          "x": 440.26933096326434,
+          "y": 392.26933096326434
+        },
+        {
+          "x": 442.6023590771111,
+          "y": 394.6023590771111
+        },
+        {
+          "x": 444.9353871909582,
+          "y": 396.9353871909582
+        },
+        {
+          "x": 447.4796988110236,
+          "y": 399.4796988110236
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 496,
+          "y": 704
+        },
+        "body": {
+          "x": 488,
+          "y": 704,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 64,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 16289196,
+          "total": 20090360
+        }
+      },
+      "expected": {
+        "x": 496,
+        "y": 704
+      },
+      "pass": true,
+      "label": "table-352-near-80",
+      "inbound": false
+    },
+    {
+      "start": {
+        "x": 496,
+        "y": 704
+      },
+      "target": {
+        "x": 696,
+        "y": 312
+      },
+      "retry": false,
+      "frames": 163,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 187,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 157,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 696,
+          "y": 296,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 498.5455844122716,
+          "y": 701.4544155877285
+        },
+        {
+          "x": 501.0898960323369,
+          "y": 698.9101039676631
+        },
+        {
+          "x": 503.8467639508271,
+          "y": 696.1532360491728
+        },
+        {
+          "x": 506.3923483630987,
+          "y": 693.6076516369013
+        },
+        {
+          "x": 508.93793277537026,
+          "y": 691.0620672246297
+        },
+        {
+          "x": 511.69607348606627,
+          "y": 688.3039265139337
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 696,
+          "y": 296
+        },
+        "body": {
+          "x": 688,
+          "y": 296,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 15940952,
+          "total": 19041784
+        }
+      },
+      "expected": {
+        "x": 696,
+        "y": 296
+      },
+      "pass": true,
+      "label": "table-672-far-24",
+      "inbound": true
+    },
+    {
+      "start": {
+        "x": 696,
+        "y": 296
+      },
+      "target": {
+        "x": 496,
+        "y": 720
+      },
+      "retry": false,
+      "frames": 158,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 187,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 153,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 496,
+          "y": 704,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 692.7646721186251,
+          "y": 295.352934423725
+        },
+        {
+          "x": 689.5293442372501,
+          "y": 294.70586884745
+        },
+        {
+          "x": 686.2940163558757,
+          "y": 294.0588032711751
+        },
+        {
+          "x": 682.7656909686042,
+          "y": 293.35313819372084
+        },
+        {
+          "x": 679.2373655813333,
+          "y": 292.64747311626667
+        },
+        {
+          "x": 675.707275148846,
+          "y": 291.9414550297692
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 496,
+          "y": 704
+        },
+        "body": {
+          "x": 488,
+          "y": 704,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 64,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 16320180,
+          "total": 19303928
+        }
+      },
+      "expected": {
+        "x": 496,
+        "y": 704
+      },
+      "pass": true,
+      "label": "table-672-far-24",
+      "inbound": false
+    },
+    {
+      "start": {
+        "x": 496,
+        "y": 704
+      },
+      "target": {
+        "x": 696,
+        "y": 400
+      },
+      "retry": false,
+      "frames": 144,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 168,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 138,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 696,
+          "y": 384,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 498.54431162006534,
+          "y": 701.4556883799346
+        },
+        {
+          "x": 500.8773397339125,
+          "y": 699.1226602660876
+        },
+        {
+          "x": 503.42165135397784,
+          "y": 696.5783486460222
+        },
+        {
+          "x": 505.9672357662494,
+          "y": 694.0327642337506
+        },
+        {
+          "x": 508.512820178521,
+          "y": 691.487179821479
+        },
+        {
+          "x": 510.84584829236775,
+          "y": 689.1541517076323
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 696,
+          "y": 384
+        },
+        "body": {
+          "x": 688,
+          "y": 384,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 32,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 16212052,
+          "total": 19828216
+        }
+      },
+      "expected": {
+        "x": 696,
+        "y": 384
+      },
+      "pass": true,
+      "label": "table-672-near-24",
+      "inbound": true
+    },
+    {
+      "start": {
+        "x": 696,
+        "y": 384
+      },
+      "target": {
+        "x": 496,
+        "y": 720
+      },
+      "retry": false,
+      "frames": 144,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 168,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 139,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 496,
+          "y": 704,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 691.2011999999999,
+          "y": 384
+        },
+        {
+          "x": 686.4042,
+          "y": 384
+        },
+        {
+          "x": 682.8041999999999,
+          "y": 384
+        },
+        {
+          "x": 679.5066000000002,
+          "y": 384
+        },
+        {
+          "x": 676.2054000000003,
+          "y": 384
+        },
+        {
+          "x": 672.906,
+          "y": 384
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 496,
+          "y": 704
+        },
+        "body": {
+          "x": 488,
+          "y": 704,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 64,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 16420064,
+          "total": 19828216
+        }
+      },
+      "expected": {
+        "x": 496,
+        "y": 704
+      },
+      "pass": true,
+      "label": "table-672-near-24",
+      "inbound": false
+    },
+    {
+      "start": {
+        "x": 496,
+        "y": 704
+      },
+      "target": {
+        "x": 752,
+        "y": 312
+      },
+      "retry": false,
+      "frames": 180,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 207,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 174,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 752,
+          "y": 296,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 498.5455844122716,
+          "y": 701.4544155877285
+        },
+        {
+          "x": 501.09116882454316,
+          "y": 698.9088311754568
+        },
+        {
+          "x": 503.63675323681474,
+          "y": 696.3632467631853
+        },
+        {
+          "x": 506.18233764908626,
+          "y": 693.8176623509137
+        },
+        {
+          "x": 508.515365762933,
+          "y": 691.484634237067
+        },
+        {
+          "x": 510.84839387677977,
+          "y": 689.1516061232202
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 752,
+          "y": 296
+        },
+        "body": {
+          "x": 744,
+          "y": 296,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 16263516,
+          "total": 19828216
+        }
+      },
+      "expected": {
+        "x": 752,
+        "y": 296
+      },
+      "pass": true,
+      "label": "table-672-far-80",
+      "inbound": true
+    },
+    {
+      "start": {
+        "x": 752,
+        "y": 296
+      },
+      "target": {
+        "x": 496,
+        "y": 720
+      },
+      "retry": false,
+      "frames": 180,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 207,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 174,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 496,
+          "y": 704,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 747.634358749346,
+          "y": 294.90858968733653
+        },
+        {
+          "x": 744.4352168408666,
+          "y": 294.10880421021665
+        },
+        {
+          "x": 741.2343286758868,
+          "y": 293.30858216897167
+        },
+        {
+          "x": 738.0334405109074,
+          "y": 292.50836012772686
+        },
+        {
+          "x": 734.5409275103842,
+          "y": 291.6352318775961
+        },
+        {
+          "x": 731.340039345405,
+          "y": 290.8350098363512
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 496,
+          "y": 704
+        },
+        "body": {
+          "x": 488,
+          "y": 704,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 64,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 15873888,
+          "total": 19828216
+        }
+      },
+      "expected": {
+        "x": 496,
+        "y": 704
+      },
+      "pass": true,
+      "label": "table-672-far-80",
+      "inbound": false
+    },
+    {
+      "start": {
+        "x": 496,
+        "y": 704
+      },
+      "target": {
+        "x": 752,
+        "y": 400
+      },
+      "retry": false,
+      "frames": 161,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 188,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 155,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 752,
+          "y": 384,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 498.33302811384675,
+          "y": 701.6669718861533
+        },
+        {
+          "x": 500.66605622769384,
+          "y": 699.3339437723062
+        },
+        {
+          "x": 502.9990843415406,
+          "y": 697.0009156584593
+        },
+        {
+          "x": 505.33083966318117,
+          "y": 694.6691603368189
+        },
+        {
+          "x": 507.6625949848221,
+          "y": 692.337405015178
+        },
+        {
+          "x": 509.99435030646293,
+          "y": 690.0056496935371
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 752,
+          "y": 384
+        },
+        "body": {
+          "x": 744,
+          "y": 384,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 32,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 16273477,
+          "total": 19828253
+        }
+      },
+      "expected": {
+        "x": 752,
+        "y": 384
+      },
+      "pass": true,
+      "label": "table-672-near-80",
+      "inbound": true
+    },
+    {
+      "start": {
+        "x": 752,
+        "y": 384
+      },
+      "target": {
+        "x": 496,
+        "y": 720
+      },
+      "retry": false,
+      "frames": 170,
+      "overlaps": 0,
+      "overlapExamples": [],
+      "physicsFrames": 195,
+      "resolvedBodyOverlaps": 0,
+      "physicsOverlapExamples": [],
+      "sizeErrors": 0,
+      "collisionCallbacks": 0,
+      "collisions": [],
+      "movementEvents": 165,
+      "pointerRequests": 1,
+      "results": [
+        {
+          "x": 496,
+          "y": 704,
+          "cancelled": false
+        }
+      ],
+      "trail": [
+        {
+          "x": 749.6682446783594,
+          "y": 386.3317553216405
+        },
+        {
+          "x": 747.3352165645127,
+          "y": 388.66478343548727
+        },
+        {
+          "x": 744.7909049444473,
+          "y": 391.20909505555267
+        },
+        {
+          "x": 742.2453205321758,
+          "y": 393.7546794678242
+        },
+        {
+          "x": 739.7010089121104,
+          "y": 396.2989910878896
+        },
+        {
+          "x": 737.3679807982637,
+          "y": 398.63201920173634
+        }
+      ],
+      "final": {
+        "player": {
+          "x": 496,
+          "y": 704
+        },
+        "body": {
+          "x": 488,
+          "y": 704,
+          "width": 16,
+          "height": 16,
+          "offsetY": 8,
+          "immovable": false,
+          "directControl": false,
+          "walkingSpeed": 9
+        },
+        "greg": {
+          "width": 32,
+          "height": 32,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "camera": {
+          "x": 0,
+          "y": 64,
+          "zoom": 1,
+          "width": 1024,
+          "height": 704
+        },
+        "map": {
+          "width": 30,
+          "height": 24,
+          "tilewidth": 32,
+          "layers": 6
+        },
+        "following": false,
+        "sourcePositionOverlap": null,
+        "permanentBodyOverlap": null,
+        "memory": {
+          "used": 15880628,
+          "total": 19303928
+        }
+      },
+      "expected": {
+        "x": 496,
+        "y": 704
+      },
+      "pass": true,
+      "label": "table-672-near-80",
+      "inbound": false
+    }
+  ],
+  "errors": []
+}

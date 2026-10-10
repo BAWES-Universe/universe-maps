@@ -1,0 +1,176 @@
+{
+  "worldSize": [
+    960,
+    768
+  ],
+  "avatarFrame": [
+    32,
+    32
+  ],
+  "nativeBody": [
+    16,
+    16
+  ],
+  "bodyOffsetFromAnchor": [
+    -8,
+    0
+  ],
+  "seats": [
+    {
+      "id": "table-352-far-24",
+      "x": 376,
+      "y": 296,
+      "facing": "down",
+      "egress": [
+        {
+          "x": 376,
+          "y": 264
+        }
+      ],
+      "foreground": "original tabletop; head above y302"
+    },
+    {
+      "id": "table-352-near-24",
+      "x": 376,
+      "y": 384,
+      "facing": "up",
+      "egress": [
+        {
+          "x": 376,
+          "y": 408
+        }
+      ],
+      "foreground": "original chair backrest pixels only"
+    },
+    {
+      "id": "table-352-far-80",
+      "x": 432,
+      "y": 296,
+      "facing": "down",
+      "egress": [
+        {
+          "x": 432,
+          "y": 264
+        }
+      ],
+      "foreground": "original tabletop; head above y302"
+    },
+    {
+      "id": "table-352-near-80",
+      "x": 432,
+      "y": 384,
+      "facing": "up",
+      "egress": [
+        {
+          "x": 432,
+          "y": 408
+        }
+      ],
+      "foreground": "original chair backrest pixels only"
+    },
+    {
+      "id": "table-672-far-24",
+      "x": 696,
+      "y": 296,
+      "facing": "down",
+      "egress": [
+        {
+          "x": 696,
+          "y": 264
+        }
+      ],
+      "foreground": "original tabletop; head above y302"
+    },
+    {
+      "id": "table-672-near-24",
+      "x": 696,
+      "y": 384,
+      "facing": "up",
+      "egress": [
+        {
+          "x": 696,
+          "y": 408
+        }
+      ],
+      "foreground": "original chair backrest pixels only"
+    },
+    {
+      "id": "table-672-far-80",
+      "x": 752,
+      "y": 296,
+      "facing": "down",
+      "egress": [
+        {
+          "x": 752,
+          "y": 264
+        }
+      ],
+      "foreground": "original tabletop; head above y302"
+    },
+    {
+      "id": "table-672-near-80",
+      "x": 752,
+      "y": 384,
+      "facing": "up",
+      "egress": [
+        {
+          "x": 752,
+          "y": 408
+        }
+      ],
+      "foreground": "original chair backrest pixels only"
+    }
+  ],
+  "physicalFootprints": [
+    {
+      "kind": "preserved-full-table-blocker",
+      "rect": [
+        352,
+        320,
+        128,
+        64
+      ]
+    },
+    {
+      "kind": "preserved-full-table-blocker",
+      "rect": [
+        672,
+        320,
+        128,
+        64
+      ]
+    }
+  ],
+  "chairRelocations": [
+    {
+      "asset": "light-chair_n",
+      "x": 362,
+      "fromY": 363,
+      "toY": 371
+    },
+    {
+      "asset": "light-chair_n",
+      "x": 420,
+      "fromY": 363,
+      "toY": 371
+    },
+    {
+      "asset": "light-chair_n",
+      "x": 682,
+      "fromY": 363,
+      "toY": 371
+    },
+    {
+      "asset": "light-chair_n",
+      "x": 740,
+      "fromY": 363,
+      "toY": 371
+    }
+  ],
+  "maskSource": "Exact original table y0..58 and chair_n y8..24 pixels moved to foreground; four near-side chairs moved down8px.",
+  "limits": [
+    "No sitting API or pose change.",
+    "Desk and lounge seating not advertised as authored seats.",
+    "Fixed foreground; no arbitrary per-object y sorting."
+  ]
+}

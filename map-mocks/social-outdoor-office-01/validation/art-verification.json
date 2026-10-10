@@ -1,0 +1,48 @@
+{
+  "scope": "Local structure/reference, exact atlas pixel roundtrip and authored mask geometry; not official target repository schema/import.",
+  "mapSha256": "e421842c675eecd84cfabf9b0e1dbedb7f1d2268a0396eab48b09f1008734b8e",
+  "furnitureSplitPixelExact": true,
+  "atlasLayerRoundtripPass": [
+    "ground",
+    "furniture",
+    "seat-foreground",
+    "glass",
+    "structure"
+  ],
+  "areaVisibilityAndUniqueLayerIDsPass": true,
+  "noScriptOrSilentProperty": true,
+  "seatHeadClearance": [
+    {
+      "seat": "table-352-far-24",
+      "headTop10pxUncovered": true
+    },
+    {
+      "seat": "table-352-near-24",
+      "headTop10pxUncovered": true
+    },
+    {
+      "seat": "table-352-far-80",
+      "headTop10pxUncovered": true
+    },
+    {
+      "seat": "table-352-near-80",
+      "headTop10pxUncovered": true
+    },
+    {
+      "seat": "table-672-far-24",
+      "headTop10pxUncovered": true
+    },
+    {
+      "seat": "table-672-near-24",
+      "headTop10pxUncovered": true
+    },
+    {
+      "seat": "table-672-far-80",
+      "headTop10pxUncovered": true
+    },
+    {
+      "seat": "table-672-near-80",
+      "headTop10pxUncovered": true
+    }
+  ]
+}

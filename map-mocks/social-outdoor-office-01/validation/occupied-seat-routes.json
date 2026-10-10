@@ -1,0 +1,1337 @@
+{
+  "scope": "Standalone Phaser3.86 native tile physics with native32 Greg, exact16\u00d716 body, seven static occupant fixtures; not multiplayer.",
+  "mapSha256": "e421842c675eecd84cfabf9b0e1dbedb7f1d2268a0396eab48b09f1008734b8e",
+  "seats": [
+    {
+      "id": "table-352-far-24",
+      "inbound": [
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 264
+          },
+          "position": {
+            "x": 496,
+            "y": 264.9581860705357,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 376,
+            "y": 264
+          },
+          "position": {
+            "x": 376.9698394184371,
+            "y": 264.0077440551784,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 376,
+            "y": 296
+          },
+          "position": {
+            "x": 376.0296759759864,
+            "y": 295.0210735910344,
+            "moving": false
+          }
+        }
+      ],
+      "exit": [
+        {
+          "ok": true,
+          "target": {
+            "x": 376,
+            "y": 264
+          },
+          "position": {
+            "x": 376.00092555373675,
+            "y": 264.9675055200509,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 264
+          },
+          "position": {
+            "x": 495.0592543081857,
+            "y": 264.00758486391663,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 704
+          },
+          "position": {
+            "x": 495.9979992803388,
+            "y": 703.0642513876109,
+            "moving": false
+          }
+        }
+      ],
+      "occupied": {
+        "player": {
+          "x": 376.0296759759864,
+          "y": 295.0210735910344,
+          "feetY": 311.0210735910344,
+          "body": {
+            "x": 368.0296759759864,
+            "y": 295.0210735910344,
+            "width": 16,
+            "height": 16,
+            "bottom": 311.0210735910344,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 1
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "final": {
+        "player": {
+          "x": 495.9979992803388,
+          "y": 703.0642513876109,
+          "feetY": 719.0642513876109,
+          "body": {
+            "x": 487.9979992803388,
+            "y": 703.0642513876109,
+            "width": 16,
+            "height": 16,
+            "bottom": 719.0642513876109,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 1
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "id": "table-352-near-24",
+      "inbound": [
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 408
+          },
+          "position": {
+            "x": 496,
+            "y": 407.6600000000001,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 376,
+            "y": 408
+          },
+          "position": {
+            "x": 376.9524998012608,
+            "y": 407.99730125056305,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 376,
+            "y": 384
+          },
+          "position": {
+            "x": 376.0327851184136,
+            "y": 384.8259890050015,
+            "moving": false
+          }
+        }
+      ],
+      "exit": [
+        {
+          "ok": true,
+          "target": {
+            "x": 376,
+            "y": 408
+          },
+          "position": {
+            "x": 376.00133960198895,
+            "y": 407.05310846125343,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 408
+          },
+          "position": {
+            "x": 495.1138246377881,
+            "y": 407.99300732233564,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 704
+          },
+          "position": {
+            "x": 495.9972498760937,
+            "y": 703.0813828259073,
+            "moving": false
+          }
+        }
+      ],
+      "occupied": {
+        "player": {
+          "x": 376.0327851184136,
+          "y": 384.8259890050015,
+          "feetY": 400.8259890050015,
+          "body": {
+            "x": 368.0327851184136,
+            "y": 384.8259890050015,
+            "width": 16,
+            "height": 16,
+            "bottom": 400.8259890050015,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 10
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "final": {
+        "player": {
+          "x": 495.9972498760937,
+          "y": 703.0813828259073,
+          "feetY": 719.0813828259073,
+          "body": {
+            "x": 487.9972498760937,
+            "y": 703.0813828259073,
+            "width": 16,
+            "height": 16,
+            "bottom": 719.0813828259073,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 1
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "id": "table-352-far-80",
+      "inbound": [
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 264
+          },
+          "position": {
+            "x": 496,
+            "y": 264.9635263997949,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 432,
+            "y": 264
+          },
+          "position": {
+            "x": 432.98132675001693,
+            "y": 264.0147739723511,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 432,
+            "y": 296
+          },
+          "position": {
+            "x": 432.02940577780276,
+            "y": 295.04155221538423,
+            "moving": false
+          }
+        }
+      ],
+      "exit": [
+        {
+          "ok": true,
+          "target": {
+            "x": 432,
+            "y": 264
+          },
+          "position": {
+            "x": 432.0009051545173,
+            "y": 264.9555061389412,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 264
+          },
+          "position": {
+            "x": 495.0186903915591,
+            "y": 264.0146509471319,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 704
+          },
+          "position": {
+            "x": 495.9978457671292,
+            "y": 703.0341163548989,
+            "moving": false
+          }
+        }
+      ],
+      "occupied": {
+        "player": {
+          "x": 432.02940577780276,
+          "y": 295.04155221538423,
+          "feetY": 311.04155221538423,
+          "body": {
+            "x": 424.02940577780276,
+            "y": 295.04155221538423,
+            "width": 16,
+            "height": 16,
+            "bottom": 311.04155221538423,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 1
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "final": {
+        "player": {
+          "x": 495.9978457671292,
+          "y": 703.0341163548989,
+          "feetY": 719.0341163548989,
+          "body": {
+            "x": 487.9978457671292,
+            "y": 703.0341163548989,
+            "width": 16,
+            "height": 16,
+            "bottom": 719.0341163548989,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 1
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "id": "table-352-near-80",
+      "inbound": [
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 408
+          },
+          "position": {
+            "x": 496,
+            "y": 408.9527269685696,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 432,
+            "y": 408
+          },
+          "position": {
+            "x": 432.9266047623233,
+            "y": 408.01379377103547,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 432,
+            "y": 384
+          },
+          "position": {
+            "x": 432.03473554140993,
+            "y": 384.900202720579,
+            "moving": false
+          }
+        }
+      ],
+      "exit": [
+        {
+          "ok": true,
+          "target": {
+            "x": 432,
+            "y": 408
+          },
+          "position": {
+            "x": 432.00146008014224,
+            "y": 407.02901886860957,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 408
+          },
+          "position": {
+            "x": 495.0442874711117,
+            "y": 407.9854999999414,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 704
+          },
+          "position": {
+            "x": 495.99679830775113,
+            "y": 703.0083343039241,
+            "moving": false
+          }
+        }
+      ],
+      "occupied": {
+        "player": {
+          "x": 432.03473554140993,
+          "y": 384.900202720579,
+          "feetY": 400.900202720579,
+          "body": {
+            "x": 424.03473554140993,
+            "y": 384.900202720579,
+            "width": 16,
+            "height": 16,
+            "bottom": 400.900202720579,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 10
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "final": {
+        "player": {
+          "x": 495.99679830775113,
+          "y": 703.0083343039241,
+          "feetY": 719.0083343039241,
+          "body": {
+            "x": 487.99679830775113,
+            "y": 703.0083343039241,
+            "width": 16,
+            "height": 16,
+            "bottom": 719.0083343039241,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 1
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "id": "table-672-far-24",
+      "inbound": [
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 360
+          },
+          "position": {
+            "x": 496,
+            "y": 360.9862946803868,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 360
+          },
+          "position": {
+            "x": 623.0505549335383,
+            "y": 360.00731587983114,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 264
+          },
+          "position": {
+            "x": 623.9903442634916,
+            "y": 264.9763822866361,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 696,
+            "y": 264
+          },
+          "position": {
+            "x": 695.0330180998612,
+            "y": 264.01311135276427,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 696,
+            "y": 296
+          },
+          "position": {
+            "x": 695.9710690995437,
+            "y": 295.04299192029424,
+            "moving": false
+          }
+        }
+      ],
+      "exit": [
+        {
+          "ok": true,
+          "target": {
+            "x": 696,
+            "y": 264
+          },
+          "position": {
+            "x": 695.9990721936875,
+            "y": 264.9955405261362,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 264
+          },
+          "position": {
+            "x": 624.9698159876401,
+            "y": 264.0134097716703,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 360
+          },
+          "position": {
+            "x": 624.0100728377453,
+            "y": 359.00305072157744,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 360
+          },
+          "position": {
+            "x": 496.96063299770583,
+            "y": 359.9925185389504,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 704
+          },
+          "position": {
+            "x": 496.0026950851712,
+            "y": 703.0348765196535,
+            "moving": false
+          }
+        }
+      ],
+      "occupied": {
+        "player": {
+          "x": 695.9710690995437,
+          "y": 295.04299192029424,
+          "feetY": 311.04299192029424,
+          "body": {
+            "x": 687.9710690995437,
+            "y": 295.04299192029424,
+            "width": 16,
+            "height": 16,
+            "bottom": 311.04299192029424,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 1
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "final": {
+        "player": {
+          "x": 496.0026950851712,
+          "y": 703.0348765196535,
+          "feetY": 719.0348765196535,
+          "body": {
+            "x": 488.0026950851712,
+            "y": 703.0348765196535,
+            "width": 16,
+            "height": 16,
+            "bottom": 719.0348765196535,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 1
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "id": "table-672-near-24",
+      "inbound": [
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 392
+          },
+          "position": {
+            "x": 496,
+            "y": 392.9810183452785,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 392
+          },
+          "position": {
+            "x": 623.0268836071591,
+            "y": 392.00745816432385,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 408
+          },
+          "position": {
+            "x": 623.9405669399176,
+            "y": 407.0232558954077,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 696,
+            "y": 408
+          },
+          "position": {
+            "x": 695.035494742876,
+            "y": 407.9869264191552,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 696,
+            "y": 384
+          },
+          "position": {
+            "x": 695.9618362240415,
+            "y": 384.9491204729396,
+            "moving": false
+          }
+        }
+      ],
+      "exit": [
+        {
+          "ok": true,
+          "target": {
+            "x": 696,
+            "y": 408
+          },
+          "position": {
+            "x": 695.9983624289202,
+            "y": 407.01090883370716,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 408
+          },
+          "position": {
+            "x": 624.9697922710546,
+            "y": 407.98667729464836,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 392
+          },
+          "position": {
+            "x": 624.0551932425058,
+            "y": 392.9098407804645,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 392
+          },
+          "position": {
+            "x": 496.9611049724727,
+            "y": 392.0068287156197,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 704
+          },
+          "position": {
+            "x": 496.0029983680904,
+            "y": 703.0266720119139,
+            "moving": false
+          }
+        }
+      ],
+      "occupied": {
+        "player": {
+          "x": 695.9618362240415,
+          "y": 384.9491204729396,
+          "feetY": 400.9491204729396,
+          "body": {
+            "x": 687.9618362240415,
+            "y": 384.9491204729396,
+            "width": 16,
+            "height": 16,
+            "bottom": 400.9491204729396,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 10
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "final": {
+        "player": {
+          "x": 496.0029983680904,
+          "y": 703.0266720119139,
+          "feetY": 719.0266720119139,
+          "body": {
+            "x": 488.0029983680904,
+            "y": 703.0266720119139,
+            "width": 16,
+            "height": 16,
+            "bottom": 719.0266720119139,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 1
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "id": "table-672-far-80",
+      "inbound": [
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 360
+          },
+          "position": {
+            "x": 496,
+            "y": 360.98031853780617,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 360
+          },
+          "position": {
+            "x": 623.0203486535671,
+            "y": 360.0075028935585,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 264
+          },
+          "position": {
+            "x": 623.99003702958,
+            "y": 264.976388094492,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 752,
+            "y": 264
+          },
+          "position": {
+            "x": 751.0005796422511,
+            "y": 264.00762301711563,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 752,
+            "y": 296
+          },
+          "position": {
+            "x": 751.9711544008886,
+            "y": 295.0766254920545,
+            "moving": false
+          }
+        }
+      ],
+      "exit": [
+        {
+          "ok": true,
+          "target": {
+            "x": 752,
+            "y": 264
+          },
+          "position": {
+            "x": 751.9991091678394,
+            "y": 264.9597324473,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 264
+          },
+          "position": {
+            "x": 624.9586342110204,
+            "y": 264.00718780281676,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 360
+          },
+          "position": {
+            "x": 624.0096202453093,
+            "y": 359.0366769820521,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 360
+          },
+          "position": {
+            "x": 496.98629588831164,
+            "y": 359.9925777333774,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 704
+          },
+          "position": {
+            "x": 496.0027718046989,
+            "y": 703.0332298848766,
+            "moving": false
+          }
+        }
+      ],
+      "occupied": {
+        "player": {
+          "x": 751.9711544008886,
+          "y": 295.0766254920545,
+          "feetY": 311.0766254920545,
+          "body": {
+            "x": 743.9711544008886,
+            "y": 295.0766254920545,
+            "width": 16,
+            "height": 16,
+            "bottom": 311.0766254920545,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 1
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "final": {
+        "player": {
+          "x": 496.0027718046989,
+          "y": 703.0332298848766,
+          "feetY": 719.0332298848766,
+          "body": {
+            "x": 488.0027718046989,
+            "y": 703.0332298848766,
+            "width": 16,
+            "height": 16,
+            "bottom": 719.0332298848766,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 1
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "id": "table-672-near-80",
+      "inbound": [
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 392
+          },
+          "position": {
+            "x": 496,
+            "y": 392.9667790912828,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 392
+          },
+          "position": {
+            "x": 623.0320213168266,
+            "y": 392.00731110587265,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 408
+          },
+          "position": {
+            "x": 623.9412688411289,
+            "y": 407.0296592595028,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 752,
+            "y": 408
+          },
+          "position": {
+            "x": 751.0062684745033,
+            "y": 407.9924701878929,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 752,
+            "y": 384
+          },
+          "position": {
+            "x": 751.9598842357868,
+            "y": 384.96854759284355,
+            "moving": false
+          }
+        }
+      ],
+      "exit": [
+        {
+          "ok": true,
+          "target": {
+            "x": 752,
+            "y": 408
+          },
+          "position": {
+            "x": 751.9983180026289,
+            "y": 407.0343237089198,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 408
+          },
+          "position": {
+            "x": 624.9580863724178,
+            "y": 407.99277176990216,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 624,
+            "y": 392
+          },
+          "position": {
+            "x": 624.0569090538082,
+            "y": 392.9499493317071,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 392
+          },
+          "position": {
+            "x": 496.94745847573597,
+            "y": 392.0070284184781,
+            "moving": false
+          }
+        },
+        {
+          "ok": true,
+          "target": {
+            "x": 496,
+            "y": 704
+          },
+          "position": {
+            "x": 496.00296425048356,
+            "y": 703.0238882858162,
+            "moving": false
+          }
+        }
+      ],
+      "occupied": {
+        "player": {
+          "x": 751.9598842357868,
+          "y": 384.96854759284355,
+          "feetY": 400.96854759284355,
+          "body": {
+            "x": 743.9598842357868,
+            "y": 384.96854759284355,
+            "width": 16,
+            "height": 16,
+            "bottom": 400.96854759284355,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 10
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "final": {
+        "player": {
+          "x": 496.00296425048356,
+          "y": 703.0238882858162,
+          "feetY": 719.0238882858162,
+          "body": {
+            "x": 488.00296425048356,
+            "y": 703.0238882858162,
+            "width": 16,
+            "height": 16,
+            "bottom": 719.0238882858162,
+            "offsetX": 0,
+            "offsetY": 8
+          },
+          "sprite": {
+            "width": 32,
+            "height": 32,
+            "originX": 0.5,
+            "originY": 0.5,
+            "frame": 1
+          },
+          "blocked": {
+            "none": true,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false
+          }
+        },
+        "errors": []
+      },
+      "passed": true
+    }
+  ],
+  "started": "2026-10-10T03:58:30.630Z",
+  "passed": true,
+  "finished": "2026-10-10T04:00:21.075Z"
+}

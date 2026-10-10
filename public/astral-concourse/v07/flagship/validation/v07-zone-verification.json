@@ -1,0 +1,212 @@
+{
+  "checkedAt": "2026-10-10T19:58:28.129Z",
+  "status": "Final frozen independent static semantic pass; no live camera, media or deployment acceptance",
+  "sourceCommit": "60e7afdc3f96ef32525597cd46bd41175d61a2ef",
+  "schemaEquivalentTo": "75666c0ccae779515b6fcbd83446ebd1eee29d1b",
+  "scope": "Independent offline schema/native-property/membership/actual-grid checks. Not media, browser, capacity, or multiplayer acceptance.",
+  "checks": [
+    {
+      "check": "current source WAM schema",
+      "pass": true
+    },
+    {
+      "check": "current source WAM migration",
+      "pass": true
+    },
+    {
+      "check": "area IDs unique",
+      "pass": true
+    },
+    {
+      "check": "property IDs unique",
+      "pass": true
+    },
+    {
+      "check": "four independently named native meeting areas",
+      "pass": true,
+      "detail": [
+        "astral-flagship-v07-lounge-01",
+        "astral-flagship-v07-lounge-02",
+        "astral-flagship-v07-lounge-03",
+        "astral-flagship-v07-lounge-04"
+      ]
+    },
+    {
+      "check": "one podium and audience linked by area ID",
+      "pass": true
+    },
+    {
+      "check": "no WAM silent areas",
+      "pass": true
+    },
+    {
+      "check": "one default WAM start",
+      "pass": true
+    },
+    {
+      "check": "one native silent tile layer",
+      "pass": true,
+      "detail": [
+        "quiet-spawn-receiver"
+      ]
+    },
+    {
+      "check": "quiet data uses map dimensions, no layer offsets",
+      "pass": true
+    },
+    {
+      "check": "actual native silence matches source quiet grid",
+      "pass": true
+    },
+    {
+      "check": "quiet marker tile noncolliding",
+      "pass": true,
+      "detail": [
+        3592
+      ]
+    },
+    {
+      "check": "quiet marker atlas completely transparent",
+      "pass": true,
+      "detail": [
+        {
+          "size": [
+            32,
+            32
+          ],
+          "alpha": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "check": "no native silent overrides outside designated layer",
+      "pass": true
+    },
+    {
+      "check": "native role areas never overlap or touch",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "no silent tiles overlap WAM roles after16px membership conversion",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "all210 auditorium route anchors audience-only and nonsilent",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "all28 social anchors have exact intended meeting/proximity mode",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "meeting inclusive endpoints stop1px before exclusive rug edges",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "spawn quiet and outside communication roles",
+      "pass": true
+    },
+    {
+      "check": "whole default spawn rectangle quiet and outside all roles",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "relative WAM map URL resolves to exact intended TMJ",
+      "pass": true
+    },
+    {
+      "check": "actual colliding tile properties match supplied grid",
+      "pass": true
+    },
+    {
+      "check": "all28 social actor bodies clear of actual collision tiles",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "all210 auditorium actor bodies clear",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "spawn actor body clear",
+      "pass": true
+    },
+    {
+      "check": "walkable quiet-layer tile centers form one connected circulation network",
+      "pass": true,
+      "detail": {
+        "reachable": 16,
+        "total": 16
+      }
+    },
+    {
+      "check": "former quiet circulation landmarks now nonsilent and body-clear",
+      "pass": true,
+      "detail": [
+        {
+          "id": "hall-east",
+          "silent": false,
+          "bodyClear": true
+        },
+        {
+          "id": "arrival",
+          "silent": false,
+          "bodyClear": true
+        },
+        {
+          "id": "cross-concourse",
+          "silent": false,
+          "bodyClear": true
+        },
+        {
+          "id": "terrace-door",
+          "silent": false,
+          "bodyClear": true
+        },
+        {
+          "id": "terrace-walk",
+          "silent": false,
+          "bodyClear": true
+        },
+        {
+          "id": "outside-entry",
+          "silent": false,
+          "bodyClear": true
+        }
+      ]
+    },
+    {
+      "check": "source snapshots unchanged throughout audit",
+      "pass": true
+    }
+  ],
+  "passed": 29,
+  "total": 29,
+  "allPassed": true,
+  "quietCells": 16,
+  "hashes": {
+    "map32/grand-auditorium.wam": "2504f5871750964aa6972f88bb4071ccbca73aa74847d84398637d18838954c2",
+    "map32/grand-auditorium.tmj": "50c07de93567b15d7b5170bca02a4fe2b43dd5865fe02f6b90d06605947e2b85",
+    "source/runtime-layout.json": "99bc80b337ef3570ffee576bf40c14f529d1d0bc81b59a2937a8ef6caa11768a",
+    "source/quiet-grid.json": "aa62322ee560e8ec9719ec66a32d305f536b5b60f3d2554380205ef48866310f",
+    "source/collision-grid.json": "c65e7c2ee4f43565d5c84c7a160469129d5c527f820072f21195e6384f1b96e1",
+    "source/seats.json": "74a0b9f6f47d92dd3c38569fe946b94dbf4e418e0551e7a2fe0368da7ca9a122"
+  },
+  "frozenHashCheck": {
+    "map32/grand-auditorium.tmj": true,
+    "map32/grand-auditorium.wam": true,
+    "source/collision-grid.json": true,
+    "source/quiet-grid.json": true,
+    "source/runtime-layout.json": true
+  }
+}

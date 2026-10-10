@@ -1,0 +1,77 @@
+{
+  "nativeTileSize": 32,
+  "files": [
+    {
+      "path": "collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092"
+    },
+    {
+      "path": "grand-auditorium.tmj",
+      "bytes": 239391,
+      "sha256": "50c07de93567b15d7b5170bca02a4fe2b43dd5865fe02f6b90d06605947e2b85"
+    },
+    {
+      "path": "grand-auditorium.wam",
+      "bytes": 3484,
+      "sha256": "2504f5871750964aa6972f88bb4071ccbca73aa74847d84398637d18838954c2"
+    },
+    {
+      "path": "hall-above-p0.png",
+      "bytes": 19102,
+      "sha256": "b10b49e46d59134fab6832752c2a0fa5c02781a9bd0a43cf9a5f2ea1dc9746d9"
+    },
+    {
+      "path": "hall-base-p0.png",
+      "bytes": 1932511,
+      "sha256": "ce1fbdf68e384952fb99b1705a3420a93e63e6be8bd078b607e069e2598cbaca"
+    },
+    {
+      "path": "hall-base-p1.png",
+      "bytes": 1831994,
+      "sha256": "50c3d1ee13b5ebb187704a51c2ed7203e1be5d8bdcefbd04ff978af296630dcb"
+    },
+    {
+      "path": "hall-base-p2.png",
+      "bytes": 1845505,
+      "sha256": "14babc84f04dd17938bddceb818c7dc1fc8b584a0917d342210a9640aee4983c"
+    },
+    {
+      "path": "hall-base-p3.png",
+      "bytes": 947391,
+      "sha256": "2eb8f81ad313523b55345b417a358a6f359da83beb2e9e0b3ce9ea19c5754418"
+    },
+    {
+      "path": "quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    }
+  ],
+  "nativeFocus": {
+    "bounds": [
+      0,
+      0,
+      1536,
+      1008
+    ],
+    "zoomMargin": 0.15,
+    "initialFocusVerifiedBySource": true,
+    "rotationVerified": false
+  },
+  "script": false,
+  "dynamicVisibility": false,
+  "quietCells": 16,
+  "atlasRoundTrips": [
+    {
+      "layer": "hall-base",
+      "tiles": 3554,
+      "pixelExact": true
+    },
+    {
+      "layer": "hall-above",
+      "tiles": 36,
+      "pixelExact": true
+    }
+  ],
+  "liveMediaVerified": false
+}

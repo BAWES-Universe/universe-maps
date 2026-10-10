@@ -1,0 +1,247 @@
+{
+  "checkedAt": "2026-10-10T19:58:27.870475+00:00",
+  "status": "Final frozen independent static semantic pass; no live camera, media or deployment acceptance",
+  "sourceCommit": "60e7afdc3f96ef32525597cd46bd41175d61a2ef",
+  "scope": "Independent exact TMJ/WAM/grid/anchor/focus-property and accepted-region pixel checks. Not live camera framing, rotation/resize behavior, media or deployment. Native routes and exhaustive roaming/head proof reviewed separately.",
+  "passed": 30,
+  "total": 30,
+  "allPassed": true,
+  "checks": [
+    {
+      "check": "native WAM identical to v05 except v07 names",
+      "pass": true
+    },
+    {
+      "check": "210 hall seat definitions unchanged",
+      "pass": true
+    },
+    {
+      "check": "16 group anchors and four rug bounds unchanged",
+      "pass": true
+    },
+    {
+      "check": "12 casual anchors exactly match accepted six-pair contract",
+      "pass": true
+    },
+    {
+      "check": "six casual pairs retain56px spacing",
+      "pass": true
+    },
+    {
+      "check": "actual collision exclusive to permanent layer and matches source grid",
+      "pass": true
+    },
+    {
+      "check": "art tile properties do not carry behavior",
+      "pass": true
+    },
+    {
+      "check": "all2110 open cells connect to spawn",
+      "pass": true,
+      "detail": {
+        "open": 2110,
+        "reachable": 2110
+      }
+    },
+    {
+      "check": "all259 seats and landmarks body-clear and connected",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "silence is exactly16 spawn receiver cells [704,1760,128,128]",
+      "pass": true
+    },
+    {
+      "check": "quiet grid and layout declare same sole receiver",
+      "pass": true
+    },
+    {
+      "check": "entire defaultspawn and its16px body remain clear and quiet",
+      "pass": true
+    },
+    {
+      "check": "all12 casual anchors outside media and silence",
+      "pass": true
+    },
+    {
+      "check": "reception anchors match relocation and remain ordinary proximity candidates",
+      "pass": true
+    },
+    {
+      "check": "all contract chair/table/reception solid footprints collide",
+      "pass": true
+    },
+    {
+      "check": "three terrace table overrides appear in final runtime solids",
+      "pass": true
+    },
+    {
+      "check": "reception solid footprint matches exact accepted relocation",
+      "pass": true
+    },
+    {
+      "check": "all collision changes exactly accounted for by contract and widened walls",
+      "pass": true,
+      "detail": {
+        "unexpectedBlocked": [],
+        "unexpectedOpen": [],
+        "changedCells": 72
+      }
+    },
+    {
+      "check": "center bay wall adjustment is exactly30 cells",
+      "pass": true
+    },
+    {
+      "check": "v05 trimmed corner and planted wing closures preserved",
+      "pass": true
+    },
+    {
+      "check": "accepted hall collision unchanged",
+      "pass": true
+    },
+    {
+      "check": "garden door footprints remain connected and body-clear",
+      "pass": true
+    },
+    {
+      "check": "one native focus area with exactbounds and only camera properties",
+      "pass": true
+    },
+    {
+      "check": "focus area adds no WAM media properties or room membership",
+      "pass": true
+    },
+    {
+      "check": "spawn and allgroup/casual anchors outside nativefocus",
+      "pass": true
+    },
+    {
+      "check": "no scripts roofs or dynamicgroups in runtime",
+      "pass": true
+    },
+    {
+      "check": "actual packed TMJ preserves accepted hall pixels in both layers",
+      "pass": true,
+      "detail": {
+        "hall-base": true,
+        "hall-above": true
+      }
+    },
+    {
+      "check": "four rug regions preserved outside declared north-divider overlap",
+      "pass": true,
+      "detail": {
+        "visibleRugRegions": {
+          "hall-base": {
+            "lounge-01": true,
+            "lounge-02": true,
+            "lounge-03": true,
+            "lounge-04": true
+          },
+          "hall-above": {
+            "lounge-01": true,
+            "lounge-02": true,
+            "lounge-03": true,
+            "lounge-04": true
+          }
+        },
+        "wholeAreaRawComparison": {
+          "hall-base": {
+            "lounge-01": true,
+            "lounge-02": false,
+            "lounge-03": true,
+            "lounge-04": true
+          },
+          "hall-above": {
+            "lounge-01": true,
+            "lounge-02": true,
+            "lounge-03": true,
+            "lounge-04": true
+          }
+        },
+        "expectedException": "Lounge02 base changes only in the widened north divider overlap, y1072 through1087."
+      }
+    },
+    {
+      "check": "all16 group chair and4 group table art regions pixel-exact",
+      "pass": true,
+      "detail": {
+        "hall-base": {
+          "lounge-01-N": true,
+          "lounge-01-S": true,
+          "lounge-01-W": true,
+          "lounge-01-E": true,
+          "lounge-01-table": true,
+          "lounge-02-N": true,
+          "lounge-02-S": true,
+          "lounge-02-W": true,
+          "lounge-02-E": true,
+          "lounge-02-table": true,
+          "lounge-03-N": true,
+          "lounge-03-S": true,
+          "lounge-03-W": true,
+          "lounge-03-E": true,
+          "lounge-03-table": true,
+          "lounge-04-N": true,
+          "lounge-04-S": true,
+          "lounge-04-W": true,
+          "lounge-04-E": true,
+          "lounge-04-table": true
+        },
+        "hall-above": {
+          "lounge-01-N": true,
+          "lounge-01-S": true,
+          "lounge-01-W": true,
+          "lounge-01-E": true,
+          "lounge-01-table": true,
+          "lounge-02-N": true,
+          "lounge-02-S": true,
+          "lounge-02-W": true,
+          "lounge-02-E": true,
+          "lounge-02-table": true,
+          "lounge-03-N": true,
+          "lounge-03-S": true,
+          "lounge-03-W": true,
+          "lounge-03-E": true,
+          "lounge-03-table": true,
+          "lounge-04-N": true,
+          "lounge-04-S": true,
+          "lounge-04-W": true,
+          "lounge-04-E": true,
+          "lounge-04-table": true
+        }
+      }
+    },
+    {
+      "check": "snapshots stable throughout check",
+      "pass": true
+    }
+  ],
+  "hashes": {
+    "map32/grand-auditorium.tmj": "50c07de93567b15d7b5170bca02a4fe2b43dd5865fe02f6b90d06605947e2b85",
+    "map32/grand-auditorium.wam": "2504f5871750964aa6972f88bb4071ccbca73aa74847d84398637d18838954c2",
+    "source/collision-grid.json": "c65e7c2ee4f43565d5c84c7a160469129d5c527f820072f21195e6384f1b96e1",
+    "source/runtime-layout.json": "99bc80b337ef3570ffee576bf40c14f529d1d0bc81b59a2937a8ef6caa11768a",
+    "source/garden-layout.json": "14c02a4e9cc04b858d0a41eebd2a5bfea240e8450039a55693d6a23b4966d794",
+    "source/quiet-grid.json": "aa62322ee560e8ec9719ec66a32d305f536b5b60f3d2554380205ef48866310f",
+    "source/repair-assets/source/six-pair-placement-contract.json": "80799565bcdec2a7a3707f7906051416e87279630370ef544735c7b272a2da60",
+    "source/repair-placement-adjustments.json": "265543f745320b0f5cf56ae2849473e5df463ddf4db367c6cc55f08e8b72098f",
+    "source/seats.json": "74a0b9f6f47d92dd3c38569fe946b94dbf4e418e0551e7a2fe0368da7ca9a122",
+    "map32/hall-base-p0.png": "ce1fbdf68e384952fb99b1705a3420a93e63e6be8bd078b607e069e2598cbaca",
+    "map32/hall-base-p1.png": "50c3d1ee13b5ebb187704a51c2ed7203e1be5d8bdcefbd04ff978af296630dcb",
+    "map32/hall-base-p2.png": "14babc84f04dd17938bddceb818c7dc1fc8b584a0917d342210a9640aee4983c",
+    "map32/hall-base-p3.png": "2eb8f81ad313523b55345b417a358a6f359da83beb2e9e0b3ce9ea19c5754418",
+    "map32/hall-above-p0.png": "b10b49e46d59134fab6832752c2a0fa5c02781a9bd0a43cf9a5f2ea1dc9746d9",
+    "map32/collision-cell.png": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+    "map32/quiet-marker.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+  },
+  "frozenHashCheck": {
+    "map32/grand-auditorium.tmj": true,
+    "map32/grand-auditorium.wam": true,
+    "source/collision-grid.json": true,
+    "source/quiet-grid.json": true,
+    "source/runtime-layout.json": true
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "schema": {
+    "pass": true,
+    "scope": "Pinned original WAM schema evaluated with installed Zod; no upload, live broadcast, client or phone claim.",
+    "sourceCommit": "75666c0ccae779515b6fcbd83446ebd1eee29d1b",
+    "sourceGitBlob": "2db9a5ae0f93a3b2429e1883f834c9b71897689c",
+    "sourceSha256": "cba668c153cdadc8a1e7e60c66aa373ac003cde5da1080a376a45199cb5423eb",
+    "nativeSchemaPassed": true,
+    "parsedVersion": "2.0.0",
+    "areaIdLinkagePassed": true,
+    "inclusiveRectanglesDoNotOverlap": true,
+    "sourceRelativeMapUrlContractVerified": true,
+    "wamSha256": "5831ae09f48cfa68928eb02ccc51f83fe31b5036c23229a1a4f30c5ba8086013"
+  },
+  "membership": {
+    "pass": true,
+    "scope": "Static native x,y+16 feet membership and schema-linked two-role configuration. No successful media join, broadcast, reconnect, browser or live multiplayer claim.",
+    "audienceRows": [
+      {
+        "seat": "attendee-1",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-2",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-3",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-4",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-5",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-6",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-7",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-8",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-9",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-10",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-11",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-12",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-13",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-14",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-15",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-16",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-17",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-18",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-19",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-20",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-21",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-22",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-23",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      },
+      {
+        "seat": "attendee-24",
+        "footpointsChecked": 10,
+        "allInAudienceOnly": true
+      }
+    ],
+    "nominalSpeakerInPodiumOnly": true,
+    "exteriorFootpointsOutsideRoles": [
+      [
+        608,
+        2104
+      ],
+      [
+        688,
+        2104
+      ],
+      [
+        656,
+        1568
+      ],
+      [
+        936,
+        1584
+      ]
+    ],
+    "roleRectangles": [
+      {
+        "name": "Campus stage",
+        "x": 96,
+        "y": 1760,
+        "width": 448,
+        "height": 112
+      },
+      {
+        "name": "Campus audience",
+        "x": 64,
+        "y": 1888,
+        "width": 512,
+        "height": 384
+      }
+    ],
+    "mapSha256": "1bde4991bf1d680c7278a9d0c3e4a5855b4e4bbac09887a7a76cf0eb9745bdd7",
+    "wamSha256": "5831ae09f48cfa68928eb02ccc51f83fe31b5036c23229a1a4f30c5ba8086013"
+  },
+  "scope": "Optional native room configuration template, not installed by importing TMJ alone. No live broadcast claim.",
+  "editorFeatureGate": {
+    "name": "FEATURE_FLAG_BROADCAST_AREAS",
+    "sourceDefault": false,
+    "deployedValue": "unverified",
+    "settingsChanged": false
+  }
+}

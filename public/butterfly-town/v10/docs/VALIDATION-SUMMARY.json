@@ -1,0 +1,59 @@
+{
+  "candidate": "Campus10 restored24-seat standard32 feedback preview",
+  "status": "Source/native checks complete; publication and live acceptance separate",
+  "standaloneTmjSha256": "1bde4991bf1d680c7278a9d0c3e4a5855b4e4bbac09887a7a76cf0eb9745bdd7",
+  "publicationTmjSha256": "6f434e71e895a4c350cf0fe7976028723107679b2b52da8216c61f508213b33a",
+  "worldPixels": [
+    2944,
+    2624
+  ],
+  "tileSize": 32,
+  "nativeWokaPixels": [
+    32,
+    32
+  ],
+  "capacity": {
+    "workSeats": 8,
+    "receptionServicePositions": 2,
+    "classroomSeats": 6,
+    "auditoriumSeats": 24
+  },
+  "checks": {
+    "officePublicRouteLegs": 144,
+    "doorClickCases": 7424,
+    "doorMovementFrames": 207814,
+    "joystickEnvelopePaths": 576,
+    "doorBayIntegerBodyPositions": 5537,
+    "seatingTapLegs": 540,
+    "teacherSpeakerTapLegs": 36,
+    "nativeAnimationSourceFrames": 60,
+    "animatedCells": 158,
+    "allAnimationFramesVisible": true,
+    "silentSpawnCovered": true,
+    "nearTransparentWalkablePixels": 0,
+    "compiledPixelRoundTrip": true,
+    "publicationDerivativeEquivalence": true,
+    "auditoriumBothAisleMapClearLegs": 96,
+    "reachableCivicHeadPlacements": 238528,
+    "nativeStageCompanionSchemaValid": true,
+    "nativeStageFootpointsChecked": 240
+  },
+  "renderBudget": {
+    "tileLayers": 4,
+    "tileObjects": 30176,
+    "standaloneTextureBytes": 43126784,
+    "sharedDerivativeTextureBytes": 49287168
+  },
+  "limitations": [
+    "Offline source/native movement and raster checks; no current live room or physical-phone acceptance.",
+    "Other players are pass-through and absent from native global pathfinding. All24 seats are map-reachable; dense-row travel can visually overlap other avatars. This is not a runtime collision blockage.",
+    "Seated appearance is ordinary fixed chair-back occlusion at occupied anchors, not automatic sit animation, click snapping or forced facing.",
+    "Interiors remain roofless cutaways in this preview. Existing glass, shade and podium layering are retained.",
+    "Two existing minor fountain-canopy head brushes remain: one sample/1 pixel and two samples/up to8 pixels. They are not reported as head-clear.",
+    "Native sound uses quiet fountain/fire assets and rectangular gain bands, not continuous stereo spatial mixing. Unsupported volume devices hear the preattenuated level.",
+    "Spawn silence uses the existing native silent area. Initial socket-group race is tracked separately in Universe issue735.",
+    "Gate is a separate preserved map. The room owner configures its destination portal.",
+    "A separate WAM/native-editor setup activates podium/audience roles and broadcasting after successful space joins. Plain TMJ alone does not. Other live bots, personal desk claims and meeting services remain unconfigured.",
+    "Podium/Audience editor controls require FEATURE_FLAG_BROADCAST_AREAS; source default false and deployed value unverified. No setting change was made."
+  ]
+}

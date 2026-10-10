@@ -1,0 +1,126 @@
+{
+  "entry": "map32/magical-campus.tmj",
+  "tmjSha256": "6f434e71e895a4c350cf0fe7976028723107679b2b52da8216c61f508213b33a",
+  "optionalStageConfiguration": "map32/magical-campus.wam",
+  "newFiles": [
+    {
+      "path": "map32/campus10-changed-p0.png",
+      "bytes": 2497458,
+      "sha256": "aa0b57ddeda0db22aa71d38c6ce830b70678b124f2a2055c77c4ec45bf26b466"
+    },
+    {
+      "path": "map32/campus10-changed-p1.png",
+      "bytes": 1214450,
+      "sha256": "43485e533a8530579aad768796b9b6a026aafcc9f4eb0d81c0ea2d4cdcb49403"
+    },
+    {
+      "path": "map32/fire-flame-p0.png",
+      "bytes": 23237,
+      "sha256": "670da95978fe443cce12cac82ec46b03b9d21b416165b227f5d7c1321f5837a6"
+    },
+    {
+      "path": "map32/fountain-water-p0.png",
+      "bytes": 96352,
+      "sha256": "23e32ee3a3360b0a9fbd736a484b5a1a0b369255e0f24c070f418e4fd6bf55e9"
+    },
+    {
+      "path": "map32/garden-life-p0.png",
+      "bytes": 24897,
+      "sha256": "7c9ae812a58bcb7cafb84e352a58d335cee4c801a610fa21e685c48bb2d3b051"
+    },
+    {
+      "path": "map32/magical-campus.tmj",
+      "bytes": 189196,
+      "sha256": "6f434e71e895a4c350cf0fe7976028723107679b2b52da8216c61f508213b33a"
+    },
+    {
+      "path": "map32/magical-campus.wam",
+      "bytes": 962,
+      "sha256": "5831ae09f48cfa68928eb02ccc51f83fe31b5036c23229a1a4f30c5ba8086013"
+    },
+    {
+      "path": "map32/river-water-p0.png",
+      "bytes": 251059,
+      "sha256": "7410c71c131c0e67511f7768632fd2baad9dcfc4bec582358165fc66c8e88922"
+    },
+    {
+      "path": "map32/river-water-p1.png",
+      "bytes": 151876,
+      "sha256": "7fb0df425692fe0538b068e4bf3221c9b8125d9196c2e638c4256b6d75a81e68"
+    }
+  ],
+  "sharedPreserved09Files": [
+    {
+      "url": "../../v9/map32/campus-base-p0.png",
+      "servedPath": "butterfly-town/v9/map32/campus-base-p0.png",
+      "sha256": "9ac74c222cbb0858d3b0fda7d9ed0cff3f2cc92e6ad760ae75adc32ba0fd2392",
+      "bytes": 2701663
+    },
+    {
+      "url": "../../v9/map32/campus-base-p1.png",
+      "servedPath": "butterfly-town/v9/map32/campus-base-p1.png",
+      "sha256": "2e9f28384accb7ee611033d8bd0436ed5ebac4dd4c880583d54ddf83d5cd1fe4",
+      "bytes": 2581249
+    },
+    {
+      "url": "../../v9/map32/campus-base-p2.png",
+      "servedPath": "butterfly-town/v9/map32/campus-base-p2.png",
+      "sha256": "5ba8a3338b1886c7cdf63d483fccc3d19f2bb632a6fda976e906c06e559e1786",
+      "bytes": 2486185
+    },
+    {
+      "url": "../../v9/map32/campus-base-p3.png",
+      "servedPath": "butterfly-town/v9/map32/campus-base-p3.png",
+      "sha256": "f8573e4735ef80a5a7411987093bf2903f08ee422eec1c3ee0d92295dc68366a",
+      "bytes": 2357321
+    },
+    {
+      "url": "../../v9/map32/campus-base-p4.png",
+      "servedPath": "butterfly-town/v9/map32/campus-base-p4.png",
+      "sha256": "2653123772a47fd7d2a13cc6a24ab46e195e29881b7ee0e5140069eecf517944",
+      "bytes": 2456941
+    },
+    {
+      "url": "../../v9/map32/campus-base-p5.png",
+      "servedPath": "butterfly-town/v9/map32/campus-base-p5.png",
+      "sha256": "309110e9163946afb27829fdf147e229ff08f6de6c1ff1cfc1b48bced32a3cf1",
+      "bytes": 2385466
+    },
+    {
+      "url": "../../v9/map32/campus-above-p0.png",
+      "servedPath": "butterfly-town/v9/map32/campus-above-p0.png",
+      "sha256": "a360950baf680c1b88e8a15a8cb211ceadacf27309689a082114f2df7fa27e96",
+      "bytes": 1954703
+    },
+    {
+      "url": "../../v9/map32/campus-above-p1.png",
+      "servedPath": "butterfly-town/v9/map32/campus-above-p1.png",
+      "sha256": "efb99e0fcaf97f756a03e0ac77787dd9f3a06cae9e493c0b111c6c72561b1a67",
+      "bytes": 2231047
+    },
+    {
+      "url": "../../v9/map32/campus-above-p2.png",
+      "servedPath": "butterfly-town/v9/map32/campus-above-p2.png",
+      "sha256": "abe9a3ebf3189368283842f7e96cfbe2046e412e59bcfd1182a54dea9f80126b",
+      "bytes": 117680
+    },
+    {
+      "url": "../../v9/map32/collision-cell.png",
+      "servedPath": "butterfly-town/v9/map32/collision-cell.png",
+      "sha256": "99251d131efeccc80c2948c4f90146968613afc604c1c17e11b62d0b7b282c93",
+      "bytes": 110
+    },
+    {
+      "url": "../../v9/map32/audio/fountain-soft.mp3",
+      "servedPath": "butterfly-town/v9/map32/audio/fountain-soft.mp3",
+      "sha256": "e83c4da6aeec6330a8c7230eca281dfe1f428e1de83c8cd2f3f8c389cfbc7492",
+      "bytes": 144908
+    },
+    {
+      "url": "../../v9/map32/audio/fire-soft.mp3",
+      "servedPath": "butterfly-town/v9/map32/audio/fire-soft.mp3",
+      "sha256": "58dd8d473efbd786beae9f93368ece56b2c7034f76fb7acbbe1e8559033dc49d",
+      "bytes": 193004
+    }
+  ]
+}

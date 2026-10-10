@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./magical-campus.tmj",
+  "entities": {},
+  "areas": [
+    {
+      "id": "28d9ac64-676d-5276-87c9-8d48af8b8f4f",
+      "name": "Campus stage",
+      "x": 96,
+      "y": 1760,
+      "width": 448,
+      "height": 112,
+      "visible": true,
+      "properties": [
+        {
+          "id": "12d75df7-040b-5d31-b9b6-f623fe6555e5",
+          "type": "speakerMegaphone",
+          "name": "campus-stage",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "e490f262-b2ae-5ee6-bf25-c2867c3af9dc",
+      "name": "Campus audience",
+      "x": 64,
+      "y": 1888,
+      "width": 512,
+      "height": 384,
+      "visible": true,
+      "properties": [
+        {
+          "id": "e3b279df-0d5d-59ee-86ef-ad527e83bfea",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "28d9ac64-676d-5276-87c9-8d48af8b8f4f",
+          "chatEnabled": false
+        }
+      ]
+    }
+  ],
+  "entityCollections": []
+}

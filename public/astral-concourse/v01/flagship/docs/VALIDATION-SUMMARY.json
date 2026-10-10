@@ -1,0 +1,33 @@
+{
+  "scope": "Offline geometry, source-matched movement, package closure and current-engine WAM schema verification. This report does not establish live rendering, media or concurrent capacity.",
+  "engineSourceCommit": "75666c0ccae779515b6fcbd83446ebd1eee29d1b",
+  "tileSize": 32,
+  "mapCells": [
+    48,
+    40
+  ],
+  "mapPixels": [
+    1536,
+    1280
+  ],
+  "wokaScale": 1,
+  "reachableSeats": 210,
+  "nativeMovementLegs": 3800,
+  "movementFailures": 0,
+  "bodyClearReachablePlacements": 554924,
+  "foregroundHeadConflicts": 0,
+  "safeIntegerSpawns": 1089,
+  "connectedWalkableCells": 716,
+  "wamChecksPassed": 26,
+  "packageChecksPassed": 18,
+  "sourceDefaultWokaSpeed": 9,
+  "deployedSpeedMayDiffer": true,
+  "limitations": [
+    "No live browser or multi-user renderer validation",
+    "No media join, transition-bubble or cross-hall audio acceptance",
+    "No concurrent-capacity/load claim",
+    "Broadcast editor feature flag defaultfalse; deployed flag/import path unverified",
+    "Other halls and shared hub are masterplan only; south return unbound",
+    "No engine change, live room creation or existing campus modification."
+  ]
+}

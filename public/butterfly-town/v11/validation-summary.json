@@ -1,0 +1,71 @@
+{
+  "revision": "Campus11",
+  "status": "Frozen map-only preview; no live-room or physical-phone acceptance claim",
+  "baseline": "https://bawes-universe.github.io/universe-maps/butterfly-town/v10/map32/magical-campus.tmj",
+  "sourceMapSHA256": "6925c9c0406355894bbca0641d9f33b76b77be8ffffc4b188094f08832a8f85a",
+  "publicationMapSHA256": "1c7a9d27d434732453d706ac79dc482309db59a217d80f19b626d9380bc097ad",
+  "worldPixels": [
+    2944,
+    2624
+  ],
+  "tilePixels": 32,
+  "avatarPixels": 32,
+  "bodyPixels": [
+    16,
+    16
+  ],
+  "changes": {
+    "collisionCellsOpened": 29,
+    "spawnCenter": [
+      1248,
+      1536
+    ],
+    "spawnArea": [
+      1232,
+      1520,
+      32,
+      32
+    ],
+    "silentArea": [
+      1200,
+      1504,
+      96,
+      96
+    ],
+    "signTopLeft": [
+      1288,
+      1656
+    ]
+  },
+  "checks": {
+    "campfireTapLegs": 748,
+    "campfireDirectionalJourneys": 20,
+    "headClearPositions": 72539,
+    "headFramesEach": 12,
+    "arrivalLegs": 14,
+    "arrivalHeadFrames": 6901,
+    "fountainPointsOutsideSilence": 39,
+    "animationFramesByteIdentical": 60,
+    "preservedCivicAudioEffectFiles": 79,
+    "runtimeRebuildFilesIdentical": 23,
+    "publicationFrameComparisons": 10860,
+    "collisionMembershipEquivalent": true,
+    "relativeAssetClosureValid": true
+  },
+  "preserved": {
+    "eventSeats": 24,
+    "officeWorkSeats": 8,
+    "receptionPositions": 2,
+    "audio": true,
+    "animationPositionTimingAndPixels": true,
+    "previousVersions": true
+  },
+  "limits": [
+    "Bench access uses normal standing Woka frames; the south backrest provides static lower-body overlap. No sitting animation or automatic snapping.",
+    "Some fire-court bottlenecks remain one32px cell wide, giving16px of center travel for the16px body.",
+    "Native tap paths do not route around other people.",
+    "Only compiled-pixel, source-model and build checks are represented; live-room and physical-mobile acceptance remain pending.",
+    "Native spawn silence preserves ambient audio; the existing initial-connection grouping race tracked in issue735 is not changed.",
+    "Optional WAM broadcast configuration is not installed by a TMJ URL and requires supported room setup and a successful native space join."
+  ]
+}

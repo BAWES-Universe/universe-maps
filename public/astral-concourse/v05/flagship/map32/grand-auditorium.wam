@@ -1,0 +1,142 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./grand-auditorium.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "astral-flagship-v05-podium",
+      "name": "Flagship v05 Podium",
+      "x": 256,
+      "y": 208,
+      "width": 1024,
+      "height": 128,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-flagship-v05-broadcast",
+          "type": "speakerMegaphone",
+          "name": "astral-flagship-v05-stage",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "astral-flagship-v05-audience",
+      "name": "Flagship v05 Audience",
+      "x": 128,
+      "y": 384,
+      "width": 1280,
+      "height": 623,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-flagship-v05-receive",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "astral-flagship-v05-podium",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "astral-flagship-v05-spawn",
+      "name": "Flagship v05 arrival",
+      "x": 736,
+      "y": 1792,
+      "width": 64,
+      "height": 64,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-flagship-v05-start",
+          "type": "start",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": "astral-flagship-v05-lounge-01",
+      "name": "Foyer lounge-01",
+      "x": 96,
+      "y": 1072,
+      "width": 351,
+      "height": 223,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-flagship-v05-lounge-01-call",
+          "type": "livekitRoomProperty",
+          "roomName": "astral-flagship-v05-lounge-01",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "astral-flagship-v05-lounge-02",
+      "name": "Foyer lounge-02",
+      "x": 640,
+      "y": 1072,
+      "width": 223,
+      "height": 223,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-flagship-v05-lounge-02-call",
+          "type": "livekitRoomProperty",
+          "roomName": "astral-flagship-v05-lounge-02",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "astral-flagship-v05-lounge-03",
+      "name": "Foyer lounge-03",
+      "x": 1120,
+      "y": 1072,
+      "width": 319,
+      "height": 223,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-flagship-v05-lounge-03-call",
+          "type": "livekitRoomProperty",
+          "roomName": "astral-flagship-v05-lounge-03",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "astral-flagship-v05-lounge-04",
+      "name": "Foyer lounge-04",
+      "x": 96,
+      "y": 1456,
+      "width": 351,
+      "height": 223,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-flagship-v05-lounge-04-call",
+          "type": "livekitRoomProperty",
+          "roomName": "astral-flagship-v05-lounge-04",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    }
+  ]
+}

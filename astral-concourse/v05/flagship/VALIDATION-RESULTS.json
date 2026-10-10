@@ -1,0 +1,45 @@
+{
+  "scope": "Unchanged source-extracted native32 PathfindingManager, Player movement, GameScene.moveTo/mapChanged subscription, pointer handler and WAM position membership from unpatched engine commit. Real EasyStar0.4.4, native60Hz movement with <=0.5px body/head/meeting sweep. No live browser, Phaser renderer/keyboard collision integration, network, multi-user, or deployment claim.",
+  "engineHead": "90a148c03e03401e26d236eaac9bea4123b42c57",
+  "normalMovementLegsPassed": 11742,
+  "totalCommands": 11758,
+  "sameCellBaselineExceptions": 16,
+  "samples": 32152912,
+  "collisions": 0,
+  "headConflicts": 0,
+  "unintendedMeetings": 0,
+  "loops": 0,
+  "mapFailures": 0,
+  "boundaryChecksPassed": 12,
+  "allCommandsReachIntendedEndpoint": false,
+  "staticGeometry": {
+    "scope": "Every reachable integer body-clear position,16x16 native body x-8..x+8/y..y+16; union of all12 Greg32 upper14px head masks alpha>32. Source/static test, not live rendering.",
+    "world": [
+      2560,
+      1920
+    ],
+    "walkableCells": 2100,
+    "reachableCells": 2100,
+    "unreachableWalkableCells": 0,
+    "bodyClearReachablePlacements": 1813500,
+    "headConflictPlacements": 0,
+    "firstHeadConflicts": [],
+    "anchorCount": 257,
+    "badAnchors": [],
+    "socialAnchorsInSilence": [],
+    "conservativeFullWamSpawnCount": 4356,
+    "safeAndSilentSpawns": 4356,
+    "allPass": true
+  },
+  "runtimeInputs": {
+    "map32/grand-auditorium.tmj": "876a5dbb825b45a5d7d7f105070ab105d6280d314b8a56a7b2ae472b0426c3e8",
+    "map32/grand-auditorium.wam": "6b14ccf7218971e5645ed1c68527d7ccbcd99355c55ecd7ee2b51ea8ddc6d3dd",
+    "source/collision-grid.json": "76e0fc9946df893ecb2889c87aa417df00bc7667afc3b23ae83051e2216697e2",
+    "source/quiet-grid.json": "49a07fae4d9c56bd1fe9a8678cb832cf52d7b45db6c5c6ec5c2ca1af1e8451ec",
+    "source/seats.json": "74a0b9f6f47d92dd3c38569fe946b94dbf4e418e0551e7a2fe0368da7ca9a122",
+    "source/runtime-layout.json": "bdd015beccf1970adda6b81693ebf60be8f343db7baf2e74b093f7dcc81cd9c0",
+    "source/garden-layout.json": "d7ae5d8ea21718621c27f8e27af35f9080ffcbf6da1f9107901538bba122fc0c",
+    "validation/head-danger.bin": "4710b3d228b26a97996d4eb93fc1c111ad0b1718556701775d563b3b46734664"
+  },
+  "liveTested": false
+}

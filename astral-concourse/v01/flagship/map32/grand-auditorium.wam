@@ -1,0 +1,73 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./grand-auditorium.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "astral-flagship-podium",
+      "name": "Flagship Podium",
+      "x": 256,
+      "y": 208,
+      "width": 1024,
+      "height": 128,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-flagship-broadcast",
+          "type": "speakerMegaphone",
+          "name": "astral-flagship-stage",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "astral-flagship-audience",
+      "name": "Flagship Audience",
+      "x": 128,
+      "y": 384,
+      "width": 1280,
+      "height": 623,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-flagship-receive",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "astral-flagship-podium",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "astral-flagship-quiet-arrival",
+      "name": "Quiet arrival vestibule",
+      "x": 128,
+      "y": 1008,
+      "width": 1280,
+      "height": 272,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-flagship-silent",
+          "type": "silent"
+        }
+      ]
+    },
+    {
+      "id": "astral-flagship-spawn",
+      "name": "Flagship arrival",
+      "x": 736,
+      "y": 1056,
+      "width": 64,
+      "height": 64,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-flagship-start",
+          "type": "start",
+          "isDefault": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "checkedAt": "2026-10-10T20:27:46.896325+00:00",
+  "status": "Final frozen independent Garden B static pass; live device/camera/media behavior outside this review",
+  "sourceCommit": "60e7afdc3f96ef32525597cd46bd41175d61a2ef",
+  "scope": "Independent actual runtime schema/geometry/property ownership and static pixel preservation. Animation execution isolation is in the separate candidate-specific stub-scene report; no live rendering, camera, device-performance or media test.",
+  "passed": 30,
+  "total": 30,
+  "allPassed": true,
+  "checks": [
+    {
+      "check": "WAM exactly A except v08 identifiers",
+      "pass": true
+    },
+    {
+      "check": "quiet grid byte-identical to frozen A",
+      "pass": true
+    },
+    {
+      "check": "210 hall seat definitions and anchors unchanged",
+      "pass": true
+    },
+    {
+      "check": "group rugs, spawn, quiet receiver and focus metadata unchanged",
+      "pass": true
+    },
+    {
+      "check": "actual TMJ collision matches source and only permanent layer",
+      "pass": true
+    },
+    {
+      "check": "only four prescribed pavilion table cells become solid",
+      "pass": true,
+      "detail": [
+        [
+          64,
+          5,
+          0,
+          1
+        ],
+        [
+          65,
+          5,
+          0,
+          1
+        ],
+        [
+          70,
+          5,
+          0,
+          1
+        ],
+        [
+          71,
+          5,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "check": "four garden anchors exactly match pavilion contract",
+      "pass": true
+    },
+    {
+      "check": "only two anchor positions adjust8px toward pair center",
+      "pass": true
+    },
+    {
+      "check": "all existing chair solids unchanged",
+      "pass": true
+    },
+    {
+      "check": "other24 social anchors and all landmarks exactly unchanged",
+      "pass": true
+    },
+    {
+      "check": "pavilion pairs exactly48px apart",
+      "pass": true
+    },
+    {
+      "check": "all2106 open cells connect to spawn",
+      "pass": true,
+      "detail": {
+        "open": 2106,
+        "connected": 2106
+      }
+    },
+    {
+      "check": "all259 seat and landmark anchors body-clear and connected",
+      "pass": true
+    },
+    {
+      "check": "central128px pavilion passage is entirely native-body traversable",
+      "pass": true
+    },
+    {
+      "check": "native TMJ spawn and camera-focus geometry/properties unchanged except A-to-B focus name",
+      "pass": true
+    },
+    {
+      "check": "no runtime scripts roofs or dynamicgroups",
+      "pass": true
+    },
+    {
+      "check": "one embedded native32 four-frame animation atlas",
+      "pass": true
+    },
+    {
+      "check": "frame localIDs and durations exactly prescribed",
+      "pass": true
+    },
+    {
+      "check": "exactly three intended anchor-GID placements",
+      "pass": true
+    },
+    {
+      "check": "animation layer native dimensions zero offsets and below actors",
+      "pass": true
+    },
+    {
+      "check": "animation and all frames have no behavior or collision properties",
+      "pass": true
+    },
+    {
+      "check": "animation isolated to blocked planting outside quiet/media/focus",
+      "pass": true
+    },
+    {
+      "check": "animation GIDs used only by intended layer",
+      "pass": true
+    },
+    {
+      "check": "tileset GID ranges and layer IDs unique",
+      "pass": true
+    },
+    {
+      "check": "actual TMJ preserves complete A hall and foyer pixels in both layers",
+      "pass": true
+    },
+    {
+      "check": "all static art changes stay within declared materials/pavilion ownership",
+      "pass": true,
+      "detail": {
+        "baseChangedPixels": 900553,
+        "aboveChangedPixels": 692
+      }
+    },
+    {
+      "check": "all protected opaque object/door pixels outside pavilion composition preserved",
+      "pass": true
+    },
+    {
+      "check": "declared opaque protection mask matches source-alpha ownership",
+      "pass": true
+    },
+    {
+      "check": "actual packed art equals final candidate source art",
+      "pass": true
+    },
+    {
+      "check": "snapshots stable throughout independent audit",
+      "pass": true
+    }
+  ],
+  "hashes": {
+    "map32/grand-auditorium.tmj": "a9120457e63c3118de7a884879471b6219442bb26a72971f8c4ce163615e8f7b",
+    "map32/grand-auditorium.wam": "dd5a4d310640f82e6b4acc28f068733142b8f5f9bc3f0bda384c7fd3c00467f5",
+    "source/collision-grid.json": "311ab29308ab921df60406c266b9f48a11ea36d0e9aa1f012038506857d50ba4",
+    "source/runtime-layout.json": "014a407cb748ec2727db3cc729c3654f6fdfcd9ddef3763729d83b8b17a2f46d",
+    "source/garden-layout.json": "04cc9e2d4774320b82a5c73a123edce659276ab56a1a0371e92cf298a2e978db",
+    "source/pavilion-collision-delta-contract.json": "332cc5c98bfb50d5d4cd009a6d0951f08ef0256d4c55c483656b2f7a49d3cd54",
+    "source/animation-placement.json": "d07c8e3988192a71a0f4fed9ce9b7d7cb5b54d1c81a869d2770162f05c604e99",
+    "source/quiet-grid.json": "aa62322ee560e8ec9719ec66a32d305f536b5b60f3d2554380205ef48866310f",
+    "source/seats.json": "74a0b9f6f47d92dd3c38569fe946b94dbf4e418e0551e7a2fe0368da7ca9a122",
+    "map32/garden-accent.png": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646",
+    "map32/hall-base-p0.png": "c6e9ee5b6d60778f1e09b9f1e931d795b5955ba4e11cb45a441c8d54e5be7589",
+    "map32/hall-base-p1.png": "c1a4a765aa95bbb57160969345230b1531aab6ece3fef05ea4413f8d3d415f41",
+    "map32/hall-base-p2.png": "c66677c3b7b9f1035f15ab5d5b29ed617363ff254a4e84a4ef318e394cdfec9d",
+    "map32/hall-base-p3.png": "5492b195318fe5a3495be7c2a828dd1c84e4b8cfe66e9e27fa48a2b3d114d517",
+    "map32/hall-above-p0.png": "7f665ab1b7bdec5f8ae8f02d0225709dd5eaa2c675ffdc1e99ca74b2a68948e3",
+    "map32/collision-cell.png": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+    "map32/quiet-marker.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "masks/all-owned-surface-pixels.png": "e4f14f765603643c3e8f13b7a5aa6883d189a87737374445df9acccc128f4ec5",
+    "masks/pavilion-composition-owned-pixels.png": "fd1e403ed929df1811a9a701604fc00144f631f1979a3cd1268fae69e0e2d21b",
+    "masks/protected-objects-and-doors.png": "10e7af8034176a9fb41146e4b2a0f99577bc68e7601f34d273c132561610473e",
+    "source/overlays/furniture-below-source-alpha.png": "32e86261a3e3c86fc07a3caa6bc9edc8eaac551226a8c87fbcfff7ba93127e75",
+    "source/overlays/structure-source-alpha.png": "b99ca529cd7a1da33ae8ca36e6165f4de262c366cc90eef8555600b2f0cbebd1",
+    "assets/runtime-base.png": "ff5a19a1bb7a6692c29aa3c25d63d5a6390c01abe560eabd5c3b1be66eb92b7b",
+    "assets/runtime-above.png": "60d9a5984a2c77066ff7eec8115c4cd5e6a3f140ac3b9db1b4b0eb8d99c6bd22"
+  },
+  "frozenHashCheck": {
+    "map32/grand-auditorium.tmj": true,
+    "map32/grand-auditorium.wam": true,
+    "source/collision-grid.json": true,
+    "source/quiet-grid.json": true,
+    "source/runtime-layout.json": true
+  }
+}

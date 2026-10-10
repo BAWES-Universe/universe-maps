@@ -1,0 +1,564 @@
+{
+  "nativeAnimationReplay": {
+    "pluginBlob": "69d1046e62a6c60577d4591f3fac145f3a733f8b",
+    "placements": 3,
+    "ticks": 5302552,
+    "renderOnlyEvents": 194589,
+    "rawMapUnchanged": true,
+    "propertiesUnchanged": true,
+    "sceneIsTestDouble": true
+  },
+  "scope": "Unchanged source-extracted native32 PathfindingManager, Player movement, GameScene.moveTo/mapChanged subscription, pointer handler and WAM position membership from merged engine commit; deployment not verified. Real EasyStar0.4.4, native60Hz movement with <=0.5px body/head/meeting sweep. Actual pinned animated-tiles plugin advances during each movement frame in a stub scene and emits only render updates; raw map/properties remain unchanged. No live browser, Phaser renderer/keyboard collision integration, network, multi-user, or deployment claim.",
+  "head": "60e7afdc3f96ef32525597cd46bd41175d61a2ef",
+  "candidate": "/workspace/shared/grand-auditorium-08-garden",
+  "inputs": {
+    "map32/grand-auditorium.tmj": "a9120457e63c3118de7a884879471b6219442bb26a72971f8c4ce163615e8f7b",
+    "map32/grand-auditorium.wam": "dd5a4d310640f82e6b4acc28f068733142b8f5f9bc3f0bda384c7fd3c00467f5",
+    "source/collision-grid.json": "311ab29308ab921df60406c266b9f48a11ea36d0e9aa1f012038506857d50ba4",
+    "source/quiet-grid.json": "aa62322ee560e8ec9719ec66a32d305f536b5b60f3d2554380205ef48866310f",
+    "source/seats.json": "74a0b9f6f47d92dd3c38569fe946b94dbf4e418e0551e7a2fe0368da7ca9a122",
+    "source/runtime-layout.json": "014a407cb748ec2727db3cc729c3654f6fdfcd9ddef3763729d83b8b17a2f46d",
+    "source/garden-layout.json": "04cc9e2d4774320b82a5c73a123edce659276ab56a1a0371e92cf298a2e978db",
+    "validation/head-danger.bin": "54ae698a19e50fd156f81cd894957be29a8f9f028b1e5b3038ae5a62de9738ce"
+  },
+  "inputsStable": true,
+  "staticOnly": true,
+  "mapChanges": 0,
+  "seatCounts": {
+    "audience": 210,
+    "group": 16,
+    "casual": 12
+  },
+  "origins": [
+    [
+      "spawn",
+      [
+        768,
+        1824
+      ]
+    ],
+    [
+      "bank-A",
+      [
+        272,
+        431
+      ]
+    ],
+    [
+      "bank-B",
+      [
+        752,
+        623
+      ]
+    ],
+    [
+      "bank-C",
+      [
+        1328,
+        815
+      ]
+    ],
+    [
+      "stage",
+      [
+        768,
+        264
+      ]
+    ],
+    [
+      "west-hall",
+      [
+        560,
+        960
+      ]
+    ],
+    [
+      "east-hall",
+      [
+        976,
+        960
+      ]
+    ],
+    [
+      "coffee",
+      [
+        1876,
+        1240
+      ]
+    ],
+    [
+      "garden-junction",
+      [
+        2048,
+        512
+      ]
+    ],
+    [
+      "pavilion-return",
+      [
+        2176,
+        160
+      ]
+    ],
+    [
+      "terrace-garden-return",
+      [
+        2208,
+        1056
+      ]
+    ]
+  ],
+  "landmarkCount": 21,
+  "legs": 11818,
+  "matrixLegs": 11812,
+  "totals": {
+    "samples": 32352365,
+    "frames": 5302552,
+    "collisions": 0,
+    "headConflicts": 0,
+    "unintendedMeetings": 0,
+    "loops": 0,
+    "pathInstalls": 11818
+  },
+  "baselineFailures": 0,
+  "explicitBaselineCases": [
+    {
+      "index": 11812,
+      "id": "spawn-same-cell",
+      "label": "baseline-exact",
+      "classification": "explicit-same-cell-baseline",
+      "input": "desktop",
+      "mode": "exact",
+      "start": [
+        768,
+        1824
+      ],
+      "click": [
+        768,
+        1840
+      ],
+      "sameCell": true,
+      "nativeFittedEndpoint": [
+        776,
+        1824
+      ],
+      "initialNativeEndpoint": [
+        776,
+        1824
+      ],
+      "final": [
+        776,
+        1824
+      ],
+      "finalFloorTile": [
+        24,
+        57
+      ],
+      "endpointErrorPx": 0,
+      "driftFromInstalledEndpointPx": 0,
+      "frames": 3,
+      "samples": 17,
+      "collisions": 0,
+      "headConflicts": 0,
+      "firstCollision": null,
+      "unintendedMeetings": [],
+      "enteredMeetingAreas": [],
+      "pathInstalls": 1,
+      "error": null,
+      "warnings": [],
+      "baselineOnly": false,
+      "failed": []
+    },
+    {
+      "index": 11813,
+      "id": "spawn-same-cell",
+      "label": "baseline-pointer",
+      "classification": "explicit-same-cell-baseline",
+      "input": "desktop",
+      "mode": "pointer",
+      "start": [
+        768,
+        1824
+      ],
+      "click": [
+        768,
+        1840
+      ],
+      "sameCell": true,
+      "nativeFittedEndpoint": [
+        776,
+        1824
+      ],
+      "initialNativeEndpoint": [
+        776,
+        1824
+      ],
+      "final": [
+        776,
+        1824
+      ],
+      "finalFloorTile": [
+        24,
+        57
+      ],
+      "endpointErrorPx": 0,
+      "driftFromInstalledEndpointPx": 0,
+      "frames": 3,
+      "samples": 17,
+      "collisions": 0,
+      "headConflicts": 0,
+      "firstCollision": null,
+      "unintendedMeetings": [],
+      "enteredMeetingAreas": [],
+      "pathInstalls": 1,
+      "error": null,
+      "warnings": [],
+      "baselineOnly": false,
+      "failed": []
+    },
+    {
+      "index": 11814,
+      "id": "garden-same-cell",
+      "label": "baseline-exact",
+      "classification": "explicit-same-cell-baseline",
+      "input": "desktop",
+      "mode": "exact",
+      "start": [
+        2176,
+        160
+      ],
+      "click": [
+        2176,
+        176
+      ],
+      "sameCell": true,
+      "nativeFittedEndpoint": [
+        2184,
+        160
+      ],
+      "initialNativeEndpoint": [
+        2184,
+        160
+      ],
+      "final": [
+        2184,
+        160
+      ],
+      "finalFloorTile": [
+        68,
+        5
+      ],
+      "endpointErrorPx": 0,
+      "driftFromInstalledEndpointPx": 0,
+      "frames": 3,
+      "samples": 17,
+      "collisions": 0,
+      "headConflicts": 0,
+      "firstCollision": null,
+      "unintendedMeetings": [],
+      "enteredMeetingAreas": [],
+      "pathInstalls": 1,
+      "error": null,
+      "warnings": [],
+      "baselineOnly": false,
+      "failed": []
+    },
+    {
+      "index": 11815,
+      "id": "garden-same-cell",
+      "label": "baseline-pointer",
+      "classification": "explicit-same-cell-baseline",
+      "input": "desktop",
+      "mode": "pointer",
+      "start": [
+        2176,
+        160
+      ],
+      "click": [
+        2176,
+        176
+      ],
+      "sameCell": true,
+      "nativeFittedEndpoint": [
+        2184,
+        160
+      ],
+      "initialNativeEndpoint": [
+        2184,
+        160
+      ],
+      "final": [
+        2184,
+        160
+      ],
+      "finalFloorTile": [
+        68,
+        5
+      ],
+      "endpointErrorPx": 0,
+      "driftFromInstalledEndpointPx": 0,
+      "frames": 3,
+      "samples": 17,
+      "collisions": 0,
+      "headConflicts": 0,
+      "firstCollision": null,
+      "unintendedMeetings": [],
+      "enteredMeetingAreas": [],
+      "pathInstalls": 1,
+      "error": null,
+      "warnings": [],
+      "baselineOnly": false,
+      "failed": []
+    },
+    {
+      "index": 11816,
+      "id": "room-same-cell",
+      "label": "baseline-exact",
+      "classification": "explicit-same-cell-baseline",
+      "input": "desktop",
+      "mode": "exact",
+      "start": [
+        272,
+        1125
+      ],
+      "click": [
+        272,
+        1141
+      ],
+      "sameCell": true,
+      "nativeFittedEndpoint": [
+        272,
+        1125
+      ],
+      "initialNativeEndpoint": [
+        272,
+        1125
+      ],
+      "final": [
+        272,
+        1125
+      ],
+      "finalFloorTile": [
+        8,
+        35
+      ],
+      "endpointErrorPx": 0,
+      "driftFromInstalledEndpointPx": 0,
+      "frames": 1,
+      "samples": 2,
+      "collisions": 0,
+      "headConflicts": 0,
+      "firstCollision": null,
+      "unintendedMeetings": [],
+      "enteredMeetingAreas": [
+        "astral-flagship-v08-lounge-01"
+      ],
+      "pathInstalls": 1,
+      "error": null,
+      "warnings": [],
+      "baselineOnly": false,
+      "failed": []
+    },
+    {
+      "index": 11817,
+      "id": "room-same-cell",
+      "label": "baseline-pointer",
+      "classification": "explicit-same-cell-baseline",
+      "input": "desktop",
+      "mode": "pointer",
+      "start": [
+        272,
+        1125
+      ],
+      "click": [
+        272,
+        1141
+      ],
+      "sameCell": true,
+      "nativeFittedEndpoint": [
+        272,
+        1125
+      ],
+      "initialNativeEndpoint": [
+        272,
+        1125
+      ],
+      "final": [
+        272,
+        1125
+      ],
+      "finalFloorTile": [
+        8,
+        35
+      ],
+      "endpointErrorPx": 0,
+      "driftFromInstalledEndpointPx": 0,
+      "frames": 1,
+      "samples": 2,
+      "collisions": 0,
+      "headConflicts": 0,
+      "firstCollision": null,
+      "unintendedMeetings": [],
+      "enteredMeetingAreas": [
+        "astral-flagship-v08-lounge-01"
+      ],
+      "pathInstalls": 1,
+      "error": null,
+      "warnings": [],
+      "baselineOnly": false,
+      "failed": []
+    }
+  ],
+  "mapFailures": 0,
+  "mapFailedRows": [],
+  "boundaryChecks": [
+    {
+      "id": "hall-west-door",
+      "bounds": [
+        512,
+        944,
+        608,
+        1008
+      ],
+      "axis": "y",
+      "safeBidirectionalVectors": 58,
+      "rejectedBodyUnsafeVectors": 8,
+      "samples": 11302,
+      "headConflicts": 0,
+      "pass": true
+    },
+    {
+      "id": "hall-east-door",
+      "bounds": [
+        928,
+        944,
+        1024,
+        1008
+      ],
+      "axis": "y",
+      "safeBidirectionalVectors": 58,
+      "rejectedBodyUnsafeVectors": 8,
+      "samples": 11302,
+      "headConflicts": 0,
+      "pass": true
+    },
+    {
+      "id": "foyer-terrace-door",
+      "bounds": [
+        1472,
+        1312,
+        1536,
+        1472
+      ],
+      "axis": "x",
+      "safeBidirectionalVectors": 104,
+      "rejectedBodyUnsafeVectors": 10,
+      "samples": 26864,
+      "headConflicts": 0,
+      "pass": true
+    },
+    {
+      "id": "main-arrival",
+      "bounds": [
+        640,
+        1712,
+        896,
+        1776
+      ],
+      "axis": "y",
+      "safeBidirectionalVectors": 178,
+      "rejectedBodyUnsafeVectors": 8,
+      "samples": 34702,
+      "headConflicts": 0,
+      "pass": true
+    },
+    {
+      "id": "hall-garden-door",
+      "bounds": [
+        1408,
+        448,
+        1568,
+        544
+      ],
+      "axis": "x",
+      "safeBidirectionalVectors": 56,
+      "rejectedBodyUnsafeVectors": 10,
+      "samples": 25216,
+      "headConflicts": 0,
+      "pass": true
+    },
+    {
+      "id": "terrace-garden-door",
+      "bounds": [
+        2144,
+        1024,
+        2272,
+        1088
+      ],
+      "axis": "y",
+      "safeBidirectionalVectors": 62,
+      "rejectedBodyUnsafeVectors": 28,
+      "samples": 12086,
+      "headConflicts": 0,
+      "pass": true
+    },
+    {
+      "id": "pavilion-entry",
+      "bounds": [
+        2048,
+        352,
+        2240,
+        400
+      ],
+      "axis": "y",
+      "safeBidirectionalVectors": 64,
+      "rejectedBodyUnsafeVectors": 74,
+      "samples": 10472,
+      "headConflicts": 0,
+      "pass": true
+    },
+    {
+      "id": "garden-junction",
+      "bounds": [
+        2016,
+        496,
+        2048,
+        560
+      ],
+      "axis": "x",
+      "safeBidirectionalVectors": 42,
+      "rejectedBodyUnsafeVectors": 0,
+      "samples": 8190,
+      "headConflicts": 0,
+      "pass": true
+    },
+    {
+      "id": "astral-flagship-v08-lounge-01",
+      "safeBidirectionalVectors": 76,
+      "samples": 4940,
+      "pass": true
+    },
+    {
+      "id": "astral-flagship-v08-lounge-02",
+      "safeBidirectionalVectors": 142,
+      "samples": 9230,
+      "pass": true
+    },
+    {
+      "id": "astral-flagship-v08-lounge-03",
+      "safeBidirectionalVectors": 36,
+      "samples": 2340,
+      "pass": true
+    },
+    {
+      "id": "astral-flagship-v08-lounge-04",
+      "safeBidirectionalVectors": 86,
+      "samples": 5590,
+      "pass": true
+    }
+  ],
+  "boundaryPass": true,
+  "allGeometryRoutesPass": true,
+  "allCommandsReachIntendedEndpoint": true,
+  "warnings": []
+}

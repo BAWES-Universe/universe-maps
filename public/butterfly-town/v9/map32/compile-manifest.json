@@ -1,0 +1,831 @@
+{
+  "status": "Standard32px map candidate; source-route checks complete, live client acceptance pending",
+  "world": [
+    2944,
+    2624
+  ],
+  "tileSize": 32,
+  "sourceAudit": [
+    {
+      "source": "sources/terrain08/terrain-underlay-native.png",
+      "target": "base",
+      "origin": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0,
+        2944,
+        2624
+      ],
+      "sha256": "fd6680b3357702477be8859c9545ce32cf13b531eecff08b7192cefac064c22f"
+    },
+    {
+      "source": "sources/west-garden/west-base.png",
+      "target": "base",
+      "origin": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0,
+        512,
+        1136
+      ],
+      "sha256": "8f05d9cb79a41236c70697265d12b5aac9d77eee04b835e3f0a7e8b2fa66de78"
+    },
+    {
+      "source": "sources/west-garden/west-canopy.png",
+      "target": "foreground",
+      "origin": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0,
+        512,
+        1136
+      ],
+      "sha256": "0bca271c433f05d7a1c6d7db8fe4b0a57bd251fb0a6b483b29ffa75344fc18aa"
+    },
+    {
+      "source": "sources/civic/architecture-native.png",
+      "target": "base",
+      "origin": [
+        0,
+        1136
+      ],
+      "crop": [
+        0,
+        0,
+        640,
+        1152
+      ],
+      "sha256": "51a7b0869f59e3b781dcef65042b656282483bcc92964d1c9e3b931d8db583d6"
+    },
+    {
+      "source": "sources/civic/furniture-native.png",
+      "target": "base",
+      "origin": [
+        0,
+        1136
+      ],
+      "crop": [
+        0,
+        0,
+        640,
+        1152
+      ],
+      "sha256": "48b1ac2d864e54cbaf054767b0c62935baa3d719eefb97c0979aaee077ca82b8"
+    },
+    {
+      "source": "sources/civic/foreground-native.png",
+      "target": "foreground",
+      "origin": [
+        0,
+        1136
+      ],
+      "crop": [
+        0,
+        0,
+        640,
+        1152
+      ],
+      "sha256": "400da05e979dfa1d0884396de5222515379195a017d71f98203da266f0c37809"
+    },
+    {
+      "source": "sources/civic/glass-native.png",
+      "target": "glass",
+      "origin": [
+        0,
+        1136
+      ],
+      "crop": [
+        0,
+        0,
+        640,
+        1152
+      ],
+      "sha256": "e43b0d773b93aab6afcb096b90b72d0280f51ad97ccd977943386b466ed5ac9b"
+    },
+    {
+      "source": "sources/civic/shadow-native.png",
+      "target": "shade",
+      "origin": [
+        0,
+        1136
+      ],
+      "crop": [
+        0,
+        0,
+        640,
+        1152
+      ],
+      "sha256": "80b57735978ac6df1f8e35c2f9baa59668f4f5f7368d2a4022cf3d5c43da9415"
+    },
+    {
+      "source": "sources/court/court-base.png",
+      "target": "base",
+      "origin": [
+        448,
+        1120
+      ],
+      "crop": [
+        192,
+        0,
+        1472,
+        704
+      ],
+      "sha256": "22cda2d15abfba9b64cb8882334a31d4c8c73a94dc55c2a5cf6532df7a509fed"
+    },
+    {
+      "source": "sources/court/court-canopy.png",
+      "target": "foreground",
+      "origin": [
+        448,
+        1120
+      ],
+      "crop": [
+        192,
+        0,
+        1472,
+        704
+      ],
+      "sha256": "f56de846f1a659ad76498985e59bf926639d8fc833b38277d1a978b3b67f8aba"
+    },
+    {
+      "source": "sources/avenue/avenue-base.png",
+      "target": "base",
+      "origin": [
+        448,
+        1824
+      ],
+      "crop": [
+        192,
+        0,
+        1472,
+        576
+      ],
+      "sha256": "f199a555ccb58a13edb1c62d882dd70f8d1574fcf5827a086d68d1150a3d71f8"
+    },
+    {
+      "source": "sources/avenue/avenue-foliage-foreground.png",
+      "target": "foreground",
+      "origin": [
+        448,
+        1824
+      ],
+      "crop": [
+        192,
+        0,
+        1472,
+        576
+      ],
+      "sha256": "414535cd5769fae82a84d15589ca76e8ff1e300597fef56d97312b074fe8dc64"
+    },
+    {
+      "source": "sources/garden/garden-base.png",
+      "target": "base",
+      "origin": [
+        1920,
+        1264
+      ],
+      "crop": [
+        1008,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "6f924982fbcbc5399bd53ad793e2fe47ea6dd212214cdc4fdee4d93f91c0a8df"
+    },
+    {
+      "source": "sources/garden/garden-base.png",
+      "target": "base",
+      "origin": [
+        1920,
+        1264
+      ],
+      "crop": [
+        0,
+        1008,
+        1024,
+        1024
+      ],
+      "sha256": "6f924982fbcbc5399bd53ad793e2fe47ea6dd212214cdc4fdee4d93f91c0a8df"
+    },
+    {
+      "source": "sources/garden/garden-base.png",
+      "target": "base",
+      "origin": [
+        1904,
+        1248
+      ],
+      "crop": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "6f924982fbcbc5399bd53ad793e2fe47ea6dd212214cdc4fdee4d93f91c0a8df"
+    },
+    {
+      "source": "sources/garden/bench-and-foliage-fixed-foreground.png",
+      "target": "foreground",
+      "origin": [
+        1904,
+        1248
+      ],
+      "crop": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "a6ef2c434b0934ce66ce30d2f465d9182d327c63cce2b9277136880624fba546"
+    },
+    {
+      "source": "sources/office08/office-base.png",
+      "target": "base",
+      "origin": [
+        720,
+        64
+      ],
+      "crop": [
+        0,
+        0,
+        1536,
+        960
+      ],
+      "sha256": "c833c8d768bc5d15a90204053110f2fca3200b8cdfefb983ea092c8189591f86"
+    },
+    {
+      "source": "sources/office08/office-foreground.png",
+      "target": "foreground",
+      "origin": [
+        720,
+        64
+      ],
+      "crop": [
+        0,
+        0,
+        1536,
+        960
+      ],
+      "sha256": "51c4e981337819c7438c1cd2b01fcfa9218f697211317c2792f4199d1b1f3cf2"
+    },
+    {
+      "source": "sources/office08/office-glass.png",
+      "target": "glass",
+      "origin": [
+        720,
+        64
+      ],
+      "crop": [
+        0,
+        0,
+        1536,
+        960
+      ],
+      "sha256": "e9f5c9a6e93e13d0caef379f3b7d166f3e31a42fedaefaf45c339e444ddeac90"
+    },
+    {
+      "source": "sources/office08/office-overhead-shade.png",
+      "target": "shade",
+      "origin": [
+        720,
+        64
+      ],
+      "crop": [
+        0,
+        0,
+        1536,
+        960
+      ],
+      "sha256": "1620e95b9940fa2effbf41409ef2c0eabddc2fe5fc19199a01aaec95864972d5"
+    },
+    {
+      "source": "sources/market/market-base.png",
+      "target": "base",
+      "origin": [
+        1824,
+        1968
+      ],
+      "crop": [
+        0,
+        0,
+        768,
+        320
+      ],
+      "sha256": "50b1fd7c331c63388e1e0a966c1f4c3cb7aab4410b49b719846d4fcae89649d3"
+    },
+    {
+      "source": "sources/market/market-canopy-fixed.png",
+      "target": "foreground",
+      "origin": [
+        1824,
+        1968
+      ],
+      "crop": [
+        0,
+        0,
+        768,
+        320
+      ],
+      "sha256": "11de4ceb12e32aa972f3fab6c7931f653f5eb723e51c613b84894d8bcb50da63"
+    },
+    {
+      "source": "sources/terrain08/market-forecourt-proposed.png",
+      "target": "base",
+      "origin": [
+        1760,
+        2288
+      ],
+      "crop": [
+        0,
+        0,
+        1120,
+        96
+      ],
+      "sha256": "114f10e4f47b89a3417ea62fb4e79331a9406a76be7349de38f8d8817c107fab"
+    },
+    {
+      "source": "sources/wayfinding08/court-sign.png",
+      "target": "base",
+      "origin": [
+        1312,
+        1376
+      ],
+      "crop": [
+        0,
+        0,
+        128,
+        112
+      ],
+      "sha256": "06aac04c6645dcc06b764c7d1513e4f1b0326cfadcc44972cd6692291aac97e5"
+    }
+  ],
+  "modules": [
+    {
+      "id": "west-garden",
+      "origin": [
+        0,
+        0
+      ],
+      "size": [
+        512,
+        1136
+      ],
+      "crop": null,
+      "scale": 1
+    },
+    {
+      "id": "civic",
+      "origin": [
+        0,
+        1136
+      ],
+      "size": [
+        640,
+        1152
+      ],
+      "crop": null,
+      "scale": 1
+    },
+    {
+      "id": "court",
+      "origin": [
+        448,
+        1120
+      ],
+      "size": [
+        1472,
+        704
+      ],
+      "crop": [
+        192,
+        0,
+        1472,
+        704
+      ],
+      "scale": 1
+    },
+    {
+      "id": "avenue",
+      "origin": [
+        448,
+        1824
+      ],
+      "size": [
+        1472,
+        576
+      ],
+      "crop": [
+        192,
+        0,
+        1472,
+        576
+      ],
+      "scale": 1
+    },
+    {
+      "id": "garden",
+      "origin": [
+        1904,
+        1248
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "crop": null,
+      "scale": 1
+    },
+    {
+      "id": "office08",
+      "origin": [
+        720,
+        64
+      ],
+      "size": [
+        1536,
+        960
+      ],
+      "crop": null,
+      "scale": 1
+    },
+    {
+      "id": "market",
+      "origin": [
+        1824,
+        1968
+      ],
+      "size": [
+        768,
+        320
+      ],
+      "crop": null,
+      "scale": 1
+    }
+  ],
+  "connectors": [
+    {
+      "id": "office-front-416",
+      "origin": [
+        416,
+        1024
+      ],
+      "size": [
+        704,
+        96
+      ],
+      "source": "market floor, excludes columns",
+      "openRects": [
+        [
+          416,
+          1024,
+          704,
+          96
+        ]
+      ]
+    },
+    {
+      "id": "office-front-1120",
+      "origin": [
+        1120,
+        1024
+      ],
+      "size": [
+        704,
+        96
+      ],
+      "source": "market floor, excludes columns",
+      "openRects": [
+        [
+          1120,
+          1024,
+          704,
+          96
+        ]
+      ]
+    },
+    {
+      "id": "office-front-1824",
+      "origin": [
+        1824,
+        1024
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "source": "market floor, excludes columns",
+      "openRects": [
+        [
+          1824,
+          1024,
+          96,
+          96
+        ]
+      ]
+    },
+    {
+      "id": "office-threshold-1200",
+      "origin": [
+        1200,
+        992
+      ],
+      "size": [
+        128,
+        32
+      ],
+      "source": "court clear vertical paving",
+      "openRects": [
+        [
+          1200,
+          992,
+          128,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "office-threshold-1808",
+      "origin": [
+        1808,
+        992
+      ],
+      "size": [
+        128,
+        32
+      ],
+      "source": "court clear vertical paving",
+      "openRects": [
+        [
+          1808,
+          992,
+          128,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "office-court-porch",
+      "origin": [
+        1200,
+        1024
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "source": "court vertical paving",
+      "openRects": [
+        [
+          1200,
+          1024,
+          96,
+          96
+        ]
+      ]
+    },
+    {
+      "id": "classroom-cloister",
+      "origin": [
+        608,
+        1480
+      ],
+      "size": [
+        32,
+        128
+      ],
+      "source": "court clear paving outside fountain artwork",
+      "openRects": [
+        [
+          608,
+          1488,
+          32,
+          120
+        ]
+      ]
+    },
+    {
+      "id": "stage-cloister",
+      "origin": [
+        608,
+        2080
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "source": "court clear horizontal paving",
+      "openRects": [
+        [
+          608,
+          2088,
+          96,
+          80
+        ]
+      ]
+    },
+    {
+      "id": "market-forecourt-1760",
+      "origin": [
+        1760,
+        2288
+      ],
+      "size": [
+        704,
+        96
+      ],
+      "source": "market clear floor",
+      "openRects": [
+        [
+          1760,
+          2288,
+          704,
+          96
+        ]
+      ]
+    },
+    {
+      "id": "market-forecourt-2464",
+      "origin": [
+        2464,
+        2288
+      ],
+      "size": [
+        416,
+        96
+      ],
+      "source": "market clear floor",
+      "openRects": [
+        [
+          2464,
+          2288,
+          416,
+          96
+        ]
+      ]
+    },
+    {
+      "id": "market-shore-native32",
+      "origin": [
+        2448,
+        1872
+      ],
+      "size": [
+        384,
+        448
+      ],
+      "source": "constrained original shore source edit",
+      "pathPolygons": [
+        [
+          [
+            128,
+            0
+          ],
+          [
+            192,
+            0
+          ],
+          [
+            200,
+            80
+          ],
+          [
+            224,
+            144
+          ],
+          [
+            256,
+            208
+          ],
+          [
+            288,
+            272
+          ],
+          [
+            310,
+            352
+          ],
+          [
+            316,
+            416
+          ],
+          [
+            224,
+            416
+          ],
+          [
+            212,
+            344
+          ],
+          [
+            192,
+            280
+          ],
+          [
+            160,
+            224
+          ],
+          [
+            136,
+            176
+          ],
+          [
+            128,
+            112
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "market-shore-lower-join09",
+      "origin": [
+        2464,
+        1840
+      ],
+      "size": [
+        384,
+        512
+      ],
+      "source": "bounded source-art lower paving join",
+      "blockedRects": [
+        [
+          2816,
+          2272,
+          64,
+          112
+        ],
+        [
+          2784,
+          2272,
+          32,
+          48
+        ]
+      ]
+    }
+  ],
+  "avatar": {
+    "frame": [
+      32,
+      32
+    ],
+    "scale": 1,
+    "body": [
+      -8,
+      0,
+      16,
+      16
+    ]
+  },
+  "separateGateMap": true,
+  "liveRoomURLsAssigned": false,
+  "noArtRescaling": true,
+  "noFloorLabels": true,
+  "noDynamicCollision": true,
+  "noAvatarDependentMask": true,
+  "nativeAudioBridgeEnabled": false,
+  "artifactArtState": "Preserved lush08 materials plus bounded fountain/shore repairs; exact source-to-native32 atlas round trip",
+  "layerAudit": [
+    {
+      "layer": "base",
+      "nativePixelRoundTrip": true,
+      "tileCount": 6129
+    },
+    {
+      "layer": "above",
+      "nativePixelRoundTrip": true,
+      "tileCount": 2119
+    },
+    {
+      "effect": "river-water",
+      "animatedCells": 47,
+      "varyingCells": 47
+    },
+    {
+      "effect": "fire-flame",
+      "animatedCells": 5,
+      "varyingCells": 5
+    },
+    {
+      "effect": "fountain-water",
+      "animatedCells": 32,
+      "varyingCells": 32
+    }
+  ],
+  "coalescing": {
+    "sourceCell": 8,
+    "targetCell": 32,
+    "policy": "Solid if any of sixteen8px cells is solid; no collision erasure",
+    "original8pxWorldPixelsBlocked": 5665472,
+    "additionalBlockedWorldPixels": 297280,
+    "noArtRescaling": true
+  },
+  "nativeTileLayerCount": 4,
+  "phaserTileObjects": 30176
+}

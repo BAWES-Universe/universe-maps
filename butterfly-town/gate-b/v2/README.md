@@ -23,6 +23,8 @@ Local validation covers the final TMJ, exact source contracts, default framing c
 
 ## Package and reproduction
 
-Run `python tools/build_candidate.py`, then `python tools/verify_candidate.py` from this package. The build reads frozen local inputs and pinned committed engine blobs; it never changes engine files. Verification can run from a copied review package without those inputs.
+The separate `Gate-B-v2-map-only-review.zip` is supplied privately to the map owner for review. It contains the tests, pinned read-only source snapshots, original audio and shared PNGs. These tools are not included in this five-file repository addition, so the following commands cannot run from a repository checkout alone.
+
+Unpack that review ZIP and run `python tools/verify_candidate.py` with Python 3 and Node 22 or newer. Verification uses the packaged inputs. `tools/build_candidate.py` records reconstruction from the original frozen workspace paths and committed engine blobs; it requires that original workspace and never changes engine files.
 
 `publish/public/butterfly-town/gate-b/v2` is the five-file additive candidate. `dependencies/public` contains exact previously published shared PNGs for offline review only; do not overwrite or republish them. Merge the two public trees into a temporary serving folder to resolve the existing relative image URLs. `originals` preserves the pure music and water input files separately. A browser room must use the hosted TMJ as a Custom map and a real PLAY-room destination, not another asset URL.

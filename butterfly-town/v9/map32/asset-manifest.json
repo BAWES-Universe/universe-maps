@@ -1,0 +1,108 @@
+{
+  "tilesets": [
+    {
+      "name": "campus-base-p0",
+      "image": "campus-base-p0.png",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "campus-base-p1",
+      "image": "campus-base-p1.png",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "campus-base-p2",
+      "image": "campus-base-p2.png",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "campus-base-p3",
+      "image": "campus-base-p3.png",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "campus-base-p4",
+      "image": "campus-base-p4.png",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "campus-base-p5",
+      "image": "campus-base-p5.png",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "campus-above-p0",
+      "image": "campus-above-p0.png",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "campus-above-p1",
+      "image": "campus-above-p1.png",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "campus-above-p2",
+      "image": "campus-above-p2.png",
+      "size": [
+        1024,
+        96
+      ]
+    },
+    {
+      "name": "river-water",
+      "image": "river-water-atlas.png",
+      "size": [
+        1024,
+        384
+      ]
+    },
+    {
+      "name": "fire-flame",
+      "image": "fire-flame-atlas.png",
+      "size": [
+        1024,
+        64
+      ]
+    },
+    {
+      "name": "fountain-water",
+      "image": "fountain-water-atlas.png",
+      "size": [
+        1024,
+        256
+      ]
+    },
+    {
+      "name": "exact-collision",
+      "image": "collision-cell.png",
+      "size": [
+        32,
+        32
+      ]
+    }
+  ]
+}

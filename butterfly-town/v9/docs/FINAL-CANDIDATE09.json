@@ -1,0 +1,68 @@
+{
+  "revision": "09-native32-functional-preview",
+  "publication": "not published",
+  "sourcePin": "d2bc57b63b4abab9303fb3cbcecf1a0450fd15cc",
+  "mapSha256": "53eecdd2c8c3362ecdf6ceccab0f4ed01d755adad41f39fcb509ca3e527df42b",
+  "runtimeFileCount": 20,
+  "runtimeBytes": 20042438,
+  "routeLegs": 144,
+  "routeFrames": 62728,
+  "bodyRoutesAllPass": true,
+  "routeHeadDisposition": {
+    "clearRoutes": 142,
+    "retainedCanopyBrushes": [
+      {
+        "id": "clockwise-ring-18",
+        "direction": null,
+        "group": "fountain",
+        "samples": 33,
+        "opaqueHeadHitSamples": 1,
+        "maxHeadPixels": 1,
+        "first": [
+          1040,
+          1280.0151549950588,
+          2.8957249956399664,
+          -0.7087762538512834
+        ],
+        "peak": [
+          1040,
+          1280.0151549950588,
+          2.8957249956399664,
+          -0.7087762538512834
+        ],
+        "offMapHeadCrops": 0
+      },
+      {
+        "id": "counterclockwise-ring-30",
+        "direction": null,
+        "group": "fountain",
+        "samples": 35,
+        "opaqueHeadHitSamples": 2,
+        "maxHeadPixels": 8,
+        "first": [
+          817.9848450049412,
+          1280,
+          -3,
+          0
+        ],
+        "peak": [
+          817.9848450049412,
+          1280,
+          -3,
+          0
+        ],
+        "offMapHeadCrops": 0
+      }
+    ],
+    "lowEdgeConflictsCorrected": true
+  },
+  "liveClientValidation": false,
+  "browserBlocked": true,
+  "physicalPhoneTested": false,
+  "enginePatchDependency": false,
+  "gateSeparate": true,
+  "gardenBenchSeatsReady": false,
+  "civicChairBacksBelowPlayers": true,
+  "nativeAudioAudiblyTested": false,
+  "screenshots": "Static source/atlas compositions at stated scale; not live gameplay."
+}

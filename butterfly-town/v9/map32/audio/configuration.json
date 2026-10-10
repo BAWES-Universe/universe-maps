@@ -1,0 +1,63 @@
+{
+  "mode": "native-classified-area-properties",
+  "feetOffsetY": 16,
+  "sources": [
+    {
+      "id": "fountain",
+      "url": "audio/fountain-soft.mp3",
+      "bounds": [
+        712,
+        1231,
+        448,
+        384
+      ],
+      "center": [
+        936,
+        1423
+      ]
+    },
+    {
+      "id": "fire",
+      "url": "audio/fire-soft.mp3",
+      "bounds": [
+        2108,
+        1480,
+        576,
+        576
+      ],
+      "center": [
+        2396,
+        1768
+      ]
+    }
+  ],
+  "quietZones": [
+    [
+      720,
+      64,
+      1536,
+      960
+    ],
+    [
+      0,
+      1136,
+      640,
+      1152
+    ]
+  ],
+  "audioCeilingBakedGain": 0.18,
+  "gainBands": [
+    0.35,
+    0.7,
+    1
+  ],
+  "notes": [
+    "Normal native autoplay attempt with native browser retry only if blocked.",
+    "Existing native mute, pause and block-audio controls govern playback.",
+    "Native dynamic areas evaluate player y+16.",
+    "Three rectangular gain bands; not continuous radial or stereo spatialization.",
+    "Unsupported element-volume devices receive the same preattenuated ceiling throughout each sound area; native mute still applies.",
+    "No ambient area overlaps office, classroom, event or meeting floor.",
+    "No silent property: proximity conversations are unchanged."
+  ]
+}

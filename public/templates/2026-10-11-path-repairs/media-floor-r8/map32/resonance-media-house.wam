@@ -1,0 +1,64 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./resonance-media-house.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "resonance-media-house-spawn",
+      "name": "Safe arrival",
+      "x": 508,
+      "y": 651,
+      "width": 8,
+      "height": 8,
+      "visible": true,
+      "properties": [
+        {
+          "id": "resonance-media-house-default-start",
+          "type": "start",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": "editor",
+      "name": "Editor / setup",
+      "x": 224,
+      "y": 288,
+      "width": 335,
+      "height": 79,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "voice",
+      "name": "Voice / setup",
+      "x": 608,
+      "y": 288,
+      "width": 207,
+      "height": 79,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "preview",
+      "name": "Screen / setup",
+      "x": 192,
+      "y": 464,
+      "width": 207,
+      "height": 111,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "music",
+      "name": "Music / setup",
+      "x": 640,
+      "y": 464,
+      "width": 191,
+      "height": 111,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "revision": "garden-floor-r2b",
+  "supersedes": "reading-garden-r1",
+  "tmj_sha256": "2018a931d35c5eab309d11a1b44ab1257d00df4219f1be36b57f51580293fc7a",
+  "source_archive_sha256": {
+    "garden-r2b-source.zip": "6a7d450c26a749755bb868300a89122f8acbee51abe9b47cae4e6329835232a5"
+  },
+  "review_scope": "Fresh independent visible-floor/path, scene, isolated source rebuild, native full-body and head checks",
+  "limits": "Source/static/native-fixture checks passed; live engine/browser/input/devices/media unverified.",
+  "native": {
+    "legs": 1860,
+    "body_samples": 1278273,
+    "failures": 0,
+    "original_phantom_barrier_targets": 2
+  },
+  "head_audit": {
+    "bodyClearIntegerPositions": 145344,
+    "foreground_pixels": 2164,
+    "maxForegroundAlphaOnHead": 0,
+    "opaqueHeadConflicts": 0,
+    "headOverlapPositions": 0,
+    "opaqueExamples": []
+  },
+  "meaningful_semantic_traces": {
+    "paths": 16,
+    "body_samples": 12420,
+    "all_clear_both_directions": true
+  }
+}

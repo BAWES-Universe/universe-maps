@@ -1,0 +1,1 @@
+Reading Conservatory r2. Host all files in this directory together. Open map.tmj or configure the optional map.wam companion. Unpublished source candidate; no live browser/device/media acceptance. Normal movement/facing; no automatic sitting or turning. See the companion review and GUIDE.md.

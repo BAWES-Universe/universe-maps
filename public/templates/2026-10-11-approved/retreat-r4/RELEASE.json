@@ -1,0 +1,14 @@
+{
+  "id": "retreat-r4",
+  "runtime_zip_sha256": "35f6792eb59380b6c73785c01d1f110461f7691dbeef7e016107497b734cdfc4",
+  "map_path": "templates/2026-10-11-approved/retreat-r4/map32/map.tmj",
+  "tmj_sha256": "2137729371bbea7e248a406e462503202b6b775fd09e07cda11ef9dc7c292be6",
+  "dependencies": [
+    "environment.png",
+    "foreground.png",
+    "logic.png"
+  ],
+  "source_native_qa": "Independent pass; exact approved bounded revision",
+  "hosted_validation": "Pending",
+  "live_browser_devices_services": "Not verified"
+}

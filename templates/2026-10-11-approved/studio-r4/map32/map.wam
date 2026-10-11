@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "timber-mixed-six-mat-instructor-facing-r2-0",
+      "name": "Instructor front",
+      "x": 416,
+      "y": 320,
+      "width": 127,
+      "height": 31,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-mixed-six-mat-instructor-facing-r2-0-speaker",
+          "type": "speakerMegaphone",
+          "name": "timber-mixed-six-mat-instructor-facing-r2-0",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "timber-mixed-six-mat-instructor-facing-r2-1",
+      "name": "Yoga participant floor",
+      "x": 224,
+      "y": 384,
+      "width": 511,
+      "height": 63,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-mixed-six-mat-instructor-facing-r2-1-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "timber-mixed-six-mat-instructor-facing-r2-0",
+          "chatEnabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "decision": "PASS source/static/native-fixture semantic review; live engine untested",
+  "id": "timber-retreat-visible-floor-r7",
+  "tmj_sha256": "9f49c10ed1bd689da7e96ae4032cffaad3bdc92fc4e1e26fb8b10ff4524dca82",
+  "independentRoutes": 928,
+  "bodySamples": 862376,
+  "failures": 0,
+  "headConflicts": 0,
+  "allFrozenRuntimeFilesExact": true,
+  "source_archive_sha256": {
+    "timber-retreat-visible-floor-r7-source.zip": "aac0579a410d6b54a0b6c8ac78068cf5f3622b54e00ea273589aef85c0c2386f"
+  },
+  "limits": "Fresh source/static/native visible-path checks passed; live engine/browser/devices/media unverified."
+}

@@ -1,0 +1,84 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "olive-arabic-academy-woven-lounges-r4-0",
+      "name": "Teacher presentation",
+      "x": 480,
+      "y": 320,
+      "width": 159,
+      "height": 31,
+      "visible": true,
+      "properties": [
+        {
+          "id": "olive-arabic-academy-woven-lounges-r4-0-speaker",
+          "type": "speakerMegaphone",
+          "name": "olive-arabic-academy-woven-lounges-r4-0",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "olive-arabic-academy-woven-lounges-r4-1",
+      "name": "Classroom audience",
+      "x": 288,
+      "y": 448,
+      "width": 543,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "olive-arabic-academy-woven-lounges-r4-1-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "olive-arabic-academy-woven-lounges-r4-0",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "olive-arabic-academy-woven-lounges-r4-2",
+      "name": "Meeting lounge A",
+      "x": 1152,
+      "y": 320,
+      "width": 255,
+      "height": 127,
+      "visible": true,
+      "properties": [
+        {
+          "id": "olive-arabic-academy-woven-lounges-r4-2-room",
+          "type": "livekitRoomProperty",
+          "roomName": "olive-arabic-academy-woven-lounges-r4-2",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "olive-arabic-academy-woven-lounges-r4-3",
+      "name": "Meeting lounge B",
+      "x": 1152,
+      "y": 576,
+      "width": 255,
+      "height": 127,
+      "visible": true,
+      "properties": [
+        {
+          "id": "olive-arabic-academy-woven-lounges-r4-3-room",
+          "type": "livekitRoomProperty",
+          "roomName": "olive-arabic-academy-woven-lounges-r4-3",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    }
+  ]
+}

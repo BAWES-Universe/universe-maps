@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from lantern-congress-source-complete.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: 2b6b474813d8e3ac2190ff5824ebe4b858e1ef8ed47efb101952fde2cafb151d

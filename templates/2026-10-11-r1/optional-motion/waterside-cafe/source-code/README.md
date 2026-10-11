@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from willow-quay-tea-garden-motion-r01-source-compact.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: f1c1774dacf44ee63bf759ab7ab93d22b02fcab5ad4ae65dc4bcab2f89512218

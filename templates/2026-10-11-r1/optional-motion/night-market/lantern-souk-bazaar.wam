@@ -1,0 +1,114 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./lantern-souk-bazaar.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "lantern-souk-bazaar-spawn",
+      "name": "Safe arrival",
+      "x": 780,
+      "y": 971,
+      "width": 8,
+      "height": 8,
+      "visible": true,
+      "properties": [
+        {
+          "id": "lantern-souk-bazaar-default-start",
+          "type": "start",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": "tea-spices",
+      "name": "TEA & SPICES",
+      "x": 320,
+      "y": 176,
+      "width": 223,
+      "height": 47,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "ceramics",
+      "name": "CERAMICS",
+      "x": 688,
+      "y": 160,
+      "width": 207,
+      "height": 63,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "textiles",
+      "name": "TEXTILES",
+      "x": 1024,
+      "y": 176,
+      "width": 191,
+      "height": 47,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "artisan-west",
+      "name": "ARTISAN GOODS",
+      "x": 144,
+      "y": 368,
+      "width": 207,
+      "height": 63,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "bookshop",
+      "name": "BOOKS",
+      "x": 144,
+      "y": 592,
+      "width": 207,
+      "height": 63,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "bot-display",
+      "name": "BOT DISPLAY \u2022 SETUP",
+      "x": 1184,
+      "y": 368,
+      "width": 223,
+      "height": 63,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "fabric-east",
+      "name": "DESIGN GOODS",
+      "x": 1184,
+      "y": 592,
+      "width": 223,
+      "height": 63,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "seller-demo-west",
+      "name": "Seller demo / configure service",
+      "x": 192,
+      "y": 816,
+      "width": 191,
+      "height": 79,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "seller-demo-east",
+      "name": "Seller demo / configure service",
+      "x": 1152,
+      "y": 816,
+      "width": 191,
+      "height": 79,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

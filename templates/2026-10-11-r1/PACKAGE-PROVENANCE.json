@@ -1,0 +1,242 @@
+[
+  {
+    "map_id": "academy",
+    "release": "olive-arabic-academy-r2",
+    "role": "runtime",
+    "sha256": "7d1162b963f32d31057e526659d83efe896c6d6632dbceed08cdac66b0254933",
+    "freeze_sha256": "722fdd26f70b491f6d3b0c831fc97c272021e3aa2ec0f2513ebaf984249db8fc",
+    "file_name": "olive-arabic-academy-r2-runtime.zip"
+  },
+  {
+    "map_id": "academy",
+    "release": "olive-arabic-academy-r2",
+    "role": "source_rebuild",
+    "sha256": "c49d67130052dd1076f3296e7a748a98675f0ab2f2c15200fb5f2608db9e34d8",
+    "freeze_sha256": "722fdd26f70b491f6d3b0c831fc97c272021e3aa2ec0f2513ebaf984249db8fc",
+    "file_name": "olive-arabic-academy-r2-rebuild.zip"
+  },
+  {
+    "map_id": "cowork-design",
+    "release": "timber-design-studio-r1",
+    "role": "runtime",
+    "sha256": "876b4496f9aab87a12f7b5768380753106c37f011089fd9aa022d05ec38ac1ab",
+    "freeze_sha256": "3c2a1cb12d05ad2eddc79d00c6b3d0581b00fd86bbf3cf932553a115e705961d",
+    "file_name": "timber-design-studio-r1-runtime.zip"
+  },
+  {
+    "map_id": "cowork-design",
+    "release": "timber-design-studio-r1",
+    "role": "source_rebuild",
+    "sha256": "369c2584867e56a1c5797852a189fb8ca65bbd7fd47416cf48b19aea670c1198",
+    "freeze_sha256": "3c2a1cb12d05ad2eddc79d00c6b3d0581b00fd86bbf3cf932553a115e705961d",
+    "file_name": "timber-design-studio-r1-rebuild.zip"
+  },
+  {
+    "map_id": "research-observatory",
+    "release": "quiet-orbit-observatory-r1",
+    "role": "runtime",
+    "sha256": "83dd94ecb0621735483369229bddf8856162f83e60c951beaf28626396f7d3fe",
+    "freeze_sha256": "1c9e6ecdd46d027a3b8f77e6573ee8f61bb336cca87310af67b4d0f74d7f9f98",
+    "file_name": "quiet-orbit-observatory-r1-runtime.zip"
+  },
+  {
+    "map_id": "research-observatory",
+    "release": "quiet-orbit-observatory-r1",
+    "role": "source_rebuild",
+    "sha256": "6d44b980b45ed10e180586317c054f09359196ee60b413f384a4e236870b0be9",
+    "freeze_sha256": "1c9e6ecdd46d027a3b8f77e6573ee8f61bb336cca87310af67b4d0f74d7f9f98",
+    "file_name": "quiet-orbit-observatory-r1-rebuild.zip"
+  },
+  {
+    "map_id": "operations",
+    "release": "mission-control-center-r1",
+    "role": "runtime",
+    "sha256": "e23e81eec04f2c4db0f923c5e62d60e5b53db01158988c9542a51529ce1fd28c",
+    "freeze_sha256": "0b1c4c86d25dd225836b0114b4c3f12162f83f9370965e0b0b5f981b4be1d09d",
+    "file_name": "mission-control-center-r1-runtime.zip"
+  },
+  {
+    "map_id": "operations",
+    "release": "mission-control-center-r1",
+    "role": "source_rebuild",
+    "sha256": "48ec81a28910dc31858dde16f2811c6e912530fd8ef70a7780e1b9552d184ccd",
+    "freeze_sha256": "0b1c4c86d25dd225836b0114b4c3f12162f83f9370965e0b0b5f981b4be1d09d",
+    "file_name": "mission-control-center-r1-rebuild.zip"
+  },
+  {
+    "map_id": "multi-hall-conference",
+    "release": "lantern-congress-lectern-depth-final",
+    "role": "runtime",
+    "sha256": "a17ed831b7b06326868f747c57e5ad2e1f3581ff75f28d78dc635aa3234a5b6f",
+    "freeze_sha256": "38833cb627418a01419673bb20aee02e2e7eefde64576df209d7bec3880a563d",
+    "file_name": "lantern-congress-runtime.zip"
+  },
+  {
+    "map_id": "multi-hall-conference",
+    "release": "lantern-congress-lectern-depth-final",
+    "role": "source_rebuild",
+    "sha256": "2b6b474813d8e3ac2190ff5824ebe4b858e1ef8ed47efb101952fde2cafb151d",
+    "freeze_sha256": "38833cb627418a01419673bb20aee02e2e7eefde64576df209d7bec3880a563d",
+    "file_name": "lantern-congress-source-complete.zip"
+  },
+  {
+    "map_id": "esports-event",
+    "release": "circuit-arena-counter-depth-fix-03",
+    "role": "runtime",
+    "sha256": "3e763bbad377302c19c3c3c4e331482a8eebba93fe8af8e3a0ea2fc9c514a741",
+    "freeze_sha256": "a5e2bfab707884e5310634a7b5f5e3cc03e758f5e3817c1052fb2af24ca2435c",
+    "file_name": "esports-arena-01-runtime.zip"
+  },
+  {
+    "map_id": "esports-event",
+    "release": "circuit-arena-counter-depth-fix-03",
+    "role": "source_rebuild",
+    "sha256": "98e8ae70f78de61808734d17a610ba0c5d2ff97b25fd88764b0b4c9e62ae1c56",
+    "freeze_sha256": "a5e2bfab707884e5310634a7b5f5e3cc03e758f5e3817c1052fb2af24ca2435c",
+    "file_name": "esports-arena-01-source-complete.zip"
+  },
+  {
+    "map_id": "portal-courtyard",
+    "release": "celestial-transit-garden-static-r03",
+    "role": "runtime",
+    "sha256": "4e634495b142ca6443e2fbe3bcdd271dcd4ede791048a7ade47be2f81e5eab90",
+    "freeze_sha256": "d3ab5fc03fe7724732c7b840cbb7f3b73f63f5b83106b4cf4336f0684ee9b9a6",
+    "file_name": "celestial-transit-garden-runtime.zip"
+  },
+  {
+    "map_id": "portal-courtyard",
+    "release": "celestial-transit-garden-static-r03",
+    "role": "source_rebuild",
+    "sha256": "e7381ba13582a912c0223c8492fa3173fcd4bdf5a406127060fb5c5f743f551b",
+    "freeze_sha256": "d3ab5fc03fe7724732c7b840cbb7f3b73f63f5b83106b4cf4336f0684ee9b9a6",
+    "file_name": "celestial-transit-garden-source-replay.zip"
+  },
+  {
+    "map_id": "media-studio",
+    "release": "resonance-media-house-static-r03",
+    "role": "runtime",
+    "sha256": "88f71627cd9edf6d08bb2d833c3c62d8defca9190e77c0cbc9b104cc1e04f002",
+    "freeze_sha256": "6f96de7be876c789d2cc2f2f375cd2263a26a5416804e6d9e39a1780e685d4c5",
+    "file_name": "resonance-media-house-runtime.zip"
+  },
+  {
+    "map_id": "media-studio",
+    "release": "resonance-media-house-static-r03",
+    "role": "source_rebuild",
+    "sha256": "a689397b08a6a5f82e3faa252dae670ccbb91b8fe6f325dd34062ce64cc276f2",
+    "freeze_sha256": "6f96de7be876c789d2cc2f2f375cd2263a26a5416804e6d9e39a1780e685d4c5",
+    "file_name": "resonance-media-house-source-replay.zip"
+  },
+  {
+    "map_id": "waterside-cafe",
+    "release": "willow-quay-tea-garden-static-r04",
+    "role": "runtime",
+    "sha256": "0ef057c552647d2485c4f3e71b44beb192458ffc9d05d0627872ce9a0fa10d48",
+    "freeze_sha256": "38da27c7a0057d14db86a2c0035351298510865683cf1202a071f82c1f7a55db",
+    "file_name": "willow-quay-tea-garden-runtime.zip"
+  },
+  {
+    "map_id": "waterside-cafe",
+    "release": "willow-quay-tea-garden-static-r04",
+    "role": "source_rebuild",
+    "sha256": "6ad5ae9602bec260c0b1894b49f0dcbe0005e081acfb5593e5aeeac57023b276",
+    "freeze_sha256": "38da27c7a0057d14db86a2c0035351298510865683cf1202a071f82c1f7a55db",
+    "file_name": "willow-quay-tea-garden-source-replay.zip"
+  },
+  {
+    "map_id": "night-market",
+    "release": "lantern-souk-bazaar-static-r04",
+    "role": "runtime",
+    "sha256": "0f1f38e215596439c5d4ea23ec012b41833efa34fd0816ecfc28b3e88b62786b",
+    "freeze_sha256": "a1e8dc57b5aa12d2c3ae2c787c19f5b11b95092dafead9e765f44b678bf28eea",
+    "file_name": "lantern-souk-bazaar-runtime.zip"
+  },
+  {
+    "map_id": "night-market",
+    "release": "lantern-souk-bazaar-static-r04",
+    "role": "source_rebuild",
+    "sha256": "4db6ac2b8a2fc1f2dc6ee42e779605e599b507f80b8ffa45072256b889b53899",
+    "freeze_sha256": "a1e8dc57b5aa12d2c3ae2c787c19f5b11b95092dafead9e765f44b678bf28eea",
+    "file_name": "lantern-souk-bazaar-source-replay.zip"
+  },
+  {
+    "map_id": "waterside-cafe",
+    "release": "willow-quay-tea-garden-motion-r01",
+    "role": "runtime_motion",
+    "sha256": "b25c9fd7f3d83cbfea52dc85197d1a5ac344ead4123463c67afc3f7121356dd2",
+    "freeze_sha256": "705896e5f9cc16caab8b02f916a7ab50ed4adde54faa0fc40ff8ab6a3deb4703",
+    "file_name": "willow-quay-tea-garden-motion-r01-runtime.zip"
+  },
+  {
+    "map_id": "waterside-cafe",
+    "release": "willow-quay-tea-garden-motion-r01",
+    "role": "source_rebuild_motion",
+    "sha256": "f1c1774dacf44ee63bf759ab7ab93d22b02fcab5ad4ae65dc4bcab2f89512218",
+    "freeze_sha256": "705896e5f9cc16caab8b02f916a7ab50ed4adde54faa0fc40ff8ab6a3deb4703",
+    "file_name": "willow-quay-tea-garden-motion-r01-source-compact.zip"
+  },
+  {
+    "map_id": "night-market",
+    "release": "lantern-souk-bazaar-motion-r01",
+    "role": "runtime_motion",
+    "sha256": "ad9d38018f57ba42c678fa59b0a498a074115bda12a2f7c70ee0c3f2b4ef7e48",
+    "freeze_sha256": "692485683bfb643aa2dcc6572a04493bb0b44b73d15ddf09226575a95d83d0cf",
+    "file_name": "lantern-souk-bazaar-motion-r01-runtime.zip"
+  },
+  {
+    "map_id": "night-market",
+    "release": "lantern-souk-bazaar-motion-r01",
+    "role": "source_rebuild_motion",
+    "sha256": "d113c8a407d40a88f36f8caace4d91f923aca19bde696e065300695a9469ca99",
+    "freeze_sha256": "692485683bfb643aa2dcc6572a04493bb0b44b73d15ddf09226575a95d83d0cf",
+    "file_name": "lantern-souk-bazaar-motion-r01-source-compact.zip"
+  },
+  {
+    "map_id": "portal-courtyard",
+    "release": "celestial-transit-garden-motion-r01",
+    "role": "runtime_motion",
+    "sha256": "56e84e042bbe5aa6f67290b7241c8088579894f5631eb28128683ac964955c87",
+    "freeze_sha256": "88c77d5a119165252736b103140a88fd59bfe6b2a34ac3bbc3bfe71035acfb0a",
+    "file_name": "celestial-transit-garden-motion-r01-runtime.zip"
+  },
+  {
+    "map_id": "portal-courtyard",
+    "release": "celestial-transit-garden-motion-r01",
+    "role": "source_rebuild_motion",
+    "sha256": "a48ce252baa554dd2e954a70f43f240e7aa3b24d2a9a82d9cb839940bf97335a",
+    "freeze_sha256": "88c77d5a119165252736b103140a88fd59bfe6b2a34ac3bbc3bfe71035acfb0a",
+    "file_name": "celestial-transit-garden-motion-r01-source-compact.zip"
+  },
+  {
+    "map_id": "sales-atelier",
+    "release": "art-deco-sales-atelier-r1",
+    "role": "runtime",
+    "sha256": "ccecc9acc6c9d6fb31562d1c5b27b7b32658f41dca2cc53226de6dabae493769",
+    "freeze_sha256": "8d395145bfd2df2a2d3a10b553a2e0940f108cf6d37a01f00ee226fa31f1c6eb",
+    "file_name": "art-deco-sales-atelier-r1-runtime.zip"
+  },
+  {
+    "map_id": "sales-atelier",
+    "release": "art-deco-sales-atelier-r1",
+    "role": "source_rebuild",
+    "sha256": "e65e7abb4f9cc877534d81cb68c72ed61de6ad1b6b5b861aa2504663138ca012",
+    "freeze_sha256": "8d395145bfd2df2a2d3a10b553a2e0940f108cf6d37a01f00ee226fa31f1c6eb",
+    "file_name": "art-deco-sales-atelier-r1-rebuild.zip"
+  },
+  {
+    "map_id": "maker-sandbox",
+    "release": "inventors-sandbox-workshop-r1",
+    "role": "runtime",
+    "sha256": "9cb083a81106dd4a29c4f393211401ceaa46535dd83ab3c44a352b8a763f6d5f",
+    "freeze_sha256": "26ae687c70ae39e77b0b21766f89343d7d3aee3e7fe5dae614a8bd730ead19c3",
+    "file_name": "inventors-sandbox-workshop-r1-runtime.zip"
+  },
+  {
+    "map_id": "maker-sandbox",
+    "release": "inventors-sandbox-workshop-r1",
+    "role": "source_rebuild",
+    "sha256": "b73108ed9f90657777640b982e88a88e5f08b8bfb272e8f713aec5cdb8218ac5",
+    "freeze_sha256": "26ae687c70ae39e77b0b21766f89343d7d3aee3e7fe5dae614a8bd730ead19c3",
+    "file_name": "inventors-sandbox-workshop-r1-rebuild.zip"
+  }
+]

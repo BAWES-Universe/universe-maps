@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from celestial-transit-garden-motion-r01-source-compact.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: a48ce252baa554dd2e954a70f43f240e7aa3b24d2a9a82d9cb839940bf97335a

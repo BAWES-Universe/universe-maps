@@ -1,0 +1,91 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "art-deco-sales-atelier-0",
+      "name": "Client west",
+      "x": 256,
+      "y": 192,
+      "width": 319,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "art-deco-sales-atelier-0-room",
+          "type": "livekitRoomProperty",
+          "roomName": "art-deco-sales-atelier-0",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "art-deco-sales-atelier-1",
+      "name": "Client east",
+      "x": 1024,
+      "y": 192,
+      "width": 319,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "art-deco-sales-atelier-1-room",
+          "type": "livekitRoomProperty",
+          "roomName": "art-deco-sales-atelier-1",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "art-deco-sales-atelier-2",
+      "name": "Research west - editor placeholder",
+      "x": 192,
+      "y": 512,
+      "width": 319,
+      "height": 287,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "art-deco-sales-atelier-3",
+      "name": "Research east - editor placeholder",
+      "x": 1056,
+      "y": 512,
+      "width": 319,
+      "height": 287,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "art-deco-sales-atelier-4",
+      "name": "Private briefing",
+      "x": 704,
+      "y": 224,
+      "width": 127,
+      "height": 159,
+      "visible": true,
+      "properties": [
+        {
+          "id": "art-deco-sales-atelier-4-room",
+          "type": "livekitRoomProperty",
+          "roomName": "art-deco-sales-atelier-4",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "decision": "PASS source/static/native-fixture semantic review; live engine untested",
+  "id": "timber-gym-context-r4d",
+  "tmj_sha256": "dd3e66c618d733593126ba8a2e016fda4e0e260b19debee28bcedddef2ad5da5",
+  "independentRoutes": 938,
+  "bodySamples": 816337,
+  "failures": 0,
+  "headConflicts": 0,
+  "allFrozenRuntimeFilesExact": true,
+  "source_archive_sha256": {
+    "timber-gym-context-r4d-source.tar.gz": "2f6552aaefafa25f4183f2a9f327ac9369b198b8e95088ea130928e7f3d93dc5"
+  },
+  "limits": "Fresh source/static/native visible-path checks passed; live engine/browser/devices/media unverified."
+}

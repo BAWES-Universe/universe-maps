@@ -1,0 +1,46 @@
+{
+  "revision": "souk-floor-r8b",
+  "supersedes": "souk-r7",
+  "runtime_sha256": {
+    "lantern-souk-bazaar-r5.wam": "b846f9c7efc49266da1ab937291fa3a21e4d3f82dfa2f45ee0b669fff4063696",
+    "ground-and-objects-2.png": "de102943cf1eb05f5eae806bf9a6b239e0fa0258356dcc41c35a8df57f621ca2",
+    "lantern-souk-bazaar-r5.tmj": "c4457603a936e39fdbb7b4419c7a9504f1777ee0690b7ffdd5c5143c654b53d5",
+    "markers.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "ground-and-objects-0.png": "993ead23ce6e83f3ae78f7903eb2e931855573598051f169fe8831809243405a",
+    "ground-and-objects-1.png": "8ae7090f0205b1e5c5f95160edda471f1915906e5f9111a36ea01af90d508ca5",
+    "ambient-native-r01.png": "3ba6206b7d839fea29dbd342666de545fe42976a2540e74d9b5917f421f89f67"
+  },
+  "source_archive_sha256": {
+    "souk-floor-r8b-source.zip": "5a050a1f24caf55d7724ca72aa4b86ad4cfdc608d201cce32c322a6bcbae01ee"
+  },
+  "review_scope": "Fresh visible-floor, depicted-path, body, head and scene audit; isolated source rebuild",
+  "tmj_sha256": "c4457603a936e39fdbb7b4419c7a9504f1777ee0690b7ffdd5c5143c654b53d5",
+  "limits": "Local source/native/static checks passed. Live browser, keyboard, devices and media not verified.",
+  "private_source_rebuild": {
+    "pass": true,
+    "runtime_files": 7,
+    "byte_differences": 0,
+    "archives_hash_verified": true
+  },
+  "independent_native_complete_floor": {
+    "routes": 3904,
+    "body_samples": 6071269,
+    "failures": 0,
+    "scope": "Actual decoded TMJ collision; all admitted cells at four fit extrema, outgoing and return paths; unchanged pinned engine fixture"
+  },
+  "semantic_checks": [
+    "74 genuinely paved cells opened; north apron,east/west branch breadth and natural bottom approach restored",
+    "Corrected author initial over-opening: east planter cells42,16 and42,17; west planter17,16; fountain pot edges24,24 and35,24 remain solid",
+    "Full clockwise/counterclockwise ring sampled independently with 16x16 body; all booth branch clear targets connected",
+    "Only collision layer data changed; artwork,WAM,26 water animation cells/eight frames,chairs/dependencies byte-exact",
+    "Coherent city skyline and natural side context preserved"
+  ],
+  "head_checks": {
+    "bodyClearIntegerPositions": 424352,
+    "foreground_pixels": 0,
+    "maxForegroundAlphaOnHead": 0,
+    "opaqueHeadConflicts": 0,
+    "headOverlapPositions": 0,
+    "opaqueExamples": []
+  }
+}

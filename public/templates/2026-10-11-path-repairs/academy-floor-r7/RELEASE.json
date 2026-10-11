@@ -1,0 +1,25 @@
+{
+  "revision": "academy-floor-r7",
+  "supersedes": "academy-r6",
+  "runtime_sha256": {
+    "map.tmj": "2f7c84cbd4e1899b63c8267f3ef24ae71e2b37ebf102c057817edb7d2117424c",
+    "map.wam": "692da4bc9933d3cca75d7e9c38494005290cf89d9b1f2fb22734a6469b2ce749",
+    "logic.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "seat-backs-0.png": "26a2ecb726c552c06c312de8ed7a1abb3ab1e647156ddf735316af1ed250abaa",
+    "north-context.png": "a1d731ad99964859c16409f8bba3cb9ab193ce05412f148bfe16930f9f5c8570",
+    "architecture-and-furniture-0.png": "ee217238f13f1af40f097dc03f9f3f3f568df9c8c3ddedcd284e814e05422071",
+    "architecture-and-furniture-1.png": "a1f99cc41d74cd51c03f7c5371ccff93aeda52df6c77180bd075ee4e7b427b5c"
+  },
+  "source_archive_sha256": "ce4fc9258d7d0ae5aa82c32e5b2b379a35de18f4115c3a7cb6d59e4ebf35b979",
+  "review_scope": "Fresh visible-floor, depicted-path, body, head and scene audit; isolated source rebuild",
+  "independent_checks": {
+    "clean_runtime_files": 7,
+    "complete_floor_routes": 6550,
+    "complete_floor_body_samples": 9928927,
+    "standard_routes": 2144,
+    "route_failures": 0,
+    "opaque_head_conflicts": 0
+  },
+  "changes": "15 clear classroom-front floor cells opened. Artwork, 30 seat placements, foreground, WAM and image files unchanged.",
+  "limits": "Local source/native/static checks passed. Live browser, keyboard, devices and media not verified."
+}

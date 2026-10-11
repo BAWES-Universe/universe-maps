@@ -1,0 +1,32 @@
+{
+  "revision": "workshop-walkability-r3-review2",
+  "supersedes": "maker-sandbox-r2-review3",
+  "tmj_sha256": "e775d899536f86c2db086d18151dd54b6b9161337e7db52b55870e89abd23281",
+  "review_scope": "Fresh independent visible-floor/path, scene, isolated rebuild, native full-body and head checks",
+  "private_source_rebuild": {
+    "pass": true,
+    "runtime_files": 6,
+    "byte_differences": 0,
+    "archives_hash_verified": true
+  },
+  "native_complete_replay": {
+    "routes": 1726,
+    "body_samples": 2811303,
+    "failures": 0
+  },
+  "head_checks": {
+    "body_clear_integer_positions": 551836,
+    "head_conflicts": 0,
+    "issues": []
+  },
+  "semantic_checks": [
+    "Complete visible outer ring now continuous, independent <=0.5px fullbody tracing both directions",
+    "North spur, southwest courtyard turn and south arrival branches explicitly checked beyond ring",
+    "Northwest shelf physical tiles remain blocked; new compact source art genuinely creates lane underneath",
+    "NE L-shaped turn avoids protected flower corner43,7; southwest planter8,28 remains protected",
+    "East path width checked against raised curb/foliage; actual paving retained, mixed curb tiles not opened wholesale",
+    "Interior broad creation floor and idea-board/collaboration doors preserve furniture geometry and seat contact",
+    "Coherent top/side woodland surrounds preserved; no literal sky needed for this top-down scene"
+  ],
+  "limits": "Local source/native/static verification; no live engine, browser, keyboard, device or media acceptance."
+}

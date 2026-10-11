@@ -1,0 +1,277 @@
+[
+  {
+    "id": "academy",
+    "title": "Olive Arabic Academy \u00b7 revision 2",
+    "entry_files": [
+      "academy/map32/map.wam",
+      "academy/map32/map.tmj"
+    ],
+    "source_packages_in_library": [
+      "olive-arabic-academy-r2-rebuild.zip"
+    ],
+    "optional_motion_entry_files": [],
+    "source_runtime_sha256": "7d1162b963f32d31057e526659d83efe896c6d6632dbceed08cdac66b0254933",
+    "source_runtime_library_file_id": "libfile_4bb8c4e010088191a46e61b42f874c1a",
+    "source_validation": "Independent source and static gate passed",
+    "live_playtest": "Not verified",
+    "publication": "Not published",
+    "limitations": [
+      "Live gameplay, touch devices and media connections are unverified.",
+      "Seats use walk-to visual placement with standing frames; no sitting animation.",
+      "Screens are artwork only. Lesson materials, media destinations and AI teaching are not configured.",
+      "Deliberate canopy masking remains outside the classroom."
+    ]
+  },
+  {
+    "id": "cowork-design",
+    "title": "Timber & Stone Design Studio \u00b7 r1",
+    "entry_files": [
+      "cowork-design/map32/map.wam",
+      "cowork-design/map32/map.tmj"
+    ],
+    "source_packages_in_library": [
+      "timber-design-studio-r1-rebuild.zip"
+    ],
+    "optional_motion_entry_files": [],
+    "source_runtime_sha256": "876b4496f9aab87a12f7b5768380753106c37f011089fd9aa022d05ec38ac1ab",
+    "source_runtime_library_file_id": "libfile_bda1508ac878819195d25166682f986c",
+    "source_validation": "Independent source and static gate passed",
+    "live_playtest": "Not verified",
+    "publication": "Not published",
+    "limitations": [
+      "Live gameplay, touch devices and media connections are unverified.",
+      "Meeting, screen and work-service integrations need room setup.",
+      "Seats use walk-to visual placement; no sitting animation."
+    ]
+  },
+  {
+    "id": "research-observatory",
+    "title": "Quiet Orbit Observatory \u00b7 r1",
+    "entry_files": [
+      "research-observatory/map32/map.wam",
+      "research-observatory/map32/map.tmj"
+    ],
+    "source_packages_in_library": [
+      "quiet-orbit-observatory-r1-rebuild.zip"
+    ],
+    "optional_motion_entry_files": [],
+    "source_runtime_sha256": "83dd94ecb0621735483369229bddf8856162f83e60c951beaf28626396f7d3fe",
+    "source_runtime_library_file_id": "libfile_cc5703ac8c488191832bd099f0980ea5",
+    "source_validation": "Independent source and static gate passed",
+    "live_playtest": "Not verified",
+    "publication": "Not published",
+    "limitations": [
+      "Live gameplay, touch devices and media connections are unverified.",
+      "Telescope and screens are decorative; research integrations need setup.",
+      "No AI researcher or live data feed is configured."
+    ]
+  },
+  {
+    "id": "operations",
+    "title": "Mission Control Center \u00b7 r1",
+    "entry_files": [
+      "operations/map32/map.wam",
+      "operations/map32/map.tmj"
+    ],
+    "source_packages_in_library": [
+      "mission-control-center-r1-rebuild.zip"
+    ],
+    "optional_motion_entry_files": [],
+    "source_runtime_sha256": "e23e81eec04f2c4db0f923c5e62d60e5b53db01158988c9542a51529ce1fd28c",
+    "source_runtime_library_file_id": "libfile_a27b11e865808191a5dac5f81ab40ca5",
+    "source_validation": "Independent source and static gate passed",
+    "live_playtest": "Not verified",
+    "publication": "Not published",
+    "limitations": [
+      "No incident workflow or live telemetry is implemented.",
+      "Right-side bay is flexible space; its operational use needs configuration.",
+      "Live gameplay, touch devices and media connections are unverified."
+    ]
+  },
+  {
+    "id": "waterside-cafe",
+    "title": "Willow Quay tea garden",
+    "entry_files": [
+      "waterside-cafe/willow-quay-tea-garden.tmj",
+      "waterside-cafe/willow-quay-tea-garden.wam"
+    ],
+    "source_packages_in_library": [
+      "willow-quay-tea-garden-source-replay.zip",
+      "willow-quay-tea-garden-motion-r01-source-compact.zip"
+    ],
+    "optional_motion_entry_files": [
+      "optional-motion/waterside-cafe/willow-quay-tea-garden.tmj",
+      "optional-motion/waterside-cafe/willow-quay-tea-garden.wam"
+    ],
+    "source_runtime_sha256": "0ef057c552647d2485c4f3e71b44beb192458ffc9d05d0627872ce9a0fa10d48",
+    "source_runtime_library_file_id": "libfile_27825c8bb38c8191a95a21979b6d7ddc",
+    "source_validation": "Independent source and static gate passed",
+    "live_playtest": "Not verified",
+    "publication": "Not published",
+    "limitations": [
+      "Base package artwork is static. The optional motion variant is limited to the accents described above.",
+      "Live browser gameplay, touch-device behaviour, keyboard physics and multiplayer are unverified.",
+      "No AI host, ordering, payment or external service integration is configured."
+    ]
+  },
+  {
+    "id": "night-market",
+    "title": "Lantern Souk Bazaar",
+    "entry_files": [
+      "night-market/lantern-souk-bazaar.tmj",
+      "night-market/lantern-souk-bazaar.wam"
+    ],
+    "source_packages_in_library": [
+      "lantern-souk-bazaar-source-replay.zip",
+      "lantern-souk-bazaar-motion-r01-source-compact.zip"
+    ],
+    "optional_motion_entry_files": [
+      "optional-motion/night-market/lantern-souk-bazaar.tmj",
+      "optional-motion/night-market/lantern-souk-bazaar.wam"
+    ],
+    "source_runtime_sha256": "0f1f38e215596439c5d4ea23ec012b41833efa34fd0816ecfc28b3e88b62786b",
+    "source_runtime_library_file_id": "libfile_ea8edf2bdc3c8191b69e6080dd0efb96",
+    "source_validation": "Independent source and static gate passed",
+    "live_playtest": "Not verified",
+    "publication": "Not published",
+    "limitations": [
+      "Buying, selling, payment and seller services are not configured.",
+      "Base package artwork is static. The optional motion variant is limited to the accents described above.",
+      "Live gameplay, touch devices and external services are unverified."
+    ]
+  },
+  {
+    "id": "media-studio",
+    "title": "Resonance Media House",
+    "entry_files": [
+      "media-studio/resonance-media-house.tmj",
+      "media-studio/resonance-media-house.wam"
+    ],
+    "source_packages_in_library": [
+      "resonance-media-house-source-replay.zip"
+    ],
+    "optional_motion_entry_files": [],
+    "source_runtime_sha256": "88f71627cd9edf6d08bb2d833c3c62d8defca9190e77c0cbc9b104cc1e04f002",
+    "source_runtime_library_file_id": "libfile_7091a44bfa588191a919993008badd85",
+    "source_validation": "Independent source and static gate passed",
+    "live_playtest": "Not verified",
+    "publication": "Not published",
+    "limitations": [
+      "Media devices and editor services remain unconfigured.",
+      "Recording, AI generation and streaming are not implemented integrations.",
+      "Live gameplay, touch devices and external services are unverified."
+    ]
+  },
+  {
+    "id": "portal-courtyard",
+    "title": "Celestial Transit Garden",
+    "entry_files": [
+      "portal-courtyard/celestial-transit-garden.tmj",
+      "portal-courtyard/celestial-transit-garden.wam"
+    ],
+    "source_packages_in_library": [
+      "celestial-transit-garden-source-replay.zip",
+      "celestial-transit-garden-motion-r01-source-compact.zip"
+    ],
+    "optional_motion_entry_files": [
+      "optional-motion/portal-courtyard/celestial-transit-garden.tmj",
+      "optional-motion/portal-courtyard/celestial-transit-garden.wam"
+    ],
+    "source_runtime_sha256": "4e634495b142ca6443e2fbe3bcdd271dcd4ede791048a7ade47be2f81e5eab90",
+    "source_runtime_library_file_id": "libfile_8ff32df637048191957e24f33c5d0f94",
+    "source_validation": "Independent source and static gate passed",
+    "live_playtest": "Not verified",
+    "publication": "Not published",
+    "limitations": [
+      "Portal destinations remain configurable placeholders; onward links need setup.",
+      "Base package artwork is static. The optional motion variant is limited to the accents described above.",
+      "Live gameplay, touch devices and external services are unverified."
+    ]
+  },
+  {
+    "id": "multi-hall-conference",
+    "title": "Lantern Congress",
+    "entry_files": [
+      "multi-hall-conference/map32/conference.tmj",
+      "multi-hall-conference/map32/conference.wam"
+    ],
+    "source_packages_in_library": [
+      "lantern-congress-source-complete.zip"
+    ],
+    "optional_motion_entry_files": [],
+    "source_runtime_sha256": "a17ed831b7b06326868f747c57e5ad2e1f3581ff75f28d78dc635aa3234a5b6f",
+    "source_runtime_library_file_id": "libfile_a2ec26cd1818819190578e2088bec51c",
+    "source_validation": "Independent source and static gate passed",
+    "live_playtest": "Not verified",
+    "publication": "Not published",
+    "limitations": [
+      "Live gameplay, concurrent-room media and capacity are unverified.",
+      "Companion room and presentation areas need service configuration.",
+      "Fresh viewport focus fitting passes source checks; rotation while focused does not pass."
+    ]
+  },
+  {
+    "id": "esports-event",
+    "title": "Circuit Arena",
+    "entry_files": [
+      "esports-event/esports-arena-01/map32/esports-arena.tmj",
+      "esports-event/esports-arena-01/map32/esports-arena.wam"
+    ],
+    "source_packages_in_library": [
+      "esports-arena-01-source-complete.zip"
+    ],
+    "optional_motion_entry_files": [],
+    "source_runtime_sha256": "3e763bbad377302c19c3c3c4e331482a8eebba93fe8af8e3a0ea2fc9c514a741",
+    "source_runtime_library_file_id": "libfile_f656d46057f481919809dc87c47f4163",
+    "source_validation": "Independent source and static gate passed",
+    "live_playtest": "Not verified",
+    "publication": "Not published",
+    "limitations": [
+      "Venue layout only; no game or stream integration is configured.",
+      "Live gameplay, touch devices, media and multi-user capacity are unverified."
+    ]
+  },
+  {
+    "id": "sales-atelier",
+    "title": "Art Deco Sales Atelier \u00b7 r1",
+    "entry_files": [
+      "sales-atelier/map32/map.tmj",
+      "sales-atelier/map32/map.wam"
+    ],
+    "source_packages_in_library": [
+      "art-deco-sales-atelier-r1-rebuild.zip"
+    ],
+    "optional_motion_entry_files": [],
+    "source_runtime_sha256": "ccecc9acc6c9d6fb31562d1c5b27b7b32658f41dca2cc53226de6dabae493769",
+    "source_runtime_library_file_id": "libfile_d86f2bc40e10819191e09424f4f113ce",
+    "source_validation": "Independent source and static gate passed",
+    "live_playtest": "Not verified",
+    "publication": "Not published",
+    "limitations": [
+      "CRM, research tools and AI integrations are unconfigured.",
+      "Live gameplay, media services and device controls remain unverified."
+    ]
+  },
+  {
+    "id": "maker-sandbox",
+    "title": "Inventor\u2019s Sandbox Workshop \u00b7 r1",
+    "entry_files": [
+      "maker-sandbox/map32/map.tmj",
+      "maker-sandbox/map32/map.wam"
+    ],
+    "source_packages_in_library": [
+      "inventors-sandbox-workshop-r1-rebuild.zip"
+    ],
+    "optional_motion_entry_files": [],
+    "source_runtime_sha256": "9cb083a81106dd4a29c4f393211401ceaa46535dd83ab3c44a352b8a763f6d5f",
+    "source_runtime_library_file_id": "libfile_1226fceceaf08191ae9ac9f81a0eb729",
+    "source_validation": "Independent source and static gate passed",
+    "live_playtest": "Not verified",
+    "publication": "Not published",
+    "limitations": [
+      "Creation pads, tools and idea board are decorative/editor-ready placeholders.",
+      "No AI creation, tool execution or external service integration is implemented.",
+      "Live gameplay, media services and device controls remain unverified."
+    ]
+  }
+]

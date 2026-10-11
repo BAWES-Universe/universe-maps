@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from timber-design-studio-r1-rebuild.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: 369c2584867e56a1c5797852a189fb8ca65bbd7fd47416cf48b19aea670c1198

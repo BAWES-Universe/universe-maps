@@ -1,0 +1,14 @@
+{
+  "id": "gym-r3",
+  "runtime_zip_sha256": "1f3e868fc66057ed01f53f084221030f0f27d058d3c4a0e1ce53a68833571fb5",
+  "map_path": "templates/2026-10-11-approved/gym-r3/map32/map.tmj",
+  "tmj_sha256": "29ffbaefd54379dfcd8a7e5f0884d859f227e83a22a3815d7d43786bd7ad49dd",
+  "dependencies": [
+    "environment.png",
+    "foreground.png",
+    "logic.png"
+  ],
+  "source_native_qa": "Independent pass; exact approved bounded revision",
+  "hosted_validation": "Pending",
+  "live_browser_devices_services": "Not verified"
+}

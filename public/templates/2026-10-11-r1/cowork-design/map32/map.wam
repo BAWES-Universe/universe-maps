@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "timber-design-studio-0",
+      "name": "Meeting A",
+      "x": 224,
+      "y": 576,
+      "width": 287,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-design-studio-0-room",
+          "type": "livekitRoomProperty",
+          "roomName": "timber-design-studio-0",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "timber-design-studio-1",
+      "name": "Meeting B",
+      "x": 1056,
+      "y": 576,
+      "width": 287,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-design-studio-1-room",
+          "type": "livekitRoomProperty",
+          "roomName": "timber-design-studio-1",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    }
+  ]
+}

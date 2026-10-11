@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from willow-quay-tea-garden-source-replay.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: 6ad5ae9602bec260c0b1894b49f0dcbe0005e081acfb5593e5aeeac57023b276

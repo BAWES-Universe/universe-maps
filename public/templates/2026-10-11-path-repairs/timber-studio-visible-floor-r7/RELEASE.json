@@ -1,0 +1,14 @@
+{
+  "decision": "PASS source/static/native-fixture semantic review; live engine untested",
+  "id": "timber-studio-visible-floor-r7",
+  "tmj_sha256": "73093aa8c570799421a281fce7baf9b93fa90435d109ee35344086ab61dfbf69",
+  "independentRoutes": 929,
+  "bodySamples": 853328,
+  "failures": 0,
+  "headConflicts": 0,
+  "allFrozenRuntimeFilesExact": true,
+  "source_archive_sha256": {
+    "timber-studio-visible-floor-r7-source.zip": "053f528c175a2a96ac40b526a88b82d44b863361abb3215a0ae5bd82f6d16235"
+  },
+  "limits": "Fresh source/static/native visible-path checks passed; live engine/browser/devices/media unverified."
+}

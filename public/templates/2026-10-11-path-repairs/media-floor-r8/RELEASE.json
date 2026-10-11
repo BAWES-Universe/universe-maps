@@ -1,0 +1,30 @@
+{
+  "revision": "media-floor-r8",
+  "supersedes": "media-r7c",
+  "tmj_sha256": "882d2ace574feb340ab0cfdd54faa6bda19e8649bda4fc134366132708f62514",
+  "source_archive_sha256": {
+    "media-r8b-source.zip": "f6a8de7a312060b51ef20a521761e50e117b53ec6261f2b7f9c04e76390251ac"
+  },
+  "review_scope": "Fresh independent visible-floor/path, scene, isolated source rebuild, native full-body and head checks",
+  "limits": "Source/static/native-fixture checks passed; live engine/browser/input/devices/media unverified.",
+  "native": {
+    "legs": 2910,
+    "body_samples": 3089115,
+    "failures": 0,
+    "original_phantom_barrier_targets": 4
+  },
+  "head_audit": {
+    "bodyClearIntegerPositions": 211389,
+    "foreground_pixels": 0,
+    "maxForegroundAlphaOnHead": 0,
+    "opaqueHeadConflicts": 0,
+    "headOverlapPositions": 0,
+    "opaqueExamples": []
+  },
+  "meaningful_semantic_traces": {
+    "paths": 13,
+    "body_samples": 24928,
+    "all_clear_both_directions": true
+  },
+  "source_package_revision": "media-r8b: current-proof/source-only cleanup; runtime unchanged"
+}

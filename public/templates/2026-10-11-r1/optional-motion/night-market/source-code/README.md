@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from lantern-souk-bazaar-motion-r01-source-compact.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: d113c8a407d40a88f36f8caace4d91f923aca19bde696e065300695a9469ca99

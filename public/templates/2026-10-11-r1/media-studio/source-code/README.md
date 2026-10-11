@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from resonance-media-house-source-replay.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: a689397b08a6a5f82e3faa252dae670ccbb91b8fe6f325dd34062ce64cc276f2

@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from olive-arabic-academy-r2-rebuild.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: c49d67130052dd1076f3296e7a748a98675f0ab2f2c15200fb5f2608db9e34d8

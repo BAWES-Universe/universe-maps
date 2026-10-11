@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from celestial-transit-garden-source-replay.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: e7381ba13582a912c0223c8492fa3173fcd4bdf5a406127060fb5c5f743f551b

@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from mission-control-center-r1-rebuild.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: 48ec81a28910dc31858dde16f2811c6e912530fd8ef70a7780e1b9552d184ccd

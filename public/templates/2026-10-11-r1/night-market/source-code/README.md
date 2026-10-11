@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from lantern-souk-bazaar-source-replay.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: 4db6ac2b8a2fc1f2dc6ee42e779605e599b507f80b8ffa45072256b889b53899

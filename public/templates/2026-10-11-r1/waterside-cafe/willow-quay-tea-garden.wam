@@ -1,0 +1,54 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./willow-quay-tea-garden.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "willow-quay-tea-garden-spawn",
+      "name": "Safe arrival",
+      "x": 684,
+      "y": 971,
+      "width": 8,
+      "height": 8,
+      "visible": true,
+      "properties": [
+        {
+          "id": "willow-quay-tea-garden-default-start",
+          "type": "start",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": "pavilion-social",
+      "name": "Tea pavilion",
+      "x": 160,
+      "y": 144,
+      "width": 463,
+      "height": 175,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "rose-patio",
+      "name": "Rose conversation patio",
+      "x": 160,
+      "y": 544,
+      "width": 127,
+      "height": 111,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "gazebo-social",
+      "name": "Waterside gazebo",
+      "x": 1312,
+      "y": 128,
+      "width": 127,
+      "height": 111,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

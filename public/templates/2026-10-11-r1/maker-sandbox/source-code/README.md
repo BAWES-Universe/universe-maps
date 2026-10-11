@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from inventors-sandbox-workshop-r1-rebuild.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: b73108ed9f90657777640b982e88a88e5f08b8bfb272e8f713aec5cdb8218ac5

@@ -1,0 +1,57 @@
+{
+  "nativeTileSize": 32,
+  "world": [
+    2048,
+    1472
+  ],
+  "files": [
+    {
+      "path": "collision-cell.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "esports-arena.tmj",
+      "bytes": 142554,
+      "sha256": "b72cc096702debb18bd56bf19eeb012e197ce9b03c3b03a4a399244a0cd7ec89"
+    },
+    {
+      "path": "esports-arena.wam",
+      "bytes": 2226,
+      "sha256": "6355c478fb3ed26a5b2d7aa7991da000a6b834f896c02896f2b378226e3cc904"
+    },
+    {
+      "path": "quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "runtime-above-p0.png",
+      "bytes": 163571,
+      "sha256": "8d6f3e2d88fb7aab3c8b9a6eee33280f07c15d9a5d707efbd22fc96311079ad2"
+    },
+    {
+      "path": "runtime-base-p0.png",
+      "bytes": 917021,
+      "sha256": "e6f9c92a3546e623bafb38a1907266461eef99d2912426fc1006a37f6edc7fcd"
+    }
+  ],
+  "atlasRoundTrips": [
+    {
+      "layer": "runtime-base",
+      "uniqueTiles": 890,
+      "pixelExact": true
+    },
+    {
+      "layer": "runtime-above",
+      "uniqueTiles": 274,
+      "pixelExact": true
+    }
+  ],
+  "script": false,
+  "focus": false,
+  "dynamicVisibility": false,
+  "quietCells": 4,
+  "liveMediaVerified": false,
+  "qaFixtureInRuntime": false
+}

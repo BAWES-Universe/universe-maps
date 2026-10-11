@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "quiet-orbit-observatory-0",
+      "name": "Seminar speaker",
+      "x": 960,
+      "y": 512,
+      "width": 415,
+      "height": 31,
+      "visible": true,
+      "properties": [
+        {
+          "id": "quiet-orbit-observatory-0-speaker",
+          "type": "speakerMegaphone",
+          "name": "quiet-orbit-observatory-0",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "quiet-orbit-observatory-1",
+      "name": "Seminar audience",
+      "x": 960,
+      "y": 544,
+      "width": 415,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "quiet-orbit-observatory-1-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "quiet-orbit-observatory-0",
+          "chatEnabled": false
+        }
+      ]
+    }
+  ]
+}

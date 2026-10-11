@@ -1,0 +1,69 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "inventors-sandbox-workshop-0",
+      "name": "Collaboration corner",
+      "x": 1184,
+      "y": 576,
+      "width": 255,
+      "height": 223,
+      "visible": true,
+      "properties": [
+        {
+          "id": "inventors-sandbox-workshop-0-room",
+          "type": "livekitRoomProperty",
+          "roomName": "inventors-sandbox-workshop-0",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventors-sandbox-workshop-1",
+      "name": "Coral creation pad - editor placeholder",
+      "x": 416,
+      "y": 288,
+      "width": 191,
+      "height": 159,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "inventors-sandbox-workshop-2",
+      "name": "Mint creation pad - editor placeholder",
+      "x": 832,
+      "y": 288,
+      "width": 191,
+      "height": 159,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "inventors-sandbox-workshop-3",
+      "name": "Ochre creation pad - editor placeholder",
+      "x": 640,
+      "y": 576,
+      "width": 191,
+      "height": 159,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "inventors-sandbox-workshop-4",
+      "name": "Idea board - editor placeholder",
+      "x": 1280,
+      "y": 192,
+      "width": 159,
+      "height": 95,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

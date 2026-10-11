@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from art-deco-sales-atelier-r1-rebuild.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: e65e7abb4f9cc877534d81cb68c72ed61de6ad1b6b5b861aa2504663138ca012

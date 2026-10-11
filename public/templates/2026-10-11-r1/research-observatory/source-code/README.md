@@ -1,0 +1,1 @@
+Compiler and check code copied exactly from quiet-orbit-observatory-r1-rebuild.zip. Full inputs, assets, and proof fixtures are in that source rebuild archive; this compact code selection is not a standalone rebuild package. Archive SHA-256: 6d44b980b45ed10e180586317c054f09359196ee60b413f384a4e236870b0be9

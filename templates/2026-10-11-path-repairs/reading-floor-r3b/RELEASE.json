@@ -1,0 +1,29 @@
+{
+  "revision": "reading-floor-r3b",
+  "supersedes": "reading-r2",
+  "tmj_sha256": "222a14e0e26cb708725246d4a7eb1c0ad2a791617649c2a024ed53e03c85b035",
+  "source_archive_sha256": {
+    "reading-r3b-source.zip": "dd31576c2dd2b7bc975d814d9cac4982c2f80088467158f7f103894a3263c5df"
+  },
+  "review_scope": "Fresh independent visible-floor/path, scene, isolated source rebuild, native full-body and head checks",
+  "limits": "Source/static/native-fixture checks passed; live engine/browser/input/devices/media unverified.",
+  "native": {
+    "legs": 980,
+    "body_samples": 700163,
+    "failures": 0,
+    "original_phantom_barrier_targets": 4
+  },
+  "head_audit": {
+    "bodyClearIntegerPositions": 74657,
+    "foreground_pixels": 2164,
+    "maxForegroundAlphaOnHead": 0,
+    "opaqueHeadConflicts": 0,
+    "headOverlapPositions": 0,
+    "opaqueExamples": []
+  },
+  "meaningful_semantic_traces": {
+    "paths": 11,
+    "body_samples": 6716,
+    "all_clear_both_directions": true
+  }
+}

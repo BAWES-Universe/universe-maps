@@ -1,0 +1,282 @@
+{
+  "classification": "NEW_ART_CANDIDATES_BOTH_FAIL_RETAINED_GEOMETRY",
+  "inputs": [
+    {
+      "revision": "r1",
+      "file": "art/masters/mill-reconstruction-r1.png",
+      "sha256": "64b14fa317ab4b733136ec2b5e0fcfe8202cdda207f4c50a9dbbdd64dc8f778f",
+      "bytes": 4092872,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "commitReportedByParent": "d6be7187ffa7de160534ea6e83efe20288802def",
+      "gitBlobReportedByParent": "af905e12a06f11a104de8ff7d928d3100e4a5bbf",
+      "remoteReadback": "Parent reports fresh remote PNG download matched SHA-256; this worker independently verified local bytes only."
+    },
+    {
+      "revision": "r2",
+      "file": "art/masters/mill-reconstruction-r2.png",
+      "sha256": "c90d698d376a4feb2e93d0b44e4c5b4d10c41686e5ce6638f087d3f905f9184a",
+      "bytes": 3775547,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "commitReportedByParent": "accb1b1f35e4cff0139b9416026446f6cdfb92a5",
+      "gitBlobReportedByParent": "b2eaa750b7cdb55734eb81866b1b9a895fda1088",
+      "remoteReadback": "Parent reports fresh remote PNG download matched SHA-256; this worker independently verified local bytes only."
+    }
+  ],
+  "coordinateSpace": "Direct pixels in 1536x1024 output",
+  "observedMeasurementUncertainty": "Manual raster estimates approximately +/-3 pixels; not pixel segmentation. Target bounds derive from retained final geometry. Door observed sill and target floor cell are different shape primitives.",
+  "r1R2PixelComparison": {
+    "changedPixels": 1572433,
+    "totalPixels": 1572864,
+    "changedPercent": 99.972598,
+    "meanAbsoluteChannelDifference": 19.980743620130752,
+    "interpretation": "Extensive repainting does not establish positional correction."
+  },
+  "features": [
+    {
+      "feature": "door-sill",
+      "r1ObservedApproxSourceBounds": [
+        499,
+        235,
+        559,
+        258
+      ],
+      "r2ObservedApproxSourceBounds": [
+        500,
+        245,
+        559,
+        271
+      ],
+      "requiredExactSourceBounds": [
+        554.6666666667,
+        341.3333333333,
+        597.3333333333,
+        384
+      ],
+      "r1ToR2ApproxCenterShift": [
+        0.5,
+        11.5
+      ],
+      "r2StillRequiredCenterCorrection": [
+        46.5,
+        104.67
+      ],
+      "r2ObservedApproxSize": [
+        59,
+        26
+      ],
+      "targetSize": [
+        42.667,
+        42.667
+      ],
+      "pass": false
+    },
+    {
+      "feature": "west-wet-paper",
+      "r1ObservedApproxSourceBounds": [
+        245,
+        369,
+        409,
+        439
+      ],
+      "r2ObservedApproxSourceBounds": [
+        245,
+        369,
+        411,
+        440
+      ],
+      "requiredExactSourceBounds": [
+        266.6666666667,
+        452,
+        414.6666666667,
+        532
+      ],
+      "r1ToR2ApproxCenterShift": [
+        1.0,
+        0.5
+      ],
+      "r2StillRequiredCenterCorrection": [
+        12.67,
+        87.5
+      ],
+      "r2ObservedApproxSize": [
+        166,
+        71
+      ],
+      "targetSize": [
+        148.0,
+        80
+      ],
+      "pass": false
+    },
+    {
+      "feature": "east-wet-paper",
+      "r1ObservedApproxSourceBounds": [
+        612,
+        369,
+        759,
+        439
+      ],
+      "r2ObservedApproxSourceBounds": [
+        613,
+        369,
+        760,
+        439
+      ],
+      "requiredExactSourceBounds": [
+        649.3333333333,
+        452,
+        796,
+        532
+      ],
+      "r1ToR2ApproxCenterShift": [
+        1.0,
+        0.0
+      ],
+      "r2StillRequiredCenterCorrection": [
+        36.17,
+        88.0
+      ],
+      "r2ObservedApproxSize": [
+        147,
+        70
+      ],
+      "targetSize": [
+        146.667,
+        80
+      ],
+      "pass": false
+    },
+    {
+      "feature": "bridge-clear-deck",
+      "r1ObservedApproxSourceBounds": [
+        898,
+        408,
+        1333,
+        476
+      ],
+      "r2ObservedApproxSourceBounds": [
+        898,
+        408,
+        1336,
+        480
+      ],
+      "requiredExactSourceBounds": [
+        938.6666666667,
+        512,
+        1365.3333333333,
+        597.3333333333
+      ],
+      "r1ToR2ApproxCenterShift": [
+        1.5,
+        2.0
+      ],
+      "r2StillRequiredCenterCorrection": [
+        35.0,
+        110.67
+      ],
+      "r2ObservedApproxSize": [
+        438,
+        72
+      ],
+      "targetSize": [
+        426.667,
+        85.333
+      ],
+      "pass": false
+    },
+    {
+      "feature": "west-hanging-paper",
+      "r1ObservedApproxSourceBounds": [
+        1284,
+        246,
+        1345,
+        324
+      ],
+      "r2ObservedApproxSourceBounds": [
+        1284,
+        246,
+        1346,
+        324
+      ],
+      "requiredExactSourceBounds": [
+        1301.3333333333,
+        324,
+        1373.3333333333,
+        409.3333333333
+      ],
+      "r1ToR2ApproxCenterShift": [
+        0.5,
+        0.0
+      ],
+      "r2StillRequiredCenterCorrection": [
+        22.33,
+        81.67
+      ],
+      "r2ObservedApproxSize": [
+        62,
+        78
+      ],
+      "targetSize": [
+        72.0,
+        85.333
+      ],
+      "pass": false
+    },
+    {
+      "feature": "east-hanging-paper",
+      "r1ObservedApproxSourceBounds": [
+        1363,
+        244,
+        1426,
+        318
+      ],
+      "r2ObservedApproxSourceBounds": [
+        1363,
+        244,
+        1426,
+        318
+      ],
+      "requiredExactSourceBounds": [
+        1386.6666666667,
+        324,
+        1458.6666666667,
+        409.3333333333
+      ],
+      "r1ToR2ApproxCenterShift": [
+        0.0,
+        0.0
+      ],
+      "r2StillRequiredCenterCorrection": [
+        28.17,
+        85.67
+      ],
+      "r2ObservedApproxSize": [
+        63,
+        74
+      ],
+      "targetSize": [
+        72.0,
+        85.333
+      ],
+      "pass": false
+    }
+  ],
+  "unchangedFailureClasses": [
+    "Retained promenade crosses pictured tray interiors",
+    "Wet-paper destinations fall below pictured work surfaces",
+    "Retained bridge deck crosses pictured rail/support and river",
+    "Print overlays fall below pictured hanging sheets",
+    "Retained door target remains courtyard",
+    "Stool contacts and lower floor/entry corridor cross plants"
+  ],
+  "conclusion": "Two attempts have not achieved the required registration. No further coordinate-edit generation is recommended without a changed strategy. Neither candidate satisfies the request for exact historical restoration.",
+  "originalGeometryChanged": false,
+  "imageGenerationPerformedInAssessment": false,
+  "alternativeImplemented": false
+}

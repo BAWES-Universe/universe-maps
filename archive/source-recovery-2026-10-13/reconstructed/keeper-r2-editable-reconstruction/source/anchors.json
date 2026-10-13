@@ -1,0 +1,103 @@
+{
+  "anchors": {
+    "dock": {
+      "x": 784,
+      "y": 800,
+      "radius": 26
+    },
+    "houseDoor": {
+      "x": 1296,
+      "y": 528,
+      "radius": 24,
+      "to": "houseExit",
+      "label": "keeper’s house",
+      "description": "The brass latch turns easily. Open the keeper’s door to explore the chart room and cupboard.",
+      "action": "Enter keeper’s house"
+    },
+    "towerDoor": {
+      "x": 336,
+      "y": 240,
+      "radius": 24,
+      "to": "towerExit",
+      "label": "lighthouse",
+      "description": "An open stone doorway leads into the lighthouse workshop.",
+      "action": "Enter lighthouse"
+    },
+    "chart": {
+      "x": 2504,
+      "y": 524,
+      "radius": 24
+    },
+    "key": {
+      "x": 2804,
+      "y": 492,
+      "radius": 24
+    },
+    "hearth": {
+      "x": 2480,
+      "y": 596,
+      "radius": 24
+    },
+    "houseExit": {
+      "x": 2624,
+      "y": 722,
+      "radius": 24,
+      "to": "houseDoor",
+      "label": "island",
+      "description": "The open south door returns to the keeper’s front porch.",
+      "action": "Exit to island"
+    },
+    "fuse": {
+      "x": 2422,
+      "y": 2028,
+      "radius": 24
+    },
+    "wheel": {
+      "x": 2736,
+      "y": 1998,
+      "radius": 24
+    },
+    "stairsUp": {
+      "x": 2478,
+      "y": 2178,
+      "radius": 24,
+      "to": "stairsDown",
+      "label": "lantern room",
+      "description": "The spiral stairs rise into the glass lantern room.",
+      "action": "Climb to lantern room"
+    },
+    "towerExit": {
+      "x": 2624,
+      "y": 2258,
+      "radius": 24,
+      "to": "towerDoor",
+      "label": "island",
+      "description": "Return through the south doorway to the lighthouse terrace.",
+      "action": "Exit to island"
+    },
+    "telescope": {
+      "x": 480,
+      "y": 2540,
+      "radius": 24
+    },
+    "lens": {
+      "x": 576,
+      "y": 2570,
+      "radius": 24
+    },
+    "console": {
+      "x": 688,
+      "y": 2528,
+      "radius": 24
+    },
+    "stairsDown": {
+      "x": 430,
+      "y": 2690,
+      "radius": 24,
+      "to": "stairsUp",
+      "label": "workshop",
+      "description": "Descend the spiral stairs to the generator workshop.",
+      "action": "Return to workshop"
+    }
+  }
+}

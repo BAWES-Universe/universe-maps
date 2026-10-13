@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "package_id": "studio-reading-reconstructed",
+  "destination": "reconstructed/studio-reading-editable-reconstruction",
+  "artifact": {
+    "name": "Studio-r8-Reading-r4-RECONSTRUCTED-source-2026-10-13.zip",
+    "library_file_id": "libfile_0c77fe834d0c81919cd14a1ae87c59c2",
+    "version_id": "1",
+    "sha256": "991e592d477f805e543f2bdd8ec9e842ad6785f72173281cb34767faaaffe01d",
+    "size_bytes": 3113223
+  },
+  "nested_archives": [],
+  "source_status": "reconstructed_editable_source_runtime_byte_identical_11_files; original_sources_unavailable; live_review_open",
+  "git_scope": "Selected source text is present in this repository tree. All members also remain preserved in the pinned authenticated Library artifact.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "d3ae06639cd4d2fdf31f5d8e05b1dae1417653ef5ab64d0433d5c11910854664",
+      "git_blob_sha1": "1ff8e7b7b51343fa6f3ee80a4400902a5619dd8e",
+      "size_bytes": 3188,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/README.md"
+    },
+    {
+      "path": "evidence/source-inventory.json",
+      "sha256": "eff01a2f588fd4039fa44d7455268094d5463b556abc2c2b8794a70f386a73e8",
+      "git_blob_sha1": "0e410d5d09799ca47619d380237c3c7779e9b0c9",
+      "size_bytes": 3625,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/evidence/source-inventory.json"
+    },
+    {
+      "path": "evidence/verification.json",
+      "sha256": "58ea4baecdf29ae6838bd0010ace09a771b18af7f4a69655a4c3d4be580fb1af",
+      "git_blob_sha1": "31fe570e56b3037d32a49800281c3fbed0758eff",
+      "size_bytes": 789,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/evidence/verification.json"
+    },
+    {
+      "path": "source/provenance.json",
+      "sha256": "ce0aa35430cf3c928faf228e73c1c03f5c2964bad8fa58ddcdbe57b3d5d5495a",
+      "git_blob_sha1": "d509a5c882a36299f5793f68be3ca9dc4cf2f235",
+      "size_bytes": 952,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/provenance.json"
+    },
+    {
+      "path": "source/reading/areas.wam.json",
+      "sha256": "c8ce4f8cdd5e20918e7479c666dde23b3e855f19c3bdb42aeb7aa7bb0a7d6b0a",
+      "git_blob_sha1": "c97b4940226e86ed9d2b5ff0a45d6069584a38d2",
+      "size_bytes": 1796,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/reading/areas.wam.json"
+    },
+    {
+      "path": "source/reading/art/architecture-and-furniture.png",
+      "sha256": "fa24a6234eb712dabf63d14479916674963eaefb23fa084d6538033f49297818",
+      "git_blob_sha1": "5c57bc3e6e02cef32e44f36291ef1f7fa2d4b8fa",
+      "size_bytes": 1018173,
+      "storage": "library",
+      "reason": "binary_or_generated_runtime"
+    },
+    {
+      "path": "source/reading/art/foreground.png",
+      "sha256": "4045da132a75fa2e72607a1c650aebf184da8b71ba4783240cdcd96ab46d4bf3",
+      "git_blob_sha1": "f71486df037be6f491a950d47d2a847ccbea7eec",
+      "size_bytes": 5078,
+      "storage": "library",
+      "reason": "binary_or_generated_runtime"
+    },
+    {
+      "path": "source/reading/art/logic.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "size_bytes": 83,
+      "storage": "library",
+      "reason": "binary_or_generated_runtime"
+    },
+    {
+      "path": "source/reading/extras/README.md",
+      "sha256": "410092aee4cb4b2e00a4e7d8e4e283efa8f3b4c96503aa914ed81d539e75207b",
+      "git_blob_sha1": "c096c7c92e2435129648b82132af21eb9f99000c",
+      "size_bytes": 1264,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/reading/extras/README.md"
+    },
+    {
+      "path": "source/reading/layers/01-architecture-and-furniture.csv",
+      "sha256": "b2144989d318887f5069946d21c2b60fa6d31dcc1494a3d8a5d37dff0ee6b133",
+      "git_blob_sha1": "c1add1c75a1534c73491cb0b55013a4f032192cf",
+      "size_bytes": 1428,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/reading/layers/01-architecture-and-furniture.csv"
+    },
+    {
+      "path": "source/reading/layers/02-collision.csv",
+      "sha256": "8bdc036927f64130f2a85fb9a1077c1c9915f463c5897a53b669011d8e53129c",
+      "git_blob_sha1": "5f582f921c6ee4cd1ad82adfc7945a6273d835c7",
+      "size_bytes": 1336,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/reading/layers/02-collision.csv"
+    },
+    {
+      "path": "source/reading/layers/03-quiet-arrival.csv",
+      "sha256": "8960d5d535947f1333fe5dab32a8cd2cc08318f0a3a16350062f73cd40a59b1d",
+      "git_blob_sha1": "988cc30846fed85fdfaf6059990be78618c36c60",
+      "size_bytes": 770,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/reading/layers/03-quiet-arrival.csv"
+    },
+    {
+      "path": "source/reading/layers/05-foreground.csv",
+      "sha256": "5008977b28fb89f2b93f58d013e6e5ca32901007d711553eae01221050855b52",
+      "git_blob_sha1": "48b4c037db02eee9921b52a88f2465d8b896b659",
+      "size_bytes": 790,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/reading/layers/05-foreground.csv"
+    },
+    {
+      "path": "source/reading/map.recipe.json",
+      "sha256": "0d3e41ee5391a6e51f19cc2a9ee658b5e3097af2c549e299365d9158379dfcc3",
+      "git_blob_sha1": "45c34f0c8d2780be5f3b4b0507e49315510cee93",
+      "size_bytes": 4154,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/reading/map.recipe.json"
+    },
+    {
+      "path": "source/runtime-baseline.json",
+      "sha256": "f45db3c840fa07b82b1b98379eb1abaf3c0c89d222d7ff13c1e155b0941ad814",
+      "git_blob_sha1": "9af42cce4f266da62f425ef800631c8b70c03e44",
+      "size_bytes": 1505,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/runtime-baseline.json"
+    },
+    {
+      "path": "source/studio/areas.wam.json",
+      "sha256": "f7de32f75df015a676fae413ca4bf9c9f90d1cd6605d46734a1c8c0ad981e44a",
+      "git_blob_sha1": "45777a463771ff3c0c0cd25bc93aa42904cc12b0",
+      "size_bytes": 1043,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/studio/areas.wam.json"
+    },
+    {
+      "path": "source/studio/art/environment.png",
+      "sha256": "026330ce32025e52cedff8822b1758a0ed9be8a1de1e951742e2e8df996ba2f1",
+      "git_blob_sha1": "765dcb96732614203febccebd8b385e5c94cc1f3",
+      "size_bytes": 1967275,
+      "storage": "library",
+      "reason": "binary_or_generated_runtime"
+    },
+    {
+      "path": "source/studio/art/foreground.png",
+      "sha256": "b7448f3923afaee45ac9e2f1341df251d05716ac0a261e7abd5e848a8b610ea5",
+      "git_blob_sha1": "efae8a54b3eab4a2381805bc12ea9276a0737fe2",
+      "size_bytes": 105102,
+      "storage": "library",
+      "reason": "binary_or_generated_runtime"
+    },
+    {
+      "path": "source/studio/art/logic.png",
+      "sha256": "050ab82bd34987f71468d5851d3707e15c6c6de862d98384259834d92deefd57",
+      "git_blob_sha1": "4203d43af4a6da5556e0d1305ecb90cb260c0434",
+      "size_bytes": 87,
+      "storage": "library",
+      "reason": "binary_or_generated_runtime"
+    },
+    {
+      "path": "source/studio/layers/01-environment.csv",
+      "sha256": "39a6600d88b3ab7de663f8998e9fbb15b053958dc1c12570956483087fd1bbea",
+      "git_blob_sha1": "b046faa04fe08e7aab773023ae8bfb539c49b640",
+      "size_bytes": 3094,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/studio/layers/01-environment.csv"
+    },
+    {
+      "path": "source/studio/layers/02-collision.csv",
+      "sha256": "987801c13a78f3c8c5167064dd86af8eb42951885721a17b5d25022d99858f3d",
+      "git_blob_sha1": "adde30c5b321d1a10b1987c0f84b6dbd352cac9d",
+      "size_bytes": 2886,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/studio/layers/02-collision.csv"
+    },
+    {
+      "path": "source/studio/layers/03-spawn-only-silence.csv",
+      "sha256": "87bab8734ad6ad969866c0714787ebc0cb0e43b5cd30f2111d547f01f4a8f4ab",
+      "git_blob_sha1": "49846165e0ea951fced695da9572b67d48f34fa7",
+      "size_bytes": 1622,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/studio/layers/03-spawn-only-silence.csv"
+    },
+    {
+      "path": "source/studio/layers/05-foreground.csv",
+      "sha256": "8e291856a5ca08d44fcbc44ea8cbdbb6b66152998b865b25dd184e2594d1ab59",
+      "git_blob_sha1": "e1e4499a091f32f9b587dece66b90603c915dddb",
+      "size_bytes": 1760,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/studio/layers/05-foreground.csv"
+    },
+    {
+      "path": "source/studio/map.recipe.json",
+      "sha256": "34d5192ae50ee9d4b791948665fcc365cfefa1917819273bcb0228a21b7c22d2",
+      "git_blob_sha1": "0dac29f97396f571903e5abbfa115c9917784bfb",
+      "size_bytes": 3767,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/studio/map.recipe.json"
+    },
+    {
+      "path": "tests/verify.py",
+      "sha256": "0142714712948deef0aa186e6fb0484a028910528e71695329a074c7351a46d9",
+      "git_blob_sha1": "c870231a0686993786d6da267cb2cde14e26dbe2",
+      "size_bytes": 4088,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/tests/verify.py"
+    },
+    {
+      "path": "tools/build.py",
+      "sha256": "4da5e5d9cd2eb9884120517b7d633d509ac3775e5e2dfb4d9b36483531623331",
+      "git_blob_sha1": "823467f8a867fc4ba9912254392b7c13a4f535c3",
+      "size_bytes": 1554,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/tools/build.py"
+    }
+  ]
+}

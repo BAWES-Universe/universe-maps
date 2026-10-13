@@ -1,0 +1,21 @@
+{
+  "classification": "Reconstructed editable workflow using recovered exact runtime assets; NOT recovered original source/master artwork",
+  "revisions": {
+    "studio": "Timber Studio r8",
+    "reading": "Reading Conservatory r4"
+  },
+  "fixture_library_file_id": "libfile_9d5b832cfa2481918ac133db5bc17b09",
+  "fixture_name": "Rendering-Investigation.zip, version 2",
+  "fixture_member_prefix": "Rendering-Investigation/fixture/assets/",
+  "preserved": "All runtime bytes, including artwork, are acceptance targets; original sources remain untouched.",
+  "missing": [
+    "Original r8/r4 complete source archives",
+    "Original authoring/build scripts",
+    "Original unflattened artwork and masks not present in runtime",
+    "Original full validation package"
+  ],
+  "open_issues": [
+    "Pixelation / black-edge GPU rendering remains unverified and unfixed",
+    "Full live WorkAdventure desktop/touch/multiplayer acceptance not performed"
+  ]
+}

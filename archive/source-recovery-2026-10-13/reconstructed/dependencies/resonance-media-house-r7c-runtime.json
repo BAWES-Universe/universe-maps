@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "package_id": "resonance-media-house-r7c-runtime",
+  "destination": "reconstructed/dependencies/resonance-media-house-r7c-runtime",
+  "artifact": {
+    "name": "resonance-media-house-r7c-runtime.zip",
+    "library_file_id": "libfile_24baecfd179c8191a159bc0df64307c4",
+    "version_id": null,
+    "sha256": "4e832c8c700ed9aa869d73b0852b87e70ee91f4becdaee503d532157877fb96a",
+    "size_bytes": 1850479
+  },
+  "nested_archives": [],
+  "source_status": "original_r7c_dependency_not_missing_r9",
+  "files": [
+    {
+      "path": "foreground-0.png",
+      "sha256": "35fea5eaceccaed9adfc401503875b620abb59b79eef9da83e707ebb3a56e163",
+      "size_bytes": 1196,
+      "git_blob_sha1": "9eb1d009ae4e505c80dbc017dfe7a7d9bcb88a37",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "1447b84d2650ae5096779e117979b7f215fb113fa00b19d58a723bdc803624ee",
+      "size_bytes": 1844066,
+      "git_blob_sha1": "379ff0425f94149cab9c87cf16b04044dbdaf1e3",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house.tmj",
+      "sha256": "b2999caf485804debc977aaa385975d001caafe0bec357d6e63dd565dd8fccc3",
+      "size_bytes": 49229,
+      "git_blob_sha1": "27db0248f343654fb8eb2c7ce417a775468b1666",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house.wam",
+      "sha256": "61b1c799212a08d024c8cf03d46d76dc74c91a20acd8783098b749f065e47eb5",
+      "size_bytes": 1207,
+      "git_blob_sha1": "6b48b16ba5593bd83dc205e8255def034fb89a72",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    }
+  ]
+}

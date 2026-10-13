@@ -1,0 +1,211 @@
+{
+  "compressionlevel": -1,
+  "width": 24,
+  "height": 16,
+  "infinite": false,
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "tiledversion": "1.11.2",
+  "tilewidth": 32,
+  "tileheight": 32,
+  "type": "map",
+  "version": "1.10",
+  "nextlayerid": 7,
+  "nextobjectid": 2,
+  "backgroundcolor": "#344834",
+  "properties": [
+    {
+      "name": "name",
+      "type": "string",
+      "value": "Reading Conservatory"
+    },
+    {
+      "name": "category",
+      "type": "string",
+      "value": "Knowledge and Social"
+    },
+    {
+      "name": "wokaScale",
+      "type": "int",
+      "value": 1
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "value": "Unpublished functional candidate; not live tested"
+    }
+  ],
+  "layers": [
+    {
+      "name": "architecture-and-furniture",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 16,
+      "visible": true,
+      "opacity": 1,
+      "data": {
+        "csv": "layers/01-architecture-and-furniture.csv"
+      },
+      "id": 1
+    },
+    {
+      "name": "collision",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 16,
+      "visible": true,
+      "opacity": 0,
+      "data": {
+        "csv": "layers/02-collision.csv"
+      },
+      "id": 2
+    },
+    {
+      "name": "quiet-arrival",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 16,
+      "visible": true,
+      "opacity": 0,
+      "data": {
+        "csv": "layers/03-quiet-arrival.csv"
+      },
+      "properties": [
+        {
+          "name": "silent",
+          "type": "bool",
+          "value": true
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "floorLayer",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "draworder": "topdown",
+      "objects": [],
+      "id": 4
+    },
+    {
+      "name": "foreground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 16,
+      "visible": true,
+      "opacity": 1,
+      "data": {
+        "csv": "layers/05-foreground.csv"
+      },
+      "id": 5
+    },
+    {
+      "name": "map-areas",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "opacity": 1,
+      "visible": true,
+      "objects": [
+        {
+          "id": 1,
+          "name": "start",
+          "type": "area",
+          "class": "area",
+          "x": 384,
+          "y": 448,
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "start",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "draworder": "topdown",
+      "id": 6
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "architecture-and-furniture",
+      "image": "architecture-and-furniture.png",
+      "imagewidth": 768,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 24,
+      "tilecount": 384
+    },
+    {
+      "firstgid": 385,
+      "name": "foreground",
+      "image": "foreground.png",
+      "imagewidth": 320,
+      "imageheight": 32,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 10,
+      "tilecount": 10
+    },
+    {
+      "firstgid": 395,
+      "name": "collision",
+      "image": "logic.png",
+      "imagewidth": 32,
+      "imageheight": 32,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 1,
+      "tilecount": 1,
+      "tiles": [
+        {
+          "id": 0,
+          "properties": [
+            {
+              "name": "collides",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "firstgid": 396,
+      "name": "quiet",
+      "image": "logic.png",
+      "imagewidth": 32,
+      "imageheight": 32,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 1,
+      "tilecount": 1
+    }
+  ]
+}

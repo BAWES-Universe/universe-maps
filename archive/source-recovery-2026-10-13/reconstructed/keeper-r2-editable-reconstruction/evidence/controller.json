@@ -1,0 +1,26 @@
+{
+  "scope": "New controller regression tests with mocked WorkAdventure APIs; no live-game/native-physics claim",
+  "passed": 19,
+  "failed": 0,
+  "tests": [
+    "initial state and five state layers hidden",
+    "proximity opens prompt without mutating or teleporting",
+    "chart recording is explicit and retained",
+    "key gates fuse, and fuse gates generator",
+    "key collection and fuse installation are idempotent",
+    "bearing and lens expose all exact choices",
+    "console gates incomplete equipment",
+    "wrong note resets only partial sequence",
+    "LOW MIDDLE HIGH completes and lights both beacon layers",
+    "Close is nondestructive and Inspect nearby reopens",
+    "all three doorway pairs travel both ways and retain state",
+    "busy doorway ignores repeated stale action",
+    "rejected teleport clears busy and preserves progress for retry",
+    "moving away invalidates stale popup callbacks",
+    "Close invalidates stale popup action",
+    "late initial position cannot supersede movement",
+    "dispose while transition pending prevents late UI update",
+    "dispose is idempotent and stale controls inert",
+    "visitors have independent state and snapshots are copies"
+  ]
+}

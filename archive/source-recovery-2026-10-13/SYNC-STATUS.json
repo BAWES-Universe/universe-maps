@@ -1,10 +1,16 @@
 {
-  "state": "SOURCE_CHECKPOINT_WITH_LIBRARY_BACKED_ASSETS",
-  "complete_recovered_packages_indexed": 116,
-  "git_contains": "Selected small authoring files, restore tool, integrity manifests and status.",
-  "library_contains": "Exact remaining source/art/runtime/evidence bytes via pinned artifacts and members.",
+  "state": "RECOVERED_SOURCE_WITH_LIBRARY_BACKED_ASSETS_AND_RECONSTRUCTIONS",
+  "verified_parent_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+  "verified_parent_tree": "e554e502cd306616ad78ac40c001ffdad63d52dc",
+  "branch": "backup/map-source-recovery-2026-10-13",
+  "parent_source_entries_verified": 1859,
+  "package_views_indexed": 121,
+  "git_contains": "Selected small authoring files, reconstructed source, tests, restore tooling, integrity manifests and status",
+  "library_contains": "Exact original source/art/runtime/evidence archives plus independent prepared-source, reconstruction and recovery-catalogue checkpoints",
   "fully_github_synced": false,
+  "original33H_recovered": false,
   "r2_configured": false,
   "deployment": false,
-  "new_live_acceptance": false
+  "new_live_acceptance": false,
+  "status_scope": "Source-tree contents and confirmed preceding commit; this file does not predict the commit SHA that will contain it."
 }

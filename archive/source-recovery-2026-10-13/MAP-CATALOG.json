@@ -1,0 +1,4093 @@
+{
+  "schema_version": 1,
+  "purpose": "Search by human map name, revision and surviving source/assets/recipe/test evidence",
+  "source_baseline_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+  "entry_count": 102,
+  "package_views_are_not_distinct_map_counts": true,
+  "art_role_note": "Source-image member roles are inferred from archive path; only retained provenance can establish which image is an original generation master. No missing seed or prompt is invented.",
+  "historical_archive_catalogue": {
+    "library_file_id": "libfile_0309ead2fd348191a9b5152dee02adbf",
+    "member": "MAP-REVISION-LEDGER.md",
+    "archives": 181,
+    "members": 9018
+  },
+  "entries": [
+    {
+      "name": "Acoustic Cave Hall",
+      "revision": "N48-r1-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N48-r1"
+      },
+      "asset_manifests": [
+        "asset-manifests/N48-r1-source.json",
+        "asset-manifests/N48-r1-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_cd5388058a5881918d3c282bf474e1bc",
+        "archive_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/acoustic-cave-hall.png",
+        "source/audience-chair-north.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png",
+        "source/proof-inputs/proof-actors-east.png",
+        "source/proof-inputs/proof-actors-north.png",
+        "source/proof-inputs/proof-actors-south.png",
+        "source/proof-inputs/proof-actors-west.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Alpine Isotope Field Station",
+      "revision": "N18-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N18-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N18-r3-source.json",
+        "asset-manifests/N18-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+        "archive_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Alpine Seed Vault",
+      "revision": "H019-r3",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "57d6fae9a2c698741a1988636a489f82965e07440008d6c73d40c18570c84d9e",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A118",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Art Deco Sales Atelier R1 Rebuild",
+      "revision": "art-deco-sales-atelier-r1-rebuild",
+      "kind": "recovered_original_package",
+      "name_evidence_member": null,
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "original12/art-deco-sales-atelier-r1-rebuild"
+      },
+      "asset_manifests": [
+        "asset-manifests/art-deco-sales-atelier-r1-rebuild.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_400b946af2388191818741fb0cd92f98",
+        "archive_sha256": "e65e7abb4f9cc877534d81cb68c72ed61de6ad1b6b5b861aa2504663138ca012"
+      },
+      "retained_generation_prompt_members": [
+        "GENERATION-PROMPTS.md"
+      ],
+      "retained_source_image_members": [
+        "source-assets/light-desk.png",
+        "source-assets/chair-foreground-safe.png",
+        "source-assets/low-lounge-table.png",
+        "source-assets/sales-environment-flat.png",
+        "source-assets/greg-reference.png",
+        "source-assets/chair-below-safe.png",
+        "source-assets/light-meeting_table.png",
+        "source-assets/industrial-chair40-native.png",
+        "reference/overview.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_environments.py",
+        "tools/build_templates.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Autumn Amphitheatre",
+      "revision": "N44-r1-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N44-r1"
+      },
+      "asset_manifests": [
+        "asset-manifests/N44-r1-source.json",
+        "asset-manifests/N44-r1-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/autumn-amphitheatre.png",
+        "source/audience-chair-north.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png",
+        "source/proof-inputs/proof-actors-east.png",
+        "source/proof-inputs/proof-actors-north.png",
+        "source/proof-inputs/proof-actors-south.png",
+        "source/proof-inputs/proof-actors-west.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Basalt Geology Field Camp",
+      "revision": "N24-r4-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N24-r4"
+      },
+      "asset_manifests": [
+        "asset-manifests/N24-r4-source.json",
+        "asset-manifests/N24-r4-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+        "archive_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/field-chair-master.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/japanese-chair-master.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Basketry Reed House",
+      "revision": "H035-r3",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "4ba243d1ca2c8af3199e3baf95ca5b99e72f95101c77881d55290e7d6edb4340",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A113",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Beaver Creek Restoration",
+      "revision": "H011-r5",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "415f5fc8188f5be450d4ec09334bc68279d8c598cbdb424b42dfad7b1b8630f5",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A97",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Bookbinding Stitch Loft",
+      "revision": "H036-r2",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "87fb5b4fda4d0ae77fcbf137de0e7b170da47b3a719c06829104b8ee0a5df115",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A114",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Canal Boat Depot",
+      "revision": "H022-r2",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "dd02568c78f67073e02b67bb2822bb699f08a37d8a0b7b9df0e7161c21076c93",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A106",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Celestial Transit Garden",
+      "revision": "celestial-transit-garden-source-replay",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "celestial-transit-garden/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "original12/celestial-transit-garden-source-replay"
+      },
+      "asset_manifests": [
+        "asset-manifests/celestial-transit-garden-source-replay.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_6b6036e250c88191b1b1d1103fe1ee90",
+        "archive_sha256": "e7381ba13582a912c0223c8492fa3173fcd4bdf5a406127060fb5c5f743f551b"
+      },
+      "retained_generation_prompt_members": [
+        "source/portal-generation-prompt.txt",
+        "celestial-transit-garden/source/portal-generation-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "source/greg-reference.png",
+        "source/portal-environment-garden-boundaries-master.png",
+        "source/lounge-chair-north.png",
+        "source/low-lounge-table.png",
+        "celestial-transit-garden/source/authored-walkable-mask.png",
+        "celestial-transit-garden/source/greg-reference.png",
+        "celestial-transit-garden/source/lounge-chair-north.png",
+        "celestial-transit-garden/source/low-lounge-table.png",
+        "celestial-transit-garden/source/portal-environment-garden-boundaries-master.png",
+        "celestial-transit-garden/source/runtime-above.png",
+        "celestial-transit-garden/source/runtime-base.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_maps.py"
+      ],
+      "test_evidence_members": [
+        "celestial-transit-garden/validation/atlas-roundtrip.json",
+        "celestial-transit-garden/validation/boundary-sweep.json",
+        "celestial-transit-garden/validation/depth-partition.json",
+        "celestial-transit-garden/validation/geometry.json",
+        "celestial-transit-garden/validation/native-routes.json",
+        "celestial-transit-garden/validation/native-routes.log",
+        "celestial-transit-garden/validation/spawn-domains.json"
+      ],
+      "visual_comparison_members": [
+        "celestial-transit-garden/review/collision-native.png",
+        "celestial-transit-garden/review/empty-native.png",
+        "celestial-transit-garden/review/occupied-native.png",
+        "celestial-transit-garden/review/overview.png"
+      ],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Circuit Arena — esports event template",
+      "revision": "esports-arena-01-source-complete",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "esports-arena-01/README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "original12/esports-arena-01-source-complete"
+      },
+      "asset_manifests": [
+        "asset-manifests/esports-arena-01-source-complete.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_c1c0c6b1c28481919fd103e75d1b806a",
+        "archive_sha256": "98e8ae70f78de61808734d17a610ba0c5d2ff97b25fd88764b0b4c9e62ae1c56"
+      },
+      "retained_generation_prompt_members": [
+        "esports-arena-01/source/full-imagegen-prompts.json",
+        "esports-arena-01/source/imagegen-prompt-esports-desk.txt",
+        "esports-arena-01/source/industrial-caster-prompt.txt",
+        "esports-arena-01/source/industrial-imagegen-prompts.json",
+        "esports-arena-01/source/industrial-rack-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "esports-arena-01/assets/coffee-counter-native.png",
+        "esports-arena-01/assets/esports-desk-native.png",
+        "esports-arena-01/assets/greg-reference.png",
+        "esports-arena-01/assets/industrial-caster-native.png",
+        "esports-arena-01/assets/industrial-chair-native.png",
+        "esports-arena-01/assets/industrial-chair40-native.png",
+        "esports-arena-01/assets/industrial-counter-native.png",
+        "esports-arena-01/assets/industrial-desk-native.png",
+        "esports-arena-01/assets/industrial-floor-native.png",
+        "esports-arena-01/assets/industrial-rack-native.png",
+        "esports-arena-01/assets/industrial-screen-native.png",
+        "esports-arena-01/assets/industrial-sofa-native.png",
+        "esports-arena-01/assets/industrial-vertical-native.png",
+        "esports-arena-01/assets/industrial-wall-native.png",
+        "esports-arena-01/assets/lounge-chair-east.png",
+        "esports-arena-01/assets/lounge-chair-north.png",
+        "esports-arena-01/assets/lounge-chair-south.png",
+        "esports-arena-01/assets/lounge-chair-west.png",
+        "esports-arena-01/assets/low-lounge-table.png",
+        "esports-arena-01/assets/planter-low.png",
+        "esports-arena-01/assets/rug-wide.png",
+        "esports-arena-01/assets/runtime-above.png",
+        "esports-arena-01/assets/runtime-base.png",
+        "esports-arena-01/assets/sandstone-tile.png",
+        "esports-arena-01/assets/wall-horizontal.png",
+        "esports-arena-01/assets/wall-left.png",
+        "esports-arena-01/assets/wall-right.png",
+        "esports-arena-01/assets/wood-deck-tile.png",
+        "esports-arena-01/source/esports-desk-generated-master.png",
+        "esports-arena-01/source/industrial-caster-generated-master.png",
+        "esports-arena-01/source/industrial-chair-generated-master.png",
+        "esports-arena-01/source/industrial-counter-generated-master.png",
+        "esports-arena-01/source/industrial-desk-generated-master.png",
+        "esports-arena-01/source/industrial-floor-generated-master.png",
+        "esports-arena-01/source/industrial-rack-generated-master.png",
+        "esports-arena-01/source/industrial-screen-generated-master.png",
+        "esports-arena-01/source/industrial-sofa-generated-master.png",
+        "esports-arena-01/source/industrial-vertical-generated-master.png",
+        "esports-arena-01/source/industrial-wall-generated-master.png"
+      ],
+      "build_recipe_members": [
+        "esports-arena-01/tools/build_arena.py",
+        "esports-arena-01/tools/build_industrial_sample.py",
+        "esports-arena-01/tools/build_sample.py",
+        "esports-arena-01/tools/compile_runtime.py"
+      ],
+      "test_evidence_members": [
+        "esports-arena-01/validation/apron-refinement.json",
+        "esports-arena-01/validation/asset-reproduction.json",
+        "esports-arena-01/validation/build-report.json",
+        "esports-arena-01/validation/chairback-depth.json",
+        "esports-arena-01/validation/compiled-render.json",
+        "esports-arena-01/validation/contract-checks.json",
+        "esports-arena-01/validation/counter-depth-fix.json",
+        "esports-arena-01/validation/engine-source-manifest.json",
+        "esports-arena-01/validation/geometry.json",
+        "esports-arena-01/validation/independent-final/REVIEW.md",
+        "esports-arena-01/validation/independent-final/freeze-hash-check-final.json",
+        "esports-arena-01/validation/independent-final/independent-all-targets.json",
+        "esports-arena-01/validation/independent-final/independent-checks.json",
+        "esports-arena-01/validation/independent-final/replay-final.log",
+        "esports-arena-01/validation/route-proof/merged-source-equivalence.json",
+        "esports-arena-01/validation/route-proof/replay.log",
+        "esports-arena-01/validation/route-proof/route-results.json",
+        "esports-arena-01/validation/wam-schema-2.0.0.json",
+        "esports-arena-01/validation/wam-source-schema.json"
+      ],
+      "visual_comparison_members": [
+        "esports-arena-01/review/CHAIRBACK-DEPTH-native32.png",
+        "esports-arena-01/review/COMPILED-empty-native.png",
+        "esports-arena-01/review/COMPILED-native32-arrival-social.png",
+        "esports-arena-01/review/COMPILED-native32-caster.png",
+        "esports-arena-01/review/COMPILED-native32-spectator.png",
+        "esports-arena-01/review/COMPILED-native32-west-team.png",
+        "esports-arena-01/review/COMPILED-occupied-native.png",
+        "esports-arena-01/review/COUNTER-DEPTH-4x-inspection.png",
+        "esports-arena-01/review/COUNTER-DEPTH-native32.png",
+        "esports-arena-01/review/LAYOUT-DIAGRAM.png",
+        "esports-arena-01/review/OVERVIEW-occupied-50percent.png",
+        "esports-arena-01/review/REVIEW-FIRST-native32.png",
+        "esports-arena-01/review/REVIEW-REVISION-industrial-native32.png",
+        "esports-arena-01/review/ZONE-CONTRACT-50percent.png",
+        "esports-arena-01/review/bounded-native32-geometry-overlay.png",
+        "esports-arena-01/review/bounded-occupied-native32.png",
+        "esports-arena-01/review/bounded-source-above-native.png",
+        "esports-arena-01/review/bounded-source-base-native.png",
+        "esports-arena-01/review/chair-native-8x-inspection.png",
+        "esports-arena-01/review/chairback-debug-4x.png",
+        "esports-arena-01/review/industrial-occupied-native32.png",
+        "esports-arena-01/review/industrial-sample-above-native.png",
+        "esports-arena-01/review/industrial-sample-base-native.png",
+        "esports-arena-01/review/native32-arrival-social-occupied.png",
+        "esports-arena-01/review/native32-caster-occupied.png",
+        "esports-arena-01/review/native32-spectator-occupied.png",
+        "esports-arena-01/review/native32-west-team-occupied.png",
+        "esports-arena-01/review/runtime-collision-overlay-native.png",
+        "esports-arena-01/review/runtime-empty-native.png",
+        "esports-arena-01/review/runtime-occupied-native.png",
+        "esports-arena-01/validation/independent-final/coffee-staff-corrected-independent-4x.png"
+      ],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Circular Civic Debate Hall",
+      "revision": "N33-r1-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N33-r1"
+      },
+      "asset_manifests": [
+        "asset-manifests/N33-r1-source.json",
+        "asset-manifests/N33-r1-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/field-chair-master.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/japanese-chair-master.png",
+        "source/original-art.png",
+        "source/repaired-art.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Clay Circle Atelier",
+      "revision": "N03-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N03/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N03-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N03-r3-source.json",
+        "asset-manifests/N03-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_ec3825113eec8191b5cd503475294b13",
+        "archive_sha256": "ef284a4823bb83ea474d070b189b457b4a113651bcda1beb9bdfc2f1463c0931"
+      },
+      "retained_generation_prompt_members": [
+        "source/N03-fullscene-prompt.txt",
+        "source/N03-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "N03/source/runtime-base.png",
+        "N03/source/runtime-foreground.png",
+        "source/N03-empty-scene.png",
+        "source/N03-grid-r2.png",
+        "source/N03-grid.png",
+        "source/N03-original.png",
+        "source/N03-scene-r2.png",
+        "source/N03-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N03/review/occupants.json",
+        "N03/validation/anchor-endpoints.json",
+        "N03/validation/arrival-facing-enum-note.txt",
+        "N03/validation/arrival.log",
+        "N03/validation/native-arrival-routes.json",
+        "N03/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N03/review/actual-native-arrivals.png",
+        "N03/review/collision.png",
+        "N03/review/empty-native.png",
+        "N03/review/occupied-native.png",
+        "N03/review/review.png",
+        "N03/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N03/LESSONS.json",
+        "source/N03-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Clockmaker's Waterworks",
+      "revision": "H001-r7",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": null,
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A92",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Copper Enamel Atelier",
+      "revision": "H037-r4",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "1da48bf27c290ee42982a1f11a512538bfe8c2702f6b6a78a57cda7230746912",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A115",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Copperbeat Rehearsal",
+      "revision": "N06-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N06/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N06-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N06-r2-source.json",
+        "asset-manifests/N06-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_ee4c70e4a3bc8191890a2346f8249349",
+        "archive_sha256": "30a9ec7c765b8a8e9cbb3f1ceba70f4ab99dcff3ca2533b40c19b9bc351ebacd"
+      },
+      "retained_generation_prompt_members": [
+        "source/N06-fullscene-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "N06/source/runtime-base.png",
+        "N06/source/runtime-foreground.png",
+        "source/N06-grid.png",
+        "source/N06-original.png",
+        "source/N06-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N06/review/occupants.json",
+        "N06/validation/anchor-endpoints.json",
+        "N06/validation/arrival-facing-enum-note.txt",
+        "N06/validation/arrival.log",
+        "N06/validation/native-arrival-routes.json",
+        "N06/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N06/review/actual-native-arrivals.png",
+        "N06/review/collision.png",
+        "N06/review/empty-native.png",
+        "N06/review/occupied-native.png",
+        "N06/review/review.png",
+        "N06/review/route-depth-contact-3x.png",
+        "N06/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N06/LESSONS.json",
+        "source/N06-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Coral Research Pier",
+      "revision": "N40-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N40-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N40-r3-source.json",
+        "asset-manifests/N40-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/coral-research-pier.png",
+        "source/audience-chair-north.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png",
+        "source/proof-inputs/proof-actors-east.png",
+        "source/proof-inputs/proof-actors-north.png",
+        "source/proof-inputs/proof-actors-south.png",
+        "source/proof-inputs/proof-actors-west.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Counterweight Theatre",
+      "revision": "H006-r1",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": null,
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A116",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Crosswind Aviation Briefing School",
+      "revision": "N23-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N23-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N23-r2-source.json",
+        "asset-manifests/N23-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+        "archive_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/japanese-chair-master.png",
+        "source/original-art.png",
+        "source/repaired-art.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Desert Caravan Crossroads",
+      "revision": "N36-r4-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N36-r4"
+      },
+      "asset_manifests": [
+        "asset-manifests/N36-r4-source.json",
+        "asset-manifests/N36-r4-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/desert-caravan-crossroads.png",
+        "source/audience-chair-north.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png",
+        "source/proof-inputs/proof-actors-east.png",
+        "source/proof-inputs/proof-actors-north.png",
+        "source/proof-inputs/proof-actors-south.png",
+        "source/proof-inputs/proof-actors-west.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Desert Esports Pavilion",
+      "revision": "N45-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N45-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N45-r2-source.json",
+        "asset-manifests/N45-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/desert-esports-pavilion.png",
+        "source/audience-chair-north.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png",
+        "source/proof-inputs/proof-actors-east.png",
+        "source/proof-inputs/proof-actors-north.png",
+        "source/proof-inputs/proof-actors-south.png",
+        "source/proof-inputs/proof-actors-west.png",
+        "source/recovered/lush-hotel-courtyard-original.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Desert Heliostat Research School",
+      "revision": "N31-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N31-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N31-r2-source.json",
+        "asset-manifests/N31-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/field-chair-master.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/japanese-chair-master.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Desert Star Caravanserai",
+      "revision": "H025-r2",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "370f6d1ad29138de7c9dc64bc5f8b2636b3c9e17bc2108c478f42da291a4c1a9",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A123",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Dicewood Table Club",
+      "revision": "N05-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N05/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N05-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N05-r3-source.json",
+        "asset-manifests/N05-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_ee4c70e4a3bc8191890a2346f8249349",
+        "archive_sha256": "30a9ec7c765b8a8e9cbb3f1ceba70f4ab99dcff3ca2533b40c19b9bc351ebacd"
+      },
+      "retained_generation_prompt_members": [
+        "source/N05-fullscene-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "N05/source/runtime-base.png",
+        "N05/source/runtime-foreground.png",
+        "source/N05-empty-scene.png",
+        "source/N05-furniture-kit.png",
+        "source/N05-grid.png",
+        "source/N05-original.png",
+        "source/N05-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N05/review/occupants.json",
+        "N05/validation/anchor-endpoints.json",
+        "N05/validation/arrival-facing-enum-note.txt",
+        "N05/validation/arrival.log",
+        "N05/validation/native-arrival-routes.json",
+        "N05/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N05/review/actual-native-arrivals.png",
+        "N05/review/collision.png",
+        "N05/review/empty-native.png",
+        "N05/review/occupied-native.png",
+        "N05/review/review.png",
+        "N05/review/route-depth-contact-3x.png",
+        "N05/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N05/LESSONS.json",
+        "source/N05-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Dune Grass Nursery",
+      "revision": "H014-r4",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "244a15ffd8e70760843169ecad451d839be5469a0ed9de22052f99fd4058f2ad",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A100",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Ember Ridge Lodge",
+      "revision": "N01-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N01/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N01-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N01-r3-source.json",
+        "asset-manifests/N01-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_ec3825113eec8191b5cd503475294b13",
+        "archive_sha256": "ef284a4823bb83ea474d070b189b457b4a113651bcda1beb9bdfc2f1463c0931"
+      },
+      "retained_generation_prompt_members": [
+        "source/N01-fullscene-prompt.txt",
+        "source/N01-landscape-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "N01/source/runtime-base.png",
+        "N01/source/runtime-foreground.png",
+        "source/N01-grid.png",
+        "source/N01-original.png",
+        "source/N01-scene-r2.png",
+        "source/N01-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N01/review/occupants.json",
+        "N01/validation/anchor-endpoints.json",
+        "N01/validation/arrival-facing-enum-note.txt",
+        "N01/validation/arrival.log",
+        "N01/validation/native-arrival-routes.json",
+        "N01/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N01/review/actual-native-arrivals.png",
+        "N01/review/collision.png",
+        "N01/review/empty-native.png",
+        "N01/review/occupied-native.png",
+        "N01/review/review.png",
+        "N01/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N01/LESSONS.json",
+        "source/N01-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Firefly Meadow Hide",
+      "revision": "H018-r1",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "e859d429a29849142119c92eeb0c2f7f9cafdb9cc45043fba56db166bc90281a",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A104",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Floating Wetland Research Lab",
+      "revision": "N28-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N28-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N28-r2-source.json",
+        "asset-manifests/N28-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+        "archive_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/field-chair-master.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/japanese-chair-master.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Framehouse Film Society",
+      "revision": "N11-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N11/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N11-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N11-r2-source.json",
+        "asset-manifests/N11-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_569ee69b6ee88191b798c423dcffa32e",
+        "archive_sha256": "bbbc6be7925c4c2a6050830e6dac387d375e315be20b97da576b522154d274af"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "N11/source/runtime-base.png",
+        "N11/source/runtime-foreground.png",
+        "source/N11-original.png",
+        "source/N11-poufs-original.png",
+        "source/N11-salon-clear-original.png",
+        "source/N11-scene-r2.png",
+        "source/N11-scene-r3.png",
+        "source/N11-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N11/review/occupants.json",
+        "N11/validation/anchor-endpoints.json",
+        "N11/validation/arrival-facing-enum-note.txt",
+        "N11/validation/arrival.log",
+        "N11/validation/native-arrival-routes.json",
+        "N11/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N11/review/actual-native-arrivals.png",
+        "N11/review/collision.png",
+        "N11/review/empty-native.png",
+        "N11/review/occupied-native.png",
+        "N11/review/review.png",
+        "N11/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N11/LESSONS.json",
+        "source/N11-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Funicular Repair Yard",
+      "revision": "H003-r2",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": null,
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A94",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Glass Borough Civic Library",
+      "revision": "N30-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N30-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N30-r2-source.json",
+        "asset-manifests/N30-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/field-chair-master.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/japanese-chair-master.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Glass Hall Conference Campus",
+      "revision": "N43-r1-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N43-r1"
+      },
+      "asset_manifests": [
+        "asset-manifests/N43-r1-source.json",
+        "asset-manifests/N43-r1-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/glass-hall-conference-campus.png",
+        "source/audience-chair-north.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png",
+        "source/proof-inputs/proof-actors-east.png",
+        "source/proof-inputs/proof-actors-north.png",
+        "source/proof-inputs/proof-actors-south.png",
+        "source/proof-inputs/proof-actors-west.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Glassblower’s Ribbon Hall",
+      "revision": "H031-r5",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "3d38e10a74bcd39743d055cbb710d3d190b85d1956c647ff7db23d2ee25136cd",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A109",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Glassleaf Cooking Club",
+      "revision": "N04-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N04/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N04-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N04-r3-source.json",
+        "asset-manifests/N04-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_ec3825113eec8191b5cd503475294b13",
+        "archive_sha256": "ef284a4823bb83ea474d070b189b457b4a113651bcda1beb9bdfc2f1463c0931"
+      },
+      "retained_generation_prompt_members": [
+        "source/N04-fullscene-prompt.txt",
+        "source/N04-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "N04/source/runtime-base.png",
+        "N04/source/runtime-foreground.png",
+        "source/N04-arch-crop.png",
+        "source/N04-original.png",
+        "source/N04-scene-grid.png",
+        "source/N04-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N04/review/occupants.json",
+        "N04/validation/anchor-endpoints.json",
+        "N04/validation/arrival-facing-enum-note.txt",
+        "N04/validation/arrival.log",
+        "N04/validation/native-arrival-routes.json",
+        "N04/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N04/review/actual-native-arrivals.png",
+        "N04/review/collision.png",
+        "N04/review/empty-native.png",
+        "N04/review/occupied-native.png",
+        "N04/review/review.png",
+        "N04/review/route-depth-contact-3x.png",
+        "N04/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N04/LESSONS.json",
+        "source/N04-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Harbor Tongues Exchange",
+      "revision": "N07-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N07/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N07-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N07-r3-source.json",
+        "asset-manifests/N07-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_ee4c70e4a3bc8191890a2346f8249349",
+        "archive_sha256": "30a9ec7c765b8a8e9cbb3f1ceba70f4ab99dcff3ca2533b40c19b9bc351ebacd"
+      },
+      "retained_generation_prompt_members": [
+        "source/N07-fullscene-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "N07/source/runtime-base.png",
+        "N07/source/runtime-foreground.png",
+        "source/N07-counter-removed-original.png",
+        "source/N07-grid.png",
+        "source/N07-original.png",
+        "source/N07-scene-r2.png",
+        "source/N07-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N07/review/occupants.json",
+        "N07/validation/anchor-endpoints.json",
+        "N07/validation/arrival-facing-enum-note.txt",
+        "N07/validation/arrival.log",
+        "N07/validation/native-arrival-routes.json",
+        "N07/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N07/review/actual-native-arrivals.png",
+        "N07/review/collision.png",
+        "N07/review/empty-native.png",
+        "N07/review/occupied-native.png",
+        "N07/review/review.png",
+        "N07/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N07/LESSONS.json",
+        "source/N07-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Harbour Language Exchange Lab",
+      "revision": "N34-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N34-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N34-r2-source.json",
+        "asset-manifests/N34-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/field-chair-master.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/japanese-chair-master.png",
+        "source/original-art.png",
+        "source/repaired-art.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Indigo Textile Design Guild",
+      "revision": "N32-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N32-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N32-r2-source.json",
+        "asset-manifests/N32-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/field-chair-master.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/japanese-chair-master.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Inventors Sandbox Workshop R1 Rebuild",
+      "revision": "inventors-sandbox-workshop-r1-rebuild",
+      "kind": "recovered_original_package",
+      "name_evidence_member": null,
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "original12/inventors-sandbox-workshop-r1-rebuild"
+      },
+      "asset_manifests": [
+        "asset-manifests/inventors-sandbox-workshop-r1-rebuild.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_9f9f484bf4b4819196bf274d8ec7192c",
+        "archive_sha256": "b73108ed9f90657777640b982e88a88e5f08b8bfb272e8f713aec5cdb8218ac5"
+      },
+      "retained_generation_prompt_members": [
+        "GENERATION-PROMPTS.md"
+      ],
+      "retained_source_image_members": [
+        "source-assets/light-desk.png",
+        "source-assets/chair-foreground-safe.png",
+        "source-assets/low-lounge-table.png",
+        "source-assets/maker-environment-open.png",
+        "source-assets/greg-reference.png",
+        "source-assets/chair-below-safe.png",
+        "source-assets/light-meeting_table.png",
+        "source-assets/industrial-chair40-native.png",
+        "reference/overview.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_environments.py",
+        "tools/build_templates.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Kiln Robotics Assembly Lab",
+      "revision": "N20-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N20-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N20-r3-source.json",
+        "asset-manifests/N20-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+        "archive_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Lacquer Box Workshop",
+      "revision": "H034-r3",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "0d16cc2287498528201eacad3a1b90f20531e4b5cd64713697594c06f46f528a",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A112",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Lantern Congress",
+      "revision": "lantern-congress-source-complete",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "original12/lantern-congress-source-complete"
+      },
+      "asset_manifests": [
+        "asset-manifests/lantern-congress-source-complete.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_9a1c2ef40c148191b06cbb24f7089825",
+        "archive_sha256": "2b6b474813d8e3ac2190ff5824ebe4b858e1ef8ed47efb101952fde2cafb151d"
+      },
+      "retained_generation_prompt_members": [
+        "source/generated/additional-prompt-specifications.json",
+        "source/generated/architecture-kit-prompt.txt",
+        "source/generated/chair-kit-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "assets/congress-chair-east.png",
+        "assets/congress-chair-north.png",
+        "assets/congress-chair-south.png",
+        "assets/congress-chair-west.png",
+        "assets/congress-espresso.png",
+        "assets/congress-felt-rug.png",
+        "assets/congress-jamb-left.png",
+        "assets/congress-jamb-right.png",
+        "assets/congress-lectern.png",
+        "assets/congress-low-planter.png",
+        "assets/congress-low-table.png",
+        "assets/congress-oak-plank.png",
+        "assets/congress-olive-planter.png",
+        "assets/congress-reception.png",
+        "assets/congress-screen.png",
+        "assets/congress-stage-steps-160.png",
+        "assets/congress-stage-steps-192.png",
+        "assets/congress-stage-steps.png",
+        "assets/congress-wall-horizontal.png",
+        "assets/congress-wall-left.png",
+        "assets/congress-wall-right.png",
+        "assets/congress-window-wall.png",
+        "assets/greg-reference.png",
+        "assets/runtime-above.png",
+        "assets/runtime-base.png",
+        "assets/terrazzo-native-256.png",
+        "source/generated/architectural-depth-kit-master.png",
+        "source/generated/architecture-kit-master.png",
+        "source/generated/chair-kit-master.png",
+        "source/generated/planter-coffee-kit-master.png",
+        "source/generated/room-kit-master.png",
+        "source/generated/terrazzo-master.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_all.py",
+        "tools/build_map.py",
+        "tools/build_proposal.py"
+      ],
+      "test_evidence_members": [
+        "validation/focus/focus-results.json",
+        "validation/focus/source-manifest.json",
+        "validation/independent/REVIEW.md",
+        "validation/independent/freeze-hash-check-final.json",
+        "validation/independent/independent-all-targets.json",
+        "validation/independent/independent-checks.json",
+        "validation/independent/native-routes-results.json",
+        "validation/independent/replay-final.log",
+        "validation/independent/threshold-probes.json",
+        "validation/native-routes/results.json",
+        "validation/native-runner.log",
+        "validation/portable-rebuild.json",
+        "validation/schema/results.json",
+        "validation/schema/source-manifest.json",
+        "validation/spawn-and-stage-steps.json",
+        "validation/static-validation.json"
+      ],
+      "visual_comparison_members": [
+        "review/REVIEW-FIRST-native32.png",
+        "review/bounded-above-native.png",
+        "review/bounded-base-native.png",
+        "review/bounded-occupied-native32.png",
+        "review/composition-proposal.png",
+        "review/empty-native.png",
+        "review/focus-source-calculated.png",
+        "review/forum-occupied-native32.png",
+        "review/lectern-depth-4x-inspection.png",
+        "review/lectern-depth-native32.png",
+        "review/networking-occupied-native32.png",
+        "review/occupied-native.png",
+        "review/overview.png",
+        "review/source-module-inspection.png",
+        "review/summit-occupied-native32.png",
+        "review/workshop-occupied-native32.png",
+        "validation/independent/lectern-corrected-independent-4x.png",
+        "validation/independent/summit-step-probes-4x.png",
+        "validation/independent/threshold-probes-overview-50pct.png"
+      ],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Lantern Dune Majlis",
+      "revision": "N02-r4-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N02/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N02-r4"
+      },
+      "asset_manifests": [
+        "asset-manifests/N02-r4-source.json",
+        "asset-manifests/N02-r4-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_ec3825113eec8191b5cd503475294b13",
+        "archive_sha256": "ef284a4823bb83ea474d070b189b457b4a113651bcda1beb9bdfc2f1463c0931"
+      },
+      "retained_generation_prompt_members": [
+        "source/N02-fullscene-prompt.txt",
+        "source/N02-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "N02/source/runtime-base.png",
+        "N02/source/runtime-foreground.png",
+        "source/N02-garden-grid.png",
+        "source/N02-grid.png",
+        "source/N02-original.png",
+        "source/N02-scene-r3-grid.png",
+        "source/N02-scene-r3.png",
+        "source/N02-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N02/review/occupants.json",
+        "N02/validation/anchor-endpoints.json",
+        "N02/validation/arrival-facing-enum-note.txt",
+        "N02/validation/arrival.log",
+        "N02/validation/native-arrival-routes.json",
+        "N02/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N02/review/actual-native-arrivals.png",
+        "N02/review/collision.png",
+        "N02/review/empty-native.png",
+        "N02/review/occupied-native.png",
+        "N02/review/review.png",
+        "N02/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N02/LESSONS.json",
+        "source/N02-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Lantern Souk Bazaar",
+      "revision": "lantern-souk-bazaar-source-replay",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "lantern-souk-bazaar/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "original12/lantern-souk-bazaar-source-replay"
+      },
+      "asset_manifests": [
+        "asset-manifests/lantern-souk-bazaar-source-replay.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_214143d2e6948191a11f11395d07a7a1",
+        "archive_sha256": "4db6ac2b8a2fc1f2dc6ee42e779605e599b507f80b8ffa45072256b889b53899"
+      },
+      "retained_generation_prompt_members": [
+        "source/bazaar-generation-prompt.txt",
+        "lantern-souk-bazaar/source/bazaar-generation-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "source/low-lounge-table.png",
+        "source/greg-reference.png",
+        "source/lounge-chair-north.png",
+        "source/bazaar-environment-clear-entry-master.png",
+        "lantern-souk-bazaar/source/authored-walkable-mask.png",
+        "lantern-souk-bazaar/source/bazaar-environment-clear-entry-master.png",
+        "lantern-souk-bazaar/source/greg-reference.png",
+        "lantern-souk-bazaar/source/lounge-chair-north.png",
+        "lantern-souk-bazaar/source/low-lounge-table.png",
+        "lantern-souk-bazaar/source/runtime-above.png",
+        "lantern-souk-bazaar/source/runtime-base.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_maps.py"
+      ],
+      "test_evidence_members": [
+        "lantern-souk-bazaar/validation/atlas-roundtrip.json",
+        "lantern-souk-bazaar/validation/boundary-sweep.json",
+        "lantern-souk-bazaar/validation/depth-partition.json",
+        "lantern-souk-bazaar/validation/geometry.json",
+        "lantern-souk-bazaar/validation/native-route-run.log",
+        "lantern-souk-bazaar/validation/native-routes.json",
+        "lantern-souk-bazaar/validation/native-routes.log",
+        "lantern-souk-bazaar/validation/spawn-domains.json"
+      ],
+      "visual_comparison_members": [
+        "lantern-souk-bazaar/review/collision-native.png",
+        "lantern-souk-bazaar/review/empty-native.png",
+        "lantern-souk-bazaar/review/occupied-native.png",
+        "lantern-souk-bazaar/review/overview.png"
+      ],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Letterpress Print Yard",
+      "revision": "H032-r4",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "c3a5b728fbb236b48c1dfd2e5690258dc163131e1acdba61803ab631e37633fc",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A110",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Lighthouse Festival Island",
+      "revision": "N35-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N35-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N35-r3-source.json",
+        "asset-manifests/N35-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/lighthouse-festival-island.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Lighthouse Keepers Return R2 Runtime",
+      "revision": "lighthouse-keepers-return-r2-runtime",
+      "kind": "recovered_runtime_or_investigation_fixture",
+      "name_evidence_member": null,
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "baselines/lighthouse-keepers-return-r2-runtime"
+      },
+      "asset_manifests": [
+        "asset-manifests/lighthouse-keepers-return-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_05a64ebd22288191b9116a05b38ac49b",
+        "archive_sha256": "a3a98d718a06d6477800be10aa9c17554ae7c719074be2fb7efd5a36faee6774"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [],
+      "build_recipe_members": [],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": [
+        "Original full source archive unavailable; separately reconstructed authoring is indexed below"
+      ]
+    },
+    {
+      "name": "Lighthouse Keeper’s Return",
+      "revision": "r2 reconstructed authoring",
+      "kind": "new_reconstructed_authoring_not_original_source_recovery",
+      "source_reference": {
+        "commit_scope": "same repository tree as this catalogue",
+        "path": "reconstructed/keeper-r2-editable-reconstruction"
+      },
+      "asset_manifests": [
+        "asset-manifests/keeper-r2-reconstructed.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_5fe8a50573488191a77cdb169cef6cca",
+        "archive_sha256": "b49eb2238fb5afd818bb143ce04f5563bdf248c6251852f65077b380b3d2b9ba"
+      },
+      "retained_generation_prompt_members": [],
+      "build_recipe_members": [
+        "keeper-r2-editable-reconstruction/tools/build.py",
+        "keeper-r2-editable-reconstruction/tools/clean_rebuild.py",
+        "keeper-r2-editable-reconstruction/tools/restore_art.py"
+      ],
+      "test_evidence_members": [
+        "keeper-r2-editable-reconstruction/evidence/clean-rebuild.json",
+        "keeper-r2-editable-reconstruction/evidence/controller.json",
+        "keeper-r2-editable-reconstruction/evidence/independent-review.json",
+        "keeper-r2-editable-reconstruction/evidence/known-issues/README.md",
+        "keeper-r2-editable-reconstruction/evidence/known-issues/original-failure.txt",
+        "keeper-r2-editable-reconstruction/evidence/known-issues/original-stdout.json",
+        "keeper-r2-editable-reconstruction/evidence/known-issues/rebuilt-failure.txt",
+        "keeper-r2-editable-reconstruction/evidence/known-issues/rebuilt-stdout.json",
+        "keeper-r2-editable-reconstruction/evidence/known-issues/reconstructed-local-failure.txt",
+        "keeper-r2-editable-reconstruction/evidence/known-issues/reconstructed-local-stdout.json",
+        "keeper-r2-editable-reconstruction/evidence/known-issues/rejected-teleport-newer-movement.test.cjs",
+        "keeper-r2-editable-reconstruction/evidence/reconstruction-source-manifest.json",
+        "keeper-r2-editable-reconstruction/evidence/runtime-comparison.json",
+        "keeper-r2-editable-reconstruction/evidence/structure.json",
+        "keeper-r2-editable-reconstruction/tests/controller.cjs",
+        "keeper-r2-editable-reconstruction/tests/structure.py"
+      ],
+      "generation_seed": null,
+      "seed_status": "No new art generation occurred in this reconstruction.",
+      "test_status": "19 byte-identical runtime outputs;105 structure and19 controller checks passed; inherited teleport-race regression remains a known failure.",
+      "missing_pieces": [
+        "Unavailable original latest source archives remain unavailable",
+        "Live GPU/body/head/touch/multiplayer acceptance not established"
+      ]
+    },
+    {
+      "name": "Lighthouse Last Signal R2 Runtime",
+      "revision": "lighthouse-last-signal-r2-runtime",
+      "kind": "recovered_runtime_or_investigation_fixture",
+      "name_evidence_member": null,
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "baselines/lighthouse-last-signal-r2-runtime"
+      },
+      "asset_manifests": [
+        "asset-manifests/lighthouse-last-signal-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_f40cfa6e75c081918995cfe72eada6c4",
+        "archive_sha256": "10f5c7267eaca4be6214d4cca6e4ea09cbda52c6270e4a4bdb3b3e5066bf51cf"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "foreground-0.png",
+        "ground-and-objects-0.png",
+        "ground-and-objects-1.png",
+        "markers.png",
+        "signal-inlays.png"
+      ],
+      "build_recipe_members": [],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Lighthouse: The Last Signal · interactive map candidate r2",
+      "revision": "lighthouse-last-signal-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "baselines/lighthouse-last-signal-r2-source"
+      },
+      "asset_manifests": [
+        "asset-manifests/lighthouse-last-signal-r2-source.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_f40cfa6e75c081918995cfe72eada6c4",
+        "archive_sha256": "10f5c7267eaca4be6214d4cca6e4ea09cbda52c6270e4a4bdb3b3e5066bf51cf"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [],
+      "build_recipe_members": [
+        "tools/build.py"
+      ],
+      "test_evidence_members": [
+        "evidence/api/maps_tests_NativeSoundscape_README.md",
+        "evidence/api/maps_tests_NativeSoundscape_map.json",
+        "evidence/api/production-action-message-handler.txt",
+        "evidence/base-layout.json",
+        "evidence/interaction-tests.txt",
+        "evidence/native-production-diff.json",
+        "evidence/native-routes.json",
+        "evidence/native-summary.json",
+        "evidence/structure-tests.txt",
+        "tests/native/WorkAdventure-play-LICENSE.txt",
+        "tests/native/source-method-manifest.json"
+      ],
+      "visual_comparison_members": [
+        "review/beacon-closeup.png",
+        "review/runtime-complete.png",
+        "review/runtime-start.png"
+      ],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Lockkeeper’s Canal Basin",
+      "revision": "H007-r3",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": null,
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A117",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Lush Hotel Courtyard",
+      "revision": "N50-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N50-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N50-r2-source.json",
+        "asset-manifests/N50-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_cd5388058a5881918d3c282bf474e1bc",
+        "archive_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/lush-hotel-courtyard.png",
+        "source/audience-chair-north.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png",
+        "source/proof-inputs/proof-actors-east.png",
+        "source/proof-inputs/proof-actors-north.png",
+        "source/proof-inputs/proof-actors-south.png",
+        "source/proof-inputs/proof-actors-west.png",
+        "source/recovered/N47-r2/imagegen-gate-result.png",
+        "source/recovered/N47-r2/imagegen-sapling-result.png",
+        "source/recovered/N47-r2/original-r1.png",
+        "source/recovered/lush-hotel-courtyard-original.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Mangrove Nursery Pier",
+      "revision": "H016-r2",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "6e3f0035a3747a9b4c4272f2bbb93922b42acf1a24e913be10a765b497974bbd",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A102",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Marble Run Pavilion",
+      "revision": "H008-r3",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": null,
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A120",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Mechanical Orchard",
+      "revision": "H009-r3",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "640db74fe7ca9a32c88af0ef3d6b2fe7f8e311a130a1fd8381da795c67bc0adb",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A122",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Mirror Relay Foundry",
+      "revision": "H005-r2",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": null,
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A96",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Mission Control Center",
+      "revision": "mission-control-center-r1-rebuild",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "mission-control-center/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "original12/mission-control-center-r1-rebuild"
+      },
+      "asset_manifests": [
+        "asset-manifests/mission-control-center-r1-rebuild.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_17e189ca99c88191afcc28ee567bfbd2",
+        "archive_sha256": "48ec81a28910dc31858dde16f2811c6e912530fd8ef70a7780e1b9552d184ccd"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "mission-control-center/assets/above.png",
+        "mission-control-center/assets/base.png",
+        "source-assets/light-desk.png",
+        "source-assets/chair-foreground-safe.png",
+        "source-assets/command-environment-clear.png",
+        "source-assets/low-lounge-table.png",
+        "source-assets/podium-above.png",
+        "source-assets/greg-reference.png",
+        "source-assets/chair-below-safe.png",
+        "source-assets/industrial-chair40-native.png",
+        "source-assets/podium-below.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_environments.py",
+        "tools/freeze_map.py",
+        "tools/build_templates.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [
+        "mission-control-center/review/briefing-occupied-native.png",
+        "mission-control-center/review/occupied-native.png",
+        "mission-control-center/review/collision-overlay.png",
+        "mission-control-center/review/empty-native.png",
+        "mission-control-center/review/overview.png",
+        "mission-control-center/review/operators-occupied-native.png",
+        "mission-control-center/review/incident-occupied-native.png"
+      ],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Monastic Manuscript Scriptorium",
+      "revision": "N29-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N29-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N29-r2-source.json",
+        "asset-manifests/N29-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/field-chair-master.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/japanese-chair-master.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Moonlit Ruin Courtyard",
+      "revision": "N41-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N41-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N41-r3-source.json",
+        "asset-manifests/N41-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/moonlit-ruin-courtyard.png",
+        "source/audience-chair-north.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png",
+        "source/proof-inputs/proof-actors-east.png",
+        "source/proof-inputs/proof-actors-north.png",
+        "source/proof-inputs/proof-actors-south.png",
+        "source/proof-inputs/proof-actors-west.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Mosswater Tea House",
+      "revision": "N08-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N08/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N08-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N08-r3-source.json",
+        "asset-manifests/N08-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_ee4c70e4a3bc8191890a2346f8249349",
+        "archive_sha256": "30a9ec7c765b8a8e9cbb3f1ceba70f4ab99dcff3ca2533b40c19b9bc351ebacd"
+      },
+      "retained_generation_prompt_members": [
+        "source/N08-fullscene-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "N08/source/runtime-base.png",
+        "N08/source/runtime-foreground.png",
+        "source/N08-grid.png",
+        "source/N08-lantern-clear-original.png",
+        "source/N08-openbridge-original.png",
+        "source/N08-original.png",
+        "source/N08-scene-r2.png",
+        "source/N08-scene-r3.png",
+        "source/N08-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N08/review/occupants.json",
+        "N08/validation/anchor-endpoints.json",
+        "N08/validation/arrival-facing-enum-note.txt",
+        "N08/validation/arrival.log",
+        "N08/validation/native-arrival-routes.json",
+        "N08/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N08/review/actual-native-arrivals.png",
+        "N08/review/collision.png",
+        "N08/review/empty-native.png",
+        "N08/review/occupied-native.png",
+        "N08/review/review.png",
+        "N08/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N08/LESSONS.json",
+        "source/N08-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Mountain Cable Station Village",
+      "revision": "N37-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N37-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N37-r2-source.json",
+        "asset-manifests/N37-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/mountain-cable-station-village.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Mountain Mail Trail",
+      "revision": "H023-r3",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "2f756b86f49e6278eabbb789e018efb9eab77db58a6ffe48b50fda34e999c2d9",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A107",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Mycelium Lantern Grove",
+      "revision": "H013-r2",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "d80371e925745e18438ca1d58a4e2a4d44ace873ade1ae0f7bfcfa2e0fe6e462",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A99",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Neon Nickel Arcade",
+      "revision": "N17-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N17/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N17-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N17-r3-source.json",
+        "asset-manifests/N17-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+        "archive_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "N17/source/runtime-base.png",
+        "N17/source/runtime-foreground.png",
+        "source/N17-original.png",
+        "source/N17-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N17/review/occupants.json",
+        "N17/validation/anchor-endpoints.json",
+        "N17/validation/arrival-facing-enum-note.txt",
+        "N17/validation/arrival.log",
+        "N17/validation/native-arrival-routes.json",
+        "N17/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N17/review/actual-native-arrivals.png",
+        "N17/review/collision.png",
+        "N17/review/empty-native.png",
+        "N17/review/occupied-native.png",
+        "N17/review/review.png",
+        "N17/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N17/LESSONS.json",
+        "source/N17-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Nordic Product Loft",
+      "revision": "N26-r1-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N26-r1"
+      },
+      "asset_manifests": [
+        "asset-manifests/N26-r1-source.json",
+        "asset-manifests/N26-r1-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+        "archive_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/field-chair-master.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/japanese-chair-master.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Ocean Exposition",
+      "revision": "N49-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N49-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N49-r2-source.json",
+        "asset-manifests/N49-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_cd5388058a5881918d3c282bf474e1bc",
+        "archive_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/ocean-exposition.png",
+        "source/audience-chair-north.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png",
+        "source/proof-inputs/proof-actors-east.png",
+        "source/proof-inputs/proof-actors-north.png",
+        "source/proof-inputs/proof-actors-south.png",
+        "source/proof-inputs/proof-actors-west.png",
+        "source/recovered/N47-r2/imagegen-gate-result.png",
+        "source/recovered/N47-r2/original-r1.png",
+        "source/recovered/lush-hotel-courtyard-original.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Ochre Archaeology Academy",
+      "revision": "N25-r1-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N25-r1"
+      },
+      "asset_manifests": [
+        "asset-manifests/N25-r1-source.json",
+        "asset-manifests/N25-r1-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+        "archive_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/field-chair-master.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/japanese-chair-master.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Olive Arabic Academy",
+      "revision": "olive-arabic-academy-r2-rebuild",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "olive-arabic-academy/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "original12/olive-arabic-academy-r2-rebuild"
+      },
+      "asset_manifests": [
+        "asset-manifests/olive-arabic-academy-r2-rebuild.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_ead4c59a50b0819199fb74ce949482e2",
+        "archive_sha256": "c49d67130052dd1076f3296e7a748a98675f0ab2f2c15200fb5f2608db9e34d8"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "olive-arabic-academy/assets/above.png",
+        "olive-arabic-academy/assets/base.png",
+        "source-assets/academy-environment-final.png",
+        "source-assets/light-desk.png",
+        "source-assets/chair-foreground-safe.png",
+        "source-assets/low-lounge-table.png",
+        "source-assets/podium-above.png",
+        "source-assets/greg-reference.png",
+        "source-assets/chair-below-safe.png",
+        "source-assets/podium-below.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_environments.py",
+        "tools/freeze_map.py",
+        "tools/build_templates.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [
+        "olive-arabic-academy/review/occupied-native.png",
+        "olive-arabic-academy/review/collision-overlay.png",
+        "olive-arabic-academy/review/study-occupied-native.png",
+        "olive-arabic-academy/review/empty-native.png",
+        "olive-arabic-academy/review/overview.png",
+        "olive-arabic-academy/review/classroom-occupied-native.png",
+        "olive-arabic-academy/review/court-occupied-native.png"
+      ],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Orchard Grafting House",
+      "revision": "H015-r2",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "d46711f543637eda2c755b6c4c00c5715972edb03b7e3d08ea6b8367c0969a90",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A101",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Paper Marbling Mill",
+      "revision": "H039-r1",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "25cb99347eb63e8c535215b12c2a01d23784254bf430ff2f4019ec2763d2b240",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A124",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Peatland Water Gauge Walk",
+      "revision": "H017-r3",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "01e49b2115c71a7b9e9137704bf8ae2f5c6f0ba50fb927ce77dd58ee061d13a6",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A103",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Pneumatic Post Exchange",
+      "revision": "H002-r2",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": null,
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A93",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Pollinator Patch Mosaic",
+      "revision": "H012-r1",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "afe373c2cc2312a2654ff603c6a40aad5769ae2fe0609a1e6c7c6420e4584a5d",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A98",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Quiet Orbit Observatory",
+      "revision": "quiet-orbit-observatory-r1-rebuild",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "quiet-orbit-observatory/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "original12/quiet-orbit-observatory-r1-rebuild"
+      },
+      "asset_manifests": [
+        "asset-manifests/quiet-orbit-observatory-r1-rebuild.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_2a3d072d33708191aa49c0bcd23ba6d7",
+        "archive_sha256": "6d44b980b45ed10e180586317c054f09359196ee60b413f384a4e236870b0be9"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "quiet-orbit-observatory/assets/above.png",
+        "quiet-orbit-observatory/assets/base.png",
+        "source-assets/light-desk.png",
+        "source-assets/observatory-environment-ring.png",
+        "source-assets/chair-foreground-safe.png",
+        "source-assets/low-lounge-table.png",
+        "source-assets/podium-above.png",
+        "source-assets/greg-reference.png",
+        "source-assets/chair-below-safe.png",
+        "source-assets/podium-below.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_environments.py",
+        "tools/freeze_map.py",
+        "tools/build_templates.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [
+        "quiet-orbit-observatory/review/occupied-native.png",
+        "quiet-orbit-observatory/review/collision-overlay.png",
+        "quiet-orbit-observatory/review/empty-native.png",
+        "quiet-orbit-observatory/review/overview.png",
+        "quiet-orbit-observatory/review/telescope-occupied-native.png",
+        "quiet-orbit-observatory/review/research-occupied-native.png",
+        "quiet-orbit-observatory/review/seminar-occupied-native.png"
+      ],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Rain Chain Garden",
+      "revision": "H020-r2",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "84b61054d58dbd496a2f2f70e679c72606db7e5dd264fee409fb34d6c5ef16fe",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A119",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Rainforest Canopy Forum",
+      "revision": "N38-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N38-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N38-r2-source.json",
+        "asset-manifests/N38-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/rainforest-canopy-forum.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Rainveil Meditation",
+      "revision": "N16-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N16/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N16-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N16-r2-source.json",
+        "asset-manifests/N16-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_99b375841c7c8191a0bcbd5db8ecfbcb",
+        "archive_sha256": "2ce95f64ef969fde28132f8858faad4804b2264a5a42e78ece9e8ee7af3f96b9"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "N16/source/runtime-base.png",
+        "N16/source/runtime-foreground.png",
+        "source/N16-original.png",
+        "source/N16-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N16/review/occupants.json",
+        "N16/validation/anchor-endpoints.json",
+        "N16/validation/arrival-facing-enum-note.txt",
+        "N16/validation/arrival.log",
+        "N16/validation/native-arrival-routes.json",
+        "N16/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N16/review/actual-native-arrivals.png",
+        "N16/review/collision.png",
+        "N16/review/empty-native.png",
+        "N16/review/occupied-native.png",
+        "N16/review/review.png",
+        "N16/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N16/LESSONS.json",
+        "source/N16-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Resonance Media House",
+      "revision": "r7c partial reconstruction; r9 missing",
+      "kind": "new_reconstructed_authoring_not_original_source_recovery",
+      "source_reference": {
+        "commit_scope": "same repository tree as this catalogue",
+        "path": "reconstructed/media-house-editable-reconstruction"
+      },
+      "asset_manifests": [
+        "asset-manifests/media-r7c-partial-reconstructed.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_b31c9380e0f48191853a12005dca0e2c",
+        "archive_sha256": "a76be73cd6cfa8373fa5f0cb8d9a07d7feb48c1dd0006ff03b5ad43bd9f6b712"
+      },
+      "retained_generation_prompt_members": [],
+      "build_recipe_members": [
+        "tools/build_maps.py",
+        "tools/native/arrival-audit.cjs",
+        "tools/native/easystar-0.4.4.js",
+        "tools/native/extracted-current-source.cjs",
+        "tools/native/native-runtime-portable.cjs",
+        "tools/native/route-audit.cjs",
+        "tools/native/source/StartPositionCalculator.ts",
+        "tools/native/source/libs/math-utils/src/MathUtils.ts",
+        "tools/native/source/play/src/front/Phaser/Game/CameraManager.ts",
+        "tools/native/source/play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+        "tools/native/source/play/src/front/Phaser/Game/GameScene.ts",
+        "tools/native/source/play/src/front/Phaser/Player/Player.ts",
+        "tools/native/source/play/src/front/Phaser/Services/HdpiManager.ts",
+        "tools/native/source/play/src/front/Phaser/Services/WaScaleManager.ts",
+        "tools/native/source/play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts",
+        "tools/native/source/play/src/front/Utils/PathfindingManager.ts",
+        "tools/native/source-method-manifest.json",
+        "tools/reconstruct.py"
+      ],
+      "test_evidence_members": [
+        "evidence/after-native-routes.log",
+        "evidence/before-native-routes.log",
+        "evidence/original-asset-hashes.json",
+        "evidence/original-library-references.json",
+        "evidence/reconstruction-summary.json"
+      ],
+      "generation_seed": null,
+      "seed_status": "No new art generation occurred in this reconstruction.",
+      "test_status": "Five r7c outputs byte-identical; two extra standing test landmarks only; r9 visual repairs not recovered; live acceptance open.",
+      "missing_pieces": [
+        "Unavailable original latest source archives remain unavailable",
+        "Live GPU/body/head/touch/multiplayer acceptance not established"
+      ]
+    },
+    {
+      "name": "Resonance Media House",
+      "revision": "resonance-media-house-source-replay",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "resonance-media-house/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "original12/resonance-media-house-source-replay"
+      },
+      "asset_manifests": [
+        "asset-manifests/resonance-media-house-source-replay.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_380e87e8a3788191b9727044993e0543",
+        "archive_sha256": "a689397b08a6a5f82e3faa252dae670ccbb91b8fe6f325dd34062ce64cc276f2"
+      },
+      "retained_generation_prompt_members": [
+        "source/media-generation-prompt.txt",
+        "resonance-media-house/source/media-generation-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "source/media-environment-clean-seats-master.png",
+        "source/lounge-chair-north.png",
+        "source/congress-low-table.png",
+        "source/industrial-chair40-native.png",
+        "source/industrial-chair-generated-master.png",
+        "source/low-lounge-table.png",
+        "source/greg-reference.png",
+        "resonance-media-house/source/authored-walkable-mask.png",
+        "resonance-media-house/source/congress-low-table.png",
+        "resonance-media-house/source/greg-reference.png",
+        "resonance-media-house/source/industrial-chair-generated-master.png",
+        "resonance-media-house/source/industrial-chair40-native.png",
+        "resonance-media-house/source/lounge-chair-north.png",
+        "resonance-media-house/source/low-lounge-table.png",
+        "resonance-media-house/source/media-environment-clean-seats-master.png",
+        "resonance-media-house/source/runtime-above.png",
+        "resonance-media-house/source/runtime-base.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_maps.py"
+      ],
+      "test_evidence_members": [
+        "resonance-media-house/validation/atlas-roundtrip.json",
+        "resonance-media-house/validation/boundary-sweep.json",
+        "resonance-media-house/validation/depth-partition.json",
+        "resonance-media-house/validation/geometry.json",
+        "resonance-media-house/validation/native-routes.json",
+        "resonance-media-house/validation/native-routes.log",
+        "resonance-media-house/validation/spawn-domains.json"
+      ],
+      "visual_comparison_members": [
+        "resonance-media-house/review/collision-native.png",
+        "resonance-media-house/review/empty-native.png",
+        "resonance-media-house/review/occupied-native.png",
+        "resonance-media-house/review/overview.png"
+      ],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Riverside Art Fair",
+      "revision": "N46-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N46-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N46-r2-source.json",
+        "asset-manifests/N46-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_cd5388058a5881918d3c282bf474e1bc",
+        "archive_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/riverside-art-fair.png",
+        "source/audience-chair-north.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png",
+        "source/proof-inputs/proof-actors-east.png",
+        "source/proof-inputs/proof-actors-north.png",
+        "source/proof-inputs/proof-actors-south.png",
+        "source/proof-inputs/proof-actors-west.png",
+        "source/recovered/lush-hotel-courtyard-original.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Scent Garden Distillery",
+      "revision": "H038-r1",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "48cb8264b026a51c9f194c875f891bb1445c4a0df4e2ca3c2f0a41f14eea66d7",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A121",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Silicon Circuit Innovation Campus",
+      "revision": "N27-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N27-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N27-r3-source.json",
+        "asset-manifests/N27-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+        "archive_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/field-chair-master.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/japanese-chair-master.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Silvergrain Photo Club",
+      "revision": "N10-r4-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N10/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N10-r4"
+      },
+      "asset_manifests": [
+        "asset-manifests/N10-r4-source.json",
+        "asset-manifests/N10-r4-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_569ee69b6ee88191b798c423dcffa32e",
+        "archive_sha256": "bbbc6be7925c4c2a6050830e6dac387d375e315be20b97da576b522154d274af"
+      },
+      "retained_generation_prompt_members": [
+        "source/N10-fullscene-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "N10/source/runtime-base.png",
+        "N10/source/runtime-foreground.png",
+        "source/N10-forecourt-original.png",
+        "source/N10-grid.png",
+        "source/N10-original.png",
+        "source/N10-scene-r2.png",
+        "source/N10-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N10/review/occupants.json",
+        "N10/validation/anchor-endpoints.json",
+        "N10/validation/arrival-facing-enum-note.txt",
+        "N10/validation/arrival.log",
+        "N10/validation/native-arrival-routes.json",
+        "N10/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N10/review/actual-native-arrivals.png",
+        "N10/review/collision.png",
+        "N10/review/empty-native.png",
+        "N10/review/occupied-native.png",
+        "N10/review/review.png",
+        "N10/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N10/LESSONS.json",
+        "source/N10-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Sky Village Airship Terminal",
+      "revision": "N42-r4-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N42-r4"
+      },
+      "asset_manifests": [
+        "asset-manifests/N42-r4-source.json",
+        "asset-manifests/N42-r4-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/sky-village-airship-terminal.png",
+        "source/audience-chair-north.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png",
+        "source/proof-inputs/proof-actors-east.png",
+        "source/proof-inputs/proof-actors-north.png",
+        "source/proof-inputs/proof-actors-south.png",
+        "source/proof-inputs/proof-actors-west.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Skylot Garden Commons",
+      "revision": "N14-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N14/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N14-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N14-r2-source.json",
+        "asset-manifests/N14-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_99b375841c7c8191a0bcbd5db8ecfbcb",
+        "archive_sha256": "2ce95f64ef969fde28132f8858faad4804b2264a5a42e78ece9e8ee7af3f96b9"
+      },
+      "retained_generation_prompt_members": [
+        "source/N14-fullscene-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "N14/source/runtime-base.png",
+        "N14/source/runtime-foreground.png",
+        "source/N14-aisle-repair-original.png",
+        "source/N14-original.png",
+        "source/N14-scene-r2.png",
+        "source/N14-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N14/review/occupants.json",
+        "N14/validation/anchor-endpoints.json",
+        "N14/validation/arrival-facing-enum-note.txt",
+        "N14/validation/arrival.log",
+        "N14/validation/native-arrival-routes.json",
+        "N14/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N14/review/actual-native-arrivals.png",
+        "N14/review/collision.png",
+        "N14/review/empty-native.png",
+        "N14/review/occupied-native.png",
+        "N14/review/review.png",
+        "N14/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N14/LESSONS.json",
+        "source/N14-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Sleeper Train Terminus",
+      "revision": "H021-r4",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "d9b87a27adc64d4e00891bdf92b97d58503d75a520029e24f64f2cdd15411eaf",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A105",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Snowsteam Bathhouse",
+      "revision": "N13-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N13/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N13-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N13-r3-source.json",
+        "asset-manifests/N13-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_99b375841c7c8191a0bcbd5db8ecfbcb",
+        "archive_sha256": "2ce95f64ef969fde28132f8858faad4804b2264a5a42e78ece9e8ee7af3f96b9"
+      },
+      "retained_generation_prompt_members": [
+        "source/N13-fullscene-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "N13/source/runtime-base.png",
+        "N13/source/runtime-foreground.png",
+        "source/N13-original.png",
+        "source/N13-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N13/review/occupants.json",
+        "N13/validation/anchor-endpoints.json",
+        "N13/validation/arrival-facing-enum-note.txt",
+        "N13/validation/arrival.log",
+        "N13/validation/native-arrival-routes.json",
+        "N13/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N13/review/actual-native-arrivals.png",
+        "N13/review/collision.png",
+        "N13/review/empty-native.png",
+        "N13/review/occupied-native.png",
+        "N13/review/review.png",
+        "N13/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N13/LESSONS.json",
+        "source/N13-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Stone Mosaic Courtyard",
+      "revision": "H033-r4",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "0feb12a87f71544c025f3d58c8aedccb7894912597a392c38a3bfc63e3876077",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A111",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Studio r8 and Reading r4 retained runtime investigation",
+      "revision": "Rendering-Investigation",
+      "kind": "recovered_runtime_or_investigation_fixture",
+      "name_evidence_member": "fixture/README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "rendering-investigation"
+      },
+      "asset_manifests": [
+        "asset-manifests/Rendering-Investigation.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_9d5b832cfa2481918ac133db5bc17b09",
+        "archive_sha256": "090ce53d1f3aa931c1f759c445adf862b69016a0f7fe85b6bcc0028144d3c526"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "evidence/RENDERING-COMPARISON.png",
+        "fixture/assets/pixel-control/control.png",
+        "fixture/assets/reading/architecture-and-furniture.png",
+        "fixture/assets/reading/foreground.png",
+        "fixture/assets/reading/logic.png",
+        "fixture/assets/studio/environment.png",
+        "fixture/assets/studio/foreground.png",
+        "fixture/assets/studio/logic.png",
+        "fixture/assets/woka.png",
+        "source-edge-analysis/reading-r4-architecture-and-furniture-plane.png",
+        "source-edge-analysis/reading-r4-conditional-linear-composite-first.png",
+        "source-edge-analysis/reading-r4-conditional-linear-independent.png",
+        "source-edge-analysis/reading-r4-foreground-plane.png",
+        "source-edge-analysis/studio-r8-conditional-linear-composite-first.png",
+        "source-edge-analysis/studio-r8-conditional-linear-independent.png",
+        "source-edge-analysis/studio-r8-environment-plane.png",
+        "source-edge-analysis/studio-r8-foreground-plane.png"
+      ],
+      "build_recipe_members": [],
+      "test_evidence_members": [
+        "evidence/OFFLINE-RESULTS.json"
+      ],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": [
+        "Original full source archives unavailable; separate reconstructed authoring is indexed below"
+      ]
+    },
+    {
+      "name": "Threadwell Craft Studio",
+      "revision": "N15-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N15/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N15-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N15-r3-source.json",
+        "asset-manifests/N15-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_99b375841c7c8191a0bcbd5db8ecfbcb",
+        "archive_sha256": "2ce95f64ef969fde28132f8858faad4804b2264a5a42e78ece9e8ee7af3f96b9"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "N15/source/runtime-base.png",
+        "N15/source/runtime-foreground.png",
+        "source/N15-original.png",
+        "source/N15-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N15/review/occupants.json",
+        "N15/validation/anchor-endpoints.json",
+        "N15/validation/arrival-facing-enum-note.txt",
+        "N15/validation/arrival.log",
+        "N15/validation/native-arrival-routes.json",
+        "N15/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N15/review/actual-native-arrivals.png",
+        "N15/review/collision.png",
+        "N15/review/empty-native.png",
+        "N15/review/occupied-native.png",
+        "N15/review/review.png",
+        "N15/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N15/LESSONS.json",
+        "source/N15-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Tidal Causeway Crossing",
+      "revision": "H024-r4",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": "1d3ee31dcc6176e77d1d324e26b7bcd56c482eedc148984203fd8c8296f39b9a",
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A108",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Tideglass Aquarium Hall",
+      "revision": "N12-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N12/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N12-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N12-r3-source.json",
+        "asset-manifests/N12-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_569ee69b6ee88191b798c423dcffa32e",
+        "archive_sha256": "bbbc6be7925c4c2a6050830e6dac387d375e315be20b97da576b522154d274af"
+      },
+      "retained_generation_prompt_members": [
+        "source/N12-fullscene-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "N12/source/runtime-base.png",
+        "N12/source/runtime-foreground.png",
+        "source/N12-original.png",
+        "source/N12-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N12/review/occupants.json",
+        "N12/validation/anchor-endpoints.json",
+        "N12/validation/arrival-facing-enum-note.txt",
+        "N12/validation/arrival.log",
+        "N12/validation/native-arrival-routes.json",
+        "N12/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N12/review/actual-native-arrivals.png",
+        "N12/review/collision.png",
+        "N12/review/empty-native.png",
+        "N12/review/occupied-native.png",
+        "N12/review/review.png",
+        "N12/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N12/LESSONS.json",
+        "source/N12-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Tidepool Marine Classroom",
+      "revision": "N19-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N19-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N19-r3-source.json",
+        "asset-manifests/N19-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+        "archive_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/original-art.png",
+        "source/repaired-art-v2.png",
+        "source/repaired-art.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Timber & Stone Design Studio",
+      "revision": "timber-design-studio-r1-rebuild",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "timber-design-studio/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "original12/timber-design-studio-r1-rebuild"
+      },
+      "asset_manifests": [
+        "asset-manifests/timber-design-studio-r1-rebuild.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_c5ecc4d06cbc8191b968feda113fa4b4",
+        "archive_sha256": "369c2584867e56a1c5797852a189fb8ca65bbd7fd47416cf48b19aea670c1198"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "timber-design-studio/assets/above.png",
+        "timber-design-studio/assets/base.png",
+        "source-assets/cowork-environment-final.png",
+        "source-assets/light-desk.png",
+        "source-assets/chair-foreground-safe.png",
+        "source-assets/low-lounge-table.png",
+        "source-assets/podium-above.png",
+        "source-assets/greg-reference.png",
+        "source-assets/chair-below-safe.png",
+        "source-assets/podium-below.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_environments.py",
+        "tools/freeze_map.py",
+        "tools/build_templates.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [
+        "timber-design-studio/review/occupied-native.png",
+        "timber-design-studio/review/collision-overlay.png",
+        "timber-design-studio/review/empty-native.png",
+        "timber-design-studio/review/overview.png",
+        "timber-design-studio/review/meeting-occupied-native.png",
+        "timber-design-studio/review/desk-west-occupied-native.png",
+        "timber-design-studio/review/desk-east-occupied-native.png"
+      ],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Timber Design Studio / Reading Conservatory",
+      "revision": "Studio r8 / Reading r4 reconstructed authoring",
+      "kind": "new_reconstructed_authoring_not_original_source_recovery",
+      "source_reference": {
+        "commit_scope": "same repository tree as this catalogue",
+        "path": "reconstructed/studio-reading-editable-reconstruction"
+      },
+      "asset_manifests": [
+        "asset-manifests/studio-reading-reconstructed.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_0c77fe834d0c81919cd14a1ae87c59c2",
+        "archive_sha256": "991e592d477f805e543f2bdd8ec9e842ad6785f72173281cb34767faaaffe01d"
+      },
+      "retained_generation_prompt_members": [],
+      "build_recipe_members": [
+        "source/reading/map.recipe.json",
+        "source/studio/map.recipe.json",
+        "tools/build.py"
+      ],
+      "test_evidence_members": [
+        "evidence/source-inventory.json",
+        "evidence/verification.json",
+        "tests/verify.py"
+      ],
+      "generation_seed": null,
+      "seed_status": "No new art generation occurred in this reconstruction.",
+      "test_status": "11 byte-identical runtime outputs; source-only rebuild and editable-grid tests passed; live acceptance open.",
+      "missing_pieces": [
+        "Unavailable original latest source archives remain unavailable",
+        "Live GPU/body/head/touch/multiplayer acceptance not established"
+      ]
+    },
+    {
+      "name": "Turntable Dance Loft",
+      "revision": "N09-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "N09/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N09-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N09-r2-source.json",
+        "asset-manifests/N09-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_569ee69b6ee88191b798c423dcffa32e",
+        "archive_sha256": "bbbc6be7925c4c2a6050830e6dac387d375e315be20b97da576b522154d274af"
+      },
+      "retained_generation_prompt_members": [
+        "source/N09-fullscene-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "N09/source/runtime-base.png",
+        "N09/source/runtime-foreground.png",
+        "source/N09-grid.png",
+        "source/N09-original.png",
+        "source/N09-scene.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [
+        "N09/review/occupants.json",
+        "N09/validation/anchor-endpoints.json",
+        "N09/validation/arrival-facing-enum-note.txt",
+        "N09/validation/arrival.log",
+        "N09/validation/native-arrival-routes.json",
+        "N09/validation/static.json"
+      ],
+      "visual_comparison_members": [
+        "N09/review/actual-native-arrivals.png",
+        "N09/review/collision.png",
+        "N09/review/empty-native.png",
+        "N09/review/occupied-native.png",
+        "N09/review/review.png",
+        "N09/review/route-depth-contact-3x.png",
+        "N09/review/seat-contact-empty-actual-4x.png"
+      ],
+      "lessons_and_failure_members": [
+        "N09/LESSONS.json",
+        "source/N09-lessons.json"
+      ],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Vienna Pattern Atelier",
+      "revision": "N21-r2-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N21-r2"
+      },
+      "asset_manifests": [
+        "asset-manifests/N21-r2-source.json",
+        "asset-manifests/N21-r2-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+        "archive_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/original-art.png",
+        "source/repaired-art.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Volcanic Observatory Lodge",
+      "revision": "N39-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N39-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N39-r3-source.json",
+        "asset-manifests/N39-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+        "archive_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/volcanic-observatory-lodge.png",
+        "source/audience-chair-north.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png",
+        "source/proof-inputs/proof-actors-east.png",
+        "source/proof-inputs/proof-actors-north.png",
+        "source/proof-inputs/proof-actors-south.png",
+        "source/proof-inputs/proof-actors-west.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Washi Paper Architecture Workshop",
+      "revision": "N22-r1-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N22-r1"
+      },
+      "asset_manifests": [
+        "asset-manifests/N22-r1-source.json",
+        "asset-manifests/N22-r1-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+        "archive_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "source/actors/Female 03-3.png",
+        "source/actors/Female 04-1.png",
+        "source/actors/Female 12-1.png",
+        "source/actors/Female 19-4.png",
+        "source/actors/Female 22-1.png",
+        "source/actors/Male 01-4.png",
+        "source/actors/Male 02-3.png",
+        "source/actors/Male 03-3.png",
+        "source/actors/Male 09-4.png",
+        "source/actors/Male 15-2.png",
+        "source/chair-native.png",
+        "source/chair-rail-native.png",
+        "source/generated-art.png",
+        "source/generated-chair-master.png",
+        "source/industrial-chair-native.png",
+        "source/japanese-chair-master.png"
+      ],
+      "build_recipe_members": [
+        "tools/build.py",
+        "tools/freeze.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Willow Quay Tea Garden",
+      "revision": "willow-quay-tea-garden-source-replay",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "willow-quay-tea-garden/source/layout.json",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "original12/willow-quay-tea-garden-source-replay"
+      },
+      "asset_manifests": [
+        "asset-manifests/willow-quay-tea-garden-source-replay.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_cc9d88bfb09c819199f0e8df265d999d",
+        "archive_sha256": "6ad5ae9602bec260c0b1894b49f0dcbe0005e081acfb5593e5aeeac57023b276"
+      },
+      "retained_generation_prompt_members": [
+        "source/tea-generation-prompt.txt",
+        "willow-quay-tea-garden/source/tea-generation-prompt.txt"
+      ],
+      "retained_source_image_members": [
+        "source/low-lounge-table.png",
+        "source/lounge-chair-north.png",
+        "source/tea-garden-clear-landing-master.png",
+        "source/greg-reference.png",
+        "willow-quay-tea-garden/source/authored-walkable-mask.png",
+        "willow-quay-tea-garden/source/greg-reference.png",
+        "willow-quay-tea-garden/source/lounge-chair-north.png",
+        "willow-quay-tea-garden/source/low-lounge-table.png",
+        "willow-quay-tea-garden/source/runtime-above.png",
+        "willow-quay-tea-garden/source/runtime-base.png",
+        "willow-quay-tea-garden/source/tea-garden-clear-landing-master.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_maps.py"
+      ],
+      "test_evidence_members": [
+        "willow-quay-tea-garden/validation/atlas-roundtrip.json",
+        "willow-quay-tea-garden/validation/boundary-sweep.json",
+        "willow-quay-tea-garden/validation/depth-partition.json",
+        "willow-quay-tea-garden/validation/geometry.json",
+        "willow-quay-tea-garden/validation/native-routes.json",
+        "willow-quay-tea-garden/validation/native-routes.log",
+        "willow-quay-tea-garden/validation/spawn-domains.json"
+      ],
+      "visual_comparison_members": [
+        "willow-quay-tea-garden/review/collision-native.png",
+        "willow-quay-tea-garden/review/empty-native.png",
+        "willow-quay-tea-garden/review/occupied-native.png",
+        "willow-quay-tea-garden/review/overview.png",
+        "willow-quay-tea-garden/review/revised-bridge-occupied-3x.png"
+      ],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    },
+    {
+      "name": "Wind Organ Courtyard",
+      "revision": "H004-r2",
+      "kind": "unavailable_original",
+      "source_reference": null,
+      "asset_manifests": [],
+      "recorded_tmj_sha256": null,
+      "test_status": "Historical version/review identity only; original tested source/art/runtime not recovered.",
+      "missing_pieces": [
+        "original generated master art",
+        "final TMJ and runtime textures",
+        "complete original source workflow",
+        "full pre-loss validation/freeze receipts"
+      ],
+      "evidence": "Pre-loss workbook v21, Map review index A95",
+      "generation_seed": null,
+      "seed_status": "Unavailable; no seed or generation prompt invented."
+    },
+    {
+      "name": "Winter Lantern Festival",
+      "revision": "N47-r3-source",
+      "kind": "recovered_original_package",
+      "name_evidence_member": "README.md",
+      "source_reference": {
+        "verified_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
+        "path": "old50/source/N47-r3"
+      },
+      "asset_manifests": [
+        "asset-manifests/N47-r3-source.json",
+        "asset-manifests/N47-r3-runtime.json"
+      ],
+      "library_artifact": {
+        "library_file_id": "libfile_cd5388058a5881918d3c282bf474e1bc",
+        "archive_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73"
+      },
+      "retained_generation_prompt_members": [],
+      "retained_source_image_members": [
+        "art/winter-lantern-festival.png",
+        "source/audience-chair-north.png",
+        "source/greg-reference.png",
+        "source/proof-inputs/native32-actors-overlay.png",
+        "source/proof-inputs/proof-actors-east.png",
+        "source/proof-inputs/proof-actors-north.png",
+        "source/proof-inputs/proof-actors-south.png",
+        "source/proof-inputs/proof-actors-west.png",
+        "source/recovered/N47-r2/imagegen-gate-result.png",
+        "source/recovered/N47-r2/imagegen-sapling-result.png",
+        "source/recovered/N47-r2/original-r1.png",
+        "source/recovered/lush-hotel-courtyard-original.png"
+      ],
+      "build_recipe_members": [
+        "tools/build_one.py",
+        "tools/compiler.py"
+      ],
+      "test_evidence_members": [],
+      "visual_comparison_members": [],
+      "lessons_and_failure_members": [],
+      "test_status": "Archive/member preservation verified. Historical tests retain their original scope; this catalogue does not certify a new build or live acceptance.",
+      "generation_seed": null,
+      "seed_status": "Not asserted by this index; retained prompts/provenance may be inspected.",
+      "missing_pieces": []
+    }
+  ]
+}

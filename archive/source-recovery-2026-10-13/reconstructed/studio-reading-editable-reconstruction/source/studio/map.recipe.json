@@ -1,0 +1,192 @@
+{
+  "compressionlevel": -1,
+  "width": 30,
+  "height": 27,
+  "infinite": false,
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "tiledversion": "1.11.2",
+  "tilewidth": 32,
+  "tileheight": 32,
+  "type": "map",
+  "version": "1.10",
+  "nextlayerid": 7,
+  "nextobjectid": 2,
+  "backgroundcolor": "#20322b",
+  "properties": [
+    {
+      "name": "name",
+      "type": "string",
+      "value": "timber-studio-continuous-floor-r8"
+    },
+    {
+      "name": "category",
+      "type": "string",
+      "value": "Activities"
+    },
+    {
+      "name": "wokaScale",
+      "type": "int",
+      "value": 1
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "value": "Additive visible-floor repair candidate; independent semantic review pending; live untested"
+    }
+  ],
+  "layers": [
+    {
+      "name": "environment",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 30,
+      "height": 27,
+      "visible": true,
+      "opacity": 1,
+      "id": 1,
+      "data": {
+        "csv": "layers/01-environment.csv"
+      }
+    },
+    {
+      "name": "collision",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 30,
+      "height": 27,
+      "visible": true,
+      "opacity": 1,
+      "id": 2,
+      "data": {
+        "csv": "layers/02-collision.csv"
+      }
+    },
+    {
+      "name": "spawn-only-silence",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 30,
+      "height": 27,
+      "visible": true,
+      "opacity": 1,
+      "id": 3,
+      "data": {
+        "csv": "layers/03-spawn-only-silence.csv"
+      },
+      "properties": [
+        {
+          "name": "silent",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "floorLayer",
+      "type": "objectgroup",
+      "id": 4,
+      "objects": [],
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "name": "foreground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 30,
+      "height": 27,
+      "visible": true,
+      "opacity": 1,
+      "id": 5,
+      "data": {
+        "csv": "layers/05-foreground.csv"
+      }
+    },
+    {
+      "name": "map-areas",
+      "type": "objectgroup",
+      "id": 6,
+      "objects": [
+        {
+          "id": 1,
+          "name": "start",
+          "type": "area",
+          "class": "area",
+          "x": 480,
+          "y": 800,
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "start",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "visible": true,
+      "opacity": 1
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "environment",
+      "image": "environment.png",
+      "imagewidth": 768,
+      "imageheight": 1056,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 24,
+      "tilecount": 791,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 792,
+      "name": "foreground",
+      "image": "foreground.png",
+      "imagewidth": 768,
+      "imageheight": 96,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 24,
+      "tilecount": 70,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 862,
+      "name": "logic",
+      "image": "logic.png",
+      "imagewidth": 64,
+      "imageheight": 32,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 2,
+      "tilecount": 2,
+      "margin": 0,
+      "spacing": 0,
+      "tiles": [
+        {
+          "id": 0,
+          "properties": [
+            {
+              "name": "collides",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

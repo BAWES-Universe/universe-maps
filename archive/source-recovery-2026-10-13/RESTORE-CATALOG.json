@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "asset_index": "ASSET-INDEX.json",
+  "source_availability": "SOURCE-AVAILABILITY.json",
+  "restore_tool": "restore-tool/restore.py",
+  "reconstructed_instructions": "reconstructed/RESTORE-RECONSTRUCTIONS.md",
+  "packages_indexed": 121,
+  "library_checkpoints": [
+    {
+      "library_file_id": "libfile_2ab81b8f218881918e3960947f0e21c4",
+      "version": 0,
+      "filename": "Recovered-Map-Prepared-Source-Checkpoint-2026-10-13.zip",
+      "size_bytes": 8462082,
+      "sha256": "751e1687e85b1eae3761fbdd1cea18f384b4cc93624f2648899e0b65103d1b2b",
+      "readback_hash_verified": true,
+      "note": "Immutable historical checkpoint; status recorded inside predates later Git advancement."
+    },
+    {
+      "library_file_id": "libfile_6f62cd08adcc81919fdd5d46891139ce",
+      "version": 0,
+      "filename": "Map-Reconstructed-Source-Additions-2026-10-13.zip",
+      "size_bytes": 180305,
+      "sha256": "ba23e4d4193a5415219b6501328a927fec467d538ea12e149e4d6378e3eea841",
+      "readback_hash_verified": true,
+      "note": "Immutable historical checkpoint; status recorded inside predates later Git advancement."
+    },
+    {
+      "library_file_id": "libfile_0309ead2fd348191a9b5152dee02adbf",
+      "version": 0,
+      "filename": "Map-Recovery-Catalogue-and-Coverage-2026-10-13.zip",
+      "size_bytes": 944372,
+      "sha256": "727ae765785a26f9a6d17f635387c20e4fccef3726c7d8fa30cc63dd229e8dc1",
+      "readback_hash_verified": true,
+      "note": "Immutable historical checkpoint; status recorded inside predates later Git advancement."
+    }
+  ],
+  "historical_original_catalogue": {
+    "library_file_id": "libfile_0309ead2fd348191a9b5152dee02adbf",
+    "version": 0,
+    "sha256": "727ae765785a26f9a6d17f635387c20e4fccef3726c7d8fa30cc63dd229e8dc1",
+    "archives": 181,
+    "members": 9018,
+    "includes_original12": true
+  },
+  "artifact_versions_must_match_hashes": true,
+  "signed_urls_or_credentials_embedded": false
+}

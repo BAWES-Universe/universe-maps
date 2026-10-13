@@ -1,19 +1,26 @@
 # Recoverable map source checkpoint
 
-This branch preserves small authoring code, configuration, source documentation and exact recovery manifests. Large artwork, runtime assets and bulky evidence stay in their durable Library originals. This is not a complete all-assets Git mirror, an R2 backup or a deployment.
+This source tree preserves small authoring code, configuration, tests, reconstruction sources and exact recovery manifests. Large artwork, runtime assets and bulky evidence remain in their authenticated Library originals. It is not an all-assets Git mirror, an R2 backup or a deployment.
 
-## Verified coverage
+## Verified source and asset coverage
 
-- All 50 old maps: complete source and runtime packages recovered and hash-verified. Source text is in old50/source; every remaining file has an exact artifact/member mapping in asset-manifests.
-- Original 12 templates: complete rebuild archives recovered; source text and exact Library mappings preserved under original12.
-- N35 Lighthouse Festival Island is part of the 50-map collection. Last Signal r2 separately has recovered complete source and runtime. Keeper Return r2 has recovered runtime only; its full rebuild source is missing.
-- The rendering investigation preserves Studio r8 and Reading r4 runtime fixtures, not their complete source generators. Media r9 source/runtime remain missing.
-- The 33 new H-series original packages remain unavailable. H009-initial, H025 and H039 folders contain clearly labeled partial recoveries. Historical READY files and scoped test results do not make those partials complete.
+- Commit 4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f preserved 1,859 recovered source/manifest entries. This tree adds the separately labeled reconstructed authoring described below.
+- All 50 old maps: complete source and runtime packages recovered and hash-verified. Selected source text is under old50/source; exact remaining artifact/member mappings are in asset-manifests. N35 Lighthouse Festival Island belongs to this group.
+- Original 12 templates: complete rebuild/source archives recovered, with selected text under original12 and every remaining byte Library-backed. Last Signal r2 separately has complete recovered source and runtime.
+- Keeper Return r2: original runtime and all 16 artwork inputs survive. Newly reconstructed editable source reproduces all 19 runtime files byte-for-byte. Its inherited teleport-race failure remains documented. The original full source archive is still unavailable.
+- Studio r8 and Reading r4: surviving original runtime fixtures support separately reconstructed editable layers/builders, reproducing 11 outputs exactly. The original full source archives remain unavailable.
+- Media House: original r7c source/runtime survive; the partial reconstruction reproduces five original runtime files and adds two test landmarks only. Missing r9 and its visual repairs have not been recovered.
+- The 33 H-series original packages remain unavailable. H009-initial, H025 and H039 are clearly labeled partial recoveries. Historical READY files and test results do not turn them into complete originals.
+- A separate authenticated Library catalogue inventories 181 historical archives and 9,018 exact members, including the original 12. These counts overlap the groups above. Diagnostic, blocked and concept packages retain their historical limitations. A lean historical-source Git checkpoint is prepared separately.
 
-## Restore without handling ZIPs manually
+## Restore
 
-An assistant uses the connected Library tools to materialize the artifact IDs named in ASSET-INDEX.json and each package manifest. Signed download URLs and credentials are deliberately absent from this repository. The restore tool verifies the artifact, nested archive, and every original member before restoring files to their exact paths. See restore-tool/README.md.
+Use ASSET-INDEX.json and RESTORE-CATALOG.json to locate the exact Library identity, archive hash and member mappings. An assistant can materialize these through authenticated Library tools without asking the user to manage ZIP files. Signed download URLs and credentials are absent. The restore tool verifies outer archives, nested archives and every member before restoring exact paths. See restore-tool/README.md and reconstructed/RESTORE-RECONSTRUCTIONS.md.
 
-Restore a complete package before running its original build instructions. Typical prerequisites include Python 3, Pillow, NumPy, Node.js, and for some review tools ReportLab, pdftoppm and DejaVu Sans fonts. No paid image generation is needed for these recovered original packages. This checkpoint does not claim fresh builds or live-game acceptance.
+Restore a complete package before building. Typical prerequisites are Python 3, Pillow, NumPy and Node.js; some historical review tools also use ReportLab, pdftoppm and DejaVu Sans. Recovered original artwork is reused without regeneration. Source reconstruction and byte-exact rebuilding are separate from live GPU, body/head/depth, touch or multiplayer acceptance, which remain open unless specifically documented.
 
-The testing workbook and SOURCE-AVAILABILITY.json distinguish source recovery, runtime recovery, historical QA and live acceptance. Existing master, gh-pages and published maps are unchanged.
+No merge or deployment is included. SOURCE-AVAILABILITY.json records remaining gaps, and each preserved test report retains its original scope.
+
+## Find a map by name
+
+Start with [MAP-CATALOG.md](MAP-CATALOG.md), or use the machine-readable [MAP-CATALOG.json](MAP-CATALOG.json). These connect retained revisions to source paths, exact asset manifests, retained generation prompts and build recipes, historical comparison/failure evidence, and missing pieces.

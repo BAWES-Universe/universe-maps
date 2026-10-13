@@ -1,0 +1,856 @@
+{
+  "schema_version": 1,
+  "package_id": "resonance-media-house-r7c-source-replay",
+  "destination": "reconstructed/dependencies/resonance-media-house-r7c-source-replay",
+  "artifact": {
+    "name": "resonance-media-house-r7c-source-replay.zip",
+    "library_file_id": "libfile_79f4eff094d08191b9c7f8f48321defb",
+    "version_id": null,
+    "sha256": "a3c5c4d352165e12a30220851f744c9c13f88a47c48c63e06adb61ffaadf33be",
+    "size_bytes": 32940951
+  },
+  "nested_archives": [],
+  "source_status": "original_r7c_dependency_not_missing_r9",
+  "files": [
+    {
+      "path": "tools/build_maps.py",
+      "sha256": "0551e2b7b69a84a09d6e653fd62c85d57b1179a0d02c6d47e3216fd0348beb78",
+      "size_bytes": 29400,
+      "git_blob_sha1": "450afd397a1871f85bdbb5593e5bccbd7e89bfed",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/check_chair_depth.py",
+      "sha256": "6a4bfd2764d63d293f0bfc31ccb9703243cdbea887c99e607c9262ca6890eba5",
+      "size_bytes": 3471,
+      "git_blob_sha1": "4fb3dfed3a289d13447cb293061f37df16073f32",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/check_r7c_delta.py",
+      "sha256": "b282f6122f9743301664bd6887d912cf9e3d0af5099d88449fa6c515be461cc2",
+      "size_bytes": 2748,
+      "git_blob_sha1": "e331e955eb828fb85d076e81aed4d7d5cadfe939",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/check_spawn_and_boundaries.py",
+      "sha256": "619ad2e2f209522977c931367fa3b697c0faa7f4efee8cd5aa94c657af31a02e",
+      "size_bytes": 3236,
+      "git_blob_sha1": "3025695e754152a0ee466093d050e8462528cce6",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/create_review_pdf.py",
+      "sha256": "814e0489e96c1833f0a0c0685b9c07a96ea1e12859751626a0a5bfc2513414ce",
+      "size_bytes": 2812,
+      "git_blob_sha1": "adaaa335c6017f7f1141e5027de8ef2d64293b02",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/expand_r7.py",
+      "sha256": "37e27c8a36b54f8149d58d40e4cac76c3d1642cbe70c677334be61f13b278733",
+      "size_bytes": 4119,
+      "git_blob_sha1": "31be4c23ec80f7b1b3076ca6ea97606e4e797157",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/exterior_evidence.py",
+      "sha256": "e76b595ff95bfaece51b083d5e846e9d2f2a988d790f587197e0a78fbb191333",
+      "size_bytes": 1049,
+      "git_blob_sha1": "b2830e17cd3c811443876725d73a05801a4119af",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/arrival-audit.cjs",
+      "sha256": "3bbb38b336ac449e98cb190d9468405e81ae8c2e953a176827ad16b0ee56c232",
+      "size_bytes": 5487,
+      "git_blob_sha1": "d55eb69006faf5580456eba3da9a2e1a7e28a4ae",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/easystar-0.4.4.js",
+      "sha256": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+      "size_bytes": 25143,
+      "git_blob_sha1": "91c1011123b2eafdb0d3de614120ad6a9d9c5279",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/extracted-current-source.cjs",
+      "sha256": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+      "size_bytes": 31744,
+      "git_blob_sha1": "4df97863541382687271aa3dc753ae57438f1cc1",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/native-runtime-portable.cjs",
+      "sha256": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+      "size_bytes": 2190,
+      "git_blob_sha1": "7c2d9ca60b15caa8e5495862eb9186d1a4dd6fb1",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/route-audit.cjs",
+      "sha256": "995d45f73d2840cf9a1a6f8256532bb1b0fd22564b8218fe9b2c0b7c1851f7ef",
+      "size_bytes": 5447,
+      "git_blob_sha1": "0d0ce787ab56eb350b36c077704842589ffb0a15",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/source/StartPositionCalculator.ts",
+      "sha256": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+      "size_bytes": 12453,
+      "git_blob_sha1": "c73f03c6e9242007acf839b0deb120f7664e2e7c",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/source/libs/math-utils/src/MathUtils.ts",
+      "sha256": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+      "size_bytes": 2002,
+      "git_blob_sha1": "fbf112735b3710294efd50fcb06a5006db5c3a6a",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/CameraManager.ts",
+      "sha256": "c6bea29bffe270221ec35435ea1181df5d670edeac0dbb3b1918db0da8553b80",
+      "size_bytes": 47978,
+      "git_blob_sha1": "cc79b8b6af93778aba3051b7f1b187897d449e7b",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "sha256": "f011429f25599b348640a57894b28560f3755da1a72b97cdfdbffd9ae2d3cdfc",
+      "size_bytes": 53557,
+      "git_blob_sha1": "93ab4bd2df2e8a5e8f2ca748bb351b3e0e0a4436",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/GameScene.ts",
+      "sha256": "7c901514db24890c3750631d8e32124643e87de41750fb90e4a2d7f54ac1c146",
+      "size_bytes": 200530,
+      "git_blob_sha1": "4451b827cb48f9baeea4daa06cc62a6c419ff864",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Player/Player.ts",
+      "sha256": "47c30fe3c2d16f52da3b499599de57b2240e75be4d91b2c816aae1179e8bc3d9",
+      "size_bytes": 15312,
+      "git_blob_sha1": "3b1eee86204b1d5993ad1e7784cdf6961c9416f0",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Services/HdpiManager.ts",
+      "sha256": "6e25f9e127d3b712edf8ab7e87b1f11f82f8b4681772ccfe1d20c868e3f4d3fc",
+      "size_bytes": 5693,
+      "git_blob_sha1": "a87b8fba27dc5dcbd0b018f1e504448d704f5293",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Services/WaScaleManager.ts",
+      "sha256": "d811cf48d3fa8561a37a6689bcc0e639f5ceb1837fb3d762b326e104dde77a27",
+      "size_bytes": 8256,
+      "git_blob_sha1": "2005fd7b22a57983d8e92820a7914e1b86b2017f",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts",
+      "sha256": "d4bdce55f82caa5e94e372fa2ca57eb2a241f0ed0e78609d4dedb975b665a89a",
+      "size_bytes": 13849,
+      "git_blob_sha1": "a50370cc0927de73cff75dd5d46e72543d8fa935",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Utils/PathfindingManager.ts",
+      "sha256": "b6d055091ec000f2e47b3e1def2f7ee7c42aae96ff3301c36a8b26b9c1b0c715",
+      "size_bytes": 12672,
+      "git_blob_sha1": "5b74fe6971bf14674f5c66b17b8ac1508eaee942",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/native/source-method-manifest.json",
+      "sha256": "86c7dff4e686ea1c12f638626042618a6b35c96bb8a4b0c7c54e0becc119d665",
+      "size_bytes": 5842,
+      "git_blob_sha1": "9c67df6e15e4e0cc5592a86346ce27f94991c5b9",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/package.py",
+      "sha256": "69409a515f9a9c670aa9625e7ac23fb254158681645319245027cd79ffac1574",
+      "size_bytes": 6772,
+      "git_blob_sha1": "23480a0f6aedb7024bb825e707fd68d38a828982",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/package_r7.py",
+      "sha256": "7a657710c5eaf4c49bfc2cb408bb52b832d603a93354f6556c682bf67bd69827",
+      "size_bytes": 8442,
+      "git_blob_sha1": "19b91db1d33d7e13fef57d2cbe5e2f816324429b",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/rebuild.py",
+      "sha256": "44fa4bafe233056216c23379cc3641d1c10eb46054b457d15a21fe27404154f2",
+      "size_bytes": 6880,
+      "git_blob_sha1": "a0ccb274813ba56f994746062fb4c14f352d140b",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/render_actual_seat_facings.py",
+      "sha256": "b1953a80a598232e738870b743016caacb814381701308a4072b5fcdc5ff01c7",
+      "size_bytes": 539,
+      "git_blob_sha1": "09a48938554ae65a8f7f789aeed8b8ec01dbeb3f",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/render_native_arrivals.py",
+      "sha256": "49018f8da52d9c08fe14b47766be899341cca655629d584b9bf88552e1bf9c0b",
+      "size_bytes": 2465,
+      "git_blob_sha1": "e6b9dc3b10a8d22bd8db288384dc928de6ed0bae",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/render_runtime_proofs.py",
+      "sha256": "4f235b7ed7d8b82b1921236745e8b11c888c18faae58f0efa69f432f47197aca",
+      "size_bytes": 5197,
+      "git_blob_sha1": "6c80c94f1422c75838f15597ae26cfe3b6aee1af",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/repair_chair_depth.py",
+      "sha256": "e157bdd0b593fcde93f970da1caa090b64f842a25f36de08a7fb28ef1e4f2617",
+      "size_bytes": 3376,
+      "git_blob_sha1": "915475a2b8286f0c5b1aae301e02132ded3cc301",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "tools/review_r7.py",
+      "sha256": "29a4d99ef8dc3cecc21ec01f66fbdf8fd1a961242e1b75de0d24bd759f38a61e",
+      "size_bytes": 5050,
+      "git_blob_sha1": "9c9910f5da7a9c84a7e0e5bfa3cab38e9bf6bdbe",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/chair-lowback-below-native.png",
+      "sha256": "31eb08bb3bbed3bc973329b66ef2db524fe15b3b81af0220257afddbcbc64aca",
+      "size_bytes": 1792,
+      "git_blob_sha1": "e5852463f18573f3ef791feb14323377e8833cbc",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/chair-lowback-full-native.png",
+      "sha256": "b6f6c66bb8a5bf970a7ae89ee5e28a60b602e54a5b73bd48a5abd6de0216da27",
+      "size_bytes": 2301,
+      "git_blob_sha1": "1e562bd52b5cfacd8dd8dcdaa85f3712d4dd6348",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/chair-lowback-rail-native.png",
+      "sha256": "1ae36b1bb531715e30dd5fcec99e4f5c5d0dcb069076f69f11f2c919eefdc4fe",
+      "size_bytes": 712,
+      "git_blob_sha1": "94cea06b1d018172e2efb93972dedeaa65dc8149",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/congress-low-table.png",
+      "sha256": "6c09afcb7bc5490f44dffd3a09d35505cff569ad8d8862b5f58fabc8f60dccde",
+      "size_bytes": 7413,
+      "git_blob_sha1": "b1acfee83dd6a32352e58980d3332083fd0e9fc0",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/greg-reference.png",
+      "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+      "size_bytes": 9396,
+      "git_blob_sha1": "26c5fb73b09082ba3f8453d9766e672e2432155b",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/industrial-chair40-native.png",
+      "sha256": "8815105ad53384c9a42ddb46a6cf440075a79256d0a20b1aa0369b3edde97037",
+      "size_bytes": 3667,
+      "git_blob_sha1": "b23d9aa554e842a7b7d996f162370ab1b83afe13",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/keyboard-stool.png",
+      "sha256": "21739430d9449a8b858649f3e98db2ae0de0f4c69d8e163d6b2d084ce6369bfe",
+      "size_bytes": 1161,
+      "git_blob_sha1": "a3193575621798a6e6413b6c9f19040a116eaa99",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/listening-chair-east.png",
+      "sha256": "f6d44860eb57a813eac6411d0e1cd126ef46106e4878123c49075f4eb898562a",
+      "size_bytes": 2003,
+      "git_blob_sha1": "ed10ddf604ede9318c247e11bb880314f7347a52",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/media-environment-clean-seats-master.png",
+      "sha256": "57e2ca276514741b66e843b4ce47dffc7411dff748f33c1513e6ba2358c883f1",
+      "size_bytes": 2211034,
+      "git_blob_sha1": "389affea7a8053758f8c66c2c7c9b51e215d2fdb",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/proof-inputs/native32-actors-overlay.png",
+      "sha256": "e99c6e5507d1013519898aa14ed362a964f38bae9181f945892c8bb7f1e96a42",
+      "size_bytes": 12278,
+      "git_blob_sha1": "bd992302cc3ffc4216387aae208f4499e876cda6",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/proof-inputs/native32-actors-provenance.json",
+      "sha256": "771bc96d130fe32dde52b1ab9f8608d130ae9104cdde777d8950a26a3d36439d",
+      "size_bytes": 3072,
+      "git_blob_sha1": "32f7436b3842d6a2c82b5d8c31616465bfb56a8a",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/r7-exterior-generated.png",
+      "sha256": "8911a1d1c612b07a6d940344cf8fcd8dd7725c271629bb92a69d94e8d79c5e27",
+      "size_bytes": 1811446,
+      "git_blob_sha1": "733ae6ceabd474ec8f418bb7bbf7f1adf57a556a",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/r7-generation-prompts.json",
+      "sha256": "62f30f5e22e9952ac3a2c95259ca7e36c8dc13d8859353aef066814a793c2f97",
+      "size_bytes": 694,
+      "git_blob_sha1": "aa4c0c6ac2923cf3ba3f504170508b5c82b05ac1",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/r7b-generation-spec.json",
+      "sha256": "8ecbdd23c8adb4ba177e9cbe0b1e08e9e54d2f17acc030ee5b9ca2178a9f01dc",
+      "size_bytes": 1680,
+      "git_blob_sha1": "746a0389ba95a06395c16b1701b5c969248753e7",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/r7b-path-repair-master.png",
+      "sha256": "6781e07db0b9e8cf5951570edb70df8484feaf5cb03977e41cdbf105430f8ec7",
+      "size_bytes": 2872025,
+      "git_blob_sha1": "1ec96a433a26fdff56a4e006e29cb078c4e49dab",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/r7b-preserved-south-entry-strip.png",
+      "sha256": "73776114985bcadf68990bae227ebdb50b5d4039524bda5e5e48d158ee6bc7d0",
+      "size_bytes": 18174,
+      "git_blob_sha1": "3b26cc5912a94025f70e72158f432fc266cd4fc6",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "source/screen-chair.png",
+      "sha256": "d8be8132aabf2e7e9c2e22a4a4f46e96b28f2b2cd7e211b8e08f707cb8545569",
+      "size_bytes": 1526,
+      "git_blob_sha1": "47d2730d7235887faf232386f77d03c415250880",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/MANIFEST.json",
+      "sha256": "417c429c4fecf722d5bffe287719cf6f3b8660535ecacb4c06d3badbde5442d0",
+      "size_bytes": 40043,
+      "git_blob_sha1": "f3f69bcb16b1fcca9d7921577e417599fa09177c",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/PROVENANCE.md",
+      "sha256": "b3192ddb662ca4d2418a8445ba22e1de20ef40e83f8abee6c97bd176b7fb8daa",
+      "size_bytes": 1477,
+      "git_blob_sha1": "fd108d96caf5d7d837c30c6e2776604f5f58af8f",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/README.md",
+      "sha256": "05d4e17b6b7051ad1713e002966f5cbfdf149701433f45b58858f42919bf6b04",
+      "size_bytes": 2913,
+      "git_blob_sha1": "298ec246c95df9d2139c8cc7a89bcb016aa36cca",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/map32/foreground-0.png",
+      "sha256": "35fea5eaceccaed9adfc401503875b620abb59b79eef9da83e707ebb3a56e163",
+      "size_bytes": 1196,
+      "git_blob_sha1": "9eb1d009ae4e505c80dbc017dfe7a7d9bcb88a37",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/map32/ground-and-objects-0.png",
+      "sha256": "1447b84d2650ae5096779e117979b7f215fb113fa00b19d58a723bdc803624ee",
+      "size_bytes": 1844066,
+      "git_blob_sha1": "379ff0425f94149cab9c87cf16b04044dbdaf1e3",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/map32/markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/map32/resonance-media-house.tmj",
+      "sha256": "b2999caf485804debc977aaa385975d001caafe0bec357d6e63dd565dd8fccc3",
+      "size_bytes": 49229,
+      "git_blob_sha1": "27db0248f343654fb8eb2c7ce417a775468b1666",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/map32/resonance-media-house.wam",
+      "sha256": "61b1c799212a08d024c8cf03d46d76dc74c91a20acd8783098b749f065e47eb5",
+      "size_bytes": 1207,
+      "git_blob_sha1": "6b48b16ba5593bd83dc205e8255def034fb89a72",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/actual-atlas-depth-probes.png",
+      "sha256": "78c33d42154fb99757cb9fe76efa3568707354c6a63684ce9979905677271a74",
+      "size_bytes": 167516,
+      "git_blob_sha1": "fe188ff908b17cd5066b386fec08106f1ab2db6b",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/actual-native-arrivals.png",
+      "sha256": "e5bcc2e7bc19eadbb20befa2974a63cdbde337cd5c85bd71494b762ed0e00be3",
+      "size_bytes": 109354,
+      "git_blob_sha1": "3cc6d8c5c2df8bf1ca503d0f341547897d5f8a6d",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/actual-seat-facings.png",
+      "sha256": "896e75ba0ca0b27be61d73c804b6da15436c8f2f75ac341cd6cbd0c8d9ed8a22",
+      "size_bytes": 102438,
+      "git_blob_sha1": "be76921aa16965109693830436eab9dbe8d31617",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/boundary-sweep-0-native.png",
+      "sha256": "2273ea75e13bcea6ff5427f7f3324487502986089a058e26949e307fa7682955",
+      "size_bytes": 1715965,
+      "git_blob_sha1": "f13476622e9f6feee6588e242615f25525f82e4b",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/boundary-sweep-1-native.png",
+      "sha256": "0eb02ebcfd44da1415d46aa18b14cff712f87059ed5e303fefd001034636a005",
+      "size_bytes": 1716795,
+      "git_blob_sha1": "b37941a6d69d05b64329a602cf66fed5cad9a976",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/boundary-sweep-2-native.png",
+      "sha256": "8fcbb06aaf763a25519bdb6c121ed74e3391f9472e5c69422a278f6ac72f9531",
+      "size_bytes": 1720201,
+      "git_blob_sha1": "e5088da68745c2fe61182920785d0e92f57f49ca",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/boundary-sweep-3-native.png",
+      "sha256": "0a3fd8ec0f95188286b991664a20e9ed2d4e9a82503a1b8521f134e0fa5731d3",
+      "size_bytes": 1720989,
+      "git_blob_sha1": "715b9b0624b46a21c1ba2fcd34af3788c33ab1a3",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/chair-depth-probes.png",
+      "sha256": "d8eb3eb89e1a98b76d0b0abab5ade8b46bcc8771bd26dfe2cd3f547df8cf6f65",
+      "size_bytes": 122606,
+      "git_blob_sha1": "b57c8a82daadce4c957253a0e67061753489c69a",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/chair-motion-extrema.png",
+      "sha256": "10b403e777363ec5f52f737dd469c739160d8d9afd88f453f42382272ff7a05c",
+      "size_bytes": 171335,
+      "git_blob_sha1": "6e3e02227b0e4be950b96bb7c5aa44b7a4ac3f59",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/collision-native.png",
+      "sha256": "8b91d87213a66ee25607569085e3a1fc99c68d417d4aea04bc255250d4aad526",
+      "size_bytes": 1730128,
+      "git_blob_sha1": "d63a830e2af07f942db563c61d41353a753ef1a7",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/empty-native.png",
+      "sha256": "1ee6e09a1cb3409b494a190d49d99ca6ec615e466556395fbc19140c6749978d",
+      "size_bytes": 1843621,
+      "git_blob_sha1": "30b0a4f64cabc3b0da3f42a4bf0304aeb5c90e13",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/exterior-occupants.json",
+      "sha256": "ef89859ea7583072f5a977b4164bc83c55ea230459d27771863d7f4f58d61ef6",
+      "size_bytes": 1107,
+      "git_blob_sha1": "61aa4fa3504bbf41eebb403dbc71ad7126a5fa60",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/exterior-occupied-native.png",
+      "sha256": "c3c915cfae96a4052e110c1d37a1a9893bdeb88f4745013888ed7dcf23aae056",
+      "size_bytes": 1847401,
+      "git_blob_sha1": "e096c0c07d2db4ca726db327fed99705b501dca2",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/inherited-chair-depth-probes.png",
+      "sha256": "d8eb3eb89e1a98b76d0b0abab5ade8b46bcc8771bd26dfe2cd3f547df8cf6f65",
+      "size_bytes": 122606,
+      "git_blob_sha1": "b57c8a82daadce4c957253a0e67061753489c69a",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/intended-config-occupied.png",
+      "sha256": "c3c915cfae96a4052e110c1d37a1a9893bdeb88f4745013888ed7dcf23aae056",
+      "size_bytes": 1847401,
+      "git_blob_sha1": "e096c0c07d2db4ca726db327fed99705b501dca2",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/intended-seat-facings.png",
+      "sha256": "896e75ba0ca0b27be61d73c804b6da15436c8f2f75ac341cd6cbd0c8d9ed8a22",
+      "size_bytes": 102438,
+      "git_blob_sha1": "be76921aa16965109693830436eab9dbe8d31617",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/native-arrival-occupied.png",
+      "sha256": "c862b5b89e50c1c7594d4a65a7d50dc2e11afc7fe5af2fb5a0085949db27b623",
+      "size_bytes": 1848825,
+      "git_blob_sha1": "3bb4408322005e14ee4635a1d7ac2e841d2b5606",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/occupants.json",
+      "sha256": "0e1c5f0f1b8088754eb4dca911c0aed6befbedc9c60748972bfdc64bb3816b5e",
+      "size_bytes": 6407,
+      "git_blob_sha1": "8b6e245964dfbfe7bce4efb40f868cf57115894d",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/occupied-native.png",
+      "sha256": "5ddd0b8b6f8d5776e1f8234044c8adb1f48277f5e3a0cff1bdb3fdd6b20ee32c",
+      "size_bytes": 1845835,
+      "git_blob_sha1": "1f11b635f01bfd296935069a2241861d885adb39",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/review/overview.png",
+      "sha256": "a969fd4902e0a726fd3ba06e7d45605fa602982f9fdfc1bba59327628b227dfe",
+      "size_bytes": 1655269,
+      "git_blob_sha1": "4aef05d2d5c6a338a8475b0d7653e064505670e9",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/source/layout.json",
+      "sha256": "220bc34ab461a4077a4754881bb868cf6b6271e4e80349daedf5cba9ed2e441b",
+      "size_bytes": 27380,
+      "git_blob_sha1": "56980abf78124f598d512a5e4dd06ebe1e2654eb",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/source/protected-fixture-footprints.png",
+      "sha256": "28a55a15867aad23594490fd88feb89cf01b087ca985f79772cdecd38ad33e64",
+      "size_bytes": 2254,
+      "git_blob_sha1": "50eb6ea8d01cea0f68af80279eb3c3f445bdaee7",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/source/runtime-above.png",
+      "sha256": "19c61532f7b8c75ee9f7d2e9ceb25a4bfcbcc281ca7be4689e9dbf6812a45654",
+      "size_bytes": 5010,
+      "git_blob_sha1": "f6363b12ac13b6477caabd9763b57fa2e9d21f9c",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/source/runtime-base.png",
+      "sha256": "1447b84d2650ae5096779e117979b7f215fb113fa00b19d58a723bdc803624ee",
+      "size_bytes": 1844066,
+      "git_blob_sha1": "379ff0425f94149cab9c87cf16b04044dbdaf1e3",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/PIPOYA-LICENSE.txt",
+      "sha256": "eb1e2b6f3aca0caa8556b93372b696f9f90dd0c4fd0ce2c1f522ce71e83a72bf",
+      "size_bytes": 149,
+      "git_blob_sha1": "973f2ad7f9255ff75192f0b60b589b35dbe5e9d1",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/arrival-routes.log",
+      "sha256": "328cd60692d12cf15167870d5c7b542b7bf1db48114093e60d4bc24cb93a3963",
+      "size_bytes": 658,
+      "git_blob_sha1": "818ff42bb0615136806d51f80cc115808bee6c7d",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/atlas-roundtrip.json",
+      "sha256": "342c196af9e08629464a640c3f5c69280c27b47962604f4bac2c14d7c1199c28",
+      "size_bytes": 175,
+      "git_blob_sha1": "14add7aeb811f5310c219947dfbfccb8d065ff78",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/boundary-sweep.json",
+      "sha256": "26f8e549b6118723fb35ea0f591b60d2cea50ae79f0024e77dab0bfe26ddc3f2",
+      "size_bytes": 129678,
+      "git_blob_sha1": "f3a2754d9f270b2669d486649a6a48b359840358",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/chair-depth-check.json",
+      "sha256": "a76b2457f7a0dc28dce58d736144b0cf1e2c869ed1dae748f735ca77904d61b1",
+      "size_bytes": 18577,
+      "git_blob_sha1": "1056176629d2c2acecdbd04103c04847a37de397",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/chair-depth-repair-spec.json",
+      "sha256": "fd1db29f17ee5d30a8efcc4b250e2d712b5a96d2bb814a7516104e5932fff982",
+      "size_bytes": 6145,
+      "git_blob_sha1": "de76b8182da8b4040c443d7a9417d3840dca6571",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/decoded-runtime-proof.json",
+      "sha256": "cccd1ac94eadf58a6063d9ebc3528c6fe99d2320176f668fda7ee58a2a07d21f",
+      "size_bytes": 943,
+      "git_blob_sha1": "3d33d5542515c2f7941fab6df410719cd110cfa2",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/depth-partition.json",
+      "sha256": "464595ba7c1e0fa2da96433187fdb2300a8e6d4d7ea5d1a23f043edc91899e07",
+      "size_bytes": 283,
+      "git_blob_sha1": "7ac9c93de7275691327f2e81d5d1d2f6764435e5",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/fixture-mask-scope.json",
+      "sha256": "19b2d5d03aea76454ac0dcabf90cc0e86c4fe87db3c7bca46cf81ac4a792aaa4",
+      "size_bytes": 356,
+      "git_blob_sha1": "619bab3722816a02364253652e5a472029980eab",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/geometry.json",
+      "sha256": "ffe907c34ab4d2151ca3e926c389ae1cba8737b0eb7fb3354b2075418d186940",
+      "size_bytes": 7326,
+      "git_blob_sha1": "492638b1efa80d7c5169a5b276ceb3aa60c9de55",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/native-arrival-proof.json",
+      "sha256": "537a4a5a4359df599391c7c207d0e4a6a67d6917ae53a5d6901660aa6c57174a",
+      "size_bytes": 7735,
+      "git_blob_sha1": "daf3fb9ab88e79bae494f08dd0c70ab388ddf19b",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/native-arrival-routes.json",
+      "sha256": "d2b8e72caf1987cbfba7738cdffb39c8f3f9450868d138ed7d77d52a807405c3",
+      "size_bytes": 643252,
+      "git_blob_sha1": "b47f3e496fd3563be878974d39cca996caa299d0",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/native-routes.json",
+      "sha256": "f7ff1b47e4a7747d36e8ab5918e3be32162812a552b51372d952f4c039260210",
+      "size_bytes": 596758,
+      "git_blob_sha1": "afbe7b24c1a59354e82f14bfa374bec67d567f0e",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/native-routes.log",
+      "sha256": "328cd60692d12cf15167870d5c7b542b7bf1db48114093e60d4bc24cb93a3963",
+      "size_bytes": 658,
+      "git_blob_sha1": "818ff42bb0615136806d51f80cc115808bee6c7d",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/perimeter-loop.json",
+      "sha256": "0454b05c40d3a11955e5f9056fad33211f452cb6d55737fbc6ffc49b48467400",
+      "size_bytes": 3741,
+      "git_blob_sha1": "015f0d7d155393c185c69a1c75c59020bbb442d6",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/r6-preservation.json",
+      "sha256": "2387864df2fb8d68bbbd5e7f96c401b4ab5aea3412e42411202365751cda8ac5",
+      "size_bytes": 1714,
+      "git_blob_sha1": "7ea0ee2926149c221f921bc3bfb3c1bb7a3722c2",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/r7c-delta.json",
+      "sha256": "44ac58d84aa49c999e32c48b69f67d17b1558096cf01d763ebf12f62072bd804",
+      "size_bytes": 3730,
+      "git_blob_sha1": "8b0786b5eb4c931b1d827e6e3b9150808348bc5a",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/scale.json",
+      "sha256": "d1c97af5f2db3cf5e931efc11b3428d9053c0a6c9a1d41ae7006817dc776d62e",
+      "size_bytes": 333,
+      "git_blob_sha1": "72cb6379506acb8f2304e3fa368b456fc7150a44",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/seat-arrival-alignment.json",
+      "sha256": "dfc3dce9d4743c7487ebda6139e2ba2e4f1f9ed5e2426da9cabb2bf5c8654296",
+      "size_bytes": 77444,
+      "git_blob_sha1": "5c84aa24243fe28dca69dde6cfda973f5a32633b",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/spawn-domains.json",
+      "sha256": "cdea896e9540c25757720eaba9a699cf35c7464ee9c55b30c11667b6861a0adc",
+      "size_bytes": 1136,
+      "git_blob_sha1": "f006843c9354aa1a08300b0d64380ae8336940e1",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "resonance-media-house/validation/woka-provenance.json",
+      "sha256": "18abe0a1212d60450e1a2cc3d5d179672e871c1223a717feccd58941828bd686",
+      "size_bytes": 7353,
+      "git_blob_sha1": "2f2e31b16779bf3c1ba671051756cb64a67ae883",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "r6-preserved/review/empty-native.png",
+      "sha256": "b8a542b1c49042d0fe9b1d5fadeee45d82f2ec8f304b36f2d36c44f40dedf21f",
+      "size_bytes": 873767,
+      "git_blob_sha1": "692a1247efa81141cd5e14ce6a616c450a1dbf63",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "r6-preserved/source/layout.json",
+      "sha256": "6d3c74200793a4937bd005e1f3d8ed5447c8b88ac66dccdc9854c56d9fe85607",
+      "size_bytes": 14628,
+      "git_blob_sha1": "ddebae98b5a3fe2508f66ec74ecb1327e3236771",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "r6-preserved/source/runtime-above.png",
+      "sha256": "4a10a694531e536212d8f5713d2e35bdf11cb07e8336e3a57400a98939f97f9d",
+      "size_bytes": 1890,
+      "git_blob_sha1": "ef972d86d11af9dcb47c49f95696ac3da2af881e",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    },
+    {
+      "path": "r6-preserved/source/runtime-base.png",
+      "sha256": "b8a542b1c49042d0fe9b1d5fadeee45d82f2ec8f304b36f2d36c44f40dedf21f",
+      "size_bytes": 873767,
+      "git_blob_sha1": "692a1247efa81141cd5e14ce6a616c450a1dbf63",
+      "storage": "library",
+      "reason": "original_source_art_and_runtime_dependency"
+    }
+  ]
+}

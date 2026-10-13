@@ -1161,6 +1161,61 @@
       "library_files": 27,
       "library_file_id": "libfile_9d5b832cfa2481918ac133db5bc17b09",
       "artifact_sha256": "090ce53d1f3aa931c1f759c445adf862b69016a0f7fe85b6bcc0028144d3c526"
+    },
+    {
+      "package_id": "keeper-r2-reconstructed",
+      "manifest": "asset-manifests/keeper-r2-reconstructed.json",
+      "destination": "reconstructed",
+      "files": 61,
+      "git_files": 61,
+      "library_files": 0,
+      "library_file_id": "libfile_5fe8a50573488191a77cdb169cef6cca",
+      "artifact_sha256": "b49eb2238fb5afd818bb143ce04f5563bdf248c6251852f65077b380b3d2b9ba",
+      "source_status": "reconstructed_editable_source_runtime_byte_identical_19_files; inherited_teleport_race_known_failure; original_source_unavailable"
+    },
+    {
+      "package_id": "media-r7c-partial-reconstructed",
+      "manifest": "asset-manifests/media-r7c-partial-reconstructed.json",
+      "destination": "reconstructed/media-house-editable-reconstruction",
+      "files": 33,
+      "git_files": 16,
+      "library_files": 17,
+      "library_file_id": "libfile_b31c9380e0f48191853a12005dca0e2c",
+      "artifact_sha256": "a76be73cd6cfa8373fa5f0cb8d9a07d7feb48c1dd0006ff03b5ad43bd9f6b712",
+      "source_status": "partial_reconstruction_of_r7c_5_exact_runtime_files; r9_source_runtime_missing; r9_visual_repairs_not_recovered"
+    },
+    {
+      "package_id": "studio-reading-reconstructed",
+      "manifest": "asset-manifests/studio-reading-reconstructed.json",
+      "destination": "reconstructed/studio-reading-editable-reconstruction",
+      "files": 26,
+      "git_files": 20,
+      "library_files": 6,
+      "library_file_id": "libfile_0c77fe834d0c81919cd14a1ae87c59c2",
+      "artifact_sha256": "991e592d477f805e543f2bdd8ec9e842ad6785f72173281cb34767faaaffe01d",
+      "source_status": "reconstructed_editable_source_runtime_byte_identical_11_files; original_sources_unavailable; live_review_open"
+    },
+    {
+      "package_id": "resonance-media-house-r7c-runtime",
+      "manifest": "reconstructed/dependencies/resonance-media-house-r7c-runtime.json",
+      "destination": "reconstructed/dependencies/resonance-media-house-r7c-runtime",
+      "files": 5,
+      "git_files": 0,
+      "library_files": 5,
+      "library_file_id": "libfile_24baecfd179c8191a159bc0df64307c4",
+      "artifact_sha256": "4e832c8c700ed9aa869d73b0852b87e70ee91f4becdaee503d532157877fb96a",
+      "source_status": "original_r7c_dependency_not_missing_r9"
+    },
+    {
+      "package_id": "resonance-media-house-r7c-source-replay",
+      "manifest": "reconstructed/dependencies/resonance-media-house-r7c-source-replay.json",
+      "destination": "reconstructed/dependencies/resonance-media-house-r7c-source-replay",
+      "files": 105,
+      "git_files": 0,
+      "library_files": 105,
+      "library_file_id": "libfile_79f4eff094d08191b9c7f8f48321defb",
+      "artifact_sha256": "a3c5c4d352165e12a30220851f744c9c13f88a47c48c63e06adb61ffaadf33be",
+      "source_status": "original_r7c_dependency_not_missing_r9"
     }
   ]
 }

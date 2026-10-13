@@ -1,0 +1,89 @@
+{
+  "id": 6,
+  "name": "map-areas",
+  "type": "objectgroup",
+  "x": 0,
+  "y": 0,
+  "visible": true,
+  "opacity": 1,
+  "draworder": "topdown",
+  "objects": [
+    {
+      "id": 1,
+      "name": "start",
+      "type": "area",
+      "class": "area",
+      "x": 768,
+      "y": 784,
+      "width": 31,
+      "height": 31,
+      "rotation": 0,
+      "visible": true,
+      "properties": [
+        {
+          "name": "start",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "festival-lawn",
+      "type": "area",
+      "class": "area",
+      "x": 544,
+      "y": 384,
+      "width": 447,
+      "height": 191,
+      "rotation": 0,
+      "visible": true,
+      "properties": [
+        {
+          "name": "editorLabel",
+          "type": "string",
+          "value": "Festival gathering lawn"
+        },
+        {
+          "name": "setupStatus",
+          "type": "string",
+          "value": "Unconfigured editor-ready area"
+        },
+        {
+          "name": "purpose",
+          "type": "string",
+          "value": "Social gathering; no event broadcast configuration"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "pavilion",
+      "type": "area",
+      "class": "area",
+      "x": 1184,
+      "y": 240,
+      "width": 159,
+      "height": 47,
+      "rotation": 0,
+      "visible": true,
+      "properties": [
+        {
+          "name": "editorLabel",
+          "type": "string",
+          "value": "Open pavilion"
+        },
+        {
+          "name": "setupStatus",
+          "type": "string",
+          "value": "Unconfigured editor-ready area"
+        },
+        {
+          "name": "purpose",
+          "type": "string",
+          "value": "Host approach; no microphone or stage mechanics configured"
+        }
+      ]
+    }
+  ]
+}

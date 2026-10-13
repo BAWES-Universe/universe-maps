@@ -140,7 +140,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Rejected reference; retained for history, not recommended
 - Source/evidence: [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/lantern-congress-source-complete.json)
 - Recovered runtime revision: **lantern-congress-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/lantern-congress-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.wam)
 - TMJ SHA-256: `a1a3040a45384ae3380b90f479c327c35c5301e7e71a695c5a5f5fe628c84005`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -181,7 +181,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Rejected reference; retained for history, not recommended
 - Source/evidence: [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/esports-arena-01-source-complete.json)
 - Recovered runtime revision: **esports-arena-01-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.wam)
 - TMJ SHA-256: `b72cc096702debb18bd56bf19eeb012e197ce9b03c3b03a4a399244a0cd7ec89`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.

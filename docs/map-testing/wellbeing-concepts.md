@@ -19,7 +19,7 @@
 - Current state: Original six-mat concept approved; later instructor-facing r4 is a separate unapproved revision
 - Source/evidence: [Historical source search; exact current source not verified](../../archive/source-recovery-2026-10-13/lean-historical/HISTORICAL-MAP-CATALOG.md)
 - Different recovered revision (not the review revision): **timber-mixed-six-mat-instructor-facing-r4** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.wam)
 - TMJ SHA-256: `9291affcd0f9bb2b3051b43dc5151bfeeced5839dc43e7bac179d2d78aa1abff`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -61,7 +61,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Rejected reference; larger replacement is a separate concept
 - Source/evidence: [Historical source search; exact current source not verified](../../archive/source-recovery-2026-10-13/lean-historical/HISTORICAL-MAP-CATALOG.md)
 - Different recovered revision (not the review revision): **timber-gym-context-r3** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/timber-gym-context-r3/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/map.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/map.wam)
 - TMJ SHA-256: `29ffbaefd54379dfcd8a7e5f0884d859f227e83a22a3815d7d43786bd7ad49dd`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -102,7 +102,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Paused/shelved reference; testing and iteration stopped
 - Source/evidence: [Historical source search; exact current source not verified](../../archive/source-recovery-2026-10-13/lean-historical/HISTORICAL-MAP-CATALOG.md)
 - Different recovered revision (not the review revision): **timber-yoga-dark-mats-r4** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/map.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/map.wam)
 - TMJ SHA-256: `2137729371bbea7e248a406e462503202b6b775fd09e07cda11ef9dc7c292be6`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.

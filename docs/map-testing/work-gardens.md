@@ -63,7 +63,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered r4 candidate; user design approval and live acceptance open
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/quiet-orbit-observatory-r4-source/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/quiet-orbit-observatory-r4-source.json)
 - Recovered runtime revision: **quiet-orbit-observatory-r4-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/map.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/map.wam)
 - TMJ SHA-256: `64e5144453b49830e9d46eb3b2d2e2be5fa819411fdae39634221cf6e5c60ee0`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -106,7 +106,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered r4 candidate; user final design approval and live acceptance open
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/Mission-Control-r4-source/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/Mission-Control-r4-source.json)
 - Recovered runtime revision: **Mission-Control-r4-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/map.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/map.wam)
 - TMJ SHA-256: `ecba8068ca83077a051dbd68fdf4af956e4b5271688bae15ebece7ea9a4cab08`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -149,7 +149,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered r5 candidate r05; user design approval and live acceptance open
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/willow-furniture-r5-r05-source/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/willow-furniture-r5-r05-source.json)
 - Recovered runtime revision: **willow-furniture-r5-r05-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.wam)
 - TMJ SHA-256: `de651bdc163a7f6356c8118c8772a95471e1de5a8a7a61ad8b1469ab853a7e3c`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -192,7 +192,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered r2b candidate; user design approval and live acceptance open
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/art-deco-sales-atelier-r2b-source/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/art-deco-sales-atelier-r2b-source.json)
 - Recovered runtime revision: **art-deco-sales-atelier-r2b-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.wam)
 - TMJ SHA-256: `53156d1a72dec2536fdf606ac8e5fa501acdaa3bc67b329f5dba9b68a80222cf`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -235,7 +235,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered r2 expansion; original r1 approval does not approve this expansion
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/timber-movement-studio-r2-source/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/timber-movement-studio-r2-source.json)
 - Recovered runtime revision: **timber-movement-studio-r2** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/map.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/map.wam)
 - TMJ SHA-256: `64ba9b845ef53c033454038769899f90ca491092bbb1894ee70994978963395b`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -318,7 +318,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered unaccepted calmer-palette draft; original expanded r4 preserved
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/Celestial-Garden-Calmer-Draft-Source/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/Celestial-Garden-Calmer-Draft-Source.json)
 - Recovered runtime revision: **Celestial-Garden-Calmer-Draft-Runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.wam)
 - TMJ SHA-256: `bcfbb89c171d327d17385a8a3604eab38e94b77843e134e52ea07746730d67e1`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.

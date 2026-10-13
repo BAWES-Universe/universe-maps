@@ -13,6 +13,7 @@ This is the editable GitHub home for map identity, test priorities and feedback.
 
 ## Current gates
 
+- The runtime backup passed an independent fresh GitHub restore: 600 files (596 original runtime files + 4 metadata files), 80 candidates/experiences. [Exact commit, checks and limits](RESTORE-RECEIPT.md).
 - Only Academy r7, Souk r8b and Workshop r3-review2 have retained hosted-file links in the active list. Exact bytes/closure were last checked on 11 Oct 2026 at 21:55 UTC. They remain untested in the live engine/devices in the imported record.
 - The archive runtimes for those three families are older r6, r6-fountain and r2. The cards keep those revisions separate from the hosted repairs.
 - Keeper r2 has a known teleport-recovery race. Studio r8 and Reading r4 still need real-engine rendering acceptance. Media r9 remains missing; r7c and a partial reconstruction do not contain proof of its later repairs.

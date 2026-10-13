@@ -4,7 +4,7 @@
   "workbook_review_records": 118,
   "additional_recovered_experience_records": 5,
   "runtime_candidates": 80,
-  "runtime_status": "Upload verification pending; map source and runtime links must be checked in final Git tree",
+  "runtime_status": "Fresh GitHub download and file-integrity/dependency checks passed. No deployment or live acceptance is implied.",
   "records": [
     {
       "id": "workshop-walkability-r3-review2",
@@ -3982,5 +3982,9 @@
       },
       "workbook_row": null
     }
-  ]
+  ],
+  "runtime_commit": "9f80f9020df16993a4d1811552b0d816d403ccb1",
+  "runtime_tree": "99563233ab2962604ff0f71cce0a8d18faed0c3d",
+  "runtime_verified_at": "2026-10-13T13:08:08.014841+00:00",
+  "restore_receipt": "../RESTORE-RECEIPT.md"
 }

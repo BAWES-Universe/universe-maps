@@ -6,7 +6,7 @@ Find a map, open its exact source/runtime and keep its feedback in GitHub. No sp
 
 Start with [the interactive experience / engine-PR guide](docs/map-testing/EXPERIENCE-GUIDE.md): **Last Signal r2** has a ring-and-note beacon puzzle; **Keeper’s Return r2** adds enterable rooms and a linked lighthouse puzzle. Both are recovered candidates, with no verified current game-session link. Keeper also has an open teleport-recovery race.
 
-**Runtime backup upload is being verified.** Runtime links below target the recovery tree; they are not deployments. Source backup baseline: `f6c4ec62a2023e6f321a63b7db0269ffa0e60822`. The runtime receipt must confirm the final commit before this banner is cleared.
+**Runtime backup restored and verified from GitHub.** All 600 runtime/metadata files at commit [`9f80f902`](https://github.com/BAWES-Universe/universe-maps/commit/9f80f9020df16993a4d1811552b0d816d403ccb1) passed an independent fresh download and integrity check. [Restore receipt](docs/map-testing/RESTORE-RECEIPT.md). These are backup files, not deployments or live acceptance.
 
 ## Start testing
 

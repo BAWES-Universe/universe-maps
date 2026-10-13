@@ -19,7 +19,7 @@ Start with the [interactive experience and engine-PR guide](EXPERIENCE-GUIDE.md)
 - Current state: Original r2 source and runtime recovered; unpublished; live acceptance open
 - Source/evidence: [Original r2 source](../../archive/source-recovery-2026-10-13/baselines/lighthouse-last-signal-r2-source/)
 - Recovered runtime revision: **lighthouse-last-signal-r2-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.wam)
 - TMJ SHA-256: `3f0da81589faee13032922a438cdac5d3fa33ed87f22752c1b826abbde993b0e`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -63,7 +63,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Original r2 runtime recovered; full original authoring missing; reconstructed authoring is separate; known teleport-race failure
 - Source/evidence: [Reconstructed authoring (not original)](../../archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/)
 - Recovered runtime revision: **lighthouse-keepers-return-r2-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.wam)
 - TMJ SHA-256: `94bdc3c6dbd4ccf9a096b828016795083497f39da6f5f4c2ab2b8080b48634aa`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.

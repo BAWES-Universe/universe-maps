@@ -32,7 +32,7 @@
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N01-r3/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N01-r3-source.json)
 - Recovered runtime revision: **N01-r3-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N01-r3-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N01-r3-runtime/N01.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N01-r3-runtime/N01.wam)
 - TMJ SHA-256: `d8e48cbd12be7d3b132440e16bf5ea4e849b9e457f1d24457b302570887f2ecb`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -75,7 +75,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N02-r4/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N02-r4-source.json)
 - Recovered runtime revision: **N02-r4-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N02-r4-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N02-r4-runtime/N02.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N02-r4-runtime/N02.wam)
 - TMJ SHA-256: `1c79d398577a164cd56d654db9c3e5085e329b07980c27b15f8d91c71c870cd3`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -118,7 +118,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N03-r3/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N03-r3-source.json)
 - Recovered runtime revision: **N03-r3-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N03-r3-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N03-r3-runtime/N03.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N03-r3-runtime/N03.wam)
 - TMJ SHA-256: `7b1b47582da94e22c9bf0fc30926a92ff75e41795afbf6c9896e791a519c2926`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -161,7 +161,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N04-r3/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N04-r3-source.json)
 - Recovered runtime revision: **N04-r3-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N04-r3-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N04-r3-runtime/N04.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N04-r3-runtime/N04.wam)
 - TMJ SHA-256: `0025d9d724ca462206ab2a747624e650d29bb52b0619c6726ad56fd5125f0efa`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -204,7 +204,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N05-r3/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N05-r3-source.json)
 - Recovered runtime revision: **N05-r3-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N05-r3-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N05-r3-runtime/N05.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N05-r3-runtime/N05.wam)
 - TMJ SHA-256: `6b7efb35e468f60a38e024889171415930b2c7d77bde925e9f38c12bdb2e12c1`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -247,7 +247,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N06-r2/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N06-r2-source.json)
 - Recovered runtime revision: **N06-r2-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N06-r2-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N06-r2-runtime/N06.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N06-r2-runtime/N06.wam)
 - TMJ SHA-256: `d2fa2106ebd9a6f23b58c5e750f2a2beaafa2e21fea668617fd35a86b1b64622`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -290,7 +290,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N07-r3/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N07-r3-source.json)
 - Recovered runtime revision: **N07-r3-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N07-r3-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N07-r3-runtime/N07.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N07-r3-runtime/N07.wam)
 - TMJ SHA-256: `b96f56cc179b53ee4cb69cb93f8f314fbeba4be5cf2bbaf6a9b1f1a68cc2d48d`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -333,7 +333,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N08-r3/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N08-r3-source.json)
 - Recovered runtime revision: **N08-r3-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N08-r3-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N08-r3-runtime/N08.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N08-r3-runtime/N08.wam)
 - TMJ SHA-256: `5d724f1cd9426c4767d3ecd6d80b2626335e2a5b0512108cc9de1423b72dc530`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -376,7 +376,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N09-r2/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N09-r2-source.json)
 - Recovered runtime revision: **N09-r2-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N09-r2-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N09-r2-runtime/N09.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N09-r2-runtime/N09.wam)
 - TMJ SHA-256: `e84da61edec377e85d0e463defa9c41b703a404e4d8782ed5d83932dae60f3c1`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -419,7 +419,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N10-r4/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N10-r4-source.json)
 - Recovered runtime revision: **N10-r4-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N10-r4-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N10-r4-runtime/N10.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N10-r4-runtime/N10.wam)
 - TMJ SHA-256: `77601ced44d304a9f38171edad2a2c76f39b8a91516aec37bb614dd787abac69`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -462,7 +462,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N11-r2/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N11-r2-source.json)
 - Recovered runtime revision: **N11-r2-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N11-r2-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N11-r2-runtime/N11.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N11-r2-runtime/N11.wam)
 - TMJ SHA-256: `b6dd7464df666cad01c6b31de87232cef81290061ca5442898ad34578601e903`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -505,7 +505,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N12-r3/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N12-r3-source.json)
 - Recovered runtime revision: **N12-r3-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N12-r3-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N12-r3-runtime/N12.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N12-r3-runtime/N12.wam)
 - TMJ SHA-256: `33717693e09a13cfe3f1f72097be5ffebca1782af5ee09da2e8b2ca0823fe726`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -548,7 +548,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N13-r3/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N13-r3-source.json)
 - Recovered runtime revision: **N13-r3-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N13-r3-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N13-r3-runtime/N13.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N13-r3-runtime/N13.wam)
 - TMJ SHA-256: `127187d48e062b9b76798dc8cfa97eea47a3cb1f5b8ab6588ec4886d36cc5a95`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -591,7 +591,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N14-r2/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N14-r2-source.json)
 - Recovered runtime revision: **N14-r2-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N14-r2-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N14-r2-runtime/N14.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N14-r2-runtime/N14.wam)
 - TMJ SHA-256: `b0f95412c279e45a7dbcd8c3c381260c0787bd0b0d2d96f775192c8573d22a85`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -634,7 +634,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N15-r3/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N15-r3-source.json)
 - Recovered runtime revision: **N15-r3-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N15-r3-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N15-r3-runtime/N15.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N15-r3-runtime/N15.wam)
 - TMJ SHA-256: `ce51c72174c0cebaf87a7c373b75936a155d809b79c0837aedcc0e5391f871a7`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -677,7 +677,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N16-r2/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N16-r2-source.json)
 - Recovered runtime revision: **N16-r2-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N16-r2-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N16-r2-runtime/N16.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N16-r2-runtime/N16.wam)
 - TMJ SHA-256: `2946e076ced81d0735136ee14b1d63ee4a0e26a12ea8eaa4235f610427ace79f`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -720,7 +720,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered original source and runtime; historical checks retained; live acceptance not rerun
 - Source/evidence: [Original source / retained recipe](../../archive/source-recovery-2026-10-13/old50/source/N17-r3/) · [Exact original member manifest](../../archive/source-recovery-2026-10-13/asset-manifests/N17-r3-source.json)
 - Recovered runtime revision: **N17-r3-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/N17-r3-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/N17-r3-runtime/N17.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/N17-r3-runtime/N17.wam)
 - TMJ SHA-256: `d2ab2a301b630810f0097c0bb70eb8e3c14942cb8067fc071855fa383b4e7d3c`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.

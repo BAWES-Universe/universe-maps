@@ -125,4 +125,4 @@ Evidence: [interactive-experiences.json](data/interactive-experiences.json) cont
 
 ## Next action to make these playable
 
-Select the exact candidate and an approved isolated test room, serve its complete runtime subtree, import/configure the companion WAM and record the actual frontend commit. Validate the hosted assets and run the map-specific checklist before adding a game-session URL here. This register does not authorize a merge, deployment or publication. Runtime Git uploads remain explicitly pending until their remote receipt is verified.
+Select the exact candidate and an approved isolated test room, serve its complete runtime subtree, import/configure the companion WAM and record the actual frontend commit. Validate the hosted assets and run the map-specific checklist before adding a game-session URL here. This register does not authorize a merge, deployment or publication. The runtime backup has now passed an independent fresh GitHub readback; see the [restore receipt](RESTORE-RECEIPT.md). This changes backup availability only. The play-room/deployment gates above remain open.

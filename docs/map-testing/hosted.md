@@ -20,7 +20,7 @@ These are the only three retained hosted-file candidates in this register. Last 
 - Current state: Hosted-file candidate; live acceptance open
 - Source/evidence: [Historical source search; exact current source not verified](../../archive/source-recovery-2026-10-13/lean-historical/HISTORICAL-MAP-CATALOG.md)
 - Different recovered revision (not the review revision): **inventors-sandbox-workshop-r2-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.wam)
 - TMJ SHA-256: `841e315d43cb869140a052c7225ae25ad161a29ab4f8896994111e6ee8ff9739`
 - Retained hosted inputs: [TMJ](https://bawes-universe.github.io/universe-maps/templates/2026-10-11-path-repairs/workshop-walkability-r3-review2/map32/map.tmj) · [companion WAM](https://bawes-universe.github.io/universe-maps/templates/2026-10-11-path-repairs/workshop-walkability-r3-review2/map32/map.wam) · [frozen GitHub TMJ](https://github.com/BAWES-Universe/universe-maps/blob/5c06a65b88c88a8758432a52f378513b49224a7b/public/templates/2026-10-11-path-repairs/workshop-walkability-r3-review2/map32/map.tmj)
@@ -65,7 +65,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Hosted-file candidate; live acceptance open
 - Source/evidence: [Historical source search; exact current source not verified](../../archive/source-recovery-2026-10-13/lean-historical/HISTORICAL-MAP-CATALOG.md)
 - Different recovered revision (not the review revision): **lantern-souk-bazaar-r6-fountain-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.wam)
 - TMJ SHA-256: `6442282c70ecbac39a0916d786e5a74416937254e50e0116a96385911cec921a`
 - Retained hosted inputs: [TMJ](https://bawes-universe.github.io/universe-maps/templates/2026-10-11-path-repairs/souk-floor-r8b/map32/lantern-souk-bazaar-r5.tmj) · [companion WAM](https://bawes-universe.github.io/universe-maps/templates/2026-10-11-path-repairs/souk-floor-r8b/map32/lantern-souk-bazaar-r5.wam) · [frozen GitHub TMJ](https://github.com/BAWES-Universe/universe-maps/blob/5c06a65b88c88a8758432a52f378513b49224a7b/public/templates/2026-10-11-path-repairs/souk-floor-r8b/map32/lantern-souk-bazaar-r5.tmj)
@@ -110,7 +110,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Hosted-file candidate; live acceptance open
 - Source/evidence: [Historical source search; exact current source not verified](../../archive/source-recovery-2026-10-13/lean-historical/HISTORICAL-MAP-CATALOG.md)
 - Different recovered revision (not the review revision): **olive-academy-live-repair-r6-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.wam)
 - TMJ SHA-256: `a8efab5a3f472ee27d11af1eaa5e54ccb3ecfe0f1e27460e31c1435e999d3a08`
 - Retained hosted inputs: [TMJ](https://bawes-universe.github.io/universe-maps/templates/2026-10-11-path-repairs/academy-floor-r7/map32/map.tmj) · [companion WAM](https://bawes-universe.github.io/universe-maps/templates/2026-10-11-path-repairs/academy-floor-r7/map32/map.wam) · [frozen GitHub TMJ](https://github.com/BAWES-Universe/universe-maps/blob/5c06a65b88c88a8758432a52f378513b49224a7b/public/templates/2026-10-11-path-repairs/academy-floor-r7/map32/map.tmj)

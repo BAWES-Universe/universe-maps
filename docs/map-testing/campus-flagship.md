@@ -26,7 +26,7 @@
 - Current state: Recovered glass/terrace candidate; study only; final design not approved
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/flagship-glass-d-r02-source/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/flagship-glass-d-r02-source.json)
 - Recovered runtime revision: **flagship-glass-d-r02** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.wam)
 - TMJ SHA-256: `135665c51c1cb57f87d7c8b66d87d47a7db5b3d57e0da0be767c45054da1ee53`
 - Experimental/reference runtime: preserve and evaluate separately; no acceptance implied.
@@ -70,7 +70,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered Gate B v4 reference; live acceptance not rerun
 - Source/evidence: [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/Gate-B-v4-publication-receipt.json)
 - Recovered runtime revision: **butterfly-gate-b-v4** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj)
 - TMJ SHA-256: `9f92df380846507e5134d7ec42c977750df9d987514f845ccf0d1606211eebea`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -113,7 +113,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered v11 runtime with cross-version dependencies retained; live acceptance not rerun
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/Campus11-final-source-and-preview/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/Campus11-final-source-and-preview.json)
 - Recovered runtime revision: **campus-v11** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/campus-v11/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.wam)
 - TMJ SHA-256: `1c7a9d27d434732453d706ac79dc482309db59a217d80f19b626d9380bc097ad`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -156,7 +156,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Historical option; not newly approved
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/astral-flagship-a-v07-standalone-source/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/astral-flagship-a-v07-standalone-source.json)
 - Recovered runtime revision: **astral-flagship-a-v07** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.wam)
 - TMJ SHA-256: `50c07de93567b15d7b5170bca02a4fe2b43dd5865fe02f6b90d06605947e2b85`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -199,7 +199,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Historical option; not newly approved
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/astral-flagship-b-v08-standalone-source/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/astral-flagship-b-v08-standalone-source.json)
 - Recovered runtime revision: **astral-flagship-b-v08** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.wam)
 - TMJ SHA-256: `a9120457e63c3118de7a884879471b6219442bb26a72971f8c4ce163615e8f7b`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -242,7 +242,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Historical option; lower flooring/terrace rejected; glass study only
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/astral-flagship-c-v09-standalone-source/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/astral-flagship-c-v09-standalone-source.json)
 - Recovered runtime revision: **astral-flagship-c-v09** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.wam)
 - TMJ SHA-256: `1f63e14e5fe656a4db00eda91cb52a961540e6e7a44bdeafd7ec1c5daf44dc9e`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -285,7 +285,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered runtime candidate; not a newly accepted design or deployment
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/Butterfly-Town-v2-source-review/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/Butterfly-Town-v2-source-review.json)
 - Recovered runtime revision: **butterfly-town-v2** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/butterfly-town-v2/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj)
 - TMJ SHA-256: `dff32360181d8e4c465756ab5e2f9577faad17083e2bfde19084eac8af749831`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -327,7 +327,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered runtime candidate; not a newly accepted design or deployment
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/Butterfly-Gate-playable-revision/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/Butterfly-Gate-playable-revision.json)
 - Recovered runtime revision: **butterfly-gate-a-v6** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj)
 - TMJ SHA-256: `d284ee94a6c608903e3858efc30fcae12837d4ee7e89a6cf9f49c5a5cec8f104`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -369,7 +369,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered runtime candidate; not a newly accepted design or deployment
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/StudentHub-connected-workplace-source/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/StudentHub-connected-workplace-source.json)
 - Recovered runtime revision: **studenthub-connected-workplace-01** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/studenthub-connected-workplace-01/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/studenthub-connected-workplace-01/studenthub-connected-workplace/map/studenthub-proof.tmj)
 - TMJ SHA-256: `0a70a16ef729d66939899d12f04de3c2b1ae7ab635dae1c9c43b60a56b8ca8be`
 - Experimental/reference runtime: preserve and evaluate separately; no acceptance implied.
@@ -412,7 +412,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered runtime candidate; not a newly accepted design or deployment
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/connected-office-source-review-02/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/connected-office-source-review-02.json)
 - Recovered runtime revision: **social-outdoor-office-02** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/social-outdoor-office-02/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/social-outdoor-office-02/spawn-proximity-repair-01/candidates/social-outdoor-office-02/map/studenthub-outdoor-office.tmj)
 - TMJ SHA-256: `0e1d34ac9094a1d882e7145009679dec39d9fa8de963a83b76e3a0a8c9f9f618`
 - Experimental/reference runtime: preserve and evaluate separately; no acceptance implied.
@@ -455,7 +455,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Recovered runtime candidate; not a newly accepted design or deployment
 - Source/evidence: [Retained authoring / records](../../archive/source-recovery-2026-10-13/lean-historical/authoring/astral-concourse-lobby-01-source/) · [Exact original package/member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/astral-concourse-lobby-01-source.json)
 - Recovered runtime revision: **astral-concourse-lobby-01** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/astral-concourse-lobby.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/astral-concourse-lobby.wam)
 - TMJ SHA-256: `0d0ad1d16b4a434ad8e05cccdc490029f6ceb10656ab742e6002523384af9f15`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.

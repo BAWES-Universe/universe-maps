@@ -18,7 +18,7 @@
 - Current state: Exact frozen r8 runtime recovered; full original authoring missing; reconstruction separate; rendering acceptance open
 - Source/evidence: [Reconstructed authoring (not original)](../../archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/) · [Retained rendering investigation](../../archive/source-recovery-2026-10-13/rendering-investigation/)
 - Recovered runtime revision: **timber-studio-r8-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/map.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/map.wam)
 - TMJ SHA-256: `cf02f68080b959f1da5288480c3428f4aa7c9dc3e928c2f83751603a102360ca`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -62,7 +62,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Exact frozen r4 runtime recovered; full original authoring missing; reconstruction separate; rendering acceptance open
 - Source/evidence: [Reconstructed authoring (not original)](../../archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/) · [Retained rendering investigation](../../archive/source-recovery-2026-10-13/rendering-investigation/)
 - Recovered runtime revision: **reading-conservatory-r4-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/map.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/map.wam)
 - TMJ SHA-256: `bc640034dbe13645ce7208ed45e13071909bb4c1f02a3bc8ef5dee41d16e1347`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
@@ -106,7 +106,7 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Current state: Requested r9 original source/runtime still missing; r7c fallback and partial reconstruction only
 - Source/evidence: [Partial r7c reconstruction (not r9)](../../archive/source-recovery-2026-10-13/reconstructed/media-house-editable-reconstruction/) · [Original r7c member manifest](../../archive/source-recovery-2026-10-13/lean-historical/manifests/resonance-media-house-r7c-source-replay.json)
 - Different recovered revision (not the review revision): **resonance-media-house-r7c-runtime** · [Entire runtime folder](../../archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/)
-- Runtime Git upload: **pending verification**; runtime links are planned destinations and may not open yet.
+- Runtime Git backup: **fresh-download verified** at `9f80f902`; [restore receipt](RESTORE-RECEIPT.md). Deployment/live acceptance remains separate.
 - Runtime entry: [TMJ](../../archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/resonance-media-house.tmj) · [WAM](../../archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/resonance-media-house.wam)
 - TMJ SHA-256: `b2999caf485804debc977aaa385975d001caafe0bec357d6e63dd565dd8fccc3`
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.

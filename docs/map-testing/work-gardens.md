@@ -118,6 +118,10 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - [ ] Walk behind and between desk rows; keep desk feet solid and test briefing interaction with a second user.
 - [ ] Run the applicable [common acceptance checks](COMMON-CHECKS.md) on this exact map and engine revision; record N/A with a reason for absent features.
 
+### Dated follow-up · 13 Oct 2026
+
+User calls the design perfect: preserve the artwork. Current-r4 source inspection confirms false-blocked floor at the entrance sides, main screen, upper-room edges/south floor and console fronts; the user’s exact tested version remains unconfirmed. Coarse whole-tile polygon admission is implicated; previous route checks sampled admitted targets only. [Compare intended floor with the collision mask, not only admitted-cell connectivity](QUALITY-REVIEW-2026-10-13.md#mission-control--design-approved-boundaries-need-inspection). No repair or live retest is recorded.
+
 ### Feedback and decision
 
 Imported verbatim from workbook v22, `Map review index!P62:W62`. Blank fields are intentionally blank. Historical wording is preserved even when it mentions an older attachment.
@@ -161,6 +165,10 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - [ ] Check tea furniture arrivals, approach clearance and river-edge collision; inspect the revised garden/bridge artwork.
 - [ ] Run the applicable [common acceptance checks](COMMON-CHECKS.md) on this exact map and engine revision; record N/A with a reason for absent features.
 
+### Dated follow-up · 13 Oct 2026
+
+Tea Garden is one of the user’s visual benchmarks alongside Art Deco’s detail quality, with its own functional defects still open: source-confirmed collision rounding / ~31 px table barrier, one-tile entrance, blocked chair routes/stair landing, foliage over paving and north-strip seam. This r5 has no animation. [Evidence scope and practical acceptance gates](QUALITY-REVIEW-2026-10-13.md#willow-quay-tea-garden--r5--r05). No fix or live retest is recorded.
+
 ### Feedback and decision
 
 Imported verbatim from workbook v22, `Map review index!P63:W63`. Blank fields are intentionally blank. Historical wording is preserved even when it mentions an older attachment.
@@ -203,6 +211,10 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - [ ] Enter from the real entrance landing; test both opposing native-scale furniture groups and clear aisle access.
 - [ ] Check standing and seated-arrival body/head alignment; verify any intended CRM/research interaction only if configured.
 - [ ] Run the applicable [common acceptance checks](COMMON-CHECKS.md) on this exact map and engine revision; record N/A with a reason for absent features.
+
+### Dated follow-up · 13 Oct 2026
+
+User calls Art Deco beautiful and praises its detail quality: preserve the art and use it alongside Tea Garden as a playing-scale visual benchmark, with continued improvement and no pixelated-cutout regression. The new standing map-design rule removes artificial rear-chair barriers and permits close desk/table approaches across all maps. User also reports a large empty-floor gap above a desk and expects its tabletop to cover the avatar appropriately. Keep ground-base collision separate from tabletop overhang and test foreground/depth ordering while preserving real solids. [Rule and separate additive-revision scope](QUALITY-REVIEW-2026-10-13.md#standing-map-design-rule-chairs-desks-and-tables). The exact viewed version is not identified here; no collision repair is marked fixed.
 
 ### Feedback and decision
 
@@ -287,6 +299,10 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - [ ] Check five portal approaches and ground-footprint collision. Animation remains an optional direction, not a requirement.
 - [ ] Run the applicable [common acceptance checks](COMMON-CHECKS.md) on this exact map and engine revision; record N/A with a reason for absent features.
 
+### Dated follow-up · 13 Oct 2026
+
+User reports Transit Garden pixelation; the tested revision is not yet identified. [Matched-scale comparison against Tea Garden is pending](QUALITY-REVIEW-2026-10-13.md#celestial-transit-garden--tested-revision-not-yet-identified). Do not assign this report to a specific variant or accept an upscale-only repair.
+
 ### Feedback and decision
 
 Imported verbatim from workbook v22, `Map review index!P66:W66`. Blank fields are intentionally blank. Historical wording is preserved even when it mentions an older attachment.
@@ -329,6 +345,10 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - [ ] Compare palette and atmosphere directly with preserved expanded r4; record whether saturation is now acceptable.
 - [ ] Walk all five onward approaches and inspect native body/head depth; do not assume animation or portal destinations are approved.
 - [ ] Run the applicable [common acceptance checks](COMMON-CHECKS.md) on this exact map and engine revision; record N/A with a reason for absent features.
+
+### Dated follow-up · 13 Oct 2026
+
+User reports Transit Garden pixelation; the tested revision is not yet identified. [Matched-scale comparison against Tea Garden is pending](QUALITY-REVIEW-2026-10-13.md#celestial-transit-garden--tested-revision-not-yet-identified). Do not assign this report to a specific variant or accept an upscale-only repair.
 
 ### Feedback and decision
 

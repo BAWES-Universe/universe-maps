@@ -4,6 +4,14 @@
 
 This is the editable GitHub home for map identity, test priorities and feedback. Find the map below, test only the named revision, and append a dated result on its card. Do not erase earlier feedback when a new version arrives.
 
+## Later decisions · 13 October 2026
+
+[Later quality and gameplay review](LATE-REVIEW-2026-10-13.md) records 11 additional map decisions and the governing future standard: **fewer polished, functional, reactive and animated maps supersede the earlier 100-map quantity ambition**. Winter Lantern Festival N47-r3 is **REJECTED**; retain its original artifact as history. Preserve the explicit current-version decisions for N39, N40, N41 and N48. Style diversity remains welcome. The linked record distinguishes user approval/rejection, source findings and unresolved live acceptance while preserving all earlier feedback below.
+
+## Latest review · 13 October 2026
+
+[Quality standard and new map findings](QUALITY-REVIEW-2026-10-13.md): Tea Garden and Art Deco are the visual/detail benchmarks for new maps, with continuous improvement and no pixelated-cutout regression; Media House artwork is user-rejected (tested revision unresolved), Transit pixelation needs a revision-specific comparison, Mission Control design is liked but current-r4 source inspection confirms false-blocked visible floor, and Tea Garden / Keeper / Last Signal findings remain open. [Whole-collection directory](https://bawes-universe.github.io/universe-maps/recovered/2026-10-13-collection-v1/) now covers 80 public runtime packages with verified file availability. The older three-hosted-build note below is retained history, not the current collection limit. Public files and a user-observed Last Signal entry popup do not establish full gameplay acceptance.
+
 ## What the counts mean
 
 - 118 original workbook review entries are preserved, including historical variants, concepts and 33 H-series missing-original records.

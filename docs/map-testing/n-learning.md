@@ -154,6 +154,8 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 <a id="n21"></a>
 ## Vienna Pattern Atelier
 
+**Later review · 13 Oct 2026:** Design liked; quality, scale, boundaries and functional completeness remain open. [Decision, evidence and limits](LATE-REVIEW-2026-10-13.md#n21).
+
 - Map ID: `N21`
 - Exact review revision: **N21-r2**
 - Purpose/category: Work / Learning
@@ -712,6 +714,8 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 
 <a id="n34"></a>
 ## Harbour Language Exchange Lab
+
+**Later review · 13 Oct 2026:** Direction liked; water motion and top-edge exploration are future ideas. [Decision, evidence and limits](LATE-REVIEW-2026-10-13.md#n34).
 
 - Map ID: `N34`
 - Exact review revision: **N34-r2**

@@ -153,6 +153,8 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 <a id="n38"></a>
 ## Rainforest Canopy Forum
 
+**Later review · 13 Oct 2026:** Direction liked; functional review failed for benches, motion, usability and scale. [Decision, evidence and limits](LATE-REVIEW-2026-10-13.md#n38).
+
 - Map ID: `N38`
 - Exact review revision: **N38-r2**
 - Purpose/category: Events / Exploration
@@ -195,6 +197,8 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 
 <a id="n39"></a>
 ## Volcanic Observatory Lodge
+
+**Later review · 13 Oct 2026:** Keep current demo unchanged; no iteration or motion retrofit. [Decision, evidence and limits](LATE-REVIEW-2026-10-13.md#n39).
 
 - Map ID: `N39`
 - Exact review revision: **N39-r3**
@@ -239,6 +243,8 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 <a id="n40"></a>
 ## Coral Research Pier
 
+**Later review · 13 Oct 2026:** Preserve current demo URL/runtime; scale and bench limitations remain. [Decision, evidence and limits](LATE-REVIEW-2026-10-13.md#n40).
+
 - Map ID: `N40`
 - Exact review revision: **N40-r3**
 - Purpose/category: Events / Exploration
@@ -281,6 +287,8 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 
 <a id="n41"></a>
 ## Moonlit Ruin Courtyard
+
+**Later review · 13 Oct 2026:** Appearance/usability user-approved; preserve art/layout/collision; only subtle water motion identified. [Decision, evidence and limits](LATE-REVIEW-2026-10-13.md#n41).
 
 - Map ID: `N41`
 - Exact review revision: **N41-r3**
@@ -325,6 +333,8 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 <a id="n42"></a>
 ## Sky Village Airship Terminal
 
+**Later review · 13 Oct 2026:** Artwork liked; seating/access and canopy/light depth failures remain. [Decision, evidence and limits](LATE-REVIEW-2026-10-13.md#n42).
+
 - Map ID: `N42`
 - Exact review revision: **N42-r4**
 - Purpose/category: Events / Exploration
@@ -367,6 +377,8 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 
 <a id="n43"></a>
 ## Glass Hall Conference Campus
+
+**Later review · 13 Oct 2026:** Overall/VIP design liked; seating, entry legibility, depth and water-motion findings remain. [Decision, evidence and limits](LATE-REVIEW-2026-10-13.md#n43).
 
 - Map ID: `N43`
 - Exact review revision: **N43-r1**
@@ -454,6 +466,8 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 <a id="n45"></a>
 ## Desert Esports Pavilion
 
+**Later review · 13 Oct 2026:** User-reported failed gameplay; source inspection supports bleacher collision mismatch. [Decision, evidence and limits](LATE-REVIEW-2026-10-13.md#n45).
+
 - Map ID: `N45`
 - Exact review revision: **N45-r2**
 - Purpose/category: Events / Exploration
@@ -540,6 +554,8 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 <a id="n47"></a>
 ## Winter Lantern Festival
 
+**Later review · 13 Oct 2026:** **REJECT** supersedes the historical Current candidate role; retain the original as rejected history. [Decision, evidence and limits](LATE-REVIEW-2026-10-13.md#n47).
+
 - Map ID: `N47`
 - Exact review revision: **N47-r3**
 - Purpose/category: Events / Exploration
@@ -582,6 +598,8 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 
 <a id="n48"></a>
 ## Acoustic Cave Hall
+
+**Later review · 13 Oct 2026:** User-approved scale/quality/flow; keep as-is as a reference, with motion/sitting limitations disclosed. [Decision, evidence and limits](LATE-REVIEW-2026-10-13.md#n48).
 
 - Map ID: `N48`
 - Exact review revision: **N48-r1**

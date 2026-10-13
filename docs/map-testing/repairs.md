@@ -120,6 +120,10 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - [ ] Test booth/screen/media interaction with two users, interruption and reconnect. Current r7c and the two reconstructed standing landmarks do not establish r9 repair acceptance.
 - [ ] Run the applicable [common acceptance checks](COMMON-CHECKS.md) on this exact map and engine revision; record N/A with a reason for absent features.
 
+### Dated follow-up · 13 Oct 2026
+
+**New user decision: current viewed artwork rejected / needs a coherent art pass; concept and layout liked.** Exact tested version is unresolved. The collection’s r7c fallback is not proof of what was viewed, and missing r9 must not inherit this attribution. [Full feedback and quality gate](QUALITY-REVIEW-2026-10-13.md#resonance-media-house--art-rejected-tested-revision-unresolved). Preserve this artifact and the original imported fields below; no polish revision is approved by this record.
+
 ### Feedback and decision
 
 Imported verbatim from workbook v22, `Map review index!P81:W81`. Blank fields are intentionally blank. Historical wording is preserved even when it mentions an older attachment.

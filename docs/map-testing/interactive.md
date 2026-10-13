@@ -32,6 +32,10 @@ Start with the [interactive experience and engine-PR guide](EXPERIENCE-GUIDE.md)
 - [ ] Enable optional shore audio with an intentional gesture; leave/re-enter its zone, reconnect and verify mute/cleanup behavior.
 - [ ] Run the applicable [common acceptance checks](COMMON-CHECKS.md) on this exact map and engine revision; record N/A with a reason for absent features.
 
+### Dated follow-up · 13 Oct 2026
+
+User screenshot shows the map and entry popup loaded; no room URL / engine build or full-game PASS is established. Audio bytes are publicly available, but source volume/radius/dock distance explain a quiet start and user playback remains unverified. [Audio evidence, next tests and shared popup issue #932](QUALITY-REVIEW-2026-10-13.md#lighthouse-the-last-signal--r2). The earlier “unpublished” wording above describes the imported recovery state; public files are now verified.
+
 ### Feedback and decision
 
 Imported verbatim from workbook v22, `Map review index!P82:W82`. Blank fields are intentionally blank. Historical wording is preserved even when it mentions an older attachment.
@@ -75,6 +79,10 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - [ ] Reproduce the inherited teleport-recovery race: interrupt/overlap room transitions, reconnect during a pending transition and verify no stale completion relocates the player.
 - [ ] Repeat, cancel and restart puzzle actions; verify private visit progress, no duplicate UI/listeners and correct room recovery. The known race is not fixed by backup.
 - [ ] Run the applicable [common acceptance checks](COMMON-CHECKS.md) on this exact map and engine revision; record N/A with a reason for absent features.
+
+### Dated follow-up · 13 Oct 2026
+
+Arrival reverse-exit popup, pickup reopening and journal-footer defects are reproduced with mocked WA API checks; live retest is open. Companion teleport and cross-room walk-to / bot-summon gaps are separate source-confirmed engine limitations, with no portal graph. [Evidence boundaries and next tests](QUALITY-REVIEW-2026-10-13.md#lighthouse-the-keepers-return--r2). No fix, new engine issue approval or gameplay PASS is recorded.
 
 ### Feedback and decision
 

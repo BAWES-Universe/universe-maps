@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "scope": "DOM interaction logic tested in a deterministic stub; not browser visual or gameplay acceptance",
+  "tests": [
+    "Search includes exact names/theme/revision",
+    "All9 families reset correctly",
+    "Script8/meeting14/speaker18/animation8 filter counts",
+    "Rejected reference3 filter",
+    "Empty state and reset",
+    "Hash reveals correct full card and clears filters",
+    "Copy uses exact public TMJ URL, not GitHub HTML"
+  ],
+  "initialCards": 80
+}

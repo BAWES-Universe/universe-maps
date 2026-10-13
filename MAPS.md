@@ -1,5 +1,13 @@
 # Maps, experiences and testing
 
+## Whole collection: start here
+
+[**Open the visual directory: all 80 recovered candidates**](https://bawes-universe.github.io/universe-maps/recovered/2026-10-13-collection-v1/) · [Repo-native collection guide](COLLECTION.md)
+
+All **80 public runtime packages / 596 original files** passed HTTP, exact-hash, size and CORS checks on 13 Oct 2026 at 19:32 UTC. The directory includes original-scene previews, exact TMJ/WAM import URLs, features, revision-specific tests and known defects. [Public verification status](docs/map-collection/publication-status.json).
+
+**Copy the TMJ import URL, not a GitHub `/blob/` source page.** Public map files still need registered test rooms; gameplay, rendering and multiplayer acceptance remain open. The 33 missing H originals, Media r9 and original-authoring gaps remain explicit in the [missing ledger](docs/map-collection/missing.md). The testing history below is preserved.
+
 Find a map, open its exact source/runtime and keep its feedback in GitHub. No spreadsheet is needed for day-to-day review.
 
 ## Interactive experiences to try next

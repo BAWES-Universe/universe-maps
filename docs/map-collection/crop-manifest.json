@@ -1,0 +1,883 @@
+{
+  "schema_version": 1,
+  "purpose": "Additive source-pixel focus views for sparse world overviews; original full previews preserved.",
+  "method": "Reconstruct complete scene using the verified original-pixel renderer, confirm full RGBA hash against the full preview manifest, crop at recorded integer pixel bounds, then resize to at most 480 pixels. Contact sheet labels separate authored spaces.",
+  "full_preview_manifest_sha256": "3c5a06278132fa3b6195dc9bac2de264f45940d4cfe9378d0ec2f1c29a36d69a",
+  "renderer_sha256": "17f354d2324f1513655b6eaadddf798f5d7ff247cbd1250e5c2413c95c6362a8",
+  "crop_script_sha256": "7ea4fc81703351b404a72caea6f4022277eece69702959a458c981579f3a6a04",
+  "crops": [
+    {
+      "id": "keeper-island",
+      "runtime_id": "lighthouse-keepers-return-r2-runtime",
+      "label": "Island exterior",
+      "disclosure": "Cropped original view. Static source rendering with initial authored visibility; separate authored spaces are not relocated in the source. No generated/replacement artwork.",
+      "crop_bounds_pixels_xyxy": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "bounds_semantics": "left/top inclusive, right/bottom exclusive; pixels in the full authored TMJ canvas",
+      "bounds_basis": "ground-and-objects layer bounds; foreground and authored inlays retained",
+      "source_crop_dimensions": [
+        1536,
+        1024
+      ],
+      "source_crop_rgba_sha256": "ee84fcb611bd23ac66b497abe0eb9fe6de8e55d89521f0ddc0dcd27224dd1cf3",
+      "source_tmj": {
+        "path": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+        "sha256": "94bdc3c6dbd4ccf9a096b828016795083497f39da6f5f4c2ab2b8080b48634aa"
+      },
+      "source_assets": {
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj": {
+          "sha256": "94bdc3c6dbd4ccf9a096b828016795083497f39da6f5f4c2ab2b8080b48634aa",
+          "bytes": 587231
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-0.png": {
+          "sha256": "317f82f0c6621bb7993654edbee7c823cf921d652d717d7ad41b2d34adda6dd0",
+          "bytes": 2639626
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-1.png": {
+          "sha256": "10d37d4344c6bc78535a1fcd76c27ff53e69afd9a087675fc1146e8ffd899fcd",
+          "bytes": 1285405
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/foreground-0.png": {
+          "sha256": "77c8e5e017deff9be96122af825150a0a96eaa97a66c05dc3829f537200a4c74",
+          "bytes": 21475
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/markers.png": {
+          "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+          "bytes": 83
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keeper-house.png": {
+          "sha256": "0cc9158333c17d33f87b7f8fb8f024964e07995006894bdf168e6b8142953293",
+          "bytes": 549185
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lighthouse-workshop.png": {
+          "sha256": "034038ef52eb0c2f8aa56fa2ed221f91ee2fa3370c0425dd3b7c1626bf4a0250",
+          "bytes": 652191
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lantern-room.png": {
+          "sha256": "a3f4a7b0713e5061b842b9ebd1d071fa4247107974c4a96cc8a3b56edbb542fd",
+          "bytes": 671591
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-exterior.png": {
+          "sha256": "0e1625abb8f458b54f48b7e5fd437828994526f4a833c309541f6affb41bf1cb",
+          "bytes": 6890
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-keeper-house.png": {
+          "sha256": "469649070ef9b47f6e796bc08840c3fb392cf9e6d9e07f2151fbaebf60f92a1b",
+          "bytes": 2159
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lighthouse-workshop.png": {
+          "sha256": "d6670003d9dbe6cda5863c05e06c231022fcb51477e5189d0d8e6d843a187aa8",
+          "bytes": 2157
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lantern-room.png": {
+          "sha256": "03f04ab6c25d24bbcc6894e599ae58cf40d1c492ee3242ce9aeced1e4668e08e",
+          "bytes": 2041
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-workshop-power.png": {
+          "sha256": "7bad5c1f3e7036f684bed05f74e95620270a4230826478e9d6da6721d3e412d1",
+          "bytes": 2028
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lantern-lit.png": {
+          "sha256": "33b2aad5769cdadeed16b37bcebf9bb51b34fbfb05278d8680cf9858352606e7",
+          "bytes": 1882
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lens-focused.png": {
+          "sha256": "511762993dbce272e72f61ce04508f15ae11ef0788a375fa2c83a31e02c15f31",
+          "bytes": 3195
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-house-key.png": {
+          "sha256": "c7f4ebc3cf62b34e820178196e24077eb60950b900d9248613dd723f067f82bf",
+          "bytes": 458
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-exterior-lit.png": {
+          "sha256": "dc42ec37453396f25f39f897b8ffe1ccd2d879838b85ee8c8c067de5f6d0273a",
+          "bytes": 2399
+        }
+      },
+      "full_scene_rgba_sha256": "765be2cbf0f19bda93ae94bd033280d7a62b19b8ab49a40475f425886c680b22",
+      "output": {
+        "path": "docs/map-collection/previews/crops/keeper-island.jpg",
+        "filename": "keeper-island.jpg",
+        "sha256": "e287533d7e090ff31da1eaf792cef45996cb7740f75f66d07c76bae63e52eea5",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 114507,
+        "format": "JPEG",
+        "quality": 88,
+        "resampling": "Lanczos; aspect ratio retained; no color adjustment"
+      }
+    },
+    {
+      "id": "keeper-house",
+      "runtime_id": "lighthouse-keepers-return-r2-runtime",
+      "label": "Keeper house (separate room)",
+      "disclosure": "Cropped original view. Static source rendering with initial authored visibility; separate authored spaces are not relocated in the source. No generated/replacement artwork.",
+      "crop_bounds_pixels_xyxy": [
+        2304,
+        256,
+        2944,
+        768
+      ],
+      "bounds_semantics": "left/top inclusive, right/bottom exclusive; pixels in the full authored TMJ canvas",
+      "bounds_basis": "keeper-house layer bounds; authored inlays retained",
+      "source_crop_dimensions": [
+        640,
+        512
+      ],
+      "source_crop_rgba_sha256": "20bc03b972c0cd1e70f34ed3119e22efe912c0cdf81a07727fe2adaad8ebfcd2",
+      "source_tmj": {
+        "path": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+        "sha256": "94bdc3c6dbd4ccf9a096b828016795083497f39da6f5f4c2ab2b8080b48634aa"
+      },
+      "source_assets": {
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj": {
+          "sha256": "94bdc3c6dbd4ccf9a096b828016795083497f39da6f5f4c2ab2b8080b48634aa",
+          "bytes": 587231
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-0.png": {
+          "sha256": "317f82f0c6621bb7993654edbee7c823cf921d652d717d7ad41b2d34adda6dd0",
+          "bytes": 2639626
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-1.png": {
+          "sha256": "10d37d4344c6bc78535a1fcd76c27ff53e69afd9a087675fc1146e8ffd899fcd",
+          "bytes": 1285405
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/foreground-0.png": {
+          "sha256": "77c8e5e017deff9be96122af825150a0a96eaa97a66c05dc3829f537200a4c74",
+          "bytes": 21475
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/markers.png": {
+          "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+          "bytes": 83
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keeper-house.png": {
+          "sha256": "0cc9158333c17d33f87b7f8fb8f024964e07995006894bdf168e6b8142953293",
+          "bytes": 549185
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lighthouse-workshop.png": {
+          "sha256": "034038ef52eb0c2f8aa56fa2ed221f91ee2fa3370c0425dd3b7c1626bf4a0250",
+          "bytes": 652191
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lantern-room.png": {
+          "sha256": "a3f4a7b0713e5061b842b9ebd1d071fa4247107974c4a96cc8a3b56edbb542fd",
+          "bytes": 671591
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-exterior.png": {
+          "sha256": "0e1625abb8f458b54f48b7e5fd437828994526f4a833c309541f6affb41bf1cb",
+          "bytes": 6890
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-keeper-house.png": {
+          "sha256": "469649070ef9b47f6e796bc08840c3fb392cf9e6d9e07f2151fbaebf60f92a1b",
+          "bytes": 2159
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lighthouse-workshop.png": {
+          "sha256": "d6670003d9dbe6cda5863c05e06c231022fcb51477e5189d0d8e6d843a187aa8",
+          "bytes": 2157
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lantern-room.png": {
+          "sha256": "03f04ab6c25d24bbcc6894e599ae58cf40d1c492ee3242ce9aeced1e4668e08e",
+          "bytes": 2041
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-workshop-power.png": {
+          "sha256": "7bad5c1f3e7036f684bed05f74e95620270a4230826478e9d6da6721d3e412d1",
+          "bytes": 2028
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lantern-lit.png": {
+          "sha256": "33b2aad5769cdadeed16b37bcebf9bb51b34fbfb05278d8680cf9858352606e7",
+          "bytes": 1882
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lens-focused.png": {
+          "sha256": "511762993dbce272e72f61ce04508f15ae11ef0788a375fa2c83a31e02c15f31",
+          "bytes": 3195
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-house-key.png": {
+          "sha256": "c7f4ebc3cf62b34e820178196e24077eb60950b900d9248613dd723f067f82bf",
+          "bytes": 458
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-exterior-lit.png": {
+          "sha256": "dc42ec37453396f25f39f897b8ffe1ccd2d879838b85ee8c8c067de5f6d0273a",
+          "bytes": 2399
+        }
+      },
+      "full_scene_rgba_sha256": "765be2cbf0f19bda93ae94bd033280d7a62b19b8ab49a40475f425886c680b22",
+      "output": {
+        "path": "docs/map-collection/previews/crops/keeper-house.jpg",
+        "filename": "keeper-house.jpg",
+        "sha256": "7f92647bc3dfa9c5a53cbc99dbd497d32340481be3ee6cc020e6b457ec579c7f",
+        "dimensions": [
+          480,
+          384
+        ],
+        "bytes": 71226,
+        "format": "JPEG",
+        "quality": 88,
+        "resampling": "Lanczos; aspect ratio retained; no color adjustment"
+      }
+    },
+    {
+      "id": "keeper-workshop",
+      "runtime_id": "lighthouse-keepers-return-r2-runtime",
+      "label": "Workshop (separate room)",
+      "disclosure": "Cropped original view. Static source rendering with initial authored visibility; separate authored spaces are not relocated in the source. No generated/replacement artwork.",
+      "crop_bounds_pixels_xyxy": [
+        2304,
+        1792,
+        2944,
+        2304
+      ],
+      "bounds_semantics": "left/top inclusive, right/bottom exclusive; pixels in the full authored TMJ canvas",
+      "bounds_basis": "lighthouse-workshop layer bounds; authored inlays retained",
+      "source_crop_dimensions": [
+        640,
+        512
+      ],
+      "source_crop_rgba_sha256": "03f2fe2537d80d89873f757b2175fc8e7e3ea1c0d3fe9d6f2c9b83ca14e5e554",
+      "source_tmj": {
+        "path": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+        "sha256": "94bdc3c6dbd4ccf9a096b828016795083497f39da6f5f4c2ab2b8080b48634aa"
+      },
+      "source_assets": {
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj": {
+          "sha256": "94bdc3c6dbd4ccf9a096b828016795083497f39da6f5f4c2ab2b8080b48634aa",
+          "bytes": 587231
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-0.png": {
+          "sha256": "317f82f0c6621bb7993654edbee7c823cf921d652d717d7ad41b2d34adda6dd0",
+          "bytes": 2639626
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-1.png": {
+          "sha256": "10d37d4344c6bc78535a1fcd76c27ff53e69afd9a087675fc1146e8ffd899fcd",
+          "bytes": 1285405
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/foreground-0.png": {
+          "sha256": "77c8e5e017deff9be96122af825150a0a96eaa97a66c05dc3829f537200a4c74",
+          "bytes": 21475
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/markers.png": {
+          "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+          "bytes": 83
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keeper-house.png": {
+          "sha256": "0cc9158333c17d33f87b7f8fb8f024964e07995006894bdf168e6b8142953293",
+          "bytes": 549185
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lighthouse-workshop.png": {
+          "sha256": "034038ef52eb0c2f8aa56fa2ed221f91ee2fa3370c0425dd3b7c1626bf4a0250",
+          "bytes": 652191
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lantern-room.png": {
+          "sha256": "a3f4a7b0713e5061b842b9ebd1d071fa4247107974c4a96cc8a3b56edbb542fd",
+          "bytes": 671591
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-exterior.png": {
+          "sha256": "0e1625abb8f458b54f48b7e5fd437828994526f4a833c309541f6affb41bf1cb",
+          "bytes": 6890
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-keeper-house.png": {
+          "sha256": "469649070ef9b47f6e796bc08840c3fb392cf9e6d9e07f2151fbaebf60f92a1b",
+          "bytes": 2159
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lighthouse-workshop.png": {
+          "sha256": "d6670003d9dbe6cda5863c05e06c231022fcb51477e5189d0d8e6d843a187aa8",
+          "bytes": 2157
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lantern-room.png": {
+          "sha256": "03f04ab6c25d24bbcc6894e599ae58cf40d1c492ee3242ce9aeced1e4668e08e",
+          "bytes": 2041
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-workshop-power.png": {
+          "sha256": "7bad5c1f3e7036f684bed05f74e95620270a4230826478e9d6da6721d3e412d1",
+          "bytes": 2028
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lantern-lit.png": {
+          "sha256": "33b2aad5769cdadeed16b37bcebf9bb51b34fbfb05278d8680cf9858352606e7",
+          "bytes": 1882
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lens-focused.png": {
+          "sha256": "511762993dbce272e72f61ce04508f15ae11ef0788a375fa2c83a31e02c15f31",
+          "bytes": 3195
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-house-key.png": {
+          "sha256": "c7f4ebc3cf62b34e820178196e24077eb60950b900d9248613dd723f067f82bf",
+          "bytes": 458
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-exterior-lit.png": {
+          "sha256": "dc42ec37453396f25f39f897b8ffe1ccd2d879838b85ee8c8c067de5f6d0273a",
+          "bytes": 2399
+        }
+      },
+      "full_scene_rgba_sha256": "765be2cbf0f19bda93ae94bd033280d7a62b19b8ab49a40475f425886c680b22",
+      "output": {
+        "path": "docs/map-collection/previews/crops/keeper-workshop.jpg",
+        "filename": "keeper-workshop.jpg",
+        "sha256": "3a4e82ec71a395f5397c7720e825f8b4b7d6483ce376222b2a4aaf06fccdba52",
+        "dimensions": [
+          480,
+          384
+        ],
+        "bytes": 80834,
+        "format": "JPEG",
+        "quality": 88,
+        "resampling": "Lanczos; aspect ratio retained; no color adjustment"
+      }
+    },
+    {
+      "id": "keeper-lantern-room",
+      "runtime_id": "lighthouse-keepers-return-r2-runtime",
+      "label": "Lantern room (separate room)",
+      "disclosure": "Cropped original view. Static source rendering with initial authored visibility; separate authored spaces are not relocated in the source. No generated/replacement artwork.",
+      "crop_bounds_pixels_xyxy": [
+        256,
+        2304,
+        896,
+        2816
+      ],
+      "bounds_semantics": "left/top inclusive, right/bottom exclusive; pixels in the full authored TMJ canvas",
+      "bounds_basis": "lantern-room layer bounds; authored inlays retained",
+      "source_crop_dimensions": [
+        640,
+        512
+      ],
+      "source_crop_rgba_sha256": "1aef0de45849696379b8096f664edda457325dc1369e5a967a4891a573982b43",
+      "source_tmj": {
+        "path": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+        "sha256": "94bdc3c6dbd4ccf9a096b828016795083497f39da6f5f4c2ab2b8080b48634aa"
+      },
+      "source_assets": {
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj": {
+          "sha256": "94bdc3c6dbd4ccf9a096b828016795083497f39da6f5f4c2ab2b8080b48634aa",
+          "bytes": 587231
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-0.png": {
+          "sha256": "317f82f0c6621bb7993654edbee7c823cf921d652d717d7ad41b2d34adda6dd0",
+          "bytes": 2639626
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-1.png": {
+          "sha256": "10d37d4344c6bc78535a1fcd76c27ff53e69afd9a087675fc1146e8ffd899fcd",
+          "bytes": 1285405
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/foreground-0.png": {
+          "sha256": "77c8e5e017deff9be96122af825150a0a96eaa97a66c05dc3829f537200a4c74",
+          "bytes": 21475
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/markers.png": {
+          "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+          "bytes": 83
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keeper-house.png": {
+          "sha256": "0cc9158333c17d33f87b7f8fb8f024964e07995006894bdf168e6b8142953293",
+          "bytes": 549185
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lighthouse-workshop.png": {
+          "sha256": "034038ef52eb0c2f8aa56fa2ed221f91ee2fa3370c0425dd3b7c1626bf4a0250",
+          "bytes": 652191
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lantern-room.png": {
+          "sha256": "a3f4a7b0713e5061b842b9ebd1d071fa4247107974c4a96cc8a3b56edbb542fd",
+          "bytes": 671591
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-exterior.png": {
+          "sha256": "0e1625abb8f458b54f48b7e5fd437828994526f4a833c309541f6affb41bf1cb",
+          "bytes": 6890
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-keeper-house.png": {
+          "sha256": "469649070ef9b47f6e796bc08840c3fb392cf9e6d9e07f2151fbaebf60f92a1b",
+          "bytes": 2159
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lighthouse-workshop.png": {
+          "sha256": "d6670003d9dbe6cda5863c05e06c231022fcb51477e5189d0d8e6d843a187aa8",
+          "bytes": 2157
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lantern-room.png": {
+          "sha256": "03f04ab6c25d24bbcc6894e599ae58cf40d1c492ee3242ce9aeced1e4668e08e",
+          "bytes": 2041
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-workshop-power.png": {
+          "sha256": "7bad5c1f3e7036f684bed05f74e95620270a4230826478e9d6da6721d3e412d1",
+          "bytes": 2028
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lantern-lit.png": {
+          "sha256": "33b2aad5769cdadeed16b37bcebf9bb51b34fbfb05278d8680cf9858352606e7",
+          "bytes": 1882
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lens-focused.png": {
+          "sha256": "511762993dbce272e72f61ce04508f15ae11ef0788a375fa2c83a31e02c15f31",
+          "bytes": 3195
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-house-key.png": {
+          "sha256": "c7f4ebc3cf62b34e820178196e24077eb60950b900d9248613dd723f067f82bf",
+          "bytes": 458
+        },
+        "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-exterior-lit.png": {
+          "sha256": "dc42ec37453396f25f39f897b8ffe1ccd2d879838b85ee8c8c067de5f6d0273a",
+          "bytes": 2399
+        }
+      },
+      "full_scene_rgba_sha256": "765be2cbf0f19bda93ae94bd033280d7a62b19b8ab49a40475f425886c680b22",
+      "output": {
+        "path": "docs/map-collection/previews/crops/keeper-lantern-room.jpg",
+        "filename": "keeper-lantern-room.jpg",
+        "sha256": "08f7b7560a8e9b3440b66a76d57d7166ae8f2225385aeeb04d7b6c512d766847",
+        "dimensions": [
+          480,
+          384
+        ],
+        "bytes": 79983,
+        "format": "JPEG",
+        "quality": 88,
+        "resampling": "Lanczos; aspect ratio retained; no color adjustment"
+      }
+    },
+    {
+      "id": "butterfly-town",
+      "runtime_id": "butterfly-town-v2",
+      "label": "Town area (cropped original view)",
+      "disclosure": "Cropped original view. Static source rendering with initial authored visibility; separate authored spaces are not relocated in the source. No generated/replacement artwork.",
+      "crop_bounds_pixels_xyxy": [
+        2304,
+        512,
+        3840,
+        1536
+      ],
+      "bounds_semantics": "left/top inclusive, right/bottom exclusive; pixels in the full authored TMJ canvas",
+      "bounds_basis": "town-ground and town-steady layer bounds; authored roof/foreground visibility retained",
+      "source_crop_dimensions": [
+        1536,
+        1024
+      ],
+      "source_crop_rgba_sha256": "4dacf1a9450acd6eb7d5ad215f709956b920d2c6f57c5a2968c378a44648c9bf",
+      "source_tmj": {
+        "path": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+        "sha256": "dff32360181d8e4c465756ab5e2f9577faad17083e2bfde19084eac8af749831"
+      },
+      "source_assets": {
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj": {
+          "sha256": "dff32360181d8e4c465756ab5e2f9577faad17083e2bfde19084eac8af749831",
+          "bytes": 1658851
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/markers.png": {
+          "sha256": "050ab82bd34987f71468d5851d3707e15c6c6de862d98384259834d92deefd57",
+          "bytes": 87
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/midnight-terrain.png": {
+          "sha256": "d6bd36368df434847ae09e6d94df30ad374750b10dd629df117b12e79bee73ea",
+          "bytes": 3898
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-ground.png": {
+          "sha256": "a063aec091da2a794e593153d9c72729a72e3eb7d912e3427dd939e7d54d4cfc",
+          "bytes": 7982752
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-edge-fog.png": {
+          "sha256": "aaa9e7d4bd404f30be415296e17bcfd27af37a8beae15e915772cc76966fa83d",
+          "bytes": 31118
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-surroundings.png": {
+          "sha256": "d1aa61b1bedb52cfc96036cacbe849d1845f792d89df2f74efbe85e0be564e0a",
+          "bytes": 262080
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-ground.png": {
+          "sha256": "67c0158fd54a2f022b058f4d2a5d1bc31979ad640224dc6de3585b7bb2d1b34b",
+          "bytes": 3166649
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-scenery-feet.png": {
+          "sha256": "0abaa5aa58be51698a7021c8062168fcc2effec189bb7fc4fb041365c6e745d6",
+          "bytes": 184527
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-edge-fog.png": {
+          "sha256": "721edc50b6b45791fdccb6097885c5ca6f26f563ef508e63b1632d5fd18868b2",
+          "bytes": 22115
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-interior.png": {
+          "sha256": "38d499a7c91a2258af3ea35ba934f530a55e628d4c0f667f0a09e47a0c8e18d0",
+          "bytes": 268649
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-furniture-feet.png": {
+          "sha256": "93a034774346bd98b32c87f100aaffb9dfa584e8a8e422942c859ef788a956b5",
+          "bytes": 38110
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-interior.png": {
+          "sha256": "15eb718a693d48a3bc2e9ec27b0b1a4b9d5e8903cfde3765b49b2220c45d3576",
+          "bytes": 238425
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-feet.png": {
+          "sha256": "b1507d1655e0e6eb20324efe20bf4a30aaadb80fb750712b0496390ddfc3f661",
+          "bytes": 16484
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-interior.png": {
+          "sha256": "4809b29757d2f52c4077fb42e5a5583b2fdded3ce3e1ae29860d3b9367226009",
+          "bytes": 150916
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-furniture-feet.png": {
+          "sha256": "45e6fa370e31782887bd8a29c286615d343b1ede6e09735f555c05a1280dc3d5",
+          "bytes": 8297
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-olive-shadow.png": {
+          "sha256": "8499f3119dda5eaec86d0eea12d38106c30d3073c6d50538d746584607f448b8",
+          "bytes": 1122
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-olive.png": {
+          "sha256": "76aa18725bdc33d5cba6d6df88690b741c633e97753079e2126b85e3aebefce0",
+          "bytes": 8431
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-steady.png": {
+          "sha256": "c914d4a5a9d020eb6dd80496223cf87ad772a9057014694a50d98468709e4334",
+          "bytes": 51819
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-steady.png": {
+          "sha256": "f15f04fc70e2b805b202650cd68108a144224c8da583711927abe77ad2b7ed71",
+          "bytes": 60293
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-pulse.png": {
+          "sha256": "3e7ea6a110745afa192f612bbb2ecaac30e0d84e17eb372b25b92571f41933f5",
+          "bytes": 176478
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-pulse.png": {
+          "sha256": "b66001e5c04e8808408bce48790e0c81f4a64f7b40eff8b8fbb63cf2cd2f0a7b",
+          "bytes": 151411
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-water.png": {
+          "sha256": "b52a293a653fe5aa74f789b95077f15a31aa12beb273252a503f9ce9b9fac17b",
+          "bytes": 2509
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-water.png": {
+          "sha256": "40d2dab3b05aaa0823935e6ac432d0008f2052bec75c1bbe4995e69d7bf518a0",
+          "bytes": 5786
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-cascades.png": {
+          "sha256": "f031b9b501a9517c2a7ec5a0588c0426a1c120ecd4d274fb3188428b9c5d1648",
+          "bytes": 99629
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-basin-mist.png": {
+          "sha256": "499cfd7a90dbb73cd16afec6f57ef654de72712fcad687be1f31a97ed76ebc77",
+          "bytes": 59122
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-scenery-canopies.png": {
+          "sha256": "80988a9f374e95e65f3f4548f95af928931e224d7d85c4bc878b2191558f0cfb",
+          "bytes": 232658
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-scenery-canopies.png": {
+          "sha256": "14cce8b6701b6fb8d6c1861cf516287727952aca96142cdca07cb9af4aee0490",
+          "bytes": 2543851
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-furniture-canopies.png": {
+          "sha256": "89e763bfc87f65266762b04808b9c27be1c5d8b660ddffcc2ea09b3a768d900e",
+          "bytes": 33615
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-architecture-alpha.png": {
+          "sha256": "789dbd47b761411bfca0b0f7442848232fa4ff07b8a60e737effbcba9e63fe83",
+          "bytes": 65414
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-door-foreground.png": {
+          "sha256": "0975550fd4953c4b6e8b2e83ed6d5ce6bcb2933f207a9fcc59b3e3d8f4ceab64",
+          "bytes": 3775
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-roof.png": {
+          "sha256": "b18b27f7e01b497eedd268b81b2a41398791adb1c4cf1ae6a241dba2acae1022",
+          "bytes": 277664
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-canopies.png": {
+          "sha256": "31ecc67f6240db1bb4e2988659372d5731b8fab2c21cc3b0a8f998bd004c7490",
+          "bytes": 11048
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-architecture-alpha.png": {
+          "sha256": "23d07d74ffdb42d544136fcfc085da5d741d35070719038204badaf225742437",
+          "bytes": 65884
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-door-foreground.png": {
+          "sha256": "8f892d00788075ce449f212c26fe6bda25b7d009da4cd6a18ae9b2a7ae5a1dc4",
+          "bytes": 4759
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-roof.png": {
+          "sha256": "7c0859f2f0eb88b49f3771d041b5cc1c0bd61bc388d3765695634c5fdd49b9d6",
+          "bytes": 232210
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-furniture-canopies.png": {
+          "sha256": "ef6c18bb843d2e2961e796843cb748f83cb9839f820b8d1ca95fedc08eaff056",
+          "bytes": 11287
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-architecture-alpha.png": {
+          "sha256": "cd794911a265a699a80f2a27e0f8a2fe0f2e5de9b1c3c042f056c67c4c27a218",
+          "bytes": 52135
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-door-foreground.png": {
+          "sha256": "bc078c5ab8c728f2dbebf82c447ca0115711b1fc6fe41bb2df29dd9490a445ae",
+          "bytes": 2027
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-roof.png": {
+          "sha256": "5ac9d7071c8066e1c8f73b658635e2975ce6311ba1ea427eb9f361b9eaddc96c",
+          "bytes": 151153
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-details.png": {
+          "sha256": "fe8a612e99a7649b630d1ee9f2d12bc4405e698b48aa59b43715a1af9cd48a54",
+          "bytes": 13711
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-focus.png": {
+          "sha256": "3e363bf6496c7ef379a373ca414c8bd0b9c59b5485cc79e5c09a9893303e8838",
+          "bytes": 8783
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-focus.png": {
+          "sha256": "0794af9be0172207fadb0c47af2f7ad7093b35142cb92351ad752c46b10b9532",
+          "bytes": 8782
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-focus.png": {
+          "sha256": "84cccecd9104d4755054d78b55d4f78277339980e6318a5745b2a62762f31deb",
+          "bytes": 8765
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-butterflies.png": {
+          "sha256": "ccf85c6c32983c1467e1fb45c4fe544ac463310bd2074a958ef4619132ed9bc5",
+          "bytes": 36966
+        }
+      },
+      "full_scene_rgba_sha256": "30c50857bcac5bd1470998a6a0badcc3c75fdb80c4fcb69f0b549699c0655c7e",
+      "output": {
+        "path": "docs/map-collection/previews/crops/butterfly-town.jpg",
+        "filename": "butterfly-town.jpg",
+        "sha256": "80a1435cb1b0882f1809350e15e2746ff4ce9d4bd056b951d3bf4b6a4cc23e91",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 107125,
+        "format": "JPEG",
+        "quality": 88,
+        "resampling": "Lanczos; aspect ratio retained; no color adjustment"
+      }
+    },
+    {
+      "id": "butterfly-gate",
+      "runtime_id": "butterfly-town-v2",
+      "label": "Gate area (cropped original view)",
+      "disclosure": "Cropped original view. Static source rendering with initial authored visibility; separate authored spaces are not relocated in the source. No generated/replacement artwork.",
+      "crop_bounds_pixels_xyxy": [
+        448,
+        320,
+        1600,
+        1984
+      ],
+      "bounds_semantics": "left/top inclusive, right/bottom exclusive; pixels in the full authored TMJ canvas",
+      "bounds_basis": "gate-steady layer bounds expanded by 64 source pixels on each side",
+      "source_crop_dimensions": [
+        1152,
+        1664
+      ],
+      "source_crop_rgba_sha256": "6c2cca27e4e86bec10c7fb1d2b2a4b9a36beb7e984a5f6a299b541360c8c262a",
+      "source_tmj": {
+        "path": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+        "sha256": "dff32360181d8e4c465756ab5e2f9577faad17083e2bfde19084eac8af749831"
+      },
+      "source_assets": {
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj": {
+          "sha256": "dff32360181d8e4c465756ab5e2f9577faad17083e2bfde19084eac8af749831",
+          "bytes": 1658851
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/markers.png": {
+          "sha256": "050ab82bd34987f71468d5851d3707e15c6c6de862d98384259834d92deefd57",
+          "bytes": 87
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/midnight-terrain.png": {
+          "sha256": "d6bd36368df434847ae09e6d94df30ad374750b10dd629df117b12e79bee73ea",
+          "bytes": 3898
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-ground.png": {
+          "sha256": "a063aec091da2a794e593153d9c72729a72e3eb7d912e3427dd939e7d54d4cfc",
+          "bytes": 7982752
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-edge-fog.png": {
+          "sha256": "aaa9e7d4bd404f30be415296e17bcfd27af37a8beae15e915772cc76966fa83d",
+          "bytes": 31118
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-surroundings.png": {
+          "sha256": "d1aa61b1bedb52cfc96036cacbe849d1845f792d89df2f74efbe85e0be564e0a",
+          "bytes": 262080
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-ground.png": {
+          "sha256": "67c0158fd54a2f022b058f4d2a5d1bc31979ad640224dc6de3585b7bb2d1b34b",
+          "bytes": 3166649
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-scenery-feet.png": {
+          "sha256": "0abaa5aa58be51698a7021c8062168fcc2effec189bb7fc4fb041365c6e745d6",
+          "bytes": 184527
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-edge-fog.png": {
+          "sha256": "721edc50b6b45791fdccb6097885c5ca6f26f563ef508e63b1632d5fd18868b2",
+          "bytes": 22115
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-interior.png": {
+          "sha256": "38d499a7c91a2258af3ea35ba934f530a55e628d4c0f667f0a09e47a0c8e18d0",
+          "bytes": 268649
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-furniture-feet.png": {
+          "sha256": "93a034774346bd98b32c87f100aaffb9dfa584e8a8e422942c859ef788a956b5",
+          "bytes": 38110
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-interior.png": {
+          "sha256": "15eb718a693d48a3bc2e9ec27b0b1a4b9d5e8903cfde3765b49b2220c45d3576",
+          "bytes": 238425
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-feet.png": {
+          "sha256": "b1507d1655e0e6eb20324efe20bf4a30aaadb80fb750712b0496390ddfc3f661",
+          "bytes": 16484
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-interior.png": {
+          "sha256": "4809b29757d2f52c4077fb42e5a5583b2fdded3ce3e1ae29860d3b9367226009",
+          "bytes": 150916
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-furniture-feet.png": {
+          "sha256": "45e6fa370e31782887bd8a29c286615d343b1ede6e09735f555c05a1280dc3d5",
+          "bytes": 8297
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-olive-shadow.png": {
+          "sha256": "8499f3119dda5eaec86d0eea12d38106c30d3073c6d50538d746584607f448b8",
+          "bytes": 1122
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-olive.png": {
+          "sha256": "76aa18725bdc33d5cba6d6df88690b741c633e97753079e2126b85e3aebefce0",
+          "bytes": 8431
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-steady.png": {
+          "sha256": "c914d4a5a9d020eb6dd80496223cf87ad772a9057014694a50d98468709e4334",
+          "bytes": 51819
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-steady.png": {
+          "sha256": "f15f04fc70e2b805b202650cd68108a144224c8da583711927abe77ad2b7ed71",
+          "bytes": 60293
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-pulse.png": {
+          "sha256": "3e7ea6a110745afa192f612bbb2ecaac30e0d84e17eb372b25b92571f41933f5",
+          "bytes": 176478
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-pulse.png": {
+          "sha256": "b66001e5c04e8808408bce48790e0c81f4a64f7b40eff8b8fbb63cf2cd2f0a7b",
+          "bytes": 151411
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-water.png": {
+          "sha256": "b52a293a653fe5aa74f789b95077f15a31aa12beb273252a503f9ce9b9fac17b",
+          "bytes": 2509
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-water.png": {
+          "sha256": "40d2dab3b05aaa0823935e6ac432d0008f2052bec75c1bbe4995e69d7bf518a0",
+          "bytes": 5786
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-cascades.png": {
+          "sha256": "f031b9b501a9517c2a7ec5a0588c0426a1c120ecd4d274fb3188428b9c5d1648",
+          "bytes": 99629
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-basin-mist.png": {
+          "sha256": "499cfd7a90dbb73cd16afec6f57ef654de72712fcad687be1f31a97ed76ebc77",
+          "bytes": 59122
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-scenery-canopies.png": {
+          "sha256": "80988a9f374e95e65f3f4548f95af928931e224d7d85c4bc878b2191558f0cfb",
+          "bytes": 232658
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-scenery-canopies.png": {
+          "sha256": "14cce8b6701b6fb8d6c1861cf516287727952aca96142cdca07cb9af4aee0490",
+          "bytes": 2543851
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-furniture-canopies.png": {
+          "sha256": "89e763bfc87f65266762b04808b9c27be1c5d8b660ddffcc2ea09b3a768d900e",
+          "bytes": 33615
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-architecture-alpha.png": {
+          "sha256": "789dbd47b761411bfca0b0f7442848232fa4ff07b8a60e737effbcba9e63fe83",
+          "bytes": 65414
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-door-foreground.png": {
+          "sha256": "0975550fd4953c4b6e8b2e83ed6d5ce6bcb2933f207a9fcc59b3e3d8f4ceab64",
+          "bytes": 3775
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-roof.png": {
+          "sha256": "b18b27f7e01b497eedd268b81b2a41398791adb1c4cf1ae6a241dba2acae1022",
+          "bytes": 277664
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-canopies.png": {
+          "sha256": "31ecc67f6240db1bb4e2988659372d5731b8fab2c21cc3b0a8f998bd004c7490",
+          "bytes": 11048
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-architecture-alpha.png": {
+          "sha256": "23d07d74ffdb42d544136fcfc085da5d741d35070719038204badaf225742437",
+          "bytes": 65884
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-door-foreground.png": {
+          "sha256": "8f892d00788075ce449f212c26fe6bda25b7d009da4cd6a18ae9b2a7ae5a1dc4",
+          "bytes": 4759
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-roof.png": {
+          "sha256": "7c0859f2f0eb88b49f3771d041b5cc1c0bd61bc388d3765695634c5fdd49b9d6",
+          "bytes": 232210
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-furniture-canopies.png": {
+          "sha256": "ef6c18bb843d2e2961e796843cb748f83cb9839f820b8d1ca95fedc08eaff056",
+          "bytes": 11287
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-architecture-alpha.png": {
+          "sha256": "cd794911a265a699a80f2a27e0f8a2fe0f2e5de9b1c3c042f056c67c4c27a218",
+          "bytes": 52135
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-door-foreground.png": {
+          "sha256": "bc078c5ab8c728f2dbebf82c447ca0115711b1fc6fe41bb2df29dd9490a445ae",
+          "bytes": 2027
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-roof.png": {
+          "sha256": "5ac9d7071c8066e1c8f73b658635e2975ce6311ba1ea427eb9f361b9eaddc96c",
+          "bytes": 151153
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-details.png": {
+          "sha256": "fe8a612e99a7649b630d1ee9f2d12bc4405e698b48aa59b43715a1af9cd48a54",
+          "bytes": 13711
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-focus.png": {
+          "sha256": "3e363bf6496c7ef379a373ca414c8bd0b9c59b5485cc79e5c09a9893303e8838",
+          "bytes": 8783
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-focus.png": {
+          "sha256": "0794af9be0172207fadb0c47af2f7ad7093b35142cb92351ad752c46b10b9532",
+          "bytes": 8782
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-focus.png": {
+          "sha256": "84cccecd9104d4755054d78b55d4f78277339980e6318a5745b2a62762f31deb",
+          "bytes": 8765
+        },
+        "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-butterflies.png": {
+          "sha256": "ccf85c6c32983c1467e1fb45c4fe544ac463310bd2074a958ef4619132ed9bc5",
+          "bytes": 36966
+        }
+      },
+      "full_scene_rgba_sha256": "30c50857bcac5bd1470998a6a0badcc3c75fdb80c4fcb69f0b549699c0655c7e",
+      "output": {
+        "path": "docs/map-collection/previews/crops/butterfly-gate.jpg",
+        "filename": "butterfly-gate.jpg",
+        "sha256": "e60ce36a4c04aa9a40c4bd2621ef245bcd74b0052cf80c020b7a1fda5202cf5c",
+        "dimensions": [
+          332,
+          480
+        ],
+        "bytes": 114600,
+        "format": "JPEG",
+        "quality": 88,
+        "resampling": "Lanczos; aspect ratio retained; no color adjustment"
+      }
+    }
+  ],
+  "detail_sheet": {
+    "path": "docs/map-collection/previews/crops/keeper-detail-sheet.jpg",
+    "sha256": "734f0c43a4aabfea4b92cf913472cade2a9f7796281e7801c8dd13d967d11747",
+    "dimensions": [
+      1000,
+      990
+    ],
+    "bytes": 352049,
+    "label": "Cropped original views; separate authored spaces shown side by side for review"
+  },
+  "limitations": [
+    "TMJ initial visibility only; no runtime script or WAM state applied.",
+    "No game acceptance, interactions, sound or transitions verified.",
+    "Detail sheet is a labeled review layout, not the spatial arrangement of the map."
+  ]
+}

@@ -31,6 +31,8 @@ Start with [the interactive experience / engine-PR guide](docs/map-testing/EXPER
 
 33 H-series originals remain unavailable: [Kinetic places](docs/map-testing/h-kinetic.md) · [Living landscapes](docs/map-testing/h-landscapes.md) · [Journeys and wayfinding](docs/map-testing/h-journeys.md) · [Materials and making](docs/map-testing/h-making.md). Historical test records are preserved; they are not recovered playable files.
 
+New partial progress: [H025 / H039 nonvisual checkpoint](recovery/nonvisual-h025-h039-2026-10-13/README.md) preserves newly derived layout/controller work only. H039 has one artwork-dependent check blocked. No artwork, TMJ, WAM or complete map is recovered; **the 33 missing-original and 80 backed-up-runtime counts are unchanged**. [H025 checks](docs/map-testing/h-journeys.md#h025) · [H039 checks](docs/map-testing/h-making.md#h039).
+
 Rejected and shelved references stay labeled. Original source, frozen runtime, reconstructed authoring and concept-only records are kept distinct. A structural/source check or successful backup does not mean a live experience passed.
 
 [Source recovery catalogue](archive/source-recovery-2026-10-13/MAP-CATALOG.md) · [Runtime backup catalogue](archive/runtime-recovery-2026-10-13/CATALOG.json) · [Historical revisions](archive/source-recovery-2026-10-13/lean-historical/HISTORICAL-MAP-CATALOG.md) · [Preserved feedback](docs/map-testing/PRESERVED-FEEDBACK.md)

@@ -175,16 +175,31 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Exact review revision: **H025-r2**
 - Purpose/category: Journeys and wayfinding
 - Record role: New 100-map batch
-- Current state: Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing
+- Current state: Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing. A new incomplete nonvisual derivation is available; no complete map is recovered.
 - Source/evidence: [Original-missing ledger](../../archive/source-recovery-2026-10-13/recovery-ledgers/h33-missing-ledger.json)
 - Runtime: no exact current runnable package linked here; follow the source/recovery gate above.
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
 - Retained historical evidence (not a new test result): PASS: source, native-fixture and static visual checks. Live game untested.
 
+### Nonvisual checkpoint · 13 October 2026
+
+[Checkpoint README](../../recovery/nonvisual-h025-h039-2026-10-13/README.md) · [check status](../../recovery/nonvisual-h025-h039-2026-10-13/CHECK-STATUS.json) · [new layout](../../recovery/nonvisual-h025-h039-2026-10-13/generated/H025/source/layout.json)
+
+- **Incomplete new derivation**, not an original source archive or playable map. The original partial-recovery folders remain unchanged.
+- Derived source geometry: 608 admitted cells, 4 rooms, 22 anchors and two native-standing seat contacts. Declared 16×16 body clearance/footprints and source-floor paths pass geometry checks; this is not actual-engine route replay.
+- Supported-WA mock controller checks: **19 passed**, including 512 clue/route/provision combinations and repeated door transitions.
+- Two fresh regenerations reproduce all nine shipped source/script outputs across the two maps. New derivation checksums alone do not establish historical byte identity.
+- None of H025’s newly derived outputs has an independently retained historical per-file checksum. The two `im.size` geometry reads use the retained builder’s explicit 1248×1248 crop dimensions; no image composition was executed.
+- Missing final-build art masters: `art/masters/courtyard-r3.png`, `art/masters/rooms-r3.png`, `art/masters/packed-r1.png`.
+- Final TMJ remains unrecovered; retained target hash: `370f6d1ad29138de7c9dc64bc5f8b2636b3c9e17bc2108c478f42da291a4c1a9`.
+- No PNG, TMJ or WAM was created. Script-only folders are not deployable runtimes. Art, depicted-floor/foreground, actual spawn, engine, browser/GPU, keyboard, touch, multiplayer and live acceptance remain untested.
+
 ### Test next
 
+- [ ] Recover the original final-build art masters: courtyard-r3.png, rooms-r3.png, packed-r1.png. Validate imagery against this newly derived geometry before rebuilding the complete map.
 - [ ] Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.
 - [ ] If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance.
+- [ ] After the illustrated full build exists, verify actual-engine route following, initial random spawn, rendered state/foreground, keyboard, touch and multiplayer. The 19 passing cases are supported-WA mocks.
 
 ### Feedback and decision
 

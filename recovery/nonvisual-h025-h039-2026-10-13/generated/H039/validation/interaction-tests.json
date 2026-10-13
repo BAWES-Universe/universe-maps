@@ -1,0 +1,71 @@
+{
+  "scope": "Exact emitted runtime, supported-WA mocks. Source-only, no live/browser/GPU acceptance.",
+  "scriptSHA256": "96cc654f6a1cbfb83d4c0e14269e11f428912b5029b49f022ab067cf3d15ddf3",
+  "allPass": false,
+  "allRunnableControllerChecksPass": true,
+  "missingArtCheckBlocked": true,
+  "cases": [
+    {
+      "name": "all64 wet and printed states reachable with exact layer displays",
+      "pass": true
+    },
+    {
+      "name": "each pass from every available subset changes wet layer exactly once without changing print",
+      "pass": true
+    },
+    {
+      "name": "six pass orders deliberately commute to full peacock pattern",
+      "pass": true
+    },
+    {
+      "name": "blank lift is rejected and completion requires actual nonblank copied print",
+      "pass": true
+    },
+    {
+      "name": "new passes and fresh wet sheet preserve hanging print until explicit lift",
+      "pass": true
+    },
+    {
+      "name": "64 unique decoded physical states and16 bounded overlays inside unchanged solids",
+      "pass": null,
+      "status": "BLOCKED",
+      "reason": "Original raster masters and rendered state/footprint reports remain missing."
+    },
+    {
+      "name": "proximity and guide never apply pass or lift",
+      "pass": true
+    },
+    {
+      "name": "stale tool and lift callbacks cannot supersede newer intent",
+      "pass": true
+    },
+    {
+      "name": "Close leave pause and guide invalidate callbacks without mutating pattern",
+      "pass": true
+    },
+    {
+      "name": "repeated bidirectional room crossings preserve wet and copied print",
+      "pass": true
+    },
+    {
+      "name": "reset Close guide and within-radius movement cancel; explicit reset clears both sheets",
+      "pass": true
+    },
+    {
+      "name": "unknown movement queues all visuals until actual idle and idle is cached",
+      "pass": true
+    },
+    {
+      "name": "midwalk pass sequences flush latest state only",
+      "pass": true
+    },
+    {
+      "name": "midwalk reset cancels queued changes back to initially visible blank sheets",
+      "pass": true
+    },
+    {
+      "name": "late startup, disposal and isolated visitors",
+      "pass": true
+    }
+  ]
+}

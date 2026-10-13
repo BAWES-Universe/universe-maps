@@ -1,0 +1,926 @@
+{
+  "scope": "New nonvisual checks of retained declared geometry. No TMJ, rendered-pixel, actual-engine, browser, device or live acceptance.",
+  "map": "H025",
+  "openCells": 608,
+  "body": [
+    16,
+    16
+  ],
+  "sampleSpacingMaximum": 0.5,
+  "targets": [
+    {
+      "name": "West woven saddle bench",
+      "origin": [
+        344,
+        719
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "East woven saddle bench",
+      "origin": [
+        936,
+        719
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "South gate arrival apron",
+      "origin": [
+        624,
+        943
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Open south gate",
+      "origin": [
+        624,
+        864
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Covered cistern reading side",
+      "origin": [
+        496,
+        416
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Pannier packing bay",
+      "origin": [
+        1008,
+        544
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "West guest-cell threshold",
+      "origin": [
+        344,
+        288
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "East guest-cell threshold",
+      "origin": [
+        912,
+        288
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Roof-stair room threshold",
+      "origin": [
+        656,
+        303
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Wide west courtyard route",
+      "origin": [
+        240,
+        576
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Wide east courtyard route",
+      "origin": [
+        1008,
+        672
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "North transverse route",
+      "origin": [
+        656,
+        352
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Central transverse route",
+      "origin": [
+        656,
+        576
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "West cell south return threshold",
+      "origin": [
+        240,
+        1984
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Wind-ribbon clue",
+      "origin": [
+        176,
+        1728
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "West cell clear aisle",
+      "origin": [
+        272,
+        1856
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "East cell south return threshold",
+      "origin": [
+        624,
+        1984
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Landmark clue table",
+      "origin": [
+        656,
+        1728
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "East cell clear aisle",
+      "origin": [
+        624,
+        1856
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Roof room south return threshold",
+      "origin": [
+        1008,
+        1984
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Itinerary chart table",
+      "origin": [
+        1008,
+        1728
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Stair bottom approach",
+      "origin": [
+        1136,
+        1871
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Stair upper usable landing",
+      "origin": [
+        1136,
+        1632
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Roof room clear aisle",
+      "origin": [
+        1008,
+        1856
+      ],
+      "bodyClear": true
+    }
+  ],
+  "paths": [
+    {
+      "name": "Full central north-south main lane west edge",
+      "samples": 865,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Full central north-south main lane east edge",
+      "samples": 865,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Main crossing upper width",
+      "samples": 1473,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Main crossing lower width",
+      "samples": 1409,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "North clear transverse lane",
+      "samples": 529,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "North clear transverse lane second width",
+      "samples": 529,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Northeast transverse lane",
+      "samples": 769,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Northeast transverse lane second width",
+      "samples": 769,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Full cistern west bypass outer",
+      "samples": 353,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Full cistern west bypass inner",
+      "samples": 353,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Full cistern east bypass outer",
+      "samples": 353,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Full cistern east bypass inner",
+      "samples": 353,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "South gate west width",
+      "samples": 353,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "South gate east width",
+      "samples": 353,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "West guest threshold and 64-wide landing",
+      "samples": 226,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "East guest threshold and 64-wide landing",
+      "samples": 226,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Roof room threshold approach",
+      "samples": 99,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "West bench north approach",
+      "samples": 95,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "West bench return around east foot",
+      "samples": 322,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "East bench north approach",
+      "samples": 95,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "East bench south-clear floor strip",
+      "samples": 289,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Packing bay vertical approach",
+      "samples": 353,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Arrival apron upper wide lane",
+      "samples": 897,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Arrival apron middle wide lane",
+      "samples": 961,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Arrival apron lower wide lane",
+      "samples": 385,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Arrival apron broad center west",
+      "samples": 257,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Arrival apron broad center east",
+      "samples": 289,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Main aisle west width",
+      "samples": 257,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Main aisle east width",
+      "samples": 257,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Door approach center",
+      "samples": 193,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "South doorway west width",
+      "samples": 129,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "South doorway east width",
+      "samples": 129,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Full center cross-room width",
+      "samples": 257,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "West guest full clear northern floor",
+      "samples": 273,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "West guest east aisle",
+      "samples": 289,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Main aisle west width",
+      "samples": 257,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Main aisle east width",
+      "samples": 257,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Door approach center",
+      "samples": 193,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "South doorway west width",
+      "samples": 129,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "South doorway east width",
+      "samples": 129,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Full center cross-room width",
+      "samples": 257,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "East guest full clear northern floor",
+      "samples": 321,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "East guest west aisle",
+      "samples": 193,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Main aisle west width",
+      "samples": 257,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Main aisle east width",
+      "samples": 257,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Door approach center",
+      "samples": 193,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "South doorway west width",
+      "samples": 129,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "South doorway east width",
+      "samples": 129,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Full center cross-room width",
+      "samples": 193,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Stair wide bottom landing north band",
+      "samples": 273,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Stair wide bottom landing south band",
+      "samples": 273,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Native stair west fitting body-origin extreme",
+      "samples": 449,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Native stair east fitting body-origin extreme",
+      "samples": 449,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Upper landing lateral fitting extent",
+      "samples": 33,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Right room west aisle",
+      "samples": 257,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    }
+  ],
+  "footprints": [
+    {
+      "room": "courtyard",
+      "index": 0,
+      "pixels": 7579,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 1,
+      "pixels": 5302,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 2,
+      "pixels": 12509,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 3,
+      "pixels": 6550,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 4,
+      "pixels": 4876,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 5,
+      "pixels": 5866,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 6,
+      "pixels": 16361,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 7,
+      "pixels": 6535,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 8,
+      "pixels": 36537,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 9,
+      "pixels": 2880,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 10,
+      "pixels": 2816,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 11,
+      "pixels": 9749,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 12,
+      "pixels": 16544,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 13,
+      "pixels": 872,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 14,
+      "pixels": 1094,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 15,
+      "pixels": 99733,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 16,
+      "pixels": 16266,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 17,
+      "pixels": 54193,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "courtyard",
+      "index": 18,
+      "pixels": 38822,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "wind-cell",
+      "index": 0,
+      "pixels": 4485,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "wind-cell",
+      "index": 1,
+      "pixels": 8064,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "wind-cell",
+      "index": 2,
+      "pixels": 1360,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "wind-cell",
+      "index": 3,
+      "pixels": 3162,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "wind-cell",
+      "index": 4,
+      "pixels": 2460,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "wind-cell",
+      "index": 5,
+      "pixels": 12669,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "wind-cell",
+      "index": 6,
+      "pixels": 12463,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "landmark-cell",
+      "index": 0,
+      "pixels": 8568,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "landmark-cell",
+      "index": 1,
+      "pixels": 1452,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "landmark-cell",
+      "index": 2,
+      "pixels": 4940,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "landmark-cell",
+      "index": 3,
+      "pixels": 1400,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "landmark-cell",
+      "index": 4,
+      "pixels": 3285,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "landmark-cell",
+      "index": 5,
+      "pixels": 1620,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "landmark-cell",
+      "index": 6,
+      "pixels": 11536,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "landmark-cell",
+      "index": 7,
+      "pixels": 10918,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "roof-stair-room",
+      "index": 0,
+      "pixels": 8019,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "roof-stair-room",
+      "index": 1,
+      "pixels": 1560,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "roof-stair-room",
+      "index": 2,
+      "pixels": 2706,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "roof-stair-room",
+      "index": 3,
+      "pixels": 1584,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "roof-stair-room",
+      "index": 4,
+      "pixels": 6397,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "roof-stair-room",
+      "index": 5,
+      "pixels": 3120,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "roof-stair-room",
+      "index": 6,
+      "pixels": 660,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "roof-stair-room",
+      "index": 7,
+      "pixels": 12772,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "room": "roof-stair-room",
+      "index": 8,
+      "pixels": 13493,
+      "admittedPixels": 0,
+      "pass": true
+    }
+  ],
+  "components": [
+    {
+      "room": "courtyard",
+      "spawnBodyClear": true,
+      "reachableCells": 441,
+      "unreachableTargets": [],
+      "pass": true
+    },
+    {
+      "room": "wind-cell",
+      "spawnBodyClear": true,
+      "reachableCells": 58,
+      "unreachableTargets": [],
+      "pass": true
+    },
+    {
+      "room": "landmark-cell",
+      "spawnBodyClear": true,
+      "reachableCells": 52,
+      "unreachableTargets": [],
+      "pass": true
+    },
+    {
+      "room": "roof-stair-room",
+      "spawnBodyClear": true,
+      "reachableCells": 57,
+      "unreachableTargets": [],
+      "pass": true
+    }
+  ],
+  "fullWidthBands": [],
+  "allPass": true
+}

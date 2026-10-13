@@ -1,0 +1,32 @@
+{
+  "classification": "INCOMPLETE_NONVISUAL_DERIVATION",
+  "fullMapRecovered": false,
+  "newArtworkCreated": false,
+  "checkAllExitCode": 0,
+  "reproducibility": {
+    "pass": true,
+    "outputs": 9
+  },
+  "H025": {
+    "controllerCasesPassed": 19,
+    "allControllerCasesPassed": true,
+    "geometryPass": true,
+    "openCells": 608
+  },
+  "H039": {
+    "controllerCasesPassed": 14,
+    "controllerCasesBlocked": 1,
+    "fullControllerSuitePass": false,
+    "geometryPass": true,
+    "openCells": 277,
+    "scriptMatchesKnownOriginalSHA256": true
+  },
+  "notRun": [
+    "Full raster/art build",
+    "Actual-engine/native route replay",
+    "Actual initial random-spawn enumeration",
+    "Rendered pixel/state/foreground acceptance",
+    "Browser/GPU/keyboard/touch/multiplayer live acceptance"
+  ],
+  "noExternalWrites": true
+}

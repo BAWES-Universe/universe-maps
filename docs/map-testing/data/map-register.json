@@ -3766,11 +3766,13 @@
       "role": "New 100-map batch",
       "page": "h-journeys.md",
       "anchor": "h025",
-      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing. A new incomplete nonvisual derivation is available; no complete map is recovered.",
       "runtime": null,
       "test_next": [
+        "Recover the original final-build art masters: courtyard-r3.png, rooms-r3.png, packed-r1.png. Validate imagery against this newly derived geometry before rebuilding the complete map.",
         "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
-        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance.",
+        "After the illustrated full build exists, verify actual-engine route following, initial random spawn, rendered state/foreground, keyboard, touch and multiplayer. The 19 passing cases are supported-WA mocks."
       ],
       "imported_review": {
         "Design review": "Pending",
@@ -3782,7 +3784,43 @@
         "Decision": "Pending",
         "Feedback / next change": null
       },
-      "workbook_row": 123
+      "workbook_row": 123,
+      "nonvisual_checkpoint": {
+        "path": "recovery/nonvisual-h025-h039-2026-10-13",
+        "classification": "INCOMPLETE_NONVISUAL_DERIVATION",
+        "date": "2026-10-13",
+        "full_map_recovered": false,
+        "new_artwork_created": false,
+        "original_partial_recovery_folders_unchanged": true,
+        "source_geometry_pass": true,
+        "open_cells": 608,
+        "rooms": 4,
+        "anchors": 22,
+        "native_standing_contacts": 2,
+        "mock_controller_cases_passed": 19,
+        "mock_controller_cases_blocked": 0,
+        "full_mock_controller_suite_pass": true,
+        "combined_reproducible_source_script_outputs": 9,
+        "independent_historical_hash_match_scope": "No independently retained historical hash for newly derived outputs",
+        "script_path": "recovery/nonvisual-h025-h039-2026-10-13/generated/H025/map32/caravan.js",
+        "script_sha256": "8e7fd7a6cabe877cc91952d9a9fd5b297d6db13c6c552d807d33c2b8094d5834",
+        "missing_final_build_masters": [
+          "art/masters/courtyard-r3.png",
+          "art/masters/rooms-r3.png",
+          "art/masters/packed-r1.png"
+        ],
+        "unrecovered_final_tmj_target_sha256": "370f6d1ad29138de7c9dc64bc5f8b2636b3c9e17bc2108c478f42da291a4c1a9",
+        "no_png_tmj_wam_created": true,
+        "not_run": [
+          "Full raster/art build",
+          "Actual-engine/native route replay",
+          "Actual initial random-spawn enumeration",
+          "Rendered pixel/state/foreground acceptance",
+          "Browser/GPU/keyboard/touch/multiplayer live acceptance"
+        ],
+        "check_status_path": "recovery/nonvisual-h025-h039-2026-10-13/CHECK-STATUS.json",
+        "readme_path": "recovery/nonvisual-h025-h039-2026-10-13/README.md"
+      }
     },
     {
       "id": "H039",
@@ -3792,11 +3830,13 @@
       "role": "New 100-map batch",
       "page": "h-making.md",
       "anchor": "h039",
-      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing. A new incomplete nonvisual derivation is available; no complete map is recovered.",
       "runtime": null,
       "test_next": [
+        "Recover the original final-build art masters: mill-r5.png, pattern-room-r1.png, stools-r1.png, patterns-r1.png. Validate imagery against this newly derived geometry before rebuilding the complete map.",
         "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
-        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance.",
+        "After actual rendered artwork exists, run the one blocked original controller/art case; the current full controller suite remains false. Then perform native-engine and live acceptance on the exact full build."
       ],
       "imported_review": {
         "Design review": "Pending",
@@ -3808,7 +3848,44 @@
         "Decision": "Pending",
         "Feedback / next change": null
       },
-      "workbook_row": 124
+      "workbook_row": 124,
+      "nonvisual_checkpoint": {
+        "path": "recovery/nonvisual-h025-h039-2026-10-13",
+        "classification": "INCOMPLETE_NONVISUAL_DERIVATION",
+        "date": "2026-10-13",
+        "full_map_recovered": false,
+        "new_artwork_created": false,
+        "original_partial_recovery_folders_unchanged": true,
+        "source_geometry_pass": true,
+        "open_cells": 277,
+        "rooms": 2,
+        "anchors": 16,
+        "native_standing_contacts": 2,
+        "mock_controller_cases_passed": 14,
+        "mock_controller_cases_blocked": 1,
+        "full_mock_controller_suite_pass": false,
+        "combined_reproducible_source_script_outputs": 9,
+        "independent_historical_hash_match_scope": "H039 emitted interaction script only",
+        "script_path": "recovery/nonvisual-h025-h039-2026-10-13/generated/H039/runtime/experience.js",
+        "script_sha256": "96cc654f6a1cbfb83d4c0e14269e11f428912b5029b49f022ab067cf3d15ddf3",
+        "missing_final_build_masters": [
+          "art/masters/mill-r5.png",
+          "art/masters/pattern-room-r1.png",
+          "art/masters/stools-r1.png",
+          "art/masters/patterns-r1.png"
+        ],
+        "unrecovered_final_tmj_target_sha256": "25cb99347eb63e8c535215b12c2a01d23784254bf430ff2f4019ec2763d2b240",
+        "no_png_tmj_wam_created": true,
+        "not_run": [
+          "Full raster/art build",
+          "Actual-engine/native route replay",
+          "Actual initial random-spawn enumeration",
+          "Rendered pixel/state/foreground acceptance",
+          "Browser/GPU/keyboard/touch/multiplayer live acceptance"
+        ],
+        "check_status_path": "recovery/nonvisual-h025-h039-2026-10-13/CHECK-STATUS.json",
+        "readme_path": "recovery/nonvisual-h025-h039-2026-10-13/README.md"
+      }
     },
     {
       "id": "butterfly-town-v2",

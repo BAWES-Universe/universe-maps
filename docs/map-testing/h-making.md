@@ -335,16 +335,31 @@ Add a dated result below; keep prior feedback and identify the exact map/engine 
 - Exact review revision: **H039-r1**
 - Purpose/category: Materials and making
 - Record role: New 100-map batch
-- Current state: Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing
+- Current state: Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing. A new incomplete nonvisual derivation is available; no complete map is recovered.
 - Source/evidence: [Original-missing ledger](../../archive/source-recovery-2026-10-13/recovery-ledgers/h33-missing-ledger.json)
 - Runtime: no exact current runnable package linked here; follow the source/recovery gate above.
 - Play/session URL: **not verified**. Archive/GitHub file links are not deployment URLs.
 - Retained historical evidence (not a new test result): PASS: source, native-fixture and static visual checks. Live game untested.
 
+### Nonvisual checkpoint · 13 October 2026
+
+[Checkpoint README](../../recovery/nonvisual-h025-h039-2026-10-13/README.md) · [check status](../../recovery/nonvisual-h025-h039-2026-10-13/CHECK-STATUS.json) · [new layout](../../recovery/nonvisual-h025-h039-2026-10-13/generated/H039/source/layout.json)
+
+- **Incomplete new derivation**, not an original source archive or playable map. The original partial-recovery folders remain unchanged.
+- Derived source geometry: 277 admitted cells, 2 rooms, 16 anchors and two native-standing stool contacts. Declared 16×16 body clearance/footprints and source-floor paths pass geometry checks; this is not actual-engine route replay.
+- Supported-WA mock controller checks: **14 passed**; **1 artwork-dependent original case BLOCKED; full-suite pass remains false**.
+- Two fresh regenerations reproduce all nine shipped source/script outputs across the two maps. New derivation checksums alone do not establish historical byte identity.
+- Only the emitted [H039 interaction script](../../recovery/nonvisual-h025-h039-2026-10-13/generated/H039/runtime/experience.js) matches an independently retained original checksum: `96cc654f6a1cbfb83d4c0e14269e11f428912b5029b49f022ab067cf3d15ddf3`.
+- Missing final-build art masters: `art/masters/mill-r5.png`, `art/masters/pattern-room-r1.png`, `art/masters/stools-r1.png`, `art/masters/patterns-r1.png`.
+- Final TMJ remains unrecovered; retained target hash: `25cb99347eb63e8c535215b12c2a01d23784254bf430ff2f4019ec2763d2b240`.
+- No PNG, TMJ or WAM was created. Script-only folders are not deployable runtimes. Art, depicted-floor/foreground, actual spawn, engine, browser/GPU, keyboard, touch, multiplayer and live acceptance remain untested.
+
 ### Test next
 
+- [ ] Recover the original final-build art masters: mill-r5.png, pattern-room-r1.png, stools-r1.png, patterns-r1.png. Validate imagery against this newly derived geometry before rebuilding the complete map.
 - [ ] Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.
 - [ ] If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance.
+- [ ] After actual rendered artwork exists, run the one blocked original controller/art case; the current full controller suite remains false. Then perform native-engine and live acceptance on the exact full build.
 
 ### Feedback and decision
 

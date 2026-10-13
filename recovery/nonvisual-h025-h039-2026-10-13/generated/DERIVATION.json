@@ -1,0 +1,57 @@
+{
+  "scope": "New art-independent source derivation, not a recovered complete map or visual/live acceptance.",
+  "artFilesCreated": 0,
+  "tmjFilesCreated": 0,
+  "wamFilesCreated": 0,
+  "historicalHashMatches": {
+    "H039/runtime/experience.js": "96cc654f6a1cbfb83d4c0e14269e11f428912b5029b49f022ab067cf3d15ddf3"
+  },
+  "unverifiedHistoricalIdentity": "All other derived outputs have current checksums only; no original per-file checksum was retained.",
+  "files": [
+    {
+      "path": "H025/map32/caravan.js",
+      "bytes": 11358,
+      "sha256": "8e7fd7a6cabe877cc91952d9a9fd5b297d6db13c6c552d807d33c2b8094d5834"
+    },
+    {
+      "path": "H025/source/controller.js",
+      "bytes": 9634,
+      "sha256": "35a924ae7c8fca263e49d00a0086f37effa50a0d1da06f2e638eaa740b3db636"
+    },
+    {
+      "path": "H025/source/design.json",
+      "bytes": 40076,
+      "sha256": "0e4502475ed81b9aed76cde27b646cf15bff6c0683275618d6c4ab12aec187b7"
+    },
+    {
+      "path": "H025/source/layout.json",
+      "bytes": 53950,
+      "sha256": "7e0d3bd62e583356c5637670a590da8f6599474068cddcf96b4c8c1b7c7b0167"
+    },
+    {
+      "path": "H025/source/visible-floor.json",
+      "bytes": 30900,
+      "sha256": "19beb000a213bb5d705b9bccc8eeb9f0544a0db8f2ac96ea4b4e422f143603b5"
+    },
+    {
+      "path": "H039/runtime/experience.js",
+      "bytes": 10261,
+      "sha256": "96cc654f6a1cbfb83d4c0e14269e11f428912b5029b49f022ab067cf3d15ddf3"
+    },
+    {
+      "path": "H039/source/controller.js",
+      "bytes": 9333,
+      "sha256": "1884ff6cc1d5303ad7cefef2cf25eb8abd6dfc7a44b2e47abb08a4bbaafb0139"
+    },
+    {
+      "path": "H039/source/design.json",
+      "bytes": 26836,
+      "sha256": "95ae82a95ff2f779eea7cd1be89545b3c42b4bb2f27185276f326c31526727d5"
+    },
+    {
+      "path": "H039/source/layout.json",
+      "bytes": 19234,
+      "sha256": "3e5d741e1dc05fcfa136d1b0791bdf751bdc1c66a83cc7c48079bf682c5e0c38"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "scope": "Author controller tests against actual emitted caravan.js; source-only native-schema mocks, not live acceptance.",
+  "count": 19,
+  "pass": true,
+  "records": [
+    {
+      "name": "All 512 clue/route/provision configurations approve exactly the intended complete packing",
+      "pass": true
+    },
+    {
+      "name": "All six clue orders converge; repeats are idempotent",
+      "pass": true
+    },
+    {
+      "name": "Explicit actions only, arrival and Close do not mutate; Inspect reopens",
+      "pass": true
+    },
+    {
+      "name": "Wrong plan retains clues and current choices; correction completes",
+      "pass": true
+    },
+    {
+      "name": "Editing completed provisions visibly empties baskets, replay remains possible",
+      "pass": true
+    },
+    {
+      "name": "Rapid stale double-click cannot pack twice or cycle provisions twice",
+      "pass": true
+    },
+    {
+      "name": "Reset requires explicit second action; Close preserves completed visit",
+      "pass": true
+    },
+    {
+      "name": "Movement invalidates stale reset callback",
+      "pass": true
+    },
+    {
+      "name": "Pause blocks nearby mutation and resuming preserves state",
+      "pass": true
+    },
+    {
+      "name": "windDoor bidirectional repeated transitions preserve partial state",
+      "pass": true
+    },
+    {
+      "name": "windDoor bidirectional repeated transitions preserve complete state",
+      "pass": true
+    },
+    {
+      "name": "landmarkDoor bidirectional repeated transitions preserve partial state",
+      "pass": true
+    },
+    {
+      "name": "landmarkDoor bidirectional repeated transitions preserve complete state",
+      "pass": true
+    },
+    {
+      "name": "roofDoor bidirectional repeated transitions preserve partial state",
+      "pass": true
+    },
+    {
+      "name": "roofDoor bidirectional repeated transitions preserve complete state",
+      "pass": true
+    },
+    {
+      "name": "Busy transition ignores stale callbacks and rejects reset without loss",
+      "pass": true
+    },
+    {
+      "name": "Full reload and independent visitor reset local state only",
+      "pass": true
+    },
+    {
+      "name": "Unknown initial snapshot and moving events cannot release visual writes",
+      "pass": true
+    },
+    {
+      "name": "Disposed initialization and stale actions are harmless",
+      "pass": true
+    }
+  ]
+}

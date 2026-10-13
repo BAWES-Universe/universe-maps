@@ -1,0 +1,459 @@
+{
+  "scope": "New nonvisual checks of retained declared geometry. No TMJ, rendered-pixel, actual-engine, browser, device or live acceptance.",
+  "map": "H039",
+  "openCells": 277,
+  "body": [
+    16,
+    16
+  ],
+  "sampleSpacingMaximum": 0.5,
+  "targets": [
+    {
+      "name": "West round beech stool",
+      "origin": [
+        264,
+        463
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "East rounded beech stool",
+      "origin": [
+        552,
+        463
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Mill gate arrival",
+      "origin": [
+        432,
+        527
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "West marbling tray",
+      "origin": [
+        264,
+        303
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "East marbling tray",
+      "origin": [
+        552,
+        303
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Pattern cabinet comb station",
+      "origin": [
+        1552,
+        256
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Drying bridge print rack",
+      "origin": [
+        1072,
+        367
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Mill exterior door approach",
+      "origin": [
+        432,
+        271
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Pattern room interior door approach",
+      "origin": [
+        1552,
+        559
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Pattern viewing table",
+      "origin": [
+        1552,
+        495
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "West tray side",
+      "origin": [
+        144,
+        399
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Between trays",
+      "origin": [
+        400,
+        399
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "East tray side",
+      "origin": [
+        656,
+        416
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Drying bridge deck",
+      "origin": [
+        848,
+        416
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Right-bank landing",
+      "origin": [
+        1040,
+        431
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Gate winding return",
+      "origin": [
+        432,
+        623
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Table west aisle",
+      "origin": [
+        1296,
+        399
+      ],
+      "bodyClear": true
+    },
+    {
+      "name": "Table east aisle",
+      "origin": [
+        1776,
+        399
+      ],
+      "bodyClear": true
+    }
+  ],
+  "paths": [
+    {
+      "name": "Northern mill-yard promenade",
+      "samples": 2052,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Between marbling trays full width",
+      "samples": 772,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "West tray incidental side",
+      "samples": 516,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "East tray landing",
+      "samples": 388,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Drying bridge64px deck",
+      "samples": 1412,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Bridge west landing",
+      "samples": 388,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Bridge east landing",
+      "samples": 644,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Lower courtyard",
+      "samples": 900,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "West stool actual approach",
+      "samples": 132,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "East stool actual approach",
+      "samples": 132,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "South yard walk",
+      "samples": 388,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Main gate64px run",
+      "samples": 1028,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Pattern room north aisle",
+      "samples": 2692,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Pattern room west aisle",
+      "samples": 1668,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Pattern room east aisle",
+      "samples": 1668,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    },
+    {
+      "name": "Pattern room lower aisle",
+      "samples": 2820,
+      "pass": true,
+      "failureCount": 0,
+      "firstFailure": []
+    }
+  ],
+  "footprints": [
+    {
+      "name": "West tray whole base and projected rim",
+      "pixels": 15015,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "name": "East tray full upper rim and body",
+      "pixels": 12649,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "name": "East tray full lower apron and supports",
+      "pixels": 1918,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "name": "Drying rack full upper crossbar and sheets",
+      "pixels": 13904,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "name": "Drying rack full west post foot",
+      "pixels": 1764,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "name": "Drying rack full east post foot",
+      "pixels": 1470,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "name": "North bridge rail entire projection",
+      "pixels": 12247,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "name": "South bridge rail entire projection",
+      "pixels": 14784,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "name": "Pattern table whole rim legs and base",
+      "pixels": 57330,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "name": "Pattern cabinet entire base",
+      "pixels": 17748,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "name": "West stool ground apron feet",
+      "pixels": 190,
+      "admittedPixels": 0,
+      "pass": true
+    },
+    {
+      "name": "East stool ground apron feet",
+      "pixels": 190,
+      "admittedPixels": 0,
+      "pass": true
+    }
+  ],
+  "components": [
+    {
+      "room": "mill-yard",
+      "spawnBodyClear": true,
+      "reachableCells": 117,
+      "unreachableTargets": [],
+      "pass": true
+    },
+    {
+      "room": "pattern-room",
+      "spawnBodyClear": true,
+      "reachableCells": 160,
+      "unreachableTargets": [],
+      "pass": true
+    }
+  ],
+  "fullWidthBands": [
+    {
+      "name": "Northern mill-yard promenade",
+      "samples": 8449,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "Between marbling trays full width",
+      "samples": 9153,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "West tray incidental side",
+      "samples": 1921,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "East tray landing",
+      "samples": 1377,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "Drying bridge64px deck",
+      "samples": 14945,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "Bridge west landing",
+      "samples": 2401,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "Bridge east landing",
+      "samples": 5537,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "Lower courtyard",
+      "samples": 3553,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "West stool actual approach",
+      "samples": 289,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "East stool actual approach",
+      "samples": 289,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "South yard walk",
+      "samples": 1377,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "Main gate64px run",
+      "samples": 14337,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "Pattern room north aisle",
+      "samples": 30625,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "Pattern room west aisle",
+      "samples": 39585,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "Pattern room east aisle",
+      "samples": 39585,
+      "failureCount": 0,
+      "pass": true
+    },
+    {
+      "name": "Pattern room lower aisle",
+      "samples": 50625,
+      "failureCount": 0,
+      "pass": true
+    }
+  ],
+  "allPass": true
+}

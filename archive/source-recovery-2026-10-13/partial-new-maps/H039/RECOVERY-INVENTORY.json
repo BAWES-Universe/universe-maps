@@ -1,0 +1,373 @@
+{
+  "id": "H039",
+  "originalFreeze": "H039-r1",
+  "status": "PARTIAL_EXACT_RECOVERY_NOT_COMPLETE_MAP",
+  "finalRuntimeScriptVerified": true,
+  "originalRasterMastersRecovered": false,
+  "completeCandidateRecovered": false,
+  "newImageGeneration": false,
+  "externalWrites": false,
+  "publication": false,
+  "knownOriginalManifestSHA256": "3f9ecad05180bb36c423dd34187cf95715012d823ea1379773d096ceb27898e7",
+  "knownOriginalTMJSHA256": "25cb99347eb63e8c535215b12c2a01d23784254bf430ff2f4019ec2763d2b240",
+  "knownHashMatchedFiles": 7,
+  "files": [
+    {
+      "file": "README.md",
+      "recoveredSHA256": "2c35496f24c9091b408ac23735bf1e9326bf7812cf6cfef6b5fa42b4c0372cd7",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "art/prompts/mill-r1.txt",
+      "recoveredSHA256": "a1032a79c4e366f74a282edaf1e99047c3aa4ef341f17408647a827738811b62",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "art/prompts/mill-r2.txt",
+      "recoveredSHA256": "a7a784dd910263943b9963b89b7e0ab9bcd223da35ebcb7a1c3eb36628e1ae1b",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "art/prompts/mill-r3.txt",
+      "recoveredSHA256": "16dab3e5179bbfd0f9daaf5c5f2777e864431b32286a6180262854e035871d1a",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "art/prompts/mill-r4.txt",
+      "recoveredSHA256": "03c9110660eae45fb3599c52d6c37e0852c7aeaf38d73e283f3c425b00660d1d",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "art/prompts/mill-r5.txt",
+      "recoveredSHA256": "b8718a5fbe94fc57020866898ff12d2538d8d3e36ffcf364212db130cd964f69",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "art/prompts/pattern-room-r1.txt",
+      "recoveredSHA256": "e673ee11668699c6f63ce9908d8726f4cb6818e8510525143f7750a5c6a47814",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "art/prompts/patterns-r1.txt",
+      "recoveredSHA256": "9400640bab750da96bc5ad35ab585e028eece319bb56e13384a8d821d2d9088f",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "art/prompts/stools-r1.txt",
+      "recoveredSHA256": "7f7627ec3b76d6fd37fa96948ce4b87739314f8590df6c50d983706f906295d3",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "receipts/READY.json",
+      "recoveredSHA256": "c6d9f37439dcfcefe1c92df0bb6d3ce7c5cc8a1a68ca5ed17cadc8a79c01e746",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovery provenance or preserved historical receipt; not substituted into final freeze"
+    },
+    {
+      "file": "receipts/adapter-hash-comparison.json",
+      "recoveredSHA256": "dfdbfda57bfadcb757374b934d04399cb590beea8103d8a6fae4d8c5257d4cc4",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovery provenance or preserved historical receipt; not substituted into final freeze"
+    },
+    {
+      "file": "receipts/controller-historical-hash-comparison.json",
+      "recoveredSHA256": "7d27ac386912c191dabdaa216d2402e9b96aac577dae0abeca7af340b9bb9d95",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovery provenance or preserved historical receipt; not substituted into final freeze"
+    },
+    {
+      "file": "receipts/earlier-experience-hash-verified.js",
+      "recoveredSHA256": "f6fd23f8b2a8ff63415cb8ee8b10ccd96a0f09594fc411ed2d9226f33ba42128",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovery provenance or preserved historical receipt; not substituted into final freeze"
+    },
+    {
+      "file": "receipts/exact-rebuild-receipt.json",
+      "recoveredSHA256": "5f8c127bbce72b9a615a0bc300eb5847cdbcf4ba7905e511545635a499234125",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovery provenance or preserved historical receipt; not substituted into final freeze"
+    },
+    {
+      "file": "receipts/final-experience-hash-comparison.json",
+      "recoveredSHA256": "f5a9cdfb0deb74408ce20d3e772023d76b2aded041d1925b4071ebc4fcaffbaf",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovery provenance or preserved historical receipt; not substituted into final freeze"
+    },
+    {
+      "file": "receipts/head-union-hash-comparison.json",
+      "recoveredSHA256": "c8a6bfdd50bf738fa250386610fb96aa75fec01db0293db2b0c183d92893ff75",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovery provenance or preserved historical receipt; not substituted into final freeze"
+    },
+    {
+      "file": "receipts/original-image-artifact-references.json",
+      "recoveredSHA256": "5cb0f79e3ea76655221cff1f23e6d95aa2fb39793677ea289fb5d816545b3879",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovery provenance or preserved historical receipt; not substituted into final freeze"
+    },
+    {
+      "file": "receipts/verified-native-archive-recovery.json",
+      "recoveredSHA256": "1a00aa6e5ef6f59e39d42760a8d74c61587b6d8f2173b70cd0d4e004d5834e69",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovery provenance or preserved historical receipt; not substituted into final freeze"
+    },
+    {
+      "file": "retained-inputs/author-design.initial.py",
+      "recoveredSHA256": "8d63539049c9051db4976936fbaf670f062f5088ebb8606cbcf93b255b9140a8",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovery provenance or preserved historical receipt; not substituted into final freeze"
+    },
+    {
+      "file": "retained-inputs/controller.base-observed.js",
+      "recoveredSHA256": "36b4e47b77d9f7cfebbc1e78b48482a14db0762845f7aff8de7d7fdcdbbbadd4",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovery provenance or preserved historical receipt; not substituted into final freeze"
+    },
+    {
+      "file": "retained-inputs/replay-design-patches.py",
+      "recoveredSHA256": "a5bb9664a7a78867e2e7c1c65946c46a89763e55dbb96eb1845ebd70d8c0f71f",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovery provenance or preserved historical receipt; not substituted into final freeze"
+    },
+    {
+      "file": "runtime/experience.js",
+      "recoveredSHA256": "96cc654f6a1cbfb83d4c0e14269e11f428912b5029b49f022ab067cf3d15ddf3",
+      "originalSHA256": "96cc654f6a1cbfb83d4c0e14269e11f428912b5029b49f022ab067cf3d15ddf3",
+      "originalHashMatch": true,
+      "status": "Original bytes verified against retained original SHA256"
+    },
+    {
+      "file": "runtime/map.wam",
+      "recoveredSHA256": "d5b399bdc6e26c8e94a0f02bf58062d130206ec749cd21c3d6ebd60af7c9654b",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "source/actors/Female 04-1.png",
+      "recoveredSHA256": "3554502d83883e873f3150f544787076a9889320264e0ab5955fca61bde674c9",
+      "originalSHA256": "3554502d83883e873f3150f544787076a9889320264e0ab5955fca61bde674c9",
+      "originalHashMatch": true,
+      "status": "Original bytes verified against retained original SHA256"
+    },
+    {
+      "file": "source/actors/Male 09-4.png",
+      "recoveredSHA256": "a85403821a61cb1603c161fefc0170f64721a99c26fcec8e484665fc238f812b",
+      "originalSHA256": "a85403821a61cb1603c161fefc0170f64721a99c26fcec8e484665fc238f812b",
+      "originalHashMatch": true,
+      "status": "Original bytes verified against retained original SHA256"
+    },
+    {
+      "file": "source/controller.js",
+      "recoveredSHA256": "1884ff6cc1d5303ad7cefef2cf25eb8abd6dfc7a44b2e47abb08a4bbaafb0139",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "source/design.json",
+      "recoveredSHA256": "95ae82a95ff2f779eea7cd1be89545b3c42b4bb2f27185276f326c31526727d5",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "source/native-head-union.json",
+      "recoveredSHA256": "497b44a8b41b74edd62ebf9d266448183d7805b1efb92ad411fad51315f66581",
+      "originalSHA256": "497b44a8b41b74edd62ebf9d266448183d7805b1efb92ad411fad51315f66581",
+      "originalHashMatch": true,
+      "status": "Original bytes verified against retained original SHA256"
+    },
+    {
+      "file": "tools/adapt-build.py",
+      "recoveredSHA256": "6d9c2d696a2797ec013aefacad4bcf6c69a287b8cb2ec004b7bf0993b8813b2b",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/author-controller.py",
+      "recoveredSHA256": "c57b9cfa784f75cae1c4cf0c5eaf0badba4baf8dde87d322be8aaf70b06057b1",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/author-design.py",
+      "recoveredSHA256": "bd5dfb4e4dc27837a43e09d65283dcb2edc5eff3ad4c60ec3aac4c6284a71fad",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/build.py",
+      "recoveredSHA256": "df05ccb10a7724ab57e23d09a42a54b1ae6095b1c3f41db4b2297e396cff7310",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/check-rebuild.py",
+      "recoveredSHA256": "d9ac4e5bea8b637e10da7bcaa92e85b8e0bd97971937c2d0eb1b3b250592c280",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/extended-proof.py",
+      "recoveredSHA256": "ca500ba6e445a846c502604e4ac7892d4859e8bb57021d90f641c5f71b2deb34",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/freeze.py",
+      "recoveredSHA256": "169d5565e6982aa44941ed65e31dd2eba869f72433bd912867e309fa153f07f6",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/make-spec.py",
+      "recoveredSHA256": "fbc881cddd2590ef6462ad761ce98cbc823ce691629bb3c3d374f6eeebd2cd36",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/native-all-cells.cjs",
+      "recoveredSHA256": "b00d8e6d55f8a807d9ca2af58ffe3b82593dbbbe5647d6f72ba22ec5f7db4c6b",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/native-source/MathUtils.ts",
+      "recoveredSHA256": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+      "originalSHA256": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+      "originalHashMatch": true,
+      "status": "Original bytes verified against retained original SHA256"
+    },
+    {
+      "file": "tools/native-source/StartPositionCalculator.ts",
+      "recoveredSHA256": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+      "originalSHA256": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+      "originalHashMatch": true,
+      "status": "Original bytes verified against retained original SHA256"
+    },
+    {
+      "file": "tools/proof.py",
+      "recoveredSHA256": "e2e909d23f1a5f6c615fedc324941094d11464e1fe506ee60b3d9cef063c93cd",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/rebuild.sh",
+      "recoveredSHA256": "2ff1ac9d71bee701721f2d36e7eacf3c6b92db48766924b109a9ccbd3e690cc9",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/regression-adapter.cjs",
+      "recoveredSHA256": "12c545bfdf4376d788c3e237d4da10519a7b89a42d9caa6c4f7956d0d0e916cb",
+      "originalSHA256": "12c545bfdf4376d788c3e237d4da10519a7b89a42d9caa6c4f7956d0d0e916cb",
+      "originalHashMatch": true,
+      "status": "Original bytes verified against retained original SHA256"
+    },
+    {
+      "file": "tools/run-native-extrema.py",
+      "recoveredSHA256": "1a6bfa0f29a0d8ee634acaac41a56a23a8d11f41adc419e7d73b62be3e430e12",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/source-contract.py",
+      "recoveredSHA256": "c8b16079ec8c36b0b11fc06d31951daa2eb3b83ab0fd0918ed1ad7f899da997d",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/test-controller.cjs",
+      "recoveredSHA256": "12d3456fc395d41ab485469930a2ebe898865d6f1b2e6a7c657df1adcbcacf87",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/test-geometry.py",
+      "recoveredSHA256": "cec0a1bc0b8cccb8835e9e8749322f723d07fe02f9b733c61684b41506cc38e0",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/test-transition.cjs",
+      "recoveredSHA256": "35ef9178d0158d2836f706fc79313b1094fb08e4e706802b9bbefb40e60f518d",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    },
+    {
+      "file": "tools/trace.cjs",
+      "recoveredSHA256": "d0177543b8639dd987d937c439e9fd3769a4afbc1e202bc639c618addfcf2a2f",
+      "originalSHA256": null,
+      "originalHashMatch": null,
+      "status": "Recovered from exact original visible tool input/output and literal patch replay; no individual original SHA256 available"
+    }
+  ],
+  "unrecovered": [
+    "art/masters/*.png (all8 original scene/pattern/stool masters)",
+    "runtime/map.tmj (known target25cb99347eb63e8c535215b12c2a01d23784254bf430ff2f4019ec2763d2b240; bytes unavailable)",
+    "runtime/*.png (all original atlases and logic texture)",
+    "FREEZE.json (known target3f9ecad05180bb36c423dd34187cf95715012d823ea1379773d096ceb27898e7; bytes unavailable)",
+    "source/NATIVE-FIXTURE-PINS.json and tools/native-fixture/* (no own retained pins for comparison; not substituted fromH025)",
+    "source/ACTOR-PROVENANCE.json (only partial original output retained)",
+    "source/ART-PROVENANCE.json (original raster hashes not printed)",
+    "source/BUILD-ENVIRONMENT.json (original version result not printed)",
+    "source/layout.json and source/mill-native.png (original generated output bytes not recovered)",
+    "tools/spawn.cjs, author-static-model.py, regression-probe.cjs and tools/qa/* (not fully printed in own retained context)",
+    "licenses/* (original hashes not retained; no unverified substitution)",
+    "NATIVE-SPAWN-CHECKS.json, qa-spec.json and most original review/validation files (not fully printed)"
+  ],
+  "notes": [
+    "HistoricalREADME and READY refer to the pre-loss candidate; they do not assert this recovery folder is complete.",
+    "No original manifest or finalTMJ hashes are assigned to replacement files.",
+    "Earlier f6fd runtime is separately preserved and explicitly distinguished from final96cc runtime.",
+    "Final design was recovered by the retained author-design creation payload followed by every retained literal patch. Finalruntime header match also validates its final interactive coordinates/text, not all collision/image bytes.",
+    "Generated imageoutput references are preserved for possible supported future artifact retrieval. Library worker found none."
+  ]
+}

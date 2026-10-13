@@ -1,0 +1,32 @@
+[
+  {
+    "archive": "/workspace/shared/map-library-recovery/restored/overnight-50-source-05-of-07.zip",
+    "nestedArchive": "packages/N18-r3-source.zip",
+    "member": "tools/native-fixture/easystar-0.4.4.js",
+    "name": "easystar-0.4.4.js",
+    "expected": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+    "actual": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+    "match": true,
+    "expectedSource": "Recovered H025 NATIVE-FIXTURE-PINS.json independently matched its retained original hash."
+  },
+  {
+    "archive": "/workspace/shared/map-library-recovery/restored/overnight-50-source-05-of-07.zip",
+    "nestedArchive": "packages/N18-r3-source.zip",
+    "member": "tools/native-fixture/extracted-current-source.cjs",
+    "name": "extracted-current-source.cjs",
+    "expected": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+    "actual": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+    "match": true,
+    "expectedSource": "Recovered H025 NATIVE-FIXTURE-PINS.json independently matched its retained original hash."
+  },
+  {
+    "archive": "/workspace/shared/map-library-recovery/restored/overnight-50-source-05-of-07.zip",
+    "nestedArchive": "packages/N18-r3-source.zip",
+    "member": "tools/native-fixture/native-runtime-portable.cjs",
+    "name": "native-runtime-portable.cjs",
+    "expected": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+    "actual": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+    "match": true,
+    "expectedSource": "Recovered H025 NATIVE-FIXTURE-PINS.json independently matched its retained original hash."
+  }
+]

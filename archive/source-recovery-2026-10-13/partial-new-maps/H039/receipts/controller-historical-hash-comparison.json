@@ -1,0 +1,7 @@
+{
+  "check": "Reconstructed earlier H039 runtime header plus unchanged controller against retained06:06-era sourceFiles hash from common-interaction-regressions tool output.",
+  "expectedSHA256": "f6fd23f8b2a8ff63415cb8ee8b10ccd96a0f09594fc411ed2d9226f33ba42128",
+  "actualSHA256": "f6fd23f8b2a8ff63415cb8ee8b10ccd96a0f09594fc411ed2d9226f33ba42128",
+  "matches": true,
+  "scope": "This hash is a real earlier runtime hash, not the final freeze runtime hash. No final freeze or missing raster recovery claim."
+}

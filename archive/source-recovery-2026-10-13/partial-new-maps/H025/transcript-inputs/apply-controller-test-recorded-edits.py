@@ -1,0 +1,5 @@
+from pathlib import Path
+R=Path(__file__).resolve().parents[1]
+s=(R/'transcript-inputs/test-controller.initial.cjs').read_text().replace('empty-panniers','packed-panniers').replace("['packed-panniers'].map(k=>[k,true])","['packed-panniers'].map(k=>[k,false])").replace("h.layers.get('packed-panniers'),!ok","h.layers.get('packed-panniers'),ok").replace("assert(!h.layers.get('packed-panniers'));","assert(h.layers.get('packed-panniers'));").replace("assert(h.layers.get('packed-panniers'));h.click('Toggle dates')","assert(!h.layers.get('packed-panniers'));h.click('Toggle dates')").replace("assert(h.layers.get('packed-panniers'));h.app.dispose();","assert(!h.layers.get('packed-panniers'));h.app.dispose();").replace("[['packed-panniers',false]]","[['packed-panniers',true]]")
+s=s.replace("complete(h);assert(!h.layers.get('packed-panniers'));h.click('Toggle dates');","complete(h);assert(h.layers.get('packed-panniers'));h.click('Toggle dates');")
+p=R/'tools/test-controller.cjs';assert not p.exists();p.write_text(s)

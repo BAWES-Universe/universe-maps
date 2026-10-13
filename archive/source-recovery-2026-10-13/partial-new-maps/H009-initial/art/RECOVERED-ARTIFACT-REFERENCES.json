@@ -1,0 +1,76 @@
+{
+  "recoveryRecordNotOriginalProvenance": true,
+  "originalTool": "image_gen.imagegen",
+  "generationWindowUTC": "2026-10-13 03:50 through 04:02",
+  "allOriginalMasterBytesMissing": true,
+  "noRegenerationAttempted": true,
+  "returnedLibraryIDs": null,
+  "artifactReferencesSentTo": "/root/verify_library_map_recovery",
+  "durableAssetSearchResult": "Worker reported no matching Mechanical Orchard title or exact r4/r5 filename in Library; no H009 Library IDs established. This does not prove imagegen service artifacts are unrecoverable elsewhere.",
+  "assets": [
+    {
+      "originalMaster": "art/orchard-master-r1.png",
+      "recoveredPrompt": "art/orchard-r1-prompt.txt",
+      "originalGeneratedPath": "/workspace/scratch/41c8dbf833be/generated_images/exec-41390dec-a9f3-4725-a966-f0fdc3ad3fbf.png",
+      "originalSHA256": null,
+      "masterRecovered": false,
+      "promptSHA256Now": "b60fa9c35cf97b59daf72482c00994c0d0a37d31a9daed5f06c97ed95ef9abf3"
+    },
+    {
+      "originalMaster": "art/orchard-master-r2.png",
+      "recoveredPrompt": "art/orchard-r2-prompt.txt",
+      "originalGeneratedPath": "/workspace/scratch/41c8dbf833be/generated_images/exec-947417b0-5694-4179-9fe3-6cd5d867c174.png",
+      "originalSHA256": null,
+      "masterRecovered": false,
+      "promptSHA256Now": "a668fcc1dd12cb2cc8eab75f3f2f1c4f281b31534e08f642724eccb785748001"
+    },
+    {
+      "originalMaster": "art/cam-house-master-r1.png",
+      "recoveredPrompt": "art/cam-house-r1-prompt.txt",
+      "originalGeneratedPath": "/workspace/scratch/41c8dbf833be/generated_images/exec-55f31e64-7b03-423d-90c3-839928a9c281.png",
+      "originalSHA256": null,
+      "masterRecovered": false,
+      "promptSHA256Now": "d74c495d68dbc132bdcd606d8716de834b3841608dbc890fb78feca16bb6b23d"
+    },
+    {
+      "originalMaster": "art/orchard-phase2-master.png",
+      "recoveredPrompt": "art/orchard-phase2-prompt.txt",
+      "originalGeneratedPath": "/workspace/scratch/41c8dbf833be/generated_images/exec-90c9d57b-4dbf-4801-b83f-7ffcd9a0b2eb.png",
+      "originalSHA256": null,
+      "masterRecovered": false,
+      "promptSHA256Now": "47c8c21d45212e1ce20b9afcfa8270247c18a178a5e36396483a59a9336afe2c"
+    },
+    {
+      "originalMaster": "art/orchard-phase3-master.png",
+      "recoveredPrompt": "art/orchard-phase3-prompt.txt",
+      "originalGeneratedPath": "/workspace/scratch/41c8dbf833be/generated_images/exec-53372733-987e-45d8-befa-469079a2d16c.png",
+      "originalSHA256": null,
+      "masterRecovered": false,
+      "promptSHA256Now": "02925f9508929b8e416d3a995b967713cfc79db3d6d27a84882578a36508f134"
+    },
+    {
+      "originalMaster": "art/orchard-master-r3.png",
+      "recoveredPrompt": "art/orchard-r3-prompt.txt",
+      "originalGeneratedPath": "/workspace/scratch/41c8dbf833be/generated_images/exec-df0b42dd-d5b1-46c1-a0ed-5227b257e994.png",
+      "originalSHA256": null,
+      "masterRecovered": false,
+      "promptSHA256Now": "c573cf26076ea0d156cf854886983eb9253e76413001cef13c549bc37bec4d7e"
+    },
+    {
+      "originalMaster": "art/orchard-master-r4.png",
+      "recoveredPrompt": "art/orchard-r4-prompt.txt",
+      "originalGeneratedPath": "/workspace/scratch/41c8dbf833be/generated_images/exec-78c579ba-504d-4af3-9e1e-40536fef908b.png",
+      "originalSHA256": null,
+      "masterRecovered": false,
+      "promptSHA256Now": "b00dc5867542f3e07f9ce8844f7cc8d0240b0dd6a7fcbd2e1e63e6187c2d45c5"
+    },
+    {
+      "originalMaster": "art/orchard-master-r5.png",
+      "recoveredPrompt": "art/orchard-r5-prompt.txt",
+      "originalGeneratedPath": "/workspace/scratch/41c8dbf833be/generated_images/exec-052265e7-4b95-4691-9370-c63b7e28a2f8.png",
+      "originalSHA256": null,
+      "masterRecovered": false,
+      "promptSHA256Now": "6647c03624e844251813f484456af230b19edc2551cc5a849361744aa6e6ed7b"
+    }
+  ]
+}

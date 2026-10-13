@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N49-r2-runtime",
+  "destination": "old50/runtime/N49-r2",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N49-r2-runtime.zip",
+      "sha256": "bafd59714661145e287458ef41309ae285fee45ed15431935d07ca7cd287d769",
+      "size_bytes": 3444698
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "foreground-0.png",
+      "sha256": "0bd17fe3c06cc582ccf3ef8eb02f221b879da6dd2e322f31ed6dc8ec4bf6ab01",
+      "size_bytes": 22768,
+      "git_blob_sha1": "0f0f37df93ed1202819abe71758866c5e5408514",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "f2e50d87d2d3eed666314f5aea8685ee4fad676f81a8a1a5b794c824071df39a",
+      "size_bytes": 2306966,
+      "git_blob_sha1": "d50f74c0d8424c6c70e9c6c0d987f74290eb9e32",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "b3522bffdedde5d292cca6075158b36dfcd0f7acbb390fca0bbb1b9a195fe08b",
+      "size_bytes": 1107427,
+      "git_blob_sha1": "634d6d41adf9860ce5c5704438ce8afb858803e3",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ocean-exposition.tmj",
+      "sha256": "78da585fe4a19ccbca6de12e546e97dcab186659dcb72684dca19854162ce0ed",
+      "size_bytes": 79627,
+      "git_blob_sha1": "6f81558445405ba8451c72209a3cc899aab3e20d",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "ocean-exposition.wam",
+      "sha256": "cb20a5a622280876dd981a234889e4254ab8960c8a21b5e1ebfd9d555268b3dd",
+      "size_bytes": 327,
+      "git_blob_sha1": "6a78fc5eef62c1514d48328f375e24057010dea6",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    }
+  ]
+}

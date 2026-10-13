@@ -1,6 +1,10 @@
 {
-  "state": "CHECKPOINT_IN_PROGRESS",
-  "remote_checkpoint_scope": "Recovery documentation, workbook and partial H009/H025/H039 material. Full recovered old-map source/runtime files follow in later commits.",
+  "state": "SOURCE_CHECKPOINT_WITH_LIBRARY_BACKED_ASSETS",
+  "complete_recovered_packages_indexed": 116,
+  "git_contains": "Selected small authoring files, restore tool, integrity manifests and status.",
+  "library_contains": "Exact remaining source/art/runtime/evidence bytes via pinned artifacts and members.",
+  "fully_github_synced": false,
+  "r2_configured": false,
   "deployment": false,
   "new_live_acceptance": false
 }

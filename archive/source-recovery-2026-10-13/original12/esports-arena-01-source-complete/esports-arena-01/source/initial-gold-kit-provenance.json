@@ -1,0 +1,72 @@
+{
+  "originalProjectAssets": [
+    {
+      "path": "assets/wall-right.png",
+      "sha256": "857fb5a217173f925318f5690a4cd0651c479cb8a66e1ac6b5765d4845b192dc"
+    },
+    {
+      "path": "assets/wall-left.png",
+      "sha256": "09a2d45d98b649700a8142578e11aad9761b1e9ade70b4a5b7f072376f87c9c1"
+    },
+    {
+      "path": "assets/lounge-chair-east.png",
+      "sha256": "e8b61d7a40d1ff863caced28b8879e238d5f8f039f522625db83f0fd3349d982"
+    },
+    {
+      "path": "assets/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6"
+    },
+    {
+      "path": "assets/planter-low.png",
+      "sha256": "969ee4a8196c08dc015b71601fcdb25b18e9897206ac17bfa4ccc31c285c5514"
+    },
+    {
+      "path": "assets/low-lounge-table.png",
+      "sha256": "22d1169759331b49481442afe2fcecd8432dfa76813a957eec61c684b0944241"
+    },
+    {
+      "path": "assets/lounge-chair-south.png",
+      "sha256": "4bc48ee5a4329bf9e553d9be652a32c702baa02e74f63d107daa4e999feeaa9f"
+    },
+    {
+      "path": "assets/rug-wide.png",
+      "sha256": "7c796ecbe118d627920a0cff43d4beb34c096129b583a87493be633040f3ccae"
+    },
+    {
+      "path": "assets/lounge-chair-west.png",
+      "sha256": "ae5b882bd2c945184a1122cdca139976076ac44d4030c2e4e3b69de73a2d226b"
+    },
+    {
+      "path": "assets/sandstone-tile.png",
+      "sha256": "bc903312a245c3897895e17101d6a77dce754bda9d224ab29167fcfd66936d8b"
+    },
+    {
+      "path": "assets/greg-reference.png",
+      "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d"
+    },
+    {
+      "path": "assets/wood-deck-tile.png",
+      "sha256": "825f05acb3390cca729fd135a40a95d20a56271fafc5dfd07b7b45dc9af4cc46"
+    },
+    {
+      "path": "assets/wall-horizontal.png",
+      "sha256": "0a7af5bfbb7c74c7ae463bb815c0cf591f9bbb262eb33394705d14dae01e21ea"
+    },
+    {
+      "path": "assets/coffee-counter-native.png",
+      "sha256": "422de5cf38061516bdf49391e510d50b4ee0c7f794838797afa6ab8f48861a05"
+    }
+  ],
+  "newAsset": {
+    "generator": "built-in imagegen",
+    "master": "source/esports-desk-generated-master.png",
+    "prompt": "source/imagegen-prompt-esports-desk.txt",
+    "native": "assets/esports-desk-native.png",
+    "nativeSize": [
+      192,
+      72
+    ],
+    "operation": "Alpha crop and uniform aspect-preserving reduction; no anisotropic stretch."
+  },
+  "greg": "Project-authored Greg Gulf-outfit v3, unchanged, QA only, not runtime."
+}

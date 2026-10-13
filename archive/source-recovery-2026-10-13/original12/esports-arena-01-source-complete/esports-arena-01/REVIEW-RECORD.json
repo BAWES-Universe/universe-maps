@@ -1,0 +1,71 @@
+{
+  "id": "esports-arena-01",
+  "title": "Circuit Arena",
+  "useCase": "Esports event: opposing team pods, caster/presentation, spectators, arrival and social conversation",
+  "status": "Counter-depth-corrected local template frozen for independent QA; no publishing or live setup",
+  "directory": "/workspace/shared/overnight-events/esports-arena-01",
+  "runtimeMap": "map32/esports-arena.tmj",
+  "companionWam": "map32/esports-arena.wam",
+  "worldPixels": [
+    2048,
+    1472
+  ],
+  "tilePixels": 32,
+  "keyReview": [
+    "review/OVERVIEW-occupied-50percent.png",
+    "review/COMPILED-native32-west-team.png",
+    "review/COMPILED-native32-caster.png",
+    "review/COMPILED-native32-spectator.png",
+    "review/CHAIRBACK-DEPTH-native32.png",
+    "review/COUNTER-DEPTH-native32.png"
+  ],
+  "seatCounts": {
+    "team": 12,
+    "spectator": 24,
+    "caster": 2,
+    "casual": 4
+  },
+  "roomRoleCounts": {
+    "teamVideoCall": 2,
+    "podium": 1,
+    "audience": 1,
+    "arrivalQuietCells": 4
+  },
+  "tests": {
+    "exhaustiveBodyPlacements": 1959977,
+    "routeLegs": 1628,
+    "movementSamples": 2649618,
+    "areaMembershipSamples": 2616,
+    "contractChecks": 127,
+    "allPass": true
+  },
+  "limits": [
+    "Not published",
+    "No actual room/media setup",
+    "No browser/device/concurrency acceptance",
+    "Single physics level",
+    "Screens decorative and blank"
+  ],
+  "refinement": {
+    "removedNativeRows": 6,
+    "southApronReductionPixels": 192,
+    "arrival": "Two architectural service alcoves around clear central approach",
+    "caster": "Matching native wall back and side depth",
+    "perimeter": "Native raster pilasters",
+    "preRefinementCheckpoint": "checkpoints/pre-apron-refinement"
+  },
+  "freeze": "counter-depth-fix-03",
+  "counterDepthFix": {
+    "foregroundSourceCrop": [
+      8,
+      8,
+      184,
+      39
+    ],
+    "staffLowerBodyPixelsHidden": 278,
+    "staffHeadPixelsCovered": 0,
+    "emptyCompositionUnchanged": true,
+    "collisionAnchorsAreasUnchanged": true,
+    "previousCheckpoint": "checkpoints/pre-counter-depth-fix"
+  }
+}

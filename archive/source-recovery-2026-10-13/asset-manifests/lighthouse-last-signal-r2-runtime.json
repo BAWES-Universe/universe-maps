@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "package_id": "lighthouse-last-signal-r2-runtime",
+  "destination": "baselines/lighthouse-last-signal-r2-runtime",
+  "artifact": {
+    "name": "Lighthouse-Last-Signal-r2-Delivery.zip",
+    "library_file_id": "libfile_f40cfa6e75c081918995cfe72eada6c4",
+    "version_id": null,
+    "sha256": "10f5c7267eaca4be6214d4cca6e4ea09cbda52c6270e4a4bdb3b3e5066bf51cf",
+    "size_bytes": 20786803
+  },
+  "nested_archives": [
+    {
+      "member": "lighthouse-last-signal-r2-runtime.zip",
+      "sha256": "b8e1bdf8392e709b78e15262eb74145e5f8e19103912542b76ba1f2815ee9bb9",
+      "size_bytes": 4057172
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "audio/silent-carrier.wav",
+      "sha256": "d632daecb4ab19e0f93f179107f4bb4240d5b261217dd6fe33505d7b4fc6106f",
+      "size_bytes": 352844,
+      "git_blob_sha1": "6f0da5172a85782425e29034009f8b6451cd9983",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "audio/tide-signal.wav",
+      "sha256": "5ae24e11ac90cd4227d74c41f453b7a8a35d3f7b619084fcf6ce87a055b4356f",
+      "size_bytes": 352844,
+      "git_blob_sha1": "781d5804cb21f5dfdb912c7364baafce49c31cd0",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "foreground-0.png",
+      "sha256": "77c8e5e017deff9be96122af825150a0a96eaa97a66c05dc3829f537200a4c74",
+      "size_bytes": 21475,
+      "git_blob_sha1": "622b14d31b3c0e09b6fc88bf8f2caa6953588119",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "317f82f0c6621bb7993654edbee7c823cf921d652d717d7ad41b2d34adda6dd0",
+      "size_bytes": 2639626,
+      "git_blob_sha1": "58652ff425c3542581eb2c77c9faa5b6829b3dbb",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "10d37d4344c6bc78535a1fcd76c27ff53e69afd9a087675fc1146e8ffd899fcd",
+      "size_bytes": 1285405,
+      "git_blob_sha1": "3f0bb2ad58654d886f90de6e1623f18a48097280",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "lighthouse-last-signal.tmj",
+      "sha256": "3f0da81589faee13032922a438cdac5d3fa33ed87f22752c1b826abbde993b0e",
+      "size_bytes": 47272,
+      "git_blob_sha1": "0a95ca27c843fad3b7ba560a100c9f85ab7d4ac2",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "lighthouse-last-signal.wam",
+      "sha256": "fcba829c3c6833f56b6fc04ef12d4bfc4ee0188ba1d553a7ae399e549162b7bb",
+      "size_bytes": 519,
+      "git_blob_sha1": "a933db3156a0786cea28ad69cc393a156da23179",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "signal-inlays.png",
+      "sha256": "2256573363f576db63ec1e9aa5223b2f92486e579c26ce698ad5b2665cd931ed",
+      "size_bytes": 3074,
+      "git_blob_sha1": "65d56ef7360dfe7eab0dc16d17b0da94d770283b",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "signal.js",
+      "sha256": "eeaae3d76ba5a1ae73eadb8faeab47e47bc90d1ef5090c1ef907c40137d71c5a",
+      "size_bytes": 9442,
+      "git_blob_sha1": "dd0968565fdaef53874086036a349cf8d8fbc0d4",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    }
+  ]
+}

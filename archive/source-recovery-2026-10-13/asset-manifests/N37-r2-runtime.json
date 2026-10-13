@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N37-r2-runtime",
+  "destination": "old50/runtime/N37-r2",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N37-r2-runtime.zip",
+      "sha256": "d45e5330d8e721145ca17ee577b93701c66debf3bf12800165c48e9175f94ca3",
+      "size_bytes": 4051666
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "foreground-0.png",
+      "sha256": "79a6e795f0947e5a5b39f17c3b7c22d93ab2837d64b8eb99c1902b04e5f739d3",
+      "size_bytes": 66258,
+      "git_blob_sha1": "82ff5a48254c764264fb82aaef224db9c2b83720",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "2d6bc1d4135068f2261fad36e3471cf25aea87de75fdcb5bcbce7b4a133128ae",
+      "size_bytes": 2659263,
+      "git_blob_sha1": "94638f25f64303a4506efae7c402f30b5d1f54ef",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "4cc33bc7b93d60eaa4fff02e2d448a1dda7042daf2a8d65a316b7cc9fb475b44",
+      "size_bytes": 1318633,
+      "git_blob_sha1": "c72f9a90e2f330006f07c4bd42e37afd5ededb83",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "mountain-cable-station-village.tmj",
+      "sha256": "0a49353b2dcdca146965458566bab521871b031fc14c2c4ade6a4e31bc4e06ca",
+      "size_bytes": 79834,
+      "git_blob_sha1": "ed30ec225bbfc37e55a7b804284c1c31476c0566",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "mountain-cable-station-village.wam",
+      "sha256": "04daf118f9bf36189bc2c7601de083c03a86afd176e3328eafcd3e9400136f58",
+      "size_bytes": 333,
+      "git_blob_sha1": "bb17dfbe3aeaf421ca8717b18b606082ff0d3433",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    }
+  ]
+}

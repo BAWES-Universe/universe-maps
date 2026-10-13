@@ -1,0 +1,327 @@
+{
+  "dimensions": [
+    48,
+    32,
+    32
+  ],
+  "source_reconstruction": {
+    "assets/base.png": true,
+    "assets/above.png": true
+  },
+  "random_spawns": [
+    {
+      "name": "start",
+      "xRange": [
+        784,
+        784
+      ],
+      "yRange": [
+        912,
+        912
+      ],
+      "samples": 1,
+      "bad": [],
+      "badCount": 0
+    }
+  ],
+  "walkable_cells": 601,
+  "unreachable_cells": 0,
+  "quiet_cells": 1,
+  "anchors": [
+    {
+      "id": "Client west entrance",
+      "x": 400,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Client west host",
+      "x": 464,
+      "y": 303,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Client east entrance",
+      "x": 1168,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Client east host",
+      "x": 1232,
+      "y": 303,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "briefing presenter",
+      "x": 752,
+      "y": 239,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "briefing entrance",
+      "x": 752,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "west research aisle",
+      "x": 336,
+      "y": 655,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "east research aisle",
+      "x": 1200,
+      "y": 655,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "flat compass inlay",
+      "x": 784,
+      "y": 623,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "arrival",
+      "x": 784,
+      "y": 911,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": true
+    },
+    {
+      "id": "Client west seat A",
+      "x": 368,
+      "y": 335,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Client west seat B",
+      "x": 400,
+      "y": 335,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Client east seat A",
+      "x": 1136,
+      "y": 335,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Client east seat B",
+      "x": 1168,
+      "y": 335,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-1",
+      "x": 272,
+      "y": 591,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-2",
+      "x": 432,
+      "y": 591,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-3",
+      "x": 272,
+      "y": 751,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-4",
+      "x": 432,
+      "y": 751,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-5",
+      "x": 1136,
+      "y": 591,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-6",
+      "x": 1296,
+      "y": 591,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-7",
+      "x": 1136,
+      "y": 751,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-8",
+      "x": 1296,
+      "y": 751,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "briefing-1",
+      "x": 752,
+      "y": 303,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "briefing-2",
+      "x": 784,
+      "y": 303,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    }
+  ],
+  "body_clear_positions": 538444,
+  "head_conflicts": 0,
+  "head_conflict_examples": [],
+  "media_areas": [
+    {
+      "id": "art-deco-sales-atelier-0",
+      "name": "Client west",
+      "x": 256,
+      "y": 192,
+      "width": 319,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "art-deco-sales-atelier-0-room",
+          "type": "livekitRoomProperty",
+          "roomName": "art-deco-sales-atelier-0",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ],
+      "reachable_membership_positions": 43294
+    },
+    {
+      "id": "art-deco-sales-atelier-1",
+      "name": "Client east",
+      "x": 1024,
+      "y": 192,
+      "width": 319,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "art-deco-sales-atelier-1-room",
+          "type": "livekitRoomProperty",
+          "roomName": "art-deco-sales-atelier-1",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ],
+      "reachable_membership_positions": 48926
+    },
+    {
+      "id": "art-deco-sales-atelier-2",
+      "name": "Research west - editor placeholder",
+      "x": 192,
+      "y": 512,
+      "width": 319,
+      "height": 287,
+      "visible": true,
+      "properties": [],
+      "reachable_membership_positions": 61656
+    },
+    {
+      "id": "art-deco-sales-atelier-3",
+      "name": "Research east - editor placeholder",
+      "x": 1056,
+      "y": 512,
+      "width": 319,
+      "height": 287,
+      "visible": true,
+      "properties": [],
+      "reachable_membership_positions": 61944
+    },
+    {
+      "id": "art-deco-sales-atelier-4",
+      "name": "Private briefing",
+      "x": 704,
+      "y": 224,
+      "width": 127,
+      "height": 159,
+      "visible": true,
+      "properties": [
+        {
+          "id": "art-deco-sales-atelier-4-room",
+          "type": "livekitRoomProperty",
+          "roomName": "art-deco-sales-atelier-4",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ],
+      "reachable_membership_positions": 12559
+    }
+  ],
+  "issues": [],
+  "scope": "Builder-side actual-TMJ atlas decode, collision-derived cardinal connectivity and exhaustive integer source body/head geometry; not native route replay, browser, physics keyboard, devices, media or deployment.",
+  "input_hashes": {
+    "map32/architecture-and-furniture-0.png": "fd8e328f534f07e5ee094a2bf4152d542f5652661e83d5d464ff87720681f558",
+    "map32/architecture-and-furniture-1.png": "3d74e42a34c335db30d831211375f870a2fd722186f780a15a24e860f10dd7a6",
+    "map32/logic.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "map32/map.tmj": "8b7ed220030fc38fb8f10a94e56370e1feadee5749ebe84968ee86e5347717df",
+    "map32/map.wam": "5738991ece4927fa6f71c3f965e5abd38cc205c8012723e58964bf4ee45de498",
+    "map32/seat-backs-0.png": "fa4032809f1370829e4f42dd75a56a5509771b0c72bef51e3d7d388f57ebd008"
+  }
+}

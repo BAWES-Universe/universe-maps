@@ -1,0 +1,112 @@
+{
+  "slug": "mission-control-center",
+  "title": "Mission Control Center",
+  "category": "Work",
+  "validation": "VALIDATION.json",
+  "overview": "review/overview.png",
+  "runtime": "map32/map.tmj",
+  "companion": "map32/map.wam",
+  "nativeCrop": [
+    "review/operators-occupied-native.png",
+    "review/briefing-occupied-native.png",
+    "review/incident-occupied-native.png"
+  ],
+  "status": "Local candidate, not published",
+  "files": [
+    {
+      "path": "GUIDE.md",
+      "sha256": "aef42b97961b0af6125ed5b86d12554581c6373526bdf5e2e737a52b02f06586",
+      "bytes": 1447
+    },
+    {
+      "path": "MANIFEST.json",
+      "sha256": "975646949bf0f1ecd9a6b2f4cd98d74375dc4d452e22101c848d581263603198",
+      "bytes": 3452
+    },
+    {
+      "path": "NATIVE-ROUTES.json",
+      "sha256": "6deaf5025648a75010a0231ae0e4a71999ed19530b9a8e7ebfa9b502ff24679d",
+      "bytes": 234104
+    },
+    {
+      "path": "VALIDATION.json",
+      "sha256": "eafe88f1aa10a4540356d0c311980f0b3cdb1cc1c5f48e8e07a1ffa2ae0b0b8f",
+      "bytes": 960
+    },
+    {
+      "path": "assets/above.png",
+      "sha256": "3078bc08d4d63f32805300d0cef078359553887095fa70961f58476512fdcf36",
+      "bytes": 10774
+    },
+    {
+      "path": "assets/base.png",
+      "sha256": "4fb27e6ab076984843b483847ad8f591f003c12fc75e708b14d873d6da6c09b6",
+      "bytes": 2387964
+    },
+    {
+      "path": "map32/architecture-and-furniture-0.png",
+      "sha256": "a04ccd0e9f5a28996f16c52fc0d620ade71bb6af1a0cb13fa1bbf6ed50def0bd",
+      "bytes": 1660000
+    },
+    {
+      "path": "map32/architecture-and-furniture-1.png",
+      "sha256": "b6c35063127ab1cf62e2df50cd4a9ea27aac6c017534d879b37f4c70516cecc1",
+      "bytes": 739919
+    },
+    {
+      "path": "map32/logic.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "bytes": 83
+    },
+    {
+      "path": "map32/map.tmj",
+      "sha256": "0d585f41476c1b1d625ce43904400b85d7c08a4135b78db5fda871fa76bbf230",
+      "bytes": 78847
+    },
+    {
+      "path": "map32/map.wam",
+      "sha256": "4610a85e4ef2903e5942c17c86094f3383c5af59c7e6ecb9316bc42fb2f397e0",
+      "bytes": 644
+    },
+    {
+      "path": "map32/seat-backs-0.png",
+      "sha256": "a237c4abc247618da5454083300892ab57bbd9a2f473642ce0490524f48227fa",
+      "bytes": 1501
+    },
+    {
+      "path": "review/briefing-occupied-native.png",
+      "sha256": "0647984fb252d2e94a0c377217310710f9d1df7823c23591d415d874977c3ec9",
+      "bytes": 163432
+    },
+    {
+      "path": "review/empty-native.png",
+      "sha256": "ae43577d1dcf4ec15d3250b842641a92fd24968f93f6ad7e79f199aa03370d0f",
+      "bytes": 2387506
+    },
+    {
+      "path": "review/incident-occupied-native.png",
+      "sha256": "c8b1fe43d4fdf542388c7a498c0d44dea2c2ef9515e75f8ff197e3be6da8f382",
+      "bytes": 137321
+    },
+    {
+      "path": "review/occupied-native.png",
+      "sha256": "dfeb594a48ac50f6aa2ee105e6f4411d2c4b952cc23f218cc76f2f92f4d0e0fd",
+      "bytes": 2392957
+    },
+    {
+      "path": "review/operators-occupied-native.png",
+      "sha256": "a5ff6052d2c40bf631ce8425aa5312d15fb7311dd12fc41d9834aca954e61365",
+      "bytes": 298902
+    },
+    {
+      "path": "review/overview.png",
+      "sha256": "007ec4c651219b1699da1abe5e92fc90ed9dd40c14472b80eb6db34796bb1006",
+      "bytes": 2136935
+    },
+    {
+      "path": "source/layout.json",
+      "sha256": "88fdae64923114386a7bdd95cd19b0b0dacca006eacf2a6c59ad5d7768a6cc16",
+      "bytes": 16964
+    }
+  ]
+}

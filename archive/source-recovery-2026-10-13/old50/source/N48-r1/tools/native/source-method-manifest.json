@@ -1,0 +1,136 @@
+{
+  "head": "60e7afdc3f96ef32525597cd46bd41175d61a2ef",
+  "sourceFiles": {
+    "play/src/front/Utils/PathfindingManager.ts": "b6d055091ec000f2e47b3e1def2f7ee7c42aae96ff3301c36a8b26b9c1b0c715",
+    "libs/math-utils/src/MathUtils.ts": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+    "play/src/front/Phaser/Player/Player.ts": "47c30fe3c2d16f52da3b499599de57b2240e75be4d91b2c816aae1179e8bc3d9",
+    "play/src/front/Phaser/Game/GameScene.ts": "7c901514db24890c3750631d8e32124643e87de41750fb90e4a2d7f54ac1c146",
+    "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts": "f011429f25599b348640a57894b28560f3755da1a72b97cdfdbffd9ae2d3cdfc",
+    "play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts": "d4bdce55f82caa5e94e372fa2ca57eb2a241f0ed0e78609d4dedb975b665a89a",
+    "play/src/front/Phaser/Game/CameraManager.ts": "c6bea29bffe270221ec35435ea1181df5d670edeac0dbb3b1918db0da8553b80"
+  },
+  "generatedJavaScriptSHA256": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+  "methods": [
+    {
+      "file": "libs/math-utils/src/MathUtils.ts",
+      "method": "isBetween",
+      "sha256": "bd648a53dcdb82cbf3273ed501f0dcbc7d0976abdff71452152a76a5db68d0be"
+    },
+    {
+      "file": "libs/math-utils/src/MathUtils.ts",
+      "method": "isOverlappingWithRectangle",
+      "sha256": "b634417b70b27f21bdf9b75262e1c19e164c463763d8ba86cf533678a08a758f"
+    },
+    {
+      "file": "libs/math-utils/src/MathUtils.ts",
+      "method": "distanceBetween",
+      "sha256": "56a2c1358833f30eb2d05a22c3e1a12fe260a7d3bb831881cad7f2bce269c72a"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "setPathToFollow",
+      "sha256": "5016a6920cf1b5373bcfb6d8b9fccf899fa9de7d5acc2e9cb5cced2f8fd8427a"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "getCurrentPathDestinationPoint",
+      "sha256": "f14c34acd59f751547d9ff50d946d1a0ee658a8991a950f6308e3380b98e3865"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "finishFollowingPath",
+      "sha256": "87930a3e46eda55234406be43add6a9f1ddb70f924d5a32081a2a06298c24dc8"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "deduceSpeed",
+      "sha256": "38acd4fdde41220b18760e7af5da8d608a51819d2e00f7f519419861e3aa98b2"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "adjustPathToFollowToColliderBounds",
+      "sha256": "57def7eef60c3bf71e5051a4dcb70e090030f48d5d347c067cfb64d919dc72ba"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "followPath",
+      "sha256": "e6450a47958b44d627592b416bd1105d73af58872de57d499c088e2ef6da9c44"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "moveToPos",
+      "sha256": "58ac04a30d832d9f3e5cddff71b985e303a0f9c226ce9897b68f6d7aa12e86f4"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameScene.ts",
+      "method": "moveTo",
+      "sha256": "7b7d2bb04143c768d6ec8d5938c3cbe5cdbcd4f42df9b7fea23da56e7e229f56"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameScene.ts",
+      "method": "subscribeToGameMapChanged",
+      "sha256": "6464ec875c65aab3dba74cb3744aa2264de47137bf4b774c2379efffac992833"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "method": "setLayerVisibility",
+      "sha256": "d0b1b175e94f8ed0c501484599fcb5f46ff346544367566bb53abbc47e8fcf45"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "method": "findPhaserLayer",
+      "sha256": "27a576d172d8caafaff60eec0c55f08c469ff1ff7539f8f9f3d7b4787662feac"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "method": "findPhaserLayers",
+      "sha256": "ea5dd15afd9876bb0d30116f9408743f68165a1e9495f6b0db86598780abd3fb"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "method": "getLayerCollisionGrid",
+      "sha256": "ed6b3db19a24a44567883fcd976ac91f604c2813238a4f504e701732b845a5a2"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "method": "updateCollisionGrid",
+      "sha256": "201b955cc9a0f8ed8c0c2b1dcad7fd0037e1d8edcb6744f1b7e9279088b77b98"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "method": "getDynamicAreasOnPosition",
+      "sha256": "730b7ffe0f59b07e1d8bea6dfe12e9a0cf4509e66c1764e321d4e4de278de51e"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "method": "triggerDynamicAreasChange",
+      "sha256": "81aba455c7870538275905a674f54884c086c43e6c4384e935035696a544ab7a"
+    },
+    {
+      "file": "play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts",
+      "method": "handlePointerUpEvent",
+      "sha256": "7fd971cfbe80b494a006d60e80b05ed38f1548d4b801b2d17f557a1c77c440e2"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/CameraManager.ts",
+      "method": "enterFocusMode",
+      "sha256": "14ccd7057d72c8df5ef977711496c40196dbc8760a3a9dac5827bb3a8ce85f82"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/CameraManager.ts",
+      "method": "leaveFocusMode",
+      "sha256": "a63a465996681e312889e28d310fceecdfc9366b1eb01826c18f5a7c55081b35"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/CameraManager.ts",
+      "method": "getZoomModifierChange",
+      "sha256": "a6c9244bdebfa3a26c41b22390e17337a5b23c813fee6624ae2498f6b8c95736"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/CameraManager.ts",
+      "method": "restoreZoom",
+      "sha256": "0b408b0fc546eb556ab5dd3f160a77faa4ec4ea5f06f2e44606b1afe8d62825c"
+    }
+  ],
+  "managerSHA256": "396e2df760b316dd9152b85a41ae399511e4cdada7cc82ebf74e4b6cd73abee8"
+}

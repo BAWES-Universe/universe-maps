@@ -1,0 +1,34 @@
+{
+  "old50": {
+    "source_packages": 50,
+    "runtime_packages": 50,
+    "complete_packages_hash_verified": true,
+    "all_bytes_in_github": false
+  },
+  "original12": {
+    "complete_source_packages": 12,
+    "all_bytes_in_github": false
+  },
+  "last_signal_r2": {
+    "complete_source_and_runtime_library_backed": true
+  },
+  "keepers_return_r2": {
+    "runtime_library_backed": true,
+    "full_source_recovered": false
+  },
+  "latest_source_gaps": [
+    "Timber Studio r8 full rebuild source",
+    "Reading Conservatory r4 full rebuild source",
+    "Media House r9 source and runtime",
+    "Lighthouse Keeper Return r2 full rebuild source",
+    "33 original H-series source/art/freeze packages"
+  ],
+  "partial_new_maps": [
+    "H009-initial",
+    "H025",
+    "H039"
+  ],
+  "partial_recoveries_are_not_complete_originals": true,
+  "new_live_acceptance": false,
+  "new_deployment": false
+}

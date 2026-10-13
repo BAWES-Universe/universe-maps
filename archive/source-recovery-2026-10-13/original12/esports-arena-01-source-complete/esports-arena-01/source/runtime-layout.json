@@ -1,0 +1,1467 @@
+{
+  "world": [
+    2048,
+    1472
+  ],
+  "singleLevel": true,
+  "start": [
+    1016,
+    1376
+  ],
+  "teamRooms": [
+    {
+      "id": "esports-west-team",
+      "name": "Team West",
+      "x": 128,
+      "y": 192,
+      "width": 383,
+      "height": 447,
+      "visible": true,
+      "properties": [
+        {
+          "id": "esports-west-team-call",
+          "type": "livekitRoomProperty",
+          "roomName": "esports-arena-v01-west-team",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "esports-east-team",
+      "name": "Team East",
+      "x": 1504,
+      "y": 192,
+      "width": 383,
+      "height": 447,
+      "visible": true,
+      "properties": [
+        {
+          "id": "esports-east-team-call",
+          "type": "livekitRoomProperty",
+          "roomName": "esports-arena-v01-east-team",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    }
+  ],
+  "doors": [
+    {
+      "id": "arrival-door",
+      "bounds": [
+        960,
+        1408,
+        1088,
+        1440
+      ],
+      "axis": "y"
+    },
+    {
+      "id": "west-team-door",
+      "bounds": [
+        288,
+        704,
+        384,
+        736
+      ],
+      "axis": "y",
+      "allowed": [
+        "esports-west-team"
+      ]
+    },
+    {
+      "id": "east-team-door",
+      "bounds": [
+        1664,
+        704,
+        1760,
+        736
+      ],
+      "axis": "y",
+      "allowed": [
+        "esports-east-team"
+      ]
+    }
+  ],
+  "placements": [
+    {
+      "module": "horizontal wall",
+      "xy": [
+        64,
+        64
+      ],
+      "width": 1920
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        32,
+        96
+      ],
+      "height": 1312
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        1984,
+        96
+      ],
+      "height": 1312
+    },
+    {
+      "module": "horizontal wall",
+      "xy": [
+        64,
+        1408
+      ],
+      "width": 896
+    },
+    {
+      "module": "horizontal wall",
+      "xy": [
+        1088,
+        1408
+      ],
+      "width": 896
+    },
+    {
+      "module": "horizontal wall",
+      "xy": [
+        704,
+        96
+      ],
+      "width": 640
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        672,
+        128
+      ],
+      "height": 320
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        1344,
+        128
+      ],
+      "height": 320
+    },
+    {
+      "asset": "industrial-screen-native.png",
+      "xy": [
+        864,
+        144
+      ],
+      "size": [
+        320,
+        79
+      ],
+      "foregroundCandidate": null,
+      "collision": [
+        864,
+        160,
+        320,
+        64
+      ]
+    },
+    {
+      "asset": "industrial-caster-native.png",
+      "xy": [
+        928,
+        312
+      ],
+      "size": [
+        192,
+        41
+      ],
+      "foregroundCandidate": null,
+      "collision": [
+        928,
+        320,
+        192,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        956,
+        343
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        960,
+        384,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1052,
+        343
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1056,
+        384,
+        32,
+        32
+      ]
+    },
+    {
+      "module": "horizontal wall",
+      "xy": [
+        96,
+        128
+      ],
+      "width": 448
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        96,
+        160
+      ],
+      "height": 544
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        512,
+        160
+      ],
+      "height": 544
+    },
+    {
+      "module": "horizontal wall",
+      "xy": [
+        96,
+        704
+      ],
+      "width": 192
+    },
+    {
+      "module": "horizontal wall",
+      "xy": [
+        384,
+        704
+      ],
+      "width": 160
+    },
+    {
+      "asset": "industrial-desk-native.png",
+      "xy": [
+        176,
+        272
+      ],
+      "size": [
+        192,
+        49
+      ],
+      "foregroundCandidate": null,
+      "collision": [
+        192,
+        288,
+        160,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        188,
+        311
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        192,
+        352,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        252,
+        311
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        256,
+        352,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        316,
+        311
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        320,
+        352,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-desk-native.png",
+      "xy": [
+        176,
+        464
+      ],
+      "size": [
+        192,
+        49
+      ],
+      "foregroundCandidate": null,
+      "collision": [
+        192,
+        480,
+        160,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        188,
+        503
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        192,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        252,
+        503
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        256,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        316,
+        503
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        320,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-rack-native.png",
+      "xy": [
+        440,
+        272
+      ],
+      "size": [
+        48,
+        76
+      ],
+      "foregroundCandidate": null,
+      "collision": [
+        448,
+        288,
+        32,
+        64
+      ]
+    },
+    {
+      "asset": "industrial-rack-native.png",
+      "xy": [
+        440,
+        464
+      ],
+      "size": [
+        48,
+        76
+      ],
+      "foregroundCandidate": null,
+      "collision": [
+        448,
+        480,
+        32,
+        64
+      ]
+    },
+    {
+      "module": "horizontal wall",
+      "xy": [
+        1472,
+        128
+      ],
+      "width": 448
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        1472,
+        160
+      ],
+      "height": 544
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        1888,
+        160
+      ],
+      "height": 544
+    },
+    {
+      "module": "horizontal wall",
+      "xy": [
+        1472,
+        704
+      ],
+      "width": 192
+    },
+    {
+      "module": "horizontal wall",
+      "xy": [
+        1760,
+        704
+      ],
+      "width": 160
+    },
+    {
+      "asset": "industrial-desk-native.png",
+      "xy": [
+        1552,
+        272
+      ],
+      "size": [
+        192,
+        49
+      ],
+      "foregroundCandidate": null,
+      "collision": [
+        1568,
+        288,
+        160,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1564,
+        311
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1568,
+        352,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1628,
+        311
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1632,
+        352,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1692,
+        311
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1696,
+        352,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-desk-native.png",
+      "xy": [
+        1552,
+        464
+      ],
+      "size": [
+        192,
+        49
+      ],
+      "foregroundCandidate": null,
+      "collision": [
+        1568,
+        480,
+        160,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1564,
+        503
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1568,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1628,
+        503
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1632,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1692,
+        503
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1696,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-rack-native.png",
+      "xy": [
+        1816,
+        272
+      ],
+      "size": [
+        48,
+        76
+      ],
+      "foregroundCandidate": null,
+      "collision": [
+        1824,
+        288,
+        32,
+        64
+      ]
+    },
+    {
+      "asset": "industrial-rack-native.png",
+      "xy": [
+        1816,
+        464
+      ],
+      "size": [
+        48,
+        76
+      ],
+      "foregroundCandidate": null,
+      "collision": [
+        1824,
+        480,
+        32,
+        64
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        764,
+        631
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        768,
+        672,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        828,
+        631
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        832,
+        672,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        892,
+        631
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        896,
+        672,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1116,
+        631
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1120,
+        672,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1180,
+        631
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1184,
+        672,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1244,
+        631
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1248,
+        672,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        764,
+        727
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        768,
+        768,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        828,
+        727
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        832,
+        768,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        892,
+        727
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        896,
+        768,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1116,
+        727
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1120,
+        768,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1180,
+        727
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1184,
+        768,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1244,
+        727
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1248,
+        768,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        764,
+        823
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        768,
+        864,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        828,
+        823
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        832,
+        864,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        892,
+        823
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        896,
+        864,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1116,
+        823
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1120,
+        864,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1180,
+        823
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1184,
+        864,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1244,
+        823
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1248,
+        864,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        764,
+        919
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        768,
+        960,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        828,
+        919
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        832,
+        960,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        892,
+        919
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        896,
+        960,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1116,
+        919
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1120,
+        960,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1180,
+        919
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1184,
+        960,
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-chair40-native.png",
+      "xy": [
+        1244,
+        919
+      ],
+      "size": [
+        40,
+        45
+      ],
+      "foregroundCandidate": [
+        6,
+        23,
+        34,
+        39
+      ],
+      "collision": [
+        1248,
+        960,
+        32,
+        32
+      ]
+    },
+    {
+      "module": "horizontal wall",
+      "xy": [
+        160,
+        1088
+      ],
+      "width": 448
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        160,
+        1120
+      ],
+      "height": 224
+    },
+    {
+      "module": "horizontal wall",
+      "xy": [
+        1376,
+        1056
+      ],
+      "width": 544
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        1888,
+        1088
+      ],
+      "height": 256
+    },
+    {
+      "asset": "industrial-counter-native.png",
+      "xy": [
+        256,
+        1161
+      ],
+      "size": [
+        192,
+        55
+      ],
+      "foregroundCandidate": [
+        8,
+        8,
+        184,
+        39
+      ],
+      "collision": [
+        256,
+        1184,
+        192,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-counter-native.png",
+      "xy": [
+        1632,
+        1129
+      ],
+      "size": [
+        192,
+        55
+      ],
+      "foregroundCandidate": [
+        8,
+        8,
+        184,
+        39
+      ],
+      "collision": [
+        1632,
+        1152,
+        192,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-sofa-native.png",
+      "xy": [
+        1432,
+        1248
+      ],
+      "size": [
+        112,
+        44
+      ],
+      "foregroundCandidate": [
+        8,
+        36,
+        104,
+        44
+      ],
+      "collision": [
+        1440,
+        1248,
+        96,
+        32
+      ]
+    },
+    {
+      "asset": "industrial-sofa-native.png",
+      "xy": [
+        1688,
+        1248
+      ],
+      "size": [
+        112,
+        44
+      ],
+      "foregroundCandidate": [
+        8,
+        36,
+        104,
+        44
+      ],
+      "collision": [
+        1696,
+        1248,
+        96,
+        32
+      ]
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        64,
+        864
+      ],
+      "height": 64
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        64,
+        1120
+      ],
+      "height": 64
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        64,
+        1312
+      ],
+      "height": 64
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        1952,
+        864
+      ],
+      "height": 64
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        1952,
+        1120
+      ],
+      "height": 64
+    },
+    {
+      "module": "vertical wall",
+      "xy": [
+        1952,
+        1312
+      ],
+      "height": 64
+    }
+  ],
+  "camera": "ordinary follow; no focus script",
+  "depthContract": "Original art below; lower chair backs and structural inner pixels above floorLayer, clipped against union of all twelve Greg upper14px head masks over every body-clear native position."
+}

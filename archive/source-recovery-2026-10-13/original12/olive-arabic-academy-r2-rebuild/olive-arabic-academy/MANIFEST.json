@@ -1,0 +1,117 @@
+{
+  "slug": "olive-arabic-academy",
+  "title": "Olive Arabic Academy",
+  "category": "Knowledge",
+  "validation": "VALIDATION.json",
+  "overview": "review/overview.png",
+  "runtime": "map32/map.tmj",
+  "companion": "map32/map.wam",
+  "nativeCrop": [
+    "review/classroom-occupied-native.png",
+    "review/study-occupied-native.png",
+    "review/court-occupied-native.png"
+  ],
+  "status": "Local candidate, not published",
+  "files": [
+    {
+      "path": "GUIDE.md",
+      "sha256": "9866b5f80cae27f9adf395c62b06759a4e97b590a521c925d5d9e7c623aedbeb",
+      "bytes": 1451
+    },
+    {
+      "path": "MANIFEST.json",
+      "sha256": "a346d83be3b55628dc25e775c49ec3993d71e50aca24a648a692696bc5c02891",
+      "bytes": 3612
+    },
+    {
+      "path": "NATIVE-ROUTES.json",
+      "sha256": "8ce99c507509f71dd77606fd262cfb5848526ce1306a4ea50462c35f8cc15d51",
+      "bytes": 494973
+    },
+    {
+      "path": "VALIDATION.json",
+      "sha256": "f01756902e6289e6f7ed8df86c5d41ebb0e0b48515503be0214cb4b54828c61e",
+      "bytes": 965
+    },
+    {
+      "path": "assets/above.png",
+      "sha256": "7411df9d34be8e2d7034af80928d322fcec32b4f387602ab464da942ded0a14b",
+      "bytes": 251562
+    },
+    {
+      "path": "assets/base.png",
+      "sha256": "85f1298d574718fb70ad663fefa534a95b924f7b5a4c7930843d56224f2f26b1",
+      "bytes": 3185393
+    },
+    {
+      "path": "map32/architecture-and-furniture-0.png",
+      "sha256": "592fedb7ab47aba83ea45cd15830dab02b701edc88c95e624ddae6030763f14d",
+      "bytes": 2078164
+    },
+    {
+      "path": "map32/architecture-and-furniture-1.png",
+      "sha256": "a1f99cc41d74cd51c03f7c5371ccff93aeda52df6c77180bd075ee4e7b427b5c",
+      "bytes": 1118268
+    },
+    {
+      "path": "map32/logic.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "bytes": 83
+    },
+    {
+      "path": "map32/map.tmj",
+      "sha256": "f07ebab78cf437076dd3452d06ffd05182457657a87f1724d1d5016e1c73af87",
+      "bytes": 78846
+    },
+    {
+      "path": "map32/map.wam",
+      "sha256": "c9c71bf0d6285c7c9bc5d99fd445e5810a588d309f4a642d6a49d32fe45bacb9",
+      "bytes": 1958
+    },
+    {
+      "path": "map32/seat-backs-0.png",
+      "sha256": "cdc73bb3cf707c74cf37fc9ba62467f4b4c9068893adea3cbede9bba77ecc25b",
+      "bytes": 234294
+    },
+    {
+      "path": "review/classroom-occupied-native.png",
+      "sha256": "b7c00f6cdee85d79d0aec9549577f18653349dc3edb6fe4f1cf5130f3dfe725d",
+      "bytes": 320987
+    },
+    {
+      "path": "review/collision-overlay.png",
+      "sha256": "06d905fe00a803045f6347bdafef9c939b30db51a603683131f28ecc9fcc673a",
+      "bytes": 2933285
+    },
+    {
+      "path": "review/court-occupied-native.png",
+      "sha256": "c975f062feded91024bf253c106e0b25a684a1b76b4e8008247b489c036d1300",
+      "bytes": 561917
+    },
+    {
+      "path": "review/empty-native.png",
+      "sha256": "1c82ef38c436b46d036ff2656082a0636367b13a4fbf1ade30fa85303701f0b7",
+      "bytes": 3183869
+    },
+    {
+      "path": "review/occupied-native.png",
+      "sha256": "9a55242fa5aad5121872d15e9574923bafc9dd7fe138eff567109c8b3b6b617f",
+      "bytes": 3188034
+    },
+    {
+      "path": "review/overview.png",
+      "sha256": "fc9fc3e481994769527e719e3615295227b3d250eea428b007b834c0e914621c",
+      "bytes": 2831052
+    },
+    {
+      "path": "review/study-occupied-native.png",
+      "sha256": "087f0a09092fbc4e6af21a8f96b28769d1c8be1adb9dcd7e535525b6091dad51",
+      "bytes": 296959
+    },
+    {
+      "path": "source/layout.json",
+      "sha256": "c07983241196c744f46e81c5afc2aeb2bc1df7406e1244d537c1d76986bf8bfa",
+      "bytes": 20713
+    }
+  ]
+}

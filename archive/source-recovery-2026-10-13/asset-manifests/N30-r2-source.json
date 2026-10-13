@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "package_id": "N30-r2-source",
+  "destination": "old50/source/N30-r2",
+  "artifact": {
+    "name": "overnight-50-source-06-of-07.zip",
+    "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+    "version_id": null,
+    "sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+    "size_bytes": 93865043
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N30-r2-source.zip",
+      "sha256": "e860db10f025bad191d364ace6803dfca1bc4d3cc5862a01fb7773976eca962e",
+      "size_bytes": 5425965
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "96f7fa32d7f457ab523febf97a7bfd7202f0b0dbe9eeaca2cc44c850c73bdb99",
+      "size_bytes": 2104,
+      "git_blob_sha1": "5b0f173d9fc7f32d45a8eff178258858cd621c29",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "licenses/PIPOYA-ACKNOWLEDGMENT.txt",
+      "sha256": "eb1e2b6f3aca0caa8556b93372b696f9f90dd0c4fd0ce2c1f522ce71e83a72bf",
+      "size_bytes": 149,
+      "git_blob_sha1": "973f2ad7f9255ff75192f0b60b589b35dbe5e9d1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "licenses/WorkAdventure-play-LICENSE.txt",
+      "sha256": "12aae5db7f9d80223d418b1dc97deb235ab207fa3cd4821e16c6ac00072cea41",
+      "size_bytes": 35751,
+      "git_blob_sha1": "614e6268844b827e85f7ca06fb99ff5d3212cb84",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/ACTOR-PROVENANCE.json",
+      "sha256": "5b985c9e5fcffff1fd2fe6d2b388a735e6d2cdb701c508ba7a205a10556c1c00",
+      "size_bytes": 10419,
+      "git_blob_sha1": "0e389096d670fcd79884c0b60976ecd57f91694f",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/CHAIR-PROVENANCE.json",
+      "sha256": "2be3e4539fe122f12d5cf6e273266e0b64330de39023ed76c04e28454d8b312c",
+      "size_bytes": 333,
+      "git_blob_sha1": "54ee9e6dde6544e4bb09de436c846eb4ebb31916",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/NATIVE-FIXTURE-PINS.json",
+      "sha256": "c7fa7b27fe46631f7bcc6ade71e145686cd6fbe17a5680e59799086b4817281b",
+      "size_bytes": 296,
+      "git_blob_sha1": "6effd799aedd098518cebd96c37b0fdd134f0d3e",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/actors/Female 03-3.png",
+      "sha256": "da9991191a028986156fea8788a47225536f24de3d091019c3f5656164ef480a",
+      "size_bytes": 3282,
+      "git_blob_sha1": "7121dd39935c64e1aad8ed91476882c9bf31be19",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/actors/Female 04-1.png",
+      "sha256": "3554502d83883e873f3150f544787076a9889320264e0ab5955fca61bde674c9",
+      "size_bytes": 3101,
+      "git_blob_sha1": "4f979b0b558919a2ee4eb7394e316660503a8949",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/actors/Female 12-1.png",
+      "sha256": "2a566656c82d45ad27c1344d741374c2613ace8262c1774c3af4a5494618ad4c",
+      "size_bytes": 3315,
+      "git_blob_sha1": "7859cdd40945f3421588b958eebcb60fcffdcd65",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/actors/Female 19-4.png",
+      "sha256": "11ec6bff24af8a3a78f151f7cd8456e5d965ffcbf88ad17fac8a197cf3179470",
+      "size_bytes": 2236,
+      "git_blob_sha1": "8896fd61a69c2e73bb0a7665dd1c89aecc6f1521",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/actors/Female 22-1.png",
+      "sha256": "e0a3ffa9e26bea2c812fd663f10e99e5a746e711c5c1b77ad8a5ef9071998a6a",
+      "size_bytes": 2867,
+      "git_blob_sha1": "f6f1b3a715cdc8cbf0094c065216c0e48de559f8",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/actors/Male 01-4.png",
+      "sha256": "d2789992efa6dfbc580339846582f23392d03604190d0a83dc934a0c582af1c2",
+      "size_bytes": 3480,
+      "git_blob_sha1": "fe93235e648de4a8500e5f5ad56f32885bf2d536",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/actors/Male 02-3.png",
+      "sha256": "03b866fbb44ecbcc87585f5abac634dc539634ef08cfc555e2cb6726b7e33861",
+      "size_bytes": 2873,
+      "git_blob_sha1": "5ceac8f7abdc3b2c1debcfc93519a5c8631e4e17",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/actors/Male 03-3.png",
+      "sha256": "092af4e0d9502a3b7864e0b81a467b602d22e27df7ec6a046a95d4b2d6489ba5",
+      "size_bytes": 2852,
+      "git_blob_sha1": "c7d458ee7e41fd47362b07827a0436bece8d9d1d",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/actors/Male 09-4.png",
+      "sha256": "a85403821a61cb1603c161fefc0170f64721a99c26fcec8e484665fc238f812b",
+      "size_bytes": 2874,
+      "git_blob_sha1": "de3fc208c5824685e4ea96ff7a25cf8c5487fd1d",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/actors/Male 15-2.png",
+      "sha256": "421bbff25a8ba4ca629d0ed4883b11117258f12782d3317c5dae4d4cb048188b",
+      "size_bytes": 2428,
+      "git_blob_sha1": "2f861b598820827256263c6f742df6eee18461f6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/chair-native.png",
+      "sha256": "b6f6c66bb8a5bf970a7ae89ee5e28a60b602e54a5b73bd48a5abd6de0216da27",
+      "size_bytes": 2301,
+      "git_blob_sha1": "1e562bd52b5cfacd8dd8dcdaa85f3712d4dd6348",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/chair-rail-native.png",
+      "sha256": "1ae36b1bb531715e30dd5fcec99e4f5c5d0dcb069076f69f11f2c919eefdc4fe",
+      "size_bytes": 712,
+      "git_blob_sha1": "94cea06b1d018172e2efb93972dedeaa65dc8149",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/design.json",
+      "sha256": "d024527d9d14810edaf1cf1e537a6a9dff7016dee26ba88d25256667228a1944",
+      "size_bytes": 20032,
+      "git_blob_sha1": "38c1bad7f103f817c228e6215071f0447972342d",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/field-chair-master.png",
+      "sha256": "5c213ba20158542ba87ae745b08b96ab803e47b6e0c1daff79854122f2677001",
+      "size_bytes": 968888,
+      "git_blob_sha1": "774a136eb1dd9f8a7318330a8d5cdd09bd657fb0",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source/generated-art.png",
+      "sha256": "0baaa9347e1decf71e437ced6fabd1c00ab9673581d1726ea23a25ed89788111",
+      "size_bytes": 3007757,
+      "git_blob_sha1": "efe2d43afd691b88efe76ee945f112ecd8b89df9",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source/generated-chair-master.png",
+      "sha256": "812b6b30816402f5b6d20dbb0d6745e3ff5ce8ba928fd7dda83fba1f912fc111",
+      "size_bytes": 754771,
+      "git_blob_sha1": "a183e39e07e18c3462a5690a09d484923bc890d4",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source/industrial-chair-native.png",
+      "sha256": "b6f6c66bb8a5bf970a7ae89ee5e28a60b602e54a5b73bd48a5abd6de0216da27",
+      "size_bytes": 2301,
+      "git_blob_sha1": "1e562bd52b5cfacd8dd8dcdaa85f3712d4dd6348",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/japanese-chair-master.png",
+      "sha256": "6d63d5f989a0881d5da3bddaf8cc4930bd4ee63be8e548622a58a53f46f6ce29",
+      "size_bytes": 921103,
+      "git_blob_sha1": "ae3d7227e2d62374a87be23e4fa90f7a29dbf08c",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source/layout.json",
+      "sha256": "516cc41e9d382b12aff2ead30087a74c19de07fbdcc9018c31713e256c6a545e",
+      "size_bytes": 16243,
+      "git_blob_sha1": "988816a3db5fe45118d3d4fddc33ec727a0063e2",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/native-head-union.json",
+      "sha256": "497b44a8b41b74edd62ebf9d266448183d7805b1efb92ad411fad51315f66581",
+      "size_bytes": 4279,
+      "git_blob_sha1": "995422c847892a8decac1ba7f1ef6af0af2b504f",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/build.py",
+      "sha256": "e8e8d552d50da882feebd8d0636a523b1dc588e81843fe2cff58bb7566656be1",
+      "size_bytes": 7872,
+      "git_blob_sha1": "787b3b1f5d855b70c37f0bf639f6222c9efd7de0",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/freeze.py",
+      "sha256": "768a7b6cd3e9ec6059ef8254d4b4473da87ab126abb1a62f99c78fbe0448ba24",
+      "size_bytes": 2736,
+      "git_blob_sha1": "6b506e9128522748f2b55e06c274dadc1d4dc4ce",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native-fixture/easystar-0.4.4.js",
+      "sha256": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+      "size_bytes": 25143,
+      "git_blob_sha1": "91c1011123b2eafdb0d3de614120ad6a9d9c5279",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native-fixture/extracted-current-source.cjs",
+      "sha256": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+      "size_bytes": 31744,
+      "git_blob_sha1": "4df97863541382687271aa3dc753ae57438f1cc1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native-fixture/native-runtime-portable.cjs",
+      "sha256": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+      "size_bytes": 2190,
+      "git_blob_sha1": "7c2d9ca60b15caa8e5495862eb9186d1a4dd6fb1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native-source/MathUtils.ts",
+      "sha256": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+      "size_bytes": 2002,
+      "git_blob_sha1": "fbf112735b3710294efd50fcb06a5006db5c3a6a",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native-source/StartPositionCalculator.ts",
+      "sha256": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+      "size_bytes": 12453,
+      "git_blob_sha1": "c73f03c6e9242007acf839b0deb120f7664e2e7c",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/proof.py",
+      "sha256": "431fe280a16c1d4683c254773e20d9280aed70f9053aead5d75a0d97e01becd4",
+      "size_bytes": 3605,
+      "git_blob_sha1": "eea08a99812d3eefc29059cf373f091f6d3bb054",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/rebuild.sh",
+      "sha256": "7ae5bcd3391198d85d5071312e0475924ac64ac7216942dac70390f7cb80152c",
+      "size_bytes": 233,
+      "git_blob_sha1": "a40e33f670cbeae37b286dc6073863664819c2df",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/spawn.cjs",
+      "sha256": "5ec5a75a7058ae0aebffd8bf44a58e2f080d52fe8cad20679f0e3fd708da8495",
+      "size_bytes": 2891,
+      "git_blob_sha1": "462d601176e24d71123578eb11210f0c29a1b55d",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/trace.cjs",
+      "sha256": "57d9bee2e52df76afb5bc2f04b12928a10026aa7752e7cb4ec5e09e9225477b7",
+      "size_bytes": 4103,
+      "git_blob_sha1": "04ca5121cee48856ff8d4d0925a1451cd552e328",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N47-r3-runtime",
+  "destination": "old50/runtime/N47-r3",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N47-r3-runtime.zip",
+      "sha256": "9fffb5d87391e6dcf48590a0e4a89ba28dfed34033b2cda745ad03e57448b687",
+      "size_bytes": 3811277
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "foreground-0.png",
+      "sha256": "395ffa844a44331951dfbd743af40e111fd7915d704948697edb24c619a7194f",
+      "size_bytes": 32817,
+      "git_blob_sha1": "af077686726e7f479dc7f6b1018170d4629a6d6a",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "67da7d6d93dd1b04dcddb866c366353e512c6882e33d29f3dd5bd287e4fe81eb",
+      "size_bytes": 2565636,
+      "git_blob_sha1": "ecf7464d7dbc930177fb84de3c63e46d4e651af3",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "4bc86ef3082caea828ba5399143cf519953c6495f9ecde8e2b51c2cb507d28de",
+      "size_bytes": 1205122,
+      "git_blob_sha1": "9ce58bf90e6fd6893f36cfdb15c1a2186d119237",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "winter-lantern-festival.tmj",
+      "sha256": "6f93d4f1b1f5d32d922c2e0bf57a8f13149b18f9acea084463da129aab2f7700",
+      "size_bytes": 79600,
+      "git_blob_sha1": "bfa2bc0c759a8143e405a46955d8198c78e1a141",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "winter-lantern-festival.wam",
+      "sha256": "a3f1f5a8a7e89a1b5d65cccc7bda4e5033614014672d16c49b9989f172f3e8da",
+      "size_bytes": 334,
+      "git_blob_sha1": "959188e7921cfe8fd2458a93e708fb1315680f70",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N40-r3-runtime",
+  "destination": "old50/runtime/N40-r3",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N40-r3-runtime.zip",
+      "sha256": "f3dcf964e61f058282008860cf3cfcccc78e04db4300eb753b3d2cfcc24db1da",
+      "size_bytes": 3703497
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "coral-research-pier.tmj",
+      "sha256": "e3b5e44c8b43bf8e5b3f66dce642eade6738dfe78a296ff2df24d2a89fbdb1d9",
+      "size_bytes": 80145,
+      "git_blob_sha1": "6d13878293502420e2bb8efc9adbeab9d929a773",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "coral-research-pier.wam",
+      "sha256": "74945070417820dbd9974eec11ff9b4e1b91513a12c3822ee10d6d2563ac01d6",
+      "size_bytes": 327,
+      "git_blob_sha1": "dc3adee26fabad9c053f40bbdf8c09ed0c0fe47b",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "foreground-0.png",
+      "sha256": "af94a8f84be1f138e409ab14bf0344ce171451afdd0074d8280a715bfdb22fff",
+      "size_bytes": 20033,
+      "git_blob_sha1": "63755620d381b91a165d316605b4f5b7c24274a3",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "f9e8a1a762c2ba31f1ad22129f1161ee8a53c9480a9c6d6c10335e29770d6219",
+      "size_bytes": 2415148,
+      "git_blob_sha1": "70d95e81e9e14f122ad0211ab64fa40b454142d2",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "12013feece6717bdf0fe9a1b8005fbfef9f9530a799a99914fcc580243aeb90c",
+      "size_bytes": 1260746,
+      "git_blob_sha1": "147e3b20bb82aa321fb628e6dbd29b952a5f90eb",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    }
+  ]
+}

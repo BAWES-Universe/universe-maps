@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N38-r2-runtime",
+  "destination": "old50/runtime/N38-r2",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N38-r2-runtime.zip",
+      "sha256": "2721d213a5c3396013e444b96a0e6011b1c300a7a1738c7d36105536ffa53fe6",
+      "size_bytes": 4029951
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "foreground-0.png",
+      "sha256": "fcc60feac7c6476447831a4ad28be2a2532d21aa78a89d058111f922dd46ccff",
+      "size_bytes": 28358,
+      "git_blob_sha1": "231a81e2f6833872f11088660fe01c08a18dbcbe",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "7eee0474c83e1cf38650649b8f20c534cda82758dd3bcd7224fca360bc99f2cf",
+      "size_bytes": 2680712,
+      "git_blob_sha1": "bed97851b8cfdb758bcb6827d297635a83c679f8",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "bb887655acb43d86c6d34c67e64f03ec9c7c3a1dac156ae6d24a3e48fc7bec26",
+      "size_bytes": 1313196,
+      "git_blob_sha1": "43eb67ba3721c779564f09adceecd9e34602d7a2",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "rainforest-canopy-forum.tmj",
+      "sha256": "24920afcf88375c0340a09740400a7cc023a66375b66ed7fe93c301f4d7d269a",
+      "size_bytes": 79847,
+      "git_blob_sha1": "544ca6cbb6c3b7525f1d2cd2fb925687d5ea7827",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "rainforest-canopy-forum.wam",
+      "sha256": "06fd360784a5456319e9ed01d1c1d0ad3e7a3bebda4958cdc3a939e84fb496b7",
+      "size_bytes": 314,
+      "git_blob_sha1": "42832095295f4716716a1788eaebd988d82f4ea5",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    }
+  ]
+}

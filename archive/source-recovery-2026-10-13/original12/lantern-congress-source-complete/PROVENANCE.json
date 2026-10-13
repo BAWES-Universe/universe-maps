@@ -1,0 +1,60 @@
+{
+  "title": "Lantern Congress",
+  "status": "Original generated/authored project environment; no invented CC0 or third-party furniture licence",
+  "generationMasters": [
+    {
+      "path": "source/generated/architectural-depth-kit-master.png",
+      "sha256": "1d58cf7355c8bb8558777041667dff436aca6798cd0c7a2743719971ff548cde",
+      "tool": "built-in image_gen.imagegen",
+      "modelSeed": "Not exposed by tool",
+      "transformation": "Native proportional crop/downscale and deterministic composition; no anisotropic stretching"
+    },
+    {
+      "path": "source/generated/architecture-kit-master.png",
+      "sha256": "400630c5c6be39afee51be956b84e365d801f090f8ec46c625cddf569c1e2229",
+      "tool": "built-in image_gen.imagegen",
+      "modelSeed": "Not exposed by tool",
+      "transformation": "Native proportional crop/downscale and deterministic composition; no anisotropic stretching"
+    },
+    {
+      "path": "source/generated/chair-kit-master.png",
+      "sha256": "b3aa47ff966ad2a69cd53de4bc20a9d99a36385aeb7cca15fc4748c8d1a5e21f",
+      "tool": "built-in image_gen.imagegen",
+      "modelSeed": "Not exposed by tool",
+      "transformation": "Native proportional crop/downscale and deterministic composition; no anisotropic stretching"
+    },
+    {
+      "path": "source/generated/planter-coffee-kit-master.png",
+      "sha256": "3c20946d9c947421b4f74cf4d1d3efa8ffc2645425a4a801c49000c3d255f85b",
+      "tool": "built-in image_gen.imagegen",
+      "modelSeed": "Not exposed by tool",
+      "transformation": "Native proportional crop/downscale and deterministic composition; no anisotropic stretching"
+    },
+    {
+      "path": "source/generated/room-kit-master.png",
+      "sha256": "6a8ec36db0a2ef085f294bd7b915bf9b21bc412b7167586c2bd4f95e4df4e0cf",
+      "tool": "built-in image_gen.imagegen",
+      "modelSeed": "Not exposed by tool",
+      "transformation": "Native proportional crop/downscale and deterministic composition; no anisotropic stretching"
+    },
+    {
+      "path": "source/generated/terrazzo-master.png",
+      "sha256": "4e40693606bf34a3aa9d7ceb8c333101b2386d55af987427952b819d5d269759",
+      "tool": "built-in image_gen.imagegen",
+      "modelSeed": "Not exposed by tool",
+      "transformation": "Native proportional crop/downscale and deterministic composition; no anisotropic stretching"
+    }
+  ],
+  "assetRegistrations": [
+    "source/asset-registration.json",
+    "source/depth-asset-registration.json",
+    "source/niche-asset-registration.json"
+  ],
+  "gregReference": {
+    "description": "Project-authored Greg Gulf-outfit v3, reused byte-for-byte as a native-scale review fixture. No new character art. Not a runtime dependency.",
+    "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+    "source": "https://github.com/BAWES-Universe/universe-ai-creator-kit/blob/67382dc97f494c230e93f0cf67e478df6e5b6d17/docs/catalogue/wokas.md#reference-greg32-map-fixture"
+  },
+  "sourceReference": "Conference use-case and native stage semantics only; no Conference Campus art copied",
+  "font": "Bundled DejaVu build-only fonts; licence in assets/fonts/LICENSE.txt"
+}

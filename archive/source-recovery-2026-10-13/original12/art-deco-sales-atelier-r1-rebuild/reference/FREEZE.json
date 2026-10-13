@@ -1,0 +1,163 @@
+{
+  "title": "Art Deco Sales Atelier",
+  "slug": "art-deco-sales-atelier",
+  "release": "art-deco-sales-atelier-r1",
+  "native32": true,
+  "status": "Immutable local candidate; not published",
+  "runtime": "map32/map.tmj",
+  "companion": "map32/map.wam",
+  "overview": "review/overview.png",
+  "occupiedNative": "review/occupied-native.png",
+  "checks": [
+    "VALIDATION.json",
+    "NATIVE-ROUTES.json",
+    "HEAD-GEOMETRY.json"
+  ],
+  "nativeRoutes": 768,
+  "bodySamples": 1115714,
+  "headConflicts": 0,
+  "livePlaytest": false,
+  "integrationsVerified": false,
+  "files": [
+    {
+      "path": "ASSET-PROVENANCE.md",
+      "bytes": 4156,
+      "sha256": "0ec03298f05c0d95b4159ea34a330d535cbc93e31659338b1b088f1180f38479"
+    },
+    {
+      "path": "GENERATION-PROMPTS.md",
+      "bytes": 2894,
+      "sha256": "4a483a5a6110edb6cf7ef8c11e9e15b42bbe37a9300d528b92c10f7fc1125b92"
+    },
+    {
+      "path": "GUIDE.md",
+      "bytes": 2805,
+      "sha256": "07bf29810562950b5b032b1f6c4688ba4f64cf21cfd8b9cb62fde2c25d46eb29"
+    },
+    {
+      "path": "HARNESS-RETURN-FIX.diff",
+      "bytes": 5164,
+      "sha256": "84838636f54fb3b9fc86c22b45951aa9cd3dae8b7a0627febe243e4392de9255"
+    },
+    {
+      "path": "HEAD-GEOMETRY.json",
+      "bytes": 7245,
+      "sha256": "647c1aa30c89035e49348e8ebb4d0c2ef6ca245224a358f611edba69f180c3a4"
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 4940,
+      "sha256": "c6c86a0444e3967f9680c95fb1b14c1603b2cdc61412219079addcf058396683"
+    },
+    {
+      "path": "NATIVE-FIXTURE-HASHES.json",
+      "bytes": 479,
+      "sha256": "7280e19517a5b988547f4583560a60d56b89e536ee812808a22074d7ecab4839"
+    },
+    {
+      "path": "NATIVE-ROUTES.json",
+      "bytes": 375972,
+      "sha256": "80097efb423917d822c5548a4305bc020be0491086937d1446d0b809dc580809"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 964,
+      "sha256": "d9dc3ab16551a045b4b842c772ac432d254555d7a523eff037f41721f3893023"
+    },
+    {
+      "path": "assets/above.png",
+      "bytes": 78412,
+      "sha256": "7cb4ebb27bd0879445bfb015e7a15ee31aced9a4ba7756c49da99168371119ac"
+    },
+    {
+      "path": "assets/base.png",
+      "bytes": 2565021,
+      "sha256": "e6d11c4bb863445b94b31bdfc6959f74ed8b5dae20c309e74a18fb7069a6c73b"
+    },
+    {
+      "path": "map32/architecture-and-furniture-0.png",
+      "bytes": 1807849,
+      "sha256": "fd8e328f534f07e5ee094a2bf4152d542f5652661e83d5d464ff87720681f558"
+    },
+    {
+      "path": "map32/architecture-and-furniture-1.png",
+      "bytes": 788242,
+      "sha256": "3d74e42a34c335db30d831211375f870a2fd722186f780a15a24e860f10dd7a6"
+    },
+    {
+      "path": "map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "map32/map.tmj",
+      "bytes": 78490,
+      "sha256": "8b7ed220030fc38fb8f10a94e56370e1feadee5749ebe84968ee86e5347717df"
+    },
+    {
+      "path": "map32/map.wam",
+      "bytes": 2157,
+      "sha256": "5738991ece4927fa6f71c3f965e5abd38cc205c8012723e58964bf4ee45de498"
+    },
+    {
+      "path": "map32/seat-backs-0.png",
+      "bytes": 66422,
+      "sha256": "fa4032809f1370829e4f42dd75a56a5509771b0c72bef51e3d7d388f57ebd008"
+    },
+    {
+      "path": "review/briefing-occupied-native.png",
+      "bytes": 75344,
+      "sha256": "e0f66ca090da859a77a75ae18882bbeb4b96a39aaa60f434f2aef5d1238f6bbd"
+    },
+    {
+      "path": "review/client-east-occupied-native.png",
+      "bytes": 183624,
+      "sha256": "a9e9bd27d4ec4e05aacc8f3a93f391f3701a141f959450621cbc88424e7ca060"
+    },
+    {
+      "path": "review/client-west-occupied-native.png",
+      "bytes": 166721,
+      "sha256": "46fbc3c7f4144e4042d9bf63ee96d59222b60fd753f52be9858fe8491d572b87"
+    },
+    {
+      "path": "review/collision-overlay.png",
+      "bytes": 2423314,
+      "sha256": "fe976769a2e58e88b091cd385f9a0f6abd18b8c643dd44d4076f0d2a3d884952"
+    },
+    {
+      "path": "review/empty-native.png",
+      "bytes": 2564156,
+      "sha256": "c6e39d7b68d9b4895a3140c499f3d0aef5b19d13c7ff8fc77c87127e82978257"
+    },
+    {
+      "path": "review/occupied-native.png",
+      "bytes": 2565043,
+      "sha256": "f9bd062693eb0c056ddbb9aa947d3842264cc57054a8cc0cb9a7e9821308bf92"
+    },
+    {
+      "path": "review/overview.png",
+      "bytes": 2281066,
+      "sha256": "a1fc3b7eefbc96355de717a5d30a7ad6557f0d807f5ca22c037b74a22c36a283"
+    },
+    {
+      "path": "review/research-occupied-native.png",
+      "bytes": 626728,
+      "sha256": "1e140c2c263677efcfacaed37ce60edccf96b23d54148258b84aa1a690df72fa"
+    },
+    {
+      "path": "source/foreground-safety.json",
+      "bytes": 222,
+      "sha256": "3b4d5e3fc7deba97cafde43f97a88362514d3618e409a50a9bc0e3ee79a26c55"
+    },
+    {
+      "path": "source/interaction-contract.json",
+      "bytes": 865,
+      "sha256": "0e8196c1659e0926657aa9687dd6c719f053317b9d1441142040a27fe02c1d7c"
+    },
+    {
+      "path": "source/layout.json",
+      "bytes": 19271,
+      "sha256": "69ba03f7d758543b07f600c8961bb361288cffb52dba672d2d8657ff2e56618c"
+    }
+  ]
+}

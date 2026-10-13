@@ -1,0 +1,54 @@
+{
+  "title": "Lantern Congress / Three-Hall Conference",
+  "status": "Final compiled and independently reviewed local template",
+  "freezeRevision": "lectern-depth-final",
+  "rootVisualReview": "Passed",
+  "independentReview": "Passed; validation/independent/REVIEW.md",
+  "publication": "Not published; no public TMJ URL or live room",
+  "nativeGrid": 32,
+  "tiles": [
+    96,
+    64
+  ],
+  "pixels": [
+    3072,
+    2048
+  ],
+  "furnitureSeats": {
+    "summit": 48,
+    "forum": 24,
+    "lab": 24,
+    "meetingLounges": 8,
+    "casual": 6,
+    "total": 110
+  },
+  "concurrentCapacityClaim": false,
+  "proof": {
+    "openCells": 4369,
+    "allConnected": true,
+    "bodyClearPositions": 4017436,
+    "anchors": 128,
+    "spawnOutcomes": 33,
+    "nativeRouteLegs": 4392,
+    "sweptSamples": 12965240,
+    "failures": 0,
+    "portableRebuildFilesMatched": 15
+  },
+  "limits": [
+    "Custom TMJ does not automatically import companion WAM communication areas.",
+    "No live media, browser-renderer, actual keyboard/joystick integration, device or concurrency acceptance.",
+    "Native initial focus math passes fresh viewport cases; focused rotation/resize does not fully pass.",
+    "Whole-room portrait focus makes avatars small; native manual zoom remains available.",
+    "Stage treads are flat 2D traversal with visual depth, not multiple physical levels."
+  ],
+  "previewFiles": [
+    "review/overview.png",
+    "review/networking-occupied-native32.png",
+    "review/workshop-occupied-native32.png",
+    "review/lectern-depth-native32.png",
+    "review/focus-source-calculated.png"
+  ],
+  "runtimeManifest": "RUNTIME-MANIFEST.json",
+  "coreManifest": "CORE-FREEZE.json",
+  "setupGuide": "integration/ROOM-SETUP.md"
+}

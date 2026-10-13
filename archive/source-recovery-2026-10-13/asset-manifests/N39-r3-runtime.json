@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N39-r3-runtime",
+  "destination": "old50/runtime/N39-r3",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N39-r3-runtime.zip",
+      "sha256": "2502104c3e8f755034419198b98457782b2bc519eee40ff871e570d3fbff69cc",
+      "size_bytes": 3491061
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "foreground-0.png",
+      "sha256": "412d1e0c0bde88628c2ba440bed5570a682f24bcdc7c487cb181b817a76bb184",
+      "size_bytes": 49089,
+      "git_blob_sha1": "a802eb44586acf6e0e9487def39d84052d5abf15",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "aafb578feeb1fe93b132d23844395bb70792e58b336f9729af6cc9b8e3c0ceef",
+      "size_bytes": 2298288,
+      "git_blob_sha1": "38640fec003b6b996fc948bc7fc57aa40462d177",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "90901a172c3ff54006505bf62ab25af507e386669f9d557a31faa31e9bdbddf1",
+      "size_bytes": 1136174,
+      "git_blob_sha1": "6c28792dfb77ed97f9cd24f07866c9af6e1637ae",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "volcanic-observatory-lodge.tmj",
+      "sha256": "ac6f097436f2106cd70cf6375f1f22e5422dac279d07ae3b753a21586340f5eb",
+      "size_bytes": 79831,
+      "git_blob_sha1": "e3eac33f9017d8b9c5285770065578b515ab6980",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "volcanic-observatory-lodge.wam",
+      "sha256": "ae1267d0361422a04b53d20c58de21cea94d16461e50fcbe9af54b77187f21d8",
+      "size_bytes": 335,
+      "git_blob_sha1": "dc40d3335e1870567e9606711f53d7624001957d",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "package_id": "willow-quay-tea-garden-source-replay",
+  "destination": "original12/willow-quay-tea-garden-source-replay",
+  "artifact": {
+    "name": "willow-quay-tea-garden-source-replay.zip",
+    "library_file_id": "libfile_cc9d88bfb09c819199f0e8df265d999d",
+    "version_id": null,
+    "sha256": "6ad5ae9602bec260c0b1894b49f0dcbe0005e081acfb5593e5aeeac57023b276",
+    "size_bytes": 30213253
+  },
+  "nested_archives": [],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "tools/build_maps.py",
+      "sha256": "361566c2a062a0ddcd431772f9b435c46b1e7c7930cfe39826d49777e91a1639",
+      "size_bytes": 29304,
+      "git_blob_sha1": "b3dd6ae94930429aa7e0ea1473494bdc82c76965",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/check_spawn_and_boundaries.py",
+      "sha256": "30045b0e365be05dab5e08c55d4ce84cbdad9da068964101f4569efd62a32192",
+      "size_bytes": 3034,
+      "git_blob_sha1": "31cebc865156190ae58e3ea0aea8c8f807cf945e",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/easystar-0.4.4.js",
+      "sha256": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+      "size_bytes": 25143,
+      "git_blob_sha1": "91c1011123b2eafdb0d3de614120ad6a9d9c5279",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/extracted-current-source.cjs",
+      "sha256": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+      "size_bytes": 31744,
+      "git_blob_sha1": "4df97863541382687271aa3dc753ae57438f1cc1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/native-runtime-portable.cjs",
+      "sha256": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+      "size_bytes": 2190,
+      "git_blob_sha1": "7c2d9ca60b15caa8e5495862eb9186d1a4dd6fb1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/route-audit.cjs",
+      "sha256": "995d45f73d2840cf9a1a6f8256532bb1b0fd22564b8218fe9b2c0b7c1851f7ef",
+      "size_bytes": 5447,
+      "git_blob_sha1": "0d0ce787ab56eb350b36c077704842589ffb0a15",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/StartPositionCalculator.ts",
+      "sha256": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+      "size_bytes": 12453,
+      "git_blob_sha1": "c73f03c6e9242007acf839b0deb120f7664e2e7c",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/libs/math-utils/src/MathUtils.ts",
+      "sha256": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+      "size_bytes": 2002,
+      "git_blob_sha1": "fbf112735b3710294efd50fcb06a5006db5c3a6a",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/CameraManager.ts",
+      "sha256": "c6bea29bffe270221ec35435ea1181df5d670edeac0dbb3b1918db0da8553b80",
+      "size_bytes": 47978,
+      "git_blob_sha1": "cc79b8b6af93778aba3051b7f1b187897d449e7b",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "sha256": "f011429f25599b348640a57894b28560f3755da1a72b97cdfdbffd9ae2d3cdfc",
+      "size_bytes": 53557,
+      "git_blob_sha1": "93ab4bd2df2e8a5e8f2ca748bb351b3e0e0a4436",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/GameScene.ts",
+      "sha256": "7c901514db24890c3750631d8e32124643e87de41750fb90e4a2d7f54ac1c146",
+      "size_bytes": 200530,
+      "git_blob_sha1": "4451b827cb48f9baeea4daa06cc62a6c419ff864",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Player/Player.ts",
+      "sha256": "47c30fe3c2d16f52da3b499599de57b2240e75be4d91b2c816aae1179e8bc3d9",
+      "size_bytes": 15312,
+      "git_blob_sha1": "3b1eee86204b1d5993ad1e7784cdf6961c9416f0",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Services/HdpiManager.ts",
+      "sha256": "6e25f9e127d3b712edf8ab7e87b1f11f82f8b4681772ccfe1d20c868e3f4d3fc",
+      "size_bytes": 5693,
+      "git_blob_sha1": "a87b8fba27dc5dcbd0b018f1e504448d704f5293",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Services/WaScaleManager.ts",
+      "sha256": "d811cf48d3fa8561a37a6689bcc0e639f5ceb1837fb3d762b326e104dde77a27",
+      "size_bytes": 8256,
+      "git_blob_sha1": "2005fd7b22a57983d8e92820a7914e1b86b2017f",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts",
+      "sha256": "d4bdce55f82caa5e94e372fa2ca57eb2a241f0ed0e78609d4dedb975b665a89a",
+      "size_bytes": 13849,
+      "git_blob_sha1": "a50370cc0927de73cff75dd5d46e72543d8fa935",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Utils/PathfindingManager.ts",
+      "sha256": "b6d055091ec000f2e47b3e1def2f7ee7c42aae96ff3301c36a8b26b9c1b0c715",
+      "size_bytes": 12672,
+      "git_blob_sha1": "5b74fe6971bf14674f5c66b17b8ac1508eaee942",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source-method-manifest.json",
+      "sha256": "86c7dff4e686ea1c12f638626042618a6b35c96bb8a4b0c7c54e0becc119d665",
+      "size_bytes": 5842,
+      "git_blob_sha1": "9c67df6e15e4e0cc5592a86346ce27f94991c5b9",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/package_map.py",
+      "sha256": "ffcf7c007822e3c12894da6b880ed5b90d48f0bbf68ef1fd57a3a4eb7618ac49",
+      "size_bytes": 8663,
+      "git_blob_sha1": "15242b108d82ad6d44e84e218013b229d7862346",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/tea-generation-prompt.txt",
+      "sha256": "1fb73e35404516480e201d929d4d8e67107d033fba0acbfc761ca2a5727a7cd6",
+      "size_bytes": 1079,
+      "git_blob_sha1": "a39886a7dbd1b73266ab98a15546bd387581ee13",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/low-lounge-table.png",
+      "sha256": "22d1169759331b49481442afe2fcecd8432dfa76813a957eec61c684b0944241",
+      "size_bytes": 5721,
+      "git_blob_sha1": "662478ed3227a417f98d30a798319f34aeb20c45",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "size_bytes": 4772,
+      "git_blob_sha1": "3d10e7d64c83b0cedb1479baf37317ccbd332dbe",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/tea-garden-clear-landing-master.png",
+      "sha256": "79fff087903f038bc12d554446736c8eea599736df320f34286685584e31f65e",
+      "size_bytes": 3511969,
+      "git_blob_sha1": "f435bf5d79cc9dbf1a70a06775b558b2d98c5685",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source/generation-history.json",
+      "sha256": "b94407b1f79643a074424e06af515fa5c68cd99ee8290f0cc7e15b5c0a1a843f",
+      "size_bytes": 1304,
+      "git_blob_sha1": "c90ebbed48b8dad3bad1512e536d275144c2f6ce",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/greg-reference.png",
+      "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+      "size_bytes": 9396,
+      "git_blob_sha1": "26c5fb73b09082ba3f8453d9766e672e2432155b",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "willow-quay-tea-garden/MANIFEST.json",
+      "sha256": "f1a9f7e1e1c98cdefb19285c391dad777d195703ad8d484737d96fab215ee3d4",
+      "size_bytes": 7174,
+      "git_blob_sha1": "069018cdc87f4c689ff2ac4c8c9a2e06b890af26",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "willow-quay-tea-garden/PROVENANCE.md",
+      "sha256": "70152fe8a6d92e10004d942fe99daedde71ce2899ae1faff09a086a1382470ff",
+      "size_bytes": 1344,
+      "git_blob_sha1": "975aefe966b3ad56f50f22ce28e0df4b59b02714",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "willow-quay-tea-garden/README.md",
+      "sha256": "52d6cfc6a4f6e8e1b52d724949aeb0689dcd536ba51231c179768034faf59120",
+      "size_bytes": 2380,
+      "git_blob_sha1": "2f6472abe0e66f0a1736eecc83e3eae990f2343c",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "willow-quay-tea-garden/integration/ROOM-SETUP.md",
+      "sha256": "3760f92e83893b8144c0283cdf096938ec26315853f380e234961f8ccb7554fb",
+      "size_bytes": 1464,
+      "git_blob_sha1": "0967736e096ffdcebbeef5ba9339fae66584a708",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "willow-quay-tea-garden/map32/ground-and-objects-0.png",
+      "sha256": "1acb51e0f5d6bae0f641a093597e5ff38966830db958a3aa595cf95bac5fe96d",
+      "size_bytes": 2407646,
+      "git_blob_sha1": "7c4d92b5540807a582e7dde0d8c3be291ff07b7f",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "willow-quay-tea-garden/map32/ground-and-objects-1.png",
+      "sha256": "b04a4a9f7583c9c73fbc92064140008398064edfd0c0c22e63a50973a0c86006",
+      "size_bytes": 1285329,
+      "git_blob_sha1": "206c3a47bfeaee41e8814385e57e4a8749e9a781",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "willow-quay-tea-garden/map32/markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "willow-quay-tea-garden/map32/willow-quay-tea-garden.tmj",
+      "sha256": "7f2909f752d898c5ecdfb9c59e0dfefd91621525f9e528252847384a21cce64b",
+      "size_bytes": 80908,
+      "git_blob_sha1": "49374c22e94e2da69402a8e65099b928c324e0ff",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "willow-quay-tea-garden/map32/willow-quay-tea-garden.wam",
+      "sha256": "5cf682e14ee855285ae8ec46a070d809e62483dbd98a3d9e84c3aaa93b14d696",
+      "size_bytes": 1059,
+      "git_blob_sha1": "a38df61f631055a59b6f0b879d15a1d28c153694",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "willow-quay-tea-garden/review/collision-native.png",
+      "sha256": "e615037fd2153c3d0a66cd3c184da3f4a1525902e6bce3165dbbb3aa21d29755",
+      "size_bytes": 3438967,
+      "git_blob_sha1": "e4f5ebe53984aade036e5f34e6d7ea8c8f919ac7",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "willow-quay-tea-garden/review/empty-native.png",
+      "sha256": "527e158c5b70a56644561d5f98497b14660dff6d4e49a8b8fb050158a43ab2d6",
+      "size_bytes": 3685048,
+      "git_blob_sha1": "80d475cb3b218541b11aa8138bcd0d34f756acbe",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "willow-quay-tea-garden/review/occupied-native.png",
+      "sha256": "7a6c9a4eb5b83de7a46a781ceef80c7148c39481fafca2d311322464deafa056",
+      "size_bytes": 3683492,
+      "git_blob_sha1": "422d5b481a4060f2be3ed297d75ee6225b51468c",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "willow-quay-tea-garden/review/overview.png",
+      "sha256": "cc3b6d3d9ee1e6ef0ef490252a56d68a1697c9c34d2281cccee9ac3fa2d4e18b",
+      "size_bytes": 3274994,
+      "git_blob_sha1": "4a753d9e4634ed7010fbdc60120f73f09202fd7d",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "willow-quay-tea-garden/review/revised-bridge-occupied-3x.png",
+      "sha256": "4b27cf1b2c78a22cd6dedf7ddea2bac247bff788b5545475a33e6fe29f1bfbe5",
+      "size_bytes": 1601388,
+      "git_blob_sha1": "e4b0240dd711a5e4fbe133f9139c731312152a46",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "willow-quay-tea-garden/source/authored-walkable-mask.png",
+      "sha256": "a5c43b0b9bcf082fad47840ffdb3afe616010cbded928e525764e4997a6c8702",
+      "size_bytes": 10115,
+      "git_blob_sha1": "a4bf4a73eb7ed96b6742fef9b88a620337b5ebb2",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "willow-quay-tea-garden/source/generation-history.json",
+      "sha256": "b94407b1f79643a074424e06af515fa5c68cd99ee8290f0cc7e15b5c0a1a843f",
+      "size_bytes": 1304,
+      "git_blob_sha1": "c90ebbed48b8dad3bad1512e536d275144c2f6ce",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "willow-quay-tea-garden/source/greg-reference.png",
+      "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+      "size_bytes": 9396,
+      "git_blob_sha1": "26c5fb73b09082ba3f8453d9766e672e2432155b",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "willow-quay-tea-garden/source/layout.json",
+      "sha256": "53f2ff13f066e777d30f02929d188b8a6ba25bf445864b4b55aa476955718e70",
+      "size_bytes": 38358,
+      "git_blob_sha1": "6a5de9b400363e7f17175bfcf6b1517ec1a847bb",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "willow-quay-tea-garden/source/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "size_bytes": 4772,
+      "git_blob_sha1": "3d10e7d64c83b0cedb1479baf37317ccbd332dbe",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "willow-quay-tea-garden/source/low-lounge-table.png",
+      "sha256": "22d1169759331b49481442afe2fcecd8432dfa76813a957eec61c684b0944241",
+      "size_bytes": 5721,
+      "git_blob_sha1": "662478ed3227a417f98d30a798319f34aeb20c45",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "willow-quay-tea-garden/source/runtime-above.png",
+      "sha256": "64085d665f67f408b0cd67f69bebaa5a814b79eeed296c3d952e62988d7a440f",
+      "size_bytes": 6177,
+      "git_blob_sha1": "fa03be01d2fb49011dd27a6db606a9e00b994785",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "willow-quay-tea-garden/source/runtime-base.png",
+      "sha256": "527e158c5b70a56644561d5f98497b14660dff6d4e49a8b8fb050158a43ab2d6",
+      "size_bytes": 3685048,
+      "git_blob_sha1": "80d475cb3b218541b11aa8138bcd0d34f756acbe",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "willow-quay-tea-garden/source/tea-garden-clear-landing-master.png",
+      "sha256": "79fff087903f038bc12d554446736c8eea599736df320f34286685584e31f65e",
+      "size_bytes": 3511969,
+      "git_blob_sha1": "f435bf5d79cc9dbf1a70a06775b558b2d98c5685",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "willow-quay-tea-garden/source/tea-generation-prompt.txt",
+      "sha256": "1fb73e35404516480e201d929d4d8e67107d033fba0acbfc761ca2a5727a7cd6",
+      "size_bytes": 1079,
+      "git_blob_sha1": "a39886a7dbd1b73266ab98a15546bd387581ee13",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "willow-quay-tea-garden/validation/atlas-roundtrip.json",
+      "sha256": "7b5b6e4198b9272400d7cdc0ebdfb24847f600c9b2a9053c9c0a9326e5aff0fd",
+      "size_bytes": 176,
+      "git_blob_sha1": "796fab2829ec36fc45ad5b7dedc78ca3d79c0c7b",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "willow-quay-tea-garden/validation/boundary-sweep.json",
+      "sha256": "9552b0e5e12aa28275c9fdeb2a5c13988bcd408aed3ec20b3d83646cf91ad41a",
+      "size_bytes": 122657,
+      "git_blob_sha1": "c8ada7cf8d460dc76b671d82e1d0e6b41c5f4042",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "willow-quay-tea-garden/validation/depth-partition.json",
+      "sha256": "bdf01c07d65af0fcfa358f862b2df934eb24bdd459d2f067b0f76199de0c31cf",
+      "size_bytes": 203,
+      "git_blob_sha1": "9bba193458ff8e065cb2d65fd7491ddd34b697cb",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "willow-quay-tea-garden/validation/geometry.json",
+      "sha256": "3f55fbf2e94eb79ae73f7c55ec67d7cd95294e8f4beb5ff6e915294fc0f4e061",
+      "size_bytes": 4464,
+      "git_blob_sha1": "9e43bfe094dd5900a50b3f8b8143fd1225fdf929",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "willow-quay-tea-garden/validation/native-routes.json",
+      "sha256": "ff492f01513ed52a530e99c73a00be94dff997b091181752c1c524aeca01462c",
+      "size_bytes": 374654,
+      "git_blob_sha1": "527e95ea76de329e537d6b2d60b1592b4145c11d",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "willow-quay-tea-garden/validation/native-routes.log",
+      "sha256": "f6917f5ba024e1f8fceced0866356821670afed36474ac5e15b9db2e05a60181",
+      "size_bytes": 658,
+      "git_blob_sha1": "e39e6fdce81ec7f3a39e0e2df9d8aa7826813c1e",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "willow-quay-tea-garden/validation/spawn-domains.json",
+      "sha256": "1f1c41ac8e182c21e002fa235bcf15c3e51f45bfd181d1b1f44dc61060207344",
+      "size_bytes": 1136,
+      "git_blob_sha1": "970723427c8f13553159baad6e9bee6a8270ba73",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    }
+  ]
+}

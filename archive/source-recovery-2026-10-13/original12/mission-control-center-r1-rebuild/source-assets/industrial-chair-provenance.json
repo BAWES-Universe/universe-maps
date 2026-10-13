@@ -1,0 +1,176 @@
+{
+  "floor": {
+    "master": "source/industrial-floor-generated-master.png",
+    "masterSize": [
+      1254,
+      1254
+    ],
+    "alphaCrop": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "nativeSize": [
+      256,
+      256
+    ],
+    "reduction": "Uniform, one Lanczos authoring reduction, aspect preserved."
+  },
+  "wall": {
+    "master": "source/industrial-wall-generated-master.png",
+    "masterSize": [
+      1983,
+      793
+    ],
+    "alphaCrop": [
+      39,
+      254,
+      1949,
+      529
+    ],
+    "nativeSize": [
+      256,
+      37
+    ],
+    "reduction": "Uniform, one Lanczos authoring reduction, aspect preserved."
+  },
+  "desk": {
+    "master": "source/industrial-desk-generated-master.png",
+    "masterSize": [
+      1855,
+      848
+    ],
+    "alphaCrop": [
+      67,
+      196,
+      1788,
+      638
+    ],
+    "nativeSize": [
+      192,
+      49
+    ],
+    "reduction": "Uniform, one Lanczos authoring reduction, aspect preserved."
+  },
+  "chair": {
+    "master": "source/industrial-chair-generated-master.png",
+    "masterSize": [
+      1122,
+      1402
+    ],
+    "alphaCrop": [
+      129,
+      184,
+      994,
+      1167
+    ],
+    "nativeSize": [
+      32,
+      36
+    ],
+    "reduction": "Uniform, one Lanczos authoring reduction, aspect preserved."
+  },
+  "caster": {
+    "master": "source/industrial-caster-generated-master.png",
+    "masterSize": [
+      2172,
+      724
+    ],
+    "alphaCrop": [
+      65,
+      139,
+      2109,
+      572
+    ],
+    "nativeSize": [
+      192,
+      41
+    ],
+    "reduction": "Uniform one Lanczos authoring reduction; aspect preserved"
+  },
+  "vertical": {
+    "master": "source/industrial-vertical-generated-master.png",
+    "alphaCrop": [
+      439,
+      12,
+      593,
+      1524
+    ],
+    "nativeSize": [
+      32,
+      314
+    ],
+    "reduction": "One uniform aspect-preserving Lanczos reduction"
+  },
+  "screen": {
+    "master": "source/industrial-screen-generated-master.png",
+    "alphaCrop": [
+      64,
+      118,
+      2071,
+      613
+    ],
+    "nativeSize": [
+      320,
+      79
+    ],
+    "reduction": "One uniform aspect-preserving Lanczos reduction"
+  },
+  "counter": {
+    "master": "source/industrial-counter-generated-master.png",
+    "alphaCrop": [
+      71,
+      82,
+      2048,
+      644
+    ],
+    "nativeSize": [
+      192,
+      55
+    ],
+    "reduction": "One uniform aspect-preserving Lanczos reduction"
+  },
+  "sofa": {
+    "master": "source/industrial-sofa-generated-master.png",
+    "alphaCrop": [
+      147,
+      83,
+      1769,
+      726
+    ],
+    "nativeSize": [
+      112,
+      44
+    ],
+    "reduction": "One uniform aspect-preserving Lanczos reduction"
+  },
+  "chair40": {
+    "master": "source/industrial-chair-generated-master.png",
+    "alphaCrop": [
+      129,
+      184,
+      994,
+      1167
+    ],
+    "nativeSize": [
+      40,
+      45
+    ],
+    "reduction": "Fresh uniform reduction from full master; no tiny asset scaling"
+  },
+  "rack": {
+    "master": "source/industrial-rack-generated-master.png",
+    "alphaCrop": [
+      75,
+      549,
+      721,
+      1572
+    ],
+    "nativeSize": [
+      48,
+      76
+    ],
+    "reduction": "One uniform aspect-preserving Lanczos reduction"
+  }
+}

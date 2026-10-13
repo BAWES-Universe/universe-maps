@@ -1,0 +1,515 @@
+{
+  "id": "N24",
+  "title": "Basalt Geology Field Camp",
+  "concept": "Outdoor volcanic specimen camp with paired shelter desks, rock-comparison stations and glacial-river lookout",
+  "world": [
+    1536,
+    1024
+  ],
+  "spawn": [
+    1488,
+    975
+  ],
+  "walkPolygons": [
+    [
+      [
+        181,
+        320
+      ],
+      [
+        379,
+        320
+      ],
+      [
+        379,
+        383
+      ],
+      [
+        181,
+        383
+      ]
+    ],
+    [
+      [
+        144,
+        487
+      ],
+      [
+        371,
+        487
+      ],
+      [
+        371,
+        546
+      ],
+      [
+        144,
+        546
+      ]
+    ],
+    [
+      [
+        368,
+        382
+      ],
+      [
+        751,
+        394
+      ],
+      [
+        770,
+        330
+      ],
+      [
+        850,
+        330
+      ],
+      [
+        898,
+        366
+      ],
+      [
+        989,
+        345
+      ],
+      [
+        1120,
+        303
+      ],
+      [
+        1137,
+        373
+      ],
+      [
+        1137,
+        407
+      ],
+      [
+        1227,
+        493
+      ],
+      [
+        1230,
+        549
+      ],
+      [
+        1138,
+        526
+      ],
+      [
+        945,
+        559
+      ],
+      [
+        826,
+        589
+      ],
+      [
+        615,
+        593
+      ],
+      [
+        368,
+        550
+      ],
+      [
+        143,
+        550
+      ],
+      [
+        141,
+        495
+      ],
+      [
+        371,
+        485
+      ],
+      [
+        371,
+        426
+      ],
+      [
+        170,
+        426
+      ],
+      [
+        173,
+        381
+      ]
+    ],
+    [
+      [
+        1084,
+        314
+      ],
+      [
+        1152,
+        255
+      ],
+      [
+        1166,
+        208
+      ],
+      [
+        1139,
+        166
+      ],
+      [
+        1140,
+        105
+      ],
+      [
+        1249,
+        89
+      ],
+      [
+        1300,
+        126
+      ],
+      [
+        1255,
+        174
+      ],
+      [
+        1223,
+        274
+      ],
+      [
+        1172,
+        326
+      ],
+      [
+        1142,
+        379
+      ],
+      [
+        1084,
+        379
+      ]
+    ],
+    [
+      [
+        1168,
+        470
+      ],
+      [
+        1250,
+        516
+      ],
+      [
+        1295,
+        682
+      ],
+      [
+        1280,
+        727
+      ],
+      [
+        1354,
+        795
+      ],
+      [
+        1426,
+        877
+      ],
+      [
+        1535,
+        950
+      ],
+      [
+        1535,
+        1023
+      ],
+      [
+        1408,
+        1023
+      ],
+      [
+        1373,
+        980
+      ],
+      [
+        1326,
+        912
+      ],
+      [
+        1264,
+        853
+      ],
+      [
+        1162,
+        815
+      ],
+      [
+        1105,
+        761
+      ],
+      [
+        1114,
+        729
+      ],
+      [
+        1194,
+        704
+      ],
+      [
+        1208,
+        638
+      ],
+      [
+        1205,
+        555
+      ]
+    ]
+  ],
+  "solidRects": [
+    [
+      219,
+      257,
+      344,
+      319
+    ],
+    [
+      208,
+      423,
+      321,
+      486
+    ],
+    [
+      563,
+      428,
+      696,
+      513
+    ],
+    [
+      782,
+      426,
+      938,
+      517
+    ],
+    [
+      414,
+      510,
+      468,
+      566
+    ],
+    [
+      477,
+      544,
+      539,
+      590
+    ],
+    [
+      544,
+      549,
+      596,
+      610
+    ],
+    [
+      431,
+      446,
+      468,
+      500
+    ],
+    [
+      729,
+      333,
+      789,
+      385
+    ],
+    [
+      666,
+      351,
+      722,
+      397
+    ],
+    [
+      527,
+      355,
+      581,
+      393
+    ],
+    [
+      924,
+      289,
+      978,
+      342
+    ],
+    [
+      981,
+      266,
+      1049,
+      326
+    ],
+    [
+      1259,
+      715,
+      1345,
+      771
+    ],
+    [
+      1380,
+      893,
+      1426,
+      939
+    ]
+  ],
+  "seats": [
+    {
+      "name": "North sample drafting A",
+      "anchor": [
+        264,
+        335
+      ],
+      "direction": "north"
+    },
+    {
+      "name": "North sample drafting B",
+      "anchor": [
+        312,
+        335
+      ],
+      "direction": "north"
+    },
+    {
+      "name": "South sample drafting A",
+      "anchor": [
+        248,
+        495
+      ],
+      "direction": "north"
+    },
+    {
+      "name": "South sample drafting B",
+      "anchor": [
+        296,
+        495
+      ],
+      "direction": "north"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Basalt comparison",
+      "anchor": [
+        632,
+        527
+      ]
+    },
+    {
+      "name": "Mineral comparison",
+      "anchor": [
+        872,
+        527
+      ]
+    },
+    {
+      "name": "Glacial lookout",
+      "anchor": [
+        1176,
+        143
+      ]
+    },
+    {
+      "name": "Camp central approach",
+      "anchor": [
+        1008,
+        431
+      ]
+    },
+    {
+      "name": "Southern trail bend",
+      "anchor": [
+        1240,
+        719
+      ]
+    }
+  ],
+  "foregroundRects": [],
+  "chairAsset": "field-chair-master.png",
+  "chairNative": false,
+  "blockedCells": [
+    [
+      7,
+      11
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      7,
+      16
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      9,
+      16
+    ]
+  ],
+  "openCells": [
+    [
+      7,
+      10
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      7,
+      15
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      9,
+      15
+    ]
+  ],
+  "zones": [
+    {
+      "name": "Sheltered specimen study",
+      "rect": [
+        176,
+        320,
+        208,
+        208
+      ]
+    },
+    {
+      "name": "Open rock comparison",
+      "rect": [
+        544,
+        416,
+        432,
+        144
+      ]
+    }
+  ],
+  "nonNavigableContext": "Basalt escarpments, boulders, sleeping/supply tents, glacier water, sample plinths and storage crates are solid scenic fixtures. Shelter desk approaches, main camp plateau, lookout and broad arrival trail are traversable.",
+  "lessons": [
+    "N23 showed that natural broad circulation can avoid destructive access revisions. N24 keeps a single-plane working plateau and broad field trail inside visibly cliff-bounded terrain.",
+    "Generated a distinct khaki canvas folding-chair asset for outdoor research; desk pairs and actual rear-footprint tiles are authored separately rather than importing indoor seating offsets.",
+    "Independent QA found that a rectangular table-front foreground candidate also retained gravel between its legs. r2 removes both table-front rectangles; only the true generated chair-rail alpha belongs above avatars in this open-air camp.",
+    "Independent QA found small visible boulders could disappear from collision under area-threshold rasterization. r3 explicitly protects their occupied native tiles, including lookout rocks and arrival-trail stone; small props require dedicated cell checks.",
+    "The conservative r3 rock-cell repair overblocked the clear overlook. r4 removes those three small rocks and one arrival-trail stone through a targeted art edit, preserving the cliff rim and reopening the matching clear floor rather than hiding unreachable pockets."
+  ]
+}

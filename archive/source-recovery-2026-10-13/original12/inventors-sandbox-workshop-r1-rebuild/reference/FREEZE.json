@@ -1,0 +1,163 @@
+{
+  "title": "Inventor\u2019s Sandbox Workshop",
+  "slug": "inventors-sandbox-workshop",
+  "release": "inventors-sandbox-workshop-r1",
+  "native32": true,
+  "status": "Immutable local candidate; not published",
+  "runtime": "map32/map.tmj",
+  "companion": "map32/map.wam",
+  "overview": "review/overview.png",
+  "occupiedNative": "review/occupied-native.png",
+  "checks": [
+    "VALIDATION.json",
+    "NATIVE-ROUTES.json",
+    "HEAD-GEOMETRY.json"
+  ],
+  "nativeRoutes": 576,
+  "bodySamples": 1143350,
+  "headConflicts": 0,
+  "livePlaytest": false,
+  "integrationsVerified": false,
+  "files": [
+    {
+      "path": "ASSET-PROVENANCE.md",
+      "bytes": 4156,
+      "sha256": "0ec03298f05c0d95b4159ea34a330d535cbc93e31659338b1b088f1180f38479"
+    },
+    {
+      "path": "GENERATION-PROMPTS.md",
+      "bytes": 2894,
+      "sha256": "4a483a5a6110edb6cf7ef8c11e9e15b42bbe37a9300d528b92c10f7fc1125b92"
+    },
+    {
+      "path": "GUIDE.md",
+      "bytes": 2912,
+      "sha256": "a5cbafbdc6fc2fa08ec56152517170c1b09160b21f74345d79d234583154b938"
+    },
+    {
+      "path": "HARNESS-RETURN-FIX.diff",
+      "bytes": 5164,
+      "sha256": "84838636f54fb3b9fc86c22b45951aa9cd3dae8b7a0627febe243e4392de9255"
+    },
+    {
+      "path": "HEAD-GEOMETRY.json",
+      "bytes": 5802,
+      "sha256": "3a4755c06280655570f6d176b80fb73cc12d181683fbb3b8942444aedd06c8a6"
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 4979,
+      "sha256": "5ae08a661eee1b0f3067fd7402744fb1624c247f784d460510ccb4f5ab931f4d"
+    },
+    {
+      "path": "NATIVE-FIXTURE-HASHES.json",
+      "bytes": 479,
+      "sha256": "7280e19517a5b988547f4583560a60d56b89e536ee812808a22074d7ecab4839"
+    },
+    {
+      "path": "NATIVE-ROUTES.json",
+      "bytes": 282549,
+      "sha256": "8820d9d361b1650dbfadae826c58b037e5f3f2c53ec55d1a4005710b96182a2d"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 961,
+      "sha256": "782032c81529f327e4a2b6b872694979f817084548a0b25892c3c99727e8437b"
+    },
+    {
+      "path": "assets/above.png",
+      "bytes": 146444,
+      "sha256": "8bb66d21464960b8b7951d367034e7aabeaec513b036bcda12efe9f4edd80789"
+    },
+    {
+      "path": "assets/base.png",
+      "bytes": 3004392,
+      "sha256": "b61ba8a4c059029fbf57d361c869bbdb6674426c23c333043b98aa4bfa6ab6f8"
+    },
+    {
+      "path": "map32/architecture-and-furniture-0.png",
+      "bytes": 1988551,
+      "sha256": "4a9a6d54c6290d9283b7285b9aae974f9fac8ef816e8c28134c14d9ac1e1dfbd"
+    },
+    {
+      "path": "map32/architecture-and-furniture-1.png",
+      "bytes": 1028571,
+      "sha256": "90545dbb7a0419a72ff6896d83c51e21ee619af67e4dd95776e846f0baef08b4"
+    },
+    {
+      "path": "map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "map32/map.tmj",
+      "bytes": 78410,
+      "sha256": "5fe1c08b80853180e6c5541cfa9860d7216fe913a62834483270978a35ad92d6"
+    },
+    {
+      "path": "map32/map.wam",
+      "bytes": 1587,
+      "sha256": "09829060c25bba12edfea4d1ce1c29ab7a8e6ccabc1c2a4a32d8c3f7f6ab0612"
+    },
+    {
+      "path": "map32/seat-backs-0.png",
+      "bytes": 136002,
+      "sha256": "d29649c3db3acc3515bcd7d8ed25be334d247536d44ecea4ce0b1dd7607351bf"
+    },
+    {
+      "path": "review/collaboration-occupied-native.png",
+      "bytes": 208309,
+      "sha256": "46a0b2a34a65bb0241f06f3ea9ec0af2c6804cf5a18d4a57798bc9b5062f5393"
+    },
+    {
+      "path": "review/collision-overlay.png",
+      "bytes": 2826279,
+      "sha256": "96c728c2f0e1cea54ce8c58fe9c9b258184af14c390fdc453fd59e01139c78be"
+    },
+    {
+      "path": "review/creation-pads-occupied-native.png",
+      "bytes": 688218,
+      "sha256": "b5d23a2e99195d098f374cb9cfabac6edd726e2d919adf869c7adb0774e62681"
+    },
+    {
+      "path": "review/empty-native.png",
+      "bytes": 3003488,
+      "sha256": "32cb82c0186d78e99d2305784d99be2013eb90dd5cc0c9d7cbbcf5a382338f89"
+    },
+    {
+      "path": "review/idea-board-occupied-native.png",
+      "bytes": 130645,
+      "sha256": "a18d79c84bac3a93b7b9dc6abbda9eaa0827cdd45d5016bb262ca0a68bc1bdd9"
+    },
+    {
+      "path": "review/occupied-native.png",
+      "bytes": 3005155,
+      "sha256": "90b3abe22cb410f4f235bd57dc4f86c1c37b67dc1fc2f4528279922ce6ba6545"
+    },
+    {
+      "path": "review/overview.png",
+      "bytes": 2674984,
+      "sha256": "ff8f4dd1e4e90b63540236bafe622a61577c0809c0a89568325b961d84018ebd"
+    },
+    {
+      "path": "review/toolbenches-occupied-native.png",
+      "bytes": 339541,
+      "sha256": "ce8d423643bb89db5b22e19557209a5d0ac3269ba9e66b7c176846ff3ec5a99d"
+    },
+    {
+      "path": "source/foreground-safety.json",
+      "bytes": 224,
+      "sha256": "a075d2af8346624c02ed7c72cb58ed1f8e6ba238db42e0932acb219f8d723e1a"
+    },
+    {
+      "path": "source/interaction-contract.json",
+      "bytes": 955,
+      "sha256": "3c92053eb27a31120e20e8d70b057bdf5f286d487eb4144b2fb9d32159a3511e"
+    },
+    {
+      "path": "source/layout.json",
+      "bytes": 17986,
+      "sha256": "c4350ad7b866fa0d3d0ed54585c48ece4184a2a3a553567a1be244c021911e95"
+    }
+  ]
+}

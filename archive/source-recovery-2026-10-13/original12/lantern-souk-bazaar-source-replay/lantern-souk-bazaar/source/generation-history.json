@@ -1,0 +1,20 @@
+{
+  "method": "Built-in image generation; original task-specific prompts, no paid external API or copied reference art",
+  "tea": {
+    "master": "tea-garden-clear-landing-master.png",
+    "revision": "Wide bridge with unobstructed landing, removed pinch piers and conservative full-fixture blockers; gazebo standing conversation."
+  },
+  "bazaar": {
+    "master": "bazaar-environment-clear-entry-master.png",
+    "revision": "Visible seller doors; removed aisle posts and fountain/arrival palm crowns; continuous clear arrival paving; full turrets and social rug raised planters protected."
+  },
+  "media": {
+    "master": "media-environment-clean-seats-master.png",
+    "revision": "Visible open room doorways, baked stools removed, native contemporary seating with head-safe above-floor split."
+  },
+  "portal": {
+    "master": "portal-environment-garden-boundaries-master.png",
+    "revision": "Five destination spokes and lower loop plus two inner garden overlooks; rear boundary paths replaced with continuous planted scenery. Raised beds and arch supports have conservative full-footprint collision."
+  },
+  "runtime": "All generation outputs are implemented as pixel-exact native32 atlas artwork with separate permanent collision, spawn-only silence, authored anchors and setup-only areas. No animation or service functionality claimed."
+}

@@ -1,0 +1,123 @@
+{
+  "title": "Timber & Stone Design Studio",
+  "slug": "timber-design-studio",
+  "native32": true,
+  "status": "Frozen local review candidate, not published",
+  "runtime": "map32/map.tmj",
+  "companion": "map32/map.wam",
+  "overview": "review/overview.png",
+  "occupiedNative": "review/occupied-native.png",
+  "checks": [
+    "VALIDATION.json",
+    "NATIVE-ROUTES.json"
+  ],
+  "livePlaytest": false,
+  "integrationsVerified": false,
+  "files": [
+    {
+      "path": "GUIDE.md",
+      "bytes": 1835,
+      "sha256": "6945eb59c053963fdc11be28d9883bfdc1691c54dff069d9128c3f186f419403"
+    },
+    {
+      "path": "HEAD-GEOMETRY.json",
+      "bytes": 5276,
+      "sha256": "eb2fe6b57ef62a417d84edee0fa133dd14026883010eac1411a2dcda6b40f4a3"
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 3156,
+      "sha256": "13c923d71648553c5bf7904b5db4c23cd96402c2bc5992f11126a2d0c41d9561"
+    },
+    {
+      "path": "NATIVE-ROUTES.json",
+      "bytes": 294920,
+      "sha256": "7ff1bb722b74540fa3651d9ebd30c8ef9baa43b3ba070b96fa4180e2ef1b2d6e"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 961,
+      "sha256": "0e59e0cf90d6bd49ac599b234e9cb090b144f278c1311f60ca7a4b731723c257"
+    },
+    {
+      "path": "assets/above.png",
+      "bytes": 79825,
+      "sha256": "533a3a4f74d07aa479aeb22a937fa8128c85b55b0376c6f32567547bc5e72480"
+    },
+    {
+      "path": "assets/base.png",
+      "bytes": 3025335,
+      "sha256": "6b89b6c99259569085fdb743f5bf12563accec6b81a32d2146d6884d0696efee"
+    },
+    {
+      "path": "map32/architecture-and-furniture-0.png",
+      "bytes": 1948084,
+      "sha256": "4667139a977353b234ce0d0607d319106046c1d1bbf5b228cd2c42de45fd675d"
+    },
+    {
+      "path": "map32/architecture-and-furniture-1.png",
+      "bytes": 1100184,
+      "sha256": "d7555c9e15572c06bc7581aa4796ee7bffa45b68f82bfcfc642abf1f75ca106e"
+    },
+    {
+      "path": "map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "map32/map.tmj",
+      "bytes": 78445,
+      "sha256": "d71fb9cf39633b079b1f2cc0a0c5a2bb5315436236006f15fb711d28aaf40b00"
+    },
+    {
+      "path": "map32/map.wam",
+      "bytes": 1157,
+      "sha256": "94b8be72bf76b0def7d082a09ac2d2fffd6cd4508959ecb908a1a0de193aa074"
+    },
+    {
+      "path": "map32/seat-backs-0.png",
+      "bytes": 67220,
+      "sha256": "e0706eaa2965e18ad17212317078f793e89ac9e8f9ff026de70743c77e4969e8"
+    },
+    {
+      "path": "review/collision-overlay.png",
+      "bytes": 2773662,
+      "sha256": "2a618bbe13cbf85157eaeea6fb9cb1f2575a6e77bcf18152e79de69c9b389a0e"
+    },
+    {
+      "path": "review/desk-east-occupied-native.png",
+      "bytes": 159479,
+      "sha256": "966652fa0d7390855da7e1a44f81d051f3e9718c5e8c3ddab92172b5a06a8a02"
+    },
+    {
+      "path": "review/desk-west-occupied-native.png",
+      "bytes": 162069,
+      "sha256": "2c9af3a686f2baaebb9efcd2ca6c77b5a1f2a2c08ccd6dae75e3b4593cd468fd"
+    },
+    {
+      "path": "review/empty-native.png",
+      "bytes": 3024261,
+      "sha256": "e15ff3f806a7f0b270dca00d73423e5dd08aad38d3daa337f7f2c806991b3d18"
+    },
+    {
+      "path": "review/meeting-occupied-native.png",
+      "bytes": 421137,
+      "sha256": "4123ad1789e9b926a27e0bfc4cafc0030863ee40a75abf88a29742bc790cdcd0"
+    },
+    {
+      "path": "review/occupied-native.png",
+      "bytes": 3027665,
+      "sha256": "316db7fe845c3f403f52abf3d8f8765fae3aaed7a6ab60fd4de38a7887248154"
+    },
+    {
+      "path": "review/overview.png",
+      "bytes": 2683163,
+      "sha256": "163e5bad4262d55e053ef155a2e27994667b920b1498ff7f76ea6be0abf54b82"
+    },
+    {
+      "path": "source/layout.json",
+      "bytes": 17965,
+      "sha256": "ca82d6a8d055c6ba5a3ec712c283cd4ed3eb26c51019bc768eae90e31f196ea5"
+    }
+  ]
+}

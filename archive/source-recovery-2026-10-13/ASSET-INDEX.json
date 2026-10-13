@@ -1,0 +1,1166 @@
+{
+  "schema_version": 1,
+  "storage_model": "Small authoring text in Git; exact asset and bulk evidence bytes in authenticated Library artifacts. No public URLs or credentials.",
+  "packages": [
+    {
+      "package_id": "N01-r3-runtime",
+      "manifest": "asset-manifests/N01-r3-runtime.json",
+      "destination": "old50/runtime/N01-r3",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N02-r4-runtime",
+      "manifest": "asset-manifests/N02-r4-runtime.json",
+      "destination": "old50/runtime/N02-r4",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N03-r3-runtime",
+      "manifest": "asset-manifests/N03-r3-runtime.json",
+      "destination": "old50/runtime/N03-r3",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N04-r3-runtime",
+      "manifest": "asset-manifests/N04-r3-runtime.json",
+      "destination": "old50/runtime/N04-r3",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N05-r3-runtime",
+      "manifest": "asset-manifests/N05-r3-runtime.json",
+      "destination": "old50/runtime/N05-r3",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N06-r2-runtime",
+      "manifest": "asset-manifests/N06-r2-runtime.json",
+      "destination": "old50/runtime/N06-r2",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N07-r3-runtime",
+      "manifest": "asset-manifests/N07-r3-runtime.json",
+      "destination": "old50/runtime/N07-r3",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N08-r3-runtime",
+      "manifest": "asset-manifests/N08-r3-runtime.json",
+      "destination": "old50/runtime/N08-r3",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N09-r2-runtime",
+      "manifest": "asset-manifests/N09-r2-runtime.json",
+      "destination": "old50/runtime/N09-r2",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N10-r4-runtime",
+      "manifest": "asset-manifests/N10-r4-runtime.json",
+      "destination": "old50/runtime/N10-r4",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N11-r2-runtime",
+      "manifest": "asset-manifests/N11-r2-runtime.json",
+      "destination": "old50/runtime/N11-r2",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N12-r3-runtime",
+      "manifest": "asset-manifests/N12-r3-runtime.json",
+      "destination": "old50/runtime/N12-r3",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N13-r3-runtime",
+      "manifest": "asset-manifests/N13-r3-runtime.json",
+      "destination": "old50/runtime/N13-r3",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N14-r2-runtime",
+      "manifest": "asset-manifests/N14-r2-runtime.json",
+      "destination": "old50/runtime/N14-r2",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N15-r3-runtime",
+      "manifest": "asset-manifests/N15-r3-runtime.json",
+      "destination": "old50/runtime/N15-r3",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N16-r2-runtime",
+      "manifest": "asset-manifests/N16-r2-runtime.json",
+      "destination": "old50/runtime/N16-r2",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N17-r3-runtime",
+      "manifest": "asset-manifests/N17-r3-runtime.json",
+      "destination": "old50/runtime/N17-r3",
+      "files": 6,
+      "git_files": 1,
+      "library_files": 5,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N18-r3-runtime",
+      "manifest": "asset-manifests/N18-r3-runtime.json",
+      "destination": "old50/runtime/N18-r3",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N19-r3-runtime",
+      "manifest": "asset-manifests/N19-r3-runtime.json",
+      "destination": "old50/runtime/N19-r3",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N20-r3-runtime",
+      "manifest": "asset-manifests/N20-r3-runtime.json",
+      "destination": "old50/runtime/N20-r3",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N21-r2-runtime",
+      "manifest": "asset-manifests/N21-r2-runtime.json",
+      "destination": "old50/runtime/N21-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N22-r1-runtime",
+      "manifest": "asset-manifests/N22-r1-runtime.json",
+      "destination": "old50/runtime/N22-r1",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N23-r2-runtime",
+      "manifest": "asset-manifests/N23-r2-runtime.json",
+      "destination": "old50/runtime/N23-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N24-r4-runtime",
+      "manifest": "asset-manifests/N24-r4-runtime.json",
+      "destination": "old50/runtime/N24-r4",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N25-r1-runtime",
+      "manifest": "asset-manifests/N25-r1-runtime.json",
+      "destination": "old50/runtime/N25-r1",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N26-r1-runtime",
+      "manifest": "asset-manifests/N26-r1-runtime.json",
+      "destination": "old50/runtime/N26-r1",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N27-r3-runtime",
+      "manifest": "asset-manifests/N27-r3-runtime.json",
+      "destination": "old50/runtime/N27-r3",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N28-r2-runtime",
+      "manifest": "asset-manifests/N28-r2-runtime.json",
+      "destination": "old50/runtime/N28-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N29-r2-runtime",
+      "manifest": "asset-manifests/N29-r2-runtime.json",
+      "destination": "old50/runtime/N29-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N30-r2-runtime",
+      "manifest": "asset-manifests/N30-r2-runtime.json",
+      "destination": "old50/runtime/N30-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N31-r2-runtime",
+      "manifest": "asset-manifests/N31-r2-runtime.json",
+      "destination": "old50/runtime/N31-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N32-r2-runtime",
+      "manifest": "asset-manifests/N32-r2-runtime.json",
+      "destination": "old50/runtime/N32-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N33-r1-runtime",
+      "manifest": "asset-manifests/N33-r1-runtime.json",
+      "destination": "old50/runtime/N33-r1",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N34-r2-runtime",
+      "manifest": "asset-manifests/N34-r2-runtime.json",
+      "destination": "old50/runtime/N34-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N35-r3-runtime",
+      "manifest": "asset-manifests/N35-r3-runtime.json",
+      "destination": "old50/runtime/N35-r3",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+      "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5"
+    },
+    {
+      "package_id": "N36-r4-runtime",
+      "manifest": "asset-manifests/N36-r4-runtime.json",
+      "destination": "old50/runtime/N36-r4",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N37-r2-runtime",
+      "manifest": "asset-manifests/N37-r2-runtime.json",
+      "destination": "old50/runtime/N37-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N38-r2-runtime",
+      "manifest": "asset-manifests/N38-r2-runtime.json",
+      "destination": "old50/runtime/N38-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N39-r3-runtime",
+      "manifest": "asset-manifests/N39-r3-runtime.json",
+      "destination": "old50/runtime/N39-r3",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N40-r3-runtime",
+      "manifest": "asset-manifests/N40-r3-runtime.json",
+      "destination": "old50/runtime/N40-r3",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N41-r3-runtime",
+      "manifest": "asset-manifests/N41-r3-runtime.json",
+      "destination": "old50/runtime/N41-r3",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N42-r4-runtime",
+      "manifest": "asset-manifests/N42-r4-runtime.json",
+      "destination": "old50/runtime/N42-r4",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N43-r1-runtime",
+      "manifest": "asset-manifests/N43-r1-runtime.json",
+      "destination": "old50/runtime/N43-r1",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N44-r1-runtime",
+      "manifest": "asset-manifests/N44-r1-runtime.json",
+      "destination": "old50/runtime/N44-r1",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N45-r2-runtime",
+      "manifest": "asset-manifests/N45-r2-runtime.json",
+      "destination": "old50/runtime/N45-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N46-r2-runtime",
+      "manifest": "asset-manifests/N46-r2-runtime.json",
+      "destination": "old50/runtime/N46-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N47-r3-runtime",
+      "manifest": "asset-manifests/N47-r3-runtime.json",
+      "destination": "old50/runtime/N47-r3",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N48-r1-runtime",
+      "manifest": "asset-manifests/N48-r1-runtime.json",
+      "destination": "old50/runtime/N48-r1",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N49-r2-runtime",
+      "manifest": "asset-manifests/N49-r2-runtime.json",
+      "destination": "old50/runtime/N49-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N50-r2-runtime",
+      "manifest": "asset-manifests/N50-r2-runtime.json",
+      "destination": "old50/runtime/N50-r2",
+      "files": 6,
+      "git_files": 0,
+      "library_files": 6,
+      "library_file_id": "libfile_b439320580648191904a851cdb537312",
+      "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e"
+    },
+    {
+      "package_id": "N01-r3-source",
+      "manifest": "asset-manifests/N01-r3-source.json",
+      "destination": "old50/source/N01-r3",
+      "files": 55,
+      "git_files": 28,
+      "library_files": 27,
+      "library_file_id": "libfile_ec3825113eec8191b5cd503475294b13",
+      "artifact_sha256": "ef284a4823bb83ea474d070b189b457b4a113651bcda1beb9bdfc2f1463c0931"
+    },
+    {
+      "package_id": "N02-r4-source",
+      "manifest": "asset-manifests/N02-r4-source.json",
+      "destination": "old50/source/N02-r4",
+      "files": 57,
+      "git_files": 28,
+      "library_files": 29,
+      "library_file_id": "libfile_ec3825113eec8191b5cd503475294b13",
+      "artifact_sha256": "ef284a4823bb83ea474d070b189b457b4a113651bcda1beb9bdfc2f1463c0931"
+    },
+    {
+      "package_id": "N03-r3-source",
+      "manifest": "asset-manifests/N03-r3-source.json",
+      "destination": "old50/source/N03-r3",
+      "files": 57,
+      "git_files": 28,
+      "library_files": 29,
+      "library_file_id": "libfile_ec3825113eec8191b5cd503475294b13",
+      "artifact_sha256": "ef284a4823bb83ea474d070b189b457b4a113651bcda1beb9bdfc2f1463c0931"
+    },
+    {
+      "package_id": "N04-r3-source",
+      "manifest": "asset-manifests/N04-r3-source.json",
+      "destination": "old50/source/N04-r3",
+      "files": 56,
+      "git_files": 28,
+      "library_files": 28,
+      "library_file_id": "libfile_ec3825113eec8191b5cd503475294b13",
+      "artifact_sha256": "ef284a4823bb83ea474d070b189b457b4a113651bcda1beb9bdfc2f1463c0931"
+    },
+    {
+      "package_id": "N05-r3-source",
+      "manifest": "asset-manifests/N05-r3-source.json",
+      "destination": "old50/source/N05-r3",
+      "files": 56,
+      "git_files": 27,
+      "library_files": 29,
+      "library_file_id": "libfile_ee4c70e4a3bc8191890a2346f8249349",
+      "artifact_sha256": "30a9ec7c765b8a8e9cbb3f1ceba70f4ab99dcff3ca2533b40c19b9bc351ebacd"
+    },
+    {
+      "package_id": "N06-r2-source",
+      "manifest": "asset-manifests/N06-r2-source.json",
+      "destination": "old50/source/N06-r2",
+      "files": 54,
+      "git_files": 27,
+      "library_files": 27,
+      "library_file_id": "libfile_ee4c70e4a3bc8191890a2346f8249349",
+      "artifact_sha256": "30a9ec7c765b8a8e9cbb3f1ceba70f4ab99dcff3ca2533b40c19b9bc351ebacd"
+    },
+    {
+      "package_id": "N07-r3-source",
+      "manifest": "asset-manifests/N07-r3-source.json",
+      "destination": "old50/source/N07-r3",
+      "files": 55,
+      "git_files": 27,
+      "library_files": 28,
+      "library_file_id": "libfile_ee4c70e4a3bc8191890a2346f8249349",
+      "artifact_sha256": "30a9ec7c765b8a8e9cbb3f1ceba70f4ab99dcff3ca2533b40c19b9bc351ebacd"
+    },
+    {
+      "package_id": "N08-r3-source",
+      "manifest": "asset-manifests/N08-r3-source.json",
+      "destination": "old50/source/N08-r3",
+      "files": 57,
+      "git_files": 27,
+      "library_files": 30,
+      "library_file_id": "libfile_ee4c70e4a3bc8191890a2346f8249349",
+      "artifact_sha256": "30a9ec7c765b8a8e9cbb3f1ceba70f4ab99dcff3ca2533b40c19b9bc351ebacd"
+    },
+    {
+      "package_id": "N09-r2-source",
+      "manifest": "asset-manifests/N09-r2-source.json",
+      "destination": "old50/source/N09-r2",
+      "files": 54,
+      "git_files": 27,
+      "library_files": 27,
+      "library_file_id": "libfile_569ee69b6ee88191b798c423dcffa32e",
+      "artifact_sha256": "bbbc6be7925c4c2a6050830e6dac387d375e315be20b97da576b522154d274af"
+    },
+    {
+      "package_id": "N10-r4-source",
+      "manifest": "asset-manifests/N10-r4-source.json",
+      "destination": "old50/source/N10-r4",
+      "files": 55,
+      "git_files": 27,
+      "library_files": 28,
+      "library_file_id": "libfile_569ee69b6ee88191b798c423dcffa32e",
+      "artifact_sha256": "bbbc6be7925c4c2a6050830e6dac387d375e315be20b97da576b522154d274af"
+    },
+    {
+      "package_id": "N11-r2-source",
+      "manifest": "asset-manifests/N11-r2-source.json",
+      "destination": "old50/source/N11-r2",
+      "files": 55,
+      "git_files": 26,
+      "library_files": 29,
+      "library_file_id": "libfile_569ee69b6ee88191b798c423dcffa32e",
+      "artifact_sha256": "bbbc6be7925c4c2a6050830e6dac387d375e315be20b97da576b522154d274af"
+    },
+    {
+      "package_id": "N12-r3-source",
+      "manifest": "asset-manifests/N12-r3-source.json",
+      "destination": "old50/source/N12-r3",
+      "files": 52,
+      "git_files": 27,
+      "library_files": 25,
+      "library_file_id": "libfile_569ee69b6ee88191b798c423dcffa32e",
+      "artifact_sha256": "bbbc6be7925c4c2a6050830e6dac387d375e315be20b97da576b522154d274af"
+    },
+    {
+      "package_id": "N13-r3-source",
+      "manifest": "asset-manifests/N13-r3-source.json",
+      "destination": "old50/source/N13-r3",
+      "files": 52,
+      "git_files": 27,
+      "library_files": 25,
+      "library_file_id": "libfile_99b375841c7c8191a0bcbd5db8ecfbcb",
+      "artifact_sha256": "2ce95f64ef969fde28132f8858faad4804b2264a5a42e78ece9e8ee7af3f96b9"
+    },
+    {
+      "package_id": "N14-r2-source",
+      "manifest": "asset-manifests/N14-r2-source.json",
+      "destination": "old50/source/N14-r2",
+      "files": 54,
+      "git_files": 27,
+      "library_files": 27,
+      "library_file_id": "libfile_99b375841c7c8191a0bcbd5db8ecfbcb",
+      "artifact_sha256": "2ce95f64ef969fde28132f8858faad4804b2264a5a42e78ece9e8ee7af3f96b9"
+    },
+    {
+      "package_id": "N15-r3-source",
+      "manifest": "asset-manifests/N15-r3-source.json",
+      "destination": "old50/source/N15-r3",
+      "files": 51,
+      "git_files": 26,
+      "library_files": 25,
+      "library_file_id": "libfile_99b375841c7c8191a0bcbd5db8ecfbcb",
+      "artifact_sha256": "2ce95f64ef969fde28132f8858faad4804b2264a5a42e78ece9e8ee7af3f96b9"
+    },
+    {
+      "package_id": "N16-r2-source",
+      "manifest": "asset-manifests/N16-r2-source.json",
+      "destination": "old50/source/N16-r2",
+      "files": 51,
+      "git_files": 26,
+      "library_files": 25,
+      "library_file_id": "libfile_99b375841c7c8191a0bcbd5db8ecfbcb",
+      "artifact_sha256": "2ce95f64ef969fde28132f8858faad4804b2264a5a42e78ece9e8ee7af3f96b9"
+    },
+    {
+      "package_id": "N17-r3-source",
+      "manifest": "asset-manifests/N17-r3-source.json",
+      "destination": "old50/source/N17-r3",
+      "files": 51,
+      "git_files": 26,
+      "library_files": 25,
+      "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+      "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+    },
+    {
+      "package_id": "N18-r3-source",
+      "manifest": "asset-manifests/N18-r3-source.json",
+      "destination": "old50/source/N18-r3",
+      "files": 33,
+      "git_files": 19,
+      "library_files": 14,
+      "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+      "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+    },
+    {
+      "package_id": "N19-r3-source",
+      "manifest": "asset-manifests/N19-r3-source.json",
+      "destination": "old50/source/N19-r3",
+      "files": 36,
+      "git_files": 19,
+      "library_files": 17,
+      "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+      "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+    },
+    {
+      "package_id": "N20-r3-source",
+      "manifest": "asset-manifests/N20-r3-source.json",
+      "destination": "old50/source/N20-r3",
+      "files": 35,
+      "git_files": 20,
+      "library_files": 15,
+      "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+      "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+    },
+    {
+      "package_id": "N21-r2-source",
+      "manifest": "asset-manifests/N21-r2-source.json",
+      "destination": "old50/source/N21-r2",
+      "files": 37,
+      "git_files": 20,
+      "library_files": 17,
+      "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+      "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+    },
+    {
+      "package_id": "N22-r1-source",
+      "manifest": "asset-manifests/N22-r1-source.json",
+      "destination": "old50/source/N22-r1",
+      "files": 36,
+      "git_files": 20,
+      "library_files": 16,
+      "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+      "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+    },
+    {
+      "package_id": "N23-r2-source",
+      "manifest": "asset-manifests/N23-r2-source.json",
+      "destination": "old50/source/N23-r2",
+      "files": 38,
+      "git_files": 20,
+      "library_files": 18,
+      "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+      "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+    },
+    {
+      "package_id": "N24-r4-source",
+      "manifest": "asset-manifests/N24-r4-source.json",
+      "destination": "old50/source/N24-r4",
+      "files": 37,
+      "git_files": 20,
+      "library_files": 17,
+      "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+      "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+    },
+    {
+      "package_id": "N25-r1-source",
+      "manifest": "asset-manifests/N25-r1-source.json",
+      "destination": "old50/source/N25-r1",
+      "files": 37,
+      "git_files": 20,
+      "library_files": 17,
+      "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+      "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+    },
+    {
+      "package_id": "N26-r1-source",
+      "manifest": "asset-manifests/N26-r1-source.json",
+      "destination": "old50/source/N26-r1",
+      "files": 37,
+      "git_files": 20,
+      "library_files": 17,
+      "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+      "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+    },
+    {
+      "package_id": "N27-r3-source",
+      "manifest": "asset-manifests/N27-r3-source.json",
+      "destination": "old50/source/N27-r3",
+      "files": 37,
+      "git_files": 20,
+      "library_files": 17,
+      "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+      "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+    },
+    {
+      "package_id": "N28-r2-source",
+      "manifest": "asset-manifests/N28-r2-source.json",
+      "destination": "old50/source/N28-r2",
+      "files": 37,
+      "git_files": 20,
+      "library_files": 17,
+      "library_file_id": "libfile_75d846f052b48191a64f363ebf3ada76",
+      "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067"
+    },
+    {
+      "package_id": "N29-r2-source",
+      "manifest": "asset-manifests/N29-r2-source.json",
+      "destination": "old50/source/N29-r2",
+      "files": 37,
+      "git_files": 20,
+      "library_files": 17,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N30-r2-source",
+      "manifest": "asset-manifests/N30-r2-source.json",
+      "destination": "old50/source/N30-r2",
+      "files": 37,
+      "git_files": 20,
+      "library_files": 17,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N31-r2-source",
+      "manifest": "asset-manifests/N31-r2-source.json",
+      "destination": "old50/source/N31-r2",
+      "files": 37,
+      "git_files": 20,
+      "library_files": 17,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N32-r2-source",
+      "manifest": "asset-manifests/N32-r2-source.json",
+      "destination": "old50/source/N32-r2",
+      "files": 37,
+      "git_files": 20,
+      "library_files": 17,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N33-r1-source",
+      "manifest": "asset-manifests/N33-r1-source.json",
+      "destination": "old50/source/N33-r1",
+      "files": 39,
+      "git_files": 20,
+      "library_files": 19,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N34-r2-source",
+      "manifest": "asset-manifests/N34-r2-source.json",
+      "destination": "old50/source/N34-r2",
+      "files": 39,
+      "git_files": 20,
+      "library_files": 19,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N35-r3-source",
+      "manifest": "asset-manifests/N35-r3-source.json",
+      "destination": "old50/source/N35-r3",
+      "files": 26,
+      "git_files": 23,
+      "library_files": 3,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N36-r4-source",
+      "manifest": "asset-manifests/N36-r4-source.json",
+      "destination": "old50/source/N36-r4",
+      "files": 47,
+      "git_files": 38,
+      "library_files": 9,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N37-r2-source",
+      "manifest": "asset-manifests/N37-r2-source.json",
+      "destination": "old50/source/N37-r2",
+      "files": 26,
+      "git_files": 23,
+      "library_files": 3,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N38-r2-source",
+      "manifest": "asset-manifests/N38-r2-source.json",
+      "destination": "old50/source/N38-r2",
+      "files": 26,
+      "git_files": 23,
+      "library_files": 3,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N39-r3-source",
+      "manifest": "asset-manifests/N39-r3-source.json",
+      "destination": "old50/source/N39-r3",
+      "files": 47,
+      "git_files": 38,
+      "library_files": 9,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N40-r3-source",
+      "manifest": "asset-manifests/N40-r3-source.json",
+      "destination": "old50/source/N40-r3",
+      "files": 47,
+      "git_files": 38,
+      "library_files": 9,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N41-r3-source",
+      "manifest": "asset-manifests/N41-r3-source.json",
+      "destination": "old50/source/N41-r3",
+      "files": 47,
+      "git_files": 38,
+      "library_files": 9,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N42-r4-source",
+      "manifest": "asset-manifests/N42-r4-source.json",
+      "destination": "old50/source/N42-r4",
+      "files": 49,
+      "git_files": 40,
+      "library_files": 9,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N43-r1-source",
+      "manifest": "asset-manifests/N43-r1-source.json",
+      "destination": "old50/source/N43-r1",
+      "files": 49,
+      "git_files": 40,
+      "library_files": 9,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N44-r1-source",
+      "manifest": "asset-manifests/N44-r1-source.json",
+      "destination": "old50/source/N44-r1",
+      "files": 49,
+      "git_files": 40,
+      "library_files": 9,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N45-r2-source",
+      "manifest": "asset-manifests/N45-r2-source.json",
+      "destination": "old50/source/N45-r2",
+      "files": 51,
+      "git_files": 41,
+      "library_files": 10,
+      "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+      "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a"
+    },
+    {
+      "package_id": "N46-r2-source",
+      "manifest": "asset-manifests/N46-r2-source.json",
+      "destination": "old50/source/N46-r2",
+      "files": 51,
+      "git_files": 41,
+      "library_files": 10,
+      "library_file_id": "libfile_cd5388058a5881918d3c282bf474e1bc",
+      "artifact_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73"
+    },
+    {
+      "package_id": "N47-r3-source",
+      "manifest": "asset-manifests/N47-r3-source.json",
+      "destination": "old50/source/N47-r3",
+      "files": 55,
+      "git_files": 42,
+      "library_files": 13,
+      "library_file_id": "libfile_cd5388058a5881918d3c282bf474e1bc",
+      "artifact_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73"
+    },
+    {
+      "package_id": "N48-r1-source",
+      "manifest": "asset-manifests/N48-r1-source.json",
+      "destination": "old50/source/N48-r1",
+      "files": 49,
+      "git_files": 40,
+      "library_files": 9,
+      "library_file_id": "libfile_cd5388058a5881918d3c282bf474e1bc",
+      "artifact_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73"
+    },
+    {
+      "package_id": "N49-r2-source",
+      "manifest": "asset-manifests/N49-r2-source.json",
+      "destination": "old50/source/N49-r2",
+      "files": 53,
+      "git_files": 41,
+      "library_files": 12,
+      "library_file_id": "libfile_cd5388058a5881918d3c282bf474e1bc",
+      "artifact_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73"
+    },
+    {
+      "package_id": "N50-r2-source",
+      "manifest": "asset-manifests/N50-r2-source.json",
+      "destination": "old50/source/N50-r2",
+      "files": 55,
+      "git_files": 42,
+      "library_files": 13,
+      "library_file_id": "libfile_cd5388058a5881918d3c282bf474e1bc",
+      "artifact_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73"
+    },
+    {
+      "package_id": "olive-arabic-academy-r2-rebuild",
+      "manifest": "asset-manifests/olive-arabic-academy-r2-rebuild.json",
+      "destination": "original12/olive-arabic-academy-r2-rebuild",
+      "files": 41,
+      "git_files": 18,
+      "library_files": 23,
+      "library_file_id": "libfile_ead4c59a50b0819199fb74ce949482e2",
+      "artifact_sha256": "c49d67130052dd1076f3296e7a748a98675f0ab2f2c15200fb5f2608db9e34d8"
+    },
+    {
+      "package_id": "timber-design-studio-r1-rebuild",
+      "manifest": "asset-manifests/timber-design-studio-r1-rebuild.json",
+      "destination": "original12/timber-design-studio-r1-rebuild",
+      "files": 41,
+      "git_files": 18,
+      "library_files": 23,
+      "library_file_id": "libfile_c5ecc4d06cbc8191b968feda113fa4b4",
+      "artifact_sha256": "369c2584867e56a1c5797852a189fb8ca65bbd7fd47416cf48b19aea670c1198"
+    },
+    {
+      "package_id": "quiet-orbit-observatory-r1-rebuild",
+      "manifest": "asset-manifests/quiet-orbit-observatory-r1-rebuild.json",
+      "destination": "original12/quiet-orbit-observatory-r1-rebuild",
+      "files": 41,
+      "git_files": 18,
+      "library_files": 23,
+      "library_file_id": "libfile_2a3d072d33708191aa49c0bcd23ba6d7",
+      "artifact_sha256": "6d44b980b45ed10e180586317c054f09359196ee60b413f384a4e236870b0be9"
+    },
+    {
+      "package_id": "mission-control-center-r1-rebuild",
+      "manifest": "asset-manifests/mission-control-center-r1-rebuild.json",
+      "destination": "original12/mission-control-center-r1-rebuild",
+      "files": 45,
+      "git_files": 21,
+      "library_files": 24,
+      "library_file_id": "libfile_17e189ca99c88191afcc28ee567bfbd2",
+      "artifact_sha256": "48ec81a28910dc31858dde16f2811c6e912530fd8ef70a7780e1b9552d184ccd"
+    },
+    {
+      "package_id": "lantern-souk-bazaar-source-replay",
+      "manifest": "asset-manifests/lantern-souk-bazaar-source-replay.json",
+      "destination": "original12/lantern-souk-bazaar-source-replay",
+      "files": 55,
+      "git_files": 27,
+      "library_files": 28,
+      "library_file_id": "libfile_214143d2e6948191a11f11395d07a7a1",
+      "artifact_sha256": "4db6ac2b8a2fc1f2dc6ee42e779605e599b507f80b8ffa45072256b889b53899"
+    },
+    {
+      "package_id": "willow-quay-tea-garden-source-replay",
+      "manifest": "asset-manifests/willow-quay-tea-garden-source-replay.json",
+      "destination": "original12/willow-quay-tea-garden-source-replay",
+      "files": 55,
+      "git_files": 27,
+      "library_files": 28,
+      "library_file_id": "libfile_cc9d88bfb09c819199f0e8df265d999d",
+      "artifact_sha256": "6ad5ae9602bec260c0b1894b49f0dcbe0005e081acfb5593e5aeeac57023b276"
+    },
+    {
+      "package_id": "celestial-transit-garden-source-replay",
+      "manifest": "asset-manifests/celestial-transit-garden-source-replay.json",
+      "destination": "original12/celestial-transit-garden-source-replay",
+      "files": 54,
+      "git_files": 27,
+      "library_files": 27,
+      "library_file_id": "libfile_6b6036e250c88191b1b1d1103fe1ee90",
+      "artifact_sha256": "e7381ba13582a912c0223c8492fa3173fcd4bdf5a406127060fb5c5f743f551b"
+    },
+    {
+      "package_id": "resonance-media-house-source-replay",
+      "manifest": "asset-manifests/resonance-media-house-source-replay.json",
+      "destination": "original12/resonance-media-house-source-replay",
+      "files": 63,
+      "git_files": 29,
+      "library_files": 34,
+      "library_file_id": "libfile_380e87e8a3788191b9727044993e0543",
+      "artifact_sha256": "a689397b08a6a5f82e3faa252dae670ccbb91b8fe6f325dd34062ce64cc276f2"
+    },
+    {
+      "package_id": "esports-arena-01-source-complete",
+      "manifest": "asset-manifests/esports-arena-01-source-complete.json",
+      "destination": "original12/esports-arena-01-source-complete",
+      "files": 133,
+      "git_files": 30,
+      "library_files": 103,
+      "library_file_id": "libfile_c1c0c6b1c28481919fd103e75d1b806a",
+      "artifact_sha256": "98e8ae70f78de61808734d17a610ba0c5d2ff97b25fd88764b0b4c9e62ae1c56"
+    },
+    {
+      "package_id": "lantern-congress-source-complete",
+      "manifest": "asset-manifests/lantern-congress-source-complete.json",
+      "destination": "original12/lantern-congress-source-complete",
+      "files": 127,
+      "git_files": 37,
+      "library_files": 90,
+      "library_file_id": "libfile_9a1c2ef40c148191b06cbb24f7089825",
+      "artifact_sha256": "2b6b474813d8e3ac2190ff5824ebe4b858e1ef8ed47efb101952fde2cafb151d"
+    },
+    {
+      "package_id": "inventors-sandbox-workshop-r1-rebuild",
+      "manifest": "asset-manifests/inventors-sandbox-workshop-r1-rebuild.json",
+      "destination": "original12/inventors-sandbox-workshop-r1-rebuild",
+      "files": 37,
+      "git_files": 19,
+      "library_files": 18,
+      "library_file_id": "libfile_9f9f484bf4b4819196bf274d8ec7192c",
+      "artifact_sha256": "b73108ed9f90657777640b982e88a88e5f08b8bfb272e8f713aec5cdb8218ac5"
+    },
+    {
+      "package_id": "art-deco-sales-atelier-r1-rebuild",
+      "manifest": "asset-manifests/art-deco-sales-atelier-r1-rebuild.json",
+      "destination": "original12/art-deco-sales-atelier-r1-rebuild",
+      "files": 37,
+      "git_files": 19,
+      "library_files": 18,
+      "library_file_id": "libfile_400b946af2388191818741fb0cd92f98",
+      "artifact_sha256": "e65e7abb4f9cc877534d81cb68c72ed61de6ad1b6b5b861aa2504663138ca012"
+    },
+    {
+      "package_id": "lighthouse-last-signal-r2-source",
+      "manifest": "asset-manifests/lighthouse-last-signal-r2-source.json",
+      "destination": "baselines/lighthouse-last-signal-r2-source",
+      "files": 47,
+      "git_files": 14,
+      "library_files": 33,
+      "library_file_id": "libfile_f40cfa6e75c081918995cfe72eada6c4",
+      "artifact_sha256": "10f5c7267eaca4be6214d4cca6e4ea09cbda52c6270e4a4bdb3b3e5066bf51cf"
+    },
+    {
+      "package_id": "lighthouse-last-signal-r2-runtime",
+      "manifest": "asset-manifests/lighthouse-last-signal-r2-runtime.json",
+      "destination": "baselines/lighthouse-last-signal-r2-runtime",
+      "files": 10,
+      "git_files": 1,
+      "library_files": 9,
+      "library_file_id": "libfile_f40cfa6e75c081918995cfe72eada6c4",
+      "artifact_sha256": "10f5c7267eaca4be6214d4cca6e4ea09cbda52c6270e4a4bdb3b3e5066bf51cf"
+    },
+    {
+      "package_id": "lighthouse-keepers-return-r2-runtime",
+      "manifest": "asset-manifests/lighthouse-keepers-return-r2-runtime.json",
+      "destination": "baselines/lighthouse-keepers-return-r2-runtime",
+      "files": 19,
+      "git_files": 1,
+      "library_files": 18,
+      "library_file_id": "libfile_05a64ebd22288191b9116a05b38ac49b",
+      "artifact_sha256": "a3a98d718a06d6477800be10aa9c17554ae7c719074be2fb7efd5a36faee6774"
+    },
+    {
+      "package_id": "Rendering-Investigation",
+      "manifest": "asset-manifests/Rendering-Investigation.json",
+      "destination": "rendering-investigation",
+      "files": 50,
+      "git_files": 23,
+      "library_files": 27,
+      "library_file_id": "libfile_9d5b832cfa2481918ac133db5bc17b09",
+      "artifact_sha256": "090ce53d1f3aa931c1f759c445adf862b69016a0f7fe85b6bcc0028144d3c526"
+    }
+  ]
+}

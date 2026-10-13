@@ -1,0 +1,107 @@
+{
+  "slug": "quiet-orbit-observatory",
+  "title": "Quiet Orbit Observatory",
+  "category": "Knowledge",
+  "validation": "VALIDATION.json",
+  "overview": "review/overview.png",
+  "runtime": "map32/map.tmj",
+  "companion": "map32/map.wam",
+  "nativeCrop": [
+    "review/research-occupied-native.png",
+    "review/seminar-occupied-native.png",
+    "review/telescope-occupied-native.png"
+  ],
+  "status": "Local candidate, not published",
+  "files": [
+    {
+      "path": "GUIDE.md",
+      "sha256": "53e943553d996dec976587a4a7c44991d81a22224e3ba9aab792d5d6a90d5f65",
+      "bytes": 1454
+    },
+    {
+      "path": "MANIFEST.json",
+      "sha256": "c5bd8394c52d91dcad022726f5b2bc6a0fc93491ca63602a1c23ce1b2b935025",
+      "bytes": 3304
+    },
+    {
+      "path": "VALIDATION.json",
+      "sha256": "addab1338f40685387136013b7f601a33e4decb2b6d90fdec36e7f92b8b62e96",
+      "bytes": 964
+    },
+    {
+      "path": "assets/above.png",
+      "sha256": "7cbbc866e42bf253e5cefafb058fc03a06ea28f72d1065380944447124189e79",
+      "bytes": 64539
+    },
+    {
+      "path": "assets/base.png",
+      "sha256": "d22b9456c37fd4ebb8d9ec47861c7fa46c96ea8f289adc3555083d9d66f562bd",
+      "bytes": 3031154
+    },
+    {
+      "path": "map32/architecture-and-furniture-0.png",
+      "sha256": "b0facf25c3428c4d6c40a24e2ec51ec996b77072db6d90ae7938218b4a79f5be",
+      "bytes": 1999066
+    },
+    {
+      "path": "map32/architecture-and-furniture-1.png",
+      "sha256": "a37da6645462544341894f6bd299db8c83dde7f3d52741e18795957ef425bea2",
+      "bytes": 1042548
+    },
+    {
+      "path": "map32/logic.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "bytes": 83
+    },
+    {
+      "path": "map32/map.tmj",
+      "sha256": "b37a1b274115d959d5d513798ab6e1bfbc50d493b714db7c3835f93b17977fa1",
+      "bytes": 79063
+    },
+    {
+      "path": "map32/map.wam",
+      "sha256": "3f8a40ff8362e0a93471e2e5d7f027e58aabb89f21562cc60dded2e53410c49e",
+      "bytes": 929
+    },
+    {
+      "path": "map32/seat-backs-0.png",
+      "sha256": "58e071109efc199fb9206b4c46193b88ec7ecdef5a0b08cb8673dc32b8cc0c6f",
+      "bytes": 52084
+    },
+    {
+      "path": "review/empty-native.png",
+      "sha256": "9255851ade62aaad56851934c0d592c01fb11075547abdcfd444869f1c417ec8",
+      "bytes": 3029559
+    },
+    {
+      "path": "review/occupied-native.png",
+      "sha256": "59c3b0a48398f6aca70abed0d64be139805a3daaac4752e739440b816bcbb65b",
+      "bytes": 3031835
+    },
+    {
+      "path": "review/overview.png",
+      "sha256": "c20cd6f411ae881a5b0261d4500af0d94b5d772ba9c4f7437c93e4fd9c7c38c6",
+      "bytes": 2690736
+    },
+    {
+      "path": "review/research-occupied-native.png",
+      "sha256": "1ea39c01781057c82a8731b052217f06e55b5c4f21727bd1e972953134a2ac51",
+      "bytes": 200546
+    },
+    {
+      "path": "review/seminar-occupied-native.png",
+      "sha256": "61b3ffa1e6ea0741e95fa3e1d351d437ff3ebf88eb2c7eff370bd08c56bab361",
+      "bytes": 223850
+    },
+    {
+      "path": "review/telescope-occupied-native.png",
+      "sha256": "7e446a993ccde70f8112fd99f498e85d5ff2781ea091eaa2b87a4d39ada1bee6",
+      "bytes": 541709
+    },
+    {
+      "path": "source/layout.json",
+      "sha256": "6161c479276f05d035cc4ec24a6a30852bcb0cf5377dc0f2840dad0db65427b6",
+      "bytes": 18306
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "title": "Resonance Media House",
+  "slug": "resonance-media-house",
+  "category": "Sandbox / media creation",
+  "style": "Walnut studio workshop, preview salon and acoustic recording spaces",
+  "nativeTileSize": 32,
+  "world": [
+    1536,
+    1024
+  ],
+  "visualSeats": 9,
+  "anchorCount": 18,
+  "runtime": [
+    {
+      "path": "map32/foreground-0.png",
+      "bytes": 2761,
+      "sha256": "ab333c9b9bc7f2d3201fdc955b806af334a18467bba645dd3d2e6e158c2e74d2"
+    },
+    {
+      "path": "map32/ground-and-objects-0.png",
+      "bytes": 1607760,
+      "sha256": "d31b28dd0364fc7e6d9a2c0a067afaaf729d2dfe2d9abd3a15a00da827b027be"
+    },
+    {
+      "path": "map32/ground-and-objects-1.png",
+      "bytes": 807100,
+      "sha256": "7ec91a076a1a6d700a8633bd3d3e25a41a6d147d09a640417f2344088a08f687"
+    },
+    {
+      "path": "map32/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "map32/resonance-media-house.tmj",
+      "bytes": 81651,
+      "sha256": "0ba82ac10f58d4ea3c9e73fceaab73b11b9d0d4a6565ee951002bbe46d5f8f35"
+    },
+    {
+      "path": "map32/resonance-media-house.wam",
+      "bytes": 1279,
+      "sha256": "73adf0712ac7dcd400f7b23a85c75c3deaeecfeadf1f969bec83ce260586d644"
+    }
+  ],
+  "geometry": {
+    "scope": "Static native32 geometry: exhaustive integer body positions, union of all 12 Greg upper-head masks, cardinal tile connectivity. Not live gameplay or engine route replay.",
+    "walkableCells": 474,
+    "reachableCells": 474,
+    "unreachableCells": 0,
+    "safeBodyPlacements": 410901,
+    "headConflicts": 0,
+    "anchorCount": 18,
+    "badAnchors": [],
+    "quietCells": 1,
+    "allPass": true,
+    "anchors": [
+      {
+        "id": "editor-1",
+        "x": 272,
+        "y": 207,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "editor-2",
+        "x": 528,
+        "y": 207,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "editor-3",
+        "x": 752,
+        "y": 207,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "preview-west-left",
+        "x": 240,
+        "y": 655,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "preview-west-right",
+        "x": 296,
+        "y": 655,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "preview-east-left",
+        "x": 432,
+        "y": 655,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "preview-east-right",
+        "x": 488,
+        "y": 655,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "music-listening-left",
+        "x": 1200,
+        "y": 655,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "music-listening-right",
+        "x": 1256,
+        "y": 655,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "recording-mic",
+        "x": 1232,
+        "y": 239,
+        "direction": "west",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "music-keyboard-1",
+        "x": 1088,
+        "y": 559,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "music-keyboard-2",
+        "x": 1312,
+        "y": 559,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "studio-host",
+        "x": 768,
+        "y": 559,
+        "direction": "south",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "preview-door",
+        "x": 608,
+        "y": 559,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "music-door",
+        "x": 912,
+        "y": 559,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "recording-door",
+        "x": 912,
+        "y": 271,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "lobby",
+        "x": 768,
+        "y": 815,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "spawn",
+        "x": 784,
+        "y": 975,
+        "direction": "north",
+        "kind": "spawn",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": true
+      }
+    ]
+  },
+  "nativeRoutes": {
+    "scope": "Unchanged source-extracted native PathfindingManager, Player movement, GameScene/pointer methods from 60e7afdc3f96ef32525597cd46bd41175d61a2ef, real EasyStar0.4.4. Adapter executes desktop/touch pointers, both-way spawn routes, four destination-tile edges all ordered anchor pairs, and every admitted floor cell center plus return. Native60Hz movement sampled every<=0.5px. Not live browser, Phaser renderer, keyboard physics, devices, networking or service integration.",
+    "nativeCollisionMatchesTMJ": true,
+    "legs": 1398,
+    "samples": 2464309,
+    "frames": 345764,
+    "mapChanges": 0,
+    "failures": 0,
+    "allPass": true,
+    "failedRows": []
+  },
+  "revision": "r03-systematic-fixture-pass",
+  "status": {
+    "independentReview": "pending",
+    "compiled": true,
+    "staticValidated": true,
+    "nativeRouteReplay": true,
+    "livePlaytest": false,
+    "published": false,
+    "animated": false,
+    "externalServicesConfigured": false
+  },
+  "preview": "review/occupied-native.png",
+  "runtimeZip": "resonance-media-house-runtime.zip",
+  "sourceZip": "resonance-media-house-source-replay.zip"
+}

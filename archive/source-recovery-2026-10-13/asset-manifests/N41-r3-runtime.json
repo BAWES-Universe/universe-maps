@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N41-r3-runtime",
+  "destination": "old50/runtime/N41-r3",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N41-r3-runtime.zip",
+      "sha256": "fe068f7194726bb2c74a08637070dcf08b46b40659d10762a53db893d57460fd",
+      "size_bytes": 4013435
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "foreground-0.png",
+      "sha256": "7da91ec63f0e2b974857f936e939b23f7efeb2ff0911bc22ee51bfb539fad6f3",
+      "size_bytes": 16873,
+      "git_blob_sha1": "8c5e4a698f38685bbedeb5127fe9b2eb919f83e7",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "e34577f219556e1f77b057ad65ff0acd53727866002f1acf06a3343222c854f3",
+      "size_bytes": 2660566,
+      "git_blob_sha1": "73fd56edfa5abffc6b8d5923f6a7046cf950d6e0",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "f08356158a15e1dfd386d2e6bb7a78f8f82cb6c544039515ba3b9fe357432dd5",
+      "size_bytes": 1328283,
+      "git_blob_sha1": "78631724cb15c077b3ac194ed1c9ec18a87b7b06",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "moonlit-ruin-courtyard.tmj",
+      "sha256": "933915f23172c9bebcf4f962e32e32e356ea974edd4202d1b849cb7ef9d9d168",
+      "size_bytes": 79850,
+      "git_blob_sha1": "1a1d2385295df0fcb916cc4353dc547bafe947c9",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "moonlit-ruin-courtyard.wam",
+      "sha256": "ec9d1921c036771ec4e550962d5cac2994cdb20f8fdb5f8608b165a6e53d94ce",
+      "size_bytes": 330,
+      "git_blob_sha1": "5f3a48d89c90076d74933befe84bfed2fe41ed34",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    }
+  ]
+}

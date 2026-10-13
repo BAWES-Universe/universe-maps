@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "package_id": "N37-r2-source",
+  "destination": "old50/source/N37-r2",
+  "artifact": {
+    "name": "overnight-50-source-06-of-07.zip",
+    "library_file_id": "libfile_06cc2d73368081919708c589974adfc9",
+    "version_id": null,
+    "sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+    "size_bytes": 93865043
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N37-r2-source.zip",
+      "sha256": "6862ce4cfd1a2bf9c397af10155f5efa39a613b6185a8f59a5e091f0e39d2643",
+      "size_bytes": 3984106
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "de3750774b952912810d127c24c2b57063eaffac7b33b02db6fc17b1c79310c5",
+      "size_bytes": 841,
+      "git_blob_sha1": "2d953b59d68b2be0cbf741083d6e87e6f89e5340",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "art/mountain-cable-station-village.png",
+      "sha256": "36d1a24ffe94689567f64cb992204156306ef147c70a92c60558ae5cdee58814",
+      "size_bytes": 3923963,
+      "git_blob_sha1": "a34b429d5ba37d4fafc48c353295fd4c7f5570fc",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source/greg-reference.png",
+      "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+      "size_bytes": 9396,
+      "git_blob_sha1": "26c5fb73b09082ba3f8453d9766e672e2432155b",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/proof-inputs/native32-actors-overlay.png",
+      "sha256": "e99c6e5507d1013519898aa14ed362a964f38bae9181f945892c8bb7f1e96a42",
+      "size_bytes": 12278,
+      "git_blob_sha1": "bd992302cc3ffc4216387aae208f4499e876cda6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/proof-inputs/native32-actors-provenance.json",
+      "sha256": "771bc96d130fe32dde52b1ab9f8608d130ae9104cdde777d8950a26a3d36439d",
+      "size_bytes": 3072,
+      "git_blob_sha1": "32f7436b3842d6a2c82b5d8c31616465bfb56a8a",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "specs/mountain-cable-station-village.json",
+      "sha256": "cf0a6d75c3951f9831e79990a56f89401782ce54c140d6a0ab85043a0d17ab3d",
+      "size_bytes": 6409,
+      "git_blob_sha1": "6ff33be1f03fb4aa27a43639a02c5cd06778e321",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/build_one.py",
+      "sha256": "c55f17ab7b11da854da9b59becb40df0b6bbc2fd0bd6fcf3320bd0ebac383ea7",
+      "size_bytes": 3392,
+      "git_blob_sha1": "ae7495f9ee1206af6ca8e58c33092fdbdf352efe",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/compiler.py",
+      "sha256": "c329ab2a94bb96d5ec151fe77c9d60de32be59d82b472f9c895fe3562832e2ff",
+      "size_bytes": 15440,
+      "git_blob_sha1": "11bcd67bb4888d50d5517f9f413e9c22ea400afb",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/arrival-audit.cjs",
+      "sha256": "3bbb38b336ac449e98cb190d9468405e81ae8c2e953a176827ad16b0ee56c232",
+      "size_bytes": 5487,
+      "git_blob_sha1": "d55eb69006faf5580456eba3da9a2e1a7e28a4ae",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/easystar-0.4.4.js",
+      "sha256": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+      "size_bytes": 25143,
+      "git_blob_sha1": "91c1011123b2eafdb0d3de614120ad6a9d9c5279",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/extracted-current-source.cjs",
+      "sha256": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+      "size_bytes": 31744,
+      "git_blob_sha1": "4df97863541382687271aa3dc753ae57438f1cc1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/native-runtime-portable.cjs",
+      "sha256": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+      "size_bytes": 2190,
+      "git_blob_sha1": "7c2d9ca60b15caa8e5495862eb9186d1a4dd6fb1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/route-audit.cjs",
+      "sha256": "995d45f73d2840cf9a1a6f8256532bb1b0fd22564b8218fe9b2c0b7c1851f7ef",
+      "size_bytes": 5447,
+      "git_blob_sha1": "0d0ce787ab56eb350b36c077704842589ffb0a15",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/StartPositionCalculator.ts",
+      "sha256": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+      "size_bytes": 12453,
+      "git_blob_sha1": "c73f03c6e9242007acf839b0deb120f7664e2e7c",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/libs/math-utils/src/MathUtils.ts",
+      "sha256": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+      "size_bytes": 2002,
+      "git_blob_sha1": "fbf112735b3710294efd50fcb06a5006db5c3a6a",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/CameraManager.ts",
+      "sha256": "c6bea29bffe270221ec35435ea1181df5d670edeac0dbb3b1918db0da8553b80",
+      "size_bytes": 47978,
+      "git_blob_sha1": "cc79b8b6af93778aba3051b7f1b187897d449e7b",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "sha256": "f011429f25599b348640a57894b28560f3755da1a72b97cdfdbffd9ae2d3cdfc",
+      "size_bytes": 53557,
+      "git_blob_sha1": "93ab4bd2df2e8a5e8f2ca748bb351b3e0e0a4436",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/GameScene.ts",
+      "sha256": "7c901514db24890c3750631d8e32124643e87de41750fb90e4a2d7f54ac1c146",
+      "size_bytes": 200530,
+      "git_blob_sha1": "4451b827cb48f9baeea4daa06cc62a6c419ff864",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Player/Player.ts",
+      "sha256": "47c30fe3c2d16f52da3b499599de57b2240e75be4d91b2c816aae1179e8bc3d9",
+      "size_bytes": 15312,
+      "git_blob_sha1": "3b1eee86204b1d5993ad1e7784cdf6961c9416f0",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Services/HdpiManager.ts",
+      "sha256": "6e25f9e127d3b712edf8ab7e87b1f11f82f8b4681772ccfe1d20c868e3f4d3fc",
+      "size_bytes": 5693,
+      "git_blob_sha1": "a87b8fba27dc5dcbd0b018f1e504448d704f5293",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Services/WaScaleManager.ts",
+      "sha256": "d811cf48d3fa8561a37a6689bcc0e639f5ceb1837fb3d762b326e104dde77a27",
+      "size_bytes": 8256,
+      "git_blob_sha1": "2005fd7b22a57983d8e92820a7914e1b86b2017f",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts",
+      "sha256": "d4bdce55f82caa5e94e372fa2ca57eb2a241f0ed0e78609d4dedb975b665a89a",
+      "size_bytes": 13849,
+      "git_blob_sha1": "a50370cc0927de73cff75dd5d46e72543d8fa935",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Utils/PathfindingManager.ts",
+      "sha256": "b6d055091ec000f2e47b3e1def2f7ee7c42aae96ff3301c36a8b26b9c1b0c715",
+      "size_bytes": 12672,
+      "git_blob_sha1": "5b74fe6971bf14674f5c66b17b8ac1508eaee942",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source-method-manifest.json",
+      "sha256": "86c7dff4e686ea1c12f638626042618a6b35c96bb8a4b0c7c54e0becc119d665",
+      "size_bytes": 5842,
+      "git_blob_sha1": "9c67df6e15e4e0cc5592a86346ce27f94991c5b9",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/spawn-audit.cjs",
+      "sha256": "4b2a848abee58ac3e3527fe12a8cd8e4cf2875994b0da1cd7b7bf985a16a9a68",
+      "size_bytes": 3001,
+      "git_blob_sha1": "9b0e1922475a494476d3cc33f8586a86883c1142",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/package_one.py",
+      "sha256": "ff6825dd85aeb60bd142ddb41c16f25febc3fa8bbb865fad5b8e5e405fcd35fa",
+      "size_bytes": 4215,
+      "git_blob_sha1": "836a4f357ed1007dc903b3bb17dfad18dbc35b1e",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    }
+  ]
+}

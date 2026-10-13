@@ -1,0 +1,243 @@
+{
+  "dimensions": [
+    48,
+    32,
+    32
+  ],
+  "source_reconstruction": {
+    "assets/base.png": true,
+    "assets/above.png": true
+  },
+  "random_spawns": [
+    {
+      "name": "start",
+      "xRange": [
+        784,
+        784
+      ],
+      "yRange": [
+        944,
+        944
+      ],
+      "samples": 1,
+      "bad": [],
+      "badCount": 0
+    }
+  ],
+  "walkable_cells": 596,
+  "unreachable_cells": 0,
+  "quiet_cells": 1,
+  "anchors": [
+    {
+      "id": "Meeting A approach",
+      "x": 432,
+      "y": 687,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Meeting B approach",
+      "x": 1264,
+      "y": 687,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "west studio entry",
+      "x": 624,
+      "y": 335,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "east studio entry",
+      "x": 944,
+      "y": 335,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "materials gallery",
+      "x": 784,
+      "y": 207,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "central hall",
+      "x": 784,
+      "y": 655,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "arrival",
+      "x": 784,
+      "y": 943,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": true
+    },
+    {
+      "id": "desk-1",
+      "x": 240,
+      "y": 271,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "desk-2",
+      "x": 496,
+      "y": 271,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "desk-3",
+      "x": 240,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "desk-4",
+      "x": 496,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "desk-5",
+      "x": 1008,
+      "y": 271,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "desk-6",
+      "x": 1264,
+      "y": 271,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "desk-7",
+      "x": 1008,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "desk-8",
+      "x": 1264,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-09",
+      "x": 336,
+      "y": 687,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-10",
+      "x": 368,
+      "y": 687,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-11",
+      "x": 1168,
+      "y": 687,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-12",
+      "x": 1200,
+      "y": 687,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    }
+  ],
+  "body_clear_positions": 529649,
+  "head_conflicts": 0,
+  "head_conflict_examples": [],
+  "media_areas": [
+    {
+      "id": "timber-design-studio-0",
+      "name": "Meeting A",
+      "x": 224,
+      "y": 576,
+      "width": 287,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-design-studio-0-room",
+          "type": "livekitRoomProperty",
+          "roomName": "timber-design-studio-0",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ],
+      "reachable_membership_positions": 43262
+    },
+    {
+      "id": "timber-design-studio-1",
+      "name": "Meeting B",
+      "x": 1056,
+      "y": 576,
+      "width": 287,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-design-studio-1-room",
+          "type": "livekitRoomProperty",
+          "roomName": "timber-design-studio-1",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ],
+      "reachable_membership_positions": 43262
+    }
+  ],
+  "issues": [],
+  "scope": "Independent actual-TMJ atlas decode, collision-derived cardinal connectivity and exhaustive integer source body/head geometry; not native route replay, browser, physics keyboard, devices, media or deployment.",
+  "input_hashes": {
+    "map32/architecture-and-furniture-0.png": "4667139a977353b234ce0d0607d319106046c1d1bbf5b228cd2c42de45fd675d",
+    "map32/architecture-and-furniture-1.png": "d7555c9e15572c06bc7581aa4796ee7bffa45b68f82bfcfc642abf1f75ca106e",
+    "map32/logic.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "map32/map.tmj": "d71fb9cf39633b079b1f2cc0a0c5a2bb5315436236006f15fb711d28aaf40b00",
+    "map32/map.wam": "94b8be72bf76b0def7d082a09ac2d2fffd6cd4508959ecb908a1a0de193aa074",
+    "map32/seat-backs-0.png": "e0706eaa2965e18ad17212317078f793e89ac9e8f9ff026de70743c77e4969e8"
+  }
+}

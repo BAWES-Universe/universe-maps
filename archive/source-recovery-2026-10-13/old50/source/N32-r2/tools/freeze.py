@@ -1,0 +1,13 @@
+from pathlib import Path
+import json,hashlib,zipfile,subprocess
+R=Path(__file__).resolve().parents[1];D=json.load(open(R/'source/design.json'));sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+geo=json.load(open(R/'validation/geometry.json'));routes=json.load(open(R/'validation/native-routes.json'));assert not geo['unreachableCells'] and geo['headConflicts']==0 and all(a['bodyClear'] and a['reachable'] for a in geo['anchors']) and routes['allPass'];assert geo.get('semanticRailLost',0)==0
+old={str(p.relative_to(R)):sha(p) for p in (R/'map32').glob('*')};subprocess.run(['python',str(R/'tools/build.py')],check=True,stdout=subprocess.DEVNULL);assert old=={str(p.relative_to(R)):sha(p) for p in (R/'map32').glob('*')}
+(R/'validation/rebuild.json').write_text(json.dumps({'runtimeByteExact':True,'runtimeHashes':old,'scope':'Author rerun; independent clean-room review pending'},indent=2))
+def zipp(out,paths):
+ with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as z:
+  for p in sorted(paths):
+   i=zipfile.ZipInfo(str(p.relative_to(R)));i.date_time=(2026,10,11,0,0,0);i.compress_type=zipfile.ZIP_DEFLATED;z.writestr(i,p.read_bytes())
+zipp(R/'runtime.zip',[p for p in (R/'map32').rglob('*') if p.is_file()]);zipp(R/'source-rebuild.zip',[p for sub in ['source','tools','licenses'] for p in (R/sub).rglob('*') if p.is_file()]+[R/'README.md'])
+ready=dict(id=D['id'],title=D['title'],concept=D['concept'],freeze_root=str(R),status='author-checks-passed; independent-review-pending',independent_review='unverified',live='unverified',publication='unverified',source_rebuild_command='sh tools/rebuild.sh',required_dependencies=['Python3','Pillow','NumPy','ReportLab','Node24','pdftoppm'],runtime={'path':str(R/'runtime.zip'),'sha256':sha(R/'runtime.zip')},source={'path':str(R/'source-rebuild.zip'),'sha256':sha(R/'source-rebuild.zip')},tmj={'path':str(R/'map32/map.tmj'),'sha256':sha(R/'map32/map.tmj')},decoded_art=str(R/'review/decoded-art.png'),occupied_proof=str(R/'review/occupied-native-arrival.png'),review_pdf=str(R/'review/review.pdf'),seat_anchors=json.load(open(R/'source/layout.json'))['seats'],engine_source='tools/native-fixture/extracted-current-source.cjs',engine_revision='60e7afdc3f96ef32525597cd46bd41175d61a2ef',author_check_results=['validation/geometry.json','validation/native-routes.json','NATIVE-SPAWN-CHECKS.json','validation/actor-proof.json','validation/rebuild.json'],known_limits=[D.get('nonNavigableContext','Context beyond the authored floor is nonnavigable scenery.'),'Standing frames only; intended facing needs user input.','WAM zones are unconfigured.','Independent, live, touch and publication unverified.'])
+(R/'READY.json').write_text(json.dumps(ready,indent=2));print('READY',R/'READY.json')

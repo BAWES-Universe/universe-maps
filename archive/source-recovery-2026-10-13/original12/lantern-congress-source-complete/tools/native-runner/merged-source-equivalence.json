@@ -1,0 +1,30 @@
+{
+  "commit": "60e7afdc3f96ef32525597cd46bd41175d61a2ef",
+  "kind": "Merged source, deployment not verified",
+  "files": [
+    {
+      "path": "play/src/front/Phaser/Game/GameScene.ts",
+      "expectedPatchedSha256": "7c901514db24890c3750631d8e32124643e87de41750fb90e4a2d7f54ac1c146",
+      "mergedSourceSha256": "7c901514db24890c3750631d8e32124643e87de41750fb90e4a2d7f54ac1c146",
+      "equal": true
+    },
+    {
+      "path": "play/src/front/Utils/PathfindingManager.ts",
+      "expectedPatchedSha256": "b6d055091ec000f2e47b3e1def2f7ee7c42aae96ff3301c36a8b26b9c1b0c715",
+      "mergedSourceSha256": "b6d055091ec000f2e47b3e1def2f7ee7c42aae96ff3301c36a8b26b9c1b0c715",
+      "equal": true
+    },
+    {
+      "path": "play/src/front/Phaser/Player/Player.ts",
+      "expectedPatchedSha256": "47c30fe3c2d16f52da3b499599de57b2240e75be4d91b2c816aae1179e8bc3d9",
+      "mergedSourceSha256": "47c30fe3c2d16f52da3b499599de57b2240e75be4d91b2c816aae1179e8bc3d9",
+      "equal": true
+    },
+    {
+      "path": "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "expectedPatchedSha256": "f011429f25599b348640a57894b28560f3755da1a72b97cdfdbffd9ae2d3cdfc",
+      "mergedSourceSha256": "f011429f25599b348640a57894b28560f3755da1a72b97cdfdbffd9ae2d3cdfc",
+      "equal": true
+    }
+  ]
+}

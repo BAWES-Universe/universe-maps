@@ -1,0 +1,209 @@
+{
+  "selectedRuntimeStyle": "Contemporary graphite concrete/steel arena with restrained teal/copper accents; no ornate original kit pixels consumed by final builder.",
+  "builtInImagegenOnly": true,
+  "originalNewMasters": [
+    {
+      "id": "floor",
+      "native": "assets/industrial-floor-native.png",
+      "nativeSize": [
+        256,
+        256
+      ],
+      "nativeSHA256": "e755bb9290ce68835679f6194a3b9ab468b3f56050d3f6c2f11d67d55495050d",
+      "master": "source/industrial-floor-generated-master.png",
+      "masterSHA256": "71423386756a3062a68b5b07f8f7beb298ad1d7f7494cb79c62ec146dcb65ee1",
+      "alphaCrop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "method": "Uniform, one Lanczos authoring reduction, aspect preserved."
+    },
+    {
+      "id": "wall",
+      "native": "assets/industrial-wall-native.png",
+      "nativeSize": [
+        256,
+        37
+      ],
+      "nativeSHA256": "a42f2ab4aeafe1c13abcaba587d8b8add934ba6cf0b2ed9474000077d61048a3",
+      "master": "source/industrial-wall-generated-master.png",
+      "masterSHA256": "0e6a03283a70154657d8414eb170fb2771d46e43bafe7ac07b8908d6c6d49cd8",
+      "alphaCrop": [
+        39,
+        254,
+        1949,
+        529
+      ],
+      "method": "Uniform, one Lanczos authoring reduction, aspect preserved."
+    },
+    {
+      "id": "vertical",
+      "native": "assets/industrial-vertical-native.png",
+      "nativeSize": [
+        32,
+        314
+      ],
+      "nativeSHA256": "55d16949b7ebbdc9cd1b32717ae09f7dbd6bd568730b097c2f15c87e27a078f8",
+      "master": "source/industrial-vertical-generated-master.png",
+      "masterSHA256": "8019cb6e7cb40eac3ff963aac3d14d5ba44af7d30c7a0be37788b77491846c8f",
+      "alphaCrop": [
+        439,
+        12,
+        593,
+        1524
+      ],
+      "method": "One uniform aspect-preserving Lanczos reduction"
+    },
+    {
+      "id": "desk",
+      "native": "assets/industrial-desk-native.png",
+      "nativeSize": [
+        192,
+        49
+      ],
+      "nativeSHA256": "2e2ee38cc7ebc402cb7a4fbec528b29f99117e5f4b04656b8d97a01702acc8f9",
+      "master": "source/industrial-desk-generated-master.png",
+      "masterSHA256": "4c822189e2d404720cb4b00837980c6b673275409b2d93d6103c612f64a3fe6b",
+      "alphaCrop": [
+        67,
+        196,
+        1788,
+        638
+      ],
+      "method": "Uniform, one Lanczos authoring reduction, aspect preserved."
+    },
+    {
+      "id": "chair40",
+      "native": "assets/industrial-chair40-native.png",
+      "nativeSize": [
+        40,
+        45
+      ],
+      "nativeSHA256": "8815105ad53384c9a42ddb46a6cf440075a79256d0a20b1aa0369b3edde97037",
+      "master": "source/industrial-chair-generated-master.png",
+      "masterSHA256": "482f896d3b53c9f76a1f4021f7aa04a6797abf2390536bd9fed2724f84270413",
+      "alphaCrop": [
+        129,
+        184,
+        994,
+        1167
+      ],
+      "method": "Fresh uniform reduction from full master; no tiny asset scaling"
+    },
+    {
+      "id": "caster",
+      "native": "assets/industrial-caster-native.png",
+      "nativeSize": [
+        192,
+        41
+      ],
+      "nativeSHA256": "8af3566fd7536f48adeb851e49ea12589df42fb4b1b9e0fd16ccdfe394472842",
+      "master": "source/industrial-caster-generated-master.png",
+      "masterSHA256": "58e2690903697722154ead8f8dcb0558feafef33fd6c3a2da47e0134312c8ea1",
+      "alphaCrop": [
+        65,
+        139,
+        2109,
+        572
+      ],
+      "method": "Uniform one Lanczos authoring reduction; aspect preserved"
+    },
+    {
+      "id": "screen",
+      "native": "assets/industrial-screen-native.png",
+      "nativeSize": [
+        320,
+        79
+      ],
+      "nativeSHA256": "beb5ad35addaed8dd19baef1ef5575c46405b46a59cb30a067511c0fccbc244e",
+      "master": "source/industrial-screen-generated-master.png",
+      "masterSHA256": "e1c5f71aef661f82e428eff5861a558ed1003eb4793ee8f3bee1628a6a0407c7",
+      "alphaCrop": [
+        64,
+        118,
+        2071,
+        613
+      ],
+      "method": "One uniform aspect-preserving Lanczos reduction"
+    },
+    {
+      "id": "counter",
+      "native": "assets/industrial-counter-native.png",
+      "nativeSize": [
+        192,
+        55
+      ],
+      "nativeSHA256": "2a336e17fa6c955e18b1a76542e3183bbb78d80d4088e0a3496ceefe49b6acc6",
+      "master": "source/industrial-counter-generated-master.png",
+      "masterSHA256": "9272f38924de4f5b70ba3e3533281f0d1363dd5c4c9e9dd9cfd6d029645e15f1",
+      "alphaCrop": [
+        71,
+        82,
+        2048,
+        644
+      ],
+      "method": "One uniform aspect-preserving Lanczos reduction"
+    },
+    {
+      "id": "sofa",
+      "native": "assets/industrial-sofa-native.png",
+      "nativeSize": [
+        112,
+        44
+      ],
+      "nativeSHA256": "cfae1caedd8455b5f6e8bb63b1fa2ecc97b88f594d2a65d3ed295a4f5c7a0cf8",
+      "master": "source/industrial-sofa-generated-master.png",
+      "masterSHA256": "68d5f60232f004c4342860d4ec1f28d17419deb1e9a5c2a845d1f5b14d81b641",
+      "alphaCrop": [
+        147,
+        83,
+        1769,
+        726
+      ],
+      "method": "One uniform aspect-preserving Lanczos reduction"
+    },
+    {
+      "id": "rack",
+      "native": "assets/industrial-rack-native.png",
+      "nativeSize": [
+        48,
+        76
+      ],
+      "nativeSHA256": "86d58b56473942afe5e9dd059d7ddd5ac88d9c3ef31ac63c760768125582ee1f",
+      "master": "source/industrial-rack-generated-master.png",
+      "masterSHA256": "e92e9fd12dc7baa7ef9a0de05d6caa262a113398c49812e33958c8c4c7c258b5",
+      "alphaCrop": [
+        75,
+        549,
+        721,
+        1572
+      ],
+      "method": "One uniform aspect-preserving Lanczos reduction"
+    }
+  ],
+  "promptFiles": [
+    "source/industrial-imagegen-prompts.json",
+    "source/industrial-caster-prompt.txt",
+    "source/full-imagegen-prompts.json",
+    "source/industrial-rack-prompt.txt"
+  ],
+  "authorship": "Generated/authored project assets. No upstream-art or CC0 licensing claim.",
+  "qaFixture": {
+    "path": "assets/greg-reference.png",
+    "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+    "description": "Project-authored Greg Gulf-outfit v3, unchanged, QA only, excluded from runtime."
+  },
+  "sourceArtPreparation": "Only native reductions/crops and map composition. No anisotropic stretch, no tiny raster enlargement. Architecture module assembly uses native fragments.",
+  "history": "Initial gold-kit sample and revised industrial sample preserved under review; original rejected sources and copied original project assets are historical review inputs only.",
+  "notPerformed": [
+    "Publishing",
+    "room creation",
+    "media activation",
+    "engine changes",
+    "browser/device acceptance",
+    "live scores or game integration",
+    "paid services"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N42-r4-runtime",
+  "destination": "old50/runtime/N42-r4",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N42-r4-runtime.zip",
+      "sha256": "19e12117d5956424e4b7dc792df102ac116bccabcc33a76d8177d9cc6d43bdb2",
+      "size_bytes": 3722500
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "foreground-0.png",
+      "sha256": "49ca406a43e8fbb6265f823c25bff897f09395eab67a45fac73cd6619ea663ce",
+      "size_bytes": 24534,
+      "git_blob_sha1": "33cf3232e34a73bf7349b8083d936ada49ce868b",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "dd16e0f277f2787efc9fbe2f846f6ef4230fa7411052268d921d985e8a5a5755",
+      "size_bytes": 2466164,
+      "git_blob_sha1": "f4e06ba33dcdbc3c3b83bb0b23c71283952e6034",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "25e24eb5c4fec4e215cbd631f7c40eed3da3af37c7d7b012adb837c679d4dff1",
+      "size_bytes": 1224132,
+      "git_blob_sha1": "f3965dd8dee156d93f99b72af5f2a615cb8c4323",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "sky-village-airship-terminal.tmj",
+      "sha256": "f5250de920da2f87bdda475018e261380558d8dfe619c456ef02104eb7d1da5e",
+      "size_bytes": 79893,
+      "git_blob_sha1": "900f51f3afa1ac83e5a7f4f4e51f5de060254d3c",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "sky-village-airship-terminal.wam",
+      "sha256": "6f5b2e2a53c9d1e4e73a61639d95e36692def97fddc5aaf40adb169bc76226d9",
+      "size_bytes": 342,
+      "git_blob_sha1": "f3bd6bd06d28dc72ffd10e5408e1a77b91d431d2",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    }
+  ]
+}

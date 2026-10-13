@@ -1,0 +1,1829 @@
+{
+  "schema_version": 1,
+  "tested_at_utc": "2026-10-13T09:23:10Z",
+  "scope": "Local byte verification and restore only; no builds, generation, remote writes, or changes to original artifacts/manifests.",
+  "tool_sha256": "5713f6c8abc235a9ecf8361b71fdca53e8ffedef75209f710abd1fea5e09c2f0",
+  "selftests_passed": 14,
+  "verify_only": {
+    "packages": [
+      {
+        "package_id": "N01-r3-runtime",
+        "manifest_sha256": "19ba3c71c0e86d8b0f2e136f9bb864b3c28c84aee5c65e6041695a5b608caa20",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2179804,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N01-r3-source",
+        "manifest_sha256": "7358771fd4794182da177f7bfa537fd2192ae915d4a8e88eaed070fdbc767a49",
+        "artifact_name": "overnight-50-source-01-of-07.zip",
+        "artifact_sha256": "ef284a4823bb83ea474d070b189b457b4a113651bcda1beb9bdfc2f1463c0931",
+        "expected_files": 55,
+        "expected_bytes": 23366914,
+        "existing": 0,
+        "verified": 55,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N02-r4-runtime",
+        "manifest_sha256": "e29afbb7b489926f70ccb72dd47db13592ce9fde9babee4fb37c7dcb950efa92",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2195344,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N02-r4-source",
+        "manifest_sha256": "ff3b1c670e14a8590c3dfdac3d753af42f74d9cdb60aeb36093e0873c93ea2d4",
+        "artifact_name": "overnight-50-source-01-of-07.zip",
+        "artifact_sha256": "ef284a4823bb83ea474d070b189b457b4a113651bcda1beb9bdfc2f1463c0931",
+        "expected_files": 57,
+        "expected_bytes": 25928769,
+        "existing": 0,
+        "verified": 57,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N03-r3-runtime",
+        "manifest_sha256": "accf4de5cacd771c9c2fb03e051f73bd4f5db2566bc2542c2e632e4000813e42",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2271236,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N03-r3-source",
+        "manifest_sha256": "167e1a68e8f651d7b3faade804f12c314bd42588e442c07ba776509d44a48a35",
+        "artifact_name": "overnight-50-source-01-of-07.zip",
+        "artifact_sha256": "ef284a4823bb83ea474d070b189b457b4a113651bcda1beb9bdfc2f1463c0931",
+        "expected_files": 57,
+        "expected_bytes": 28287782,
+        "existing": 0,
+        "verified": 57,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N04-r3-runtime",
+        "manifest_sha256": "c8cca6fa2fa5779cc893f2cade453623a15fe0b61105fd9d5292b668165e2fc7",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2419252,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N04-r3-source",
+        "manifest_sha256": "b994c6ced686c8540f84f9f81867fce49bb3a810d41921b0959266b7e6c7f77a",
+        "artifact_name": "overnight-50-source-01-of-07.zip",
+        "artifact_sha256": "ef284a4823bb83ea474d070b189b457b4a113651bcda1beb9bdfc2f1463c0931",
+        "expected_files": 56,
+        "expected_bytes": 23622832,
+        "existing": 0,
+        "verified": 56,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N05-r3-runtime",
+        "manifest_sha256": "c4708904860f495b8f4c43479ccc9f0f0683629ae9e4d9cf5f52fc90e7f70cda",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2022247,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N05-r3-source",
+        "manifest_sha256": "3c1ed9a4f9ca34e912b662b2a2625629beeee033a40107219a594361d7b306e2",
+        "artifact_name": "overnight-50-source-02-of-07.zip",
+        "artifact_sha256": "30a9ec7c765b8a8e9cbb3f1ceba70f4ab99dcff3ca2533b40c19b9bc351ebacd",
+        "expected_files": 56,
+        "expected_bytes": 24153332,
+        "existing": 0,
+        "verified": 56,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N06-r2-runtime",
+        "manifest_sha256": "0c6bc532435ecf384a1377968a284d3d02d339ff9084a2757c512ffca9969631",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2237377,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N06-r2-source",
+        "manifest_sha256": "0e39192112e1b29d854cf087a4ee8021f371468d7caa4f87a5d22bb1e2c5de13",
+        "artifact_name": "overnight-50-source-02-of-07.zip",
+        "artifact_sha256": "30a9ec7c765b8a8e9cbb3f1ceba70f4ab99dcff3ca2533b40c19b9bc351ebacd",
+        "expected_files": 54,
+        "expected_bytes": 21597747,
+        "existing": 0,
+        "verified": 54,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N07-r3-runtime",
+        "manifest_sha256": "d0b094874d3b1f7af25992ef8751e751acf6bf3be9b050d8845e9e3b25a45916",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 1968107,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N07-r3-source",
+        "manifest_sha256": "3279fb044b89364569a0566b5b07871b54896305ce0bdf220f7fd0fbbbe950ba",
+        "artifact_name": "overnight-50-source-02-of-07.zip",
+        "artifact_sha256": "30a9ec7c765b8a8e9cbb3f1ceba70f4ab99dcff3ca2533b40c19b9bc351ebacd",
+        "expected_files": 55,
+        "expected_bytes": 23903230,
+        "existing": 0,
+        "verified": 55,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N08-r3-runtime",
+        "manifest_sha256": "59a2639cb13d45cdff47663b6eade5fb708ac26d1422cf5741bef1540a08dfcc",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2032921,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N08-r3-source",
+        "manifest_sha256": "5c174d4a1588686f0066b073c3a7032a798b8deef28fcc2d6b21f535770496ac",
+        "artifact_name": "overnight-50-source-02-of-07.zip",
+        "artifact_sha256": "30a9ec7c765b8a8e9cbb3f1ceba70f4ab99dcff3ca2533b40c19b9bc351ebacd",
+        "expected_files": 57,
+        "expected_bytes": 29859916,
+        "existing": 0,
+        "verified": 57,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N09-r2-runtime",
+        "manifest_sha256": "3add1f8ed5b6095f91a0cb70facbf20ccc8ffb99b486d8f244c1af47c4de6484",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2038810,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N09-r2-source",
+        "manifest_sha256": "9117b4682967ab590809c236f40191df27cb492a4dc14edaf53e4e2cec01e942",
+        "artifact_name": "overnight-50-source-03-of-07.zip",
+        "artifact_sha256": "bbbc6be7925c4c2a6050830e6dac387d375e315be20b97da576b522154d274af",
+        "expected_files": 54,
+        "expected_bytes": 19727345,
+        "existing": 0,
+        "verified": 54,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N10-r4-runtime",
+        "manifest_sha256": "3f9da0b42137e898a7ff71f5a2cb0d3d5f26952573c08a2537c912568bfff12e",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2095727,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N10-r4-source",
+        "manifest_sha256": "c145cfe543461297f2a54dbd669b5d71e53ba259b2faef8bf60fb470fcb1c603",
+        "artifact_name": "overnight-50-source-03-of-07.zip",
+        "artifact_sha256": "bbbc6be7925c4c2a6050830e6dac387d375e315be20b97da576b522154d274af",
+        "expected_files": 55,
+        "expected_bytes": 25721666,
+        "existing": 0,
+        "verified": 55,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N11-r2-runtime",
+        "manifest_sha256": "d3f09a7f576e6618aa6e5038510a9ccd50759fe6c9be6997a502a03a6d850096",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 1692575,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N11-r2-source",
+        "manifest_sha256": "d43a5966a056d326c16ba83e7ad437cf6b83a6b2814e952c0305bb7427ce9f2d",
+        "artifact_name": "overnight-50-source-03-of-07.zip",
+        "artifact_sha256": "bbbc6be7925c4c2a6050830e6dac387d375e315be20b97da576b522154d274af",
+        "expected_files": 55,
+        "expected_bytes": 24977828,
+        "existing": 0,
+        "verified": 55,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N12-r3-runtime",
+        "manifest_sha256": "966eec82765bf8491e11ac426be7b4e5c73b9fc442d2c7e8f8f16cd8b9e5375e",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2190337,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N12-r3-source",
+        "manifest_sha256": "c1fc9d83107e55860d210cdf837ae56e56e066dd673241ede06dddb64e3aaff9",
+        "artifact_name": "overnight-50-source-03-of-07.zip",
+        "artifact_sha256": "bbbc6be7925c4c2a6050830e6dac387d375e315be20b97da576b522154d274af",
+        "expected_files": 52,
+        "expected_bytes": 20656826,
+        "existing": 0,
+        "verified": 52,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N13-r3-runtime",
+        "manifest_sha256": "8f2a503e1cab9a6646e234fdb2e96bd78aac3ddbac8e78dea7e87da00b236ca8",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2236664,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N13-r3-source",
+        "manifest_sha256": "22d49da3d21a77714ea850aaf8923cf8ee6ae2385bd71fcc67ce78efa8f0e7cb",
+        "artifact_name": "overnight-50-source-04-of-07.zip",
+        "artifact_sha256": "2ce95f64ef969fde28132f8858faad4804b2264a5a42e78ece9e8ee7af3f96b9",
+        "expected_files": 52,
+        "expected_bytes": 21178376,
+        "existing": 0,
+        "verified": 52,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N14-r2-runtime",
+        "manifest_sha256": "b9abeb4ed78732d5dcbbd0843b27aa1c0d5e9d78645fdc769d87fe5b6c5a4b80",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 1920496,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N14-r2-source",
+        "manifest_sha256": "bc3f5b7adb91e9669d648b30519e51ebdd2344e17612718174fa5a72135c1a76",
+        "artifact_name": "overnight-50-source-04-of-07.zip",
+        "artifact_sha256": "2ce95f64ef969fde28132f8858faad4804b2264a5a42e78ece9e8ee7af3f96b9",
+        "expected_files": 54,
+        "expected_bytes": 22852400,
+        "existing": 0,
+        "verified": 54,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N15-r3-runtime",
+        "manifest_sha256": "3ff78b341e4f7bd022949c5ce6d6efc4972fde4a49d3a39c2a3d1a5b0cd4866c",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2340348,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N15-r3-source",
+        "manifest_sha256": "2807a74590ee39770b30a38e49968235a794ef2d45f937152307230684b0bd70",
+        "artifact_name": "overnight-50-source-04-of-07.zip",
+        "artifact_sha256": "2ce95f64ef969fde28132f8858faad4804b2264a5a42e78ece9e8ee7af3f96b9",
+        "expected_files": 51,
+        "expected_bytes": 22372542,
+        "existing": 0,
+        "verified": 51,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N16-r2-runtime",
+        "manifest_sha256": "d4a1001e5f6968f29a559c4641f0a3fec8338e8c5144ebab71686dfb287d9d46",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2345804,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N16-r2-source",
+        "manifest_sha256": "1568054f9e7758b03b107b2569f40e713b1c21f2cc7ea5461185527a0e2b8343",
+        "artifact_name": "overnight-50-source-04-of-07.zip",
+        "artifact_sha256": "2ce95f64ef969fde28132f8858faad4804b2264a5a42e78ece9e8ee7af3f96b9",
+        "expected_files": 51,
+        "expected_bytes": 22149119,
+        "existing": 0,
+        "verified": 51,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N17-r3-runtime",
+        "manifest_sha256": "ce31ac5457f5c9c443840baa846a973fbc2a0c2a05996eb4705a03900c085ae2",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 2131631,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N17-r3-source",
+        "manifest_sha256": "517fbf06c79f72484258625285075082401e65701bb19542ba74834a57f371e3",
+        "artifact_name": "overnight-50-source-05-of-07.zip",
+        "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067",
+        "expected_files": 51,
+        "expected_bytes": 20017869,
+        "existing": 0,
+        "verified": 51,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N18-r3-runtime",
+        "manifest_sha256": "c3e4e30b853146ac8634f4687255b997218c60c7ecbc868b186e5ad4ef88bb38",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3478959,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N18-r3-source",
+        "manifest_sha256": "989efb5971ae030d2a372732e0c46e4ac50deba31f2b8ffa2f847c1fe9f4a93c",
+        "artifact_name": "overnight-50-source-05-of-07.zip",
+        "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067",
+        "expected_files": 33,
+        "expected_bytes": 4097883,
+        "existing": 0,
+        "verified": 33,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N19-r3-runtime",
+        "manifest_sha256": "6939663cfcf14686b7531cb315618d9056598be007ec6c2fccdcdf1063dec433",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3426511,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N19-r3-source",
+        "manifest_sha256": "e122860cfdca997ed8aa80f51d9169a052550c1a4a64d351308d15f6377d8100",
+        "artifact_name": "overnight-50-source-05-of-07.zip",
+        "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067",
+        "expected_files": 36,
+        "expected_bytes": 13936912,
+        "existing": 0,
+        "verified": 36,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N20-r3-runtime",
+        "manifest_sha256": "1d66464fc07f71fd1ccff4169b894352be6c53179fee15c44ad9f1398f0bad59",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3578699,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N20-r3-source",
+        "manifest_sha256": "dbfc37295e00b7f8bdb08b8d6c0a9c5b401e66898b2eb903ec85233554c97ff5",
+        "artifact_name": "overnight-50-source-05-of-07.zip",
+        "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067",
+        "expected_files": 35,
+        "expected_bytes": 4306882,
+        "existing": 0,
+        "verified": 35,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N21-r2-runtime",
+        "manifest_sha256": "d6bd6bc7e13b7391f5fe56f0eaa9c22c5ed70fe5a7fb3bae05e10d1b561d69bd",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3373736,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N21-r2-source",
+        "manifest_sha256": "ce19fb065b5d59c3263b4ce21c2a472db9a37aa33475f37a581dd8cbf38930cb",
+        "artifact_name": "overnight-50-source-05-of-07.zip",
+        "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067",
+        "expected_files": 37,
+        "expected_bytes": 10270685,
+        "existing": 0,
+        "verified": 37,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N22-r1-runtime",
+        "manifest_sha256": "1cce3203fc1d8aac9fb144eb61b1b5dcab53c3e1db948236f83de77df81b48f9",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 4284400,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N22-r1-source",
+        "manifest_sha256": "6733c1b2a682fb74d22fed6881ccae331425b9611c8d2a26a197f32dc92f5deb",
+        "artifact_name": "overnight-50-source-05-of-07.zip",
+        "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067",
+        "expected_files": 36,
+        "expected_bytes": 6091766,
+        "existing": 0,
+        "verified": 36,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N23-r2-runtime",
+        "manifest_sha256": "3e85c69dbc1117f848c793128b2b615c25eedd2bbccc6a0b73fe1c83b31538ac",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3238013,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N23-r2-source",
+        "manifest_sha256": "f0a0e4803e5ca167fd052c63380b17c40271bd665a37846000fd155716580978",
+        "artifact_name": "overnight-50-source-05-of-07.zip",
+        "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067",
+        "expected_files": 38,
+        "expected_bytes": 11281661,
+        "existing": 0,
+        "verified": 38,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N24-r4-runtime",
+        "manifest_sha256": "df18e6a2383b1ef584988a628a3d5d497b0b071d4f826731b823749b5c0b874b",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 4019133,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N24-r4-source",
+        "manifest_sha256": "01aa9c300c6c176e015bedab84e21bb7e0bd9ddc4f3f9661db2a138862a57704",
+        "artifact_name": "overnight-50-source-05-of-07.zip",
+        "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067",
+        "expected_files": 37,
+        "expected_bytes": 6729903,
+        "existing": 0,
+        "verified": 37,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N25-r1-runtime",
+        "manifest_sha256": "ef29ead98715073d584a4a7d96e151005d763cbbcd8648ec722dbb7f50bedc9e",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3468952,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N25-r1-source",
+        "manifest_sha256": "ad5c522c490e192cd5693f808d6424e9b609ce2dfc2e55313d411547689acd45",
+        "artifact_name": "overnight-50-source-05-of-07.zip",
+        "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067",
+        "expected_files": 37,
+        "expected_bytes": 6020093,
+        "existing": 0,
+        "verified": 37,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N26-r1-runtime",
+        "manifest_sha256": "175f2fa6d636266c369a5c141f59f68f3105a9f9e8c824d0da928c29a5f64338",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3158680,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N26-r1-source",
+        "manifest_sha256": "d72b545d4f93b60435905f3af53332055793be0b612568d65d10dfc80d27ba10",
+        "artifact_name": "overnight-50-source-05-of-07.zip",
+        "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067",
+        "expected_files": 37,
+        "expected_bytes": 5683817,
+        "existing": 0,
+        "verified": 37,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N27-r3-runtime",
+        "manifest_sha256": "d9b7e24db7e863bfcc249a6e5e3ea9f0a5fe0101cb10a9afc6ccc305ecc51018",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3043360,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N27-r3-source",
+        "manifest_sha256": "dcad2ecaf36512e0b40239af336a155f6f6f4c7fbbb97594bc13f29c3e48ae21",
+        "artifact_name": "overnight-50-source-05-of-07.zip",
+        "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067",
+        "expected_files": 37,
+        "expected_bytes": 5531651,
+        "existing": 0,
+        "verified": 37,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N28-r2-runtime",
+        "manifest_sha256": "8162b6a57904685594bd8fb691f3f4de2a6046eed49a43cc10904f8b172d9a8b",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3486026,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N28-r2-source",
+        "manifest_sha256": "c4b452dc97b6559a2c974d8cc6fa44a693c55488d9c92ab9d2d6b073798820dd",
+        "artifact_name": "overnight-50-source-05-of-07.zip",
+        "artifact_sha256": "ddec3f23b97b76ac9d88163c8b0d8e1ba8cce3459258f86a60a05f05b59a8067",
+        "expected_files": 37,
+        "expected_bytes": 6005700,
+        "existing": 0,
+        "verified": 37,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N29-r2-runtime",
+        "manifest_sha256": "1a9c8730bb998866d29348171d3ce2524452b055bbe2f38485c5812c20878052",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3520041,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N29-r2-source",
+        "manifest_sha256": "0567c9ab889e3138fc16e1803d408c3ed292f7e81e1d149aa5102825e6aa732e",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 37,
+        "expected_bytes": 6168030,
+        "existing": 0,
+        "verified": 37,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N30-r2-runtime",
+        "manifest_sha256": "e22dacae4efd103e5197438c1b4171808e28b488011f6d51a06f4f3148e41ae9",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3360854,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N30-r2-source",
+        "manifest_sha256": "394548a0c7184cfe98f5a24acb49162e7b9fd2e94b6abc1dc27aefd1903b74e3",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 37,
+        "expected_bytes": 5871719,
+        "existing": 0,
+        "verified": 37,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N31-r2-runtime",
+        "manifest_sha256": "d0189b5ddd82c917583eb83a8b8b29939bab91fdcc0d815b6e6d45419540faaa",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3532135,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N31-r2-source",
+        "manifest_sha256": "04f8696b681623d3023579293024c1be877c014588d893715c57dfa1812abb92",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 37,
+        "expected_bytes": 6090130,
+        "existing": 0,
+        "verified": 37,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N32-r2-runtime",
+        "manifest_sha256": "0c5ea529c24510b9d6751fa387c1d5c2e8923862021ac43ffe753921214b6027",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3683701,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N32-r2-source",
+        "manifest_sha256": "1bc1d63c474414145ca4611ef2c488941bcf003a6007218667daf923d80fcb96",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 37,
+        "expected_bytes": 6271355,
+        "existing": 0,
+        "verified": 37,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N33-r1-runtime",
+        "manifest_sha256": "3505397b709d39b13a9cfe876d746642e34d5c05e958343e071a6c3bda84f591",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3547014,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N33-r1-source",
+        "manifest_sha256": "e632cbced4b4c2960086aca28a0f1f2c59ba62971417192bd11e33372a8a8468",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 39,
+        "expected_bytes": 13173384,
+        "existing": 0,
+        "verified": 39,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N34-r2-runtime",
+        "manifest_sha256": "286acfcd8dd196c0ea2c53a2f92cdbd726ae020108604608d9c53e19e458a05d",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 3578211,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N34-r2-source",
+        "manifest_sha256": "c8b140823ff6c525d4984a82bf28ceca64d281cdc8e6356aee2d2d9cb7c73ec9",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 39,
+        "expected_bytes": 13182881,
+        "existing": 0,
+        "verified": 39,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N35-r3-runtime",
+        "manifest_sha256": "8d330b6dd091e453d698e1c9245582942ae2db424863aa55564feac1e0cface3",
+        "artifact_name": "overnight-50-runtime-01-of-02.zip",
+        "artifact_sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+        "expected_files": 6,
+        "expected_bytes": 4027475,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N35-r3-source",
+        "manifest_sha256": "1be95a3c9bf5d40cb0dd8e9db12b2d8a239d003fd2f84846bd3c4b3f75e8c880",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 26,
+        "expected_bytes": 4329226,
+        "existing": 0,
+        "verified": 26,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N36-r4-runtime",
+        "manifest_sha256": "e9af6a4d7bdd9bb94bae0708cca64adbcfa7a9ccebcaa27c5de53ceb71aba476",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 3637019,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N36-r4-source",
+        "manifest_sha256": "ebf6b02d3d2733e7acf662880523991f6053fe61135c25322f7e7f71eb121fb5",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 47,
+        "expected_bytes": 4321434,
+        "existing": 0,
+        "verified": 47,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N37-r2-runtime",
+        "manifest_sha256": "f2045270d5c2bddd7525c61e27e9c33ce7e7a16fdf60c3c818ed00ba4ebe12d5",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 4124404,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N37-r2-source",
+        "manifest_sha256": "e9a842f9fc21fda83b3d7624f63596568b2df37d8b9643b360dfabd2795a5332",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 26,
+        "expected_bytes": 4430162,
+        "existing": 0,
+        "verified": 26,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N38-r2-runtime",
+        "manifest_sha256": "d80fbba2c8d5681a6d8447febda1e34da54ffb583f4517f25b7ce9a81d481523",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 4102510,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N38-r2-source",
+        "manifest_sha256": "fd54b00da5f4d991e77dc239789f9baf3ae5b5828957cc3b72df05e1b0060fda",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 26,
+        "expected_bytes": 4421879,
+        "existing": 0,
+        "verified": 26,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N39-r3-runtime",
+        "manifest_sha256": "183344e8ece794e79c8e6a9521cef03e96123b5e6286e5f1009a8c19329114aa",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 3563800,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N39-r3-source",
+        "manifest_sha256": "14e650842ca393fe09f6ddc73a0b3c48a62befa1ad66b0504ccc74cdbd6e52aa",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 47,
+        "expected_bytes": 4311832,
+        "existing": 0,
+        "verified": 47,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N40-r3-runtime",
+        "manifest_sha256": "c944a5a2f651ba31d4d30abdb05c88e1c4e47c2dd9d375dc413ad64c21c2a09b",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 3776482,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N40-r3-source",
+        "manifest_sha256": "8afff44863e40d24b162afc9bc114719d48bf59f8e09df653799719083dc9faf",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 47,
+        "expected_bytes": 4486286,
+        "existing": 0,
+        "verified": 47,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N41-r3-runtime",
+        "manifest_sha256": "ce25a0f3e54cbadd08deceb111c43d5b7f0f4c0aaed67a86fad51d26950e244c",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 4085985,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N41-r3-source",
+        "manifest_sha256": "1d99d181a502a33325eacafb869f43b3d18cc3be2279ff2daad8044b1931eed2",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 47,
+        "expected_bytes": 4866390,
+        "existing": 0,
+        "verified": 47,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N42-r4-runtime",
+        "manifest_sha256": "581fae39c1a3f6bcebee94421755f1fbc09665fd2677896116ff8ce8631a69bd",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 3795148,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N42-r4-source",
+        "manifest_sha256": "e02fc4fe835b66f9b09a2364817be20d02ac9fa1edef3e3cde096c2fe19c20be",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 49,
+        "expected_bytes": 4537403,
+        "existing": 0,
+        "verified": 49,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N43-r1-runtime",
+        "manifest_sha256": "8c0ab932ae9517e29ba4e1b155ddefd64372386ce3080980fc8bf0fc2f0b4f5e",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 3453018,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N43-r1-source",
+        "manifest_sha256": "015f991d20e9f56ffdb93a2f5ef3dcc75bb5fd96cb3427a60a4d17ceccc514f9",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 49,
+        "expected_bytes": 4167433,
+        "existing": 0,
+        "verified": 49,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N44-r1-runtime",
+        "manifest_sha256": "fc62609090f3a5380c48d4ca1479b5ba0200a202890987a88f00f1499660e3ed",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 3835019,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N44-r1-source",
+        "manifest_sha256": "cef0e509e574309225339c2f3e274811fc403236fae130bbd17c008d3fb8d6c3",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 49,
+        "expected_bytes": 4607678,
+        "existing": 0,
+        "verified": 49,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N45-r2-runtime",
+        "manifest_sha256": "fdac6764adf5a7c05dc746ceb4c83afb867e07c0abe12c11f7127a4b3c620183",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 4071611,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N45-r2-source",
+        "manifest_sha256": "b85c6ad33384b221a77bc5ee6ca3583e15af60aee1f313b35c1596333b7b1ac4",
+        "artifact_name": "overnight-50-source-06-of-07.zip",
+        "artifact_sha256": "abc998c5678f4ce41525636d882e53cc90e79ad3eafe2fa4f941433540a75d0a",
+        "expected_files": 51,
+        "expected_bytes": 8956121,
+        "existing": 0,
+        "verified": 51,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N46-r2-runtime",
+        "manifest_sha256": "b62e5192fac8c265b6d66f0679c648fe16465e66490df0d5b3c94634466a598b",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 4174749,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N46-r2-source",
+        "manifest_sha256": "1e84a87948080dcc9c89db5c13b82865c7603d4a4ac7a1212038aa067cf62d0e",
+        "artifact_name": "overnight-50-source-07-of-07.zip",
+        "artifact_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73",
+        "expected_files": 51,
+        "expected_bytes": 9069535,
+        "existing": 0,
+        "verified": 51,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N47-r3-runtime",
+        "manifest_sha256": "2811886d8f9c3ec7e09a0ba0c7150b29023980930e11f7931a5004c524f55ead",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 3883592,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N47-r3-source",
+        "manifest_sha256": "82df0f38ef6eea8154b33fd2f74b827fc1f1ae1facc222a8f33b64073e82fc10",
+        "artifact_name": "overnight-50-source-07-of-07.zip",
+        "artifact_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73",
+        "expected_files": 55,
+        "expected_bytes": 19634507,
+        "existing": 0,
+        "verified": 55,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N48-r1-runtime",
+        "manifest_sha256": "5c56191e7c83f0c9b302cfa2d6bafd41fd6cf1d285495638af813c5ac0d4197e",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 3583086,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N48-r1-source",
+        "manifest_sha256": "cd544cdd22729b91e62a8422f565f07a2968db1dbf7f9e2370d264d0a3f6618e",
+        "artifact_name": "overnight-50-source-07-of-07.zip",
+        "artifact_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73",
+        "expected_files": 49,
+        "expected_bytes": 4328441,
+        "existing": 0,
+        "verified": 49,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N49-r2-runtime",
+        "manifest_sha256": "2ac4c97ca3e0b30d727b9aad345414c30904d6d96350780488b55e6f0630ce42",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 3517198,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N49-r2-source",
+        "manifest_sha256": "555d7bd2c178002c26774efe7dce005b1e9b21b41bfe613bc74c79d76386b9e6",
+        "artifact_name": "overnight-50-source-07-of-07.zip",
+        "artifact_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73",
+        "expected_files": 53,
+        "expected_bytes": 15696001,
+        "existing": 0,
+        "verified": 53,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N50-r2-runtime",
+        "manifest_sha256": "759e6a9a9c53214aa14510cd903b0385dc7ccc2212b58e0cff7088f92501dbae",
+        "artifact_name": "overnight-50-runtime-02-of-02.zip",
+        "artifact_sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+        "expected_files": 6,
+        "expected_bytes": 3540134,
+        "existing": 0,
+        "verified": 6,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "N50-r2-source",
+        "manifest_sha256": "7f1004c295119ac45c172e23c60257afc39b9fb1f8eb63b7d8c29cf6e5d088fb",
+        "artifact_name": "overnight-50-source-07-of-07.zip",
+        "artifact_sha256": "76710ec5d9cb5784bc0c4d23c321710a61c7d7f45e419230b4d3c139c8c06d73",
+        "expected_files": 55,
+        "expected_bytes": 19218223,
+        "existing": 0,
+        "verified": 55,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "Rendering-Investigation",
+        "manifest_sha256": "bdb2dfc233e7b9d9dd76907b563268cbd2fcd5bb154aa2c8ef5acd19c974041d",
+        "artifact_name": "Rendering-Investigation.zip",
+        "artifact_sha256": "090ce53d1f3aa931c1f759c445adf862b69016a0f7fe85b6bcc0028144d3c526",
+        "expected_files": 50,
+        "expected_bytes": 8208159,
+        "existing": 0,
+        "verified": 50,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "art-deco-sales-atelier-r1-rebuild",
+        "manifest_sha256": "82d65598e016636e35c79f4365a9bfd4f50c115f0aaa52218c252e8c16c675cd",
+        "artifact_name": "art-deco-sales-atelier-r1-rebuild.zip",
+        "artifact_sha256": "e65e7abb4f9cc877534d81cb68c72ed61de6ad1b6b5b861aa2504663138ca012",
+        "expected_files": 37,
+        "expected_bytes": 9468379,
+        "existing": 0,
+        "verified": 37,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "celestial-transit-garden-source-replay",
+        "manifest_sha256": "884118226414b4a986911a2f0ffab918916cef7f23abb2e79bbbebba1caf4f41",
+        "artifact_name": "celestial-transit-garden-source-replay.zip",
+        "artifact_sha256": "e7381ba13582a912c0223c8492fa3173fcd4bdf5a406127060fb5c5f743f551b",
+        "expected_files": 54,
+        "expected_bytes": 29155252,
+        "existing": 0,
+        "verified": 54,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "esports-arena-01-source-complete",
+        "manifest_sha256": "9864a82cfc0d03a1b37433a154d4ea0ef5b9dcffa7a5cae0d219f70fb8601a26",
+        "artifact_name": "esports-arena-01-source-complete.zip",
+        "artifact_sha256": "98e8ae70f78de61808734d17a610ba0c5d2ff97b25fd88764b0b4c9e62ae1c56",
+        "expected_files": 133,
+        "expected_bytes": 37278130,
+        "existing": 0,
+        "verified": 133,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "inventors-sandbox-workshop-r1-rebuild",
+        "manifest_sha256": "fc6098f3605f79d63ff7daaa553e55a7c1668190d5637f1f37a1696a0288f365",
+        "artifact_name": "inventors-sandbox-workshop-r1-rebuild.zip",
+        "artifact_sha256": "b73108ed9f90657777640b982e88a88e5f08b8bfb272e8f713aec5cdb8218ac5",
+        "expected_files": 37,
+        "expected_bytes": 10701386,
+        "existing": 0,
+        "verified": 37,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "lantern-congress-source-complete",
+        "manifest_sha256": "696904b4fef1ace1e69e2df04b65d679f236c5803eab97ccc0c2f550a626ce38",
+        "artifact_name": "lantern-congress-source-complete.zip",
+        "artifact_sha256": "2b6b474813d8e3ac2190ff5824ebe4b858e1ef8ed47efb101952fde2cafb151d",
+        "expected_files": 127,
+        "expected_bytes": 46326837,
+        "existing": 0,
+        "verified": 127,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "lantern-souk-bazaar-source-replay",
+        "manifest_sha256": "1b5af35739d440826742c1c919472b557346eba1e1d76ff105d57bd68df375f1",
+        "artifact_name": "lantern-souk-bazaar-source-replay.zip",
+        "artifact_sha256": "4db6ac2b8a2fc1f2dc6ee42e779605e599b507f80b8ffa45072256b889b53899",
+        "expected_files": 55,
+        "expected_bytes": 24068225,
+        "existing": 0,
+        "verified": 55,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "lighthouse-keepers-return-r2-runtime",
+        "manifest_sha256": "40ce3f41eb561a6934028d18c28f3c8132d9d6a023c8233c6ae0ebdd1c44dc8e",
+        "artifact_name": "lighthouse-keepers-return-r2-runtime.zip",
+        "artifact_sha256": "a3a98d718a06d6477800be10aa9c17554ae7c719074be2fb7efd5a36faee6774",
+        "expected_files": 19,
+        "expected_bytes": 6439334,
+        "existing": 0,
+        "verified": 19,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "lighthouse-last-signal-r2-runtime",
+        "manifest_sha256": "a340c39f80e51b39042a0a7768e7bc506cac112f5e11178b59cfb80b581a4a0f",
+        "artifact_name": "Lighthouse-Last-Signal-r2-Delivery.zip",
+        "artifact_sha256": "10f5c7267eaca4be6214d4cca6e4ea09cbda52c6270e4a4bdb3b3e5066bf51cf",
+        "expected_files": 10,
+        "expected_bytes": 4712584,
+        "existing": 0,
+        "verified": 10,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "lighthouse-last-signal-r2-source",
+        "manifest_sha256": "25d32c08119d394ac86197f77702b4eabe6367446f9fdd7a4614bb8dffa8bdb9",
+        "artifact_name": "Lighthouse-Last-Signal-r2-Delivery.zip",
+        "artifact_sha256": "10f5c7267eaca4be6214d4cca6e4ea09cbda52c6270e4a4bdb3b3e5066bf51cf",
+        "expected_files": 47,
+        "expected_bytes": 13000494,
+        "existing": 0,
+        "verified": 47,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "mission-control-center-r1-rebuild",
+        "manifest_sha256": "9cb5510c2b25dac6f4986531e98778a4e6d6ab7973fff24b1bd2c6cb72108c64",
+        "artifact_name": "mission-control-center-r1-rebuild.zip",
+        "artifact_sha256": "48ec81a28910dc31858dde16f2811c6e912530fd8ef70a7780e1b9552d184ccd",
+        "expected_files": 45,
+        "expected_bytes": 17218935,
+        "existing": 0,
+        "verified": 45,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "olive-arabic-academy-r2-rebuild",
+        "manifest_sha256": "46c506409a2a301d334d52f38727b5960414eccb56a7c6f76dccc33081884714",
+        "artifact_name": "olive-arabic-academy-r2-rebuild.zip",
+        "artifact_sha256": "c49d67130052dd1076f3296e7a748a98675f0ab2f2c15200fb5f2608db9e34d8",
+        "expected_files": 41,
+        "expected_bytes": 23956307,
+        "existing": 0,
+        "verified": 41,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "quiet-orbit-observatory-r1-rebuild",
+        "manifest_sha256": "d99bb2a923a2dd1f3bab08bd733ead549b29b96395e0d3c4026ff55cf37685bd",
+        "artifact_name": "quiet-orbit-observatory-r1-rebuild.zip",
+        "artifact_sha256": "6d44b980b45ed10e180586317c054f09359196ee60b413f384a4e236870b0be9",
+        "expected_files": 41,
+        "expected_bytes": 22111078,
+        "existing": 0,
+        "verified": 41,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "resonance-media-house-source-replay",
+        "manifest_sha256": "f5825ec9b01562c04b5dad8804b64e2530a29efd0c11693f0263ef62ab71625b",
+        "artifact_name": "resonance-media-house-source-replay.zip",
+        "artifact_sha256": "a689397b08a6a5f82e3faa252dae670ccbb91b8fe6f325dd34062ce64cc276f2",
+        "expected_files": 63,
+        "expected_bytes": 22398706,
+        "existing": 0,
+        "verified": 63,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "timber-design-studio-r1-rebuild",
+        "manifest_sha256": "b9d00ee4af3b8b00ae5c15ab25724f1a19d0719e8f5fdd8ce2bda6afcd793ded",
+        "artifact_name": "timber-design-studio-r1-rebuild.zip",
+        "artifact_sha256": "369c2584867e56a1c5797852a189fb8ca65bbd7fd47416cf48b19aea670c1198",
+        "expected_files": 41,
+        "expected_bytes": 21855091,
+        "existing": 0,
+        "verified": 41,
+        "written": 0,
+        "status": "passed"
+      },
+      {
+        "package_id": "willow-quay-tea-garden-source-replay",
+        "manifest_sha256": "61d50dd3b4c3aac0de903b6aaeac0884652f281959c5b2ec7d8cbfcddf3abc74",
+        "artifact_name": "willow-quay-tea-garden-source-replay.zip",
+        "artifact_sha256": "6ad5ae9602bec260c0b1894b49f0dcbe0005e081acfb5593e5aeeac57023b276",
+        "expected_files": 55,
+        "expected_bytes": 31267073,
+        "existing": 0,
+        "verified": 55,
+        "written": 0,
+        "status": "passed"
+      }
+    ],
+    "errors": [],
+    "created_output": false,
+    "package_count": 116,
+    "passed_count": 116,
+    "file_count": 3430,
+    "expected_file_bytes": 1137905801
+  },
+  "clean_restores": [
+    {
+      "package_id": "N35-r3-source",
+      "expected_files": 26,
+      "expected_bytes": 4329226,
+      "first_restore": {
+        "existing": 0,
+        "verified": 26,
+        "written": 26
+      },
+      "second_restore": {
+        "existing": 26,
+        "verified": 26,
+        "written": 0
+      },
+      "post_restore_verify_only": {
+        "existing": 26,
+        "verified": 26,
+        "written": 0
+      },
+      "independent_output_hashes": [
+        {
+          "path": "README.md",
+          "sha256": "67abd13e405ac39be60da8a11ebc7437844e93dd7de62650dc8b5256a27a5b58",
+          "size_bytes": 802
+        },
+        {
+          "path": "art/lighthouse-festival-island.png",
+          "sha256": "fee3db8dd5a832e42e07a7ddfa322eade86da44d5c062556aaf695acf3f969af",
+          "size_bytes": 3822144
+        },
+        {
+          "path": "source/greg-reference.png",
+          "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+          "size_bytes": 9396
+        },
+        {
+          "path": "source/proof-inputs/native32-actors-overlay.png",
+          "sha256": "e99c6e5507d1013519898aa14ed362a964f38bae9181f945892c8bb7f1e96a42",
+          "size_bytes": 12278
+        },
+        {
+          "path": "source/proof-inputs/native32-actors-provenance.json",
+          "sha256": "771bc96d130fe32dde52b1ab9f8608d130ae9104cdde777d8950a26a3d36439d",
+          "size_bytes": 3072
+        },
+        {
+          "path": "specs/lighthouse-festival-island.json",
+          "sha256": "e0deb01684fd0d899f4bab3a7a302914804b37de69afbc9178254b3f2f4018aa",
+          "size_bytes": 7331
+        },
+        {
+          "path": "tools/build_one.py",
+          "sha256": "c55f17ab7b11da854da9b59becb40df0b6bbc2fd0bd6fcf3320bd0ebac383ea7",
+          "size_bytes": 3392
+        },
+        {
+          "path": "tools/compiler.py",
+          "sha256": "c329ab2a94bb96d5ec151fe77c9d60de32be59d82b472f9c895fe3562832e2ff",
+          "size_bytes": 15440
+        },
+        {
+          "path": "tools/native/arrival-audit.cjs",
+          "sha256": "3bbb38b336ac449e98cb190d9468405e81ae8c2e953a176827ad16b0ee56c232",
+          "size_bytes": 5487
+        },
+        {
+          "path": "tools/native/easystar-0.4.4.js",
+          "sha256": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+          "size_bytes": 25143
+        },
+        {
+          "path": "tools/native/extracted-current-source.cjs",
+          "sha256": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+          "size_bytes": 31744
+        },
+        {
+          "path": "tools/native/native-runtime-portable.cjs",
+          "sha256": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+          "size_bytes": 2190
+        },
+        {
+          "path": "tools/native/route-audit.cjs",
+          "sha256": "995d45f73d2840cf9a1a6f8256532bb1b0fd22564b8218fe9b2c0b7c1851f7ef",
+          "size_bytes": 5447
+        },
+        {
+          "path": "tools/native/source/StartPositionCalculator.ts",
+          "sha256": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+          "size_bytes": 12453
+        },
+        {
+          "path": "tools/native/source/libs/math-utils/src/MathUtils.ts",
+          "sha256": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+          "size_bytes": 2002
+        },
+        {
+          "path": "tools/native/source/play/src/front/Phaser/Game/CameraManager.ts",
+          "sha256": "c6bea29bffe270221ec35435ea1181df5d670edeac0dbb3b1918db0da8553b80",
+          "size_bytes": 47978
+        },
+        {
+          "path": "tools/native/source/play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+          "sha256": "f011429f25599b348640a57894b28560f3755da1a72b97cdfdbffd9ae2d3cdfc",
+          "size_bytes": 53557
+        },
+        {
+          "path": "tools/native/source/play/src/front/Phaser/Game/GameScene.ts",
+          "sha256": "7c901514db24890c3750631d8e32124643e87de41750fb90e4a2d7f54ac1c146",
+          "size_bytes": 200530
+        },
+        {
+          "path": "tools/native/source/play/src/front/Phaser/Player/Player.ts",
+          "sha256": "47c30fe3c2d16f52da3b499599de57b2240e75be4d91b2c816aae1179e8bc3d9",
+          "size_bytes": 15312
+        },
+        {
+          "path": "tools/native/source/play/src/front/Phaser/Services/HdpiManager.ts",
+          "sha256": "6e25f9e127d3b712edf8ab7e87b1f11f82f8b4681772ccfe1d20c868e3f4d3fc",
+          "size_bytes": 5693
+        },
+        {
+          "path": "tools/native/source/play/src/front/Phaser/Services/WaScaleManager.ts",
+          "sha256": "d811cf48d3fa8561a37a6689bcc0e639f5ceb1837fb3d762b326e104dde77a27",
+          "size_bytes": 8256
+        },
+        {
+          "path": "tools/native/source/play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts",
+          "sha256": "d4bdce55f82caa5e94e372fa2ca57eb2a241f0ed0e78609d4dedb975b665a89a",
+          "size_bytes": 13849
+        },
+        {
+          "path": "tools/native/source/play/src/front/Utils/PathfindingManager.ts",
+          "sha256": "b6d055091ec000f2e47b3e1def2f7ee7c42aae96ff3301c36a8b26b9c1b0c715",
+          "size_bytes": 12672
+        },
+        {
+          "path": "tools/native/source-method-manifest.json",
+          "sha256": "86c7dff4e686ea1c12f638626042618a6b35c96bb8a4b0c7c54e0becc119d665",
+          "size_bytes": 5842
+        },
+        {
+          "path": "tools/native/spawn-audit.cjs",
+          "sha256": "4b2a848abee58ac3e3527fe12a8cd8e4cf2875994b0da1cd7b7bf985a16a9a68",
+          "size_bytes": 3001
+        },
+        {
+          "path": "tools/package_one.py",
+          "sha256": "ff6825dd85aeb60bd142ddb41c16f25febc3fa8bbb865fad5b8e5e405fcd35fa",
+          "size_bytes": 4215
+        }
+      ],
+      "idempotent_bytes_and_mtimes": true,
+      "status": "passed"
+    },
+    {
+      "package_id": "lighthouse-last-signal-r2-source",
+      "expected_files": 47,
+      "expected_bytes": 13000494,
+      "first_restore": {
+        "existing": 0,
+        "verified": 47,
+        "written": 47
+      },
+      "second_restore": {
+        "existing": 47,
+        "verified": 47,
+        "written": 0
+      },
+      "post_restore_verify_only": {
+        "existing": 47,
+        "verified": 47,
+        "written": 0
+      },
+      "independent_output_hashes": [
+        {
+          "path": "MANIFEST.sha256",
+          "sha256": "4e95eb32897cc8f05f2e0d69f1d71bce0cea6ffa085d98eeacc3e42e276846f2",
+          "size_bytes": 4703
+        },
+        {
+          "path": "README.md",
+          "sha256": "23143e235f5a8a7dc09a2d4f452122efe92c27c2d73e59d2c458ef850390924e",
+          "size_bytes": 9843
+        },
+        {
+          "path": "READY.json",
+          "sha256": "c24e9b6c87292c3aff05d2f7cdb0bd74e0bb1264942f9376aeeddb134d89d331",
+          "size_bytes": 1010
+        },
+        {
+          "path": "evidence/api/maps_tests_NativeSoundscape_README.md",
+          "sha256": "1950f0cc746124f91d715a7ae09b6c2a464732dc28e926f65f76a0a06185d5c0",
+          "size_bytes": 14088
+        },
+        {
+          "path": "evidence/api/maps_tests_NativeSoundscape_map.json",
+          "sha256": "755aa0d00364785011050e6c8f7163194a895cf8876729dfb92c6d648416a546",
+          "size_bytes": 14938
+        },
+        {
+          "path": "evidence/api/play_src_front_Api_Iframe_Area_Area.ts",
+          "sha256": "6dd4e8df81dc173ad068d7844b08473b060408889d0a5d3dce60b6efc5c2a07d",
+          "size_bytes": 2520
+        },
+        {
+          "path": "evidence/api/play_src_front_Api_Iframe_Ui_ActionMessage.ts",
+          "sha256": "44ad3fd4bcd976a7cc6b107cf3a3b5214610d11d097c9cf74635a0c1ede23a74",
+          "size_bytes": 1719
+        },
+        {
+          "path": "evidence/api/play_src_front_Api_Iframe_Ui_Menu.ts",
+          "sha256": "eff28f47ab8376234054085ffad0aabdbfe6fecf6d1c1b511cd3ad826e412587",
+          "size_bytes": 640
+        },
+        {
+          "path": "evidence/api/play_src_front_Api_Iframe_area.ts",
+          "sha256": "a460ec6dba572d24c1a6c96edba93bafd737388b59710b2272e25e319faf2609",
+          "size_bytes": 4090
+        },
+        {
+          "path": "evidence/api/play_src_front_Api_Iframe_player.ts",
+          "sha256": "de13ac50f896b5caa6d744e7c82602eb805a470c112278d6192521ac772f14f9",
+          "size_bytes": 11608
+        },
+        {
+          "path": "evidence/api/play_src_front_Api_Iframe_room.ts",
+          "sha256": "40c8f6ae99f68554ec8b2523f88d7c1d26f38c08327ea65762e478fa3c3493d0",
+          "size_bytes": 10086
+        },
+        {
+          "path": "evidence/api/play_src_front_Api_Iframe_ui.ts",
+          "sha256": "c5d1c60701fdab8f94ddb6259dcd65ba4ea66b9e07940be8cce738979a3597a3",
+          "size_bytes": 12841
+        },
+        {
+          "path": "evidence/api/play_src_front_Components_AudioManager_NativeSoundscape.ts",
+          "sha256": "976367d271927e742d9d3ec5d2ae918f44da7eb5e842b187966d9eda438b7274",
+          "size_bytes": 15203
+        },
+        {
+          "path": "evidence/api/play_src_front_Components_PopUp_PopUpContainer.svelte",
+          "sha256": "5f487b61f018831f434eec0b5cdb9f3b27fcb2d0ea30d83eb4c1ada3f4205014",
+          "size_bytes": 1235
+        },
+        {
+          "path": "evidence/api/play_src_front_Components_PopUp_PopUpTriggerActionMessage.svelte",
+          "sha256": "8603d6cc504c5b143d239a7240cbc9ef4e9799caa8d7c34c1d877782321f86cc",
+          "size_bytes": 764
+        },
+        {
+          "path": "evidence/api/production-action-message-handler.txt",
+          "sha256": "b1ac892f493ca5675bc042229322decfbfb1e8fd03ea8b3fa3417d9f01c9f921",
+          "size_bytes": 2474
+        },
+        {
+          "path": "evidence/base-layout.json",
+          "sha256": "064b1e3e4e22136e20c569cbce64ba04734ee2b5e9352348d462b94d9ccc1d4b",
+          "size_bytes": 34581
+        },
+        {
+          "path": "evidence/interaction-tests.txt",
+          "sha256": "47e331415f433f06eacbd574eb8c11099c9a0a847acc15657ebada737224322e",
+          "size_bytes": 1556
+        },
+        {
+          "path": "evidence/native-production-diff.json",
+          "sha256": "ab2f8a22f7090b5db15282b79ad397fab811b38d1f8f5f83b6e17ce23cb576d2",
+          "size_bytes": 9195
+        },
+        {
+          "path": "evidence/native-routes.json",
+          "sha256": "2f8dcc77df8b94eb35ce3c9f14493b91eabb5ee8bc69ede0a8e7f92b67744e87",
+          "size_bytes": 274088
+        },
+        {
+          "path": "evidence/native-summary.json",
+          "sha256": "a21dbbe9cbda1df2d16cfd0740737b45bc9568cd954850c345254bb1c6e396e3",
+          "size_bytes": 653
+        },
+        {
+          "path": "evidence/structure-tests.txt",
+          "sha256": "fbfee17d0c1b4a659d8509163fc1235080f0e670b22547042347f3151c7ec14c",
+          "size_bytes": 222
+        },
+        {
+          "path": "review/beacon-closeup.png",
+          "sha256": "2270ba661f019e52ce13bcdd0a9c356d51c92a0c9b7d698a4fe88cdb652ebcc0",
+          "size_bytes": 694997
+        },
+        {
+          "path": "review/runtime-complete.png",
+          "sha256": "5c66c2c67fc2c05cc0310e101e54bc566b3c322e2a2285384827a31866351660",
+          "size_bytes": 3481477
+        },
+        {
+          "path": "review/runtime-start.png",
+          "sha256": "3559bfd8398d0bde43a2ecff3d29f1f1e2e6113a48281805447f6840e116577c",
+          "size_bytes": 3481847
+        },
+        {
+          "path": "runtime/audio/silent-carrier.wav",
+          "sha256": "d632daecb4ab19e0f93f179107f4bb4240d5b261217dd6fe33505d7b4fc6106f",
+          "size_bytes": 352844
+        },
+        {
+          "path": "runtime/audio/tide-signal.wav",
+          "sha256": "5ae24e11ac90cd4227d74c41f453b7a8a35d3f7b619084fcf6ce87a055b4356f",
+          "size_bytes": 352844
+        },
+        {
+          "path": "runtime/foreground-0.png",
+          "sha256": "77c8e5e017deff9be96122af825150a0a96eaa97a66c05dc3829f537200a4c74",
+          "size_bytes": 21475
+        },
+        {
+          "path": "runtime/ground-and-objects-0.png",
+          "sha256": "317f82f0c6621bb7993654edbee7c823cf921d652d717d7ad41b2d34adda6dd0",
+          "size_bytes": 2639626
+        },
+        {
+          "path": "runtime/ground-and-objects-1.png",
+          "sha256": "10d37d4344c6bc78535a1fcd76c27ff53e69afd9a087675fc1146e8ffd899fcd",
+          "size_bytes": 1285405
+        },
+        {
+          "path": "runtime/lighthouse-last-signal.tmj",
+          "sha256": "3f0da81589faee13032922a438cdac5d3fa33ed87f22752c1b826abbde993b0e",
+          "size_bytes": 47272
+        },
+        {
+          "path": "runtime/lighthouse-last-signal.wam",
+          "sha256": "fcba829c3c6833f56b6fc04ef12d4bfc4ee0188ba1d553a7ae399e549162b7bb",
+          "size_bytes": 519
+        },
+        {
+          "path": "runtime/markers.png",
+          "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+          "size_bytes": 83
+        },
+        {
+          "path": "runtime/signal-inlays.png",
+          "sha256": "2256573363f576db63ec1e9aa5223b2f92486e579c26ce698ad5b2665cd931ed",
+          "size_bytes": 3074
+        },
+        {
+          "path": "runtime/signal.js",
+          "sha256": "eeaae3d76ba5a1ae73eadb8faeab47e47bc90d1ef5090c1ef907c40137d71c5a",
+          "size_bytes": 9442
+        },
+        {
+          "path": "source/base/lighthouse-festival-island.tmj",
+          "sha256": "e977b32148d7d70e29b15114baee3db7327a982b4a2c33d07980dde909d3cf65",
+          "size_bytes": 80362
+        },
+        {
+          "path": "source/base/lighthouse-festival-island.wam",
+          "sha256": "ab7d1f6291d18c5eb4fd2ef8b8dc885e825e02da98a79fe7a1bf74f483555b6b",
+          "size_bytes": 524
+        },
+        {
+          "path": "tests/interaction.cjs",
+          "sha256": "04a297d240f39c861ae9efd48d0a66289f372cc8f48e21c95a3ea72b18a58dcc",
+          "size_bytes": 8055
+        },
+        {
+          "path": "tests/native/WorkAdventure-play-LICENSE.txt",
+          "sha256": "12aae5db7f9d80223d418b1dc97deb235ab207fa3cd4821e16c6ac00072cea41",
+          "size_bytes": 35751
+        },
+        {
+          "path": "tests/native/easystar-0.4.4.js",
+          "sha256": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+          "size_bytes": 25143
+        },
+        {
+          "path": "tests/native/extracted-current-source.cjs",
+          "sha256": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+          "size_bytes": 31744
+        },
+        {
+          "path": "tests/native/native-runtime-portable.cjs",
+          "sha256": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+          "size_bytes": 2190
+        },
+        {
+          "path": "tests/native/routes.cjs",
+          "sha256": "808b946a3c0a774ae131fb4699d845410c989e3a8423be6abc06e8cf9d41b93d",
+          "size_bytes": 5336
+        },
+        {
+          "path": "tests/native/source-method-manifest.json",
+          "sha256": "86c7dff4e686ea1c12f638626042618a6b35c96bb8a4b0c7c54e0becc119d665",
+          "size_bytes": 5842
+        },
+        {
+          "path": "tests/structure.py",
+          "sha256": "dfde212bba7e2e8747dd144cee95677700584ef4f16b28faa07bc3df81aa521b",
+          "size_bytes": 1511
+        },
+        {
+          "path": "tools/build.py",
+          "sha256": "69108a24bcc354a5ecb8a21056414984b71c8055649261c1cefa88e12687c810",
+          "size_bytes": 4061
+        },
+        {
+          "path": "tools/render.py",
+          "sha256": "894095f09f35ac8548e6708965ce9fb9840c5e7b76d4a4f1a4ba74c459665df7",
+          "size_bytes": 1013
+        }
+      ],
+      "idempotent_bytes_and_mtimes": true,
+      "status": "passed"
+    }
+  ],
+  "limits": [
+    "This establishes agreement with the supplied manifests and local Library-materialized archives, not independent manifest provenance or future Library availability.",
+    "Fresh output trees were temporary and removed after validation."
+  ],
+  "elapsed_seconds": 78.35
+}

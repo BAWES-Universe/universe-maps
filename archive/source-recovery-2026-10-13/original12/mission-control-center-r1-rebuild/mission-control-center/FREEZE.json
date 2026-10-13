@@ -1,0 +1,128 @@
+{
+  "title": "Mission Control Center",
+  "slug": "mission-control-center",
+  "native32": true,
+  "status": "Frozen local review candidate, not published",
+  "runtime": "map32/map.tmj",
+  "companion": "map32/map.wam",
+  "overview": "review/overview.png",
+  "occupiedNative": "review/occupied-native.png",
+  "checks": [
+    "VALIDATION.json",
+    "NATIVE-ROUTES.json"
+  ],
+  "livePlaytest": false,
+  "integrationsVerified": false,
+  "files": [
+    {
+      "path": "GUIDE.md",
+      "bytes": 2599,
+      "sha256": "fa2b1d8ce4dcf1339fa0dbe51443f01c426e17db3c3eb58bddb72ae1c2210e1c"
+    },
+    {
+      "path": "HEAD-GEOMETRY.json",
+      "bytes": 4184,
+      "sha256": "e5ac79f4a2c6c56987b56512626bbd7e5320e0e265d8709e4284c9925ed18025"
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 3452,
+      "sha256": "9dcd0ac4162c03419820be097e98fe36d57344edc9166a564dfd0f0d1f3c8095"
+    },
+    {
+      "path": "NATIVE-ROUTES.json",
+      "bytes": 234104,
+      "sha256": "119c8e7ebdc16f6e629f187f5242eee5559b9635023bd0ab1412cee030cf7b2c"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 960,
+      "sha256": "eafe88f1aa10a4540356d0c311980f0b3cdb1cc1c5f48e8e07a1ffa2ae0b0b8f"
+    },
+    {
+      "path": "assets/above.png",
+      "bytes": 10774,
+      "sha256": "3078bc08d4d63f32805300d0cef078359553887095fa70961f58476512fdcf36"
+    },
+    {
+      "path": "assets/base.png",
+      "bytes": 2387964,
+      "sha256": "4fb27e6ab076984843b483847ad8f591f003c12fc75e708b14d873d6da6c09b6"
+    },
+    {
+      "path": "map32/architecture-and-furniture-0.png",
+      "bytes": 1660000,
+      "sha256": "a04ccd0e9f5a28996f16c52fc0d620ade71bb6af1a0cb13fa1bbf6ed50def0bd"
+    },
+    {
+      "path": "map32/architecture-and-furniture-1.png",
+      "bytes": 739919,
+      "sha256": "b6c35063127ab1cf62e2df50cd4a9ea27aac6c017534d879b37f4c70516cecc1"
+    },
+    {
+      "path": "map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "map32/map.tmj",
+      "bytes": 78847,
+      "sha256": "0d585f41476c1b1d625ce43904400b85d7c08a4135b78db5fda871fa76bbf230"
+    },
+    {
+      "path": "map32/map.wam",
+      "bytes": 644,
+      "sha256": "4610a85e4ef2903e5942c17c86094f3383c5af59c7e6ecb9316bc42fb2f397e0"
+    },
+    {
+      "path": "map32/seat-backs-0.png",
+      "bytes": 1501,
+      "sha256": "a237c4abc247618da5454083300892ab57bbd9a2f473642ce0490524f48227fa"
+    },
+    {
+      "path": "review/briefing-occupied-native.png",
+      "bytes": 163432,
+      "sha256": "0647984fb252d2e94a0c377217310710f9d1df7823c23591d415d874977c3ec9"
+    },
+    {
+      "path": "review/collision-overlay.png",
+      "bytes": 2166930,
+      "sha256": "5b8cf5bd915ad49d1fb74dd249306cbb9a04a0c4c59dc26bdfd2b55b5281e19b"
+    },
+    {
+      "path": "review/empty-native.png",
+      "bytes": 2387506,
+      "sha256": "ae43577d1dcf4ec15d3250b842641a92fd24968f93f6ad7e79f199aa03370d0f"
+    },
+    {
+      "path": "review/incident-occupied-native.png",
+      "bytes": 137321,
+      "sha256": "c8b1fe43d4fdf542388c7a498c0d44dea2c2ef9515e75f8ff197e3be6da8f382"
+    },
+    {
+      "path": "review/occupied-native.png",
+      "bytes": 2392957,
+      "sha256": "dfeb594a48ac50f6aa2ee105e6f4411d2c4b952cc23f218cc76f2f92f4d0e0fd"
+    },
+    {
+      "path": "review/operators-occupied-native.png",
+      "bytes": 298902,
+      "sha256": "a5ff6052d2c40bf631ce8425aa5312d15fb7311dd12fc41d9834aca954e61365"
+    },
+    {
+      "path": "review/overview.png",
+      "bytes": 2136935,
+      "sha256": "007ec4c651219b1699da1abe5e92fc90ed9dd40c14472b80eb6db34796bb1006"
+    },
+    {
+      "path": "source/foreground-safety.json",
+      "bytes": 195,
+      "sha256": "d95a97e4094d8f0397ca35f30f2e84d95752853b9e14500bef68306d40153f28"
+    },
+    {
+      "path": "source/layout.json",
+      "bytes": 16964,
+      "sha256": "88fdae64923114386a7bdd95cd19b0b0dacca006eacf2a6c59ad5d7768a6cc16"
+    }
+  ]
+}

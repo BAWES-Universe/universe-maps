@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N45-r2-runtime",
+  "destination": "old50/runtime/N45-r2",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N45-r2-runtime.zip",
+      "sha256": "31c00274d6f40347298a787b9bbfc77e190e27ca0cb081444b397ab0e4b90839",
+      "size_bytes": 3999832
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "desert-esports-pavilion.tmj",
+      "sha256": "35eea1f009d307ee1f6c932b42f76d56399ee0403ce60b3d7d3a0a622e204053",
+      "size_bytes": 78155,
+      "git_blob_sha1": "388fd2215f0bcb6ae32252eb539420320c8552ce",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "desert-esports-pavilion.wam",
+      "sha256": "1b9e457a552660c39956d74d2804ef2ba5dd61d3e356992475027337e90bf5c6",
+      "size_bytes": 1315,
+      "git_blob_sha1": "522ff6ee4e632ff95daf8ebd1264dcd89a4a031d",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "foreground-0.png",
+      "sha256": "90ac9b3f7fb1f9b39f9654b08e79ed05346899915de30b69ba891075db3e9a01",
+      "size_bytes": 26793,
+      "git_blob_sha1": "9303a7cbb10bb3f0f0204d781fa827d298970430",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "5de3535bd22873871c05c0afab10e82c5c1db20327ca5189b079784d7e3939d8",
+      "size_bytes": 2630571,
+      "git_blob_sha1": "13ebd73e62ba4edcd6d3d4145635ffe51eb26604",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "b558daf32fa7e47eb4039abde0386ab40b14679ab09751c44aea62bb77e0c26c",
+      "size_bytes": 1334694,
+      "git_blob_sha1": "328907dfe241b78c46fc65821f8c76392ee9cba8",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    }
+  ]
+}

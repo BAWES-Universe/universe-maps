@@ -1,0 +1,35 @@
+{
+  "nativeTileSize": 32,
+  "dimensions": [
+    48,
+    32
+  ],
+  "seats": 14,
+  "deskCount": null,
+  "reachableTargetCount": 24,
+  "reachableCells": 601,
+  "unreachableTargets": [],
+  "quietCells": 1,
+  "silenceRestrictedToSpawn": true,
+  "seatForegroundMatches": 14,
+  "seatCount": 14,
+  "nativeBodyAtSeatAnchorsClear": true,
+  "floorClickRemainsInSeatTile": true,
+  "floorLayerBetweenBaseAndForeground": true,
+  "atlasRoundtrips": [
+    {
+      "layer": "architecture-and-furniture",
+      "uniqueTiles": 1536,
+      "atlasRoundtripExact": true
+    },
+    {
+      "layer": "seat-backs",
+      "uniqueTiles": 85,
+      "atlasRoundtripExact": true
+    }
+  ],
+  "livePlaytest": "not run",
+  "mediaConnections": "not connected",
+  "botAIIntegrations": "not implemented",
+  "routeMethod": "Four-neighbor cell BFS; native body is x-8..x+8 and y..y+16, checked separately at authored anchors. No sub-tile collision cutouts. All seats and named room anchors tested."
+}

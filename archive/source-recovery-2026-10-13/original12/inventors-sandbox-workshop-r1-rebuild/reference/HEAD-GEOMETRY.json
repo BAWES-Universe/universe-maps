@@ -1,0 +1,257 @@
+{
+  "dimensions": [
+    48,
+    32,
+    32
+  ],
+  "source_reconstruction": {
+    "assets/base.png": true,
+    "assets/above.png": true
+  },
+  "random_spawns": [
+    {
+      "name": "start",
+      "xRange": [
+        368,
+        368
+      ],
+      "yRange": [
+        912,
+        912
+      ],
+      "samples": 1,
+      "bad": [],
+      "badCount": 0
+    }
+  ],
+  "walkable_cells": 632,
+  "unreachable_cells": 0,
+  "quiet_cells": 1,
+  "anchors": [
+    {
+      "id": "creation pad coral",
+      "x": 528,
+      "y": 367,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "creation pad mint",
+      "x": 944,
+      "y": 367,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "creation pad ochre",
+      "x": 720,
+      "y": 623,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "north tool aisle",
+      "x": 752,
+      "y": 303,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "west materials aisle",
+      "x": 240,
+      "y": 559,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "northeast idea board",
+      "x": 1360,
+      "y": 271,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "idea board doorway",
+      "x": 1360,
+      "y": 367,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "collaboration doorway",
+      "x": 1168,
+      "y": 655,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "collaboration host",
+      "x": 1392,
+      "y": 655,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "arrival",
+      "x": 368,
+      "y": 911,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": true
+    },
+    {
+      "id": "toolbench-1",
+      "x": 304,
+      "y": 239,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "toolbench-2",
+      "x": 464,
+      "y": 239,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "toolbench-3",
+      "x": 624,
+      "y": 239,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "toolbench-4",
+      "x": 784,
+      "y": 239,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "toolbench-5",
+      "x": 944,
+      "y": 239,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "toolbench-6",
+      "x": 1104,
+      "y": 239,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "collaboration-A",
+      "x": 1296,
+      "y": 719,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "collaboration-B",
+      "x": 1360,
+      "y": 719,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    }
+  ],
+  "body_clear_positions": 597593,
+  "head_conflicts": 0,
+  "head_conflict_examples": [],
+  "media_areas": [
+    {
+      "id": "inventors-sandbox-workshop-0",
+      "name": "Collaboration corner",
+      "x": 1184,
+      "y": 576,
+      "width": 255,
+      "height": 223,
+      "visible": true,
+      "properties": [
+        {
+          "id": "inventors-sandbox-workshop-0-room",
+          "type": "livekitRoomProperty",
+          "roomName": "inventors-sandbox-workshop-0",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ],
+      "reachable_membership_positions": 29494
+    },
+    {
+      "id": "inventors-sandbox-workshop-1",
+      "name": "Coral creation pad - editor placeholder",
+      "x": 416,
+      "y": 288,
+      "width": 191,
+      "height": 159,
+      "visible": true,
+      "properties": [],
+      "reachable_membership_positions": 29856
+    },
+    {
+      "id": "inventors-sandbox-workshop-2",
+      "name": "Mint creation pad - editor placeholder",
+      "x": 832,
+      "y": 288,
+      "width": 191,
+      "height": 159,
+      "visible": true,
+      "properties": [],
+      "reachable_membership_positions": 29968
+    },
+    {
+      "id": "inventors-sandbox-workshop-3",
+      "name": "Ochre creation pad - editor placeholder",
+      "x": 640,
+      "y": 576,
+      "width": 191,
+      "height": 159,
+      "visible": true,
+      "properties": [],
+      "reachable_membership_positions": 30720
+    },
+    {
+      "id": "inventors-sandbox-workshop-4",
+      "name": "Idea board - editor placeholder",
+      "x": 1280,
+      "y": 192,
+      "width": 159,
+      "height": 95,
+      "visible": true,
+      "properties": [],
+      "reachable_membership_positions": 11600
+    }
+  ],
+  "issues": [],
+  "scope": "Builder-side actual-TMJ atlas decode, collision-derived cardinal connectivity and exhaustive integer source body/head geometry; not native route replay, browser, physics keyboard, devices, media or deployment.",
+  "input_hashes": {
+    "map32/architecture-and-furniture-0.png": "4a9a6d54c6290d9283b7285b9aae974f9fac8ef816e8c28134c14d9ac1e1dfbd",
+    "map32/architecture-and-furniture-1.png": "90545dbb7a0419a72ff6896d83c51e21ee619af67e4dd95776e846f0baef08b4",
+    "map32/logic.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "map32/map.tmj": "5fe1c08b80853180e6c5541cfa9860d7216fe913a62834483270978a35ad92d6",
+    "map32/map.wam": "09829060c25bba12edfea4d1ce1c29ab7a8e6ccabc1c2a4a32d8c3f7f6ab0612",
+    "map32/seat-backs-0.png": "d29649c3db3acc3515bcd7d8ed25be334d247536d44ecea4ce0b1dd7607351bf"
+  }
+}

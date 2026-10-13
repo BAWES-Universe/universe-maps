@@ -1,0 +1,28 @@
+{
+  "implementation": "chunked v2, local tested; not configured or operating",
+  "tests_passed": 60,
+  "large_fixture_bytes": 105906176,
+  "large_fixture_peak_rss_kib": 50364,
+  "remote_r2_requests": 0,
+  "credentials_configured": false,
+  "boto3_installed": false,
+  "reviewed_candidate_files": 12037,
+  "reviewed_candidate_bytes": 4947929698,
+  "source_only_preflight_passed": true,
+  "wider_preflight_passed": false,
+  "wider_status": "finite raw audit completed for all12037 candidates; zero unreviewed pattern matches after independent exact-hash/span reconciliation",
+  "default_upload_cap_bytes": 134217728,
+  "known_scope_gaps": [
+    "200 screened original ZIPs require separate authorized remote archive preservation",
+    "5 disposable cache directories intentionally excluded",
+    "R2 unconfigured; full real R2 integration/restore not run"
+  ],
+  "independent_review": "final v2 scope/security changes reviewed; no remaining blocking issue reported",
+  "r2_setup": "paused; no authentication or network requests",
+  "full_raw_audit_passed": true,
+  "reviewed_exception_preflight_files": 187,
+  "reviewed_exception_preflight_bytes": 216182101,
+  "reviewed_exception_preflight_passed": true,
+  "original_zips_screened": 200,
+  "original_zips_uploaded": 0
+}

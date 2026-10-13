@@ -32,6 +32,15 @@
       "sha256": "727ae765785a26f9a6d17f635387c20e4fccef3726c7d8fa30cc63dd229e8dc1",
       "readback_hash_verified": true,
       "note": "Immutable historical checkpoint; status recorded inside predates later Git advancement."
+    },
+    {
+      "library_file_id": "libfile_ebf72582c37c8191b647dd44d399383e",
+      "version": 0,
+      "filename": "Lean-Historical-Map-Source-and-Restore-2026-10-13.zip",
+      "size_bytes": 3040916,
+      "sha256": "86a85c1cb36a420d06ada0d6a3b1bd9a7097645191bb2df8610d94385fe51491",
+      "readback_hash_verified": true,
+      "note": "Immutable prepared historical source/restore snapshot; its status predates later Git advancement."
     }
   ],
   "historical_original_catalogue": {
@@ -48,5 +57,16 @@
   },
   "artifact_versions_must_match_hashes": true,
   "signed_urls_or_credentials_embedded": false,
-  "asset_storage_current": "Authenticated Library originals; GitHub release assets and R2 are not claimed available."
+  "asset_storage_current": "Authenticated Library originals; GitHub release assets and R2 are not claimed available.",
+  "backup_tool": {
+    "path": "backup-tool/v2",
+    "library_file_id": "libfile_91544fa8adb481919aca99fcc398b453",
+    "library_version": 3,
+    "archive_sha256": "8061075647d0b90a1e19ff0cd6553a030c3ada679b28672ce0ca4f411208e8e0",
+    "archive_bytes": 840047,
+    "selected_git_files": 11,
+    "full_library_files": 22,
+    "r2_configured": false,
+    "full_live_restore_verified": false
+  }
 }

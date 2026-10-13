@@ -28,3 +28,7 @@ Start with [MAP-CATALOG.md](MAP-CATALOG.md), or use the machine-readable [MAP-CA
 ## Historical revisions
 
 [Historical maps by name and revision](lean-historical/HISTORICAL-MAP-CATALOG.md) covers 22 families and all 181 original archive revisions. [Historical index](lean-historical/INDEX.json) pins all 9,018 original members. Only 823 unique authoring/config files are added; identical existing files are referenced, while original artwork/runtime and large QA evidence stay in Library. Use [historical restore instructions](historical-restore/README.md) before building complete original packages.
+
+## Backup implementation
+
+The [frozen v2 backup tool](backup-tool/v2/GIT-CHECKPOINT-NOTES.md) has offline chunked restore/retry tests. Its [README](backup-tool/v2/README.md) documents secure setup and explicit budgets still required. R2 remains unconfigured; source preservation does not establish a live remote backup service. Full reviewed configurations and detailed audit evidence remain pinned in Library.

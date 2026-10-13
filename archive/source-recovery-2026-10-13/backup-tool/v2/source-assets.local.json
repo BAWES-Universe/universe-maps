@@ -1,0 +1,14 @@
+{
+  "roots": {
+    "keeper": "/workspace/shared/keeper-r2-editable-reconstruction/source",
+    "studio-reading": "/workspace/shared/studio-reading-editable-reconstruction/source",
+    "media-house": "/workspace/shared/media-house-editable-reconstruction/source",
+    "keeper-runtime": "/workspace/shared/keeper-r2-editable-reconstruction/build/runtime"
+  },
+  "max_total_bytes": 134217728,
+  "max_file_bytes": 67108864,
+  "max_files": 20000,
+  "extra_exclude": [],
+  "max_new_bytes": 134217728,
+  "max_upload_operations": 6000
+}

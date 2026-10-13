@@ -1,0 +1,37 @@
+{
+  "artifact": {
+    "library_file_id": "libfile_91544fa8adb481919aca99fcc398b453",
+    "file_id": "file_000000001ff48243b356875a5191b127",
+    "version": 3,
+    "sha256": "8061075647d0b90a1e19ff0cd6553a030c3ada679b28672ce0ca4f411208e8e0",
+    "bytes": 840047,
+    "embedded_files_verified": 22,
+    "readback_verified": true
+  },
+  "detailed_archive_audit": {
+    "library_file_id": "libfile_475d3f568860819195543bbd42cf9b53",
+    "file_id": "file_00000000857c81f4aff23ecaab58664d",
+    "version": 0,
+    "sha256": "8ed676abea090658ddf8fb60f1576bf638b236711eec2c50e4b86ffd3f651a6c",
+    "bytes": 4886808,
+    "readback_verified": true
+  },
+  "source_manifest_sha256": "d60351dcfa182099c8add78cf9b308005289d0c671a81dee346fcde9adbb2b90",
+  "selected_git_files": [
+    "universe_backup.py",
+    "test_backup.py",
+    "test_large_file.py",
+    "README.md",
+    "config.example.json",
+    "source-assets.local.json",
+    "recovery-reviewed-complete.local.json",
+    "IMPLEMENTATION-STATUS.json",
+    "LARGE-FILE-TEST-RESULTS.json",
+    "TEST-RESULTS.txt",
+    "FROZEN-MANIFEST.json"
+  ],
+  "full_evidence_files": 22,
+  "remaining_files": "Full reviewed configurations and detailed audit evidence are authenticated Library-backed. Materialize the exact package and verify FROZEN-MANIFEST before using omitted configuration/evidence.",
+  "r2_configured": false,
+  "live_r2_operations_performed": false
+}

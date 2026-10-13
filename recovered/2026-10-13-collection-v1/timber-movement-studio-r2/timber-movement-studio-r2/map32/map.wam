@@ -1,0 +1,63 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "timber-movement-studio-r1-0",
+      "name": "Instructor front",
+      "x": 416,
+      "y": 288,
+      "width": 127,
+      "height": 63,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-movement-studio-r1-0-speaker",
+          "type": "speakerMegaphone",
+          "name": "timber-movement-studio-r1-0",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "timber-movement-studio-r1-1",
+      "name": "Open movement floor",
+      "x": 256,
+      "y": 352,
+      "width": 447,
+      "height": 159,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-movement-studio-r1-1-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "timber-movement-studio-r1-0",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "timber-movement-studio-r1-2",
+      "name": "Arrival conversation",
+      "x": 416,
+      "y": 512,
+      "width": 159,
+      "height": 63,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-movement-studio-r1-2-room",
+          "type": "livekitRoomProperty",
+          "roomName": "timber-movement-studio-r1-2",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": true,
+            "disableChat": false
+          }
+        }
+      ]
+    }
+  ]
+}

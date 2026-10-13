@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N19-zone-1",
+      "name": "Marine classroom",
+      "x": 320,
+      "y": 256,
+      "width": 512,
+      "height": 200,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N19-zone-2",
+      "name": "Open specimen laboratory",
+      "x": 1088,
+      "y": 480,
+      "width": 288,
+      "height": 192,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

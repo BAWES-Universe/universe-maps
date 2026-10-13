@@ -1,0 +1,152 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./conference.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "lantern-summit-podium",
+      "name": "Summit Podium",
+      "x": 192,
+      "y": 320,
+      "width": 1023,
+      "height": 127,
+      "visible": true,
+      "properties": [
+        {
+          "id": "lantern-summit-podium-broadcast",
+          "type": "speakerMegaphone",
+          "name": "lantern-summit",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "lantern-summit-audience",
+      "name": "Summit Audience",
+      "x": 160,
+      "y": 448,
+      "width": 1087,
+      "height": 383,
+      "visible": true,
+      "properties": [
+        {
+          "id": "lantern-summit-listen",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "lantern-summit-podium",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "lantern-forum-podium",
+      "name": "Forum Podium",
+      "x": 1664,
+      "y": 320,
+      "width": 1023,
+      "height": 95,
+      "visible": true,
+      "properties": [
+        {
+          "id": "lantern-forum-podium-broadcast",
+          "type": "speakerMegaphone",
+          "name": "lantern-forum",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "lantern-forum-audience",
+      "name": "Forum Audience",
+      "x": 1632,
+      "y": 432,
+      "width": 1087,
+      "height": 335,
+      "visible": true,
+      "properties": [
+        {
+          "id": "lantern-forum-listen",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "lantern-forum-podium",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "lantern-lab-podium",
+      "name": "Lab Podium",
+      "x": 1664,
+      "y": 1344,
+      "width": 1023,
+      "height": 95,
+      "visible": true,
+      "properties": [
+        {
+          "id": "lantern-lab-podium-broadcast",
+          "type": "speakerMegaphone",
+          "name": "lantern-lab",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "lantern-lab-audience",
+      "name": "Lab Audience",
+      "x": 1632,
+      "y": 1456,
+      "width": 1087,
+      "height": 383,
+      "visible": true,
+      "properties": [
+        {
+          "id": "lantern-lab-listen",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "lantern-lab-podium",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "congress-lounge-1",
+      "name": "Congress Lounge 1",
+      "x": 224,
+      "y": 1312,
+      "width": 319,
+      "height": 223,
+      "visible": true,
+      "properties": [
+        {
+          "id": "congress-lounge-1-call",
+          "type": "livekitRoomProperty",
+          "roomName": "congress-lounge-1",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "congress-lounge-2",
+      "name": "Congress Lounge 2",
+      "x": 736,
+      "y": 1312,
+      "width": 319,
+      "height": 223,
+      "visible": true,
+      "properties": [
+        {
+          "id": "congress-lounge-2-call",
+          "type": "livekitRoomProperty",
+          "roomName": "congress-lounge-2",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    }
+  ]
+}

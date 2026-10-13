@@ -1,0 +1,91 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "art-deco-sales-atelier-r2-0",
+      "name": "Client west",
+      "x": 448,
+      "y": 352,
+      "width": 319,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "art-deco-sales-atelier-r2-0-room",
+          "type": "livekitRoomProperty",
+          "roomName": "art-deco-sales-atelier-r2-0",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "art-deco-sales-atelier-r2-1",
+      "name": "Client east",
+      "x": 1216,
+      "y": 352,
+      "width": 319,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "art-deco-sales-atelier-r2-1-room",
+          "type": "livekitRoomProperty",
+          "roomName": "art-deco-sales-atelier-r2-1",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "art-deco-sales-atelier-r2-2",
+      "name": "Research west",
+      "x": 384,
+      "y": 672,
+      "width": 319,
+      "height": 287,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "art-deco-sales-atelier-r2-3",
+      "name": "Research east",
+      "x": 1248,
+      "y": 672,
+      "width": 319,
+      "height": 287,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "art-deco-sales-atelier-r2-4",
+      "name": "Private briefing",
+      "x": 896,
+      "y": 384,
+      "width": 127,
+      "height": 159,
+      "visible": true,
+      "properties": [
+        {
+          "id": "art-deco-sales-atelier-r2-4-room",
+          "type": "livekitRoomProperty",
+          "roomName": "art-deco-sales-atelier-r2-4",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    }
+  ]
+}

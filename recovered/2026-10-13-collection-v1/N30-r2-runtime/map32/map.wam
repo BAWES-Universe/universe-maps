@@ -1,0 +1,38 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N30-zone-1",
+      "name": "Catalog assistance",
+      "x": 384,
+      "y": 256,
+      "width": 368,
+      "height": 112,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N30-zone-2",
+      "name": "Reading and display exchange",
+      "x": 736,
+      "y": 352,
+      "width": 448,
+      "height": 192,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N30-zone-3",
+      "name": "Civic plaza",
+      "x": 448,
+      "y": 672,
+      "width": 352,
+      "height": 80,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

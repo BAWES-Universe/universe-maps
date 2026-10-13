@@ -1,0 +1,84 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "timber-yoga-retreat-r1-0",
+      "name": "Yoga instructor broadcast",
+      "x": 448.0,
+      "y": 272.0,
+      "width": 63.5,
+      "height": 47.5,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-yoga-retreat-r1-0-speaker",
+          "type": "speakerMegaphone",
+          "name": "timber-yoga-retreat-r1-0",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "timber-yoga-retreat-r1-1",
+      "name": "Aligned yoga students",
+      "x": 192.0,
+      "y": 320.0,
+      "width": 575.5,
+      "height": 95.5,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-yoga-retreat-r1-1-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "timber-yoga-retreat-r1-0",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "timber-yoga-retreat-r1-2",
+      "name": "Tea and arrival conversation",
+      "x": 208.0,
+      "y": 480.0,
+      "width": 159.5,
+      "height": 95.5,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-yoga-retreat-r1-2-room",
+          "type": "livekitRoomProperty",
+          "roomName": "timber-yoga-retreat-r1-2",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "timber-yoga-retreat-r1-3",
+      "name": "Rest and reflection gathering",
+      "x": 592.0,
+      "y": 480.0,
+      "width": 175.5,
+      "height": 95.5,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-yoga-retreat-r1-3-room",
+          "type": "livekitRoomProperty",
+          "roomName": "timber-yoga-retreat-r1-3",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    }
+  ]
+}

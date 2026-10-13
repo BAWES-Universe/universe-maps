@@ -1,0 +1,58 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./desert-esports-pavilion.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "desert-esports-pavilion-stage",
+      "name": "Presenter stage",
+      "x": 192,
+      "y": 128,
+      "width": 160,
+      "height": 32,
+      "visible": true,
+      "properties": [
+        {
+          "id": "desert-esports-pavilion-stage-speaker",
+          "type": "speakerMegaphone",
+          "name": "desert-esports-pavilion-live-stage",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "desert-esports-pavilion-audience",
+      "name": "Audience",
+      "x": 448,
+      "y": 304,
+      "width": 640,
+      "height": 208,
+      "visible": true,
+      "properties": [
+        {
+          "id": "desert-esports-pavilion-listen",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "desert-esports-pavilion-stage",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "desert-esports-pavilion-framing",
+      "name": "Whole-hall framing",
+      "x": 160,
+      "y": 96,
+      "width": 992,
+      "height": 448,
+      "visible": true,
+      "properties": [
+        {
+          "id": "desert-esports-pavilion-focus",
+          "type": "focusable",
+          "zoom_margin": 0.1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "timber-gym-only-r1-0",
+      "name": "Gym host demonstration",
+      "x": 448.0,
+      "y": 304.0,
+      "width": 63.5,
+      "height": 31.5,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-gym-only-r1-0-speaker",
+          "type": "speakerMegaphone",
+          "name": "timber-gym-only-r1-0",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "timber-gym-only-r1-1",
+      "name": "Gym shared session",
+      "x": 320.0,
+      "y": 336.0,
+      "width": 335.5,
+      "height": 111.5,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-gym-only-r1-1-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "timber-gym-only-r1-0",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "timber-gym-only-r1-2",
+      "name": "Arrival bench conversation",
+      "x": 224.0,
+      "y": 528.0,
+      "width": 143.5,
+      "height": 31.5,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-gym-only-r1-2-room",
+          "type": "livekitRoomProperty",
+          "roomName": "timber-gym-only-r1-2",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "timber-gym-only-r1-3",
+      "name": "Water break conversation",
+      "x": 656.0,
+      "y": 544.0,
+      "width": 95.5,
+      "height": 15.5,
+      "visible": true,
+      "properties": [
+        {
+          "id": "timber-gym-only-r1-3-room",
+          "type": "livekitRoomProperty",
+          "roomName": "timber-gym-only-r1-3",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    }
+  ]
+}

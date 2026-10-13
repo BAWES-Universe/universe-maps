@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N34-zone-1",
+      "name": "Listening classroom",
+      "x": 192,
+      "y": 224,
+      "width": 448,
+      "height": 288,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N34-zone-2",
+      "name": "Language exchange pods",
+      "x": 896,
+      "y": 192,
+      "width": 448,
+      "height": 96,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N34-zone-3",
+      "name": "Conversation court",
+      "x": 896,
+      "y": 288,
+      "width": 448,
+      "height": 224,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N34-zone-4",
+      "name": "Harbour exchange",
+      "x": 128,
+      "y": 672,
+      "width": 1248,
+      "height": 96,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

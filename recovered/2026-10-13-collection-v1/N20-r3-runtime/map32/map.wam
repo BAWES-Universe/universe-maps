@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N20-zone-1",
+      "name": "Assembly teaching floor",
+      "x": 816,
+      "y": 352,
+      "width": 288,
+      "height": 240,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N20-zone-2",
+      "name": "Parts discussion annex",
+      "x": 160,
+      "y": 384,
+      "width": 64,
+      "height": 192,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

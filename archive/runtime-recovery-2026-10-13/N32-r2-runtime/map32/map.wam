@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N32-zone-1",
+      "name": "Textile design instruction",
+      "x": 640,
+      "y": 288,
+      "width": 272,
+      "height": 48,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N32-zone-2",
+      "name": "Loom learning",
+      "x": 512,
+      "y": 352,
+      "width": 64,
+      "height": 224,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N32-zone-3",
+      "name": "Dye-vat demonstration",
+      "x": 960,
+      "y": 352,
+      "width": 64,
+      "height": 256,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N32-zone-4",
+      "name": "Guild gathering",
+      "x": 608,
+      "y": 768,
+      "width": 288,
+      "height": 128,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./N03.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "arrival",
+      "name": "Arrival",
+      "x": 600,
+      "y": 664,
+      "width": 32,
+      "height": 32,
+      "visible": true,
+      "properties": [
+        {
+          "id": "start",
+          "type": "start",
+          "isDefault": true
+        }
+      ]
+    }
+  ]
+}

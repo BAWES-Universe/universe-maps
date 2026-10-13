@@ -123,6 +123,15 @@ Evidence: [interactive-experiences.json](data/interactive-experiences.json) cont
 
 [Verified source ancestry](https://github.com/BAWES-Universe/workadventure-universe/compare/09b61364b330edb1ece68020daca14c9d9ea2803...49c07646b9974ed49131e5dc65bcbcf1eed3c14b). No merge, release or deployment was performed by this research.
 
+### Player-name alignment and hover source update · 13 October 2026
+
+- [Engine #916](https://github.com/BAWES-Universe/workadventure-universe/pull/916) merged into `universe-develop` at **18:14:27 UTC**, merge `1419cb40a8113a0a3c4ff6fb8638fd679b3e060f` (reviewed head `b396ec62d6c7cd7ea3b48abfbae19600df50a87f`). It corrects the DOM layer scale in the camera-zoom path and reapplies it after Phaser refresh/resize so zoomed-out name pills stay anchored over players. [Merged scale-manager source](https://github.com/BAWES-Universe/workadventure-universe/blob/1419cb40a8113a0a3c4ff6fb8638fd679b3e060f/play/src/front/Phaser/Services/WaScaleManager.ts#L91-L150).
+- [Engine #918](https://github.com/BAWES-Universe/workadventure-universe/pull/918) merged into `universe-develop` at **17:09:00 UTC**, merge `248008ba863a40481c526838ef87c78e23ffdbfb` (reviewed head `adc876908897cd47bf47f7dbe19b6ef9d384a362`). It removes the 1.06 hover/highlight scale multiplier while preserving the lighter pill, full-name reveal and front ordering. A long name may still widen its pill to fit its full text. [Merged name-display source, also present at the #916 merge](https://github.com/BAWES-Universe/workadventure-universe/blob/1419cb40a8113a0a3c4ff6fb8638fd679b3e060f/play/src/front/Phaser/Components/UsernameDisplay.ts#L97-L111).
+
+These are **merged-source facts only**. This targeted check did not establish production-release inclusion, the currently served frontend SHA or live acceptance, and did not rerun either PR’s author-reported local tests. Verify the actual test build contains both changes before using the [name/DOM overlay checklist](COMMON-CHECKS.md#player-names-and-dom-overlays): zoom-out, Look around, side-panel/window resize, phone pinch/rotation, hover/proximity, full names and overlap ordering. Speech bubbles, popups and embedded websites also need their own live checks because they share the DOM layer.
+
+Keep the scopes separate: **#842 is camera zoom-refit/scene continuity; #916 is DOM overlay alignment; #918 is highlight size behavior.** None is evidence that map textures, pixelation, black edges or seams are repaired. All existing map feedback, defects and acceptance gates remain in force.
+
 ## Next action to make these playable
 
 Select the exact candidate and an approved isolated test room, serve its complete runtime subtree, import/configure the companion WAM and record the actual frontend commit. Validate the hosted assets and run the map-specific checklist before adding a game-session URL here. This register does not authorize a merge, deployment or publication. The runtime backup has now passed an independent fresh GitHub readback; see the [restore receipt](RESTORE-RECEIPT.md). This changes backup availability only. The play-room/deployment gates above remain open.

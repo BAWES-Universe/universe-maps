@@ -20,6 +20,16 @@ Use these once per tested map/revision, alongside its map-specific checks. Recor
 - [ ] Test gestures after orientation/viewport changes; controls should stay reachable, readable and avoid unintended movement behind UI.
 - [ ] For the #842 engine fix, test zoom before/after resize, orientation change, scene exit/re-entry and reconnect; confirm the deployed engine actually contains the merged fix. This does not by itself fix source-art pixelation or tile seams.
 
+## Player names and DOM overlays
+
+These checks cover [#916](https://github.com/BAWES-Universe/workadventure-universe/pull/916) (zoomed-out DOM alignment) and [#918](https://github.com/BAWES-Universe/workadventure-universe/pull/918) (remove hover enlargement). Both are merged source changes; first record a deployed engine build that contains them. Release availability and these live checks remain unverified. They are separate from #842 camera refit and do not close map-art pixelation, black-edge or seam complaints.
+
+- [ ] Zoom out fully with the desktop wheel, use Look around on a large map, and pinch out on a phone. Player name pills stay centred above their players at the intended head gap; return to default and zoom in to check ordinary placement/size.
+- [ ] While zoomed out, resize the window, open/close a side panel and rotate the phone. Names remain aligned; repeat after scene exit/re-entry and reconnect without stale DOM positioning.
+- [ ] Hover or walk up to another player at default, far-out and close-in zoom: the pill becomes lighter and comes in front of other names, with **no extra 6% scale enlargement**. Text size/height remain at the resting scale. A long name may legitimately widen its pill when the full text is revealed.
+- [ ] Test a long name and overlapping players: highlight reveals the full name and correct front ordering; removing highlight restores the dark/truncated name and normal depth ordering. Check the name stays centred throughout.
+- [ ] While zoomed out, trigger a speech bubble, map popup and embedded website where configured; compare their alignment with default zoom and after panel/window resize. Record unsupported features as N/A. The source fix affects their shared DOM layer, but their live behavior has not been accepted by this register.
+
 ## Interaction, audio and multi-user
 - [ ] For configured interactions, test happy path plus out-of-order/repeated actions, close/cancel/reopen and restart. No duplicate handlers, stuck panels or invented success.
 - [ ] For audio/media, start from a fresh session and a deliberate user gesture; test mute, zone enter/exit, overlapping cues and cleanup. Confirm intended per-user versus shared behavior with two users.

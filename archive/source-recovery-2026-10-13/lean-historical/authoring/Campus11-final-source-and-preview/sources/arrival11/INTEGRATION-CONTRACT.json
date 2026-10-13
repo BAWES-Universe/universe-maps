@@ -1,0 +1,140 @@
+{
+  "revision": "Campus11 arrival and physical wayfinding",
+  "root": "/workspace/shared/campus11-arrival-sign",
+  "baseline": "/workspace/shared/magical-campus-current32-10-24seats",
+  "baselineReadOnly": true,
+  "worldSize": [
+    2944,
+    2624
+  ],
+  "gridSize": 32,
+  "avatar": {
+    "size": [
+      32,
+      32
+    ],
+    "scale": 1,
+    "bodyOffset": [
+      -8,
+      0,
+      16,
+      16
+    ]
+  },
+  "sign": {
+    "svg": "sources/arrival11/court-sign.svg",
+    "png": "sources/arrival11/court-sign.png",
+    "worldOrigin": [
+      1288,
+      1656
+    ],
+    "nativeSize": [
+      152,
+      160
+    ],
+    "artLayer": "base",
+    "newColliders": false,
+    "physicalPlacement": "southeast blocked planting below original lantern; offset exposed post, stone foot and contact shadow also preserve lower lantern",
+    "renderer": "existing sharp SVG renderer at native152x160",
+    "textColor": "#fdf1ca",
+    "bodyFontSizePx": [
+      10.5,
+      13.5
+    ]
+  },
+  "spawnarea": {
+    "name": "start",
+    "id": 1,
+    "before": [
+      920,
+      1552,
+      32,
+      32
+    ],
+    "after": [
+      1232,
+      1520,
+      32,
+      32
+    ],
+    "randomInset": 16,
+    "integerCenters": [
+      [
+        1248,
+        1536
+      ]
+    ],
+    "feet": [
+      [
+        1248,
+        1552
+      ]
+    ]
+  },
+  "silentarea": {
+    "name": "spawn-quiet-start",
+    "id": 8,
+    "before": [
+      896,
+      1536,
+      96,
+      96
+    ],
+    "after": [
+      1200,
+      1504,
+      96,
+      96
+    ],
+    "relocateExisting": true,
+    "duplicates": false,
+    "fountainRingSilentSamples": 0
+  },
+  "WAM": {
+    "source": "companion-stage/magical-campus.wam",
+    "startAreasPresent": 0,
+    "patch": [],
+    "stageAndAudiencePreserved": true
+  },
+  "patch": "arrival-json-patches.json",
+  "integration": {
+    "copyDirectory": "sources/arrival11",
+    "command": "python sources/arrival11/apply_arrival.py <candidate-root>",
+    "order": [
+      "build10.py",
+      "exterior10/apply_exterior.py",
+      "arrival11/apply_arrival.py",
+      "compile32.py",
+      "install_native_audio10.py"
+    ],
+    "mustRetainExistingWayfinding08Originals": true,
+    "removeOldBuildSignPlacement": false,
+    "reasonOldSignNotVisible": "The existing exterior pass replaces that old hidden sign; new sign is applied after exterior. Only one visible board results."
+  },
+  "routeProof": {
+    "json": "docs/arrival-route-proof.json",
+    "nativeModel": "validation/native-path-model-speed9.mjs",
+    "easystar": "validation/easystar-0.4.4.js",
+    "passLegs": 12,
+    "testedLegs": 14,
+    "frames": 6123,
+    "remaining": "Re-run campfire target after parent connector repair; existing baseline ring is disconnected."
+  },
+  "arrivalProof": "docs/arrival-silence-and-head-proof.json",
+  "previews": {
+    "native390": "docs/arrival-board-native390.png",
+    "native560": "docs/arrival-board-native560.png",
+    "beforeAfter": "docs/arrival-blank-vs-board-native.png",
+    "guide": "docs/arrival-guide-native432.png",
+    "guidePositions": "docs/arrival-guide-positions.json",
+    "native390Complete": "docs/arrival-board-native390-complete.png",
+    "native390CompleteSize": [
+      390,
+      576
+    ]
+  },
+  "noExternalPublication": true,
+  "noLiveWAMChanges": true,
+  "limits": "Local native-source simulation and native raster QA; no browser, physical-device, network/media or live-runtime claim.",
+  "screenshotRegistration": "screenshot-registration.json"
+}

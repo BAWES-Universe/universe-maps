@@ -1,0 +1,181 @@
+{
+  "civicBlockerUpdates": {
+    "east-upper": {
+      "height": 304
+    },
+    "east-middle": {
+      "y": 432,
+      "height": 512
+    },
+    "east-lower": {
+      "y": 1040,
+      "height": 80
+    }
+  },
+  "civicWalkablePolygons": [
+    [
+      [
+        64,
+        144
+      ],
+      [
+        576,
+        144
+      ],
+      [
+        576,
+        1088
+      ],
+      [
+        64,
+        1088
+      ]
+    ],
+    [
+      [
+        576,
+        336
+      ],
+      [
+        640,
+        336
+      ],
+      [
+        640,
+        432
+      ],
+      [
+        576,
+        432
+      ]
+    ],
+    [
+      [
+        576,
+        944
+      ],
+      [
+        640,
+        944
+      ],
+      [
+        640,
+        1040
+      ],
+      [
+        576,
+        1040
+      ]
+    ]
+  ],
+  "officeColliderUpdates": {
+    "east-shell-lower": {
+      "y": 736,
+      "height": 192
+    },
+    "gallery-west-lower": {
+      "y": 736,
+      "height": 192
+    }
+  },
+  "officeColliderAdditions": [
+    {
+      "id": "main-west-visible-jamb-closure10",
+      "x": 480,
+      "y": 912,
+      "width": 16,
+      "height": 48,
+      "kind": "native-stone-jamb"
+    },
+    {
+      "id": "main-east-visible-jamb-closure10",
+      "x": 592,
+      "y": 912,
+      "width": 16,
+      "height": 48,
+      "kind": "native-stone-jamb"
+    },
+    {
+      "id": "gallery-west-visible-jamb-closure10",
+      "x": 1088,
+      "y": 912,
+      "width": 16,
+      "height": 48,
+      "kind": "native-stone-jamb"
+    },
+    {
+      "id": "gallery-east-visible-jamb-closure10",
+      "x": 1168,
+      "y": 912,
+      "width": 16,
+      "height": 48,
+      "kind": "native-stone-jamb"
+    }
+  ],
+  "officeGridOpenRectsLocal": [
+    [
+      992,
+      720,
+      96,
+      16
+    ]
+  ],
+  "officeGridBlockRectsLocal": [
+    [
+      480,
+      912,
+      16,
+      48
+    ],
+    [
+      592,
+      912,
+      16,
+      48
+    ],
+    [
+      1088,
+      912,
+      16,
+      48
+    ],
+    [
+      1168,
+      912,
+      16,
+      48
+    ]
+  ],
+  "exteriorDependency": {
+    "classroom": [
+      [
+        608,
+        1472,
+        64,
+        128
+      ]
+    ],
+    "stage": [
+      [
+        608,
+        2080,
+        96,
+        96
+      ]
+    ]
+  },
+  "officeReceiverReplacements": [
+    [
+      1216,
+      992,
+      96,
+      32
+    ],
+    [
+      1824,
+      992,
+      64,
+      32
+    ]
+  ]
+}

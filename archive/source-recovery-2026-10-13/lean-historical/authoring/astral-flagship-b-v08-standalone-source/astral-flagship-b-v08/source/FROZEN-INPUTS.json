@@ -1,0 +1,226 @@
+{
+  "frozenA": "/workspace/shared/grand-auditorium-07-clean",
+  "frozenInputs": {
+    "runtime-layout.json": "99bc80b337ef3570ffee576bf40c14f529d1d0bc81b59a2937a8ef6caa11768a",
+    "runtime-base.png": "131c794ad38ba9ffa47cd74257acf11f88bf051b107768dc3d96d809e7da1e96",
+    "collision-grid.json": "c65e7c2ee4f43565d5c84c7a160469129d5c527f820072f21195e6384f1b96e1",
+    "quiet-grid.json": "aa62322ee560e8ec9719ec66a32d305f536b5b60f3d2554380205ef48866310f",
+    "seats.json": "74a0b9f6f47d92dd3c38569fe946b94dbf4e418e0551e7a2fe0368da7ca9a122",
+    "garden-layout.json": "14c02a4e9cc04b858d0a41eebd2a5bfea240e8450039a55693d6a23b4966d794",
+    "greg-reference.png": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+    "runtime-above.png": "c0d7c3cf5bdd475b759033c4b2217a993e6d6f0cfcf84812e4dbd83bca11b787",
+    "qa-actors-only.png": "6e9e66d6ee466e1ec0954f3c52382ac35957ca6ae8e25f7bdf553b716748a287"
+  },
+  "protectedFurnitureComponents": [
+    {
+      "id": "coffee",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/reuse-v03/assets/coffee-counter-native.png",
+      "sha256": "422de5cf38061516bdf49391e510d50b4ee0c7f794838797afa6ab8f48861a05",
+      "artXYWH": [
+        1836,
+        1112,
+        168,
+        94
+      ]
+    },
+    {
+      "id": "coffee-tree-left",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/reuse-v03/assets/citrus-tree.png",
+      "sha256": "3e6cd5d3564b75c1858fe83b7b343c3ff858a4d25c4f1a71afddb254d1070e48",
+      "artXYWH": [
+        1628,
+        1106,
+        64,
+        90
+      ]
+    },
+    {
+      "id": "coffee-tree-right",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/reuse-v03/assets/citrus-tree.png",
+      "sha256": "3e6cd5d3564b75c1858fe83b7b343c3ff858a4d25c4f1a71afddb254d1070e48",
+      "artXYWH": [
+        2376,
+        1106,
+        64,
+        90
+      ]
+    },
+    {
+      "id": "terrace-tree-southwest",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/reuse-v03/assets/citrus-tree.png",
+      "sha256": "3e6cd5d3564b75c1858fe83b7b343c3ff858a4d25c4f1a71afddb254d1070e48",
+      "artXYWH": [
+        1552,
+        1588,
+        64,
+        90
+      ]
+    },
+    {
+      "id": "terrace-tree-southeast",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/reuse-v03/assets/citrus-tree.png",
+      "sha256": "3e6cd5d3564b75c1858fe83b7b343c3ff858a4d25c4f1a71afddb254d1070e48",
+      "artXYWH": [
+        2396,
+        1588,
+        64,
+        90
+      ]
+    },
+    {
+      "id": "terrace-south-edge",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/reuse-v03/assets/planter-low.png",
+      "sha256": "969ee4a8196c08dc015b71601fcdb25b18e9897206ac17bfa4ccc31c285c5514",
+      "artXYWH": [
+        1984,
+        1680,
+        120,
+        48
+      ]
+    },
+    {
+      "id": "terrace-view-pair-left",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/repair-assets/assets/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "artXYWH": [
+        2204,
+        1207,
+        48,
+        44
+      ]
+    },
+    {
+      "id": "terrace-view-pair-right",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/repair-assets/assets/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "artXYWH": [
+        2260,
+        1207,
+        48,
+        44
+      ]
+    },
+    {
+      "id": "terrace-view-pair-table",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/repair-assets/assets/low-lounge-table.png",
+      "sha256": "22d1169759331b49481442afe2fcecd8432dfa76813a957eec61c684b0944241",
+      "artXYWH": [
+        2208,
+        1148,
+        64,
+        36
+      ]
+    },
+    {
+      "id": "terrace-lower-pair-left",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/repair-assets/assets/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "artXYWH": [
+        1724,
+        1591,
+        48,
+        44
+      ]
+    },
+    {
+      "id": "terrace-lower-pair-right",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/repair-assets/assets/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "artXYWH": [
+        1780,
+        1591,
+        48,
+        44
+      ]
+    },
+    {
+      "id": "terrace-lower-pair-table",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/repair-assets/assets/low-lounge-table.png",
+      "sha256": "22d1169759331b49481442afe2fcecd8432dfa76813a957eec61c684b0944241",
+      "artXYWH": [
+        1728,
+        1532,
+        64,
+        36
+      ]
+    },
+    {
+      "id": "terrace-garden-pair-left",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/repair-assets/assets/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "artXYWH": [
+        2172,
+        1591,
+        48,
+        44
+      ]
+    },
+    {
+      "id": "terrace-garden-pair-right",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/repair-assets/assets/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "artXYWH": [
+        2228,
+        1591,
+        48,
+        44
+      ]
+    },
+    {
+      "id": "terrace-garden-pair-table",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/repair-assets/assets/low-lounge-table.png",
+      "sha256": "22d1169759331b49481442afe2fcecd8432dfa76813a957eec61c684b0944241",
+      "artXYWH": [
+        2176,
+        1532,
+        64,
+        36
+      ]
+    },
+    {
+      "id": "garden-pair-1-left",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/repair-assets/assets/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "artXYWH": [
+        2016,
+        215,
+        48,
+        44
+      ]
+    },
+    {
+      "id": "garden-pair-1-right",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/repair-assets/assets/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "artXYWH": [
+        2072,
+        215,
+        48,
+        44
+      ]
+    },
+    {
+      "id": "garden-pair-2-left",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/repair-assets/assets/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "artXYWH": [
+        2232,
+        215,
+        48,
+        44
+      ]
+    },
+    {
+      "id": "garden-pair-2-right",
+      "source": "/workspace/shared/grand-auditorium-07-clean/source/repair-assets/assets/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "artXYWH": [
+        2288,
+        215,
+        48,
+        44
+      ]
+    }
+  ],
+  "readOnlyOriginals": true
+}

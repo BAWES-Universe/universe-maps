@@ -1,0 +1,1927 @@
+{
+  "id": "compact-lush-eight-seat-office",
+  "size": [
+    1536,
+    960
+  ],
+  "campusOrigin": [
+    720,
+    64
+  ],
+  "geometryTranslation": [
+    32,
+    32
+  ],
+  "avatarFrame": [
+    -16,
+    -16,
+    32,
+    32
+  ],
+  "avatarBody": [
+    -8,
+    0,
+    16,
+    16
+  ],
+  "avatarScale": 1,
+  "artScale": 1,
+  "ordinaryWorkSeats": 8,
+  "receptionServices": 2,
+  "meetingSeats": 6,
+  "floorTextLabels": false,
+  "foregroundPolicy": "fixed authored source foreground only; no actor-following alpha masks",
+  "layers": {
+    "base": "office-base.png",
+    "foreground": "office-foreground.png",
+    "glass": "office-glass.png",
+    "shade": "office-overhead-shade.png"
+  },
+  "floorEnvelopes": [
+    {
+      "x": 32,
+      "y": 32,
+      "width": 1024,
+      "height": 896
+    },
+    {
+      "x": 1056,
+      "y": 480,
+      "width": 448,
+      "height": 448
+    },
+    {
+      "x": 480,
+      "y": 928,
+      "width": 128,
+      "height": 32
+    },
+    {
+      "x": 1088,
+      "y": 928,
+      "width": 96,
+      "height": 32
+    }
+  ],
+  "colliders": [
+    {
+      "id": "north-shell",
+      "x": 32,
+      "y": 32,
+      "width": 1024,
+      "height": 176,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "west-shell",
+      "x": 32,
+      "y": 208,
+      "width": 96,
+      "height": 720,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "east-shell-upper",
+      "x": 992,
+      "y": 208,
+      "width": 64,
+      "height": 464,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "east-shell-lower",
+      "x": 992,
+      "y": 736,
+      "width": 64,
+      "height": 192,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "south-west-fascia",
+      "x": 128,
+      "y": 912,
+      "width": 352,
+      "height": 16,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "south-east-fascia",
+      "x": 608,
+      "y": 912,
+      "width": 384,
+      "height": 16,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-back",
+      "x": 176,
+      "y": 176,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-west",
+      "x": 128,
+      "y": 192,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-east",
+      "x": 432,
+      "y": 192,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-operations-cabinet-elbow",
+      "x": 176,
+      "y": 208,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-back",
+      "x": 656,
+      "y": 176,
+      "width": 256,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-west",
+      "x": 608,
+      "y": 192,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-east",
+      "x": 912,
+      "y": 192,
+      "width": 48,
+      "height": 192,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "studenthub-pod-recruitment-cabinet-elbow",
+      "x": 848,
+      "y": 208,
+      "width": 64,
+      "height": 32,
+      "kind": "receiver-fixed-cabinet"
+    },
+    {
+      "id": "cross-lounge-west-sofa-part-0",
+      "x": 224,
+      "y": 640,
+      "width": 128,
+      "height": 18,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-west-sofa-part-1",
+      "x": 224,
+      "y": 658,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-west-sofa-part-2",
+      "x": 340,
+      "y": 658,
+      "width": 12,
+      "height": 40,
+      "kind": "sofa-floor"
+    },
+    {
+      "id": "cross-lounge-west-coffee",
+      "x": 256,
+      "y": 736,
+      "width": 64,
+      "height": 32,
+      "kind": "coffee-table"
+    },
+    {
+      "id": "studenthub-operations-island-left",
+      "x": 176,
+      "y": 288,
+      "width": 64,
+      "height": 96,
+      "kind": "fixed-two-person-island"
+    },
+    {
+      "id": "studenthub-operations-island-right",
+      "x": 368,
+      "y": 288,
+      "width": 64,
+      "height": 96,
+      "kind": "fixed-two-person-island"
+    },
+    {
+      "id": "studenthub-recruitment-island-left",
+      "x": 656,
+      "y": 288,
+      "width": 64,
+      "height": 96,
+      "kind": "fixed-two-person-island"
+    },
+    {
+      "id": "studenthub-recruitment-island-right",
+      "x": 848,
+      "y": 288,
+      "width": 64,
+      "height": 96,
+      "kind": "fixed-two-person-island"
+    },
+    {
+      "id": "two-service-reception",
+      "x": 656,
+      "y": 768,
+      "width": 288,
+      "height": 32,
+      "kind": "reception-counter"
+    },
+    {
+      "id": "work-left-a-chair-rear-foot",
+      "x": 192,
+      "y": 416,
+      "width": 32,
+      "height": 16,
+      "kind": "painted-chair-rear-foot"
+    },
+    {
+      "id": "work-left-b-chair-rear-foot",
+      "x": 384,
+      "y": 416,
+      "width": 32,
+      "height": 16,
+      "kind": "painted-chair-rear-foot"
+    },
+    {
+      "id": "work-right-a-chair-rear-foot",
+      "x": 672,
+      "y": 416,
+      "width": 32,
+      "height": 16,
+      "kind": "painted-chair-rear-foot"
+    },
+    {
+      "id": "work-right-b-chair-rear-foot",
+      "x": 864,
+      "y": 416,
+      "width": 32,
+      "height": 16,
+      "kind": "painted-chair-rear-foot"
+    },
+    {
+      "id": "lounge-guest-chair-rear-foot",
+      "x": 272,
+      "y": 800,
+      "width": 32,
+      "height": 16,
+      "kind": "painted-chair-rear-foot"
+    },
+    {
+      "id": "meeting-a-chair-rear-foot",
+      "x": 1264,
+      "y": 736,
+      "width": 32,
+      "height": 16,
+      "kind": "painted-chair-rear-foot"
+    },
+    {
+      "id": "meeting-b-chair-rear-foot",
+      "x": 1328,
+      "y": 736,
+      "width": 32,
+      "height": 16,
+      "kind": "painted-chair-rear-foot"
+    },
+    {
+      "id": "meeting-c-chair-rear-foot",
+      "x": 1392,
+      "y": 736,
+      "width": 32,
+      "height": 16,
+      "kind": "painted-chair-rear-foot"
+    },
+    {
+      "id": "gallery-north-shell",
+      "x": 1056,
+      "y": 480,
+      "width": 448,
+      "height": 64,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-east-solid",
+      "x": 1472,
+      "y": 480,
+      "width": 32,
+      "height": 448,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-west-upper",
+      "x": 1056,
+      "y": 480,
+      "width": 32,
+      "height": 192,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-west-lower",
+      "x": 1056,
+      "y": 736,
+      "width": 32,
+      "height": 192,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-south-room-wall",
+      "x": 1184,
+      "y": 896,
+      "width": 288,
+      "height": 32,
+      "kind": "permanent-wall"
+    },
+    {
+      "id": "gallery-corridor-glass-3",
+      "x": 1184,
+      "y": 480,
+      "width": 16,
+      "height": 128,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "gallery-corridor-glass-4",
+      "x": 1184,
+      "y": 704,
+      "width": 16,
+      "height": 160,
+      "kind": "permanent-glass-rail"
+    },
+    {
+      "id": "conference-table",
+      "x": 1248,
+      "y": 608,
+      "width": 192,
+      "height": 96,
+      "kind": "meeting-table"
+    },
+    {
+      "id": "proposed-divider-240",
+      "x": 240,
+      "y": 320,
+      "width": 32,
+      "height": 128,
+      "kind": "visible-low-stone-balustrade"
+    },
+    {
+      "id": "proposed-divider-336",
+      "x": 336,
+      "y": 320,
+      "width": 32,
+      "height": 128,
+      "kind": "visible-low-stone-balustrade"
+    },
+    {
+      "id": "proposed-divider-720",
+      "x": 720,
+      "y": 320,
+      "width": 32,
+      "height": 128,
+      "kind": "visible-low-stone-balustrade"
+    },
+    {
+      "id": "proposed-divider-816",
+      "x": 816,
+      "y": 320,
+      "width": 32,
+      "height": 128,
+      "kind": "visible-low-stone-balustrade"
+    },
+    {
+      "id": "main-west-visible-jamb-closure10",
+      "x": 480,
+      "y": 912,
+      "width": 16,
+      "height": 48,
+      "kind": "native-stone-jamb"
+    },
+    {
+      "id": "main-east-visible-jamb-closure10",
+      "x": 592,
+      "y": 912,
+      "width": 16,
+      "height": 48,
+      "kind": "native-stone-jamb"
+    },
+    {
+      "id": "gallery-west-visible-jamb-closure10",
+      "x": 1088,
+      "y": 912,
+      "width": 16,
+      "height": 48,
+      "kind": "native-stone-jamb"
+    },
+    {
+      "id": "gallery-east-visible-jamb-closure10",
+      "x": 1168,
+      "y": 912,
+      "width": 16,
+      "height": 48,
+      "kind": "native-stone-jamb"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "cross-lounge-west-sofa-seat-1",
+      "x": 260,
+      "y": 676,
+      "kind": "lounge-seat",
+      "facing": "south"
+    },
+    {
+      "id": "cross-lounge-west-sofa-seat-2",
+      "x": 316,
+      "y": 676,
+      "kind": "lounge-seat",
+      "facing": "south"
+    },
+    {
+      "id": "cross-lounge-west-guest",
+      "x": 288,
+      "y": 784,
+      "kind": "lounge-seat",
+      "facing": "north"
+    },
+    {
+      "id": "conference-north-place-1",
+      "x": 1280,
+      "y": 592,
+      "kind": "meeting-seat",
+      "facing": "south",
+      "contactDirection": "south"
+    },
+    {
+      "id": "conference-south-place-1",
+      "x": 1280,
+      "y": 720,
+      "kind": "meeting-seat",
+      "facing": "north",
+      "contactDirection": "north"
+    },
+    {
+      "id": "conference-north-place-2",
+      "x": 1344,
+      "y": 592,
+      "kind": "meeting-seat",
+      "facing": "south",
+      "contactDirection": "south"
+    },
+    {
+      "id": "conference-south-place-2",
+      "x": 1344,
+      "y": 720,
+      "kind": "meeting-seat",
+      "facing": "north",
+      "contactDirection": "north"
+    },
+    {
+      "id": "conference-north-place-3",
+      "x": 1408,
+      "y": 592,
+      "kind": "meeting-seat",
+      "facing": "south",
+      "contactDirection": "south"
+    },
+    {
+      "id": "conference-south-place-3",
+      "x": 1408,
+      "y": 720,
+      "kind": "meeting-seat",
+      "facing": "north",
+      "contactDirection": "north"
+    },
+    {
+      "id": "studenthub-operations-island-left-north",
+      "x": 208,
+      "y": 272,
+      "kind": "work-seat",
+      "facing": "south",
+      "contactDirection": "south",
+      "approach": {
+        "x": 304,
+        "y": 272
+      },
+      "workSide": "left"
+    },
+    {
+      "id": "studenthub-operations-island-left-south",
+      "x": 208,
+      "y": 400,
+      "kind": "work-seat",
+      "facing": "north",
+      "contactDirection": "north",
+      "approach": {
+        "x": 304,
+        "y": 384
+      },
+      "workSide": "left"
+    },
+    {
+      "id": "studenthub-operations-island-right-north",
+      "x": 400,
+      "y": 272,
+      "kind": "work-seat",
+      "facing": "south",
+      "contactDirection": "south",
+      "approach": {
+        "x": 304,
+        "y": 272
+      },
+      "workSide": "left"
+    },
+    {
+      "id": "studenthub-operations-island-right-south",
+      "x": 400,
+      "y": 400,
+      "kind": "work-seat",
+      "facing": "north",
+      "contactDirection": "north",
+      "approach": {
+        "x": 304,
+        "y": 384
+      },
+      "workSide": "left"
+    },
+    {
+      "id": "studenthub-recruitment-island-left-north",
+      "x": 688,
+      "y": 272,
+      "kind": "work-seat",
+      "facing": "south",
+      "contactDirection": "south",
+      "approach": {
+        "x": 784,
+        "y": 272
+      },
+      "workSide": "right"
+    },
+    {
+      "id": "studenthub-recruitment-island-left-south",
+      "x": 688,
+      "y": 400,
+      "kind": "work-seat",
+      "facing": "north",
+      "contactDirection": "north",
+      "approach": {
+        "x": 784,
+        "y": 384
+      },
+      "workSide": "right"
+    },
+    {
+      "id": "studenthub-recruitment-island-right-north",
+      "x": 880,
+      "y": 272,
+      "kind": "work-seat",
+      "facing": "south",
+      "contactDirection": "south",
+      "approach": {
+        "x": 784,
+        "y": 272
+      },
+      "workSide": "right"
+    },
+    {
+      "id": "studenthub-recruitment-island-right-south",
+      "x": 880,
+      "y": 400,
+      "kind": "work-seat",
+      "facing": "north",
+      "contactDirection": "north",
+      "approach": {
+        "x": 784,
+        "y": 384
+      },
+      "workSide": "right"
+    },
+    {
+      "id": "reception-staff-1",
+      "x": 720,
+      "y": 752,
+      "kind": "reception-staff",
+      "facing": "south",
+      "contactDirection": "south",
+      "station": 1
+    },
+    {
+      "id": "reception-visitor-1",
+      "x": 720,
+      "y": 800,
+      "kind": "reception-visitor",
+      "facing": "north",
+      "contactDirection": "north",
+      "station": 1,
+      "intendedPartner": "reception-staff-1"
+    },
+    {
+      "id": "reception-queue-1",
+      "x": 720,
+      "y": 880,
+      "kind": "checkpoint",
+      "facing": "north",
+      "station": 1
+    },
+    {
+      "id": "reception-staff-2",
+      "x": 880,
+      "y": 752,
+      "kind": "reception-staff",
+      "facing": "south",
+      "contactDirection": "south",
+      "station": 2
+    },
+    {
+      "id": "reception-visitor-2",
+      "x": 880,
+      "y": 800,
+      "kind": "reception-visitor",
+      "facing": "north",
+      "contactDirection": "north",
+      "station": 2,
+      "intendedPartner": "reception-staff-2"
+    },
+    {
+      "id": "reception-queue-2",
+      "x": 880,
+      "y": 880,
+      "kind": "checkpoint",
+      "facing": "north",
+      "station": 2
+    },
+    {
+      "id": "main-entrance",
+      "x": 544,
+      "y": 944,
+      "kind": "checkpoint",
+      "facing": "north"
+    },
+    {
+      "id": "gallery-public-entrance",
+      "x": 1136,
+      "y": 944,
+      "kind": "checkpoint",
+      "facing": "north"
+    },
+    {
+      "id": "shared-spine",
+      "x": 544,
+      "y": 592,
+      "kind": "checkpoint",
+      "facing": "north"
+    },
+    {
+      "id": "gallery-main-threshold",
+      "x": 1040,
+      "y": 688,
+      "kind": "checkpoint",
+      "facing": "east"
+    },
+    {
+      "id": "gallery-corridor",
+      "x": 1136,
+      "y": 688,
+      "kind": "checkpoint",
+      "facing": "north"
+    },
+    {
+      "id": "conference-threshold",
+      "x": 1216,
+      "y": 648,
+      "kind": "checkpoint",
+      "facing": "east"
+    }
+  ],
+  "routes": [
+    {
+      "id": "studenthub-operations-island-left-north-egress",
+      "start": "studenthub-operations-island-left-north",
+      "points": [
+        [
+          208,
+          272
+        ],
+        [
+          304,
+          272
+        ],
+        [
+          304,
+          496
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          544,
+          912
+        ]
+      ],
+      "otherPeerMinimumRequired": 64,
+      "releaseBeyond": 96,
+      "returnPoints": [
+        [
+          544,
+          912
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          304,
+          496
+        ],
+        [
+          304,
+          272
+        ],
+        [
+          224,
+          272
+        ]
+      ]
+    },
+    {
+      "id": "studenthub-operations-island-left-south-egress",
+      "start": "studenthub-operations-island-left-south",
+      "points": [
+        [
+          208,
+          384
+        ],
+        [
+          304,
+          384
+        ],
+        [
+          304,
+          496
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          544,
+          912
+        ]
+      ],
+      "otherPeerMinimumRequired": 64,
+      "releaseBeyond": 96,
+      "returnPoints": [
+        [
+          544,
+          912
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          304,
+          496
+        ],
+        [
+          304,
+          384
+        ],
+        [
+          224,
+          384
+        ]
+      ]
+    },
+    {
+      "id": "studenthub-operations-island-right-north-egress",
+      "start": "studenthub-operations-island-right-north",
+      "points": [
+        [
+          400,
+          272
+        ],
+        [
+          304,
+          272
+        ],
+        [
+          304,
+          496
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          544,
+          912
+        ]
+      ],
+      "otherPeerMinimumRequired": 64,
+      "releaseBeyond": 96,
+      "returnPoints": [
+        [
+          544,
+          912
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          304,
+          496
+        ],
+        [
+          304,
+          272
+        ],
+        [
+          384,
+          272
+        ]
+      ]
+    },
+    {
+      "id": "studenthub-operations-island-right-south-egress",
+      "start": "studenthub-operations-island-right-south",
+      "points": [
+        [
+          400,
+          384
+        ],
+        [
+          304,
+          384
+        ],
+        [
+          304,
+          496
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          544,
+          912
+        ]
+      ],
+      "otherPeerMinimumRequired": 64,
+      "releaseBeyond": 96,
+      "returnPoints": [
+        [
+          544,
+          912
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          304,
+          496
+        ],
+        [
+          304,
+          384
+        ],
+        [
+          384,
+          384
+        ]
+      ]
+    },
+    {
+      "id": "studenthub-recruitment-island-left-north-egress",
+      "start": "studenthub-recruitment-island-left-north",
+      "points": [
+        [
+          688,
+          272
+        ],
+        [
+          784,
+          272
+        ],
+        [
+          784,
+          496
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          544,
+          912
+        ]
+      ],
+      "otherPeerMinimumRequired": 64,
+      "releaseBeyond": 96,
+      "returnPoints": [
+        [
+          544,
+          912
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          784,
+          496
+        ],
+        [
+          784,
+          272
+        ],
+        [
+          704,
+          272
+        ]
+      ]
+    },
+    {
+      "id": "studenthub-recruitment-island-left-south-egress",
+      "start": "studenthub-recruitment-island-left-south",
+      "points": [
+        [
+          688,
+          384
+        ],
+        [
+          784,
+          384
+        ],
+        [
+          784,
+          496
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          544,
+          912
+        ]
+      ],
+      "otherPeerMinimumRequired": 64,
+      "releaseBeyond": 96,
+      "returnPoints": [
+        [
+          544,
+          912
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          784,
+          496
+        ],
+        [
+          784,
+          384
+        ],
+        [
+          704,
+          384
+        ]
+      ]
+    },
+    {
+      "id": "studenthub-recruitment-island-right-north-egress",
+      "start": "studenthub-recruitment-island-right-north",
+      "points": [
+        [
+          880,
+          272
+        ],
+        [
+          784,
+          272
+        ],
+        [
+          784,
+          496
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          544,
+          912
+        ]
+      ],
+      "otherPeerMinimumRequired": 64,
+      "releaseBeyond": 96,
+      "returnPoints": [
+        [
+          544,
+          912
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          784,
+          496
+        ],
+        [
+          784,
+          272
+        ],
+        [
+          864,
+          272
+        ]
+      ]
+    },
+    {
+      "id": "studenthub-recruitment-island-right-south-egress",
+      "start": "studenthub-recruitment-island-right-south",
+      "points": [
+        [
+          880,
+          384
+        ],
+        [
+          784,
+          384
+        ],
+        [
+          784,
+          496
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          544,
+          912
+        ]
+      ],
+      "otherPeerMinimumRequired": 64,
+      "releaseBeyond": 96,
+      "returnPoints": [
+        [
+          544,
+          912
+        ],
+        [
+          544,
+          496
+        ],
+        [
+          784,
+          496
+        ],
+        [
+          784,
+          384
+        ],
+        [
+          864,
+          384
+        ]
+      ]
+    },
+    {
+      "id": "reception-visitor-1-approach",
+      "start": "main-entrance",
+      "points": [
+        [
+          544,
+          944
+        ],
+        [
+          544,
+          880
+        ],
+        [
+          720,
+          880
+        ],
+        [
+          720,
+          800
+        ]
+      ],
+      "intendedPartner": "reception-staff-1",
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          720,
+          800
+        ],
+        [
+          720,
+          880
+        ],
+        [
+          544,
+          880
+        ],
+        [
+          544,
+          944
+        ]
+      ]
+    },
+    {
+      "id": "reception-staff-1-approach",
+      "start": "shared-spine",
+      "points": [
+        [
+          544,
+          592
+        ],
+        [
+          544,
+          672
+        ],
+        [
+          720,
+          672
+        ],
+        [
+          720,
+          752
+        ]
+      ],
+      "intendedPartner": "reception-visitor-1",
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          720,
+          752
+        ],
+        [
+          720,
+          672
+        ],
+        [
+          544,
+          672
+        ],
+        [
+          544,
+          592
+        ]
+      ]
+    },
+    {
+      "id": "reception-visitor-2-approach",
+      "start": "main-entrance",
+      "points": [
+        [
+          544,
+          944
+        ],
+        [
+          544,
+          880
+        ],
+        [
+          880,
+          880
+        ],
+        [
+          880,
+          800
+        ]
+      ],
+      "intendedPartner": "reception-staff-2",
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          880,
+          800
+        ],
+        [
+          880,
+          880
+        ],
+        [
+          544,
+          880
+        ],
+        [
+          544,
+          944
+        ]
+      ]
+    },
+    {
+      "id": "reception-staff-2-approach",
+      "start": "shared-spine",
+      "points": [
+        [
+          544,
+          592
+        ],
+        [
+          544,
+          672
+        ],
+        [
+          880,
+          672
+        ],
+        [
+          880,
+          752
+        ]
+      ],
+      "intendedPartner": "reception-visitor-2",
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          880,
+          752
+        ],
+        [
+          880,
+          672
+        ],
+        [
+          544,
+          672
+        ],
+        [
+          544,
+          592
+        ]
+      ]
+    },
+    {
+      "id": "public-gallery-approach",
+      "start": "gallery-public-entrance",
+      "points": [
+        [
+          1136,
+          944
+        ],
+        [
+          1136,
+          688
+        ],
+        [
+          1184,
+          688
+        ],
+        [
+          1184,
+          648
+        ],
+        [
+          1216,
+          648
+        ]
+      ],
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          1216,
+          648
+        ],
+        [
+          1184,
+          648
+        ],
+        [
+          1184,
+          688
+        ],
+        [
+          1136,
+          688
+        ],
+        [
+          1136,
+          944
+        ]
+      ]
+    },
+    {
+      "id": "main-to-gallery",
+      "start": "shared-spine",
+      "points": [
+        [
+          544,
+          592
+        ],
+        [
+          544,
+          672
+        ],
+        [
+          976,
+          672
+        ],
+        [
+          976,
+          688
+        ],
+        [
+          1136,
+          688
+        ]
+      ],
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          1136,
+          688
+        ],
+        [
+          976,
+          688
+        ],
+        [
+          976,
+          672
+        ],
+        [
+          544,
+          672
+        ],
+        [
+          544,
+          592
+        ]
+      ]
+    },
+    {
+      "id": "cross-lounge-west-sofa-seat-1-approach",
+      "start": "shared-spine",
+      "points": [
+        [
+          544,
+          592
+        ],
+        [
+          544,
+          720
+        ],
+        [
+          260,
+          720
+        ],
+        [
+          260,
+          676
+        ]
+      ],
+      "intendedGroupIds": [
+        "cross-lounge-west-sofa-seat-1",
+        "cross-lounge-west-sofa-seat-2",
+        "cross-lounge-west-guest"
+      ],
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          260,
+          676
+        ],
+        [
+          260,
+          720
+        ],
+        [
+          544,
+          720
+        ],
+        [
+          544,
+          592
+        ]
+      ]
+    },
+    {
+      "id": "cross-lounge-west-sofa-seat-2-approach",
+      "start": "shared-spine",
+      "points": [
+        [
+          544,
+          592
+        ],
+        [
+          544,
+          720
+        ],
+        [
+          316,
+          720
+        ],
+        [
+          316,
+          676
+        ]
+      ],
+      "intendedGroupIds": [
+        "cross-lounge-west-sofa-seat-1",
+        "cross-lounge-west-sofa-seat-2",
+        "cross-lounge-west-guest"
+      ],
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          316,
+          676
+        ],
+        [
+          316,
+          720
+        ],
+        [
+          544,
+          720
+        ],
+        [
+          544,
+          592
+        ]
+      ]
+    },
+    {
+      "id": "cross-lounge-west-guest-approach",
+      "start": "shared-spine",
+      "points": [
+        [
+          544,
+          592
+        ],
+        [
+          544,
+          848
+        ],
+        [
+          336,
+          848
+        ],
+        [
+          336,
+          768
+        ],
+        [
+          288,
+          768
+        ]
+      ],
+      "intendedGroupIds": [
+        "cross-lounge-west-sofa-seat-1",
+        "cross-lounge-west-sofa-seat-2",
+        "cross-lounge-west-guest"
+      ],
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          288,
+          768
+        ],
+        [
+          336,
+          768
+        ],
+        [
+          336,
+          848
+        ],
+        [
+          544,
+          848
+        ],
+        [
+          544,
+          592
+        ]
+      ]
+    },
+    {
+      "id": "conference-north-place-1-approach",
+      "start": "conference-threshold",
+      "points": [
+        [
+          1216,
+          648
+        ],
+        [
+          1216,
+          560
+        ],
+        [
+          1280,
+          560
+        ],
+        [
+          1280,
+          592
+        ]
+      ],
+      "intendedGroupIds": [
+        "conference-north-place-1",
+        "conference-south-place-1",
+        "conference-north-place-2",
+        "conference-south-place-2",
+        "conference-north-place-3",
+        "conference-south-place-3"
+      ],
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          1280,
+          592
+        ],
+        [
+          1280,
+          560
+        ],
+        [
+          1216,
+          560
+        ],
+        [
+          1216,
+          648
+        ]
+      ]
+    },
+    {
+      "id": "conference-south-place-1-approach",
+      "start": "conference-threshold",
+      "points": [
+        [
+          1216,
+          648
+        ],
+        [
+          1216,
+          704
+        ],
+        [
+          1280,
+          704
+        ]
+      ],
+      "intendedGroupIds": [
+        "conference-north-place-1",
+        "conference-south-place-1",
+        "conference-north-place-2",
+        "conference-south-place-2",
+        "conference-north-place-3",
+        "conference-south-place-3"
+      ],
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          1280,
+          704
+        ],
+        [
+          1216,
+          704
+        ],
+        [
+          1216,
+          648
+        ]
+      ]
+    },
+    {
+      "id": "conference-north-place-2-approach",
+      "start": "conference-threshold",
+      "points": [
+        [
+          1216,
+          648
+        ],
+        [
+          1216,
+          560
+        ],
+        [
+          1344,
+          560
+        ],
+        [
+          1344,
+          592
+        ]
+      ],
+      "intendedGroupIds": [
+        "conference-north-place-1",
+        "conference-south-place-1",
+        "conference-north-place-2",
+        "conference-south-place-2",
+        "conference-north-place-3",
+        "conference-south-place-3"
+      ],
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          1344,
+          592
+        ],
+        [
+          1344,
+          560
+        ],
+        [
+          1216,
+          560
+        ],
+        [
+          1216,
+          648
+        ]
+      ]
+    },
+    {
+      "id": "conference-south-place-2-approach",
+      "start": "conference-threshold",
+      "points": [
+        [
+          1216,
+          648
+        ],
+        [
+          1216,
+          768
+        ],
+        [
+          1312,
+          768
+        ],
+        [
+          1312,
+          704
+        ],
+        [
+          1344,
+          704
+        ]
+      ],
+      "intendedGroupIds": [
+        "conference-north-place-1",
+        "conference-south-place-1",
+        "conference-north-place-2",
+        "conference-south-place-2",
+        "conference-north-place-3",
+        "conference-south-place-3"
+      ],
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          1344,
+          704
+        ],
+        [
+          1312,
+          704
+        ],
+        [
+          1312,
+          768
+        ],
+        [
+          1216,
+          768
+        ],
+        [
+          1216,
+          648
+        ]
+      ]
+    },
+    {
+      "id": "conference-north-place-3-approach",
+      "start": "conference-threshold",
+      "points": [
+        [
+          1216,
+          648
+        ],
+        [
+          1216,
+          560
+        ],
+        [
+          1408,
+          560
+        ],
+        [
+          1408,
+          592
+        ]
+      ],
+      "intendedGroupIds": [
+        "conference-north-place-1",
+        "conference-south-place-1",
+        "conference-north-place-2",
+        "conference-south-place-2",
+        "conference-north-place-3",
+        "conference-south-place-3"
+      ],
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          1408,
+          592
+        ],
+        [
+          1408,
+          560
+        ],
+        [
+          1216,
+          560
+        ],
+        [
+          1216,
+          648
+        ]
+      ]
+    },
+    {
+      "id": "conference-south-place-3-approach",
+      "start": "conference-threshold",
+      "points": [
+        [
+          1216,
+          648
+        ],
+        [
+          1216,
+          768
+        ],
+        [
+          1376,
+          768
+        ],
+        [
+          1376,
+          704
+        ],
+        [
+          1408,
+          704
+        ]
+      ],
+      "intendedGroupIds": [
+        "conference-north-place-1",
+        "conference-south-place-1",
+        "conference-north-place-2",
+        "conference-south-place-2",
+        "conference-north-place-3",
+        "conference-south-place-3"
+      ],
+      "otherPeerMinimumRequired": 64,
+      "returnPoints": [
+        [
+          1408,
+          704
+        ],
+        [
+          1376,
+          704
+        ],
+        [
+          1376,
+          768
+        ],
+        [
+          1216,
+          768
+        ],
+        [
+          1216,
+          648
+        ]
+      ]
+    }
+  ],
+  "social": {
+    "acquisition": 64,
+    "pairRetention": 96,
+    "seatColumnSpacing": 160,
+    "opposingSeatSpacing": 112,
+    "centralDeskRouteOtherPeerClearance": 80,
+    "workCrosslaneLastRowClearance": 112
+  },
+  "entrances": [
+    {
+      "id": "main",
+      "x": 480,
+      "y": 912,
+      "width": 128,
+      "height": 48,
+      "center": [
+        544,
+        944
+      ]
+    },
+    {
+      "id": "gallery-public",
+      "x": 1088,
+      "y": 912,
+      "width": 96,
+      "height": 48,
+      "center": [
+        1136,
+        944
+      ]
+    }
+  ],
+  "placeholders": {
+    "mainSign": {
+      "kind": "existing teal banner with gold leaf emblem",
+      "liveRoutingConfigured": false
+    },
+    "meetingSign": {
+      "kind": "existing teal gallery banner",
+      "liveRoutingConfigured": false
+    }
+  },
+  "liveServicesConfigured": false,
+  "studyNotice": "Isolated full-office32px phase study. South chair art and rear-foot collider both moved16px y. Internal cabinet/table/divider art unchanged; whole module placed16px east. Routes retained as source metadata and not acceptance proof.",
+  "standard32Integration": {
+    "worldOrigin": [
+      720,
+      64
+    ],
+    "legacyAuthoredRoutes": "Retained only as provenance; use source-model practical-floor-region results for current arrival evidence",
+    "noSeatSnap": true,
+    "noAutomaticFacing": true
+  },
+  "doorRegistration10": {
+    "internalWorldRect": [
+      1712,
+      736,
+      96,
+      64
+    ],
+    "publicOpenings": [
+      {
+        "id": "main",
+        "worldRect": [
+          1216,
+          976,
+          96,
+          48
+        ]
+      },
+      {
+        "id": "gallery-public",
+        "worldRect": [
+          1824,
+          976,
+          64,
+          48
+        ]
+      }
+    ],
+    "receiversRequired": [
+      [
+        1216,
+        992,
+        96,
+        32
+      ],
+      [
+        1824,
+        992,
+        64,
+        32
+      ]
+    ],
+    "scale": 1
+  }
+}

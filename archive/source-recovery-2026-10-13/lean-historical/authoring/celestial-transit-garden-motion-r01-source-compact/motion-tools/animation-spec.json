@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "revision": "motion-r01",
+  "engineCommit": "60e7afdc3f96ef32525597cd46bd41175d61a2ef",
+  "tileSize": 32,
+  "framesPerPlacement": 8,
+  "maps": {
+    "willow-quay-tea-garden": {
+      "kind": "water",
+      "color": [187, 237, 222],
+      "durationsMs": [260, 300, 280, 320, 300, 280, 340, 300],
+      "placements": [
+        {"cell": [31, 19], "center": [21, 24], "phase": 0, "width": 17},
+        {"cell": [34, 21], "center": [12, 23], "phase": 2, "width": 18},
+        {"cell": [29, 21], "center": [16, 25], "phase": 5, "width": 20},
+        {"cell": [32, 20], "center": [19, 17], "phase": 7, "width": 19}
+      ]
+    },
+    "lantern-souk-bazaar": {
+      "kind": "lantern",
+      "color": [255, 208, 79],
+      "durationsMs": [380, 280, 440, 320, 420, 300, 460, 360],
+      "placements": [
+        {"cell": [20, 27], "center": [27, 27], "radii": [3.5, 3.5], "phase": 0},
+        {"cell": [27, 27], "center": [6, 27], "radii": [3.5, 3.5], "phase": 3},
+        {"cell": [6, 23], "center": [18, 18], "radii": [4, 5], "phase": 6}
+      ]
+    },
+    "celestial-transit-garden": {
+      "kind": "water",
+      "color": [159, 232, 255],
+      "durationsMs": [300, 320, 280, 360, 300, 320, 380, 340],
+      "placements": [
+        {"cell": [15, 7], "center": [21, 24], "phase": 0, "width": 18},
+        {"cell": [32, 7], "center": [10, 25], "phase": 3, "width": 17},
+        {"cell": [16, 19], "center": [18, 25], "phase": 5, "width": 19},
+        {"cell": [31, 19], "center": [16, 15], "phase": 7, "width": 18}
+      ]
+    }
+  }
+}

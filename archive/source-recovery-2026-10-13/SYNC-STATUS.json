@@ -1,7 +1,7 @@
 {
-  "state": "RECOVERED_SOURCE_WITH_LIBRARY_BACKED_ASSETS_AND_RECONSTRUCTIONS",
-  "verified_parent_commit": "4333cac6d627df9e3f4a3f215fa0bdf2b9591c9f",
-  "verified_parent_tree": "e554e502cd306616ad78ac40c001ffdad63d52dc",
+  "state": "RECOVERED_SOURCE_RECONSTRUCTIONS_AND_LEAN_HISTORICAL_AUTHORING",
+  "verified_parent_commit": "070215b801971310726daa48e914d740911473df",
+  "verified_parent_tree": "9f9c5eff095ebf2cffd31c77df66dd47b7493354",
   "branch": "backup/map-source-recovery-2026-10-13",
   "parent_source_entries_verified": 1859,
   "package_views_indexed": 121,
@@ -12,5 +12,9 @@
   "r2_configured": false,
   "deployment": false,
   "new_live_acceptance": false,
-  "status_scope": "Source-tree contents and confirmed preceding commit; this file does not predict the commit SHA that will contain it."
+  "status_scope": "Source-tree contents and confirmed preceding commit; this file does not predict the commit SHA that will contain it.",
+  "historical_library_archive_count": 181,
+  "historical_original_members_indexed": 9018,
+  "historical_unique_authoring_files": 823,
+  "github_release_assets_available": false
 }

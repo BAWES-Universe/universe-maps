@@ -1,0 +1,25 @@
+{
+  "as_of_utc": "2026-10-13T10:56:00Z",
+  "reviewed_original_archives": {
+    "eligible_originals": 200,
+    "held_originals": 0,
+    "unique_originals": 195,
+    "logical_bytes": 4660506066,
+    "unique_bytes": 4559698609
+  },
+  "evidence": [
+    {
+      "name": "SCREENED-ORIGINAL-ARCHIVES-MANIFEST.json",
+      "sha256": "f7b5373a8b85d86854cf268572f60d7e7234ff8363ffe1295070f9c8fca134e2",
+      "size_bytes": 72657
+    },
+    {
+      "name": "ORIGINAL-ARCHIVE-SCREEN-RECONCILED.json",
+      "sha256": "8ed676abea090658ddf8fb60f1576bf638b236711eec2c50e4b86ffd3f651a6c",
+      "size_bytes": 4886808
+    }
+  ],
+  "resolved_earlier_flags": "The six original mobile-camera test-file flags were reviewed as synthetic fixtures or encoded-image false positives. They remain omitted here as nonessential test scope; original selection labels are retained as historical provenance.",
+  "upload_state": "Pending; this record does not claim GitHub release assets or R2 upload.",
+  "limitations": "Heuristic pattern screening plus exact independent match-span review; not proof of absence of every possible secret."
+}

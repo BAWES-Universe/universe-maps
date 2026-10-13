@@ -1,0 +1,43 @@
+{
+  "asset": "assets/garden-leaf-accent-native.png",
+  "frameSize": [
+    32,
+    32
+  ],
+  "durationsMs": [
+    350,
+    450,
+    350,
+    650
+  ],
+  "placements": [
+    {
+      "id": "southwest-hedge-tip",
+      "cell": [
+        51,
+        24
+      ],
+      "setting": "blocked established planting, outside all walking lanes"
+    },
+    {
+      "id": "northwest-flowerbed-tip",
+      "cell": [
+        58,
+        5
+      ],
+      "setting": "blocked established planting, outside all walking lanes"
+    },
+    {
+      "id": "southeast-leaf-mass",
+      "cell": [
+        75,
+        27
+      ],
+      "setting": "blocked established planting, outside all walking lanes"
+    }
+  ],
+  "behaviorProperties": false,
+  "belowActors": true,
+  "script": false,
+  "nativePauseSettingSupported": true
+}

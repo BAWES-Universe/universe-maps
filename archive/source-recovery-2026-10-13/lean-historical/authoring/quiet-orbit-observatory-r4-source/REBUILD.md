@@ -1,0 +1,12 @@
+# Quiet Orbit Observatory r4 | Matched furniture and padded audience
+
+Build with `python tools/build_observatory.py`, then `python tools/render_closeups.py`. Test with `node tools/verify_native_routes.cjs quiet-orbit-observatory` and `python tools/check_head_geometry.py quiet-orbit-observatory`. Python3, Pillow, NumPy and Node required. No network or image generation needed to rebuild.
+
+The approved r3 sky and setting are unchanged outside the authorized furniture footprints. Bespoke furniture matches midnight-blue upholstery, stone/slate and aged brass. Each new audience chair is24px wide, leaving8px side-by-side padding. The24-seat audience remains two four-seat blocks across three rows. Its center moves to x1200, aligned to the presentation board center near x1202. The central clear gap narrows to40px with one full walkable32px aisle; side approaches remain clear. The presenter proof anchor is centered accordingly.
+
+Four research desks use new80x43 matching workstation art and coordinating chairs. Each complete desk silhouette is protected by a two-row collision footprint; art is aligned3px north so its front legs do not enter the seat row. The two right-column stations move64px left (center496 to432) away from the curve. Empty and occupied closeups are provided so the thin brass framing/dark stone surface can be judged directly. No other architecture, telescope, floors, lighting, assets or sky are repainted. No additional audio or engine feature is introduced.
+
+1,232 native route legs /1,892,580 samples pass. All38 seat/room anchors remain reachable. The108-frame, nine-sheet exhaustive reachable-head union reports zero conflicts. Stage bounds contain all24 audience anchors, with the unchanged speaker/listener native properties. Stage proximity suppression depends on successful native stream joining; live AV/multi-user testing remains unperformed.
+
+## Actual occupied poses and licensing
+Proofs use varied actual repository Wokas at native32 resolution in existing standing idle frames, not a new seated animation. Raw Pipoya sheets are excluded from source archives. Supply the named licensed repository sheets from source-assets/WOKA-PROOF.json as source-assets/woka-proof-0.png through7.png to reproduce varied previews. Otherwise the pre-existing reference sprite is used; runtime remains byte-exact. A derived head occupancy mask retains full geometry QA. Do not redistribute standalone Pipoya sheets.

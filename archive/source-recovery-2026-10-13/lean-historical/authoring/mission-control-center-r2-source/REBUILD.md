@@ -1,0 +1,14 @@
+# Mission Control Center r2
+
+Run `python tools/build_mission.py` (Python 3, Pillow, NumPy), then `node tools/verify_native_routes.cjs mission-control-center` and `python tools/check_head_geometry.py mission-control-center`. No network or image generation is needed to rebuild.
+
+This bounded revision adds 384px of north canvas, completing the upper wall cap and a quiet mountain/night-sky view beyond. The existing 1536x1024 room is translated down384px at1:1 scale, with every original pixel outside the exact old/new chair sprite footprints and upper exterior background mask preserved. Formerly black upper-left/right exterior triangles now continue the night terrain; only pixels with original RGB channels <=3 qualify, and no architecture/interior is touched. No desks, screens, walls, rooms or other furniture are repainted or repositioned. The generated masters contribute the north strip and the narrowly masked upper exterior terrain. Lower exterior transitions fade back into the original black background.
+
+Six operator chairs now use a full rear-facing32x37 industrial chair sprite, positioned14px closer to the consoles within their existing walkable tiles. The briefing table has opposing seats: the north chair faces south, and the south chair faces north. Full silhouettes and casters are preserved, with foreground pixels unsafe for reachable character heads transferred below avatars without changing combined artwork. Furniture orientation and character direction in static proofs are authored; native runtime seating remains walk-to visual seating, without a custom sit animation.
+
+Checks:480 native route legs,694,238 body samples,zero body collisions;zero exhaustive reachable head conflicts across all12 frames of9 actual repository sprite sheets; all15 seat/room targets reached. Atlas roundtrip, asset closure and exact old-art preservation pass. Source fixture is pinned to60e7afdc3f96ef32525597cd46bd41175d61a2ef. No new audio, engine feature, account or provider was added. Meeting area semantics and spawn-only silence remain unchanged. Live browser, AV and multi-user playtests remain pending.
+
+Serve the complete map32 folder together. Import map.wam for the native meeting-area semantics. PNGs are static runtime-atlas review renders, not live room screenshots. Original r1 remains unchanged.
+
+## Review sprite licensing
+The varied Pipoya Woka sheets are existing repository assets, used only for review renders. Raw sheets are intentionally excluded from distributed source archives. Runtime rebuild uses a derived head-occupancy safety mask and remains byte-exact without those sheets. To recreate varied occupied previews, supply the named sheets in source-assets/WOKA-PROOF.json from your existing licensed repository as source-assets/woka-proof-0.png through7.png. Without them, review rendering uses the pre-existing reference sprite. Do not redistribute raw Pipoya sheets as standalone assets.

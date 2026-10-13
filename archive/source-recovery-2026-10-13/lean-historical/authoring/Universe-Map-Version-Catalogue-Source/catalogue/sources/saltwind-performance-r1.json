@@ -1,0 +1,55 @@
+{
+  "id": "saltwind-performance-r1",
+  "title": "Saltwind Performance Courtyard \u00b7 r1",
+  "version": "r1",
+  "review_ready": true,
+  "group": "new",
+  "use_case": "Event Room: performances, shared listening and small community gatherings",
+  "style": "Open-air coastal stone and timber pavilion, ochre padded benches, sea-blue waterside grounds",
+  "implementation": "Visual concept only",
+  "render": "Clean original concept and two-page native32 scale review available",
+  "source_validation": "Concept scale reference only; grid, collision and occupancy not validated",
+  "live_playtest": "Not verified",
+  "publication": "Not published",
+  "decision": "Pending",
+  "decision_notes": "Root visual direction passes for user review on 11 October 2026. User design approval has not been received. No TMJ or runnable package exists.",
+  "acceptance": "User design review pending",
+  "tmj_url": null,
+  "wam_url": null,
+  "source_url": null,
+  "preview_url": null,
+  "preview_path": "/workspace/shared/map-concept/saltwind-performance-r1/Saltwind-Performance-r1-concept.png",
+  "review_pdf_path": "/workspace/shared/map-concept/saltwind-performance-r1/Saltwind-Performance-r1-review.pdf",
+  "generated_with": "built-in image_gen",
+  "created_at": "2026-10-11T15:02:00Z",
+  "setup_instructions": "Review image and PDF for visual direction. Concept bundle rebuilds the review PDF; it is not an importable map.",
+  "limitations": [
+    "Aisle clearances and door approaches must be widened/snapped to the 32px grid.",
+    "Diagonal stage ramp, shoreline collision and foreground depth are unvalidated.",
+    "Woka references use unmodified native32 standing frames; no seating animation or occupied-route validation.",
+    "Audio zones, hosting, broadcast, piano playback, media and interactions are not configured."
+  ],
+  "artifacts": [
+    {
+      "name": "Saltwind-Performance-r1-concept.png",
+      "role": "preview",
+      "library_file_id": "libfile_e3279457872481918fb59c7cae0d93d2",
+      "version": 0,
+      "sha256": "7a40786ab5bdd36ac493f80ec9a5a204a83d103ab0b85885896904cb0cef5a65"
+    },
+    {
+      "name": "Saltwind-Performance-r1-review.pdf",
+      "role": "review",
+      "library_file_id": "libfile_4d8449e6341c8191b9eaf449496a6fac",
+      "version": 0,
+      "sha256": "c8448510488853c5e44017f06eb5703f05330de2152af06035fe86708654a35c"
+    },
+    {
+      "name": "Saltwind-Performance-r1-concept-bundle.zip",
+      "role": "concept_provenance",
+      "library_file_id": "libfile_48be1cf81dc88191a4ae9d55a635e43c",
+      "version": 0,
+      "sha256": "fa737dadd401f16fc4c0fb300ebef02f6025e295b4e6020ca240ad8aba242041"
+    }
+  ]
+}

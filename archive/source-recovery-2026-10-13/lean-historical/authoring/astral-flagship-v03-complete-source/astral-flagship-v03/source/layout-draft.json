@@ -1,0 +1,27 @@
+{
+  "status": "Art development; no runtime compile or activation",
+  "tileSize": 32,
+  "worldPixels": [2560, 1920],
+  "preserveOriginalPixels": [0, 0, 1536, 944],
+  "foyerInterior": [64, 1008, 1472, 1712],
+  "foyerInteriorTiles": [44, 22],
+  "hallDoorOpenings": [[512, 944, 608, 1008], [928, 944, 1024, 1008]],
+  "groupBays": [
+    {"id":"lounge-01","bounds":[96,1072,448,1296]},
+    {"id":"lounge-02","bounds":[640,1072,864,1296]},
+    {"id":"lounge-03","bounds":[1120,1072,1440,1296]},
+    {"id":"lounge-04","bounds":[96,1456,448,1680]}
+  ],
+  "mainArrivalOpening": [640,1712,896,1776],
+  "mainArrivalClearAxis": [640,1440,896,1776],
+  "hallApproaches": [[496,1008,624,1440],[912,1008,1040,1440]],
+  "eastWestConcourse": [96,1312,2496,1440],
+  "terraceDoorOpening": [1472,1344,1536,1472],
+  "terraceInterior": [1536,1088,2496,1712],
+  "coffeeServiceBay": [1728,1120,2112,1360],
+  "coffeeCustomerApron": [1728,1232,2112,1360],
+  "informalPairPockets": [[1168,1504,1408,1664],[1648,1536,1856,1696],[2176,1152,2400,1280]],
+  "foregroundIntent": "Original hall foreground reconstructed separately; chair lower apron/back strip authored independently; new architecture and furniture retained as layers. Greg is review-only at unchanged native32.",
+  "scenery": "Connected continuous mainland garden, visible north/east of terrace. No water or audio.",
+  "runtimeNote": "Bounded visual lounge rugs only. No private-media claim, room provider or live room activation."
+}

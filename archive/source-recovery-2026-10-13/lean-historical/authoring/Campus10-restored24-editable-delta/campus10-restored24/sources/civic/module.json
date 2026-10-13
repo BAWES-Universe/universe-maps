@@ -1,0 +1,3702 @@
+{
+  "format": "universe-civic-v1",
+  "tileSize": 32,
+  "size": [
+    640,
+    1152
+  ],
+  "worldOrigin": [
+    0,
+    1136
+  ],
+  "publicDoorAnchors": [
+    [
+      608,
+      384
+    ],
+    [
+      608,
+      992
+    ]
+  ],
+  "artProjection": "high orthographic; shallow front faces; no converging perspective",
+  "avatar": {
+    "frameSize": [
+      32,
+      32
+    ],
+    "scale": 1,
+    "bodyRelative": {
+      "x": -8,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "headRelative": {
+      "x": -16,
+      "y": -16,
+      "width": 32,
+      "height": 14
+    }
+  },
+  "students": [
+    {
+      "id": "student-1",
+      "center": [
+        160,
+        280
+      ],
+      "frame": 10,
+      "facing": "north",
+      "stationOrigin": [
+        112,
+        192
+      ],
+      "desk": {
+        "id": "desk",
+        "x": 128,
+        "y": 208,
+        "width": 64,
+        "height": 64
+      },
+      "approach": [
+        224,
+        272
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 146,
+            "y": 304,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 170,
+            "y": 304,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      },
+      "baseline09Center": [
+        160,
+        272
+      ],
+      "legacyApproach": [
+        160,
+        320
+      ],
+      "sideApproaches": [
+        [
+          112,
+          272
+        ],
+        [
+          224,
+          272
+        ]
+      ]
+    },
+    {
+      "id": "student-2",
+      "center": [
+        320,
+        280
+      ],
+      "frame": 10,
+      "facing": "north",
+      "stationOrigin": [
+        272,
+        192
+      ],
+      "desk": {
+        "id": "desk",
+        "x": 288,
+        "y": 208,
+        "width": 64,
+        "height": 64
+      },
+      "approach": [
+        256,
+        272
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 306,
+            "y": 304,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 330,
+            "y": 304,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      },
+      "baseline09Center": [
+        320,
+        272
+      ],
+      "legacyApproach": [
+        320,
+        320
+      ],
+      "sideApproaches": [
+        [
+          256,
+          272
+        ],
+        [
+          384,
+          272
+        ]
+      ]
+    },
+    {
+      "id": "student-3",
+      "center": [
+        480,
+        280
+      ],
+      "frame": 10,
+      "facing": "north",
+      "stationOrigin": [
+        432,
+        192
+      ],
+      "desk": {
+        "id": "desk",
+        "x": 448,
+        "y": 208,
+        "width": 64,
+        "height": 64
+      },
+      "approach": [
+        416,
+        272
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 466,
+            "y": 304,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 490,
+            "y": 304,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      },
+      "baseline09Center": [
+        480,
+        272
+      ],
+      "legacyApproach": [
+        480,
+        320
+      ],
+      "sideApproaches": [
+        [
+          416,
+          272
+        ],
+        [
+          528,
+          272
+        ]
+      ]
+    },
+    {
+      "id": "student-4",
+      "center": [
+        160,
+        408
+      ],
+      "frame": 10,
+      "facing": "north",
+      "stationOrigin": [
+        112,
+        320
+      ],
+      "desk": {
+        "id": "desk",
+        "x": 128,
+        "y": 336,
+        "width": 64,
+        "height": 64
+      },
+      "approach": [
+        224,
+        400
+      ],
+      "baseline09Center": [
+        160,
+        400
+      ],
+      "legacyApproach": [
+        160,
+        448
+      ],
+      "sideApproaches": [
+        [
+          112,
+          400
+        ],
+        [
+          224,
+          400
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 146,
+            "y": 432,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 170,
+            "y": 432,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "student-5",
+      "center": [
+        320,
+        408
+      ],
+      "frame": 10,
+      "facing": "north",
+      "stationOrigin": [
+        272,
+        320
+      ],
+      "desk": {
+        "id": "desk",
+        "x": 288,
+        "y": 336,
+        "width": 64,
+        "height": 64
+      },
+      "approach": [
+        256,
+        400
+      ],
+      "baseline09Center": [
+        320,
+        400
+      ],
+      "legacyApproach": [
+        320,
+        448
+      ],
+      "sideApproaches": [
+        [
+          256,
+          400
+        ],
+        [
+          384,
+          400
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 306,
+            "y": 432,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 330,
+            "y": 432,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "student-6",
+      "center": [
+        480,
+        408
+      ],
+      "frame": 10,
+      "facing": "north",
+      "stationOrigin": [
+        432,
+        320
+      ],
+      "desk": {
+        "id": "desk",
+        "x": 448,
+        "y": 336,
+        "width": 64,
+        "height": 64
+      },
+      "approach": [
+        416,
+        400
+      ],
+      "baseline09Center": [
+        480,
+        400
+      ],
+      "legacyApproach": [
+        480,
+        448
+      ],
+      "sideApproaches": [
+        [
+          416,
+          400
+        ],
+        [
+          528,
+          400
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 466,
+            "y": 432,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 490,
+            "y": 432,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    }
+  ],
+  "audience": [
+    {
+      "id": "attendee-1",
+      "center": [
+        152,
+        824
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        128,
+        808
+      ],
+      "approach": [
+        216,
+        816
+      ],
+      "baseline09Center": [
+        144,
+        816
+      ],
+      "legacyApproach": [
+        144,
+        856
+      ],
+      "sideApproaches": [
+        [
+          112,
+          816
+        ],
+        [
+          216,
+          816
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          8,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 138,
+            "y": 848,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 162,
+            "y": 848,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-2",
+      "center": [
+        200,
+        824
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        176,
+        808
+      ],
+      "approach": [
+        264,
+        816
+      ],
+      "baseline09Center": [
+        200,
+        816
+      ],
+      "legacyApproach": [
+        200,
+        856
+      ],
+      "sideApproaches": [
+        [
+          136,
+          816
+        ],
+        [
+          264,
+          816
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 186,
+            "y": 848,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 210,
+            "y": 848,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-3",
+      "center": [
+        256,
+        824
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        232,
+        808
+      ],
+      "approach": [
+        320,
+        816
+      ],
+      "baseline09Center": [
+        256,
+        816
+      ],
+      "legacyApproach": [
+        256,
+        856
+      ],
+      "sideApproaches": [
+        [
+          192,
+          816
+        ],
+        [
+          320,
+          816
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 242,
+            "y": 848,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 266,
+            "y": 848,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-4",
+      "center": [
+        384,
+        824
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        360,
+        808
+      ],
+      "approach": [
+        320,
+        816
+      ],
+      "baseline09Center": [
+        384,
+        816
+      ],
+      "legacyApproach": [
+        384,
+        856
+      ],
+      "sideApproaches": [
+        [
+          320,
+          816
+        ],
+        [
+          448,
+          816
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 370,
+            "y": 848,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 394,
+            "y": 848,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-5",
+      "center": [
+        440,
+        824
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        416,
+        808
+      ],
+      "approach": [
+        376,
+        816
+      ],
+      "baseline09Center": [
+        440,
+        816
+      ],
+      "legacyApproach": [
+        440,
+        856
+      ],
+      "sideApproaches": [
+        [
+          376,
+          816
+        ],
+        [
+          504,
+          816
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 426,
+            "y": 848,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 450,
+            "y": 848,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-6",
+      "center": [
+        488,
+        824
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        464,
+        808
+      ],
+      "approach": [
+        424,
+        816
+      ],
+      "baseline09Center": [
+        496,
+        816
+      ],
+      "legacyApproach": [
+        496,
+        856
+      ],
+      "sideApproaches": [
+        [
+          424,
+          816
+        ],
+        [
+          528,
+          816
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          -8,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 474,
+            "y": 848,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 498,
+            "y": 848,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-7",
+      "center": [
+        152,
+        888
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        128,
+        872
+      ],
+      "approach": [
+        216,
+        880
+      ],
+      "baseline09Center": [
+        144,
+        880
+      ],
+      "legacyApproach": [
+        144,
+        920
+      ],
+      "sideApproaches": [
+        [
+          112,
+          880
+        ],
+        [
+          216,
+          880
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          8,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 138,
+            "y": 912,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 162,
+            "y": 912,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-8",
+      "center": [
+        200,
+        888
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        176,
+        872
+      ],
+      "approach": [
+        264,
+        880
+      ],
+      "baseline09Center": [
+        200,
+        880
+      ],
+      "legacyApproach": [
+        200,
+        920
+      ],
+      "sideApproaches": [
+        [
+          136,
+          880
+        ],
+        [
+          264,
+          880
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 186,
+            "y": 912,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 210,
+            "y": 912,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-9",
+      "center": [
+        256,
+        888
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        232,
+        872
+      ],
+      "approach": [
+        320,
+        880
+      ],
+      "baseline09Center": [
+        256,
+        880
+      ],
+      "legacyApproach": [
+        256,
+        920
+      ],
+      "sideApproaches": [
+        [
+          192,
+          880
+        ],
+        [
+          320,
+          880
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 242,
+            "y": 912,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 266,
+            "y": 912,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-10",
+      "center": [
+        384,
+        888
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        360,
+        872
+      ],
+      "approach": [
+        320,
+        880
+      ],
+      "baseline09Center": [
+        384,
+        880
+      ],
+      "legacyApproach": [
+        384,
+        920
+      ],
+      "sideApproaches": [
+        [
+          320,
+          880
+        ],
+        [
+          448,
+          880
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 370,
+            "y": 912,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 394,
+            "y": 912,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-11",
+      "center": [
+        440,
+        888
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        416,
+        872
+      ],
+      "approach": [
+        376,
+        880
+      ],
+      "baseline09Center": [
+        440,
+        880
+      ],
+      "legacyApproach": [
+        440,
+        920
+      ],
+      "sideApproaches": [
+        [
+          376,
+          880
+        ],
+        [
+          504,
+          880
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 426,
+            "y": 912,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 450,
+            "y": 912,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-12",
+      "center": [
+        488,
+        888
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        464,
+        872
+      ],
+      "approach": [
+        424,
+        880
+      ],
+      "baseline09Center": [
+        496,
+        880
+      ],
+      "legacyApproach": [
+        496,
+        920
+      ],
+      "sideApproaches": [
+        [
+          424,
+          880
+        ],
+        [
+          528,
+          880
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          -8,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 474,
+            "y": 912,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 498,
+            "y": 912,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-13",
+      "center": [
+        152,
+        952
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        128,
+        936
+      ],
+      "approach": [
+        216,
+        944
+      ],
+      "baseline09Center": [
+        144,
+        944
+      ],
+      "legacyApproach": [
+        144,
+        984
+      ],
+      "sideApproaches": [
+        [
+          112,
+          944
+        ],
+        [
+          216,
+          944
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          8,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 138,
+            "y": 976,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 162,
+            "y": 976,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-14",
+      "center": [
+        200,
+        952
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        176,
+        936
+      ],
+      "approach": [
+        264,
+        944
+      ],
+      "baseline09Center": [
+        200,
+        944
+      ],
+      "legacyApproach": [
+        200,
+        984
+      ],
+      "sideApproaches": [
+        [
+          136,
+          944
+        ],
+        [
+          264,
+          944
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 186,
+            "y": 976,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 210,
+            "y": 976,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-15",
+      "center": [
+        256,
+        952
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        232,
+        936
+      ],
+      "approach": [
+        320,
+        944
+      ],
+      "baseline09Center": [
+        256,
+        944
+      ],
+      "legacyApproach": [
+        256,
+        984
+      ],
+      "sideApproaches": [
+        [
+          192,
+          944
+        ],
+        [
+          320,
+          944
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 242,
+            "y": 976,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 266,
+            "y": 976,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-16",
+      "center": [
+        384,
+        952
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        360,
+        936
+      ],
+      "approach": [
+        320,
+        944
+      ],
+      "baseline09Center": [
+        384,
+        944
+      ],
+      "legacyApproach": [
+        384,
+        984
+      ],
+      "sideApproaches": [
+        [
+          320,
+          944
+        ],
+        [
+          448,
+          944
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 370,
+            "y": 976,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 394,
+            "y": 976,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-17",
+      "center": [
+        440,
+        952
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        416,
+        936
+      ],
+      "approach": [
+        376,
+        944
+      ],
+      "baseline09Center": [
+        440,
+        944
+      ],
+      "legacyApproach": [
+        440,
+        984
+      ],
+      "sideApproaches": [
+        [
+          376,
+          944
+        ],
+        [
+          504,
+          944
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 426,
+            "y": 976,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 450,
+            "y": 976,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-18",
+      "center": [
+        488,
+        952
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        464,
+        936
+      ],
+      "approach": [
+        424,
+        944
+      ],
+      "baseline09Center": [
+        496,
+        944
+      ],
+      "legacyApproach": [
+        496,
+        984
+      ],
+      "sideApproaches": [
+        [
+          424,
+          944
+        ],
+        [
+          528,
+          944
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          -8,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 474,
+            "y": 976,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 498,
+            "y": 976,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-19",
+      "center": [
+        152,
+        1016
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        128,
+        1000
+      ],
+      "approach": [
+        216,
+        1008
+      ],
+      "baseline09Center": [
+        144,
+        1008
+      ],
+      "legacyApproach": [
+        144,
+        1048
+      ],
+      "sideApproaches": [
+        [
+          112,
+          1008
+        ],
+        [
+          216,
+          1008
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          8,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 138,
+            "y": 1040,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 162,
+            "y": 1040,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-20",
+      "center": [
+        200,
+        1016
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        176,
+        1000
+      ],
+      "approach": [
+        264,
+        1008
+      ],
+      "baseline09Center": [
+        200,
+        1008
+      ],
+      "legacyApproach": [
+        200,
+        1048
+      ],
+      "sideApproaches": [
+        [
+          136,
+          1008
+        ],
+        [
+          264,
+          1008
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 186,
+            "y": 1040,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 210,
+            "y": 1040,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-21",
+      "center": [
+        256,
+        1016
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        232,
+        1000
+      ],
+      "approach": [
+        320,
+        1008
+      ],
+      "baseline09Center": [
+        256,
+        1008
+      ],
+      "legacyApproach": [
+        256,
+        1048
+      ],
+      "sideApproaches": [
+        [
+          192,
+          1008
+        ],
+        [
+          320,
+          1008
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 242,
+            "y": 1040,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 266,
+            "y": 1040,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-22",
+      "center": [
+        384,
+        1016
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        360,
+        1000
+      ],
+      "approach": [
+        320,
+        1008
+      ],
+      "baseline09Center": [
+        384,
+        1008
+      ],
+      "legacyApproach": [
+        384,
+        1048
+      ],
+      "sideApproaches": [
+        [
+          320,
+          1008
+        ],
+        [
+          448,
+          1008
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 370,
+            "y": 1040,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 394,
+            "y": 1040,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-23",
+      "center": [
+        440,
+        1016
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        416,
+        1000
+      ],
+      "approach": [
+        376,
+        1008
+      ],
+      "baseline09Center": [
+        440,
+        1008
+      ],
+      "legacyApproach": [
+        440,
+        1048
+      ],
+      "sideApproaches": [
+        [
+          376,
+          1008
+        ],
+        [
+          504,
+          1008
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          0,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 426,
+            "y": 1040,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 450,
+            "y": 1040,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    },
+    {
+      "id": "attendee-24",
+      "center": [
+        488,
+        1016
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        464,
+        1000
+      ],
+      "approach": [
+        424,
+        1008
+      ],
+      "baseline09Center": [
+        496,
+        1008
+      ],
+      "legacyApproach": [
+        496,
+        1048
+      ],
+      "sideApproaches": [
+        [
+          424,
+          1008
+        ],
+        [
+          528,
+          1008
+        ]
+      ],
+      "chairRegistration": {
+        "baseline": "Frozen Campus09 registered native art",
+        "translation": [
+          -8,
+          8
+        ],
+        "foregroundSplit": "Retain actual back/arm pixels at or below new seat-anchor y+6 above actors; transfer only upper source back pixels intact below actors. Fixed semantic split.",
+        "rearFeet": [
+          {
+            "x": 474,
+            "y": 1040,
+            "width": 4,
+            "height": 4
+          },
+          {
+            "x": 498,
+            "y": 1040,
+            "width": 4,
+            "height": 4
+          }
+        ],
+        "noSeatSnapping": true
+      }
+    }
+  ],
+  "teacher": {
+    "id": "teacher",
+    "center": [
+      320,
+      152
+    ],
+    "frame": 1
+  },
+  "speaker": {
+    "id": "speaker",
+    "center": [
+      320,
+      688
+    ],
+    "frame": 1,
+    "podiumOrigin": [
+      280,
+      680
+    ],
+    "collision": {
+      "id": "podium",
+      "x": 288,
+      "y": 720,
+      "width": 64,
+      "height": 32
+    }
+  },
+  "blockers": [
+    {
+      "id": "west-perimeter",
+      "x": 32,
+      "y": 32,
+      "width": 32,
+      "height": 1088
+    },
+    {
+      "id": "north-builtins",
+      "x": 64,
+      "y": 32,
+      "width": 512,
+      "height": 112
+    },
+    {
+      "id": "east-upper",
+      "x": 576,
+      "y": 32,
+      "width": 32,
+      "height": 304
+    },
+    {
+      "id": "east-middle",
+      "x": 576,
+      "y": 432,
+      "width": 32,
+      "height": 512
+    },
+    {
+      "id": "east-lower",
+      "x": 576,
+      "y": 1040,
+      "width": 32,
+      "height": 80
+    },
+    {
+      "id": "south-perimeter",
+      "x": 64,
+      "y": 1088,
+      "width": 512,
+      "height": 32
+    },
+    {
+      "id": "room-divider",
+      "x": 64,
+      "y": 512,
+      "width": 512,
+      "height": 64
+    },
+    {
+      "id": "stage-back",
+      "x": 64,
+      "y": 576,
+      "width": 512,
+      "height": 48
+    },
+    {
+      "id": "stage-front",
+      "x": 176,
+      "y": 736,
+      "width": 296,
+      "height": 20
+    },
+    {
+      "id": "podium-footprint",
+      "x": 288,
+      "y": 720,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "id": "student-1-desk",
+      "x": 128,
+      "y": 208,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-2-desk",
+      "x": 288,
+      "y": 208,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-3-desk",
+      "x": 448,
+      "y": 208,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-4-desk",
+      "x": 128,
+      "y": 336,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-5-desk",
+      "x": 288,
+      "y": 336,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-6-desk",
+      "x": 448,
+      "y": 336,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "planter-80-172",
+      "x": 64,
+      "y": 156,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-172",
+      "x": 544,
+      "y": 156,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-80-492",
+      "x": 64,
+      "y": 476,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-492",
+      "x": 544,
+      "y": 476,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-80-804",
+      "x": 64,
+      "y": 788,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-804",
+      "x": 544,
+      "y": 788,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-80-1064",
+      "x": 64,
+      "y": 1048,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-1064",
+      "x": 544,
+      "y": 1048,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "student-1-visible-rear-foot-1",
+      "x": 146,
+      "y": 304,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-1-visible-rear-foot-2",
+      "x": 170,
+      "y": 304,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-2-visible-rear-foot-1",
+      "x": 306,
+      "y": 304,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-2-visible-rear-foot-2",
+      "x": 330,
+      "y": 304,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-3-visible-rear-foot-1",
+      "x": 466,
+      "y": 304,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-3-visible-rear-foot-2",
+      "x": 490,
+      "y": 304,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-4-visible-rear-foot-1",
+      "x": 146,
+      "y": 432,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-4-visible-rear-foot-2",
+      "x": 170,
+      "y": 432,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-5-visible-rear-foot-1",
+      "x": 306,
+      "y": 432,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-5-visible-rear-foot-2",
+      "x": 330,
+      "y": 432,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-6-visible-rear-foot-1",
+      "x": 466,
+      "y": 432,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-6-visible-rear-foot-2",
+      "x": 490,
+      "y": 432,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-1-visible-rear-foot-1",
+      "x": 138,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-1-visible-rear-foot-2",
+      "x": 162,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-3-visible-rear-foot-1",
+      "x": 242,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-3-visible-rear-foot-2",
+      "x": 266,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-4-visible-rear-foot-1",
+      "x": 370,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-4-visible-rear-foot-2",
+      "x": 394,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-6-visible-rear-foot-1",
+      "x": 474,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-6-visible-rear-foot-2",
+      "x": 498,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-7-visible-rear-foot-1",
+      "x": 138,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-7-visible-rear-foot-2",
+      "x": 162,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-9-visible-rear-foot-1",
+      "x": 242,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-9-visible-rear-foot-2",
+      "x": 266,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-10-visible-rear-foot-1",
+      "x": 370,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-10-visible-rear-foot-2",
+      "x": 394,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-12-visible-rear-foot-1",
+      "x": 474,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-12-visible-rear-foot-2",
+      "x": 498,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-13-visible-rear-foot-1",
+      "x": 138,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-13-visible-rear-foot-2",
+      "x": 162,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-15-visible-rear-foot-1",
+      "x": 242,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-15-visible-rear-foot-2",
+      "x": 266,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-16-visible-rear-foot-1",
+      "x": 370,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-16-visible-rear-foot-2",
+      "x": 394,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-18-visible-rear-foot-1",
+      "x": 474,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-18-visible-rear-foot-2",
+      "x": 498,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-19-visible-rear-foot-1",
+      "x": 138,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-19-visible-rear-foot-2",
+      "x": 162,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-21-visible-rear-foot-1",
+      "x": 242,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-21-visible-rear-foot-2",
+      "x": 266,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-22-visible-rear-foot-1",
+      "x": 370,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-22-visible-rear-foot-2",
+      "x": 394,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-24-visible-rear-foot-1",
+      "x": 474,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-24-visible-rear-foot-2",
+      "x": 498,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-2-visible-rear-foot-1",
+      "x": 186,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-2-visible-rear-foot-2",
+      "x": 210,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-5-visible-rear-foot-1",
+      "x": 426,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-5-visible-rear-foot-2",
+      "x": 450,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-8-visible-rear-foot-1",
+      "x": 186,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-8-visible-rear-foot-2",
+      "x": 210,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-11-visible-rear-foot-1",
+      "x": 426,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-11-visible-rear-foot-2",
+      "x": 450,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-14-visible-rear-foot-1",
+      "x": 186,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-14-visible-rear-foot-2",
+      "x": 210,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-17-visible-rear-foot-1",
+      "x": 426,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-17-visible-rear-foot-2",
+      "x": 450,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-20-visible-rear-foot-1",
+      "x": 186,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-20-visible-rear-foot-2",
+      "x": 210,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-23-visible-rear-foot-1",
+      "x": 426,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-23-visible-rear-foot-2",
+      "x": 450,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    }
+  ],
+  "routes": [
+    {
+      "id": "enter-student-1",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          304
+        ],
+        [
+          160,
+          320
+        ],
+        [
+          160,
+          272
+        ]
+      ],
+      "target": "student-1",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-student-2",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          304
+        ],
+        [
+          320,
+          320
+        ],
+        [
+          320,
+          272
+        ]
+      ],
+      "target": "student-2",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-student-3",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          304
+        ],
+        [
+          480,
+          320
+        ],
+        [
+          480,
+          272
+        ]
+      ],
+      "target": "student-3",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-student-4",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          448
+        ],
+        [
+          160,
+          448
+        ],
+        [
+          160,
+          400
+        ]
+      ],
+      "target": "student-4",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-student-5",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          448
+        ],
+        [
+          320,
+          448
+        ],
+        [
+          320,
+          400
+        ]
+      ],
+      "target": "student-5",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-student-6",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          448
+        ],
+        [
+          480,
+          448
+        ],
+        [
+          480,
+          400
+        ]
+      ],
+      "target": "student-6",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-1",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          856
+        ],
+        [
+          144,
+          856
+        ],
+        [
+          144,
+          816
+        ]
+      ],
+      "target": "attendee-1",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-3",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          856
+        ],
+        [
+          256,
+          856
+        ],
+        [
+          256,
+          816
+        ]
+      ],
+      "target": "attendee-3",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-4",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          856
+        ],
+        [
+          384,
+          856
+        ],
+        [
+          384,
+          816
+        ]
+      ],
+      "target": "attendee-4",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-6",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          856
+        ],
+        [
+          496,
+          856
+        ],
+        [
+          496,
+          816
+        ]
+      ],
+      "target": "attendee-6",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-7",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          920
+        ],
+        [
+          144,
+          920
+        ],
+        [
+          144,
+          880
+        ]
+      ],
+      "target": "attendee-7",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-9",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          920
+        ],
+        [
+          256,
+          920
+        ],
+        [
+          256,
+          880
+        ]
+      ],
+      "target": "attendee-9",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-10",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          920
+        ],
+        [
+          384,
+          920
+        ],
+        [
+          384,
+          880
+        ]
+      ],
+      "target": "attendee-10",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-12",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          920
+        ],
+        [
+          496,
+          920
+        ],
+        [
+          496,
+          880
+        ]
+      ],
+      "target": "attendee-12",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-13",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          984
+        ],
+        [
+          144,
+          984
+        ],
+        [
+          144,
+          944
+        ]
+      ],
+      "target": "attendee-13",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-15",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          984
+        ],
+        [
+          256,
+          984
+        ],
+        [
+          256,
+          944
+        ]
+      ],
+      "target": "attendee-15",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-16",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          984
+        ],
+        [
+          384,
+          984
+        ],
+        [
+          384,
+          944
+        ]
+      ],
+      "target": "attendee-16",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-18",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          984
+        ],
+        [
+          496,
+          984
+        ],
+        [
+          496,
+          944
+        ]
+      ],
+      "target": "attendee-18",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-19",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          1048
+        ],
+        [
+          144,
+          1048
+        ],
+        [
+          144,
+          1008
+        ]
+      ],
+      "target": "attendee-19",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-21",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          1048
+        ],
+        [
+          256,
+          1048
+        ],
+        [
+          256,
+          1008
+        ]
+      ],
+      "target": "attendee-21",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-22",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          1048
+        ],
+        [
+          384,
+          1048
+        ],
+        [
+          384,
+          1008
+        ]
+      ],
+      "target": "attendee-22",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "enter-attendee-24",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          1048
+        ],
+        [
+          496,
+          1048
+        ],
+        [
+          496,
+          1008
+        ]
+      ],
+      "target": "attendee-24",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "teacher-front",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          208
+        ],
+        [
+          536,
+          208
+        ],
+        [
+          536,
+          152
+        ],
+        [
+          320,
+          152
+        ]
+      ],
+      "target": "teacher",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "speaker-via-right-stairs",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          848
+        ],
+        [
+          536,
+          848
+        ],
+        [
+          536,
+          784
+        ],
+        [
+          512,
+          784
+        ],
+        [
+          512,
+          656
+        ],
+        [
+          320,
+          656
+        ],
+        [
+          320,
+          688
+        ]
+      ],
+      "target": "speaker",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    },
+    {
+      "id": "speaker-via-left-stairs",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          784
+        ],
+        [
+          128,
+          784
+        ],
+        [
+          128,
+          656
+        ],
+        [
+          320,
+          656
+        ],
+        [
+          320,
+          688
+        ]
+      ],
+      "target": "speaker",
+      "role": "Legacy illustration only, not current path validation or a routing command."
+    }
+  ],
+  "zones": [
+    {
+      "id": "classroom",
+      "x": 64,
+      "y": 144,
+      "width": 512,
+      "height": 368
+    },
+    {
+      "id": "teacher",
+      "x": 176,
+      "y": 144,
+      "width": 304,
+      "height": 40
+    },
+    {
+      "id": "stage-speakers",
+      "x": 96,
+      "y": 624,
+      "width": 448,
+      "height": 112
+    },
+    {
+      "id": "event-audience",
+      "x": 112,
+      "y": 792,
+      "width": 440,
+      "height": 272
+    }
+  ],
+  "layerOrder": [
+    "architecture-below-player",
+    "furniture-below-player",
+    "floorLayer",
+    "furniture-foreground",
+    "glass-above-player",
+    "light-and-shadow-above-player"
+  ],
+  "scope": "Local restoration of24-seat auditorium into current10 source module. Current10 classroom furniture, podium, door art, walkable openings and non-auditorium blockers preserved. No engine, avatar, grid or runtime interaction changes.",
+  "registrationRepair": {
+    "baseline": "Frozen Campus09",
+    "worldOrigin": [
+      0,
+      1136
+    ],
+    "chairs": "Restore all24 audience seats: two adjacent three-chair banks in each of four rows. Columns152,200,256 and384,440,488; local rows824,888,952,1016 (64px). All30 original chairs are8px south of09; first/last audience columns are+8/-8px to preserve collision/head clearance.",
+    "deskCorrection": "First three complete native desk cutouts and64x64 footprints move16px south. Their new coarse footprints remain inside old coarse footprints; bottom stays world1408.",
+    "foregroundPolicy": "Retain substantial lower back/arm silhouette above all actors. Transfer original upper back pixels below, with exact empty-scene union preservation. Static semantic cut at new chair-anchor+6; no actor-following mask.",
+    "physicalFeet": "Two visible4x4px rear-leg contact rectangles per chair, conservatively compiled through native8 source cells to32.",
+    "noSnapping": true,
+    "appearance": "Nominal anchors read seated; northern floor-target endpoints are standing forward. Full16px floor-click band is walkable, not a claim of uniform seated pose.",
+    "peerLimitation": "All 24 seats and their native map routes are reachable. Other avatars are not native collision solids. A hypothetical non-overlap crowd model finds visually non-crossing routes to18 seats; six later-row middle seats involve visual occupied-body intersection. This is not enforced runtime blockage. Native global pathfinding ignores players. Dense communal seating has no automatic crowd avoidance, snapping, or live-broadcast claim."
+  },
+  "nativePracticalFloorClickRectangles": {
+    "student-1": {
+      "x": 152,
+      "y": 1424,
+      "width": 17,
+      "height": 16
+    },
+    "student-2": {
+      "x": 312,
+      "y": 1424,
+      "width": 17,
+      "height": 16
+    },
+    "student-3": {
+      "x": 472,
+      "y": 1424,
+      "width": 17,
+      "height": 16
+    },
+    "student-4": {
+      "x": 152,
+      "y": 1552,
+      "width": 17,
+      "height": 16
+    },
+    "student-5": {
+      "x": 312,
+      "y": 1552,
+      "width": 17,
+      "height": 16
+    },
+    "student-6": {
+      "x": 472,
+      "y": 1552,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-1": {
+      "x": 144,
+      "y": 1968,
+      "width": 16,
+      "height": 16
+    },
+    "attendee-3": {
+      "x": 248,
+      "y": 1968,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-4": {
+      "x": 376,
+      "y": 1968,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-6": {
+      "x": 480,
+      "y": 1968,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-7": {
+      "x": 144,
+      "y": 2032,
+      "width": 16,
+      "height": 16
+    },
+    "attendee-9": {
+      "x": 248,
+      "y": 2032,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-10": {
+      "x": 376,
+      "y": 2032,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-12": {
+      "x": 480,
+      "y": 2032,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-13": {
+      "x": 144,
+      "y": 2096,
+      "width": 16,
+      "height": 16
+    },
+    "attendee-15": {
+      "x": 248,
+      "y": 2096,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-16": {
+      "x": 376,
+      "y": 2096,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-18": {
+      "x": 480,
+      "y": 2096,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-19": {
+      "x": 144,
+      "y": 2160,
+      "width": 16,
+      "height": 16
+    },
+    "attendee-21": {
+      "x": 248,
+      "y": 2160,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-22": {
+      "x": 376,
+      "y": 2160,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-24": {
+      "x": 480,
+      "y": 2160,
+      "width": 17,
+      "height": 16
+    },
+    "teacher": {
+      "x": 312,
+      "y": 1288,
+      "width": 17,
+      "height": 24
+    },
+    "speaker": {
+      "x": 312,
+      "y": 1824,
+      "width": 17,
+      "height": 25
+    },
+    "attendee-2": {
+      "x": 192,
+      "y": 1968,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-5": {
+      "x": 432,
+      "y": 1968,
+      "width": 16,
+      "height": 16
+    },
+    "attendee-8": {
+      "x": 192,
+      "y": 2032,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-11": {
+      "x": 432,
+      "y": 2032,
+      "width": 16,
+      "height": 16
+    },
+    "attendee-14": {
+      "x": 192,
+      "y": 2096,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-17": {
+      "x": 432,
+      "y": 2096,
+      "width": 16,
+      "height": 16
+    },
+    "attendee-20": {
+      "x": 192,
+      "y": 2160,
+      "width": 17,
+      "height": 16
+    },
+    "attendee-23": {
+      "x": 432,
+      "y": 2160,
+      "width": 16,
+      "height": 16
+    }
+  },
+  "validationSummary": {
+    "audienceSeats": 24,
+    "classroomSeats": 6,
+    "seatNativeFloorLegs": 540,
+    "seatNativeFloorLegFailures": 0,
+    "teacherSpeakerLegs": 36,
+    "teacherSpeakerLegFailures": 0,
+    "auditoriumBothAisleDirectionLegs": 96,
+    "auditoriumBothAisleMapOrHeadFailures": 0,
+    "auditoriumBothAisleOccupiedBodyCrossingLegs": 64,
+    "reachableBodyClearPlacementsChecked": 238528,
+    "foregroundHeadConflicts": 0,
+    "fullyOccupiedBodyClearReachableSeats": 18,
+    "scope": "Current10 compiled world-grid plus the8 added conservative native32 cells from restored rear feet. Native source-extracted path/player checks, original32 Greg and16x16body. Not live rendering/multiplayer acceptance. Final integrated map must match this fixture.",
+    "visualNonOverlapUnavailableMiddleIDs": [
+      "attendee-8",
+      "attendee-11",
+      "attendee-14",
+      "attendee-17",
+      "attendee-20",
+      "attendee-23"
+    ],
+    "peersAreNativeCollisionSolids": false
+  },
+  "validationScope": "Source-extracted unmodified PathfindingManager and Player movement + real EasyStar0.4.4. Standard32 grid; native16x16body[-8,0]; Greg32scale1; practical floor targets; nine corners/midpoints per rectangle, full0.5px sweeps and speed9/60Hz playback. Full-route head tests evaluate civic fixed furniture foreground using the union of all12 Greg head masks, alpha>32, at floor/ceil positions. Browser, live engine, multiplayer, renderer and other-module head clearance are not claimed.",
+  "doorRegistration10": {
+    "nativeCellSize": 32,
+    "worldOrigin": [
+      0,
+      1136
+    ],
+    "walkablePolygons": [
+      [
+        [
+          64,
+          144
+        ],
+        [
+          576,
+          144
+        ],
+        [
+          576,
+          1088
+        ],
+        [
+          64,
+          1088
+        ]
+      ],
+      [
+        [
+          576,
+          336
+        ],
+        [
+          640,
+          336
+        ],
+        [
+          640,
+          432
+        ],
+        [
+          576,
+          432
+        ]
+      ],
+      [
+        [
+          576,
+          944
+        ],
+        [
+          640,
+          944
+        ],
+        [
+          640,
+          1040
+        ],
+        [
+          576,
+          1040
+        ]
+      ]
+    ],
+    "openings": [
+      {
+        "id": "classroom",
+        "worldRect": [
+          576,
+          1472,
+          32,
+          96
+        ]
+      },
+      {
+        "id": "stage",
+        "worldRect": [
+          576,
+          2080,
+          32,
+          96
+        ]
+      }
+    ],
+    "sourceArt": "Exact native jamb cap translations \u00b18px. The original stone projection and hardware remain."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image generation",
+  "date": "2026-10-11",
+  "stages": [
+    "Initial four-sided outpaint rejected for scale drift",
+    "Padded 1024x896 source outpaint: 128px sides,96px north,192px south",
+    "Clear sidepaths and connect rear path",
+    "Clear rear service corridor y128..176; move clutter north",
+    "Clear south bench front crosspath y800..832"
+  ],
+  "invariants": [
+    "Approved r6 interior and rear wall restored byte-exact after generation",
+    "Native32 avatars and interior geometry unchanged",
+    "No engine changes or publication"
+  ],
+  "finalExterior": "r7-exterior-generated.png",
+  "finalComposite": "resonance-media-house/source/runtime-base.png"
+}

@@ -1,0 +1,715 @@
+{
+  "tileSize": 32,
+  "worldPixels": [
+    2816,
+    2432
+  ],
+  "playerBody": [
+    16,
+    16
+  ],
+  "status": "C translated frozen B garden; exact pavilion/collision preserved",
+  "hallGardenDoorXYXY": [
+    1536,
+    704,
+    1696,
+    800
+  ],
+  "terraceGardenDoorXYXY": [
+    2272,
+    1280,
+    2400,
+    1344
+  ],
+  "paths": [
+    {
+      "id": "main-garden",
+      "centerline": [
+        [
+          2336,
+          1344
+        ],
+        [
+          2312,
+          1280
+        ],
+        [
+          2288,
+          1216
+        ],
+        [
+          2272,
+          1152
+        ],
+        [
+          2256,
+          1056
+        ],
+        [
+          2208,
+          928
+        ],
+        [
+          2176,
+          832
+        ],
+        [
+          2176,
+          736
+        ],
+        [
+          2208,
+          640
+        ],
+        [
+          2272,
+          544
+        ]
+      ],
+      "pavingWidthPx": 160
+    },
+    {
+      "id": "hall-branch",
+      "centerline": [
+        [
+          1600,
+          752
+        ],
+        [
+          1696,
+          752
+        ],
+        [
+          1824,
+          784
+        ],
+        [
+          2016,
+          784
+        ],
+        [
+          2176,
+          768
+        ]
+      ],
+      "pavingWidthPx": 144
+    }
+  ],
+  "walkableMask": "source/garden-walkable-mask.png",
+  "pavilionPavingXYXY": [
+    2048,
+    320,
+    2528,
+    640
+  ],
+  "pavilionPosts": [
+    {
+      "id": "pergola-post-northwest",
+      "type": "solid-column",
+      "solidFootprintXYWH": [
+        2080,
+        352,
+        32,
+        32
+      ],
+      "artXYWH": [
+        2072,
+        312,
+        48,
+        72
+      ],
+      "groundLayer": "assets/pergola-below.png",
+      "aboveLayer": "assets/pergola-above.png"
+    },
+    {
+      "id": "pergola-post-northeast",
+      "type": "solid-column",
+      "solidFootprintXYWH": [
+        2464,
+        352,
+        32,
+        32
+      ],
+      "artXYWH": [
+        2456,
+        312,
+        48,
+        72
+      ],
+      "groundLayer": "assets/pergola-below.png",
+      "aboveLayer": "assets/pergola-above.png"
+    },
+    {
+      "id": "pergola-post-southwest",
+      "type": "solid-column",
+      "solidFootprintXYWH": [
+        2080,
+        576,
+        32,
+        32
+      ],
+      "artXYWH": [
+        2072,
+        536,
+        48,
+        72
+      ],
+      "groundLayer": "assets/pergola-below.png",
+      "aboveLayer": "assets/pergola-above.png"
+    },
+    {
+      "id": "pergola-post-southeast",
+      "type": "solid-column",
+      "solidFootprintXYWH": [
+        2464,
+        576,
+        32,
+        32
+      ],
+      "artXYWH": [
+        2456,
+        536,
+        48,
+        72
+      ],
+      "groundLayer": "assets/pergola-below.png",
+      "aboveLayer": "assets/pergola-above.png"
+    }
+  ],
+  "objects": [
+    {
+      "id": "pergola-post-northwest",
+      "type": "solid-column",
+      "solidFootprintXYWH": [
+        2080,
+        352,
+        32,
+        32
+      ],
+      "artXYWH": [
+        2072,
+        312,
+        48,
+        72
+      ],
+      "groundLayer": "assets/pergola-below.png",
+      "aboveLayer": "assets/pergola-above.png"
+    },
+    {
+      "id": "pergola-post-northeast",
+      "type": "solid-column",
+      "solidFootprintXYWH": [
+        2464,
+        352,
+        32,
+        32
+      ],
+      "artXYWH": [
+        2456,
+        312,
+        48,
+        72
+      ],
+      "groundLayer": "assets/pergola-below.png",
+      "aboveLayer": "assets/pergola-above.png"
+    },
+    {
+      "id": "pergola-post-southwest",
+      "type": "solid-column",
+      "solidFootprintXYWH": [
+        2080,
+        576,
+        32,
+        32
+      ],
+      "artXYWH": [
+        2072,
+        536,
+        48,
+        72
+      ],
+      "groundLayer": "assets/pergola-below.png",
+      "aboveLayer": "assets/pergola-above.png"
+    },
+    {
+      "id": "pergola-post-southeast",
+      "type": "solid-column",
+      "solidFootprintXYWH": [
+        2464,
+        576,
+        32,
+        32
+      ],
+      "artXYWH": [
+        2456,
+        536,
+        48,
+        72
+      ],
+      "groundLayer": "assets/pergola-below.png",
+      "aboveLayer": "assets/pergola-above.png"
+    },
+    {
+      "id": "garden-pair-1-left",
+      "asset": "assets/pavilion-components/lounge-chair-north.png",
+      "belowAsset": "assets/pavilion-components/garden-pair-1-left-below.png",
+      "aboveAsset": "assets/pavilion-components/garden-pair-1-left-above.png",
+      "x": 2144,
+      "y": 471,
+      "width": 48,
+      "height": 44,
+      "artXYWH": [
+        2144,
+        471,
+        48,
+        44
+      ],
+      "solidFootprintXYWH": [
+        2144,
+        512,
+        32,
+        32
+      ],
+      "foregroundFromLocalY": 25,
+      "safeAboveLocalXYXY": [
+        16,
+        25,
+        24,
+        44
+      ],
+      "anchor": [
+        2168,
+        487
+      ],
+      "direction": "north",
+      "floorClick": [
+        2168,
+        503
+      ]
+    },
+    {
+      "id": "garden-pair-1-right",
+      "asset": "assets/pavilion-components/lounge-chair-north.png",
+      "belowAsset": "assets/pavilion-components/garden-pair-1-right-below.png",
+      "aboveAsset": "assets/pavilion-components/garden-pair-1-right-above.png",
+      "x": 2192,
+      "y": 471,
+      "width": 48,
+      "height": 44,
+      "artXYWH": [
+        2192,
+        471,
+        48,
+        44
+      ],
+      "solidFootprintXYWH": [
+        2208,
+        512,
+        32,
+        32
+      ],
+      "foregroundFromLocalY": 25,
+      "safeAboveLocalXYXY": [
+        24,
+        25,
+        32,
+        44
+      ],
+      "anchor": [
+        2216,
+        487
+      ],
+      "direction": "north",
+      "floorClick": [
+        2216,
+        503
+      ]
+    },
+    {
+      "id": "garden-pair-2-left",
+      "asset": "assets/pavilion-components/lounge-chair-north.png",
+      "belowAsset": "assets/pavilion-components/garden-pair-2-left-below.png",
+      "aboveAsset": "assets/pavilion-components/garden-pair-2-left-above.png",
+      "x": 2368,
+      "y": 471,
+      "width": 48,
+      "height": 44,
+      "artXYWH": [
+        2368,
+        471,
+        48,
+        44
+      ],
+      "solidFootprintXYWH": [
+        2368,
+        512,
+        32,
+        32
+      ],
+      "foregroundFromLocalY": 25,
+      "safeAboveLocalXYXY": [
+        16,
+        25,
+        24,
+        44
+      ],
+      "anchor": [
+        2392,
+        487
+      ],
+      "direction": "north",
+      "floorClick": [
+        2392,
+        503
+      ]
+    },
+    {
+      "id": "garden-pair-2-right",
+      "asset": "assets/pavilion-components/lounge-chair-north.png",
+      "belowAsset": "assets/pavilion-components/garden-pair-2-right-below.png",
+      "aboveAsset": "assets/pavilion-components/garden-pair-2-right-above.png",
+      "x": 2416,
+      "y": 471,
+      "width": 48,
+      "height": 44,
+      "artXYWH": [
+        2416,
+        471,
+        48,
+        44
+      ],
+      "solidFootprintXYWH": [
+        2432,
+        512,
+        32,
+        32
+      ],
+      "foregroundFromLocalY": 25,
+      "safeAboveLocalXYXY": [
+        24,
+        25,
+        32,
+        44
+      ],
+      "anchor": [
+        2440,
+        487
+      ],
+      "direction": "north",
+      "floorClick": [
+        2440,
+        503
+      ]
+    },
+    {
+      "id": "garden-pair-1-table",
+      "asset": "assets/pavilion-components/low-lounge-table.png",
+      "belowAsset": "assets/pavilion-components/low-lounge-table.png",
+      "aboveAsset": null,
+      "x": 2176,
+      "y": 412,
+      "width": 64,
+      "height": 36,
+      "artXYWH": [
+        2176,
+        412,
+        64,
+        36
+      ],
+      "solidFootprintXYWH": [
+        2176,
+        416,
+        64,
+        32
+      ],
+      "foregroundFromLocalY": null
+    },
+    {
+      "id": "garden-pair-2-table",
+      "asset": "assets/pavilion-components/low-lounge-table.png",
+      "belowAsset": "assets/pavilion-components/low-lounge-table.png",
+      "aboveAsset": null,
+      "x": 2368,
+      "y": 412,
+      "width": 64,
+      "height": 36,
+      "artXYWH": [
+        2368,
+        412,
+        64,
+        36
+      ],
+      "solidFootprintXYWH": [
+        2368,
+        416,
+        64,
+        32
+      ],
+      "foregroundFromLocalY": null
+    }
+  ],
+  "socialAnchors": [
+    {
+      "id": "garden-pair-1-left",
+      "x": 2168,
+      "y": 487,
+      "direction": "north",
+      "floorClick": [
+        2168,
+        503
+      ],
+      "pair": "garden-pair-1",
+      "solidFootprintXYWH": [
+        2144,
+        512,
+        32,
+        32
+      ],
+      "chairBackFootprintXYWH": [
+        2144,
+        512,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "garden-pair-1-right",
+      "x": 2216,
+      "y": 487,
+      "direction": "north",
+      "floorClick": [
+        2216,
+        503
+      ],
+      "pair": "garden-pair-1",
+      "solidFootprintXYWH": [
+        2208,
+        512,
+        32,
+        32
+      ],
+      "chairBackFootprintXYWH": [
+        2208,
+        512,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "garden-pair-2-left",
+      "x": 2392,
+      "y": 487,
+      "direction": "north",
+      "floorClick": [
+        2392,
+        503
+      ],
+      "pair": "garden-pair-2",
+      "solidFootprintXYWH": [
+        2368,
+        512,
+        32,
+        32
+      ],
+      "chairBackFootprintXYWH": [
+        2368,
+        512,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "garden-pair-2-right",
+      "x": 2440,
+      "y": 487,
+      "direction": "north",
+      "floorClick": [
+        2440,
+        503
+      ],
+      "pair": "garden-pair-2",
+      "solidFootprintXYWH": [
+        2432,
+        512,
+        32,
+        32
+      ],
+      "chairBackFootprintXYWH": [
+        2432,
+        512,
+        32,
+        32
+      ]
+    }
+  ],
+  "informalPairs": [
+    {
+      "id": "garden-pair-1",
+      "center": [
+        2192,
+        487
+      ],
+      "anchors": [
+        "garden-pair-1-left",
+        "garden-pair-1-right"
+      ],
+      "anchorDistancePx": 48
+    },
+    {
+      "id": "garden-pair-2",
+      "center": [
+        2416,
+        487
+      ],
+      "anchors": [
+        "garden-pair-2-left",
+        "garden-pair-2-right"
+      ],
+      "anchorDistancePx": 48
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "hall-garden-threshold",
+      "xy": [
+        1632,
+        752
+      ]
+    },
+    {
+      "id": "garden-junction",
+      "xy": [
+        2176,
+        768
+      ]
+    },
+    {
+      "id": "terrace-garden-threshold",
+      "xy": [
+        2336,
+        1312
+      ]
+    },
+    {
+      "id": "pavilion-turnaround",
+      "xy": [
+        2304,
+        416
+      ]
+    },
+    {
+      "id": "pavilion-entry",
+      "xy": [
+        2288,
+        608
+      ]
+    }
+  ],
+  "roofless": false,
+  "canopyIntent": "Pavilion remains open-center and fixed; building shell is a separate dynamic owner.",
+  "runtimeRouteAdjustments": {
+    "closedCells": [
+      [
+        39,
+        48
+      ],
+      [
+        40,
+        48
+      ],
+      [
+        47,
+        48
+      ],
+      [
+        48,
+        48
+      ]
+    ],
+    "openedCells": [
+      [
+        48,
+        53
+      ]
+    ],
+    "artBounds": [
+      {
+        "id": "lounge03-southwest-wing",
+        "artXYWH": [
+          1248,
+          1520,
+          64,
+          48
+        ],
+        "solidFootprintXYWH": [
+          1248,
+          1536,
+          64,
+          32
+        ]
+      },
+      {
+        "id": "lounge03-southeast-wing",
+        "artXYWH": [
+          1504,
+          1520,
+          64,
+          48
+        ],
+        "solidFootprintXYWH": [
+          1504,
+          1536,
+          64,
+          32
+        ]
+      },
+      {
+        "id": "foyer-planter-upper-right-trim",
+        "artXYWH": [
+          1536,
+          1710,
+          8,
+          18
+        ],
+        "clearedCellXYWH": [
+          1536,
+          1696,
+          32,
+          32
+        ]
+      }
+    ],
+    "note": "Visible low planted wings preserve192px entrance. Only the existing planter overhang is removed in the reopened corner cell; no other old cells change.",
+    "trimmedFoliagePixelCount": 73,
+    "trimmedFoliageAlphaAbove32Count": 58
+  },
+  "pavilionUpdate": {
+    "collisionContract": "source/pavilion-collision-delta-contract.json",
+    "centralClearPassageXYWH": [
+      2240,
+      368,
+      128,
+      240
+    ],
+    "addedSolidCells": [
+      [
+        68,
+        13
+      ],
+      [
+        69,
+        13
+      ],
+      [
+        74,
+        13
+      ],
+      [
+        75,
+        13
+      ]
+    ],
+    "chairArtworkNative": true,
+    "pairAnchorDistancePx": 48
+  }
+}

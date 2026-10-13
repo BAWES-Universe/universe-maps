@@ -1,0 +1,37 @@
+{
+  "actors": [
+    {
+      "anchor": "outdoor gathering west",
+      "file": "Male 09-4.png",
+      "frame": 7,
+      "direction": "east",
+      "position": [
+        400,
+        783
+      ],
+      "sha256": "a85403821a61cb1603c161fefc0170f64721a99c26fcec8e484665fc238f812b"
+    },
+    {
+      "anchor": "outdoor gathering east",
+      "file": "Female 12-1.png",
+      "frame": 4,
+      "direction": "west",
+      "position": [
+        560,
+        783
+      ],
+      "sha256": "2a566656c82d45ad27c1344d741374c2613ace8262c1774c3af4a5494618ad4c"
+    },
+    {
+      "anchor": "outdoor arrival",
+      "file": "Female 04-1.png",
+      "frame": 10,
+      "direction": "north",
+      "position": [
+        496,
+        815
+      ],
+      "sha256": "3554502d83883e873f3150f544787076a9889320264e0ab5955fca61bde674c9"
+    }
+  ]
+}

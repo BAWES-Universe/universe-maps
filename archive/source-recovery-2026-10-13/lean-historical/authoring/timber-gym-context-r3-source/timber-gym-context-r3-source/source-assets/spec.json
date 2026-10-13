@@ -1,0 +1,418 @@
+{
+  "world": [
+    960,
+    864
+  ],
+  "tiles": [
+    30,
+    27
+  ],
+  "tileSize": 32,
+  "environmentScale": 0.5,
+  "sourceOffset": [
+    96,
+    96
+  ],
+  "actorScale": 1,
+  "spawnCell": [
+    15,
+    25
+  ],
+  "landingOpenRects": [
+    [
+      13,
+      22,
+      4,
+      1
+    ],
+    [
+      12,
+      23,
+      6,
+      1
+    ],
+    [
+      11,
+      24,
+      8,
+      1
+    ],
+    [
+      12,
+      25,
+      6,
+      1
+    ],
+    [
+      13,
+      26,
+      4,
+      1
+    ]
+  ],
+  "slug": "timber-gym-context-r3",
+  "title": "Timber Gym - native-scale woodland approach r3",
+  "openRects": [
+    [
+      9,
+      9,
+      13,
+      3
+    ],
+    [
+      9,
+      12,
+      12,
+      2
+    ],
+    [
+      10,
+      14,
+      10,
+      3
+    ],
+    [
+      7,
+      17,
+      6,
+      1
+    ],
+    [
+      14,
+      17,
+      2,
+      1
+    ],
+    [
+      17,
+      17,
+      6,
+      1
+    ],
+    [
+      14,
+      18,
+      2,
+      4
+    ]
+  ],
+  "anchors": [
+    [
+      "instructor position",
+      488,
+      320,
+      "instructor"
+    ],
+    [
+      "demo audience",
+      488,
+      359,
+      "approach"
+    ],
+    [
+      "strength bench north approach",
+      304,
+      359,
+      "approach"
+    ],
+    [
+      "strength bench south approach",
+      304,
+      423,
+      "approach"
+    ],
+    [
+      "rear rower approach",
+      304,
+      303,
+      "approach"
+    ],
+    [
+      "cardio bike north approach",
+      688,
+      327,
+      "approach"
+    ],
+    [
+      "cardio bike south approach",
+      688,
+      367,
+      "approach"
+    ],
+    [
+      "cardio rower approach",
+      656,
+      423,
+      "approach"
+    ],
+    [
+      "west station aisle",
+      344,
+      399,
+      "approach"
+    ],
+    [
+      "east station aisle",
+      632,
+      399,
+      "approach"
+    ],
+    [
+      "central medallion",
+      488,
+      399,
+      "approach"
+    ],
+    [
+      "arrival bench approach",
+      272,
+      551,
+      "approach"
+    ],
+    [
+      "water station approach",
+      712,
+      551,
+      "approach"
+    ],
+    [
+      "west nook approach",
+      368,
+      551,
+      "approach"
+    ],
+    [
+      "east nook approach",
+      592,
+      551,
+      "approach"
+    ],
+    [
+      "west nook interior",
+      240,
+      551,
+      "approach"
+    ],
+    [
+      "east nook interior",
+      720,
+      551,
+      "approach"
+    ],
+    [
+      "arrival hall",
+      488,
+      551,
+      "approach"
+    ],
+    [
+      "old arrival stairs",
+      488,
+      655,
+      "approach"
+    ]
+  ],
+  "solidBaseRectsToInspect": [
+    [
+      158,
+      285,
+      263,
+      315
+    ],
+    [
+      204,
+      340,
+      287,
+      373
+    ],
+    [
+      203,
+      400,
+      287,
+      434
+    ],
+    [
+      714,
+      306,
+      763,
+      338
+    ],
+    [
+      715,
+      365,
+      763,
+      400
+    ],
+    [
+      681,
+      417,
+      784,
+      440
+    ],
+    [
+      211,
+      501,
+      289,
+      527
+    ],
+    [
+      668,
+      495,
+      774,
+      525
+    ],
+    [
+      419,
+      612,
+      444,
+      631
+    ],
+    [
+      525,
+      612,
+      550,
+      631
+    ],
+    [
+      189,
+      520,
+      214,
+      543
+    ],
+    [
+      304,
+      512,
+      319,
+      529
+    ],
+    [
+      647,
+      515,
+      665,
+      534
+    ]
+  ],
+  "notes": "Do not blindly merge old16px-scaled cells: reauthor native32 clearance. The old Gym last stair row was blocked; visible center steps now need clear cells14,15 row21. Full bench and refreshment approaches must remain reachable. Station anchors are standing approaches only.",
+  "key": "gym",
+  "blockedCells": [],
+  "geometryNotes": [
+    "Native32 body footprints; anchors use actual native fitted endpoints. Water station x704 corrected to712.",
+    "Projected elevated doorway caps are foreground, not ground blockers. Solid support bases stay within blocked cells; visibly open nook approach floor stays open.",
+    "Retreat back partition/shelf solid bases end at y480; cast shadows are not solid bases."
+  ],
+  "foregroundArchitecturePolygons": [
+    [
+      [
+        423,
+        550
+      ],
+      [
+        432,
+        549
+      ],
+      [
+        437,
+        552
+      ],
+      [
+        438,
+        558
+      ],
+      [
+        437,
+        565
+      ],
+      [
+        434,
+        568
+      ],
+      [
+        434,
+        620
+      ],
+      [
+        431,
+        623
+      ],
+      [
+        425,
+        622
+      ],
+      [
+        425,
+        569
+      ],
+      [
+        421,
+        567
+      ],
+      [
+        421,
+        557
+      ],
+      [
+        422,
+        554
+      ]
+    ],
+    [
+      [
+        525,
+        549
+      ],
+      [
+        537,
+        550
+      ],
+      [
+        539,
+        553
+      ],
+      [
+        539,
+        564
+      ],
+      [
+        541,
+        566
+      ],
+      [
+        539,
+        569
+      ],
+      [
+        535,
+        570
+      ],
+      [
+        535,
+        621
+      ],
+      [
+        532,
+        624
+      ],
+      [
+        526,
+        622
+      ],
+      [
+        526,
+        570
+      ],
+      [
+        521,
+        567
+      ],
+      [
+        521,
+        554
+      ],
+      [
+        524,
+        552
+      ]
+    ]
+  ],
+  "foregroundMaskNotes": "Conservative traced polygons lie inside actual architecture silhouettes. No plant rectangle or surrounding wood/stone floor is promoted to foreground. Inherited foreground mask is retained. Head-envelope subtraction further limits newly authored silhouettes without changing empty appearance."
+}

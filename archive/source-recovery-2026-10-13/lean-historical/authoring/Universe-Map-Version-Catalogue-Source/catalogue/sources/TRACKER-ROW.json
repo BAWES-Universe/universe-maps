@@ -1,0 +1,109 @@
+{
+  "id": "timber-mixed-six-mat-instructor-facing-r3",
+  "title": "Timber Yoga Studio · straight parallel mats r3",
+  "version": "r3 native runtime",
+  "template_family": "timber-mixed-six-mat",
+  "implementation": "Built",
+  "review_ready": true,
+  "group": "revision",
+  "use_case": "Mixed Gym/Yoga activities with six mat stations and instructor area",
+  "style": "Timber, cream stone and woodland activity room",
+  "publication": "Not published",
+  "live_playtest": "Not verified",
+  "decision": "Pending",
+  "tmj_url": null,
+  "preview_url": null,
+  "wam_url": null,
+  "source_url": null,
+  "publication_verified_at": null,
+  "source_validation": "PASS: independent fresh mat-only art, arrival/body/head geometry and exact compact-source rebuild; native engine route evidence inherited from byte-identical r2 inputs",
+  "decision_notes": "User requested straight forward-facing mats at 12:52 UTC. The r3 correction passed root visual review and independent technical QA; final user design approval remains pending.",
+  "setup_instructions": "Host the exact runtime map32 directory together. Load map.tmj or configure optional map.wam instructor/listener areas in a separate test room. Publication remains paused. Record browser, device and media acceptance separately.",
+  "limitations": [
+    "No live browser, keyboard/joystick, mobile/device, network, AV, multi-user, hosting or publication acceptance.",
+    "Standing native idle frames/manual avatar facing only. No yoga, exercise or sitting animation, automatic avatar facing, seating snap, equipment controls or AI instructor.",
+    "R3 changes only mat surfaces/shadows relative to r2. The separately approved r2 bounded doorway repair remains; the original approved horizontal-mat concept is unchanged in its own retained item.",
+    "Native engine replay was not rerun for r3. Earlier accepted r2 movement evidence carries over only because full TMJ/layout/roles/spawn input bytes are exact. The source rebuild and fresh geometry/art checks are self-contained; raw engine code and raw Woka sheets are excluded."
+  ],
+  "runtime_tmj_sha256": "9c163a9fac0d7cf643d7e65b879c97e6d82f98c937687394d035b0b753fc37dd",
+  "runtime_package_name": "timber-mixed-six-mat-instructor-facing-r3-runtime.zip",
+  "preview_name": "timber-mixed-six-mat-instructor-facing-r3-review.pdf; timber-mixed-six-mat-instructor-facing-r3-occupied-native.png",
+  "verification_notes": "Exactly 12,380 decoded native pixels differ, all within six mat surface/shadow neighborhoods. All 12 props and all other room art are preserved. Six unchanged arrival bodies fit the new surfaces; 102 connected cells, 22 anchors, 78,303 body-clear positions, zero head conflicts. Four prior actual startup outcomes rechecked safe and quiet. Own clean ZIP rebuild: all 30 pinned outputs and 29 runtime-tree files exact. Earlier 3,810-route/2,898,558-sample native evidence is explicitly inherited; no fresh engine replay.",
+  "acceptance": "Independent technical QA PASS. Corrected design pending user review; live acceptance and publication unverified.",
+  "delivery": "Five files saved in Library 11 Oct 13:06 UTC; root user delivery pending",
+  "artifacts": [
+    {
+      "name": "timber-mixed-six-mat-instructor-facing-r3-review.pdf",
+      "library_file_id": "libfile_3357f31273c481919cb8e0f89a91defe",
+      "file_id": "file_00000000e7dc81f6954044b5970696b0",
+      "version": 0,
+      "sha256": "4eba27d4de8885c8db006a9c52e77b33fe1b4712dc3fbe1d895f507a41cffe54",
+      "role": "review"
+    },
+    {
+      "name": "timber-mixed-six-mat-instructor-facing-r3-occupied-native.png",
+      "library_file_id": "libfile_1b47aa765bac8191994d2164a76366c3",
+      "file_id": "file_00000000ee8481f585bdea1c190f079b",
+      "version": 0,
+      "sha256": "f6f1dd003aff27a1c00cfe633520e4a78d8de1f232476e738ddf939c7be5c6fe",
+      "role": "preview"
+    },
+    {
+      "name": "timber-mixed-six-mat-instructor-facing-r3-comparison.png",
+      "library_file_id": "libfile_60b4584cf5a88191815b1b4512637c83",
+      "file_id": "file_00000000e0f881f59321e479ac89977e",
+      "version": 0,
+      "sha256": "de94d746bf8f4961448801ed5c330c1f02ccb04fa2525f6e0fdbce2c20fc5c05",
+      "role": "comparison"
+    },
+    {
+      "name": "timber-mixed-six-mat-instructor-facing-r3-runtime.zip",
+      "library_file_id": "libfile_774360360d7c81918da729b20d3fb223",
+      "file_id": "file_00000000102881f5a82ac3cbd5667ce5",
+      "version": 0,
+      "sha256": "9538cc392f5cb243b911d0096550f90f1fa346eea760301c5fb7811e8e5dd4f5",
+      "role": "runtime"
+    },
+    {
+      "name": "timber-mixed-six-mat-instructor-facing-r3-source.zip",
+      "library_file_id": "libfile_9bf843c015b88191baf44926198e05cd",
+      "file_id": "file_000000006ed4822f9c430978c60dc1e7",
+      "version": 0,
+      "sha256": "c1a07af2cac6ec0fee798d1515eaf71368ddf81e60ca2689fa1cccb6548634cb",
+      "role": "source_rebuild"
+    }
+  ],
+  "parent_id": "timber-mixed-six-mat-instructor-facing-concept-r2",
+  "runtime_revision_id": "timber-mixed-six-mat-instructor-facing-r3",
+  "review_report_path": "/tmp/yoga-straight-independent/REPORT.md",
+  "freeze_path": "/tmp/yoga-straight-r3/CANDIDATE-FREEZE.json",
+  "runtime_sha256": "9538cc392f5cb243b911d0096550f90f1fa346eea760301c5fb7811e8e5dd4f5",
+  "source_sha256": "c1a07af2cac6ec0fee798d1515eaf71368ddf81e60ca2689fa1cccb6548634cb",
+  "runtime_slug": "timber-mixed-six-mat-instructor-facing-r3",
+  "what_changed": "All six retained charcoal mat surfaces are straight, rectangular and parallel toward the front instructor. Centers and upright prop sprites/positions are unchanged. The entire TMJ, WAM, layout, collision/spawn and foreground remain byte-identical to r2, including usable nooks and the stair spawn fix.",
+  "render": "Final native32 atlas-decoded occupied proof with eleven varied actual repository Wokas; root visual gate passed",
+  "release_freeze_sha256": "e2169649b745fe45df28722cc48b5df54c605e93f5ebba457663454bc84e032c",
+  "portable_rebuild": "All 30 pinned outputs and 29 runtime-tree files reproduce byte-for-byte from the compact source via python tools/rebuild.py; engine replay is inherited r2 evidence",
+  "source_package_names": [
+    "timber-mixed-six-mat-instructor-facing-r3-source.zip"
+  ],
+  "bundle_entries": [
+    "timber-mixed-six-mat-instructor-facing-r3/map32/map.tmj",
+    "timber-mixed-six-mat-instructor-facing-r3/map32/map.wam"
+  ],
+  "original_concept_id": "timber-mixed-six-mat-concept-r1",
+  "independent_report_sha256": "0c1ba3145f014577f536bc1b7671cbbfa886ce2e2b151dce71d0fe180e4179ca",
+  "caption": "r3: six straight, parallel charcoal mats face forward; original props, medallion, room and usable nooks retained.",
+  "previous_version_id": "timber-mixed-six-mat-instructor-facing-concept-r2",
+  "template_dimensions_pixels": [
+    768,
+    512
+  ],
+  "template_native_tile_size": 32,
+  "template_grid": [
+    24,
+    16
+  ],
+  "template_student_mat_count": 6,
+  "template_instructor_count": 1
+}

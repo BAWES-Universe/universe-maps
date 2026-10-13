@@ -1,0 +1,41 @@
+{
+  "name": "universe-3d-game",
+  "version": "0.7.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node scripts/test-browser.mjs",
+    "check": "node scripts/check-source.mjs",
+    "verify": "node scripts/verify-package.mjs",
+    "test:browser:modules": "node scripts/test-browser.mjs modules",
+    "record:walkthrough": "node tests/quality-walkthrough.mjs",
+    "measure:server": "node scripts/measure-server.mjs",
+    "test:browser:authoring": "node scripts/test-browser.mjs authoring",
+    "verify:container-files": "node scripts/verify-container-files.mjs",
+    "test:browser:images": "node scripts/test-browser.mjs images",
+    "test:browser:media": "node scripts/test-browser.mjs media",
+    "test:browser:hud": "node scripts/test-browser.mjs hud",
+    "test:browser:framing": "node scripts/test-browser.mjs framing",
+    "test:browser:residents": "node scripts/test-browser.mjs residents",
+    "test:browser:presentation": "node scripts/test-browser.mjs presentation",
+    "test:browser:nearby": "node scripts/test-browser.mjs nearby",
+    "test:browser:terrain": "node scripts/test-browser.mjs terrain",
+    "test:browser:windows": "node scripts/test-browser.mjs windows",
+    "test:browser:groupplay": "node scripts/test-browser.mjs groupplay",
+    "test:browser:arrivals": "node scripts/test-browser.mjs arrivals"
+  },
+  "dependencies": {
+    "@babylonjs/core": "9.28.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "playwright-core": "1.63.0",
+    "@sparticuz/chromium": "153.0.0"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

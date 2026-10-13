@@ -1,0 +1,47 @@
+{
+  "id": "west-public-garden-lane",
+  "size": [
+    512,
+    1536
+  ],
+  "worldOrigin": [
+    0,
+    224
+  ],
+  "walkablePolygons": [
+    [
+      [
+        416,
+        0
+      ],
+      [
+        512,
+        0
+      ],
+      [
+        512,
+        1536
+      ],
+      [
+        416,
+        1536
+      ]
+    ]
+  ],
+  "entryAnchors": {
+    "market": [
+      464,
+      32
+    ],
+    "front": [
+      464,
+      1520
+    ]
+  },
+  "obstacles": [],
+  "notes": [
+    "Actual continuous garden path; nominal96px includeslowpavingborder, maincenter464 verifiedvisiblefloor.",
+    "No externalfiller or extra watercourse.",
+    "Host mayopen transparentofficepadding only whereoverlapped bythisnativepublicpath."
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "studenthub-fountain-court",
+  "size": [
+    1472,
+    704
+  ],
+  "worldOrigin": [
+    704,
+    1776
+  ],
+  "tilePacking": 8,
+  "avatarSize": 32,
+  "avatarBody": [
+    -8,
+    0,
+    16,
+    16
+  ],
+  "entryAnchors": {
+    "office": [
+      800,
+      16
+    ],
+    "avenue": [
+      800,
+      688
+    ],
+    "civic": [
+      16,
+      440
+    ],
+    "river": [
+      1456,
+      432
+    ]
+  },
+  "walkablePolygons": [
+    [
+      [
+        752,
+        0
+      ],
+      [
+        848,
+        0
+      ],
+      [
+        848,
+        340
+      ],
+      [
+        880,
+        384
+      ],
+      [
+        1472,
+        400
+      ],
+      [
+        1472,
+        488
+      ],
+      [
+        880,
+        488
+      ],
+      [
+        848,
+        512
+      ],
+      [
+        848,
+        704
+      ],
+      [
+        744,
+        704
+      ],
+      [
+        744,
+        512
+      ],
+      [
+        720,
+        488
+      ],
+      [
+        0,
+        488
+      ],
+      [
+        0,
+        400
+      ],
+      [
+        228,
+        400
+      ],
+      [
+        236,
+        296
+      ],
+      [
+        260,
+        224
+      ],
+      [
+        336,
+        168
+      ],
+      [
+        416,
+        144
+      ],
+      [
+        496,
+        144
+      ],
+      [
+        580,
+        168
+      ],
+      [
+        652,
+        224
+      ],
+      [
+        692,
+        296
+      ],
+      [
+        704,
+        368
+      ],
+      [
+        736,
+        384
+      ],
+      [
+        752,
+        352
+      ]
+    ],
+    [
+      [
+        252,
+        252
+      ],
+      [
+        280,
+        208
+      ],
+      [
+        322,
+        169
+      ],
+      [
+        372,
+        142
+      ],
+      [
+        424,
+        128
+      ],
+      [
+        488,
+        122
+      ],
+      [
+        544,
+        129
+      ],
+      [
+        601,
+        147
+      ],
+      [
+        648,
+        177
+      ],
+      [
+        684,
+        217
+      ],
+      [
+        706,
+        260
+      ],
+      [
+        715,
+        304
+      ],
+      [
+        704,
+        352
+      ],
+      [
+        680,
+        397
+      ],
+      [
+        642,
+        431
+      ],
+      [
+        594,
+        455
+      ],
+      [
+        536,
+        471
+      ],
+      [
+        472,
+        478
+      ],
+      [
+        408,
+        467
+      ],
+      [
+        352,
+        448
+      ],
+      [
+        304,
+        417
+      ],
+      [
+        268,
+        375
+      ],
+      [
+        248,
+        331
+      ]
+    ]
+  ],
+  "obstacles": [
+    {
+      "id": "native32-stone-basin",
+      "type": "ellipse",
+      "cx": 488.0,
+      "cy": 303.0,
+      "rx": 132.0,
+      "ry": 96.0
+    },
+    {
+      "id": "native32-bench-northwest",
+      "type": "polygon",
+      "points": [
+        [
+          260,
+          134
+        ],
+        [
+          318,
+          105
+        ],
+        [
+          334,
+          138
+        ]
+      ]
+    },
+    {
+      "id": "native32-bench-west",
+      "type": "polygon",
+      "points": [
+        [
+          211,
+          275
+        ],
+        [
+          231,
+          271
+        ],
+        [
+          250,
+          324
+        ],
+        [
+          228,
+          338
+        ]
+      ]
+    },
+    {
+      "id": "native32-rim-north-flowers",
+      "type": "ellipse",
+      "cx": 488.0,
+      "cy": 212.0,
+      "rx": 14.0,
+      "ry": 8.0
+    },
+    {
+      "id": "native32-east-border-planter",
+      "type": "ellipse",
+      "cx": 727.5,
+      "cy": 366.5,
+      "rx": 12.5,
+      "ry": 12.5
+    },
+    {
+      "id": "native32-southwest-edge-planter",
+      "type": "ellipse",
+      "cx": 234.5,
+      "cy": 360.0,
+      "rx": 15.5,
+      "ry": 12.0
+    }
+  ],
+  "notes": [
+    "Diagonal garden benches are decorative here, no native seated-position claim.",
+    "Actual painted path registered1776 rather than guide1664;112pxporch connector aligns officeentry.",
+    "Onlyeast rivergarden iswatercourse; firstart accidentalrightwater preserved separately."
+  ],
+  "water": {
+    "center": [
+      488,
+      303
+    ],
+    "radii": [
+      103,
+      70
+    ],
+    "localAudioMaxGain": 0.035
+  },
+  "runtimeVerified": false,
+  "standard32Repair": {
+    "status": "Bounded visible paving expansion and bench/pot relocation; unmodified-source paths passed, live room pending",
+    "nativeCrop": [
+      192,
+      64,
+      608,
+      448
+    ],
+    "protectedOriginalPixels": 40928,
+    "animationPixelsAndPositionUnchanged": true,
+    "minimumPrescribedBodyClearancePx": 8,
+    "fixedForegroundAll12HeadFramesClear": true
+  }
+}

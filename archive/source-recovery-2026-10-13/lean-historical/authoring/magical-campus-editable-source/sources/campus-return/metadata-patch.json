@@ -1,0 +1,18 @@
+{
+  "scope": "Native metadata addition only. Original campus artwork, geometry, collision, spawn and existing areas stay unchanged.",
+  "mapProperties": [
+    {"name":"script","type":"string","value":"scripts/campus-return.js"},
+    {"name":"gateRoomUrl","type":"string","value":""},
+    {"name":"gateReturnLiveRoomPending","type":"bool","value":true}
+  ],
+  "objectLayer": "campus-zones-offline",
+  "object": {
+    "name":"gate-return-pad", "type":"area", "class":"area",
+    "x":1524, "y":2912, "width":24, "height":32,
+    "visible":true, "rotation":0,
+    "properties":[{"name":"returnRequiresAction","type":"bool","value":true}]
+  },
+  "arrival":{"x":1504,"y":2912},
+  "feetOffsetY":16,
+  "nativeBody":{"width":16,"height":16,"leftOffset":-8,"topOffset":0}
+}

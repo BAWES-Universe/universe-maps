@@ -1,0 +1,33 @@
+{
+  "id": "reading-conservatory-concept-r1",
+  "name": "Reading Conservatory",
+  "family": "Reading Conservatory",
+  "version": "concept r1",
+  "use_case": "Quiet study, mentorship and small-group reading / storytelling",
+  "template_family": "Knowledge / Social",
+  "style": "Pale limestone Art Nouveau conservatory, jade ironwork, ochre upholstery, oak and botanical mosaic",
+  "decision": "Pending",
+  "publication": "Not published",
+  "source_validation": "Visual concept only; native32 occupied scale and runtime not validated",
+  "known_issues": "No TMJ/WAM, collision, spawn, foreground-depth, native-route, live browser/device/media or seating functionality validation. New proposed theme within documented Knowledge/Social room families; this exact theme was not on original list.",
+  "preview_path": "/workspace/shared/map-concept/reading-conservatory-r1/Reading-Conservatory-r1-concept.png",
+  "review_pdf_path": "/workspace/shared/map-concept/reading-conservatory-r1/Reading-Conservatory-r1-review.pdf",
+  "generated_with": "built-in image_gen",
+  "created_at": "2026-10-11T13:04:22Z",
+  "title": "Reading Conservatory",
+  "render": "/workspace/shared/map-concept/reading-conservatory-r1/Reading-Conservatory-r1-concept.png",
+  "decision_notes": "New visual proposal. User design approval pending. Native32 target, but occupied scale and runtime not validated.",
+  "live_playtest": "Not verified",
+  "artifacts": {
+    "preview_library_id": "libfile_28044bf6a6088191a7ff238818e03396",
+    "review_pdf_library_id": "libfile_6aa02a083c68819192340f70f095ba54",
+    "source_library_id": "libfile_6f12e31229108191ae0585a1499523a0"
+  },
+  "implementation": "Visual concept only",
+  "tmj_url": null,
+  "preview_url": null,
+  "wam_url": null,
+  "source_url": null,
+  "setup_instructions": "Review the image/PDF for visual direction. No runtime package exists; do not import as a working room.",
+  "limitations": "No TMJ/WAM, collision, spawn, foreground-depth, native-route, live browser/device/media or seating functionality validation. New proposed theme within documented Knowledge/Social room families; this exact theme was not on original list."
+}

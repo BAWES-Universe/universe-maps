@@ -11,7 +11,7 @@ This source tree preserves small authoring code, configuration, tests, reconstru
 - Studio r8 and Reading r4: surviving original runtime fixtures support separately reconstructed editable layers/builders, reproducing 11 outputs exactly. The original full source archives remain unavailable.
 - Media House: original r7c source/runtime survive; the partial reconstruction reproduces five original runtime files and adds two test landmarks only. Missing r9 and its visual repairs have not been recovered.
 - The 33 H-series original packages remain unavailable. H009-initial, H025 and H039 are clearly labeled partial recoveries. Historical READY files and test results do not turn them into complete originals.
-- A separate authenticated Library catalogue inventories 181 historical archives and 9,018 exact members, including the original 12. These counts overlap the groups above. Diagnostic, blocked and concept packages retain their historical limitations. A lean historical-source Git checkpoint is prepared separately.
+- A separate authenticated Library catalogue inventories 181 historical archives and 9,018 exact members, including the original 12. These counts overlap the groups above. Diagnostic, blocked and concept packages retain their historical limitations. Selected unique historical authoring/build/configuration text and complete restore manifests are under lean-historical.
 
 ## Restore
 
@@ -24,3 +24,7 @@ No merge or deployment is included. SOURCE-AVAILABILITY.json records remaining g
 ## Find a map by name
 
 Start with [MAP-CATALOG.md](MAP-CATALOG.md), or use the machine-readable [MAP-CATALOG.json](MAP-CATALOG.json). These connect retained revisions to source paths, exact asset manifests, retained generation prompts and build recipes, historical comparison/failure evidence, and missing pieces.
+
+## Historical revisions
+
+[Historical maps by name and revision](lean-historical/HISTORICAL-MAP-CATALOG.md) covers 22 families and all 181 original archive revisions. [Historical index](lean-historical/INDEX.json) pins all 9,018 original members. Only 823 unique authoring/config files are added; identical existing files are referenced, while original artwork/runtime and large QA evidence stay in Library. Use [historical restore instructions](historical-restore/README.md) before building complete original packages.

@@ -1,0 +1,498 @@
+{
+  "status": "Art-only candidate; no trigger or runtime implementation",
+  "tileSize": 32,
+  "worldPixels": [
+    2560,
+    1920
+  ],
+  "layerOpacitySemantics": "Store native alpha. Do not flatten roofs or shadows into foundation; manage layer visibility/opacity independently. Roofs are complete full-room covers, not patches.",
+  "suggestedDrawOrder": [
+    "garden-topdown",
+    "shadows-exterior-cast",
+    "hall-base",
+    "foyer-base",
+    "terrace-base",
+    "foyer-shadows-contact",
+    "terrace-shadows-contact",
+    "hall-walls-raised",
+    "foyer-walls-raised",
+    "PLAYER_RUNTIME",
+    "hall-above",
+    "foyer-above",
+    "terrace-above",
+    "shadows-roof-closed",
+    "roof-auditorium-full",
+    "roof-foyer-full"
+  ],
+  "stateIntent": {
+    "outsideClosed": {
+      "roof-auditorium-full": 1,
+      "roof-foyer-full": 1
+    },
+    "insideRevealed": {
+      "roof-auditorium-full": 0,
+      "roof-foyer-full": 0
+    },
+    "stageFocus": {
+      "roof-auditorium-full": 0,
+      "roof-foyer-full": 0,
+      "surroundings": "Hide garden, foyer, terrace and their matching decorative layers; preserve hall plus hall furniture depth. Parent implements exact trigger/API."
+    }
+  },
+  "layers": [
+    {
+      "id": "foundation-preserved",
+      "asset": "assets/foundation-preserved.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        0,
+        0,
+        2504,
+        1920
+      ],
+      "alphaMask": "source/foundation-preserved-alpha.png",
+      "collides": false,
+      "role": "Convenience unsplit foundation; do not also render hall/foyer/terrace base.",
+      "opaquePixelCount": 3412531,
+      "nonzeroAlphaPixelCount": 3447375
+    },
+    {
+      "id": "foyer-above",
+      "asset": "assets/foyer-above.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        200,
+        1136,
+        1368,
+        1631
+      ],
+      "alphaMask": "source/foyer-above-alpha.png",
+      "collides": false,
+      "role": "Per-room ownership; hall is retained during focus, foyer/terrace hidden.",
+      "opaquePixelCount": 791,
+      "nonzeroAlphaPixelCount": 1630
+    },
+    {
+      "id": "foyer-base",
+      "asset": "assets/foyer-base.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        8,
+        1008,
+        1536,
+        1920
+      ],
+      "alphaMask": "source/foyer-base-alpha.png",
+      "collides": false,
+      "role": "Per-room ownership; hall is retained during focus, foyer/terrace hidden.",
+      "opaquePixelCount": 1192453,
+      "nonzeroAlphaPixelCount": 1212352
+    },
+    {
+      "id": "foyer-shadows-contact",
+      "asset": "assets/foyer-shadows-contact.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        56,
+        1008,
+        1472,
+        1705
+      ],
+      "alphaMask": "source/foyer-shadows-contact-alpha.png",
+      "collides": false,
+      "role": "Per-room ownership; hall is retained during focus, foyer/terrace hidden.",
+      "opaquePixelCount": 0,
+      "nonzeroAlphaPixelCount": 17956
+    },
+    {
+      "id": "foyer-walls-raised",
+      "asset": "assets/foyer-walls-raised.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        64,
+        944,
+        1472,
+        1776
+      ],
+      "alphaMask": "source/foyer-walls-raised-alpha.png",
+      "collides": false,
+      "role": "Per-room ownership; hall is retained during focus, foyer/terrace hidden.",
+      "opaquePixelCount": 134995,
+      "nonzeroAlphaPixelCount": 141201
+    },
+    {
+      "id": "furniture-and-hall-above",
+      "asset": "assets/furniture-and-hall-above.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        200,
+        272,
+        2292,
+        1631
+      ],
+      "alphaMask": "source/furniture-and-hall-above-alpha.png",
+      "collides": false,
+      "role": "Convenience unsplit above; do not also render per-room above.",
+      "opaquePixelCount": 55900,
+      "nonzeroAlphaPixelCount": 60428
+    },
+    {
+      "id": "garden-topdown",
+      "asset": "assets/garden-topdown.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        0,
+        0,
+        2560,
+        1920
+      ],
+      "alphaMask": "source/garden-topdown-alpha.png",
+      "collides": false,
+      "role": "Exterior scenery; hide as surroundings in stage focus.",
+      "opaquePixelCount": 1504576,
+      "nonzeroAlphaPixelCount": 1504576
+    },
+    {
+      "id": "hall-above",
+      "asset": "assets/hall-above.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        200,
+        272,
+        1336,
+        839
+      ],
+      "alphaMask": "source/hall-above-alpha.png",
+      "collides": false,
+      "role": "Per-room ownership; hall is retained during focus, foyer/terrace hidden.",
+      "opaquePixelCount": 55040,
+      "nonzeroAlphaPixelCount": 58516
+    },
+    {
+      "id": "hall-base",
+      "asset": "assets/hall-base.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        0,
+        0,
+        1536,
+        1008
+      ],
+      "alphaMask": "source/hall-base-alpha.png",
+      "collides": false,
+      "role": "Per-room ownership; hall is retained during focus, foyer/terrace hidden.",
+      "opaquePixelCount": 1547776,
+      "nonzeroAlphaPixelCount": 1547776
+    },
+    {
+      "id": "hall-walls-raised",
+      "asset": "assets/hall-walls-raised.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        1496,
+        0,
+        1536,
+        944
+      ],
+      "alphaMask": "source/hall-walls-raised-alpha.png",
+      "collides": false,
+      "role": "Per-room ownership; hall is retained during focus, foyer/terrace hidden.",
+      "opaquePixelCount": 36983,
+      "nonzeroAlphaPixelCount": 37760
+    },
+    {
+      "id": "roof-auditorium-full",
+      "asset": "assets/roof-auditorium-full.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        32,
+        0,
+        1504,
+        976
+      ],
+      "alphaMask": "source/roof-auditorium-full-alpha.png",
+      "collides": false,
+      "role": "Full auditorium opaque roof for outside/closed state; hidden for inside/revealed and stage focus.",
+      "opaquePixelCount": 1389256,
+      "nonzeroAlphaPixelCount": 1410693
+    },
+    {
+      "id": "roof-auditorium-ghost18",
+      "asset": "assets/roof-auditorium-ghost18.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        32,
+        0,
+        1504,
+        976
+      ],
+      "alphaMask": "source/roof-auditorium-ghost18-alpha.png",
+      "collides": false,
+      "role": "Per-room ownership; hall is retained during focus, foyer/terrace hidden.",
+      "opaquePixelCount": 0,
+      "nonzeroAlphaPixelCount": 1402743
+    },
+    {
+      "id": "roof-foyer-full",
+      "asset": "assets/roof-foyer-full.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        8,
+        976,
+        1528,
+        1776
+      ],
+      "alphaMask": "source/roof-foyer-full-alpha.png",
+      "collides": false,
+      "role": "Full foyer opaque roof; hidden when foyer is occupied and during stage focus.",
+      "opaquePixelCount": 1171077,
+      "nonzeroAlphaPixelCount": 1191821
+    },
+    {
+      "id": "roof-foyer-ghost18",
+      "asset": "assets/roof-foyer-ghost18.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        8,
+        976,
+        1528,
+        1776
+      ],
+      "alphaMask": "source/roof-foyer-ghost18-alpha.png",
+      "collides": false,
+      "role": "Per-room ownership; hall is retained during focus, foyer/terrace hidden.",
+      "opaquePixelCount": 0,
+      "nonzeroAlphaPixelCount": 1183891
+    },
+    {
+      "id": "shadows-contact",
+      "asset": "assets/shadows-contact.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        56,
+        1008,
+        2464,
+        1712
+      ],
+      "alphaMask": "source/shadows-contact-alpha.png",
+      "collides": false,
+      "role": "Decorative contact shadow, blocked boundary cells only.",
+      "opaquePixelCount": 0,
+      "nonzeroAlphaPixelCount": 40228
+    },
+    {
+      "id": "shadows-exterior-cast",
+      "asset": "assets/shadows-exterior-cast.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        64,
+        32,
+        2537,
+        1801
+      ],
+      "alphaMask": "source/shadows-exterior-cast-alpha.png",
+      "collides": false,
+      "role": "Decorative ground shadow in blocked exterior cells.",
+      "opaquePixelCount": 0,
+      "nonzeroAlphaPixelCount": 79464
+    },
+    {
+      "id": "shadows-roof-closed",
+      "asset": "assets/shadows-roof-closed.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        896,
+        24,
+        1549,
+        1809
+      ],
+      "alphaMask": "source/shadows-roof-closed-alpha.png",
+      "collides": false,
+      "role": "Pairs with visible roof state only.",
+      "opaquePixelCount": 0,
+      "nonzeroAlphaPixelCount": 76137
+    },
+    {
+      "id": "shadows-roof-ghost18",
+      "asset": "assets/shadows-roof-ghost18.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        896,
+        24,
+        1549,
+        1809
+      ],
+      "alphaMask": "source/shadows-roof-ghost18-alpha.png",
+      "collides": false,
+      "role": "Per-room ownership; hall is retained during focus, foyer/terrace hidden.",
+      "opaquePixelCount": 0,
+      "nonzeroAlphaPixelCount": 76137
+    },
+    {
+      "id": "terrace-above",
+      "asset": "assets/terrace-above.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        1740,
+        1212,
+        2292,
+        1624
+      ],
+      "alphaMask": "source/terrace-above-alpha.png",
+      "collides": false,
+      "role": "Per-room ownership; hall is retained during focus, foyer/terrace hidden.",
+      "opaquePixelCount": 69,
+      "nonzeroAlphaPixelCount": 282
+    },
+    {
+      "id": "terrace-base",
+      "asset": "assets/terrace-base.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        1536,
+        1040,
+        2504,
+        1760
+      ],
+      "alphaMask": "source/terrace-base-alpha.png",
+      "collides": false,
+      "role": "Per-room ownership; hall is retained during focus, foyer/terrace hidden.",
+      "opaquePixelCount": 672302,
+      "nonzeroAlphaPixelCount": 687247
+    },
+    {
+      "id": "terrace-shadows-contact",
+      "asset": "assets/terrace-shadows-contact.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        1536,
+        1080,
+        2464,
+        1712
+      ],
+      "alphaMask": "source/terrace-shadows-contact-alpha.png",
+      "collides": false,
+      "role": "Per-room ownership; hall is retained during focus, foyer/terrace hidden.",
+      "opaquePixelCount": 0,
+      "nonzeroAlphaPixelCount": 22272
+    },
+    {
+      "id": "walls-raised-faces",
+      "asset": "assets/walls-raised-faces.png",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "alphaBoundsXYXY": [
+        64,
+        0,
+        1536,
+        1776
+      ],
+      "alphaMask": "source/walls-raised-faces-alpha.png",
+      "collides": false,
+      "role": "Optional decorative wall-height overlay. All alpha inside existing blocked cells.",
+      "opaquePixelCount": 171978,
+      "nonzeroAlphaPixelCount": 178961
+    }
+  ],
+  "sourceCrops": {
+    "gardenTopRight": {
+      "source": "source/garden-topdown-master.png",
+      "cropXYXY": [
+        256,
+        0,
+        1280,
+        1024
+      ],
+      "destinationXY": [
+        1536,
+        0
+      ],
+      "scale": 1
+    },
+    "wallTrimXYXY": [
+      35,
+      331,
+      1501,
+      704
+    ],
+    "roofTrimXYXY": [
+      18,
+      83,
+      1519,
+      913
+    ],
+    "roofNativeResize": [
+      750,
+      415
+    ],
+    "wallNativeResize": [
+      320,
+      80
+    ]
+  }
+}

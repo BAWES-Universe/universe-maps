@@ -1,0 +1,79 @@
+{
+  "id": "timber-yoga-dark-mats-r3",
+  "title": "Timber & Stone Yoga Retreat \u00b7 charcoal mats r3",
+  "version": "r3",
+  "publication": "Unpublished",
+  "live_playtest": "Not verified",
+  "decision": "Pending",
+  "tmj_url": null,
+  "preview_url": null,
+  "wam_url": null,
+  "source_url": null,
+  "publication_verified_at": null,
+  "source_validation": "PASS \u2014 independent art, geometry, native routes and clean compact-source rebuild",
+  "setup_instructions": "Use the exact runtime package in a separate test room and apply companion WAM setup. Publication remains paused. Record browser, phone and media tests separately.",
+  "limitations": [
+    "Live browser, device, multi-user media and deployment not tested.",
+    "Mats are walk-to destinations with standing reference proof; exercise poses are not implemented.",
+    "Compact source excludes extracted native engine/runner. Pinned native replay report is included as supplemental evidence."
+  ],
+  "acceptance": "User approval pending",
+  "use_case": "Yoga and quiet social retreat",
+  "style": "Timber retreat",
+  "decision_notes": "User requested better dark mats at 08:58. Separate revision retains exact room/context and all 13 original mat positions. Root visual review and independent technical checks passed; user has not approved this r3. User 09:05 retained a different original six-mat mixed activity concept, which remains separate.",
+  "runtime_tmj_sha256": "5e6ea8e795bbae49e5dd384d51b106fa748521b96627958645094673cdae02fe",
+  "runtime_package_name": "timber-yoga-dark-mats-r3-runtime.zip",
+  "preview_name": "timber-yoga-dark-mats-r3-overview.png",
+  "verification_notes": "Exactly 50,704 changed pixels inside 13 mat rectangles. Every outside pixel, old atlas, layout/WAM, foreground and non-art TMJ field preserved. Independent 864 native routes across 1,483,403 body samples pass; zero head conflicts across 453,311 clear positions. 19 generated frozen files clean-rebuild exactly; native replay report separately retained.",
+  "delivery": "Five files saved in Library 11 Oct 09:13 UTC; parent delivery pending",
+  "what_changed": "Separate 12-student plus 1-instructor charcoal-rubber mat revision, using Gym material as reference. Same room, outdoors, mat positions and runtime geometry.",
+  "implementation": "Built",
+  "render": "Compiled empty/occupied evidence and comparison passed root visual review; user approval pending",
+  "portable_rebuild": "19 generated frozen files byte-exact; native replay evidence retained separately",
+  "source_package_names": [
+    "timber-yoga-dark-mats-r3-source.zip"
+  ],
+  "bundle_entries": [
+    "timber-yoga-dark-mats-r3/map32/map.tmj",
+    "timber-yoga-dark-mats-r3/map32/map.wam"
+  ],
+  "artifacts": [
+    {
+      "name": "timber-yoga-dark-mats-r3-review.pdf",
+      "library_file_id": "libfile_f37f50e3742c8191960fff7c41efbbfe",
+      "version": 0,
+      "sha256": "bc2131a06af18aeea5e6f1c4e3ba6995e7e325379b75fd995ee4acb64ae30cbd",
+      "role": "review"
+    },
+    {
+      "name": "timber-yoga-dark-mats-r3-overview.png",
+      "library_file_id": "libfile_2e8915a163008191a350f16564b5ddda",
+      "version": 0,
+      "sha256": "4c412da581bddc72e6ad22b37a576fe15b77178254866d9b861ab82b72026050",
+      "role": "preview"
+    },
+    {
+      "name": "timber-yoga-dark-mats-r3-comparison.png",
+      "library_file_id": "libfile_86451fbf24488191b704565547bc6d64",
+      "version": 0,
+      "sha256": "708d80124a65d5f8911d2fb33f35257d7f921e1c2a33bf86354d237d1f1b2990",
+      "role": "comparison"
+    },
+    {
+      "name": "timber-yoga-dark-mats-r3-runtime.zip",
+      "library_file_id": "libfile_22e09cd86ae481918cde2af79d01c0fa",
+      "version": 0,
+      "sha256": "16ea119279c24894b42fda4ec1edfeb1c2bdc31cd9b393a57131da310e1053be",
+      "role": "runtime"
+    },
+    {
+      "name": "timber-yoga-dark-mats-r3-source.zip",
+      "library_file_id": "libfile_542fc5b1fa508191a8625174080f9434",
+      "version": 0,
+      "sha256": "5abd1e7cba20e8633fb4ca6a3073a30bc4fdc842e7ea5abf9579d312ed98da92",
+      "role": "source_rebuild"
+    }
+  ],
+  "release_freeze_sha256": "df06a325a78d76e1a032746c0af92674d5c53fbb1c8684de548f85f2b252fcae",
+  "review_ready": true
+}

@@ -1,0 +1,171 @@
+{
+  "status": "Native source-prepared original accent; no integration/live-render verification",
+  "sourceMasterSize": [
+    1274,
+    1234
+  ],
+  "nativeAtlasSize": [
+    128,
+    32
+  ],
+  "transparent": true,
+  "frameSize": [
+    32,
+    32
+  ],
+  "durationMs": [
+    350,
+    450,
+    350,
+    650
+  ],
+  "frameRecords": [
+    {
+      "frame": 0,
+      "panelXYWH": [
+        0,
+        0,
+        637,
+        617
+      ],
+      "measuredRootLocalXY": [
+        355,
+        494
+      ],
+      "squareCropLocalXYXY": [
+        47,
+        14,
+        664,
+        631
+      ],
+      "uniformScale": 0.05186385737439222,
+      "alphaCleanup": "Keep largest connected generated tuft +3px original-source fringe; native alpha<4\u21920"
+    },
+    {
+      "frame": 1,
+      "panelXYWH": [
+        637,
+        0,
+        637,
+        617
+      ],
+      "measuredRootLocalXY": [
+        361,
+        494
+      ],
+      "squareCropLocalXYXY": [
+        53,
+        14,
+        670,
+        631
+      ],
+      "uniformScale": 0.05186385737439222,
+      "alphaCleanup": "Keep largest connected generated tuft +3px original-source fringe; native alpha<4\u21920"
+    },
+    {
+      "frame": 2,
+      "panelXYWH": [
+        0,
+        617,
+        637,
+        617
+      ],
+      "measuredRootLocalXY": [
+        356,
+        481
+      ],
+      "squareCropLocalXYXY": [
+        48,
+        1,
+        665,
+        618
+      ],
+      "uniformScale": 0.05186385737439222,
+      "alphaCleanup": "Keep largest connected generated tuft +3px original-source fringe; native alpha<4\u21920"
+    },
+    {
+      "frame": 3,
+      "panelXYWH": [
+        637,
+        617,
+        637,
+        617
+      ],
+      "measuredRootLocalXY": [
+        355,
+        481
+      ],
+      "squareCropLocalXYXY": [
+        47,
+        1,
+        664,
+        618
+      ],
+      "uniformScale": 0.05186385737439222,
+      "alphaCleanup": "Keep largest connected generated tuft +3px original-source fringe; native alpha<4\u21920"
+    }
+  ],
+  "metrics": [
+    {
+      "frame": 0,
+      "alphaWeightedMeanLuminance": 96.794,
+      "silhouetteMaxDeviationFromNeutralPx": 0.0,
+      "nontransparentBounds": [
+        3,
+        4,
+        29,
+        26
+      ],
+      "rootRows23To31Exact": true,
+      "silhouetteMaxChebyshevDeviationPx": 0
+    },
+    {
+      "frame": 1,
+      "alphaWeightedMeanLuminance": 96.562,
+      "silhouetteMaxDeviationFromNeutralPx": 1.0,
+      "nontransparentBounds": [
+        3,
+        4,
+        29,
+        26
+      ],
+      "rootRows23To31Exact": true,
+      "silhouetteMaxChebyshevDeviationPx": 1
+    },
+    {
+      "frame": 2,
+      "alphaWeightedMeanLuminance": 96.666,
+      "silhouetteMaxDeviationFromNeutralPx": 1.0,
+      "nontransparentBounds": [
+        2,
+        3,
+        29,
+        26
+      ],
+      "rootRows23To31Exact": true,
+      "silhouetteMaxChebyshevDeviationPx": 1
+    },
+    {
+      "frame": 3,
+      "alphaWeightedMeanLuminance": 95.937,
+      "silhouetteMaxDeviationFromNeutralPx": 2.23606797749979,
+      "nontransparentBounds": [
+        2,
+        3,
+        29,
+        26
+      ],
+      "rootRows23To31Exact": true,
+      "silhouetteMaxChebyshevDeviationPx": 2
+    }
+  ],
+  "maximumSilhouetteMotionPx": 2.23606797749979,
+  "brightnessRange": 0.8569999999999993,
+  "stableRootRows": [
+    23,
+    32
+  ],
+  "colorOrBrightnessPulsesAdded": false,
+  "anisotropicResize": false,
+  "maximumPerAxisSilhouetteMotionPx": 2
+}

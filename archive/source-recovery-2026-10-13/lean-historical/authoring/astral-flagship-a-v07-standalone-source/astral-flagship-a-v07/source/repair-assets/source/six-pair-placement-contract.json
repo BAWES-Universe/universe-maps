@@ -1,0 +1,1630 @@
+{
+  "status": "component placement proposal; full-map integration and live tests not performed",
+  "assetRoot": "/workspace/shared/flagship-corrective-a-asset-benchmark",
+  "sourceFrozenV05": "/workspace/shared/grand-auditorium-05-roofless-garden",
+  "removeObjectIds": [
+    "welcome",
+    "indoor-casual-left",
+    "indoor-casual-right",
+    "indoor-casual-table",
+    "terrace-view-pair-left",
+    "terrace-view-pair-right",
+    "terrace-view-pair-table",
+    "terrace-lower-pair-left",
+    "terrace-lower-pair-right",
+    "terrace-lower-pair-table",
+    "terrace-garden-pair-left",
+    "terrace-garden-pair-right",
+    "terrace-garden-pair-table",
+    "garden-pair-1-table",
+    "garden-pair-1-left",
+    "garden-pair-1-right",
+    "garden-pair-2-table",
+    "garden-pair-2-left",
+    "garden-pair-2-right"
+  ],
+  "preserveAcceptedCore": "210 hall seats,16 meeting chairs,rugs,stage,room footprints and garden connections unchanged",
+  "pairCount": 6,
+  "casualSeatCount": 12,
+  "reusedNativeAssets": [
+    "assets/lounge-chair-north.png",
+    "assets/low-lounge-table.png"
+  ],
+  "noOutdoorSouthFacingSeats": true,
+  "pavilionCentralClearLaneXYWH": [
+    2144,
+    144,
+    64,
+    208
+  ],
+  "pavilionTables": "Both removed deliberately; no footprint or architecture expansion.",
+  "pairs": [
+    {
+      "id": "indoor-casual",
+      "center": [
+        1264,
+        1583
+      ],
+      "anchorDistancePx": 56,
+      "direction": "north",
+      "rationale": "Original pair center and anchors retained. Face the open foyer/hall. Low table sits northeast, outside the clear north approach and reception east return.",
+      "chairs": [
+        {
+          "id": "indoor-casual-left",
+          "asset": "assets/lounge-chair-north.png",
+          "artXYWH": [
+            1212,
+            1567,
+            48,
+            44
+          ],
+          "anchor": [
+            1236,
+            1583
+          ],
+          "floorClick": [
+            1236,
+            1599
+          ],
+          "direction": "north",
+          "solidFootprintXYWH": [
+            1216,
+            1600,
+            32,
+            32
+          ],
+          "foregroundFromLocalY": 25,
+          "foregroundSafeWorldXYXY": [
+            1224,
+            1584,
+            1240,
+            1616
+          ],
+          "foregroundRule": "Intersection of original alpha, localy>=25 and safe world rectangle. All other original alpha remains below. No copied full-width strips.",
+          "belowAsset": "assets/indoor-casual-left-below.png",
+          "aboveAsset": "assets/indoor-casual-left-above.png",
+          "originalPixelPartitionVerified": true,
+          "anchorValidation": {
+            "body16Clear": true,
+            "visual32Clear": true
+          },
+          "nativeFit": {
+            "floorClick": [
+              1236,
+              1599
+            ],
+            "fittedAnchor": [
+              1236,
+              1583
+            ],
+            "authoredAnchor": [
+              1236,
+              1583
+            ],
+            "exact": true
+          }
+        },
+        {
+          "id": "indoor-casual-right",
+          "asset": "assets/lounge-chair-north.png",
+          "artXYWH": [
+            1268,
+            1567,
+            48,
+            44
+          ],
+          "anchor": [
+            1292,
+            1583
+          ],
+          "floorClick": [
+            1292,
+            1599
+          ],
+          "direction": "north",
+          "solidFootprintXYWH": [
+            1280,
+            1600,
+            32,
+            32
+          ],
+          "foregroundFromLocalY": 25,
+          "foregroundSafeWorldXYXY": [
+            1288,
+            1584,
+            1304,
+            1616
+          ],
+          "foregroundRule": "Intersection of original alpha, localy>=25 and safe world rectangle. All other original alpha remains below. No copied full-width strips.",
+          "belowAsset": "assets/indoor-casual-right-below.png",
+          "aboveAsset": "assets/indoor-casual-right-above.png",
+          "originalPixelPartitionVerified": true,
+          "anchorValidation": {
+            "body16Clear": true,
+            "visual32Clear": true
+          },
+          "nativeFit": {
+            "floorClick": [
+              1292,
+              1599
+            ],
+            "fittedAnchor": [
+              1292,
+              1583
+            ],
+            "authoredAnchor": [
+              1292,
+              1583
+            ],
+            "exact": true
+          }
+        }
+      ],
+      "table": {
+        "id": "indoor-casual-table",
+        "asset": "assets/low-lounge-table.png",
+        "artXYWH": [
+          1312,
+          1532,
+          64,
+          36
+        ],
+        "solidFootprintXYWH": [
+          1312,
+          1536,
+          64,
+          32
+        ],
+        "depth": "All below actors. No overhead alpha."
+      },
+      "expectedApproachPaths": {
+        "left": [
+          [
+            1236,
+            1583
+          ],
+          [
+            1236,
+            1520
+          ],
+          [
+            1184,
+            1520
+          ]
+        ],
+        "right": [
+          [
+            1292,
+            1583
+          ],
+          [
+            1292,
+            1520
+          ],
+          [
+            1184,
+            1520
+          ]
+        ]
+      },
+      "principalClearApronXYWH": [
+        1216,
+        1504,
+        96,
+        64
+      ],
+      "approachValidation": {
+        "left": {
+          "samples": 117,
+          "badSamples": [],
+          "pass": true
+        },
+        "right": {
+          "samples": 173,
+          "badSamples": [],
+          "pass": true
+        }
+      },
+      "headValidation": {
+        "bodyClearIntegerPlacements": 35197,
+        "headConflictCount": 0,
+        "firstConflicts": []
+      },
+      "allStaticChecksPass": true
+    },
+    {
+      "id": "terrace-view-pair",
+      "center": [
+        2256,
+        1223
+      ],
+      "anchorDistancePx": 56,
+      "direction": "north",
+      "rationale": "Move27px south from originaly1196 so the north-facing view seats have a broad apron by the garden rail. Table at the far east edge leaves92px of visible right-side space.",
+      "chairs": [
+        {
+          "id": "terrace-view-pair-left",
+          "asset": "assets/lounge-chair-north.png",
+          "artXYWH": [
+            2204,
+            1207,
+            48,
+            44
+          ],
+          "anchor": [
+            2228,
+            1223
+          ],
+          "floorClick": [
+            2228,
+            1239
+          ],
+          "direction": "north",
+          "solidFootprintXYWH": [
+            2208,
+            1248,
+            32,
+            32
+          ],
+          "foregroundFromLocalY": 25,
+          "foregroundSafeWorldXYXY": [
+            2216,
+            1232,
+            2232,
+            1264
+          ],
+          "foregroundRule": "Intersection of original alpha, localy>=25 and safe world rectangle. All other original alpha remains below. No copied full-width strips.",
+          "belowAsset": "assets/terrace-view-pair-left-below.png",
+          "aboveAsset": "assets/terrace-view-pair-left-above.png",
+          "originalPixelPartitionVerified": true,
+          "anchorValidation": {
+            "body16Clear": true,
+            "visual32Clear": true
+          },
+          "nativeFit": {
+            "floorClick": [
+              2228,
+              1239
+            ],
+            "fittedAnchor": [
+              2228,
+              1223
+            ],
+            "authoredAnchor": [
+              2228,
+              1223
+            ],
+            "exact": true
+          }
+        },
+        {
+          "id": "terrace-view-pair-right",
+          "asset": "assets/lounge-chair-north.png",
+          "artXYWH": [
+            2260,
+            1207,
+            48,
+            44
+          ],
+          "anchor": [
+            2284,
+            1223
+          ],
+          "floorClick": [
+            2284,
+            1239
+          ],
+          "direction": "north",
+          "solidFootprintXYWH": [
+            2272,
+            1248,
+            32,
+            32
+          ],
+          "foregroundFromLocalY": 25,
+          "foregroundSafeWorldXYXY": [
+            2280,
+            1232,
+            2296,
+            1264
+          ],
+          "foregroundRule": "Intersection of original alpha, localy>=25 and safe world rectangle. All other original alpha remains below. No copied full-width strips.",
+          "belowAsset": "assets/terrace-view-pair-right-below.png",
+          "aboveAsset": "assets/terrace-view-pair-right-above.png",
+          "originalPixelPartitionVerified": true,
+          "anchorValidation": {
+            "body16Clear": true,
+            "visual32Clear": true
+          },
+          "nativeFit": {
+            "floorClick": [
+              2284,
+              1239
+            ],
+            "fittedAnchor": [
+              2284,
+              1223
+            ],
+            "authoredAnchor": [
+              2284,
+              1223
+            ],
+            "exact": true
+          }
+        }
+      ],
+      "table": {
+        "id": "terrace-view-pair-table",
+        "asset": "assets/low-lounge-table.png",
+        "artXYWH": [
+          2400,
+          1244,
+          64,
+          36
+        ],
+        "solidFootprintXYWH": [
+          2400,
+          1248,
+          64,
+          32
+        ],
+        "depth": "All below actors. No overhead alpha."
+      },
+      "expectedApproachPaths": {
+        "left": [
+          [
+            2228,
+            1223
+          ],
+          [
+            2228,
+            1152
+          ],
+          [
+            2160,
+            1152
+          ],
+          [
+            2160,
+            1312
+          ]
+        ],
+        "right": [
+          [
+            2284,
+            1223
+          ],
+          [
+            2284,
+            1152
+          ],
+          [
+            2336,
+            1152
+          ],
+          [
+            2336,
+            1312
+          ]
+        ]
+      },
+      "principalClearApronXYWH": [
+        2208,
+        1120,
+        96,
+        64
+      ],
+      "approachValidation": {
+        "left": {
+          "samples": 302,
+          "badSamples": [],
+          "pass": true
+        },
+        "right": {
+          "samples": 286,
+          "badSamples": [],
+          "pass": true
+        }
+      },
+      "headValidation": {
+        "bodyClearIntegerPlacements": 39783,
+        "headConflictCount": 0,
+        "firstConflicts": []
+      },
+      "allStaticChecksPass": true
+    },
+    {
+      "id": "terrace-lower-pair",
+      "center": [
+        1776,
+        1607
+      ],
+      "anchorDistancePx": 56,
+      "direction": "north",
+      "rationale": "Move7px south to fit north-chair foreground to the existing base row; face the garden/coffee terrace. Side table east with92px visible escape space.",
+      "chairs": [
+        {
+          "id": "terrace-lower-pair-left",
+          "asset": "assets/lounge-chair-north.png",
+          "artXYWH": [
+            1724,
+            1591,
+            48,
+            44
+          ],
+          "anchor": [
+            1748,
+            1607
+          ],
+          "floorClick": [
+            1748,
+            1623
+          ],
+          "direction": "north",
+          "solidFootprintXYWH": [
+            1728,
+            1632,
+            32,
+            32
+          ],
+          "foregroundFromLocalY": 25,
+          "foregroundSafeWorldXYXY": [
+            1736,
+            1616,
+            1752,
+            1648
+          ],
+          "foregroundRule": "Intersection of original alpha, localy>=25 and safe world rectangle. All other original alpha remains below. No copied full-width strips.",
+          "belowAsset": "assets/terrace-lower-pair-left-below.png",
+          "aboveAsset": "assets/terrace-lower-pair-left-above.png",
+          "originalPixelPartitionVerified": true,
+          "anchorValidation": {
+            "body16Clear": true,
+            "visual32Clear": true
+          },
+          "nativeFit": {
+            "floorClick": [
+              1748,
+              1623
+            ],
+            "fittedAnchor": [
+              1748,
+              1607
+            ],
+            "authoredAnchor": [
+              1748,
+              1607
+            ],
+            "exact": true
+          }
+        },
+        {
+          "id": "terrace-lower-pair-right",
+          "asset": "assets/lounge-chair-north.png",
+          "artXYWH": [
+            1780,
+            1591,
+            48,
+            44
+          ],
+          "anchor": [
+            1804,
+            1607
+          ],
+          "floorClick": [
+            1804,
+            1623
+          ],
+          "direction": "north",
+          "solidFootprintXYWH": [
+            1792,
+            1632,
+            32,
+            32
+          ],
+          "foregroundFromLocalY": 25,
+          "foregroundSafeWorldXYXY": [
+            1800,
+            1616,
+            1816,
+            1648
+          ],
+          "foregroundRule": "Intersection of original alpha, localy>=25 and safe world rectangle. All other original alpha remains below. No copied full-width strips.",
+          "belowAsset": "assets/terrace-lower-pair-right-below.png",
+          "aboveAsset": "assets/terrace-lower-pair-right-above.png",
+          "originalPixelPartitionVerified": true,
+          "anchorValidation": {
+            "body16Clear": true,
+            "visual32Clear": true
+          },
+          "nativeFit": {
+            "floorClick": [
+              1804,
+              1623
+            ],
+            "fittedAnchor": [
+              1804,
+              1607
+            ],
+            "authoredAnchor": [
+              1804,
+              1607
+            ],
+            "exact": true
+          }
+        }
+      ],
+      "table": {
+        "id": "terrace-lower-pair-table",
+        "asset": "assets/low-lounge-table.png",
+        "artXYWH": [
+          1920,
+          1628,
+          64,
+          36
+        ],
+        "solidFootprintXYWH": [
+          1920,
+          1632,
+          64,
+          32
+        ],
+        "depth": "All below actors. No overhead alpha."
+      },
+      "expectedApproachPaths": {
+        "left": [
+          [
+            1748,
+            1607
+          ],
+          [
+            1748,
+            1536
+          ],
+          [
+            1680,
+            1536
+          ]
+        ],
+        "right": [
+          [
+            1804,
+            1607
+          ],
+          [
+            1804,
+            1536
+          ],
+          [
+            1856,
+            1536
+          ]
+        ]
+      },
+      "principalClearApronXYWH": [
+        1728,
+        1504,
+        96,
+        64
+      ],
+      "approachValidation": {
+        "left": {
+          "samples": 141,
+          "badSamples": [],
+          "pass": true
+        },
+        "right": {
+          "samples": 125,
+          "badSamples": [],
+          "pass": true
+        }
+      },
+      "headValidation": {
+        "bodyClearIntegerPlacements": 39102,
+        "headConflictCount": 0,
+        "firstConflicts": []
+      },
+      "allStaticChecksPass": true
+    },
+    {
+      "id": "terrace-garden-pair",
+      "center": [
+        2224,
+        1607
+      ],
+      "anchorDistancePx": 56,
+      "direction": "north",
+      "rationale": "Move7px south; face the garden. Table is west, away from the southeast tree and principal north escape. Existing south planter stays untouched.",
+      "chairs": [
+        {
+          "id": "terrace-garden-pair-left",
+          "asset": "assets/lounge-chair-north.png",
+          "artXYWH": [
+            2172,
+            1591,
+            48,
+            44
+          ],
+          "anchor": [
+            2196,
+            1607
+          ],
+          "floorClick": [
+            2196,
+            1623
+          ],
+          "direction": "north",
+          "solidFootprintXYWH": [
+            2176,
+            1632,
+            32,
+            32
+          ],
+          "foregroundFromLocalY": 25,
+          "foregroundSafeWorldXYXY": [
+            2184,
+            1616,
+            2200,
+            1648
+          ],
+          "foregroundRule": "Intersection of original alpha, localy>=25 and safe world rectangle. All other original alpha remains below. No copied full-width strips.",
+          "belowAsset": "assets/terrace-garden-pair-left-below.png",
+          "aboveAsset": "assets/terrace-garden-pair-left-above.png",
+          "originalPixelPartitionVerified": true,
+          "anchorValidation": {
+            "body16Clear": true,
+            "visual32Clear": true
+          },
+          "nativeFit": {
+            "floorClick": [
+              2196,
+              1623
+            ],
+            "fittedAnchor": [
+              2196,
+              1607
+            ],
+            "authoredAnchor": [
+              2196,
+              1607
+            ],
+            "exact": true
+          }
+        },
+        {
+          "id": "terrace-garden-pair-right",
+          "asset": "assets/lounge-chair-north.png",
+          "artXYWH": [
+            2228,
+            1591,
+            48,
+            44
+          ],
+          "anchor": [
+            2252,
+            1607
+          ],
+          "floorClick": [
+            2252,
+            1623
+          ],
+          "direction": "north",
+          "solidFootprintXYWH": [
+            2240,
+            1632,
+            32,
+            32
+          ],
+          "foregroundFromLocalY": 25,
+          "foregroundSafeWorldXYXY": [
+            2248,
+            1616,
+            2264,
+            1648
+          ],
+          "foregroundRule": "Intersection of original alpha, localy>=25 and safe world rectangle. All other original alpha remains below. No copied full-width strips.",
+          "belowAsset": "assets/terrace-garden-pair-right-below.png",
+          "aboveAsset": "assets/terrace-garden-pair-right-above.png",
+          "originalPixelPartitionVerified": true,
+          "anchorValidation": {
+            "body16Clear": true,
+            "visual32Clear": true
+          },
+          "nativeFit": {
+            "floorClick": [
+              2252,
+              1623
+            ],
+            "fittedAnchor": [
+              2252,
+              1607
+            ],
+            "authoredAnchor": [
+              2252,
+              1607
+            ],
+            "exact": true
+          }
+        }
+      ],
+      "table": {
+        "id": "terrace-garden-pair-table",
+        "asset": "assets/low-lounge-table.png",
+        "artXYWH": [
+          2016,
+          1628,
+          64,
+          36
+        ],
+        "solidFootprintXYWH": [
+          2016,
+          1632,
+          64,
+          32
+        ],
+        "depth": "All below actors. No overhead alpha."
+      },
+      "expectedApproachPaths": {
+        "left": [
+          [
+            2196,
+            1607
+          ],
+          [
+            2196,
+            1536
+          ],
+          [
+            2144,
+            1536
+          ]
+        ],
+        "right": [
+          [
+            2252,
+            1607
+          ],
+          [
+            2252,
+            1536
+          ],
+          [
+            2320,
+            1536
+          ]
+        ]
+      },
+      "principalClearApronXYWH": [
+        2176,
+        1504,
+        96,
+        64
+      ],
+      "approachValidation": {
+        "left": {
+          "samples": 125,
+          "badSamples": [],
+          "pass": true
+        },
+        "right": {
+          "samples": 141,
+          "badSamples": [],
+          "pass": true
+        }
+      },
+      "headValidation": {
+        "bodyClearIntegerPlacements": 38334,
+        "headConflictCount": 0,
+        "firstConflicts": []
+      },
+      "allStaticChecksPass": true
+    },
+    {
+      "id": "garden-pair-1",
+      "center": [
+        2068,
+        231
+      ],
+      "anchorDistancePx": 56,
+      "direction": "north",
+      "rationale": "Shift pair4px east and7px south to avoid west pergola strip and fit north-chair depth. Deliberately remove the tall table. Preserve64px central entry.",
+      "chairs": [
+        {
+          "id": "garden-pair-1-left",
+          "asset": "assets/lounge-chair-north.png",
+          "artXYWH": [
+            2016,
+            215,
+            48,
+            44
+          ],
+          "anchor": [
+            2040,
+            231
+          ],
+          "floorClick": [
+            2040,
+            247
+          ],
+          "direction": "north",
+          "solidFootprintXYWH": [
+            2016,
+            256,
+            32,
+            32
+          ],
+          "foregroundFromLocalY": 25,
+          "foregroundSafeWorldXYXY": [
+            2024,
+            240,
+            2040,
+            272
+          ],
+          "foregroundRule": "Intersection of original alpha, localy>=25 and safe world rectangle. All other original alpha remains below. No copied full-width strips.",
+          "belowAsset": "assets/garden-pair-1-left-below.png",
+          "aboveAsset": "assets/garden-pair-1-left-above.png",
+          "originalPixelPartitionVerified": true,
+          "anchorValidation": {
+            "body16Clear": true,
+            "visual32Clear": true
+          },
+          "nativeFit": {
+            "floorClick": [
+              2040,
+              247
+            ],
+            "fittedAnchor": [
+              2040,
+              231
+            ],
+            "authoredAnchor": [
+              2040,
+              231
+            ],
+            "exact": true
+          }
+        },
+        {
+          "id": "garden-pair-1-right",
+          "asset": "assets/lounge-chair-north.png",
+          "artXYWH": [
+            2072,
+            215,
+            48,
+            44
+          ],
+          "anchor": [
+            2096,
+            231
+          ],
+          "floorClick": [
+            2096,
+            247
+          ],
+          "direction": "north",
+          "solidFootprintXYWH": [
+            2080,
+            256,
+            32,
+            32
+          ],
+          "foregroundFromLocalY": 25,
+          "foregroundSafeWorldXYXY": [
+            2088,
+            240,
+            2104,
+            272
+          ],
+          "foregroundRule": "Intersection of original alpha, localy>=25 and safe world rectangle. All other original alpha remains below. No copied full-width strips.",
+          "belowAsset": "assets/garden-pair-1-right-below.png",
+          "aboveAsset": "assets/garden-pair-1-right-above.png",
+          "originalPixelPartitionVerified": true,
+          "anchorValidation": {
+            "body16Clear": true,
+            "visual32Clear": true
+          },
+          "nativeFit": {
+            "floorClick": [
+              2096,
+              247
+            ],
+            "fittedAnchor": [
+              2096,
+              231
+            ],
+            "authoredAnchor": [
+              2096,
+              231
+            ],
+            "exact": true
+          }
+        }
+      ],
+      "table": null,
+      "expectedApproachPaths": {
+        "left": [
+          [
+            2040,
+            231
+          ],
+          [
+            2040,
+            176
+          ],
+          [
+            2176,
+            176
+          ],
+          [
+            2176,
+            336
+          ]
+        ],
+        "right": [
+          [
+            2096,
+            231
+          ],
+          [
+            2096,
+            176
+          ],
+          [
+            2176,
+            176
+          ],
+          [
+            2176,
+            336
+          ]
+        ]
+      },
+      "principalClearApronXYWH": [
+        2016,
+        144,
+        128,
+        64
+      ],
+      "approachValidation": {
+        "left": {
+          "samples": 354,
+          "badSamples": [],
+          "pass": true
+        },
+        "right": {
+          "samples": 298,
+          "badSamples": [],
+          "pass": true
+        }
+      },
+      "headValidation": {
+        "bodyClearIntegerPlacements": 43590,
+        "headConflictCount": 0,
+        "firstConflicts": []
+      },
+      "allStaticChecksPass": true
+    },
+    {
+      "id": "garden-pair-2",
+      "center": [
+        2284,
+        231
+      ],
+      "anchorDistancePx": 56,
+      "direction": "north",
+      "rationale": "Shift pair4px west and7px south to avoid east pergola strip and fit north-chair depth. Deliberately remove the tall table. Preserve64px central entry.",
+      "chairs": [
+        {
+          "id": "garden-pair-2-left",
+          "asset": "assets/lounge-chair-north.png",
+          "artXYWH": [
+            2232,
+            215,
+            48,
+            44
+          ],
+          "anchor": [
+            2256,
+            231
+          ],
+          "floorClick": [
+            2256,
+            247
+          ],
+          "direction": "north",
+          "solidFootprintXYWH": [
+            2240,
+            256,
+            32,
+            32
+          ],
+          "foregroundFromLocalY": 25,
+          "foregroundSafeWorldXYXY": [
+            2248,
+            240,
+            2264,
+            272
+          ],
+          "foregroundRule": "Intersection of original alpha, localy>=25 and safe world rectangle. All other original alpha remains below. No copied full-width strips.",
+          "belowAsset": "assets/garden-pair-2-left-below.png",
+          "aboveAsset": "assets/garden-pair-2-left-above.png",
+          "originalPixelPartitionVerified": true,
+          "anchorValidation": {
+            "body16Clear": true,
+            "visual32Clear": true
+          },
+          "nativeFit": {
+            "floorClick": [
+              2256,
+              247
+            ],
+            "fittedAnchor": [
+              2256,
+              231
+            ],
+            "authoredAnchor": [
+              2256,
+              231
+            ],
+            "exact": true
+          }
+        },
+        {
+          "id": "garden-pair-2-right",
+          "asset": "assets/lounge-chair-north.png",
+          "artXYWH": [
+            2288,
+            215,
+            48,
+            44
+          ],
+          "anchor": [
+            2312,
+            231
+          ],
+          "floorClick": [
+            2312,
+            247
+          ],
+          "direction": "north",
+          "solidFootprintXYWH": [
+            2304,
+            256,
+            32,
+            32
+          ],
+          "foregroundFromLocalY": 25,
+          "foregroundSafeWorldXYXY": [
+            2312,
+            240,
+            2328,
+            272
+          ],
+          "foregroundRule": "Intersection of original alpha, localy>=25 and safe world rectangle. All other original alpha remains below. No copied full-width strips.",
+          "belowAsset": "assets/garden-pair-2-right-below.png",
+          "aboveAsset": "assets/garden-pair-2-right-above.png",
+          "originalPixelPartitionVerified": true,
+          "anchorValidation": {
+            "body16Clear": true,
+            "visual32Clear": true
+          },
+          "nativeFit": {
+            "floorClick": [
+              2312,
+              247
+            ],
+            "fittedAnchor": [
+              2312,
+              231
+            ],
+            "authoredAnchor": [
+              2312,
+              231
+            ],
+            "exact": true
+          }
+        }
+      ],
+      "table": null,
+      "expectedApproachPaths": {
+        "left": [
+          [
+            2256,
+            231
+          ],
+          [
+            2256,
+            176
+          ],
+          [
+            2176,
+            176
+          ],
+          [
+            2176,
+            336
+          ]
+        ],
+        "right": [
+          [
+            2312,
+            231
+          ],
+          [
+            2312,
+            176
+          ],
+          [
+            2176,
+            176
+          ],
+          [
+            2176,
+            336
+          ]
+        ]
+      },
+      "principalClearApronXYWH": [
+        2208,
+        144,
+        128,
+        64
+      ],
+      "approachValidation": {
+        "left": {
+          "samples": 298,
+          "badSamples": [],
+          "pass": true
+        },
+        "right": {
+          "samples": 354,
+          "badSamples": [],
+          "pass": true
+        }
+      },
+      "headValidation": {
+        "bodyClearIntegerPlacements": 39678,
+        "headConflictCount": 0,
+        "firstConflicts": []
+      },
+      "allStaticChecksPass": true
+    }
+  ],
+  "reception": {
+    "status": "bounded static art/geometry benchmark, not runtime approval",
+    "sourceFrozenV05ReadOnly": true,
+    "counterAsset": [
+      192,
+      51
+    ],
+    "masterAlphaCrop": [
+      70,
+      125,
+      1970,
+      627
+    ],
+    "masterAspect": 3.7848605577689245,
+    "nativeAspect": 3.764705882352941,
+    "counterWorldArtXYWH": [
+      960,
+      1549,
+      192,
+      51
+    ],
+    "counterForegroundWorldXYXY": [
+      968,
+      1552,
+      1144,
+      1584
+    ],
+    "rectangles": {
+      "counterCollision": [
+        960,
+        1568,
+        192,
+        32
+      ],
+      "staffAllowance": [
+        960,
+        1488,
+        192,
+        64
+      ],
+      "eastReturn": [
+        1152,
+        1488,
+        64,
+        208
+      ],
+      "customerApron": [
+        960,
+        1600,
+        192,
+        96
+      ]
+    },
+    "actors": [
+      {
+        "id": "staff",
+        "xy": [
+          1048,
+          1551
+        ],
+        "body16Clear": true,
+        "visual32Clear": true
+      },
+      {
+        "id": "customer",
+        "xy": [
+          1048,
+          1600
+        ],
+        "body16Clear": true,
+        "visual32Clear": false
+      }
+    ],
+    "receptionActorSpacingPx": 49,
+    "receptionConversationClaim": false,
+    "nativeTapFit": {
+      "staffAnchor": [
+        1048,
+        1551
+      ],
+      "staffFloorClick": [
+        1048,
+        1567
+      ],
+      "customerAnchor": [
+        1048,
+        1600
+      ],
+      "customerFloorClick": [
+        1048,
+        1616
+      ],
+      "allExact": true
+    },
+    "visualClearanceNuance": "Customer1600 is native-tap-fitted and body-clear. Its sprite extends16px over the counter front, which stays below actors; the above mask ends before the head begins, so no head pixels are occluded. Customer1632/click1648 is the full-box-clear alternative.",
+    "routes": {
+      "visitorFromArrival": {
+        "waypoints": [
+          [
+            768,
+            1664
+          ],
+          [
+            768,
+            1632
+          ],
+          [
+            1048,
+            1632
+          ],
+          [
+            1048,
+            1600
+          ]
+        ],
+        "samples": 347,
+        "badSamples": [
+          {
+            "xy": [
+              1048,
+              1615
+            ],
+            "body16Clear": true,
+            "visual32Clear": false
+          },
+          {
+            "xy": [
+              1048,
+              1614
+            ],
+            "body16Clear": true,
+            "visual32Clear": false
+          },
+          {
+            "xy": [
+              1048,
+              1613
+            ],
+            "body16Clear": true,
+            "visual32Clear": false
+          },
+          {
+            "xy": [
+              1048,
+              1612
+            ],
+            "body16Clear": true,
+            "visual32Clear": false
+          },
+          {
+            "xy": [
+              1048,
+              1611
+            ],
+            "body16Clear": true,
+            "visual32Clear": false
+          },
+          {
+            "xy": [
+              1048,
+              1610
+            ],
+            "body16Clear": true,
+            "visual32Clear": false
+          },
+          {
+            "xy": [
+              1048,
+              1609
+            ],
+            "body16Clear": true,
+            "visual32Clear": false
+          },
+          {
+            "xy": [
+              1048,
+              1608
+            ],
+            "body16Clear": true,
+            "visual32Clear": false
+          }
+        ],
+        "pass": true,
+        "fullVisualBoxPass": false
+      },
+      "staffFromArrivalViaEastReturn": {
+        "waypoints": [
+          [
+            768,
+            1664
+          ],
+          [
+            768,
+            1632
+          ],
+          [
+            1184,
+            1632
+          ],
+          [
+            1184,
+            1536
+          ],
+          [
+            1048,
+            1536
+          ],
+          [
+            1048,
+            1551
+          ]
+        ],
+        "samples": 700,
+        "badSamples": [],
+        "pass": true,
+        "fullVisualBoxPass": true
+      }
+    },
+    "counterHeadCheck": {
+      "bodyClearIntegerPlacementsTested": 35760,
+      "headConflictCount": 0,
+      "firstConflicts": []
+    },
+    "casualPair": {
+      "anchorSpacingPx": 56,
+      "chairAssetsUnchanged": true,
+      "anchors": [
+        [
+          112,
+          118
+        ],
+        [
+          168,
+          118
+        ]
+      ],
+      "chairArtXYWH": [
+        [
+          88,
+          90,
+          48,
+          48
+        ],
+        [
+          144,
+          90,
+          48,
+          48
+        ]
+      ],
+      "lowTableXYWH": [
+        256,
+        108,
+        64,
+        36
+      ],
+      "rightPrincipalEscapeLaneXYWH": [
+        192,
+        90,
+        64,
+        150
+      ],
+      "southClearApronHeightPx": 64,
+      "routes": {
+        "leftEscape": {
+          "waypoints": [
+            [
+              112,
+              118
+            ],
+            [
+              64,
+              118
+            ],
+            [
+              64,
+              208
+            ]
+          ],
+          "samples": 140,
+          "badSamples": [],
+          "pass": true,
+          "fullVisualBoxPass": true
+        },
+        "rightEscape": {
+          "waypoints": [
+            [
+              168,
+              118
+            ],
+            [
+              224,
+              118
+            ],
+            [
+              224,
+              208
+            ]
+          ],
+          "samples": 148,
+          "badSamples": [],
+          "pass": true,
+          "fullVisualBoxPass": true
+        }
+      },
+      "headCheck": {
+        "bodyClearIntegerPlacementsTested": 53822,
+        "headConflictCount": 0,
+        "firstConflicts": []
+      }
+    },
+    "allStaticChecksPass": true
+  },
+  "allStaticPairChecksPass": true,
+  "nativeFitSource": {
+    "file": "/workspace/shared/grand-auditorium-05-roofless-garden/validation/native-route-proof/extracted-current-source.cjs",
+    "function": "fitBodyWithinTile",
+    "bodyHeight": 16,
+    "bodyOffsetX": 0,
+    "bodyOffsetY": 8,
+    "xOffsetRange": [
+      8,
+      24
+    ],
+    "floorClickYOffsetRange": [
+      16,
+      32
+    ],
+    "actorYEqualsFittedClickYMinus": 16
+  },
+  "integrationWarning": "Use per-placement above/below images, not a generic full-width furniture strip. Contract modifies components only; re-run complete runtime collision/pathfinding/head checks after integration. No new meeting areas or proximity claims are attached to reception.",
+  "removeOldWelcomeSign": true,
+  "receptionComponent": {
+    "id": "welcome",
+    "replaceOldId": "welcome",
+    "asset": "assets/reception-counter-native-192x51.png",
+    "artXYWH": [
+      960,
+      1549,
+      192,
+      51
+    ],
+    "solidFootprintXYWH": [
+      960,
+      1568,
+      192,
+      32
+    ],
+    "belowAsset": "assets/reception-counter-below.png",
+    "aboveAsset": "assets/reception-counter-above.png",
+    "maskAsset": "source/reception-depth-mask.png",
+    "foregroundSafeWorldXYXY": [
+      968,
+      1552,
+      1144,
+      1584
+    ],
+    "staffAnchor": [
+      1048,
+      1551
+    ],
+    "staffFloorClick": [
+      1048,
+      1567
+    ],
+    "staffDirection": "south",
+    "customerAnchor": [
+      1048,
+      1600
+    ],
+    "customerFloorClick": [
+      1048,
+      1616
+    ],
+    "customerDirection": "north",
+    "staffAllowanceXYWH": [
+      960,
+      1488,
+      192,
+      64
+    ],
+    "eastReturnXYWH": [
+      1152,
+      1488,
+      64,
+      208
+    ],
+    "customerApronXYWH": [
+      960,
+      1600,
+      192,
+      96
+    ],
+    "noConversationZone": true,
+    "oldWelcomeLabel": "Remove old raster WELCOME label together with old desk. Do not retain it floating above old location.",
+    "provenance": "PROVENANCE.json",
+    "nameplate": {
+      "text": "RECEPTION",
+      "authoring": "Native code-authored text on front-left fascia; no new image generation.",
+      "asset": "assets/reception-nameplate-native-56x10.png",
+      "artXYWH": [
+        977,
+        1583,
+        56,
+        10
+      ],
+      "overlayLocalOrigin": [
+        17,
+        34
+      ],
+      "overlayAtCounterOrigin": "assets/reception-nameplate-overlay.png",
+      "belowAsset": "assets/reception-nameplate-below.png",
+      "aboveAsset": "assets/reception-nameplate-above.png",
+      "partition": "Same mask as counter. Compass ornament untouched. No collision change."
+    },
+    "customerVisualClearance": {
+      "body16Clear": true,
+      "full32BoundingBoxClear": false,
+      "counterFrontSpriteOverlapPx": 16,
+      "upperHeadPixelsOccludedByCounterAbove": 0,
+      "interpretation": "Normal depth: the visitor stands below the counter collision, and the visible head overlays its front fascia. The counter above mask ends at1584 exclusive, exactly where the sprite begins.",
+      "full32BoxNativeFitAlternative": {
+        "anchor": [
+          1048,
+          1632
+        ],
+        "floorClick": [
+          1048,
+          1648
+        ]
+      }
+    },
+    "staffVisitorDistancePx": 49,
+    "ordinaryProximity": "Two-player positions are within56px and source default64px. No new meeting area or live communication guarantee is added."
+  },
+  "checkedPairBodyPlacements": 235684,
+  "checkedPairRouteSamples": 2714
+}

@@ -1,0 +1,33 @@
+{
+  "tile_size": 32,
+  "width_tiles": 36,
+  "height_tiles": 28,
+  "map_width": 1152,
+  "map_height": 896,
+  "sprites": [
+    {
+      "name": "arrival scale reference",
+      "x": 560,
+      "y": 768,
+      "frame": 10
+    },
+    {
+      "name": "directory visitor scale reference",
+      "x": 464,
+      "y": 672,
+      "frame": 10
+    },
+    {
+      "name": "crossroads scale reference",
+      "x": 688,
+      "y": 432,
+      "frame": 4
+    },
+    {
+      "name": "alcove scale reference",
+      "x": 272,
+      "y": 304,
+      "frame": 10
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "tileSize": 32,
+  "worldOrigin": [
+    0,
+    1136
+  ],
+  "worldPhase": [
+    0,
+    16
+  ],
+  "walkablePolygons": [
+    [
+      [
+        64,
+        144
+      ],
+      [
+        576,
+        144
+      ],
+      [
+        576,
+        1088
+      ],
+      [
+        64,
+        1088
+      ]
+    ],
+    [
+      [
+        576,
+        344
+      ],
+      [
+        640,
+        344
+      ],
+      [
+        640,
+        424
+      ],
+      [
+        576,
+        424
+      ]
+    ],
+    [
+      [
+        576,
+        952
+      ],
+      [
+        640,
+        952
+      ],
+      [
+        640,
+        1032
+      ],
+      [
+        576,
+        1032
+      ]
+    ]
+  ],
+  "blockers": [
+    {
+      "id": "west-perimeter",
+      "x": 32,
+      "y": 32,
+      "width": 32,
+      "height": 1088
+    },
+    {
+      "id": "north-builtins",
+      "x": 64,
+      "y": 32,
+      "width": 512,
+      "height": 112
+    },
+    {
+      "id": "east-upper",
+      "x": 576,
+      "y": 32,
+      "width": 32,
+      "height": 312
+    },
+    {
+      "id": "east-middle",
+      "x": 576,
+      "y": 424,
+      "width": 32,
+      "height": 528
+    },
+    {
+      "id": "east-lower",
+      "x": 576,
+      "y": 1032,
+      "width": 32,
+      "height": 88
+    },
+    {
+      "id": "south-perimeter",
+      "x": 64,
+      "y": 1088,
+      "width": 512,
+      "height": 32
+    },
+    {
+      "id": "room-divider",
+      "x": 64,
+      "y": 512,
+      "width": 512,
+      "height": 64
+    },
+    {
+      "id": "stage-back",
+      "x": 64,
+      "y": 576,
+      "width": 512,
+      "height": 48
+    },
+    {
+      "id": "stage-front",
+      "x": 176,
+      "y": 736,
+      "width": 296,
+      "height": 20
+    },
+    {
+      "id": "podium-footprint",
+      "x": 288,
+      "y": 720,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "id": "student-1-desk",
+      "x": 128,
+      "y": 192,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-2-desk",
+      "x": 288,
+      "y": 192,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-3-desk",
+      "x": 448,
+      "y": 192,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-4-desk",
+      "x": 128,
+      "y": 336,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-5-desk",
+      "x": 288,
+      "y": 336,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-6-desk",
+      "x": 448,
+      "y": 336,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "planter-80-172",
+      "x": 64,
+      "y": 156,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-172",
+      "x": 544,
+      "y": 156,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-80-492",
+      "x": 64,
+      "y": 476,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-492",
+      "x": 544,
+      "y": 476,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-80-804",
+      "x": 64,
+      "y": 788,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-804",
+      "x": 544,
+      "y": 788,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-80-1064",
+      "x": 64,
+      "y": 1048,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-1064",
+      "x": 544,
+      "y": 1048,
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "registration": "Apply local geometry at exact origin before conservativeOR32. Do not round this module origin to a32px boundary. Fixed receivers unchanged."
+}

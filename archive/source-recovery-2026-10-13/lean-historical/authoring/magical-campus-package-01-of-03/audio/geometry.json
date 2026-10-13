@@ -1,0 +1,278 @@
+{
+  "feetOffsetY": 16,
+  "sources": [
+    {
+      "id": "gate-west-upper",
+      "kind": "cascade",
+      "scene": "gate",
+      "center": {
+        "x": 152.5,
+        "y": 717.5
+      },
+      "paintedRect": {
+        "x": 133,
+        "y": 675,
+        "width": 39,
+        "height": 85
+      },
+      "bounds": {
+        "x": 53,
+        "y": 611,
+        "width": 363,
+        "height": 213
+      },
+      "innerRadius": 120,
+      "outerRadius": 260,
+      "edgeFade": 48,
+      "maxGain": 0.15,
+      "url": "./assets/cascade-soft.mp3"
+    },
+    {
+      "id": "gate-east-upper",
+      "kind": "cascade",
+      "scene": "gate",
+      "center": {
+        "x": 806,
+        "y": 717.5
+      },
+      "paintedRect": {
+        "x": 787,
+        "y": 675,
+        "width": 38,
+        "height": 85
+      },
+      "bounds": {
+        "x": 576,
+        "y": 611,
+        "width": 329,
+        "height": 213
+      },
+      "innerRadius": 120,
+      "outerRadius": 260,
+      "edgeFade": 48,
+      "maxGain": 0.15,
+      "url": "./assets/cascade-soft.mp3"
+    },
+    {
+      "id": "gate-west-middle",
+      "kind": "cascade",
+      "scene": "gate",
+      "center": {
+        "x": 165.5,
+        "y": 892.5
+      },
+      "paintedRect": {
+        "x": 150,
+        "y": 844,
+        "width": 31,
+        "height": 97
+      },
+      "bounds": {
+        "x": 70,
+        "y": 780,
+        "width": 346,
+        "height": 225
+      },
+      "innerRadius": 120,
+      "outerRadius": 260,
+      "edgeFade": 48,
+      "maxGain": 0.15,
+      "url": "./assets/cascade-soft.mp3"
+    },
+    {
+      "id": "gate-east-middle",
+      "kind": "cascade",
+      "scene": "gate",
+      "center": {
+        "x": 798.5,
+        "y": 892.5
+      },
+      "paintedRect": {
+        "x": 784,
+        "y": 844,
+        "width": 29,
+        "height": 97
+      },
+      "bounds": {
+        "x": 576,
+        "y": 780,
+        "width": 317,
+        "height": 225
+      },
+      "innerRadius": 120,
+      "outerRadius": 260,
+      "edgeFade": 48,
+      "maxGain": 0.15,
+      "url": "./assets/cascade-soft.mp3"
+    },
+    {
+      "id": "gate-west-lower",
+      "kind": "cascade",
+      "scene": "gate",
+      "center": {
+        "x": 181,
+        "y": 1180
+      },
+      "paintedRect": {
+        "x": 162,
+        "y": 1109,
+        "width": 38,
+        "height": 142
+      },
+      "bounds": {
+        "x": 82,
+        "y": 1045,
+        "width": 334,
+        "height": 270
+      },
+      "innerRadius": 120,
+      "outerRadius": 260,
+      "edgeFade": 48,
+      "maxGain": 0.15,
+      "url": "./assets/cascade-soft.mp3"
+    },
+    {
+      "id": "gate-east-lower",
+      "kind": "cascade",
+      "scene": "gate",
+      "center": {
+        "x": 783,
+        "y": 1180
+      },
+      "paintedRect": {
+        "x": 766,
+        "y": 1109,
+        "width": 34,
+        "height": 142
+      },
+      "bounds": {
+        "x": 576,
+        "y": 1045,
+        "width": 304,
+        "height": 270
+      },
+      "innerRadius": 120,
+      "outerRadius": 260,
+      "edgeFade": 48,
+      "maxGain": 0.15,
+      "url": "./assets/cascade-soft.mp3"
+    },
+    {
+      "id": "court-fountain",
+      "kind": "fountain",
+      "scene": "campus",
+      "url": "./assets/fountain.mp3",
+      "center": {
+        "x": 1192,
+        "y": 2079
+      },
+      "paintedRect": {
+        "x": 1072,
+        "y": 1999,
+        "width": 240,
+        "height": 160
+      },
+      "bounds": {
+        "x": 968,
+        "y": 1887,
+        "width": 448,
+        "height": 384
+      },
+      "innerRadius": 132,
+      "outerRadius": 232,
+      "edgeFade": 40,
+      "maxGain": 0.18
+    },
+    {
+      "id": "riverside-fire",
+      "kind": "fire",
+      "scene": "campus",
+      "url": "./assets/fire-gentle-original.mp3",
+      "center": {
+        "x": 2668,
+        "y": 2440
+      },
+      "bounds": {
+        "x": 2380,
+        "y": 2152,
+        "width": 576,
+        "height": 576
+      },
+      "innerRadius": 112,
+      "outerRadius": 288,
+      "edgeFade": 48,
+      "maxGain": 0.18
+    }
+  ],
+  "quietZones": [
+    {
+      "id": "StudentHub-connected-office-and-gallery",
+      "scene": "campus",
+      "x": 512,
+      "y": 320,
+      "width": 2432,
+      "height": 1344
+    },
+    {
+      "id": "public-classroom-and-stage",
+      "scene": "campus",
+      "x": 0,
+      "y": 1792,
+      "width": 640,
+      "height": 1152
+    }
+  ],
+  "scenes": {
+    "gate": {
+      "bounds": [
+        0,
+        0,
+        960,
+        1440
+      ],
+      "spawn": [
+        480,
+        1336
+      ],
+      "threshold": [
+        416,
+        544,
+        128,
+        64
+      ]
+    },
+    "campus": {
+      "bounds": [
+        0,
+        0,
+        3200,
+        3072
+      ],
+      "arrival": [
+        1504,
+        2912
+      ]
+    }
+  },
+  "transition": {
+    "source": "gate",
+    "destination": "campus",
+    "destinationPosition": [
+      1504,
+      2912
+    ],
+    "begin": "same threshold charge start, unique incrementing ID",
+    "cancel": "leaves threshold before commit, mute, scene change, or disposal",
+    "commit": "when local source harness commits its campus scene load",
+    "nativeRoomUrlConfigured": false
+  },
+  "scope": "Local source-harness sound only. No native deployment flag, microphone, conversation, silent-zone or bot changes.",
+  "calibration": {
+    "scope": "Bounded near-source preview gain only; gate cue and master gain unchanged",
+    "originalAudioFilesUnchanged": true,
+    "productionAudioEnabled": false,
+    "reason": "Measured original integrated output was around-66dBFS RMS; owner prefers subtle ambience, and prior original audio was acceptable once headset was unmuted. Do not amplify globally.",
+    "fullCaptureListeningPending": true,
+    "noMicrophoneOrSpeechComparison": true
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "status": "Supplemental art kit only; frozen art checkpoint untouched",
+  "generation": "built-in image_gen",
+  "master": "source/functional-refinement-01/south-dividers-master.png",
+  "prompt": "source/functional-refinement-01/imagegen-prompt-south-dividers.txt",
+  "components": [
+    {
+      "id": "divider-lounge-02-south",
+      "asset": "assets/divider-lounge-02-south.png",
+      "size": [
+        224,
+        48
+      ],
+      "placement": [
+        640,
+        1280
+      ],
+      "worldBounds": [
+        640,
+        1280,
+        864,
+        1328
+      ],
+      "sourceCrop": [
+        0,
+        0,
+        1536,
+        520
+      ],
+      "meaningfulAlphaTrim": [
+        231,
+        231,
+        1303,
+        447
+      ],
+      "alphaTrimThreshold": 8,
+      "sha256": "8bb659290ee1b70335926a5710a45991860d3ffc663ea7ef68f5ef2012de2460",
+      "intent": "Continuous full-width low planter box; native collision and foreground ownership to be assigned by compiler. Side entrances remain open."
+    },
+    {
+      "id": "divider-lounge-03-south",
+      "asset": "assets/divider-lounge-03-south.png",
+      "size": [
+        320,
+        48
+      ],
+      "placement": [
+        1120,
+        1280
+      ],
+      "worldBounds": [
+        1120,
+        1280,
+        1440,
+        1328
+      ],
+      "sourceCrop": [
+        0,
+        520,
+        1536,
+        1024
+      ],
+      "meaningfulAlphaTrim": [
+        45,
+        67,
+        1489,
+        293
+      ],
+      "alphaTrimThreshold": 8,
+      "sha256": "f4ce95974c5ce871b8b4ad0a02687baef009923525f22871caed39c7e9cfa68b",
+      "intent": "Continuous full-width low planter box; native collision and foreground ownership to be assigned by compiler. Side entrances remain open."
+    }
+  ]
+}

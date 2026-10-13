@@ -1,0 +1,20 @@
+{
+  "revision": "mission-control-center-r4-paired-shift",
+  "baseline": "mission-control-center-r3",
+  "operatorChairTranslation": [
+    0,
+    15
+  ],
+  "upperConsoleTranslation": [
+    0,
+    15
+  ],
+  "lowerConsoleTranslation": [
+    0,
+    12
+  ],
+  "layering": "Cushion below native sprite; low lumbar rail above lower torso; original wheel/base pixels retained",
+  "headAtArrival": "Upper18 rows clear, varied actual standing idle frames",
+  "walking": "Upper14 head union clear; upper18 shoulder edge may overlap rail by one row at the southernmost admitted +1px",
+  "scope": "Map-only correction; no engine modification, live rendering, multiplayer or publication claim"
+}

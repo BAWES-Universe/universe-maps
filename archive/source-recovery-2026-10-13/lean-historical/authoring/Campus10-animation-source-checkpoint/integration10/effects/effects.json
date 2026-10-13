@@ -1,0 +1,143 @@
+{
+  "revision": "Campus10-native-vector-motion",
+  "effects": [
+    {
+      "name": "fountain-water",
+      "origin": [
+        816,
+        1344
+      ],
+      "size": [
+        240,
+        152
+      ],
+      "frames": [
+        "effects/fountain-water-00.png",
+        "effects/fountain-water-01.png",
+        "effects/fountain-water-02.png",
+        "effects/fountain-water-03.png",
+        "effects/fountain-water-04.png",
+        "effects/fountain-water-05.png",
+        "effects/fountain-water-06.png",
+        "effects/fountain-water-07.png",
+        "effects/fountain-water-08.png",
+        "effects/fountain-water-09.png",
+        "effects/fountain-water-10.png",
+        "effects/fountain-water-11.png",
+        "effects/fountain-water-12.png",
+        "effects/fountain-water-13.png",
+        "effects/fountain-water-14.png",
+        "effects/fountain-water-15.png"
+      ],
+      "duration": 100,
+      "layer": "below",
+      "construction": "Editable SVG curves and shapes rasterized at native 1:1; fixed ownership mask; no whole-image translation",
+      "purpose": "Descending jet highlights, six distinct water trajectories and staggered expanding basin arcs; stone and pedestal excluded",
+      "loopMs": 1600
+    },
+    {
+      "name": "river-water",
+      "origin": [
+        2736,
+        1248
+      ],
+      "size": [
+        208,
+        1024
+      ],
+      "frames": [
+        "effects/river-water-00.png",
+        "effects/river-water-01.png",
+        "effects/river-water-02.png",
+        "effects/river-water-03.png",
+        "effects/river-water-04.png",
+        "effects/river-water-05.png",
+        "effects/river-water-06.png",
+        "effects/river-water-07.png",
+        "effects/river-water-08.png",
+        "effects/river-water-09.png",
+        "effects/river-water-10.png",
+        "effects/river-water-11.png",
+        "effects/river-water-12.png",
+        "effects/river-water-13.png",
+        "effects/river-water-14.png",
+        "effects/river-water-15.png"
+      ],
+      "duration": 140,
+      "layer": "below",
+      "construction": "Editable SVG curves and shapes rasterized at native 1:1; fixed ownership mask; no whole-image translation",
+      "purpose": "58 staggered downstream ripple groups through the full water corridor including preserved eastern edge; blue-water mask excludes bank stone, plants, rocks and above-layer material",
+      "loopMs": 2240
+    },
+    {
+      "name": "fire-flame",
+      "origin": [
+        2360,
+        1720
+      ],
+      "size": [
+        72,
+        80
+      ],
+      "frames": [
+        "effects/fire-flame-00.png",
+        "effects/fire-flame-01.png",
+        "effects/fire-flame-02.png",
+        "effects/fire-flame-03.png",
+        "effects/fire-flame-04.png",
+        "effects/fire-flame-05.png",
+        "effects/fire-flame-06.png",
+        "effects/fire-flame-07.png",
+        "effects/fire-flame-08.png",
+        "effects/fire-flame-09.png",
+        "effects/fire-flame-10.png",
+        "effects/fire-flame-11.png"
+      ],
+      "duration": 90,
+      "layer": "below",
+      "construction": "Editable SVG curves and shapes rasterized at native 1:1; fixed ownership mask; no whole-image translation",
+      "purpose": "Changing curved flame silhouette and rising embers behind explicit fixed log exclusion polygons, restrained local amber light",
+      "loopMs": 1080
+    },
+    {
+      "name": "garden-life",
+      "origin": [
+        1968,
+        1400
+      ],
+      "size": [
+        192,
+        96
+      ],
+      "frames": [
+        "effects/garden-life-00.png",
+        "effects/garden-life-01.png",
+        "effects/garden-life-02.png",
+        "effects/garden-life-03.png",
+        "effects/garden-life-04.png",
+        "effects/garden-life-05.png",
+        "effects/garden-life-06.png",
+        "effects/garden-life-07.png",
+        "effects/garden-life-08.png",
+        "effects/garden-life-09.png",
+        "effects/garden-life-10.png",
+        "effects/garden-life-11.png",
+        "effects/garden-life-12.png",
+        "effects/garden-life-13.png",
+        "effects/garden-life-14.png",
+        "effects/garden-life-15.png"
+      ],
+      "duration": 160,
+      "layer": "below",
+      "construction": "Editable SVG curves and shapes rasterized at native 1:1; fixed ownership mask; no whole-image translation",
+      "purpose": "Two tiny looping insects inside the existing flower bed and one restrained local lantern aura; fixed painted foliage and lamp core retained",
+      "loopMs": 2560,
+      "layerReason": "Current fixed owner pixels have no above-layer material; placing below actors preserves identical scene pixels and avoids an extra full-map tile layer. Recheck after exterior integration."
+    }
+  ],
+  "notes": [
+    "Remove old three-effect specification when integrating these replacements.",
+    "Place below effects after base and before floorLayer; place garden-life after campus-above using ordinary Tiled animation cells.",
+    "Source baseline is immutable Campus09; final masks must be checked against integrated Campus10 composition."
+  ]
+}

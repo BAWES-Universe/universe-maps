@@ -1,0 +1,35 @@
+{
+  "id": "social-outdoor-office-01",
+  "title": "Social Room / Outdoor Office 01",
+  "kind": "tiled-map",
+  "status": "unpublished-review-candidate",
+  "catalogReady": false,
+  "map": "map/studenthub-outdoor-office.tmj",
+  "screenshot": "screenshot.png",
+  "source": "Separate roofless derivative of the connected StudentHub proof, 2026-10-09",
+  "archiveDate": "2026-10-09",
+  "sourceMapSha256": {
+    "studenthub-outdoor-office.tmj": "a4274ef00a3e731b514eba71d98e0fbaaa98346e29dfbb3cdb1640ff877e98e2"
+  },
+  "silentAreas": {},
+  "knownLimitations": [
+    "Archived review candidate; not added to the live template catalog by this change.",
+    "Historical source-harness evidence is not full Universe, current engine, multiplayer or physical-device acceptance.",
+    "Imported static furniture does not imply movable editor entities or sitting behavior. Review native meetings, permissions, interactions and hosting before reuse.",
+    "Rejected as the main Universe art direction; preserved specifically for a future small outdoor office, world room or hangout.",
+    "This derivative removes the roof, reveal script and unintended generic silent property; its collision footprint is unchanged.",
+    "The screenshot is the native authored composition with repeated unchanged avatars for scale, not a multiplayer session. No full Universe or physical-device acceptance was performed."
+  ],
+  "archiveValidation": "Local map/asset references, original TMJ hashes and archive checksums checked; not a new full-client playtest.",
+  "repositorySchemaValidation": "Original missing-visible defect fixed; fresh full repository schema validation pending.",
+  "parentSource": {
+    "repository": "BAWES-Universe/universe-maps",
+    "commit": "03d83f2dd74108a6f75847bd2f7d03c5d619c950",
+    "path": "map-mocks/studenthub-roofless-outdoor-office"
+  },
+  "derivativeChanges": [
+    "Explicit visible=true on all three area objects and corresponding rebuild source.",
+    "Rename stale roof-return waypoint to Exit to garden.",
+    "Original art, collision grid, foreground and native32 avatar scale preserved."
+  ]
+}

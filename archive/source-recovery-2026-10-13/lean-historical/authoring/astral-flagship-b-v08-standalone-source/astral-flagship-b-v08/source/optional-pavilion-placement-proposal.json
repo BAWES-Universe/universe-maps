@@ -1,0 +1,105 @@
+{
+  "status": "Separate optional sketch only; not applied to B assets or collision. Needs geometry/entry review before accepting.",
+  "placements": [
+    {
+      "id": "optional-seat-1",
+      "artXYWH": [
+        2016,
+        215,
+        48,
+        44
+      ],
+      "anchor": [
+        2040,
+        231
+      ],
+      "direction": "north",
+      "source": "source/repair-assets/assets/lounge-chair-north.png"
+    },
+    {
+      "id": "optional-seat-2",
+      "artXYWH": [
+        2064,
+        215,
+        48,
+        44
+      ],
+      "anchor": [
+        2088,
+        231
+      ],
+      "direction": "north",
+      "source": "source/repair-assets/assets/lounge-chair-north.png"
+    },
+    {
+      "id": "optional-seat-3",
+      "artXYWH": [
+        2240,
+        215,
+        48,
+        44
+      ],
+      "anchor": [
+        2264,
+        231
+      ],
+      "direction": "north",
+      "source": "source/repair-assets/assets/lounge-chair-north.png"
+    },
+    {
+      "id": "optional-seat-4",
+      "artXYWH": [
+        2288,
+        215,
+        48,
+        44
+      ],
+      "anchor": [
+        2312,
+        231
+      ],
+      "direction": "north",
+      "source": "source/repair-assets/assets/lounge-chair-north.png"
+    },
+    {
+      "id": "optional-table-1",
+      "artXYWH": [
+        2032,
+        152,
+        64,
+        36
+      ],
+      "source": "source/repair-assets/assets/low-lounge-table.png"
+    },
+    {
+      "id": "optional-table-2",
+      "artXYWH": [
+        2256,
+        152,
+        64,
+        36
+      ],
+      "source": "source/repair-assets/assets/low-lounge-table.png"
+    }
+  ],
+  "partnerAnchorDistancePx": 48,
+  "centralClearStripXYWH": [
+    2112,
+    112,
+    128,
+    240
+  ],
+  "clearTurnaroundSquareXYWH": [
+    2112,
+    128,
+    128,
+    128
+  ],
+  "newFurnitureArtwork": false,
+  "existingChairScaleChanged": false,
+  "proposedChanges": [
+    "Move second left chair 8px west and first right chair 8px east.",
+    "Add two existing64\u00d736px low tables, each ahead of one paired seat group."
+  ],
+  "noCompiledGeometryChange": true
+}

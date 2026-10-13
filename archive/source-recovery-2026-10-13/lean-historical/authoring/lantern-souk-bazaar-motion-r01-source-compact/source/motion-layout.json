@@ -1,0 +1,228 @@
+{
+  "slug": "lantern-souk-bazaar",
+  "revision": "motion-r01",
+  "kind": "lantern",
+  "layerName": "lantern-souk-bazaar-ambient-native-r01",
+  "firstgid": 1539,
+  "placements": [
+    {
+      "cell": [
+        20,
+        27
+      ],
+      "center": [
+        27,
+        27
+      ],
+      "radii": [
+        3.5,
+        3.5
+      ],
+      "phase": 0
+    },
+    {
+      "cell": [
+        27,
+        27
+      ],
+      "center": [
+        6,
+        27
+      ],
+      "radii": [
+        3.5,
+        3.5
+      ],
+      "phase": 3
+    },
+    {
+      "cell": [
+        6,
+        23
+      ],
+      "center": [
+        18,
+        18
+      ],
+      "radii": [
+        4,
+        5
+      ],
+      "phase": 6
+    }
+  ],
+  "frameStats": [
+    {
+      "cell": [
+        20,
+        27
+      ],
+      "frameSHA256": [
+        "47d5be70d4ee31cf585a329439baea2dcf9b0762b9018966dd3f3bb39f772858",
+        "c60574781894fd6209ebd9fd24d8ce1a04d2c362e4c8f60adc2ae8a9e41e9497",
+        "d368da477e0f384c0036de020b97a9bf3b3c437ed96c63cc12941a3408a5f830",
+        "7d0cd368b8b27bd0660bf6884a741acc22f1b4eb2bbfa2257778191b8e123fb0",
+        "72a2f4b485ca3360a5f6b4328246a7638c1868ee1b406e2de929f18d8a3f5e9d",
+        "6370f05bf9403f8c572d15424e7153f15e33ee7da82afd7d0ab4f97f7452632c",
+        "fb55ceb697f222cb9f9a6c9f8c25bd2dd17407bbc68213b3cb9010bd663adc93",
+        "d458a7586545d2a8c9f357345618fffcf64079a7b068d3c719f70193de08cd06"
+      ],
+      "distinctFrames": 8,
+      "changedPixelsPerFrame": [
+        37,
+        37,
+        37,
+        37,
+        37,
+        37,
+        37,
+        37
+      ],
+      "maxAlphaPerFrame": [
+        14,
+        20,
+        17,
+        29,
+        22,
+        16,
+        25,
+        18
+      ]
+    },
+    {
+      "cell": [
+        27,
+        27
+      ],
+      "frameSHA256": [
+        "3d092bfd3d24998249fbf5a14cca3ec9e0e5942afec9687e53a60854f99846b3",
+        "c3ba14bab98110be527a2124b1aa1bb62fbaa23bbd35707077bd76a38ef36c2d",
+        "e2b6e13579edf447f8b40a472fee615bebd2cdd81c20b58f62acb6d131343bb4",
+        "ef1f3e7bcb3d9cc8c1f9736a8fc251d6dde4c48746602f62b6ce3c5cd83e3614",
+        "ff1dcfc28c6232b5d6ccca214ad6efb05da21e16691b2dc1afbb406ece743d3e",
+        "c476d80ea578d8786d8a093d2e2d09ad86d80eb15deaba156d18777b8596acae",
+        "597b42056be338990d4c17ab2fe25f956b14c7ac046a6b9e5d420de3b8c47f78",
+        "d5780d6f6f1f1582542a2551de3e4e545f8416a7b2a7edc7e3d3d851e29c0340"
+      ],
+      "distinctFrames": 8,
+      "changedPixelsPerFrame": [
+        37,
+        37,
+        37,
+        37,
+        37,
+        37,
+        37,
+        37
+      ],
+      "maxAlphaPerFrame": [
+        29,
+        22,
+        16,
+        25,
+        18,
+        14,
+        20,
+        17
+      ]
+    },
+    {
+      "cell": [
+        6,
+        23
+      ],
+      "frameSHA256": [
+        "cd6bf53044de25092277efe9ca87abea143c8fddf4524be61e02e4a6513a7c98",
+        "c41f04a7b8595e127ebc8f5a997583c18e82fe51575906dff5c6d8f101e92d47",
+        "09e43464836099ab458f07b8978ef28ec1aa91dd1147727a42f37dd43ec30a71",
+        "e648d4c1b272f7168d8b5a3ae5fef0298861ffb540ffc7c8982c11d23df10bfd",
+        "b56084044f22949b8851172f7b0f4c6c53b63cc5b6d4594540c76b4f8a1accdd",
+        "700cf8ad5825b465df70d9870e91d53ab14e5d65174865c72648407d1110e79f",
+        "1c7813623d67496daad69042ff3477298c08e1989a8fb7a968f133c9a2864068",
+        "fbb97ef4b2238a70bca0e1e3875ea71e683896b38f0ec28468679dada6c6cf10"
+      ],
+      "distinctFrames": 8,
+      "changedPixelsPerFrame": [
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        59
+      ],
+      "maxAlphaPerFrame": [
+        25,
+        18,
+        14,
+        20,
+        17,
+        29,
+        22,
+        16
+      ]
+    }
+  ],
+  "originalSHA256": {
+    "FREEZE.json": "a1e8dc57b5aa12d2c3ae2c787c19f5b11b95092dafead9e765f44b678bf28eea",
+    "MANIFEST.json": "63396dab4aba1f0b48921a67178a3da6d7d700b2582f425d838d9b314f40b60a",
+    "PROVENANCE.md": "70152fe8a6d92e10004d942fe99daedde71ce2899ae1faff09a086a1382470ff",
+    "README.md": "646dcbbdb83d5c49d6ca2b71f19d04bf62acf2e3a9ec86663a2e9056d3aea1c2",
+    "integration/ROOM-SETUP.md": "3760f92e83893b8144c0283cdf096938ec26315853f380e234961f8ccb7554fb",
+    "lantern-souk-bazaar-runtime.zip": "0f1f38e215596439c5d4ea23ec012b41833efa34fd0816ecfc28b3e88b62786b",
+    "lantern-souk-bazaar-source-replay.zip": "4db6ac2b8a2fc1f2dc6ee42e779605e599b507f80b8ffa45072256b889b53899",
+    "map32/ground-and-objects-0.png": "64187d1cb461bbd38065d39f4db544daf678bafcf4237b44b6643301676b760e",
+    "map32/ground-and-objects-1.png": "d76bb62f88a46b6e811ca9fe4bbf023e947069d14ea647f681b83e2b549b66c3",
+    "map32/lantern-souk-bazaar.tmj": "ad0ba5b7f535679b0b00217f80b528233a94a9b4541ae09fdd77b6ed7e43a65d",
+    "map32/lantern-souk-bazaar.wam": "cb41249f8c800e0b7c22e65cfaf2bcca8e040f098d5cc7fa862f5e0036af0afe",
+    "map32/markers.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "portable-tools/build_maps.py": "0551e2b7b69a84a09d6e653fd62c85d57b1179a0d02c6d47e3216fd0348beb78",
+    "portable-tools/check_spawn_and_boundaries.py": "30045b0e365be05dab5e08c55d4ce84cbdad9da068964101f4569efd62a32192",
+    "portable-tools/native/easystar-0.4.4.js": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+    "portable-tools/native/extracted-current-source.cjs": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+    "portable-tools/native/native-runtime-portable.cjs": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+    "portable-tools/native/route-audit.cjs": "995d45f73d2840cf9a1a6f8256532bb1b0fd22564b8218fe9b2c0b7c1851f7ef",
+    "portable-tools/native/source/StartPositionCalculator.ts": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+    "portable-tools/native/source/libs/math-utils/src/MathUtils.ts": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+    "portable-tools/native/source/play/src/front/Phaser/Game/CameraManager.ts": "c6bea29bffe270221ec35435ea1181df5d670edeac0dbb3b1918db0da8553b80",
+    "portable-tools/native/source/play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts": "f011429f25599b348640a57894b28560f3755da1a72b97cdfdbffd9ae2d3cdfc",
+    "portable-tools/native/source/play/src/front/Phaser/Game/GameScene.ts": "7c901514db24890c3750631d8e32124643e87de41750fb90e4a2d7f54ac1c146",
+    "portable-tools/native/source/play/src/front/Phaser/Player/Player.ts": "47c30fe3c2d16f52da3b499599de57b2240e75be4d91b2c816aae1179e8bc3d9",
+    "portable-tools/native/source/play/src/front/Phaser/Services/HdpiManager.ts": "6e25f9e127d3b712edf8ab7e87b1f11f82f8b4681772ccfe1d20c868e3f4d3fc",
+    "portable-tools/native/source/play/src/front/Phaser/Services/WaScaleManager.ts": "d811cf48d3fa8561a37a6689bcc0e639f5ceb1837fb3d762b326e104dde77a27",
+    "portable-tools/native/source/play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts": "d4bdce55f82caa5e94e372fa2ca57eb2a241f0ed0e78609d4dedb975b665a89a",
+    "portable-tools/native/source/play/src/front/Utils/PathfindingManager.ts": "b6d055091ec000f2e47b3e1def2f7ee7c42aae96ff3301c36a8b26b9c1b0c715",
+    "portable-tools/native/source-method-manifest.json": "86c7dff4e686ea1c12f638626042618a6b35c96bb8a4b0c7c54e0becc119d665",
+    "portable-tools/package_map.py": "fa5fe3ad8358a9a3a04b4eea32282d56e7e14c1c2a45da51d9652be6ab341228",
+    "review/boundary-sweep-0-native.png": "94c23357ea4706ab466eacd19b06699628a7ae1e72d4a5cbf512b2d548fa2e32",
+    "review/boundary-sweep-1-native.png": "4d639f1112433dde4bdcc78f76ec82ec90946cdb6be8be50e59a2040ff25ed11",
+    "review/boundary-sweep-2-native.png": "db47858a4f523823bc8c1638fe44862014d842e3308bb3b428c67e047de7b807",
+    "review/boundary-sweep-3-native.png": "a944de37e4e15e091dc5d50e8e2c368624af55a08ea454fe32cd0a5b33de16b4",
+    "review/collision-native.png": "d18e5a2b0cbe8fb13ba6a7036dba6da9a952054e81df20d5c9e493fb625971ae",
+    "review/empty-native.png": "936cea24e0eab0f90f223ee4f390fa2f1eeb81d2790397440045241abe9eb6f7",
+    "review/occupied-native.png": "c466a58fc924841ea98d4ac8658bcdea5ba48f295f76bfb56b15fe2617ba59bd",
+    "review/overview.png": "cc063034511f3853ea709deaad587c38e6603f0dcfca25063c56e9552e438675",
+    "source/authored-walkable-mask.png": "a4a042b2903f75f93098d23b39a1d3de771c0aaaaec42324823da4ef17787bd4",
+    "source/bazaar-environment-clear-entry-master.png": "69e4b25762d64d4007a4d6ff501a3961b63b2abaa557e19b9c1b4b76df2d3bad",
+    "source/bazaar-environment-open-doors-master.png": "07de0a0f638863d4f6c6ed878c7174abdb154bdbd40f0f25159ceec1326fe4ed",
+    "source/bazaar-environment-safe-ring-master.png": "d2b37e443e29e77d703e5d9b6ff44d1339d6c22753344e75195f394016489105",
+    "source/bazaar-generation-prompt.txt": "9810543d73c4771c5d46a2658140e4139cb6e786496c22440830067597e71a78",
+    "source/generation-history.json": "35faff6d26435378e0cb38b05c3aada5963ba4e41a1416714cea6527dd1c17ea",
+    "source/greg-reference.png": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+    "source/layout.json": "6d8f27598591873a6281243eaea159b2a574cd75254bc0ea4f5994dc8740250d",
+    "source/lounge-chair-north.png": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+    "source/low-lounge-table.png": "22d1169759331b49481442afe2fcecd8432dfa76813a957eec61c684b0944241",
+    "source/runtime-above.png": "64085d665f67f408b0cd67f69bebaa5a814b79eeed296c3d952e62988d7a440f",
+    "source/runtime-base.png": "936cea24e0eab0f90f223ee4f390fa2f1eeb81d2790397440045241abe9eb6f7",
+    "validation/atlas-roundtrip.json": "7b5b6e4198b9272400d7cdc0ebdfb24847f600c9b2a9053c9c0a9326e5aff0fd",
+    "validation/boundary-sweep.json": "b7e855b764682fa53a185d2abc272cfcb9c912c312df533748e2de430d710296",
+    "validation/depth-partition.json": "bdf01c07d65af0fcfa358f862b2df934eb24bdd459d2f067b0f76199de0c31cf",
+    "validation/geometry.json": "b1e3883f872b859e3b19f85545d551c6a4c1e99052192bc235e67c7ecce273bb",
+    "validation/native-route-run.log": "e118f06837f6d8c4b1c08b4c6cf734afc622d476392676d657593cd8c73ccc46",
+    "validation/native-routes.json": "52a13adf9bc7d416ee0b7ea4ede4dd9cbd9fbf36b5a2858a2f4b052f11bba1eb",
+    "validation/native-routes.log": "fa14f577fcf8a3eb913d54828dd760e20128581522237adaff420e3b29a42825",
+    "validation/spawn-domains.json": "274d731b6c419eb45223293b9851613315b9fab69f8490637aa53c472f3c06e8"
+  },
+  "staticSourceReplaySHA256": "4db6ac2b8a2fc1f2dc6ee42e779605e599b507f80b8ffa45072256b889b53899"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "timber-movement-studio-r2",
+  "title": "Timber Movement Studio (woodland landing)",
+  "version": "r2 expansion",
+  "parent_id": "timber-movement-studio-r1",
+  "template_family": "timber-movement-studio",
+  "implementation": "Built",
+  "review_ready": true,
+  "group": "revision",
+  "use_case": "Open-floor classes and rehearsal with an outdoor arrival/gathering area",
+  "style": "Warm timber and limestone studio with woodland, sky and natural stone landing",
+  "what_changed": "Preserves the entire approved r1 scene and collision pixel-for-pixel at +96,+96. Adds 96px north/left/right and 160px south, including 28 genuinely walkable landing cells. Quiet spawn moves outdoors; original r1 stays separate.",
+  "publication": "Not published",
+  "live_playtest": "Not verified",
+  "decision": "Pending",
+  "tmj_url": null,
+  "preview_url": null,
+  "wam_url": null,
+  "source_url": null,
+  "publication_verified_at": null,
+  "source_validation": "PASS: independent static/native-source review",
+  "render": "Compiled occupied proof: original eleven unchanged native32 Wokas plus three outdoor actors",
+  "setup_instructions": "Host the exact runtime map32 directory together. Load map.tmj or configure optional map.wam in a separate test room. Publication remains paused; no public test URL. Record actual browser/device/media acceptance separately.",
+  "limitations": [
+    "No live browser, keyboard/joystick, phone/device, audio/video, network, multi-user, hosting or publication test.",
+    "Waiting bench remains solid scenery with a clear approach; zero functional seats and no sitting/dance/exercise animation.",
+    "Instructor remains at the dais edge. Proof uses manually faced native idle frames, not automatic facing or pose behavior.",
+    "Native instructor/listener and arrival conversation companion settings are translated only; real AV/services require editor configuration.",
+    "One quiet outdoor spawn cell; no automatic camera focus or transitions. No WAM start override; actual Tiled fallback independently tested."
+  ],
+  "acceptance": "R1 received explicit user design approval at 08:59 UTC. R2 expansion requested in that same message; independent source QA passed, but separate r2 user design approval/live acceptance remain pending. Four r2 files saved in Library; parent owns chat delivery.",
+  "decision_notes": "User requested a small outdoor area below and more top/side context while praising r1. Root approved the restored-pixel r2 visual before source QA. Original studio, foreground, collision and eleven-actor proof are exact at +96,+96. New landing adds 28 clear native32 cells; rocky planted edge is protected.",
+  "runtime_tmj_sha256": "64ba9b845ef53c033454038769899f90ca491092bbb1894ee70994978963395b",
+  "runtime_package_name": "timber-movement-studio-r2-runtime.zip",
+  "preview_name": "timber-movement-studio-r2-occupied.png",
+  "verification_notes": "Independent PASS: 21 generated outputs rebuild byte-exact, all six runtime ZIP entries match. 158 connected floor cells, 140,897 clear body positions, zero head conflicts. Base native replay 844 legs / 722,942 samples; all four true JS spawn starts total 3,376 legs / 2,897,319 samples, no failures. Four actual fallback-spawn positions clear/quiet outside AV zones. All16 anchor endpoint WAM memberships correct. All14 actors and head-union mask independently reproduce from pinned native32 sheets. Exact original r1 artwork/foreground/collision/occupied proof preserved.",
+  "delivery": "Four new files saved in Library 11 Oct 09:14 UTC; parent send pending",
+  "artifacts": [
+    {
+      "name": "timber-movement-studio-r2-review.pdf",
+      "library_file_id": "libfile_3aaeb19a59e88191b9ad641e0f856d25",
+      "file_id": "file_00000000f070823088c2a378ba1e0afc",
+      "version": 0,
+      "role": "review_pdf",
+      "bytes": 4234274,
+      "local_sha256": "3b7979193eeb949cf0620e0a3a78eb4ff4afabd05b97311306ff1440103c3130"
+    },
+    {
+      "name": "timber-movement-studio-r2-occupied.png",
+      "library_file_id": "libfile_b6868aa60958819193187098f8fee750",
+      "file_id": "file_000000002b9881f79c42a192cf513aec",
+      "version": 0,
+      "role": "preview",
+      "bytes": 2027025,
+      "local_sha256": "6e7f72ca2f1c27d655c664a0985ef635eb2a547d0cd92ec080b241e35aed2865"
+    },
+    {
+      "name": "timber-movement-studio-r2-runtime.zip",
+      "library_file_id": "libfile_0e6a80cf12488191a97bc676868d1dbe",
+      "file_id": "file_00000000f58082309f113a56a658873a",
+      "version": 0,
+      "role": "runtime",
+      "bytes": 2046095,
+      "local_sha256": "5400e4d5ba2d03e46afbad8e777e78e6d63088a0bb0a0796217d497e8d94ce7b"
+    },
+    {
+      "name": "timber-movement-studio-r2-source.zip",
+      "library_file_id": "libfile_966dc29cce808191b6eb6ec4d53cc0cf",
+      "file_id": "file_00000000022c82309f4d65790c48fd3a",
+      "version": 0,
+      "role": "source_rebuild",
+      "bytes": 4455744,
+      "local_sha256": "043aaf741f0e9b105f9f1b3f189c2d8d4de405c817b997d55b9d81cc35364a95"
+    }
+  ],
+  "review_report_path": "/tmp/movement-expansion-independent/REPORT.md",
+  "review_report_sha256": "5668fab1e96213423d4113f4a7a3e1a298346891c58b7ebcf31552b26aeec3b5",
+  "freeze_path": "/tmp/timber-movement-studio-r2/CANDIDATE-FREEZE.json",
+  "freeze_sha256": "448f1ec2ecd8d8581861997634e8684c976a1338e75980b8d964921c783d9f9b",
+  "user_request_message_id": "Sentinel_508cbad590a4819199cd7bbf4890ad94",
+  "approved_reference_library_file_id": "libfile_5e9713afc9608191b01ef5ec16b9e456"
+}

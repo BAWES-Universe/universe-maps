@@ -1,0 +1,1205 @@
+{
+  "status": "art review checkpoint; not a compiled map",
+  "tileSize": 32,
+  "worldPixels": [
+    2560,
+    1920
+  ],
+  "worldTiles": [
+    80,
+    60
+  ],
+  "preservedHallXYXY": [
+    0,
+    0,
+    1536,
+    944
+  ],
+  "foyerInterior": [
+    64,
+    1008,
+    1472,
+    1712
+  ],
+  "foyerInteriorTiles": [
+    44,
+    22
+  ],
+  "hallDoors": [
+    [
+      512,
+      944,
+      608,
+      1008
+    ],
+    [
+      928,
+      944,
+      1024,
+      1008
+    ]
+  ],
+  "terraceDoor": [
+    1472,
+    1312,
+    1536,
+    1472
+  ],
+  "mainArrivalOpening": [
+    640,
+    1712,
+    896,
+    1776
+  ],
+  "terraceInterior": [
+    1536,
+    1088,
+    2464,
+    1712
+  ],
+  "groupBays": [
+    {
+      "id": "lounge-01",
+      "bounds": [
+        96,
+        1072,
+        448,
+        1296
+      ],
+      "type": "visual meeting-room candidate only",
+      "seats": [
+        "lounge-01-N",
+        "lounge-01-S",
+        "lounge-01-W",
+        "lounge-01-E"
+      ]
+    },
+    {
+      "id": "lounge-02",
+      "bounds": [
+        640,
+        1072,
+        864,
+        1296
+      ],
+      "type": "visual meeting-room candidate only",
+      "seats": [
+        "lounge-02-N",
+        "lounge-02-S",
+        "lounge-02-W",
+        "lounge-02-E"
+      ]
+    },
+    {
+      "id": "lounge-03",
+      "bounds": [
+        1120,
+        1072,
+        1440,
+        1296
+      ],
+      "type": "visual meeting-room candidate only",
+      "seats": [
+        "lounge-03-N",
+        "lounge-03-S",
+        "lounge-03-W",
+        "lounge-03-E"
+      ]
+    },
+    {
+      "id": "lounge-04",
+      "bounds": [
+        96,
+        1456,
+        448,
+        1680
+      ],
+      "type": "visual meeting-room candidate only",
+      "seats": [
+        "lounge-04-N",
+        "lounge-04-S",
+        "lounge-04-W",
+        "lounge-04-E"
+      ]
+    }
+  ],
+  "quietRouteCandidates": [
+    {
+      "id": "west-hall-approach",
+      "bounds": [
+        512,
+        1008,
+        608,
+        1344
+      ]
+    },
+    {
+      "id": "east-hall-approach",
+      "bounds": [
+        928,
+        1008,
+        1024,
+        1344
+      ]
+    },
+    {
+      "id": "cross-concourse",
+      "bounds": [
+        512,
+        1344,
+        1536,
+        1440
+      ]
+    },
+    {
+      "id": "arrival",
+      "bounds": [
+        672,
+        1440,
+        864,
+        1920
+      ]
+    }
+  ],
+  "coffeeCounterBounds": [
+    1836,
+    1112,
+    2004,
+    1206
+  ],
+  "coffeeCustomerApron": [
+    1760,
+    1216,
+    2112,
+    1312
+  ],
+  "coffeeStaffAllowance": [
+    1808,
+    1088,
+    2048,
+    1112
+  ],
+  "informalPairs": [
+    {
+      "id": "indoor-casual",
+      "anchors": [
+        "indoor-casual-left",
+        "indoor-casual-right"
+      ],
+      "center": [
+        1248,
+        1584
+      ],
+      "anchorDistancePx": 56,
+      "function": "ordinary proximity candidate; deployed distances unknown"
+    },
+    {
+      "id": "terrace-view-pair",
+      "anchors": [
+        "terrace-view-pair-left",
+        "terrace-view-pair-right"
+      ],
+      "center": [
+        2240,
+        1196
+      ],
+      "anchorDistancePx": 56,
+      "function": "ordinary proximity candidate; deployed distances unknown"
+    },
+    {
+      "id": "terrace-lower-pair",
+      "anchors": [
+        "terrace-lower-pair-left",
+        "terrace-lower-pair-right"
+      ],
+      "center": [
+        1760,
+        1600
+      ],
+      "anchorDistancePx": 56,
+      "function": "ordinary proximity candidate; deployed distances unknown"
+    },
+    {
+      "id": "terrace-garden-pair",
+      "anchors": [
+        "terrace-garden-pair-left",
+        "terrace-garden-pair-right"
+      ],
+      "center": [
+        2208,
+        1600
+      ],
+      "anchorDistancePx": 56,
+      "function": "ordinary proximity candidate; deployed distances unknown"
+    }
+  ],
+  "furniture": [
+    {
+      "id": "lounge-01-N",
+      "asset": "assets/lounge-chair-south.png",
+      "x": 248,
+      "y": 1097,
+      "width": 48,
+      "height": 48,
+      "foregroundFromLocalY": 39
+    },
+    {
+      "id": "lounge-01-S",
+      "asset": "assets/lounge-chair-north.png",
+      "x": 248,
+      "y": 1223,
+      "width": 48,
+      "height": 44,
+      "foregroundFromLocalY": 25
+    },
+    {
+      "id": "lounge-01-W",
+      "asset": "assets/lounge-chair-east.png",
+      "x": 185,
+      "y": 1157,
+      "width": 42,
+      "height": 50,
+      "foregroundFromLocalY": 41
+    },
+    {
+      "id": "lounge-01-E",
+      "asset": "assets/lounge-chair-west.png",
+      "x": 317,
+      "y": 1157,
+      "width": 42,
+      "height": 50,
+      "foregroundFromLocalY": 41
+    },
+    {
+      "id": "lounge-01-table",
+      "asset": "assets/low-lounge-table.png",
+      "x": 240,
+      "y": 1168,
+      "width": 64,
+      "height": 36,
+      "foregroundFromLocalY": 28
+    },
+    {
+      "id": "lounge-01-planter",
+      "asset": "assets/planter-low.png",
+      "x": 116,
+      "y": 1048,
+      "width": 120,
+      "height": 48,
+      "foregroundFromLocalY": null
+    },
+    {
+      "id": "lounge-02-N",
+      "asset": "assets/lounge-chair-south.png",
+      "x": 728,
+      "y": 1097,
+      "width": 48,
+      "height": 48,
+      "foregroundFromLocalY": 39
+    },
+    {
+      "id": "lounge-02-S",
+      "asset": "assets/lounge-chair-north.png",
+      "x": 728,
+      "y": 1223,
+      "width": 48,
+      "height": 44,
+      "foregroundFromLocalY": 25
+    },
+    {
+      "id": "lounge-02-W",
+      "asset": "assets/lounge-chair-east.png",
+      "x": 671,
+      "y": 1157,
+      "width": 42,
+      "height": 50,
+      "foregroundFromLocalY": 41
+    },
+    {
+      "id": "lounge-02-E",
+      "asset": "assets/lounge-chair-west.png",
+      "x": 791,
+      "y": 1157,
+      "width": 42,
+      "height": 50,
+      "foregroundFromLocalY": 41
+    },
+    {
+      "id": "lounge-02-table",
+      "asset": "assets/low-lounge-table.png",
+      "x": 720,
+      "y": 1168,
+      "width": 64,
+      "height": 36,
+      "foregroundFromLocalY": 28
+    },
+    {
+      "id": "lounge-03-N",
+      "asset": "assets/lounge-chair-south.png",
+      "x": 1256,
+      "y": 1097,
+      "width": 48,
+      "height": 48,
+      "foregroundFromLocalY": 39
+    },
+    {
+      "id": "lounge-03-S",
+      "asset": "assets/lounge-chair-north.png",
+      "x": 1256,
+      "y": 1223,
+      "width": 48,
+      "height": 44,
+      "foregroundFromLocalY": 25
+    },
+    {
+      "id": "lounge-03-W",
+      "asset": "assets/lounge-chair-east.png",
+      "x": 1193,
+      "y": 1157,
+      "width": 42,
+      "height": 50,
+      "foregroundFromLocalY": 41
+    },
+    {
+      "id": "lounge-03-E",
+      "asset": "assets/lounge-chair-west.png",
+      "x": 1325,
+      "y": 1157,
+      "width": 42,
+      "height": 50,
+      "foregroundFromLocalY": 41
+    },
+    {
+      "id": "lounge-03-table",
+      "asset": "assets/low-lounge-table.png",
+      "x": 1248,
+      "y": 1168,
+      "width": 64,
+      "height": 36,
+      "foregroundFromLocalY": 28
+    },
+    {
+      "id": "lounge-03-planter",
+      "asset": "assets/planter-low.png",
+      "x": 1140,
+      "y": 1048,
+      "width": 120,
+      "height": 48,
+      "foregroundFromLocalY": null
+    },
+    {
+      "id": "lounge-04-N",
+      "asset": "assets/lounge-chair-south.png",
+      "x": 248,
+      "y": 1481,
+      "width": 48,
+      "height": 48,
+      "foregroundFromLocalY": 39
+    },
+    {
+      "id": "lounge-04-S",
+      "asset": "assets/lounge-chair-north.png",
+      "x": 248,
+      "y": 1607,
+      "width": 48,
+      "height": 44,
+      "foregroundFromLocalY": 25
+    },
+    {
+      "id": "lounge-04-W",
+      "asset": "assets/lounge-chair-east.png",
+      "x": 185,
+      "y": 1541,
+      "width": 42,
+      "height": 50,
+      "foregroundFromLocalY": 41
+    },
+    {
+      "id": "lounge-04-E",
+      "asset": "assets/lounge-chair-west.png",
+      "x": 317,
+      "y": 1541,
+      "width": 42,
+      "height": 50,
+      "foregroundFromLocalY": 41
+    },
+    {
+      "id": "lounge-04-table",
+      "asset": "assets/low-lounge-table.png",
+      "x": 240,
+      "y": 1552,
+      "width": 64,
+      "height": 36,
+      "foregroundFromLocalY": 28
+    },
+    {
+      "id": "lounge-04-planter",
+      "asset": "assets/planter-low.png",
+      "x": 116,
+      "y": 1432,
+      "width": 120,
+      "height": 48,
+      "foregroundFromLocalY": null
+    },
+    {
+      "id": "welcome",
+      "asset": "assets/welcome-desk.png",
+      "x": 484,
+      "y": 1564,
+      "width": 112,
+      "height": 68,
+      "foregroundFromLocalY": 58
+    },
+    {
+      "id": "coffee",
+      "asset": "assets/coffee-counter-native.png",
+      "x": 1836,
+      "y": 1112,
+      "width": 168,
+      "height": 94,
+      "foregroundFromLocalY": null
+    },
+    {
+      "id": "coffee-tree-left",
+      "asset": "assets/citrus-tree.png",
+      "x": 1628,
+      "y": 1106,
+      "width": 64,
+      "height": 90,
+      "foregroundFromLocalY": null
+    },
+    {
+      "id": "coffee-tree-right",
+      "asset": "assets/citrus-tree.png",
+      "x": 2376,
+      "y": 1106,
+      "width": 64,
+      "height": 90,
+      "foregroundFromLocalY": null
+    },
+    {
+      "id": "terrace-tree-southwest",
+      "asset": "assets/citrus-tree.png",
+      "x": 1552,
+      "y": 1588,
+      "width": 64,
+      "height": 90,
+      "foregroundFromLocalY": null
+    },
+    {
+      "id": "terrace-tree-southeast",
+      "asset": "assets/citrus-tree.png",
+      "x": 2396,
+      "y": 1588,
+      "width": 64,
+      "height": 90,
+      "foregroundFromLocalY": null
+    },
+    {
+      "id": "foyer-tree-south",
+      "asset": "assets/citrus-tree.png",
+      "x": 1380,
+      "y": 1594,
+      "width": 64,
+      "height": 90,
+      "foregroundFromLocalY": null
+    },
+    {
+      "id": "indoor-casual-left",
+      "asset": "assets/bistro-stool-left-native.png",
+      "x": 1205,
+      "y": 1554,
+      "width": 30,
+      "height": 54,
+      "foregroundFromLocalY": 46
+    },
+    {
+      "id": "indoor-casual-right",
+      "asset": "assets/bistro-stool-right-native.png",
+      "x": 1262,
+      "y": 1554,
+      "width": 28,
+      "height": 54,
+      "foregroundFromLocalY": 46
+    },
+    {
+      "id": "indoor-casual-table",
+      "asset": "assets/bistro-table-native.png",
+      "x": 1229,
+      "y": 1554,
+      "width": 39,
+      "height": 54,
+      "foregroundFromLocalY": 46
+    },
+    {
+      "id": "terrace-view-pair-left",
+      "asset": "assets/bistro-stool-left-native.png",
+      "x": 2197,
+      "y": 1166,
+      "width": 30,
+      "height": 54,
+      "foregroundFromLocalY": 46
+    },
+    {
+      "id": "terrace-view-pair-right",
+      "asset": "assets/bistro-stool-right-native.png",
+      "x": 2254,
+      "y": 1166,
+      "width": 28,
+      "height": 54,
+      "foregroundFromLocalY": 46
+    },
+    {
+      "id": "terrace-view-pair-table",
+      "asset": "assets/bistro-table-native.png",
+      "x": 2221,
+      "y": 1166,
+      "width": 39,
+      "height": 54,
+      "foregroundFromLocalY": 46
+    },
+    {
+      "id": "terrace-lower-pair-left",
+      "asset": "assets/bistro-stool-left-native.png",
+      "x": 1717,
+      "y": 1570,
+      "width": 30,
+      "height": 54,
+      "foregroundFromLocalY": 46
+    },
+    {
+      "id": "terrace-lower-pair-right",
+      "asset": "assets/bistro-stool-right-native.png",
+      "x": 1774,
+      "y": 1570,
+      "width": 28,
+      "height": 54,
+      "foregroundFromLocalY": 46
+    },
+    {
+      "id": "terrace-lower-pair-table",
+      "asset": "assets/bistro-table-native.png",
+      "x": 1741,
+      "y": 1570,
+      "width": 39,
+      "height": 54,
+      "foregroundFromLocalY": 46
+    },
+    {
+      "id": "terrace-garden-pair-left",
+      "asset": "assets/bistro-stool-left-native.png",
+      "x": 2165,
+      "y": 1570,
+      "width": 30,
+      "height": 54,
+      "foregroundFromLocalY": 46
+    },
+    {
+      "id": "terrace-garden-pair-right",
+      "asset": "assets/bistro-stool-right-native.png",
+      "x": 2222,
+      "y": 1570,
+      "width": 28,
+      "height": 54,
+      "foregroundFromLocalY": 46
+    },
+    {
+      "id": "terrace-garden-pair-table",
+      "asset": "assets/bistro-table-native.png",
+      "x": 2189,
+      "y": 1570,
+      "width": 39,
+      "height": 54,
+      "foregroundFromLocalY": 46
+    },
+    {
+      "id": "east-bay-edge",
+      "asset": "assets/planter-low.png",
+      "x": 1296,
+      "y": 1454,
+      "width": 120,
+      "height": 48,
+      "foregroundFromLocalY": null
+    },
+    {
+      "id": "terrace-south-edge",
+      "asset": "assets/planter-low.png",
+      "x": 1984,
+      "y": 1680,
+      "width": 120,
+      "height": 48,
+      "foregroundFromLocalY": null
+    },
+    {
+      "id": "west-entry-edge",
+      "asset": "assets/planter-low.png",
+      "x": 128,
+      "y": 1664,
+      "width": 120,
+      "height": 48,
+      "foregroundFromLocalY": null
+    }
+  ],
+  "socialAnchors": [
+    {
+      "id": "lounge-01-N",
+      "x": 272,
+      "y": 1125,
+      "direction": "south",
+      "floorClick": [
+        272,
+        1141
+      ],
+      "group": "lounge-01"
+    },
+    {
+      "id": "lounge-01-S",
+      "x": 272,
+      "y": 1239,
+      "direction": "north",
+      "floorClick": [
+        272,
+        1255
+      ],
+      "group": "lounge-01"
+    },
+    {
+      "id": "lounge-01-W",
+      "x": 210,
+      "y": 1182,
+      "direction": "east",
+      "floorClick": [
+        210,
+        1198
+      ],
+      "group": "lounge-01"
+    },
+    {
+      "id": "lounge-01-E",
+      "x": 334,
+      "y": 1182,
+      "direction": "west",
+      "floorClick": [
+        334,
+        1198
+      ],
+      "group": "lounge-01"
+    },
+    {
+      "id": "lounge-02-N",
+      "x": 752,
+      "y": 1125,
+      "direction": "south",
+      "floorClick": [
+        752,
+        1141
+      ],
+      "group": "lounge-02"
+    },
+    {
+      "id": "lounge-02-S",
+      "x": 752,
+      "y": 1239,
+      "direction": "north",
+      "floorClick": [
+        752,
+        1255
+      ],
+      "group": "lounge-02"
+    },
+    {
+      "id": "lounge-02-W",
+      "x": 696,
+      "y": 1182,
+      "direction": "east",
+      "floorClick": [
+        696,
+        1198
+      ],
+      "group": "lounge-02"
+    },
+    {
+      "id": "lounge-02-E",
+      "x": 808,
+      "y": 1182,
+      "direction": "west",
+      "floorClick": [
+        808,
+        1198
+      ],
+      "group": "lounge-02"
+    },
+    {
+      "id": "lounge-03-N",
+      "x": 1280,
+      "y": 1125,
+      "direction": "south",
+      "floorClick": [
+        1280,
+        1141
+      ],
+      "group": "lounge-03"
+    },
+    {
+      "id": "lounge-03-S",
+      "x": 1280,
+      "y": 1239,
+      "direction": "north",
+      "floorClick": [
+        1280,
+        1255
+      ],
+      "group": "lounge-03"
+    },
+    {
+      "id": "lounge-03-W",
+      "x": 1218,
+      "y": 1182,
+      "direction": "east",
+      "floorClick": [
+        1218,
+        1198
+      ],
+      "group": "lounge-03"
+    },
+    {
+      "id": "lounge-03-E",
+      "x": 1342,
+      "y": 1182,
+      "direction": "west",
+      "floorClick": [
+        1342,
+        1198
+      ],
+      "group": "lounge-03"
+    },
+    {
+      "id": "lounge-04-N",
+      "x": 272,
+      "y": 1509,
+      "direction": "south",
+      "floorClick": [
+        272,
+        1525
+      ],
+      "group": "lounge-04"
+    },
+    {
+      "id": "lounge-04-S",
+      "x": 272,
+      "y": 1623,
+      "direction": "north",
+      "floorClick": [
+        272,
+        1639
+      ],
+      "group": "lounge-04"
+    },
+    {
+      "id": "lounge-04-W",
+      "x": 210,
+      "y": 1566,
+      "direction": "east",
+      "floorClick": [
+        210,
+        1582
+      ],
+      "group": "lounge-04"
+    },
+    {
+      "id": "lounge-04-E",
+      "x": 334,
+      "y": 1566,
+      "direction": "west",
+      "floorClick": [
+        334,
+        1582
+      ],
+      "group": "lounge-04"
+    },
+    {
+      "id": "indoor-casual-left",
+      "x": 1220,
+      "y": 1584,
+      "direction": "south",
+      "floorClick": [
+        1220,
+        1600
+      ],
+      "pair": "indoor-casual"
+    },
+    {
+      "id": "indoor-casual-right",
+      "x": 1276,
+      "y": 1584,
+      "direction": "south",
+      "floorClick": [
+        1276,
+        1600
+      ],
+      "pair": "indoor-casual"
+    },
+    {
+      "id": "terrace-view-pair-left",
+      "x": 2212,
+      "y": 1196,
+      "direction": "south",
+      "floorClick": [
+        2212,
+        1212
+      ],
+      "pair": "terrace-view-pair"
+    },
+    {
+      "id": "terrace-view-pair-right",
+      "x": 2268,
+      "y": 1196,
+      "direction": "south",
+      "floorClick": [
+        2268,
+        1212
+      ],
+      "pair": "terrace-view-pair"
+    },
+    {
+      "id": "terrace-lower-pair-left",
+      "x": 1732,
+      "y": 1600,
+      "direction": "south",
+      "floorClick": [
+        1732,
+        1616
+      ],
+      "pair": "terrace-lower-pair"
+    },
+    {
+      "id": "terrace-lower-pair-right",
+      "x": 1788,
+      "y": 1600,
+      "direction": "south",
+      "floorClick": [
+        1788,
+        1616
+      ],
+      "pair": "terrace-lower-pair"
+    },
+    {
+      "id": "terrace-garden-pair-left",
+      "x": 2180,
+      "y": 1600,
+      "direction": "south",
+      "floorClick": [
+        2180,
+        1616
+      ],
+      "pair": "terrace-garden-pair"
+    },
+    {
+      "id": "terrace-garden-pair-right",
+      "x": 2236,
+      "y": 1600,
+      "direction": "south",
+      "floorClick": [
+        2236,
+        1616
+      ],
+      "pair": "terrace-garden-pair"
+    }
+  ],
+  "reviewActors": [
+    {
+      "id": "lounge-01-N",
+      "x": 272,
+      "y": 1125,
+      "direction": "south",
+      "floorClick": [
+        272,
+        1141
+      ],
+      "group": "lounge-01"
+    },
+    {
+      "id": "lounge-01-S",
+      "x": 272,
+      "y": 1239,
+      "direction": "north",
+      "floorClick": [
+        272,
+        1255
+      ],
+      "group": "lounge-01"
+    },
+    {
+      "id": "lounge-01-W",
+      "x": 210,
+      "y": 1182,
+      "direction": "east",
+      "floorClick": [
+        210,
+        1198
+      ],
+      "group": "lounge-01"
+    },
+    {
+      "id": "lounge-02-N",
+      "x": 752,
+      "y": 1125,
+      "direction": "south",
+      "floorClick": [
+        752,
+        1141
+      ],
+      "group": "lounge-02"
+    },
+    {
+      "id": "lounge-02-S",
+      "x": 752,
+      "y": 1239,
+      "direction": "north",
+      "floorClick": [
+        752,
+        1255
+      ],
+      "group": "lounge-02"
+    },
+    {
+      "id": "lounge-02-W",
+      "x": 696,
+      "y": 1182,
+      "direction": "east",
+      "floorClick": [
+        696,
+        1198
+      ],
+      "group": "lounge-02"
+    },
+    {
+      "id": "lounge-03-N",
+      "x": 1280,
+      "y": 1125,
+      "direction": "south",
+      "floorClick": [
+        1280,
+        1141
+      ],
+      "group": "lounge-03"
+    },
+    {
+      "id": "lounge-03-S",
+      "x": 1280,
+      "y": 1239,
+      "direction": "north",
+      "floorClick": [
+        1280,
+        1255
+      ],
+      "group": "lounge-03"
+    },
+    {
+      "id": "lounge-03-W",
+      "x": 1218,
+      "y": 1182,
+      "direction": "east",
+      "floorClick": [
+        1218,
+        1198
+      ],
+      "group": "lounge-03"
+    },
+    {
+      "id": "lounge-04-N",
+      "x": 272,
+      "y": 1509,
+      "direction": "south",
+      "floorClick": [
+        272,
+        1525
+      ],
+      "group": "lounge-04"
+    },
+    {
+      "id": "lounge-04-S",
+      "x": 272,
+      "y": 1623,
+      "direction": "north",
+      "floorClick": [
+        272,
+        1639
+      ],
+      "group": "lounge-04"
+    },
+    {
+      "id": "lounge-04-W",
+      "x": 210,
+      "y": 1566,
+      "direction": "east",
+      "floorClick": [
+        210,
+        1582
+      ],
+      "group": "lounge-04"
+    },
+    {
+      "id": "indoor-casual-left",
+      "x": 1220,
+      "y": 1584,
+      "direction": "south",
+      "floorClick": [
+        1220,
+        1600
+      ],
+      "pair": "indoor-casual"
+    },
+    {
+      "id": "indoor-casual-right",
+      "x": 1276,
+      "y": 1584,
+      "direction": "south",
+      "floorClick": [
+        1276,
+        1600
+      ],
+      "pair": "indoor-casual"
+    },
+    {
+      "id": "terrace-view-pair-left",
+      "x": 2212,
+      "y": 1196,
+      "direction": "south",
+      "floorClick": [
+        2212,
+        1212
+      ],
+      "pair": "terrace-view-pair"
+    },
+    {
+      "id": "terrace-view-pair-right",
+      "x": 2268,
+      "y": 1196,
+      "direction": "south",
+      "floorClick": [
+        2268,
+        1212
+      ],
+      "pair": "terrace-view-pair"
+    },
+    {
+      "id": "terrace-lower-pair-left",
+      "x": 1732,
+      "y": 1600,
+      "direction": "south",
+      "floorClick": [
+        1732,
+        1616
+      ],
+      "pair": "terrace-lower-pair"
+    },
+    {
+      "id": "terrace-lower-pair-right",
+      "x": 1788,
+      "y": 1600,
+      "direction": "south",
+      "floorClick": [
+        1788,
+        1616
+      ],
+      "pair": "terrace-lower-pair"
+    },
+    {
+      "id": "terrace-garden-pair-left",
+      "x": 2180,
+      "y": 1600,
+      "direction": "south",
+      "floorClick": [
+        2180,
+        1616
+      ],
+      "pair": "terrace-garden-pair"
+    },
+    {
+      "id": "terrace-garden-pair-right",
+      "x": 2236,
+      "y": 1600,
+      "direction": "south",
+      "floorClick": [
+        2236,
+        1616
+      ],
+      "pair": "terrace-garden-pair"
+    },
+    {
+      "id": "stage-speaker",
+      "x": 768,
+      "y": 264,
+      "direction": "south"
+    },
+    {
+      "id": "hall-west",
+      "x": 560,
+      "y": 924,
+      "direction": "north"
+    },
+    {
+      "id": "hall-east",
+      "x": 976,
+      "y": 1032,
+      "direction": "south"
+    },
+    {
+      "id": "arrival",
+      "x": 768,
+      "y": 1672,
+      "direction": "north"
+    },
+    {
+      "id": "cross-concourse",
+      "x": 768,
+      "y": 1376,
+      "direction": "east"
+    },
+    {
+      "id": "terrace-door",
+      "x": 1504,
+      "y": 1392,
+      "direction": "east"
+    },
+    {
+      "id": "coffee-customer-1",
+      "x": 1876,
+      "y": 1240,
+      "direction": "north"
+    },
+    {
+      "id": "coffee-customer-2",
+      "x": 1924,
+      "y": 1288,
+      "direction": "north"
+    },
+    {
+      "id": "welcome-customer",
+      "x": 540,
+      "y": 1654,
+      "direction": "north"
+    },
+    {
+      "id": "terrace-walk",
+      "x": 2020,
+      "y": 1392,
+      "direction": "west"
+    },
+    {
+      "id": "view-watcher",
+      "x": 2312,
+      "y": 1108,
+      "direction": "north"
+    }
+  ],
+  "depthIntent": "Retain original base/above through y944 exactly. New chairs use separate lower-apron/back strips; actor head overlap and live local/remote depth remain to be verified before publication. Review foreground duplicated over complete furniture union; parent should make exact runtime layer ownership when compiling.",
+  "zonesNote": "Visual rugs only; future unique livekitRoomProperty per rug requires user native-editor setup. Quiet-route candidates are intentionally separate. No media provider activated.",
+  "noMirrorPixelsBelowThreshold": true,
+  "sourceMeetingDistanceDefaults": {
+    "startPx": 64,
+    "groupRadiusPx": 48,
+    "deployedOverrides": "unknown"
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "inputHashes": {
+    "map32/map.tmj": "07dfe6f2916d26a88f8a31fcc0f0487bec7a17b5ca5205878682605018f8f1d4",
+    "source/layout.json": "ef0960568196bec5cac168010dff25ccd95bce9c3ada49cbcb4264651716841c"
+  },
+  "scope": "Pinned unmodified extracted PathfindingManager, Player movement and GameScene.moveTo with EasyStar 0.4.4 in stub scene; native 60Hz movement sampled at <=0.5px. No live browser/render/network/multi-user assertion.",
+  "spawn": [
+    400,
+    464
+  ],
+  "rows": [
+    {
+      "name": "West reading north 1 exact authored arrival",
+      "start": [
+        400,
+        464
+      ],
+      "click": [
+        244,
+        240
+      ],
+      "final": [
+        244,
+        224
+      ],
+      "nativeFittedEndpoint": [
+        244,
+        224
+      ],
+      "nativeFinalDirection": 2,
+      "sameCell": false,
+      "frames": 142,
+      "samples": 1000,
+      "bodyCollisionSamples": 0,
+      "endpointError": 0,
+      "wrongTile": false,
+      "installs": 1,
+      "error": null,
+      "pass": true
+    },
+    {
+      "name": "West reading north 2 exact authored arrival",
+      "start": [
+        400,
+        464
+      ],
+      "click": [
+        300,
+        240
+      ],
+      "final": [
+        300,
+        224
+      ],
+      "nativeFittedEndpoint": [
+        300,
+        224
+      ],
+      "nativeFinalDirection": 1,
+      "sameCell": false,
+      "frames": 94,
+      "samples": 676,
+      "bodyCollisionSamples": 0,
+      "endpointError": 0,
+      "wrongTile": false,
+      "installs": 1,
+      "error": null,
+      "pass": true
+    },
+    {
+      "name": "West reading south 1 exact authored arrival",
+      "start": [
+        400,
+        464
+      ],
+      "click": [
+        244,
+        287
+      ],
+      "final": [
+        244,
+        271
+      ],
+      "nativeFittedEndpoint": [
+        244,
+        271
+      ],
+      "nativeFinalDirection": 2,
+      "sameCell": false,
+      "frames": 139,
+      "samples": 982,
+      "bodyCollisionSamples": 0,
+      "endpointError": 0,
+      "wrongTile": false,
+      "installs": 1,
+      "error": null,
+      "pass": true
+    },
+    {
+      "name": "West reading south 2 exact authored arrival",
+      "start": [
+        400,
+        464
+      ],
+      "click": [
+        300,
+        287
+      ],
+      "final": [
+        300,
+        271
+      ],
+      "nativeFittedEndpoint": [
+        300,
+        271
+      ],
+      "nativeFinalDirection": 1,
+      "sameCell": false,
+      "frames": 90,
+      "samples": 650,
+      "bodyCollisionSamples": 0,
+      "endpointError": 0,
+      "wrongTile": false,
+      "installs": 1,
+      "error": null,
+      "pass": true
+    },
+    {
+      "name": "East reading north 1 exact authored arrival",
+      "start": [
+        400,
+        464
+      ],
+      "click": [
+        468,
+        240
+      ],
+      "final": [
+        468,
+        224
+      ],
+      "nativeFittedEndpoint": [
+        468,
+        224
+      ],
+      "nativeFinalDirection": 2,
+      "sameCell": false,
+      "frames": 90,
+      "samples": 646,
+      "bodyCollisionSamples": 0,
+      "endpointError": 0,
+      "wrongTile": false,
+      "installs": 1,
+      "error": null,
+      "pass": true
+    },
+    {
+      "name": "East reading north 2 exact authored arrival",
+      "start": [
+        400,
+        464
+      ],
+      "click": [
+        524,
+        240
+      ],
+      "final": [
+        524,
+        224
+      ],
+      "nativeFittedEndpoint": [
+        524,
+        224
+      ],
+      "nativeFinalDirection": 1,
+      "sameCell": false,
+      "frames": 139,
+      "samples": 981,
+      "bodyCollisionSamples": 0,
+      "endpointError": 0,
+      "wrongTile": false,
+      "installs": 1,
+      "error": null,
+      "pass": true
+    },
+    {
+      "name": "East reading south 1 exact authored arrival",
+      "start": [
+        400,
+        464
+      ],
+      "click": [
+        468,
+        287
+      ],
+      "final": [
+        468,
+        271
+      ],
+      "nativeFittedEndpoint": [
+        468,
+        271
+      ],
+      "nativeFinalDirection": 2,
+      "sameCell": false,
+      "frames": 87,
+      "samples": 622,
+      "bodyCollisionSamples": 0,
+      "endpointError": 0,
+      "wrongTile": false,
+      "installs": 1,
+      "error": null,
+      "pass": true
+    },
+    {
+      "name": "East reading south 2 exact authored arrival",
+      "start": [
+        400,
+        464
+      ],
+      "click": [
+        524,
+        287
+      ],
+      "final": [
+        524,
+        271
+      ],
+      "nativeFittedEndpoint": [
+        524,
+        271
+      ],
+      "nativeFinalDirection": 1,
+      "sameCell": false,
+      "frames": 136,
+      "samples": 953,
+      "bodyCollisionSamples": 0,
+      "endpointError": 0,
+      "wrongTile": false,
+      "installs": 1,
+      "error": null,
+      "pass": true
+    },
+    {
+      "name": "Mentorship west exact authored arrival",
+      "start": [
+        400,
+        464
+      ],
+      "click": [
+        616,
+        208
+      ],
+      "final": [
+        616,
+        192
+      ],
+      "nativeFittedEndpoint": [
+        616,
+        192
+      ],
+      "nativeFinalDirection": 2,
+      "sameCell": false,
+      "frames": 157,
+      "samples": 1104,
+      "bodyCollisionSamples": 0,
+      "endpointError": 0,
+      "wrongTile": false,
+      "installs": 1,
+      "error": null,
+      "pass": true
+    },
+    {
+      "name": "Mentorship east exact authored arrival",
+      "start": [
+        400,
+        464
+      ],
+      "click": [
+        696,
+        208
+      ],
+      "final": [
+        696,
+        192
+      ],
+      "nativeFittedEndpoint": [
+        696,
+        192
+      ],
+      "nativeFinalDirection": 0,
+      "sameCell": false,
+      "frames": 196,
+      "samples": 1395,
+      "bodyCollisionSamples": 0,
+      "endpointError": 0,
+      "wrongTile": false,
+      "installs": 1,
+      "error": null,
+      "pass": true
+    }
+  ]
+}

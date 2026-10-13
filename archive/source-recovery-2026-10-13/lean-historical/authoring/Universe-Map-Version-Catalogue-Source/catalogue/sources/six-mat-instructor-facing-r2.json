@@ -1,0 +1,105 @@
+{
+  "id": "timber-mixed-six-mat-instructor-facing-concept-r2",
+  "title": "Timber Yoga Studio \u00b7 instructor-facing r2",
+  "version": "r2",
+  "runtime_slug": "timber-mixed-six-mat-instructor-facing-r2",
+  "review_ready": true,
+  "group": "new",
+  "use_case": "Instructor-led yoga or mixed activity session with six mat positions",
+  "style": "Timber and stone studio in a rocky woodland setting",
+  "what_changed": "Six actual source charcoal mats reoriented toward the front instructor; original blocks and bottles remain upright. Half-scale environment fits native32 actors. Bounded doorway repairs enable both nook interiors, bench and refreshment approaches. Original approved concept retained unchanged.",
+  "implementation": "Built",
+  "render": "Frozen native32 atlas render with eleven varied actual repository Wokas; root visual review passed",
+  "source_validation": "PASS: final independent art, scenery, native-route, actual-spawn, role and clean-source review",
+  "live_playtest": "Not verified",
+  "publication": "Not published",
+  "tmj_url": null,
+  "wam_url": null,
+  "source_url": null,
+  "preview_url": null,
+  "publication_verified_at": null,
+  "decision": "Pending",
+  "decision_notes": "User 09:05 approved retaining the original six-horizontal-mat concept and requested a separate instructor-facing version. This r2 is built and independently passed; user approval of the new arrangement is pending. The original concept remains separate and unbuilt. This is not the 12-mat Yoga Retreat family.",
+  "acceptance": "Technical/source QA PASS. New arrangement awaits user design approval and live tests.",
+  "limitations": [
+    "No live browser, keyboard/joystick, phone/device, AV, multi-user, hosting or publication test.",
+    "Standing reference proof only; no yoga, sitting or equipment animations/interactions are implemented.",
+    "Bench and refreshment furniture are scenery with reachable approaches; no seating/service interaction is claimed.",
+    "Compact source omits optional extracted engine and raw avatar sheets; pinned native replay and startup captures are retained as supplemental evidence."
+  ],
+  "verification_notes": "Independent final PASS: 102 connected floor cells, all six mat anchors and front instructor, eight nook interior floor cells plus both doorway cells, bench/refreshment approaches and stairs. All four actual native JS spawn outcomes are body-clear and quiet. 3,810 routes, 2,898,558 sampled body positions and 1,828 quiet returns pass with zero body collisions. Zero head conflicts across 78,303 clear positions using the 132-frame union of eleven source Wokas. All 12 mat props, equipment and plant bases stay solid; optional speaker/listener roles match all seven class anchors. 23 pinned generated outputs clean-rebuild byte-for-byte.",
+  "runtime_tmj_sha256": "9c163a9fac0d7cf643d7e65b879c97e6d82f98c937687394d035b0b753fc37dd",
+  "release_freeze_sha256": "4d24a12536382402771ce852ef987a8f2e63ea59d4fd01584d573df0e583d13b",
+  "portable_rebuild": "All 23 pinned outputs reproduce byte-for-byte from the compact source; native engine replay remains separate pinned evidence",
+  "runtime_package_name": "timber-mixed-six-mat-instructor-facing-r2-runtime.zip",
+  "source_package_names": [
+    "timber-mixed-six-mat-instructor-facing-r2-source.zip"
+  ],
+  "bundle_entries": [
+    "timber-mixed-six-mat-instructor-facing-r2/map32/map.tmj",
+    "timber-mixed-six-mat-instructor-facing-r2/map32/map.wam"
+  ],
+  "preview_name": "timber-mixed-six-mat-instructor-facing-r2-occupied-native.png",
+  "setup_instructions": "Import the complete runtime map32 folder into a separate test room. Companion WAM has optional instructor/listener and independent nook conversation areas. Publication is paused; record live browser, device and media tests separately.",
+  "delivery": "Seven files saved in Library 11 Oct 09:54 UTC; parent delivery pending",
+  "artifacts": [
+    {
+      "name": "timber-mixed-six-mat-instructor-facing-r2-review.pdf",
+      "library_file_id": "libfile_05ddf3276e00819199bfedee44da6bc5",
+      "file_id": "file_0000000063b881fdaa8cfad15a95b7b1",
+      "version": 0,
+      "sha256": "33d5a4a776056eece8bd3ddc7e0b8f54d2cee68af97da1ef8d67db2ed84227cf",
+      "role": "review"
+    },
+    {
+      "name": "timber-mixed-six-mat-instructor-facing-r2-occupied-native.png",
+      "library_file_id": "libfile_aa17470b0bac819195baa5a642af15ae",
+      "file_id": "file_000000008b9881fd916498233e252cd9",
+      "version": 0,
+      "sha256": "a14aba0dffd715cdb54c6426d7dfa0b2c17b503cfdeae01b3721d265acc93d80",
+      "role": "preview"
+    },
+    {
+      "name": "timber-mixed-six-mat-instructor-facing-r2-empty-native.png",
+      "library_file_id": "libfile_96b39fe59c108191bae0f9584c572050",
+      "file_id": "file_00000000ede881fd873c5d73ac9eac62",
+      "version": 0,
+      "sha256": "2407ada4ce8a2c8c939a38efc657ae120d407f047ed4b3aa41de4ca0d3fc3fbe",
+      "role": "empty_preview"
+    },
+    {
+      "name": "timber-mixed-six-mat-instructor-facing-r2-comparison.png",
+      "library_file_id": "libfile_f07388b079048191acaea54e7b90d2ca",
+      "file_id": "file_00000000ec4881fdb51380df3c9fb0e6",
+      "version": 0,
+      "sha256": "049d9d0ea5daf33881f7011d6790e8e1302d6076d6fa322b4cbd2e1741d33bef",
+      "role": "comparison"
+    },
+    {
+      "name": "timber-mixed-six-mat-instructor-facing-r2-runtime.zip",
+      "library_file_id": "libfile_e8689ee2304c8191acfe4a1010dec533",
+      "file_id": "file_0000000004cc81f79237e629b5406f62",
+      "version": 0,
+      "sha256": "472e0add367999d97a860f9d5b1521844e1d06815c0aa5192d42d4e634f4b904",
+      "role": "runtime"
+    },
+    {
+      "name": "timber-mixed-six-mat-instructor-facing-r2-source.zip",
+      "library_file_id": "libfile_aaa279282a988191a53d8b733ae6232c",
+      "file_id": "file_00000000938c81fdb1f6ec814965ace0",
+      "version": 0,
+      "sha256": "af2d9328f1bd45e5d0a6c66ca280b3dd34aa4497834849ba3e736729ced21f65",
+      "role": "source_rebuild"
+    }
+  ],
+  "original_concept_id": "timber-mixed-six-mat-concept-r1",
+  "original_concept_artifact": {
+    "name": "timber-mixed-six-mat-concept-r1-retained-original.png",
+    "library_file_id": "libfile_e0d2fdf686448191846021c50a0077a3",
+    "file_id": "file_00000000e4a081fda5ee3ddc6e84fa4b",
+    "version": 0,
+    "sha256": "07042b3a35ab9079dc8edc70d401d1e8a36825f53544bb7f0216d68d1009240d",
+    "role": "retained_original"
+  },
+  "independent_report_sha256": "f4efbf2f2f9c897e54ad8edd3c96d05daf8e04d9d1d09154f50009ff3706a9dd"
+}

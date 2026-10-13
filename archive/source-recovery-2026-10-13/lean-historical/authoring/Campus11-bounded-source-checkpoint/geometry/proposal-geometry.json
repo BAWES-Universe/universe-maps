@@ -1,0 +1,668 @@
+{
+  "scope": "Unpublished collision proposal, requires art changes and verification before integration. Baseline untouched.",
+  "artMoves": [
+    {
+      "id": "south-bench",
+      "worldDelta": [
+        0,
+        8
+      ]
+    },
+    {
+      "id": "east-bench",
+      "worldDelta": [
+        8,
+        0
+      ]
+    }
+  ],
+  "worldOrigin": [
+    1904,
+    1248
+  ],
+  "retainedObstacles": [
+    {
+      "id": "upper-west-planter",
+      "type": "circle",
+      "x": 327,
+      "y": 349,
+      "radius": 25
+    },
+    {
+      "id": "upper-east-planter",
+      "type": "circle",
+      "x": 625,
+      "y": 320,
+      "radius": 27
+    },
+    {
+      "id": "lower-east-planter",
+      "type": "circle",
+      "x": 624,
+      "y": 698,
+      "radius": 26
+    },
+    {
+      "id": "river-path-planter",
+      "type": "circle",
+      "x": 774,
+      "y": 817,
+      "radius": 22
+    },
+    {
+      "id": "low-left-court-flowers",
+      "type": "circle",
+      "x": 348,
+      "y": 672,
+      "radius": 23
+    }
+  ],
+  "physicalRects": [
+    {
+      "id": "fire-solid-base",
+      "world": [
+        2336,
+        1696,
+        128,
+        128
+      ],
+      "local": [
+        432,
+        448,
+        128,
+        128
+      ]
+    },
+    {
+      "id": "north-left-arm",
+      "world": [
+        2336,
+        1600,
+        32,
+        64
+      ],
+      "local": [
+        432,
+        352,
+        32,
+        64
+      ]
+    },
+    {
+      "id": "north-right-arm",
+      "world": [
+        2432,
+        1600,
+        32,
+        64
+      ],
+      "local": [
+        528,
+        352,
+        32,
+        64
+      ]
+    },
+    {
+      "id": "north-back",
+      "world": [
+        2368,
+        1600,
+        64,
+        32
+      ],
+      "local": [
+        464,
+        352,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "south-left-arm",
+      "world": [
+        2336,
+        1856,
+        32,
+        64
+      ],
+      "local": [
+        432,
+        608,
+        32,
+        64
+      ]
+    },
+    {
+      "id": "south-right-arm",
+      "world": [
+        2432,
+        1856,
+        32,
+        64
+      ],
+      "local": [
+        528,
+        608,
+        32,
+        64
+      ]
+    },
+    {
+      "id": "south-back",
+      "world": [
+        2368,
+        1888,
+        64,
+        32
+      ],
+      "local": [
+        464,
+        640,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "west-back",
+      "world": [
+        2240,
+        1696,
+        32,
+        128
+      ],
+      "local": [
+        336,
+        448,
+        32,
+        128
+      ]
+    },
+    {
+      "id": "west-upper-arm",
+      "world": [
+        2272,
+        1696,
+        32,
+        32
+      ],
+      "local": [
+        368,
+        448,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "west-lower-arm",
+      "world": [
+        2272,
+        1792,
+        32,
+        32
+      ],
+      "local": [
+        368,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "east-back",
+      "world": [
+        2528,
+        1696,
+        32,
+        128
+      ],
+      "local": [
+        624,
+        448,
+        32,
+        128
+      ]
+    },
+    {
+      "id": "east-upper-arm",
+      "world": [
+        2496,
+        1696,
+        32,
+        32
+      ],
+      "local": [
+        592,
+        448,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "east-lower-arm",
+      "world": [
+        2496,
+        1792,
+        32,
+        32
+      ],
+      "local": [
+        592,
+        544,
+        32,
+        32
+      ]
+    }
+  ],
+  "sourceFineGridRegenerationDiffCount": 32,
+  "changedCells": [
+    {
+      "cell": [
+        72,
+        50
+      ],
+      "world": [
+        2304,
+        1600,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        77,
+        50
+      ],
+      "world": [
+        2464,
+        1600,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        72,
+        51
+      ],
+      "world": [
+        2304,
+        1632,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        77,
+        51
+      ],
+      "world": [
+        2464,
+        1632,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        72,
+        52
+      ],
+      "world": [
+        2304,
+        1664,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        73,
+        52
+      ],
+      "world": [
+        2336,
+        1664,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        76,
+        52
+      ],
+      "world": [
+        2432,
+        1664,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        77,
+        52
+      ],
+      "world": [
+        2464,
+        1664,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        77,
+        53
+      ],
+      "world": [
+        2464,
+        1696,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        71,
+        54
+      ],
+      "world": [
+        2272,
+        1728,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        72,
+        54
+      ],
+      "world": [
+        2304,
+        1728,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        77,
+        54
+      ],
+      "world": [
+        2464,
+        1728,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        78,
+        54
+      ],
+      "world": [
+        2496,
+        1728,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        72,
+        55
+      ],
+      "world": [
+        2304,
+        1760,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        77,
+        56
+      ],
+      "world": [
+        2464,
+        1792,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        70,
+        57
+      ],
+      "world": [
+        2240,
+        1824,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        71,
+        57
+      ],
+      "world": [
+        2272,
+        1824,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        72,
+        57
+      ],
+      "world": [
+        2304,
+        1824,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        73,
+        57
+      ],
+      "world": [
+        2336,
+        1824,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        74,
+        57
+      ],
+      "world": [
+        2368,
+        1824,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        75,
+        57
+      ],
+      "world": [
+        2400,
+        1824,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        76,
+        57
+      ],
+      "world": [
+        2432,
+        1824,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        77,
+        57
+      ],
+      "world": [
+        2464,
+        1824,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        78,
+        57
+      ],
+      "world": [
+        2496,
+        1824,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        79,
+        57
+      ],
+      "world": [
+        2528,
+        1824,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        72,
+        58
+      ],
+      "world": [
+        2304,
+        1856,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        77,
+        58
+      ],
+      "world": [
+        2464,
+        1856,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        72,
+        59
+      ],
+      "world": [
+        2304,
+        1888,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    },
+    {
+      "cell": [
+        77,
+        59
+      ],
+      "world": [
+        2464,
+        1888,
+        32,
+        32
+      ],
+      "before": 1,
+      "after": 0
+    }
+  ],
+  "originalFree": 1687,
+  "candidateFree": 1716
+}

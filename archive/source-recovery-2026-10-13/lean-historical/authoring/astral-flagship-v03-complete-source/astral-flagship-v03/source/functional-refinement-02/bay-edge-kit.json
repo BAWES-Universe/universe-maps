@@ -1,0 +1,208 @@
+{
+  "status": "Supplemental art and placement preview only; frozen artwork and runtime untouched",
+  "generation": "Original built-in imagegen, exact prompt retained",
+  "components": [
+    {
+      "id": "divider-vertical-low-32x256",
+      "asset": "assets/divider-vertical-low-32x256.png",
+      "source": "source/functional-refinement-02/vertical-planter-master.png",
+      "sourceCrop": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "meaningfulAlphaTrim": [
+        442,
+        69,
+        583,
+        1450
+      ],
+      "alphaThreshold": 8,
+      "nativeSize": [
+        32,
+        256
+      ],
+      "sha256": "27211361b90c9e4103bdf22ae691e0974d4c0774a5e887505bb154a252b94caf"
+    },
+    {
+      "id": "divider-horizontal-low-352x48",
+      "asset": "assets/divider-horizontal-low-352x48.png",
+      "source": "source/functional-refinement-01/south-dividers-master.png",
+      "sourceCrop": [
+        0,
+        520,
+        1536,
+        1024
+      ],
+      "meaningfulAlphaTrim": [
+        45,
+        67,
+        1489,
+        293
+      ],
+      "alphaThreshold": 8,
+      "nativeSize": [
+        352,
+        48
+      ],
+      "sha256": "4522263a4b151628dbce7959427f7af6a2ae2531764957f7930ba1befe9e1970"
+    }
+  ],
+  "placements": [
+    {
+      "id": "lounge-01-W",
+      "asset": "assets/divider-vertical-low-32x256.png",
+      "x": 64,
+      "y": 1056,
+      "collisionFootprintXYWH": [
+        64,
+        1056,
+        32,
+        256
+      ]
+    },
+    {
+      "id": "lounge-01-E",
+      "asset": "assets/divider-vertical-low-32x256.png",
+      "x": 448,
+      "y": 1056,
+      "collisionFootprintXYWH": [
+        448,
+        1056,
+        32,
+        256
+      ]
+    },
+    {
+      "id": "lounge-02-W",
+      "asset": "assets/divider-vertical-low-32x256.png",
+      "x": 608,
+      "y": 1056,
+      "collisionFootprintXYWH": [
+        608,
+        1056,
+        32,
+        256
+      ]
+    },
+    {
+      "id": "lounge-02-E",
+      "asset": "assets/divider-vertical-low-32x256.png",
+      "x": 864,
+      "y": 1056,
+      "collisionFootprintXYWH": [
+        864,
+        1056,
+        32,
+        256
+      ]
+    },
+    {
+      "id": "lounge-03-W",
+      "asset": "assets/divider-vertical-low-32x256.png",
+      "x": 1088,
+      "y": 1056,
+      "collisionFootprintXYWH": [
+        1088,
+        1056,
+        32,
+        256
+      ]
+    },
+    {
+      "id": "lounge-03-E",
+      "asset": "assets/divider-vertical-low-32x256.png",
+      "x": 1440,
+      "y": 1056,
+      "collisionFootprintXYWH": [
+        1440,
+        1056,
+        32,
+        256
+      ]
+    },
+    {
+      "id": "lounge-04-W",
+      "asset": "assets/divider-vertical-low-32x256.png",
+      "x": 64,
+      "y": 1440,
+      "collisionFootprintXYWH": [
+        64,
+        1440,
+        32,
+        256
+      ]
+    },
+    {
+      "id": "lounge-04-E",
+      "asset": "assets/divider-vertical-low-32x256.png",
+      "x": 448,
+      "y": 1440,
+      "collisionFootprintXYWH": [
+        448,
+        1440,
+        32,
+        256
+      ]
+    },
+    {
+      "id": "lounge-01-N",
+      "asset": "assets/divider-horizontal-low-352x48.png",
+      "x": 96,
+      "y": 1040,
+      "collisionFootprintXYWH": [
+        96,
+        1056,
+        352,
+        32
+      ]
+    },
+    {
+      "id": "lounge-02-N",
+      "asset": "assets/divider-lounge-02-south.png",
+      "x": 640,
+      "y": 1040,
+      "collisionFootprintXYWH": [
+        640,
+        1056,
+        224,
+        32
+      ]
+    },
+    {
+      "id": "lounge-03-N",
+      "asset": "assets/divider-lounge-03-south.png",
+      "x": 1120,
+      "y": 1040,
+      "collisionFootprintXYWH": [
+        1120,
+        1056,
+        320,
+        32
+      ]
+    },
+    {
+      "id": "lounge-04-S",
+      "asset": "assets/divider-horizontal-low-352x48.png",
+      "x": 96,
+      "y": 1648,
+      "collisionFootprintXYWH": [
+        96,
+        1664,
+        352,
+        32
+      ]
+    }
+  ],
+  "replaceExistingDecorationIDs": [
+    "lounge-01-planter",
+    "lounge-03-planter",
+    "lounge-04-planter",
+    "west-entry-edge"
+  ],
+  "openingIntent": "North-row bays fully open SOUTH. Lower-left bay fully open NORTH. These are low soft planted edges, not boxed room walls.",
+  "horizontalRegistration": "48px art sits16px north of the supplied32px collision base. All exact collision rectangles came from parent; parent integrates and tests.",
+  "verticalRegistration": "32\u00d7256 art lies within the exact supplied32\u00d7256 footprint. Originally generated overhead orientation; never flat-rotated from a horizontal sprite.",
+  "contextPreview": "Built from frozen art checkpoint positions, not a claim of final runtime registration, collisions, live depth or media."
+}

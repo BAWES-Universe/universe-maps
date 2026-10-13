@@ -1,0 +1,6 @@
+from pathlib import Path
+import json,wave,numpy as np,math,sys
+R=Path(__file__).resolve().parents[1]/'runtime/results';name=sys.argv[1] if len(sys.argv)>1 else 'bounded-gate-to-campus';d=json.loads((R/(name+'-verification.json')).read_text());s=d['gate']['report']['samples'];active=[x for x in s if x['audio'].get('gate') and x['audio'].get('scene')=='gate'];w=wave.open(str(R/(name+'.wav')));rate=w.getframerate();channels=w.getnchannels();v=np.frombuffer(w.readframes(w.getnframes()),np.int16).reshape(-1,channels).astype(float)/32768;start=(active[0]['time']-d['captureStartTime'])/1000;end=(active[-1]['time']-d['captureStartTime'])/1000;out=[]
+for label,a,b in [('quiet-center-approach',2,6),('gate-cue',start+.05,end-.05)]:
+ q=v[int(a*rate):int(b*rate)];rms=float(np.sqrt(np.mean(q*q)));out.append({'label':label,'startSeconds':a,'endSeconds':b,'rms':rms,'rmsDbFS':20*math.log10(rms) if rms else None,'peak':float(np.max(abs(q)))})
+result={'source':'Actual captured post-mute Opus track, decoded with aresample=async=1:first_pts=0; original WebM bytes/timestamps unchanged.','activeCueSamples':len(active),'correctGateScene':True,'segments':out,'cueEnergyPass':out[1]['rms']>0,'quietApproachPass':out[0]['rms']==0,'physicalPhoneTested':False};(R/(name+'-audio-energy.json')).write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))

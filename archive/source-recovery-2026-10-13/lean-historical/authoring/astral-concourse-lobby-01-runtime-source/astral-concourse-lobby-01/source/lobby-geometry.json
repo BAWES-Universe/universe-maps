@@ -1,0 +1,239 @@
+{
+  "world": [
+    1152,
+    896
+  ],
+  "tileSize": 32,
+  "bodyModel": {
+    "width": 16,
+    "height": 16,
+    "anchorToFoot": 16
+  },
+  "collisionOperations": [
+    {
+      "name": "main concourse floor",
+      "rect": [
+        96,
+        256,
+        960,
+        480
+      ],
+      "blocked": false
+    },
+    {
+      "name": "south arrival receiver",
+      "rect": [
+        512,
+        736,
+        128,
+        128
+      ],
+      "blocked": false
+    },
+    {
+      "name": "west social furniture and planted ledge",
+      "rect": [
+        192,
+        160,
+        192,
+        128
+      ],
+      "blocked": true
+    },
+    {
+      "name": "east social furniture and planted ledge",
+      "rect": [
+        768,
+        160,
+        192,
+        128
+      ],
+      "blocked": true
+    },
+    {
+      "name": "northwest inaccessible decorative edge",
+      "rect": [
+        96,
+        256,
+        96,
+        32
+      ],
+      "blocked": true
+    },
+    {
+      "name": "northeast inaccessible decorative edge",
+      "rect": [
+        960,
+        256,
+        96,
+        32
+      ],
+      "blocked": true
+    },
+    {
+      "name": "west portal and pillars",
+      "rect": [
+        64,
+        288,
+        160,
+        256
+      ],
+      "blocked": true
+    },
+    {
+      "name": "east portal and pillars",
+      "rect": [
+        928,
+        288,
+        160,
+        256
+      ],
+      "blocked": true
+    },
+    {
+      "name": "reception directory and desk",
+      "rect": [
+        224,
+        544,
+        256,
+        192
+      ],
+      "blocked": true
+    },
+    {
+      "name": "sample program board and planting",
+      "rect": [
+        704,
+        544,
+        224,
+        160
+      ],
+      "blocked": true
+    },
+    {
+      "name": "southwest palm pedestal and protected approach",
+      "rect": [
+        96,
+        544,
+        128,
+        192
+      ],
+      "blocked": true
+    },
+    {
+      "name": "southeast palm pedestal and protected approach",
+      "rect": [
+        928,
+        544,
+        128,
+        192
+      ],
+      "blocked": true
+    }
+  ],
+  "depthGeometry": [
+    {
+      "name": "north architecture",
+      "rect": [
+        32,
+        24,
+        1088,
+        264
+      ]
+    },
+    {
+      "name": "west wall and portal",
+      "rect": [
+        32,
+        64,
+        192,
+        736
+      ]
+    },
+    {
+      "name": "east wall and portal",
+      "rect": [
+        928,
+        64,
+        192,
+        736
+      ]
+    },
+    {
+      "name": "reception",
+      "rect": [
+        224,
+        544,
+        256,
+        192
+      ]
+    },
+    {
+      "name": "program",
+      "rect": [
+        704,
+        544,
+        224,
+        160
+      ]
+    },
+    {
+      "name": "southwest plants",
+      "rect": [
+        96,
+        576,
+        128,
+        160
+      ]
+    },
+    {
+      "name": "southeast plants",
+      "rect": [
+        928,
+        576,
+        128,
+        160
+      ]
+    },
+    {
+      "name": "southwest wall",
+      "rect": [
+        32,
+        736,
+        480,
+        96
+      ]
+    },
+    {
+      "name": "southeast wall",
+      "rect": [
+        640,
+        736,
+        480,
+        96
+      ]
+    },
+    {
+      "name": "south entry left pillar",
+      "rect": [
+        448,
+        736,
+        64,
+        128
+      ]
+    },
+    {
+      "name": "south entry right pillar",
+      "rect": [
+        640,
+        736,
+        64,
+        128
+      ]
+    }
+  ],
+  "headSafety": "Retain obstacle pixels above actors only where no body-clear placement can put any of the 12 native Woka upper14px head masks. Excluded original pixels remain below actors.",
+  "foregroundPixels": 607322,
+  "foregroundCandidatePixels": 640512,
+  "exactEmptySceneUnion": true
+}

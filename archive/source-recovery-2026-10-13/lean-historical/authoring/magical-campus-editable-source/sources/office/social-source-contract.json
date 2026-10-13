@@ -1,0 +1,44 @@
+{
+  "sourceCommit": "6accae707e5a26bc56231ef241c64b397a5cea70",
+  "sourceRoot": "/tmp/2d-guest-audit",
+  "files": [
+    {
+      "path": "/tmp/2d-guest-audit/back/src/Model/GameRoom.ts",
+      "sha256": "456ee987f76e15aa0c19c9b97eada36fcd860300729dcf7e78476b4b5e86d908"
+    },
+    {
+      "path": "/tmp/2d-guest-audit/back/src/Model/Group.ts",
+      "sha256": "fae9a3cf45f72614b00ce392ea36ff2307c0390a301554a1bad8dba9bec25397"
+    },
+    {
+      "path": "/tmp/2d-guest-audit/back/src/Enum/EnvironmentVariableValidator.ts",
+      "sha256": "8bb999d4fe843c546298c9c13b7f62fb38e5d1d99ab86189a57cb8e68173e395"
+    },
+    {
+      "path": "/tmp/2d-guest-audit/bots/behaviors/BaseBehavior.ts",
+      "sha256": "3b05075a0080ddb3d745d120b76efb186f082aff2e62a159b695ad733aef84f6"
+    },
+    {
+      "path": "/tmp/2d-guest-audit/bots/client/BotClient.ts",
+      "sha256": "658322924ea922c5cc2d471bbc8346789befdb0b50dda3be7d68ebfd9ecc73c2"
+    }
+  ],
+  "constants": {
+    "humanCaptureInclusive": 64,
+    "groupJoinCentroidInclusive": 48,
+    "groupNearbyStrict": 48,
+    "ordinaryPairPersistenceInclusive": 96,
+    "maxGroupDefault": 4,
+    "botAttentionInclusive": 80,
+    "alreadyEngagedBotLeaveStrictlyBeyond": 160
+  },
+  "scope": "Deterministic source-derived ordinary-user geometry/replay, not live multiplayer. No following/silent/locked users; defaults must match deployment.",
+  "sourceLines": {
+    "GameRoom": "343\u2013466 and508\u2013541",
+    "Group": "76\u2013151",
+    "EnvironmentVariableValidator": "13\u201318 and64\u201367",
+    "BaseBehavior": "314\u2013332",
+    "BotClient": "2806\u20132850; bot behavior can decline an offered proximity space"
+  },
+  "attentionIsNotBubble": "Bot attention tracking and joining the server proximity space are separate behaviors; the bot may decline the requested space."
+}

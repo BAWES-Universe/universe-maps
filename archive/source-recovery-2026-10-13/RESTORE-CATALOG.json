@@ -40,8 +40,13 @@
     "sha256": "727ae765785a26f9a6d17f635387c20e4fccef3726c7d8fa30cc63dd229e8dc1",
     "archives": 181,
     "members": 9018,
-    "includes_original12": true
+    "includes_original12": true,
+    "repository_index": "lean-historical/INDEX.json",
+    "repository_human_catalogue": "lean-historical/HISTORICAL-MAP-CATALOG.md",
+    "restore_adapter": "historical-restore/restore_historical.py",
+    "selected_unique_authoring_files": 823
   },
   "artifact_versions_must_match_hashes": true,
-  "signed_urls_or_credentials_embedded": false
+  "signed_urls_or_credentials_embedded": false,
+  "asset_storage_current": "Authenticated Library originals; GitHub release assets and R2 are not claimed available."
 }

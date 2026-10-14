@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./keepers-return.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "festival-lawn",
+      "name": "Festival gathering lawn",
+      "x": 544,
+      "y": 384,
+      "width": 447,
+      "height": 191,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "pavilion",
+      "name": "Open pavilion",
+      "x": 1184,
+      "y": 240,
+      "width": 159,
+      "height": 47,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N24-zone-1",
+      "name": "Sheltered specimen study",
+      "x": 176,
+      "y": 320,
+      "width": 208,
+      "height": 208,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N24-zone-2",
+      "name": "Open rock comparison",
+      "x": 544,
+      "y": 416,
+      "width": 432,
+      "height": 144,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

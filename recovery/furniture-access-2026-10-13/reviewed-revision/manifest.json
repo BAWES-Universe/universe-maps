@@ -1,0 +1,1795 @@
+{
+  "schema_version": 1,
+  "revision": "2026-10-13-furniture-access-r1",
+  "scope": "22 additive map revisions, original collection preserved; source and static-native-avatar verification only",
+  "maps": [
+    {
+      "id": "N44-r1-runtime",
+      "tmj": "N44-r1-runtime/autumn-amphitheatre.tmj",
+      "removed_collision_cells": 24,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "N43-r1-runtime",
+      "tmj": "N43-r1-runtime/glass-hall-conference-campus.tmj",
+      "removed_collision_cells": 18,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "N26-r1-runtime",
+      "tmj": "N26-r1-runtime/map32/map.tmj",
+      "removed_collision_cells": 4,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "N22-r1-runtime",
+      "tmj": "N22-r1-runtime/map32/map.tmj",
+      "removed_collision_cells": 2,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "N24-r4-runtime",
+      "tmj": "N24-r4-runtime/map32/map.tmj",
+      "removed_collision_cells": 7,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "N27-r3-runtime",
+      "tmj": "N27-r3-runtime/map32/map.tmj",
+      "removed_collision_cells": 4,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "N20-r3-runtime",
+      "tmj": "N20-r3-runtime/map32/map.tmj",
+      "removed_collision_cells": 4,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "N30-r2-runtime",
+      "tmj": "N30-r2-runtime/map32/map.tmj",
+      "removed_collision_cells": 4,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "N18-r3-runtime",
+      "tmj": "N18-r3-runtime/map32/map.tmj",
+      "removed_collision_cells": 4,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "N33-r1-runtime",
+      "tmj": "N33-r1-runtime/map32/map.tmj",
+      "removed_collision_cells": 4,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "flagship-glass-d-r02",
+      "tmj": "flagship-glass-d-r02/grand-auditorium.tmj",
+      "removed_collision_cells": 234,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "resonance-media-house-r7c-runtime",
+      "tmj": "resonance-media-house-r7c-runtime/resonance-media-house.tmj",
+      "removed_collision_cells": 9,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "lantern-congress-runtime",
+      "tmj": "lantern-congress-runtime/map32/conference.tmj",
+      "removed_collision_cells": 107,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "astral-flagship-a-v07",
+      "tmj": "astral-flagship-a-v07/map32/grand-auditorium.tmj",
+      "removed_collision_cells": 234,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "quiet-orbit-observatory-r4-runtime",
+      "tmj": "quiet-orbit-observatory-r4-runtime/map32/map.tmj",
+      "removed_collision_cells": 18,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "esports-arena-01-runtime",
+      "tmj": "esports-arena-01-runtime/esports-arena-01/map32/esports-arena.tmj",
+      "removed_collision_cells": 38,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "olive-academy-live-repair-r6-runtime",
+      "tmj": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj",
+      "removed_collision_cells": 18,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "astral-flagship-b-v08",
+      "tmj": "astral-flagship-b-v08/map32/grand-auditorium.tmj",
+      "removed_collision_cells": 234,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "Mission-Control-r4-runtime",
+      "tmj": "Mission-Control-r4-runtime/mission-control-center/map32/map.tmj",
+      "removed_collision_cells": 11,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "astral-flagship-c-v09",
+      "tmj": "astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "removed_collision_cells": 234,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "willow-furniture-r5-r05-runtime",
+      "tmj": "willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.tmj",
+      "removed_collision_cells": 32,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    },
+    {
+      "id": "art-deco-sales-atelier-r2b-runtime",
+      "tmj": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.tmj",
+      "removed_collision_cells": 38,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    }
+  ],
+  "files": [
+    {
+      "path": "flagship-glass-d-r02/interior-base-p5.png",
+      "bytes": 2545451,
+      "sha256": "cd3eeccb076ef0d01bfc98358fff3139f89951a7a5d0e60e0af8908f2e648dc1",
+      "git_blob_sha": "e6dcda0ec29003562cb7e75e3f273efc36195088",
+      "status": "unchanged-original",
+      "original_sha256": "cd3eeccb076ef0d01bfc98358fff3139f89951a7a5d0e60e0af8908f2e648dc1"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-base-p1.png",
+      "bytes": 1986656,
+      "sha256": "221e46659b0709e6f53fe7cc45a03b6092e2d233d52b854a867f7d6e2d9d19d1",
+      "git_blob_sha": "8c99fe4eccd88cc91cbb4c3ccf0592315e4fc9e3",
+      "status": "unchanged-original",
+      "original_sha256": "221e46659b0709e6f53fe7cc45a03b6092e2d233d52b854a867f7d6e2d9d19d1"
+    },
+    {
+      "path": "flagship-glass-d-r02/grand-auditorium.tmj",
+      "bytes": 1244548,
+      "sha256": "fde51d3348f85a64021db0fbb202ffbcfc1c2cada4f65428549d002c1bab49d3",
+      "git_blob_sha": "15db1939402730c038c01eae17d895e25f2883ca",
+      "status": "modified",
+      "original_sha256": "135665c51c1cb57f87d7c8b66d87d47a7db5b3d57e0da0be767c45054da1ee53"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-base-p6.png",
+      "bytes": 27303,
+      "sha256": "cbe4fcb5a362f47820d4ea2b1d11e1d5748d7ef4e8b063b21f99ad5c85473847",
+      "git_blob_sha": "d5adeb51d7a151a5115f3512e45e92dbbdd0fa75",
+      "status": "unchanged-original",
+      "original_sha256": "cbe4fcb5a362f47820d4ea2b1d11e1d5748d7ef4e8b063b21f99ad5c85473847"
+    },
+    {
+      "path": "flagship-glass-d-r02/grand-auditorium.wam",
+      "bytes": 3486,
+      "sha256": "d5fcbe0894c4fc6b6e03ecb89b0d5edd9536d42abddfeed9fd6bc89d0599bec7",
+      "git_blob_sha": "1fcef7909d845b6632f0274e28c2d89c4339a4a2",
+      "status": "unchanged-original",
+      "original_sha256": "d5fcbe0894c4fc6b6e03ecb89b0d5edd9536d42abddfeed9fd6bc89d0599bec7"
+    },
+    {
+      "path": "flagship-glass-d-r02/glass-permanent-p0.png",
+      "bytes": 46670,
+      "sha256": "04a6aff79428a6bed74ac2965019cb5701e859459f46b54a0bbe4f02d2d75191",
+      "git_blob_sha": "59076d0e8bd976aa604b3f7be77cec52ca26780f",
+      "status": "unchanged-original",
+      "original_sha256": "04a6aff79428a6bed74ac2965019cb5701e859459f46b54a0bbe4f02d2d75191"
+    },
+    {
+      "path": "flagship-glass-d-r02/glass-pane-over-actors-p0.png",
+      "bytes": 340,
+      "sha256": "ca9e97292b23c808483f9b459d04a04997b9fb9b7a9c5deb53eced1da8099190",
+      "git_blob_sha": "b34f792ed451f773d17fdf28b5991a3fda58f015",
+      "status": "unchanged-original",
+      "original_sha256": "ca9e97292b23c808483f9b459d04a04997b9fb9b7a9c5deb53eced1da8099190"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-base-p0.png",
+      "bytes": 2367694,
+      "sha256": "cefb3228c7b327007f08429548389d9415c0477cf02297af390c9f497399e8db",
+      "git_blob_sha": "6ce4a162dbaba47e80dc02cf551e95aaf9f2932f",
+      "status": "unchanged-original",
+      "original_sha256": "cefb3228c7b327007f08429548389d9415c0477cf02297af390c9f497399e8db"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-base-p2.png",
+      "bytes": 2008877,
+      "sha256": "aa71b75d67621fc0decf6c2063abaef6509cf491a835bcc576bab72eba4a9706",
+      "git_blob_sha": "3822504e9c61f0a0e52b96c8d3d4fa86fd0a106a",
+      "status": "unchanged-original",
+      "original_sha256": "aa71b75d67621fc0decf6c2063abaef6509cf491a835bcc576bab72eba4a9706"
+    },
+    {
+      "path": "flagship-glass-d-r02/v09-foyer-wings-art-p0.png",
+      "bytes": 40001,
+      "sha256": "db9e8f785c773c35bf986420cc53944e7c5ef31bf574260456560ee084f7920e",
+      "git_blob_sha": "f2978d928c13b882bbfccfd88bd9f274a0817ca5",
+      "status": "unchanged-original",
+      "original_sha256": "db9e8f785c773c35bf986420cc53944e7c5ef31bf574260456560ee084f7920e"
+    },
+    {
+      "path": "flagship-glass-d-r02/rear-chair-depth-corrections.png",
+      "bytes": 4807,
+      "sha256": "780042269517765b9a6ee8f314ee7930240d18e379f3ce6288c3b52c974536eb",
+      "git_blob_sha": "62f3af5ee8ad7e657df58607806920186359cebc",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-base-p4.png",
+      "bytes": 1869356,
+      "sha256": "eeddc50bee86b6956a286a656ab6b8b0bdd79244314a924b6ba0d52078235b28",
+      "git_blob_sha": "e649c8903ea4a165a376a8b52b6f9c5b92d53c22",
+      "status": "unchanged-original",
+      "original_sha256": "eeddc50bee86b6956a286a656ab6b8b0bdd79244314a924b6ba0d52078235b28"
+    },
+    {
+      "path": "flagship-glass-d-r02/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-above-p0.png",
+      "bytes": 18328,
+      "sha256": "3dbb1eeacf41a535a0bc4843e9cfffee424ddb64ed4ef1239a33601986d3df3d",
+      "git_blob_sha": "a1cd095838aff8b4914638dd0419b3fcb79a7a9b",
+      "status": "unchanged-original",
+      "original_sha256": "3dbb1eeacf41a535a0bc4843e9cfffee424ddb64ed4ef1239a33601986d3df3d"
+    },
+    {
+      "path": "flagship-glass-d-r02/v09-foyer-shadow-art-p0.png",
+      "bytes": 3187,
+      "sha256": "0d599c0aa62fd9f1bde5ec0a4784377577c4b2c72b3accee598175b2c3ed60b9",
+      "git_blob_sha": "4caf26d33ccd8305d3dc652e96840f373d741878",
+      "status": "unchanged-original",
+      "original_sha256": "0d599c0aa62fd9f1bde5ec0a4784377577c4b2c72b3accee598175b2c3ed60b9"
+    },
+    {
+      "path": "flagship-glass-d-r02/garden-accent.png",
+      "bytes": 5163,
+      "sha256": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646",
+      "git_blob_sha": "ac74764773e5730feb5f094f51a521e479e1c256",
+      "status": "unchanged-original",
+      "original_sha256": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646"
+    },
+    {
+      "path": "flagship-glass-d-r02/v09-foyer-front-art-p0.png",
+      "bytes": 266291,
+      "sha256": "6532e3c45a4e98a4cf181f925f1240921968c038f104385c3d89504d137066ab",
+      "git_blob_sha": "2d20de492f785fce61c8cf0e13c271690c7639ec",
+      "status": "unchanged-original",
+      "original_sha256": "6532e3c45a4e98a4cf181f925f1240921968c038f104385c3d89504d137066ab"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-base-p3.png",
+      "bytes": 1995430,
+      "sha256": "c941e3d4920891a423e8cbcb67eff34cf7ce4a4764a2155d09a5fc8e90b15b5e",
+      "git_blob_sha": "b42938148a454a45c284f3423557d34ad0ca6d52",
+      "status": "unchanged-original",
+      "original_sha256": "c941e3d4920891a423e8cbcb67eff34cf7ce4a4764a2155d09a5fc8e90b15b5e"
+    },
+    {
+      "path": "flagship-glass-d-r02/building-reveal.js",
+      "bytes": 3603,
+      "sha256": "a8f2f0a1258cbb2a36e219c4039c8968b35c4308ffa1354ad7af498ca413b263",
+      "git_blob_sha": "cd0ff1da14f300f27cd77c248d32d77aac844c77",
+      "status": "unchanged-original",
+      "original_sha256": "a8f2f0a1258cbb2a36e219c4039c8968b35c4308ffa1354ad7af498ca413b263"
+    },
+    {
+      "path": "flagship-glass-d-r02/collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+      "git_blob_sha": "51693a39ae4a8539f8b40385eb47e99ae6bf99c0",
+      "status": "unchanged-original",
+      "original_sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092"
+    },
+    {
+      "path": "N44-r1-runtime/foreground-0.png",
+      "bytes": 22654,
+      "sha256": "bc1144f4dddbd469d6e7816ea32518d6d83554d6401bc655740c808bb51b9642",
+      "git_blob_sha": "571349dae8134f97e023e8d35a0409bbb9bf4e4c",
+      "status": "unchanged-original",
+      "original_sha256": "bc1144f4dddbd469d6e7816ea32518d6d83554d6401bc655740c808bb51b9642"
+    },
+    {
+      "path": "N44-r1-runtime/autumn-amphitheatre.tmj",
+      "bytes": 96236,
+      "sha256": "d9738bfed28a12cd04a600676a8a5a1c86a81103efa75af6c6867d2539472c3a",
+      "git_blob_sha": "d0e2004b10c3a5e525abd9fef3e5a021ca7f3ecb",
+      "status": "modified",
+      "original_sha256": "16698fef74238d0024d7ec1bdf9aa0cdb1110d1dc2eabadcc816dce6e0a07f4f"
+    },
+    {
+      "path": "N44-r1-runtime/ground-and-objects-1.png",
+      "bytes": 1285371,
+      "sha256": "8ea3904476918659cf18a86f7e73cf7ad03e8145120fa71e5e7e8ddf64e4263d",
+      "git_blob_sha": "f7fc875b7f09a4dd155c192ab86a8fd96e59e1a4",
+      "status": "unchanged-original",
+      "original_sha256": "8ea3904476918659cf18a86f7e73cf7ad03e8145120fa71e5e7e8ddf64e4263d"
+    },
+    {
+      "path": "N44-r1-runtime/rear-chair-head-safe-depth.png",
+      "bytes": 5882,
+      "sha256": "7fd660982cd9dbd95fa765887f4d7c1ef85302958c4b4122a533e1aea3cce421",
+      "git_blob_sha": "e3a5fa2934b96edbcb1a05a5756bd149541315c2",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "N44-r1-runtime/autumn-amphitheatre.wam",
+      "bytes": 1280,
+      "sha256": "747c2030b5bacbfc9c8e699e6fa2298145f77c44ae0c9a18e870c570a3b42fce",
+      "git_blob_sha": "ebcc21a594cd6250a1c2e6942689fc4573899ab2",
+      "status": "unchanged-original",
+      "original_sha256": "747c2030b5bacbfc9c8e699e6fa2298145f77c44ae0c9a18e870c570a3b42fce"
+    },
+    {
+      "path": "N44-r1-runtime/ground-and-objects-0.png",
+      "bytes": 2446912,
+      "sha256": "92a773ef09d31b2deeb5ef5c141c151d5fea7ffd51bd37c502d289d68f27bd51",
+      "git_blob_sha": "dec271a0cc54da66b92c0a09bb04625275b94cd9",
+      "status": "unchanged-original",
+      "original_sha256": "92a773ef09d31b2deeb5ef5c141c151d5fea7ffd51bd37c502d289d68f27bd51"
+    },
+    {
+      "path": "N44-r1-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "N43-r1-runtime/foreground-0.png",
+      "bytes": 10968,
+      "sha256": "f1b94f3b5f41907120a7cc0725a096f41d7f24202a21e45b47d0de26a41b29b9",
+      "git_blob_sha": "205c3cc15d55f47929f280ff9fc379725265316c",
+      "status": "unchanged-original",
+      "original_sha256": "f1b94f3b5f41907120a7cc0725a096f41d7f24202a21e45b47d0de26a41b29b9"
+    },
+    {
+      "path": "N43-r1-runtime/glass-hall-conference-campus.wam",
+      "bytes": 1361,
+      "sha256": "5603310a506de241620ecb97f7912d4fcd43fb0b12401959b28527852fab6c73",
+      "git_blob_sha": "5d72377c44be9a271a0cdf7125f7c70fb7eccb40",
+      "status": "unchanged-original",
+      "original_sha256": "5603310a506de241620ecb97f7912d4fcd43fb0b12401959b28527852fab6c73"
+    },
+    {
+      "path": "N43-r1-runtime/glass-hall-conference-campus.tmj",
+      "bytes": 96128,
+      "sha256": "66ec684ac61db42dc530f2a092014330de10490ca0788f50cbd58c07c004ac2b",
+      "git_blob_sha": "b48451368cbdb9db1e4fb9aee97b021ba9ef8ed6",
+      "status": "modified",
+      "original_sha256": "48886ff4aa1541910a61a26c6636474c1fe468a414c8d11aaacbf41472608dba"
+    },
+    {
+      "path": "N43-r1-runtime/ground-and-objects-1.png",
+      "bytes": 1194019,
+      "sha256": "69d09497fd881fbb5ab402158d1d25837af6aca40a6cb992235912e37727dcfa",
+      "git_blob_sha": "7d8dc6aa1d925252ce0ed18ca5bb4543eb8dc8ac",
+      "status": "unchanged-original",
+      "original_sha256": "69d09497fd881fbb5ab402158d1d25837af6aca40a6cb992235912e37727dcfa"
+    },
+    {
+      "path": "N43-r1-runtime/rear-chair-head-safe-depth.png",
+      "bytes": 4853,
+      "sha256": "3e5e04788321044faf2017be12afb19774919ccdcba61dfca10522ad0bb6851e",
+      "git_blob_sha": "e8b76e14c9e65c024df7b53d46e3aecde01874f5",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "N43-r1-runtime/ground-and-objects-0.png",
+      "bytes": 2167958,
+      "sha256": "b324353bb7ef4f2653dfe9cf765bf9ca4929a3f0ef9db37535dfe1fdee0e8f12",
+      "git_blob_sha": "ae8299b38e14714a111d80f5244914369c6cf474",
+      "status": "unchanged-original",
+      "original_sha256": "b324353bb7ef4f2653dfe9cf765bf9ca4929a3f0ef9db37535dfe1fdee0e8f12"
+    },
+    {
+      "path": "N43-r1-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "resonance-media-house-r7c-runtime/foreground-0.png",
+      "bytes": 1196,
+      "sha256": "35fea5eaceccaed9adfc401503875b620abb59b79eef9da83e707ebb3a56e163",
+      "git_blob_sha": "9eb1d009ae4e505c80dbc017dfe7a7d9bcb88a37",
+      "status": "unchanged-original",
+      "original_sha256": "35fea5eaceccaed9adfc401503875b620abb59b79eef9da83e707ebb3a56e163"
+    },
+    {
+      "path": "resonance-media-house-r7c-runtime/resonance-media-house.wam",
+      "bytes": 1207,
+      "sha256": "61b1c799212a08d024c8cf03d46d76dc74c91a20acd8783098b749f065e47eb5",
+      "git_blob_sha": "6b48b16ba5593bd83dc205e8255def034fb89a72",
+      "status": "unchanged-original",
+      "original_sha256": "61b1c799212a08d024c8cf03d46d76dc74c91a20acd8783098b749f065e47eb5"
+    },
+    {
+      "path": "resonance-media-house-r7c-runtime/rear-chair-depth-corrections.png",
+      "bytes": 1856,
+      "sha256": "9bc806f11933721a0551387eb7ced1c0c868d7c6fef96e80369b204368b9a90b",
+      "git_blob_sha": "2767090c00eb74347ea703bf6b60833095302dc6",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "resonance-media-house-r7c-runtime/ground-and-objects-0.png",
+      "bytes": 1844066,
+      "sha256": "1447b84d2650ae5096779e117979b7f215fb113fa00b19d58a723bdc803624ee",
+      "git_blob_sha": "379ff0425f94149cab9c87cf16b04044dbdaf1e3",
+      "status": "unchanged-original",
+      "original_sha256": "1447b84d2650ae5096779e117979b7f215fb113fa00b19d58a723bdc803624ee"
+    },
+    {
+      "path": "resonance-media-house-r7c-runtime/resonance-media-house.tmj",
+      "bytes": 59632,
+      "sha256": "0496985cfc841b591814807d8a00d06705308b3bfb6b985de913b943269b0749",
+      "git_blob_sha": "efd9e1ebd99ff3e72c6ad0934e031c8d429da859",
+      "status": "modified",
+      "original_sha256": "b2999caf485804debc977aaa385975d001caafe0bec357d6e63dd565dd8fccc3"
+    },
+    {
+      "path": "resonance-media-house-r7c-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/conference.wam",
+      "bytes": 3466,
+      "sha256": "cdbab04682978c8aa6979daddeb5545504dea93db3c4327ebb0081638d7958bb",
+      "git_blob_sha": "f315d98825be9fdfe398148625d58d71c012116c",
+      "status": "unchanged-original",
+      "original_sha256": "cdbab04682978c8aa6979daddeb5545504dea93db3c4327ebb0081638d7958bb"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/seat-backs-0.png",
+      "bytes": 2847,
+      "sha256": "f06d02ac6dc3279d8bd83cf5a7771a96926a89ba4622fc0c056511ef93a75307",
+      "git_blob_sha": "9632104fff70fe0f70644ca6d6f99b22e01e52cc",
+      "status": "unchanged-original",
+      "original_sha256": "f06d02ac6dc3279d8bd83cf5a7771a96926a89ba4622fc0c056511ef93a75307"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/conference.tmj",
+      "bytes": 363955,
+      "sha256": "701d56898f6828ecf25170c93be77ff3f7fe79743487137f97e6d327e2ec1295",
+      "git_blob_sha": "5855a87213ad913f8741d8a15de5f7fc543091f5",
+      "status": "modified",
+      "original_sha256": "a1a3040a45384ae3380b90f479c327c35c5301e7e71a695c5a5f5fe628c84005"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/architecture-furniture-3.png",
+      "bytes": 619685,
+      "sha256": "9e939ed73b6f62cf36e80b0f5183d63e2db56f7a1936267f3ed0433551b67db6",
+      "git_blob_sha": "1a61dc41a6980f2361b836fc3ed928eee064ea15",
+      "status": "unchanged-original",
+      "original_sha256": "9e939ed73b6f62cf36e80b0f5183d63e2db56f7a1936267f3ed0433551b67db6"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/architecture-furniture-1.png",
+      "bytes": 1202101,
+      "sha256": "ebe43a43cb3c5e0d54ed5d979414dce084e60bdbb766d6b48ed0112232237f6c",
+      "git_blob_sha": "e86d7fe9cecb9088a946658b923f972d397365db",
+      "status": "unchanged-original",
+      "original_sha256": "ebe43a43cb3c5e0d54ed5d979414dce084e60bdbb766d6b48ed0112232237f6c"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/rear-chair-depth-corrections.png",
+      "bytes": 24288,
+      "sha256": "6d306cf3332dcca9bac64181de657458b067f3f83fb9bbd1370cb8779f209174",
+      "git_blob_sha": "b3e60e65635cc6f5369ee179162422b8b348560b",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "lantern-congress-runtime/map32/collision.png",
+      "bytes": 104,
+      "sha256": "ce75997479da8e0c9f1239e8e04ff1e4758a1af985d2540f78585ed848132cde",
+      "git_blob_sha": "8a9e961d6b80743fc015a0fa958ca72542c75538",
+      "status": "unchanged-original",
+      "original_sha256": "ce75997479da8e0c9f1239e8e04ff1e4758a1af985d2540f78585ed848132cde"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/architecture-furniture-0.png",
+      "bytes": 1321484,
+      "sha256": "98d917a0b7ab59d35bbb0d84552e018b0df0824ed3767c4d29c3a4910c86e51a",
+      "git_blob_sha": "c058b1e5769cc6a9d17828d69cc7e7487a89b6fc",
+      "status": "unchanged-original",
+      "original_sha256": "98d917a0b7ab59d35bbb0d84552e018b0df0824ed3767c4d29c3a4910c86e51a"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/quiet.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/architecture-furniture-2.png",
+      "bytes": 1180566,
+      "sha256": "101d362b8e52ca3c2e36fc95db8a715d9ad33358e4a04c1d8f398a7316b003b5",
+      "git_blob_sha": "74f419f8b97780aa1e9b9ce4a2e90741f3d7db1a",
+      "status": "unchanged-original",
+      "original_sha256": "101d362b8e52ca3c2e36fc95db8a715d9ad33358e4a04c1d8f398a7316b003b5"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/grand-auditorium.tmj",
+      "bytes": 293381,
+      "sha256": "dfe7b932ecf08b9d4ed07874da798f53d36486b4071399a9f2fd31058816e190",
+      "git_blob_sha": "611dbd70db7bcced06eca7b4e9483692de5b64da",
+      "status": "modified",
+      "original_sha256": "50c07de93567b15d7b5170bca02a4fe2b43dd5865fe02f6b90d06605947e2b85"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/hall-base-p1.png",
+      "bytes": 1831994,
+      "sha256": "50c3d1ee13b5ebb187704a51c2ed7203e1be5d8bdcefbd04ff978af296630dcb",
+      "git_blob_sha": "aa703d5caa63fafaec305fc13e7c1b9642437498",
+      "status": "unchanged-original",
+      "original_sha256": "50c3d1ee13b5ebb187704a51c2ed7203e1be5d8bdcefbd04ff978af296630dcb"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/grand-auditorium.wam",
+      "bytes": 3484,
+      "sha256": "2504f5871750964aa6972f88bb4071ccbca73aa74847d84398637d18838954c2",
+      "git_blob_sha": "5ab9cac312c9ee97d46d42ec644539e55de6b90d",
+      "status": "unchanged-original",
+      "original_sha256": "2504f5871750964aa6972f88bb4071ccbca73aa74847d84398637d18838954c2"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/hall-base-p3.png",
+      "bytes": 947391,
+      "sha256": "2eb8f81ad313523b55345b417a358a6f359da83beb2e9e0b3ce9ea19c5754418",
+      "git_blob_sha": "96afb20562890f514e3f0314d1bab101c0e4e682",
+      "status": "unchanged-original",
+      "original_sha256": "2eb8f81ad313523b55345b417a358a6f359da83beb2e9e0b3ce9ea19c5754418"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/hall-base-p2.png",
+      "bytes": 1845505,
+      "sha256": "14babc84f04dd17938bddceb818c7dc1fc8b584a0917d342210a9640aee4983c",
+      "git_blob_sha": "1385c660fb5c77fa2cfe99ac9e34ac2ee3629d81",
+      "status": "unchanged-original",
+      "original_sha256": "14babc84f04dd17938bddceb818c7dc1fc8b584a0917d342210a9640aee4983c"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/rear-chair-depth-corrections.png",
+      "bytes": 5731,
+      "sha256": "839c34ee4868a017a3054c3030072734e78bbde5741a19abd202768929eeb53f",
+      "git_blob_sha": "5a7ed690b1154e40418537f193b0aec17d4bda3a",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/hall-above-p0.png",
+      "bytes": 19102,
+      "sha256": "b10b49e46d59134fab6832752c2a0fa5c02781a9bd0a43cf9a5f2ea1dc9746d9",
+      "git_blob_sha": "1a5698bc4b6f2685a4b6d6fd160ea2edacd3f8f3",
+      "status": "unchanged-original",
+      "original_sha256": "b10b49e46d59134fab6832752c2a0fa5c02781a9bd0a43cf9a5f2ea1dc9746d9"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/hall-base-p0.png",
+      "bytes": 1932511,
+      "sha256": "ce1fbdf68e384952fb99b1705a3420a93e63e6be8bd078b607e069e2598cbaca",
+      "git_blob_sha": "a4b392a78ef3bac255266a5904c225bba64ab57a",
+      "status": "unchanged-original",
+      "original_sha256": "ce1fbdf68e384952fb99b1705a3420a93e63e6be8bd078b607e069e2598cbaca"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+      "git_blob_sha": "51693a39ae4a8539f8b40385eb47e99ae6bf99c0",
+      "status": "unchanged-original",
+      "original_sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/seat-backs-0.png",
+      "bytes": 52251,
+      "sha256": "0d3c8245fb7628c7057651c936930f6453d05f08f8492686cae2c44cb40e4925",
+      "git_blob_sha": "2f3b1a1abf181625ff8ef19a2bb634f1613d6303",
+      "status": "unchanged-original",
+      "original_sha256": "0d3c8245fb7628c7057651c936930f6453d05f08f8492686cae2c44cb40e4925"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/architecture-and-furniture-1.png",
+      "bytes": 1972454,
+      "sha256": "7d4dc6c6194570efac02b7792ef43869df695cd41d3d531f11220869b74d634c",
+      "git_blob_sha": "b41b28be579ed7e2e5cf67272b41bbca9c84cfb5",
+      "status": "unchanged-original",
+      "original_sha256": "7d4dc6c6194570efac02b7792ef43869df695cd41d3d531f11220869b74d634c"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/architecture-and-furniture-2.png",
+      "bytes": 143349,
+      "sha256": "227d39f45f8ee1e9f0710ea56aeba5b65d39bb2069981209eb3a979fdc699bd6",
+      "git_blob_sha": "34d027695904bb10b9f3a9528476bfdbe3cfe147",
+      "status": "unchanged-original",
+      "original_sha256": "227d39f45f8ee1e9f0710ea56aeba5b65d39bb2069981209eb3a979fdc699bd6"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/map.wam",
+      "bytes": 929,
+      "sha256": "fb704aa1e374899c640f33b89a6c78be33566559c59301a56523b9331b6d9c20",
+      "git_blob_sha": "fb7134f9f781008497ba3a75625d216663f10e9d",
+      "status": "unchanged-original",
+      "original_sha256": "fb704aa1e374899c640f33b89a6c78be33566559c59301a56523b9331b6d9c20"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/map.tmj",
+      "bytes": 132207,
+      "sha256": "511fdca2f78c7f91d0e97a10d01bfabb86651b20b01263f658b33ff29f26944e",
+      "git_blob_sha": "1f8888f2a069c021141dd3f94e975f554a7df961",
+      "status": "modified",
+      "original_sha256": "64e5144453b49830e9d46eb3b2d2e2be5fa819411fdae39634221cf6e5c60ee0"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/rear-chair-depth-corrections.png",
+      "bytes": 3166,
+      "sha256": "87ce454d3b7a69d11fd7cf46c59d5e9a88668a8128c1a97db9b38c763543e5f6",
+      "git_blob_sha": "9ab24dad6aa69ba72a4b98fd543df51f7d1b70c6",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/architecture-and-furniture-0.png",
+      "bytes": 1995250,
+      "sha256": "f8d1a3cf3b7630d62cd8ee359edd17899e2ffc843440fa15d8b26759f48939b3",
+      "git_blob_sha": "cacac6a952ed9f96eda9725c6164dd39a5409679",
+      "status": "unchanged-original",
+      "original_sha256": "f8d1a3cf3b7630d62cd8ee359edd17899e2ffc843440fa15d8b26759f48939b3"
+    },
+    {
+      "path": "N26-r1-runtime/map32/foreground-0.png",
+      "bytes": 933,
+      "sha256": "bddaff613f3f0465256f628357fa6aeffdaab6339bf58e8c21a2410bdce6a2f7",
+      "git_blob_sha": "7807c2650b6d354f00f62b9da1f3d4b7110c72aa",
+      "status": "unchanged-original",
+      "original_sha256": "bddaff613f3f0465256f628357fa6aeffdaab6339bf58e8c21a2410bdce6a2f7"
+    },
+    {
+      "path": "N26-r1-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "N26-r1-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1112076,
+      "sha256": "1594c6328b06725ef69e6b0e3dbbb631d9b7e81dcbf501c5f0f40171337eb303",
+      "git_blob_sha": "bf8d9e8e4af1c76fcf38a28760c42e327e8f74a6",
+      "status": "unchanged-original",
+      "original_sha256": "1594c6328b06725ef69e6b0e3dbbb631d9b7e81dcbf501c5f0f40171337eb303"
+    },
+    {
+      "path": "N26-r1-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 1966422,
+      "sha256": "fb72d4e1bdfc5d90ff5f58c43652fad467cae3976bcf57a06f9b5585db121563",
+      "git_blob_sha": "0ba5b4fd2526bf2a6cb810627c060dbf5712151f",
+      "status": "unchanged-original",
+      "original_sha256": "fb72d4e1bdfc5d90ff5f58c43652fad467cae3976bcf57a06f9b5585db121563"
+    },
+    {
+      "path": "N26-r1-runtime/map32/map.wam",
+      "bytes": 878,
+      "sha256": "1ef65c2543f6c99c2ebca7815ea8326d2e6bf3e8f5641d6cf9168ebbe428be3b",
+      "git_blob_sha": "0dc31763de2ad48de8d9bdf5e2aaa641253f7cf7",
+      "status": "unchanged-original",
+      "original_sha256": "1ef65c2543f6c99c2ebca7815ea8326d2e6bf3e8f5641d6cf9168ebbe428be3b"
+    },
+    {
+      "path": "N26-r1-runtime/map32/map.tmj",
+      "bytes": 95730,
+      "sha256": "d38d3383504a12178b298bfe6e5522463537ee097de963fd8f9dc6f1ebc46ee5",
+      "git_blob_sha": "58aa74a224509422a923270fff6ffd500179329c",
+      "status": "modified",
+      "original_sha256": "116323ca8344b34a43186865e0470820ebe52816c4f49437cf9006779aa67050"
+    },
+    {
+      "path": "N26-r1-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1029,
+      "sha256": "9565b645aa51cb0bfdd1a80451d11ca05c70669eabbfbcab77925a056d9c1a0f",
+      "git_blob_sha": "2073ff617e29455cee3cca56cf6b57a14b9a4175",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/foreground-0.png",
+      "bytes": 12710,
+      "sha256": "86e67d89be763a0a6b30404d2b3c367f875c5458904d7b55055633fa19dd8f50",
+      "git_blob_sha": "77202c53484d06399725bb098e18219df7f534ae",
+      "status": "unchanged-original",
+      "original_sha256": "86e67d89be763a0a6b30404d2b3c367f875c5458904d7b55055633fa19dd8f50"
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/scoped-foreground.png",
+      "bytes": 3084,
+      "sha256": "db46abc39831eb337673c81ba1534a914d4be60f030dfa3e6f702db62afe237c",
+      "git_blob_sha": "544c93cff747a146441e3c2c6b89bae93175f21a",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/ground-and-objects-1.png",
+      "bytes": 1872702,
+      "sha256": "c64aecb40706864c2eaec0db180e494f345f77c3978bc8e790ce8f2fe6cb0f92",
+      "git_blob_sha": "b56b2d5949bc8442ee0a68ad1fa838a54cadec5e",
+      "status": "unchanged-original",
+      "original_sha256": "c64aecb40706864c2eaec0db180e494f345f77c3978bc8e790ce8f2fe6cb0f92"
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/scoped-chair-transfer.png",
+      "bytes": 10213,
+      "sha256": "a9287c1725a9363edae737a2a7467e65696f09aa6ed6fa3f61e7b2a483117958",
+      "git_blob_sha": "7c2b2696cfcedd0f107308827e51a7bc2fbfd338",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/ground-and-objects-0.png",
+      "bytes": 2488099,
+      "sha256": "de51eea8b7cea25d0d331fc7499b928ccd9f51740c1bbee225db761e6c233eac",
+      "git_blob_sha": "fff65eba103abd9493915894a57d7d04c26fc5ed",
+      "status": "unchanged-original",
+      "original_sha256": "de51eea8b7cea25d0d331fc7499b928ccd9f51740c1bbee225db761e6c233eac"
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.tmj",
+      "bytes": 113771,
+      "sha256": "fe6978f502b3f9360fcd786ab80f1a1554ddfbc4c569f616356ba7e10d0400a4",
+      "git_blob_sha": "f3b3fa99ff71e963a6daf5139762e14a9329e0d7",
+      "status": "modified",
+      "original_sha256": "de651bdc163a7f6356c8118c8772a95471e1de5a8a7a61ad8b1469ab853a7e3c"
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.wam",
+      "bytes": 1060,
+      "sha256": "537d5b182a20bd357be5d1f242f41a2355d039632670ca12295e2669d57225aa",
+      "git_blob_sha": "29ae0dffd289597bcadbdb6eacca76c7ea269393",
+      "status": "unchanged-original",
+      "original_sha256": "537d5b182a20bd357be5d1f242f41a2355d039632670ca12295e2669d57225aa"
+    },
+    {
+      "path": "N22-r1-runtime/map32/foreground-0.png",
+      "bytes": 49642,
+      "sha256": "5b263e397b29f13b7424bcde44187deaeae51565c51e53279621788062eb13a6",
+      "git_blob_sha": "e158b5da33894c4ee84de2365a26f7db8c63fdd5",
+      "status": "unchanged-original",
+      "original_sha256": "5b263e397b29f13b7424bcde44187deaeae51565c51e53279621788062eb13a6"
+    },
+    {
+      "path": "N22-r1-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "N22-r1-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1462663,
+      "sha256": "4d1a144386d552301209b30fb7926c0589d0855a1df5e2f69dff644fc2fc7ac6",
+      "git_blob_sha": "f4b83e3816ddfd8d6db4f316ae58d0d8c0e01cdc",
+      "status": "unchanged-original",
+      "original_sha256": "4d1a144386d552301209b30fb7926c0589d0855a1df5e2f69dff644fc2fc7ac6"
+    },
+    {
+      "path": "N22-r1-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2692573,
+      "sha256": "7a132c700a9da7a7fa255adef2fba14d8a8cea4a7199cfb59e01ae258a6f045a",
+      "git_blob_sha": "ff3389f1d4123f48dbbb7ada54239d6f06d82a40",
+      "status": "unchanged-original",
+      "original_sha256": "7a132c700a9da7a7fa255adef2fba14d8a8cea4a7199cfb59e01ae258a6f045a"
+    },
+    {
+      "path": "N22-r1-runtime/map32/map.wam",
+      "bytes": 511,
+      "sha256": "59c9f0092a7f8a24b884eb4449c2a15be39a3df41ec12f2159924ae4b9b4ebde",
+      "git_blob_sha": "effdb90c4ae91eef2917aef43ad75b44c74b5582",
+      "status": "unchanged-original",
+      "original_sha256": "59c9f0092a7f8a24b884eb4449c2a15be39a3df41ec12f2159924ae4b9b4ebde"
+    },
+    {
+      "path": "N22-r1-runtime/map32/map.tmj",
+      "bytes": 96376,
+      "sha256": "9061239f95cd41c495fcb1dba4dd3487bf718bf2b65bef6f46d4629ca41e3ef5",
+      "git_blob_sha": "dbfe0aa7e60ad99fa4ca1e5f26fe259fc7cf40ed",
+      "status": "modified",
+      "original_sha256": "b7ccfe465862fc65f698dee37c6bd203a33c144f29e0ae4150eea700e58be759"
+    },
+    {
+      "path": "N22-r1-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1125,
+      "sha256": "73d96e540b9a4502da200f1421ee4651b9cde63157b1dbf9b49291c62b5b0ee4",
+      "git_blob_sha": "07b22ca9d464e555110f038c9c6de9b9cee18055",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "N24-r4-runtime/map32/foreground-0.png",
+      "bytes": 2788,
+      "sha256": "b2b789cdb2599bd6c126e25b4bfdf735a3e45c1ac269956c1ef8b594fb213e1f",
+      "git_blob_sha": "830421265937a116839012affd28432aaead4a42",
+      "status": "unchanged-original",
+      "original_sha256": "b2b789cdb2599bd6c126e25b4bfdf735a3e45c1ac269956c1ef8b594fb213e1f"
+    },
+    {
+      "path": "N24-r4-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "N24-r4-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1309147,
+      "sha256": "89b954348470a309965c4198e88d0037987a4aa4bf902a52644c1cfd9969cd43",
+      "git_blob_sha": "37c47013463e0ae9dc0e5297582698b097d9aa79",
+      "status": "unchanged-original",
+      "original_sha256": "89b954348470a309965c4198e88d0037987a4aa4bf902a52644c1cfd9969cd43"
+    },
+    {
+      "path": "N24-r4-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2627466,
+      "sha256": "931b97643ec1a231c4b13a8c0cedc750d9b4ce762f1fa15f5163ca7058d4e3e7",
+      "git_blob_sha": "9d884a9aaf6b6c5f104203c6f6aa28ac19b159a5",
+      "status": "unchanged-original",
+      "original_sha256": "931b97643ec1a231c4b13a8c0cedc750d9b4ce762f1fa15f5163ca7058d4e3e7"
+    },
+    {
+      "path": "N24-r4-runtime/map32/map.wam",
+      "bytes": 508,
+      "sha256": "da1a341e743b66700a3a2bc948493e695cabd63fbf97fc816d1a07ff72d13000",
+      "git_blob_sha": "3e33175376dc3f00fbd8b0f74627ecda57987ef1",
+      "status": "unchanged-original",
+      "original_sha256": "da1a341e743b66700a3a2bc948493e695cabd63fbf97fc816d1a07ff72d13000"
+    },
+    {
+      "path": "N24-r4-runtime/map32/map.tmj",
+      "bytes": 96585,
+      "sha256": "aa7d283bb64089391c87a8775ba3b6e5f3979e218c2cc5e703d77fe08fa71b51",
+      "git_blob_sha": "b8ba6b936bb0c5b9fa53f1d3334d4879d4f400c4",
+      "status": "modified",
+      "original_sha256": "979cda465a06dd54f9e211ae1006abb8036b6d641cc2d62e2df47b8e9420fa36"
+    },
+    {
+      "path": "N24-r4-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 3111,
+      "sha256": "4a3c5a993c4af6b251cdada80d1ffa47e85c59595c221ad18b593d755a1d9d93",
+      "git_blob_sha": "5f2a2cb8fdb58bfbb9019c0358b31d42bfa427fc",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "esports-arena-01-runtime/esports-arena-01/map32/esports-arena.tmj",
+      "bytes": 175497,
+      "sha256": "136587a8d2fc3666dede5c7eb5f032f7577989ea57ab972d2bb9eebfbbf24923",
+      "git_blob_sha": "f3fbd57196e832c0712adf697f66a2aefe039a34",
+      "status": "modified",
+      "original_sha256": "b72cc096702debb18bd56bf19eeb012e197ce9b03c3b03a4a399244a0cd7ec89"
+    },
+    {
+      "path": "esports-arena-01-runtime/esports-arena-01/map32/runtime-base-p0.png",
+      "bytes": 917021,
+      "sha256": "e6f9c92a3546e623bafb38a1907266461eef99d2912426fc1006a37f6edc7fcd",
+      "git_blob_sha": "20f3a218b2e2af7a889faa58134e7838135daf29",
+      "status": "unchanged-original",
+      "original_sha256": "e6f9c92a3546e623bafb38a1907266461eef99d2912426fc1006a37f6edc7fcd"
+    },
+    {
+      "path": "esports-arena-01-runtime/esports-arena-01/map32/runtime-above-p0.png",
+      "bytes": 163571,
+      "sha256": "8d6f3e2d88fb7aab3c8b9a6eee33280f07c15d9a5d707efbd22fc96311079ad2",
+      "git_blob_sha": "c88922d40a37f0acf04212d1263367588a06e457",
+      "status": "unchanged-original",
+      "original_sha256": "8d6f3e2d88fb7aab3c8b9a6eee33280f07c15d9a5d707efbd22fc96311079ad2"
+    },
+    {
+      "path": "esports-arena-01-runtime/esports-arena-01/map32/rear-chair-depth-corrections.png",
+      "bytes": 8090,
+      "sha256": "cac76d4c4e65970a4c99758cf19c42973db3722bd58ae1e1b1e61cb7507787f2",
+      "git_blob_sha": "7d1b29f661eede4dfed37a890c79c671e394d171",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "esports-arena-01-runtime/esports-arena-01/map32/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "esports-arena-01-runtime/esports-arena-01/map32/esports-arena.wam",
+      "bytes": 2226,
+      "sha256": "6355c478fb3ed26a5b2d7aa7991da000a6b834f896c02896f2b378226e3cc904",
+      "git_blob_sha": "d6bf55ba36fd31d249138c26331ea99b864127ad",
+      "status": "unchanged-original",
+      "original_sha256": "6355c478fb3ed26a5b2d7aa7991da000a6b834f896c02896f2b378226e3cc904"
+    },
+    {
+      "path": "esports-arena-01-runtime/esports-arena-01/map32/collision-cell.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "N27-r3-runtime/map32/foreground-0.png",
+      "bytes": 969,
+      "sha256": "0effc08eaf4b2356669d1263b5f3e66a711e426f18ebc78d81d09e623491ce6d",
+      "git_blob_sha": "fbdb26afcceb917c758f267deb83d913b3ae10f5",
+      "status": "unchanged-original",
+      "original_sha256": "0effc08eaf4b2356669d1263b5f3e66a711e426f18ebc78d81d09e623491ce6d"
+    },
+    {
+      "path": "N27-r3-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "N27-r3-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1013198,
+      "sha256": "2cd6d0129bb05bc1816c77503a667511faade52770675a26c5f3a6d4a07e7eae",
+      "git_blob_sha": "23d841e5003fe4c3abfd90d171ce0c944292cb54",
+      "status": "unchanged-original",
+      "original_sha256": "2cd6d0129bb05bc1816c77503a667511faade52770675a26c5f3a6d4a07e7eae"
+    },
+    {
+      "path": "N27-r3-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 1949755,
+      "sha256": "936f92dae9d07e26a883eaee001aee62b1e21a83d6545923b5fc33c20077422a",
+      "git_blob_sha": "af10a23b894911e660288065d4fd732625bfa556",
+      "status": "unchanged-original",
+      "original_sha256": "936f92dae9d07e26a883eaee001aee62b1e21a83d6545923b5fc33c20077422a"
+    },
+    {
+      "path": "N27-r3-runtime/map32/map.wam",
+      "bytes": 906,
+      "sha256": "fb0c813e080e2140f99de18d84b48450564f997952452d1acc30c6087452bf23",
+      "git_blob_sha": "264f9e35403344a8fb0ec688e2297741ddbd08f0",
+      "status": "unchanged-original",
+      "original_sha256": "fb0c813e080e2140f99de18d84b48450564f997952452d1acc30c6087452bf23"
+    },
+    {
+      "path": "N27-r3-runtime/map32/map.tmj",
+      "bytes": 95891,
+      "sha256": "9430a419e457eca6b90e5c400d45ee6f52743eef28472a212234a424b7e8ab87",
+      "git_blob_sha": "69e584471dc2699a08a433dda2fd265586349dab",
+      "status": "modified",
+      "original_sha256": "648f25259baee7520d49290ddfbff8933d7767049d92e1da08ff52300fe86557"
+    },
+    {
+      "path": "N27-r3-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1207,
+      "sha256": "47546cc859695fec27344cb11a0c2036b7dac065bc1186c6281ab23c857b3e03",
+      "git_blob_sha": "ff0a28e781209b7d3e9c58ecf447006531bf5418",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/seat-backs-0.png",
+      "bytes": 101205,
+      "sha256": "26a2ecb726c552c06c312de8ed7a1abb3ab1e647156ddf735316af1ed250abaa",
+      "git_blob_sha": "301634d0b22646683e0aeb90f77a5ea4054a911c",
+      "status": "unchanged-original",
+      "original_sha256": "26a2ecb726c552c06c312de8ed7a1abb3ab1e647156ddf735316af1ed250abaa"
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/north-context.png",
+      "bytes": 744154,
+      "sha256": "a1d731ad99964859c16409f8bba3cb9ab193ce05412f148bfe16930f9f5c8570",
+      "git_blob_sha": "ffb84fa37f97bb26a00d7fc882cdcc30d5a22dcf",
+      "status": "unchanged-original",
+      "original_sha256": "a1d731ad99964859c16409f8bba3cb9ab193ce05412f148bfe16930f9f5c8570"
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/architecture-and-furniture-1.png",
+      "bytes": 1118268,
+      "sha256": "a1f99cc41d74cd51c03f7c5371ccff93aeda52df6c77180bd075ee4e7b427b5c",
+      "git_blob_sha": "10d6296478e9c1e64527220e76578b63f026ab18",
+      "status": "unchanged-original",
+      "original_sha256": "a1f99cc41d74cd51c03f7c5371ccff93aeda52df6c77180bd075ee4e7b427b5c"
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.wam",
+      "bytes": 2182,
+      "sha256": "692da4bc9933d3cca75d7e9c38494005290cf89d9b1f2fb22734a6469b2ce749",
+      "git_blob_sha": "d3dd10840b1c3f0836fedb1564ecac2903c303c4",
+      "status": "unchanged-original",
+      "original_sha256": "692da4bc9933d3cca75d7e9c38494005290cf89d9b1f2fb22734a6469b2ce749"
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj",
+      "bytes": 134382,
+      "sha256": "79785de9a72c6b6114c79991163b415bacacea8596151cd114dfc07c4607b4e6",
+      "git_blob_sha": "2f758f572239c4eafc753d9b76d26f91ba1829f3",
+      "status": "modified",
+      "original_sha256": "a8efab5a3f472ee27d11af1eaa5e54ccb3ecfe0f1e27460e31c1435e999d3a08"
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/rear-chair-depth-corrections.png",
+      "bytes": 533,
+      "sha256": "421320409589d19ae340bb5c3a98e6960188711d4f424600d78984c09d192006",
+      "git_blob_sha": "20d478e95a486690e1d9c1f290aa73fae90b4d86",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/architecture-and-furniture-0.png",
+      "bytes": 2063958,
+      "sha256": "ee217238f13f1af40f097dc03f9f3f3f568df9c8c3ddedcd284e814e05422071",
+      "git_blob_sha": "5c7c7b0260c67bc5ff98023e0adac9490e20969c",
+      "status": "unchanged-original",
+      "original_sha256": "ee217238f13f1af40f097dc03f9f3f3f568df9c8c3ddedcd284e814e05422071"
+    },
+    {
+      "path": "N20-r3-runtime/map32/foreground-0.png",
+      "bytes": 192850,
+      "sha256": "8b7a694c3606dc2ea9f019eefee4a169d20f3865a637447f795dad302608f009",
+      "git_blob_sha": "b32a318b1ce744da3de5f04631dfc5b97816f90c",
+      "status": "unchanged-original",
+      "original_sha256": "8b7a694c3606dc2ea9f019eefee4a169d20f3865a637447f795dad302608f009"
+    },
+    {
+      "path": "N20-r3-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "N20-r3-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1027177,
+      "sha256": "34fa04ad28f4de20284ce4130fe143d82bf6a08135b83aef34b3414dbdab5680",
+      "git_blob_sha": "8fea0257de78f320d035b0c39a611168ffdd41ee",
+      "status": "unchanged-original",
+      "original_sha256": "34fa04ad28f4de20284ce4130fe143d82bf6a08135b83aef34b3414dbdab5680"
+    },
+    {
+      "path": "N20-r3-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2279145,
+      "sha256": "fe341ebb0f4964c672a3486a63c5735362a6a6113cf185fb990c40cd5217a1c0",
+      "git_blob_sha": "b9e8d6ee36dd311c2b127275d52ec0038992b7ac",
+      "status": "unchanged-original",
+      "original_sha256": "fe341ebb0f4964c672a3486a63c5735362a6a6113cf185fb990c40cd5217a1c0"
+    },
+    {
+      "path": "N20-r3-runtime/map32/map.wam",
+      "bytes": 508,
+      "sha256": "16f28d912c547f2b3c30f346fbc4d2d1dc3bf10e705bde63a638eb3f793fd5ed",
+      "git_blob_sha": "868c9d9198409a16640e4af912b89ebf1f0007ff",
+      "status": "unchanged-original",
+      "original_sha256": "16f28d912c547f2b3c30f346fbc4d2d1dc3bf10e705bde63a638eb3f793fd5ed"
+    },
+    {
+      "path": "N20-r3-runtime/map32/map.tmj",
+      "bytes": 96378,
+      "sha256": "1bed4ebec60ff2761c391473d22cbf3e81860a9138a06cb84c70d8c1b9d8a2af",
+      "git_blob_sha": "5b2c5068011fe3d3b135ac291b937ab9ee542eec",
+      "status": "modified",
+      "original_sha256": "1bff8502895530e20aace8b5ae40216651093498e93b3a10d65e54dce51972bd"
+    },
+    {
+      "path": "N20-r3-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1218,
+      "sha256": "6e56c99cd8741900893687a54eda755dc1c829d8bdf5f87a093190a45e855711",
+      "git_blob_sha": "cc5e19e568b573dba0b17761c037120400885f37",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/grand-auditorium.tmj",
+      "bytes": 347281,
+      "sha256": "5b8b76929c7ab560243a0b8481156957622fc5dde8c0bb8965d0664eb9349781",
+      "git_blob_sha": "dfaf500fa770942266e37982f7029f96bbbc1b47",
+      "status": "modified",
+      "original_sha256": "a9120457e63c3118de7a884879471b6219442bb26a72971f8c4ce163615e8f7b"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/hall-base-p1.png",
+      "bytes": 1888462,
+      "sha256": "c1a4a765aa95bbb57160969345230b1531aab6ece3fef05ea4413f8d3d415f41",
+      "git_blob_sha": "12ca4c5199f40ec2937b49521c2d939e97f2fe7a",
+      "status": "unchanged-original",
+      "original_sha256": "c1a4a765aa95bbb57160969345230b1531aab6ece3fef05ea4413f8d3d415f41"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/grand-auditorium.wam",
+      "bytes": 3484,
+      "sha256": "dd5a4d310640f82e6b4acc28f068733142b8f5f9bc3f0bda384c7fd3c00467f5",
+      "git_blob_sha": "66d03fd986b8722f8407af96101633a937ec84e3",
+      "status": "unchanged-original",
+      "original_sha256": "dd5a4d310640f82e6b4acc28f068733142b8f5f9bc3f0bda384c7fd3c00467f5"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/hall-base-p3.png",
+      "bytes": 1746267,
+      "sha256": "5492b195318fe5a3495be7c2a828dd1c84e4b8cfe66e9e27fa48a2b3d114d517",
+      "git_blob_sha": "dda6d2590fe0e26643b217fb4df1357a8c56e5ed",
+      "status": "unchanged-original",
+      "original_sha256": "5492b195318fe5a3495be7c2a828dd1c84e4b8cfe66e9e27fa48a2b3d114d517"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/hall-base-p2.png",
+      "bytes": 2021746,
+      "sha256": "c66677c3b7b9f1035f15ab5d5b29ed617363ff254a4e84a4ef318e394cdfec9d",
+      "git_blob_sha": "051ea20e2885292131b275a89f18f7c04253a256",
+      "status": "unchanged-original",
+      "original_sha256": "c66677c3b7b9f1035f15ab5d5b29ed617363ff254a4e84a4ef318e394cdfec9d"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/rear-chair-depth-corrections.png",
+      "bytes": 4983,
+      "sha256": "ca969f8cb82b8bb84729ae5006495eb4efc34a4ef9e78ef484c17e0d0d2ecdc3",
+      "git_blob_sha": "75789eca19f44569b90b62f4de472e2d99a9d05b",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/hall-above-p0.png",
+      "bytes": 18474,
+      "sha256": "7f665ab1b7bdec5f8ae8f02d0225709dd5eaa2c675ffdc1e99ca74b2a68948e3",
+      "git_blob_sha": "d89491b591350876d3918a97e03f4ff27346f46e",
+      "status": "unchanged-original",
+      "original_sha256": "7f665ab1b7bdec5f8ae8f02d0225709dd5eaa2c675ffdc1e99ca74b2a68948e3"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/hall-base-p0.png",
+      "bytes": 2082495,
+      "sha256": "c6e9ee5b6d60778f1e09b9f1e931d795b5955ba4e11cb45a441c8d54e5be7589",
+      "git_blob_sha": "1fcd6d8ef088df790c17b4c39d94e9800e6921ef",
+      "status": "unchanged-original",
+      "original_sha256": "c6e9ee5b6d60778f1e09b9f1e931d795b5955ba4e11cb45a441c8d54e5be7589"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/garden-accent.png",
+      "bytes": 5163,
+      "sha256": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646",
+      "git_blob_sha": "ac74764773e5730feb5f094f51a521e479e1c256",
+      "status": "unchanged-original",
+      "original_sha256": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+      "git_blob_sha": "51693a39ae4a8539f8b40385eb47e99ae6bf99c0",
+      "status": "unchanged-original",
+      "original_sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092"
+    },
+    {
+      "path": "N30-r2-runtime/map32/foreground-0.png",
+      "bytes": 1071,
+      "sha256": "ed2a7ef7f2ea5310a59a874168eec885e0c74f23d56b0489c9c2da55bba000d5",
+      "git_blob_sha": "4f9fe8db45de3a9fb869f9a0b1c8f7be30171d16",
+      "status": "unchanged-original",
+      "original_sha256": "ed2a7ef7f2ea5310a59a874168eec885e0c74f23d56b0489c9c2da55bba000d5"
+    },
+    {
+      "path": "N30-r2-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "N30-r2-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1088935,
+      "sha256": "61352fc39aa8944a0c027d3cc6ebab30af75d6253e48491522db23a6e2339dc4",
+      "git_blob_sha": "fe801a293c43790f32cdc96073d4e1378f79c96f",
+      "status": "unchanged-original",
+      "original_sha256": "61352fc39aa8944a0c027d3cc6ebab30af75d6253e48491522db23a6e2339dc4"
+    },
+    {
+      "path": "N30-r2-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2192478,
+      "sha256": "6e386132dd6b554c2a201486c472c945b1037a78a32e5e237c330d7cd725550d",
+      "git_blob_sha": "c74d7169789295a998fa86503c3552e026f3c980",
+      "status": "unchanged-original",
+      "original_sha256": "6e386132dd6b554c2a201486c472c945b1037a78a32e5e237c330d7cd725550d"
+    },
+    {
+      "path": "N30-r2-runtime/map32/map.wam",
+      "bytes": 696,
+      "sha256": "d0274981ddc7d81d6d8fd4fb154ddee9cfac75323b7ca3c32ed177a9ab8eedd0",
+      "git_blob_sha": "0818ac60eba6780cd3b21855e674ccb0aa17b977",
+      "status": "unchanged-original",
+      "original_sha256": "d0274981ddc7d81d6d8fd4fb154ddee9cfac75323b7ca3c32ed177a9ab8eedd0"
+    },
+    {
+      "path": "N30-r2-runtime/map32/map.tmj",
+      "bytes": 95033,
+      "sha256": "0aebb0a085660dc2acd721288ad5d1ede9bc404fabd23c076f3d8698af2069a3",
+      "git_blob_sha": "3552af3b0522614028bd2a320dd621f8f4614efb",
+      "status": "modified",
+      "original_sha256": "aebb62f3fe5c86a19f3316662e6b664dff9e3aa9dc4aa03a2882cba275b85418"
+    },
+    {
+      "path": "N30-r2-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1183,
+      "sha256": "9334425580972d7d876c8a07ad1bb660e5b43fb995b4ac24ecc8c7665def2be0",
+      "git_blob_sha": "fa3c90244d13bf8d484219fb534695053dfc7043",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/seat-backs-0.png",
+      "bytes": 1573,
+      "sha256": "216e26b963e5abc50049d17e5e3d33b0b6d169cb62e3738adc275366fcedfcde",
+      "git_blob_sha": "95c911e369fe58d5aec52d4c9ec9500ed2a28d0c",
+      "status": "unchanged-original",
+      "original_sha256": "216e26b963e5abc50049d17e5e3d33b0b6d169cb62e3738adc275366fcedfcde"
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/architecture-and-furniture-1.png",
+      "bytes": 1614496,
+      "sha256": "975bbbcabf18a3ee99a1a360041328b5768f09f3e0fca6be1f1e7db70eea01db",
+      "git_blob_sha": "3637813e189cfa8eff3aca3f64059cb729e1b32a",
+      "status": "unchanged-original",
+      "original_sha256": "975bbbcabf18a3ee99a1a360041328b5768f09f3e0fca6be1f1e7db70eea01db"
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/architecture-and-furniture-2.png",
+      "bytes": 45673,
+      "sha256": "7baee7b90eb96c0c8eee44990cfec8643b8fe14610d3ca47c181cdf3320c3f12",
+      "git_blob_sha": "375542fe59a4c24ee38581427094b3a1392b1515",
+      "status": "unchanged-original",
+      "original_sha256": "7baee7b90eb96c0c8eee44990cfec8643b8fe14610d3ca47c181cdf3320c3f12"
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/map.wam",
+      "bytes": 645,
+      "sha256": "6f4684227d647bad39420377091bca156b1105427892c8a23e91fd139fdc1c41",
+      "git_blob_sha": "2bbfd0c2e64f826f1730c18bcc4de6d39f24dbf7",
+      "status": "unchanged-original",
+      "original_sha256": "6f4684227d647bad39420377091bca156b1105427892c8a23e91fd139fdc1c41"
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/map.tmj",
+      "bytes": 131759,
+      "sha256": "d2b8382bd0e5c8e32d2bdbc9e5da037b98f4b212875381d366df2f3a2a8f83c7",
+      "git_blob_sha": "484913635d42f4a84469d1f102e5b8e047491404",
+      "status": "modified",
+      "original_sha256": "ecba8068ca83077a051dbd68fdf4af956e4b5271688bae15ebece7ea9a4cab08"
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/rear-chair-depth-corrections.png",
+      "bytes": 1439,
+      "sha256": "7b3f4ae9a9136aba6815e92cdc0ea3360cc9d178b54b5f0895862f93a867d94c",
+      "git_blob_sha": "ab3e2376f971b59bd681fb444e478493075973dc",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/architecture-and-furniture-0.png",
+      "bytes": 1530731,
+      "sha256": "99f969b7aa0cbac6a2c9e1ad1097a7812ebdbda2e0e81749838a28e460a7a2dc",
+      "git_blob_sha": "56805f30b4f57c9eaa8b8fb5cf60de9db9e54391",
+      "status": "unchanged-original",
+      "original_sha256": "99f969b7aa0cbac6a2c9e1ad1097a7812ebdbda2e0e81749838a28e460a7a2dc"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-base-p5.png",
+      "bytes": 383188,
+      "sha256": "6c665d753acf3da9a35d31834817a0e2f01e423ad8a47fd0a07fb25d1c868828",
+      "git_blob_sha": "44f53f35aab1b74b5322600d707436a1dbecc325",
+      "status": "unchanged-original",
+      "original_sha256": "6c665d753acf3da9a35d31834817a0e2f01e423ad8a47fd0a07fb25d1c868828"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-base-p1.png",
+      "bytes": 2020238,
+      "sha256": "d00d2efe7c17006b16c1d80d61bbef3a745b828e735e44d8bce98c71711c26dd",
+      "git_blob_sha": "b64367fd87726f1a9441c6123e0003ca184c0db6",
+      "status": "unchanged-original",
+      "original_sha256": "d00d2efe7c17006b16c1d80d61bbef3a745b828e735e44d8bce98c71711c26dd"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "bytes": 1103112,
+      "sha256": "64dd70cdef1b7edd28f44398b847249b745b9de44dbb57259f00caf4dde7e14b",
+      "git_blob_sha": "5e85cd41645da1b9358c19ee67a84739cd8219f3",
+      "status": "modified",
+      "original_sha256": "1f63e14e5fe656a4db00eda91cb52a961540e6e7a44bdeafd7ec1c5daf44dc9e"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-hall-shell-art-p0.png",
+      "bytes": 1819785,
+      "sha256": "74667b9314331284410210093a8b7d9b1b4ed27f67bb00454d9066cb84cd4a8d",
+      "git_blob_sha": "b909deb7b3b90e6c25f2bd3b401453f7d40d4a8e",
+      "status": "unchanged-original",
+      "original_sha256": "74667b9314331284410210093a8b7d9b1b4ed27f67bb00454d9066cb84cd4a8d"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/grand-auditorium.wam",
+      "bytes": 3486,
+      "sha256": "d5fcbe0894c4fc6b6e03ecb89b0d5edd9536d42abddfeed9fd6bc89d0599bec7",
+      "git_blob_sha": "1fcef7909d845b6632f0274e28c2d89c4339a4a2",
+      "status": "unchanged-original",
+      "original_sha256": "d5fcbe0894c4fc6b6e03ecb89b0d5edd9536d42abddfeed9fd6bc89d0599bec7"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-base-p0.png",
+      "bytes": 2367694,
+      "sha256": "cefb3228c7b327007f08429548389d9415c0477cf02297af390c9f497399e8db",
+      "git_blob_sha": "6ce4a162dbaba47e80dc02cf551e95aaf9f2932f",
+      "status": "unchanged-original",
+      "original_sha256": "cefb3228c7b327007f08429548389d9415c0477cf02297af390c9f497399e8db"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-base-p2.png",
+      "bytes": 2035981,
+      "sha256": "5f14252a7b66fd2db93707196f1e77a2b5b6327222029b10e5b40c2946ce1998",
+      "git_blob_sha": "f514542101d27ccb8aa34129432046710a15cb32",
+      "status": "unchanged-original",
+      "original_sha256": "5f14252a7b66fd2db93707196f1e77a2b5b6327222029b10e5b40c2946ce1998"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-foyer-wings-art-p0.png",
+      "bytes": 85813,
+      "sha256": "db4e4d6ff5e96394c027c3b213ca06da3faead64295765ebb02daaa70673a59d",
+      "git_blob_sha": "748478579a4b02b7835f3545f0ad88a9f72abfe0",
+      "status": "unchanged-original",
+      "original_sha256": "db4e4d6ff5e96394c027c3b213ca06da3faead64295765ebb02daaa70673a59d"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/rear-chair-depth-corrections.png",
+      "bytes": 4983,
+      "sha256": "ca969f8cb82b8bb84729ae5006495eb4efc34a4ef9e78ef484c17e0d0d2ecdc3",
+      "git_blob_sha": "75789eca19f44569b90b62f4de472e2d99a9d05b",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-base-p4.png",
+      "bytes": 2140995,
+      "sha256": "aabe34fe2051eabf1a6a2443630faa565c259a89c9b430d49a1aee0dcf260561",
+      "git_blob_sha": "09a6292c0cc48d0075e102944708dc00c48fa9e6",
+      "status": "unchanged-original",
+      "original_sha256": "aabe34fe2051eabf1a6a2443630faa565c259a89c9b430d49a1aee0dcf260561"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-foyer-roof-art-p0.png",
+      "bytes": 1559888,
+      "sha256": "e296a59be1afd989f295c0b7961e4f164b297ab6d000454e2d5548008c8a7eb2",
+      "git_blob_sha": "697131379ccabc29b6aaaf6a10cb70360e9c80d0",
+      "status": "unchanged-original",
+      "original_sha256": "e296a59be1afd989f295c0b7961e4f164b297ab6d000454e2d5548008c8a7eb2"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-above-p0.png",
+      "bytes": 18474,
+      "sha256": "7f665ab1b7bdec5f8ae8f02d0225709dd5eaa2c675ffdc1e99ca74b2a68948e3",
+      "git_blob_sha": "d89491b591350876d3918a97e03f4ff27346f46e",
+      "status": "unchanged-original",
+      "original_sha256": "7f665ab1b7bdec5f8ae8f02d0225709dd5eaa2c675ffdc1e99ca74b2a68948e3"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-hall-shadow-art-p0.png",
+      "bytes": 5071,
+      "sha256": "74e1d700555187dbfb29469c6f277439ace4d9ec3eaa8697677849d16b49620d",
+      "git_blob_sha": "3be0e6f89f138d8e1ad1a10f49d93323b3485b86",
+      "status": "unchanged-original",
+      "original_sha256": "74e1d700555187dbfb29469c6f277439ace4d9ec3eaa8697677849d16b49620d"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-foyer-shadow-art-p0.png",
+      "bytes": 7604,
+      "sha256": "6808adbdb6492437238ec3e3e30698da5c0ff4851f9b9e0e78c0f2807fb140ac",
+      "git_blob_sha": "7c2a860953b71bc3ca4d9d41fc87714003ae3d8f",
+      "status": "unchanged-original",
+      "original_sha256": "6808adbdb6492437238ec3e3e30698da5c0ff4851f9b9e0e78c0f2807fb140ac"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/garden-accent.png",
+      "bytes": 5163,
+      "sha256": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646",
+      "git_blob_sha": "ac74764773e5730feb5f094f51a521e479e1c256",
+      "status": "unchanged-original",
+      "original_sha256": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-foyer-front-art-p0.png",
+      "bytes": 336114,
+      "sha256": "3f32d3fbd1e9cd677aa625eef7955e3548c119dab6d3b75d847a565b2ec35c1e",
+      "git_blob_sha": "9a8471a07a83de90e33a6ee9d0bde7f192723eaf",
+      "status": "unchanged-original",
+      "original_sha256": "3f32d3fbd1e9cd677aa625eef7955e3548c119dab6d3b75d847a565b2ec35c1e"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-base-p3.png",
+      "bytes": 1879050,
+      "sha256": "bddae5c6686fb55a2fc14b3f1d1d83a166c03b4c0a96f9731236a5e1930aa627",
+      "git_blob_sha": "8335ee826d0bb3cc86830ada7ee71eb050567d65",
+      "status": "unchanged-original",
+      "original_sha256": "bddae5c6686fb55a2fc14b3f1d1d83a166c03b4c0a96f9731236a5e1930aa627"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/building-reveal.js",
+      "bytes": 3603,
+      "sha256": "a8f2f0a1258cbb2a36e219c4039c8968b35c4308ffa1354ad7af498ca413b263",
+      "git_blob_sha": "cd0ff1da14f300f27cd77c248d32d77aac844c77",
+      "status": "unchanged-original",
+      "original_sha256": "a8f2f0a1258cbb2a36e219c4039c8968b35c4308ffa1354ad7af498ca413b263"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-hall-shell-art-p1.png",
+      "bytes": 591232,
+      "sha256": "b5cf50130381df4134c813c10906568790641f0d0c9c58a4b0667221fdf77119",
+      "git_blob_sha": "836adbb2f1e401c9880179508683c3aec9c3211d",
+      "status": "unchanged-original",
+      "original_sha256": "b5cf50130381df4134c813c10906568790641f0d0c9c58a4b0667221fdf77119"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+      "git_blob_sha": "51693a39ae4a8539f8b40385eb47e99ae6bf99c0",
+      "status": "unchanged-original",
+      "original_sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/seat-backs-0.png",
+      "bytes": 68382,
+      "sha256": "9e24d6cd6a5f6f7125f045ffd806d436406287fc5f7c9da419c8e2e34a89a251",
+      "git_blob_sha": "ee74c8a7ba61f251384fa9b68986cb00f505226d",
+      "status": "unchanged-original",
+      "original_sha256": "9e24d6cd6a5f6f7125f045ffd806d436406287fc5f7c9da419c8e2e34a89a251"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/scoped-desktop-depth.png",
+      "bytes": 13212,
+      "sha256": "64cb390332bf09171c12d475d344e0b64762cebb607b4f32c9334cb37b934966",
+      "git_blob_sha": "099621373cb83e3e71f2d850942c2463288f1598",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/architecture-and-furniture-1.png",
+      "bytes": 1856856,
+      "sha256": "450a2aa3b69a44f247740e635bf14ee4c4d5f39b0ee339dcdc49186ee623166e",
+      "git_blob_sha": "39654308a8a946fb66542d87502d65a0f2f19ce0",
+      "status": "unchanged-original",
+      "original_sha256": "450a2aa3b69a44f247740e635bf14ee4c4d5f39b0ee339dcdc49186ee623166e"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/architecture-and-furniture-2.png",
+      "bytes": 526301,
+      "sha256": "7155a145d3d6784bc99de2fb33cfd4cf044b4aaeb15b4d302c883aaa49c6c5e2",
+      "git_blob_sha": "decce06c898e50043a76a45091ad506681a3c2a8",
+      "status": "unchanged-original",
+      "original_sha256": "7155a145d3d6784bc99de2fb33cfd4cf044b4aaeb15b4d302c883aaa49c6c5e2"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.wam",
+      "bytes": 2148,
+      "sha256": "b3c415ef183cdd739d1b5e5fb8a6c9c2b006a803be710ec0a75c3a1f99c58e19",
+      "git_blob_sha": "05e4ab840d0799e50c6a1645de451804c87e5b27",
+      "status": "unchanged-original",
+      "original_sha256": "b3c415ef183cdd739d1b5e5fb8a6c9c2b006a803be710ec0a75c3a1f99c58e19"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.tmj",
+      "bytes": 176271,
+      "sha256": "54a374c187ceb9de19defc2cc92e90f5504c4cce8acc03e3a0f00cf687064fba",
+      "git_blob_sha": "5e852eb0686310867afce058bbd9db7a79fd0e6e",
+      "status": "modified",
+      "original_sha256": "53156d1a72dec2536fdf606ac8e5fa501acdaa3bc67b329f5dba9b68a80222cf"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/scoped-chair-transfer.png",
+      "bytes": 2046,
+      "sha256": "63447c981f6bfc71be1d77bbd614e0b29c70c1c482a9622d0d81ff76ed820730",
+      "git_blob_sha": "933e6c4a6ecf89e676d5eeea280295cb58a4c0aa",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/scoped-seat-backs.png",
+      "bytes": 66352,
+      "sha256": "b362fb9e0b8fb47b4012821c830ab16ef0ed045c46124ccf74c371cbfe13d5f3",
+      "git_blob_sha": "4ab366b3cd9b55ee63e4bc62883f4dd74ece9303",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/architecture-and-furniture-0.png",
+      "bytes": 1750523,
+      "sha256": "3083aa55b7b20688c4929458c9412034bb06198b8fed53d8b478ff8bb387b19f",
+      "git_blob_sha": "d13bb39210354755811578d07fc430f50d27de6e",
+      "status": "unchanged-original",
+      "original_sha256": "3083aa55b7b20688c4929458c9412034bb06198b8fed53d8b478ff8bb387b19f"
+    },
+    {
+      "path": "N18-r3-runtime/map32/foreground-0.png",
+      "bytes": 171009,
+      "sha256": "f443b6f5d056ab375ba1f5b8e73e7b37f46fbbf486ba977ca0f38354e589a494",
+      "git_blob_sha": "6930e59270b1708e17f4a5a11aa6442e145f2050",
+      "status": "unchanged-original",
+      "original_sha256": "f443b6f5d056ab375ba1f5b8e73e7b37f46fbbf486ba977ca0f38354e589a494"
+    },
+    {
+      "path": "N18-r3-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "N18-r3-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1061985,
+      "sha256": "8ad7a45d9349f148e71e63fd46b98f794f20bfd97f12c6492b927b97a8962844",
+      "git_blob_sha": "647f768fa99fa622b509315e51cd3ef27699f3b8",
+      "status": "unchanged-original",
+      "original_sha256": "8ad7a45d9349f148e71e63fd46b98f794f20bfd97f12c6492b927b97a8962844"
+    },
+    {
+      "path": "N18-r3-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2166607,
+      "sha256": "a842a4fa34c71366307a36f50625ffaaf6765c6a867ed78235b58d9751a0eccd",
+      "git_blob_sha": "c7b7785986ea853d0893ec959263cd7d309c67e5",
+      "status": "unchanged-original",
+      "original_sha256": "a842a4fa34c71366307a36f50625ffaaf6765c6a867ed78235b58d9751a0eccd"
+    },
+    {
+      "path": "N18-r3-runtime/map32/map.wam",
+      "bytes": 502,
+      "sha256": "44c94e80e5cdb8891d22eddc3d8c5081b7b3c5374f112c25418be78dd739c711",
+      "git_blob_sha": "e688012cd2f4a3d3ab1405bf1792c3c5e80b87e2",
+      "status": "unchanged-original",
+      "original_sha256": "44c94e80e5cdb8891d22eddc3d8c5081b7b3c5374f112c25418be78dd739c711"
+    },
+    {
+      "path": "N18-r3-runtime/map32/map.tmj",
+      "bytes": 96215,
+      "sha256": "56ae360f6f73deed4c6523f1131566f2e1f312af8ae8ee947d123443a13690a1",
+      "git_blob_sha": "d1454a96b12484d3fa4dd2537047b7787e35320a",
+      "status": "modified",
+      "original_sha256": "4cf2b4beb61a4344f8432cf944d315274b25675892ec874587e1c611979cbf32"
+    },
+    {
+      "path": "N18-r3-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1357,
+      "sha256": "435ef09a0b33a5f84d70bc42de29a9a2740e4621035bb0185c2fe36c3c662248",
+      "git_blob_sha": "dc0f835d3b1415fb48ed1d65bed5c5cd05ed9f75",
+      "status": "new",
+      "original_sha256": null
+    },
+    {
+      "path": "N33-r1-runtime/map32/foreground-0.png",
+      "bytes": 1197,
+      "sha256": "8037b15dc7fd041f59be339d22d92da55e242b66ea04d4a3a33cb213230492ec",
+      "git_blob_sha": "bfa87dfa7483dcb74093af1ef8a61e5a8771ec88",
+      "status": "unchanged-original",
+      "original_sha256": "8037b15dc7fd041f59be339d22d92da55e242b66ea04d4a3a33cb213230492ec"
+    },
+    {
+      "path": "N33-r1-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "status": "unchanged-original",
+      "original_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "N33-r1-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1179510,
+      "sha256": "d7e3ed801cc96cdb9724e8fb91a91bed27ea6f4f10c6900c44fc9c822db647e5",
+      "git_blob_sha": "9773950e7d9f914547e2400b27c365ea3c638a8e",
+      "status": "unchanged-original",
+      "original_sha256": "d7e3ed801cc96cdb9724e8fb91a91bed27ea6f4f10c6900c44fc9c822db647e5"
+    },
+    {
+      "path": "N33-r1-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2287239,
+      "sha256": "57ed15903581f5a1aa48e23fe196925a46972586d22d0b8ae48f3527048da030",
+      "git_blob_sha": "8c5f8250b535f68e2db4f79eadf17910f7e36471",
+      "status": "unchanged-original",
+      "original_sha256": "57ed15903581f5a1aa48e23fe196925a46972586d22d0b8ae48f3527048da030"
+    },
+    {
+      "path": "N33-r1-runtime/map32/map.wam",
+      "bytes": 873,
+      "sha256": "9d58a2c1cd247c0c3b4dc077879dcb07dd281fa25a32ebffa19f5ddbfe30126d",
+      "git_blob_sha": "eca5a98562e6024d9cb75b70c2e25bd2dde2c436",
+      "status": "unchanged-original",
+      "original_sha256": "9d58a2c1cd247c0c3b4dc077879dcb07dd281fa25a32ebffa19f5ddbfe30126d"
+    },
+    {
+      "path": "N33-r1-runtime/map32/map.tmj",
+      "bytes": 95554,
+      "sha256": "92c44887a740fe318664bc47a717973e7b7f67a95ca1743d6b93b469ac188ede",
+      "git_blob_sha": "9a69a42314e75838bf5c54f6acdc0f2c416c1e60",
+      "status": "modified",
+      "original_sha256": "1a280d1b17e398f30a1bccbf91d6fb880c6d91124022df39354561dd589aee37"
+    },
+    {
+      "path": "N33-r1-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1325,
+      "sha256": "554da50c0a1d9278ac043d85bc5a78f4ea497702859bfbe6b81dc9a610fc84e6",
+      "git_blob_sha": "3ed0daf3ca4930ad3deb32c77c4a788135cf9291",
+      "status": "new",
+      "original_sha256": null
+    }
+  ],
+  "summary": {
+    "map_count": 22,
+    "file_count": 197,
+    "collision_cells_removed": 1282,
+    "file_statuses": {
+      "unchanged-original": 150,
+      "modified": 22,
+      "new": 25
+    },
+    "all_empty_scenes_byte_exact": true,
+    "original_dependency_edges_verified": 150,
+    "live_gameplay_verified": false,
+    "published": false
+  },
+  "limits": [
+    "17 audit packages retained uncertainty; 41 had no identified rear-strip mechanism, not general gameplay acceptance.",
+    "Real overlapping table/wall/planter/rail boundaries remain; not every approach can be open.",
+    "Intentional low-alpha glass overlays retained in Flagship D.",
+    "Standing native avatars shown; no sitting animation or interactive seat behavior added."
+  ],
+  "runtime_validation": {
+    "real_phaser": "BLOCKED_NOT_RUN",
+    "authenticated_workadventure": "NOT_RUN",
+    "source_replay_maps": [
+      "art-deco-sales-atelier-r2b-runtime",
+      "willow-furniture-r5-r05-runtime",
+      "N22-r1-runtime"
+    ],
+    "source_replay_routes": 960,
+    "source_replay_body_samples": 1776125,
+    "source_replay_all_pass": true,
+    "all_22_static_image_dependencies": 167,
+    "receipt": "qa/isolated-phaser/FEASIBILITY-RECEIPT.json"
+  }
+}

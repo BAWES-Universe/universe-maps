@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "mission-control-center-0",
+      "name": "Briefing room",
+      "x": 160,
+      "y": 1088,
+      "width": 415,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "mission-control-center-0-room",
+          "type": "livekitRoomProperty",
+          "roomName": "mission-control-center-0",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ]
+    }
+  ]
+}

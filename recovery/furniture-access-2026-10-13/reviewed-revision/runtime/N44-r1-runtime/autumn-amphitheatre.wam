@@ -1,0 +1,58 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./autumn-amphitheatre.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "autumn-amphitheatre-stage",
+      "name": "Presenter stage",
+      "x": 800,
+      "y": 224,
+      "width": 288,
+      "height": 64,
+      "visible": true,
+      "properties": [
+        {
+          "id": "autumn-amphitheatre-stage-speaker",
+          "type": "speakerMegaphone",
+          "name": "autumn-amphitheatre-live-stage",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "autumn-amphitheatre-audience",
+      "name": "Audience",
+      "x": 576,
+      "y": 352,
+      "width": 768,
+      "height": 256,
+      "visible": true,
+      "properties": [
+        {
+          "id": "autumn-amphitheatre-listen",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "autumn-amphitheatre-stage",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "autumn-amphitheatre-framing",
+      "name": "Whole-hall framing",
+      "x": 576,
+      "y": 192,
+      "width": 768,
+      "height": 416,
+      "visible": true,
+      "properties": [
+        {
+          "id": "autumn-amphitheatre-focus",
+          "type": "focusable",
+          "zoom_margin": 0.1
+        }
+      ]
+    }
+  ]
+}

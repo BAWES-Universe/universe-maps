@@ -1,0 +1,581 @@
+{
+  "checks": [
+    {
+      "name": "two synthetic clients observe each other with public passage open",
+      "status": "pass",
+      "detail": {
+        "countA": 1,
+        "countB": 1,
+        "states": [
+          {
+            "position": {
+              "x": 456,
+              "y": 288
+            },
+            "body": {
+              "left": 448,
+              "right": 464,
+              "top": 288,
+              "bottom": 304
+            },
+            "camera": {
+              "x": 96,
+              "y": 39,
+              "zoom": 1,
+              "width": 720,
+              "height": 450,
+              "scaleZoom": 2,
+              "modifier": 1,
+              "savedZoom": 1,
+              "mode": "Follow"
+            },
+            "layers": [
+              {
+                "name": "persistent-glass-frame",
+                "visible": true,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "door-frame-0",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "door-frame-1",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "door-frame-2",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "door-frame-3",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "door-frame-4",
+                "visible": true,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "door-collision",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "tea-preparing",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "tea-desk-cup",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "tea-desk-steam",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "tea-served-cup",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "tea-served-steam",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "desk-lip",
+                "visible": true,
+                "alpha": 1,
+                "depth": 1000000
+              },
+              {
+                "name": "roof-alpha-1",
+                "visible": false,
+                "alpha": 0.25,
+                "depth": 1000000
+              },
+              {
+                "name": "roof-alpha-2",
+                "visible": false,
+                "alpha": 0.5,
+                "depth": 1000000
+              },
+              {
+                "name": "roof-alpha-3",
+                "visible": false,
+                "alpha": 0.75,
+                "depth": 1000000
+              },
+              {
+                "name": "roof-alpha-4",
+                "visible": false,
+                "alpha": 1,
+                "depth": 1000000
+              }
+            ],
+            "doorGrid": [
+              0,
+              0
+            ],
+            "playerDepth": 306.3734571487905
+          },
+          {
+            "position": {
+              "x": 456,
+              "y": 480
+            },
+            "body": {
+              "left": 448,
+              "right": 464,
+              "top": 480,
+              "bottom": 496
+            },
+            "camera": {
+              "x": 96,
+              "y": 231,
+              "zoom": 1,
+              "width": 720,
+              "height": 450,
+              "scaleZoom": 2,
+              "modifier": 1,
+              "savedZoom": 1,
+              "mode": "Follow"
+            },
+            "layers": [
+              {
+                "name": "persistent-glass-frame",
+                "visible": true,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "door-frame-0",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "door-frame-1",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "door-frame-2",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "door-frame-3",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "door-frame-4",
+                "visible": true,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "door-collision",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "tea-preparing",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "tea-desk-cup",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "tea-desk-steam",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "tea-served-cup",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "tea-served-steam",
+                "visible": false,
+                "alpha": 1,
+                "depth": -2
+              },
+              {
+                "name": "desk-lip",
+                "visible": true,
+                "alpha": 1,
+                "depth": 1000000
+              },
+              {
+                "name": "roof-alpha-1",
+                "visible": false,
+                "alpha": 0.25,
+                "depth": 1000000
+              },
+              {
+                "name": "roof-alpha-2",
+                "visible": false,
+                "alpha": 0.5,
+                "depth": 1000000
+              },
+              {
+                "name": "roof-alpha-3",
+                "visible": false,
+                "alpha": 0.75,
+                "depth": 1000000
+              },
+              {
+                "name": "roof-alpha-4",
+                "visible": true,
+                "alpha": 1,
+                "depth": 1000000
+              }
+            ],
+            "doorGrid": [
+              0,
+              0
+            ],
+            "playerDepth": 498.1860100344121
+          }
+        ]
+      }
+    },
+    {
+      "name": "public menus contain opening only; second client crosses doorway",
+      "status": "pass",
+      "detail": {
+        "menus": [
+          "Open pavilion door",
+          "View moon terrace",
+          "Enable test bell ambience",
+          "Silence test ambience",
+          "Reset tea ritual"
+        ],
+        "crossed": {
+          "initial": {
+            "x": 464,
+            "y": 398.3208450049412,
+            "cancelled": true
+          },
+          "actual": {
+            "x": 492.102956351349,
+            "y": 304.411825405396
+          }
+        },
+        "sharedOpening": true
+      }
+    },
+    {
+      "name": "live native water animates through four tile frames",
+      "status": "pass",
+      "detail": {
+        "frames": [
+          9363,
+          9364,
+          9365,
+          9366
+        ],
+        "samples": 94,
+        "first": 37763.799999999814,
+        "last": 39363.60000000056
+      }
+    },
+    {
+      "name": "actual wall collision and unchanged glass/frame rendering",
+      "status": "pass",
+      "detail": {
+        "before": {
+          "x": 208,
+          "y": 480
+        },
+        "after": {
+          "x": 208,
+          "y": 448
+        },
+        "glass": {
+          "name": "persistent-glass-frame",
+          "visible": true,
+          "alpha": 1,
+          "depth": -2
+        }
+      }
+    },
+    {
+      "name": "mobile viewport emulation: actual touch-to-walk",
+      "status": "pass",
+      "detail": {
+        "viewport": "428x926, touch emulation, Chromium; not a physical phone",
+        "before": {
+          "x": 448,
+          "y": 720
+        },
+        "after": {
+          "x": 464,
+          "y": 632.596442562694
+        },
+        "screen": {
+          "x": 214,
+          "y": 647
+        }
+      }
+    },
+    {
+      "name": "mobile emulation exposes explicit ambience commands",
+      "status": "pass",
+      "detail": {
+        "enabled": 2,
+        "stopped": 0
+      }
+    }
+  ],
+  "clients": {
+    "GuestA": {
+      "url": "http://localhost:8000/_/r4-moonlit-two-guests/localhost:8081/moonlit-r4/moonlit.tmj",
+      "mobileEmulation": false,
+      "errors": [
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag."
+      ],
+      "console": [
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x324c001ba200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x324c001ba200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x324c001ba200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x324c001ba200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+        },
+        {
+          "type": "warning",
+          "text": "Service Worker registration blocked by Playwright"
+        },
+        {
+          "type": "warning",
+          "text": "saveName: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "warning",
+          "text": "saveTextures: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has a video track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has an audio track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "<ExploreMenuItem> was created with unknown prop 'last'"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "error",
+          "text": ">>>>> getVideoPeerVideoBox => Video box not found for user http://localhost:8000/_/r4-moonlit-two-guests/localhost:8081/moonlit-r4/moonlit.tmj_3"
+        },
+        {
+          "type": "error",
+          "text": "observeVideoPeerAdded : videoBox not found for user http://localhost:8000/_/r4-moonlit-two-guests/localhost:8081/moonlit-r4/moonlit.tmj_3"
+        },
+        {
+          "type": "error",
+          "text": "NotAllowedError: Wake Lock permission request denied"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Received a private message for a space that does not exist: \"http://localhost:8000/_/r4-moonlit-two-guests/localhost:8081/moonlit-r4/moonlit.tmj#3#1792012908776\". This should not happen unless the space was left a few milliseconds before."
+        }
+      ],
+      "blocked": [],
+      "failedRequests": [],
+      "errorStacks": [
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7"
+      ]
+    },
+    "GuestB": {
+      "url": "http://localhost:8000/_/r4-moonlit-two-guests/localhost:8081/moonlit-r4/moonlit.tmj",
+      "mobileEmulation": false,
+      "errors": [
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag."
+      ],
+      "console": [
+        {
+          "type": "warning",
+          "text": "Service Worker registration blocked by Playwright"
+        },
+        {
+          "type": "warning",
+          "text": "saveName: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "warning",
+          "text": "saveTextures: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has a video track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has an audio track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "<ExploreMenuItem> was created with unknown prop 'last'"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "error",
+          "text": "NotAllowedError: Wake Lock permission request denied"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Received a private message for a space that does not exist: \"http://localhost:8000/_/r4-moonlit-two-guests/localhost:8081/moonlit-r4/moonlit.tmj#3#1792012908776\". This should not happen unless the space was left a few milliseconds before."
+        }
+      ],
+      "blocked": [],
+      "failedRequests": [],
+      "errorStacks": [
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7"
+      ]
+    },
+    "MobileEmulation": {
+      "url": "http://localhost:8000/_/r4-moonlit-mobile-emulated/localhost:8081/moonlit-r4/moonlit.tmj",
+      "mobileEmulation": true,
+      "errors": [
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag."
+      ],
+      "console": [
+        {
+          "type": "warning",
+          "text": "Service Worker registration blocked by Playwright"
+        },
+        {
+          "type": "warning",
+          "text": "saveName: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "warning",
+          "text": "saveTextures: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has a video track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has an audio track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "<MapSubMenu> was created with unknown prop 'last'"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        }
+      ],
+      "blocked": [],
+      "failedRequests": [],
+      "errorStacks": [
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7"
+      ]
+    }
+  }
+}

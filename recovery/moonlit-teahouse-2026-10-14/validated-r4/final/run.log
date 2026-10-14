@@ -1,0 +1,16 @@
+RUN tea-keyboard-retest
+{'script': 'tea-keyboard-retest', 'exit': 0, 'passed': 4, 'failed': []}
+RUN tea-touch
+{'script': 'tea-touch', 'exit': 0, 'passed': 3, 'failed': []}
+RUN roof-camera
+{'script': 'roof-camera', 'exit': 0, 'passed': 4, 'failed': []}
+RUN door-demo-retest
+{'script': 'door-demo-retest', 'exit': 0, 'passed': 5, 'failed': []}
+RUN desktop-retest
+{'script': 'desktop-retest', 'exit': 0, 'passed': 4, 'failed': []}
+RUN departure-rejoin-retest
+{'script': 'departure-rejoin-retest', 'exit': 0, 'passed': 5, 'failed': []}
+RUN public-mobile-retest
+{'script': 'public-mobile-retest', 'exit': 0, 'passed': 6, 'failed': []}
+RUN audio-stop
+{'script': 'audio-stop', 'exit': 0, 'passed': 2, 'failed': []}

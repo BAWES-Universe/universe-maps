@@ -1,0 +1,31 @@
+✔ default fails open and exposes no close command (3.164828ms)
+✔ QA close refuses occupied threshold (2.211538ms)
+✔ closing animation finishes before collision enabled; reopening releases at end (1.905827ms)
+✔ opening cancels stale close and leaves passage open (1.114841ms)
+✔ entering threshold during closing aborts and opens (0.833867ms)
+✔ roof hysteresis and camera restore are local (0.563122ms)
+✔ audio starts silent, explicit on uses native carrier, off unloads (0.545087ms)
+✔ disposal removes menus, cancels animations, restores follow and opens door (0.663619ms)
+✔ audio cleanup throws cannot block camera restore or collision release (1.325545ms)
+✔ failed collision cleanup remains retryable after disposal (0.613556ms)
+✔ camera cleanup rejection is contained and retryable (0.609788ms)
+✔ roof reverses from displayed alpha without jumping to a fixed stage (1.332537ms)
+✔ explicit single-client demo exposes named controls and completes full motion cycle (0.606592ms)
+✔ starting inside never flashes an opaque roof before cutting away (0.177582ms)
+✔ unsubscribe and menu exceptions do not prevent independent recovery attempts (0.376844ms)
+✔ failed visual write does not poison cache or suppress a later cleanup retry (0.318495ms)
+✔ roof reversal from every intermediate stage advances only one alpha step (0.491427ms)
+✔ default timer scheduling and cancellation retain browser-global receiver (5.977909ms)
+✔ native departure cleanup by descriptor removes every keyed menu; rejoin callbacks remain functional (1.631015ms)
+✔ prepare, collect, walk, serve exactly once with visible states (1.861304ms)
+✔ leaving cancels brewing, stale timer cannot finish, return permits restart (0.346697ms)
+✔ reset and disposal clear timer, prompts and visuals without stale resurrection (0.31607ms)
+✔ stale and repeated UI callbacks cannot recollect or reserve (0.228778ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 145.25554

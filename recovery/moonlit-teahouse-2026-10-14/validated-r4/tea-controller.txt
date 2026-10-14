@@ -1,0 +1,33 @@
+// The ritual is local to this script instance: no shared or persisted tea state.
+function createTeaExperience(WA,clock){
+ let state='idle',position={x:0,y:0},timer=null,epoch=0,disposed=false,popup=null,promptKey='',cancelled=false;
+ const shown=new Map();
+ const zone=()=>position.x>=176&&position.x<=320&&position.y>=272&&position.y<=352?'desk':position.x>=864&&position.x<=1024&&position.y>=384&&position.y<=480?'terrace':'away';
+ function layer(name,on){if(shown.get(name)===on)return;WA.room[on?'showLayer':'hideLayer'](name);shown.set(name,on)}
+ function close(){popup?.close();popup=null}
+ function refresh(){
+  layer('tea-preparing',state==='preparing');layer('tea-desk-cup',state==='ready');layer('tea-desk-steam',state==='preparing'||state==='ready');layer('tea-served-cup',state==='served');layer('tea-served-steam',state==='served');
+  const z=zone(),key=state+':'+z;if(key===promptKey)return;promptKey=key;close();if(disposed||z==='away')return;
+  let message='',label='',action;
+  if(z==='desk'){
+   if(state==='idle'){message=cancelled?'Preparation cancelled. Stay here while brewing.':'Prepare tea, then take it to the moon terrace.';label='Prepare tea';action=prepare}
+   if(state==='preparing')message='Brewing tea… stay by the desk.';
+   if(state==='ready'){message='Your tea is ready.';label='Collect tea';action=collect}
+   if(state==='carrying')message='Tea collected. Walk to the moon terrace.';
+   if(state==='served')message='Tea is served on the terrace. Reset in Settings to brew again.';
+  }else{
+   if(state==='carrying'){message='Enjoy the view with your tea.';label='Serve tea';action=serve}
+   else if(state==='served')message='Tea served. Enjoy the moonlit water.';
+   else message='Bring tea from the pavilion desk.';
+  }
+  popup=WA.ui.openPopup(z==='desk'?'tea-desk-prompt':'tea-terrace-prompt',message,label?[{label,callback:action}]:[{label:'Close',callback:close}]);
+ }
+ function cancel(){epoch++;if(timer!==null){clock.clearTimeout(timer);timer=null}}
+ function prepare(){if(disposed||state!=='idle'||zone()!=='desk')return false;cancel();cancelled=false;state='preparing';refresh();const token=epoch;timer=clock.setTimeout(()=>{timer=null;if(disposed||token!==epoch||state!=='preparing')return;if(zone()!=='desk'){state='idle';cancelled=true}else state='ready';refresh()},1800);return true}
+ function collect(){if(disposed||state!=='ready'||zone()!=='desk')return false;state='carrying';refresh();return true}
+ function serve(){if(disposed||state!=='carrying'||zone()!=='terrace')return false;state='served';refresh();return true}
+ function move(p){if(disposed)return;position=p;if(state==='preparing'&&zone()!=='desk'){cancel();state='idle';cancelled=true}refresh()}
+ function reset(){if(disposed)return;cancel();state='idle';cancelled=false;promptKey='';refresh()}
+ function dispose(){disposed=true;cancel();close();for(const name of ['tea-preparing','tea-desk-cup','tea-desk-steam','tea-served-cup','tea-served-steam'])layer(name,false)}
+ return{move,prepare,collect,serve,reset,dispose,status:()=>({state,zone:zone(),cancelled,disposed})};
+}

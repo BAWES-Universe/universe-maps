@@ -1,0 +1,7 @@
+# Validated Moonlit r4 — isolated backup
+
+This is a byte-preserving compact backup of the completed local r4 candidate and validation evidence. Start with REPORT.md, candidate/R4-NOTES.md and final/suite-results.json. The new branch is backup/moonlit-r4-2026-10-14, based on the latest observed shared recovery branch; the shared branch and independent Mission/Tea/Sky upload are not modified.
+
+All candidate files, source/runtime, tests and original candidate manifest are preserved. Logs, JSON results, sample timelines, screenshots and browser harness scripts are included. Large Playwright trace ZIPs, dependencies, caches and transient game state are excluded. LOCAL-FULL-EVIDENCE.sha256 records the broader original session inventory, including intentionally omitted traces; BACKUP-MANIFEST.sha256 covers exactly this compact backup except itself. Original reports' statements that r4 was unpushed describe the validation time; this backup is the subsequent separately authorized action. Local paths and localhost URLs are historical and are not publicly accessible previews.
+
+Final sequential Chromium checks: 33 passed, 0 failed. Source/controller tests: 23 passed; structure: 26; native/adaptor routes: 41. Tea state is local, public doors remain fail-open, no seating or polished-art claim. See original report for controls, retained failed exploratory runs and limitations. No release, deployment, merge, deletion or force-push is part of this backup.

@@ -1,0 +1,11 @@
+const h=require('./harness.cjs');
+const url='http://localhost:8000/_/r4-departure-rejoin/localhost:8081/moonlit-r4/moonlit.tmj';
+async function menus(c){return c.page.evaluate(async()=>{const m=await import('http://localhost:8080/src/front/Stores/MenuStore.ts');let result;const off=m.subMenusStore.subscribe(v=>result=v);off();return result.filter(x=>x.type==='scripting')})}
+async function travel(c,url,fragment){await h.wa(c,u=>WA.nav.goToRoom(u),url).catch(e=>{if(!/destroyed|closed/.test(e.message))throw e});await h.expect.poll(()=>h.scene(c,s=>s.mapUrlFile).catch(()=>'transitioning'),{timeout:30000}).toContain(fragment);await c.page.waitForTimeout(1000)}
+(async()=>{await h.launch();const c=await h.client('DepartureRejoinRetest',url);
+for(let cycle=1;cycle<=2;cycle++){
+ await h.check('cycle '+cycle+' live commands work after join',async()=>{const commands=await menus(c);h.expect(commands).toHaveLength(5);await h.command(c,'Enable test bell ambience');await h.expect.poll(()=>c.page.locator('audio').count()).toBe(2);await h.command(c,'View moon terrace');await c.page.waitForTimeout(2400);const camera=(await h.snapshot(c)).camera;h.expect(camera.mode).toBe('Follow');h.expect(camera.modifier).toBe(1);return{commands,camera}});
+ await h.check('cycle '+cycle+' real map departure removes menus and audio',async()=>{await travel(c,'http://localhost:8000/_/r4-empty-'+cycle+'/localhost:8081/tests/E2E/empty.json','tests/E2E/empty.json');await h.expect.poll(()=>menus(c)).toHaveLength(0);h.expect(await c.page.locator('audio').count()).toBe(0);const result={map:await h.scene(c,s=>s.mapUrlFile),frames:c.page.frames().map(f=>f.url()),menus:await menus(c),audio:await c.page.locator('audio').count()};await h.screenshot(c,'departure-'+cycle);return result});
+ if(cycle===1)await h.check('real rejoin restores exactly five usable commands',async()=>{await travel(c,url,'moonlit-r4/moonlit.tmj');await h.expect.poll(()=>menus(c)).toHaveLength(5);await h.command(c,'Open pavilion door');const s=await h.snapshot(c);h.expect(s.doorGrid).toEqual([0,0]);await h.screenshot(c,'rejoined');return{menus:await menus(c),door:s.doorGrid}})
+}
+await h.close(c);await h.finish()})().catch(e=>{console.error(e);process.exitCode=1});

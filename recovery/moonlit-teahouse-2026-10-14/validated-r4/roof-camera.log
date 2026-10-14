@@ -1,0 +1,7 @@
+FAIL actual roof reversal with controlled in-map position changes expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+PASS camera actual scale reveal and timed follow restoration {"before":{"x":432,"y":167,"zoom":1,"width":720,"height":450,"scaleZoom":2,"modifier":1,"savedZoom":1,"mode":"Follow"},"scenic":{"x":543,"y":201,"zoom":1,"width":639,"height":400,"scaleZoom":2.2535211267605635,"modifier":1.1275643551507084,"savedZoom":1,"mode":"Exploration"},"returned":{"x":432,"y":167,"zoom":1,"width":720,"height":450,"scaleZoom":2,"modifier":1,"savedZoom":1,"mode":"Follow"}}
+PASS camera movement interruption restores follow {"position":{"x":944,"y":566},"camera":{"x":432,"y":317,"zoom":1,"width":720,"height":450,"scaleZoom":2,"modifier":1,"savedZoom":1,"mode":"Follow"}}
+PASS real script initializes indoors without showing roof {"setup":"walked indoors in live game while only script response was held; released original unchanged script","route":{"x":456,"y":288,"cancelled":false},"position":{"x":456,"y":288},"roofSamples":28,"roofVisibleSamples":0}

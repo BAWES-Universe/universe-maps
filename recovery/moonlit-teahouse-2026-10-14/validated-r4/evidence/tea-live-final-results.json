@@ -1,0 +1,217 @@
+{
+  "checks": [
+    {
+      "name": "keyboard departure cancels preparation cleanly",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: 'Prepare tea', exact: true }) to be visible\n"
+    },
+    {
+      "name": "prepare collect walk serve with keyboard activation and native route",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: 'Prepare tea', exact: true }) to be visible\n"
+    },
+    {
+      "name": "unobtrusive reset permits another ritual",
+      "status": "pass",
+      "detail": {
+        "layers": [
+          {
+            "name": "tea-preparing",
+            "visible": false,
+            "index": 9370
+          },
+          {
+            "name": "tea-desk-cup",
+            "visible": false,
+            "index": 9367
+          },
+          {
+            "name": "tea-desk-steam",
+            "visible": false,
+            "index": 9368
+          },
+          {
+            "name": "tea-served-cup",
+            "visible": false,
+            "index": 9367
+          },
+          {
+            "name": "tea-served-steam",
+            "visible": false,
+            "index": 9368
+          }
+        ]
+      }
+    },
+    {
+      "name": "real departure during preparation and rejoin have no stale tea or menus",
+      "status": "pass",
+      "detail": {
+        "departedMenus": [],
+        "rejoined": [
+          {
+            "name": "tea-preparing",
+            "visible": false,
+            "index": 9370
+          },
+          {
+            "name": "tea-desk-cup",
+            "visible": false,
+            "index": 9367
+          },
+          {
+            "name": "tea-desk-steam",
+            "visible": false,
+            "index": 9369
+          },
+          {
+            "name": "tea-served-cup",
+            "visible": false,
+            "index": 9367
+          },
+          {
+            "name": "tea-served-steam",
+            "visible": false,
+            "index": 9369
+          }
+        ]
+      }
+    }
+  ],
+  "clients": {
+    "TeaKeyboardFinal": {
+      "url": "http://localhost:8000/_/r4-tea-keyboard-final/localhost:8081/moonlit-r4/moonlit.tmj",
+      "mobileEmulation": false,
+      "errors": [
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.",
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.",
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag."
+      ],
+      "console": [
+        {
+          "type": "warning",
+          "text": "[.WebGL-0xa3408526200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0xa3408526200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0xa3408526200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0xa3408526200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+        },
+        {
+          "type": "warning",
+          "text": "Service Worker registration blocked by Playwright"
+        },
+        {
+          "type": "warning",
+          "text": "saveName: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "warning",
+          "text": "saveTextures: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has a video track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has an audio track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "<ExploreMenuItem> was created with unknown prop 'last'"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space \"allWorldUser\" was not destroyed properly."
+        },
+        {
+          "type": "warning",
+          "text": "<ExploreMenuItem> was created with unknown prop 'last'"
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space \"allWorldUser\" was not destroyed properly."
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "<ExploreMenuItem> was created with unknown prop 'last'"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        }
+      ],
+      "blocked": [],
+      "failedRequests": [],
+      "errorStacks": [
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7",
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7",
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7"
+      ]
+    }
+  }
+}

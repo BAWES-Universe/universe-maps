@@ -1,0 +1,399 @@
+{
+  "checks": [
+    {
+      "name": "public arrival: open door, exterior roof, silent audio",
+      "status": "pass",
+      "detail": {
+        "position": {
+          "x": 437,
+          "y": 720
+        },
+        "body": {
+          "left": 437,
+          "right": 453,
+          "top": 720,
+          "bottom": 736
+        },
+        "camera": {
+          "x": 77,
+          "y": 382,
+          "zoom": 1,
+          "width": 720,
+          "height": 450,
+          "scaleZoom": 2,
+          "modifier": 1,
+          "savedZoom": 1,
+          "mode": "Follow"
+        },
+        "layers": [
+          {
+            "name": "persistent-glass-frame",
+            "visible": true,
+            "alpha": 1,
+            "depth": -2
+          },
+          {
+            "name": "door-frame-0",
+            "visible": false,
+            "alpha": 1,
+            "depth": -2
+          },
+          {
+            "name": "door-frame-1",
+            "visible": false,
+            "alpha": 1,
+            "depth": -2
+          },
+          {
+            "name": "door-frame-2",
+            "visible": false,
+            "alpha": 1,
+            "depth": -2
+          },
+          {
+            "name": "door-frame-3",
+            "visible": false,
+            "alpha": 1,
+            "depth": -2
+          },
+          {
+            "name": "door-frame-4",
+            "visible": true,
+            "alpha": 1,
+            "depth": -2
+          },
+          {
+            "name": "door-collision",
+            "visible": false,
+            "alpha": 1,
+            "depth": -2
+          },
+          {
+            "name": "tea-preparing",
+            "visible": false,
+            "alpha": 1,
+            "depth": -2
+          },
+          {
+            "name": "tea-desk-cup",
+            "visible": false,
+            "alpha": 1,
+            "depth": -2
+          },
+          {
+            "name": "tea-desk-steam",
+            "visible": false,
+            "alpha": 1,
+            "depth": -2
+          },
+          {
+            "name": "tea-served-cup",
+            "visible": false,
+            "alpha": 1,
+            "depth": -2
+          },
+          {
+            "name": "tea-served-steam",
+            "visible": false,
+            "alpha": 1,
+            "depth": -2
+          },
+          {
+            "name": "desk-lip",
+            "visible": true,
+            "alpha": 1,
+            "depth": 1000000
+          },
+          {
+            "name": "roof-alpha-1",
+            "visible": false,
+            "alpha": 0.25,
+            "depth": 1000000
+          },
+          {
+            "name": "roof-alpha-2",
+            "visible": false,
+            "alpha": 0.5,
+            "depth": 1000000
+          },
+          {
+            "name": "roof-alpha-3",
+            "visible": false,
+            "alpha": 0.75,
+            "depth": 1000000
+          },
+          {
+            "name": "roof-alpha-4",
+            "visible": true,
+            "alpha": 1,
+            "depth": 1000000
+          }
+        ],
+        "doorGrid": [
+          0,
+          0
+        ],
+        "playerDepth": 736
+      }
+    },
+    {
+      "name": "continuous actual pathfinding routes and collision sampling",
+      "status": "pass",
+      "detail": {
+        "routes": [
+          {
+            "name": "pavilion",
+            "start": {
+              "x": 437,
+              "y": 720
+            },
+            "result": {
+              "initial": {
+                "x": 464,
+                "y": 405.74467925205755,
+                "cancelled": true
+              },
+              "actual": {
+                "x": 462.16465513254735,
+                "y": 312.65862053018935
+              }
+            },
+            "actual": {
+              "x": 460.5483977273052,
+              "y": 306.1935909092209
+            }
+          },
+          {
+            "name": "desk",
+            "start": {
+              "x": 456,
+              "y": 288
+            },
+            "result": {
+              "initial": {
+                "x": 240,
+                "y": 288,
+                "cancelled": false
+              },
+              "actual": {
+                "x": 240,
+                "y": 288
+              }
+            },
+            "actual": {
+              "x": 240,
+              "y": 288
+            }
+          },
+          {
+            "name": "seat-approach",
+            "start": {
+              "x": 240,
+              "y": 288
+            },
+            "result": {
+              "initial": {
+                "x": 592,
+                "y": 352,
+                "cancelled": false
+              },
+              "actual": {
+                "x": 592,
+                "y": 352
+              }
+            },
+            "actual": {
+              "x": 592,
+              "y": 352
+            }
+          },
+          {
+            "name": "terrace",
+            "start": {
+              "x": 592,
+              "y": 352
+            },
+            "result": {
+              "initial": {
+                "x": 820.7065027355777,
+                "y": 356.7065027355777,
+                "cancelled": true
+              },
+              "actual": {
+                "x": 944,
+                "y": 416
+              }
+            },
+            "actual": {
+              "x": 944,
+              "y": 416
+            }
+          },
+          {
+            "name": "garden",
+            "start": {
+              "x": 944,
+              "y": 416
+            },
+            "result": {
+              "initial": {
+                "x": 456,
+                "y": 704,
+                "cancelled": false
+              },
+              "actual": {
+                "x": 456,
+                "y": 704
+              }
+            },
+            "actual": {
+              "x": 456,
+              "y": 704
+            }
+          }
+        ],
+        "samples": 1033,
+        "collisionSamples": 0
+      }
+    },
+    {
+      "name": "explicit bell enable then silence in actual browser",
+      "status": "pass",
+      "detail": {
+        "before": [
+          {
+            "src": "http://localhost:8081/moonlit-r4/audio/silent-carrier.wav",
+            "paused": false,
+            "time": 1.523896
+          },
+          {
+            "src": "http://localhost:8081/moonlit-r4/audio/tide-signal.wav",
+            "paused": false,
+            "time": 1.523917
+          }
+        ],
+        "after": [
+          {
+            "src": "http://localhost:8081/moonlit-r4/audio/silent-carrier.wav",
+            "paused": false,
+            "time": 2.043356
+          },
+          {
+            "src": "http://localhost:8081/moonlit-r4/audio/tide-signal.wav",
+            "paused": false,
+            "time": 2.043356
+          }
+        ],
+        "afterSilence": 0
+      }
+    },
+    {
+      "name": "camera scenic reveal and automatic return",
+      "status": "pass",
+      "detail": {
+        "before": {
+          "x": 432,
+          "y": 167,
+          "zoom": 1,
+          "width": 720,
+          "height": 450,
+          "scaleZoom": 2,
+          "modifier": 1,
+          "savedZoom": 1,
+          "mode": "Follow"
+        },
+        "scenic": {
+          "x": 532,
+          "y": 206,
+          "zoom": 1,
+          "width": 615,
+          "height": 384,
+          "scaleZoom": 2.341463414634146,
+          "modifier": 1.171875,
+          "savedZoom": 1,
+          "mode": "Positioned"
+        },
+        "returned": {
+          "x": 432,
+          "y": 167,
+          "zoom": 1,
+          "width": 720,
+          "height": 450,
+          "scaleZoom": 2,
+          "modifier": 1,
+          "savedZoom": 1,
+          "mode": "Follow"
+        },
+        "samples": 165
+      }
+    }
+  ],
+  "clients": {
+    "MoonlitDesktopRetest": {
+      "url": "http://localhost:8000/_/r4-moonlit-r2-validation/localhost:8081/moonlit-r4/moonlit.tmj",
+      "mobileEmulation": false,
+      "errors": [
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag."
+      ],
+      "console": [
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x3440d00ee00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x3440d00ee00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x3440d00ee00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x3440d00ee00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+        },
+        {
+          "type": "warning",
+          "text": "Service Worker registration blocked by Playwright"
+        },
+        {
+          "type": "warning",
+          "text": "saveName: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "warning",
+          "text": "saveTextures: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has a video track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has an audio track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "<ExploreMenuItem> was created with unknown prop 'last'"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        }
+      ],
+      "blocked": [],
+      "failedRequests": [],
+      "errorStacks": [
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7"
+      ]
+    }
+  }
+}

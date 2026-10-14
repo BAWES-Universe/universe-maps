@@ -1,0 +1,350 @@
+{
+  "checks": [
+    {
+      "name": "cycle 1 live commands work after join",
+      "status": "pass",
+      "detail": {
+        "commands": [
+          {
+            "type": "scripting",
+            "label": "Open pavilion door",
+            "key": "Open pavilion door",
+            "visible": {}
+          },
+          {
+            "type": "scripting",
+            "label": "View moon terrace",
+            "key": "View moon terrace",
+            "visible": {}
+          },
+          {
+            "type": "scripting",
+            "label": "Enable test bell ambience",
+            "key": "Enable test bell ambience",
+            "visible": {}
+          },
+          {
+            "type": "scripting",
+            "label": "Silence test ambience",
+            "key": "Silence test ambience",
+            "visible": {}
+          },
+          {
+            "type": "scripting",
+            "label": "Reset tea ritual",
+            "key": "Reset tea ritual",
+            "visible": {}
+          }
+        ],
+        "camera": {
+          "x": 77,
+          "y": 382,
+          "zoom": 1,
+          "width": 720,
+          "height": 450,
+          "scaleZoom": 2,
+          "modifier": 1,
+          "savedZoom": 1,
+          "mode": "Follow"
+        }
+      }
+    },
+    {
+      "name": "cycle 1 real map departure removes menus and audio",
+      "status": "pass",
+      "detail": {
+        "map": "http://localhost:8081/tests/E2E/empty.json",
+        "frames": [
+          "http://localhost:8000/_/r4-empty-1/localhost:8081/tests/E2E/empty.json",
+          "http://localhost:8000/local-script?script=http%3A%2F%2Flocalhost%3A8081%2Ftests%2FE2E%2Fempty.js",
+          "about:blank",
+          "about:blank",
+          "about:blank",
+          "about:blank",
+          "about:blank"
+        ],
+        "menus": [],
+        "audio": 0
+      }
+    },
+    {
+      "name": "real rejoin restores exactly five usable commands",
+      "status": "pass",
+      "detail": {
+        "menus": [
+          {
+            "type": "scripting",
+            "label": "Open pavilion door",
+            "key": "Open pavilion door",
+            "visible": {}
+          },
+          {
+            "type": "scripting",
+            "label": "View moon terrace",
+            "key": "View moon terrace",
+            "visible": {}
+          },
+          {
+            "type": "scripting",
+            "label": "Enable test bell ambience",
+            "key": "Enable test bell ambience",
+            "visible": {}
+          },
+          {
+            "type": "scripting",
+            "label": "Silence test ambience",
+            "key": "Silence test ambience",
+            "visible": {}
+          },
+          {
+            "type": "scripting",
+            "label": "Reset tea ritual",
+            "key": "Reset tea ritual",
+            "visible": {}
+          }
+        ],
+        "door": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "cycle 2 live commands work after join",
+      "status": "pass",
+      "detail": {
+        "commands": [
+          {
+            "type": "scripting",
+            "label": "Open pavilion door",
+            "key": "Open pavilion door",
+            "visible": {}
+          },
+          {
+            "type": "scripting",
+            "label": "View moon terrace",
+            "key": "View moon terrace",
+            "visible": {}
+          },
+          {
+            "type": "scripting",
+            "label": "Enable test bell ambience",
+            "key": "Enable test bell ambience",
+            "visible": {}
+          },
+          {
+            "type": "scripting",
+            "label": "Silence test ambience",
+            "key": "Silence test ambience",
+            "visible": {}
+          },
+          {
+            "type": "scripting",
+            "label": "Reset tea ritual",
+            "key": "Reset tea ritual",
+            "visible": {}
+          }
+        ],
+        "camera": {
+          "x": 94,
+          "y": 382,
+          "zoom": 1,
+          "width": 720,
+          "height": 450,
+          "scaleZoom": 2,
+          "modifier": 1,
+          "savedZoom": 1,
+          "mode": "Follow"
+        }
+      }
+    },
+    {
+      "name": "cycle 2 real map departure removes menus and audio",
+      "status": "pass",
+      "detail": {
+        "map": "http://localhost:8081/tests/E2E/empty.json",
+        "frames": [
+          "http://localhost:8000/_/r4-empty-2/localhost:8081/tests/E2E/empty.json",
+          "http://localhost:8000/local-script?script=http%3A%2F%2Flocalhost%3A8081%2Ftests%2FE2E%2Fempty.js",
+          "about:blank",
+          "about:blank",
+          "about:blank",
+          "about:blank",
+          "about:blank"
+        ],
+        "menus": [],
+        "audio": 0
+      }
+    }
+  ],
+  "clients": {
+    "DepartureRejoinRetest": {
+      "url": "http://localhost:8000/_/r4-departure-rejoin/localhost:8081/moonlit-r4/moonlit.tmj",
+      "mobileEmulation": false,
+      "errors": [
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.",
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.",
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.",
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag."
+      ],
+      "console": [
+        {
+          "type": "warning",
+          "text": "[.WebGL-0xe940ca8fe00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0xe940ca8fe00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0xe940ca8fe00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0xe940ca8fe00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+        },
+        {
+          "type": "warning",
+          "text": "Service Worker registration blocked by Playwright"
+        },
+        {
+          "type": "warning",
+          "text": "saveName: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "warning",
+          "text": "saveTextures: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has a video track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has an audio track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "<ExploreMenuItem> was created with unknown prop 'last'"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space \"allWorldUser\" was not destroyed properly."
+        },
+        {
+          "type": "warning",
+          "text": "<ExploreMenuItem> was created with unknown prop 'last'"
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space \"allWorldUser\" was not destroyed properly."
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "<ExploreMenuItem> was created with unknown prop 'last'"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space \"allWorldUser\" was not destroyed properly."
+        },
+        {
+          "type": "warning",
+          "text": "<ExploreMenuItem> was created with unknown prop 'last'"
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        }
+      ],
+      "blocked": [],
+      "failedRequests": [],
+      "errorStacks": [
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7",
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7",
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7",
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7"
+      ]
+    }
+  }
+}

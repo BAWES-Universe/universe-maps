@@ -1,0 +1,10 @@
+FAIL keyboard departure cancels preparation cleanly locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: 'Prepare tea', exact: true }) to be visible
+
+FAIL prepare collect walk serve with keyboard activation and native route locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: 'Prepare tea', exact: true }) to be visible
+
+PASS unobtrusive reset permits another ritual {"layers":[{"name":"tea-preparing","visible":false,"index":9370},{"name":"tea-desk-cup","visible":false,"index":9367},{"name":"tea-desk-steam","visible":false,"index":9368},{"name":"tea-served-cup","visible":false,"index":9367},{"name":"tea-served-steam","visible":false,"index":9368}]}
+PASS real departure during preparation and rejoin have no stale tea or menus {"departedMenus":[],"rejoined":[{"name":"tea-preparing","visible":false,"index":9370},{"name":"tea-desk-cup","visible":false,"index":9367},{"name":"tea-desk-steam","visible":false,"index":9369},{"name":"tea-served-cup","visible":false,"index":9367},{"name":"tea-served-steam","visible":false,"index":9369}]}

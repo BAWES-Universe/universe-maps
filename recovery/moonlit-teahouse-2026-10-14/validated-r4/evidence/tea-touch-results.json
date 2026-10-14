@@ -1,0 +1,732 @@
+{
+  "checks": [
+    {
+      "name": "touch walk to desk and cancel preparation by leaving",
+      "status": "pass",
+      "detail": {
+        "taps": [
+          {
+            "before": {
+              "x": 454,
+              "y": 720
+            },
+            "target": {
+              "x": 448,
+              "y": 624
+            },
+            "screen": {
+              "x": 208,
+              "y": 671
+            },
+            "after": {
+              "x": 456,
+              "y": 608
+            }
+          },
+          {
+            "before": {
+              "x": 456,
+              "y": 608
+            },
+            "target": {
+              "x": 448,
+              "y": 528
+            },
+            "screen": {
+              "x": 206,
+              "y": 575
+            },
+            "after": {
+              "x": 456,
+              "y": 512
+            }
+          },
+          {
+            "before": {
+              "x": 456,
+              "y": 512
+            },
+            "target": {
+              "x": 448,
+              "y": 448
+            },
+            "screen": {
+              "x": 206,
+              "y": 495
+            },
+            "after": {
+              "x": 456,
+              "y": 448
+            }
+          },
+          {
+            "before": {
+              "x": 456,
+              "y": 448
+            },
+            "target": {
+              "x": 448,
+              "y": 352
+            },
+            "screen": {
+              "x": 206,
+              "y": 399
+            },
+            "after": {
+              "x": 456,
+              "y": 352
+            }
+          },
+          {
+            "before": {
+              "x": 456,
+              "y": 352
+            },
+            "target": {
+              "x": 448,
+              "y": 304
+            },
+            "screen": {
+              "x": 206,
+              "y": 351
+            },
+            "after": {
+              "x": 456,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 456,
+              "y": 288
+            },
+            "target": {
+              "x": 368,
+              "y": 304
+            },
+            "screen": {
+              "x": 126,
+              "y": 351
+            },
+            "after": {
+              "x": 368,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 368,
+              "y": 288
+            },
+            "target": {
+              "x": 288,
+              "y": 304
+            },
+            "screen": {
+              "x": 134,
+              "y": 351
+            },
+            "after": {
+              "x": 296,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 296,
+              "y": 288
+            },
+            "target": {
+              "x": 240,
+              "y": 304
+            },
+            "screen": {
+              "x": 158,
+              "y": 351
+            },
+            "after": {
+              "x": 240,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 240,
+              "y": 288
+            },
+            "target": {
+              "x": 336,
+              "y": 304
+            },
+            "screen": {
+              "x": 310,
+              "y": 351
+            },
+            "after": {
+              "x": 336,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 336,
+              "y": 288
+            },
+            "target": {
+              "x": 240,
+              "y": 304
+            },
+            "screen": {
+              "x": 118,
+              "y": 351
+            },
+            "after": {
+              "x": 240,
+              "y": 288
+            }
+          }
+        ],
+        "layers": [
+          {
+            "name": "tea-preparing",
+            "visible": false
+          },
+          {
+            "name": "tea-desk-cup",
+            "visible": false
+          },
+          {
+            "name": "tea-desk-steam",
+            "visible": false
+          },
+          {
+            "name": "tea-served-cup",
+            "visible": false
+          },
+          {
+            "name": "tea-served-steam",
+            "visible": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "full touch preparation collection terrace walk and serving",
+      "status": "pass",
+      "detail": {
+        "movement": "every leg uses touchscreen.tap; no WA movement/teleport",
+        "taps": [
+          {
+            "before": {
+              "x": 454,
+              "y": 720
+            },
+            "target": {
+              "x": 448,
+              "y": 624
+            },
+            "screen": {
+              "x": 208,
+              "y": 671
+            },
+            "after": {
+              "x": 456,
+              "y": 608
+            }
+          },
+          {
+            "before": {
+              "x": 456,
+              "y": 608
+            },
+            "target": {
+              "x": 448,
+              "y": 528
+            },
+            "screen": {
+              "x": 206,
+              "y": 575
+            },
+            "after": {
+              "x": 456,
+              "y": 512
+            }
+          },
+          {
+            "before": {
+              "x": 456,
+              "y": 512
+            },
+            "target": {
+              "x": 448,
+              "y": 448
+            },
+            "screen": {
+              "x": 206,
+              "y": 495
+            },
+            "after": {
+              "x": 456,
+              "y": 448
+            }
+          },
+          {
+            "before": {
+              "x": 456,
+              "y": 448
+            },
+            "target": {
+              "x": 448,
+              "y": 352
+            },
+            "screen": {
+              "x": 206,
+              "y": 399
+            },
+            "after": {
+              "x": 456,
+              "y": 352
+            }
+          },
+          {
+            "before": {
+              "x": 456,
+              "y": 352
+            },
+            "target": {
+              "x": 448,
+              "y": 304
+            },
+            "screen": {
+              "x": 206,
+              "y": 351
+            },
+            "after": {
+              "x": 456,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 456,
+              "y": 288
+            },
+            "target": {
+              "x": 368,
+              "y": 304
+            },
+            "screen": {
+              "x": 126,
+              "y": 351
+            },
+            "after": {
+              "x": 368,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 368,
+              "y": 288
+            },
+            "target": {
+              "x": 288,
+              "y": 304
+            },
+            "screen": {
+              "x": 134,
+              "y": 351
+            },
+            "after": {
+              "x": 296,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 296,
+              "y": 288
+            },
+            "target": {
+              "x": 240,
+              "y": 304
+            },
+            "screen": {
+              "x": 158,
+              "y": 351
+            },
+            "after": {
+              "x": 240,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 240,
+              "y": 288
+            },
+            "target": {
+              "x": 336,
+              "y": 304
+            },
+            "screen": {
+              "x": 310,
+              "y": 351
+            },
+            "after": {
+              "x": 336,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 336,
+              "y": 288
+            },
+            "target": {
+              "x": 240,
+              "y": 304
+            },
+            "screen": {
+              "x": 118,
+              "y": 351
+            },
+            "after": {
+              "x": 240,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 240,
+              "y": 288
+            },
+            "target": {
+              "x": 320,
+              "y": 304
+            },
+            "screen": {
+              "x": 294,
+              "y": 351
+            },
+            "after": {
+              "x": 328,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 328,
+              "y": 288
+            },
+            "target": {
+              "x": 400,
+              "y": 304
+            },
+            "screen": {
+              "x": 286,
+              "y": 351
+            },
+            "after": {
+              "x": 400,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 400,
+              "y": 288
+            },
+            "target": {
+              "x": 480,
+              "y": 304
+            },
+            "screen": {
+              "x": 294,
+              "y": 351
+            },
+            "after": {
+              "x": 488,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 488,
+              "y": 288
+            },
+            "target": {
+              "x": 560,
+              "y": 304
+            },
+            "screen": {
+              "x": 286,
+              "y": 351
+            },
+            "after": {
+              "x": 560,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 560,
+              "y": 288
+            },
+            "target": {
+              "x": 640,
+              "y": 304
+            },
+            "screen": {
+              "x": 294,
+              "y": 351
+            },
+            "after": {
+              "x": 648,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 648,
+              "y": 288
+            },
+            "target": {
+              "x": 720,
+              "y": 304
+            },
+            "screen": {
+              "x": 286,
+              "y": 351
+            },
+            "after": {
+              "x": 720,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 720,
+              "y": 288
+            },
+            "target": {
+              "x": 800,
+              "y": 304
+            },
+            "screen": {
+              "x": 294,
+              "y": 351
+            },
+            "after": {
+              "x": 808,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 808,
+              "y": 288
+            },
+            "target": {
+              "x": 880,
+              "y": 304
+            },
+            "screen": {
+              "x": 286,
+              "y": 351
+            },
+            "after": {
+              "x": 880,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 880,
+              "y": 288
+            },
+            "target": {
+              "x": 944,
+              "y": 304
+            },
+            "screen": {
+              "x": 278,
+              "y": 351
+            },
+            "after": {
+              "x": 944,
+              "y": 288
+            }
+          },
+          {
+            "before": {
+              "x": 944,
+              "y": 288
+            },
+            "target": {
+              "x": 944,
+              "y": 384
+            },
+            "screen": {
+              "x": 220,
+              "y": 431
+            },
+            "after": {
+              "x": 944,
+              "y": 384
+            }
+          },
+          {
+            "before": {
+              "x": 944,
+              "y": 384
+            },
+            "target": {
+              "x": 944,
+              "y": 432
+            },
+            "screen": {
+              "x": 220,
+              "y": 479
+            },
+            "after": {
+              "x": 944,
+              "y": 416
+            }
+          }
+        ],
+        "served": [
+          {
+            "name": "tea-preparing",
+            "visible": false
+          },
+          {
+            "name": "tea-desk-cup",
+            "visible": false
+          },
+          {
+            "name": "tea-desk-steam",
+            "visible": false
+          },
+          {
+            "name": "tea-served-cup",
+            "visible": true
+          },
+          {
+            "name": "tea-served-steam",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "mobile reset and natural departure cleanup",
+      "status": "pass",
+      "detail": {
+        "popupButtons": 0
+      }
+    }
+  ],
+  "clients": {
+    "TeaTouch": {
+      "url": "http://localhost:8000/_/r4-tea-touch/localhost:8081/moonlit-r4/moonlit.tmj",
+      "mobileEmulation": true,
+      "errors": [
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.",
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag."
+      ],
+      "console": [
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x214c0802d000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x214c0802d000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x214c0802d000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x214c0802d000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+        },
+        {
+          "type": "warning",
+          "text": "Service Worker registration blocked by Playwright"
+        },
+        {
+          "type": "warning",
+          "text": "saveName: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "warning",
+          "text": "saveTextures: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has a video track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has an audio track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "<MapSubMenu> was created with unknown prop 'last'"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space is destroyed, skipping unregisterSpaceFilter"
+        },
+        {
+          "type": "warning",
+          "text": "Space \"allWorldUser\" was not destroyed properly."
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "<MapSubMenu> was created with unknown prop 'last'"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        }
+      ],
+      "blocked": [],
+      "failedRequests": [],
+      "errorStacks": [
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7",
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7"
+      ]
+    }
+  }
+}

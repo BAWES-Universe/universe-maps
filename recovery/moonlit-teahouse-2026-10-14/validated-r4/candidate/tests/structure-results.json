@@ -1,0 +1,31 @@
+{
+  "passed": 26,
+  "checks": [
+    "native32 finite map",
+    "all layer arrays match map",
+    "door fail-open at authoring",
+    "closed door exactly two threshold cells",
+    "no transport/external script assets",
+    "local asset ground.png",
+    "local asset persistent-glass-frame.png",
+    "local asset furniture.png",
+    "local asset desk-lip.png",
+    "local asset door-frame-0.png",
+    "local asset door-frame-1.png",
+    "local asset door-frame-2.png",
+    "local asset door-frame-3.png",
+    "local asset door-frame-4.png",
+    "local asset roof.png",
+    "local asset collision.png",
+    "local asset collision.png",
+    "local asset water-motion.png",
+    "local asset tea-ritual.png",
+    "roof starts hidden",
+    "decorative roof does not collide",
+    "audio metadata does not collide",
+    "silent audio default",
+    "glass never uses roof layers",
+    "native water has four frames",
+    "no sit/teleport API claim in runtime"
+  ]
+}

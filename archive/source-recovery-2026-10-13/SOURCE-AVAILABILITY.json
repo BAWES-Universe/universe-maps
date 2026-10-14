@@ -1,0 +1,59 @@
+{
+  "old50": {
+    "source_packages": 50,
+    "runtime_packages": 50,
+    "complete_packages_hash_verified": true,
+    "all_bytes_in_github": false
+  },
+  "original12": {
+    "complete_source_packages": 12,
+    "all_bytes_in_github": false
+  },
+  "last_signal_r2": {
+    "complete_source_and_runtime_library_backed": true
+  },
+  "keepers_return_r2": {
+    "runtime_library_backed": true,
+    "full_source_recovered": false,
+    "reconstructed_editable_source_available": true,
+    "reconstructed_runtime_exact_files": 19,
+    "known_failure": "Inherited rejected-teleport/newer-movement race remains reproducible"
+  },
+  "latest_source_gaps": [
+    "Timber Studio r8 full rebuild source",
+    "Reading Conservatory r4 full rebuild source",
+    "Media House r9 source and runtime",
+    "Lighthouse Keeper Return r2 full rebuild source",
+    "33 original H-series source/art/freeze packages"
+  ],
+  "partial_new_maps": [
+    "H009-initial",
+    "H025",
+    "H039"
+  ],
+  "partial_recoveries_are_not_complete_originals": true,
+  "new_live_acceptance": false,
+  "new_deployment": false,
+  "studio_r8_reading_r4": {
+    "original_runtime_fixtures_library_backed": true,
+    "reconstructed_editable_sources_available": true,
+    "exact_runtime_files": 11,
+    "original_source_archives_recovered": false,
+    "live_acceptance": false
+  },
+  "media_house": {
+    "original_r7c_source_runtime_library_backed": true,
+    "r7c_partial_reconstruction_available": true,
+    "r7c_original_runtime_exact_files": 5,
+    "r9_source_runtime_recovered": false,
+    "r9_visual_repairs_recovered": false
+  },
+  "historical_library_archives": {
+    "archives": 181,
+    "members": 9018,
+    "includes_original12": true,
+    "portable_catalogue_library_file_id": "libfile_0309ead2fd348191a9b5152dee02adbf",
+    "catalogue_sha256": "727ae765785a26f9a6d17f635387c20e4fccef3726c7d8fa30cc63dd229e8dc1",
+    "git_core_source_selection": "lean-historical:823 unique authoring/config files plus exact aliases and complete archive/member restore mappings"
+  }
+}

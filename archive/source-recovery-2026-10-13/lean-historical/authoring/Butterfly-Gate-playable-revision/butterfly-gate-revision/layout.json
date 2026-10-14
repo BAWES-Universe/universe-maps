@@ -1,0 +1,1662 @@
+{
+  "tileSize": 32,
+  "mapWidth": 160,
+  "mapHeight": 104,
+  "phase": "gate journey experiential revision",
+  "gate": {
+    "bounds": {
+      "x": 1056,
+      "y": 1664,
+      "width": 960,
+      "height": 1440
+    },
+    "spawn": {
+      "x": 1536,
+      "y": 3000
+    },
+    "threshold": {
+      "x": 1472,
+      "y": 2208,
+      "width": 128,
+      "height": 64
+    }
+  },
+  "campus": {
+    "bounds": {
+      "x": 2144,
+      "y": 128,
+      "width": 2944,
+      "height": 3104
+    },
+    "spawn": {
+      "x": 3648,
+      "y": 1632
+    },
+    "return": {
+      "x": 3520,
+      "y": 3104,
+      "width": 128,
+      "height": 64
+    }
+  },
+  "rooms": [
+    {
+      "id": "learning",
+      "label": "LEARNING HALL",
+      "bounds": {
+        "x": 2272,
+        "y": 336,
+        "width": 640,
+        "height": 592
+      },
+      "door": {
+        "x": 2592,
+        "y": 912
+      },
+      "kind": "learning"
+    },
+    {
+      "id": "events",
+      "label": "THE LANTERN STAGE",
+      "bounds": {
+        "x": 3360,
+        "y": 336,
+        "width": 640,
+        "height": 592
+      },
+      "door": {
+        "x": 3680,
+        "y": 912
+      },
+      "kind": "event"
+    },
+    {
+      "id": "hq",
+      "label": "STUDENTHUB HQ",
+      "bounds": {
+        "x": 2272,
+        "y": 1168,
+        "width": 896,
+        "height": 752
+      },
+      "door": {
+        "x": 2720,
+        "y": 1904
+      },
+      "kind": "hq"
+    },
+    {
+      "id": "creative",
+      "label": "MEDIA + DESIGN",
+      "bounds": {
+        "x": 4320,
+        "y": 976,
+        "width": 640,
+        "height": 592
+      },
+      "door": {
+        "x": 4640,
+        "y": 1552
+      },
+      "kind": "creative"
+    },
+    {
+      "id": "research",
+      "label": "R&D RESEARCH LAB",
+      "bounds": {
+        "x": 4320,
+        "y": 1968,
+        "width": 640,
+        "height": 528
+      },
+      "door": {
+        "x": 4640,
+        "y": 2480
+      },
+      "kind": "research"
+    },
+    {
+      "id": "operations",
+      "label": "OPERATIONS + SALES",
+      "bounds": {
+        "x": 2304,
+        "y": 2352,
+        "width": 864,
+        "height": 528
+      },
+      "door": {
+        "x": 2736,
+        "y": 2864
+      },
+      "kind": "operations"
+    }
+  ],
+  "proofPositions": {
+    "learning-entry": [
+      2592,
+      912
+    ],
+    "learning-lobby": [
+      2480,
+      784
+    ],
+    "learning-teacher": [
+      2656,
+      448
+    ],
+    "events-entry": [
+      3680,
+      912
+    ],
+    "events-lobby": [
+      3680,
+      784
+    ],
+    "events-speaker": [
+      3680,
+      488
+    ],
+    "events-audience": [
+      3680,
+      736
+    ],
+    "hq-entry": [
+      2720,
+      1904
+    ],
+    "hq-lobby": [
+      2720,
+      1840
+    ],
+    "hq-cedar": [
+      2480,
+      1344
+    ],
+    "hq-olive": [
+      2800,
+      1344
+    ],
+    "hq-willow": [
+      3120,
+      1344
+    ],
+    "hq-reception": [
+      2408,
+      1800
+    ],
+    "hq-teamwork": [
+      2528,
+      1664
+    ],
+    "creative-entry": [
+      4640,
+      1552
+    ],
+    "creative-lobby": [
+      4640,
+      1424
+    ],
+    "creative-image-workbench": [
+      4432,
+      1168
+    ],
+    "creative-music-workbench": [
+      4800,
+      1168
+    ],
+    "research-entry": [
+      4640,
+      2480
+    ],
+    "research-lobby": [
+      4640,
+      2352
+    ],
+    "research-workbench": [
+      4496,
+      2304
+    ],
+    "operations-entry": [
+      2736,
+      2864
+    ],
+    "operations-lobby": [
+      2736,
+      2736
+    ],
+    "operations-station": [
+      2496,
+      2560
+    ],
+    "sales-station": [
+      2960,
+      2560
+    ],
+    "fountain": [
+      3648,
+      1568
+    ],
+    "student-commons": [
+      3648,
+      1968
+    ],
+    "market-booth-1": [
+      3376,
+      2480
+    ],
+    "market-booth-2": [
+      3904,
+      2480
+    ],
+    "market-booth-3": [
+      3376,
+      2768
+    ],
+    "market-booth-4": [
+      3904,
+      2768
+    ],
+    "campus-entry": [
+      3648,
+      1632
+    ],
+    "gate-return": [
+      3584,
+      3072
+    ]
+  },
+  "placements": [
+    {
+      "asset": "teacher",
+      "x": 2568,
+      "y": 369,
+      "width": 52,
+      "height": 48,
+      "prefix": "learning"
+    },
+    {
+      "asset": "bookshelf",
+      "x": 2288,
+      "y": 334,
+      "width": 187,
+      "height": 96,
+      "prefix": "learning"
+    },
+    {
+      "asset": "plant",
+      "x": 2840,
+      "y": 356,
+      "width": 48,
+      "height": 48,
+      "prefix": "learning"
+    },
+    {
+      "asset": "desk",
+      "x": 2352,
+      "y": 504,
+      "width": 63,
+      "height": 44,
+      "prefix": "learning"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2370,
+      "y": 564,
+      "width": 28,
+      "height": 32,
+      "prefix": "learning"
+    },
+    {
+      "asset": "desk",
+      "x": 2560,
+      "y": 504,
+      "width": 63,
+      "height": 44,
+      "prefix": "learning"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2578,
+      "y": 564,
+      "width": 28,
+      "height": 32,
+      "prefix": "learning"
+    },
+    {
+      "asset": "desk",
+      "x": 2768,
+      "y": 504,
+      "width": 63,
+      "height": 44,
+      "prefix": "learning"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2786,
+      "y": 564,
+      "width": 28,
+      "height": 32,
+      "prefix": "learning"
+    },
+    {
+      "asset": "desk",
+      "x": 2352,
+      "y": 632,
+      "width": 63,
+      "height": 44,
+      "prefix": "learning"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2370,
+      "y": 692,
+      "width": 28,
+      "height": 32,
+      "prefix": "learning"
+    },
+    {
+      "asset": "desk",
+      "x": 2560,
+      "y": 632,
+      "width": 63,
+      "height": 44,
+      "prefix": "learning"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2578,
+      "y": 692,
+      "width": 28,
+      "height": 32,
+      "prefix": "learning"
+    },
+    {
+      "asset": "desk",
+      "x": 2768,
+      "y": 632,
+      "width": 63,
+      "height": 44,
+      "prefix": "learning"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2786,
+      "y": 692,
+      "width": 28,
+      "height": 32,
+      "prefix": "learning"
+    },
+    {
+      "asset": "desk",
+      "x": 2352,
+      "y": 760,
+      "width": 63,
+      "height": 44,
+      "prefix": "learning"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2370,
+      "y": 820,
+      "width": 28,
+      "height": 32,
+      "prefix": "learning"
+    },
+    {
+      "asset": "desk",
+      "x": 2560,
+      "y": 760,
+      "width": 63,
+      "height": 44,
+      "prefix": "learning"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2578,
+      "y": 820,
+      "width": 28,
+      "height": 32,
+      "prefix": "learning"
+    },
+    {
+      "asset": "desk",
+      "x": 2768,
+      "y": 760,
+      "width": 63,
+      "height": 44,
+      "prefix": "learning"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2786,
+      "y": 820,
+      "width": 28,
+      "height": 32,
+      "prefix": "learning"
+    },
+    {
+      "asset": "podium",
+      "x": 3656,
+      "y": 400,
+      "width": 40,
+      "height": 54,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3456,
+      "y": 560,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3520,
+      "y": 560,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3584,
+      "y": 560,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3760,
+      "y": 560,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3824,
+      "y": 560,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3888,
+      "y": 560,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3456,
+      "y": 640,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3520,
+      "y": 640,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3584,
+      "y": 640,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3760,
+      "y": 640,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3824,
+      "y": 640,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3888,
+      "y": 640,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3456,
+      "y": 720,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3520,
+      "y": 720,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3584,
+      "y": 720,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3760,
+      "y": 720,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3824,
+      "y": 720,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3888,
+      "y": 720,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3456,
+      "y": 800,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3520,
+      "y": 800,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3584,
+      "y": 800,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3760,
+      "y": 800,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3824,
+      "y": 800,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3888,
+      "y": 800,
+      "width": 28,
+      "height": 32,
+      "prefix": "events"
+    },
+    {
+      "asset": "meeting_table",
+      "x": 2336,
+      "y": 1296,
+      "width": 121,
+      "height": 76,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_s",
+      "x": 2348,
+      "y": 1224,
+      "width": 26,
+      "height": 37,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2348,
+      "y": 1376,
+      "width": 28,
+      "height": 32,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_s",
+      "x": 2412,
+      "y": 1224,
+      "width": 26,
+      "height": 37,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2412,
+      "y": 1376,
+      "width": 28,
+      "height": 32,
+      "prefix": "hq"
+    },
+    {
+      "asset": "plant",
+      "x": 2284,
+      "y": 1180,
+      "width": 48,
+      "height": 48,
+      "prefix": "hq"
+    },
+    {
+      "asset": "meeting_table",
+      "x": 2656,
+      "y": 1296,
+      "width": 121,
+      "height": 76,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_s",
+      "x": 2668,
+      "y": 1224,
+      "width": 26,
+      "height": 37,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2668,
+      "y": 1376,
+      "width": 28,
+      "height": 32,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_s",
+      "x": 2732,
+      "y": 1224,
+      "width": 26,
+      "height": 37,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2732,
+      "y": 1376,
+      "width": 28,
+      "height": 32,
+      "prefix": "hq"
+    },
+    {
+      "asset": "plant",
+      "x": 2604,
+      "y": 1180,
+      "width": 48,
+      "height": 48,
+      "prefix": "hq"
+    },
+    {
+      "asset": "meeting_table",
+      "x": 2976,
+      "y": 1296,
+      "width": 121,
+      "height": 76,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_s",
+      "x": 2988,
+      "y": 1224,
+      "width": 26,
+      "height": 37,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2988,
+      "y": 1376,
+      "width": 28,
+      "height": 32,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_s",
+      "x": 3052,
+      "y": 1224,
+      "width": 26,
+      "height": 37,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3052,
+      "y": 1376,
+      "width": 28,
+      "height": 32,
+      "prefix": "hq"
+    },
+    {
+      "asset": "plant",
+      "x": 2924,
+      "y": 1180,
+      "width": 48,
+      "height": 48,
+      "prefix": "hq"
+    },
+    {
+      "asset": "desk",
+      "x": 2336,
+      "y": 1536,
+      "width": 63,
+      "height": 44,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2354,
+      "y": 1600,
+      "width": 28,
+      "height": 32,
+      "prefix": "hq"
+    },
+    {
+      "asset": "desk",
+      "x": 2496,
+      "y": 1536,
+      "width": 63,
+      "height": 44,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2514,
+      "y": 1600,
+      "width": 28,
+      "height": 32,
+      "prefix": "hq"
+    },
+    {
+      "asset": "desk",
+      "x": 2896,
+      "y": 1536,
+      "width": 63,
+      "height": 44,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2914,
+      "y": 1600,
+      "width": 28,
+      "height": 32,
+      "prefix": "hq"
+    },
+    {
+      "asset": "desk",
+      "x": 3056,
+      "y": 1536,
+      "width": 63,
+      "height": 44,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3074,
+      "y": 1600,
+      "width": 28,
+      "height": 32,
+      "prefix": "hq"
+    },
+    {
+      "asset": "couch_s",
+      "x": 2668,
+      "y": 1506,
+      "width": 96,
+      "height": 56,
+      "prefix": "hq"
+    },
+    {
+      "asset": "couch_e",
+      "x": 2592,
+      "y": 1570,
+      "width": 40,
+      "height": 55,
+      "prefix": "hq"
+    },
+    {
+      "asset": "couch_w",
+      "x": 2832,
+      "y": 1570,
+      "width": 40,
+      "height": 54,
+      "prefix": "hq"
+    },
+    {
+      "asset": "coffee",
+      "x": 2704,
+      "y": 1582,
+      "width": 44,
+      "height": 48,
+      "prefix": "hq"
+    },
+    {
+      "asset": "reception",
+      "x": 2336,
+      "y": 1700,
+      "width": 143,
+      "height": 104,
+      "prefix": "hq"
+    },
+    {
+      "asset": "chair_s",
+      "x": 2392,
+      "y": 1658,
+      "width": 26,
+      "height": 37,
+      "prefix": "hq"
+    },
+    {
+      "asset": "plant",
+      "x": 2304,
+      "y": 1772,
+      "width": 48,
+      "height": 48,
+      "prefix": "hq"
+    },
+    {
+      "asset": "plant",
+      "x": 3088,
+      "y": 1772,
+      "width": 48,
+      "height": 48,
+      "prefix": "hq"
+    },
+    {
+      "asset": "workbench",
+      "x": 4352,
+      "y": 1032,
+      "width": 157,
+      "height": 72,
+      "prefix": "creative"
+    },
+    {
+      "asset": "chair_n",
+      "x": 4416,
+      "y": 1128,
+      "width": 28,
+      "height": 32,
+      "prefix": "creative"
+    },
+    {
+      "asset": "workbench",
+      "x": 4736,
+      "y": 1032,
+      "width": 157,
+      "height": 72,
+      "prefix": "creative"
+    },
+    {
+      "asset": "chair_n",
+      "x": 4800,
+      "y": 1128,
+      "width": 28,
+      "height": 32,
+      "prefix": "creative"
+    },
+    {
+      "asset": "meeting_table",
+      "x": 4384,
+      "y": 1264,
+      "width": 121,
+      "height": 76,
+      "prefix": "creative"
+    },
+    {
+      "asset": "chair_s",
+      "x": 4420,
+      "y": 1208,
+      "width": 26,
+      "height": 37,
+      "prefix": "creative"
+    },
+    {
+      "asset": "chair_n",
+      "x": 4420,
+      "y": 1376,
+      "width": 28,
+      "height": 32,
+      "prefix": "creative"
+    },
+    {
+      "asset": "couch_s",
+      "x": 4752,
+      "y": 1238,
+      "width": 96,
+      "height": 56,
+      "prefix": "creative"
+    },
+    {
+      "asset": "coffee",
+      "x": 4776,
+      "y": 1328,
+      "width": 44,
+      "height": 48,
+      "prefix": "creative"
+    },
+    {
+      "asset": "plant",
+      "x": 4880,
+      "y": 1024,
+      "width": 48,
+      "height": 48,
+      "prefix": "creative"
+    },
+    {
+      "asset": "bookshelf",
+      "x": 4336,
+      "y": 1966,
+      "width": 187,
+      "height": 96,
+      "prefix": "research"
+    },
+    {
+      "asset": "bookshelf",
+      "x": 4736,
+      "y": 1966,
+      "width": 187,
+      "height": 96,
+      "prefix": "research"
+    },
+    {
+      "asset": "workbench",
+      "x": 4400,
+      "y": 2160,
+      "width": 157,
+      "height": 72,
+      "prefix": "research"
+    },
+    {
+      "asset": "chair_n",
+      "x": 4464,
+      "y": 2256,
+      "width": 28,
+      "height": 32,
+      "prefix": "research"
+    },
+    {
+      "asset": "workbench",
+      "x": 4752,
+      "y": 2160,
+      "width": 157,
+      "height": 72,
+      "prefix": "research"
+    },
+    {
+      "asset": "chair_n",
+      "x": 4816,
+      "y": 2256,
+      "width": 28,
+      "height": 32,
+      "prefix": "research"
+    },
+    {
+      "asset": "meeting_table",
+      "x": 4576,
+      "y": 2064,
+      "width": 121,
+      "height": 76,
+      "prefix": "research"
+    },
+    {
+      "asset": "plant",
+      "x": 4352,
+      "y": 2312,
+      "width": 48,
+      "height": 48,
+      "prefix": "research"
+    },
+    {
+      "asset": "plant",
+      "x": 4872,
+      "y": 2312,
+      "width": 48,
+      "height": 48,
+      "prefix": "research"
+    },
+    {
+      "asset": "desk",
+      "x": 2368,
+      "y": 2432,
+      "width": 63,
+      "height": 44,
+      "prefix": "operations"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2386,
+      "y": 2512,
+      "width": 28,
+      "height": 32,
+      "prefix": "operations"
+    },
+    {
+      "asset": "desk",
+      "x": 2528,
+      "y": 2432,
+      "width": 63,
+      "height": 44,
+      "prefix": "operations"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2546,
+      "y": 2512,
+      "width": 28,
+      "height": 32,
+      "prefix": "operations"
+    },
+    {
+      "asset": "desk",
+      "x": 2848,
+      "y": 2432,
+      "width": 63,
+      "height": 44,
+      "prefix": "operations"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2866,
+      "y": 2512,
+      "width": 28,
+      "height": 32,
+      "prefix": "operations"
+    },
+    {
+      "asset": "desk",
+      "x": 3008,
+      "y": 2432,
+      "width": 63,
+      "height": 44,
+      "prefix": "operations"
+    },
+    {
+      "asset": "chair_n",
+      "x": 3026,
+      "y": 2512,
+      "width": 28,
+      "height": 32,
+      "prefix": "operations"
+    },
+    {
+      "asset": "meeting_table",
+      "x": 2416,
+      "y": 2608,
+      "width": 121,
+      "height": 76,
+      "prefix": "operations"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2448,
+      "y": 2712,
+      "width": 28,
+      "height": 32,
+      "prefix": "operations"
+    },
+    {
+      "asset": "meeting_table",
+      "x": 2880,
+      "y": 2608,
+      "width": 121,
+      "height": 76,
+      "prefix": "operations"
+    },
+    {
+      "asset": "chair_n",
+      "x": 2912,
+      "y": 2712,
+      "width": 28,
+      "height": 32,
+      "prefix": "operations"
+    },
+    {
+      "asset": "outdoor-fountain",
+      "x": 3552,
+      "y": 1328,
+      "width": 192,
+      "height": 192,
+      "prefix": "campus"
+    },
+    {
+      "asset": "couch_s",
+      "x": 3424,
+      "y": 1760,
+      "width": 96,
+      "height": 56,
+      "prefix": "campus"
+    },
+    {
+      "asset": "couch_e",
+      "x": 3344,
+      "y": 1816,
+      "width": 40,
+      "height": 55,
+      "prefix": "campus"
+    },
+    {
+      "asset": "couch_w",
+      "x": 3584,
+      "y": 1816,
+      "width": 40,
+      "height": 54,
+      "prefix": "campus"
+    },
+    {
+      "asset": "coffee",
+      "x": 3456,
+      "y": 1840,
+      "width": 44,
+      "height": 48,
+      "prefix": "campus"
+    },
+    {
+      "asset": "couch_s",
+      "x": 3776,
+      "y": 1760,
+      "width": 96,
+      "height": 56,
+      "prefix": "campus"
+    },
+    {
+      "asset": "couch_e",
+      "x": 3696,
+      "y": 1816,
+      "width": 40,
+      "height": 55,
+      "prefix": "campus"
+    },
+    {
+      "asset": "couch_w",
+      "x": 3936,
+      "y": 1816,
+      "width": 40,
+      "height": 54,
+      "prefix": "campus"
+    },
+    {
+      "asset": "coffee",
+      "x": 3808,
+      "y": 1840,
+      "width": 44,
+      "height": 48,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-booth-navy",
+      "x": 3312,
+      "y": 2304,
+      "width": 128,
+      "height": 128,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-booth-teal",
+      "x": 3840,
+      "y": 2304,
+      "width": 128,
+      "height": 128,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-booth-navy",
+      "x": 3312,
+      "y": 2592,
+      "width": 128,
+      "height": 128,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-booth-teal",
+      "x": 3840,
+      "y": 2592,
+      "width": 128,
+      "height": 128,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-willow",
+      "x": 3240,
+      "y": 1088,
+      "width": 128,
+      "height": 160,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-olive",
+      "x": 3984,
+      "y": 1096,
+      "width": 160,
+      "height": 160,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-olive",
+      "x": 3216,
+      "y": 1552,
+      "width": 160,
+      "height": 160,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-willow",
+      "x": 4000,
+      "y": 1552,
+      "width": 128,
+      "height": 160,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-olive",
+      "x": 3264,
+      "y": 2104,
+      "width": 160,
+      "height": 160,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-olive",
+      "x": 4016,
+      "y": 2112,
+      "width": 160,
+      "height": 160,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-willow",
+      "x": 2256,
+      "y": 1920,
+      "width": 128,
+      "height": 160,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-olive",
+      "x": 3040,
+      "y": 1952,
+      "width": 160,
+      "height": 160,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-olive",
+      "x": 4120,
+      "y": 2696,
+      "width": 160,
+      "height": 160,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-willow",
+      "x": 4680,
+      "y": 2704,
+      "width": 128,
+      "height": 160,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-olive",
+      "x": 2384,
+      "y": 2912,
+      "width": 160,
+      "height": 160,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-olive",
+      "x": 4800,
+      "y": 2496,
+      "width": 160,
+      "height": 160,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-garden",
+      "x": 3320,
+      "y": 1256,
+      "width": 128,
+      "height": 96,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-garden",
+      "x": 3904,
+      "y": 1264,
+      "width": 128,
+      "height": 96,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-garden",
+      "x": 3368,
+      "y": 1616,
+      "width": 128,
+      "height": 96,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-garden",
+      "x": 3880,
+      "y": 1624,
+      "width": 128,
+      "height": 96,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-garden",
+      "x": 3776,
+      "y": 2064,
+      "width": 128,
+      "height": 96,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-garden",
+      "x": 3200,
+      "y": 2704,
+      "width": 128,
+      "height": 96,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-garden",
+      "x": 4016,
+      "y": 2704,
+      "width": 128,
+      "height": 96,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-garden",
+      "x": 4096,
+      "y": 1760,
+      "width": 128,
+      "height": 96,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-garden",
+      "x": 4720,
+      "y": 1760,
+      "width": 128,
+      "height": 96,
+      "prefix": "campus"
+    },
+    {
+      "asset": "outdoor-garden",
+      "x": 2880,
+      "y": 864,
+      "width": 128,
+      "height": 96,
+      "prefix": "campus"
+    },
+    {
+      "asset": "streetlamp",
+      "x": 3416,
+      "y": 1000,
+      "width": 32,
+      "height": 91,
+      "prefix": "campus"
+    },
+    {
+      "asset": "streetlamp",
+      "x": 3736,
+      "y": 1000,
+      "width": 32,
+      "height": 91,
+      "prefix": "campus"
+    },
+    {
+      "asset": "streetlamp",
+      "x": 3416,
+      "y": 1600,
+      "width": 32,
+      "height": 91,
+      "prefix": "campus"
+    },
+    {
+      "asset": "streetlamp",
+      "x": 3768,
+      "y": 1600,
+      "width": 32,
+      "height": 91,
+      "prefix": "campus"
+    },
+    {
+      "asset": "streetlamp",
+      "x": 3280,
+      "y": 1856,
+      "width": 32,
+      "height": 91,
+      "prefix": "campus"
+    },
+    {
+      "asset": "streetlamp",
+      "x": 4104,
+      "y": 1856,
+      "width": 32,
+      "height": 91,
+      "prefix": "campus"
+    },
+    {
+      "asset": "streetlamp",
+      "x": 3464,
+      "y": 2184,
+      "width": 32,
+      "height": 91,
+      "prefix": "campus"
+    },
+    {
+      "asset": "streetlamp",
+      "x": 3736,
+      "y": 2184,
+      "width": 32,
+      "height": 91,
+      "prefix": "campus"
+    },
+    {
+      "asset": "streetlamp",
+      "x": 3464,
+      "y": 2792,
+      "width": 32,
+      "height": 91,
+      "prefix": "campus"
+    },
+    {
+      "asset": "streetlamp",
+      "x": 3736,
+      "y": 2792,
+      "width": 32,
+      "height": 91,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 2304,
+      "y": 176,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 2464,
+      "y": 176,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 2624,
+      "y": 176,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 2784,
+      "y": 176,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 3392,
+      "y": 176,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 3552,
+      "y": 176,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 3712,
+      "y": 176,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 3872,
+      "y": 176,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 3328,
+      "y": 1312,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 3328,
+      "y": 1472,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 3904,
+      "y": 1312,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 3904,
+      "y": 1472,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 3248,
+      "y": 2032,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 4016,
+      "y": 2032,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 4256,
+      "y": 1632,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 4832,
+      "y": 1632,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 4256,
+      "y": 2576,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    },
+    {
+      "asset": "border-planter",
+      "x": 4832,
+      "y": 2576,
+      "width": 64,
+      "height": 30,
+      "prefix": "campus"
+    }
+  ]
+}

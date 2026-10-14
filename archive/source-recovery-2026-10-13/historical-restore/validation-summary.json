@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-10-13T11:01:14Z",
+  "scope": "Local archive verification and temporary byte restoration; no builds, uploads, source edits, or acceptance claims.",
+  "counts": {
+    "archives": 181,
+    "passed": 181,
+    "members": 9018,
+    "archive_bytes": 3741310564,
+    "member_bytes": 4124093000,
+    "manifest_security_hold_labels_hashed": 6,
+    "errors": 0
+  },
+  "verify_only_created_output": false,
+  "manifest_hashes_unchanged": true,
+  "clean_restore_samples": [
+    {
+      "manifest": "native32-same-tile-replan-reproduction.json",
+      "status": "passed",
+      "independently_hashed_restored_files": 9,
+      "first_restore": {
+        "existing": 0,
+        "manifest_security_hold_labels": 0,
+        "verified": 9,
+        "written": 9
+      },
+      "second_restore": {
+        "existing": 9,
+        "manifest_security_hold_labels": 0,
+        "verified": 9,
+        "written": 0
+      },
+      "post_restore_verify": {
+        "existing": 9,
+        "manifest_security_hold_labels": 0,
+        "verified": 9,
+        "written": 0
+      },
+      "idempotent_bytes_and_mtimes": true
+    },
+    {
+      "manifest": "timber-gym-only-r1-review2-source.json",
+      "status": "passed",
+      "independently_hashed_restored_files": 11,
+      "first_restore": {
+        "existing": 0,
+        "manifest_security_hold_labels": 0,
+        "verified": 11,
+        "written": 11
+      },
+      "second_restore": {
+        "existing": 11,
+        "manifest_security_hold_labels": 0,
+        "verified": 11,
+        "written": 0
+      },
+      "post_restore_verify": {
+        "existing": 11,
+        "manifest_security_hold_labels": 0,
+        "verified": 11,
+        "written": 0
+      },
+      "idempotent_bytes_and_mtimes": true
+    }
+  ],
+  "safety_tests": {
+    "command": "python3 -B -m unittest -v test_historical.py test_core.py",
+    "passed": 29,
+    "failed": 0,
+    "coverage": [
+      "outer/member SHA-256 and sizes; member Git blob SHA-1",
+      "exact complete original file set",
+      "unsafe paths, links, case collisions and file/directory conflicts",
+      "no overwrite of conflicting bytes",
+      "identical existing files and idempotence",
+      "alias metadata never used as an extraction path",
+      "no verify-only output or bytecode files, including CLI without python -B",
+      "original generic behavior retained"
+    ]
+  },
+  "final_code_sha256": {
+    "restore_core.py": "e62c5d15fddb2200514fd355b22b30901f1c620fe06e5693aaac7956a4624667",
+    "restore_historical.py": "608836edd67a26dec5759af72e8dce0a469e61bec9c3b4e4eef52e771c06e311",
+    "test_core.py": "953c75e08209ee0f9a646375f91efb2a89e4119374f7ddfda3756857f29cc202",
+    "test_historical.py": "bd2be8a602453fe2ec886561c9e340ff5c343232945a827f91df909e23ed4eb4",
+    "validate_snapshot.py": "1c0b5919aa23951518fa88bbd60f2f3962a71811900ed68fb98cc08fa465ea6f"
+  },
+  "original_generic_engine_sha256": "5713f6c8abc235a9ecf8361b71fdca53e8ffedef75209f710abd1fea5e09c2f0",
+  "detailed_receipt": {
+    "filename": "validation-receipt.json",
+    "sha256": "6cc2aa26d2844d5f74059414409de4370598d39465ab33acff8b2476e295ad13",
+    "size_bytes": 111331,
+    "in_git_payload": false
+  },
+  "historical_label_note": "All six security_hold labels were verified as original metadata. Separate review cleared these six files as fixture/encoded-image false positives; their test sources remain outside lean Git scope.",
+  "limits": [
+    "Local Library-materialized bytes were verified; future Library availability is not established.",
+    "No map builds, runtime execution, fresh-secret-scan, GitHub asset availability, deployment, or acceptance is claimed.",
+    "Temporary sample outputs were removed after checks."
+  ],
+  "elapsed_seconds": 114.341
+}

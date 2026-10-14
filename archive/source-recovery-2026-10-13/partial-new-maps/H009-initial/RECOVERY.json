@@ -1,0 +1,212 @@
+{
+  "status": "PARTIAL_LITERAL_RECOVERY_EARLIER_UNFROZEN_NOT_H009_R3",
+  "originalScope": "H009 initial candidate checkpoint at2026-10-13 04:19 UTC, author main-aisle width gate blocked, no READY/freeze",
+  "recoveredAtUTC": "2026-10-13T05:50:00Z",
+  "root": "/workspace/shared/recovery/H009-initial",
+  "originalCandidateManifestSHA256KnownOnly": "9ee58852c3f2fe339d3427fbf0c14ed77f11212f478214a6e6befc9a1e31a9a9",
+  "originalCandidateManifestBytesRecovered": false,
+  "laterH009r3HashSuppliedByParent": "a474efdf0a884bc7248c75bd70cd0d2113858ab34d54c40371ffcfef5aa1aea3",
+  "initialControllerSHA256Now": "63833366f98e31a3629de3fe603d4c64624053314d0e7e9b598e38f3057e906d",
+  "initialRuntimePrefixCalculationSHA256": "0d0a805ff6598212277a960e1342a6f9267714bb20e737cab952df1964b610e9",
+  "matchesLaterH009r3": false,
+  "artifactRecovery": {
+    "originalGeneratedPNGs": 0,
+    "prompts": 8,
+    "runtimeFiles": 0,
+    "originalReviewPNGs": 0,
+    "originalValidationReceipts": 0,
+    "historicalHashMatchedNativeHeadMasks": 1
+  },
+  "validationNow": "Python AST and node --check only. No full map rebuild without original art; no original proof recreated.",
+  "missing": [
+    "All8 generated PNG masters",
+    "Runtime atlases/TMJ/WAM/controller artifact",
+    "Original evidence JSON/logs and review PNGs",
+    "Original CANDIDATE manifest full bytes",
+    "Original AUTHOR-CHECKPOINT full document",
+    "source/woka-proof.png",
+    "source/engine-api original copied files",
+    "tests/native/native-runtime-portable.cjs",
+    "tests/native/extracted-current-source.cjs",
+    "tests/native/easystar-0.4.4.js",
+    "tests/native/source-method-manifest.json",
+    "Original licenses"
+  ],
+  "files": {
+    "README.md": {
+      "bytes": 4143,
+      "sha256": "eadd89fc200e2bdc022fb2cdf64930935659dbcccb3c70d8463aa7cd9298fd46",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "RECOVERY-README.md": {
+      "bytes": 3144,
+      "sha256": "000f38c64d7686705442dea7e6b904192e333b9d28653f8fdd19a97fa6f013a2",
+      "recoveryMethod": "New recovery provenance/inventory, not an original project artifact"
+    },
+    "art/RECOVERED-ARTIFACT-REFERENCES.json": {
+      "bytes": 3814,
+      "sha256": "18db216b994d88418375ccb3ae7b86b9adcac3f4113f52f8064429e4e33a7d2b",
+      "recoveryMethod": "New recovery provenance/inventory, not an original project artifact"
+    },
+    "art/cam-house-r1-prompt.txt": {
+      "bytes": 1426,
+      "sha256": "d74c495d68dbc132bdcd606d8716de834b3841608dbc890fb78feca16bb6b23d",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "art/orchard-phase2-prompt.txt": {
+      "bytes": 893,
+      "sha256": "47c8c21d45212e1ce20b9afcfa8270247c18a178a5e36396483a59a9336afe2c",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "art/orchard-phase3-prompt.txt": {
+      "bytes": 944,
+      "sha256": "02925f9508929b8e416d3a995b967713cfc79db3d6d27a84882578a36508f134",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "art/orchard-r1-prompt.txt": {
+      "bytes": 2033,
+      "sha256": "b60fa9c35cf97b59daf72482c00994c0d0a37d31a9daed5f06c97ed95ef9abf3",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "art/orchard-r2-prompt.txt": {
+      "bytes": 954,
+      "sha256": "a668fcc1dd12cb2cc8eab75f3f2f1c4f281b31534e08f642724eccb785748001",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "art/orchard-r3-prompt.txt": {
+      "bytes": 763,
+      "sha256": "c573cf26076ea0d156cf854886983eb9253e76413001cef13c549bc37bec4d7e",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "art/orchard-r4-prompt.txt": {
+      "bytes": 882,
+      "sha256": "b00dc5867542f3e07f9ce8844f7cc8d0240b0dd6a7fcbd2e1e63e6187c2d45c5",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "art/orchard-r5-prompt.txt": {
+      "bytes": 925,
+      "sha256": "6647c03624e844251813f484456af230b19edc2551cc5a849361744aa6e6ed7b",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "evidence/recovered-head-mask-provenance.json": {
+      "bytes": 2299,
+      "sha256": "da3f3e810fc046c59b17bc979213a21cf27c0cfc89ff2c7ab948d08364e49561",
+      "recoveryMethod": "New recovery provenance/inventory, not an original project artifact"
+    },
+    "source/experience.js": {
+      "bytes": 9028,
+      "sha256": "63833366f98e31a3629de3fe603d4c64624053314d0e7e9b598e38f3057e906d",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "source/layout-definition.json": {
+      "bytes": 44349,
+      "sha256": "55c71a0bcdb0dc82ca8b69da7c769f201c6b57f4ed5667d4af4e8d88894ba996",
+      "recoveryMethod": "Deterministic derivative of recovered literal tools/define-layout.py, generated during recovery; not a retrieved historical artifact"
+    },
+    "source/native-head-union.json": {
+      "bytes": 4279,
+      "sha256": "497b44a8b41b74edd62ebf9d266448183d7805b1efb92ad411fad51315f66581",
+      "recoveryMethod": "Recovered archive bytes match historical H009 SHA256 exactly"
+    },
+    "tests/full-floor.py": {
+      "bytes": 2571,
+      "sha256": "4db3036df5f5aae8d9e97d1b544e09534edec6d196d3dbbed706cadbdef23cb4",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tests/head-audit.py": {
+      "bytes": 669,
+      "sha256": "e7925636bf551e67347e1c7ce22bec31091e15153076b0524c5e732daa5dd800",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tests/interaction.cjs": {
+      "bytes": 6864,
+      "sha256": "fbc1688c36958305ce14788aabf911af6caba315715d2bdfcc88e3daa3420d6b",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tests/model-geometry.py": {
+      "bytes": 1932,
+      "sha256": "9dd02f3e259c1d0d81c265bb7d97138c99c63dd99b5d3873e0a036c3511cd656",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tests/native/coverage.cjs": {
+      "bytes": 5901,
+      "sha256": "54f0285d7f329c441024fb9116d164714571ad3c08b11dd5558e430f3b076597",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tests/native/routes.cjs": {
+      "bytes": 5755,
+      "sha256": "69140f9cdd9f80e72a9bfc744c141817cc5dad5d019901ed7936e70764079472",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tests/offline_audit_lib.py": {
+      "bytes": 6511,
+      "sha256": "dc9c2da5feb5ca098261b7039a19f8bf46cf941f960066c1d94adff587c48578",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tests/physical-footprints.py": {
+      "bytes": 1325,
+      "sha256": "287f7a5a1b31f60349184557fbe4893fc758e664e682fc1f427fdb5666100360",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tests/seat-contact.py": {
+      "bytes": 3103,
+      "sha256": "94b2e90e62747a116894193d96b7524b732e1cbc46810731ba3e0980eef38758",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tests/six-scale-states.py": {
+      "bytes": 2345,
+      "sha256": "2372571df3c7890b0bbd98a03ef2bc96b6148d5d4f4416050ebb034a4e5bfcb7",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tests/spawn.cjs": {
+      "bytes": 3148,
+      "sha256": "ffc4716d724658b13928241060585e7c65a4f3cd9245ebce042d78504352275b",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tests/static-scales.py": {
+      "bytes": 1310,
+      "sha256": "8ebdc4bb8021c8f6f31ba719b746be298747a1b93502264afe13d6e1afc1bbfa",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tests/structure.py": {
+      "bytes": 4021,
+      "sha256": "11e8bd0aaff0e393933e4a82f1c165cb6941d299e0cb8c66d7bc0bf86effc32a",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tests/transition-contract.cjs": {
+      "bytes": 14166,
+      "sha256": "827f30c431106b69552452fd57244a3259ce44374dc4729e036187f013bb2d53",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tools/build.py": {
+      "bytes": 6216,
+      "sha256": "36f64f310b6e4aa3c70768636d18de726f3fbc1f600efe4242501c143d525abb",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tools/clean-rebuild.py": {
+      "bytes": 2025,
+      "sha256": "ccf4401c91c0da664b635cdb1d656d001f52f5b041d241cb9a2c98155ee035f2",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tools/define-layout.py": {
+      "bytes": 9593,
+      "sha256": "99eaa5ab221b5fa6dde1df11021fbe522d1d066058aa1f3c9d62197099667be7",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tools/freeze.py": {
+      "bytes": 463,
+      "sha256": "6510ed2457d3d442f3916a5c9a307e6d1a7ac7e73603127ad14db5cebf26f604",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tools/rebuild.sh": {
+      "bytes": 1089,
+      "sha256": "b90f366aa97981d89fdc4b4aa163a0c88331e6e66b3fb7f9b7764a29991b1d47",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    },
+    "tools/render.py": {
+      "bytes": 3130,
+      "sha256": "06426d525ccb49f3dbf1ba92823bd2eaa713e908b3c7cbbaabb62fe5e6bfbc49",
+      "recoveryMethod": "Verbatim retained tool-call literal or printed source with exact recorded substitutions; historical whole-file hash unavailable"
+    }
+  }
+}

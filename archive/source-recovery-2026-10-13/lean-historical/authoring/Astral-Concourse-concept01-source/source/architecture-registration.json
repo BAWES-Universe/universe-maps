@@ -1,0 +1,36 @@
+{
+  "source": "grand-hall-shell-v02.png",
+  "sourceSize": [
+    1374,
+    1145
+  ],
+  "runtimeSize": [
+    1536,
+    1280
+  ],
+  "stageAbove400UnchangedAfterNormalization": true,
+  "lowerHallOldX": [
+    0,
+    192,
+    528,
+    624,
+    912,
+    1024,
+    1344,
+    1536
+  ],
+  "lowerHallNewX": [
+    0,
+    192,
+    512,
+    608,
+    928,
+    1024,
+    1344,
+    1536
+  ],
+  "reason": "Register unequal generated carpet/bank geometry and aligned rear portals to native32 grid. Architecture only; Woka and furniture source pixels untouched.",
+  "resampling": "Lanczos",
+  "mapTileSize": 32,
+  "wokaScale": 1
+}

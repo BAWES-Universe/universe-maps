@@ -1,0 +1,299 @@
+{
+  "title": "Lantern Souk Bazaar",
+  "slug": "lantern-souk-bazaar",
+  "category": "Event / social commerce",
+  "style": "Lantern-lit Arabian stalls, fountain ring and seller demo courts",
+  "nativeTileSize": 32,
+  "world": [
+    1536,
+    1024
+  ],
+  "visualSeats": 2,
+  "anchorCount": 20,
+  "runtime": [
+    {
+      "path": "map32/ground-and-objects-0.png",
+      "bytes": 2053970,
+      "sha256": "64187d1cb461bbd38065d39f4db544daf678bafcf4237b44b6643301676b760e"
+    },
+    {
+      "path": "map32/ground-and-objects-1.png",
+      "bytes": 946228,
+      "sha256": "d76bb62f88a46b6e811ca9fe4bbf023e947069d14ea647f681b83e2b549b66c3"
+    },
+    {
+      "path": "map32/lantern-souk-bazaar.tmj",
+      "bytes": 85622,
+      "sha256": "ad0ba5b7f535679b0b00217f80b528233a94a9b4541ae09fdd77b6ed7e43a65d"
+    },
+    {
+      "path": "map32/lantern-souk-bazaar.wam",
+      "bytes": 2195,
+      "sha256": "cb41249f8c800e0b7c22e65cfaf2bcca8e040f098d5cc7fa862f5e0036af0afe"
+    },
+    {
+      "path": "map32/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    }
+  ],
+  "geometry": {
+    "scope": "Static native32 geometry: exhaustive integer body positions, union of all 12 Greg upper-head masks, cardinal tile connectivity. Not live gameplay or engine route replay.",
+    "walkableCells": 393,
+    "reachableCells": 393,
+    "unreachableCells": 0,
+    "safeBodyPlacements": 328767,
+    "headConflicts": 0,
+    "anchorCount": 20,
+    "badAnchors": [],
+    "quietCells": 1,
+    "allPass": true,
+    "anchors": [
+      {
+        "id": "fountain-social-left",
+        "x": 740,
+        "y": 687,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "fountain-social-right",
+        "x": 796,
+        "y": 687,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "tea-spices-customer",
+        "x": 432,
+        "y": 207,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "ceramics-customer",
+        "x": 784,
+        "y": 191,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "textiles-customer",
+        "x": 1104,
+        "y": 207,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "artisan-west-customer",
+        "x": 240,
+        "y": 399,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "bookshop-customer",
+        "x": 240,
+        "y": 623,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "bot-display-customer",
+        "x": 1296,
+        "y": 399,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "fabric-east-customer",
+        "x": 1296,
+        "y": 623,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "seller-demo-west-host",
+        "x": 288,
+        "y": 847,
+        "direction": "south",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "seller-demo-west-visitor",
+        "x": 336,
+        "y": 879,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "seller-demo-east-host",
+        "x": 1248,
+        "y": 847,
+        "direction": "south",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "seller-demo-east-visitor",
+        "x": 1296,
+        "y": 879,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "west-ring",
+        "x": 464,
+        "y": 495,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "east-ring",
+        "x": 1072,
+        "y": 495,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "north-ring",
+        "x": 752,
+        "y": 239,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "south-ring",
+        "x": 768,
+        "y": 751,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "west-demo-door",
+        "x": 400,
+        "y": 751,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "east-demo-door",
+        "x": 1136,
+        "y": 751,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "spawn",
+        "x": 784,
+        "y": 975,
+        "direction": "north",
+        "kind": "spawn",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": true
+      }
+    ]
+  },
+  "nativeRoutes": {
+    "scope": "Unchanged source-extracted native PathfindingManager, Player movement, GameScene/pointer methods from 60e7afdc3f96ef32525597cd46bd41175d61a2ef, real EasyStar0.4.4. Adapter executes desktop/touch pointers, both-way spawn routes, four destination-tile edges all ordered anchor pairs, and every admitted floor cell center plus return. Native60Hz movement sampled every<=0.5px. Not live browser, Phaser renderer, keyboard physics, devices, networking or service integration.",
+    "nativeCollisionMatchesTMJ": true,
+    "legs": 1326,
+    "samples": 2171055,
+    "frames": 302034,
+    "mapChanges": 0,
+    "failures": 0,
+    "allPass": true,
+    "failedRows": []
+  },
+  "revision": "r04-clear-entry",
+  "status": {
+    "independentReview": "pending",
+    "compiled": true,
+    "staticValidated": true,
+    "nativeRouteReplay": true,
+    "livePlaytest": false,
+    "published": false,
+    "animated": false,
+    "externalServicesConfigured": false
+  },
+  "preview": "review/occupied-native.png",
+  "runtimeZip": "lantern-souk-bazaar-runtime.zip",
+  "sourceZip": "lantern-souk-bazaar-source-replay.zip"
+}

@@ -1,0 +1,30 @@
+{
+  "classification": "fresh reconstruction verification",
+  "maps": {
+    "studio": {
+      "byte_exact_files": 5,
+      "width": 30,
+      "height": 27,
+      "blocked_cells": 633,
+      "spawn_connected_cells": 177,
+      "unblocked_cells": 177,
+      "wam_areas": 2
+    },
+    "reading": {
+      "byte_exact_files": 6,
+      "width": 24,
+      "height": 16,
+      "blocked_cells": 284,
+      "spawn_connected_cells": 100,
+      "unblocked_cells": 100,
+      "wam_areas": 3
+    }
+  },
+  "limitations": [
+    "No live GPU, native physical-body routes, avatar/head/depth, touch, or multiplayer acceptance.",
+    "Grid connectivity is diagnostic, not a native route certification."
+  ],
+  "source_only_rebuild": "PASS",
+  "editable_grid_test": "PASS",
+  "invalid_grid_rejection": "PASS"
+}

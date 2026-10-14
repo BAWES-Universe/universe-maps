@@ -1,0 +1,9 @@
+{
+  "reason": "Full-context review showed three terrace side tables visually detached. Bring the same native low tables in front of the north-facing chair pairs while leaving the outer escape lanes open.",
+  "newAssets": false,
+  "tableOverrides": {
+    "terrace-view-pair": {"artXYWH": [2208,1148,64,36], "solidFootprintXYWH": [2208,1152,64,32]},
+    "terrace-lower-pair": {"artXYWH": [1728,1532,64,36], "solidFootprintXYWH": [1728,1536,64,32]},
+    "terrace-garden-pair": {"artXYWH": [2176,1532,64,36], "solidFootprintXYWH": [2176,1536,64,32]}
+  }
+}

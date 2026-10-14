@@ -1,0 +1,3582 @@
+{
+  "schema_version": 1,
+  "description": "Hashes cover original files; metadata files are excluded to avoid a self-reference.",
+  "files": [
+    {
+      "path": "Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.tmj",
+      "bytes": 160119,
+      "sha256": "bcfbb89c171d327d17385a8a3604eab38e94b77843e134e52ea07746730d67e1",
+      "git_blob_sha1": "22cc809e2cb576013159076a47cba3b71e5b4042"
+    },
+    {
+      "path": "Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.wam",
+      "bytes": 1581,
+      "sha256": "bc73038c2ea7fc65e5fcf0496cc3c6b9b4f86b01542278404772eb3ae812df15",
+      "git_blob_sha1": "7c1b7dae58ee963a2ab207cbf4f6d657e4ce198d"
+    },
+    {
+      "path": "Celestial-Garden-Calmer-Draft-Runtime/map32/foreground-0.png",
+      "bytes": 1476,
+      "sha256": "082dbdd97ef3f644918c41884aa00c0ef16dcb28819bdf6b26525a56ea5cc397",
+      "git_blob_sha1": "34d44753834ed9761d887dca845a3ee784ce15ef"
+    },
+    {
+      "path": "Celestial-Garden-Calmer-Draft-Runtime/map32/ground-and-objects-0.png",
+      "bytes": 1793481,
+      "sha256": "7ff08ba3f50789b7b0b32bc771736a0953aa3f2efd50173e3216aab329fb14a0",
+      "git_blob_sha1": "4da873bf8ec089a007e36a6e84e7ff81490cfd99"
+    },
+    {
+      "path": "Celestial-Garden-Calmer-Draft-Runtime/map32/ground-and-objects-1.png",
+      "bytes": 1974456,
+      "sha256": "346e5d537639596d903d405d0d9b40a356c5c742f38930204471be2e15731a90",
+      "git_blob_sha1": "740b540f7699e3162f8e29a88060f3cc8d45d961"
+    },
+    {
+      "path": "Celestial-Garden-Calmer-Draft-Runtime/map32/ground-and-objects-2.png",
+      "bytes": 1815432,
+      "sha256": "3949a4c016df83ae9c45d221f54be62d8a2dd57d9cd03484a37154569d376c17",
+      "git_blob_sha1": "817299f9c0289954bf049265388574f4c66576d5"
+    },
+    {
+      "path": "Celestial-Garden-Calmer-Draft-Runtime/map32/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/architecture-and-furniture-0.png",
+      "bytes": 1530731,
+      "sha256": "99f969b7aa0cbac6a2c9e1ad1097a7812ebdbda2e0e81749838a28e460a7a2dc",
+      "git_blob_sha1": "56805f30b4f57c9eaa8b8fb5cf60de9db9e54391"
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/architecture-and-furniture-1.png",
+      "bytes": 1614496,
+      "sha256": "975bbbcabf18a3ee99a1a360041328b5768f09f3e0fca6be1f1e7db70eea01db",
+      "git_blob_sha1": "3637813e189cfa8eff3aca3f64059cb729e1b32a"
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/architecture-and-furniture-2.png",
+      "bytes": 45673,
+      "sha256": "7baee7b90eb96c0c8eee44990cfec8643b8fe14610d3ca47c181cdf3320c3f12",
+      "git_blob_sha1": "375542fe59a4c24ee38581427094b3a1392b1515"
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/map.tmj",
+      "bytes": 107982,
+      "sha256": "ecba8068ca83077a051dbd68fdf4af956e4b5271688bae15ebece7ea9a4cab08",
+      "git_blob_sha1": "bcf92e14eeac224d374fc1c3bc20ffea6f673900"
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/map.wam",
+      "bytes": 645,
+      "sha256": "6f4684227d647bad39420377091bca156b1105427892c8a23e91fd139fdc1c41",
+      "git_blob_sha1": "2bbfd0c2e64f826f1730c18bcc4de6d39f24dbf7"
+    },
+    {
+      "path": "Mission-Control-r4-runtime/mission-control-center/map32/seat-backs-0.png",
+      "bytes": 1573,
+      "sha256": "216e26b963e5abc50049d17e5e3d33b0b6d169cb62e3738adc275366fcedfcde",
+      "git_blob_sha1": "95c911e369fe58d5aec52d4c9ec9500ed2a28d0c"
+    },
+    {
+      "path": "N01-r3-runtime/N01.tmj",
+      "bytes": 45945,
+      "sha256": "d8e48cbd12be7d3b132440e16bf5ea4e849b9e457f1d24457b302570887f2ecb",
+      "git_blob_sha1": "53d57ea77113a1374093b5ca55856dde931cb494"
+    },
+    {
+      "path": "N01-r3-runtime/N01.wam",
+      "bytes": 397,
+      "sha256": "49984f484728ef3882fb8b25bb53fd0193eacb716582418a3c2f757ddb78a609",
+      "git_blob_sha1": "52c214226bec041a3e169a58e8c102954e7cd84b"
+    },
+    {
+      "path": "N01-r3-runtime/foreground.png",
+      "bytes": 48981,
+      "sha256": "e3eb46c3c8923f8dcb744e85ed96c560b11fe91f3fe342b6918d984b3d3444a4",
+      "git_blob_sha1": "dda53969dcaf7294f7fc1227ca490fdab1bb6420"
+    },
+    {
+      "path": "N01-r3-runtime/ground.png",
+      "bytes": 2084292,
+      "sha256": "bbf27e155ebd4fa3f420890595bf5d9941e65c2f2f2258f22776b8c12a9e1cfc",
+      "git_blob_sha1": "fb246228fdd142ca2a0c601fc9e1a45a3150de40"
+    },
+    {
+      "path": "N01-r3-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N02-r4-runtime/N02.tmj",
+      "bytes": 45993,
+      "sha256": "1c79d398577a164cd56d654db9c3e5085e329b07980c27b15f8d91c71c870cd3",
+      "git_blob_sha1": "3c5ee35ef3dc19324e443093605e1a1d85994e51"
+    },
+    {
+      "path": "N02-r4-runtime/N02.wam",
+      "bytes": 397,
+      "sha256": "c648a716c1051c6949d225a4a8a972ac2329b9bf5b33123518b12025117a1a9a",
+      "git_blob_sha1": "3536eae37e72a90659a1873ea84d8a36698392ba"
+    },
+    {
+      "path": "N02-r4-runtime/foreground.png",
+      "bytes": 38314,
+      "sha256": "cb26fd0d514fea647a70934e0acf2e0d424e8d2870ce844701b67aa4334c2b7e",
+      "git_blob_sha1": "4a9c1690da68bc350342a55b2ccec68b8185b64c"
+    },
+    {
+      "path": "N02-r4-runtime/ground.png",
+      "bytes": 2110451,
+      "sha256": "562572ea8cd30fb79a524c0ef515a5c7c1e780242e1e0db933e7da40c37bc7c9",
+      "git_blob_sha1": "e39a27bb1f66ca61b4a55c03c8ade24a00a871cc"
+    },
+    {
+      "path": "N02-r4-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N03-r3-runtime/N03.tmj",
+      "bytes": 46035,
+      "sha256": "7b1b47582da94e22c9bf0fc30926a92ff75e41795afbf6c9896e791a519c2926",
+      "git_blob_sha1": "86b894f81238f00d82aa9e059060edf3f07ac2e4"
+    },
+    {
+      "path": "N03-r3-runtime/N03.wam",
+      "bytes": 397,
+      "sha256": "b5614d747545417712a5d6383ac886693765e3beb1bd3a09a0d53e64051d3f5d",
+      "git_blob_sha1": "ae2a09a165e89510be5c7fa244b3f642e802165d"
+    },
+    {
+      "path": "N03-r3-runtime/foreground.png",
+      "bytes": 27660,
+      "sha256": "8cb5b2cb13275d38d5c6fe8a2f3957603e8ccb642d6a38f548c8a6265c33bee8",
+      "git_blob_sha1": "ca5a6dd97f0e849b455f665b23568aec33875973"
+    },
+    {
+      "path": "N03-r3-runtime/ground.png",
+      "bytes": 2196955,
+      "sha256": "fe58d1197cde55c65fffa9eb98ed4341e5e759e8097183195a41f0f992017753",
+      "git_blob_sha1": "2c212d013a55056bfbd7f0339b951cb27c014dcf"
+    },
+    {
+      "path": "N03-r3-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N04-r3-runtime/N04.tmj",
+      "bytes": 46036,
+      "sha256": "0025d9d724ca462206ab2a747624e650d29bb52b0619c6726ad56fd5125f0efa",
+      "git_blob_sha1": "7c06a4d9d91fb0c74eed63373cf0deb1978dbb52"
+    },
+    {
+      "path": "N04-r3-runtime/N04.wam",
+      "bytes": 397,
+      "sha256": "7c7021601fbcf32f1156396dc9a711f650e57f95d060ca72faa5aae9dccc47ef",
+      "git_blob_sha1": "d2a3c149f987bb7e647b17d755ddf1d122440332"
+    },
+    {
+      "path": "N04-r3-runtime/foreground.png",
+      "bytes": 66928,
+      "sha256": "bea88e5fb529e94a6d0538a7608285ebf52e0fec2a6f704d0272f57d92d96451",
+      "git_blob_sha1": "07f9a4ec41b45dd51dfae8225c755f32e5551c6a"
+    },
+    {
+      "path": "N04-r3-runtime/ground.png",
+      "bytes": 2305702,
+      "sha256": "9faab806612bb70d637343726ac39811d57328d82a2420848e5441e811b0b0da",
+      "git_blob_sha1": "d05528bf0d406aec8e9e7347d22b5ba1a3c953aa"
+    },
+    {
+      "path": "N04-r3-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N05-r3-runtime/N05.tmj",
+      "bytes": 45849,
+      "sha256": "6b7efb35e468f60a38e024889171415930b2c7d77bde925e9f38c12bdb2e12c1",
+      "git_blob_sha1": "4543e938b7b068d7a123f3d701b1902ce7c4948a"
+    },
+    {
+      "path": "N05-r3-runtime/N05.wam",
+      "bytes": 397,
+      "sha256": "3900177a0f33474eac835950ff777a31ee3bb3ac01c60c7872f04bc10335f46a",
+      "git_blob_sha1": "bf0ca639388c3bbd1e97f8434303bb2f507d7c08"
+    },
+    {
+      "path": "N05-r3-runtime/foreground.png",
+      "bytes": 32588,
+      "sha256": "193fd886b2cf8134bc5b63bd19ffc75e975093e434f078b7783050c3dce46c37",
+      "git_blob_sha1": "816dc2770114962ca94d24c14151f70a19ccba86"
+    },
+    {
+      "path": "N05-r3-runtime/ground.png",
+      "bytes": 1943224,
+      "sha256": "10b598701c90e216f12b92705521ffe770cfb8d63e26c54716c47321576e31ed",
+      "git_blob_sha1": "790a492246952bfd6b003eca6017e010c541cbe1"
+    },
+    {
+      "path": "N05-r3-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N06-r2-runtime/N06.tmj",
+      "bytes": 45774,
+      "sha256": "d2fa2106ebd9a6f23b58c5e750f2a2beaafa2e21fea668617fd35a86b1b64622",
+      "git_blob_sha1": "762cbf4c8532f5d21013fe8de011a033921139de"
+    },
+    {
+      "path": "N06-r2-runtime/N06.wam",
+      "bytes": 397,
+      "sha256": "40b1a218d58e18553d46aaa54591365ed9e9cf260ab4e5044e9f5891428c4276",
+      "git_blob_sha1": "8976d2721a7fd91881d747998a9991956ad7b823"
+    },
+    {
+      "path": "N06-r2-runtime/foreground.png",
+      "bytes": 30068,
+      "sha256": "018307092df6c79b409454e086db091b25cc2ec386311f99f63b66c22dfce918",
+      "git_blob_sha1": "4aaf0d9e9d2b1cf280cc48142bd253e8335d2eed"
+    },
+    {
+      "path": "N06-r2-runtime/ground.png",
+      "bytes": 2160949,
+      "sha256": "1eace015e75997a95007a74d7e2f383cb49dc65886373f35eb35a9f1d5408b27",
+      "git_blob_sha1": "6faff72cf7bd331c5a39f9a5cd91cb6f7bcbfec9"
+    },
+    {
+      "path": "N06-r2-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N07-r3-runtime/N07.tmj",
+      "bytes": 46003,
+      "sha256": "b96f56cc179b53ee4cb69cb93f8f314fbeba4be5cf2bbaf6a9b1f1a68cc2d48d",
+      "git_blob_sha1": "222596e9a322b14c9a05794f21ae0ef71120cb9b"
+    },
+    {
+      "path": "N07-r3-runtime/N07.wam",
+      "bytes": 397,
+      "sha256": "df947bda73e351310c1f83f1b06e26d3484bf406997859b43ebce1cf7c20c533",
+      "git_blob_sha1": "66460871230684d04eb1427f0eb41b175fbba2a0"
+    },
+    {
+      "path": "N07-r3-runtime/foreground.png",
+      "bytes": 25057,
+      "sha256": "f0113533fc17307c92bbd1477893833ba11c42a874ce2154ba6b0de22e6a5143",
+      "git_blob_sha1": "a060f3ff62bf3f7707d185c6f6832e85c7056139"
+    },
+    {
+      "path": "N07-r3-runtime/ground.png",
+      "bytes": 1896461,
+      "sha256": "fb14bed05562bd6d078340d13ec40873e3c5ca1c8d1127f1ab9ad735fa4f7f43",
+      "git_blob_sha1": "5d2ab284fe873226b5cdcdcd677c2ebc5daad452"
+    },
+    {
+      "path": "N07-r3-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N08-r3-runtime/N08.tmj",
+      "bytes": 46207,
+      "sha256": "5d724f1cd9426c4767d3ecd6d80b2626335e2a5b0512108cc9de1423b72dc530",
+      "git_blob_sha1": "9fb12872253b39522035910a66d224a7c70871d8"
+    },
+    {
+      "path": "N08-r3-runtime/N08.wam",
+      "bytes": 397,
+      "sha256": "2f9ebfee802ab5297691faf5f9b4ef42716206e3edc0e2315b24bb4bb0558d59",
+      "git_blob_sha1": "b01ae2f91406f446731148215ff862a42a341df2"
+    },
+    {
+      "path": "N08-r3-runtime/foreground.png",
+      "bytes": 22224,
+      "sha256": "4a8bbde03b0f328a3c8cc18308b0fcf038dc5013404b299a0ab72f8a12b7a046",
+      "git_blob_sha1": "6e1002d8cf5e302df602c0f2cf4b40df15b72221"
+    },
+    {
+      "path": "N08-r3-runtime/ground.png",
+      "bytes": 1963904,
+      "sha256": "62a3607fda335e07edf936127f1191a6e1702508018a8f4e524069e711e0114f",
+      "git_blob_sha1": "2fafbb5a45696594f72ff7952192d07911b77c5b"
+    },
+    {
+      "path": "N08-r3-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N09-r2-runtime/N09.tmj",
+      "bytes": 45540,
+      "sha256": "e84da61edec377e85d0e463defa9c41b703a404e4d8782ed5d83932dae60f3c1",
+      "git_blob_sha1": "5e6b9c3a034365dc493177f72643327aefc3bd04"
+    },
+    {
+      "path": "N09-r2-runtime/N09.wam",
+      "bytes": 397,
+      "sha256": "9088aa89bf8d56ed7f867764adb5dacf1f9779bdc99272a6b6061a1f976e6e25",
+      "git_blob_sha1": "6326752bd7c437fa7998c1311e99230b35c91170"
+    },
+    {
+      "path": "N09-r2-runtime/foreground.png",
+      "bytes": 40426,
+      "sha256": "e9c56feca6240e8fc394eb0fe24b10f689bcf6287d0d2ff734bb7a1dee248af2",
+      "git_blob_sha1": "35e8d95be2715414b9f6fc26e34be4750c1c1fb9"
+    },
+    {
+      "path": "N09-r2-runtime/ground.png",
+      "bytes": 1952258,
+      "sha256": "a4ba0c262a181954cf8866500f022f29cd4ef2d40221b291c5a552d6736d3a86",
+      "git_blob_sha1": "72ad8ce96cf85b3f3b9e29bab14b7b488a13dc3e"
+    },
+    {
+      "path": "N09-r2-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N10-r4-runtime/N10.tmj",
+      "bytes": 45844,
+      "sha256": "77601ced44d304a9f38171edad2a2c76f39b8a91516aec37bb614dd787abac69",
+      "git_blob_sha1": "a181cc70f9e8b581a89e3454d8af0685021dda73"
+    },
+    {
+      "path": "N10-r4-runtime/N10.wam",
+      "bytes": 397,
+      "sha256": "326def4fc2b1552d493c0f295b38a2219d24191f10ce418d04d951e15637d8b8",
+      "git_blob_sha1": "3ec2f8b6291420695349827333d47adb405d7ee5"
+    },
+    {
+      "path": "N10-r4-runtime/foreground.png",
+      "bytes": 17266,
+      "sha256": "c7a940a56b1ebbfa9ed5b73a37ecb886dad23fe84e31df1add0ea76d378a5b08",
+      "git_blob_sha1": "cf3a632901b7dba2c4c76d7a46d070b00fd3e075"
+    },
+    {
+      "path": "N10-r4-runtime/ground.png",
+      "bytes": 2032031,
+      "sha256": "20699b2c96261895f2b66afdc7ae43e9f8dceef221547ebe0be827851ebdc440",
+      "git_blob_sha1": "d9097ba6a70ce4c793195abd18cf1ff3e02d395a"
+    },
+    {
+      "path": "N10-r4-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N11-r2-runtime/N11.tmj",
+      "bytes": 45693,
+      "sha256": "b6dd7464df666cad01c6b31de87232cef81290061ca5442898ad34578601e903",
+      "git_blob_sha1": "1a197435c1d7e5405f525bcd676ca7264e384072"
+    },
+    {
+      "path": "N11-r2-runtime/N11.wam",
+      "bytes": 397,
+      "sha256": "9f2b3bbc92ac32a95e3ed17423abf0949fae858fdf6f28c0580f67ee22978f98",
+      "git_blob_sha1": "902538ecbd334e4e009d3cdda09e3dbe5b5067e3"
+    },
+    {
+      "path": "N11-r2-runtime/foreground.png",
+      "bytes": 12132,
+      "sha256": "d0c73e54990881baac21f108c50bfc5c5158ee47d3c17ebb79d7f3c1f202c42a",
+      "git_blob_sha1": "e11d13b75f4cc7081b6dd9d0839802c45352d24d"
+    },
+    {
+      "path": "N11-r2-runtime/ground.png",
+      "bytes": 1634164,
+      "sha256": "5de798fc2235bec16b2dcc1059d3a443fc7c75afc52e8d4820ae59ec1c0beadb",
+      "git_blob_sha1": "2f6f45a3e3eddccd733bb2c87c6af04cee216899"
+    },
+    {
+      "path": "N11-r2-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N12-r3-runtime/N12.tmj",
+      "bytes": 45877,
+      "sha256": "33717693e09a13cfe3f1f72097be5ffebca1782af5ee09da2e8b2ca0823fe726",
+      "git_blob_sha1": "3da52b986339d2a71ea8cc853763aec8eae486b4"
+    },
+    {
+      "path": "N12-r3-runtime/N12.wam",
+      "bytes": 397,
+      "sha256": "724ef6025b304102f27f9c7a44eade7bafdbfe45df1275231aa893c76e08afc3",
+      "git_blob_sha1": "11f20f39ed1a11edac2c0a54913ab59b3f328ae0"
+    },
+    {
+      "path": "N12-r3-runtime/foreground.png",
+      "bytes": 24502,
+      "sha256": "b23a4a19f26cf836188e84f63c7d9de2f854640da8e177406aba3ce747d8d38f",
+      "git_blob_sha1": "4556d37080dba0f6247ee48f2070912dc81eb6e0"
+    },
+    {
+      "path": "N12-r3-runtime/ground.png",
+      "bytes": 2119372,
+      "sha256": "4356faf670577f7ffaca194de5d21f18a3323818854b37a41490f788e37f6f73",
+      "git_blob_sha1": "b7dd155faeaee242aee4dc9cfa77061aa0d04407"
+    },
+    {
+      "path": "N12-r3-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N13-r3-runtime/N13.tmj",
+      "bytes": 45895,
+      "sha256": "127187d48e062b9b76798dc8cfa97eea47a3cb1f5b8ab6588ec4886d36cc5a95",
+      "git_blob_sha1": "675f41a1441421e8d7beaabc242958ed695fe580"
+    },
+    {
+      "path": "N13-r3-runtime/N13.wam",
+      "bytes": 397,
+      "sha256": "d3e37cc449c884b48935861b4542d88e4a623ba8a099e48b7bce5eb190397513",
+      "git_blob_sha1": "1efee9fc4921ca16afe82fd54ecdd751de741b11"
+    },
+    {
+      "path": "N13-r3-runtime/foreground.png",
+      "bytes": 16791,
+      "sha256": "4acd4a93e1ae417c6e5e0bf6ad4ba88cc8b51e5d54fe87c1d3eb5cdade78cec8",
+      "git_blob_sha1": "686ab17d7fde6849a15fea7516b63feb2d3d132f"
+    },
+    {
+      "path": "N13-r3-runtime/ground.png",
+      "bytes": 2173392,
+      "sha256": "1ed36195ccd76d38ef40a370f30fdadda84a15b1d1a48d6e6be8f45a67361495",
+      "git_blob_sha1": "fba9c02c97d963ba5b7f62cc7362aece8667e698"
+    },
+    {
+      "path": "N13-r3-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N14-r2-runtime/N14.tmj",
+      "bytes": 46117,
+      "sha256": "b0f95412c279e45a7dbcd8c3c381260c0787bd0b0d2d96f775192c8573d22a85",
+      "git_blob_sha1": "7e919409dd979b78d0ce7560e2e80acf60d230ce"
+    },
+    {
+      "path": "N14-r2-runtime/N14.wam",
+      "bytes": 397,
+      "sha256": "3fd8b6319681966b46b06ed361f6f9bf3a9752907d6acb38809f775ae4a6384d",
+      "git_blob_sha1": "8f6ed2afae63a55c5c2e4335fe23e1ad42cfab85"
+    },
+    {
+      "path": "N14-r2-runtime/foreground.png",
+      "bytes": 8279,
+      "sha256": "f4c0a4e9821ce8014a93f631c651011d5e6244b52f9d09b38de30ba15951f252",
+      "git_blob_sha1": "130594178d5ebd6e206a180e6518f36d73baadf2"
+    },
+    {
+      "path": "N14-r2-runtime/ground.png",
+      "bytes": 1865514,
+      "sha256": "82eead97b72076f1530414a95a2a7500a8a316c64733ded0ec6070b26be6a0ba",
+      "git_blob_sha1": "8150133f05f8524d61c672926c7bb44776b864f0"
+    },
+    {
+      "path": "N14-r2-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N15-r3-runtime/N15.tmj",
+      "bytes": 46047,
+      "sha256": "ce51c72174c0cebaf87a7c373b75936a155d809b79c0837aedcc0e5391f871a7",
+      "git_blob_sha1": "930c104db7a74813886da73a53bfccdf24c9e079"
+    },
+    {
+      "path": "N15-r3-runtime/N15.wam",
+      "bytes": 397,
+      "sha256": "2ae2624a52ca6d4fee7a4df19b2c72c20517b9a14e6b2bf32ff176724288d109",
+      "git_blob_sha1": "5665bd238a7debc0d201cf7474011b3d859dd698"
+    },
+    {
+      "path": "N15-r3-runtime/foreground.png",
+      "bytes": 27109,
+      "sha256": "bd7c6a5a840b4b5965fa79c908c3f5d91f4ad2f37b4c0e36c735194f6dd0e235",
+      "git_blob_sha1": "41bd8f98219ac2b112b6615307f4dac6e5e0f29b"
+    },
+    {
+      "path": "N15-r3-runtime/ground.png",
+      "bytes": 2266606,
+      "sha256": "adb23c52dea294a1c33d22b546dd3e23ccf441e4a3e5d65aed9044bf5e824255",
+      "git_blob_sha1": "c59114cae4816a34f4caad0cb4b5f211e756df1f"
+    },
+    {
+      "path": "N15-r3-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N16-r2-runtime/N16.tmj",
+      "bytes": 45934,
+      "sha256": "2946e076ced81d0735136ee14b1d63ee4a0e26a12ea8eaa4235f610427ace79f",
+      "git_blob_sha1": "093277dc7c392f3d4adaf25a47f7e898ceca6a0c"
+    },
+    {
+      "path": "N16-r2-runtime/N16.wam",
+      "bytes": 397,
+      "sha256": "a21a85d3d4a784eadbf60fdd657040a298badae7b627527dc912251d05d40db4",
+      "git_blob_sha1": "5aebe187af174b705c28f23ceb4897297c4990b8"
+    },
+    {
+      "path": "N16-r2-runtime/foreground.png",
+      "bytes": 3247,
+      "sha256": "301c0b1f9eb7b24a592a4db1ffdb53f7470f5c0ccabddb4b72a0b363d84157ef",
+      "git_blob_sha1": "a84108216f39377f7c25867cb576e33976274b1d"
+    },
+    {
+      "path": "N16-r2-runtime/ground.png",
+      "bytes": 2296037,
+      "sha256": "3c662726e3a2f3849d004dd33bccd37114b4e054363fbd123a8e74b54ed1e904",
+      "git_blob_sha1": "0c54911f057400c9e5e36919f5bbc1f83c3d0c6e"
+    },
+    {
+      "path": "N16-r2-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N17-r3-runtime/N17.tmj",
+      "bytes": 45818,
+      "sha256": "d2ab2a301b630810f0097c0bb70eb8e3c14942cb8067fc071855fa383b4e7d3c",
+      "git_blob_sha1": "1d44bfe199596563b49f69a274a82cbd719f6aca"
+    },
+    {
+      "path": "N17-r3-runtime/N17.wam",
+      "bytes": 397,
+      "sha256": "b87e9e9cd530d9b5b8f6805ec337138d918f30cc14be0a1d4db27647d79f7596",
+      "git_blob_sha1": "cadd5bfddf3a01a9468b71e3eff4f0c2f9d32ea9"
+    },
+    {
+      "path": "N17-r3-runtime/foreground.png",
+      "bytes": 31935,
+      "sha256": "cbebe556ebe7f2ddbd4694556098c49a7da5724f9fc01a38370660fa8626c081",
+      "git_blob_sha1": "7c052a9970d961b05f549d013b21ff422e441bbe"
+    },
+    {
+      "path": "N17-r3-runtime/ground.png",
+      "bytes": 2053292,
+      "sha256": "fa5c3216852e7c6f00336ab97987c0fd90971ca71f56fdc36f0851eecc194e3b",
+      "git_blob_sha1": "e8373866134f4e3337c63ffdb8005b52d9f0f6e5"
+    },
+    {
+      "path": "N17-r3-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N18-r3-runtime/map32/foreground-0.png",
+      "bytes": 171009,
+      "sha256": "f443b6f5d056ab375ba1f5b8e73e7b37f46fbbf486ba977ca0f38354e589a494",
+      "git_blob_sha1": "6930e59270b1708e17f4a5a11aa6442e145f2050"
+    },
+    {
+      "path": "N18-r3-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2166607,
+      "sha256": "a842a4fa34c71366307a36f50625ffaaf6765c6a867ed78235b58d9751a0eccd",
+      "git_blob_sha1": "c7b7785986ea853d0893ec959263cd7d309c67e5"
+    },
+    {
+      "path": "N18-r3-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1061985,
+      "sha256": "8ad7a45d9349f148e71e63fd46b98f794f20bfd97f12c6492b927b97a8962844",
+      "git_blob_sha1": "647f768fa99fa622b509315e51cd3ef27699f3b8"
+    },
+    {
+      "path": "N18-r3-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N18-r3-runtime/map32/map.tmj",
+      "bytes": 78773,
+      "sha256": "4cf2b4beb61a4344f8432cf944d315274b25675892ec874587e1c611979cbf32",
+      "git_blob_sha1": "f44269311798306230f560367ba650bdeb0e4b52"
+    },
+    {
+      "path": "N18-r3-runtime/map32/map.wam",
+      "bytes": 502,
+      "sha256": "44c94e80e5cdb8891d22eddc3d8c5081b7b3c5374f112c25418be78dd739c711",
+      "git_blob_sha1": "e688012cd2f4a3d3ab1405bf1792c3c5e80b87e2"
+    },
+    {
+      "path": "N19-r3-runtime/map32/foreground-0.png",
+      "bytes": 50328,
+      "sha256": "d5d666a7c87a97915ecbc64320a9bce7caa83599af69eddda3deb0632f8a8a33",
+      "git_blob_sha1": "f7edd526cf677d3fb01b1e2807c32e669a91af21"
+    },
+    {
+      "path": "N19-r3-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2128706,
+      "sha256": "2b622e5968bd77b1c6f0e3526573579ba8b6cd9cce6bb0847826808251517afb",
+      "git_blob_sha1": "8c27939ff603e1efed3f6922a477fc293e52e558"
+    },
+    {
+      "path": "N19-r3-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1167947,
+      "sha256": "164ca0db8ede238976c4c388b88cffde03dc4ca6b16f1a80063a5d14ff4bb31e",
+      "git_blob_sha1": "0f2254d554e93f05516156c1c55338847f061800"
+    },
+    {
+      "path": "N19-r3-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N19-r3-runtime/map32/map.tmj",
+      "bytes": 78942,
+      "sha256": "4c03dfe637b7f8693d5b6c55a872b50e23c4947f79a3626c2a1ec1c84b2b5eea",
+      "git_blob_sha1": "bb0d9c975ee4c90402999433701e093b888deb6d"
+    },
+    {
+      "path": "N19-r3-runtime/map32/map.wam",
+      "bytes": 505,
+      "sha256": "f6bbacd9a9e26a5db63c2cc86ccb59398d95f5157127cd7bb8369107e3f515f7",
+      "git_blob_sha1": "6ab7993291949d8741dd8d6e73dd8d1d7c03a9ee"
+    },
+    {
+      "path": "N20-r3-runtime/map32/foreground-0.png",
+      "bytes": 192850,
+      "sha256": "8b7a694c3606dc2ea9f019eefee4a169d20f3865a637447f795dad302608f009",
+      "git_blob_sha1": "b32a318b1ce744da3de5f04631dfc5b97816f90c"
+    },
+    {
+      "path": "N20-r3-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2279145,
+      "sha256": "fe341ebb0f4964c672a3486a63c5735362a6a6113cf185fb990c40cd5217a1c0",
+      "git_blob_sha1": "b9e8d6ee36dd311c2b127275d52ec0038992b7ac"
+    },
+    {
+      "path": "N20-r3-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1027177,
+      "sha256": "34fa04ad28f4de20284ce4130fe143d82bf6a08135b83aef34b3414dbdab5680",
+      "git_blob_sha1": "8fea0257de78f320d035b0c39a611168ffdd41ee"
+    },
+    {
+      "path": "N20-r3-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N20-r3-runtime/map32/map.tmj",
+      "bytes": 78936,
+      "sha256": "1bff8502895530e20aace8b5ae40216651093498e93b3a10d65e54dce51972bd",
+      "git_blob_sha1": "5a573980d1d2dfada3afcc03b01ad4d95f4bd363"
+    },
+    {
+      "path": "N20-r3-runtime/map32/map.wam",
+      "bytes": 508,
+      "sha256": "16f28d912c547f2b3c30f346fbc4d2d1dc3bf10e705bde63a638eb3f793fd5ed",
+      "git_blob_sha1": "868c9d9198409a16640e4af912b89ebf1f0007ff"
+    },
+    {
+      "path": "N21-r2-runtime/map32/foreground-0.png",
+      "bytes": 99768,
+      "sha256": "e76c90c9f9f1907a8df773a6365a4307116aa8279cbf047ca47daafc8f61322e",
+      "git_blob_sha1": "8475ab5d8e03f9f8ee7517410304019de6d29d11"
+    },
+    {
+      "path": "N21-r2-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2081147,
+      "sha256": "f89a74b6a55956220fe64f5dc85fcb8ace2f301147173e61446e1da17850c660",
+      "git_blob_sha1": "dfebe4de7773ca42ac2bd19a8b51560dd1360833"
+    },
+    {
+      "path": "N21-r2-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1113175,
+      "sha256": "50c493975f65dd22f237955b22d1471dc1d66d45d52175bcbb53004f55e1a7e0",
+      "git_blob_sha1": "250ef7e99648c33b589014d3a588b27192639f4a"
+    },
+    {
+      "path": "N21-r2-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N21-r2-runtime/map32/map.tmj",
+      "bytes": 79043,
+      "sha256": "d157119f542265ca0d74a2cf913ee53011af125ad61e8e2321f7cb7ba72d54a5",
+      "git_blob_sha1": "b485d1ddc535882ead361fe1041fda7c7e5f9e41"
+    },
+    {
+      "path": "N21-r2-runtime/map32/map.wam",
+      "bytes": 520,
+      "sha256": "bb03e6b6be3ab97b4fe52d28e4b50719ea29d57b584c3a3189be49a6cf8845f7",
+      "git_blob_sha1": "02925c57054080d31d2bb1e4b9850d2284752c8a"
+    },
+    {
+      "path": "N22-r1-runtime/map32/foreground-0.png",
+      "bytes": 49642,
+      "sha256": "5b263e397b29f13b7424bcde44187deaeae51565c51e53279621788062eb13a6",
+      "git_blob_sha1": "e158b5da33894c4ee84de2365a26f7db8c63fdd5"
+    },
+    {
+      "path": "N22-r1-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2692573,
+      "sha256": "7a132c700a9da7a7fa255adef2fba14d8a8cea4a7199cfb59e01ae258a6f045a",
+      "git_blob_sha1": "ff3389f1d4123f48dbbb7ada54239d6f06d82a40"
+    },
+    {
+      "path": "N22-r1-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1462663,
+      "sha256": "4d1a144386d552301209b30fb7926c0589d0855a1df5e2f69dff644fc2fc7ac6",
+      "git_blob_sha1": "f4b83e3816ddfd8d6db4f316ae58d0d8c0e01cdc"
+    },
+    {
+      "path": "N22-r1-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N22-r1-runtime/map32/map.tmj",
+      "bytes": 78928,
+      "sha256": "b7ccfe465862fc65f698dee37c6bd203a33c144f29e0ae4150eea700e58be759",
+      "git_blob_sha1": "6fd1a5a095d2ee2c85cbea8b5637b95baaecd0b8"
+    },
+    {
+      "path": "N22-r1-runtime/map32/map.wam",
+      "bytes": 511,
+      "sha256": "59c9f0092a7f8a24b884eb4449c2a15be39a3df41ec12f2159924ae4b9b4ebde",
+      "git_blob_sha1": "effdb90c4ae91eef2917aef43ad75b44c74b5582"
+    },
+    {
+      "path": "N23-r2-runtime/map32/foreground-0.png",
+      "bytes": 57975,
+      "sha256": "dc9464fe9c65101ff91808affa17900094529c5ccf845b89bc02a6a941746411",
+      "git_blob_sha1": "7e099134739b124c3a2c6cc68544022180a42c81"
+    },
+    {
+      "path": "N23-r2-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2022197,
+      "sha256": "1459ecd9ef728cff0d0496f1644d74e1ede93e947d0eb6c8f3e488360ea88a0f",
+      "git_blob_sha1": "43d12d08c36efb687df5f5aecc724eb30426a045"
+    },
+    {
+      "path": "N23-r2-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1078976,
+      "sha256": "65ccde3e56e2dfa690658e8fdb38d4aa2e3377c19a8e0c30d2cca13d68616a86",
+      "git_blob_sha1": "7d41e6e31bfa0098cbed73e915492669f3aeb482"
+    },
+    {
+      "path": "N23-r2-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N23-r2-runtime/map32/map.tmj",
+      "bytes": 78270,
+      "sha256": "e4c738e1f45d02f8b530f04074aa2a85127ca7ffac86eafa77edc575976e80da",
+      "git_blob_sha1": "d254779451fe7ef851a5f805bf3bdd59d6a2047e"
+    },
+    {
+      "path": "N23-r2-runtime/map32/map.wam",
+      "bytes": 512,
+      "sha256": "f60f9869cb541d3fd8c10e384b345c1b57c2ea9f395c357653b97fc8b46e8f1a",
+      "git_blob_sha1": "f4305c4bdd70c018e61080a98202da6a06ce1ee9"
+    },
+    {
+      "path": "N24-r4-runtime/map32/foreground-0.png",
+      "bytes": 2788,
+      "sha256": "b2b789cdb2599bd6c126e25b4bfdf735a3e45c1ac269956c1ef8b594fb213e1f",
+      "git_blob_sha1": "830421265937a116839012affd28432aaead4a42"
+    },
+    {
+      "path": "N24-r4-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2627466,
+      "sha256": "931b97643ec1a231c4b13a8c0cedc750d9b4ce762f1fa15f5163ca7058d4e3e7",
+      "git_blob_sha1": "9d884a9aaf6b6c5f104203c6f6aa28ac19b159a5"
+    },
+    {
+      "path": "N24-r4-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1309147,
+      "sha256": "89b954348470a309965c4198e88d0037987a4aa4bf902a52644c1cfd9969cd43",
+      "git_blob_sha1": "37c47013463e0ae9dc0e5297582698b097d9aa79"
+    },
+    {
+      "path": "N24-r4-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N24-r4-runtime/map32/map.tmj",
+      "bytes": 79141,
+      "sha256": "979cda465a06dd54f9e211ae1006abb8036b6d641cc2d62e2df47b8e9420fa36",
+      "git_blob_sha1": "12469a4eb27d495e49429b0297d31d5240f52ac2"
+    },
+    {
+      "path": "N24-r4-runtime/map32/map.wam",
+      "bytes": 508,
+      "sha256": "da1a341e743b66700a3a2bc948493e695cabd63fbf97fc816d1a07ff72d13000",
+      "git_blob_sha1": "3e33175376dc3f00fbd8b0f74627ecda57987ef1"
+    },
+    {
+      "path": "N25-r1-runtime/map32/foreground-0.png",
+      "bytes": 10896,
+      "sha256": "9c17be6a413bd53879cc160fe4e94a4d801f671a40ea15559b94e89297fda527",
+      "git_blob_sha1": "5132295830ad9d1be60cee32093699b9fb3c1c0c"
+    },
+    {
+      "path": "N25-r1-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2208926,
+      "sha256": "a7725110a6740a36bacdbc0dd0210f081ed7fe95b51a6c1cc7148c2064f0d072",
+      "git_blob_sha1": "962e7ca4781e1545456d424312639bb196f8d43b"
+    },
+    {
+      "path": "N25-r1-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1169144,
+      "sha256": "f0aefc0b2dcc0d626bee0ab794ed22fd2d53b47bb9f1d37aa4461854797b2dbb",
+      "git_blob_sha1": "e6690bcad1b014df17df58bf11ce9f971839c82c"
+    },
+    {
+      "path": "N25-r1-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N25-r1-runtime/map32/map.tmj",
+      "bytes": 79181,
+      "sha256": "b89cfec16355f2055945f0dfe42cccddc8e3fad9db43cf9268d686b1cc37227a",
+      "git_blob_sha1": "178bb4cd56ba99c0a484bf7f357fed3dbfc10fa6"
+    },
+    {
+      "path": "N25-r1-runtime/map32/map.wam",
+      "bytes": 722,
+      "sha256": "3b09206b6609b693e48fd5b69fa397dfc1a5f6f01978ba445f32a72a44738dd0",
+      "git_blob_sha1": "76d6a5573568dd15b67903bba7e46286b4eb09ec"
+    },
+    {
+      "path": "N26-r1-runtime/map32/foreground-0.png",
+      "bytes": 933,
+      "sha256": "bddaff613f3f0465256f628357fa6aeffdaab6339bf58e8c21a2410bdce6a2f7",
+      "git_blob_sha1": "7807c2650b6d354f00f62b9da1f3d4b7110c72aa"
+    },
+    {
+      "path": "N26-r1-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 1966422,
+      "sha256": "fb72d4e1bdfc5d90ff5f58c43652fad467cae3976bcf57a06f9b5585db121563",
+      "git_blob_sha1": "0ba5b4fd2526bf2a6cb810627c060dbf5712151f"
+    },
+    {
+      "path": "N26-r1-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1112076,
+      "sha256": "1594c6328b06725ef69e6b0e3dbbb631d9b7e81dcbf501c5f0f40171337eb303",
+      "git_blob_sha1": "bf8d9e8e4af1c76fcf38a28760c42e327e8f74a6"
+    },
+    {
+      "path": "N26-r1-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N26-r1-runtime/map32/map.tmj",
+      "bytes": 78288,
+      "sha256": "116323ca8344b34a43186865e0470820ebe52816c4f49437cf9006779aa67050",
+      "git_blob_sha1": "dc232d4b9a833d52da0655d39801b450cba3ed0b"
+    },
+    {
+      "path": "N26-r1-runtime/map32/map.wam",
+      "bytes": 878,
+      "sha256": "1ef65c2543f6c99c2ebca7815ea8326d2e6bf3e8f5641d6cf9168ebbe428be3b",
+      "git_blob_sha1": "0dc31763de2ad48de8d9bdf5e2aaa641253f7cf7"
+    },
+    {
+      "path": "N27-r3-runtime/map32/foreground-0.png",
+      "bytes": 969,
+      "sha256": "0effc08eaf4b2356669d1263b5f3e66a711e426f18ebc78d81d09e623491ce6d",
+      "git_blob_sha1": "fbdb26afcceb917c758f267deb83d913b3ae10f5"
+    },
+    {
+      "path": "N27-r3-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 1949755,
+      "sha256": "936f92dae9d07e26a883eaee001aee62b1e21a83d6545923b5fc33c20077422a",
+      "git_blob_sha1": "af10a23b894911e660288065d4fd732625bfa556"
+    },
+    {
+      "path": "N27-r3-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1013198,
+      "sha256": "2cd6d0129bb05bc1816c77503a667511faade52770675a26c5f3a6d4a07e7eae",
+      "git_blob_sha1": "23d841e5003fe4c3abfd90d171ce0c944292cb54"
+    },
+    {
+      "path": "N27-r3-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N27-r3-runtime/map32/map.tmj",
+      "bytes": 78449,
+      "sha256": "648f25259baee7520d49290ddfbff8933d7767049d92e1da08ff52300fe86557",
+      "git_blob_sha1": "b2bbfdcd8721d437df12635b08bb748c2446554a"
+    },
+    {
+      "path": "N27-r3-runtime/map32/map.wam",
+      "bytes": 906,
+      "sha256": "fb0c813e080e2140f99de18d84b48450564f997952452d1acc30c6087452bf23",
+      "git_blob_sha1": "264f9e35403344a8fb0ec688e2297741ddbd08f0"
+    },
+    {
+      "path": "N28-r2-runtime/map32/foreground-0.png",
+      "bytes": 1570,
+      "sha256": "202ab453f90e6760a7ed4828f6aeb557a65828ae861d769a5f6b7d24f94944fa",
+      "git_blob_sha1": "77d9a6cb7ad0a07ea4d2e7a0d66a98a2f0327f10"
+    },
+    {
+      "path": "N28-r2-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2220553,
+      "sha256": "095476d34f2b82aef1dd21e672391aa0e495280cfd97701c9762d3f16f0ebad7",
+      "git_blob_sha1": "1716f4bdc9bcd29652258422728e142bb97d4d13"
+    },
+    {
+      "path": "N28-r2-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1184134,
+      "sha256": "0bb3eefe698d49c47f069b726043fe896def2cb2fc918034c375c469d47e6563",
+      "git_blob_sha1": "1cae180fcb07adf88b354bfb89fb5a2b0af119c9"
+    },
+    {
+      "path": "N28-r2-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N28-r2-runtime/map32/map.tmj",
+      "bytes": 78808,
+      "sha256": "8f231bccc2586b64de3114badb497a8793cb874b99e925871cb9fcfd97d2cd31",
+      "git_blob_sha1": "6c6e73704af5a906aa1a7afc15713cf7d2b0ad8c"
+    },
+    {
+      "path": "N28-r2-runtime/map32/map.wam",
+      "bytes": 878,
+      "sha256": "227df0263bb939f293bb0ee04a53929324a2197aa0f5d6da316820ff6eae9ea9",
+      "git_blob_sha1": "90939e3af3611440c1dc912b6e5f0758b3734604"
+    },
+    {
+      "path": "N29-r2-runtime/map32/foreground-0.png",
+      "bytes": 1313,
+      "sha256": "667daa08a074c5c60c89fbc485ab3ad96023a0e21ee858c042c3180a4c641869",
+      "git_blob_sha1": "a11d43d96dff37b96e288b98d7ec187e84c71fb5"
+    },
+    {
+      "path": "N29-r2-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2256889,
+      "sha256": "1861a315ca855277ce21d5ca731aa1211bfae4bc50dcbc149e5f186a71d2fb89",
+      "git_blob_sha1": "805d52dde326090d12bd54afa8d9fc21aa886e3e"
+    },
+    {
+      "path": "N29-r2-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1181960,
+      "sha256": "fc7349492d123289574f8248383965eb9bf6cf548ef3c48e09f9453460468eb9",
+      "git_blob_sha1": "44f74ac7c82d6c6500b7c759c0ebf6f7d0d303ad"
+    },
+    {
+      "path": "N29-r2-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N29-r2-runtime/map32/map.tmj",
+      "bytes": 78906,
+      "sha256": "bdcccf305cf5013b3d39ecec76b6841a7fb9f158ce976cd4705fb1f98e1bbdc9",
+      "git_blob_sha1": "23df73e411dcf88b3b4c0effee8c411cae57db10"
+    },
+    {
+      "path": "N29-r2-runtime/map32/map.wam",
+      "bytes": 890,
+      "sha256": "3dbf0229aa79162db1f742bf72ea513d907180d8fff18d4c365e39cb920b2370",
+      "git_blob_sha1": "c78329d835d9688c5965d98c7596401fe892e067"
+    },
+    {
+      "path": "N30-r2-runtime/map32/foreground-0.png",
+      "bytes": 1071,
+      "sha256": "ed2a7ef7f2ea5310a59a874168eec885e0c74f23d56b0489c9c2da55bba000d5",
+      "git_blob_sha1": "4f9fe8db45de3a9fb869f9a0b1c8f7be30171d16"
+    },
+    {
+      "path": "N30-r2-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2192478,
+      "sha256": "6e386132dd6b554c2a201486c472c945b1037a78a32e5e237c330d7cd725550d",
+      "git_blob_sha1": "c74d7169789295a998fa86503c3552e026f3c980"
+    },
+    {
+      "path": "N30-r2-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1088935,
+      "sha256": "61352fc39aa8944a0c027d3cc6ebab30af75d6253e48491522db23a6e2339dc4",
+      "git_blob_sha1": "fe801a293c43790f32cdc96073d4e1378f79c96f"
+    },
+    {
+      "path": "N30-r2-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N30-r2-runtime/map32/map.tmj",
+      "bytes": 77591,
+      "sha256": "aebb62f3fe5c86a19f3316662e6b664dff9e3aa9dc4aa03a2882cba275b85418",
+      "git_blob_sha1": "01b02a167e474e8e6646a1f1a8c2e8edc3fea8ff"
+    },
+    {
+      "path": "N30-r2-runtime/map32/map.wam",
+      "bytes": 696,
+      "sha256": "d0274981ddc7d81d6d8fd4fb154ddee9cfac75323b7ca3c32ed177a9ab8eedd0",
+      "git_blob_sha1": "0818ac60eba6780cd3b21855e674ccb0aa17b977"
+    },
+    {
+      "path": "N31-r2-runtime/map32/foreground-0.png",
+      "bytes": 1599,
+      "sha256": "da1b662c2892919cb6f630d1d2ed4755dfd45a0671c659ffcdd04b2928a2a06b",
+      "git_blob_sha1": "9b3f8490f7f7f1c3c19f60e9e712b08c721bc36e"
+    },
+    {
+      "path": "N31-r2-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2256014,
+      "sha256": "736213db49e9a559b9d0e80564e0a8c3e87b4d2ce2d92f132a5a20f0ba18c067",
+      "git_blob_sha1": "ac525f17d75cf712a9205a7df716b8bc7e181220"
+    },
+    {
+      "path": "N31-r2-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1194985,
+      "sha256": "8b6433e38585332ec4708b95fcf4fb60161e341fcfa4bda047b8e2095a3505d4",
+      "git_blob_sha1": "241d9369539cfb3be0d5a05846087d07d78f9863"
+    },
+    {
+      "path": "N31-r2-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N31-r2-runtime/map32/map.tmj",
+      "bytes": 78556,
+      "sha256": "eb39681b735811862b75a7235d06a1d6ab5b96996d0dd7041a3c3614e289b020",
+      "git_blob_sha1": "e9bae7ae509686f9ce0fb2372a12ce870ac4a00a"
+    },
+    {
+      "path": "N31-r2-runtime/map32/map.wam",
+      "bytes": 898,
+      "sha256": "ff5ed7cb61c3af95f39371b84b7856bf10a0f350121ba7e1c045439446ca9e7b",
+      "git_blob_sha1": "b451950b5a5bd923ccfe0b88ad8ce7f7eb0a98d3"
+    },
+    {
+      "path": "N32-r2-runtime/map32/foreground-0.png",
+      "bytes": 1013,
+      "sha256": "1aafa169efbaea10b87a205e0eb0e7b92bfb04e8923c73685e4c347acc8386f4",
+      "git_blob_sha1": "2a1f4e0a25dc71f0c4bb1ffcea79cc651a34c313"
+    },
+    {
+      "path": "N32-r2-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2346677,
+      "sha256": "2bf1e55e736e7c01cb823098e1f96bfc8e9b90393a1d69e536906eb49031dc95",
+      "git_blob_sha1": "4494a6536fc9f60c98eb63e32d77d99bf7646964"
+    },
+    {
+      "path": "N32-r2-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1255973,
+      "sha256": "66e763867adf751ffe99b143ffb59326f18e7e59f576047ced9e7d9939fee974",
+      "git_blob_sha1": "dd9bfcdd0ce2819fff0a89b22e5c71818698117a"
+    },
+    {
+      "path": "N32-r2-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N32-r2-runtime/map32/map.tmj",
+      "bytes": 79067,
+      "sha256": "c851ef2a17bcee3a0be9059c590d3b5849eb8a4fe663d18d661516470a1666cc",
+      "git_blob_sha1": "c440e58177fcca2efe4544a9069b43d2c0b43b59"
+    },
+    {
+      "path": "N32-r2-runtime/map32/map.wam",
+      "bytes": 888,
+      "sha256": "f0a80baee4b52ee63390dd46c3aeaf75afd2be2e33690bd2c9f471e803245b41",
+      "git_blob_sha1": "04168a86292ba7a0b1ca1261ba11c10a49ba5a48"
+    },
+    {
+      "path": "N33-r1-runtime/map32/foreground-0.png",
+      "bytes": 1197,
+      "sha256": "8037b15dc7fd041f59be339d22d92da55e242b66ea04d4a3a33cb213230492ec",
+      "git_blob_sha1": "bfa87dfa7483dcb74093af1ef8a61e5a8771ec88"
+    },
+    {
+      "path": "N33-r1-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2287239,
+      "sha256": "57ed15903581f5a1aa48e23fe196925a46972586d22d0b8ae48f3527048da030",
+      "git_blob_sha1": "8c5f8250b535f68e2db4f79eadf17910f7e36471"
+    },
+    {
+      "path": "N33-r1-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1179510,
+      "sha256": "d7e3ed801cc96cdb9724e8fb91a91bed27ea6f4f10c6900c44fc9c822db647e5",
+      "git_blob_sha1": "9773950e7d9f914547e2400b27c365ea3c638a8e"
+    },
+    {
+      "path": "N33-r1-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N33-r1-runtime/map32/map.tmj",
+      "bytes": 78112,
+      "sha256": "1a280d1b17e398f30a1bccbf91d6fb880c6d91124022df39354561dd589aee37",
+      "git_blob_sha1": "077719aa644c473faafa0b3cf3371d9713492452"
+    },
+    {
+      "path": "N33-r1-runtime/map32/map.wam",
+      "bytes": 873,
+      "sha256": "9d58a2c1cd247c0c3b4dc077879dcb07dd281fa25a32ebffa19f5ddbfe30126d",
+      "git_blob_sha1": "eca5a98562e6024d9cb75b70c2e25bd2dde2c436"
+    },
+    {
+      "path": "N34-r2-runtime/map32/foreground-0.png",
+      "bytes": 1256,
+      "sha256": "bd72fbbcb6c14b96c2bde955448dd4241f04970fae25e7b469a9d16461eee6b1",
+      "git_blob_sha1": "62a00037da9c0e5022d13765cc782ed400edd2f3"
+    },
+    {
+      "path": "N34-r2-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2287599,
+      "sha256": "f9e8dc6d2708f257698dc2bfa44adfd667644649842f0020b8d088067acb4e50",
+      "git_blob_sha1": "75ea68e7091dab90491a02ab637bd5a395df4042"
+    },
+    {
+      "path": "N34-r2-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1210445,
+      "sha256": "eaf67be990df6810bdda45ad83d9bcd9affe168f52f49544343cae9bdf6b9299",
+      "git_blob_sha1": "a703179ff8f7ac43a50fbc2a3e7f8ca082f6b24f"
+    },
+    {
+      "path": "N34-r2-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N34-r2-runtime/map32/map.tmj",
+      "bytes": 77938,
+      "sha256": "2273fef40efbcc3c323305067bc32e1c832fb307c32d058470d36444ec699bcc",
+      "git_blob_sha1": "6d0313cddd26546523e1a32d52fd1d3519cd56c8"
+    },
+    {
+      "path": "N34-r2-runtime/map32/map.wam",
+      "bytes": 890,
+      "sha256": "43cc4ef20ac886fc5fa1635ed6787fb5cd60ac95d27c29c2a8a7f63133ebebef",
+      "git_blob_sha1": "061e2d89c145290f216ed1b46da549bb1344278f"
+    },
+    {
+      "path": "N35-r3-runtime/foreground-0.png",
+      "bytes": 21475,
+      "sha256": "77c8e5e017deff9be96122af825150a0a96eaa97a66c05dc3829f537200a4c74",
+      "git_blob_sha1": "622b14d31b3c0e09b6fc88bf8f2caa6953588119"
+    },
+    {
+      "path": "N35-r3-runtime/ground-and-objects-0.png",
+      "bytes": 2639626,
+      "sha256": "317f82f0c6621bb7993654edbee7c823cf921d652d717d7ad41b2d34adda6dd0",
+      "git_blob_sha1": "58652ff425c3542581eb2c77c9faa5b6829b3dbb"
+    },
+    {
+      "path": "N35-r3-runtime/ground-and-objects-1.png",
+      "bytes": 1285405,
+      "sha256": "10d37d4344c6bc78535a1fcd76c27ff53e69afd9a087675fc1146e8ffd899fcd",
+      "git_blob_sha1": "3f0bb2ad58654d886f90de6e1623f18a48097280"
+    },
+    {
+      "path": "N35-r3-runtime/lighthouse-festival-island.tmj",
+      "bytes": 80362,
+      "sha256": "e977b32148d7d70e29b15114baee3db7327a982b4a2c33d07980dde909d3cf65",
+      "git_blob_sha1": "37adaa3db7cd6874248984bb71ec72a491e1734e"
+    },
+    {
+      "path": "N35-r3-runtime/lighthouse-festival-island.wam",
+      "bytes": 524,
+      "sha256": "ab7d1f6291d18c5eb4fd2ef8b8dc885e825e02da98a79fe7a1bf74f483555b6b",
+      "git_blob_sha1": "3eda506f42ac1b08c0d8c7aacbbb1cd999abf825"
+    },
+    {
+      "path": "N35-r3-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N36-r4-runtime/desert-caravan-crossroads.tmj",
+      "bytes": 79557,
+      "sha256": "9f30ef8ff64ab1fdb1d69626fa5818db3938b8c4f66bcf4aa489ecb6fe206a64",
+      "git_blob_sha1": "81eb26add49b33e19e96cf368dce11dabf5396eb"
+    },
+    {
+      "path": "N36-r4-runtime/desert-caravan-crossroads.wam",
+      "bytes": 328,
+      "sha256": "26f6568c980a7b6e12deb070e1e6b8f903d233c150862ae12054b8f6de63efdf",
+      "git_blob_sha1": "5c83e49954d3d319a18eec4beb4f5d3c44fcff16"
+    },
+    {
+      "path": "N36-r4-runtime/foreground-0.png",
+      "bytes": 28147,
+      "sha256": "760a9a3fc21757dc5b6fa6272dcea9f761a61e69cf14b2f2949844b02c470e50",
+      "git_blob_sha1": "68f561d69bb0285bd8d4a0467462704e768ed977"
+    },
+    {
+      "path": "N36-r4-runtime/ground-and-objects-0.png",
+      "bytes": 2389525,
+      "sha256": "d1c63856a0fec03b91c4d938a87021802a40dc679500d49fb82ee2bc35525a38",
+      "git_blob_sha1": "e40671f23b4d3bad84ac917c39dd3b8614caf648"
+    },
+    {
+      "path": "N36-r4-runtime/ground-and-objects-1.png",
+      "bytes": 1139379,
+      "sha256": "6b874da5eef523949053568c8f12e15c281fce03dc91e4c4227fbe339efdbb26",
+      "git_blob_sha1": "d2550c3f9aaf8ad9c71bd0eafd075c396666c5ac"
+    },
+    {
+      "path": "N36-r4-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N37-r2-runtime/foreground-0.png",
+      "bytes": 66258,
+      "sha256": "79a6e795f0947e5a5b39f17c3b7c22d93ab2837d64b8eb99c1902b04e5f739d3",
+      "git_blob_sha1": "82ff5a48254c764264fb82aaef224db9c2b83720"
+    },
+    {
+      "path": "N37-r2-runtime/ground-and-objects-0.png",
+      "bytes": 2659263,
+      "sha256": "2d6bc1d4135068f2261fad36e3471cf25aea87de75fdcb5bcbce7b4a133128ae",
+      "git_blob_sha1": "94638f25f64303a4506efae7c402f30b5d1f54ef"
+    },
+    {
+      "path": "N37-r2-runtime/ground-and-objects-1.png",
+      "bytes": 1318633,
+      "sha256": "4cc33bc7b93d60eaa4fff02e2d448a1dda7042daf2a8d65a316b7cc9fb475b44",
+      "git_blob_sha1": "c72f9a90e2f330006f07c4bd42e37afd5ededb83"
+    },
+    {
+      "path": "N37-r2-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N37-r2-runtime/mountain-cable-station-village.tmj",
+      "bytes": 79834,
+      "sha256": "0a49353b2dcdca146965458566bab521871b031fc14c2c4ade6a4e31bc4e06ca",
+      "git_blob_sha1": "ed30ec225bbfc37e55a7b804284c1c31476c0566"
+    },
+    {
+      "path": "N37-r2-runtime/mountain-cable-station-village.wam",
+      "bytes": 333,
+      "sha256": "04daf118f9bf36189bc2c7601de083c03a86afd176e3328eafcd3e9400136f58",
+      "git_blob_sha1": "bb17dfbe3aeaf421ca8717b18b606082ff0d3433"
+    },
+    {
+      "path": "N38-r2-runtime/foreground-0.png",
+      "bytes": 28358,
+      "sha256": "fcc60feac7c6476447831a4ad28be2a2532d21aa78a89d058111f922dd46ccff",
+      "git_blob_sha1": "231a81e2f6833872f11088660fe01c08a18dbcbe"
+    },
+    {
+      "path": "N38-r2-runtime/ground-and-objects-0.png",
+      "bytes": 2680712,
+      "sha256": "7eee0474c83e1cf38650649b8f20c534cda82758dd3bcd7224fca360bc99f2cf",
+      "git_blob_sha1": "bed97851b8cfdb758bcb6827d297635a83c679f8"
+    },
+    {
+      "path": "N38-r2-runtime/ground-and-objects-1.png",
+      "bytes": 1313196,
+      "sha256": "bb887655acb43d86c6d34c67e64f03ec9c7c3a1dac156ae6d24a3e48fc7bec26",
+      "git_blob_sha1": "43eb67ba3721c779564f09adceecd9e34602d7a2"
+    },
+    {
+      "path": "N38-r2-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N38-r2-runtime/rainforest-canopy-forum.tmj",
+      "bytes": 79847,
+      "sha256": "24920afcf88375c0340a09740400a7cc023a66375b66ed7fe93c301f4d7d269a",
+      "git_blob_sha1": "544ca6cbb6c3b7525f1d2cd2fb925687d5ea7827"
+    },
+    {
+      "path": "N38-r2-runtime/rainforest-canopy-forum.wam",
+      "bytes": 314,
+      "sha256": "06fd360784a5456319e9ed01d1c1d0ad3e7a3bebda4958cdc3a939e84fb496b7",
+      "git_blob_sha1": "42832095295f4716716a1788eaebd988d82f4ea5"
+    },
+    {
+      "path": "N39-r3-runtime/foreground-0.png",
+      "bytes": 49089,
+      "sha256": "412d1e0c0bde88628c2ba440bed5570a682f24bcdc7c487cb181b817a76bb184",
+      "git_blob_sha1": "a802eb44586acf6e0e9487def39d84052d5abf15"
+    },
+    {
+      "path": "N39-r3-runtime/ground-and-objects-0.png",
+      "bytes": 2298288,
+      "sha256": "aafb578feeb1fe93b132d23844395bb70792e58b336f9729af6cc9b8e3c0ceef",
+      "git_blob_sha1": "38640fec003b6b996fc948bc7fc57aa40462d177"
+    },
+    {
+      "path": "N39-r3-runtime/ground-and-objects-1.png",
+      "bytes": 1136174,
+      "sha256": "90901a172c3ff54006505bf62ab25af507e386669f9d557a31faa31e9bdbddf1",
+      "git_blob_sha1": "6c28792dfb77ed97f9cd24f07866c9af6e1637ae"
+    },
+    {
+      "path": "N39-r3-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N39-r3-runtime/volcanic-observatory-lodge.tmj",
+      "bytes": 79831,
+      "sha256": "ac6f097436f2106cd70cf6375f1f22e5422dac279d07ae3b753a21586340f5eb",
+      "git_blob_sha1": "e3eac33f9017d8b9c5285770065578b515ab6980"
+    },
+    {
+      "path": "N39-r3-runtime/volcanic-observatory-lodge.wam",
+      "bytes": 335,
+      "sha256": "ae1267d0361422a04b53d20c58de21cea94d16461e50fcbe9af54b77187f21d8",
+      "git_blob_sha1": "dc40d3335e1870567e9606711f53d7624001957d"
+    },
+    {
+      "path": "N40-r3-runtime/coral-research-pier.tmj",
+      "bytes": 80145,
+      "sha256": "e3b5e44c8b43bf8e5b3f66dce642eade6738dfe78a296ff2df24d2a89fbdb1d9",
+      "git_blob_sha1": "6d13878293502420e2bb8efc9adbeab9d929a773"
+    },
+    {
+      "path": "N40-r3-runtime/coral-research-pier.wam",
+      "bytes": 327,
+      "sha256": "74945070417820dbd9974eec11ff9b4e1b91513a12c3822ee10d6d2563ac01d6",
+      "git_blob_sha1": "dc3adee26fabad9c053f40bbdf8c09ed0c0fe47b"
+    },
+    {
+      "path": "N40-r3-runtime/foreground-0.png",
+      "bytes": 20033,
+      "sha256": "af94a8f84be1f138e409ab14bf0344ce171451afdd0074d8280a715bfdb22fff",
+      "git_blob_sha1": "63755620d381b91a165d316605b4f5b7c24274a3"
+    },
+    {
+      "path": "N40-r3-runtime/ground-and-objects-0.png",
+      "bytes": 2415148,
+      "sha256": "f9e8a1a762c2ba31f1ad22129f1161ee8a53c9480a9c6d6c10335e29770d6219",
+      "git_blob_sha1": "70d95e81e9e14f122ad0211ab64fa40b454142d2"
+    },
+    {
+      "path": "N40-r3-runtime/ground-and-objects-1.png",
+      "bytes": 1260746,
+      "sha256": "12013feece6717bdf0fe9a1b8005fbfef9f9530a799a99914fcc580243aeb90c",
+      "git_blob_sha1": "147e3b20bb82aa321fb628e6dbd29b952a5f90eb"
+    },
+    {
+      "path": "N40-r3-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N41-r3-runtime/foreground-0.png",
+      "bytes": 16873,
+      "sha256": "7da91ec63f0e2b974857f936e939b23f7efeb2ff0911bc22ee51bfb539fad6f3",
+      "git_blob_sha1": "8c5e4a698f38685bbedeb5127fe9b2eb919f83e7"
+    },
+    {
+      "path": "N41-r3-runtime/ground-and-objects-0.png",
+      "bytes": 2660566,
+      "sha256": "e34577f219556e1f77b057ad65ff0acd53727866002f1acf06a3343222c854f3",
+      "git_blob_sha1": "73fd56edfa5abffc6b8d5923f6a7046cf950d6e0"
+    },
+    {
+      "path": "N41-r3-runtime/ground-and-objects-1.png",
+      "bytes": 1328283,
+      "sha256": "f08356158a15e1dfd386d2e6bb7a78f8f82cb6c544039515ba3b9fe357432dd5",
+      "git_blob_sha1": "78631724cb15c077b3ac194ed1c9ec18a87b7b06"
+    },
+    {
+      "path": "N41-r3-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N41-r3-runtime/moonlit-ruin-courtyard.tmj",
+      "bytes": 79850,
+      "sha256": "933915f23172c9bebcf4f962e32e32e356ea974edd4202d1b849cb7ef9d9d168",
+      "git_blob_sha1": "1a1d2385295df0fcb916cc4353dc547bafe947c9"
+    },
+    {
+      "path": "N41-r3-runtime/moonlit-ruin-courtyard.wam",
+      "bytes": 330,
+      "sha256": "ec9d1921c036771ec4e550962d5cac2994cdb20f8fdb5f8608b165a6e53d94ce",
+      "git_blob_sha1": "5f3a48d89c90076d74933befe84bfed2fe41ed34"
+    },
+    {
+      "path": "N42-r4-runtime/foreground-0.png",
+      "bytes": 24534,
+      "sha256": "49ca406a43e8fbb6265f823c25bff897f09395eab67a45fac73cd6619ea663ce",
+      "git_blob_sha1": "33cf3232e34a73bf7349b8083d936ada49ce868b"
+    },
+    {
+      "path": "N42-r4-runtime/ground-and-objects-0.png",
+      "bytes": 2466164,
+      "sha256": "dd16e0f277f2787efc9fbe2f846f6ef4230fa7411052268d921d985e8a5a5755",
+      "git_blob_sha1": "f4e06ba33dcdbc3c3b83bb0b23c71283952e6034"
+    },
+    {
+      "path": "N42-r4-runtime/ground-and-objects-1.png",
+      "bytes": 1224132,
+      "sha256": "25e24eb5c4fec4e215cbd631f7c40eed3da3af37c7d7b012adb837c679d4dff1",
+      "git_blob_sha1": "f3965dd8dee156d93f99b72af5f2a615cb8c4323"
+    },
+    {
+      "path": "N42-r4-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N42-r4-runtime/sky-village-airship-terminal.tmj",
+      "bytes": 79893,
+      "sha256": "f5250de920da2f87bdda475018e261380558d8dfe619c456ef02104eb7d1da5e",
+      "git_blob_sha1": "900f51f3afa1ac83e5a7f4f4e51f5de060254d3c"
+    },
+    {
+      "path": "N42-r4-runtime/sky-village-airship-terminal.wam",
+      "bytes": 342,
+      "sha256": "6f5b2e2a53c9d1e4e73a61639d95e36692def97fddc5aaf40adb169bc76226d9",
+      "git_blob_sha1": "f3bd6bd06d28dc72ffd10e5408e1a77b91d431d2"
+    },
+    {
+      "path": "N43-r1-runtime/foreground-0.png",
+      "bytes": 10968,
+      "sha256": "f1b94f3b5f41907120a7cc0725a096f41d7f24202a21e45b47d0de26a41b29b9",
+      "git_blob_sha1": "205c3cc15d55f47929f280ff9fc379725265316c"
+    },
+    {
+      "path": "N43-r1-runtime/glass-hall-conference-campus.tmj",
+      "bytes": 78629,
+      "sha256": "48886ff4aa1541910a61a26c6636474c1fe468a414c8d11aaacbf41472608dba",
+      "git_blob_sha1": "0d15f435a89e1f9e5181466c7360e92b4c5c0832"
+    },
+    {
+      "path": "N43-r1-runtime/glass-hall-conference-campus.wam",
+      "bytes": 1361,
+      "sha256": "5603310a506de241620ecb97f7912d4fcd43fb0b12401959b28527852fab6c73",
+      "git_blob_sha1": "5d72377c44be9a271a0cdf7125f7c70fb7eccb40"
+    },
+    {
+      "path": "N43-r1-runtime/ground-and-objects-0.png",
+      "bytes": 2167958,
+      "sha256": "b324353bb7ef4f2653dfe9cf765bf9ca4929a3f0ef9db37535dfe1fdee0e8f12",
+      "git_blob_sha1": "ae8299b38e14714a111d80f5244914369c6cf474"
+    },
+    {
+      "path": "N43-r1-runtime/ground-and-objects-1.png",
+      "bytes": 1194019,
+      "sha256": "69d09497fd881fbb5ab402158d1d25837af6aca40a6cb992235912e37727dcfa",
+      "git_blob_sha1": "7d8dc6aa1d925252ce0ed18ca5bb4543eb8dc8ac"
+    },
+    {
+      "path": "N43-r1-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N44-r1-runtime/autumn-amphitheatre.tmj",
+      "bytes": 78719,
+      "sha256": "16698fef74238d0024d7ec1bdf9aa0cdb1110d1dc2eabadcc816dce6e0a07f4f",
+      "git_blob_sha1": "b958d6a8b13c4c56a9768c806afc377c0d6c203b"
+    },
+    {
+      "path": "N44-r1-runtime/autumn-amphitheatre.wam",
+      "bytes": 1280,
+      "sha256": "747c2030b5bacbfc9c8e699e6fa2298145f77c44ae0c9a18e870c570a3b42fce",
+      "git_blob_sha1": "ebcc21a594cd6250a1c2e6942689fc4573899ab2"
+    },
+    {
+      "path": "N44-r1-runtime/foreground-0.png",
+      "bytes": 22654,
+      "sha256": "bc1144f4dddbd469d6e7816ea32518d6d83554d6401bc655740c808bb51b9642",
+      "git_blob_sha1": "571349dae8134f97e023e8d35a0409bbb9bf4e4c"
+    },
+    {
+      "path": "N44-r1-runtime/ground-and-objects-0.png",
+      "bytes": 2446912,
+      "sha256": "92a773ef09d31b2deeb5ef5c141c151d5fea7ffd51bd37c502d289d68f27bd51",
+      "git_blob_sha1": "dec271a0cc54da66b92c0a09bb04625275b94cd9"
+    },
+    {
+      "path": "N44-r1-runtime/ground-and-objects-1.png",
+      "bytes": 1285371,
+      "sha256": "8ea3904476918659cf18a86f7e73cf7ad03e8145120fa71e5e7e8ddf64e4263d",
+      "git_blob_sha1": "f7fc875b7f09a4dd155c192ab86a8fd96e59e1a4"
+    },
+    {
+      "path": "N44-r1-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N45-r2-runtime/desert-esports-pavilion.tmj",
+      "bytes": 78155,
+      "sha256": "35eea1f009d307ee1f6c932b42f76d56399ee0403ce60b3d7d3a0a622e204053",
+      "git_blob_sha1": "388fd2215f0bcb6ae32252eb539420320c8552ce"
+    },
+    {
+      "path": "N45-r2-runtime/desert-esports-pavilion.wam",
+      "bytes": 1315,
+      "sha256": "1b9e457a552660c39956d74d2804ef2ba5dd61d3e356992475027337e90bf5c6",
+      "git_blob_sha1": "522ff6ee4e632ff95daf8ebd1264dcd89a4a031d"
+    },
+    {
+      "path": "N45-r2-runtime/foreground-0.png",
+      "bytes": 26793,
+      "sha256": "90ac9b3f7fb1f9b39f9654b08e79ed05346899915de30b69ba891075db3e9a01",
+      "git_blob_sha1": "9303a7cbb10bb3f0f0204d781fa827d298970430"
+    },
+    {
+      "path": "N45-r2-runtime/ground-and-objects-0.png",
+      "bytes": 2630571,
+      "sha256": "5de3535bd22873871c05c0afab10e82c5c1db20327ca5189b079784d7e3939d8",
+      "git_blob_sha1": "13ebd73e62ba4edcd6d3d4145635ffe51eb26604"
+    },
+    {
+      "path": "N45-r2-runtime/ground-and-objects-1.png",
+      "bytes": 1334694,
+      "sha256": "b558daf32fa7e47eb4039abde0386ab40b14679ab09751c44aea62bb77e0c26c",
+      "git_blob_sha1": "328907dfe241b78c46fc65821f8c76392ee9cba8"
+    },
+    {
+      "path": "N45-r2-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N46-r2-runtime/foreground-0.png",
+      "bytes": 16195,
+      "sha256": "87b72b6a1fc2a5c641d144b0b02ddd74adbada6fd781740ae4defcb91992185e",
+      "git_blob_sha1": "e0ffc4ede6273de807b57bae86eb27d4f2c80fcf"
+    },
+    {
+      "path": "N46-r2-runtime/ground-and-objects-0.png",
+      "bytes": 2703192,
+      "sha256": "82a418ad98f632ea65f4fe14b4d19b85afa91e4f5f51d6bcd02dc332346131b5",
+      "git_blob_sha1": "d36b9feba4b69b47b6501c4065b7a52919be836b"
+    },
+    {
+      "path": "N46-r2-runtime/ground-and-objects-1.png",
+      "bytes": 1375291,
+      "sha256": "fd310bc8e8705c620c20552ba43383b913da46e5e9683552959c833e594e8ecf",
+      "git_blob_sha1": "919f6ae3dd6ed20d469bf24e66ec1f8db0170732"
+    },
+    {
+      "path": "N46-r2-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N46-r2-runtime/riverside-art-fair.tmj",
+      "bytes": 79662,
+      "sha256": "e2e0c0ec4af61749924060f5ada9dd559447c45181ad68389622b59d336d1f75",
+      "git_blob_sha1": "e27f057c299ab974d5b377aee0dc217d8c21d201"
+    },
+    {
+      "path": "N46-r2-runtime/riverside-art-fair.wam",
+      "bytes": 326,
+      "sha256": "5752eea7ba9446be79864ebb2177510ff654fefad324535ced82a94989db5dc7",
+      "git_blob_sha1": "79b1069dbd805ebdcd10a8af03f56538ba61ad30"
+    },
+    {
+      "path": "N47-r3-runtime/foreground-0.png",
+      "bytes": 32817,
+      "sha256": "395ffa844a44331951dfbd743af40e111fd7915d704948697edb24c619a7194f",
+      "git_blob_sha1": "af077686726e7f479dc7f6b1018170d4629a6d6a"
+    },
+    {
+      "path": "N47-r3-runtime/ground-and-objects-0.png",
+      "bytes": 2565636,
+      "sha256": "67da7d6d93dd1b04dcddb866c366353e512c6882e33d29f3dd5bd287e4fe81eb",
+      "git_blob_sha1": "ecf7464d7dbc930177fb84de3c63e46d4e651af3"
+    },
+    {
+      "path": "N47-r3-runtime/ground-and-objects-1.png",
+      "bytes": 1205122,
+      "sha256": "4bc86ef3082caea828ba5399143cf519953c6495f9ecde8e2b51c2cb507d28de",
+      "git_blob_sha1": "9ce58bf90e6fd6893f36cfdb15c1a2186d119237"
+    },
+    {
+      "path": "N47-r3-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N47-r3-runtime/winter-lantern-festival.tmj",
+      "bytes": 79600,
+      "sha256": "6f93d4f1b1f5d32d922c2e0bf57a8f13149b18f9acea084463da129aab2f7700",
+      "git_blob_sha1": "bfa2bc0c759a8143e405a46955d8198c78e1a141"
+    },
+    {
+      "path": "N47-r3-runtime/winter-lantern-festival.wam",
+      "bytes": 334,
+      "sha256": "a3f1f5a8a7e89a1b5d65cccc7bda4e5033614014672d16c49b9989f172f3e8da",
+      "git_blob_sha1": "959188e7921cfe8fd2458a93e708fb1315680f70"
+    },
+    {
+      "path": "N48-r1-runtime/acoustic-cave-hall.tmj",
+      "bytes": 78076,
+      "sha256": "73f18ebf500aef88826eb06f59c2b374ff3765af5993dce60ac7684ffb4fd579",
+      "git_blob_sha1": "236c879a7b98e8df93dafd93871e40db5daab5d3"
+    },
+    {
+      "path": "N48-r1-runtime/acoustic-cave-hall.wam",
+      "bytes": 1272,
+      "sha256": "5fca22804655469395430262635aad7a8950464161816d618c6cbaf73d10a3a9",
+      "git_blob_sha1": "c16b5470f811f4d9c1cd568e658d41943b19e261"
+    },
+    {
+      "path": "N48-r1-runtime/foreground-0.png",
+      "bytes": 24069,
+      "sha256": "487005783c6d341e10b5141a4077f8245e1a8de66606cecc7f76b429ea56ded9",
+      "git_blob_sha1": "0aa0088232c77da8e825396cd5aec7cb67e396a8"
+    },
+    {
+      "path": "N48-r1-runtime/ground-and-objects-0.png",
+      "bytes": 2331214,
+      "sha256": "12f9b884dfc308dfd5bf49be70cc00a5a99f54501df19eba41be514bb3d492f0",
+      "git_blob_sha1": "d687f0a24516acc7bb52526479d3b392431b0002"
+    },
+    {
+      "path": "N48-r1-runtime/ground-and-objects-1.png",
+      "bytes": 1148372,
+      "sha256": "d6c24ab208e605bc290f767503a9d6ec3d255887d9fa6de77b257e31dcd212ab",
+      "git_blob_sha1": "9cd6633a03d7a9ecc85602abba17e98a919b50ef"
+    },
+    {
+      "path": "N48-r1-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N49-r2-runtime/foreground-0.png",
+      "bytes": 22768,
+      "sha256": "0bd17fe3c06cc582ccf3ef8eb02f221b879da6dd2e322f31ed6dc8ec4bf6ab01",
+      "git_blob_sha1": "0f0f37df93ed1202819abe71758866c5e5408514"
+    },
+    {
+      "path": "N49-r2-runtime/ground-and-objects-0.png",
+      "bytes": 2306966,
+      "sha256": "f2e50d87d2d3eed666314f5aea8685ee4fad676f81a8a1a5b794c824071df39a",
+      "git_blob_sha1": "d50f74c0d8424c6c70e9c6c0d987f74290eb9e32"
+    },
+    {
+      "path": "N49-r2-runtime/ground-and-objects-1.png",
+      "bytes": 1107427,
+      "sha256": "b3522bffdedde5d292cca6075158b36dfcd0f7acbb390fca0bbb1b9a195fe08b",
+      "git_blob_sha1": "634d6d41adf9860ce5c5704438ce8afb858803e3"
+    },
+    {
+      "path": "N49-r2-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "N49-r2-runtime/ocean-exposition.tmj",
+      "bytes": 79627,
+      "sha256": "78da585fe4a19ccbca6de12e546e97dcab186659dcb72684dca19854162ce0ed",
+      "git_blob_sha1": "6f81558445405ba8451c72209a3cc899aab3e20d"
+    },
+    {
+      "path": "N49-r2-runtime/ocean-exposition.wam",
+      "bytes": 327,
+      "sha256": "cb20a5a622280876dd981a234889e4254ab8960c8a21b5e1ebfd9d555268b3dd",
+      "git_blob_sha1": "6a78fc5eef62c1514d48328f375e24057010dea6"
+    },
+    {
+      "path": "N50-r2-runtime/foreground-0.png",
+      "bytes": 29278,
+      "sha256": "02cf76a16dcab310702fd585ae1166edbcf9fb09f3351c5873292f4b3c3952fa",
+      "git_blob_sha1": "c750809c47cd3fe4aa73b1acab978d7b29f26d17"
+    },
+    {
+      "path": "N50-r2-runtime/ground-and-objects-0.png",
+      "bytes": 2269275,
+      "sha256": "3180ff5d10544bb003466db9dda86f42ea000dabbf4654d4f60e8045a6b4bdf0",
+      "git_blob_sha1": "2902a79598c63a03725a59440f03cc0032230910"
+    },
+    {
+      "path": "N50-r2-runtime/ground-and-objects-1.png",
+      "bytes": 1161484,
+      "sha256": "c53abe41ae2223f601c929584bdc60f29da39bb779866bbe8335460318829a91",
+      "git_blob_sha1": "73c9aed75eba578c391a60e40c69e0bc3db72caa"
+    },
+    {
+      "path": "N50-r2-runtime/lush-hotel-courtyard.tmj",
+      "bytes": 79687,
+      "sha256": "83b0f15a25d4340f12c772410eb6ca6b570c349552e91db8ab089f6cbd8c245f",
+      "git_blob_sha1": "5e4beb402e108237427e09dbf9c0d126cc90fc28"
+    },
+    {
+      "path": "N50-r2-runtime/lush-hotel-courtyard.wam",
+      "bytes": 327,
+      "sha256": "d477d480e07ad6c0394efeb62fd33bdd295c2ff23a731e99def93c5d5dc72dae",
+      "git_blob_sha1": "91304abe6300f43c2809835618c2c073d3722031"
+    },
+    {
+      "path": "N50-r2-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/architecture-and-furniture-0.png",
+      "bytes": 1750523,
+      "sha256": "3083aa55b7b20688c4929458c9412034bb06198b8fed53d8b478ff8bb387b19f",
+      "git_blob_sha1": "d13bb39210354755811578d07fc430f50d27de6e"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/architecture-and-furniture-1.png",
+      "bytes": 1856856,
+      "sha256": "450a2aa3b69a44f247740e635bf14ee4c4d5f39b0ee339dcdc49186ee623166e",
+      "git_blob_sha1": "39654308a8a946fb66542d87502d65a0f2f19ce0"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/architecture-and-furniture-2.png",
+      "bytes": 526301,
+      "sha256": "7155a145d3d6784bc99de2fb33cfd4cf044b4aaeb15b4d302c883aaa49c6c5e2",
+      "git_blob_sha1": "decce06c898e50043a76a45091ad506681a3c2a8"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.tmj",
+      "bytes": 122099,
+      "sha256": "53156d1a72dec2536fdf606ac8e5fa501acdaa3bc67b329f5dba9b68a80222cf",
+      "git_blob_sha1": "2054405748589052396d9ff502acc598b28f6327"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.wam",
+      "bytes": 2148,
+      "sha256": "b3c415ef183cdd739d1b5e5fb8a6c9c2b006a803be710ec0a75c3a1f99c58e19",
+      "git_blob_sha1": "05e4ab840d0799e50c6a1645de451804c87e5b27"
+    },
+    {
+      "path": "art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/seat-backs-0.png",
+      "bytes": 68382,
+      "sha256": "9e24d6cd6a5f6f7125f045ffd806d436406287fc5f7c9da419c8e2e34a89a251",
+      "git_blob_sha1": "ee74c8a7ba61f251384fa9b68986cb00f505226d"
+    },
+    {
+      "path": "astral-concourse-lobby-01/astral-concourse-lobby-01/map32/astral-concourse-lobby.tmj",
+      "bytes": 44195,
+      "sha256": "0d0ad1d16b4a434ad8e05cccdc490029f6ceb10656ab742e6002523384af9f15",
+      "git_blob_sha1": "00a61a830da23430f06e5cfc4a73186033d6dae2"
+    },
+    {
+      "path": "astral-concourse-lobby-01/astral-concourse-lobby-01/map32/astral-concourse-lobby.wam",
+      "bytes": 1110,
+      "sha256": "8ad0faecb0ccf1949ba91f8c200359f6f19c772eddd15b0ae3c840d856a8c6ef",
+      "git_blob_sha1": "64f6fe3285ee3a13fe7772661ceefcbf5b3514dc"
+    },
+    {
+      "path": "astral-concourse-lobby-01/astral-concourse-lobby-01/map32/collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+      "git_blob_sha1": "51693a39ae4a8539f8b40385eb47e99ae6bf99c0"
+    },
+    {
+      "path": "astral-concourse-lobby-01/astral-concourse-lobby-01/map32/lobby-above-p0.png",
+      "bytes": 1254270,
+      "sha256": "7116edcd7c623058b751b33a1aa30d42bf74b651b568240b5f44a9407d2495bf",
+      "git_blob_sha1": "b618c2a82847ea285fc3e8337db790d4857ee0d6"
+    },
+    {
+      "path": "astral-concourse-lobby-01/astral-concourse-lobby-01/map32/lobby-base-p0.png",
+      "bytes": 612368,
+      "sha256": "5c61b89f902b199521910d22284d1c68caf4eba8f5eedbf60ee0ce553f5aa017",
+      "git_blob_sha1": "59ccb7344eb3971ce74d6ad429020c143cc950d3"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+      "git_blob_sha1": "51693a39ae4a8539f8b40385eb47e99ae6bf99c0"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/grand-auditorium.tmj",
+      "bytes": 239391,
+      "sha256": "50c07de93567b15d7b5170bca02a4fe2b43dd5865fe02f6b90d06605947e2b85",
+      "git_blob_sha1": "407eb9426799efa9ce22412fc7be62e677c900ea"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/grand-auditorium.wam",
+      "bytes": 3484,
+      "sha256": "2504f5871750964aa6972f88bb4071ccbca73aa74847d84398637d18838954c2",
+      "git_blob_sha1": "5ab9cac312c9ee97d46d42ec644539e55de6b90d"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/hall-above-p0.png",
+      "bytes": 19102,
+      "sha256": "b10b49e46d59134fab6832752c2a0fa5c02781a9bd0a43cf9a5f2ea1dc9746d9",
+      "git_blob_sha1": "1a5698bc4b6f2685a4b6d6fd160ea2edacd3f8f3"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/hall-base-p0.png",
+      "bytes": 1932511,
+      "sha256": "ce1fbdf68e384952fb99b1705a3420a93e63e6be8bd078b607e069e2598cbaca",
+      "git_blob_sha1": "a4b392a78ef3bac255266a5904c225bba64ab57a"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/hall-base-p1.png",
+      "bytes": 1831994,
+      "sha256": "50c3d1ee13b5ebb187704a51c2ed7203e1be5d8bdcefbd04ff978af296630dcb",
+      "git_blob_sha1": "aa703d5caa63fafaec305fc13e7c1b9642437498"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/hall-base-p2.png",
+      "bytes": 1845505,
+      "sha256": "14babc84f04dd17938bddceb818c7dc1fc8b584a0917d342210a9640aee4983c",
+      "git_blob_sha1": "1385c660fb5c77fa2cfe99ac9e34ac2ee3629d81"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/hall-base-p3.png",
+      "bytes": 947391,
+      "sha256": "2eb8f81ad313523b55345b417a358a6f359da83beb2e9e0b3ce9ea19c5754418",
+      "git_blob_sha1": "96afb20562890f514e3f0314d1bab101c0e4e682"
+    },
+    {
+      "path": "astral-flagship-a-v07/map32/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+      "git_blob_sha1": "51693a39ae4a8539f8b40385eb47e99ae6bf99c0"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/garden-accent.png",
+      "bytes": 5163,
+      "sha256": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646",
+      "git_blob_sha1": "ac74764773e5730feb5f094f51a521e479e1c256"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/grand-auditorium.tmj",
+      "bytes": 293297,
+      "sha256": "a9120457e63c3118de7a884879471b6219442bb26a72971f8c4ce163615e8f7b",
+      "git_blob_sha1": "da7ca98a50d9ecda1bb266ff591408b65cb6412d"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/grand-auditorium.wam",
+      "bytes": 3484,
+      "sha256": "dd5a4d310640f82e6b4acc28f068733142b8f5f9bc3f0bda384c7fd3c00467f5",
+      "git_blob_sha1": "66d03fd986b8722f8407af96101633a937ec84e3"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/hall-above-p0.png",
+      "bytes": 18474,
+      "sha256": "7f665ab1b7bdec5f8ae8f02d0225709dd5eaa2c675ffdc1e99ca74b2a68948e3",
+      "git_blob_sha1": "d89491b591350876d3918a97e03f4ff27346f46e"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/hall-base-p0.png",
+      "bytes": 2082495,
+      "sha256": "c6e9ee5b6d60778f1e09b9f1e931d795b5955ba4e11cb45a441c8d54e5be7589",
+      "git_blob_sha1": "1fcd6d8ef088df790c17b4c39d94e9800e6921ef"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/hall-base-p1.png",
+      "bytes": 1888462,
+      "sha256": "c1a4a765aa95bbb57160969345230b1531aab6ece3fef05ea4413f8d3d415f41",
+      "git_blob_sha1": "12ca4c5199f40ec2937b49521c2d939e97f2fe7a"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/hall-base-p2.png",
+      "bytes": 2021746,
+      "sha256": "c66677c3b7b9f1035f15ab5d5b29ed617363ff254a4e84a4ef318e394cdfec9d",
+      "git_blob_sha1": "051ea20e2885292131b275a89f18f7c04253a256"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/hall-base-p3.png",
+      "bytes": 1746267,
+      "sha256": "5492b195318fe5a3495be7c2a828dd1c84e4b8cfe66e9e27fa48a2b3d114d517",
+      "git_blob_sha1": "dda6d2590fe0e26643b217fb4df1357a8c56e5ed"
+    },
+    {
+      "path": "astral-flagship-b-v08/map32/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/building-reveal.js",
+      "bytes": 3603,
+      "sha256": "a8f2f0a1258cbb2a36e219c4039c8968b35c4308ffa1354ad7af498ca413b263",
+      "git_blob_sha1": "cd0ff1da14f300f27cd77c248d32d77aac844c77"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+      "git_blob_sha1": "51693a39ae4a8539f8b40385eb47e99ae6bf99c0"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/garden-accent.png",
+      "bytes": 5163,
+      "sha256": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646",
+      "git_blob_sha1": "ac74764773e5730feb5f094f51a521e479e1c256"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "bytes": 1028359,
+      "sha256": "1f63e14e5fe656a4db00eda91cb52a961540e6e7a44bdeafd7ec1c5daf44dc9e",
+      "git_blob_sha1": "f7f9c26cbe4f75d18fda8cd5dced7bf58517991b"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/grand-auditorium.wam",
+      "bytes": 3486,
+      "sha256": "d5fcbe0894c4fc6b6e03ecb89b0d5edd9536d42abddfeed9fd6bc89d0599bec7",
+      "git_blob_sha1": "1fcef7909d845b6632f0274e28c2d89c4339a4a2"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-above-p0.png",
+      "bytes": 18474,
+      "sha256": "7f665ab1b7bdec5f8ae8f02d0225709dd5eaa2c675ffdc1e99ca74b2a68948e3",
+      "git_blob_sha1": "d89491b591350876d3918a97e03f4ff27346f46e"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-base-p0.png",
+      "bytes": 2367694,
+      "sha256": "cefb3228c7b327007f08429548389d9415c0477cf02297af390c9f497399e8db",
+      "git_blob_sha1": "6ce4a162dbaba47e80dc02cf551e95aaf9f2932f"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-base-p1.png",
+      "bytes": 2020238,
+      "sha256": "d00d2efe7c17006b16c1d80d61bbef3a745b828e735e44d8bce98c71711c26dd",
+      "git_blob_sha1": "b64367fd87726f1a9441c6123e0003ca184c0db6"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-base-p2.png",
+      "bytes": 2035981,
+      "sha256": "5f14252a7b66fd2db93707196f1e77a2b5b6327222029b10e5b40c2946ce1998",
+      "git_blob_sha1": "f514542101d27ccb8aa34129432046710a15cb32"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-base-p3.png",
+      "bytes": 1879050,
+      "sha256": "bddae5c6686fb55a2fc14b3f1d1d83a166c03b4c0a96f9731236a5e1930aa627",
+      "git_blob_sha1": "8335ee826d0bb3cc86830ada7ee71eb050567d65"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-base-p4.png",
+      "bytes": 2140995,
+      "sha256": "aabe34fe2051eabf1a6a2443630faa565c259a89c9b430d49a1aee0dcf260561",
+      "git_blob_sha1": "09a6292c0cc48d0075e102944708dc00c48fa9e6"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/interior-base-p5.png",
+      "bytes": 383188,
+      "sha256": "6c665d753acf3da9a35d31834817a0e2f01e423ad8a47fd0a07fb25d1c868828",
+      "git_blob_sha1": "44f53f35aab1b74b5322600d707436a1dbecc325"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-foyer-front-art-p0.png",
+      "bytes": 336114,
+      "sha256": "3f32d3fbd1e9cd677aa625eef7955e3548c119dab6d3b75d847a565b2ec35c1e",
+      "git_blob_sha1": "9a8471a07a83de90e33a6ee9d0bde7f192723eaf"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-foyer-roof-art-p0.png",
+      "bytes": 1559888,
+      "sha256": "e296a59be1afd989f295c0b7961e4f164b297ab6d000454e2d5548008c8a7eb2",
+      "git_blob_sha1": "697131379ccabc29b6aaaf6a10cb70360e9c80d0"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-foyer-shadow-art-p0.png",
+      "bytes": 7604,
+      "sha256": "6808adbdb6492437238ec3e3e30698da5c0ff4851f9b9e0e78c0f2807fb140ac",
+      "git_blob_sha1": "7c2a860953b71bc3ca4d9d41fc87714003ae3d8f"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-foyer-wings-art-p0.png",
+      "bytes": 85813,
+      "sha256": "db4e4d6ff5e96394c027c3b213ca06da3faead64295765ebb02daaa70673a59d",
+      "git_blob_sha1": "748478579a4b02b7835f3545f0ad88a9f72abfe0"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-hall-shadow-art-p0.png",
+      "bytes": 5071,
+      "sha256": "74e1d700555187dbfb29469c6f277439ace4d9ec3eaa8697677849d16b49620d",
+      "git_blob_sha1": "3be0e6f89f138d8e1ad1a10f49d93323b3485b86"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-hall-shell-art-p0.png",
+      "bytes": 1819785,
+      "sha256": "74667b9314331284410210093a8b7d9b1b4ed27f67bb00454d9066cb84cd4a8d",
+      "git_blob_sha1": "b909deb7b3b90e6c25f2bd3b401453f7d40d4a8e"
+    },
+    {
+      "path": "astral-flagship-c-v09/map32/v09-hall-shell-art-p1.png",
+      "bytes": 591232,
+      "sha256": "b5cf50130381df4134c813c10906568790641f0d0c9c58a4b0667221fdf77119",
+      "git_blob_sha1": "836adbb2f1e401c9880179508683c3aec9c3211d"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/gate.tmj",
+      "bytes": 422971,
+      "sha256": "d284ee94a6c608903e3858efc30fcae12837d4ee7e89a6cf9f49c5a5cec8f104",
+      "git_blob_sha1": "76bc49221a48d42ecc7c87c656e61e6597767da4"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/native-audio/assets/cascade-soft.mp3",
+      "bytes": 193004,
+      "sha256": "40a838261cd33bbb1d1f4ad8c271ca821ffc76c7923d8bf6a2cea4198a815ff8",
+      "git_blob_sha1": "1fe134dc93b89abefa3a69bd5f4e7d1d431a41ee"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/native-audio/assets/gate-crossing.mp3",
+      "bytes": 61100,
+      "sha256": "7757417f5a2a9a2029ea23c62f9b0ec36e3573cc6b4fd9468c53c37ee1017c19",
+      "git_blob_sha1": "8b63048aa0ef3bbf534088723b5e37c885b7c619"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/native-audio/gate-with-native-audio.js",
+      "bytes": 6632,
+      "sha256": "1fba66853d33e47c56ead0bfe9f393680d9a1649354216f9e83a04f0f71602de",
+      "git_blob_sha1": "e993f1459cdf5181bf61874f7766935632caba7d"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/native-audio/native-audio.mjs",
+      "bytes": 13842,
+      "sha256": "39ddb2ba0783a770bb390fa21ce9a3cc7bd92d72a123967c4770bf2eb198150f",
+      "git_blob_sha1": "16208e2178ea8e28b7468622fb3340cf3d102e15"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/campus-atlas-01.png",
+      "bytes": 1893644,
+      "sha256": "aa3059caa74f6feb3caf15dcdb8925635917971cf100af0ab366fabee0903c02",
+      "git_blob_sha1": "4542a1f2c9b51e93f05ff9598c01f986cc017475"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/campus-atlas-04.png",
+      "bytes": 1501659,
+      "sha256": "e95364bb655d9876e0b37e27693d90229ba3a5d5364f9361289d4a9626e0295c",
+      "git_blob_sha1": "394b3d0ebff41e81c3f166ba06d00e86166de72a"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/campus-atlas-05.png",
+      "bytes": 2508029,
+      "sha256": "8a02b46aaf4cf3b32393d7f8ef7a9d5e101c079619e87f8ecb16397350350ab1",
+      "git_blob_sha1": "42d3c76ec0722d87762e1af9f19a1cc454efc321"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/campus-atlas-06.png",
+      "bytes": 282717,
+      "sha256": "55a67da657cab2635959567e4e5517a09c629417e362e4193e9e77ccbacdcc6e",
+      "git_blob_sha1": "b9c04a825ac2a40e7d9d53ac147cb0870b4c7c89"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/gate-journey-01.png",
+      "bytes": 246279,
+      "sha256": "946d23a0997502f333e1c2e55ef16157817d0f32e7a0fcd4b9e0850086deccc0",
+      "git_blob_sha1": "99f17b3369acdcb430eb6c52979fd9bdb9bd103e"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/gate-journey-02.png",
+      "bytes": 482169,
+      "sha256": "970b35477537ee52a202a653931b963abff2c36e2228fe8544e18490bc7953b8",
+      "git_blob_sha1": "2717f243c062c95ab6bf38c333db88de6f0d92db"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/gate-journey-03.png",
+      "bytes": 424313,
+      "sha256": "d92e697b03221671050901e4cbe0bb53b909f49891a66042ca4e9d7f8b85d4fa",
+      "git_blob_sha1": "6aec02d3a0717ad6edaa3aa36ca4144126032927"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/gate-journey-04.png",
+      "bytes": 133827,
+      "sha256": "d5d77f5c3e287dd0b3bdbad73907e383aa992bd0a5f723096331e5be880d07e5",
+      "git_blob_sha1": "5c4507df8ef2dedafefcfcf6a2a1514b52448cf0"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/gate-stage-controls.png",
+      "bytes": 188,
+      "sha256": "370537ad3acd9ac43fce743d3216a3666db4680027f40313633acc8ebbf469d5",
+      "git_blob_sha1": "cf8e1f5bf60bbd708d9957cbb8af469de8aee51f"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/gate-waterfalls-01.png",
+      "bytes": 739417,
+      "sha256": "821b4a9f33b70b025498a589e58d3a4650d40a2e0c331269c00a9637c181cf5c",
+      "git_blob_sha1": "3f512b801e191ea75256ac4d3147709939ded692"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/gate-waterfalls-02.png",
+      "bytes": 883034,
+      "sha256": "01375f14090870020b8499caace61a76171019bb5d36be25d3bc6215027219dd",
+      "git_blob_sha1": "b5a4e4430fa095da0cdfb234c5e231035b16e5eb"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/gate-waterfalls-03.png",
+      "bytes": 936630,
+      "sha256": "bbdab69e6d490b8045c7ffafd3aa384652cff409b11c1495811e8dd4e60710e7",
+      "git_blob_sha1": "7ab93cb5aff08742714f2928e57c2a7755e8e155"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/gate-waterfalls-04.png",
+      "bytes": 827744,
+      "sha256": "7893fbedbf8511a5dc192cd008eddfb68084859d35ba2a2a45e90ed9399e0e34",
+      "git_blob_sha1": "c58a43b3a12b670a844d86e97ed8f84a9f17f8a5"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/gate-waterfalls-05.png",
+      "bytes": 836437,
+      "sha256": "3fe5ebebbbf0c806ccbfbb0a9293d20a719b5e25d0e7032133eedab3c90d98d7",
+      "git_blob_sha1": "660c554527aa1f9e5ff772e19132a61e582131f9"
+    },
+    {
+      "path": "butterfly-gate-a-v6/gate/map/tilesets/gate-waterfalls-06.png",
+      "bytes": 363130,
+      "sha256": "e04a7ac07bdbd75ffb29491e323b8711f6b5aa0f4a694b2b66b5ff0580db9022",
+      "git_blob_sha1": "638e9eaf886dc7fc27630a975f38de80cb6662ae"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "bytes": 426521,
+      "sha256": "9f92df380846507e5134d7ec42c977750df9d987514f845ccf0d1606211eebea",
+      "git_blob_sha1": "6920093cd8a9ae1ad67e57054946776a42e4f988"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/native-audio/assets/gate-music-waterfalls-loop.mp3",
+      "bytes": 576908,
+      "sha256": "449b6c5d32a9a9589d8297676001a19cf92ab86162758a6bdfc8430bdc2207e3",
+      "git_blob_sha1": "a36d2b4b191bdd601e0d7b8399e7d2a08935c986"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/native-audio/gate-with-native-audio.js",
+      "bytes": 9707,
+      "sha256": "17e9522ca8784ce720d3c8aadf6cea7b77b9b6f5c3ae426f117a11e3585572c5",
+      "git_blob_sha1": "d0f6a08392d1ee96a91c134f410eee98b814268c"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/tilesets/gate-balcony-foreground.png",
+      "bytes": 36141,
+      "sha256": "bfe27d40980dd919cdadd312f86fa8d50604720efef0474057497ef554554bf2",
+      "git_blob_sha1": "4d280f334cab0f42e3069d47f975667eb06f1fc3"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/campus-atlas-01.png",
+      "bytes": 1893644,
+      "sha256": "aa3059caa74f6feb3caf15dcdb8925635917971cf100af0ab366fabee0903c02",
+      "git_blob_sha1": "4542a1f2c9b51e93f05ff9598c01f986cc017475"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/campus-atlas-04.png",
+      "bytes": 1501659,
+      "sha256": "e95364bb655d9876e0b37e27693d90229ba3a5d5364f9361289d4a9626e0295c",
+      "git_blob_sha1": "394b3d0ebff41e81c3f166ba06d00e86166de72a"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/campus-atlas-05.png",
+      "bytes": 2508029,
+      "sha256": "8a02b46aaf4cf3b32393d7f8ef7a9d5e101c079619e87f8ecb16397350350ab1",
+      "git_blob_sha1": "42d3c76ec0722d87762e1af9f19a1cc454efc321"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/campus-atlas-06.png",
+      "bytes": 282717,
+      "sha256": "55a67da657cab2635959567e4e5517a09c629417e362e4193e9e77ccbacdcc6e",
+      "git_blob_sha1": "b9c04a825ac2a40e7d9d53ac147cb0870b4c7c89"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-journey-01.png",
+      "bytes": 246279,
+      "sha256": "946d23a0997502f333e1c2e55ef16157817d0f32e7a0fcd4b9e0850086deccc0",
+      "git_blob_sha1": "99f17b3369acdcb430eb6c52979fd9bdb9bd103e"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-journey-02.png",
+      "bytes": 482169,
+      "sha256": "970b35477537ee52a202a653931b963abff2c36e2228fe8544e18490bc7953b8",
+      "git_blob_sha1": "2717f243c062c95ab6bf38c333db88de6f0d92db"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-journey-03.png",
+      "bytes": 424313,
+      "sha256": "d92e697b03221671050901e4cbe0bb53b909f49891a66042ca4e9d7f8b85d4fa",
+      "git_blob_sha1": "6aec02d3a0717ad6edaa3aa36ca4144126032927"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-journey-04.png",
+      "bytes": 133827,
+      "sha256": "d5d77f5c3e287dd0b3bdbad73907e383aa992bd0a5f723096331e5be880d07e5",
+      "git_blob_sha1": "5c4507df8ef2dedafefcfcf6a2a1514b52448cf0"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-stage-controls.png",
+      "bytes": 188,
+      "sha256": "370537ad3acd9ac43fce743d3216a3666db4680027f40313633acc8ebbf469d5",
+      "git_blob_sha1": "cf8e1f5bf60bbd708d9957cbb8af469de8aee51f"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-waterfalls-01.png",
+      "bytes": 739417,
+      "sha256": "821b4a9f33b70b025498a589e58d3a4650d40a2e0c331269c00a9637c181cf5c",
+      "git_blob_sha1": "3f512b801e191ea75256ac4d3147709939ded692"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-waterfalls-02.png",
+      "bytes": 883034,
+      "sha256": "01375f14090870020b8499caace61a76171019bb5d36be25d3bc6215027219dd",
+      "git_blob_sha1": "b5a4e4430fa095da0cdfb234c5e231035b16e5eb"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-waterfalls-03.png",
+      "bytes": 936630,
+      "sha256": "bbdab69e6d490b8045c7ffafd3aa384652cff409b11c1495811e8dd4e60710e7",
+      "git_blob_sha1": "7ab93cb5aff08742714f2928e57c2a7755e8e155"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-waterfalls-04.png",
+      "bytes": 827744,
+      "sha256": "7893fbedbf8511a5dc192cd008eddfb68084859d35ba2a2a45e90ed9399e0e34",
+      "git_blob_sha1": "c58a43b3a12b670a844d86e97ed8f84a9f17f8a5"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-waterfalls-05.png",
+      "bytes": 836437,
+      "sha256": "3fe5ebebbbf0c806ccbfbb0a9293d20a719b5e25d0e7032133eedab3c90d98d7",
+      "git_blob_sha1": "660c554527aa1f9e5ff772e19132a61e582131f9"
+    },
+    {
+      "path": "butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-waterfalls-06.png",
+      "bytes": 363130,
+      "sha256": "e04a7ac07bdbd75ffb29491e323b8711f6b5aa0f4a694b2b66b5ff0580db9022",
+      "git_blob_sha1": "638e9eaf886dc7fc27630a975f38de80cb6662ae"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/assets/audio/cascade-soft.mp3",
+      "bytes": 193004,
+      "sha256": "40a838261cd33bbb1d1f4ad8c271ca821ffc76c7923d8bf6a2cea4198a815ff8",
+      "git_blob_sha1": "1fe134dc93b89abefa3a69bd5f4e7d1d431a41ee"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/assets/audio/fountain.mp3",
+      "bytes": 144908,
+      "sha256": "629e31d1ba5298364a04a7845c91769d6a0ff3eaa9b1805f85fb3a86cf8a267e",
+      "git_blob_sha1": "9d6337c703109f421a6b633555abc37b69a7345f"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/assets/audio/gate-crossing.mp3",
+      "bytes": 61100,
+      "sha256": "7757417f5a2a9a2029ea23c62f9b0ec36e3573cc6b4fd9468c53c37ee1017c19",
+      "git_blob_sha1": "8b63048aa0ef3bbf534088723b5e37c885b7c619"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "bytes": 1658851,
+      "sha256": "dff32360181d8e4c465756ab5e2f9577faad17083e2bfde19084eac8af749831",
+      "git_blob_sha1": "877eb5ed51aefbee9045645a191da6c6f49c621f"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio-runtime.mjs",
+      "bytes": 3482,
+      "sha256": "99e41235b4498fb3c889207bf09396b246b8028ff428d65a849eb77da1be274f",
+      "git_blob_sha1": "99b0c035680e24b57702d1a22a4fc842ce11bdeb"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio.mjs",
+      "bytes": 7800,
+      "sha256": "4d2f950cefd9747470423223153709966b2eb0b3928b49f8590c96c719b0d94e",
+      "git_blob_sha1": "bee3ca8c5a0298d59f0e014194197d8542bc3453"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town.js",
+      "bytes": 6931,
+      "sha256": "fc8b49cc24a61b36ab54977ceb3ac1aa7d8d952c56495f518b027f1dbfcc7b62",
+      "git_blob_sha1": "ece05fec2df8472017db5873ccea84b98dac3f45"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-architecture-alpha.png",
+      "bytes": 52135,
+      "sha256": "cd794911a265a699a80f2a27e0f8a2fe0f2e5de9b1c3c042f056c67c4c27a218",
+      "git_blob_sha1": "48791876c26c72de7fedbcf2f224a419465e5777"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-door-foreground.png",
+      "bytes": 2027,
+      "sha256": "bc078c5ab8c728f2dbebf82c447ca0115711b1fc6fe41bb2df29dd9490a445ae",
+      "git_blob_sha1": "71b7e1602bf8935b6102880460d719c00ba86f30"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-focus.png",
+      "bytes": 8765,
+      "sha256": "84cccecd9104d4755054d78b55d4f78277339980e6318a5745b2a62762f31deb",
+      "git_blob_sha1": "43d878db7cac5266c23a00f11a40a758d91d2278"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-furniture-canopies.png",
+      "bytes": 11287,
+      "sha256": "ef6c18bb843d2e2961e796843cb748f83cb9839f820b8d1ca95fedc08eaff056",
+      "git_blob_sha1": "a79fc321a0a4e69ed6f2f92627afd6bbcd72fa14"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-furniture-feet.png",
+      "bytes": 8297,
+      "sha256": "45e6fa370e31782887bd8a29c286615d343b1ede6e09735f555c05a1280dc3d5",
+      "git_blob_sha1": "decf71eeb7dcad9896009b6192951b997222718d"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-interior.png",
+      "bytes": 150916,
+      "sha256": "4809b29757d2f52c4077fb42e5a5583b2fdded3ce3e1ae29860d3b9367226009",
+      "git_blob_sha1": "9a1d0b4df8d47dc946a4c77146f8fdf6a7338f9c"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-roof.png",
+      "bytes": 151153,
+      "sha256": "5ac9d7071c8066e1c8f73b658635e2975ce6311ba1ea427eb9f361b9eaddc96c",
+      "git_blob_sha1": "28debbc2a6dd3f9eb7b72519609e16b9ecaf2413"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-architecture-alpha.png",
+      "bytes": 65884,
+      "sha256": "23d07d74ffdb42d544136fcfc085da5d741d35070719038204badaf225742437",
+      "git_blob_sha1": "5dee62b4eb96ffacdf57d56db8f45fc73e842b3c"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-door-foreground.png",
+      "bytes": 4759,
+      "sha256": "8f892d00788075ce449f212c26fe6bda25b7d009da4cd6a18ae9b2a7ae5a1dc4",
+      "git_blob_sha1": "849857a4a169ed520dd904c7474534ee0fb0aa4f"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-focus.png",
+      "bytes": 8782,
+      "sha256": "0794af9be0172207fadb0c47af2f7ad7093b35142cb92351ad752c46b10b9532",
+      "git_blob_sha1": "6c6a1281c3f23f3cc890eadcd55a41d5dc5a49ce"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-canopies.png",
+      "bytes": 11048,
+      "sha256": "31ecc67f6240db1bb4e2988659372d5731b8fab2c21cc3b0a8f998bd004c7490",
+      "git_blob_sha1": "ae362ac9d4cb8bf1c035e9284372a4f341b7b34f"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-feet.png",
+      "bytes": 16484,
+      "sha256": "b1507d1655e0e6eb20324efe20bf4a30aaadb80fb750712b0496390ddfc3f661",
+      "git_blob_sha1": "c0d50e91704a08f7835b9aa36fcde70fdda95c01"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-interior.png",
+      "bytes": 238425,
+      "sha256": "15eb718a693d48a3bc2e9ec27b0b1a4b9d5e8903cfde3765b49b2220c45d3576",
+      "git_blob_sha1": "ee618282c5a83895d4f6c88ac6a655fde181b5cf"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-roof.png",
+      "bytes": 232210,
+      "sha256": "7c0859f2f0eb88b49f3771d041b5cc1c0bd61bc388d3765695634c5fdd49b9d6",
+      "git_blob_sha1": "12883880072de05d87c5f88fb5ade57504fab0ee"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-basin-mist.png",
+      "bytes": 59122,
+      "sha256": "499cfd7a90dbb73cd16afec6f57ef654de72712fcad687be1f31a97ed76ebc77",
+      "git_blob_sha1": "b9726c32c40bbe277fb5de291f458fb597ef1444"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-butterflies.png",
+      "bytes": 36966,
+      "sha256": "ccf85c6c32983c1467e1fb45c4fe544ac463310bd2074a958ef4619132ed9bc5",
+      "git_blob_sha1": "5f53be6a4ad1e57451431da172345868b44a76d3"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-cascades.png",
+      "bytes": 99629,
+      "sha256": "f031b9b501a9517c2a7ec5a0588c0426a1c120ecd4d274fb3188428b9c5d1648",
+      "git_blob_sha1": "0d1c1b52f96b8943d9ea25f3e07e9982d8780400"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-edge-fog.png",
+      "bytes": 31118,
+      "sha256": "aaa9e7d4bd404f30be415296e17bcfd27af37a8beae15e915772cc76966fa83d",
+      "git_blob_sha1": "e692a262655adb054804dba127d1cec38b683b56"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-ground.png",
+      "bytes": 7982752,
+      "sha256": "a063aec091da2a794e593153d9c72729a72e3eb7d912e3427dd939e7d54d4cfc",
+      "git_blob_sha1": "b6dbbc52472b97261c851e0943a27cb3e5bc9843"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-pulse.png",
+      "bytes": 176478,
+      "sha256": "3e7ea6a110745afa192f612bbb2ecaac30e0d84e17eb372b25b92571f41933f5",
+      "git_blob_sha1": "11f24643f8054fb1c21b51a757374868b73a0292"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-scenery-canopies.png",
+      "bytes": 232658,
+      "sha256": "80988a9f374e95e65f3f4548f95af928931e224d7d85c4bc878b2191558f0cfb",
+      "git_blob_sha1": "50d79c4802746deaec0fb9f20b2e62a80d4cedc1"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-steady.png",
+      "bytes": 51819,
+      "sha256": "c914d4a5a9d020eb6dd80496223cf87ad772a9057014694a50d98468709e4334",
+      "git_blob_sha1": "90d0465cdac814657fef0e036a353f309c18848f"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-water.png",
+      "bytes": 2509,
+      "sha256": "b52a293a653fe5aa74f789b95077f15a31aa12beb273252a503f9ce9b9fac17b",
+      "git_blob_sha1": "7575c382f25d03219b2bda75455b8f7e9c51e557"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/markers.png",
+      "bytes": 87,
+      "sha256": "050ab82bd34987f71468d5851d3707e15c6c6de862d98384259834d92deefd57",
+      "git_blob_sha1": "4203d43af4a6da5556e0d1305ecb90cb260c0434"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/midnight-terrain.png",
+      "bytes": 3898,
+      "sha256": "d6bd36368df434847ae09e6d94df30ad374750b10dd629df117b12e79bee73ea",
+      "git_blob_sha1": "d4d7d5e88ef760e9cbf4c345223907bc8bce165d"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-architecture-alpha.png",
+      "bytes": 65414,
+      "sha256": "789dbd47b761411bfca0b0f7442848232fa4ff07b8a60e737effbcba9e63fe83",
+      "git_blob_sha1": "4365207f77bb9cc43280ddf586d239339f0899a7"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-door-foreground.png",
+      "bytes": 3775,
+      "sha256": "0975550fd4953c4b6e8b2e83ed6d5ce6bcb2933f207a9fcc59b3e3d8f4ceab64",
+      "git_blob_sha1": "a277d4a79e2c4b3ce23fefb6c36068c1749b58b8"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-focus.png",
+      "bytes": 8783,
+      "sha256": "3e363bf6496c7ef379a373ca414c8bd0b9c59b5485cc79e5c09a9893303e8838",
+      "git_blob_sha1": "5071d089c6fa0edfc89641363922c537ac6154e2"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-furniture-canopies.png",
+      "bytes": 33615,
+      "sha256": "89e763bfc87f65266762b04808b9c27be1c5d8b660ddffcc2ea09b3a768d900e",
+      "git_blob_sha1": "4b2b8c1c04e76a2b09403903ac6d8d09367109f8"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-furniture-feet.png",
+      "bytes": 38110,
+      "sha256": "93a034774346bd98b32c87f100aaffb9dfa584e8a8e422942c859ef788a956b5",
+      "git_blob_sha1": "1bbd3ca71c52103fd2377c9f11e6d9021280f308"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-interior.png",
+      "bytes": 268649,
+      "sha256": "38d499a7c91a2258af3ea35ba934f530a55e628d4c0f667f0a09e47a0c8e18d0",
+      "git_blob_sha1": "cd6584350fed2efd3348c96762ad91129f724c47"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-roof.png",
+      "bytes": 277664,
+      "sha256": "b18b27f7e01b497eedd268b81b2a41398791adb1c4cf1ae6a241dba2acae1022",
+      "git_blob_sha1": "209db6363b5191186d839fa52a3d9941e0fe36d8"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-details.png",
+      "bytes": 13711,
+      "sha256": "fe8a612e99a7649b630d1ee9f2d12bc4405e698b48aa59b43715a1af9cd48a54",
+      "git_blob_sha1": "7a7a400372b7ece9b710839973a0956f7d533107"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-edge-fog.png",
+      "bytes": 22115,
+      "sha256": "721edc50b6b45791fdccb6097885c5ca6f26f563ef508e63b1632d5fd18868b2",
+      "git_blob_sha1": "d531b108bf99ba05238f07c5938d94fa2292784d"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-ground.png",
+      "bytes": 3166649,
+      "sha256": "67c0158fd54a2f022b058f4d2a5d1bc31979ad640224dc6de3585b7bb2d1b34b",
+      "git_blob_sha1": "4169a1c9ac29dabc9888be98d7cac9448b135f83"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-olive-shadow.png",
+      "bytes": 1122,
+      "sha256": "8499f3119dda5eaec86d0eea12d38106c30d3073c6d50538d746584607f448b8",
+      "git_blob_sha1": "dc475e1fe45e9b6b3c9ca066ec9c0d0d633925f7"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-olive.png",
+      "bytes": 8431,
+      "sha256": "76aa18725bdc33d5cba6d6df88690b741c633e97753079e2126b85e3aebefce0",
+      "git_blob_sha1": "e16d92b075a0e5e8b62295f80ebddc07c1048560"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-pulse.png",
+      "bytes": 151411,
+      "sha256": "b66001e5c04e8808408bce48790e0c81f4a64f7b40eff8b8fbb63cf2cd2f0a7b",
+      "git_blob_sha1": "a9efd7b7547099724b485d5b991b8d53ca870a20"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-scenery-canopies.png",
+      "bytes": 2543851,
+      "sha256": "14cce8b6701b6fb8d6c1861cf516287727952aca96142cdca07cb9af4aee0490",
+      "git_blob_sha1": "aab1b1b4cf5d43ee3cdc8d3107b6b9ae9894dfe9"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-scenery-feet.png",
+      "bytes": 184527,
+      "sha256": "0abaa5aa58be51698a7021c8062168fcc2effec189bb7fc4fb041365c6e745d6",
+      "git_blob_sha1": "b42df2024a1f31155f7b166722ab5d2af9ee00ca"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-steady.png",
+      "bytes": 60293,
+      "sha256": "f15f04fc70e2b805b202650cd68108a144224c8da583711927abe77ad2b7ed71",
+      "git_blob_sha1": "6749427d466ff47cdc68f919516d24f4eb98ccce"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-surroundings.png",
+      "bytes": 262080,
+      "sha256": "d1aa61b1bedb52cfc96036cacbe849d1845f792d89df2f74efbe85e0be564e0a",
+      "git_blob_sha1": "e18dd15cd97b1b482e66f369b8b23c68a62da93f"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-water.png",
+      "bytes": 5786,
+      "sha256": "40d2dab3b05aaa0823935e6ac432d0008f2052bec75c1bbe4995e69d7bf518a0",
+      "git_blob_sha1": "8b11ea97dc33a1b1e2b90ec6dc54dfc6de8759a2"
+    },
+    {
+      "path": "campus-v11/publication/v10/map32/campus10-changed-p0.png",
+      "bytes": 2497458,
+      "sha256": "aa0b57ddeda0db22aa71d38c6ce830b70678b124f2a2055c77c4ec45bf26b466",
+      "git_blob_sha1": "e76ac35dfeb6e7722e29019d7ad3faaf9394e775"
+    },
+    {
+      "path": "campus-v11/publication/v10/map32/campus10-changed-p1.png",
+      "bytes": 1214450,
+      "sha256": "43485e533a8530579aad768796b9b6a026aafcc9f4eb0d81c0ea2d4cdcb49403",
+      "git_blob_sha1": "3f7dae6a1d1a23b81df514ab2f3adfa9228bb520"
+    },
+    {
+      "path": "campus-v11/publication/v10/map32/fire-flame-p0.png",
+      "bytes": 23237,
+      "sha256": "670da95978fe443cce12cac82ec46b03b9d21b416165b227f5d7c1321f5837a6",
+      "git_blob_sha1": "b262695a1b35651c58973a15d639e548decfc0ad"
+    },
+    {
+      "path": "campus-v11/publication/v10/map32/fountain-water-p0.png",
+      "bytes": 96352,
+      "sha256": "23e32ee3a3360b0a9fbd736a484b5a1a0b369255e0f24c070f418e4fd6bf55e9",
+      "git_blob_sha1": "084a73133bde7a0085226a4d03abd2fdcb42c6c1"
+    },
+    {
+      "path": "campus-v11/publication/v10/map32/garden-life-p0.png",
+      "bytes": 24897,
+      "sha256": "7c9ae812a58bcb7cafb84e352a58d335cee4c801a610fa21e685c48bb2d3b051",
+      "git_blob_sha1": "ed9ccda689c777a288660b0b2a51f2ae7bcedc56"
+    },
+    {
+      "path": "campus-v11/publication/v10/map32/river-water-p0.png",
+      "bytes": 251059,
+      "sha256": "7410c71c131c0e67511f7768632fd2baad9dcfc4bec582358165fc66c8e88922",
+      "git_blob_sha1": "81347f5e973a975a199e1d1afaf0e2c3f72b196e"
+    },
+    {
+      "path": "campus-v11/publication/v10/map32/river-water-p1.png",
+      "bytes": 151876,
+      "sha256": "7fb0df425692fe0538b068e4bf3221c9b8125d9196c2e638c4256b6d75a81e68",
+      "git_blob_sha1": "2780c6d8cfe7c10fe208a782a06b1fb899354a44"
+    },
+    {
+      "path": "campus-v11/publication/v11/map32/campus11-changed-p0.png",
+      "bytes": 204327,
+      "sha256": "e4a055c15b4086052ea684657746641cf3d15f493af7261c98ad023f16964230",
+      "git_blob_sha1": "7d0e5a022fcf50c62b543a521e221874c538eea9"
+    },
+    {
+      "path": "campus-v11/publication/v11/map32/magical-campus.tmj",
+      "bytes": 189430,
+      "sha256": "1c7a9d27d434732453d706ac79dc482309db59a217d80f19b626d9380bc097ad",
+      "git_blob_sha1": "15f2e8457134cfe4f711a0395a262a5f861fea32"
+    },
+    {
+      "path": "campus-v11/publication/v11/map32/magical-campus.wam",
+      "bytes": 962,
+      "sha256": "5831ae09f48cfa68928eb02ccc51f83fe31b5036c23229a1a4f30c5ba8086013",
+      "git_blob_sha1": "14aa0233a32d25823ffa79b1a912b5ca24ba224d"
+    },
+    {
+      "path": "campus-v11/publication/v9/map32/audio/fire-soft.mp3",
+      "bytes": 193004,
+      "sha256": "58dd8d473efbd786beae9f93368ece56b2c7034f76fb7acbbe1e8559033dc49d",
+      "git_blob_sha1": "e857014b3bd040e013e8ebc1b4dc974c02ea0ed9"
+    },
+    {
+      "path": "campus-v11/publication/v9/map32/audio/fountain-soft.mp3",
+      "bytes": 144908,
+      "sha256": "e83c4da6aeec6330a8c7230eca281dfe1f428e1de83c8cd2f3f8c389cfbc7492",
+      "git_blob_sha1": "522e00191456b3b6012c3c624325f4eb17cdc8cf"
+    },
+    {
+      "path": "campus-v11/publication/v9/map32/campus-above-p0.png",
+      "bytes": 1954703,
+      "sha256": "a360950baf680c1b88e8a15a8cb211ceadacf27309689a082114f2df7fa27e96",
+      "git_blob_sha1": "6a1be4f6b8b15205f39f7d6b4c39406286e5a84e"
+    },
+    {
+      "path": "campus-v11/publication/v9/map32/campus-above-p1.png",
+      "bytes": 2231047,
+      "sha256": "efb99e0fcaf97f756a03e0ac77787dd9f3a06cae9e493c0b111c6c72561b1a67",
+      "git_blob_sha1": "dcafe37f4d3a0481bf12d2312c507c8492a9ee51"
+    },
+    {
+      "path": "campus-v11/publication/v9/map32/campus-above-p2.png",
+      "bytes": 117680,
+      "sha256": "abe9a3ebf3189368283842f7e96cfbe2046e412e59bcfd1182a54dea9f80126b",
+      "git_blob_sha1": "79dc528f988138844468c72154f03775ec2cdb7c"
+    },
+    {
+      "path": "campus-v11/publication/v9/map32/campus-base-p0.png",
+      "bytes": 2701663,
+      "sha256": "9ac74c222cbb0858d3b0fda7d9ed0cff3f2cc92e6ad760ae75adc32ba0fd2392",
+      "git_blob_sha1": "1d5cdb134ed0ce5e22fd2668e4b3b443e01d53b7"
+    },
+    {
+      "path": "campus-v11/publication/v9/map32/campus-base-p1.png",
+      "bytes": 2581249,
+      "sha256": "2e9f28384accb7ee611033d8bd0436ed5ebac4dd4c880583d54ddf83d5cd1fe4",
+      "git_blob_sha1": "b128e3c053681945b97d059ce6585bbf3e4a84c5"
+    },
+    {
+      "path": "campus-v11/publication/v9/map32/campus-base-p2.png",
+      "bytes": 2486185,
+      "sha256": "5ba8a3338b1886c7cdf63d483fccc3d19f2bb632a6fda976e906c06e559e1786",
+      "git_blob_sha1": "092d8bb74349c4ddaf5d7363ffd521ef8ea3df03"
+    },
+    {
+      "path": "campus-v11/publication/v9/map32/campus-base-p3.png",
+      "bytes": 2357321,
+      "sha256": "f8573e4735ef80a5a7411987093bf2903f08ee422eec1c3ee0d92295dc68366a",
+      "git_blob_sha1": "f52b0ea35bbd2ee7f2d0fa86da8c54186fd2cccf"
+    },
+    {
+      "path": "campus-v11/publication/v9/map32/campus-base-p4.png",
+      "bytes": 2456941,
+      "sha256": "2653123772a47fd7d2a13cc6a24ab46e195e29881b7ee0e5140069eecf517944",
+      "git_blob_sha1": "ba960741ba7ae234cdfbda5df7dcd18a775ae58c"
+    },
+    {
+      "path": "campus-v11/publication/v9/map32/campus-base-p5.png",
+      "bytes": 2385466,
+      "sha256": "309110e9163946afb27829fdf147e229ff08f6de6c1ff1cfc1b48bced32a3cf1",
+      "git_blob_sha1": "9d44886048fb041153214534502ad413fa3a524a"
+    },
+    {
+      "path": "campus-v11/publication/v9/map32/collision-cell.png",
+      "bytes": 110,
+      "sha256": "99251d131efeccc80c2948c4f90146968613afc604c1c17e11b62d0b7b282c93",
+      "git_blob_sha1": "11d051200b62e93099ad46e9b7a7f9ac7fb43269"
+    },
+    {
+      "path": "esports-arena-01-runtime/esports-arena-01/map32/collision-cell.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "esports-arena-01-runtime/esports-arena-01/map32/esports-arena.tmj",
+      "bytes": 142554,
+      "sha256": "b72cc096702debb18bd56bf19eeb012e197ce9b03c3b03a4a399244a0cd7ec89",
+      "git_blob_sha1": "255965afe5fcc3e06eac2cf3b15ee835313b2790"
+    },
+    {
+      "path": "esports-arena-01-runtime/esports-arena-01/map32/esports-arena.wam",
+      "bytes": 2226,
+      "sha256": "6355c478fb3ed26a5b2d7aa7991da000a6b834f896c02896f2b378226e3cc904",
+      "git_blob_sha1": "d6bf55ba36fd31d249138c26331ea99b864127ad"
+    },
+    {
+      "path": "esports-arena-01-runtime/esports-arena-01/map32/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "esports-arena-01-runtime/esports-arena-01/map32/runtime-above-p0.png",
+      "bytes": 163571,
+      "sha256": "8d6f3e2d88fb7aab3c8b9a6eee33280f07c15d9a5d707efbd22fc96311079ad2",
+      "git_blob_sha1": "c88922d40a37f0acf04212d1263367588a06e457"
+    },
+    {
+      "path": "esports-arena-01-runtime/esports-arena-01/map32/runtime-base-p0.png",
+      "bytes": 917021,
+      "sha256": "e6f9c92a3546e623bafb38a1907266461eef99d2912426fc1006a37f6edc7fcd",
+      "git_blob_sha1": "20f3a218b2e2af7a889faa58134e7838135daf29"
+    },
+    {
+      "path": "flagship-glass-d-r02/building-reveal.js",
+      "bytes": 3603,
+      "sha256": "a8f2f0a1258cbb2a36e219c4039c8968b35c4308ffa1354ad7af498ca413b263",
+      "git_blob_sha1": "cd0ff1da14f300f27cd77c248d32d77aac844c77"
+    },
+    {
+      "path": "flagship-glass-d-r02/collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+      "git_blob_sha1": "51693a39ae4a8539f8b40385eb47e99ae6bf99c0"
+    },
+    {
+      "path": "flagship-glass-d-r02/garden-accent.png",
+      "bytes": 5163,
+      "sha256": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646",
+      "git_blob_sha1": "ac74764773e5730feb5f094f51a521e479e1c256"
+    },
+    {
+      "path": "flagship-glass-d-r02/glass-pane-over-actors-p0.png",
+      "bytes": 340,
+      "sha256": "ca9e97292b23c808483f9b459d04a04997b9fb9b7a9c5deb53eced1da8099190",
+      "git_blob_sha1": "b34f792ed451f773d17fdf28b5991a3fda58f015"
+    },
+    {
+      "path": "flagship-glass-d-r02/glass-permanent-p0.png",
+      "bytes": 46670,
+      "sha256": "04a6aff79428a6bed74ac2965019cb5701e859459f46b54a0bbe4f02d2d75191",
+      "git_blob_sha1": "59076d0e8bd976aa604b3f7be77cec52ca26780f"
+    },
+    {
+      "path": "flagship-glass-d-r02/grand-auditorium.tmj",
+      "bytes": 1169795,
+      "sha256": "135665c51c1cb57f87d7c8b66d87d47a7db5b3d57e0da0be767c45054da1ee53",
+      "git_blob_sha1": "5fb47b6740c77dac3e7f20697926c4bc62b67c8d"
+    },
+    {
+      "path": "flagship-glass-d-r02/grand-auditorium.wam",
+      "bytes": 3486,
+      "sha256": "d5fcbe0894c4fc6b6e03ecb89b0d5edd9536d42abddfeed9fd6bc89d0599bec7",
+      "git_blob_sha1": "1fcef7909d845b6632f0274e28c2d89c4339a4a2"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-above-p0.png",
+      "bytes": 18328,
+      "sha256": "3dbb1eeacf41a535a0bc4843e9cfffee424ddb64ed4ef1239a33601986d3df3d",
+      "git_blob_sha1": "a1cd095838aff8b4914638dd0419b3fcb79a7a9b"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-base-p0.png",
+      "bytes": 2367694,
+      "sha256": "cefb3228c7b327007f08429548389d9415c0477cf02297af390c9f497399e8db",
+      "git_blob_sha1": "6ce4a162dbaba47e80dc02cf551e95aaf9f2932f"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-base-p1.png",
+      "bytes": 1986656,
+      "sha256": "221e46659b0709e6f53fe7cc45a03b6092e2d233d52b854a867f7d6e2d9d19d1",
+      "git_blob_sha1": "8c99fe4eccd88cc91cbb4c3ccf0592315e4fc9e3"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-base-p2.png",
+      "bytes": 2008877,
+      "sha256": "aa71b75d67621fc0decf6c2063abaef6509cf491a835bcc576bab72eba4a9706",
+      "git_blob_sha1": "3822504e9c61f0a0e52b96c8d3d4fa86fd0a106a"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-base-p3.png",
+      "bytes": 1995430,
+      "sha256": "c941e3d4920891a423e8cbcb67eff34cf7ce4a4764a2155d09a5fc8e90b15b5e",
+      "git_blob_sha1": "b42938148a454a45c284f3423557d34ad0ca6d52"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-base-p4.png",
+      "bytes": 1869356,
+      "sha256": "eeddc50bee86b6956a286a656ab6b8b0bdd79244314a924b6ba0d52078235b28",
+      "git_blob_sha1": "e649c8903ea4a165a376a8b52b6f9c5b92d53c22"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-base-p5.png",
+      "bytes": 2545451,
+      "sha256": "cd3eeccb076ef0d01bfc98358fff3139f89951a7a5d0e60e0af8908f2e648dc1",
+      "git_blob_sha1": "e6dcda0ec29003562cb7e75e3f273efc36195088"
+    },
+    {
+      "path": "flagship-glass-d-r02/interior-base-p6.png",
+      "bytes": 27303,
+      "sha256": "cbe4fcb5a362f47820d4ea2b1d11e1d5748d7ef4e8b063b21f99ad5c85473847",
+      "git_blob_sha1": "d5adeb51d7a151a5115f3512e45e92dbbdd0fa75"
+    },
+    {
+      "path": "flagship-glass-d-r02/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "flagship-glass-d-r02/v09-foyer-front-art-p0.png",
+      "bytes": 266291,
+      "sha256": "6532e3c45a4e98a4cf181f925f1240921968c038f104385c3d89504d137066ab",
+      "git_blob_sha1": "2d20de492f785fce61c8cf0e13c271690c7639ec"
+    },
+    {
+      "path": "flagship-glass-d-r02/v09-foyer-shadow-art-p0.png",
+      "bytes": 3187,
+      "sha256": "0d599c0aa62fd9f1bde5ec0a4784377577c4b2c72b3accee598175b2c3ed60b9",
+      "git_blob_sha1": "4caf26d33ccd8305d3dc652e96840f373d741878"
+    },
+    {
+      "path": "flagship-glass-d-r02/v09-foyer-wings-art-p0.png",
+      "bytes": 40001,
+      "sha256": "db9e8f785c773c35bf986420cc53944e7c5ef31bf574260456560ee084f7920e",
+      "git_blob_sha1": "f2978d928c13b882bbfccfd88bd9f274a0817ca5"
+    },
+    {
+      "path": "inventors-sandbox-workshop-r2-runtime/map32/architecture-and-furniture-0.png",
+      "bytes": 2195636,
+      "sha256": "bbafe18e525582036bedfb3816aefd32adc78b459929aab5c0801b350b182554",
+      "git_blob_sha1": "b6d6ac7d3a6ddf77a4500334b3f8796dc539df44"
+    },
+    {
+      "path": "inventors-sandbox-workshop-r2-runtime/map32/architecture-and-furniture-1.png",
+      "bytes": 1556478,
+      "sha256": "d7d665d6db5eade59ae3fff715d08c44cdc1298c8f0c07b208b120bcac63ed52",
+      "git_blob_sha1": "615e1eae8d7cde542f9e19f1b477a42feea73c04"
+    },
+    {
+      "path": "inventors-sandbox-workshop-r2-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "inventors-sandbox-workshop-r2-runtime/map32/map.tmj",
+      "bytes": 88158,
+      "sha256": "841e315d43cb869140a052c7225ae25ad161a29ab4f8896994111e6ee8ff9739",
+      "git_blob_sha1": "48bf64e98f9f9510eab68c6c913ea223ac298b31"
+    },
+    {
+      "path": "inventors-sandbox-workshop-r2-runtime/map32/map.wam",
+      "bytes": 1724,
+      "sha256": "4f9054f3ee15d87b32b9f210afa273d225d1d8fa21314bb75f1f048bf9b42ae4",
+      "git_blob_sha1": "1b1f8f938c03dcb9cab89b10cb40f83e977fc01e"
+    },
+    {
+      "path": "inventors-sandbox-workshop-r2-runtime/map32/seat-backs-0.png",
+      "bytes": 202766,
+      "sha256": "7f0e29a8dc1380cc1451f41c71280dff868a451d56549c90a76a754fe8478771",
+      "git_blob_sha1": "13098c3af9c4eb9c9a1fa1e06f69be297986945d"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/architecture-furniture-0.png",
+      "bytes": 1321484,
+      "sha256": "98d917a0b7ab59d35bbb0d84552e018b0df0824ed3767c4d29c3a4910c86e51a",
+      "git_blob_sha1": "c058b1e5769cc6a9d17828d69cc7e7487a89b6fc"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/architecture-furniture-1.png",
+      "bytes": 1202101,
+      "sha256": "ebe43a43cb3c5e0d54ed5d979414dce084e60bdbb766d6b48ed0112232237f6c",
+      "git_blob_sha1": "e86d7fe9cecb9088a946658b923f972d397365db"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/architecture-furniture-2.png",
+      "bytes": 1180566,
+      "sha256": "101d362b8e52ca3c2e36fc95db8a715d9ad33358e4a04c1d8f398a7316b003b5",
+      "git_blob_sha1": "74f419f8b97780aa1e9b9ce4a2e90741f3d7db1a"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/architecture-furniture-3.png",
+      "bytes": 619685,
+      "sha256": "9e939ed73b6f62cf36e80b0f5183d63e2db56f7a1936267f3ed0433551b67db6",
+      "git_blob_sha1": "1a61dc41a6980f2361b836fc3ed928eee064ea15"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/collision.png",
+      "bytes": 104,
+      "sha256": "ce75997479da8e0c9f1239e8e04ff1e4758a1af985d2540f78585ed848132cde",
+      "git_blob_sha1": "8a9e961d6b80743fc015a0fa958ca72542c75538"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/conference.tmj",
+      "bytes": 295921,
+      "sha256": "a1a3040a45384ae3380b90f479c327c35c5301e7e71a695c5a5f5fe628c84005",
+      "git_blob_sha1": "2951219a2688e684cb184c4102d84ab6fe126d5a"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/conference.wam",
+      "bytes": 3466,
+      "sha256": "cdbab04682978c8aa6979daddeb5545504dea93db3c4327ebb0081638d7958bb",
+      "git_blob_sha1": "f315d98825be9fdfe398148625d58d71c012116c"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/quiet.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "lantern-congress-runtime/map32/seat-backs-0.png",
+      "bytes": 2847,
+      "sha256": "f06d02ac6dc3279d8bd83cf5a7771a96926a89ba4622fc0c056511ef93a75307",
+      "git_blob_sha1": "9632104fff70fe0f70644ca6d6f99b22e01e52cc"
+    },
+    {
+      "path": "lantern-souk-bazaar-r6-fountain-runtime/ambient-native-r01.png",
+      "bytes": 384748,
+      "sha256": "3ba6206b7d839fea29dbd342666de545fe42976a2540e74d9b5917f421f89f67",
+      "git_blob_sha1": "f5cd540960cd571b2dfd7ee36901e732cfd255b1"
+    },
+    {
+      "path": "lantern-souk-bazaar-r6-fountain-runtime/ground-and-objects-0.png",
+      "bytes": 1926304,
+      "sha256": "993ead23ce6e83f3ae78f7903eb2e931855573598051f169fe8831809243405a",
+      "git_blob_sha1": "d3702502f685bae10c58fbe171e752e51c960547"
+    },
+    {
+      "path": "lantern-souk-bazaar-r6-fountain-runtime/ground-and-objects-1.png",
+      "bytes": 2049136,
+      "sha256": "8ae7090f0205b1e5c5f95160edda471f1915906e5f9111a36ea01af90d508ca5",
+      "git_blob_sha1": "2276cd5993836a6b1588835a4798a0f674001293"
+    },
+    {
+      "path": "lantern-souk-bazaar-r6-fountain-runtime/ground-and-objects-2.png",
+      "bytes": 660155,
+      "sha256": "de102943cf1eb05f5eae806bf9a6b239e0fa0258356dcc41c35a8df57f621ca2",
+      "git_blob_sha1": "50148c78920c106433eb52d98d67390fe7e8f017"
+    },
+    {
+      "path": "lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.tmj",
+      "bytes": 169111,
+      "sha256": "6442282c70ecbac39a0916d786e5a74416937254e50e0116a96385911cec921a",
+      "git_blob_sha1": "a5e11ee67b4f36111373bdb2add602f0b15964a9"
+    },
+    {
+      "path": "lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.wam",
+      "bytes": 472,
+      "sha256": "b846f9c7efc49266da1ab937291fa3a21e4d3f82dfa2f45ee0b669fff4063696",
+      "git_blob_sha1": "6979daf7d92acc23cb696378182669d4b00c4ad7"
+    },
+    {
+      "path": "lantern-souk-bazaar-r6-fountain-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/foreground-0.png",
+      "bytes": 21475,
+      "sha256": "77c8e5e017deff9be96122af825150a0a96eaa97a66c05dc3829f537200a4c74",
+      "git_blob_sha1": "622b14d31b3c0e09b6fc88bf8f2caa6953588119"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-0.png",
+      "bytes": 2639626,
+      "sha256": "317f82f0c6621bb7993654edbee7c823cf921d652d717d7ad41b2d34adda6dd0",
+      "git_blob_sha1": "58652ff425c3542581eb2c77c9faa5b6829b3dbb"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-1.png",
+      "bytes": 1285405,
+      "sha256": "10d37d4344c6bc78535a1fcd76c27ff53e69afd9a087675fc1146e8ffd899fcd",
+      "git_blob_sha1": "3f0bb2ad58654d886f90de6e1623f18a48097280"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-exterior.png",
+      "bytes": 6890,
+      "sha256": "0e1625abb8f458b54f48b7e5fd437828994526f4a833c309541f6affb41bf1cb",
+      "git_blob_sha1": "fbd3a100fe7cdf8aabf88ce74c8ad2aeda71ffc1"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-keeper-house.png",
+      "bytes": 2159,
+      "sha256": "469649070ef9b47f6e796bc08840c3fb392cf9e6d9e07f2151fbaebf60f92a1b",
+      "git_blob_sha1": "53909148ad0f8e331c28eea81a3fae2cdcd60068"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lantern-room.png",
+      "bytes": 2041,
+      "sha256": "03f04ab6c25d24bbcc6894e599ae58cf40d1c492ee3242ce9aeced1e4668e08e",
+      "git_blob_sha1": "ce390ab3e6e5de315241c11f286e0d3e72b48fc0"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lighthouse-workshop.png",
+      "bytes": 2157,
+      "sha256": "d6670003d9dbe6cda5863c05e06c231022fcb51477e5189d0d8e6d843a187aa8",
+      "git_blob_sha1": "3131c69c4a92ccda97a7c980bbe19315fcc8557a"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-exterior-lit.png",
+      "bytes": 2399,
+      "sha256": "dc42ec37453396f25f39f897b8ffe1ccd2d879838b85ee8c8c067de5f6d0273a",
+      "git_blob_sha1": "fd25b0e275b7f89f1ed19467d6bc1131c0e77fcc"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-house-key.png",
+      "bytes": 458,
+      "sha256": "c7f4ebc3cf62b34e820178196e24077eb60950b900d9248613dd723f067f82bf",
+      "git_blob_sha1": "ad2ca82259fdcea8469990e99b1ee55667ec4a24"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lantern-lit.png",
+      "bytes": 1882,
+      "sha256": "33b2aad5769cdadeed16b37bcebf9bb51b34fbfb05278d8680cf9858352606e7",
+      "git_blob_sha1": "6f69f139965feb76ff523581a0e4d35b1fa7833f"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lens-focused.png",
+      "bytes": 3195,
+      "sha256": "511762993dbce272e72f61ce04508f15ae11ef0788a375fa2c83a31e02c15f31",
+      "git_blob_sha1": "d4f7d94435bacaca7ca1b6b6df819353fafc94d5"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-workshop-power.png",
+      "bytes": 2028,
+      "sha256": "7bad5c1f3e7036f684bed05f74e95620270a4230826478e9d6da6721d3e412d1",
+      "git_blob_sha1": "8522b3b1ad34f77175f0b732e28695798594ae41"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keeper-house.png",
+      "bytes": 549185,
+      "sha256": "0cc9158333c17d33f87b7f8fb8f024964e07995006894bdf168e6b8142953293",
+      "git_blob_sha1": "82d839da5c84a51014e777eaa7ec7c12c5c1da1a"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keeper.js",
+      "bytes": 8827,
+      "sha256": "6d30f79fe129687d1a5558e380d6212833b61b1b70374cfb14e9a761b9592a94",
+      "git_blob_sha1": "0199a20a0287fc23c411adbd5e3ca3beec977f22"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "bytes": 587231,
+      "sha256": "94bdc3c6dbd4ccf9a096b828016795083497f39da6f5f4c2ab2b8080b48634aa",
+      "git_blob_sha1": "501bd5c607cbf56d09779a9f0baa0f893463a7bf"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.wam",
+      "bytes": 511,
+      "sha256": "4b89abbfaf6a74248027c32103c576d6662a5f24bf4df0c05f6b9322c6ee9272",
+      "git_blob_sha1": "e0d6573f7fbc40a1736361bb6e1477a40ca89355"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lantern-room.png",
+      "bytes": 671591,
+      "sha256": "a3f4a7b0713e5061b842b9ebd1d071fa4247107974c4a96cc8a3b56edbb542fd",
+      "git_blob_sha1": "b309658134e3a0107e8f0eab87eb9148d990b67b"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lighthouse-workshop.png",
+      "bytes": 652191,
+      "sha256": "034038ef52eb0c2f8aa56fa2ed221f91ee2fa3370c0425dd3b7c1626bf4a0250",
+      "git_blob_sha1": "ffc203477efd5866a662390db11f5e60f68d8040"
+    },
+    {
+      "path": "lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "lighthouse-last-signal-r2-runtime/audio/silent-carrier.wav",
+      "bytes": 352844,
+      "sha256": "d632daecb4ab19e0f93f179107f4bb4240d5b261217dd6fe33505d7b4fc6106f",
+      "git_blob_sha1": "6f0da5172a85782425e29034009f8b6451cd9983"
+    },
+    {
+      "path": "lighthouse-last-signal-r2-runtime/audio/tide-signal.wav",
+      "bytes": 352844,
+      "sha256": "5ae24e11ac90cd4227d74c41f453b7a8a35d3f7b619084fcf6ce87a055b4356f",
+      "git_blob_sha1": "781d5804cb21f5dfdb912c7364baafce49c31cd0"
+    },
+    {
+      "path": "lighthouse-last-signal-r2-runtime/foreground-0.png",
+      "bytes": 21475,
+      "sha256": "77c8e5e017deff9be96122af825150a0a96eaa97a66c05dc3829f537200a4c74",
+      "git_blob_sha1": "622b14d31b3c0e09b6fc88bf8f2caa6953588119"
+    },
+    {
+      "path": "lighthouse-last-signal-r2-runtime/ground-and-objects-0.png",
+      "bytes": 2639626,
+      "sha256": "317f82f0c6621bb7993654edbee7c823cf921d652d717d7ad41b2d34adda6dd0",
+      "git_blob_sha1": "58652ff425c3542581eb2c77c9faa5b6829b3dbb"
+    },
+    {
+      "path": "lighthouse-last-signal-r2-runtime/ground-and-objects-1.png",
+      "bytes": 1285405,
+      "sha256": "10d37d4344c6bc78535a1fcd76c27ff53e69afd9a087675fc1146e8ffd899fcd",
+      "git_blob_sha1": "3f0bb2ad58654d886f90de6e1623f18a48097280"
+    },
+    {
+      "path": "lighthouse-last-signal-r2-runtime/lighthouse-last-signal.tmj",
+      "bytes": 47272,
+      "sha256": "3f0da81589faee13032922a438cdac5d3fa33ed87f22752c1b826abbde993b0e",
+      "git_blob_sha1": "0a95ca27c843fad3b7ba560a100c9f85ab7d4ac2"
+    },
+    {
+      "path": "lighthouse-last-signal-r2-runtime/lighthouse-last-signal.wam",
+      "bytes": 519,
+      "sha256": "fcba829c3c6833f56b6fc04ef12d4bfc4ee0188ba1d553a7ae399e549162b7bb",
+      "git_blob_sha1": "a933db3156a0786cea28ad69cc393a156da23179"
+    },
+    {
+      "path": "lighthouse-last-signal-r2-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "lighthouse-last-signal-r2-runtime/signal-inlays.png",
+      "bytes": 3074,
+      "sha256": "2256573363f576db63ec1e9aa5223b2f92486e579c26ce698ad5b2665cd931ed",
+      "git_blob_sha1": "65d56ef7360dfe7eab0dc16d17b0da94d770283b"
+    },
+    {
+      "path": "lighthouse-last-signal-r2-runtime/signal.js",
+      "bytes": 9442,
+      "sha256": "eeaae3d76ba5a1ae73eadb8faeab47e47bc90d1ef5090c1ef907c40137d71c5a",
+      "git_blob_sha1": "dd0968565fdaef53874086036a349cf8d8fbc0d4"
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/architecture-and-furniture-0.png",
+      "bytes": 2063958,
+      "sha256": "ee217238f13f1af40f097dc03f9f3f3f568df9c8c3ddedcd284e814e05422071",
+      "git_blob_sha1": "5c7c7b0260c67bc5ff98023e0adac9490e20969c"
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/architecture-and-furniture-1.png",
+      "bytes": 1118268,
+      "sha256": "a1f99cc41d74cd51c03f7c5371ccff93aeda52df6c77180bd075ee4e7b427b5c",
+      "git_blob_sha1": "10d6296478e9c1e64527220e76578b63f026ab18"
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj",
+      "bytes": 113773,
+      "sha256": "a8efab5a3f472ee27d11af1eaa5e54ccb3ecfe0f1e27460e31c1435e999d3a08",
+      "git_blob_sha1": "6ca03897c47859216982d810dc85f41d9872f8b2"
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.wam",
+      "bytes": 2182,
+      "sha256": "692da4bc9933d3cca75d7e9c38494005290cf89d9b1f2fb22734a6469b2ce749",
+      "git_blob_sha1": "d3dd10840b1c3f0836fedb1564ecac2903c303c4"
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/north-context.png",
+      "bytes": 744154,
+      "sha256": "a1d731ad99964859c16409f8bba3cb9ab193ce05412f148bfe16930f9f5c8570",
+      "git_blob_sha1": "ffb84fa37f97bb26a00d7fc882cdcc30d5a22dcf"
+    },
+    {
+      "path": "olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/seat-backs-0.png",
+      "bytes": 101205,
+      "sha256": "26a2ecb726c552c06c312de8ed7a1abb3ab1e647156ddf735316af1ed250abaa",
+      "git_blob_sha1": "301634d0b22646683e0aeb90f77a5ea4054a911c"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/architecture-and-furniture-0.png",
+      "bytes": 1995250,
+      "sha256": "f8d1a3cf3b7630d62cd8ee359edd17899e2ffc843440fa15d8b26759f48939b3",
+      "git_blob_sha1": "cacac6a952ed9f96eda9725c6164dd39a5409679"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/architecture-and-furniture-1.png",
+      "bytes": 1972454,
+      "sha256": "7d4dc6c6194570efac02b7792ef43869df695cd41d3d531f11220869b74d634c",
+      "git_blob_sha1": "b41b28be579ed7e2e5cf67272b41bbca9c84cfb5"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/architecture-and-furniture-2.png",
+      "bytes": 143349,
+      "sha256": "227d39f45f8ee1e9f0710ea56aeba5b65d39bb2069981209eb3a979fdc699bd6",
+      "git_blob_sha1": "34d027695904bb10b9f3a9528476bfdbe3cfe147"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/map.tmj",
+      "bytes": 108372,
+      "sha256": "64e5144453b49830e9d46eb3b2d2e2be5fa819411fdae39634221cf6e5c60ee0",
+      "git_blob_sha1": "617a8b955835f5bad6601850319b3c540a64537f"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/map.wam",
+      "bytes": 929,
+      "sha256": "fb704aa1e374899c640f33b89a6c78be33566559c59301a56523b9331b6d9c20",
+      "git_blob_sha1": "fb7134f9f781008497ba3a75625d216663f10e9d"
+    },
+    {
+      "path": "quiet-orbit-observatory-r4-runtime/map32/seat-backs-0.png",
+      "bytes": 52251,
+      "sha256": "0d3c8245fb7628c7057651c936930f6453d05f08f8492686cae2c44cb40e4925",
+      "git_blob_sha1": "2f3b1a1abf181625ff8ef19a2bb634f1613d6303"
+    },
+    {
+      "path": "reading-conservatory-r4-runtime/architecture-and-furniture.png",
+      "bytes": 1018173,
+      "sha256": "fa24a6234eb712dabf63d14479916674963eaefb23fa084d6538033f49297818",
+      "git_blob_sha1": "5c57bc3e6e02cef32e44f36291ef1f7fa2d4b8fa"
+    },
+    {
+      "path": "reading-conservatory-r4-runtime/foreground.png",
+      "bytes": 5078,
+      "sha256": "4045da132a75fa2e72607a1c650aebf184da8b71ba4783240cdcd96ab46d4bf3",
+      "git_blob_sha1": "f71486df037be6f491a950d47d2a847ccbea7eec"
+    },
+    {
+      "path": "reading-conservatory-r4-runtime/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "reading-conservatory-r4-runtime/map.tmj",
+      "bytes": 22112,
+      "sha256": "bc640034dbe13645ce7208ed45e13071909bb4c1f02a3bc8ef5dee41d16e1347",
+      "git_blob_sha1": "ff1676ed965b44016bc1faa853ca1dac79f3121a"
+    },
+    {
+      "path": "reading-conservatory-r4-runtime/map.wam",
+      "bytes": 1796,
+      "sha256": "c8ce4f8cdd5e20918e7479c666dde23b3e855f19c3bdb42aeb7aa7bb0a7d6b0a",
+      "git_blob_sha1": "c97b4940226e86ed9d2b5ff0a45d6069584a38d2"
+    },
+    {
+      "path": "resonance-media-house-r7c-runtime/foreground-0.png",
+      "bytes": 1196,
+      "sha256": "35fea5eaceccaed9adfc401503875b620abb59b79eef9da83e707ebb3a56e163",
+      "git_blob_sha1": "9eb1d009ae4e505c80dbc017dfe7a7d9bcb88a37"
+    },
+    {
+      "path": "resonance-media-house-r7c-runtime/ground-and-objects-0.png",
+      "bytes": 1844066,
+      "sha256": "1447b84d2650ae5096779e117979b7f215fb113fa00b19d58a723bdc803624ee",
+      "git_blob_sha1": "379ff0425f94149cab9c87cf16b04044dbdaf1e3"
+    },
+    {
+      "path": "resonance-media-house-r7c-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "resonance-media-house-r7c-runtime/resonance-media-house.tmj",
+      "bytes": 49229,
+      "sha256": "b2999caf485804debc977aaa385975d001caafe0bec357d6e63dd565dd8fccc3",
+      "git_blob_sha1": "27db0248f343654fb8eb2c7ce417a775468b1666"
+    },
+    {
+      "path": "resonance-media-house-r7c-runtime/resonance-media-house.wam",
+      "bytes": 1207,
+      "sha256": "61b1c799212a08d024c8cf03d46d76dc74c91a20acd8783098b749f065e47eb5",
+      "git_blob_sha1": "6b48b16ba5593bd83dc205e8255def034fb89a72"
+    },
+    {
+      "path": "social-outdoor-office-02/spawn-proximity-repair-01/candidates/social-outdoor-office-02/map/studenthub-outdoor-office.tmj",
+      "bytes": 13909,
+      "sha256": "0e1d34ac9094a1d882e7145009679dec39d9fa8de963a83b76e3a0a8c9f9f618",
+      "git_blob_sha1": "f0626edbb7ae8139041727f5b6e2bae79a8cd332"
+    },
+    {
+      "path": "social-outdoor-office-02/spawn-proximity-repair-01/candidates/social-outdoor-office-02/map/tilesets/native32.png",
+      "bytes": 1092969,
+      "sha256": "723f227050378cf2fe67a92d895a15a04fcf661c1051e819871c12a1fd72ef4b",
+      "git_blob_sha1": "c8c805d9f611d55eeb376890968592c07ef791b3"
+    },
+    {
+      "path": "studenthub-connected-workplace-01/studenthub-connected-workplace/map/scripts/studenthub.js",
+      "bytes": 1890,
+      "sha256": "51a4abc6efcf2c8be36dc418e61f4ff00c2b2aa1b5e53f553b0fad1d8253760b",
+      "git_blob_sha1": "30ef0d2f84f3a1ecec26354a914c1db6273fbb61"
+    },
+    {
+      "path": "studenthub-connected-workplace-01/studenthub-connected-workplace/map/studenthub-proof.tmj",
+      "bytes": 13932,
+      "sha256": "0a70a16ef729d66939899d12f04de3c2b1ae7ab635dae1c9c43b60a56b8ca8be",
+      "git_blob_sha1": "2ca617e1414f584b94e4276575c0274b68ccb611"
+    },
+    {
+      "path": "studenthub-connected-workplace-01/studenthub-connected-workplace/map/tilesets/proof-0.png",
+      "bytes": 1226293,
+      "sha256": "842af724e04ad743b07c64f83b9fb0478cd7f7cf095449bfca9daa2f3fa761ff",
+      "git_blob_sha1": "84d8580212fcdcca6715fa66d7738c860b5b43f1"
+    },
+    {
+      "path": "timber-gym-context-r3/timber-gym-context-r3/map32/environment.png",
+      "bytes": 2070544,
+      "sha256": "d98d735ae2996f117de6e2d1dcddf45d46ace9c28d64ce933bcad4306eb5876f",
+      "git_blob_sha1": "add494cbcf0f302fcfcae70941d83cab405196fa"
+    },
+    {
+      "path": "timber-gym-context-r3/timber-gym-context-r3/map32/foreground.png",
+      "bytes": 4892,
+      "sha256": "b3b37ac6585a6bfa80795a965c7716ad5d014408639ad29595631719b53f3560",
+      "git_blob_sha1": "1597bccfe8a81a53911c0d2dd8f7d0d838fff9e9"
+    },
+    {
+      "path": "timber-gym-context-r3/timber-gym-context-r3/map32/logic.png",
+      "bytes": 87,
+      "sha256": "050ab82bd34987f71468d5851d3707e15c6c6de862d98384259834d92deefd57",
+      "git_blob_sha1": "4203d43af4a6da5556e0d1305ecb90cb260c0434"
+    },
+    {
+      "path": "timber-gym-context-r3/timber-gym-context-r3/map32/map.tmj",
+      "bytes": 42121,
+      "sha256": "29ffbaefd54379dfcd8a7e5f0884d859f227e83a22a3815d7d43786bd7ad49dd",
+      "git_blob_sha1": "98adfb1e75a078af5b299d0536d5ab10668893e5"
+    },
+    {
+      "path": "timber-gym-context-r3/timber-gym-context-r3/map32/map.wam",
+      "bytes": 2000,
+      "sha256": "ad6c1085f013d8d7c30f22cbd06fd286abe998bf8a7522beab41003f0a147a41",
+      "git_blob_sha1": "4dc81345a0f63448af114959af0f9866bb3a2907"
+    },
+    {
+      "path": "timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/architecture-and-furniture.png",
+      "bytes": 807562,
+      "sha256": "3b7862dca36c488fe1d1ee2c1b18df2b71a059e408d61849efa49ce8a5fbdbc5",
+      "git_blob_sha1": "73e64f421abc4aaa239ede94d40aaa910e2a38e3"
+    },
+    {
+      "path": "timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/foreground.png",
+      "bytes": 111382,
+      "sha256": "d83362dbc0c0afc9971aa1c42c05eb020fd308d6387ec9a3bb7dc6d7ab151065",
+      "git_blob_sha1": "a4adedd025f47770287da478bd8a87e7e0da9b1a"
+    },
+    {
+      "path": "timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.tmj",
+      "bytes": 52059,
+      "sha256": "9291affcd0f9bb2b3051b43dc5151bfeeced5839dc43e7bac179d2d78aa1abff",
+      "git_blob_sha1": "6a6527bdd63f8c0be87b8d37300979d6a2ae9e2a"
+    },
+    {
+      "path": "timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.wam",
+      "bytes": 1043,
+      "sha256": "f7de32f75df015a676fae413ca4bf9c9f90d1cd6605d46734a1c8c0ad981e44a",
+      "git_blob_sha1": "45777a463771ff3c0c0cd25bc93aa42904cc12b0"
+    },
+    {
+      "path": "timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/outdoor-border.png",
+      "bytes": 1160141,
+      "sha256": "6496e4d2059ec7d09747fb41204b8f931d6f3d2b38bfd42e84e4431816e0b918",
+      "git_blob_sha1": "df326f01f05c62aa0fe325e4faf5252c60235e3f"
+    },
+    {
+      "path": "timber-movement-studio-r2/timber-movement-studio-r2/map32/architecture-and-furniture-0.png",
+      "bytes": 1952527,
+      "sha256": "3ef87eae689348bdf251debab6c12641b2768f17ffe9e02e796255ada5e02135",
+      "git_blob_sha1": "bc2ba8b6133fce109d66416f5676ee8116cb7d87"
+    },
+    {
+      "path": "timber-movement-studio-r2/timber-movement-studio-r2/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "timber-movement-studio-r2/timber-movement-studio-r2/map32/map.tmj",
+      "bytes": 42604,
+      "sha256": "64ba9b845ef53c033454038769899f90ca491092bbb1894ee70994978963395b",
+      "git_blob_sha1": "85700973eb56920418612af022446ecab8af8651"
+    },
+    {
+      "path": "timber-movement-studio-r2/timber-movement-studio-r2/map32/map.wam",
+      "bytes": 1491,
+      "sha256": "14c6f75167efd294d30be4d38a3f28d88fc1393919596ee09308355b9ae2c652",
+      "git_blob_sha1": "5b82fa228f33df89f4c419932510507c1b685528"
+    },
+    {
+      "path": "timber-movement-studio-r2/timber-movement-studio-r2/map32/seat-backs-0.png",
+      "bytes": 87332,
+      "sha256": "4abf391191d0a403235621b0721b71048a60de7ee0d6f9cd0e6e3fa67422d5bb",
+      "git_blob_sha1": "0881bd3ceab540b22674ba498c8f800a51e4cfe7"
+    },
+    {
+      "path": "timber-studio-r8-runtime/environment.png",
+      "bytes": 1967275,
+      "sha256": "026330ce32025e52cedff8822b1758a0ed9be8a1de1e951742e2e8df996ba2f1",
+      "git_blob_sha1": "765dcb96732614203febccebd8b385e5c94cc1f3"
+    },
+    {
+      "path": "timber-studio-r8-runtime/foreground.png",
+      "bytes": 105102,
+      "sha256": "b7448f3923afaee45ac9e2f1341df251d05716ac0a261e7abd5e848a8b610ea5",
+      "git_blob_sha1": "efae8a54b3eab4a2381805bc12ea9276a0737fe2"
+    },
+    {
+      "path": "timber-studio-r8-runtime/logic.png",
+      "bytes": 87,
+      "sha256": "050ab82bd34987f71468d5851d3707e15c6c6de862d98384259834d92deefd57",
+      "git_blob_sha1": "4203d43af4a6da5556e0d1305ecb90cb260c0434"
+    },
+    {
+      "path": "timber-studio-r8-runtime/map.tmj",
+      "bytes": 42109,
+      "sha256": "cf02f68080b959f1da5288480c3428f4aa7c9dc3e928c2f83751603a102360ca",
+      "git_blob_sha1": "ab6f44335b2c607685f76768f9752ae8f1af9da3"
+    },
+    {
+      "path": "timber-studio-r8-runtime/map.wam",
+      "bytes": 1043,
+      "sha256": "f7de32f75df015a676fae413ca4bf9c9f90d1cd6605d46734a1c8c0ad981e44a",
+      "git_blob_sha1": "45777a463771ff3c0c0cd25bc93aa42904cc12b0"
+    },
+    {
+      "path": "timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/environment.png",
+      "bytes": 2011181,
+      "sha256": "f7058f282709d9bb9995bbdf9abd93a5367d59da902144e51c0c7262f41393eb",
+      "git_blob_sha1": "9cb7673f0c663ccd14ea05c58a5ad0984ebcdfea"
+    },
+    {
+      "path": "timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/foreground.png",
+      "bytes": 26900,
+      "sha256": "513194f96febf1b36807723a9ecf178a0ca5c1dd2d1a22047c2894cce226cf4e",
+      "git_blob_sha1": "83b6ef8505a3b3eaa9b03b26418d6bce1c4a9b47"
+    },
+    {
+      "path": "timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/logic.png",
+      "bytes": 87,
+      "sha256": "050ab82bd34987f71468d5851d3707e15c6c6de862d98384259834d92deefd57",
+      "git_blob_sha1": "4203d43af4a6da5556e0d1305ecb90cb260c0434"
+    },
+    {
+      "path": "timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/map.tmj",
+      "bytes": 42162,
+      "sha256": "2137729371bbea7e248a406e462503202b6b775fd09e07cda11ef9dc7c292be6",
+      "git_blob_sha1": "8da8eb61b332dcce897e172a7e604c86e9078f2a"
+    },
+    {
+      "path": "timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/map.wam",
+      "bytes": 2061,
+      "sha256": "c6a44471f54b790b015f0e2e1327faa15769adbcf94fc8e9bfc1701002067361",
+      "git_blob_sha1": "a017d89ed5bce2d56296139040c5ed3b3cb625fb"
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/foreground-0.png",
+      "bytes": 12710,
+      "sha256": "86e67d89be763a0a6b30404d2b3c367f875c5458904d7b55055633fa19dd8f50",
+      "git_blob_sha1": "77202c53484d06399725bb098e18219df7f534ae"
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/ground-and-objects-0.png",
+      "bytes": 2488099,
+      "sha256": "de51eea8b7cea25d0d331fc7499b928ccd9f51740c1bbee225db761e6c233eac",
+      "git_blob_sha1": "fff65eba103abd9493915894a57d7d04c26fc5ed"
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/ground-and-objects-1.png",
+      "bytes": 1872702,
+      "sha256": "c64aecb40706864c2eaec0db180e494f345f77c3978bc8e790ce8f2fe6cb0f92",
+      "git_blob_sha1": "b56b2d5949bc8442ee0a68ad1fa838a54cadec5e"
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6"
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.tmj",
+      "bytes": 93512,
+      "sha256": "de651bdc163a7f6356c8118c8772a95471e1de5a8a7a61ad8b1469ab853a7e3c",
+      "git_blob_sha1": "19752af0d621727e59d58b8a89f9d6d5d792dbad"
+    },
+    {
+      "path": "willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.wam",
+      "bytes": 1060,
+      "sha256": "537d5b182a20bd357be5d1f242f41a2355d039632670ca12295e2669d57225aa",
+      "git_blob_sha1": "29ae0dffd289597bcadbdb6eacca76c7ea269393"
+    }
+  ]
+}

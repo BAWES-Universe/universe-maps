@@ -1,0 +1,8 @@
+{
+  "check": "Final design replayed from retained literal patches; runtime header generated using the exact recovered original builder expression, plus unchanged controller previously verified against earlier runtime.",
+  "expectedSHA256": "96cc654f6a1cbfb83d4c0e14269e11f428912b5029b49f022ab067cf3d15ddf3",
+  "actualSHA256": "96cc654f6a1cbfb83d4c0e14269e11f428912b5029b49f022ab067cf3d15ddf3",
+  "matches": true,
+  "hashSource": "Parent supplied final independent H039-r1 report retained runtime experience.js SHA.",
+  "scope": "Exact final runtime script only. Does not recover TMJ, atlas/master raster bytes or final manifest."
+}

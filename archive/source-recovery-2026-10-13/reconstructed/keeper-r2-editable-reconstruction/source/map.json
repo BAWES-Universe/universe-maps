@@ -1,0 +1,326 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "infinite": false,
+  "width": 128,
+  "height": 128,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "nextlayerid": 20,
+  "nextobjectid": 19,
+  "layers": [
+    {
+      "file": "layers/ground-and-objects.json"
+    },
+    {
+      "file": "layers/collision-permanent.json"
+    },
+    {
+      "file": "layers/silent-spawn-only.json"
+    },
+    {
+      "file": "layers/keeper-house.json"
+    },
+    {
+      "file": "layers/lighthouse-workshop.json"
+    },
+    {
+      "file": "layers/lantern-room.json"
+    },
+    {
+      "file": "layers/inlays-exterior.json"
+    },
+    {
+      "file": "layers/inlays-keeper-house.json"
+    },
+    {
+      "file": "layers/inlays-lighthouse-workshop.json"
+    },
+    {
+      "file": "layers/inlays-lantern-room.json"
+    },
+    {
+      "file": "layers/floorLayer.json"
+    },
+    {
+      "file": "layers/foreground.json"
+    },
+    {
+      "file": "layers/map-areas.json"
+    },
+    {
+      "file": "layers/inside-workshop-power.json"
+    },
+    {
+      "file": "layers/inside-lantern-lit.json"
+    },
+    {
+      "file": "layers/inside-lens-focused.json"
+    },
+    {
+      "file": "layers/inside-house-key.json"
+    },
+    {
+      "file": "layers/inside-exterior-lit.json"
+    },
+    {
+      "file": "layers/inside-popups.json"
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "ground-and-objects-0",
+      "image": "ground-and-objects-0.png",
+      "imagewidth": 1024,
+      "imageheight": 1024,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 32,
+      "tilecount": 1024,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 1025,
+      "name": "ground-and-objects-1",
+      "image": "ground-and-objects-1.png",
+      "imagewidth": 1024,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 32,
+      "tilecount": 509,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 1534,
+      "name": "foreground-0",
+      "image": "foreground-0.png",
+      "imagewidth": 704,
+      "imageheight": 32,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 22,
+      "tilecount": 22,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 1556,
+      "name": "collision",
+      "image": "markers.png",
+      "imagewidth": 32,
+      "imageheight": 32,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 1,
+      "tilecount": 1,
+      "margin": 0,
+      "spacing": 0,
+      "tiles": [
+        {
+          "id": 0,
+          "properties": [
+            {
+              "name": "collides",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "firstgid": 1557,
+      "name": "quiet",
+      "image": "markers.png",
+      "imagewidth": 32,
+      "imageheight": 32,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 1,
+      "tilecount": 1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 1558,
+      "name": "keeper-house",
+      "image": "keeper-house.png",
+      "imagewidth": 640,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 20,
+      "tilecount": 320,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 1878,
+      "name": "lighthouse-workshop",
+      "image": "lighthouse-workshop.png",
+      "imagewidth": 640,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 20,
+      "tilecount": 320,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 2198,
+      "name": "lantern-room",
+      "image": "lantern-room.png",
+      "imagewidth": 640,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 20,
+      "tilecount": 320,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 2518,
+      "name": "inlays-exterior",
+      "image": "inlays-exterior.png",
+      "imagewidth": 1536,
+      "imageheight": 1024,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 48,
+      "tilecount": 1536,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 4054,
+      "name": "inlays-keeper-house",
+      "image": "inlays-keeper-house.png",
+      "imagewidth": 640,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 20,
+      "tilecount": 320,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 4374,
+      "name": "inlays-lighthouse-workshop",
+      "image": "inlays-lighthouse-workshop.png",
+      "imagewidth": 640,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 20,
+      "tilecount": 320,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 4694,
+      "name": "inlays-lantern-room",
+      "image": "inlays-lantern-room.png",
+      "imagewidth": 640,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 20,
+      "tilecount": 320,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 5014,
+      "name": "inside-workshop-power",
+      "image": "inside-workshop-power.png",
+      "imagewidth": 640,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 20,
+      "tilecount": 320,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 5334,
+      "name": "inside-lantern-lit",
+      "image": "inside-lantern-lit.png",
+      "imagewidth": 640,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 20,
+      "tilecount": 320,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 5654,
+      "name": "inside-lens-focused",
+      "image": "inside-lens-focused.png",
+      "imagewidth": 640,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 20,
+      "tilecount": 320,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 5974,
+      "name": "inside-house-key",
+      "image": "inside-house-key.png",
+      "imagewidth": 32,
+      "imageheight": 32,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 1,
+      "tilecount": 1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "firstgid": 5975,
+      "name": "inside-exterior-lit",
+      "image": "inside-exterior-lit.png",
+      "imagewidth": 96,
+      "imageheight": 96,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 3,
+      "tilecount": 9,
+      "margin": 0,
+      "spacing": 0
+    }
+  ],
+  "properties": [
+    {
+      "name": "wokaScale",
+      "type": "int",
+      "value": 1
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "value": "Lighthouse: The Keeper’s Return"
+    },
+    {
+      "name": "script",
+      "type": "string",
+      "value": "keeper.js"
+    }
+  ],
+  "backgroundcolor": "#1b3037"
+}

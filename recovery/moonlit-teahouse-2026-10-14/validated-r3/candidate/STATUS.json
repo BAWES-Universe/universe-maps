@@ -1,0 +1,35 @@
+{
+  "scope": "isolated local technical prototype; provisional art",
+  "engineSourceHead": "aa3ca1d60801172bfd97b6619bbf351c17eb3dba",
+  "runtimeEntry": "runtime/moonlit.tmj",
+  "tests": {
+    "controller": {
+      "passed": 17,
+      "failed": 0
+    },
+    "structure": {
+      "passed": 25,
+      "failed": 0
+    },
+    "nativeRoutes": {
+      "passed": 41,
+      "failed": 0,
+      "sampledBodyCollisions": 0
+    }
+  },
+  "notRun": [
+    "live browser",
+    "actual renderer/physics",
+    "companion behavior",
+    "multiplayer",
+    "touch/physical audio",
+    "polished visual acceptance"
+  ],
+  "doorClosing": "explicit doorDemo=single-client mode (legacy qaDoorClose=1); no public/automatic closing",
+  "audio": "optional existing original bell test sound; no final music bed",
+  "roof": "stepped authored alpha states; no continuous opacity API",
+  "externalMutations": false,
+  "originalFilesChanged": false,
+  "revision": "cleanup-fault-isolation-roof-reversal-demo-r2",
+  "cameraTest": "FollowPlayer call asserted only; actual zoom/viewport restoration not tested"
+}

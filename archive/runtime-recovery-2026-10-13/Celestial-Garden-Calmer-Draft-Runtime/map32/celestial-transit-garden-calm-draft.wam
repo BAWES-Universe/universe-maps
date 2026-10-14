@@ -1,0 +1,74 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./celestial-transit-garden-calm-draft.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "celestial-transit-garden-calm-draft-spawn",
+      "name": "Safe arrival",
+      "x": 1036,
+      "y": 1227,
+      "width": 8,
+      "height": 8,
+      "visible": true,
+      "properties": [
+        {
+          "id": "celestial-transit-garden-calm-draft-default-start",
+          "type": "start",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": "destination-north",
+      "name": "DESTINATION 01 / unconfigured",
+      "x": 1020,
+      "y": 436,
+      "width": 39,
+      "height": 35,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "destination-northwest",
+      "name": "DESTINATION 02 / unconfigured",
+      "x": 596,
+      "y": 500,
+      "width": 39,
+      "height": 35,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "destination-northeast",
+      "name": "DESTINATION 03 / unconfigured",
+      "x": 1412,
+      "y": 500,
+      "width": 39,
+      "height": 35,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "destination-southwest",
+      "name": "DESTINATION 04 / unconfigured",
+      "x": 548,
+      "y": 884,
+      "width": 39,
+      "height": 35,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "destination-southeast",
+      "name": "DESTINATION 05 / unconfigured",
+      "x": 1460,
+      "y": 884,
+      "width": 39,
+      "height": 35,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

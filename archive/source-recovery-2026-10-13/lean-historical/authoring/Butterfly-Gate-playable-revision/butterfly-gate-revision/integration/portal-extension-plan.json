@@ -1,0 +1,22 @@
+{
+  "activeInternalPortals": [
+    {
+      "area": "gate-threshold",
+      "behavior": "same-map teleport",
+      "destination": {
+        "x": 3648,
+        "y": 1632
+      }
+    },
+    {
+      "area": "campus-return",
+      "behavior": "same-map teleport",
+      "destination": {
+        "x": 1536,
+        "y": 3000
+      }
+    }
+  ],
+  "externalDestinations": [],
+  "extensionStatus": "Private/focus rooms, additional Universe places and student-created spaces require verified room URLs, access rules and return spawns. No broken or placeholder exit URLs are installed."
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "asset": "lounge-chair-south",
+    "source": "source/lounge-four-directions-master.png",
+    "cropXYXY": [
+      0,
+      0,
+      656,
+      599
+    ],
+    "alphaTrimXYXY": [
+      179,
+      149,
+      545,
+      503
+    ],
+    "nativeSize": [
+      48,
+      48
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "lounge-chair-north",
+    "source": "source/lounge-four-directions-master.png",
+    "cropXYXY": [
+      656,
+      0,
+      1313,
+      599
+    ],
+    "alphaTrimXYXY": [
+      108,
+      171,
+      476,
+      503
+    ],
+    "nativeSize": [
+      48,
+      44
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "lounge-chair-east",
+    "source": "source/lounge-four-directions-master.png",
+    "cropXYXY": [
+      0,
+      599,
+      656,
+      1198
+    ],
+    "alphaTrimXYXY": [
+      212,
+      100,
+      509,
+      450
+    ],
+    "nativeSize": [
+      42,
+      50
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "lounge-chair-west",
+    "source": "source/lounge-four-directions-master.png",
+    "cropXYXY": [
+      656,
+      599,
+      1313,
+      1198
+    ],
+    "alphaTrimXYXY": [
+      156,
+      100,
+      452,
+      450
+    ],
+    "nativeSize": [
+      42,
+      50
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "rug-wide",
+    "source": "source/rugs-master.png",
+    "cropXYXY": [
+      0,
+      0,
+      1100,
+      887
+    ],
+    "alphaTrimXYXY": [
+      40,
+      143,
+      1064,
+      726
+    ],
+    "nativeSize": [
+      352,
+      224
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "rug-square",
+    "source": "source/rugs-master.png",
+    "cropXYXY": [
+      1100,
+      0,
+      1774,
+      887
+    ],
+    "alphaTrimXYXY": [
+      52,
+      136,
+      623,
+      726
+    ],
+    "nativeSize": [
+      224,
+      224
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "planter-low",
+    "source": "source/environment-props-master.png",
+    "cropXYXY": [
+      0,
+      0,
+      843,
+      796
+    ],
+    "alphaTrimXYXY": [
+      49,
+      345,
+      828,
+      664
+    ],
+    "nativeSize": [
+      120,
+      48
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "citrus-tree",
+    "source": "source/environment-props-master.png",
+    "cropXYXY": [
+      843,
+      0,
+      1277,
+      796
+    ],
+    "alphaTrimXYXY": [
+      11,
+      124,
+      420,
+      665
+    ],
+    "nativeSize": [
+      64,
+      90
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "welcome-desk",
+    "source": "source/environment-props-master.png",
+    "cropXYXY": [
+      1277,
+      0,
+      1975,
+      796
+    ],
+    "alphaTrimXYXY": [
+      13,
+      284,
+      655,
+      661
+    ],
+    "nativeSize": [
+      112,
+      68
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "low-lounge-table",
+    "source": "source/low-table-east-rail-master.png",
+    "cropXYXY": [
+      0,
+      0,
+      920,
+      1141
+    ],
+    "alphaTrimXYXY": [
+      153,
+      437,
+      807,
+      748
+    ],
+    "nativeSize": [
+      64,
+      36
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "terrace-east-rail",
+    "source": "source/low-table-east-rail-master.png",
+    "cropXYXY": [
+      920,
+      0,
+      1379,
+      1141
+    ],
+    "alphaTrimXYXY": [
+      97,
+      6,
+      232,
+      1141
+    ],
+    "nativeSize": [
+      44,
+      352
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "terrace-rail",
+    "source": "source/terrace-architecture-master.png",
+    "cropXYXY": [
+      0,
+      0,
+      1536,
+      420
+    ],
+    "alphaTrimXYXY": [
+      36,
+      145,
+      1501,
+      357
+    ],
+    "nativeSize": [
+      352,
+      48
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "coffee-pergola",
+    "source": "source/terrace-architecture-master.png",
+    "cropXYXY": [
+      0,
+      420,
+      1536,
+      1024
+    ],
+    "alphaTrimXYXY": [
+      43,
+      44,
+      1502,
+      486
+    ],
+    "nativeSize": [
+      448,
+      136
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "sandstone-tile",
+    "source": "/workspace/shared/grand-auditorium-01/review/flagship-empty-native.png",
+    "cropXYXY": [
+      258,
+      1009,
+      322,
+      1073
+    ],
+    "alphaTrimXYXY": [
+      0,
+      0,
+      64,
+      64
+    ],
+    "nativeSize": [
+      64,
+      64
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "wall-left",
+    "source": "/workspace/shared/grand-auditorium-01/review/flagship-empty-native.png",
+    "cropXYXY": [
+      40,
+      336,
+      96,
+      536
+    ],
+    "alphaTrimXYXY": [
+      0,
+      0,
+      56,
+      200
+    ],
+    "nativeSize": [
+      56,
+      200
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "wall-right",
+    "source": "/workspace/shared/grand-auditorium-01/review/flagship-empty-native.png",
+    "cropXYXY": [
+      1440,
+      336,
+      1496,
+      536
+    ],
+    "alphaTrimXYXY": [
+      0,
+      0,
+      56,
+      200
+    ],
+    "nativeSize": [
+      56,
+      200
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "wall-horizontal",
+    "source": "/workspace/shared/grand-auditorium-01/review/flagship-empty-native.png",
+    "cropXYXY": [
+      260,
+      1174,
+      516,
+      1230
+    ],
+    "alphaTrimXYXY": [
+      0,
+      0,
+      256,
+      56
+    ],
+    "nativeSize": [
+      256,
+      56
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "threshold-panel",
+    "source": "/workspace/shared/grand-auditorium-01/review/flagship-empty-native.png",
+    "cropXYXY": [
+      258,
+      944,
+      448,
+      1008
+    ],
+    "alphaTrimXYXY": [
+      0,
+      0,
+      190,
+      64
+    ],
+    "nativeSize": [
+      190,
+      64
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "gold-post",
+    "source": "/workspace/shared/grand-auditorium-01/review/flagship-empty-native.png",
+    "cropXYXY": [
+      626,
+      1136,
+      688,
+      1266
+    ],
+    "alphaTrimXYXY": [
+      0,
+      0,
+      62,
+      130
+    ],
+    "nativeSize": [
+      62,
+      130
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  },
+  {
+    "asset": "wood-deck-tile",
+    "source": "/workspace/shared/grand-auditorium-01/review/flagship-empty-native.png",
+    "cropXYXY": [
+      640,
+      220,
+      832,
+      252
+    ],
+    "alphaTrimXYXY": [
+      0,
+      0,
+      192,
+      32
+    ],
+    "nativeSize": [
+      192,
+      32
+    ],
+    "resampling": "Lanczos only at component-authoring stage; no rotation"
+  }
+]

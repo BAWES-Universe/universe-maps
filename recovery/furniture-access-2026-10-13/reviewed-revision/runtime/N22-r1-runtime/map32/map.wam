@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N22-zone-1",
+      "name": "Architectural paper design",
+      "x": 304,
+      "y": 320,
+      "width": 384,
+      "height": 192,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N22-zone-2",
+      "name": "Pulp and drying court",
+      "x": 896,
+      "y": 336,
+      "width": 416,
+      "height": 224,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

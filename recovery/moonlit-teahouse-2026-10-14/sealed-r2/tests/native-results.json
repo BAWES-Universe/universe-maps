@@ -1,0 +1,499 @@
+{
+  "engineHead": "aa3ca1d60801172bfd97b6619bbf351c17eb3dba",
+  "scope": "Source-extracted native pathfinder/player/collision methods with renderer/body adapters; not live game",
+  "cases": 41,
+  "rows": [
+    {
+      "name": "garden to pavilion open",
+      "reached": true,
+      "frames": 146,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        456,
+        288
+      ]
+    },
+    {
+      "name": "garden to terrace open",
+      "reached": true,
+      "frames": 208,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        944,
+        416
+      ]
+    },
+    {
+      "name": "garden to deskApproach open",
+      "reached": true,
+      "frames": 191,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        240,
+        288
+      ]
+    },
+    {
+      "name": "garden to seatApproach open",
+      "reached": true,
+      "frames": 160,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        592,
+        352
+      ]
+    },
+    {
+      "name": "pavilion to garden open",
+      "reached": true,
+      "frames": 136,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        456,
+        704
+      ]
+    },
+    {
+      "name": "pavilion to terrace open",
+      "reached": true,
+      "frames": 180,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        944,
+        416
+      ]
+    },
+    {
+      "name": "pavilion to deskApproach open",
+      "reached": true,
+      "frames": 72,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        240,
+        288
+      ]
+    },
+    {
+      "name": "pavilion to seatApproach open",
+      "reached": true,
+      "frames": 54,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        592,
+        352
+      ]
+    },
+    {
+      "name": "terrace to garden open",
+      "reached": true,
+      "frames": 200,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        456,
+        704
+      ]
+    },
+    {
+      "name": "terrace to pavilion open",
+      "reached": true,
+      "frames": 185,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        456,
+        288
+      ]
+    },
+    {
+      "name": "terrace to deskApproach open",
+      "reached": true,
+      "frames": 257,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        240,
+        288
+      ]
+    },
+    {
+      "name": "terrace to seatApproach open",
+      "reached": true,
+      "frames": 131,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        592,
+        352
+      ]
+    },
+    {
+      "name": "deskApproach to garden open",
+      "reached": true,
+      "frames": 186,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        456,
+        704
+      ]
+    },
+    {
+      "name": "deskApproach to pavilion open",
+      "reached": true,
+      "frames": 74,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        456,
+        288
+      ]
+    },
+    {
+      "name": "deskApproach to terrace open",
+      "reached": true,
+      "frames": 250,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        944,
+        416
+      ]
+    },
+    {
+      "name": "deskApproach to seatApproach open",
+      "reached": true,
+      "frames": 124,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        592,
+        352
+      ]
+    },
+    {
+      "name": "seatApproach to garden open",
+      "reached": true,
+      "frames": 155,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        456,
+        704
+      ]
+    },
+    {
+      "name": "seatApproach to pavilion open",
+      "reached": true,
+      "frames": 55,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        456,
+        288
+      ]
+    },
+    {
+      "name": "seatApproach to terrace open",
+      "reached": true,
+      "frames": 127,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        944,
+        416
+      ]
+    },
+    {
+      "name": "seatApproach to deskApproach open",
+      "reached": true,
+      "frames": 127,
+      "collisions": 0,
+      "closed": false,
+      "replan": false,
+      "final": [
+        240,
+        288
+      ]
+    },
+    {
+      "name": "garden to pavilion closed",
+      "reached": true,
+      "frames": 322,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        456,
+        288
+      ]
+    },
+    {
+      "name": "garden to terrace closed",
+      "reached": true,
+      "frames": 208,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        944,
+        416
+      ]
+    },
+    {
+      "name": "garden to deskApproach closed",
+      "reached": true,
+      "frames": 394,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        240,
+        288
+      ]
+    },
+    {
+      "name": "garden to seatApproach closed",
+      "reached": true,
+      "frames": 267,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        592,
+        352
+      ]
+    },
+    {
+      "name": "pavilion to garden closed",
+      "reached": true,
+      "frames": 316,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        456,
+        704
+      ]
+    },
+    {
+      "name": "pavilion to terrace closed",
+      "reached": true,
+      "frames": 180,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        944,
+        416
+      ]
+    },
+    {
+      "name": "pavilion to deskApproach closed",
+      "reached": true,
+      "frames": 72,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        240,
+        288
+      ]
+    },
+    {
+      "name": "pavilion to seatApproach closed",
+      "reached": true,
+      "frames": 54,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        592,
+        352
+      ]
+    },
+    {
+      "name": "terrace to garden closed",
+      "reached": true,
+      "frames": 200,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        456,
+        704
+      ]
+    },
+    {
+      "name": "terrace to pavilion closed",
+      "reached": true,
+      "frames": 185,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        456,
+        288
+      ]
+    },
+    {
+      "name": "terrace to deskApproach closed",
+      "reached": true,
+      "frames": 257,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        240,
+        288
+      ]
+    },
+    {
+      "name": "terrace to seatApproach closed",
+      "reached": true,
+      "frames": 131,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        592,
+        352
+      ]
+    },
+    {
+      "name": "deskApproach to garden closed",
+      "reached": true,
+      "frames": 394,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        456,
+        704
+      ]
+    },
+    {
+      "name": "deskApproach to pavilion closed",
+      "reached": true,
+      "frames": 74,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        456,
+        288
+      ]
+    },
+    {
+      "name": "deskApproach to terrace closed",
+      "reached": true,
+      "frames": 250,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        944,
+        416
+      ]
+    },
+    {
+      "name": "deskApproach to seatApproach closed",
+      "reached": true,
+      "frames": 124,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        592,
+        352
+      ]
+    },
+    {
+      "name": "seatApproach to garden closed",
+      "reached": true,
+      "frames": 263,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        456,
+        704
+      ]
+    },
+    {
+      "name": "seatApproach to pavilion closed",
+      "reached": true,
+      "frames": 55,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        456,
+        288
+      ]
+    },
+    {
+      "name": "seatApproach to terrace closed",
+      "reached": true,
+      "frames": 127,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        944,
+        416
+      ]
+    },
+    {
+      "name": "seatApproach to deskApproach closed",
+      "reached": true,
+      "frames": 127,
+      "collisions": 0,
+      "closed": true,
+      "replan": false,
+      "final": [
+        240,
+        288
+      ]
+    },
+    {
+      "name": "close/reveal during approach reroutes via side passage",
+      "reached": true,
+      "frames": 322,
+      "collisions": 0,
+      "closed": false,
+      "replan": true,
+      "final": [
+        456,
+        288
+      ]
+    }
+  ]
+}

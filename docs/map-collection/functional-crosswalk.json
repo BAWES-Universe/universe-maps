@@ -1,0 +1,3369 @@
+{
+  "scope": "Read-only inspection of exact recovered runtime TMJ/WAM/script files and current register bindings. No deployment, external writes or current live-engine claim.",
+  "runtime_commit": "9f80f9020df16993a4d1811552b0d816d403ccb1",
+  "source_catalogue": "/workspace/shared/github-source-recovery-2026-10-13/runtime-git-checkpoint/archive/runtime-recovery-2026-10-13/CATALOG.json",
+  "source_register": "/workspace/shared/map-testing-register/nonvisual-h025-h039-update/repo/docs/map-testing/data/map-register.json",
+  "summary": {
+    "runtime_packages": 80,
+    "register_cards": 123,
+    "workbook_records": 118,
+    "extra_review_cards": 5,
+    "cards_without_runtime_binding": 43,
+    "presentation_groups": {
+      "N social and leisure": 17,
+      "N learning and work": 17,
+      "N exploration and events": 16,
+      "Shared spaces": 10,
+      "Held event references": 2,
+      "Wellbeing designs": 5,
+      "Lighthouse stories": 2,
+      "Connected-world places": 7,
+      "Flagship variants": 4
+    },
+    "role_counts": {
+      "Current candidate": 65,
+      "Rejected reference": 3,
+      "Existing reference": 2,
+      "Additional recovered runtime": 5,
+      "Historical option": 3,
+      "Paused reference": 1,
+      "Original preserved": 1
+    },
+    "maps_with_script_property": 8,
+    "N_series_with_script": 0,
+    "maps_with_WAM_meeting_definitions": 14,
+    "maps_with_WAM_speaker_definitions": 18,
+    "maps_with_animated_tile_definitions": 8,
+    "counting_rule": "80 versioned runtime packages, not 80 finished games or accepted unique designs. Flagship A/B/C/D is one family with four variants. Keep other named related designs distinct; no universal unique-base count asserted."
+  },
+  "records": [
+    {
+      "runtime_id": "N01-r3-runtime",
+      "name": "Ember Ridge Lodge",
+      "presentation_group": "N social and leisure",
+      "review_card": "N01",
+      "review_label": "Ember Ridge Lodge",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Ember Ridge Lodge",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Ember Ridge Lodge themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N01.tmj",
+          "sha256": "d8e48cbd12be7d3b132440e16bf5ea4e849b9e457f1d24457b302570887f2ecb",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N01-r3-runtime/N01.tmj"
+        },
+        {
+          "path": "N01.wam",
+          "sha256": "49984f484728ef3882fb8b25bb53fd0193eacb716582418a3c2f757ddb78a609",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N01-r3-runtime/N01.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N02-r4-runtime",
+      "name": "Lantern Dune Majlis",
+      "presentation_group": "N social and leisure",
+      "review_card": "N02",
+      "review_label": "Lantern Dune Majlis",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Lantern Dune Majlis",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Lantern Dune Majlis themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N02.tmj",
+          "sha256": "1c79d398577a164cd56d654db9c3e5085e329b07980c27b15f8d91c71c870cd3",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N02-r4-runtime/N02.tmj"
+        },
+        {
+          "path": "N02.wam",
+          "sha256": "c648a716c1051c6949d225a4a8a972ac2329b9bf5b33123518b12025117a1a9a",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N02-r4-runtime/N02.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N03-r3-runtime",
+      "name": "Clay Circle Atelier",
+      "presentation_group": "N social and leisure",
+      "review_card": "N03",
+      "review_label": "Clay Circle Atelier",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Clay Circle Atelier",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Clay Circle Atelier themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N03.tmj",
+          "sha256": "7b1b47582da94e22c9bf0fc30926a92ff75e41795afbf6c9896e791a519c2926",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N03-r3-runtime/N03.tmj"
+        },
+        {
+          "path": "N03.wam",
+          "sha256": "b5614d747545417712a5d6383ac886693765e3beb1bd3a09a0d53e64051d3f5d",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N03-r3-runtime/N03.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N04-r3-runtime",
+      "name": "Glassleaf Cooking Club",
+      "presentation_group": "N social and leisure",
+      "review_card": "N04",
+      "review_label": "Glassleaf Cooking Club",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Glassleaf Cooking Club",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Glassleaf Cooking Club themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N04.tmj",
+          "sha256": "0025d9d724ca462206ab2a747624e650d29bb52b0619c6726ad56fd5125f0efa",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N04-r3-runtime/N04.tmj"
+        },
+        {
+          "path": "N04.wam",
+          "sha256": "7c7021601fbcf32f1156396dc9a711f650e57f95d060ca72faa5aae9dccc47ef",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N04-r3-runtime/N04.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N05-r3-runtime",
+      "name": "Dicewood Table Club",
+      "presentation_group": "N social and leisure",
+      "review_card": "N05",
+      "review_label": "Dicewood Table Club",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Dicewood Table Club",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Dicewood Table Club themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N05.tmj",
+          "sha256": "6b7efb35e468f60a38e024889171415930b2c7d77bde925e9f38c12bdb2e12c1",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N05-r3-runtime/N05.tmj"
+        },
+        {
+          "path": "N05.wam",
+          "sha256": "3900177a0f33474eac835950ff777a31ee3bb3ac01c60c7872f04bc10335f46a",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N05-r3-runtime/N05.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N06-r2-runtime",
+      "name": "Copperbeat Rehearsal",
+      "presentation_group": "N social and leisure",
+      "review_card": "N06",
+      "review_label": "Copperbeat Rehearsal",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Copperbeat Rehearsal",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Copperbeat Rehearsal themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N06.tmj",
+          "sha256": "d2fa2106ebd9a6f23b58c5e750f2a2beaafa2e21fea668617fd35a86b1b64622",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N06-r2-runtime/N06.tmj"
+        },
+        {
+          "path": "N06.wam",
+          "sha256": "40b1a218d58e18553d46aaa54591365ed9e9cf260ab4e5044e9f5891428c4276",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N06-r2-runtime/N06.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N07-r3-runtime",
+      "name": "Harbor Tongues Exchange",
+      "presentation_group": "N social and leisure",
+      "review_card": "N07",
+      "review_label": "Harbor Tongues Exchange",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Harbor Tongues Exchange",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Harbor Tongues Exchange themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N07.tmj",
+          "sha256": "b96f56cc179b53ee4cb69cb93f8f314fbeba4be5cf2bbaf6a9b1f1a68cc2d48d",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N07-r3-runtime/N07.tmj"
+        },
+        {
+          "path": "N07.wam",
+          "sha256": "df947bda73e351310c1f83f1b06e26d3484bf406997859b43ebce1cf7c20c533",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N07-r3-runtime/N07.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N08-r3-runtime",
+      "name": "Mosswater Tea House",
+      "presentation_group": "N social and leisure",
+      "review_card": "N08",
+      "review_label": "Mosswater Tea House",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Mosswater Tea House",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Mosswater Tea House themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N08.tmj",
+          "sha256": "5d724f1cd9426c4767d3ecd6d80b2626335e2a5b0512108cc9de1423b72dc530",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N08-r3-runtime/N08.tmj"
+        },
+        {
+          "path": "N08.wam",
+          "sha256": "2f9ebfee802ab5297691faf5f9b4ef42716206e3edc0e2315b24bb4bb0558d59",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N08-r3-runtime/N08.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N09-r2-runtime",
+      "name": "Turntable Dance Loft",
+      "presentation_group": "N social and leisure",
+      "review_card": "N09",
+      "review_label": "Turntable Dance Loft",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Turntable Dance Loft",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Turntable Dance Loft themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N09.tmj",
+          "sha256": "e84da61edec377e85d0e463defa9c41b703a404e4d8782ed5d83932dae60f3c1",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N09-r2-runtime/N09.tmj"
+        },
+        {
+          "path": "N09.wam",
+          "sha256": "9088aa89bf8d56ed7f867764adb5dacf1f9779bdc99272a6b6061a1f976e6e25",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N09-r2-runtime/N09.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N10-r4-runtime",
+      "name": "Silvergrain Photo Club",
+      "presentation_group": "N social and leisure",
+      "review_card": "N10",
+      "review_label": "Silvergrain Photo Club",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Silvergrain Photo Club",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Silvergrain Photo Club themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N10.tmj",
+          "sha256": "77601ced44d304a9f38171edad2a2c76f39b8a91516aec37bb614dd787abac69",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N10-r4-runtime/N10.tmj"
+        },
+        {
+          "path": "N10.wam",
+          "sha256": "326def4fc2b1552d493c0f295b38a2219d24191f10ce418d04d951e15637d8b8",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N10-r4-runtime/N10.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N11-r2-runtime",
+      "name": "Framehouse Film Society",
+      "presentation_group": "N social and leisure",
+      "review_card": "N11",
+      "review_label": "Framehouse Film Society",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Framehouse Film Society",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Framehouse Film Society themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N11.tmj",
+          "sha256": "b6dd7464df666cad01c6b31de87232cef81290061ca5442898ad34578601e903",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N11-r2-runtime/N11.tmj"
+        },
+        {
+          "path": "N11.wam",
+          "sha256": "9f2b3bbc92ac32a95e3ed17423abf0949fae858fdf6f28c0580f67ee22978f98",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N11-r2-runtime/N11.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N12-r3-runtime",
+      "name": "Tideglass Aquarium Hall",
+      "presentation_group": "N social and leisure",
+      "review_card": "N12",
+      "review_label": "Tideglass Aquarium Hall",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Tideglass Aquarium Hall",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Tideglass Aquarium Hall themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N12.tmj",
+          "sha256": "33717693e09a13cfe3f1f72097be5ffebca1782af5ee09da2e8b2ca0823fe726",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N12-r3-runtime/N12.tmj"
+        },
+        {
+          "path": "N12.wam",
+          "sha256": "724ef6025b304102f27f9c7a44eade7bafdbfe45df1275231aa893c76e08afc3",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N12-r3-runtime/N12.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N13-r3-runtime",
+      "name": "Snowsteam Bathhouse",
+      "presentation_group": "N social and leisure",
+      "review_card": "N13",
+      "review_label": "Snowsteam Bathhouse",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Snowsteam Bathhouse",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Snowsteam Bathhouse themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N13.tmj",
+          "sha256": "127187d48e062b9b76798dc8cfa97eea47a3cb1f5b8ab6588ec4886d36cc5a95",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N13-r3-runtime/N13.tmj"
+        },
+        {
+          "path": "N13.wam",
+          "sha256": "d3e37cc449c884b48935861b4542d88e4a623ba8a099e48b7bce5eb190397513",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N13-r3-runtime/N13.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N14-r2-runtime",
+      "name": "Skylot Garden Commons",
+      "presentation_group": "N social and leisure",
+      "review_card": "N14",
+      "review_label": "Skylot Garden Commons",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Skylot Garden Commons",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Skylot Garden Commons themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N14.tmj",
+          "sha256": "b0f95412c279e45a7dbcd8c3c381260c0787bd0b0d2d96f775192c8573d22a85",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N14-r2-runtime/N14.tmj"
+        },
+        {
+          "path": "N14.wam",
+          "sha256": "3fd8b6319681966b46b06ed361f6f9bf3a9752907d6acb38809f775ae4a6384d",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N14-r2-runtime/N14.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N15-r3-runtime",
+      "name": "Threadwell Craft Studio",
+      "presentation_group": "N social and leisure",
+      "review_card": "N15",
+      "review_label": "Threadwell Craft Studio",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Threadwell Craft Studio",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Threadwell Craft Studio themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N15.tmj",
+          "sha256": "ce51c72174c0cebaf87a7c373b75936a155d809b79c0837aedcc0e5391f871a7",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N15-r3-runtime/N15.tmj"
+        },
+        {
+          "path": "N15.wam",
+          "sha256": "2ae2624a52ca6d4fee7a4df19b2c72c20517b9a14e6b2bf32ff176724288d109",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N15-r3-runtime/N15.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N16-r2-runtime",
+      "name": "Rainveil Meditation",
+      "presentation_group": "N social and leisure",
+      "review_card": "N16",
+      "review_label": "Rainveil Meditation",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Rainveil Meditation",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Rainveil Meditation themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N16.tmj",
+          "sha256": "2946e076ced81d0735136ee14b1d63ee4a0e26a12ea8eaa4235f610427ace79f",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N16-r2-runtime/N16.tmj"
+        },
+        {
+          "path": "N16.wam",
+          "sha256": "a21a85d3d4a784eadbf60fdd657040a298badae7b627527dc912251d05d40db4",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N16-r2-runtime/N16.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N17-r3-runtime",
+      "name": "Neon Nickel Arcade",
+      "presentation_group": "N social and leisure",
+      "review_card": "N17",
+      "review_label": "Neon Nickel Arcade",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Neon Nickel Arcade",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Neon Nickel Arcade themed social space with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No custom gameplay script or dedicated activity/service is supplied; titles such as Arcade or Film Society do not establish playable games or media services.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "N17.tmj",
+          "sha256": "d2ab2a301b630810f0097c0bb70eb8e3c14942cb8067fc071855fa383b4e7d3c",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N17-r3-runtime/N17.tmj"
+        },
+        {
+          "path": "N17.wam",
+          "sha256": "b87e9e9cd530d9b5b8f6805ec337138d918f30cc14be0a1d4db27647d79f7596",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N17-r3-runtime/N17.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N18-r3-runtime",
+      "name": "Alpine Isotope Field Station",
+      "presentation_group": "N learning and work",
+      "review_card": "N18",
+      "review_label": "Alpine Isotope Field Station",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Alpine Isotope Field Station",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Alpine Isotope Field Station setting; named areas: Sample laboratory, Instrument classroom.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Sample laboratory",
+        "Instrument classroom"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "4cf2b4beb61a4344f8432cf944d315274b25675892ec874587e1c611979cbf32",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "44c94e80e5cdb8891d22eddc3d8c5081b7b3c5374f112c25418be78dd739c711",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N19-r3-runtime",
+      "name": "Tidepool Marine Classroom",
+      "presentation_group": "N learning and work",
+      "review_card": "N19",
+      "review_label": "Tidepool Marine Classroom",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Tidepool Marine Classroom",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Tidepool Marine Classroom setting; named areas: Marine classroom, Open specimen laboratory.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Marine classroom",
+        "Open specimen laboratory"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "4c03dfe637b7f8693d5b6c55a872b50e23c4947f79a3626c2a1ec1c84b2b5eea",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "f6bbacd9a9e26a5db63c2cc86ccb59398d95f5157127cd7bb8369107e3f515f7",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N20-r3-runtime",
+      "name": "Kiln Robotics Assembly Lab",
+      "presentation_group": "N learning and work",
+      "review_card": "N20",
+      "review_label": "Kiln Robotics Assembly Lab",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Kiln Robotics Assembly Lab",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Kiln Robotics Assembly Lab setting; named areas: Assembly teaching floor, Parts discussion annex.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Assembly teaching floor",
+        "Parts discussion annex"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "1bff8502895530e20aace8b5ae40216651093498e93b3a10d65e54dce51972bd",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "16f28d912c547f2b3c30f346fbc4d2d1dc3bf10e705bde63a638eb3f793fd5ed",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N21-r2-runtime",
+      "name": "Vienna Pattern Atelier",
+      "presentation_group": "N learning and work",
+      "review_card": "N21",
+      "review_label": "Vienna Pattern Atelier",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Vienna Pattern Atelier",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Vienna Pattern Atelier setting; named areas: Collaborative pattern drafting, Stained glass fabrication.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Collaborative pattern drafting",
+        "Stained glass fabrication"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "d157119f542265ca0d74a2cf913ee53011af125ad61e8e2321f7cb7ba72d54a5",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "bb03e6b6be3ab97b4fe52d28e4b50719ea29d57b584c3a3189be49a6cf8845f7",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N22-r1-runtime",
+      "name": "Washi Paper Architecture Workshop",
+      "presentation_group": "N learning and work",
+      "review_card": "N22",
+      "review_label": "Washi Paper Architecture Workshop",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Washi Paper Architecture Workshop",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Washi Paper Architecture Workshop setting; named areas: Architectural paper design, Pulp and drying court.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Architectural paper design",
+        "Pulp and drying court"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "b7ccfe465862fc65f698dee37c6bd203a33c144f29e0ae4150eea700e58be759",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "59c9f0092a7f8a24b884eb4449c2a15be39a3df41ec12f2159924ae4b9b4ebde",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N23-r2-runtime",
+      "name": "Crosswind Aviation Briefing School",
+      "presentation_group": "N learning and work",
+      "review_card": "N23",
+      "review_label": "Crosswind Aviation Briefing School",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Crosswind Aviation Briefing School",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Crosswind Aviation Briefing School setting; named areas: Navigation briefing, Aircraft maintenance teaching.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Navigation briefing",
+        "Aircraft maintenance teaching"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "e4c738e1f45d02f8b530f04074aa2a85127ca7ffac86eafa77edc575976e80da",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "f60f9869cb541d3fd8c10e384b345c1b57c2ea9f395c357653b97fc8b46e8f1a",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N24-r4-runtime",
+      "name": "Basalt Geology Field Camp",
+      "presentation_group": "N learning and work",
+      "review_card": "N24",
+      "review_label": "Basalt Geology Field Camp",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Basalt Geology Field Camp",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Basalt Geology Field Camp setting; named areas: Sheltered specimen study, Open rock comparison.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Sheltered specimen study",
+        "Open rock comparison"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "979cda465a06dd54f9e211ae1006abb8036b6d641cc2d62e2df47b8e9420fa36",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "da1a341e743b66700a3a2bc948493e695cabd63fbf97fc816d1a07ff72d13000",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N25-r1-runtime",
+      "name": "Ochre Archaeology Academy",
+      "presentation_group": "N learning and work",
+      "review_card": "N25",
+      "review_label": "Ochre Archaeology Academy",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Ochre Archaeology Academy",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Ochre Archaeology Academy setting; named areas: Artifact drawing classroom, Restoration and comparison portico, Mosaic observation court.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Artifact drawing classroom",
+        "Restoration and comparison portico",
+        "Mosaic observation court"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "b89cfec16355f2055945f0dfe42cccddc8e3fad9db43cf9268d686b1cc37227a",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "3b09206b6609b693e48fd5b69fa397dfc1a5f6f01978ba445f32a72a44738dd0",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N26-r1-runtime",
+      "name": "Nordic Product Loft",
+      "presentation_group": "N learning and work",
+      "review_card": "N26",
+      "review_label": "Nordic Product Loft",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Nordic Product Loft",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Nordic Product Loft setting; named areas: Product sketch studio, Prototype gallery, Review alcove, Canal cafe.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Product sketch studio",
+        "Prototype gallery",
+        "Review alcove",
+        "Canal cafe"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "116323ca8344b34a43186865e0470820ebe52816c4f49437cf9006779aa67050",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "1ef65c2543f6c99c2ebca7815ea8326d2e6bf3e8f5641d6cf9168ebbe428be3b",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N27-r3-runtime",
+      "name": "Silicon Circuit Innovation Campus",
+      "presentation_group": "N learning and work",
+      "review_card": "N27",
+      "review_label": "Silicon Circuit Innovation Campus",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Silicon Circuit Innovation Campus",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Silicon Circuit Innovation Campus setting; named areas: Chip architecture forum, Inspection gallery, Clean instrument workshop, Semiconductor teaching bay.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Chip architecture forum",
+        "Inspection gallery",
+        "Clean instrument workshop",
+        "Semiconductor teaching bay"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "648f25259baee7520d49290ddfbff8933d7767049d92e1da08ff52300fe86557",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "fb0c813e080e2140f99de18d84b48450564f997952452d1acc30c6087452bf23",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N28-r2-runtime",
+      "name": "Floating Wetland Research Lab",
+      "presentation_group": "N learning and work",
+      "review_card": "N28",
+      "review_label": "Floating Wetland Research Lab",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Floating Wetland Research Lab",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Floating Wetland Research Lab setting; named areas: Wetland observations, Field class, Specimen comparison, Water sampling.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Wetland observations",
+        "Field class",
+        "Specimen comparison",
+        "Water sampling"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "8f231bccc2586b64de3114badb497a8793cb874b99e925871cb9fcfd97d2cd31",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "227df0263bb939f293bb0ee04a53929324a2197aa0f5d6da316820ff6eae9ea9",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N29-r2-runtime",
+      "name": "Monastic Manuscript Scriptorium",
+      "presentation_group": "N learning and work",
+      "review_card": "N29",
+      "review_label": "Monastic Manuscript Scriptorium",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Monastic Manuscript Scriptorium",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Monastic Manuscript Scriptorium setting; named areas: Manuscript instruction, Pigment study, Parchment workshop, Herb cloister exchange.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Manuscript instruction",
+        "Pigment study",
+        "Parchment workshop",
+        "Herb cloister exchange"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "bdcccf305cf5013b3d39ecec76b6841a7fb9f158ce976cd4705fb1f98e1bbdc9",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "3dbf0229aa79162db1f742bf72ea513d907180d8fff18d4c365e39cb920b2370",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N30-r2-runtime",
+      "name": "Glass Borough Civic Library",
+      "presentation_group": "N learning and work",
+      "review_card": "N30",
+      "review_label": "Glass Borough Civic Library",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Glass Borough Civic Library",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Glass Borough Civic Library setting; named areas: Catalog assistance, Reading and display exchange, Civic plaza.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Catalog assistance",
+        "Reading and display exchange",
+        "Civic plaza"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "aebb62f3fe5c86a19f3316662e6b664dff9e3aa9dc4aa03a2882cba275b85418",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "d0274981ddc7d81d6d8fd4fb154ddee9cfac75323b7ca3c32ed177a9ab8eedd0",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N31-r2-runtime",
+      "name": "Desert Heliostat Research School",
+      "presentation_group": "N learning and work",
+      "review_card": "N31",
+      "review_label": "Desert Heliostat Research School",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Desert Heliostat Research School",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Desert Heliostat Research School setting; named areas: Solar analysis lab, Sun-path teaching court, Receiver observation, Mirror research gallery.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Solar analysis lab",
+        "Sun-path teaching court",
+        "Receiver observation",
+        "Mirror research gallery"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "eb39681b735811862b75a7235d06a1d6ab5b96996d0dd7041a3c3614e289b020",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "ff5ed7cb61c3af95f39371b84b7856bf10a0f350121ba7e1c045439446ca9e7b",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N32-r2-runtime",
+      "name": "Indigo Textile Design Guild",
+      "presentation_group": "N learning and work",
+      "review_card": "N32",
+      "review_label": "Indigo Textile Design Guild",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Indigo Textile Design Guild",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Indigo Textile Design Guild setting; named areas: Textile design instruction, Loom learning, Dye-vat demonstration, Guild gathering.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Textile design instruction",
+        "Loom learning",
+        "Dye-vat demonstration",
+        "Guild gathering"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "c851ef2a17bcee3a0be9059c590d3b5849eb8a4fe663d18d661516470a1666cc",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "f0a80baee4b52ee63390dd46c3aeaf75afd2be2e33690bd2c9f471e803245b41",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N33-r1-runtime",
+      "name": "Circular Civic Debate Hall",
+      "presentation_group": "N learning and work",
+      "review_card": "N33",
+      "review_label": "Circular Civic Debate Hall",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Circular Civic Debate Hall",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Circular Civic Debate Hall setting; named areas: Public debate forum, West breakout, East breakout, Civic records.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Public debate forum",
+        "West breakout",
+        "East breakout",
+        "Civic records"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "1a280d1b17e398f30a1bccbf91d6fb880c6d91124022df39354561dd589aee37",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "9d58a2c1cd247c0c3b4dc077879dcb07dd281fa25a32ebffa19f5ddbfe30126d",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N34-r2-runtime",
+      "name": "Harbour Language Exchange Lab",
+      "presentation_group": "N learning and work",
+      "review_card": "N34",
+      "review_label": "Harbour Language Exchange Lab",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Harbour Language Exchange Lab",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Harbour Language Exchange Lab setting; named areas: Listening classroom, Language exchange pods, Conversation court, Harbour exchange.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Listening classroom",
+        "Language exchange pods",
+        "Conversation court",
+        "Harbour exchange"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "2273fef40efbcc3c323305067bc32e1c832fb307c32d058470d36444ec699bcc",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "43cc4ef20ac886fc5fa1635ed6787fb5cd60ac95d27c29c2a8a7f63133ebebef",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N35-r3-runtime",
+      "name": "Lighthouse Festival Island",
+      "presentation_group": "N exploration and events",
+      "review_card": "N35",
+      "review_label": "Lighthouse Festival Island",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Lighthouse Festival Island",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Lighthouse Festival Island setting; named areas: Festival gathering lawn, Open pavilion.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Festival gathering lawn",
+        "Open pavilion"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "lighthouse-festival-island.tmj",
+          "sha256": "e977b32148d7d70e29b15114baee3db7327a982b4a2c33d07980dde909d3cf65",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N35-r3-runtime/lighthouse-festival-island.tmj"
+        },
+        {
+          "path": "lighthouse-festival-island.wam",
+          "sha256": "ab7d1f6291d18c5eb4fd2ef8b8dc885e825e02da98a79fe7a1bf74f483555b6b",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N35-r3-runtime/lighthouse-festival-island.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N36-r4-runtime",
+      "name": "Desert Caravan Crossroads",
+      "presentation_group": "N exploration and events",
+      "review_card": "N36",
+      "review_label": "Desert Caravan Crossroads",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Desert Caravan Crossroads",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Desert Caravan Crossroads setting; named areas: Crossroads gathering.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Crossroads gathering"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "desert-caravan-crossroads.tmj",
+          "sha256": "9f30ef8ff64ab1fdb1d69626fa5818db3938b8c4f66bcf4aa489ecb6fe206a64",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N36-r4-runtime/desert-caravan-crossroads.tmj"
+        },
+        {
+          "path": "desert-caravan-crossroads.wam",
+          "sha256": "26f6568c980a7b6e12deb070e1e6b8f903d233c150862ae12054b8f6de63efdf",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N36-r4-runtime/desert-caravan-crossroads.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N37-r2-runtime",
+      "name": "Mountain Cable Station Village",
+      "presentation_group": "N exploration and events",
+      "review_card": "N37",
+      "review_label": "Mountain Cable Station Village",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Mountain Cable Station Village",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Mountain Cable Station Village setting; named areas: Mountain plaza.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Mountain plaza"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "mountain-cable-station-village.tmj",
+          "sha256": "0a49353b2dcdca146965458566bab521871b031fc14c2c4ade6a4e31bc4e06ca",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N37-r2-runtime/mountain-cable-station-village.tmj"
+        },
+        {
+          "path": "mountain-cable-station-village.wam",
+          "sha256": "04daf118f9bf36189bc2c7601de083c03a86afd176e3328eafcd3e9400136f58",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N37-r2-runtime/mountain-cable-station-village.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N38-r2-runtime",
+      "name": "Rainforest Canopy Forum",
+      "presentation_group": "N exploration and events",
+      "review_card": "N38",
+      "review_label": "Rainforest Canopy Forum",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Rainforest Canopy Forum",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Rainforest Canopy Forum setting; named areas: Canopy forum.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Canopy forum"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "rainforest-canopy-forum.tmj",
+          "sha256": "24920afcf88375c0340a09740400a7cc023a66375b66ed7fe93c301f4d7d269a",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N38-r2-runtime/rainforest-canopy-forum.tmj"
+        },
+        {
+          "path": "rainforest-canopy-forum.wam",
+          "sha256": "06fd360784a5456319e9ed01d1c1d0ad3e7a3bebda4958cdc3a939e84fb496b7",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N38-r2-runtime/rainforest-canopy-forum.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N39-r3-runtime",
+      "name": "Volcanic Observatory Lodge",
+      "presentation_group": "N exploration and events",
+      "review_card": "N39",
+      "review_label": "Volcanic Observatory Lodge",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Volcanic Observatory Lodge",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Volcanic Observatory Lodge setting; named areas: Astronomy gathering.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Astronomy gathering"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "volcanic-observatory-lodge.tmj",
+          "sha256": "ac6f097436f2106cd70cf6375f1f22e5422dac279d07ae3b753a21586340f5eb",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N39-r3-runtime/volcanic-observatory-lodge.tmj"
+        },
+        {
+          "path": "volcanic-observatory-lodge.wam",
+          "sha256": "ae1267d0361422a04b53d20c58de21cea94d16461e50fcbe9af54b77187f21d8",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N39-r3-runtime/volcanic-observatory-lodge.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N40-r3-runtime",
+      "name": "Coral Research Pier",
+      "presentation_group": "N exploration and events",
+      "review_card": "N40",
+      "review_label": "Coral Research Pier",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Coral Research Pier",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Coral Research Pier setting; named areas: Coral teaching deck.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Coral teaching deck"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "coral-research-pier.tmj",
+          "sha256": "e3b5e44c8b43bf8e5b3f66dce642eade6738dfe78a296ff2df24d2a89fbdb1d9",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N40-r3-runtime/coral-research-pier.tmj"
+        },
+        {
+          "path": "coral-research-pier.wam",
+          "sha256": "74945070417820dbd9974eec11ff9b4e1b91513a12c3822ee10d6d2563ac01d6",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N40-r3-runtime/coral-research-pier.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N41-r3-runtime",
+      "name": "Moonlit Ruin Courtyard",
+      "presentation_group": "N exploration and events",
+      "review_card": "N41",
+      "review_label": "Moonlit Ruin Courtyard",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Moonlit Ruin Courtyard",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Moonlit Ruin Courtyard setting; named areas: Moonlit mosaic court.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Moonlit mosaic court"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "moonlit-ruin-courtyard.tmj",
+          "sha256": "933915f23172c9bebcf4f962e32e32e356ea974edd4202d1b849cb7ef9d9d168",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N41-r3-runtime/moonlit-ruin-courtyard.tmj"
+        },
+        {
+          "path": "moonlit-ruin-courtyard.wam",
+          "sha256": "ec9d1921c036771ec4e550962d5cac2994cdb20f8fdb5f8608b165a6e53d94ce",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N41-r3-runtime/moonlit-ruin-courtyard.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N42-r4-runtime",
+      "name": "Sky Village Airship Terminal",
+      "presentation_group": "N exploration and events",
+      "review_card": "N42",
+      "review_label": "Sky Village Airship Terminal",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Sky Village Airship Terminal",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Sky Village Airship Terminal setting; named areas: Sky village arrival plaza.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Sky village arrival plaza"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "sky-village-airship-terminal.tmj",
+          "sha256": "f5250de920da2f87bdda475018e261380558d8dfe619c456ef02104eb7d1da5e",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N42-r4-runtime/sky-village-airship-terminal.tmj"
+        },
+        {
+          "path": "sky-village-airship-terminal.wam",
+          "sha256": "6f5b2e2a53c9d1e4e73a61639d95e36692def97fddc5aaf40adb169bc76226d9",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N42-r4-runtime/sky-village-airship-terminal.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N43-r1-runtime",
+      "name": "Glass Hall Conference Campus",
+      "presentation_group": "N exploration and events",
+      "review_card": "N43",
+      "review_label": "Glass Hall Conference Campus",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Glass Hall Conference Campus",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Glass Hall Conference Campus setting with speaker/audience and whole-hall framing definitions.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM focusable framing"
+      ],
+      "configured_wam_area_names": [
+        "Presenter stage",
+        "Audience"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1,
+        "focusable": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "WAM definitions require import/configuration and live verification. No minigame or quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "glass-hall-conference-campus.tmj",
+          "sha256": "48886ff4aa1541910a61a26c6636474c1fe468a414c8d11aaacbf41472608dba",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N43-r1-runtime/glass-hall-conference-campus.tmj"
+        },
+        {
+          "path": "glass-hall-conference-campus.wam",
+          "sha256": "5603310a506de241620ecb97f7912d4fcd43fb0b12401959b28527852fab6c73",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N43-r1-runtime/glass-hall-conference-campus.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N44-r1-runtime",
+      "name": "Autumn Amphitheatre",
+      "presentation_group": "N exploration and events",
+      "review_card": "N44",
+      "review_label": "Autumn Amphitheatre",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Autumn Amphitheatre",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Autumn Amphitheatre setting with speaker/audience and whole-hall framing definitions.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM focusable framing"
+      ],
+      "configured_wam_area_names": [
+        "Presenter stage",
+        "Audience"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1,
+        "focusable": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "WAM definitions require import/configuration and live verification. No minigame or quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "autumn-amphitheatre.tmj",
+          "sha256": "16698fef74238d0024d7ec1bdf9aa0cdb1110d1dc2eabadcc816dce6e0a07f4f",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N44-r1-runtime/autumn-amphitheatre.tmj"
+        },
+        {
+          "path": "autumn-amphitheatre.wam",
+          "sha256": "747c2030b5bacbfc9c8e699e6fa2298145f77c44ae0c9a18e870c570a3b42fce",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N44-r1-runtime/autumn-amphitheatre.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N45-r2-runtime",
+      "name": "Desert Esports Pavilion",
+      "presentation_group": "N exploration and events",
+      "review_card": "N45",
+      "review_label": "Desert Esports Pavilion",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Desert Esports Pavilion",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Desert Esports Pavilion setting with speaker/audience and whole-hall framing definitions.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM focusable framing"
+      ],
+      "configured_wam_area_names": [
+        "Presenter stage",
+        "Audience"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1,
+        "focusable": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "WAM definitions require import/configuration and live verification. No minigame or quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "desert-esports-pavilion.tmj",
+          "sha256": "35eea1f009d307ee1f6c932b42f76d56399ee0403ce60b3d7d3a0a622e204053",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N45-r2-runtime/desert-esports-pavilion.tmj"
+        },
+        {
+          "path": "desert-esports-pavilion.wam",
+          "sha256": "1b9e457a552660c39956d74d2804ef2ba5dd61d3e356992475027337e90bf5c6",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N45-r2-runtime/desert-esports-pavilion.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N46-r2-runtime",
+      "name": "Riverside Art Fair",
+      "presentation_group": "N exploration and events",
+      "review_card": "N46",
+      "review_label": "Riverside Art Fair",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Riverside Art Fair",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Riverside Art Fair setting; named areas: Riverside art walk.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Riverside art walk"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "riverside-art-fair.tmj",
+          "sha256": "e2e0c0ec4af61749924060f5ada9dd559447c45181ad68389622b59d336d1f75",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N46-r2-runtime/riverside-art-fair.tmj"
+        },
+        {
+          "path": "riverside-art-fair.wam",
+          "sha256": "5752eea7ba9446be79864ebb2177510ff654fefad324535ced82a94989db5dc7",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N46-r2-runtime/riverside-art-fair.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N47-r3-runtime",
+      "name": "Winter Lantern Festival",
+      "presentation_group": "N exploration and events",
+      "review_card": "N47",
+      "review_label": "Winter Lantern Festival",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Winter Lantern Festival",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Winter Lantern Festival setting; named areas: Bell gathering platform.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Bell gathering platform"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "winter-lantern-festival.tmj",
+          "sha256": "6f93d4f1b1f5d32d922c2e0bf57a8f13149b18f9acea084463da129aab2f7700",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N47-r3-runtime/winter-lantern-festival.tmj"
+        },
+        {
+          "path": "winter-lantern-festival.wam",
+          "sha256": "a3f1f5a8a7e89a1b5d65cccc7bda4e5033614014672d16c49b9989f172f3e8da",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N47-r3-runtime/winter-lantern-festival.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N48-r1-runtime",
+      "name": "Acoustic Cave Hall",
+      "presentation_group": "N exploration and events",
+      "review_card": "N48",
+      "review_label": "Acoustic Cave Hall",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Acoustic Cave Hall",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Acoustic Cave Hall setting with speaker/audience and whole-hall framing definitions.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM focusable framing"
+      ],
+      "configured_wam_area_names": [
+        "Presenter stage",
+        "Audience"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1,
+        "focusable": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "WAM definitions require import/configuration and live verification. No minigame or quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "acoustic-cave-hall.tmj",
+          "sha256": "73f18ebf500aef88826eb06f59c2b374ff3765af5993dce60ac7684ffb4fd579",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N48-r1-runtime/acoustic-cave-hall.tmj"
+        },
+        {
+          "path": "acoustic-cave-hall.wam",
+          "sha256": "5fca22804655469395430262635aad7a8950464161816d618c6cbaf73d10a3a9",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N48-r1-runtime/acoustic-cave-hall.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N49-r2-runtime",
+      "name": "Ocean Exposition",
+      "presentation_group": "N exploration and events",
+      "review_card": "N49",
+      "review_label": "Ocean Exposition",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Ocean Exposition",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Ocean Exposition setting; named areas: Dry exhibition court.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Dry exhibition court"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "ocean-exposition.tmj",
+          "sha256": "78da585fe4a19ccbca6de12e546e97dcab186659dcb72684dca19854162ce0ed",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N49-r2-runtime/ocean-exposition.tmj"
+        },
+        {
+          "path": "ocean-exposition.wam",
+          "sha256": "cb20a5a622280876dd981a234889e4254ab8960c8a21b5e1ebfd9d555268b3dd",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N49-r2-runtime/ocean-exposition.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "N50-r2-runtime",
+      "name": "Lush Hotel Courtyard",
+      "presentation_group": "N exploration and events",
+      "review_card": "N50",
+      "review_label": "Lush Hotel Courtyard",
+      "role": "Current candidate",
+      "review_state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "base_family": "Lush Hotel Courtyard",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Lush Hotel Courtyard setting; named areas: Courtyard gathering.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Courtyard gathering"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Named areas are empty setup placeholders, not installed learning activities, simulations or services. No quest script is present.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "lush-hotel-courtyard.tmj",
+          "sha256": "83b0f15a25d4340f12c772410eb6ca6b570c349552e91db8ab089f6cbd8c245f",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N50-r2-runtime/lush-hotel-courtyard.tmj"
+        },
+        {
+          "path": "lush-hotel-courtyard.wam",
+          "sha256": "d477d480e07ad6c0394efeb62fd33bdd295c2ff23a731e99def93c5d5dc72dae",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/N50-r2-runtime/lush-hotel-courtyard.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "olive-academy-live-repair-r6-runtime",
+      "name": "Olive Arabic Academy r6",
+      "presentation_group": "Shared spaces",
+      "review_card": "academy-floor-r7",
+      "review_label": "Olive Arabic Academy \u00b7 floor repair r7",
+      "role": "Current candidate",
+      "review_state": "Hosted-file candidate; live acceptance open",
+      "base_family": "Olive Arabic Academy r6",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Olive Arabic Academy r6 setting. WAM definitions: Teacher presentation, Classroom audience, Meeting lounge A, Meeting lounge B.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM meeting-room definitions"
+      ],
+      "configured_wam_area_names": [
+        "Teacher presentation",
+        "Classroom audience",
+        "Meeting lounge A",
+        "Meeting lounge B"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1,
+        "livekitRoomProperty": 2
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Hosted-file candidate; live acceptance open",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "olive-academy-live-repair-r6/map32/map.tmj",
+          "sha256": "a8efab5a3f472ee27d11af1eaa5e54ccb3ecfe0f1e27460e31c1435e999d3a08",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj"
+        },
+        {
+          "path": "olive-academy-live-repair-r6/map32/map.wam",
+          "sha256": "692da4bc9933d3cca75d7e9c38494005290cf89d9b1f2fb22734a6469b2ce749",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "quiet-orbit-observatory-r4-runtime",
+      "name": "Quiet Orbit Observatory r4",
+      "presentation_group": "Shared spaces",
+      "review_card": "quiet-orbit-observatory-r4",
+      "review_label": "Quiet Orbit Observatory (matching furniture)",
+      "role": "Current candidate",
+      "review_state": "Recovered r4 candidate; user design approval and live acceptance open",
+      "base_family": "Quiet Orbit Observatory r4",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Quiet Orbit Observatory r4 setting. WAM definitions: Seminar speaker, Seminar audience.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions"
+      ],
+      "configured_wam_area_names": [
+        "Seminar speaker",
+        "Seminar audience"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Recovered r4 candidate; user design approval and live acceptance open",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "64e5144453b49830e9d46eb3b2d2e2be5fa819411fdae39634221cf6e5c60ee0",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "fb704aa1e374899c640f33b89a6c78be33566559c59301a56523b9331b6d9c20",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "Mission-Control-r4-runtime",
+      "name": "Mission Control Center r4",
+      "presentation_group": "Shared spaces",
+      "review_card": "mission-control-center-r4-paired-shift",
+      "review_label": "Mission Control (paired desk/chair depth repair)",
+      "role": "Current candidate",
+      "review_state": "Recovered r4 candidate; user final design approval and live acceptance open",
+      "base_family": "Mission Control Center r4",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Mission Control Center r4 setting. WAM definitions: Briefing room.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM meeting-room definitions"
+      ],
+      "configured_wam_area_names": [
+        "Briefing room"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "livekitRoomProperty": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Recovered r4 candidate; user final design approval and live acceptance open",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "mission-control-center/map32/map.tmj",
+          "sha256": "ecba8068ca83077a051dbd68fdf4af956e4b5271688bae15ebece7ea9a4cab08",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/map.tmj"
+        },
+        {
+          "path": "mission-control-center/map32/map.wam",
+          "sha256": "6f4684227d647bad39420377091bca156b1105427892c8a23e91fd139fdc1c41",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "lantern-souk-bazaar-r6-fountain-runtime",
+      "name": "Lantern Souk Bazaar r6 fountain",
+      "presentation_group": "Shared spaces",
+      "review_card": "souk-floor-r8b",
+      "review_label": "Lantern Souk Bazaar \u00b7 floor repair r8b",
+      "role": "Current candidate",
+      "review_state": "Hosted-file candidate; live acceptance open",
+      "base_family": "Lantern Souk Bazaar r6 fountain",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable bazaar with native animated fountain tiles; no gameplay controller is required for the animation.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "native animated tiles"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 26,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Archived r6 is distinct from the newer hosted r8b review card. Internal filename says r5; identify by hash. Live floor/touch/animation acceptance remains.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "lantern-souk-bazaar-r5.tmj",
+          "sha256": "6442282c70ecbac39a0916d786e5a74416937254e50e0116a96385911cec921a",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.tmj"
+        },
+        {
+          "path": "lantern-souk-bazaar-r5.wam",
+          "sha256": "b846f9c7efc49266da1ab937291fa3a21e4d3f82dfa2f45ee0b669fff4063696",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "willow-furniture-r5-r05-runtime",
+      "name": "Willow Quay Tea Garden r5",
+      "presentation_group": "Shared spaces",
+      "review_card": "willow-quay-tea-garden-furniture-r05",
+      "review_label": "Willow Quay (final furniture and bridge repair)",
+      "role": "Current candidate",
+      "review_state": "Recovered r5 candidate r05; user design approval and live acceptance open",
+      "base_family": "Willow Quay Tea Garden r5",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Tea-garden layout with tea pavilion, rose patio and waterside gazebo setup areas.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Tea pavilion",
+        "Rose conversation patio",
+        "Waterside gazebo"
+      ],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Three named areas have empty service properties. User design and live acceptance remain open.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/willow-quay-tea-garden.tmj",
+          "sha256": "de651bdc163a7f6356c8118c8772a95471e1de5a8a7a61ad8b1469ab853a7e3c",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.tmj"
+        },
+        {
+          "path": "map32/willow-quay-tea-garden.wam",
+          "sha256": "537d5b182a20bd357be5d1f242f41a2355d039632670ca12295e2669d57225aa",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "Celestial-Garden-Calmer-Draft-Runtime",
+      "name": "Celestial Transit Garden calmer draft",
+      "presentation_group": "Shared spaces",
+      "review_card": "celestial-calmer-draft",
+      "review_label": "Celestial Transit Garden: Calmer Draft",
+      "role": "Current candidate",
+      "review_state": "Recovered unaccepted calmer-palette draft; original expanded r4 preserved",
+      "base_family": "Celestial Transit Garden calmer draft",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Calmer-palette transit garden with five named destination markers.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "DESTINATION 01 / unconfigured",
+        "DESTINATION 02 / unconfigured",
+        "DESTINATION 03 / unconfigured",
+        "DESTINATION 04 / unconfigured",
+        "DESTINATION 05 / unconfigured"
+      ],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Every destination is explicitly unconfigured. Draft not accepted; original expanded r4 is a separate preserved history item.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/celestial-transit-garden-calm-draft.tmj",
+          "sha256": "bcfbb89c171d327d17385a8a3604eab38e94b77843e134e52ea07746730d67e1",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.tmj"
+        },
+        {
+          "path": "map32/celestial-transit-garden-calm-draft.wam",
+          "sha256": "bc73038c2ea7fc65e5fcf0496cc3c6b9b4f86b01542278404772eb3ae812df15",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "resonance-media-house-r7c-runtime",
+      "name": "Resonance Media House r7c",
+      "presentation_group": "Shared spaces",
+      "review_card": "media-r9",
+      "review_label": "Resonance Media House",
+      "role": "Current candidate",
+      "review_state": "Requested r9 original source/runtime still missing; r7c fallback and partial reconstruction only",
+      "base_family": "Resonance Media House r7c",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable media-house court with editor, voice, screen and music setup areas.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Editor / setup",
+        "Voice / setup",
+        "Screen / setup",
+        "Music / setup"
+      ],
+      "wam_property_type_counts": {
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "All four service areas have empty property arrays: no editing, recording, screen or music service is configured. Missing r9 repairs remain missing.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "resonance-media-house.tmj",
+          "sha256": "b2999caf485804debc977aaa385975d001caafe0bec357d6e63dd565dd8fccc3",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/resonance-media-house.tmj"
+        },
+        {
+          "path": "resonance-media-house.wam",
+          "sha256": "61b1c799212a08d024c8cf03d46d76dc74c91a20acd8783098b749f065e47eb5",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/resonance-media-house.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "esports-arena-01-runtime",
+      "name": "Circuit Arena",
+      "presentation_group": "Held event references",
+      "review_card": "esports-event",
+      "review_label": "Circuit Arena (archived)",
+      "role": "Rejected reference",
+      "review_state": "Rejected reference; retained for history, not recommended",
+      "base_family": "Circuit Arena",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Circuit Arena setting. WAM definitions: Caster and presentation, Spectator audience, Team West, Team East.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM meeting-room definitions"
+      ],
+      "configured_wam_area_names": [
+        "Caster and presentation",
+        "Spectator audience",
+        "Team West",
+        "Team East"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1,
+        "start": 1,
+        "livekitRoomProperty": 2
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Rejected reference; retained for history, not recommended",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "esports-arena-01/map32/esports-arena.tmj",
+          "sha256": "b72cc096702debb18bd56bf19eeb012e197ce9b03c3b03a4a399244a0cd7ec89",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.tmj"
+        },
+        {
+          "path": "esports-arena-01/map32/esports-arena.wam",
+          "sha256": "6355c478fb3ed26a5b2d7aa7991da000a6b834f896c02896f2b378226e3cc904",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "lantern-congress-runtime",
+      "name": "Lantern Congress",
+      "presentation_group": "Held event references",
+      "review_card": "multi-hall-conference",
+      "review_label": "Lantern Congress (archived)",
+      "role": "Rejected reference",
+      "review_state": "Rejected reference; retained for history, not recommended",
+      "base_family": "Lantern Congress",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Lantern Congress setting. WAM definitions: Summit Podium, Summit Audience, Forum Podium, Forum Audience, Lab Podium, Lab Audience, Congress Lounge 1, Congress Lounge 2.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM meeting-room definitions"
+      ],
+      "configured_wam_area_names": [
+        "Summit Podium",
+        "Summit Audience",
+        "Forum Podium",
+        "Forum Audience",
+        "Lab Podium",
+        "Lab Audience",
+        "Congress Lounge 1",
+        "Congress Lounge 2"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 3,
+        "listenerMegaphone": 3,
+        "livekitRoomProperty": 2
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Rejected reference; retained for history, not recommended",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/conference.tmj",
+          "sha256": "a1a3040a45384ae3380b90f479c327c35c5301e7e71a695c5a5f5fe628c84005",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.tmj"
+        },
+        {
+          "path": "map32/conference.wam",
+          "sha256": "cdbab04682978c8aa6979daddeb5545504dea93db3c4327ebb0081638d7958bb",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "inventors-sandbox-workshop-r2-runtime",
+      "name": "Inventor\u2019s Sandbox Workshop r2",
+      "presentation_group": "Shared spaces",
+      "review_card": "workshop-walkability-r3-review2",
+      "review_label": "Inventor\u2019s Workshop \u00b7 walkability r3 review2",
+      "role": "Current candidate",
+      "review_state": "Hosted-file candidate; live acceptance open",
+      "base_family": "Inventor\u2019s Sandbox Workshop r2",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Inventor\u2019s Sandbox Workshop r2 setting. WAM definitions: Indoor collaboration. Empty setup areas: Coral creation pad, Sage creation pad, Ochre creation pad, Outdoor test court, Courtyard workbench.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM meeting-room definitions"
+      ],
+      "configured_wam_area_names": [
+        "Indoor collaboration"
+      ],
+      "empty_wam_area_names": [
+        "Coral creation pad",
+        "Sage creation pad",
+        "Ochre creation pad",
+        "Outdoor test court",
+        "Courtyard workbench"
+      ],
+      "wam_property_type_counts": {
+        "livekitRoomProperty": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Hosted-file candidate; live acceptance open",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/map.tmj",
+          "sha256": "841e315d43cb869140a052c7225ae25ad161a29ab4f8896994111e6ee8ff9739",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.tmj"
+        },
+        {
+          "path": "map32/map.wam",
+          "sha256": "4f9054f3ee15d87b32b9f210afa273d225d1d8fa21314bb75f1f048bf9b42ae4",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "art-deco-sales-atelier-r2b-runtime",
+      "name": "Art Deco Sales Atelier r2b",
+      "presentation_group": "Shared spaces",
+      "review_card": "art-deco-sales-atelier-r2b",
+      "review_label": "Art Deco Sales Atelier (furniture and entrance)",
+      "role": "Current candidate",
+      "review_state": "Recovered r2b candidate; user design approval and live acceptance open",
+      "base_family": "Art Deco Sales Atelier r2b",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Art Deco Sales Atelier r2b setting. WAM definitions: Client west, Client east, Private briefing. Empty setup areas: Research west, Research east.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM meeting-room definitions"
+      ],
+      "configured_wam_area_names": [
+        "Client west",
+        "Client east",
+        "Private briefing"
+      ],
+      "empty_wam_area_names": [
+        "Research west",
+        "Research east"
+      ],
+      "wam_property_type_counts": {
+        "livekitRoomProperty": 3
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Recovered r2b candidate; user design approval and live acceptance open",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "art-deco-sales-atelier-r2b/map32/map.tmj",
+          "sha256": "53156d1a72dec2536fdf606ac8e5fa501acdaa3bc67b329f5dba9b68a80222cf",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.tmj"
+        },
+        {
+          "path": "art-deco-sales-atelier-r2b/map32/map.wam",
+          "sha256": "b3c415ef183cdd739d1b5e5fb8a6c9c2b006a803be710ec0a75c3a1f99c58e19",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "timber-studio-r8-runtime",
+      "name": "Timber Studio r8",
+      "presentation_group": "Wellbeing designs",
+      "review_card": "timber-studio-continuous-floor-r8",
+      "review_label": "Timber Yoga Studio",
+      "role": "Current candidate",
+      "review_state": "Exact frozen r8 runtime recovered; full original authoring missing; reconstruction separate; rendering acceptance open",
+      "base_family": "Timber Studio r8",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Timber Studio r8 setting. WAM definitions: Instructor front, Yoga participant floor.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions"
+      ],
+      "configured_wam_area_names": [
+        "Instructor front",
+        "Yoga participant floor"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Exact frozen r8 runtime recovered; full original authoring missing; reconstruction separate; rendering acceptance open",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map.tmj",
+          "sha256": "cf02f68080b959f1da5288480c3428f4aa7c9dc3e928c2f83751603a102360ca",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/map.tmj"
+        },
+        {
+          "path": "map.wam",
+          "sha256": "f7de32f75df015a676fae413ca4bf9c9f90d1cd6605d46734a1c8c0ad981e44a",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "reading-conservatory-r4-runtime",
+      "name": "Reading Conservatory r4",
+      "presentation_group": "Shared spaces",
+      "review_card": "reading-crossaisle-r4",
+      "review_label": "Reading Conservatory",
+      "role": "Current candidate",
+      "review_state": "Exact frozen r4 runtime recovered; full original authoring missing; reconstruction separate; rendering acceptance open",
+      "base_family": "Reading Conservatory r4",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Reading Conservatory r4 setting. WAM definitions: West reading conversation, East reading conversation, Mentorship conversation.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM meeting-room definitions"
+      ],
+      "configured_wam_area_names": [
+        "West reading conversation",
+        "East reading conversation",
+        "Mentorship conversation"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "livekitRoomProperty": 3
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Exact frozen r4 runtime recovered; full original authoring missing; reconstruction separate; rendering acceptance open",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map.tmj",
+          "sha256": "bc640034dbe13645ce7208ed45e13071909bb4c1f02a3bc8ef5dee41d16e1347",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/map.tmj"
+        },
+        {
+          "path": "map.wam",
+          "sha256": "c8ce4f8cdd5e20918e7479c666dde23b3e855f19c3bdb42aeb7aa7bb0a7d6b0a",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "lighthouse-last-signal-r2-runtime",
+      "name": "Lighthouse: The Last Signal \u00b7 interactive map candidate r2",
+      "presentation_group": "Lighthouse stories",
+      "review_card": "lighthouse-last-signal-r2",
+      "review_label": "Lighthouse: The Last Signal",
+      "role": "Current candidate",
+      "review_state": "Original r2 source and runtime recovered; unpublished; live acceptance open",
+      "base_family": "Lighthouse: The Last Signal \u00b7 interactive map candidate r2",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Capture three ring notes and explicitly transmit the sequence to light the beacon; optional distance-attenuated shore signal; private visit state.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "map script"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Festival gathering lawn",
+        "Open pavilion"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": true,
+      "script_files": [
+        "signal.js"
+      ],
+      "limits": "No verified current play room; compatible deployed audio/pathfinding engine and real popup/touch/audio/multiplayer tests required.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "lighthouse-last-signal.tmj",
+          "sha256": "3f0da81589faee13032922a438cdac5d3fa33ed87f22752c1b826abbde993b0e",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.tmj"
+        },
+        {
+          "path": "lighthouse-last-signal.wam",
+          "sha256": "fcba829c3c6833f56b6fc04ef12d4bfc4ee0188ba1d553a7ae399e549162b7bb",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.wam"
+        },
+        {
+          "path": "signal.js",
+          "sha256": "eeaae3d76ba5a1ae73eadb8faeab47e47bc90d1ef5090c1ef907c40137d71c5a",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/signal.js"
+        }
+      ]
+    },
+    {
+      "runtime_id": "lighthouse-keepers-return-r2-runtime",
+      "name": "Lighthouse: The Keeper\u2019s Return r2",
+      "presentation_group": "Lighthouse stories",
+      "review_card": "lighthouse-keepers-return-r2",
+      "review_label": "Lighthouse: The Keeper\u2019s Return",
+      "role": "Current candidate",
+      "review_state": "Original r2 runtime recovered; full original authoring missing; reconstructed authoring is separate; known teleport-race failure",
+      "base_family": "Lighthouse: The Keeper\u2019s Return r2",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Enter house, workshop and lantern room; collect key, install fuse, charge the generator, choose telescope/lens settings and transmit a three-note beacon sequence; silent local-visit puzzle.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "map script"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [
+        "Festival gathering lawn",
+        "Open pavilion"
+      ],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": true,
+      "script_files": [
+        "enterable-lighthouse-r2/runtime/keeper.js"
+      ],
+      "limits": "Known inherited teleport-rejection stale-position race; no verified current play room; full-game checks remain. Original authoring archive missing; exact runtime and reconstructed workflow survive.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "enterable-lighthouse-r2/runtime/keepers-return.tmj",
+          "sha256": "94bdc3c6dbd4ccf9a096b828016795083497f39da6f5f4c2ab2b8080b48634aa",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj"
+        },
+        {
+          "path": "enterable-lighthouse-r2/runtime/keepers-return.wam",
+          "sha256": "4b89abbfaf6a74248027c32103c576d6662a5f24bf4df0c05f6b9322c6ee9272",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.wam"
+        },
+        {
+          "path": "enterable-lighthouse-r2/runtime/keeper.js",
+          "sha256": "6d30f79fe129687d1a5558e380d6212833b61b1b70374cfb14e9a761b9592a94",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keeper.js"
+        }
+      ]
+    },
+    {
+      "runtime_id": "campus-v11",
+      "name": "Magical Campus",
+      "presentation_group": "Connected-world places",
+      "review_card": "campus-v11",
+      "review_label": "Campus \u00b7 v11",
+      "role": "Existing reference",
+      "review_state": "Recovered v11 runtime with cross-version dependencies retained; live acceptance not rerun",
+      "base_family": "Magical Campus",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Campus world with configured spatial fountain/fire audio layers and stage/audience WAM definitions.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "native animated tiles",
+        "native playAudio property"
+      ],
+      "configured_wam_area_names": [
+        "Campus stage",
+        "Campus audience"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1
+      },
+      "animated_tile_definitions": 158,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Six named campus services explicitly mark liveServiceConfigured=false; gateRoomUrl is empty. Map version property still says Revision10; catalogue identity is v11. Live services and inter-room linking are not established.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "publication/v11/map32/magical-campus.tmj",
+          "sha256": "1c7a9d27d434732453d706ac79dc482309db59a217d80f19b626d9380bc097ad",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj"
+        },
+        {
+          "path": "publication/v11/map32/magical-campus.wam",
+          "sha256": "5831ae09f48cfa68928eb02ccc51f83fe31b5036c23229a1a4f30c5ba8086013",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "butterfly-town-v2",
+      "name": "Butterfly Town",
+      "presentation_group": "Connected-world places",
+      "review_card": "butterfly-town-v2",
+      "review_label": "Butterfly Town",
+      "role": "Additional recovered runtime",
+      "review_state": "Recovered runtime candidate; not a newly accepted design or deployment",
+      "base_family": "Butterfly Town",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Local gate-to-town teleport experience with animated water/butterflies, camera framing and roof reveal for StudentHub/cafe/archive interiors.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "native animated tiles",
+        "map script"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 502,
+      "map_script_declared": true,
+      "script_files": [
+        "Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio-runtime.mjs",
+        "Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio.mjs",
+        "Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town.js"
+      ],
+      "limits": "Native audio is explicitly disabled by ENABLE_NATIVE_AUDIO = false. No verified current play room or current-engine/live acceptance.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+          "sha256": "dff32360181d8e4c465756ab5e2f9577faad17083e2bfde19084eac8af749831",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj"
+        },
+        {
+          "path": "Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio-runtime.mjs",
+          "sha256": "99e41235b4498fb3c889207bf09396b246b8028ff428d65a849eb77da1be274f",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio-runtime.mjs"
+        },
+        {
+          "path": "Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio.mjs",
+          "sha256": "4d2f950cefd9747470423223153709966b2eb0b3928b49f8590c96c719b0d94e",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio.mjs"
+        },
+        {
+          "path": "Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town.js",
+          "sha256": "fc8b49cc24a61b36ab54977ceb3ac1aa7d8d952c56495f518b027f1dbfcc7b62",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town.js"
+        }
+      ]
+    },
+    {
+      "runtime_id": "butterfly-gate-a-v6",
+      "name": "Butterfly Gate A",
+      "presentation_group": "Connected-world places",
+      "review_card": "butterfly-gate-a-v6",
+      "review_label": "Butterfly Gate A",
+      "role": "Additional recovered runtime",
+      "review_state": "Recovered runtime candidate; not a newly accepted design or deployment",
+      "base_family": "Butterfly Gate A",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Animated gateway approach, reduced-motion handling, camera reveal, bounded curtain transition and native-nearby-audio module; external campus travel code.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "native animated tiles",
+        "map script"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 551,
+      "map_script_declared": true,
+      "script_files": [
+        "gate/map/native-audio/gate-with-native-audio.js",
+        "gate/map/native-audio/native-audio.mjs"
+      ],
+      "limits": "campusRoomUrl is empty, so external travel is inactive. Audio-module presence is not a verified audible deployment. Live device/camera/exit tests remain.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "gate/map/gate.tmj",
+          "sha256": "d284ee94a6c608903e3858efc30fcae12837d4ee7e89a6cf9f49c5a5cec8f104",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj"
+        },
+        {
+          "path": "gate/map/native-audio/gate-with-native-audio.js",
+          "sha256": "1fba66853d33e47c56ead0bfe9f393680d9a1649354216f9e83a04f0f71602de",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/native-audio/gate-with-native-audio.js"
+        },
+        {
+          "path": "gate/map/native-audio/native-audio.mjs",
+          "sha256": "39ddb2ba0783a770bb390fa21ce9a3cc7bd92d72a123967c4770bf2eb198150f",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/native-audio/native-audio.mjs"
+        }
+      ]
+    },
+    {
+      "runtime_id": "butterfly-gate-b-v4",
+      "name": "Butterfly Gate B",
+      "presentation_group": "Connected-world places",
+      "review_card": "gate-v4",
+      "review_label": "Gate B \u00b7 v4",
+      "role": "Existing reference",
+      "review_state": "Recovered Gate B v4 reference; live acceptance not rerun",
+      "base_family": "Butterfly Gate B",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Gateway variant with animated water/butterflies, mobile camera setup and bounded campus travel code; native audio carrier configured.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "native animated tiles",
+        "map script",
+        "native playAudio property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 551,
+      "map_script_declared": true,
+      "script_files": [
+        "publish/public/butterfly-town/gate-b/v4/native-audio/gate-with-native-audio.js"
+      ],
+      "limits": "campusRoomUrl is empty, so external travel is inactive. Live audio, device/camera and exit tests remain.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "publish/public/butterfly-town/gate-b/v4/gate.tmj",
+          "sha256": "9f92df380846507e5134d7ec42c977750df9d987514f845ccf0d1606211eebea",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj"
+        },
+        {
+          "path": "publish/public/butterfly-town/gate-b/v4/native-audio/gate-with-native-audio.js",
+          "sha256": "17e9522ca8784ce720d3c8aadf6cea7b77b9b6f5c3ae426f117a11e3585572c5",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/native-audio/gate-with-native-audio.js"
+        }
+      ]
+    },
+    {
+      "runtime_id": "studenthub-connected-workplace-01",
+      "name": "StudentHub Connected Workplace",
+      "presentation_group": "Connected-world places",
+      "review_card": "studenthub-connected-workplace-01",
+      "review_label": "StudentHub Connected Workplace",
+      "role": "Additional recovered runtime",
+      "review_state": "Recovered runtime candidate; not a newly accepted design or deployment",
+      "base_family": "StudentHub Connected Workplace",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable workplace whose roof hides on entering the team interior and returns on leaving.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "map script"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": true,
+      "script_files": [
+        "studenthub-connected-workplace/map/scripts/studenthub.js"
+      ],
+      "limits": "Roof-reveal script is not a quest or proof of configured communication services; live area/roof/body tests remain.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "studenthub-connected-workplace/map/studenthub-proof.tmj",
+          "sha256": "0a70a16ef729d66939899d12f04de3c2b1ae7ab635dae1c9c43b60a56b8ca8be",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/studenthub-connected-workplace-01/studenthub-connected-workplace/map/studenthub-proof.tmj"
+        },
+        {
+          "path": "studenthub-connected-workplace/map/scripts/studenthub.js",
+          "sha256": "51a4abc6efcf2c8be36dc418e61f4ff00c2b2aa1b5e53f553b0fad1d8253760b",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/studenthub-connected-workplace-01/studenthub-connected-workplace/map/scripts/studenthub.js"
+        }
+      ]
+    },
+    {
+      "runtime_id": "social-outdoor-office-02",
+      "name": "Social/Outdoor Office",
+      "presentation_group": "Connected-world places",
+      "review_card": "social-outdoor-office-02",
+      "review_label": "Social / Outdoor Office",
+      "role": "Additional recovered runtime",
+      "review_state": "Recovered runtime candidate; not a newly accepted design or deployment",
+      "base_family": "Social/Outdoor Office",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable social/outdoor office layout with a quiet arrival.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {},
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "No runtime script or companion WAM supplied in this recovered package; dedicated services are not established.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "spawn-proximity-repair-01/candidates/social-outdoor-office-02/map/studenthub-outdoor-office.tmj",
+          "sha256": "0e1d34ac9094a1d882e7145009679dec39d9fa8de963a83b76e3a0a8c9f9f618",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/social-outdoor-office-02/spawn-proximity-repair-01/candidates/social-outdoor-office-02/map/studenthub-outdoor-office.tmj"
+        }
+      ]
+    },
+    {
+      "runtime_id": "astral-concourse-lobby-01",
+      "name": "Astral Concourse Lobby",
+      "presentation_group": "Connected-world places",
+      "review_card": "astral-concourse-lobby-01",
+      "review_label": "Astral Concourse Lobby",
+      "role": "Additional recovered runtime",
+      "review_state": "Recovered runtime candidate; not a newly accepted design or deployment",
+      "base_family": "Astral Concourse Lobby",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Quiet shared arrival lobby with a sample directory and three destination markers.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property"
+      ],
+      "configured_wam_area_names": [],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "silent": 2,
+        "start": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Flagship destination is unconfigured; Forum and Arena markers explicitly say their halls are not built. Sample program is illustrative, not an event system.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "astral-concourse-lobby-01/map32/astral-concourse-lobby.tmj",
+          "sha256": "0d0ad1d16b4a434ad8e05cccdc490029f6ceb10656ab742e6002523384af9f15",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/astral-concourse-lobby.tmj"
+        },
+        {
+          "path": "astral-concourse-lobby-01/map32/astral-concourse-lobby.wam",
+          "sha256": "8ad0faecb0ccf1949ba91f8c200359f6f19c772eddd15b0ae3c840d856a8c6ef",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/astral-concourse-lobby.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "astral-flagship-a-v07",
+      "name": "Astral Flagship A",
+      "presentation_group": "Flagship variants",
+      "review_card": "flagship-a",
+      "review_label": "Flagship A \u00b7 v07",
+      "role": "Historical option",
+      "review_state": "Historical option; not newly approved",
+      "base_family": "Astral Flagship",
+      "base_family_note": "One design family with four preserved variants; not four separately accepted base experiences.",
+      "plain_description": "Walkable Astral Flagship A setting. WAM definitions: Flagship v07 Podium, Flagship v07 Audience, Foyer lounge-01, Foyer lounge-02, Foyer lounge-03, Foyer lounge-04.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM meeting-room definitions"
+      ],
+      "configured_wam_area_names": [
+        "Flagship v07 Podium",
+        "Flagship v07 Audience",
+        "Foyer lounge-01",
+        "Foyer lounge-02",
+        "Foyer lounge-03",
+        "Foyer lounge-04"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1,
+        "start": 1,
+        "livekitRoomProperty": 4
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Historical option; not newly approved",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/grand-auditorium.tmj",
+          "sha256": "50c07de93567b15d7b5170bca02a4fe2b43dd5865fe02f6b90d06605947e2b85",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.tmj"
+        },
+        {
+          "path": "map32/grand-auditorium.wam",
+          "sha256": "2504f5871750964aa6972f88bb4071ccbca73aa74847d84398637d18838954c2",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "astral-flagship-b-v08",
+      "name": "Astral Flagship B",
+      "presentation_group": "Flagship variants",
+      "review_card": "flagship-b",
+      "review_label": "Flagship B \u00b7 v08",
+      "role": "Historical option",
+      "review_state": "Historical option; not newly approved",
+      "base_family": "Astral Flagship",
+      "base_family_note": "One design family with four preserved variants; not four separately accepted base experiences.",
+      "plain_description": "Walkable Astral Flagship B setting. WAM definitions: Flagship v08 Podium, Flagship v08 Audience, Foyer lounge-01, Foyer lounge-02, Foyer lounge-03, Foyer lounge-04.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM meeting-room definitions",
+        "native animated tiles"
+      ],
+      "configured_wam_area_names": [
+        "Flagship v08 Podium",
+        "Flagship v08 Audience",
+        "Foyer lounge-01",
+        "Foyer lounge-02",
+        "Foyer lounge-03",
+        "Foyer lounge-04"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1,
+        "start": 1,
+        "livekitRoomProperty": 4
+      },
+      "animated_tile_definitions": 1,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Historical option; not newly approved",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/grand-auditorium.tmj",
+          "sha256": "a9120457e63c3118de7a884879471b6219442bb26a72971f8c4ce163615e8f7b",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.tmj"
+        },
+        {
+          "path": "map32/grand-auditorium.wam",
+          "sha256": "dd5a4d310640f82e6b4acc28f068733142b8f5f9bc3f0bda384c7fd3c00467f5",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "astral-flagship-c-v09",
+      "name": "Astral Flagship C",
+      "presentation_group": "Flagship variants",
+      "review_card": "flagship-c",
+      "review_label": "Flagship C \u00b7 v09",
+      "role": "Historical option",
+      "review_state": "Historical option; lower flooring/terrace rejected; glass study only",
+      "base_family": "Astral Flagship",
+      "base_family_note": "One design family with four preserved variants; not four separately accepted base experiences.",
+      "plain_description": "Flagship hall variant with script-controlled roof/facade reveal, speaker/audience WAM definitions and four lounge-call definitions.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM meeting-room definitions",
+        "native animated tiles",
+        "map script"
+      ],
+      "configured_wam_area_names": [
+        "Flagship v09 Podium",
+        "Flagship v09 Audience",
+        "Foyer lounge-01",
+        "Foyer lounge-02",
+        "Foyer lounge-03",
+        "Foyer lounge-04"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1,
+        "start": 1,
+        "livekitRoomProperty": 4
+      },
+      "animated_tile_definitions": 1,
+      "map_script_declared": true,
+      "script_files": [
+        "map32/building-reveal.js"
+      ],
+      "limits": "Historical option with rejected lower flooring/terrace; glass study only. Requires real WAM/AV/roof-reveal testing; not an approved replacement.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "map32/grand-auditorium.tmj",
+          "sha256": "1f63e14e5fe656a4db00eda91cb52a961540e6e7a44bdeafd7ec1c5daf44dc9e",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj"
+        },
+        {
+          "path": "map32/grand-auditorium.wam",
+          "sha256": "d5fcbe0894c4fc6b6e03ecb89b0d5edd9536d42abddfeed9fd6bc89d0599bec7",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.wam"
+        },
+        {
+          "path": "map32/building-reveal.js",
+          "sha256": "a8f2f0a1258cbb2a36e219c4039c8968b35c4308ffa1354ad7af498ca413b263",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/building-reveal.js"
+        }
+      ]
+    },
+    {
+      "runtime_id": "flagship-glass-d-r02",
+      "name": "Astral Flagship Glass D",
+      "presentation_group": "Flagship variants",
+      "review_card": "flagship-glass-d-r02",
+      "review_label": "Flagship Glass D (terrace and glass candidate)",
+      "role": "Current candidate",
+      "review_state": "Recovered glass/terrace candidate; study only; final design not approved",
+      "base_family": "Astral Flagship",
+      "base_family_note": "One design family with four preserved variants; not four separately accepted base experiences.",
+      "plain_description": "Flagship glass/terrace variant with roof/facade reveal, speaker/audience WAM definitions and four lounge-call definitions.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM meeting-room definitions",
+        "native animated tiles",
+        "map script"
+      ],
+      "configured_wam_area_names": [
+        "Flagship v09 Podium",
+        "Flagship v09 Audience",
+        "Foyer lounge-01",
+        "Foyer lounge-02",
+        "Foyer lounge-03",
+        "Foyer lounge-04"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1,
+        "start": 1,
+        "livekitRoomProperty": 4
+      },
+      "animated_tile_definitions": 1,
+      "map_script_declared": true,
+      "script_files": [
+        "building-reveal.js"
+      ],
+      "limits": "Study only; final design not approved. WAM import and live AV/roof/body tests remain.",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "grand-auditorium.tmj",
+          "sha256": "135665c51c1cb57f87d7c8b66d87d47a7db5b3d57e0da0be767c45054da1ee53",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj"
+        },
+        {
+          "path": "grand-auditorium.wam",
+          "sha256": "d5fcbe0894c4fc6b6e03ecb89b0d5edd9536d42abddfeed9fd6bc89d0599bec7",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.wam"
+        },
+        {
+          "path": "building-reveal.js",
+          "sha256": "a8f2f0a1258cbb2a36e219c4039c8968b35c4308ffa1354ad7af498ca413b263",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/building-reveal.js"
+        }
+      ]
+    },
+    {
+      "runtime_id": "timber-yoga-dark-mats-r4",
+      "name": "Timber Yoga Retreat",
+      "presentation_group": "Wellbeing designs",
+      "review_card": "timber-retreat-visible-floor-r7",
+      "review_label": "Timber Yoga Retreat \u00b7 visible-floor r7",
+      "role": "Paused reference",
+      "review_state": "Paused/shelved reference; testing and iteration stopped",
+      "base_family": "Timber Yoga Retreat",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Timber Yoga Retreat setting. WAM definitions: Yoga instructor broadcast, Aligned yoga students, Tea and arrival conversation, Rest and reflection gathering.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM meeting-room definitions"
+      ],
+      "configured_wam_area_names": [
+        "Yoga instructor broadcast",
+        "Aligned yoga students",
+        "Tea and arrival conversation",
+        "Rest and reflection gathering"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1,
+        "livekitRoomProperty": 2
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Paused/shelved reference; testing and iteration stopped",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "timber-yoga-dark-mats-r4/map32/map.tmj",
+          "sha256": "2137729371bbea7e248a406e462503202b6b775fd09e07cda11ef9dc7c292be6",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/map.tmj"
+        },
+        {
+          "path": "timber-yoga-dark-mats-r4/map32/map.wam",
+          "sha256": "c6a44471f54b790b015f0e2e1327faa15769adbcf94fc8e9bfc1701002067361",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "timber-gym-context-r3",
+      "name": "Timber Gym",
+      "presentation_group": "Wellbeing designs",
+      "review_card": "timber-gym-context-r4d",
+      "review_label": "Timber Gym \u00b7 visible-floor r4d",
+      "role": "Rejected reference",
+      "review_state": "Rejected reference; larger replacement is a separate concept",
+      "base_family": "Timber Gym",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Timber Gym setting. WAM definitions: Gym host demonstration, Gym shared session, Arrival bench conversation, Water break conversation.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM meeting-room definitions"
+      ],
+      "configured_wam_area_names": [
+        "Gym host demonstration",
+        "Gym shared session",
+        "Arrival bench conversation",
+        "Water break conversation"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1,
+        "livekitRoomProperty": 2
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Rejected reference; larger replacement is a separate concept",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "timber-gym-context-r3/map32/map.tmj",
+          "sha256": "29ffbaefd54379dfcd8a7e5f0884d859f227e83a22a3815d7d43786bd7ad49dd",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/map.tmj"
+        },
+        {
+          "path": "timber-gym-context-r3/map32/map.wam",
+          "sha256": "ad6c1085f013d8d7c30f22cbd06fd286abe998bf8a7522beab41003f0a147a41",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "timber-mixed-six-mat-instructor-facing-r4",
+      "name": "Timber Mixed Six-Mat",
+      "presentation_group": "Wellbeing designs",
+      "review_card": "timber-mixed-six-mat-concept-r1",
+      "review_label": "Timber Mixed Activity (approved six-mat concept)",
+      "role": "Original preserved",
+      "review_state": "Original six-mat concept approved; later instructor-facing r4 is a separate unapproved revision",
+      "base_family": "Timber Mixed Six-Mat",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Timber Mixed Six-Mat setting. WAM definitions: Instructor front, Yoga participant floor.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions"
+      ],
+      "configured_wam_area_names": [
+        "Instructor front",
+        "Yoga participant floor"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Original six-mat concept approved; later instructor-facing r4 is a separate unapproved revision",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "timber-mixed-six-mat-instructor-facing-r4/map32/map.tmj",
+          "sha256": "9291affcd0f9bb2b3051b43dc5151bfeeced5839dc43e7bac179d2d78aa1abff",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.tmj"
+        },
+        {
+          "path": "timber-mixed-six-mat-instructor-facing-r4/map32/map.wam",
+          "sha256": "f7de32f75df015a676fae413ca4bf9c9f90d1cd6605d46734a1c8c0ad981e44a",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.wam"
+        }
+      ]
+    },
+    {
+      "runtime_id": "timber-movement-studio-r2",
+      "name": "Timber Movement Studio",
+      "presentation_group": "Wellbeing designs",
+      "review_card": "timber-movement-studio-r2",
+      "review_label": "Timber Movement Studio (woodland landing)",
+      "role": "Current candidate",
+      "review_state": "Recovered r2 expansion; original r1 approval does not approve this expansion",
+      "base_family": "Timber Movement Studio",
+      "base_family_note": "Keep this named design distinct; no broader family deduplication is asserted.",
+      "plain_description": "Walkable Timber Movement Studio setting. WAM definitions: Instructor front, Open movement floor, Arrival conversation.",
+      "capabilities_found": [
+        "walkable spatial layout",
+        "quiet-zone map property",
+        "WAM speaker/audience definitions",
+        "WAM meeting-room definitions"
+      ],
+      "configured_wam_area_names": [
+        "Instructor front",
+        "Open movement floor",
+        "Arrival conversation"
+      ],
+      "empty_wam_area_names": [],
+      "wam_property_type_counts": {
+        "speakerMegaphone": 1,
+        "listenerMegaphone": 1,
+        "livekitRoomProperty": 1
+      },
+      "animated_tile_definitions": 0,
+      "map_script_declared": false,
+      "script_files": [],
+      "limits": "Configured definitions are not live service acceptance. Recovered r2 expansion; original r1 approval does not approve this expansion",
+      "live_acceptance": false,
+      "evidence_files": [
+        {
+          "path": "timber-movement-studio-r2/map32/map.tmj",
+          "sha256": "64ba9b845ef53c033454038769899f90ca491092bbb1894ee70994978963395b",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/map.tmj"
+        },
+        {
+          "path": "timber-movement-studio-r2/map32/map.wam",
+          "sha256": "14c6f75167efd294d30be4d38a3f28d88fc1393919596ee09308355b9ae2c652",
+          "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/9f80f9020df16993a4d1811552b0d816d403ccb1/archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/map.wam"
+        }
+      ]
+    }
+  ]
+}

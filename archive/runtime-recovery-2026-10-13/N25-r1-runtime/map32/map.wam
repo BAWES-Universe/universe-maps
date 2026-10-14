@@ -1,0 +1,38 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N25-zone-1",
+      "name": "Artifact drawing classroom",
+      "x": 320,
+      "y": 176,
+      "width": 192,
+      "height": 56,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N25-zone-2",
+      "name": "Restoration and comparison portico",
+      "x": 592,
+      "y": 192,
+      "width": 480,
+      "height": 112,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N25-zone-3",
+      "name": "Mosaic observation court",
+      "x": 336,
+      "y": 640,
+      "width": 704,
+      "height": 48,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

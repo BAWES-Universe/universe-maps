@@ -1,0 +1,1922 @@
+{
+  "format": "universe-civic-v1",
+  "tileSize": 32,
+  "size": [
+    640,
+    1152
+  ],
+  "worldOrigin": [
+    0,
+    1792
+  ],
+  "publicDoorAnchors": [
+    [
+      608,
+      384
+    ],
+    [
+      608,
+      992
+    ]
+  ],
+  "artProjection": "high orthographic; shallow front faces; no converging perspective",
+  "avatar": {
+    "frameSize": [
+      32,
+      32
+    ],
+    "scale": 1,
+    "bodyRelative": {
+      "x": -8,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "headRelative": {
+      "x": -16,
+      "y": -16,
+      "width": 32,
+      "height": 14
+    }
+  },
+  "students": [
+    {
+      "id": "student-1",
+      "center": [
+        160,
+        256
+      ],
+      "frame": 10,
+      "facing": "north",
+      "stationOrigin": [
+        112,
+        176
+      ],
+      "desk": {
+        "id": "desk",
+        "x": 128,
+        "y": 192,
+        "width": 64,
+        "height": 64
+      },
+      "approach": [
+        160,
+        304
+      ]
+    },
+    {
+      "id": "student-2",
+      "center": [
+        320,
+        256
+      ],
+      "frame": 10,
+      "facing": "north",
+      "stationOrigin": [
+        272,
+        176
+      ],
+      "desk": {
+        "id": "desk",
+        "x": 288,
+        "y": 192,
+        "width": 64,
+        "height": 64
+      },
+      "approach": [
+        320,
+        304
+      ]
+    },
+    {
+      "id": "student-3",
+      "center": [
+        480,
+        256
+      ],
+      "frame": 10,
+      "facing": "north",
+      "stationOrigin": [
+        432,
+        176
+      ],
+      "desk": {
+        "id": "desk",
+        "x": 448,
+        "y": 192,
+        "width": 64,
+        "height": 64
+      },
+      "approach": [
+        480,
+        304
+      ]
+    },
+    {
+      "id": "student-4",
+      "center": [
+        160,
+        400
+      ],
+      "frame": 10,
+      "facing": "north",
+      "stationOrigin": [
+        112,
+        320
+      ],
+      "desk": {
+        "id": "desk",
+        "x": 128,
+        "y": 336,
+        "width": 64,
+        "height": 64
+      },
+      "approach": [
+        160,
+        448
+      ]
+    },
+    {
+      "id": "student-5",
+      "center": [
+        320,
+        400
+      ],
+      "frame": 10,
+      "facing": "north",
+      "stationOrigin": [
+        272,
+        320
+      ],
+      "desk": {
+        "id": "desk",
+        "x": 288,
+        "y": 336,
+        "width": 64,
+        "height": 64
+      },
+      "approach": [
+        320,
+        448
+      ]
+    },
+    {
+      "id": "student-6",
+      "center": [
+        480,
+        400
+      ],
+      "frame": 10,
+      "facing": "north",
+      "stationOrigin": [
+        432,
+        320
+      ],
+      "desk": {
+        "id": "desk",
+        "x": 448,
+        "y": 336,
+        "width": 64,
+        "height": 64
+      },
+      "approach": [
+        480,
+        448
+      ]
+    }
+  ],
+  "audience": [
+    {
+      "id": "attendee-1",
+      "center": [
+        144,
+        816
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        120,
+        800
+      ],
+      "approach": [
+        144,
+        856
+      ]
+    },
+    {
+      "id": "attendee-2",
+      "center": [
+        200,
+        816
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        176,
+        800
+      ],
+      "approach": [
+        200,
+        856
+      ]
+    },
+    {
+      "id": "attendee-3",
+      "center": [
+        256,
+        816
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        232,
+        800
+      ],
+      "approach": [
+        256,
+        856
+      ]
+    },
+    {
+      "id": "attendee-4",
+      "center": [
+        384,
+        816
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        360,
+        800
+      ],
+      "approach": [
+        384,
+        856
+      ]
+    },
+    {
+      "id": "attendee-5",
+      "center": [
+        440,
+        816
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        416,
+        800
+      ],
+      "approach": [
+        440,
+        856
+      ]
+    },
+    {
+      "id": "attendee-6",
+      "center": [
+        496,
+        816
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        472,
+        800
+      ],
+      "approach": [
+        496,
+        856
+      ]
+    },
+    {
+      "id": "attendee-7",
+      "center": [
+        144,
+        880
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        120,
+        864
+      ],
+      "approach": [
+        144,
+        920
+      ]
+    },
+    {
+      "id": "attendee-8",
+      "center": [
+        200,
+        880
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        176,
+        864
+      ],
+      "approach": [
+        200,
+        920
+      ]
+    },
+    {
+      "id": "attendee-9",
+      "center": [
+        256,
+        880
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        232,
+        864
+      ],
+      "approach": [
+        256,
+        920
+      ]
+    },
+    {
+      "id": "attendee-10",
+      "center": [
+        384,
+        880
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        360,
+        864
+      ],
+      "approach": [
+        384,
+        920
+      ]
+    },
+    {
+      "id": "attendee-11",
+      "center": [
+        440,
+        880
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        416,
+        864
+      ],
+      "approach": [
+        440,
+        920
+      ]
+    },
+    {
+      "id": "attendee-12",
+      "center": [
+        496,
+        880
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        472,
+        864
+      ],
+      "approach": [
+        496,
+        920
+      ]
+    },
+    {
+      "id": "attendee-13",
+      "center": [
+        144,
+        944
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        120,
+        928
+      ],
+      "approach": [
+        144,
+        984
+      ]
+    },
+    {
+      "id": "attendee-14",
+      "center": [
+        200,
+        944
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        176,
+        928
+      ],
+      "approach": [
+        200,
+        984
+      ]
+    },
+    {
+      "id": "attendee-15",
+      "center": [
+        256,
+        944
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        232,
+        928
+      ],
+      "approach": [
+        256,
+        984
+      ]
+    },
+    {
+      "id": "attendee-16",
+      "center": [
+        384,
+        944
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        360,
+        928
+      ],
+      "approach": [
+        384,
+        984
+      ]
+    },
+    {
+      "id": "attendee-17",
+      "center": [
+        440,
+        944
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        416,
+        928
+      ],
+      "approach": [
+        440,
+        984
+      ]
+    },
+    {
+      "id": "attendee-18",
+      "center": [
+        496,
+        944
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        472,
+        928
+      ],
+      "approach": [
+        496,
+        984
+      ]
+    },
+    {
+      "id": "attendee-19",
+      "center": [
+        144,
+        1008
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        120,
+        992
+      ],
+      "approach": [
+        144,
+        1048
+      ]
+    },
+    {
+      "id": "attendee-20",
+      "center": [
+        200,
+        1008
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        176,
+        992
+      ],
+      "approach": [
+        200,
+        1048
+      ]
+    },
+    {
+      "id": "attendee-21",
+      "center": [
+        256,
+        1008
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        232,
+        992
+      ],
+      "approach": [
+        256,
+        1048
+      ]
+    },
+    {
+      "id": "attendee-22",
+      "center": [
+        384,
+        1008
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        360,
+        992
+      ],
+      "approach": [
+        384,
+        1048
+      ]
+    },
+    {
+      "id": "attendee-23",
+      "center": [
+        440,
+        1008
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        416,
+        992
+      ],
+      "approach": [
+        440,
+        1048
+      ]
+    },
+    {
+      "id": "attendee-24",
+      "center": [
+        496,
+        1008
+      ],
+      "frame": 10,
+      "facing": "north",
+      "chairOrigin": [
+        472,
+        992
+      ],
+      "approach": [
+        496,
+        1048
+      ]
+    }
+  ],
+  "teacher": {
+    "id": "teacher",
+    "center": [
+      320,
+      152
+    ],
+    "frame": 1
+  },
+  "speaker": {
+    "id": "speaker",
+    "center": [
+      320,
+      688
+    ],
+    "frame": 1,
+    "podiumOrigin": [
+      280,
+      664
+    ],
+    "collision": {
+      "id": "podium",
+      "x": 288,
+      "y": 704,
+      "width": 64,
+      "height": 32
+    }
+  },
+  "blockers": [
+    {
+      "id": "west-perimeter",
+      "x": 32,
+      "y": 32,
+      "width": 32,
+      "height": 1088
+    },
+    {
+      "id": "north-builtins",
+      "x": 64,
+      "y": 32,
+      "width": 512,
+      "height": 112
+    },
+    {
+      "id": "east-upper",
+      "x": 576,
+      "y": 32,
+      "width": 32,
+      "height": 312
+    },
+    {
+      "id": "east-middle",
+      "x": 576,
+      "y": 424,
+      "width": 32,
+      "height": 528
+    },
+    {
+      "id": "east-lower",
+      "x": 576,
+      "y": 1032,
+      "width": 32,
+      "height": 88
+    },
+    {
+      "id": "south-perimeter",
+      "x": 64,
+      "y": 1088,
+      "width": 512,
+      "height": 32
+    },
+    {
+      "id": "room-divider",
+      "x": 64,
+      "y": 512,
+      "width": 512,
+      "height": 64
+    },
+    {
+      "id": "stage-back",
+      "x": 64,
+      "y": 576,
+      "width": 512,
+      "height": 48
+    },
+    {
+      "id": "stage-front",
+      "x": 176,
+      "y": 736,
+      "width": 296,
+      "height": 20
+    },
+    {
+      "id": "podium-footprint",
+      "x": 288,
+      "y": 704,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "id": "student-1-desk",
+      "x": 128,
+      "y": 192,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-2-desk",
+      "x": 288,
+      "y": 192,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-3-desk",
+      "x": 448,
+      "y": 192,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-4-desk",
+      "x": 128,
+      "y": 336,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-5-desk",
+      "x": 288,
+      "y": 336,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-6-desk",
+      "x": 448,
+      "y": 336,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "planter-80-172",
+      "x": 64,
+      "y": 156,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-172",
+      "x": 544,
+      "y": 156,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-80-492",
+      "x": 64,
+      "y": 476,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-492",
+      "x": 544,
+      "y": 476,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-80-804",
+      "x": 64,
+      "y": 788,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-804",
+      "x": 544,
+      "y": 788,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-80-1064",
+      "x": 64,
+      "y": 1048,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-1064",
+      "x": 544,
+      "y": 1048,
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "routes": [
+    {
+      "id": "enter-student-1",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          304
+        ],
+        [
+          160,
+          304
+        ],
+        [
+          160,
+          256
+        ]
+      ],
+      "target": "student-1"
+    },
+    {
+      "id": "enter-student-2",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          304
+        ],
+        [
+          320,
+          304
+        ],
+        [
+          320,
+          256
+        ]
+      ],
+      "target": "student-2"
+    },
+    {
+      "id": "enter-student-3",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          304
+        ],
+        [
+          480,
+          304
+        ],
+        [
+          480,
+          256
+        ]
+      ],
+      "target": "student-3"
+    },
+    {
+      "id": "enter-student-4",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          448
+        ],
+        [
+          160,
+          448
+        ],
+        [
+          160,
+          400
+        ]
+      ],
+      "target": "student-4"
+    },
+    {
+      "id": "enter-student-5",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          448
+        ],
+        [
+          320,
+          448
+        ],
+        [
+          320,
+          400
+        ]
+      ],
+      "target": "student-5"
+    },
+    {
+      "id": "enter-student-6",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          448
+        ],
+        [
+          480,
+          448
+        ],
+        [
+          480,
+          400
+        ]
+      ],
+      "target": "student-6"
+    },
+    {
+      "id": "enter-attendee-1",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          856
+        ],
+        [
+          144,
+          856
+        ],
+        [
+          144,
+          816
+        ]
+      ],
+      "target": "attendee-1"
+    },
+    {
+      "id": "enter-attendee-2",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          856
+        ],
+        [
+          200,
+          856
+        ],
+        [
+          200,
+          816
+        ]
+      ],
+      "target": "attendee-2"
+    },
+    {
+      "id": "enter-attendee-3",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          856
+        ],
+        [
+          256,
+          856
+        ],
+        [
+          256,
+          816
+        ]
+      ],
+      "target": "attendee-3"
+    },
+    {
+      "id": "enter-attendee-4",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          856
+        ],
+        [
+          384,
+          856
+        ],
+        [
+          384,
+          816
+        ]
+      ],
+      "target": "attendee-4"
+    },
+    {
+      "id": "enter-attendee-5",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          856
+        ],
+        [
+          440,
+          856
+        ],
+        [
+          440,
+          816
+        ]
+      ],
+      "target": "attendee-5"
+    },
+    {
+      "id": "enter-attendee-6",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          856
+        ],
+        [
+          496,
+          856
+        ],
+        [
+          496,
+          816
+        ]
+      ],
+      "target": "attendee-6"
+    },
+    {
+      "id": "enter-attendee-7",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          920
+        ],
+        [
+          144,
+          920
+        ],
+        [
+          144,
+          880
+        ]
+      ],
+      "target": "attendee-7"
+    },
+    {
+      "id": "enter-attendee-8",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          920
+        ],
+        [
+          200,
+          920
+        ],
+        [
+          200,
+          880
+        ]
+      ],
+      "target": "attendee-8"
+    },
+    {
+      "id": "enter-attendee-9",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          920
+        ],
+        [
+          256,
+          920
+        ],
+        [
+          256,
+          880
+        ]
+      ],
+      "target": "attendee-9"
+    },
+    {
+      "id": "enter-attendee-10",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          920
+        ],
+        [
+          384,
+          920
+        ],
+        [
+          384,
+          880
+        ]
+      ],
+      "target": "attendee-10"
+    },
+    {
+      "id": "enter-attendee-11",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          920
+        ],
+        [
+          440,
+          920
+        ],
+        [
+          440,
+          880
+        ]
+      ],
+      "target": "attendee-11"
+    },
+    {
+      "id": "enter-attendee-12",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          920
+        ],
+        [
+          496,
+          920
+        ],
+        [
+          496,
+          880
+        ]
+      ],
+      "target": "attendee-12"
+    },
+    {
+      "id": "enter-attendee-13",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          984
+        ],
+        [
+          144,
+          984
+        ],
+        [
+          144,
+          944
+        ]
+      ],
+      "target": "attendee-13"
+    },
+    {
+      "id": "enter-attendee-14",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          984
+        ],
+        [
+          200,
+          984
+        ],
+        [
+          200,
+          944
+        ]
+      ],
+      "target": "attendee-14"
+    },
+    {
+      "id": "enter-attendee-15",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          984
+        ],
+        [
+          256,
+          984
+        ],
+        [
+          256,
+          944
+        ]
+      ],
+      "target": "attendee-15"
+    },
+    {
+      "id": "enter-attendee-16",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          984
+        ],
+        [
+          384,
+          984
+        ],
+        [
+          384,
+          944
+        ]
+      ],
+      "target": "attendee-16"
+    },
+    {
+      "id": "enter-attendee-17",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          984
+        ],
+        [
+          440,
+          984
+        ],
+        [
+          440,
+          944
+        ]
+      ],
+      "target": "attendee-17"
+    },
+    {
+      "id": "enter-attendee-18",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          984
+        ],
+        [
+          496,
+          984
+        ],
+        [
+          496,
+          944
+        ]
+      ],
+      "target": "attendee-18"
+    },
+    {
+      "id": "enter-attendee-19",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          1048
+        ],
+        [
+          144,
+          1048
+        ],
+        [
+          144,
+          1008
+        ]
+      ],
+      "target": "attendee-19"
+    },
+    {
+      "id": "enter-attendee-20",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          1048
+        ],
+        [
+          200,
+          1048
+        ],
+        [
+          200,
+          1008
+        ]
+      ],
+      "target": "attendee-20"
+    },
+    {
+      "id": "enter-attendee-21",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          1048
+        ],
+        [
+          256,
+          1048
+        ],
+        [
+          256,
+          1008
+        ]
+      ],
+      "target": "attendee-21"
+    },
+    {
+      "id": "enter-attendee-22",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          1048
+        ],
+        [
+          384,
+          1048
+        ],
+        [
+          384,
+          1008
+        ]
+      ],
+      "target": "attendee-22"
+    },
+    {
+      "id": "enter-attendee-23",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          1048
+        ],
+        [
+          440,
+          1048
+        ],
+        [
+          440,
+          1008
+        ]
+      ],
+      "target": "attendee-23"
+    },
+    {
+      "id": "enter-attendee-24",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          1048
+        ],
+        [
+          496,
+          1048
+        ],
+        [
+          496,
+          1008
+        ]
+      ],
+      "target": "attendee-24"
+    },
+    {
+      "id": "teacher-front",
+      "points": [
+        [
+          624,
+          384
+        ],
+        [
+          552,
+          384
+        ],
+        [
+          552,
+          208
+        ],
+        [
+          536,
+          208
+        ],
+        [
+          536,
+          152
+        ],
+        [
+          320,
+          152
+        ]
+      ],
+      "target": "teacher"
+    },
+    {
+      "id": "speaker-via-right-stairs",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          848
+        ],
+        [
+          536,
+          848
+        ],
+        [
+          536,
+          784
+        ],
+        [
+          512,
+          784
+        ],
+        [
+          512,
+          656
+        ],
+        [
+          320,
+          656
+        ],
+        [
+          320,
+          688
+        ]
+      ],
+      "target": "speaker"
+    },
+    {
+      "id": "speaker-via-left-stairs",
+      "points": [
+        [
+          624,
+          992
+        ],
+        [
+          552,
+          992
+        ],
+        [
+          552,
+          1032
+        ],
+        [
+          320,
+          1032
+        ],
+        [
+          320,
+          784
+        ],
+        [
+          128,
+          784
+        ],
+        [
+          128,
+          656
+        ],
+        [
+          320,
+          656
+        ],
+        [
+          320,
+          688
+        ]
+      ],
+      "target": "speaker"
+    }
+  ],
+  "zones": [
+    {
+      "id": "classroom",
+      "x": 64,
+      "y": 144,
+      "width": 512,
+      "height": 368
+    },
+    {
+      "id": "teacher",
+      "x": 176,
+      "y": 144,
+      "width": 304,
+      "height": 40
+    },
+    {
+      "id": "stage-speakers",
+      "x": 96,
+      "y": 624,
+      "width": 448,
+      "height": 112
+    },
+    {
+      "id": "event-audience",
+      "x": 112,
+      "y": 792,
+      "width": 440,
+      "height": 272
+    }
+  ],
+  "layerOrder": [
+    "architecture-below-player",
+    "furniture-below-player",
+    "floorLayer",
+    "furniture-foreground",
+    "glass-above-player",
+    "light-and-shadow-above-player"
+  ],
+  "scope": "Original art + bounded offline geometry and Phaser walkability proof. No live services, live multiplayer, seat animation, claim ownership, broadcast or WAM service configuration."
+}

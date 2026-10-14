@@ -1,0 +1,596 @@
+{
+  "scope": "All integer endpoints in practical floor rectangles; full native paths separately sampled945times. All coordinates distinguish diagnostic-local, office-local and world.",
+  "regions": [
+    {
+      "id": "cross-lounge-west-sofa-seat-1",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          268,
+          299
+        ],
+        "y": [
+          672,
+          683
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        268,
+        684,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        972,
+        748,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "cross-lounge-west-sofa-seat-2",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          308,
+          339
+        ],
+        "y": [
+          672,
+          683
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        308,
+        684,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        1012,
+        748,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "cross-lounge-west-guest",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          296,
+          312
+        ],
+        "y": [
+          768,
+          783
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        288,
+        784,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        992,
+        848,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "conference-north-place-1",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          1288,
+          1304
+        ],
+        "y": [
+          576,
+          591
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        1280,
+        592,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        1984,
+        656,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "conference-south-place-1",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          1288,
+          1304
+        ],
+        "y": [
+          704,
+          719
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        1280,
+        720,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        1984,
+        784,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "conference-north-place-2",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          1352,
+          1368
+        ],
+        "y": [
+          576,
+          591
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        1344,
+        592,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        2048,
+        656,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "conference-south-place-2",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          1352,
+          1368
+        ],
+        "y": [
+          704,
+          719
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        1344,
+        720,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        2048,
+        784,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "conference-north-place-3",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          1416,
+          1432
+        ],
+        "y": [
+          576,
+          591
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        1408,
+        592,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        2112,
+        656,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "conference-south-place-3",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          1416,
+          1432
+        ],
+        "y": [
+          704,
+          719
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        1408,
+        720,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        2112,
+        784,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "studenthub-operations-island-left-north",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          208,
+          239
+        ],
+        "y": [
+          256,
+          271
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        208,
+        272,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        912,
+        336,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "studenthub-operations-island-left-south",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          208,
+          239
+        ],
+        "y": [
+          384,
+          399
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        208,
+        400,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        912,
+        464,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "studenthub-operations-island-right-north",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          400,
+          431
+        ],
+        "y": [
+          256,
+          271
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        400,
+        272,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        1104,
+        336,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "studenthub-operations-island-right-south",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          400,
+          431
+        ],
+        "y": [
+          384,
+          399
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        400,
+        400,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        1104,
+        464,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "studenthub-recruitment-island-left-north",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          688,
+          719
+        ],
+        "y": [
+          256,
+          271
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        688,
+        272,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        1392,
+        336,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "studenthub-recruitment-island-left-south",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          688,
+          719
+        ],
+        "y": [
+          384,
+          399
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        688,
+        400,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        1392,
+        464,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "studenthub-recruitment-island-right-north",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          880,
+          911
+        ],
+        "y": [
+          256,
+          271
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        880,
+        272,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        1584,
+        336,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "studenthub-recruitment-island-right-south",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          880,
+          911
+        ],
+        "y": [
+          384,
+          399
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        880,
+        400,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        1584,
+        464,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "reception-staff-1",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          720,
+          751
+        ],
+        "y": [
+          736,
+          751
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        720,
+        752,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        1424,
+        816,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "reception-visitor-1",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          720,
+          751
+        ],
+        "y": [
+          800,
+          800
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        720,
+        800,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        1424,
+        864,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "reception-staff-2",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          880,
+          911
+        ],
+        "y": [
+          736,
+          751
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        880,
+        752,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        1584,
+        816,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "reception-visitor-2",
+      "integerTargets": 512,
+      "bodyFailures": 0,
+      "headFailures": 0,
+      "actualBodyOriginRange": {
+        "x": [
+          880,
+          911
+        ],
+        "y": [
+          800,
+          800
+        ]
+      },
+      "floorTargetRectDiagnostic": [
+        880,
+        800,
+        32,
+        16
+      ],
+      "floorTargetRectWorld": [
+        1584,
+        864,
+        32,
+        16
+      ]
+    }
+  ],
+  "integerTargets": 10752,
+  "bodyFailures": 0,
+  "headFailures": 0
+}

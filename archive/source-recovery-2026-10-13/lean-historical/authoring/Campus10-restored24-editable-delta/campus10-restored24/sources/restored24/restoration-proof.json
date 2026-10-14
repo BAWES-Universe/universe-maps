@@ -1,0 +1,83 @@
+{
+  "restoredIDs": [
+    "attendee-2",
+    "attendee-5",
+    "attendee-8",
+    "attendee-11",
+    "attendee-14",
+    "attendee-17",
+    "attendee-20",
+    "attendee-23"
+  ],
+  "source24": "/workspace/shared/campus10-functional-audit/lower-back-study/importable-civic10",
+  "current10": "/workspace/shared/magical-campus-current32-10",
+  "layerProof": [
+    {
+      "name": "furniture",
+      "changedPixels": 8160,
+      "changesOnlyWithinRestoredEightChairs": true,
+      "classroomAndPodiumPixelsUnchanged": true,
+      "original24PixelExact": true
+    },
+    {
+      "name": "foreground",
+      "changedPixels": 3664,
+      "changesOnlyWithinRestoredEightChairs": true,
+      "classroomAndPodiumPixelsUnchanged": true,
+      "original24PixelExact": true
+    }
+  ],
+  "unchangedMetadata": {
+    "students": true,
+    "teacher": true,
+    "speaker": true,
+    "doorRegistration10": true,
+    "publicDoorAnchors": true,
+    "zones": true
+  },
+  "unchangedImageHashes": {
+    "architecture": true,
+    "glass": true,
+    "shadow": true
+  },
+  "addedBlockedCells": [
+    [
+      6,
+      62
+    ],
+    [
+      13,
+      62
+    ],
+    [
+      6,
+      64
+    ],
+    [
+      13,
+      64
+    ],
+    [
+      6,
+      66
+    ],
+    [
+      13,
+      66
+    ],
+    [
+      6,
+      68
+    ],
+    [
+      13,
+      68
+    ]
+  ],
+  "sourceHashes": {
+    "/workspace/shared/campus10-functional-audit/lower-back-study/importable-civic10/furniture-native.png": "52ff0b74aea6ba4a8f5ebe73e23fa5f869657c2573e6f9c8e0795f20b5259df8",
+    "/workspace/shared/campus10-functional-audit/lower-back-study/importable-civic10/foreground-native.png": "009b668a3dcf5ed55922796fa95199f9bf50f9248d06d100bb44684a1b8a0118",
+    "/workspace/shared/magical-campus-current32-10/sources/civic/module.json": "71368a59184604d99aadaada803bc9f69009b82c849faaddf46b2cce3111c966",
+    "/workspace/shared/magical-campus-current32-10/map32/collision-grid.json": "436f2c0ef1ecc3629d9ea97bfa4ae13870113d4fc8051137c09ccb4e86e24add"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "scope": "Clean copied source/tools/tests only; no original runtime tree, runtime ZIP or prebuilt output available to emitter",
+  "exact_runtime_files": 19,
+  "mismatches": [],
+  "source_unchanged": true,
+  "nested_unexpected_output_rejected": true,
+  "editability_probes": {
+    "map_properties_change_only_tmj": [
+      "keepers-return.tmj"
+    ],
+    "anchors_change_only_controller": [
+      "keeper.js"
+    ]
+  },
+  "checks": [
+    "{\"files\": 19, \"exact_original_runtime\": true, \"mismatches\": []}",
+    "{\"passed\": 105, \"failed\": 0, \"open_grid_cells\": 627, \"grid_components\": 4, \"portal_pairs\": 3}",
+    "{\"passed\":19,\"failed\":0}",
+    "{\"files\": 19, \"exact_original_runtime\": false, \"mismatches\": [\"keepers-return.tmj\"]}",
+    "{\"files\": 19, \"exact_original_runtime\": false, \"mismatches\": [\"keeper.js\"]}"
+  ],
+  "limits": [
+    "Reconstructed source, not original authoring project",
+    "Mock controller and point-grid structure tests, not native body replay or live acceptance"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N36-r4-runtime",
+  "destination": "old50/runtime/N36-r4",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N36-r4-runtime.zip",
+      "sha256": "04970d44b1eb9cc43771ad7fe3d9bdf1be07977d694147b5be2d9b69dc1d7c75",
+      "size_bytes": 3564641
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "desert-caravan-crossroads.tmj",
+      "sha256": "9f30ef8ff64ab1fdb1d69626fa5818db3938b8c4f66bcf4aa489ecb6fe206a64",
+      "size_bytes": 79557,
+      "git_blob_sha1": "81eb26add49b33e19e96cf368dce11dabf5396eb",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "desert-caravan-crossroads.wam",
+      "sha256": "26f6568c980a7b6e12deb070e1e6b8f903d233c150862ae12054b8f6de63efdf",
+      "size_bytes": 328,
+      "git_blob_sha1": "5c83e49954d3d319a18eec4beb4f5d3c44fcff16",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "foreground-0.png",
+      "sha256": "760a9a3fc21757dc5b6fa6272dcea9f761a61e69cf14b2f2949844b02c470e50",
+      "size_bytes": 28147,
+      "git_blob_sha1": "68f561d69bb0285bd8d4a0467462704e768ed977",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "d1c63856a0fec03b91c4d938a87021802a40dc679500d49fb82ee2bc35525a38",
+      "size_bytes": 2389525,
+      "git_blob_sha1": "e40671f23b4d3bad84ac917c39dd3b8614caf648",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "6b874da5eef523949053568c8f12e15c281fce03dc91e4c4227fbe339efdbb26",
+      "size_bytes": 1139379,
+      "git_blob_sha1": "d2550c3f9aaf8ad9c71bd0eafd075c396666c5ac",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    }
+  ]
+}

@@ -1,0 +1,480 @@
+{
+  "id": "N28",
+  "title": "Floating Wetland Research Lab",
+  "concept": "Pontoon wetland field school with specimen sorting wings, open teaching deck and sheltered observation cabin",
+  "world": [
+    1536,
+    1024
+  ],
+  "spawn": [
+    784,
+    975
+  ],
+  "walkPolygons": [
+    [
+      [
+        453,
+        315
+      ],
+      [
+        1086,
+        315
+      ],
+      [
+        1086,
+        648
+      ],
+      [
+        453,
+        648
+      ]
+    ],
+    [
+      [
+        107,
+        349
+      ],
+      [
+        443,
+        349
+      ],
+      [
+        443,
+        519
+      ],
+      [
+        107,
+        519
+      ]
+    ],
+    [
+      [
+        1105,
+        425
+      ],
+      [
+        1424,
+        425
+      ],
+      [
+        1424,
+        572
+      ],
+      [
+        1105,
+        572
+      ]
+    ],
+    [
+      [
+        598,
+        131
+      ],
+      [
+        942,
+        131
+      ],
+      [
+        942,
+        237
+      ],
+      [
+        598,
+        237
+      ]
+    ],
+    [
+      [
+        729,
+        231
+      ],
+      [
+        823,
+        231
+      ],
+      [
+        823,
+        325
+      ],
+      [
+        729,
+        325
+      ]
+    ],
+    [
+      [
+        705,
+        646
+      ],
+      [
+        835,
+        646
+      ],
+      [
+        835,
+        1023
+      ],
+      [
+        705,
+        1023
+      ]
+    ],
+    [
+      [
+        427,
+        360
+      ],
+      [
+        480,
+        360
+      ],
+      [
+        480,
+        497
+      ],
+      [
+        427,
+        497
+      ]
+    ],
+    [
+      [
+        1020,
+        426
+      ],
+      [
+        1140,
+        426
+      ],
+      [
+        1140,
+        571
+      ],
+      [
+        1020,
+        571
+      ]
+    ]
+  ],
+  "solidRects": [
+    [
+      612,
+      133,
+      738,
+      180
+    ],
+    [
+      805,
+      133,
+      936,
+      180
+    ],
+    [
+      600,
+      178,
+      633,
+      229
+    ],
+    [
+      912,
+      178,
+      942,
+      229
+    ],
+    [
+      475,
+      571,
+      512,
+      628
+    ],
+    [
+      509,
+      591,
+      581,
+      637
+    ],
+    [
+      219,
+      355,
+      370,
+      426
+    ],
+    [
+      1186,
+      442,
+      1295,
+      518
+    ],
+    [
+      1340,
+      477,
+      1420,
+      566
+    ],
+    [
+      1345,
+      412,
+      1410,
+      480
+    ]
+  ],
+  "seats": [
+    {
+      "name": "Wetland notebook west",
+      "anchor": [
+        680,
+        207
+      ],
+      "direction": "north"
+    },
+    {
+      "name": "Wetland notebook east",
+      "anchor": [
+        872,
+        207
+      ],
+      "direction": "north"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Open field teaching deck",
+      "anchor": [
+        784,
+        463
+      ]
+    },
+    {
+      "name": "Specimen sorting pontoon",
+      "anchor": [
+        280,
+        463
+      ]
+    },
+    {
+      "name": "Reed sampling pontoon",
+      "anchor": [
+        1144,
+        495
+      ]
+    },
+    {
+      "name": "Observation cabin doorway",
+      "anchor": [
+        784,
+        271
+      ]
+    },
+    {
+      "name": "Boardwalk approach",
+      "anchor": [
+        784,
+        783
+      ]
+    }
+  ],
+  "foregroundRects": [],
+  "chairAsset": "field-chair-master.png",
+  "chairNative": false,
+  "blockedCells": [
+    [
+      20,
+      7
+    ],
+    [
+      21,
+      7
+    ],
+    [
+      26,
+      7
+    ],
+    [
+      27,
+      7
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      6,
+      13
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      9,
+      13
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      11,
+      11
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      37,
+      13
+    ],
+    [
+      37,
+      14
+    ],
+    [
+      37,
+      15
+    ],
+    [
+      37,
+      16
+    ],
+    [
+      38,
+      13
+    ],
+    [
+      38,
+      14
+    ],
+    [
+      38,
+      15
+    ],
+    [
+      38,
+      16
+    ],
+    [
+      39,
+      13
+    ],
+    [
+      39,
+      14
+    ],
+    [
+      39,
+      15
+    ],
+    [
+      39,
+      16
+    ],
+    [
+      40,
+      13
+    ],
+    [
+      40,
+      14
+    ],
+    [
+      40,
+      15
+    ],
+    [
+      40,
+      16
+    ]
+  ],
+  "openCells": [],
+  "zones": [
+    {
+      "name": "Wetland observations",
+      "rect": [
+        624,
+        192,
+        304,
+        48
+      ]
+    },
+    {
+      "name": "Field class",
+      "rect": [
+        576,
+        352,
+        384,
+        256
+      ]
+    },
+    {
+      "name": "Specimen comparison",
+      "rect": [
+        208,
+        432,
+        176,
+        64
+      ]
+    },
+    {
+      "name": "Water sampling",
+      "rect": [
+        1120,
+        448,
+        64,
+        112
+      ]
+    }
+  ],
+  "nonNavigableContext": "Water, wetlands, reed islands and far banks are scenic context. All connected cabin floor, both specimen pontoons, main deck and complete broad boardwalk are authored reachable surfaces; outer railings and specimen equipment have physical footprints.",
+  "lessons": [
+    "Open-air timber geometry distinguishes this wetland school from a conventional indoor laboratory.",
+    "Whole connected pontoon widths are navigable rather than just narrow center routes.",
+    "Only genuine chair-rail alpha belongs above native avatars; water, deck boards and reed shadows remain below.",
+    "Original-art repair opened real full-width connections from the main deck to both side pontoons and removed the props at their approaches.",
+    "Independent review caught real prop feet outside area-threshold collision cells. Protected every intersected prop cell explicitly and preserved wide actual surrounding floor routes; no engine change."
+  ]
+}

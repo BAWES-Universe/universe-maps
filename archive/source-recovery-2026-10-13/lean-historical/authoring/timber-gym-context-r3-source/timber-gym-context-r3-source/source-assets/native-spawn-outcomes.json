@@ -1,0 +1,144 @@
+{
+  "scope": "Actual local StartPositionCalculator and MathUtils TypeScript transpiled without behavioral changes; RNG injected at zero,midpoint,and both nearest-one values.",
+  "repositoryCommit": "90a148c03e03401e26d236eaac9bea4123b42c57",
+  "start": {
+    "id": 1,
+    "name": "start",
+    "type": "area",
+    "class": "area",
+    "x": 384,
+    "y": 448,
+    "width": 32,
+    "height": 32,
+    "rotation": 0,
+    "visible": true,
+    "properties": [
+      {
+        "name": "start",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "sourceHashes": {
+    "StartPositionCalculator": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+    "MathUtils": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc"
+  },
+  "compilerVersion": "5.8.3",
+  "rows": [
+    {
+      "rx": 0,
+      "ry": 0,
+      "x": 400,
+      "y": 464
+    },
+    {
+      "rx": 0,
+      "ry": 0.5,
+      "x": 400,
+      "y": 464
+    },
+    {
+      "rx": 0,
+      "ry": 0.9999999999999998,
+      "x": 400,
+      "y": 465
+    },
+    {
+      "rx": 0,
+      "ry": 0.9999999999999999,
+      "x": 400,
+      "y": 465
+    },
+    {
+      "rx": 0.5,
+      "ry": 0,
+      "x": 400,
+      "y": 464
+    },
+    {
+      "rx": 0.5,
+      "ry": 0.5,
+      "x": 400,
+      "y": 464
+    },
+    {
+      "rx": 0.5,
+      "ry": 0.9999999999999998,
+      "x": 400,
+      "y": 465
+    },
+    {
+      "rx": 0.5,
+      "ry": 0.9999999999999999,
+      "x": 400,
+      "y": 465
+    },
+    {
+      "rx": 0.9999999999999998,
+      "ry": 0,
+      "x": 401,
+      "y": 464
+    },
+    {
+      "rx": 0.9999999999999998,
+      "ry": 0.5,
+      "x": 401,
+      "y": 464
+    },
+    {
+      "rx": 0.9999999999999998,
+      "ry": 0.9999999999999998,
+      "x": 401,
+      "y": 465
+    },
+    {
+      "rx": 0.9999999999999998,
+      "ry": 0.9999999999999999,
+      "x": 401,
+      "y": 465
+    },
+    {
+      "rx": 0.9999999999999999,
+      "ry": 0,
+      "x": 401,
+      "y": 464
+    },
+    {
+      "rx": 0.9999999999999999,
+      "ry": 0.5,
+      "x": 401,
+      "y": 464
+    },
+    {
+      "rx": 0.9999999999999999,
+      "ry": 0.9999999999999998,
+      "x": 401,
+      "y": 465
+    },
+    {
+      "rx": 0.9999999999999999,
+      "ry": 0.9999999999999999,
+      "x": 401,
+      "y": 465
+    }
+  ],
+  "distinct": [
+    [
+      400,
+      464
+    ],
+    [
+      400,
+      465
+    ],
+    [
+      401,
+      464
+    ],
+    [
+      401,
+      465
+    ]
+  ]
+}

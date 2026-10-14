@@ -1,0 +1,18 @@
+{
+  "roots": {
+    "project": "/absolute/path/to/reviewed/project"
+  },
+  "max_total_bytes": 17179869184,
+  "max_file_bytes": 2147483648,
+  "max_files": 20000,
+  "extra_exclude": [
+    "project/private/**"
+  ],
+  "r2": {
+    "account_id": "00000000000000000000000000000000",
+    "bucket": "replace-with-private-backup-bucket",
+    "prefix": "universe-backups-v1"
+  },
+  "max_new_bytes": 134217728,
+  "max_upload_operations": 6000
+}

@@ -1,0 +1,30 @@
+{
+  "revision": "r7b-path-and-chair-depth-repair",
+  "imageTool": "built-in image generation",
+  "finalPrompt": "Keep building unchanged. Remove the south lamps near x434/y825 and x590/y825; clear all foreground leaves from y784 through y848 on the south path. Keep benches/planters north of y784 and place bottom garden below y848. Add compact physical planting-bed terminations to north side stubs, preserving clear side and rear routes. Keep native32 scale and no labels.",
+  "postGenerationRegistration": [
+    "Generated exterior normalized to 1024x896",
+    "North scenery 0..176 registered to 0..160 so planter feet finish above y128; no architecture rescale",
+    "Original clear center entry strip [448,800,576,896] retained",
+    "Approved r6 below/above layers restored at [128,96], apart from six explicit chair-depth corrections"
+  ],
+  "chairAssetSource": {
+    "title": "Mission Control r4 low-lumbar native asset",
+    "library_file_id": "libfile_3b181679c8288191b7a2477514be392e",
+    "files": [
+      {
+        "name": "chair-lowback-below-native.png",
+        "sha256": "31eb08bb3bbed3bc973329b66ef2db524fe15b3b81af0220257afddbcbc64aca"
+      },
+      {
+        "name": "chair-lowback-full-native.png",
+        "sha256": "b6f6c66bb8a5bf970a7ae89ee5e28a60b602e54a5b73bd48a5abd6de0216da27"
+      },
+      {
+        "name": "chair-lowback-rail-native.png",
+        "sha256": "1ae36b1bb531715e30dd5fcec99e4f5c5d0dcb069076f69f11f2c919eefdc4fe"
+      }
+    ]
+  },
+  "seatChanges": "Three editor rear-facing low-lumbar rails, three original viewer back silhouettes; six anchor/rear-footprint corrections. No entire-chair mask, face trimming or manual foot erasure."
+}

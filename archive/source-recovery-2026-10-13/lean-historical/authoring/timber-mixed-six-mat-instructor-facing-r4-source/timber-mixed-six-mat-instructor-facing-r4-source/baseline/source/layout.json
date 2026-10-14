@@ -1,0 +1,830 @@
+{
+  "title": "Timber Yoga \u00b7 Instructor-Facing Six Mats",
+  "category": "Activity / mixed gym and yoga",
+  "dimensions": [
+    24,
+    16
+  ],
+  "spawn": [
+    12,
+    14
+  ],
+  "anchors": [
+    {
+      "name": "instructor position",
+      "cell": [
+        11,
+        4
+      ],
+      "anchor": [
+        376,
+        143
+      ],
+      "floorClick": [
+        376,
+        159
+      ],
+      "kind": "instructor",
+      "direction": "south"
+    },
+    {
+      "name": "west mat 1",
+      "cell": [
+        5,
+        6
+      ],
+      "anchor": [
+        168,
+        199
+      ],
+      "floorClick": [
+        168,
+        215
+      ],
+      "kind": "mat",
+      "direction": "north"
+    },
+    {
+      "name": "west mat 2",
+      "cell": [
+        6,
+        6
+      ],
+      "anchor": [
+        216,
+        199
+      ],
+      "floorClick": [
+        216,
+        215
+      ],
+      "kind": "mat",
+      "direction": "north"
+    },
+    {
+      "name": "west mat 3",
+      "cell": [
+        8,
+        6
+      ],
+      "anchor": [
+        272,
+        199
+      ],
+      "floorClick": [
+        272,
+        215
+      ],
+      "kind": "mat",
+      "direction": "north"
+    },
+    {
+      "name": "east mat 1",
+      "cell": [
+        15,
+        6
+      ],
+      "anchor": [
+        496,
+        199
+      ],
+      "floorClick": [
+        496,
+        215
+      ],
+      "kind": "mat",
+      "direction": "north"
+    },
+    {
+      "name": "east mat 2",
+      "cell": [
+        17,
+        6
+      ],
+      "anchor": [
+        552,
+        199
+      ],
+      "floorClick": [
+        552,
+        215
+      ],
+      "kind": "mat",
+      "direction": "north"
+    },
+    {
+      "name": "east mat 3",
+      "cell": [
+        18,
+        6
+      ],
+      "anchor": [
+        600,
+        199
+      ],
+      "floorClick": [
+        600,
+        215
+      ],
+      "kind": "mat",
+      "direction": "north"
+    },
+    {
+      "name": "central medallion",
+      "cell": [
+        11,
+        7
+      ],
+      "anchor": [
+        376,
+        239
+      ],
+      "floorClick": [
+        376,
+        255
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "west weights approach",
+      "cell": [
+        4,
+        6
+      ],
+      "anchor": [
+        144,
+        207
+      ],
+      "floorClick": [
+        144,
+        223
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "east weights approach",
+      "cell": [
+        19,
+        6
+      ],
+      "anchor": [
+        624,
+        207
+      ],
+      "floorClick": [
+        624,
+        223
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "rower approach",
+      "cell": [
+        5,
+        4
+      ],
+      "anchor": [
+        176,
+        143
+      ],
+      "floorClick": [
+        176,
+        159
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "bike approach",
+      "cell": [
+        19,
+        4
+      ],
+      "anchor": [
+        624,
+        143
+      ],
+      "floorClick": [
+        624,
+        159
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "studio threshold",
+      "cell": [
+        11,
+        9
+      ],
+      "anchor": [
+        376,
+        303
+      ],
+      "floorClick": [
+        376,
+        319
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "arrival hall",
+      "cell": [
+        11,
+        12
+      ],
+      "anchor": [
+        376,
+        399
+      ],
+      "floorClick": [
+        376,
+        415
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "arrival",
+      "cell": [
+        12,
+        14
+      ],
+      "anchor": [
+        400,
+        463
+      ],
+      "floorClick": [
+        400,
+        479
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "west bench nook approach",
+      "cell": [
+        7,
+        11
+      ],
+      "anchor": [
+        240,
+        367
+      ],
+      "floorClick": [
+        240,
+        383
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "east water nook approach",
+      "cell": [
+        16,
+        11
+      ],
+      "anchor": [
+        528,
+        367
+      ],
+      "floorClick": [
+        528,
+        383
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "west bench front",
+      "cell": [
+        5,
+        11
+      ],
+      "anchor": [
+        176,
+        367
+      ],
+      "floorClick": [
+        176,
+        383
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "west nook interior",
+      "cell": [
+        4,
+        11
+      ],
+      "anchor": [
+        144,
+        367
+      ],
+      "floorClick": [
+        144,
+        383
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "east refreshments front",
+      "cell": [
+        18,
+        11
+      ],
+      "anchor": [
+        592,
+        367
+      ],
+      "floorClick": [
+        592,
+        383
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "east nook interior",
+      "cell": [
+        19,
+        11
+      ],
+      "anchor": [
+        624,
+        367
+      ],
+      "floorClick": [
+        624,
+        383
+      ],
+      "kind": "approach",
+      "direction": "north"
+    },
+    {
+      "name": "bottom central stairs",
+      "cell": [
+        11,
+        15
+      ],
+      "anchor": [
+        376,
+        495
+      ],
+      "floorClick": [
+        376,
+        511
+      ],
+      "kind": "approach",
+      "direction": "north"
+    }
+  ],
+  "seats": [],
+  "zones": [
+    {
+      "name": "Instructor front",
+      "rect": [
+        320,
+        128,
+        128,
+        32
+      ],
+      "kind": "speaker"
+    },
+    {
+      "name": "Yoga participant floor",
+      "rect": [
+        128,
+        192,
+        512,
+        64
+      ],
+      "kind": "listener"
+    }
+  ],
+  "collision": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "notes": "Six walk-to standing mat positions; no exercise, sitting or equipment animation. Bounded source-only native doorway repair makes both nook approaches accessible; furniture remains scenery."
+}

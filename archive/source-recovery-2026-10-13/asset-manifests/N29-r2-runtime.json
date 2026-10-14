@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N29-r2-runtime",
+  "destination": "old50/runtime/N29-r2",
+  "artifact": {
+    "name": "overnight-50-runtime-01-of-02.zip",
+    "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+    "version_id": null,
+    "sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+    "size_bytes": 98259633
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N29-r2-runtime.zip",
+      "sha256": "09c7ee6f4d4544b83fabca44c566f8448778adb90a850fb086302b3ab29baa8f",
+      "size_bytes": 3447596
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "map32/foreground-0.png",
+      "sha256": "667daa08a074c5c60c89fbc485ab3ad96023a0e21ee858c042c3180a4c641869",
+      "size_bytes": 1313,
+      "git_blob_sha1": "a11d43d96dff37b96e288b98d7ec187e84c71fb5",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "map32/ground-and-architecture-0.png",
+      "sha256": "1861a315ca855277ce21d5ca731aa1211bfae4bc50dcbc149e5f186a71d2fb89",
+      "size_bytes": 2256889,
+      "git_blob_sha1": "805d52dde326090d12bd54afa8d9fc21aa886e3e",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "map32/ground-and-architecture-1.png",
+      "sha256": "fc7349492d123289574f8248383965eb9bf6cf548ef3c48e09f9453460468eb9",
+      "size_bytes": 1181960,
+      "git_blob_sha1": "44f74ac7c82d6c6500b7c759c0ebf6f7d0d303ad",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "map32/logic.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "map32/map.tmj",
+      "sha256": "bdcccf305cf5013b3d39ecec76b6841a7fb9f158ce976cd4705fb1f98e1bbdc9",
+      "size_bytes": 78906,
+      "git_blob_sha1": "23df73e411dcf88b3b4c0effee8c411cae57db10",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "map32/map.wam",
+      "sha256": "3dbf0229aa79162db1f742bf72ea513d907180d8fff18d4c365e39cb920b2370",
+      "size_bytes": 890,
+      "git_blob_sha1": "c78329d835d9688c5965d98c7596401fe892e067",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    }
+  ]
+}

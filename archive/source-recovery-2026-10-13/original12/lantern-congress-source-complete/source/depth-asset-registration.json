@@ -1,0 +1,100 @@
+{
+  "source": "generated/architectural-depth-kit-master.png",
+  "assets": [
+    {
+      "name": "congress-window-wall.png",
+      "region": [
+        0,
+        0,
+        1536,
+        480
+      ],
+      "cropLocal": [
+        36,
+        101,
+        1500,
+        412
+      ],
+      "size": [
+        576,
+        122
+      ],
+      "uniformScale": 0.39344262295081966,
+      "sha256": "8a94fa1ec3bb79b6dc45a3575f26023a22d0d226de99a9886d4f575c698d17cd"
+    },
+    {
+      "name": "congress-jamb-left.png",
+      "region": [
+        0,
+        480,
+        240,
+        980
+      ],
+      "cropLocal": [
+        45,
+        46,
+        135,
+        405
+      ],
+      "size": [
+        32,
+        128
+      ],
+      "uniformScale": 0.35555555555555557,
+      "sha256": "ea8389b0dded07f253e9f3cc946fbe251b972368794736cee01cb9d35543a301"
+    },
+    {
+      "name": "congress-jamb-right.png",
+      "region": [
+        320,
+        480,
+        480,
+        980
+      ],
+      "cropLocal": [
+        54,
+        46,
+        145,
+        405
+      ],
+      "size": [
+        32,
+        126
+      ],
+      "uniformScale": 0.3516483516483517,
+      "sha256": "d355f573e1f01c0d3e3950558ec75932c07c760ddb7847e912b8f957a58c150f"
+    },
+    {
+      "name": "congress-stage-steps.png",
+      "region": [
+        700,
+        560,
+        1536,
+        950
+      ],
+      "cropLocal": [
+        30,
+        86,
+        804,
+        310
+      ],
+      "size": [
+        256,
+        74
+      ],
+      "uniformScale": 0.330749354005168,
+      "sha256": "d15dceb44b1664b0465c5647394af71e6964b095c54201bf30952b7bf9626b81"
+    },
+    {
+      "name": "congress-oak-plank.png",
+      "region": [
+        832,
+        670,
+        1392,
+        742
+      ],
+      "uniformScale": 0.5
+    }
+  ],
+  "discarded": "Diamond-topped corner pier excluded because its diagonal projection is inappropriate."
+}

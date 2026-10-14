@@ -1,0 +1,3116 @@
+{
+  "schema_version": 1,
+  "scope": "Static local-reference and file-integrity audit. Does not certify runtime behavior, rendering, gameplay, or live deployment.",
+  "original_hashes_verified": 596,
+  "json_parsed": 155,
+  "png_verified": 420,
+  "wav_verified": 2,
+  "javascript_syntax_checked": 11,
+  "local_references": [
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N01-r3-runtime/N01.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N01-r3-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N01-r3-runtime/N01.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N01-r3-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N01-r3-runtime/N01.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N01-r3-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N01-r3-runtime/N01.wam",
+      "reference": "./N01.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N01-r3-runtime/N01.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N02-r4-runtime/N02.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N02-r4-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N02-r4-runtime/N02.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N02-r4-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N02-r4-runtime/N02.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N02-r4-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N02-r4-runtime/N02.wam",
+      "reference": "./N02.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N02-r4-runtime/N02.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N03-r3-runtime/N03.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N03-r3-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N03-r3-runtime/N03.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N03-r3-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N03-r3-runtime/N03.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N03-r3-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N03-r3-runtime/N03.wam",
+      "reference": "./N03.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N03-r3-runtime/N03.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N04-r3-runtime/N04.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N04-r3-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N04-r3-runtime/N04.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N04-r3-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N04-r3-runtime/N04.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N04-r3-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N04-r3-runtime/N04.wam",
+      "reference": "./N04.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N04-r3-runtime/N04.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N05-r3-runtime/N05.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N05-r3-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N05-r3-runtime/N05.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N05-r3-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N05-r3-runtime/N05.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N05-r3-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N05-r3-runtime/N05.wam",
+      "reference": "./N05.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N05-r3-runtime/N05.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N06-r2-runtime/N06.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N06-r2-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N06-r2-runtime/N06.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N06-r2-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N06-r2-runtime/N06.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N06-r2-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N06-r2-runtime/N06.wam",
+      "reference": "./N06.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N06-r2-runtime/N06.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N07-r3-runtime/N07.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N07-r3-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N07-r3-runtime/N07.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N07-r3-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N07-r3-runtime/N07.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N07-r3-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N07-r3-runtime/N07.wam",
+      "reference": "./N07.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N07-r3-runtime/N07.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N08-r3-runtime/N08.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N08-r3-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N08-r3-runtime/N08.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N08-r3-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N08-r3-runtime/N08.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N08-r3-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N08-r3-runtime/N08.wam",
+      "reference": "./N08.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N08-r3-runtime/N08.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N09-r2-runtime/N09.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N09-r2-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N09-r2-runtime/N09.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N09-r2-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N09-r2-runtime/N09.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N09-r2-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N09-r2-runtime/N09.wam",
+      "reference": "./N09.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N09-r2-runtime/N09.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N10-r4-runtime/N10.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N10-r4-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N10-r4-runtime/N10.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N10-r4-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N10-r4-runtime/N10.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N10-r4-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N10-r4-runtime/N10.wam",
+      "reference": "./N10.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N10-r4-runtime/N10.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N11-r2-runtime/N11.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N11-r2-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N11-r2-runtime/N11.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N11-r2-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N11-r2-runtime/N11.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N11-r2-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N11-r2-runtime/N11.wam",
+      "reference": "./N11.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N11-r2-runtime/N11.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N12-r3-runtime/N12.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N12-r3-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N12-r3-runtime/N12.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N12-r3-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N12-r3-runtime/N12.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N12-r3-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N12-r3-runtime/N12.wam",
+      "reference": "./N12.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N12-r3-runtime/N12.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N13-r3-runtime/N13.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N13-r3-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N13-r3-runtime/N13.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N13-r3-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N13-r3-runtime/N13.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N13-r3-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N13-r3-runtime/N13.wam",
+      "reference": "./N13.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N13-r3-runtime/N13.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N14-r2-runtime/N14.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N14-r2-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N14-r2-runtime/N14.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N14-r2-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N14-r2-runtime/N14.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N14-r2-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N14-r2-runtime/N14.wam",
+      "reference": "./N14.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N14-r2-runtime/N14.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N15-r3-runtime/N15.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N15-r3-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N15-r3-runtime/N15.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N15-r3-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N15-r3-runtime/N15.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N15-r3-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N15-r3-runtime/N15.wam",
+      "reference": "./N15.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N15-r3-runtime/N15.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N16-r2-runtime/N16.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N16-r2-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N16-r2-runtime/N16.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N16-r2-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N16-r2-runtime/N16.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N16-r2-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N16-r2-runtime/N16.wam",
+      "reference": "./N16.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N16-r2-runtime/N16.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N17-r3-runtime/N17.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N17-r3-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N17-r3-runtime/N17.tmj",
+      "reference": "ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/N17-r3-runtime/ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N17-r3-runtime/N17.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N17-r3-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N17-r3-runtime/N17.wam",
+      "reference": "./N17.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N17-r3-runtime/N17.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/map.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/ground-and-architecture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/map.tmj",
+      "reference": "ground-and-architecture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/ground-and-architecture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N35-r3-runtime/lighthouse-festival-island.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N35-r3-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N35-r3-runtime/lighthouse-festival-island.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N35-r3-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N35-r3-runtime/lighthouse-festival-island.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N35-r3-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N35-r3-runtime/lighthouse-festival-island.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N35-r3-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N35-r3-runtime/lighthouse-festival-island.wam",
+      "reference": "./lighthouse-festival-island.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N35-r3-runtime/lighthouse-festival-island.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N36-r4-runtime/desert-caravan-crossroads.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N36-r4-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N36-r4-runtime/desert-caravan-crossroads.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N36-r4-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N36-r4-runtime/desert-caravan-crossroads.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N36-r4-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N36-r4-runtime/desert-caravan-crossroads.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N36-r4-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N36-r4-runtime/desert-caravan-crossroads.wam",
+      "reference": "./desert-caravan-crossroads.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N36-r4-runtime/desert-caravan-crossroads.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N37-r2-runtime/mountain-cable-station-village.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N37-r2-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N37-r2-runtime/mountain-cable-station-village.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N37-r2-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N37-r2-runtime/mountain-cable-station-village.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N37-r2-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N37-r2-runtime/mountain-cable-station-village.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N37-r2-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N37-r2-runtime/mountain-cable-station-village.wam",
+      "reference": "./mountain-cable-station-village.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N37-r2-runtime/mountain-cable-station-village.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N38-r2-runtime/rainforest-canopy-forum.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N38-r2-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N38-r2-runtime/rainforest-canopy-forum.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N38-r2-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N38-r2-runtime/rainforest-canopy-forum.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N38-r2-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N38-r2-runtime/rainforest-canopy-forum.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N38-r2-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N38-r2-runtime/rainforest-canopy-forum.wam",
+      "reference": "./rainforest-canopy-forum.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N38-r2-runtime/rainforest-canopy-forum.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N39-r3-runtime/volcanic-observatory-lodge.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N39-r3-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N39-r3-runtime/volcanic-observatory-lodge.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N39-r3-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N39-r3-runtime/volcanic-observatory-lodge.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N39-r3-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N39-r3-runtime/volcanic-observatory-lodge.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N39-r3-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N39-r3-runtime/volcanic-observatory-lodge.wam",
+      "reference": "./volcanic-observatory-lodge.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N39-r3-runtime/volcanic-observatory-lodge.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N40-r3-runtime/coral-research-pier.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N40-r3-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N40-r3-runtime/coral-research-pier.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N40-r3-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N40-r3-runtime/coral-research-pier.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N40-r3-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N40-r3-runtime/coral-research-pier.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N40-r3-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N40-r3-runtime/coral-research-pier.wam",
+      "reference": "./coral-research-pier.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N40-r3-runtime/coral-research-pier.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N41-r3-runtime/moonlit-ruin-courtyard.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N41-r3-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N41-r3-runtime/moonlit-ruin-courtyard.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N41-r3-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N41-r3-runtime/moonlit-ruin-courtyard.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N41-r3-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N41-r3-runtime/moonlit-ruin-courtyard.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N41-r3-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N41-r3-runtime/moonlit-ruin-courtyard.wam",
+      "reference": "./moonlit-ruin-courtyard.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N41-r3-runtime/moonlit-ruin-courtyard.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N42-r4-runtime/sky-village-airship-terminal.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N42-r4-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N42-r4-runtime/sky-village-airship-terminal.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N42-r4-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N42-r4-runtime/sky-village-airship-terminal.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N42-r4-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N42-r4-runtime/sky-village-airship-terminal.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N42-r4-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N42-r4-runtime/sky-village-airship-terminal.wam",
+      "reference": "./sky-village-airship-terminal.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N42-r4-runtime/sky-village-airship-terminal.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N43-r1-runtime/glass-hall-conference-campus.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N43-r1-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N43-r1-runtime/glass-hall-conference-campus.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N43-r1-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N43-r1-runtime/glass-hall-conference-campus.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N43-r1-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N43-r1-runtime/glass-hall-conference-campus.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N43-r1-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N43-r1-runtime/glass-hall-conference-campus.wam",
+      "reference": "./glass-hall-conference-campus.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N43-r1-runtime/glass-hall-conference-campus.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N44-r1-runtime/autumn-amphitheatre.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N44-r1-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N44-r1-runtime/autumn-amphitheatre.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N44-r1-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N44-r1-runtime/autumn-amphitheatre.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N44-r1-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N44-r1-runtime/autumn-amphitheatre.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N44-r1-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N44-r1-runtime/autumn-amphitheatre.wam",
+      "reference": "./autumn-amphitheatre.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N44-r1-runtime/autumn-amphitheatre.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N45-r2-runtime/desert-esports-pavilion.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N45-r2-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N45-r2-runtime/desert-esports-pavilion.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N45-r2-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N45-r2-runtime/desert-esports-pavilion.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N45-r2-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N45-r2-runtime/desert-esports-pavilion.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N45-r2-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N45-r2-runtime/desert-esports-pavilion.wam",
+      "reference": "./desert-esports-pavilion.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N45-r2-runtime/desert-esports-pavilion.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N46-r2-runtime/riverside-art-fair.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N46-r2-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N46-r2-runtime/riverside-art-fair.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N46-r2-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N46-r2-runtime/riverside-art-fair.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N46-r2-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N46-r2-runtime/riverside-art-fair.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N46-r2-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N46-r2-runtime/riverside-art-fair.wam",
+      "reference": "./riverside-art-fair.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N46-r2-runtime/riverside-art-fair.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N47-r3-runtime/winter-lantern-festival.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N47-r3-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N47-r3-runtime/winter-lantern-festival.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N47-r3-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N47-r3-runtime/winter-lantern-festival.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N47-r3-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N47-r3-runtime/winter-lantern-festival.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N47-r3-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N47-r3-runtime/winter-lantern-festival.wam",
+      "reference": "./winter-lantern-festival.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N47-r3-runtime/winter-lantern-festival.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N48-r1-runtime/acoustic-cave-hall.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N48-r1-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N48-r1-runtime/acoustic-cave-hall.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N48-r1-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N48-r1-runtime/acoustic-cave-hall.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N48-r1-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N48-r1-runtime/acoustic-cave-hall.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N48-r1-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N48-r1-runtime/acoustic-cave-hall.wam",
+      "reference": "./acoustic-cave-hall.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N48-r1-runtime/acoustic-cave-hall.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N49-r2-runtime/ocean-exposition.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N49-r2-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N49-r2-runtime/ocean-exposition.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N49-r2-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N49-r2-runtime/ocean-exposition.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N49-r2-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N49-r2-runtime/ocean-exposition.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N49-r2-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N49-r2-runtime/ocean-exposition.wam",
+      "reference": "./ocean-exposition.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N49-r2-runtime/ocean-exposition.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N50-r2-runtime/lush-hotel-courtyard.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N50-r2-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N50-r2-runtime/lush-hotel-courtyard.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/N50-r2-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N50-r2-runtime/lush-hotel-courtyard.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/N50-r2-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N50-r2-runtime/lush-hotel-courtyard.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/N50-r2-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/N50-r2-runtime/lush-hotel-courtyard.wam",
+      "reference": "./lush-hotel-courtyard.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/N50-r2-runtime/lush-hotel-courtyard.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj",
+      "reference": "architecture-and-furniture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/architecture-and-furniture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj",
+      "reference": "architecture-and-furniture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/architecture-and-furniture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj",
+      "reference": "north-context.png",
+      "to": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/north-context.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj",
+      "reference": "seat-backs-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/seat-backs-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/map.tmj",
+      "reference": "architecture-and-furniture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/architecture-and-furniture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/map.tmj",
+      "reference": "architecture-and-furniture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/architecture-and-furniture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/map.tmj",
+      "reference": "architecture-and-furniture-2.png",
+      "to": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/architecture-and-furniture-2.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/map.tmj",
+      "reference": "seat-backs-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/seat-backs-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/map.tmj",
+      "reference": "architecture-and-furniture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/architecture-and-furniture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/map.tmj",
+      "reference": "architecture-and-furniture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/architecture-and-furniture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/map.tmj",
+      "reference": "architecture-and-furniture-2.png",
+      "to": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/architecture-and-furniture-2.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/map.tmj",
+      "reference": "seat-backs-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/seat-backs-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.tmj",
+      "reference": "ambient-native-r01.png",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/ambient-native-r01.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.tmj",
+      "reference": "ground-and-objects-2.png",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/ground-and-objects-2.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.wam",
+      "reference": "./lantern-souk-bazaar-r5.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.wam",
+      "reference": "./willow-quay-tea-garden.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.tmj",
+      "reference": "ground-and-objects-2.png",
+      "to": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/ground-and-objects-2.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.wam",
+      "reference": "./celestial-transit-garden-calm-draft.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/resonance-media-house.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/resonance-media-house.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/resonance-media-house.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/resonance-media-house.wam",
+      "reference": "./resonance-media-house.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/resonance-media-house.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.tmj",
+      "reference": "collision-cell.png",
+      "to": "archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/collision-cell.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.tmj",
+      "reference": "quiet-marker.png",
+      "to": "archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/quiet-marker.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.tmj",
+      "reference": "runtime-above-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/runtime-above-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.tmj",
+      "reference": "runtime-base-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/runtime-base-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.wam",
+      "reference": "./esports-arena.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.tmj",
+      "reference": "architecture-furniture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/architecture-furniture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.tmj",
+      "reference": "architecture-furniture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/architecture-furniture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.tmj",
+      "reference": "architecture-furniture-2.png",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/architecture-furniture-2.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.tmj",
+      "reference": "architecture-furniture-3.png",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/architecture-furniture-3.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.tmj",
+      "reference": "collision.png",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/collision.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.tmj",
+      "reference": "quiet.png",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/quiet.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.tmj",
+      "reference": "seat-backs-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/seat-backs-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.wam",
+      "reference": "./conference.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.tmj",
+      "reference": "architecture-and-furniture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/architecture-and-furniture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.tmj",
+      "reference": "architecture-and-furniture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/architecture-and-furniture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.tmj",
+      "reference": "seat-backs-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/seat-backs-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.tmj",
+      "reference": "architecture-and-furniture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/architecture-and-furniture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.tmj",
+      "reference": "architecture-and-furniture-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/architecture-and-furniture-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.tmj",
+      "reference": "architecture-and-furniture-2.png",
+      "to": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/architecture-and-furniture-2.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.tmj",
+      "reference": "seat-backs-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/seat-backs-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/map.tmj",
+      "reference": "environment.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/environment.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/map.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/map.tmj",
+      "reference": "architecture-and-furniture.png",
+      "to": "archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/architecture-and-furniture.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/map.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.tmj",
+      "reference": "signal-inlays.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/signal-inlays.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.tmj",
+      "reference": "signal.js",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/signal.js",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.wam",
+      "reference": "./lighthouse-last-signal.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/signal.js",
+      "reference": "audio/silent-carrier.wav",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/audio/silent-carrier.wav",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/signal.js",
+      "reference": "audio/tide-signal.wav",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/audio/tide-signal.wav",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "foreground-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/foreground-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "ground-and-objects-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "ground-and-objects-1.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "inlays-exterior.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-exterior.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "inlays-keeper-house.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-keeper-house.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "inlays-lantern-room.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lantern-room.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "inlays-lighthouse-workshop.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lighthouse-workshop.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "inside-exterior-lit.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-exterior-lit.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "inside-house-key.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-house-key.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "inside-lantern-lit.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lantern-lit.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "inside-lens-focused.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lens-focused.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "inside-workshop-power.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-workshop-power.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "keeper-house.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keeper-house.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "keeper.js",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keeper.js",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "lantern-room.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lantern-room.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "lighthouse-workshop.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lighthouse-workshop.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "reference": "markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.wam",
+      "reference": "./keepers-return.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v10/map32/campus10-changed-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v10/map32/campus10-changed-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v10/map32/campus10-changed-p1.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v10/map32/campus10-changed-p1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v10/map32/fire-flame-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v10/map32/fire-flame-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v10/map32/fountain-water-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v10/map32/fountain-water-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v10/map32/garden-life-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v10/map32/garden-life-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v10/map32/river-water-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v10/map32/river-water-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v10/map32/river-water-p1.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v10/map32/river-water-p1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v9/map32/audio/fire-soft.mp3",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v9/map32/audio/fire-soft.mp3",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v9/map32/audio/fountain-soft.mp3",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v9/map32/audio/fountain-soft.mp3",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v9/map32/campus-above-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v9/map32/campus-above-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v9/map32/campus-above-p1.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v9/map32/campus-above-p1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v9/map32/campus-above-p2.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v9/map32/campus-above-p2.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v9/map32/campus-base-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v9/map32/campus-base-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v9/map32/campus-base-p1.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v9/map32/campus-base-p1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v9/map32/campus-base-p2.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v9/map32/campus-base-p2.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v9/map32/campus-base-p3.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v9/map32/campus-base-p3.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v9/map32/campus-base-p4.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v9/map32/campus-base-p4.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v9/map32/campus-base-p5.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v9/map32/campus-base-p5.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "../../v9/map32/collision-cell.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v9/map32/collision-cell.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "reference": "campus11-changed-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/campus11-changed-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.wam",
+      "reference": "./magical-campus.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "scripts/town.js",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town.js",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/archive-architecture-alpha.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-architecture-alpha.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/archive-door-foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-door-foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/archive-focus.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-focus.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/archive-furniture-canopies.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-furniture-canopies.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/archive-furniture-feet.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-furniture-feet.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/archive-interior.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-interior.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/archive-roof.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-roof.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/cafe-architecture-alpha.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-architecture-alpha.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/cafe-door-foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-door-foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/cafe-focus.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-focus.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/cafe-furniture-canopies.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-canopies.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/cafe-furniture-feet.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-feet.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/cafe-interior.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-interior.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/cafe-roof.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-roof.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/gate-basin-mist.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-basin-mist.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/gate-butterflies.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-butterflies.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/gate-cascades.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-cascades.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/gate-edge-fog.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-edge-fog.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/gate-ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/gate-pulse.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-pulse.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/gate-scenery-canopies.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-scenery-canopies.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/gate-steady.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-steady.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/gate-water.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-water.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/markers.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/markers.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/midnight-terrain.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/midnight-terrain.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/studenthub-architecture-alpha.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-architecture-alpha.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/studenthub-door-foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-door-foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/studenthub-focus.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-focus.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/studenthub-furniture-canopies.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-furniture-canopies.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/studenthub-furniture-feet.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-furniture-feet.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/studenthub-interior.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-interior.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/studenthub-roof.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-roof.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/town-details.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-details.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/town-edge-fog.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-edge-fog.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/town-ground.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-ground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/town-olive-shadow.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-olive-shadow.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/town-olive.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-olive.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/town-pulse.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-pulse.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/town-scenery-canopies.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-scenery-canopies.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/town-scenery-feet.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-scenery-feet.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/town-steady.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-steady.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/town-surroundings.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-surroundings.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "reference": "tilesets/town-water.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-water.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio-runtime.mjs",
+      "reference": "./town-audio.mjs",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio.mjs",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio.mjs",
+      "reference": "assets/audio/cascade-soft.mp3",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/assets/audio/cascade-soft.mp3",
+      "resolution_base": "map-entrypoint (native audio or WA.room.mapURL)"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio.mjs",
+      "reference": "assets/audio/fountain.mp3",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/assets/audio/fountain.mp3",
+      "resolution_base": "map-entrypoint (native audio or WA.room.mapURL)"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio.mjs",
+      "reference": "assets/audio/gate-crossing.mp3",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/assets/audio/gate-crossing.mp3",
+      "resolution_base": "map-entrypoint (native audio or WA.room.mapURL)"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town.js",
+      "reference": "scripts/town-audio-runtime.mjs",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio-runtime.mjs",
+      "resolution_base": "map-entrypoint (native audio or WA.room.mapURL)"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "native-audio/assets/cascade-soft.mp3",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/native-audio/assets/cascade-soft.mp3",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "native-audio/assets/gate-crossing.mp3",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/native-audio/assets/gate-crossing.mp3",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "native-audio/gate-with-native-audio.js",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/native-audio/gate-with-native-audio.js",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/campus-atlas-01.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/campus-atlas-01.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/campus-atlas-04.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/campus-atlas-04.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/campus-atlas-05.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/campus-atlas-05.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/campus-atlas-06.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/campus-atlas-06.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/gate-journey-01.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/gate-journey-01.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/gate-journey-02.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/gate-journey-02.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/gate-journey-03.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/gate-journey-03.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/gate-journey-04.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/gate-journey-04.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/gate-stage-controls.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/gate-stage-controls.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/gate-waterfalls-01.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/gate-waterfalls-01.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/gate-waterfalls-02.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/gate-waterfalls-02.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/gate-waterfalls-03.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/gate-waterfalls-03.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/gate-waterfalls-04.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/gate-waterfalls-04.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/gate-waterfalls-05.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/gate-waterfalls-05.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+      "reference": "tilesets/gate-waterfalls-06.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/tilesets/gate-waterfalls-06.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/native-audio/gate-with-native-audio.js",
+      "reference": "./native-audio.mjs",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/native-audio/native-audio.mjs",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/native-audio/native-audio.mjs",
+      "reference": "native-audio/assets/gate-crossing.mp3",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/native-audio/assets/gate-crossing.mp3",
+      "resolution_base": "map-entrypoint (native audio or WA.room.mapURL)"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/campus-atlas-01.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/campus-atlas-01.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/campus-atlas-04.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/campus-atlas-04.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/campus-atlas-05.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/campus-atlas-05.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/campus-atlas-06.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/campus-atlas-06.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/gate-journey-01.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-journey-01.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/gate-journey-02.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-journey-02.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/gate-journey-03.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-journey-03.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/gate-journey-04.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-journey-04.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/gate-stage-controls.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-stage-controls.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/gate-waterfalls-01.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-waterfalls-01.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/gate-waterfalls-02.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-waterfalls-02.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/gate-waterfalls-03.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-waterfalls-03.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/gate-waterfalls-04.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-waterfalls-04.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/gate-waterfalls-05.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-waterfalls-05.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "../../v6/gate/map/tilesets/gate-waterfalls-06.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/v6/gate/map/tilesets/gate-waterfalls-06.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "native-audio/assets/gate-music-waterfalls-loop.mp3",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/native-audio/assets/gate-music-waterfalls-loop.mp3",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "native-audio/gate-with-native-audio.js",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/native-audio/gate-with-native-audio.js",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+      "reference": "tilesets/gate-balcony-foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/tilesets/gate-balcony-foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/studenthub-connected-workplace-01/studenthub-connected-workplace/map/studenthub-proof.tmj",
+      "reference": "scripts/studenthub.js",
+      "to": "archive/runtime-recovery-2026-10-13/studenthub-connected-workplace-01/studenthub-connected-workplace/map/scripts/studenthub.js",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/studenthub-connected-workplace-01/studenthub-connected-workplace/map/studenthub-proof.tmj",
+      "reference": "tilesets/proof-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/studenthub-connected-workplace-01/studenthub-connected-workplace/map/tilesets/proof-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/social-outdoor-office-02/spawn-proximity-repair-01/candidates/social-outdoor-office-02/map/studenthub-outdoor-office.tmj",
+      "reference": "tilesets/native32.png",
+      "to": "archive/runtime-recovery-2026-10-13/social-outdoor-office-02/spawn-proximity-repair-01/candidates/social-outdoor-office-02/map/tilesets/native32.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/astral-concourse-lobby.tmj",
+      "reference": "collision-cell.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/collision-cell.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/astral-concourse-lobby.tmj",
+      "reference": "lobby-above-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/lobby-above-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/astral-concourse-lobby.tmj",
+      "reference": "lobby-base-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/lobby-base-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/astral-concourse-lobby.wam",
+      "reference": "./astral-concourse-lobby.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/astral-concourse-lobby.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.tmj",
+      "reference": "collision-cell.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/collision-cell.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.tmj",
+      "reference": "hall-above-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/hall-above-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.tmj",
+      "reference": "hall-base-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/hall-base-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.tmj",
+      "reference": "hall-base-p1.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/hall-base-p1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.tmj",
+      "reference": "hall-base-p2.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/hall-base-p2.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.tmj",
+      "reference": "hall-base-p3.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/hall-base-p3.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.tmj",
+      "reference": "quiet-marker.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/quiet-marker.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.wam",
+      "reference": "./grand-auditorium.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.tmj",
+      "reference": "collision-cell.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/collision-cell.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.tmj",
+      "reference": "garden-accent.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/garden-accent.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.tmj",
+      "reference": "hall-above-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/hall-above-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.tmj",
+      "reference": "hall-base-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/hall-base-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.tmj",
+      "reference": "hall-base-p1.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/hall-base-p1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.tmj",
+      "reference": "hall-base-p2.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/hall-base-p2.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.tmj",
+      "reference": "hall-base-p3.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/hall-base-p3.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.tmj",
+      "reference": "quiet-marker.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/quiet-marker.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.wam",
+      "reference": "./grand-auditorium.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "./building-reveal.js",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/building-reveal.js",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "collision-cell.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/collision-cell.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "garden-accent.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/garden-accent.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "interior-above-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/interior-above-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "interior-base-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/interior-base-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "interior-base-p1.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/interior-base-p1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "interior-base-p2.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/interior-base-p2.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "interior-base-p3.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/interior-base-p3.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "interior-base-p4.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/interior-base-p4.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "interior-base-p5.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/interior-base-p5.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "quiet-marker.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/quiet-marker.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "v09-foyer-front-art-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/v09-foyer-front-art-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "v09-foyer-roof-art-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/v09-foyer-roof-art-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "v09-foyer-shadow-art-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/v09-foyer-shadow-art-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "v09-foyer-wings-art-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/v09-foyer-wings-art-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "v09-hall-shadow-art-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/v09-hall-shadow-art-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "v09-hall-shell-art-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/v09-hall-shell-art-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "reference": "v09-hall-shell-art-p1.png",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/v09-hall-shell-art-p1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.wam",
+      "reference": "./grand-auditorium.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "./building-reveal.js",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/building-reveal.js",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "collision-cell.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/collision-cell.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "garden-accent.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/garden-accent.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "glass-pane-over-actors-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/glass-pane-over-actors-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "glass-permanent-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/glass-permanent-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "interior-above-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/interior-above-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "interior-base-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/interior-base-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "interior-base-p1.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/interior-base-p1.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "interior-base-p2.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/interior-base-p2.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "interior-base-p3.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/interior-base-p3.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "interior-base-p4.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/interior-base-p4.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "interior-base-p5.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/interior-base-p5.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "interior-base-p6.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/interior-base-p6.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "quiet-marker.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/quiet-marker.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "v09-foyer-front-art-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/v09-foyer-front-art-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "v09-foyer-shadow-art-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/v09-foyer-shadow-art-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "reference": "v09-foyer-wings-art-p0.png",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/v09-foyer-wings-art-p0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.wam",
+      "reference": "./grand-auditorium.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/map.tmj",
+      "reference": "environment.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/environment.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/map.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/map.tmj",
+      "reference": "environment.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/environment.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/map.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.tmj",
+      "reference": "architecture-and-furniture.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/architecture-and-furniture.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.tmj",
+      "reference": "foreground.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/foreground.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.tmj",
+      "reference": "outdoor-border.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/outdoor-border.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.tmj",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/map.tmj",
+      "reference": "architecture-and-furniture-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/architecture-and-furniture-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/map.tmj",
+      "reference": "logic.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/logic.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/map.tmj",
+      "reference": "seat-backs-0.png",
+      "to": "archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/seat-backs-0.png",
+      "resolution_base": "containing-file"
+    },
+    {
+      "from": "archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/map.wam",
+      "reference": "./map.tmj",
+      "to": "archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/map.tmj",
+      "resolution_base": "containing-file"
+    }
+  ],
+  "external_file_references": [],
+  "missing_local_references": [],
+  "credential_pattern_findings": []
+}

@@ -1,0 +1,211 @@
+{
+  "title": "Celestial Transit Garden",
+  "slug": "celestial-transit-garden",
+  "category": "Portal / destination hub",
+  "style": "Moonlit radial courtyard, five configurable destination alcoves",
+  "nativeTileSize": 32,
+  "world": [
+    1536,
+    1024
+  ],
+  "visualSeats": 0,
+  "anchorCount": 12,
+  "runtime": [
+    {
+      "path": "map32/celestial-transit-garden.tmj",
+      "bytes": 82722,
+      "sha256": "b6621829c11b5ad150ab2133deabd303823f8b14d37f513647a604affeaea7f2"
+    },
+    {
+      "path": "map32/celestial-transit-garden.wam",
+      "bytes": 1549,
+      "sha256": "90525b998a03bc956b598f91de3de85810c34d719d64c3f5e39bc2dcb63689a0"
+    },
+    {
+      "path": "map32/ground-and-objects-0.png",
+      "bytes": 2473121,
+      "sha256": "f51cba58668e0fbc18f034276d546bef9c5ecf29de02d56a51a61f1f1ea5da5f"
+    },
+    {
+      "path": "map32/ground-and-objects-1.png",
+      "bytes": 1164509,
+      "sha256": "47b9462dad1851c0669575c5c92fb32afd7da868f19058473dbe251a4db35640"
+    },
+    {
+      "path": "map32/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    }
+  ],
+  "geometry": {
+    "scope": "Static native32 geometry: exhaustive integer body positions, union of all 12 Greg upper-head masks, cardinal tile connectivity. Not live gameplay or engine route replay.",
+    "walkableCells": 322,
+    "reachableCells": 322,
+    "unreachableCells": 0,
+    "safeBodyPlacements": 264673,
+    "headConflicts": 0,
+    "anchorCount": 12,
+    "badAnchors": [],
+    "quietCells": 1,
+    "allPass": true,
+    "anchors": [
+      {
+        "id": "destination-north",
+        "x": 768,
+        "y": 207,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "destination-northwest",
+        "x": 352,
+        "y": 287,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "destination-northeast",
+        "x": 1184,
+        "y": 287,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "destination-southwest",
+        "x": 320,
+        "y": 655,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "destination-southeast",
+        "x": 1216,
+        "y": 655,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "central-compass",
+        "x": 768,
+        "y": 431,
+        "direction": "south",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "west-spoke",
+        "x": 528,
+        "y": 335,
+        "direction": "east",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "east-spoke",
+        "x": 1008,
+        "y": 335,
+        "direction": "west",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "south-spoke",
+        "x": 768,
+        "y": 687,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "northwest-garden-lookout",
+        "x": 576,
+        "y": 191,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "northeast-garden-lookout",
+        "x": 960,
+        "y": 191,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "spawn",
+        "x": 784,
+        "y": 975,
+        "direction": "north",
+        "kind": "spawn",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": true
+      }
+    ]
+  },
+  "nativeRoutes": {
+    "scope": "Unchanged source-extracted native PathfindingManager, Player movement, GameScene/pointer methods from 60e7afdc3f96ef32525597cd46bd41175d61a2ef, real EasyStar0.4.4. Adapter executes desktop/touch pointers, both-way spawn routes, four destination-tile edges all ordered anchor pairs, and every admitted floor cell center plus return. Native60Hz movement sampled every<=0.5px. Not live browser, Phaser renderer, keyboard physics, devices, networking or service integration.",
+    "nativeCollisionMatchesTMJ": true,
+    "legs": 872,
+    "samples": 1295809,
+    "frames": 181336,
+    "mapChanges": 0,
+    "failures": 0,
+    "allPass": true,
+    "failedRows": []
+  },
+  "revision": "r03-systematic-fixture-pass",
+  "status": {
+    "independentReview": "pending",
+    "compiled": true,
+    "staticValidated": true,
+    "nativeRouteReplay": true,
+    "livePlaytest": false,
+    "published": false,
+    "animated": false,
+    "externalServicesConfigured": false
+  },
+  "preview": "review/occupied-native.png",
+  "runtimeZip": "celestial-transit-garden-runtime.zip",
+  "sourceZip": "celestial-transit-garden-source-replay.zip"
+}

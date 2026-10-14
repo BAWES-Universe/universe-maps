@@ -1,0 +1,5 @@
+# Fountain circulation repair candidate
+
+Original source pixels and both constrained imagegen iterations are preserved. Candidate02 restores all40,928 protected original bowl/spout/animated-support pixels and retains crop edges. It has a continuous native32 grid loop. Unmodified source-model paths pass twice clockwise and twice counterclockwise,1562 simulated60Hz movement frames, plus2508 independent1px physical loop samples. Minimum body clearance along the prescribed centerline is8px; the conservative grid narrows to32px at some curved corners. The visible paving is wider. No live client or device test is claimed; browser automation is blocked. No engine modification is included or required.
+
+Registration tools refer to retained source08 and09 inputs named in code; this is a bounded art/geometry patch, not an independently runnable full map. Original water animation frame bytes and world placement are unchanged. The complete initial native32 diagnostic runtime is Library libfile_38204c1b1bf881918d1a3ee60abe11c1.

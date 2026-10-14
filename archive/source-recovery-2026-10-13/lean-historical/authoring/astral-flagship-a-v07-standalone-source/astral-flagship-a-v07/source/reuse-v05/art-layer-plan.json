@@ -1,0 +1,34 @@
+{
+  "worldPixels": [
+    2560,
+    1920
+  ],
+  "below": [
+    "garden-topdown",
+    "shadows-exterior-cast",
+    "hall-base",
+    "foyer-base",
+    "terrace-base",
+    "foyer-shadows-contact",
+    "terrace-shadows-contact",
+    "hall-walls-raised",
+    "foyer-walls-raised",
+    "garden-thresholds-below",
+    "pergola-shadows-below",
+    "pergola-below",
+    "garden-furniture-below"
+  ],
+  "above": [
+    "hall-above",
+    "foyer-above",
+    "terrace-above",
+    "garden-furniture-above",
+    "pergola-above"
+  ],
+  "merged": [
+    "assets/runtime-base.png",
+    "assets/runtime-above.png"
+  ],
+  "collision": "Explicit garden-layout solids + conservative core derived from garden-walkable-mask; base collision preserved apart from doors.",
+  "canopy": "Open center; no interior roof, no alpha state or dynamic scripts."
+}

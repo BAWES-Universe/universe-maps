@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N50-r2-runtime",
+  "destination": "old50/runtime/N50-r2",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N50-r2-runtime.zip",
+      "sha256": "bf80ab986c5ad7f96c57b7d0f9d39c39503012bfe686b046ba884e40312d663b",
+      "size_bytes": 3467616
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "foreground-0.png",
+      "sha256": "02cf76a16dcab310702fd585ae1166edbcf9fb09f3351c5873292f4b3c3952fa",
+      "size_bytes": 29278,
+      "git_blob_sha1": "c750809c47cd3fe4aa73b1acab978d7b29f26d17",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "3180ff5d10544bb003466db9dda86f42ea000dabbf4654d4f60e8045a6b4bdf0",
+      "size_bytes": 2269275,
+      "git_blob_sha1": "2902a79598c63a03725a59440f03cc0032230910",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "c53abe41ae2223f601c929584bdc60f29da39bb779866bbe8335460318829a91",
+      "size_bytes": 1161484,
+      "git_blob_sha1": "73c9aed75eba578c391a60e40c69e0bc3db72caa",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "lush-hotel-courtyard.tmj",
+      "sha256": "83b0f15a25d4340f12c772410eb6ca6b570c349552e91db8ab089f6cbd8c245f",
+      "size_bytes": 79687,
+      "git_blob_sha1": "5e4beb402e108237427e09dbf9c0d126cc90fc28",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "lush-hotel-courtyard.wam",
+      "sha256": "d477d480e07ad6c0394efeb62fd33bdd295c2ff23a731e99def93c5d5dc72dae",
+      "size_bytes": 327,
+      "git_blob_sha1": "91304abe6300f43c2809835618c2c073d3722031",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    }
+  ]
+}

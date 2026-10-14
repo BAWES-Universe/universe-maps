@@ -1,0 +1,271 @@
+{
+  "scope": "Map-only native area reveals. Existing v09 identifiers retained, empty hall/roof groups preserve controller compatibility; no collidable door toggles.",
+  "coordinateRule": "Authored player-center rectangles convert area y+16; inclusive endpoints.",
+  "defaultChildrenVisible": false,
+  "startup": "Fail open: all decorative shell children hidden until area and position initialization succeeds. Exterior may briefly show floor while scripts initialize.",
+  "owners": [
+    {
+      "id": "hall",
+      "entry": {
+        "core": [
+          128,
+          256,
+          1664,
+          1344
+        ],
+        "east": [
+          1536,
+          432,
+          1832,
+          880
+        ]
+      },
+      "hold": {
+        "core": [
+          96,
+          224,
+          1696,
+          1376
+        ],
+        "east": [
+          1504,
+          400,
+          1864,
+          912
+        ]
+      },
+      "hide": [
+        "v09-hall-shadow",
+        "v09-hall-shell",
+        "v09-foyer-roof"
+      ]
+    },
+    {
+      "id": "foyer",
+      "entry": {
+        "core": [
+          128,
+          1280,
+          1664,
+          2032
+        ],
+        "south": [
+          512,
+          1696,
+          1280,
+          2112
+        ],
+        "east": [
+          1536,
+          1328,
+          1832,
+          1776
+        ]
+      },
+      "hold": {
+        "core": [
+          96,
+          1248,
+          1696,
+          2064
+        ],
+        "south": [
+          480,
+          1664,
+          1312,
+          2144
+        ],
+        "east": [
+          1504,
+          1296,
+          1864,
+          1808
+        ]
+      },
+      "hide": [
+        "v09-foyer-shadow",
+        "v09-foyer-wings",
+        "v09-foyer-roof",
+        "v09-foyer-front"
+      ]
+    }
+  ],
+  "runtimeOwners": [
+    {
+      "id": "hall",
+      "hide": [
+        "v09-hall-shadow",
+        "v09-hall-shell",
+        "v09-foyer-roof"
+      ],
+      "entry": [
+        "v09-hall-entry-core",
+        "v09-hall-entry-east"
+      ],
+      "hold": [
+        "v09-hall-hold-core",
+        "v09-hall-hold-east"
+      ]
+    },
+    {
+      "id": "foyer",
+      "hide": [
+        "v09-foyer-shadow",
+        "v09-foyer-wings",
+        "v09-foyer-roof",
+        "v09-foyer-front"
+      ],
+      "entry": [
+        "v09-foyer-entry-core",
+        "v09-foyer-entry-south",
+        "v09-foyer-entry-east"
+      ],
+      "hold": [
+        "v09-foyer-hold-core",
+        "v09-foyer-hold-south",
+        "v09-foyer-hold-east"
+      ]
+    }
+  ],
+  "areas": [
+    {
+      "name": "v09-hall-entry-core",
+      "x": 128,
+      "y": 272,
+      "width": 1536,
+      "height": 1088,
+      "playerCenterXYXY": [
+        128,
+        256,
+        1664,
+        1344
+      ]
+    },
+    {
+      "name": "v09-hall-entry-east",
+      "x": 1536,
+      "y": 448,
+      "width": 296,
+      "height": 448,
+      "playerCenterXYXY": [
+        1536,
+        432,
+        1832,
+        880
+      ]
+    },
+    {
+      "name": "v09-hall-hold-core",
+      "x": 96,
+      "y": 240,
+      "width": 1600,
+      "height": 1152,
+      "playerCenterXYXY": [
+        96,
+        224,
+        1696,
+        1376
+      ]
+    },
+    {
+      "name": "v09-hall-hold-east",
+      "x": 1504,
+      "y": 416,
+      "width": 360,
+      "height": 512,
+      "playerCenterXYXY": [
+        1504,
+        400,
+        1864,
+        912
+      ]
+    },
+    {
+      "name": "v09-foyer-entry-core",
+      "x": 128,
+      "y": 1296,
+      "width": 1536,
+      "height": 752,
+      "playerCenterXYXY": [
+        128,
+        1280,
+        1664,
+        2032
+      ]
+    },
+    {
+      "name": "v09-foyer-entry-south",
+      "x": 512,
+      "y": 1712,
+      "width": 768,
+      "height": 416,
+      "playerCenterXYXY": [
+        512,
+        1696,
+        1280,
+        2112
+      ]
+    },
+    {
+      "name": "v09-foyer-entry-east",
+      "x": 1536,
+      "y": 1344,
+      "width": 296,
+      "height": 448,
+      "playerCenterXYXY": [
+        1536,
+        1328,
+        1832,
+        1776
+      ]
+    },
+    {
+      "name": "v09-foyer-hold-core",
+      "x": 96,
+      "y": 1264,
+      "width": 1600,
+      "height": 816,
+      "playerCenterXYXY": [
+        96,
+        1248,
+        1696,
+        2064
+      ]
+    },
+    {
+      "name": "v09-foyer-hold-south",
+      "x": 480,
+      "y": 1680,
+      "width": 832,
+      "height": 480,
+      "playerCenterXYXY": [
+        480,
+        1664,
+        1312,
+        2144
+      ]
+    },
+    {
+      "name": "v09-foyer-hold-east",
+      "x": 1504,
+      "y": 1312,
+      "width": 360,
+      "height": 512,
+      "playerCenterXYXY": [
+        1504,
+        1296,
+        1864,
+        1808
+      ]
+    }
+  ],
+  "nativeFocusXYWH": [
+    128,
+    256,
+    1536,
+    1008
+  ],
+  "hysteresisPx": 32,
+  "cameraOwner": "Native TMJ focusable area only; ordinary exterior camera.",
+  "dependency": "Hall groups are empty in r02. Foyer front projecting piers/cornice and exact portal cut away; rear frame and clear panes stay visible. Permanent geometry remains unchanged except explicit terrace-table delta."
+}

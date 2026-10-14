@@ -1,0 +1,189 @@
+{
+  "dimensions": [
+    48,
+    32,
+    32
+  ],
+  "source_reconstruction": {
+    "assets/base.png": true,
+    "assets/above.png": true
+  },
+  "random_spawns": [
+    {
+      "name": "start",
+      "xRange": [
+        784,
+        784
+      ],
+      "yRange": [
+        944,
+        944
+      ],
+      "samples": 1,
+      "bad": [],
+      "badCount": 0
+    }
+  ],
+  "walkable_cells": 391,
+  "unreachable_cells": 0,
+  "quiet_cells": 1,
+  "anchors": [
+    {
+      "id": "briefing entry",
+      "x": 592,
+      "y": 815,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "briefing screen",
+      "x": 336,
+      "y": 719,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "incident review",
+      "x": 1168,
+      "y": 783,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "main control west",
+      "x": 336,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "main control east",
+      "x": 1200,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "central command aisle",
+      "x": 688,
+      "y": 367,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "arrival",
+      "x": 784,
+      "y": 943,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": true
+    },
+    {
+      "id": "operator-1",
+      "x": 496,
+      "y": 303,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "operator-2",
+      "x": 784,
+      "y": 303,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "operator-3",
+      "x": 1040,
+      "y": 303,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "operator-4",
+      "x": 560,
+      "y": 431,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "operator-5",
+      "x": 784,
+      "y": 431,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "operator-6",
+      "x": 976,
+      "y": 431,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "briefing-1",
+      "x": 336,
+      "y": 847,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "briefing-2",
+      "x": 368,
+      "y": 847,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    }
+  ],
+  "body_clear_positions": 336604,
+  "head_conflicts": 0,
+  "head_conflict_examples": [],
+  "media_areas": [
+    {
+      "id": "mission-control-center-0",
+      "name": "Briefing room",
+      "x": 160,
+      "y": 704,
+      "width": 415,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "mission-control-center-0-room",
+          "type": "livekitRoomProperty",
+          "roomName": "mission-control-center-0",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ],
+      "reachable_membership_positions": 40791
+    }
+  ],
+  "issues": [],
+  "scope": "Independent actual-TMJ atlas decode, collision-derived cardinal connectivity and exhaustive integer source body/head geometry; not native route replay, browser, physics keyboard, devices, media or deployment.",
+  "input_hashes": {
+    "map32/architecture-and-furniture-0.png": "a04ccd0e9f5a28996f16c52fc0d620ade71bb6af1a0cb13fa1bbf6ed50def0bd",
+    "map32/architecture-and-furniture-1.png": "b6c35063127ab1cf62e2df50cd4a9ea27aac6c017534d879b37f4c70516cecc1",
+    "map32/logic.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "map32/map.tmj": "0d585f41476c1b1d625ce43904400b85d7c08a4135b78db5fda871fa76bbf230",
+    "map32/map.wam": "4610a85e4ef2903e5942c17c86094f3383c5af59c7e6ecb9316bc42fb2f397e0",
+    "map32/seat-backs-0.png": "a237c4abc247618da5454083300892ab57bbd9a2f473642ce0490524f48227fa"
+  }
+}

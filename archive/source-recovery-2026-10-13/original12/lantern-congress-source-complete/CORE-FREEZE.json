@@ -1,0 +1,102 @@
+{
+  "status": "Final runtime/art/geometry freeze for independent review; docs and packaging may still be added",
+  "revision": "lectern-depth-final",
+  "nativeSourceHead": "60e7afdc3f96ef32525597cd46bd41175d61a2ef",
+  "files": [
+    {
+      "path": "map32/architecture-furniture-0.png",
+      "bytes": 1321484,
+      "sha256": "98d917a0b7ab59d35bbb0d84552e018b0df0824ed3767c4d29c3a4910c86e51a"
+    },
+    {
+      "path": "map32/architecture-furniture-1.png",
+      "bytes": 1202101,
+      "sha256": "ebe43a43cb3c5e0d54ed5d979414dce084e60bdbb766d6b48ed0112232237f6c"
+    },
+    {
+      "path": "map32/architecture-furniture-2.png",
+      "bytes": 1180566,
+      "sha256": "101d362b8e52ca3c2e36fc95db8a715d9ad33358e4a04c1d8f398a7316b003b5"
+    },
+    {
+      "path": "map32/architecture-furniture-3.png",
+      "bytes": 619685,
+      "sha256": "9e939ed73b6f62cf36e80b0f5183d63e2db56f7a1936267f3ed0433551b67db6"
+    },
+    {
+      "path": "map32/collision.png",
+      "bytes": 104,
+      "sha256": "ce75997479da8e0c9f1239e8e04ff1e4758a1af985d2540f78585ed848132cde"
+    },
+    {
+      "path": "map32/conference.tmj",
+      "bytes": 295921,
+      "sha256": "a1a3040a45384ae3380b90f479c327c35c5301e7e71a695c5a5f5fe628c84005"
+    },
+    {
+      "path": "map32/conference.wam",
+      "bytes": 3466,
+      "sha256": "cdbab04682978c8aa6979daddeb5545504dea93db3c4327ebb0081638d7958bb"
+    },
+    {
+      "path": "map32/quiet.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "map32/seat-backs-0.png",
+      "bytes": 2847,
+      "sha256": "f06d02ac6dc3279d8bd83cf5a7771a96926a89ba4622fc0c056511ef93a75307"
+    },
+    {
+      "path": "source/layout.json",
+      "bytes": 118360,
+      "sha256": "5f2c8389483704edb823724e61daa9973929c9744cc97d58c4b526e586f67952"
+    },
+    {
+      "path": "source/collision-grid.json",
+      "bytes": 56169,
+      "sha256": "754c43e4eb951a3f41dbe61e4f2ee9594be110657e54c3cf4987453c9209bfec"
+    },
+    {
+      "path": "source/quiet-grid.json",
+      "bytes": 56101,
+      "sha256": "a263262f5073542b60a04e2124a6127af5d2131c82ffe3cc308b910f14b6138a"
+    },
+    {
+      "path": "assets/runtime-base.png",
+      "bytes": 4418564,
+      "sha256": "ace836cf75b5e4328233db27bcd4c70c6899d64205404145103b7a6e6045f00d"
+    },
+    {
+      "path": "assets/runtime-above.png",
+      "bytes": 39908,
+      "sha256": "e5d7ae4b08b66ba833fc0eac7386db6c0b4f36ed081c3c42e0ce01d3e32a4c39"
+    },
+    {
+      "path": "validation/head-danger.bin",
+      "bytes": 6291456,
+      "sha256": "abfc1f4600677a5b951b919db0929e7ee236a164522c88a6b23c289bc50486c7"
+    },
+    {
+      "path": "validation/static-validation.json",
+      "bytes": 334,
+      "sha256": "22d9f32cb7feb8d8d38b6c3fd8e6f0db536f3dee63548717455615194fff384e"
+    },
+    {
+      "path": "validation/native-routes/results.json",
+      "bytes": 2158,
+      "sha256": "a05a8dd2282ec12dbc751b882476f4fc8813866deda13c9b6c964d19c91e9ad5"
+    },
+    {
+      "path": "validation/native-routes/all-routes.json.gz",
+      "bytes": 80298,
+      "sha256": "07031cf3f7d10e92cb395945bf0fdb642d4827bfdd63ad01f24145abaea712db"
+    },
+    {
+      "path": "validation/focus/focus-results.json",
+      "bytes": 40222,
+      "sha256": "2e5e4bac38ec13dd29acf14bf00c1411e724a8b5b2097bf6450edd8437d1c46c"
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "schema_version": 1,
+  "package_id": "keeper-r2-reconstructed",
+  "destination": "reconstructed",
+  "artifact": {
+    "name": "Keeper-Return-r2-RECONSTRUCTED-source-checkpoint-2026-10-13.zip",
+    "library_file_id": "libfile_5fe8a50573488191a77cdb169cef6cca",
+    "version_id": "0",
+    "sha256": "b49eb2238fb5afd818bb143ce04f5563bdf248c6251852f65077b380b3d2b9ba",
+    "size_bytes": 53424
+  },
+  "nested_archives": [],
+  "source_status": "reconstructed_editable_source_runtime_byte_identical_19_files; inherited_teleport_race_known_failure; original_source_unavailable",
+  "git_scope": "Selected source text is present in this repository tree. All members also remain preserved in the pinned authenticated Library artifact.",
+  "files": [
+    {
+      "path": "keeper-r2-editable-reconstruction/README.md",
+      "sha256": "82a2a56f6c6110204d530288b3f6fdef0da4710f5d6777453f4dcc2dbe9138f9",
+      "git_blob_sha1": "5ea32d7de26bb99ec576bbc32111a1b0e1d9bbe2",
+      "size_bytes": 4706,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/README.md"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/clean-rebuild.json",
+      "sha256": "1c77d4ffe32c1eb2f5d466fd5709569c63bf0a720bdeeca554e54f6823c418a5",
+      "git_blob_sha1": "87651d599575951978d0066a05bc8aa44e8aad6f",
+      "size_bytes": 1032,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/clean-rebuild.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/controller.json",
+      "sha256": "a884ede30ba1fb4911d1babd410216a2d2d07842cf67cd7a00d09d9bcd818e18",
+      "git_blob_sha1": "86f8199a5c0cc8425d047e0252e846960bb6b2bd",
+      "size_bytes": 1208,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/controller.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/independent-review.json",
+      "sha256": "04c70c198e429752e2f3e12cce4c1e0991852c6a467f2662549f85b3f015d32b",
+      "git_blob_sha1": "2fb40317908880d09fc1d7b7691cd0c9c4d5aa0a",
+      "size_bytes": 2892,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/independent-review.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/known-issues/README.md",
+      "sha256": "12940073ed1b401241ecb5d37a955811e276d6293a4fa822f24f2d1dafb29083",
+      "git_blob_sha1": "7319ca6fe58a3f2159b8338bae49fa667778a90d",
+      "size_bytes": 725,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/known-issues/README.md"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/known-issues/original-failure.txt",
+      "sha256": "acee01bd85e6cccb026f78767ec5892faa91d214b31388a20eb4573464618fc5",
+      "git_blob_sha1": "5eaab50490701bbc75c8307e634fc375d649f9be",
+      "size_bytes": 578,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/known-issues/original-failure.txt"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/known-issues/original-stdout.json",
+      "sha256": "2406602572a895cba2e436421b119ef2cbfe5a783a0b6a75c3504952cad25efc",
+      "git_blob_sha1": "d709c4d98613bc11689c0124597bf3b54217bc77",
+      "size_bytes": 1035,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/known-issues/original-stdout.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/known-issues/rebuilt-failure.txt",
+      "sha256": "acee01bd85e6cccb026f78767ec5892faa91d214b31388a20eb4573464618fc5",
+      "git_blob_sha1": "5eaab50490701bbc75c8307e634fc375d649f9be",
+      "size_bytes": 578,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/known-issues/rebuilt-failure.txt"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/known-issues/rebuilt-stdout.json",
+      "sha256": "2406602572a895cba2e436421b119ef2cbfe5a783a0b6a75c3504952cad25efc",
+      "git_blob_sha1": "d709c4d98613bc11689c0124597bf3b54217bc77",
+      "size_bytes": 1035,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/known-issues/rebuilt-stdout.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/known-issues/reconstructed-local-failure.txt",
+      "sha256": "e0a3ec17ed935b8ac28e290934385de69ac82da6e344a48c03b28cbf57fa8c9d",
+      "git_blob_sha1": "a6f4ccae86da054cff36744dfc64a3decc868953",
+      "size_bytes": 604,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/known-issues/reconstructed-local-failure.txt"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/known-issues/reconstructed-local-stdout.json",
+      "sha256": "2406602572a895cba2e436421b119ef2cbfe5a783a0b6a75c3504952cad25efc",
+      "git_blob_sha1": "d709c4d98613bc11689c0124597bf3b54217bc77",
+      "size_bytes": 1035,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/known-issues/reconstructed-local-stdout.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/known-issues/rejected-teleport-newer-movement.test.cjs",
+      "sha256": "f2c5a22980204eb869d8683ef9935011c7bc359d5afacf663c7b4a028cf692a6",
+      "git_blob_sha1": "af4bd561e007c79c62f0bb1c11716d6f26c914c0",
+      "size_bytes": 2680,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/known-issues/rejected-teleport-newer-movement.test.cjs"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/reconstruction-source-manifest.json",
+      "sha256": "81e4b8d6cc131b453794fc09eb31897444bba01a6dcc38e5dfd497f6f19f1a69",
+      "git_blob_sha1": "98963dc89d0aef0217ed865ddc6b3391a033c7d6",
+      "size_bytes": 10561,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/reconstruction-source-manifest.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/runtime-comparison.json",
+      "sha256": "fad501c05c5d4ea35b220c57df3be4b9d69d0a843eb218d528afeadadfd283e1",
+      "git_blob_sha1": "3431aed2738719807e6b3cb678d2247b3ec43c82",
+      "size_bytes": 2869,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/runtime-comparison.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/evidence/structure.json",
+      "sha256": "4bc9eac6359eb99f66376b3f50703dcff5c67f46e5ba92383a190089ee7dfc0f",
+      "git_blob_sha1": "74f9ff517956045719113118c72272f8d3a6eb48",
+      "size_bytes": 3931,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/evidence/structure.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/anchors.json",
+      "sha256": "a6fef13385735a44012e0f4e480e8e611ab50643ed5fa39d83a19c655d8203fc",
+      "git_blob_sha1": "1e86e9603da81328a7a4db412998c1e0c6c514e5",
+      "size_bytes": 2228,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/anchors.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/art-provenance.json",
+      "sha256": "18e1be630b6f659b254ab7465b468113c34823b9d383e1c611a3dc86be99fa65",
+      "git_blob_sha1": "4b0df5e9e001c30e5666a1214e5c9895226408e4",
+      "size_bytes": 4358,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/art-provenance.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/controller.js",
+      "sha256": "bc21f1a348dcdbc2dac1ba81e3d10826a23fe561d45ca3e728423a4b021a0d55",
+      "git_blob_sha1": "6b62a21c782ec67326f9c0463288cfc404f5333a",
+      "size_bytes": 7285,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/controller.js"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/collision-permanent.csv",
+      "sha256": "22679664eb8d82b78456a4d03403b194f0bfcfedb1ad4377dda3170e68392ddd",
+      "git_blob_sha1": "bb1d7d1de438e8ac45736bdc1f7fc191d19d557b",
+      "size_bytes": 80039,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/collision-permanent.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/collision-permanent.json",
+      "sha256": "778e4949d409f50ec0488f993cda8c9cdec2478ebb41e54674f208ad25c97197",
+      "git_blob_sha1": "9da94c5ce04c8ca0b1adfbd1f1156ec8eac0fff8",
+      "size_bytes": 219,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/collision-permanent.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/floorLayer.json",
+      "sha256": "c72e365eff4d3839fad0ca23aaff61d26aa49cb42c7519f5f3b49ef56e057ea8",
+      "git_blob_sha1": "93298355025a41aaddc8beed1c44b57561ff4b0b",
+      "size_bytes": 161,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/floorLayer.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/foreground.csv",
+      "sha256": "5c22a458c0a801dff16910ec6250b69e231ec363828568338cd64fc4389e8a2d",
+      "git_blob_sha1": "5df8b8bf82ad408a3014ed0e0d17898d929ba960",
+      "size_bytes": 32834,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/foreground.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/foreground.json",
+      "sha256": "da11eced5a08abb9526e66b9485f1d17302e1a64d40739d740933b5237c2172b",
+      "git_blob_sha1": "e8ea67a92c987447038598030b2f43d3830b5a5d",
+      "size_bytes": 201,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/foreground.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/ground-and-objects.csv",
+      "sha256": "4892b4f35326cd6281ab91ddc3c73c5253fc952495d70a3c0db794b4279898f6",
+      "git_blob_sha1": "d53d5e3740215d8371a04812836c173dea2d1b36",
+      "size_bytes": 36260,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/ground-and-objects.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/ground-and-objects.json",
+      "sha256": "319796ec2e03d0a43a8e7191ee1f43db0f3aa99df41e37424ecdff48e8aa4643",
+      "git_blob_sha1": "f64416c8b2b5758f2a38b8bbcd2c0d0cd897ee0a",
+      "size_bytes": 217,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/ground-and-objects.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inlays-exterior.csv",
+      "sha256": "cf3988ab3320f3bcf3fdb662a5005cc85b6ad0905d5f1a4521ea5b67b1de0028",
+      "git_blob_sha1": "579e04ed8cfef03f30f923d7fbf08a384176ba94",
+      "size_bytes": 32783,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inlays-exterior.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inlays-exterior.json",
+      "sha256": "d367be4c87d759253842af7145c0a7bba888b93ed6423ccfbd4cb0ad074fda9a",
+      "git_blob_sha1": "0c85fd062a99761fcec00b994305ae5fb6c00867",
+      "size_bytes": 212,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inlays-exterior.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inlays-keeper-house.csv",
+      "sha256": "e55e2f6d59e1c5672f7314e73dcee6e46e8e736f1fa1c43a1d25720b5b6cb1b8",
+      "git_blob_sha1": "3ecf06d76bd4875193ebc89cf3e410f75ae7dc55",
+      "size_bytes": 32804,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inlays-keeper-house.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inlays-keeper-house.json",
+      "sha256": "36d09d19ffb8ab241bee843828ab76375a9a813c928249ea8cedf1094453b48c",
+      "git_blob_sha1": "6bfd70d79b9194b206e5187a6c91a277a7acdc6f",
+      "size_bytes": 220,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inlays-keeper-house.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inlays-lantern-room.csv",
+      "sha256": "ccac176ba489c2da570c1d71866138926f70f239224a8128fe78585a94a14d32",
+      "git_blob_sha1": "616f544c4c50695240a6713b3207b8e4430c8aa3",
+      "size_bytes": 32798,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inlays-lantern-room.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inlays-lantern-room.json",
+      "sha256": "8b451e0008edd6a88d8d1a9e88bfff9e05b75cf30fa0fd0c08a0f555a4977902",
+      "git_blob_sha1": "0f6471caab37e968bd9dc27222ca836b3289f34d",
+      "size_bytes": 220,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inlays-lantern-room.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inlays-lighthouse-workshop.csv",
+      "sha256": "9bc4e7eb426cf2da440f06a45cf7931b0ee4952d32faba12a2d72838c71f9916",
+      "git_blob_sha1": "f92bdc2f3f217723231afd660cbe939d5cfbe598",
+      "size_bytes": 32798,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inlays-lighthouse-workshop.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inlays-lighthouse-workshop.json",
+      "sha256": "99dad42a94b2b8050d28119ad94bbfcafe6710fd36695fcfa9dcb925697020a9",
+      "git_blob_sha1": "8f17d98804b12dd14391454f5b95993a20c7ff49",
+      "size_bytes": 234,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inlays-lighthouse-workshop.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inside-exterior-lit.csv",
+      "sha256": "cd2ad91a998340bca230b83bdd2afe599bb4205848bb0541ccde39460d523278",
+      "git_blob_sha1": "852aff4a0aca961012e0a52f5ec9faf3838297b0",
+      "size_bytes": 32795,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inside-exterior-lit.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inside-exterior-lit.json",
+      "sha256": "0916863c29eaca092a39e86a7e8ea643dd194f3844f45599a94dc9cfedf7001b",
+      "git_blob_sha1": "a4bde0b4d806a3c6a4d63fc0fbd9e195a325ac9e",
+      "size_bytes": 221,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inside-exterior-lit.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inside-house-key.csv",
+      "sha256": "aa1cd9f3388555832052c47bb1651738924f94c67ec49f2f677fe2de31ccf476",
+      "git_blob_sha1": "cf0306028a77d043feb1fb60cbc5d11699dcb0a1",
+      "size_bytes": 32771,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inside-house-key.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inside-house-key.json",
+      "sha256": "47d55e65709d096ae9a5bbd3a64e20f319cabf3edb30857867bc9342806d0ddf",
+      "git_blob_sha1": "fe1518070947a6558ea923bc222bd27ae1cf2cda",
+      "size_bytes": 215,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inside-house-key.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inside-lantern-lit.csv",
+      "sha256": "313a8b7136c6fbabf5598eb53fb967718fcda3a1838664f0626277bc6a548801",
+      "git_blob_sha1": "705465def20469226324c65b2041c1b0c9e895da",
+      "size_bytes": 32774,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inside-lantern-lit.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inside-lantern-lit.json",
+      "sha256": "92b00c55f7afb28bdb992b0a12346d0dfa7a1f0c45f85c022f2e7386e9f76654",
+      "git_blob_sha1": "ce8bd9b2cfb896ffa60b0c3cb398d00d1206718a",
+      "size_bytes": 219,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inside-lantern-lit.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inside-lens-focused.csv",
+      "sha256": "0bf847dce5286135cfa1897124dbc10e024b5fa6afd6c93bab96f5b54871d9d3",
+      "git_blob_sha1": "a8bd9dfaa3c7156f5d46c2182d6425326cc95881",
+      "size_bytes": 32792,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inside-lens-focused.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inside-lens-focused.json",
+      "sha256": "9b9bc9da4d27d251655f238e04785240e576e216fceec54af733d98d0a3684e6",
+      "git_blob_sha1": "2b6d28b327d8f4e6a270a63d63ee93765f4ec49f",
+      "size_bytes": 221,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inside-lens-focused.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inside-popups.json",
+      "sha256": "224f9e3f1c0ff62628733dc8ba8b4ea84fdd4a9f753f681ede077a920ff2b1ad",
+      "git_blob_sha1": "eb9f6716e8cb641012e6965ad8b8f8ff6dc694f5",
+      "size_bytes": 3162,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inside-popups.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inside-workshop-power.csv",
+      "sha256": "c3d4ff16ff4a25d71d08702f1b65d43c99fd523620d2b267bb772186579c0dab",
+      "git_blob_sha1": "649561eb563c6ca5b0da99918ba1af1cc5be2085",
+      "size_bytes": 32774,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inside-workshop-power.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/inside-workshop-power.json",
+      "sha256": "d26dca1389b8dff8756af44552206a6c1d2073ba1cee4d4b284d774855970021",
+      "git_blob_sha1": "1bc40c0c4dd17e61da712a098d4e4974d41b708f",
+      "size_bytes": 225,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/inside-workshop-power.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/keeper-house.csv",
+      "sha256": "974274d04fa876f5334cd63d564fc0fb04285ef15f41c1ed125e8a288b49c4e5",
+      "git_blob_sha1": "79186298f904200ae87953d63d9300cb40b9d38d",
+      "size_bytes": 33728,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/keeper-house.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/keeper-house.json",
+      "sha256": "f48f198638d7ef903ac5d7c59412d9bce4cc8f1ffe26d4d7515b8e653d0829e8",
+      "git_blob_sha1": "4313cce708b90444086b4d5652ed1faeae85e64d",
+      "size_bytes": 205,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/keeper-house.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/lantern-room.csv",
+      "sha256": "7f75abb57fa6c84adacff0646fdcd08b76e43d6172e14f552f731b6dc5fd1272",
+      "git_blob_sha1": "fcd2874812530b773a5036f8cbbee1a495d1d454",
+      "size_bytes": 33728,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/lantern-room.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/lantern-room.json",
+      "sha256": "7ccdaeb615fb8d7c52a19e9a043eaa0bc7743ada4007af0a194167c836e18b30",
+      "git_blob_sha1": "8290108f1896cba6205ed26b45c0492e818c6d7f",
+      "size_bytes": 205,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/lantern-room.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/lighthouse-workshop.csv",
+      "sha256": "06840ad2220c79e329483edd3de26c7fee3d38f3cdf4c7737c7c9cc42f2c24a6",
+      "git_blob_sha1": "c45cbdcecf581c978f3df6b2866ae9b1f64b0d0f",
+      "size_bytes": 33728,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/lighthouse-workshop.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/lighthouse-workshop.json",
+      "sha256": "ecdb64391b554bb78d47bce56b3294c3f49477b684aa99e47dfa241f74882df7",
+      "git_blob_sha1": "72cfeda81630277d2e5cfe28a3231d644d327739",
+      "size_bytes": 219,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/lighthouse-workshop.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/map-areas.json",
+      "sha256": "e038ccd4f01e2501b6f52a6d143c29d4c322dafc0227e237dab68150e3b909ec",
+      "git_blob_sha1": "5e206f0995146b1ea907e280409562f3f043f12e",
+      "size_bytes": 1815,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/map-areas.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/silent-spawn-only.csv",
+      "sha256": "b59f6b23b754da0f8cd2d4aaa8f011e8825b8aebe41a05f6bf94de899c7af3ab",
+      "git_blob_sha1": "4c8514b1be290ea4e9d6291105822734f13df412",
+      "size_bytes": 32771,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/silent-spawn-only.csv"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/layers/silent-spawn-only.json",
+      "sha256": "5bd86c1d6830020d134da343c36366e4e051e81676c7814e674e2705cdb60ba5",
+      "git_blob_sha1": "eb9f670b94013dd22136541866e6f9dbc872521d",
+      "size_bytes": 316,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/layers/silent-spawn-only.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/map.json",
+      "sha256": "9b7467c375a13911f72ba8619776d671b3c0bd5f7557e51f1e20fd4a37385413",
+      "git_blob_sha1": "6b247eedb86c4327e4dd0b94396e50ecf3bcd734",
+      "size_bytes": 6914,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/map.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/room.wam.json",
+      "sha256": "4b89abbfaf6a74248027c32103c576d6662a5f24bf4df0c05f6b9322c6ee9272",
+      "git_blob_sha1": "e0d6573f7fbc40a1736361bb6e1477a40ca89355",
+      "size_bytes": 511,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/room.wam.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/source/runtime-baseline.json",
+      "sha256": "271901c8dc949df4bb17e4625f04eb475011193020d5554c52388a4301b438db",
+      "git_blob_sha1": "8f6f321d4990bfc10cb40c26ea5c8ae0661becea",
+      "size_bytes": 3193,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/runtime-baseline.json"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/tests/controller.cjs",
+      "sha256": "24b7c2ab508bf5906a1cc6054d364854d785197db9b26811877bc610b274ccfc",
+      "git_blob_sha1": "0d1c2ca0dd83e7b9ce9b5609c2aff5d5ed1f4b59",
+      "size_bytes": 8522,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/tests/controller.cjs"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/tests/structure.py",
+      "sha256": "4ed4cd0b3858e7a5bc22a03499cd391aad3a97ac1142fceb169e62ba12d14a6c",
+      "git_blob_sha1": "4faabdc1aed0bdae315a1f92679a7c7c5acd4e1d",
+      "size_bytes": 3740,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/tests/structure.py"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/tools/build.py",
+      "sha256": "b41f26ce06d94570ab88c591df5249cc1f81059addbdfc91ce7b9355318c2ea8",
+      "git_blob_sha1": "992bd702effed4b0432ef5d094c157d71076ab04",
+      "size_bytes": 3354,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/tools/build.py"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/tools/clean_rebuild.py",
+      "sha256": "b53bcee53fc7f690a4bde2a200b1c28cedc0522f87607f41eb7b391f994207b0",
+      "git_blob_sha1": "90074722507c8c96b3fadd8c41e8c0b88da15aad",
+      "size_bytes": 3573,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/tools/clean_rebuild.py"
+    },
+    {
+      "path": "keeper-r2-editable-reconstruction/tools/restore_art.py",
+      "sha256": "6b3ab3b7d20be499743690ef2afdbf81b5f2b2890dd3154841d901846282f18f",
+      "git_blob_sha1": "a0dfc78eeb07efe2f2d212d98623ad395c20e3fd",
+      "size_bytes": 1627,
+      "storage": "git",
+      "reason": "small_source_or_test_evidence",
+      "git_path": "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/tools/restore_art.py"
+    }
+  ]
+}

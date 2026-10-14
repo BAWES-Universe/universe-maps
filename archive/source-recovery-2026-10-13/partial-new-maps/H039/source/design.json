@@ -1,0 +1,1849 @@
+{
+  "id": "H039",
+  "title": "Paper Marbling Mill",
+  "world": [
+    1920,
+    768
+  ],
+  "art": "art/masters/mill-r5.png",
+  "nativeArt": "source/mill-native.png",
+  "spawn": [
+    432,
+    527
+  ],
+  "rooms": [
+    {
+      "id": "mill-yard",
+      "bounds": [
+        0,
+        0,
+        1152,
+        768
+      ],
+      "spawn": [
+        432,
+        527
+      ]
+    },
+    {
+      "id": "pattern-room",
+      "bounds": [
+        1152,
+        0,
+        1920,
+        768
+      ],
+      "spawn": [
+        1552,
+        559
+      ]
+    }
+  ],
+  "openRects": [
+    [
+      7,
+      8,
+      7,
+      8
+    ],
+    [
+      13,
+      8,
+      13,
+      8
+    ],
+    [
+      34,
+      11,
+      34,
+      11
+    ],
+    [
+      19,
+      13,
+      19,
+      13
+    ],
+    [
+      38,
+      7,
+      57,
+      17
+    ],
+    [
+      4,
+      9,
+      19,
+      9
+    ],
+    [
+      4,
+      10,
+      4,
+      14
+    ],
+    [
+      5,
+      14,
+      19,
+      14
+    ],
+    [
+      12,
+      15,
+      15,
+      15
+    ],
+    [
+      13,
+      16,
+      15,
+      23
+    ],
+    [
+      11,
+      10,
+      13,
+      13
+    ],
+    [
+      20,
+      11,
+      21,
+      14
+    ],
+    [
+      20,
+      10,
+      20,
+      10
+    ],
+    [
+      22,
+      12,
+      31,
+      13
+    ],
+    [
+      32,
+      11,
+      33,
+      14
+    ],
+    [
+      32,
+      10,
+      34,
+      10
+    ]
+  ],
+  "blockedCells": [
+    [
+      43,
+      9
+    ],
+    [
+      44,
+      9
+    ],
+    [
+      45,
+      9
+    ],
+    [
+      46,
+      9
+    ],
+    [
+      47,
+      9
+    ],
+    [
+      48,
+      9
+    ],
+    [
+      49,
+      9
+    ],
+    [
+      50,
+      9
+    ],
+    [
+      51,
+      9
+    ],
+    [
+      52,
+      9
+    ],
+    [
+      43,
+      10
+    ],
+    [
+      44,
+      10
+    ],
+    [
+      45,
+      10
+    ],
+    [
+      46,
+      10
+    ],
+    [
+      47,
+      10
+    ],
+    [
+      48,
+      10
+    ],
+    [
+      49,
+      10
+    ],
+    [
+      50,
+      10
+    ],
+    [
+      51,
+      10
+    ],
+    [
+      52,
+      10
+    ],
+    [
+      43,
+      11
+    ],
+    [
+      44,
+      11
+    ],
+    [
+      45,
+      11
+    ],
+    [
+      46,
+      11
+    ],
+    [
+      47,
+      11
+    ],
+    [
+      48,
+      11
+    ],
+    [
+      49,
+      11
+    ],
+    [
+      50,
+      11
+    ],
+    [
+      51,
+      11
+    ],
+    [
+      52,
+      11
+    ],
+    [
+      43,
+      12
+    ],
+    [
+      44,
+      12
+    ],
+    [
+      45,
+      12
+    ],
+    [
+      46,
+      12
+    ],
+    [
+      47,
+      12
+    ],
+    [
+      48,
+      12
+    ],
+    [
+      49,
+      12
+    ],
+    [
+      50,
+      12
+    ],
+    [
+      51,
+      12
+    ],
+    [
+      52,
+      12
+    ],
+    [
+      43,
+      13
+    ],
+    [
+      44,
+      13
+    ],
+    [
+      45,
+      13
+    ],
+    [
+      46,
+      13
+    ],
+    [
+      47,
+      13
+    ],
+    [
+      48,
+      13
+    ],
+    [
+      49,
+      13
+    ],
+    [
+      50,
+      13
+    ],
+    [
+      51,
+      13
+    ],
+    [
+      52,
+      13
+    ],
+    [
+      43,
+      14
+    ],
+    [
+      44,
+      14
+    ],
+    [
+      45,
+      14
+    ],
+    [
+      46,
+      14
+    ],
+    [
+      47,
+      14
+    ],
+    [
+      48,
+      14
+    ],
+    [
+      49,
+      14
+    ],
+    [
+      50,
+      14
+    ],
+    [
+      51,
+      14
+    ],
+    [
+      52,
+      14
+    ],
+    [
+      7,
+      15
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      16,
+      15
+    ],
+    [
+      17,
+      15
+    ],
+    [
+      21,
+      11
+    ],
+    [
+      21,
+      14
+    ],
+    [
+      34,
+      10
+    ]
+  ],
+  "seats": [
+    {
+      "name": "West round beech stool",
+      "anchor": [
+        264,
+        463
+      ],
+      "room": "mill-yard",
+      "direction": "south",
+      "cushionBounds": [
+        245,
+        465,
+        283,
+        479
+      ],
+      "contactOffset": [
+        0,
+        10
+      ]
+    },
+    {
+      "name": "East rounded beech stool",
+      "anchor": [
+        552,
+        463
+      ],
+      "room": "mill-yard",
+      "direction": "south",
+      "cushionBounds": [
+        533,
+        465,
+        571,
+        479
+      ],
+      "contactOffset": [
+        0,
+        10
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "id": "journal",
+      "name": "Mill gate arrival",
+      "anchor": [
+        432,
+        527
+      ],
+      "room": "mill-yard",
+      "radius": 24
+    },
+    {
+      "id": "swirl",
+      "name": "West marbling tray",
+      "anchor": [
+        264,
+        303
+      ],
+      "room": "mill-yard",
+      "radius": 24
+    },
+    {
+      "id": "rake",
+      "name": "East marbling tray",
+      "anchor": [
+        552,
+        303
+      ],
+      "room": "mill-yard",
+      "radius": 24
+    },
+    {
+      "id": "comb",
+      "name": "Pattern cabinet comb station",
+      "anchor": [
+        1552,
+        256
+      ],
+      "room": "pattern-room",
+      "radius": 24
+    },
+    {
+      "id": "rack",
+      "name": "Drying bridge print rack",
+      "anchor": [
+        1072,
+        367
+      ],
+      "room": "mill-yard",
+      "radius": 24
+    },
+    {
+      "id": "enter",
+      "name": "Mill exterior door approach",
+      "anchor": [
+        432,
+        271
+      ],
+      "room": "mill-yard",
+      "radius": 20,
+      "to": "exit",
+      "action": "Enter pattern room",
+      "description": "Enter the mill pattern cabinet room. Your wet pattern and hanging print are preserved."
+    },
+    {
+      "id": "exit",
+      "name": "Pattern room interior door approach",
+      "anchor": [
+        1552,
+        559
+      ],
+      "room": "pattern-room",
+      "radius": 22,
+      "to": "enter",
+      "action": "Return to mill yard",
+      "description": "Leave through the same mill door. Your marbling work stays unchanged."
+    },
+    {
+      "id": "inspect",
+      "name": "Pattern viewing table",
+      "anchor": [
+        1552,
+        495
+      ],
+      "room": "pattern-room",
+      "radius": 24
+    },
+    {
+      "id": "west",
+      "name": "West tray side",
+      "anchor": [
+        144,
+        399
+      ],
+      "room": "mill-yard",
+      "radius": 0
+    },
+    {
+      "id": "middle",
+      "name": "Between trays",
+      "anchor": [
+        400,
+        399
+      ],
+      "room": "mill-yard",
+      "radius": 0
+    },
+    {
+      "id": "east",
+      "name": "East tray side",
+      "anchor": [
+        656,
+        416
+      ],
+      "room": "mill-yard",
+      "radius": 0
+    },
+    {
+      "id": "bridge",
+      "name": "Drying bridge deck",
+      "anchor": [
+        848,
+        416
+      ],
+      "room": "mill-yard",
+      "radius": 0
+    },
+    {
+      "id": "bank",
+      "name": "Right-bank landing",
+      "anchor": [
+        1040,
+        431
+      ],
+      "room": "mill-yard",
+      "radius": 0
+    },
+    {
+      "id": "south",
+      "name": "Gate winding return",
+      "anchor": [
+        432,
+        623
+      ],
+      "room": "mill-yard",
+      "radius": 0
+    },
+    {
+      "id": "roomwest",
+      "name": "Table west aisle",
+      "anchor": [
+        1296,
+        399
+      ],
+      "room": "pattern-room",
+      "radius": 0
+    },
+    {
+      "id": "roomeast",
+      "name": "Table east aisle",
+      "anchor": [
+        1776,
+        399
+      ],
+      "room": "pattern-room",
+      "radius": 0
+    }
+  ],
+  "doors": [
+    {
+      "name": "Mill exterior door approach",
+      "id": "enter",
+      "room": "mill-yard",
+      "approach": [
+        432,
+        271
+      ],
+      "to": "exit"
+    },
+    {
+      "name": "Pattern room interior door approach",
+      "id": "exit",
+      "room": "pattern-room",
+      "approach": [
+        1552,
+        559
+      ],
+      "to": "enter"
+    }
+  ],
+  "foregroundPolygons": [
+    [
+      [
+        250,
+        477
+      ],
+      [
+        277,
+        477
+      ],
+      [
+        277,
+        479
+      ],
+      [
+        250,
+        479
+      ]
+    ],
+    [
+      [
+        538,
+        477
+      ],
+      [
+        565,
+        477
+      ],
+      [
+        565,
+        479
+      ],
+      [
+        538,
+        479
+      ]
+    ]
+  ],
+  "fixtureNegatives": [
+    {
+      "name": "West tray whole base and projected rim NW",
+      "point": [
+        184,
+        324
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "West tray whole base and projected rim NE",
+      "point": [
+        326,
+        324
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "West tray whole base and projected rim SW",
+      "point": [
+        184,
+        428
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "West tray whole base and projected rim SE",
+      "point": [
+        326,
+        428
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "West tray whole base and projected rim center",
+      "point": [
+        255,
+        376
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East tray full upper rim and body NW",
+      "point": [
+        471,
+        325
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East tray full upper rim and body NE",
+      "point": [
+        609,
+        325
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East tray full upper rim and body SW",
+      "point": [
+        471,
+        415
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East tray full upper rim and body SE",
+      "point": [
+        609,
+        415
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East tray full upper rim and body center",
+      "point": [
+        540,
+        370
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East tray full lower apron and supports NW",
+      "point": [
+        471,
+        416
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East tray full lower apron and supports NE",
+      "point": [
+        607,
+        416
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East tray full lower apron and supports SW",
+      "point": [
+        471,
+        429
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East tray full lower apron and supports SE",
+      "point": [
+        607,
+        429
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East tray full lower apron and supports center",
+      "point": [
+        539,
+        423
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full upper crossbar and sheets NW",
+      "point": [
+        940,
+        233
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full upper crossbar and sheets NE",
+      "point": [
+        1115,
+        233
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full upper crossbar and sheets SW",
+      "point": [
+        940,
+        311
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full upper crossbar and sheets SE",
+      "point": [
+        1115,
+        311
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full upper crossbar and sheets center",
+      "point": [
+        1028,
+        272
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full west post foot NW",
+      "point": [
+        947,
+        233
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full west post foot NE",
+      "point": [
+        964,
+        233
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full west post foot SW",
+      "point": [
+        947,
+        330
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full west post foot SE",
+      "point": [
+        964,
+        330
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full west post foot center",
+      "point": [
+        956,
+        282
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full east post foot NW",
+      "point": [
+        1101,
+        233
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full east post foot NE",
+      "point": [
+        1115,
+        233
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full east post foot SW",
+      "point": [
+        1101,
+        330
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full east post foot SE",
+      "point": [
+        1115,
+        330
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying rack full east post foot center",
+      "point": [
+        1108,
+        282
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "North bridge rail entire projection NW",
+      "point": [
+        688,
+        332
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "North bridge rail entire projection NE",
+      "point": [
+        1018,
+        332
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "North bridge rail entire projection SW",
+      "point": [
+        688,
+        368
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "North bridge rail entire projection SE",
+      "point": [
+        1018,
+        368
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "North bridge rail entire projection center",
+      "point": [
+        853,
+        350
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "South bridge rail entire projection NW",
+      "point": [
+        688,
+        455
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "South bridge rail entire projection NE",
+      "point": [
+        1023,
+        455
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "South bridge rail entire projection SW",
+      "point": [
+        688,
+        498
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "South bridge rail entire projection SE",
+      "point": [
+        1023,
+        498
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "South bridge rail entire projection center",
+      "point": [
+        856,
+        477
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Pattern table whole rim legs and base NW",
+      "point": [
+        1380,
+        291
+      ],
+      "room": "pattern-room"
+    },
+    {
+      "name": "Pattern table whole rim legs and base NE",
+      "point": [
+        1694,
+        291
+      ],
+      "room": "pattern-room"
+    },
+    {
+      "name": "Pattern table whole rim legs and base SW",
+      "point": [
+        1380,
+        472
+      ],
+      "room": "pattern-room"
+    },
+    {
+      "name": "Pattern table whole rim legs and base SE",
+      "point": [
+        1694,
+        472
+      ],
+      "room": "pattern-room"
+    },
+    {
+      "name": "Pattern table whole rim legs and base center",
+      "point": [
+        1537,
+        382
+      ],
+      "room": "pattern-room"
+    },
+    {
+      "name": "Pattern cabinet entire base NW",
+      "point": [
+        1228,
+        189
+      ],
+      "room": "pattern-room"
+    },
+    {
+      "name": "Pattern cabinet entire base NE",
+      "point": [
+        1839,
+        189
+      ],
+      "room": "pattern-room"
+    },
+    {
+      "name": "Pattern cabinet entire base SW",
+      "point": [
+        1228,
+        217
+      ],
+      "room": "pattern-room"
+    },
+    {
+      "name": "Pattern cabinet entire base SE",
+      "point": [
+        1839,
+        217
+      ],
+      "room": "pattern-room"
+    },
+    {
+      "name": "Pattern cabinet entire base center",
+      "point": [
+        1534,
+        203
+      ],
+      "room": "pattern-room"
+    },
+    {
+      "name": "West stool ground apron feet NW",
+      "point": [
+        245,
+        480
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "West stool ground apron feet NE",
+      "point": [
+        282,
+        480
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "West stool ground apron feet SW",
+      "point": [
+        245,
+        484
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "West stool ground apron feet SE",
+      "point": [
+        282,
+        484
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "West stool ground apron feet center",
+      "point": [
+        264,
+        482
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East stool ground apron feet NW",
+      "point": [
+        533,
+        480
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East stool ground apron feet NE",
+      "point": [
+        570,
+        480
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East stool ground apron feet SW",
+      "point": [
+        533,
+        484
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East stool ground apron feet SE",
+      "point": [
+        570,
+        484
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East stool ground apron feet center",
+      "point": [
+        552,
+        482
+      ],
+      "room": "mill-yard"
+    }
+  ],
+  "visiblePaths": [
+    {
+      "name": "Northern mill-yard promenade",
+      "origins": [
+        [
+          136,
+          288
+        ],
+        [
+          632,
+          288
+        ],
+        [
+          632,
+          304
+        ],
+        [
+          136,
+          304
+        ],
+        [
+          136,
+          288
+        ]
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Between marbling trays full width",
+      "origins": [
+        [
+          360,
+          320
+        ],
+        [
+          440,
+          320
+        ],
+        [
+          440,
+          432
+        ],
+        [
+          360,
+          432
+        ],
+        [
+          360,
+          320
+        ]
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "West tray incidental side",
+      "origins": [
+        [
+          136,
+          320
+        ],
+        [
+          152,
+          320
+        ],
+        [
+          152,
+          432
+        ],
+        [
+          136,
+          432
+        ],
+        [
+          136,
+          320
+        ]
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East tray landing",
+      "origins": [
+        [
+          648,
+          352
+        ],
+        [
+          664,
+          352
+        ],
+        [
+          664,
+          432
+        ],
+        [
+          648,
+          432
+        ],
+        [
+          648,
+          352
+        ]
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Drying bridge64px deck",
+      "origins": [
+        [
+          712,
+          384
+        ],
+        [
+          1016,
+          384
+        ],
+        [
+          1016,
+          432
+        ],
+        [
+          712,
+          432
+        ],
+        [
+          712,
+          384
+        ]
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Bridge west landing",
+      "origins": [
+        [
+          648,
+          384
+        ],
+        [
+          696,
+          384
+        ],
+        [
+          696,
+          432
+        ],
+        [
+          648,
+          432
+        ],
+        [
+          648,
+          384
+        ]
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Bridge east landing",
+      "origins": [
+        [
+          1032,
+          352
+        ],
+        [
+          1080,
+          352
+        ],
+        [
+          1080,
+          464
+        ],
+        [
+          1032,
+          464
+        ],
+        [
+          1032,
+          352
+        ]
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Lower courtyard",
+      "origins": [
+        [
+          296,
+          448
+        ],
+        [
+          504,
+          448
+        ],
+        [
+          504,
+          464
+        ],
+        [
+          296,
+          464
+        ],
+        [
+          296,
+          448
+        ]
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "West stool actual approach",
+      "origins": [
+        [
+          248,
+          448
+        ],
+        [
+          264,
+          448
+        ],
+        [
+          264,
+          464
+        ],
+        [
+          248,
+          464
+        ],
+        [
+          248,
+          448
+        ]
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "East stool actual approach",
+      "origins": [
+        [
+          536,
+          448
+        ],
+        [
+          552,
+          448
+        ],
+        [
+          552,
+          464
+        ],
+        [
+          536,
+          464
+        ],
+        [
+          536,
+          448
+        ]
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "South yard walk",
+      "origins": [
+        [
+          424,
+          512
+        ],
+        [
+          504,
+          512
+        ],
+        [
+          504,
+          528
+        ],
+        [
+          424,
+          528
+        ],
+        [
+          424,
+          512
+        ]
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Main gate64px run",
+      "origins": [
+        [
+          424,
+          576
+        ],
+        [
+          504,
+          576
+        ],
+        [
+          504,
+          752
+        ],
+        [
+          424,
+          752
+        ],
+        [
+          424,
+          576
+        ]
+      ],
+      "room": "mill-yard"
+    },
+    {
+      "name": "Pattern room north aisle",
+      "origins": [
+        [
+          1224,
+          224
+        ],
+        [
+          1848,
+          224
+        ],
+        [
+          1848,
+          272
+        ],
+        [
+          1224,
+          272
+        ],
+        [
+          1224,
+          224
+        ]
+      ],
+      "room": "pattern-room"
+    },
+    {
+      "name": "Pattern room west aisle",
+      "origins": [
+        [
+          1224,
+          288
+        ],
+        [
+          1368,
+          288
+        ],
+        [
+          1368,
+          560
+        ],
+        [
+          1224,
+          560
+        ],
+        [
+          1224,
+          288
+        ]
+      ],
+      "room": "pattern-room"
+    },
+    {
+      "name": "Pattern room east aisle",
+      "origins": [
+        [
+          1704,
+          288
+        ],
+        [
+          1848,
+          288
+        ],
+        [
+          1848,
+          560
+        ],
+        [
+          1704,
+          560
+        ],
+        [
+          1704,
+          288
+        ]
+      ],
+      "room": "pattern-room"
+    },
+    {
+      "name": "Pattern room lower aisle",
+      "origins": [
+        [
+          1224,
+          480
+        ],
+        [
+          1848,
+          480
+        ],
+        [
+          1848,
+          560
+        ],
+        [
+          1224,
+          560
+        ],
+        [
+          1224,
+          480
+        ]
+      ],
+      "room": "pattern-room"
+    }
+  ],
+  "scenicBoundaries": "Full original mill woods/canal scene and fully enclosed original limestone pattern-room scene. All projected hard fixture silhouettes remain away from admitted floor; the physically separate room has continuous stone enclosure.",
+  "stoolPlacements": [
+    [
+      245,
+      465,
+      38,
+      20
+    ],
+    [
+      533,
+      465,
+      38,
+      20
+    ]
+  ],
+  "fixtureContours": [
+    {
+      "name": "West tray whole base and projected rim",
+      "bounds": [
+        184,
+        324,
+        327,
+        429
+      ]
+    },
+    {
+      "name": "East tray full upper rim and body",
+      "bounds": [
+        471,
+        325,
+        610,
+        416
+      ]
+    },
+    {
+      "name": "East tray full lower apron and supports",
+      "bounds": [
+        471,
+        416,
+        608,
+        430
+      ]
+    },
+    {
+      "name": "Drying rack full upper crossbar and sheets",
+      "bounds": [
+        940,
+        233,
+        1116,
+        312
+      ]
+    },
+    {
+      "name": "Drying rack full west post foot",
+      "bounds": [
+        947,
+        233,
+        965,
+        331
+      ]
+    },
+    {
+      "name": "Drying rack full east post foot",
+      "bounds": [
+        1101,
+        233,
+        1116,
+        331
+      ]
+    },
+    {
+      "name": "North bridge rail entire projection",
+      "bounds": [
+        688,
+        332,
+        1019,
+        369
+      ]
+    },
+    {
+      "name": "South bridge rail entire projection",
+      "bounds": [
+        688,
+        455,
+        1024,
+        499
+      ]
+    },
+    {
+      "name": "Pattern table whole rim legs and base",
+      "bounds": [
+        1380,
+        291,
+        1695,
+        473
+      ]
+    },
+    {
+      "name": "Pattern cabinet entire base",
+      "bounds": [
+        1228,
+        189,
+        1840,
+        218
+      ]
+    },
+    {
+      "name": "West stool ground apron feet",
+      "bounds": [
+        245,
+        480,
+        283,
+        485
+      ]
+    },
+    {
+      "name": "East stool ground apron feet",
+      "bounds": [
+        533,
+        480,
+        571,
+        485
+      ]
+    }
+  ],
+  "fullWidthBands": [
+    {
+      "name": "Northern mill-yard promenade",
+      "bounds": [
+        136,
+        288,
+        632,
+        304
+      ]
+    },
+    {
+      "name": "Between marbling trays full width",
+      "bounds": [
+        360,
+        320,
+        440,
+        432
+      ]
+    },
+    {
+      "name": "West tray incidental side",
+      "bounds": [
+        136,
+        320,
+        152,
+        432
+      ]
+    },
+    {
+      "name": "East tray landing",
+      "bounds": [
+        648,
+        352,
+        664,
+        432
+      ]
+    },
+    {
+      "name": "Drying bridge64px deck",
+      "bounds": [
+        712,
+        384,
+        1016,
+        432
+      ]
+    },
+    {
+      "name": "Bridge west landing",
+      "bounds": [
+        648,
+        384,
+        696,
+        432
+      ]
+    },
+    {
+      "name": "Bridge east landing",
+      "bounds": [
+        1032,
+        352,
+        1080,
+        464
+      ]
+    },
+    {
+      "name": "Lower courtyard",
+      "bounds": [
+        296,
+        448,
+        504,
+        464
+      ]
+    },
+    {
+      "name": "West stool actual approach",
+      "bounds": [
+        248,
+        448,
+        264,
+        464
+      ]
+    },
+    {
+      "name": "East stool actual approach",
+      "bounds": [
+        536,
+        448,
+        552,
+        464
+      ]
+    },
+    {
+      "name": "South yard walk",
+      "bounds": [
+        424,
+        512,
+        504,
+        528
+      ]
+    },
+    {
+      "name": "Main gate64px run",
+      "bounds": [
+        424,
+        576,
+        504,
+        752
+      ]
+    },
+    {
+      "name": "Pattern room north aisle",
+      "bounds": [
+        1224,
+        224,
+        1848,
+        272
+      ]
+    },
+    {
+      "name": "Pattern room west aisle",
+      "bounds": [
+        1224,
+        288,
+        1368,
+        560
+      ]
+    },
+    {
+      "name": "Pattern room east aisle",
+      "bounds": [
+        1704,
+        288,
+        1848,
+        560
+      ]
+    },
+    {
+      "name": "Pattern room lower aisle",
+      "bounds": [
+        1224,
+        480,
+        1848,
+        560
+      ]
+    }
+  ]
+}

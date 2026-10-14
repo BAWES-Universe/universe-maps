@@ -1,0 +1,58 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./glass-hall-conference-campus.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "glass-hall-conference-campus-stage",
+      "name": "Presenter stage",
+      "x": 384,
+      "y": 128,
+      "width": 224,
+      "height": 48,
+      "visible": true,
+      "properties": [
+        {
+          "id": "glass-hall-conference-campus-stage-speaker",
+          "type": "speakerMegaphone",
+          "name": "glass-hall-conference-campus-live-stage",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "glass-hall-conference-campus-audience",
+      "name": "Audience",
+      "x": 224,
+      "y": 192,
+      "width": 544,
+      "height": 224,
+      "visible": true,
+      "properties": [
+        {
+          "id": "glass-hall-conference-campus-listen",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "glass-hall-conference-campus-stage",
+          "chatEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "glass-hall-conference-campus-framing",
+      "name": "Whole-hall framing",
+      "x": 224,
+      "y": 128,
+      "width": 544,
+      "height": 288,
+      "visible": true,
+      "properties": [
+        {
+          "id": "glass-hall-conference-campus-focus",
+          "type": "focusable",
+          "zoom_margin": 0.1
+        }
+      ]
+    }
+  ]
+}

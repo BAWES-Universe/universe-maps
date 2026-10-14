@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "map": "butterfly-campus.tmj",
+  "hooks": [
+    {
+      "id": "gate-onboarding-guide",
+      "areaName": "gate-onboarding-guide",
+      "bounds": {
+        "x": 384,
+        "y": 2816,
+        "width": 256,
+        "height": 192
+      },
+      "intendedCapability": "Onboarding guide",
+      "enabled": false,
+      "status": "Prepared activity zone; live binding and permissions need deployment-specific setup"
+    },
+    {
+      "id": "campus-guide-stop",
+      "areaName": "campus-guide-stop",
+      "bounds": {
+        "x": 2464,
+        "y": 2048,
+        "width": 320,
+        "height": 160
+      },
+      "intendedCapability": "Campus guide",
+      "enabled": false,
+      "status": "Prepared activity zone; live binding and permissions need deployment-specific setup"
+    },
+    {
+      "id": "hq-reception",
+      "areaName": "hq-reception",
+      "bounds": {
+        "x": 1280,
+        "y": 1664,
+        "width": 256,
+        "height": 192
+      },
+      "intendedCapability": "StudentHub reception",
+      "enabled": false,
+      "status": "Prepared activity zone; live binding and permissions need deployment-specific setup"
+    },
+    {
+      "id": "creative-imagine-images",
+      "areaName": "creative-imagine-images",
+      "bounds": {
+        "x": 3328,
+        "y": 1024,
+        "width": 208,
+        "height": 176
+      },
+      "intendedCapability": "Imagine image workflow",
+      "enabled": false,
+      "status": "Prepared activity zone; live binding and permissions need deployment-specific setup"
+    },
+    {
+      "id": "creative-music",
+      "areaName": "creative-music",
+      "bounds": {
+        "x": 3680,
+        "y": 1024,
+        "width": 224,
+        "height": 176
+      },
+      "intendedCapability": "ImagineMusic / ACE-Step workflow",
+      "enabled": false,
+      "status": "Prepared activity zone; live binding and permissions need deployment-specific setup"
+    },
+    {
+      "id": "creative-design-review",
+      "areaName": "creative-design-review",
+      "bounds": {
+        "x": 3328,
+        "y": 1216,
+        "width": 256,
+        "height": 224
+      },
+      "intendedCapability": "Designer collaboration",
+      "enabled": false,
+      "status": "Prepared activity zone; live binding and permissions need deployment-specific setup"
+    },
+    {
+      "id": "research-lab",
+      "areaName": "research-lab",
+      "bounds": {
+        "x": 3328,
+        "y": 2112,
+        "width": 576,
+        "height": 224
+      },
+      "intendedCapability": "Research assistant workflow",
+      "enabled": false,
+      "status": "Prepared activity zone; live binding and permissions need deployment-specific setup"
+    },
+    {
+      "id": "operations-command",
+      "areaName": "operations-command",
+      "bounds": {
+        "x": 1288,
+        "y": 2368,
+        "width": 384,
+        "height": 368
+      },
+      "intendedCapability": "Linear and operations tools",
+      "enabled": false,
+      "status": "Prepared activity zone; live binding and permissions need deployment-specific setup"
+    },
+    {
+      "id": "sales-research",
+      "areaName": "sales-research",
+      "bounds": {
+        "x": 1736,
+        "y": 2368,
+        "width": 384,
+        "height": 368
+      },
+      "intendedCapability": "Attio and sales research",
+      "enabled": false,
+      "status": "Prepared activity zone; live binding and permissions need deployment-specific setup"
+    },
+    {
+      "id": "market-booth-1",
+      "areaName": "market-booth-1",
+      "bounds": {
+        "x": 2272,
+        "y": 2432,
+        "width": 160,
+        "height": 96
+      },
+      "intendedCapability": "Student commerce or showcase",
+      "enabled": false,
+      "status": "Prepared activity zone; live binding and permissions need deployment-specific setup"
+    },
+    {
+      "id": "market-booth-2",
+      "areaName": "market-booth-2",
+      "bounds": {
+        "x": 2800,
+        "y": 2432,
+        "width": 160,
+        "height": 96
+      },
+      "intendedCapability": "Student commerce or showcase",
+      "enabled": false,
+      "status": "Prepared activity zone; live binding and permissions need deployment-specific setup"
+    },
+    {
+      "id": "market-booth-3",
+      "areaName": "market-booth-3",
+      "bounds": {
+        "x": 2272,
+        "y": 2720,
+        "width": 160,
+        "height": 96
+      },
+      "intendedCapability": "Student commerce or showcase",
+      "enabled": false,
+      "status": "Prepared activity zone; live binding and permissions need deployment-specific setup"
+    },
+    {
+      "id": "market-booth-4",
+      "areaName": "market-booth-4",
+      "bounds": {
+        "x": 2800,
+        "y": 2720,
+        "width": 160,
+        "height": 96
+      },
+      "intendedCapability": "Student commerce or showcase",
+      "enabled": false,
+      "status": "Prepared activity zone; live binding and permissions need deployment-specific setup"
+    }
+  ]
+}

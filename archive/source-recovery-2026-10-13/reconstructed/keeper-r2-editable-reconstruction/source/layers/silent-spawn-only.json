@@ -1,0 +1,21 @@
+{
+  "id": 3,
+  "name": "silent-spawn-only",
+  "type": "tilelayer",
+  "width": 128,
+  "height": 128,
+  "x": 0,
+  "y": 0,
+  "visible": true,
+  "opacity": 1,
+  "data": {
+    "csv": "layers/silent-spawn-only.csv"
+  },
+  "properties": [
+    {
+      "name": "silent",
+      "type": "bool",
+      "value": true
+    }
+  ]
+}

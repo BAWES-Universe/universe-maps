@@ -1,0 +1,14 @@
+<!doctype html><meta charset="utf-8"><title>Isolated render-quality experiment</title>
+<style>body{font:15px system-ui;background:#171b20;color:#eee;margin:16px}label{display:inline-block;margin:6px}select,input,button{font:inherit}#stage{overflow:auto;border:1px solid #555;max-width:100%}#stage canvas{display:block}pre{white-space:pre-wrap} .warning{color:#ffc66d;max-width:1100px}</style>
+<h1>Rendering experiment, not an accepted application fix</h1>
+<p class="warning">Actual Phaser 3.86, frozen Studio/Reading assets, unchanged 32-pixel world grid. This fixture does not run WorkAdventure networking, its full camera/UI, seats or navigation. Native framebuffer and linear filtering are experimental. Woka stays nearest. Canvas tile layers ignore per-texture linear filtering. No new artwork detail is created.</p>
+<label>Map <select id="map"><option>studio</option><option>reading</option><option>pixel-control</option></select></label>
+<label>Mode <select id="mode"><option value="baseline">Before: legacy framebuffer, nearest</option><option value="filter">Filter only: legacy framebuffer</option><option value="native">Candidate: native framebuffer, nearest</option><option value="native-linear">Candidate: native framebuffer + environment linear</option></select></label>
+<label>Renderer <select id="renderer"><option value="canvas">Canvas</option><option value="webgl">WebGL (must be available)</option></select></label>
+<label>Zoom modifier <select id="zoom"><option>0.5</option><option>0.75</option><option selected>1</option><option>1.25</option><option>1.5</option><option>2</option></select></label>
+<label>CSS viewport <input id="width" type="number" min="100" max="2560" value="1180" size="5"> × <input id="height" type="number" min="100" max="1440" value="757" size="5"></label>
+<label>Fractional world offset <input id="offset" type="number" step="0.25" value="0.25" size="5"></label>
+<button id="apply">Recreate</button><button id="save">Save measurements</button>
+<p>Arrow keys move a nearest-sampled Woka in a circle-free test scene. Click the map for pointer/world coordinates. Select modes and return to baseline to check texture isolation. Viewport inputs resize only this fixture, not browser/device emulation. The report records the real browser DPR. Frame timing is fixture CPU/RAF timing, not GPU time or full-game performance.</p>
+<div id="stage"></div><pre id="output">Loading…</pre>
+<script src="phaser-3.86.0.min.js"></script><script type="module" src="fixture.js"></script>

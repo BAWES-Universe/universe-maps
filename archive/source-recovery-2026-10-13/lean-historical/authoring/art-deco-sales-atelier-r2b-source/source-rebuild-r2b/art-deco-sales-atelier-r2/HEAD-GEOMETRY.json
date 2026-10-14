@@ -1,0 +1,345 @@
+{
+  "dimensions": [
+    60,
+    40,
+    32
+  ],
+  "source_reconstruction": {
+    "assets/base.png": true,
+    "assets/above.png": true
+  },
+  "random_spawns": [
+    {
+      "name": "start",
+      "xRange": [
+        976,
+        976
+      ],
+      "yRange": [
+        1072,
+        1072
+      ],
+      "samples": 1,
+      "bad": [],
+      "badCount": 0
+    }
+  ],
+  "walkable_cells": 587,
+  "unreachable_cells": 0,
+  "quiet_cells": 1,
+  "anchors": [
+    {
+      "id": "south threshold",
+      "x": 976,
+      "y": 1103,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "south landing",
+      "x": 976,
+      "y": 1135,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Client west entrance",
+      "x": 592,
+      "y": 559,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Client west host",
+      "x": 656,
+      "y": 463,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Client east entrance",
+      "x": 1360,
+      "y": 559,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Client east host",
+      "x": 1424,
+      "y": 463,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "briefing presenter",
+      "x": 944,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "briefing entrance",
+      "x": 944,
+      "y": 559,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "west research aisle",
+      "x": 528,
+      "y": 815,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "east research aisle",
+      "x": 1392,
+      "y": 815,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "flat compass inlay",
+      "x": 976,
+      "y": 783,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "arrival",
+      "x": 976,
+      "y": 1071,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": true
+    },
+    {
+      "id": "Client west south-facing",
+      "x": 560,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Client west north-facing",
+      "x": 560,
+      "y": 463,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Client east south-facing",
+      "x": 1328,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Client east north-facing",
+      "x": 1328,
+      "y": 463,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-1",
+      "x": 464,
+      "y": 751,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-2",
+      "x": 624,
+      "y": 751,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-3",
+      "x": 464,
+      "y": 911,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-4",
+      "x": 624,
+      "y": 911,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-5",
+      "x": 1328,
+      "y": 751,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-6",
+      "x": 1488,
+      "y": 751,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-7",
+      "x": 1328,
+      "y": 911,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-8",
+      "x": 1488,
+      "y": 911,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "briefing-1",
+      "x": 944,
+      "y": 463,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "briefing-2",
+      "x": 976,
+      "y": 463,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    }
+  ],
+  "headFixture": "Union of all12 frames of eight repository Wokas and native reference, frozen as collision-only binary geometry; no distributable avatar art",
+  "body_clear_positions": 518348,
+  "head_conflicts": 0,
+  "head_conflict_examples": [],
+  "media_areas": [
+    {
+      "id": "art-deco-sales-atelier-r2-0",
+      "name": "Client west",
+      "x": 448,
+      "y": 352,
+      "width": 319,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "art-deco-sales-atelier-r2-0-room",
+          "type": "livekitRoomProperty",
+          "roomName": "art-deco-sales-atelier-r2-0",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ],
+      "reachable_membership_positions": 40526
+    },
+    {
+      "id": "art-deco-sales-atelier-r2-1",
+      "name": "Client east",
+      "x": 1216,
+      "y": 352,
+      "width": 319,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "art-deco-sales-atelier-r2-1-room",
+          "type": "livekitRoomProperty",
+          "roomName": "art-deco-sales-atelier-r2-1",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ],
+      "reachable_membership_positions": 46158
+    },
+    {
+      "id": "art-deco-sales-atelier-r2-2",
+      "name": "Research west",
+      "x": 384,
+      "y": 672,
+      "width": 319,
+      "height": 287,
+      "visible": true,
+      "properties": [],
+      "reachable_membership_positions": 47448
+    },
+    {
+      "id": "art-deco-sales-atelier-r2-3",
+      "name": "Research east",
+      "x": 1248,
+      "y": 672,
+      "width": 319,
+      "height": 287,
+      "visible": true,
+      "properties": [],
+      "reachable_membership_positions": 47736
+    },
+    {
+      "id": "art-deco-sales-atelier-r2-4",
+      "name": "Private briefing",
+      "x": 896,
+      "y": 384,
+      "width": 127,
+      "height": 159,
+      "visible": true,
+      "properties": [
+        {
+          "id": "art-deco-sales-atelier-r2-4-room",
+          "type": "livekitRoomProperty",
+          "roomName": "art-deco-sales-atelier-r2-4",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ],
+      "reachable_membership_positions": 12559
+    }
+  ],
+  "issues": [],
+  "scope": "Builder-side actual-TMJ atlas decode, collision-derived cardinal connectivity and exhaustive integer source body/head geometry; not native route replay, browser, physics keyboard, devices, media or deployment.",
+  "input_hashes": {
+    "map32/architecture-and-furniture-0.png": "3083aa55b7b20688c4929458c9412034bb06198b8fed53d8b478ff8bb387b19f",
+    "map32/architecture-and-furniture-1.png": "450a2aa3b69a44f247740e635bf14ee4c4d5f39b0ee339dcdc49186ee623166e",
+    "map32/architecture-and-furniture-2.png": "7155a145d3d6784bc99de2fb33cfd4cf044b4aaeb15b4d302c883aaa49c6c5e2",
+    "map32/logic.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "map32/map.tmj": "53156d1a72dec2536fdf606ac8e5fa501acdaa3bc67b329f5dba9b68a80222cf",
+    "map32/map.wam": "b3c415ef183cdd739d1b5e5fb8a6c9c2b006a803be710ec0a75c3a1f99c58e19",
+    "map32/seat-backs-0.png": "9e24d6cd6a5f6f7125f045ffd806d436406287fc5f7c9da419c8e2e34a89a251"
+  }
+}

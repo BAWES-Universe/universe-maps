@@ -1,0 +1,718 @@
+{
+  "tileSize": 32,
+  "worldOrigin": [
+    0,
+    1136
+  ],
+  "worldPhase": [
+    0,
+    16
+  ],
+  "walkablePolygons": [
+    [
+      [
+        64,
+        144
+      ],
+      [
+        576,
+        144
+      ],
+      [
+        576,
+        1088
+      ],
+      [
+        64,
+        1088
+      ]
+    ],
+    [
+      [
+        576,
+        336
+      ],
+      [
+        640,
+        336
+      ],
+      [
+        640,
+        432
+      ],
+      [
+        576,
+        432
+      ]
+    ],
+    [
+      [
+        576,
+        944
+      ],
+      [
+        640,
+        944
+      ],
+      [
+        640,
+        1040
+      ],
+      [
+        576,
+        1040
+      ]
+    ]
+  ],
+  "blockers": [
+    {
+      "id": "west-perimeter",
+      "x": 32,
+      "y": 32,
+      "width": 32,
+      "height": 1088
+    },
+    {
+      "id": "north-builtins",
+      "x": 64,
+      "y": 32,
+      "width": 512,
+      "height": 112
+    },
+    {
+      "id": "east-upper",
+      "x": 576,
+      "y": 32,
+      "width": 32,
+      "height": 304
+    },
+    {
+      "id": "east-middle",
+      "x": 576,
+      "y": 432,
+      "width": 32,
+      "height": 512
+    },
+    {
+      "id": "east-lower",
+      "x": 576,
+      "y": 1040,
+      "width": 32,
+      "height": 80
+    },
+    {
+      "id": "south-perimeter",
+      "x": 64,
+      "y": 1088,
+      "width": 512,
+      "height": 32
+    },
+    {
+      "id": "room-divider",
+      "x": 64,
+      "y": 512,
+      "width": 512,
+      "height": 64
+    },
+    {
+      "id": "stage-back",
+      "x": 64,
+      "y": 576,
+      "width": 512,
+      "height": 48
+    },
+    {
+      "id": "stage-front",
+      "x": 176,
+      "y": 736,
+      "width": 296,
+      "height": 20
+    },
+    {
+      "id": "podium-footprint",
+      "x": 288,
+      "y": 720,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "id": "student-1-desk",
+      "x": 128,
+      "y": 208,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-2-desk",
+      "x": 288,
+      "y": 208,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-3-desk",
+      "x": 448,
+      "y": 208,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-4-desk",
+      "x": 128,
+      "y": 336,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-5-desk",
+      "x": 288,
+      "y": 336,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "student-6-desk",
+      "x": 448,
+      "y": 336,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "planter-80-172",
+      "x": 64,
+      "y": 156,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-172",
+      "x": 544,
+      "y": 156,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-80-492",
+      "x": 64,
+      "y": 476,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-492",
+      "x": 544,
+      "y": 476,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-80-804",
+      "x": 64,
+      "y": 788,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-804",
+      "x": 544,
+      "y": 788,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-80-1064",
+      "x": 64,
+      "y": 1048,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "planter-560-1064",
+      "x": 544,
+      "y": 1048,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "student-1-visible-rear-foot-1",
+      "x": 146,
+      "y": 304,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-1-visible-rear-foot-2",
+      "x": 170,
+      "y": 304,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-2-visible-rear-foot-1",
+      "x": 306,
+      "y": 304,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-2-visible-rear-foot-2",
+      "x": 330,
+      "y": 304,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-3-visible-rear-foot-1",
+      "x": 466,
+      "y": 304,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-3-visible-rear-foot-2",
+      "x": 490,
+      "y": 304,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-4-visible-rear-foot-1",
+      "x": 146,
+      "y": 432,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-4-visible-rear-foot-2",
+      "x": 170,
+      "y": 432,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-5-visible-rear-foot-1",
+      "x": 306,
+      "y": 432,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-5-visible-rear-foot-2",
+      "x": 330,
+      "y": 432,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-6-visible-rear-foot-1",
+      "x": 466,
+      "y": 432,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "student-6-visible-rear-foot-2",
+      "x": 490,
+      "y": 432,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-1-visible-rear-foot-1",
+      "x": 138,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-1-visible-rear-foot-2",
+      "x": 162,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-3-visible-rear-foot-1",
+      "x": 242,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-3-visible-rear-foot-2",
+      "x": 266,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-4-visible-rear-foot-1",
+      "x": 370,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-4-visible-rear-foot-2",
+      "x": 394,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-6-visible-rear-foot-1",
+      "x": 474,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-6-visible-rear-foot-2",
+      "x": 498,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-7-visible-rear-foot-1",
+      "x": 138,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-7-visible-rear-foot-2",
+      "x": 162,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-9-visible-rear-foot-1",
+      "x": 242,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-9-visible-rear-foot-2",
+      "x": 266,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-10-visible-rear-foot-1",
+      "x": 370,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-10-visible-rear-foot-2",
+      "x": 394,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-12-visible-rear-foot-1",
+      "x": 474,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-12-visible-rear-foot-2",
+      "x": 498,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-13-visible-rear-foot-1",
+      "x": 138,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-13-visible-rear-foot-2",
+      "x": 162,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-15-visible-rear-foot-1",
+      "x": 242,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-15-visible-rear-foot-2",
+      "x": 266,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-16-visible-rear-foot-1",
+      "x": 370,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-16-visible-rear-foot-2",
+      "x": 394,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-18-visible-rear-foot-1",
+      "x": 474,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-18-visible-rear-foot-2",
+      "x": 498,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-19-visible-rear-foot-1",
+      "x": 138,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-19-visible-rear-foot-2",
+      "x": 162,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-21-visible-rear-foot-1",
+      "x": 242,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-21-visible-rear-foot-2",
+      "x": 266,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-22-visible-rear-foot-1",
+      "x": 370,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-22-visible-rear-foot-2",
+      "x": 394,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-24-visible-rear-foot-1",
+      "x": 474,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-24-visible-rear-foot-2",
+      "x": 498,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-2-visible-rear-foot-1",
+      "x": 186,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-2-visible-rear-foot-2",
+      "x": 210,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-5-visible-rear-foot-1",
+      "x": 426,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-5-visible-rear-foot-2",
+      "x": 450,
+      "y": 848,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-8-visible-rear-foot-1",
+      "x": 186,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-8-visible-rear-foot-2",
+      "x": 210,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-11-visible-rear-foot-1",
+      "x": 426,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-11-visible-rear-foot-2",
+      "x": 450,
+      "y": 912,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-14-visible-rear-foot-1",
+      "x": 186,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-14-visible-rear-foot-2",
+      "x": 210,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-17-visible-rear-foot-1",
+      "x": 426,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-17-visible-rear-foot-2",
+      "x": 450,
+      "y": 976,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-20-visible-rear-foot-1",
+      "x": 186,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-20-visible-rear-foot-2",
+      "x": 210,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-23-visible-rear-foot-1",
+      "x": 426,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    },
+    {
+      "id": "attendee-23-visible-rear-foot-2",
+      "x": 450,
+      "y": 1040,
+      "width": 4,
+      "height": 4,
+      "kind": "painted-chair-leg-contact"
+    }
+  ],
+  "registration": "Apply exact world origin0,1136 then conservativeOR32. Aligned96px civic doors; exterior receivers supplied separately."
+}

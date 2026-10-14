@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N44-r1-runtime",
+  "destination": "old50/runtime/N44-r1",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N44-r1-runtime.zip",
+      "sha256": "6a047fd532c692f972d1fda3e133ea6a84b0cda6e10b45fd934b2c52ffc86169",
+      "size_bytes": 3762424
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "autumn-amphitheatre.tmj",
+      "sha256": "16698fef74238d0024d7ec1bdf9aa0cdb1110d1dc2eabadcc816dce6e0a07f4f",
+      "size_bytes": 78719,
+      "git_blob_sha1": "b958d6a8b13c4c56a9768c806afc377c0d6c203b",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "autumn-amphitheatre.wam",
+      "sha256": "747c2030b5bacbfc9c8e699e6fa2298145f77c44ae0c9a18e870c570a3b42fce",
+      "size_bytes": 1280,
+      "git_blob_sha1": "ebcc21a594cd6250a1c2e6942689fc4573899ab2",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "foreground-0.png",
+      "sha256": "bc1144f4dddbd469d6e7816ea32518d6d83554d6401bc655740c808bb51b9642",
+      "size_bytes": 22654,
+      "git_blob_sha1": "571349dae8134f97e023e8d35a0409bbb9bf4e4c",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "92a773ef09d31b2deeb5ef5c141c151d5fea7ffd51bd37c502d289d68f27bd51",
+      "size_bytes": 2446912,
+      "git_blob_sha1": "dec271a0cc54da66b92c0a09bb04625275b94cd9",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "8ea3904476918659cf18a86f7e73cf7ad03e8145120fa71e5e7e8ddf64e4263d",
+      "size_bytes": 1285371,
+      "git_blob_sha1": "f7fc875b7f09a4dd155c192ab86a8fd96e59e1a4",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    }
+  ]
+}

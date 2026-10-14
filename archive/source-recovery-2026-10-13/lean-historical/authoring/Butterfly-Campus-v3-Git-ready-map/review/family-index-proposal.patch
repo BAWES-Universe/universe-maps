@@ -1,0 +1,14 @@
+--- a/public/butterfly-town/README.md
++++ b/public/butterfly-town/README.md
+@@ -18,3 +18,11 @@
+ 
+ Future releases belong in separate folders such as `v2/`; creating a draft does not publish it. Keep existing version URLs stable. Other map families, including Lantern Courtyard and production maps outside this folder, are independent and unchanged.
+ 
++## Draft campus candidate
++
++| Version | Map | Scope |
++| --- | --- | --- |
++| v3 candidate | [butterfly-campus.tmj](v3/butterfly-campus.tmj) | Larger StudentHub workplace and student campus; local review candidate, native media and bot wiring pending |
++
++The v3 candidate has its own script and image atlases. Existing version URLs remain unchanged. Publication requires a separate approved change; this index addition is a proposal only.
++

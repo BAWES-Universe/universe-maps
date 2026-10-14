@@ -1,0 +1,19 @@
+{
+  "source": "court-sign.svg",
+  "world": [
+    1312,
+    1376
+  ],
+  "nativeSize": [
+    128,
+    112
+  ],
+  "artLayer": "base",
+  "entireCanvasOnAlreadyBlockedGround": true,
+  "directions": {
+    "StudentHub": "north",
+    "Class / Stage": "west",
+    "River / Market": "east"
+  },
+  "floorText": false
+}

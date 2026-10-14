@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N31-zone-1",
+      "name": "Solar analysis lab",
+      "x": 576,
+      "y": 224,
+      "width": 384,
+      "height": 64,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N31-zone-2",
+      "name": "Sun-path teaching court",
+      "x": 624,
+      "y": 416,
+      "width": 304,
+      "height": 240,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N31-zone-3",
+      "name": "Receiver observation",
+      "x": 352,
+      "y": 384,
+      "width": 96,
+      "height": 192,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N31-zone-4",
+      "name": "Mirror research gallery",
+      "x": 1024,
+      "y": 384,
+      "width": 96,
+      "height": 256,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

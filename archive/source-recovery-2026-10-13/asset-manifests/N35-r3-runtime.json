@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N35-r3-runtime",
+  "destination": "old50/runtime/N35-r3",
+  "artifact": {
+    "name": "overnight-50-runtime-01-of-02.zip",
+    "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+    "version_id": null,
+    "sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+    "size_bytes": 98259633
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N35-r3-runtime.zip",
+      "sha256": "5cf9eece3c206d00070ebe2e43c53dca2e4ebdce58fabe33c095ab1ff4f1d4de",
+      "size_bytes": 3954358
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "foreground-0.png",
+      "sha256": "77c8e5e017deff9be96122af825150a0a96eaa97a66c05dc3829f537200a4c74",
+      "size_bytes": 21475,
+      "git_blob_sha1": "622b14d31b3c0e09b6fc88bf8f2caa6953588119",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "317f82f0c6621bb7993654edbee7c823cf921d652d717d7ad41b2d34adda6dd0",
+      "size_bytes": 2639626,
+      "git_blob_sha1": "58652ff425c3542581eb2c77c9faa5b6829b3dbb",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "10d37d4344c6bc78535a1fcd76c27ff53e69afd9a087675fc1146e8ffd899fcd",
+      "size_bytes": 1285405,
+      "git_blob_sha1": "3f0bb2ad58654d886f90de6e1623f18a48097280",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "lighthouse-festival-island.tmj",
+      "sha256": "e977b32148d7d70e29b15114baee3db7327a982b4a2c33d07980dde909d3cf65",
+      "size_bytes": 80362,
+      "git_blob_sha1": "37adaa3db7cd6874248984bb71ec72a491e1734e",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "lighthouse-festival-island.wam",
+      "sha256": "ab7d1f6291d18c5eb4fd2ef8b8dc885e825e02da98a79fe7a1bf74f483555b6b",
+      "size_bytes": 524,
+      "git_blob_sha1": "3eda506f42ac1b08c0d8c7aacbbb1cd999abf825",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    }
+  ]
+}

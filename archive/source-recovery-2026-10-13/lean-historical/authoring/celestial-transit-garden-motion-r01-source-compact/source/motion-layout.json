@@ -1,0 +1,266 @@
+{
+  "slug": "celestial-transit-garden",
+  "revision": "motion-r01",
+  "kind": "water",
+  "layerName": "celestial-transit-garden-ambient-native-r01",
+  "firstgid": 1539,
+  "placements": [
+    {
+      "cell": [
+        15,
+        7
+      ],
+      "center": [
+        21,
+        24
+      ],
+      "phase": 0,
+      "width": 18
+    },
+    {
+      "cell": [
+        32,
+        7
+      ],
+      "center": [
+        10,
+        25
+      ],
+      "phase": 3,
+      "width": 17
+    },
+    {
+      "cell": [
+        16,
+        19
+      ],
+      "center": [
+        18,
+        25
+      ],
+      "phase": 5,
+      "width": 19
+    },
+    {
+      "cell": [
+        31,
+        19
+      ],
+      "center": [
+        16,
+        15
+      ],
+      "phase": 7,
+      "width": 18
+    }
+  ],
+  "frameStats": [
+    {
+      "cell": [
+        15,
+        7
+      ],
+      "frameSHA256": [
+        "7a6c1e9a5e21edad6d80b564b3f2abd345d3372c99eab4c59af5bd9a8069c764",
+        "b75b4e02688015eaeaca31a51e22aed67e53730d4b8f77b246b7a25c7afa68fd",
+        "8c981555a60fc960a4344a83cdd98cfee777b1f95077c0640384dc2baddd1313",
+        "98aa948744c3d1313cc7a79162007044128159eae09ee564780fb9ea018af3c7",
+        "0e631f288e8074d68484ae4201f7debe8b586dd8af8ae0f86207b52bdd5f5dc2",
+        "0bc6bd568512a46cb149a118cd14c84b2c39b1d0d0e1a70a2d7d0a5234ce23d3",
+        "854c0518f97d959a3ddab65476fda9e969a2405b4ea0a3625ed094d19e8098f2",
+        "22f24c62aad1a0e3a92b77ce760cdef81a476799a35429c12575bd26e21c503c"
+      ],
+      "distinctFrames": 8,
+      "changedPixelsPerFrame": [
+        31,
+        32,
+        34,
+        32,
+        31,
+        29,
+        27,
+        29
+      ],
+      "maxAlphaPerFrame": [
+        20,
+        27,
+        34,
+        42,
+        30,
+        16,
+        18,
+        24
+      ]
+    },
+    {
+      "cell": [
+        32,
+        7
+      ],
+      "frameSHA256": [
+        "4eebd7dc40d1288d550b550793a80fc57654a9e3e781944925e7ef46dfccc4b0",
+        "aea4072f5579891d3f3e1d370673b7e2f9f7e4c5c079b6532531a2fafc5a7d2b",
+        "ddd565898c66e70a2c74ad089160203968549357b25dc7c36a86d3d55564e399",
+        "89ee89bb7e1542aa6a2c852aea2512bb6618390b2356be97ec1632c098c01155",
+        "9578aac4bf69b5b90948dc57f0fd4318d9730fbbadd280bda0db875edb43256e",
+        "58b37f90b8a092afb8f85dc9778c603905511148ea636bd051983ebd43dcdfac",
+        "aaf5abfc085659746dcc40920adb00156b3ddc3d5f99bf6957c626e33110c4d6",
+        "21fd78c3b523a209a90f5748e9fb5c1857446343b56715ab09a93d49bb49bc25"
+      ],
+      "distinctFrames": 8,
+      "changedPixelsPerFrame": [
+        31,
+        29,
+        27,
+        25,
+        27,
+        29,
+        31,
+        32
+      ],
+      "maxAlphaPerFrame": [
+        42,
+        30,
+        16,
+        18,
+        24,
+        20,
+        27,
+        34
+      ]
+    },
+    {
+      "cell": [
+        16,
+        19
+      ],
+      "frameSHA256": [
+        "569d12da8744d7a7a1a8f761f677b9a18e4623e390d03437ae2197b528d12fcd",
+        "777f82a570c6141694587a0fbe380d0cfadc59082bc75b5878b06c9c421b2da6",
+        "672b9bcaa74c449a5657a36f07d336eccd0116bae15173fa804b5c48bf8312a1",
+        "627115ae1b0a15a4130cfa534fdb4e70cfae68632266dcd2766c570e3cb67c1b",
+        "c42e4732340ea43972c9c550f357b10986841d4d013a7f959b8e291a4596e303",
+        "e399d16e2547f5922e996e4e9b47dca1f22f8f591343bb1094c3fd58df8f948b",
+        "fa12ad8139812b636146b93b1b767d9abcbee8782b498312e338ac42254f190b",
+        "4898f84acba2444fad6c451eb1bb82ecfe3ddd44abd81982970531594806ee7d"
+      ],
+      "distinctFrames": 8,
+      "changedPixelsPerFrame": [
+        31,
+        29,
+        31,
+        32,
+        34,
+        36,
+        34,
+        32
+      ],
+      "maxAlphaPerFrame": [
+        16,
+        18,
+        24,
+        20,
+        27,
+        34,
+        42,
+        30
+      ]
+    },
+    {
+      "cell": [
+        31,
+        19
+      ],
+      "frameSHA256": [
+        "3b249ba0f6b391d408309c6b670366596183b042e510caeb4047fb4ebdc28d4c",
+        "3209fdacdda45cb1cf1158d22d5328aa6dea199a8b862e41ef3a870613d758da",
+        "424f074c70440ee96ffaae770c6e7679137fdfa6592bde44cc73720332e1e7ef",
+        "71cd25aefce54a952fc0bf17ea86eb56c7afd4be77807619131cb3947d8f905d",
+        "01963efc1d2e023bdd89bc600a225cb9c899a52ae0142d48b03523e5fe0d3b2f",
+        "f05053bcee31985724123074e0a3cadf9216e85da53d8db240375013dec82d7b",
+        "67cee9db13e753db45359e1eb36a547d8e959741e99d361d98c313208f55d5ad",
+        "9715906cb095b5079c821e576054a57b499883f1f5fa4fd7e435c6fba6200bbd"
+      ],
+      "distinctFrames": 8,
+      "changedPixelsPerFrame": [
+        29,
+        31,
+        32,
+        34,
+        32,
+        31,
+        29,
+        27
+      ],
+      "maxAlphaPerFrame": [
+        24,
+        20,
+        27,
+        34,
+        42,
+        30,
+        16,
+        18
+      ]
+    }
+  ],
+  "originalSHA256": {
+    "FREEZE.json": "d3ab5fc03fe7724732c7b840cbb7f3b73f63f5b83106b4cf4336f0684ee9b9a6",
+    "MANIFEST.json": "3de8d9d41f1f8e8bc0066ad675292a0c86f1326119f8078ceb09f695f5598440",
+    "PROVENANCE.md": "70152fe8a6d92e10004d942fe99daedde71ce2899ae1faff09a086a1382470ff",
+    "README.md": "6c3f6ed1e2012efa68e3c38ce3216ec6d68e8e6df3284607d88fcee49d315b13",
+    "celestial-transit-garden-runtime.zip": "4e634495b142ca6443e2fbe3bcdd271dcd4ede791048a7ade47be2f81e5eab90",
+    "celestial-transit-garden-source-replay.zip": "e7381ba13582a912c0223c8492fa3173fcd4bdf5a406127060fb5c5f743f551b",
+    "integration/ROOM-SETUP.md": "3760f92e83893b8144c0283cdf096938ec26315853f380e234961f8ccb7554fb",
+    "map32/celestial-transit-garden.tmj": "b6621829c11b5ad150ab2133deabd303823f8b14d37f513647a604affeaea7f2",
+    "map32/celestial-transit-garden.wam": "90525b998a03bc956b598f91de3de85810c34d719d64c3f5e39bc2dcb63689a0",
+    "map32/ground-and-objects-0.png": "f51cba58668e0fbc18f034276d546bef9c5ecf29de02d56a51a61f1f1ea5da5f",
+    "map32/ground-and-objects-1.png": "47b9462dad1851c0669575c5c92fb32afd7da868f19058473dbe251a4db35640",
+    "map32/markers.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "portable-tools/build_maps.py": "e9cd4aee0bc718fcf5d5f4489f7bab32acd92905d6b6072cd5c08ccf519e9f16",
+    "portable-tools/check_spawn_and_boundaries.py": "30045b0e365be05dab5e08c55d4ce84cbdad9da068964101f4569efd62a32192",
+    "portable-tools/native/easystar-0.4.4.js": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+    "portable-tools/native/extracted-current-source.cjs": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+    "portable-tools/native/native-runtime-portable.cjs": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+    "portable-tools/native/route-audit.cjs": "995d45f73d2840cf9a1a6f8256532bb1b0fd22564b8218fe9b2c0b7c1851f7ef",
+    "portable-tools/native/source/StartPositionCalculator.ts": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+    "portable-tools/native/source/libs/math-utils/src/MathUtils.ts": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+    "portable-tools/native/source/play/src/front/Phaser/Game/CameraManager.ts": "c6bea29bffe270221ec35435ea1181df5d670edeac0dbb3b1918db0da8553b80",
+    "portable-tools/native/source/play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts": "f011429f25599b348640a57894b28560f3755da1a72b97cdfdbffd9ae2d3cdfc",
+    "portable-tools/native/source/play/src/front/Phaser/Game/GameScene.ts": "7c901514db24890c3750631d8e32124643e87de41750fb90e4a2d7f54ac1c146",
+    "portable-tools/native/source/play/src/front/Phaser/Player/Player.ts": "47c30fe3c2d16f52da3b499599de57b2240e75be4d91b2c816aae1179e8bc3d9",
+    "portable-tools/native/source/play/src/front/Phaser/Services/HdpiManager.ts": "6e25f9e127d3b712edf8ab7e87b1f11f82f8b4681772ccfe1d20c868e3f4d3fc",
+    "portable-tools/native/source/play/src/front/Phaser/Services/WaScaleManager.ts": "d811cf48d3fa8561a37a6689bcc0e639f5ceb1837fb3d762b326e104dde77a27",
+    "portable-tools/native/source/play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts": "d4bdce55f82caa5e94e372fa2ca57eb2a241f0ed0e78609d4dedb975b665a89a",
+    "portable-tools/native/source/play/src/front/Utils/PathfindingManager.ts": "b6d055091ec000f2e47b3e1def2f7ee7c42aae96ff3301c36a8b26b9c1b0c715",
+    "portable-tools/native/source-method-manifest.json": "86c7dff4e686ea1c12f638626042618a6b35c96bb8a4b0c7c54e0becc119d665",
+    "portable-tools/package_map.py": "01a61af0c825a14271142aaa0894bc67b34907ab0be529bb8094ce127f0ba798",
+    "review/boundary-sweep-0-native.png": "f3132bb95cf9537fc44b760b015db6f0ca2ebfca3b479319c0ec71fbb14682a7",
+    "review/boundary-sweep-1-native.png": "25633b145549e35a4bc954a46f74a028ef99e23183e07b8f5d1f4d678aebd327",
+    "review/boundary-sweep-2-native.png": "81ee040503cd41cbfbf5053b968f334b95ad5c42da7905c8692b68717d3c1811",
+    "review/boundary-sweep-3-native.png": "45c82f4bfe269bbf0a553ef0708b25e82bf9cab53046106d9cb003967e34a847",
+    "review/collision-native.png": "7400db1dd92c96ae5fd061e6991a2d1cf81d8c5614399d9697415fffb5ad75e5",
+    "review/empty-native.png": "41108564a6c1ce06b82aa05d9408f2371969f0443b2d28a76885004088708155",
+    "review/occupied-native.png": "332182559ca3937f36ffb2d891cb3ac652bb7d3d571aaf684af2e6d5abf03c45",
+    "review/overview.png": "33b30d56ce9c632c1196284170dd7a625227dfc3beb15a95644b0ad10c13adad",
+    "source/authored-walkable-mask.png": "1ee5b4766db9f784619f1074ae61e642ea7450f59faedf60e2a3c18964599f32",
+    "source/generation-history.json": "b94407b1f79643a074424e06af515fa5c68cd99ee8290f0cc7e15b5c0a1a843f",
+    "source/greg-reference.png": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+    "source/layout.json": "86d5ac011b7e66db06b116a86e175ea08318cf1106bea080b1704d99bca16376",
+    "source/lounge-chair-north.png": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+    "source/low-lounge-table.png": "22d1169759331b49481442afe2fcecd8432dfa76813a957eec61c684b0944241",
+    "source/portal-environment-garden-boundaries-master.png": "46755a7d932d2ba3e013f0775694ccff59c009fd381b545faf0ebfd56120cac4",
+    "source/portal-environment-master.png": "cff13f8c46908d3cd8070db9f3a1e184f7b06c441835f4849dc84a9bc9dca554",
+    "source/portal-generation-prompt.txt": "30df9f8b2e78ae7a3b683ce03d6bb254a684e1fc024211cab7c48e8b6d6b6ccc",
+    "source/runtime-above.png": "64085d665f67f408b0cd67f69bebaa5a814b79eeed296c3d952e62988d7a440f",
+    "source/runtime-base.png": "41108564a6c1ce06b82aa05d9408f2371969f0443b2d28a76885004088708155",
+    "validation/atlas-roundtrip.json": "7b5b6e4198b9272400d7cdc0ebdfb24847f600c9b2a9053c9c0a9326e5aff0fd",
+    "validation/boundary-sweep.json": "bf673fe5bd7f5925e9174e80a57192a6d919859c5b2793eb9e6d46388fcb58a3",
+    "validation/depth-partition.json": "bdf01c07d65af0fcfa358f862b2df934eb24bdd459d2f067b0f76199de0c31cf",
+    "validation/geometry.json": "2cb80b06003023b8f1b531b279c5cb9bd3ee7e37e01afeebfe7ae8d7709e2f27",
+    "validation/native-routes.json": "3241f2486a138cdf560e1a80288bacdfff66ab79aada252690fee22f9ce9dc07",
+    "validation/native-routes.log": "60c149055d555df128db8c3f047f60bfc5ce5f4d19a2c0d98ba62e18687ff606",
+    "validation/spawn-domains.json": "274d731b6c419eb45223293b9851613315b9fab69f8490637aa53c472f3c06e8"
+  },
+  "staticSourceReplaySHA256": "e7381ba13582a912c0223c8492fa3173fcd4bdf5a406127060fb5c5f743f551b"
+}

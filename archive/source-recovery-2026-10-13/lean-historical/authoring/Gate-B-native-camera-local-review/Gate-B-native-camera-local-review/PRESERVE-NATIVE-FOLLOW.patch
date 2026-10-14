@@ -1,0 +1,164 @@
+--- a/play/src/front/Phaser/Game/CameraManager.ts
++++ b/play/src/front/Phaser/Game/CameraManager.ts
+@@ -67,6 +67,12 @@
+ 
+     private playerToFollow?: Player | RemotePlayer;
+     private cameraLocked: boolean;
++    private viewportUpdatePending = false;
++    private viewportAutomationDisabled = false;
++    private readonly emitViewportUpdate = (): void => {
++        this.viewportUpdatePending = false;
++        this.emit(CameraManagerEvent.CameraUpdate, this.getCameraUpdateEventData());
++    };
+     private zoomLocked: boolean;
+ 
+     private readonly EDITOR_MODE_SCROLL_SPEED: number = 5;
+@@ -173,8 +179,34 @@
+         this.scene.game.events.off(WaScaleManagerEvent.RefreshFocusOnTarget);
+         this.camera.off("followupdate", this.onFollowUpdate);
+         this.scene.events.off(Phaser.Scenes.Events.POST_UPDATE, this.applyMapBounds);
++        this.scene.events.off(Phaser.Scenes.Events.RENDER, this.emitViewportUpdate);
++        this.viewportUpdatePending = false;
+         this.unsubscribeMapEditorModeStore();
+         super.destroy();
++    }
++
++    /** Fit a world-space viewport while preserving the native Follow target and camera offset.
++     * Ignores focus, exploration and zoom-lock modes so a map cannot reclaim a user's camera.
++     * Legacy setPosition/enterFocusMode/leaveFocusMode behavior is unchanged.
++     */
++    public setViewport(width: number, height: number, smooth = false): void {
++        if (this.cameraMode !== CameraMode.Follow || this.isZoomLocked() || this.viewportAutomationDisabled) return;
++        if (!Number.isFinite(width) || !Number.isFinite(height) || width < 1 || height < 1 || width > 1_000_000 || height > 1_000_000) return;
++        const nextZoom = this.waScaleManager.getTargetZoomModifierFor(width, height);
++        if (!Number.isFinite(nextZoom) || nextZoom <= 0) return;
++        if (smooth) {
++            this.animateToZoomLevel(nextZoom);
++            return;
++        }
++        this.targetZoomModifier = undefined;
++        if (Math.abs(nextZoom - this.waScaleManager.zoomModifier) < 1e-9) return;
++        this.waScaleManager.zoomModifier = nextZoom;
++        // worldView is stale until Phaser renders after its native scale resize.
++        if (!this.viewportUpdatePending) {
++            this.viewportUpdatePending = true;
++            this.scene.events.once(Phaser.Scenes.Events.RENDER, this.emitViewportUpdate);
++        }
++        this.scene.markDirty();
+     }
+ 
+     public getCamera(): Phaser.Cameras.Scene2D.Camera {
+@@ -644,6 +676,7 @@
+ 
+     // Create function to define the camera on exploration mode. The camera can be moved anywhere on the map. The camera is not locked on the player. The camera can be zoomed in and out. The camera can be moved with the mouse. The camera can be moved with the keyboard. The camera can be moved with the touchpad.
+     public setExplorationMode(): void {
++        this.viewportAutomationDisabled = true;
+         this.cameraLocked = false;
+         //this.stopFollow();
+         this.explorationRequests++;
+@@ -722,6 +755,7 @@
+      * we break the wall for 10 seconds.
+      */
+     public zoomByFactor(zoomFactor: number, smooth: boolean): void {
++        this.viewportAutomationDisabled = true;
+         const wallBroken = Date.now() - this.wallDownDate < 10000 || this.enableResistanceWall === false;
+         if (
+             this.isBetween(
+--- a/play/src/front/Phaser/Game/GameScene.ts
++++ b/play/src/front/Phaser/Game/GameScene.ts
+@@ -3063,6 +3063,12 @@
+         );
+ 
+         this.iframeSubscriptionList.push(
++            iframeListener.cameraViewportStream.subscribe(({ width, height, smooth }) => {
++                this.cameraManager.setViewport(width, height, smooth);
++            })
++        );
++
++        this.iframeSubscriptionList.push(
+             iframeListener.cameraSetStream.subscribe((cameraSetEvent) => {
+                 const duration = cameraSetEvent.smooth ? cameraSetEvent.duration ?? 1000 : 0;
+                 if (cameraSetEvent.lock) {
+--- a/play/src/front/Api/Iframe/camera.ts
++++ b/play/src/front/Api/Iframe/camera.ts
+@@ -49,6 +49,20 @@
+         });
+     }
+ 
++    /** Fit a world-space viewport without recentering or interrupting native player follow.
++     * No effect while the user is exploring, focusing elsewhere, or has locked zoom.
++     * Requires a client that supports the cameraViewport event; legacy clients ignore it.
++     */
++    public setViewport(width: number, height: number, smooth = false): void {
++        if (!Number.isFinite(width) || !Number.isFinite(height) || width < 1 || height < 1 || width > 1_000_000 || height > 1_000_000) {
++            throw new RangeError("Camera viewport dimensions must be finite and between 1 and 1,000,000 world pixels.");
++        }
++        sendToWorkadventure({
++            type: "cameraViewport",
++            data: { width, height, smooth },
++        });
++    }
++
+     /**
+      * Listens to updates of the camera viewport.
+      * It will trigger for every update of the camera's properties (position or scale for instance).
+--- a/play/src/front/Api/IframeListener.ts
++++ b/play/src/front/Api/IframeListener.ts
+@@ -38,6 +38,7 @@
+ import type { WasCameraUpdatedEvent } from "./Events/WasCameraUpdatedEvent";
+ import type { ChangeAreaEvent } from "./Events/ChangeAreaEvent";
+ import type { CameraSetEvent } from "./Events/CameraSetEvent";
++import type { CameraViewportEvent } from "./Events/CameraViewportEvent";
+ import type { CameraFollowPlayerEvent } from "./Events/CameraFollowPlayerEvent";
+ import type { AddActionsMenuKeyToRemotePlayerEvent } from "./Events/AddActionsMenuKeyToRemotePlayerEvent";
+ import type { ActionsMenuActionClickedEvent } from "./Events/ActionsMenuActionClickedEvent";
+@@ -131,6 +132,9 @@
+     private readonly _enablePlayerProximityMeetingStream: Subject<void> = new Subject();
+     public readonly enablePlayerProximityMeetingStream = this._enablePlayerProximityMeetingStream.asObservable();
+ 
++    private readonly _cameraViewportStream: Subject<CameraViewportEvent> = new Subject();
++    public readonly cameraViewportStream = this._cameraViewportStream.asObservable();
++
+     private readonly _cameraSetStream: Subject<CameraSetEvent> = new Subject();
+     public readonly cameraSetStream = this._cameraSetStream.asObservable();
+ 
+@@ -454,6 +458,8 @@
+                         this._setPropertyStream.next(iframeEvent.data);
+                     } else if (iframeEvent.type === "setAreaProperty") {
+                         this._setAreaPropertyStream.next(iframeEvent.data);
++                    } else if (iframeEvent.type === "cameraViewport") {
++                        this._cameraViewportStream.next(iframeEvent.data);
+                     } else if (iframeEvent.type === "cameraSet") {
+                         this._cameraSetStream.next(iframeEvent.data);
+                     } else if (iframeEvent.type === "cameraFollowPlayer") {
+--- a/play/src/front/Api/Events/IframeEvent.ts
++++ b/play/src/front/Api/Events/IframeEvent.ts
+@@ -1,3 +1,4 @@
++import { isCameraViewportEvent } from "./CameraViewportEvent";
+ import { z } from "zod";
+ import {
+     isBanEvent,
+@@ -125,6 +126,10 @@
+         data: isCameraFollowPlayerEvent,
+     }),
+     z.object({
++        type: z.literal("cameraViewport"),
++        data: isCameraViewportEvent,
++    }),
++    z.object({
+         type: z.literal("cameraSet"),
+         data: isCameraSetEvent,
+     }),
+--- a/play/src/front/Api/Events/CameraViewportEvent.ts
++++ b/play/src/front/Api/Events/CameraViewportEvent.ts
+@@ -0,0 +1,10 @@
++import { z } from "zod";
++
++export const isCameraViewportEvent = z.object({
++    width: z.number().finite().min(1).max(1_000_000),
++    height: z.number().finite().min(1).max(1_000_000),
++    smooth: z.boolean().optional(),
++});
++
++/** Fit a world-space viewport while keeping the native Follow target. */
++export type CameraViewportEvent = z.infer<typeof isCameraViewportEvent>;

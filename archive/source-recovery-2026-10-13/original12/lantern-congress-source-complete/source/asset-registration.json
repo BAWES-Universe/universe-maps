@@ -1,0 +1,267 @@
+{
+  "status": "native sample only; build geometry not frozen",
+  "assets": [
+    {
+      "asset": "congress-chair-north.png",
+      "source": "chair-kit-master.png",
+      "region": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "opaqueCropLocal": [
+        268,
+        140,
+        575,
+        434
+      ],
+      "size": [
+        48,
+        46
+      ],
+      "uniformScale": 0.1563517915309446,
+      "sha256": "a86c49fdafeee081adfa5fa9e835d50dcfd45dd36216300b3301ac980a81bbb3"
+    },
+    {
+      "asset": "congress-chair-south.png",
+      "source": "chair-kit-master.png",
+      "region": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "opaqueCropLocal": [
+        197,
+        83,
+        522,
+        439
+      ],
+      "size": [
+        48,
+        53
+      ],
+      "uniformScale": 0.1476923076923077,
+      "sha256": "f6bb415770deb90420c6ff86be7dc2d3ed1e130b79e642bdf4aaa5a0ab52391e"
+    },
+    {
+      "asset": "congress-chair-east.png",
+      "source": "chair-kit-master.png",
+      "region": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "opaqueCropLocal": [
+        274,
+        29,
+        617,
+        400
+      ],
+      "size": [
+        48,
+        52
+      ],
+      "uniformScale": 0.13994169096209913,
+      "sha256": "fd70caf98b1286bb626492a7a8ae7b1a4439caa7dcbd63b72549b673689f7b98"
+    },
+    {
+      "asset": "congress-chair-west.png",
+      "source": "chair-kit-master.png",
+      "region": [
+        768,
+        512,
+        1536,
+        1024
+      ],
+      "opaqueCropLocal": [
+        179,
+        29,
+        518,
+        399
+      ],
+      "size": [
+        48,
+        52
+      ],
+      "uniformScale": 0.1415929203539823,
+      "sha256": "e93f729f25974b8eb4c762852786835d4b3c991672db54a98ba7698f35abfe93"
+    },
+    {
+      "asset": "congress-wall-horizontal.png",
+      "source": "architecture-kit-master.png",
+      "region": [
+        0,
+        0,
+        1536,
+        450
+      ],
+      "opaqueCropLocal": [
+        40,
+        97,
+        1497,
+        392
+      ],
+      "size": [
+        384,
+        78
+      ],
+      "uniformScale": 0.26355525051475637,
+      "sha256": "6751ae92503af638ab4112e39d10cef0693d240a7d35e6e6d6864ce608b4d996"
+    },
+    {
+      "asset": "congress-reception.png",
+      "source": "architecture-kit-master.png",
+      "region": [
+        0,
+        450,
+        730,
+        1024
+      ],
+      "opaqueCropLocal": [
+        41,
+        92,
+        695,
+        412
+      ],
+      "size": [
+        192,
+        94
+      ],
+      "uniformScale": 0.29357798165137616,
+      "sha256": "ff19efeac5b213ee1a3940031c99442eb05b883452eb804abde6db5950d9aaa3"
+    },
+    {
+      "asset": "congress-low-table.png",
+      "source": "architecture-kit-master.png",
+      "region": [
+        730,
+        450,
+        1140,
+        1024
+      ],
+      "opaqueCropLocal": [
+        41,
+        197,
+        373,
+        388
+      ],
+      "size": [
+        80,
+        46
+      ],
+      "uniformScale": 0.24096385542168675,
+      "sha256": "6c09afcb7bc5490f44dffd3a09d35505cff569ad8d8862b5f58fabc8f60dccde"
+    },
+    {
+      "asset": "congress-olive-planter.png",
+      "source": "architecture-kit-master.png",
+      "region": [
+        1140,
+        450,
+        1536,
+        1024
+      ],
+      "opaqueCropLocal": [
+        31,
+        4,
+        362,
+        433
+      ],
+      "size": [
+        64,
+        83
+      ],
+      "uniformScale": 0.1933534743202417,
+      "sha256": "05e5e4568d0b532fdd2a99d958c7b5f7038231d48d8a7e10c79dc620e302dd4b"
+    },
+    {
+      "asset": "congress-wall-left.png",
+      "source": "room-kit-master.png",
+      "region": [
+        0,
+        0,
+        300,
+        1024
+      ],
+      "opaqueCropLocal": [
+        63,
+        54,
+        198,
+        973
+      ],
+      "size": [
+        56,
+        381
+      ],
+      "uniformScale": 0.4148148148148148
+    },
+    {
+      "asset": "congress-wall-right.png",
+      "source": "room-kit-master.png",
+      "region": [
+        1230,
+        0,
+        1536,
+        1024
+      ],
+      "opaqueCropLocal": [
+        111,
+        54,
+        246,
+        971
+      ],
+      "size": [
+        56,
+        380
+      ],
+      "uniformScale": 0.4148148148148148
+    },
+    {
+      "asset": "congress-screen.png",
+      "source": "room-kit-master.png",
+      "region": [
+        300,
+        0,
+        1230,
+        520
+      ],
+      "opaqueCropLocal": [
+        82,
+        129,
+        859,
+        457
+      ],
+      "size": [
+        256,
+        108
+      ],
+      "uniformScale": 0.32947232947232946
+    },
+    {
+      "asset": "congress-lectern.png",
+      "source": "room-kit-master.png",
+      "region": [
+        400,
+        520,
+        1100,
+        1024
+      ],
+      "opaqueCropLocal": [
+        234,
+        86,
+        502,
+        376
+      ],
+      "size": [
+        48,
+        52
+      ],
+      "uniformScale": 0.1791044776119403
+    }
+  ],
+  "floor": "Generated1024-square texture uniformly reduced to256-square; no directional lighting baked in",
+  "greg": "Project-authored Greg Gulf-outfit v3, unchanged reference only"
+}

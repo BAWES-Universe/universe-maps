@@ -1,0 +1,79 @@
+{
+  "nativeTileSize": 32,
+  "world": [
+    2560,
+    1920
+  ],
+  "areas": [
+    {
+      "id": 1,
+      "name": "start",
+      "x": 736,
+      "y": 1792,
+      "width": 64,
+      "height": 64,
+      "properties": [
+        {
+          "name": "start",
+          "type": "bool",
+          "value": true
+        }
+      ],
+      "class": "area",
+      "type": "area",
+      "rotation": 0,
+      "visible": true
+    },
+    {
+      "id": 2,
+      "name": "v04-hall-interior",
+      "x": 0,
+      "y": 0,
+      "width": 1535,
+      "height": 1007,
+      "properties": [],
+      "class": "area",
+      "type": "area",
+      "rotation": 0,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "v04-foyer-interior",
+      "x": 0,
+      "y": 960,
+      "width": 1544,
+      "height": 848,
+      "properties": [],
+      "class": "area",
+      "type": "area",
+      "rotation": 0,
+      "visible": true
+    }
+  ],
+  "focusRectangle": [
+    0,
+    0,
+    1536,
+    1008
+  ],
+  "permanentLayers": [
+    "collision-permanent",
+    "quiet-arrival-and-main-circulation",
+    "hall-base",
+    "hall-walls-raised",
+    "hall-above"
+  ],
+  "decorativeGroups": [
+    "v04-surroundings-below",
+    "v04-surroundings-above",
+    "v04-hall-roof",
+    "v04-foyer-roof"
+  ],
+  "roofTransition": "Immediate full reveal; no alpha tween or ghost layer during play",
+  "collisionSourceSHA256": "37e3ea557828bf358637753b026110352d3e6cd6726869f0fa633da65f06b2ee",
+  "quietSourceSHA256": "49a07fae4d9c56bd1fe9a8678cb832cf52d7b45db6c5c6ec5c2ca1af1e8451ec",
+  "v03CollisionUnchanged": true,
+  "v03QuietUnchanged": true,
+  "note": "Visibility changes replan native active paths despite identical collision grid. Final safe intended-tile route tests required; exact pointer endpoint not guaranteed."
+}

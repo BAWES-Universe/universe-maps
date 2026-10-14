@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N28-zone-1",
+      "name": "Wetland observations",
+      "x": 624,
+      "y": 192,
+      "width": 304,
+      "height": 48,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N28-zone-2",
+      "name": "Field class",
+      "x": 576,
+      "y": 352,
+      "width": 384,
+      "height": 256,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N28-zone-3",
+      "name": "Specimen comparison",
+      "x": 208,
+      "y": 432,
+      "width": 176,
+      "height": 64,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N28-zone-4",
+      "name": "Water sampling",
+      "x": 1120,
+      "y": 448,
+      "width": 64,
+      "height": 112,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "scope": "Partial recovery only; no generated raster/master/runtime/manifest recovery, no original package completeness claim. Recovery hashes for text are newly computed identities, not proof against the missing historical manifest.",
+  "historicalManifestSHA256": "52fd0e9a89aff2faba30131f8c8c137e9a96825c3eff3286e3ac5e440410aa3b",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6165,
+      "recoverySHA256": "06a430a1c12c74fc2a4334bfe9a40237cb72b17ebff16ed11a0c5e12e718826e",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "RECOVERY-STATUS.md",
+      "bytes": 3490,
+      "recoverySHA256": "1e41b644f67aa7f3dcd437eb746fee9c0b1e372dfda07307f9c4628d86a48642",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "art/courtyard-r1-prompt.txt",
+      "bytes": 2038,
+      "recoverySHA256": "ca3e683991a6f560175a41e941737e2ea270f9e9ce74036ce31d73100d89b5df",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "art/courtyard-r2-prompt.txt",
+      "bytes": 974,
+      "recoverySHA256": "5dad6b3017836fc56e2da88e8c2447445f6093b5ca075b8daaf302729e9b5b82",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "art/courtyard-r3-prompt.txt",
+      "bytes": 1036,
+      "recoverySHA256": "d1e0bd1a2a8115a1536eb2f4a4bd523a9b4ac8165437fc10305da5441c1d3ad9",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "art/packed-r1-prompt.txt",
+      "bytes": 1053,
+      "recoverySHA256": "3499b13c40d39ac943f8f9d4731dad65e837412e2c9da184d654d4b0d7031a5c",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "art/rooms-r1-prompt.txt",
+      "bytes": 1909,
+      "recoverySHA256": "3fb308680f004be1b38badcee450615eec0daa656dc763eab871f9a92064034c",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "art/rooms-r2-prompt.txt",
+      "bytes": 997,
+      "recoverySHA256": "ba23ba458062d5efe2eaf411fa4521eedc3c9389b23b47190876fb75101342b1",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "art/rooms-r3-prompt.txt",
+      "bytes": 824,
+      "recoverySHA256": "ac827aefbb7682e331af2370257efd546c11caa1de8d592ccf1bcac3d649c1b4",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "evidence/nested-old-archive-dependency-hash-search.json",
+      "bytes": 13839,
+      "recoverySHA256": "5d495c5491c97a2ea41f31767e47ec4728a62054b8c544906815899bc9a2a847",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "evidence/old-archive-dependency-hash-search.json",
+      "bytes": 52,
+      "recoverySHA256": "da5e13ba092134f234b2658719573e9f2e61f526294bd45f87288584494958df",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "evidence/original-art-locators.json",
+      "bytes": 1160,
+      "recoverySHA256": "5f5e9db3c17df5e62bc356f0de42c80b5a1758c6a805275a591e95a9dec311f2",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "evidence/pinned-native-dependency-recovery.json",
+      "bytes": 1686,
+      "recoverySHA256": "94951665b16531fa67e954b7af20b9b519016d928e0486fb22227f4546b189e2",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "evidence/prior-verified-identities.json",
+      "bytes": 1048,
+      "recoverySHA256": "01f2f078ff14fe92537a0583e7e174f87013993986b7bbc08ec8c9fe7018d4bd",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "evidence/recovery-syntax-only.json",
+      "bytes": 1942,
+      "recoverySHA256": "dfaebdb8d330e1980097b9b91935aab812fe40e60cd358ce3f7a90dc9bd040fb",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "source/NATIVE-FIXTURE-PINS.json",
+      "bytes": 296,
+      "recoverySHA256": "c7fa7b27fe46631f7bcc6ade71e145686cd6fbe17a5680e59799086b4817281b",
+      "classification": "historical-hash-verified-dependency",
+      "source": "Already restored older source ZIP; exact member and hash provenance in evidence/",
+      "originalH025HashMatched": true
+    },
+    {
+      "path": "source/actors/Female 04-1.png",
+      "bytes": 3101,
+      "recoverySHA256": "3554502d83883e873f3150f544787076a9889320264e0ab5955fca61bde674c9",
+      "classification": "historical-hash-verified-dependency",
+      "source": "Already restored older source ZIP; exact member and hash provenance in evidence/",
+      "originalH025HashMatched": true
+    },
+    {
+      "path": "source/controller.js",
+      "bytes": 9634,
+      "recoverySHA256": "35a924ae7c8fca263e49d00a0086f37effa50a0d1da06f2e638eaa740b3db636",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/author-floor.py",
+      "bytes": 3986,
+      "recoverySHA256": "e30a1b07c5c5197cfc36c46c72552ababee1c4bd256fe94eebe4f8cc6c13743b",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/author-layout.py",
+      "bytes": 8833,
+      "recoverySHA256": "b56f0a9023cbf74703946ff28f030caa3fcbbc6d2f9fe42023101b977c557544",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/author-review.py",
+      "bytes": 6022,
+      "recoverySHA256": "ebe8fb497a32fac4f2af3e6ba99d0e8471efc284a4053ecf5c53faaa504e7719",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/build.py",
+      "bytes": 10407,
+      "recoverySHA256": "2b2a05d02620ec6dc6452603a73fd11e3efa780eb02e95a888d56daf6cc7acf5",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete observed original file output with recorded literal H025 edits",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/clean-rebuild.py",
+      "bytes": 2370,
+      "recoverySHA256": "cf4516e411eacd0661672b3ff4d15a24b150012234afc9d2db68397539957352",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/native-all-cells.cjs",
+      "bytes": 5707,
+      "recoverySHA256": "b00d8e6d55f8a807d9ca2af58ffe3b82593dbbbe5647d6f72ba22ec5f7db4c6b",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete observed original file output with recorded literal H025 edits",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/native-fixture/easystar-0.4.4.js",
+      "bytes": 25143,
+      "recoverySHA256": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+      "classification": "historical-hash-verified-dependency",
+      "source": "Already restored older source ZIP; exact member and hash provenance in evidence/",
+      "originalH025HashMatched": true
+    },
+    {
+      "path": "tools/native-fixture/extracted-current-source.cjs",
+      "bytes": 31744,
+      "recoverySHA256": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+      "classification": "historical-hash-verified-dependency",
+      "source": "Already restored older source ZIP; exact member and hash provenance in evidence/",
+      "originalH025HashMatched": true
+    },
+    {
+      "path": "tools/native-fixture/native-runtime-portable.cjs",
+      "bytes": 2190,
+      "recoverySHA256": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+      "classification": "historical-hash-verified-dependency",
+      "source": "Already restored older source ZIP; exact member and hash provenance in evidence/",
+      "originalH025HashMatched": true
+    },
+    {
+      "path": "tools/proof.py",
+      "bytes": 2303,
+      "recoverySHA256": "ddc9b71487f2810b27d500f256213bbb129ed084e22dc94f492f8be2dc1018c9",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete observed original file output with recorded literal H025 edits",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/rebuild.sh",
+      "bytes": 456,
+      "recoverySHA256": "7631db0cadfab31eef573e35ce5ab139fb3f6ada237e2906d73f02203716efcc",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/spawn.cjs",
+      "bytes": 2914,
+      "recoverySHA256": "2cbd0b4f478ed22c7e582996fba7cb58b834a6496c07d5edf8d2898eaadf32a5",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete observed original file output with recorded literal H025 edits",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/test-controller.cjs",
+      "bytes": 9589,
+      "recoverySHA256": "57e17a2ecd6065229c880255df8990ca97fb44bd4f1033bc917844436c035cab",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/test-transition.cjs",
+      "bytes": 1968,
+      "recoverySHA256": "c089f2a3372fa9f67fa1c9233afa96f517a710d20bf154cd8b36668a4ed499e8",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete prior authored tool-call input, plus recorded literal edits where documented",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/trace.cjs",
+      "bytes": 4915,
+      "recoverySHA256": "95093a5fb9048db0ac3a190a3f3d7ee146cc2491b197c904d42597d9b37a8cde",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete observed original file output with recorded literal H025 edits",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/verify-floor.py",
+      "bytes": 1377,
+      "recoverySHA256": "fbaa0fc3f6b3699c9330b9659641b0722ed29e78352788071f5a255ebf4d1154",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete observed original file output with recorded literal H025 edits",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/verify-native-all.py",
+      "bytes": 3233,
+      "recoverySHA256": "cebc110385c9c33ebcecb645caec9bb5a4ff6e02d991c8d397c185b219dd5a2a",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete observed original file output with recorded literal H025 edits",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "tools/verify-whole-footprints.py",
+      "bytes": 1143,
+      "recoverySHA256": "ecf3ba74500cc554e61c98c9ad5a8cd57348334b02d270c286fe4ba6bd1cfc6f",
+      "classification": "byte-evidenced-text-historical-hash-unverified",
+      "source": "Complete observed original file output with recorded literal H025 edits",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "transcript-inputs/apply-build-recorded-edits.py",
+      "bytes": 2208,
+      "recoverySHA256": "97c628f6d3473dbfe9d33b7bb201d4115b325a1e4972a430bd271c36520cfaee",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "transcript-inputs/apply-controller-test-recorded-edits.py",
+      "bytes": 1021,
+      "recoverySHA256": "e745a804cfdbc7a9608d3558b0108806ee931df49a63bba73a00c7189fabc8ad",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "transcript-inputs/apply-floor-recorded-edits.py",
+      "bytes": 1106,
+      "recoverySHA256": "612a618dd7297f59ad90a903ee32f98e6ae7651a84d85261195a905b4f8fcbbc",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "transcript-inputs/apply-layout-recorded-edits.py",
+      "bytes": 2866,
+      "recoverySHA256": "eb2d9b6826ba73b534c743f0ca302f332acb5becf2a868fc7aa4fb6d48e32c1f",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "transcript-inputs/author-floor.initial.py",
+      "bytes": 3987,
+      "recoverySHA256": "39fcf0a8acd1cf1f4a110be1fdc12956b75d5f62a14fb4e66d963d6c2210d547",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "transcript-inputs/author-layout.initial.py",
+      "bytes": 8021,
+      "recoverySHA256": "62863af19aa4a31f5567b7de0631675a6e0cad966f8151212fa9348ac4ea7bdd",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "transcript-inputs/build.H024-observed.py",
+      "bytes": 10115,
+      "recoverySHA256": "c0460b3735a7f5642440a0ce38323e47610880cf96b6a5792b4e81c56ee39dd1",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "transcript-inputs/restore-original-prompt-texts.py",
+      "bytes": 9189,
+      "recoverySHA256": "86ea977068157206ce4d861c5fd565f1b610438c91dbc800867473bc620822f9",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    },
+    {
+      "path": "transcript-inputs/test-controller.initial.cjs",
+      "bytes": 9583,
+      "recoverySHA256": "238b8657b87b8903b97415f73487f02e4f40f60bcdbdbb8aafead937e0db2581",
+      "classification": "new-recovery-record",
+      "source": "Recovery evidence or retained initial-body/edit journal",
+      "originalH025HashMatched": false
+    }
+  ],
+  "counts": {
+    "byte-evidenced-text-historical-hash-unverified": 24,
+    "historical-hash-verified-dependency": 5,
+    "new-recovery-record": 16
+  },
+  "bytes": 223640
+}

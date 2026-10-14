@@ -1,0 +1,220 @@
+{
+  "pairs": {
+    "terrace-view-pair": [
+      2384,
+      1472
+    ],
+    "terrace-lower-pair": [
+      1904,
+      1856
+    ],
+    "terrace-garden-pair": [
+      2352,
+      1856
+    ]
+  },
+  "chairs": [
+    {
+      "id": "terrace-view-pair-left",
+      "asset": "source/components/lounge-chair-east.png",
+      "x": 2331,
+      "y": 1445,
+      "width": 42,
+      "height": 50,
+      "solidFootprintXYWH": [
+        2336,
+        1504,
+        32,
+        32
+      ],
+      "foregroundFromLocalY": 43
+    },
+    {
+      "id": "terrace-view-pair-right",
+      "asset": "source/components/lounge-chair-west.png",
+      "x": 2395,
+      "y": 1445,
+      "width": 42,
+      "height": 50,
+      "solidFootprintXYWH": [
+        2400,
+        1504,
+        32,
+        32
+      ],
+      "foregroundFromLocalY": 43
+    },
+    {
+      "id": "terrace-lower-pair-left",
+      "asset": "source/components/lounge-chair-east.png",
+      "x": 1851,
+      "y": 1829,
+      "width": 42,
+      "height": 50,
+      "solidFootprintXYWH": [
+        1856,
+        1888,
+        32,
+        32
+      ],
+      "foregroundFromLocalY": 43
+    },
+    {
+      "id": "terrace-lower-pair-right",
+      "asset": "source/components/lounge-chair-west.png",
+      "x": 1915,
+      "y": 1829,
+      "width": 42,
+      "height": 50,
+      "solidFootprintXYWH": [
+        1920,
+        1888,
+        32,
+        32
+      ],
+      "foregroundFromLocalY": 43
+    },
+    {
+      "id": "terrace-garden-pair-left",
+      "asset": "source/components/lounge-chair-east.png",
+      "x": 2299,
+      "y": 1829,
+      "width": 42,
+      "height": 50,
+      "solidFootprintXYWH": [
+        2304,
+        1888,
+        32,
+        32
+      ],
+      "foregroundFromLocalY": 43
+    },
+    {
+      "id": "terrace-garden-pair-right",
+      "asset": "source/components/lounge-chair-west.png",
+      "x": 2363,
+      "y": 1829,
+      "width": 42,
+      "height": 50,
+      "solidFootprintXYWH": [
+        2368,
+        1888,
+        32,
+        32
+      ],
+      "foregroundFromLocalY": 43
+    }
+  ],
+  "oldFurnitureRemoved": [
+    "terrace-garden-pair-right",
+    "terrace-view-pair-right",
+    "terrace-view-pair-table",
+    "terrace-lower-pair-table",
+    "terrace-lower-pair-left",
+    "terrace-garden-pair-table",
+    "terrace-garden-pair-left",
+    "terrace-lower-pair-right",
+    "terrace-view-pair-left"
+  ],
+  "clearRectangles": [
+    [
+      2330,
+      1461,
+      2382,
+      1509
+    ],
+    [
+      2386,
+      1461,
+      2438,
+      1509
+    ],
+    [
+      2334,
+      1402,
+      2402,
+      1442
+    ],
+    [
+      1850,
+      1845,
+      1902,
+      1893
+    ],
+    [
+      1906,
+      1845,
+      1958,
+      1893
+    ],
+    [
+      1854,
+      1786,
+      1922,
+      1826
+    ],
+    [
+      2298,
+      1845,
+      2350,
+      1893
+    ],
+    [
+      2354,
+      1845,
+      2406,
+      1893
+    ],
+    [
+      2302,
+      1786,
+      2370,
+      1826
+    ],
+    [
+      2312,
+      1384,
+      2456,
+      1528
+    ],
+    [
+      1832,
+      1768,
+      1976,
+      1912
+    ],
+    [
+      2280,
+      1768,
+      2424,
+      1912
+    ]
+  ],
+  "generatedCoffeeTransform": {
+    "uniformScale": 0.1001788908765653,
+    "nativeSize": [
+      168,
+      94
+    ]
+  },
+  "southGardenTransform": {
+    "uniformScale": 1.3554327808471456,
+    "nativeSize": [
+      2944,
+      981
+    ],
+    "leftSourceNative": [
+      32,
+      0,
+      800,
+      376
+    ],
+    "rightSourceNative": [
+      1152,
+      0,
+      2944,
+      376
+    ],
+    "worldY": 2056
+  }
+}

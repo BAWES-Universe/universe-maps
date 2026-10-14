@@ -1,0 +1,2807 @@
+{
+  "tileSize": 32,
+  "title": "Mechanical Orchard",
+  "slug": "mechanical-orchard",
+  "globalLayout": "MechanicalOrchardLayout",
+  "worldTiles": [
+    88,
+    36
+  ],
+  "rooms": {
+    "orchard": {
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "source": "art/orchard-master-r5.png",
+      "rows": {
+        "5": [
+          [
+            10,
+            13
+          ],
+          [
+            22,
+            25
+          ],
+          [
+            35,
+            38
+          ]
+        ],
+        "6": [
+          [
+            8,
+            16
+          ],
+          [
+            21,
+            26
+          ],
+          [
+            31,
+            40
+          ]
+        ],
+        "7": [
+          [
+            6,
+            42
+          ]
+        ],
+        "8": [
+          [
+            4,
+            43
+          ]
+        ],
+        "9": [
+          [
+            3,
+            44
+          ]
+        ],
+        "10": [
+          [
+            3,
+            44
+          ]
+        ],
+        "11": [
+          [
+            3,
+            44
+          ]
+        ],
+        "12": [
+          [
+            3,
+            44
+          ]
+        ],
+        "13": [
+          [
+            3,
+            44
+          ]
+        ],
+        "14": [
+          [
+            3,
+            44
+          ]
+        ],
+        "15": [
+          [
+            3,
+            44
+          ]
+        ],
+        "16": [
+          [
+            3,
+            44
+          ]
+        ],
+        "17": [
+          [
+            3,
+            44
+          ]
+        ],
+        "18": [
+          [
+            3,
+            44
+          ]
+        ],
+        "19": [
+          [
+            6,
+            41
+          ]
+        ],
+        "20": [
+          [
+            6,
+            41
+          ]
+        ],
+        "21": [
+          [
+            7,
+            13
+          ],
+          [
+            15,
+            28
+          ],
+          [
+            30,
+            40
+          ]
+        ],
+        "22": [
+          [
+            7,
+            13
+          ],
+          [
+            15,
+            28
+          ],
+          [
+            30,
+            40
+          ]
+        ],
+        "23": [
+          [
+            8,
+            12
+          ],
+          [
+            20,
+            27
+          ],
+          [
+            33,
+            39
+          ]
+        ],
+        "24": [
+          [
+            22,
+            25
+          ]
+        ],
+        "25": [
+          [
+            22,
+            25
+          ]
+        ],
+        "26": [
+          [
+            22,
+            25
+          ]
+        ],
+        "27": [
+          [
+            21,
+            27
+          ]
+        ],
+        "28": [
+          [
+            21,
+            27
+          ]
+        ],
+        "29": [
+          [
+            21,
+            27
+          ]
+        ],
+        "30": [
+          [
+            23,
+            26
+          ]
+        ]
+      }
+    },
+    "house": {
+      "offset": [
+        1792,
+        96
+      ],
+      "size": [
+        768,
+        512
+      ],
+      "source": "art/cam-house-master-r1.png",
+      "rows": {
+        "4": [
+          [
+            5,
+            18
+          ]
+        ],
+        "5": [
+          [
+            5,
+            20
+          ]
+        ],
+        "6": [
+          [
+            3,
+            20
+          ]
+        ],
+        "7": [
+          [
+            3,
+            20
+          ]
+        ],
+        "8": [
+          [
+            3,
+            20
+          ]
+        ],
+        "9": [
+          [
+            4,
+            20
+          ]
+        ],
+        "10": [
+          [
+            10,
+            13
+          ]
+        ],
+        "11": [
+          [
+            10,
+            13
+          ]
+        ],
+        "12": [
+          [
+            10,
+            13
+          ]
+        ],
+        "13": [
+          [
+            8,
+            16
+          ]
+        ],
+        "14": [
+          [
+            8,
+            16
+          ]
+        ],
+        "15": [
+          [
+            8,
+            16
+          ]
+        ]
+      }
+    }
+  },
+  "physicalFootprints": {
+    "orchard": [
+      {
+        "name": "west petal island complete bed and hard rim",
+        "polygon": [
+          [
+            521,
+            441
+          ],
+          [
+            518,
+            465
+          ],
+          [
+            510,
+            489
+          ],
+          [
+            496,
+            510
+          ],
+          [
+            477,
+            530
+          ],
+          [
+            454,
+            547
+          ],
+          [
+            427,
+            561
+          ],
+          [
+            397,
+            572
+          ],
+          [
+            366,
+            578
+          ],
+          [
+            333,
+            580
+          ],
+          [
+            300,
+            578
+          ],
+          [
+            269,
+            572
+          ],
+          [
+            239,
+            561
+          ],
+          [
+            212,
+            547
+          ],
+          [
+            189,
+            530
+          ],
+          [
+            170,
+            510
+          ],
+          [
+            156,
+            489
+          ],
+          [
+            148,
+            465
+          ],
+          [
+            145,
+            441
+          ],
+          [
+            148,
+            417
+          ],
+          [
+            156,
+            393
+          ],
+          [
+            170,
+            372
+          ],
+          [
+            189,
+            352
+          ],
+          [
+            212,
+            335
+          ],
+          [
+            239,
+            321
+          ],
+          [
+            269,
+            310
+          ],
+          [
+            300,
+            304
+          ],
+          [
+            333,
+            302
+          ],
+          [
+            366,
+            304
+          ],
+          [
+            397,
+            310
+          ],
+          [
+            427,
+            321
+          ],
+          [
+            454,
+            335
+          ],
+          [
+            477,
+            352
+          ],
+          [
+            496,
+            371
+          ],
+          [
+            510,
+            393
+          ],
+          [
+            518,
+            417
+          ]
+        ]
+      },
+      {
+        "name": "central leaf island complete bed and hard rim",
+        "polygon": [
+          [
+            951,
+            441
+          ],
+          [
+            948,
+            465
+          ],
+          [
+            940,
+            489
+          ],
+          [
+            927,
+            510
+          ],
+          [
+            909,
+            530
+          ],
+          [
+            887,
+            547
+          ],
+          [
+            862,
+            561
+          ],
+          [
+            833,
+            572
+          ],
+          [
+            803,
+            578
+          ],
+          [
+            772,
+            580
+          ],
+          [
+            741,
+            578
+          ],
+          [
+            711,
+            572
+          ],
+          [
+            682,
+            561
+          ],
+          [
+            657,
+            547
+          ],
+          [
+            635,
+            530
+          ],
+          [
+            617,
+            510
+          ],
+          [
+            604,
+            489
+          ],
+          [
+            596,
+            465
+          ],
+          [
+            593,
+            441
+          ],
+          [
+            596,
+            417
+          ],
+          [
+            604,
+            393
+          ],
+          [
+            617,
+            372
+          ],
+          [
+            635,
+            352
+          ],
+          [
+            657,
+            335
+          ],
+          [
+            682,
+            321
+          ],
+          [
+            711,
+            310
+          ],
+          [
+            741,
+            304
+          ],
+          [
+            772,
+            302
+          ],
+          [
+            803,
+            304
+          ],
+          [
+            833,
+            310
+          ],
+          [
+            862,
+            321
+          ],
+          [
+            887,
+            335
+          ],
+          [
+            909,
+            352
+          ],
+          [
+            927,
+            371
+          ],
+          [
+            940,
+            393
+          ],
+          [
+            948,
+            417
+          ]
+        ]
+      },
+      {
+        "name": "east fruit island complete bed and hard rim",
+        "polygon": [
+          [
+            1390,
+            441
+          ],
+          [
+            1387,
+            465
+          ],
+          [
+            1379,
+            489
+          ],
+          [
+            1365,
+            510
+          ],
+          [
+            1346,
+            530
+          ],
+          [
+            1323,
+            547
+          ],
+          [
+            1296,
+            561
+          ],
+          [
+            1267,
+            572
+          ],
+          [
+            1235,
+            578
+          ],
+          [
+            1203,
+            580
+          ],
+          [
+            1171,
+            578
+          ],
+          [
+            1139,
+            572
+          ],
+          [
+            1110,
+            561
+          ],
+          [
+            1083,
+            547
+          ],
+          [
+            1060,
+            530
+          ],
+          [
+            1041,
+            510
+          ],
+          [
+            1027,
+            489
+          ],
+          [
+            1019,
+            465
+          ],
+          [
+            1016,
+            441
+          ],
+          [
+            1019,
+            417
+          ],
+          [
+            1027,
+            393
+          ],
+          [
+            1041,
+            372
+          ],
+          [
+            1060,
+            352
+          ],
+          [
+            1083,
+            335
+          ],
+          [
+            1110,
+            321
+          ],
+          [
+            1139,
+            310
+          ],
+          [
+            1171,
+            304
+          ],
+          [
+            1203,
+            302
+          ],
+          [
+            1235,
+            304
+          ],
+          [
+            1267,
+            310
+          ],
+          [
+            1296,
+            321
+          ],
+          [
+            1323,
+            335
+          ],
+          [
+            1346,
+            352
+          ],
+          [
+            1365,
+            371
+          ],
+          [
+            1379,
+            393
+          ],
+          [
+            1387,
+            417
+          ]
+        ]
+      },
+      {
+        "name": "west island first upright",
+        "polygon": [
+          [
+            334,
+            272
+          ],
+          [
+            364,
+            272
+          ],
+          [
+            364,
+            335
+          ],
+          [
+            334,
+            335
+          ]
+        ]
+      },
+      {
+        "name": "west island second upright",
+        "polygon": [
+          [
+            416,
+            283
+          ],
+          [
+            445,
+            283
+          ],
+          [
+            445,
+            347
+          ],
+          [
+            416,
+            347
+          ]
+        ]
+      },
+      {
+        "name": "central first upright",
+        "polygon": [
+          [
+            708,
+            273
+          ],
+          [
+            737,
+            273
+          ],
+          [
+            737,
+            337
+          ],
+          [
+            708,
+            337
+          ]
+        ]
+      },
+      {
+        "name": "central second upright",
+        "polygon": [
+          [
+            828,
+            283
+          ],
+          [
+            857,
+            283
+          ],
+          [
+            857,
+            341
+          ],
+          [
+            828,
+            341
+          ]
+        ]
+      },
+      {
+        "name": "east first upright",
+        "polygon": [
+          [
+            1094,
+            289
+          ],
+          [
+            1121,
+            289
+          ],
+          [
+            1121,
+            350
+          ],
+          [
+            1094,
+            350
+          ]
+        ]
+      },
+      {
+        "name": "east second upright",
+        "polygon": [
+          [
+            1175,
+            278
+          ],
+          [
+            1206,
+            278
+          ],
+          [
+            1206,
+            350
+          ],
+          [
+            1175,
+            350
+          ]
+        ]
+      },
+      {
+        "name": "east third upright",
+        "polygon": [
+          [
+            1288,
+            289
+          ],
+          [
+            1318,
+            289
+          ],
+          [
+            1318,
+            350
+          ],
+          [
+            1288,
+            350
+          ]
+        ]
+      },
+      {
+        "name": "west crank whole pedestal",
+        "polygon": [
+          [
+            297,
+            510
+          ],
+          [
+            371,
+            510
+          ],
+          [
+            371,
+            582
+          ],
+          [
+            297,
+            582
+          ]
+        ]
+      },
+      {
+        "name": "center crank whole pedestal",
+        "polygon": [
+          [
+            747,
+            508
+          ],
+          [
+            828,
+            508
+          ],
+          [
+            828,
+            583
+          ],
+          [
+            747,
+            583
+          ]
+        ]
+      },
+      {
+        "name": "east crank whole pedestal",
+        "polygon": [
+          [
+            1188,
+            509
+          ],
+          [
+            1250,
+            509
+          ],
+          [
+            1250,
+            583
+          ],
+          [
+            1188,
+            583
+          ]
+        ]
+      },
+      {
+        "name": "house west wall full projection",
+        "polygon": [
+          [
+            578,
+            0
+          ],
+          [
+            696,
+            0
+          ],
+          [
+            696,
+            179
+          ],
+          [
+            578,
+            179
+          ]
+        ]
+      },
+      {
+        "name": "house east wall full projection",
+        "polygon": [
+          [
+            840,
+            0
+          ],
+          [
+            956,
+            0
+          ],
+          [
+            956,
+            180
+          ],
+          [
+            840,
+            180
+          ]
+        ]
+      },
+      {
+        "name": "house west open door full leaf",
+        "polygon": [
+          [
+            703,
+            59
+          ],
+          [
+            733,
+            59
+          ],
+          [
+            733,
+            175
+          ],
+          [
+            703,
+            175
+          ]
+        ]
+      },
+      {
+        "name": "house east open door full leaf",
+        "polygon": [
+          [
+            811,
+            59
+          ],
+          [
+            840,
+            59
+          ],
+          [
+            840,
+            175
+          ],
+          [
+            811,
+            175
+          ]
+        ]
+      },
+      {
+        "name": "house west flowerbed complete frontier",
+        "polygon": [
+          [
+            442,
+            121
+          ],
+          [
+            574,
+            95
+          ],
+          [
+            682,
+            141
+          ],
+          [
+            696,
+            177
+          ],
+          [
+            668,
+            201
+          ],
+          [
+            575,
+            201
+          ],
+          [
+            549,
+            177
+          ],
+          [
+            446,
+            164
+          ]
+        ]
+      },
+      {
+        "name": "house east flowerbed complete frontier",
+        "polygon": [
+          [
+            856,
+            131
+          ],
+          [
+            971,
+            109
+          ],
+          [
+            1074,
+            118
+          ],
+          [
+            1100,
+            157
+          ],
+          [
+            994,
+            178
+          ],
+          [
+            972,
+            200
+          ],
+          [
+            875,
+            200
+          ],
+          [
+            850,
+            176
+          ]
+        ]
+      },
+      {
+        "name": "west lower corner greenery full envelope",
+        "polygon": [
+          [
+            52,
+            602
+          ],
+          [
+            116,
+            610
+          ],
+          [
+            157,
+            620
+          ],
+          [
+            177,
+            629
+          ],
+          [
+            189,
+            669
+          ],
+          [
+            213,
+            708
+          ],
+          [
+            211,
+            761
+          ],
+          [
+            191,
+            775
+          ],
+          [
+            0,
+            836
+          ],
+          [
+            0,
+            599
+          ]
+        ]
+      },
+      {
+        "name": "east lower corner greenery full envelope",
+        "polygon": [
+          [
+            1351,
+            611
+          ],
+          [
+            1464,
+            586
+          ],
+          [
+            1535,
+            601
+          ],
+          [
+            1535,
+            845
+          ],
+          [
+            1329,
+            787
+          ],
+          [
+            1320,
+            745
+          ],
+          [
+            1319,
+            685
+          ],
+          [
+            1343,
+            667
+          ]
+        ]
+      },
+      {
+        "name": "southwest complete wall and planted band",
+        "polygon": [
+          [
+            0,
+            751
+          ],
+          [
+            442,
+            748
+          ],
+          [
+            470,
+            716
+          ],
+          [
+            497,
+            718
+          ],
+          [
+            511,
+            757
+          ],
+          [
+            542,
+            720
+          ],
+          [
+            581,
+            705
+          ],
+          [
+            634,
+            741
+          ],
+          [
+            660,
+            777
+          ],
+          [
+            697,
+            769
+          ],
+          [
+            704,
+            863
+          ],
+          [
+            0,
+            905
+          ]
+        ]
+      },
+      {
+        "name": "southeast complete wall and planted band",
+        "polygon": [
+          [
+            842,
+            769
+          ],
+          [
+            921,
+            776
+          ],
+          [
+            949,
+            716
+          ],
+          [
+            982,
+            708
+          ],
+          [
+            1006,
+            752
+          ],
+          [
+            1105,
+            766
+          ],
+          [
+            1120,
+            750
+          ],
+          [
+            1329,
+            754
+          ],
+          [
+            1535,
+            789
+          ],
+          [
+            1535,
+            928
+          ],
+          [
+            848,
+            865
+          ]
+        ]
+      },
+      {
+        "name": "west branch bench continuous front apron and all feet",
+        "polygon": [
+          [
+            229,
+            711
+          ],
+          [
+            324,
+            711
+          ],
+          [
+            324,
+            737
+          ],
+          [
+            229,
+            737
+          ]
+        ]
+      },
+      {
+        "name": "west branch bench whole west grounded arm",
+        "polygon": [
+          [
+            229,
+            678
+          ],
+          [
+            240,
+            678
+          ],
+          [
+            240,
+            735
+          ],
+          [
+            229,
+            735
+          ]
+        ]
+      },
+      {
+        "name": "west branch bench whole east grounded arm",
+        "polygon": [
+          [
+            313,
+            678
+          ],
+          [
+            324,
+            678
+          ],
+          [
+            324,
+            735
+          ],
+          [
+            313,
+            735
+          ]
+        ]
+      },
+      {
+        "name": "east branch bench continuous front apron and all feet",
+        "polygon": [
+          [
+            1212,
+            711
+          ],
+          [
+            1308,
+            711
+          ],
+          [
+            1308,
+            737
+          ],
+          [
+            1212,
+            737
+          ]
+        ]
+      },
+      {
+        "name": "east branch bench whole west grounded arm",
+        "polygon": [
+          [
+            1212,
+            678
+          ],
+          [
+            1223,
+            678
+          ],
+          [
+            1223,
+            735
+          ],
+          [
+            1212,
+            735
+          ]
+        ]
+      },
+      {
+        "name": "east branch bench whole east grounded arm",
+        "polygon": [
+          [
+            1297,
+            678
+          ],
+          [
+            1308,
+            678
+          ],
+          [
+            1308,
+            735
+          ],
+          [
+            1297,
+            735
+          ]
+        ]
+      },
+      {
+        "name": "west outside-wicket grass and tree frontier",
+        "polygon": [
+          [
+            0,
+            859
+          ],
+          [
+            650,
+            859
+          ],
+          [
+            653,
+            905
+          ],
+          [
+            670,
+            923
+          ],
+          [
+            711,
+            951
+          ],
+          [
+            731,
+            1023
+          ],
+          [
+            0,
+            1023
+          ]
+        ]
+      },
+      {
+        "name": "east outside-wicket grass and tree frontier",
+        "polygon": [
+          [
+            924,
+            875
+          ],
+          [
+            1535,
+            875
+          ],
+          [
+            1535,
+            1023
+          ],
+          [
+            880,
+            1023
+          ],
+          [
+            889,
+            961
+          ],
+          [
+            925,
+            929
+          ]
+        ]
+      },
+      {
+        "name": "south approach cypress complete projected silhouette",
+        "polygon": [
+          [
+            689,
+            914
+          ],
+          [
+            702,
+            936
+          ],
+          [
+            713,
+            974
+          ],
+          [
+            719,
+            1023
+          ],
+          [
+            674,
+            1023
+          ],
+          [
+            675,
+            952
+          ]
+        ]
+      }
+    ],
+    "house": [
+      {
+        "name": "north wall and shelf full projected envelope",
+        "polygon": [
+          [
+            169,
+            0
+          ],
+          [
+            589,
+            0
+          ],
+          [
+            589,
+            125
+          ],
+          [
+            169,
+            125
+          ]
+        ]
+      },
+      {
+        "name": "left shelf foot",
+        "polygon": [
+          [
+            185,
+            120
+          ],
+          [
+            203,
+            120
+          ],
+          [
+            203,
+            136
+          ],
+          [
+            185,
+            136
+          ]
+        ]
+      },
+      {
+        "name": "right shelf foot",
+        "polygon": [
+          [
+            567,
+            120
+          ],
+          [
+            584,
+            120
+          ],
+          [
+            584,
+            136
+          ],
+          [
+            567,
+            136
+          ]
+        ]
+      },
+      {
+        "name": "gear rack full envelope and all grounded feet",
+        "polygon": [
+          [
+            92,
+            51
+          ],
+          [
+            161,
+            52
+          ],
+          [
+            164,
+            153
+          ],
+          [
+            158,
+            170
+          ],
+          [
+            98,
+            171
+          ],
+          [
+            92,
+            154
+          ]
+        ]
+      },
+      {
+        "name": "closed cupboard full envelope and grounded feet",
+        "polygon": [
+          [
+            611,
+            47
+          ],
+          [
+            672,
+            43
+          ],
+          [
+            673,
+            141
+          ],
+          [
+            668,
+            151
+          ],
+          [
+            614,
+            152
+          ],
+          [
+            610,
+            144
+          ]
+        ]
+      },
+      {
+        "name": "west side wall full base",
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            88,
+            0
+          ],
+          [
+            94,
+            95
+          ],
+          [
+            70,
+            313
+          ],
+          [
+            53,
+            331
+          ],
+          [
+            0,
+            327
+          ]
+        ]
+      },
+      {
+        "name": "east side wall full base",
+        "polygon": [
+          [
+            681,
+            0
+          ],
+          [
+            767,
+            0
+          ],
+          [
+            767,
+            334
+          ],
+          [
+            712,
+            331
+          ],
+          [
+            691,
+            316
+          ],
+          [
+            681,
+            155
+          ]
+        ]
+      },
+      {
+        "name": "southwest wall entire pier and garden projection",
+        "polygon": [
+          [
+            0,
+            298
+          ],
+          [
+            49,
+            288
+          ],
+          [
+            64,
+            315
+          ],
+          [
+            120,
+            311
+          ],
+          [
+            151,
+            300
+          ],
+          [
+            215,
+            318
+          ],
+          [
+            240,
+            306
+          ],
+          [
+            283,
+            318
+          ],
+          [
+            298,
+            389
+          ],
+          [
+            282,
+            433
+          ],
+          [
+            230,
+            440
+          ],
+          [
+            120,
+            421
+          ],
+          [
+            0,
+            430
+          ]
+        ]
+      },
+      {
+        "name": "southeast wall entire pier and garden projection",
+        "polygon": [
+          [
+            474,
+            317
+          ],
+          [
+            521,
+            306
+          ],
+          [
+            543,
+            319
+          ],
+          [
+            618,
+            304
+          ],
+          [
+            671,
+            319
+          ],
+          [
+            710,
+            288
+          ],
+          [
+            744,
+            299
+          ],
+          [
+            767,
+            421
+          ],
+          [
+            602,
+            432
+          ],
+          [
+            533,
+            437
+          ],
+          [
+            478,
+            413
+          ]
+        ]
+      },
+      {
+        "name": "west open door whole face and hinge foot",
+        "polygon": [
+          [
+            294,
+            302
+          ],
+          [
+            309,
+            297
+          ],
+          [
+            317,
+            314
+          ],
+          [
+            318,
+            383
+          ],
+          [
+            306,
+            393
+          ],
+          [
+            296,
+            390
+          ]
+        ]
+      },
+      {
+        "name": "east open door whole face and hinge foot",
+        "polygon": [
+          [
+            461,
+            297
+          ],
+          [
+            474,
+            304
+          ],
+          [
+            476,
+            390
+          ],
+          [
+            466,
+            393
+          ],
+          [
+            455,
+            380
+          ],
+          [
+            454,
+            313
+          ]
+        ]
+      },
+      {
+        "name": "south apron west garden frontier",
+        "polygon": [
+          [
+            0,
+            464
+          ],
+          [
+            68,
+            479
+          ],
+          [
+            146,
+            467
+          ],
+          [
+            207,
+            487
+          ],
+          [
+            284,
+            498
+          ],
+          [
+            315,
+            511
+          ],
+          [
+            0,
+            511
+          ]
+        ]
+      },
+      {
+        "name": "south apron middle garden frontier",
+        "polygon": [
+          [
+            350,
+            511
+          ],
+          [
+            387,
+            486
+          ],
+          [
+            419,
+            478
+          ],
+          [
+            455,
+            492
+          ],
+          [
+            456,
+            511
+          ]
+        ]
+      },
+      {
+        "name": "south apron east garden frontier",
+        "polygon": [
+          [
+            545,
+            511
+          ],
+          [
+            598,
+            489
+          ],
+          [
+            650,
+            482
+          ],
+          [
+            699,
+            472
+          ],
+          [
+            767,
+            471
+          ],
+          [
+            767,
+            511
+          ]
+        ]
+      }
+    ]
+  },
+  "anchors": {
+    "arrival": {
+      "room": "orchard",
+      "point": [
+        784,
+        928
+      ],
+      "kind": "arrival",
+      "radius": 26
+    },
+    "houseDoor": {
+      "room": "orchard",
+      "point": [
+        784,
+        192
+      ],
+      "kind": "door",
+      "radius": 28,
+      "to": "houseExit",
+      "action": "Enter cam house"
+    },
+    "houseExit": {
+      "room": "house",
+      "point": [
+        400,
+        416
+      ],
+      "kind": "door",
+      "radius": 30,
+      "to": "houseDoor",
+      "action": "Return to orchard"
+    },
+    "northWest": {
+      "room": "orchard",
+      "point": [
+        272,
+        224
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "northMidWest": {
+      "room": "orchard",
+      "point": [
+        560,
+        256
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "northCenter": {
+      "room": "orchard",
+      "point": [
+        784,
+        224
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "northMidEast": {
+      "room": "orchard",
+      "point": [
+        976,
+        256
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "northEast": {
+      "room": "orchard",
+      "point": [
+        1232,
+        224
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "westOuter": {
+      "room": "orchard",
+      "point": [
+        112,
+        448
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "westSouthTurn": {
+      "room": "orchard",
+      "point": [
+        208,
+        576
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "westAisle": {
+      "room": "orchard",
+      "point": [
+        560,
+        448
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "eastAisle": {
+      "room": "orchard",
+      "point": [
+        976,
+        448
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "eastOuter": {
+      "room": "orchard",
+      "point": [
+        1424,
+        448
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "eastSouthTurn": {
+      "room": "orchard",
+      "point": [
+        1328,
+        576
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "southWest": {
+      "room": "orchard",
+      "point": [
+        432,
+        640
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "southCenter": {
+      "room": "orchard",
+      "point": [
+        784,
+        640
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "southEast": {
+      "room": "orchard",
+      "point": [
+        1104,
+        640
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "wicket": {
+      "room": "orchard",
+      "point": [
+        784,
+        832
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "viewingPlatform": {
+      "room": "orchard",
+      "point": [
+        784,
+        736
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "petalCrank": {
+      "room": "orchard",
+      "point": [
+        336,
+        608
+      ],
+      "kind": "petal",
+      "radius": 32
+    },
+    "leafCrank": {
+      "room": "orchard",
+      "point": [
+        784,
+        608
+      ],
+      "kind": "leaf",
+      "radius": 32
+    },
+    "fruitCrank": {
+      "room": "orchard",
+      "point": [
+        1200,
+        608
+      ],
+      "kind": "fruit",
+      "radius": 32
+    },
+    "performance": {
+      "room": "orchard",
+      "point": [
+        784,
+        672
+      ],
+      "kind": "performance",
+      "radius": 28
+    },
+    "petalCam": {
+      "room": "house",
+      "point": [
+        240,
+        160
+      ],
+      "kind": "petal",
+      "radius": 32
+    },
+    "leafCam": {
+      "room": "house",
+      "point": [
+        400,
+        160
+      ],
+      "kind": "leaf",
+      "radius": 32
+    },
+    "fruitCam": {
+      "room": "house",
+      "point": [
+        528,
+        160
+      ],
+      "kind": "fruit",
+      "radius": 32
+    },
+    "presetDesk": {
+      "room": "house",
+      "point": [
+        400,
+        256
+      ],
+      "kind": "preset",
+      "radius": 30
+    },
+    "houseWestWidth": {
+      "room": "house",
+      "point": [
+        112,
+        224
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "houseEastWidth": {
+      "room": "house",
+      "point": [
+        624,
+        224
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "houseCenter": {
+      "room": "house",
+      "point": [
+        400,
+        288
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "houseThreshold": {
+      "room": "house",
+      "point": [
+        400,
+        352
+      ],
+      "kind": "route",
+      "radius": 30
+    },
+    "houseApron": {
+      "room": "house",
+      "point": [
+        368,
+        448
+      ],
+      "kind": "route",
+      "radius": 30
+    }
+  },
+  "seats": [
+    {
+      "name": "West bent-branch bench",
+      "room": "orchard",
+      "anchor": [
+        272,
+        687
+      ],
+      "floorClick": [
+        272,
+        703
+      ],
+      "cushionBounds": [
+        241,
+        695,
+        311,
+        711
+      ],
+      "surfacePolygon": [
+        [
+          241,
+          695
+        ],
+        [
+          311,
+          695
+        ],
+        [
+          310,
+          711
+        ],
+        [
+          242,
+          711
+        ]
+      ],
+      "contactOffset": [
+        0,
+        10
+      ],
+      "facing": "south",
+      "contactDefinition": "Real pinned native32 central lower torso rows25..27 overlaps the traced bent-branch seat slab. Standing contact only; complete front apron and feet remain blocked."
+    },
+    {
+      "name": "East bent-branch bench",
+      "room": "orchard",
+      "anchor": [
+        1264,
+        687
+      ],
+      "floorClick": [
+        1264,
+        703
+      ],
+      "cushionBounds": [
+        1225,
+        695,
+        1296,
+        711
+      ],
+      "surfacePolygon": [
+        [
+          1225,
+          695
+        ],
+        [
+          1296,
+          695
+        ],
+        [
+          1294,
+          711
+        ],
+        [
+          1226,
+          711
+        ]
+      ],
+      "contactOffset": [
+        0,
+        10
+      ],
+      "facing": "south",
+      "contactDefinition": "Real pinned native32 central lower torso rows25..27 overlaps the traced bent-branch seat slab. Standing contact only; complete front apron and feet remain blocked."
+    }
+  ],
+  "quietRect": [
+    23,
+    28,
+    26,
+    30
+  ],
+  "foregroundPolygons": {},
+  "blockedCells": {},
+  "scenic": [
+    "A complete original walled orchard, three individually cam-driven low sculptures and matching enterable cam house. Paved north and south crossovers connect two inter-island aisles and outer paths. Three tree projected envelopes remain wholly on blocked planted islands, including all foliage.",
+    "Both bent-branch benches retain continuous front aprons and complete feet. Contact proofs use unchanged native standing frames; no sitting or facing is claimed.",
+    "Initial wicket join alone is quiet. House doors preserve local visitor state. Full reload clears the temporary preset. No networking, vehicle physics, audio, deployed service or durable storage."
+  ],
+  "feedback": {
+    "sourcePhases": {
+      "1": "art/orchard-phase2-master.png",
+      "2": "art/orchard-phase3-master.png"
+    },
+    "phaseOffset": [
+      0,
+      23
+    ],
+    "patches": {
+      "petal": [
+        [
+          237,
+          316
+        ],
+        [
+          425,
+          316
+        ],
+        [
+          472,
+          361
+        ],
+        [
+          475,
+          455
+        ],
+        [
+          435,
+          488
+        ],
+        [
+          226,
+          488
+        ],
+        [
+          188,
+          433
+        ],
+        [
+          192,
+          365
+        ]
+      ],
+      "leaf": [
+        [
+          676,
+          316
+        ],
+        [
+          856,
+          316
+        ],
+        [
+          923,
+          358
+        ],
+        [
+          935,
+          440
+        ],
+        [
+          886,
+          482
+        ],
+        [
+          658,
+          482
+        ],
+        [
+          612,
+          428
+        ],
+        [
+          624,
+          367
+        ]
+      ],
+      "fruit": [
+        [
+          1117,
+          316
+        ],
+        [
+          1294,
+          316
+        ],
+        [
+          1356,
+          363
+        ],
+        [
+          1354,
+          444
+        ],
+        [
+          1323,
+          483
+        ],
+        [
+          1090,
+          483
+        ],
+        [
+          1058,
+          443
+        ],
+        [
+          1061,
+          371
+        ]
+      ]
+    }
+  },
+  "benchBackRegions": [
+    [
+      240,
+      690,
+      312,
+      695
+    ],
+    [
+      1224,
+      690,
+      1297,
+      695
+    ]
+  ],
+  "fixtureNegatives": {
+    "orchard": [
+      {
+        "name": "west petal island complete bed and hard rim",
+        "point": [
+          521,
+          441
+        ]
+      },
+      {
+        "name": "central leaf island complete bed and hard rim",
+        "point": [
+          951,
+          441
+        ]
+      },
+      {
+        "name": "east fruit island complete bed and hard rim",
+        "point": [
+          1390,
+          441
+        ]
+      },
+      {
+        "name": "west island first upright",
+        "point": [
+          334,
+          272
+        ]
+      },
+      {
+        "name": "west island second upright",
+        "point": [
+          416,
+          283
+        ]
+      },
+      {
+        "name": "central first upright",
+        "point": [
+          708,
+          273
+        ]
+      },
+      {
+        "name": "central second upright",
+        "point": [
+          828,
+          283
+        ]
+      },
+      {
+        "name": "east first upright",
+        "point": [
+          1094,
+          289
+        ]
+      },
+      {
+        "name": "east second upright",
+        "point": [
+          1175,
+          278
+        ]
+      },
+      {
+        "name": "east third upright",
+        "point": [
+          1288,
+          289
+        ]
+      },
+      {
+        "name": "west crank whole pedestal",
+        "point": [
+          297,
+          510
+        ]
+      },
+      {
+        "name": "center crank whole pedestal",
+        "point": [
+          747,
+          508
+        ]
+      },
+      {
+        "name": "east crank whole pedestal",
+        "point": [
+          1188,
+          509
+        ]
+      },
+      {
+        "name": "house west wall full projection",
+        "point": [
+          578,
+          0
+        ]
+      },
+      {
+        "name": "house east wall full projection",
+        "point": [
+          840,
+          0
+        ]
+      },
+      {
+        "name": "house west open door full leaf",
+        "point": [
+          703,
+          59
+        ]
+      },
+      {
+        "name": "house east open door full leaf",
+        "point": [
+          811,
+          59
+        ]
+      },
+      {
+        "name": "house west flowerbed complete frontier",
+        "point": [
+          442,
+          121
+        ]
+      },
+      {
+        "name": "house east flowerbed complete frontier",
+        "point": [
+          856,
+          131
+        ]
+      },
+      {
+        "name": "west lower corner greenery full envelope",
+        "point": [
+          52,
+          602
+        ]
+      },
+      {
+        "name": "east lower corner greenery full envelope",
+        "point": [
+          1351,
+          611
+        ]
+      },
+      {
+        "name": "southwest complete wall and planted band",
+        "point": [
+          0,
+          751
+        ]
+      },
+      {
+        "name": "southeast complete wall and planted band",
+        "point": [
+          842,
+          769
+        ]
+      },
+      {
+        "name": "west branch bench continuous front apron and all feet",
+        "point": [
+          229,
+          711
+        ]
+      },
+      {
+        "name": "west branch bench whole west grounded arm",
+        "point": [
+          229,
+          678
+        ]
+      },
+      {
+        "name": "west branch bench whole east grounded arm",
+        "point": [
+          313,
+          678
+        ]
+      },
+      {
+        "name": "east branch bench continuous front apron and all feet",
+        "point": [
+          1212,
+          711
+        ]
+      },
+      {
+        "name": "east branch bench whole west grounded arm",
+        "point": [
+          1212,
+          678
+        ]
+      },
+      {
+        "name": "east branch bench whole east grounded arm",
+        "point": [
+          1297,
+          678
+        ]
+      },
+      {
+        "name": "west outside-wicket grass and tree frontier",
+        "point": [
+          0,
+          859
+        ]
+      },
+      {
+        "name": "east outside-wicket grass and tree frontier",
+        "point": [
+          924,
+          875
+        ]
+      },
+      {
+        "name": "south approach cypress complete projected silhouette",
+        "point": [
+          689,
+          914
+        ]
+      }
+    ],
+    "house": [
+      {
+        "name": "north wall and shelf full projected envelope",
+        "point": [
+          169,
+          0
+        ]
+      },
+      {
+        "name": "left shelf foot",
+        "point": [
+          185,
+          120
+        ]
+      },
+      {
+        "name": "right shelf foot",
+        "point": [
+          567,
+          120
+        ]
+      },
+      {
+        "name": "gear rack full envelope and all grounded feet",
+        "point": [
+          92,
+          51
+        ]
+      },
+      {
+        "name": "closed cupboard full envelope and grounded feet",
+        "point": [
+          611,
+          47
+        ]
+      },
+      {
+        "name": "west side wall full base",
+        "point": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "east side wall full base",
+        "point": [
+          681,
+          0
+        ]
+      },
+      {
+        "name": "southwest wall entire pier and garden projection",
+        "point": [
+          0,
+          298
+        ]
+      },
+      {
+        "name": "southeast wall entire pier and garden projection",
+        "point": [
+          474,
+          317
+        ]
+      },
+      {
+        "name": "west open door whole face and hinge foot",
+        "point": [
+          294,
+          302
+        ]
+      },
+      {
+        "name": "east open door whole face and hinge foot",
+        "point": [
+          461,
+          297
+        ]
+      },
+      {
+        "name": "south apron west garden frontier",
+        "point": [
+          0,
+          464
+        ]
+      },
+      {
+        "name": "south apron middle garden frontier",
+        "point": [
+          350,
+          511
+        ]
+      },
+      {
+        "name": "south apron east garden frontier",
+        "point": [
+          545,
+          511
+        ]
+      }
+    ]
+  }
+}

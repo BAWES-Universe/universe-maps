@@ -1,0 +1,4067 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-13",
+  "workbook_review_records": 118,
+  "additional_recovered_experience_records": 5,
+  "runtime_candidates": 80,
+  "runtime_status": "Fresh GitHub download and file-integrity/dependency checks passed. No deployment or live acceptance is implied.",
+  "records": [
+    {
+      "id": "workshop-walkability-r3-review2",
+      "name": "Inventor’s Workshop · walkability r3 review2",
+      "review_revision": "workshop-walkability-r3-review2",
+      "category": "Existing map",
+      "role": "Current candidate",
+      "page": "hosted.md",
+      "anchor": "workshop-walkability-r3-review2",
+      "state": "Hosted-file candidate; live acceptance open",
+      "runtime": {
+        "revision_id": "inventors-sandbox-workshop-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.tmj",
+        "tmj_sha256": "841e315d43cb869140a052c7225ae25ad161a29ab4f8896994111e6ee8ff9739",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.wam"
+        ],
+        "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Walk the full visible perimeter, both corners and rack lane using click-to-move; check full-body clearance rather than a point path.",
+        "Try the entrance stairs and every branch; keep real racks/fixtures solid."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 7
+    },
+    {
+      "id": "souk-floor-r8b",
+      "name": "Lantern Souk Bazaar · floor repair r8b",
+      "review_revision": "souk-floor-r8b",
+      "category": "Existing map",
+      "role": "Current candidate",
+      "page": "hosted.md",
+      "anchor": "souk-floor-r8b",
+      "state": "Hosted-file candidate; live acceptance open",
+      "runtime": {
+        "revision_id": "lantern-souk-bazaar-r6-fountain-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.tmj",
+        "tmj_sha256": "6442282c70ecbac39a0916d786e5a74416937254e50e0116a96385911cec921a",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.wam"
+        ],
+        "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Cross the broad north apron and east court in both directions; no invisible floor barrier should return.",
+        "Approach fountain/stalls and check visible fixture feet remain solid; try repeated touch destinations."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 8
+    },
+    {
+      "id": "academy-floor-r7",
+      "name": "Olive Arabic Academy · floor repair r7",
+      "review_revision": "academy-floor-r7",
+      "category": "Existing map",
+      "role": "Current candidate",
+      "page": "hosted.md",
+      "anchor": "academy-floor-r7",
+      "state": "Hosted-file candidate; live acceptance open",
+      "runtime": {
+        "revision_id": "olive-academy-live-repair-r6-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj",
+        "tmj_sha256": "a8efab5a3f472ee27d11af1eaa5e54ccb3ecfe0f1e27460e31c1435e999d3a08",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.wam"
+        ],
+        "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Traverse the complete teaching-front aisle and every classroom approach; clear floor must stay connected.",
+        "Check native-scale lounge arrivals, head visibility and real desk/furniture collision."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 9
+    },
+    {
+      "id": "N01",
+      "name": "Ember Ridge Lodge",
+      "review_revision": "N01-r3",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n01",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N01-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N01-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N01-r3-runtime/N01.tmj",
+        "tmj_sha256": "d8e48cbd12be7d3b132440e16bf5ea4e849b9e457f1d24457b302570887f2ecb",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N01-r3-runtime/N01.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Open lodge/cushion access after central-table removal; check the formerly boxed-in layout remains connected.",
+        "Test cushion arrivals from both sides without stepping into remaining furniture."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The boxed-in first layout was rebuilt as a cohesive lodge landscape. Central tables were removed to open cushion access."
+      },
+      "workbook_row": 10
+    },
+    {
+      "id": "N02",
+      "name": "Lantern Dune Majlis",
+      "review_revision": "N02-r4",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n02",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N02-r4-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N02-r4-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N02-r4-runtime/N02.tmj",
+        "tmj_sha256": "1c79d398577a164cd56d654db9c3e5085e329b07980c27b15f8d91c71c870cd3",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N02-r4-runtime/N02.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Use the broad garden stair, never a shortcut through its retaining wall.",
+        "Try all ten cushion arrivals and keep wall/rail edges solid."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The garden now has a real broad staircase instead of a route through a retaining wall. Ten cushion positions have checked arrivals."
+      },
+      "workbook_row": 11
+    },
+    {
+      "id": "N03",
+      "name": "Clay Circle Atelier",
+      "review_revision": "N03-r3",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n03",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N03-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N03-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N03-r3-runtime/N03.tmj",
+        "tmj_sha256": "7b1b47582da94e22c9bf0fc30926a92ff75e41795afbf6c9896e791a519c2926",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N03-r3-runtime/N03.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Try all six stool arrivals and inspect their seat/body alignment.",
+        "Cross the stone bridge on its deck; parapets must block passage."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Six stool surfaces were aligned with native arrivals. The bridge parapet is now solid, keeping routes on the actual stone deck."
+      },
+      "workbook_row": 12
+    },
+    {
+      "id": "N04",
+      "name": "Glassleaf Cooking Club",
+      "review_revision": "N04-r3",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n04",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N04-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N04-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N04-r3-runtime/N04.tmj",
+        "tmj_sha256": "0025d9d724ca462206ab2a747624e650d29bb52b0619c6726ad56fd5125f0efa",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N04-r3-runtime/N04.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Walk under the floral gateway and check foreground depth with the player head visible.",
+        "Try four prep stools and six terrace cushions from both directions."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The floral gateway now layers correctly over passing characters. Four prep stools and six terrace cushions have checked arrivals."
+      },
+      "workbook_row": 13
+    },
+    {
+      "id": "N05",
+      "name": "Dicewood Table Club",
+      "review_revision": "N05-r3",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n05",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N05-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N05-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N05-r3-runtime/N05.tmj",
+        "tmj_sha256": "6b7efb35e468f60a38e024889171415930b2c7d77bde925e9f38c12bdb2e12c1",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N05-r3-runtime/N05.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Reach all three tabletop stations with exact stool placement.",
+        "Keep table bodies solid and player visibility correct under the glass canopy."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Three tabletop stations now have exact stool placement and protected table bodies. The glass canopy keeps passing characters readable."
+      },
+      "workbook_row": 14
+    },
+    {
+      "id": "N06",
+      "name": "Copperbeat Rehearsal",
+      "review_revision": "N06-r2",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n06",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N06-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N06-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N06-r2-runtime/N06.tmj",
+        "tmj_sha256": "d2fa2106ebd9a6f23b58c5e750f2a2beaafa2e21fea668617fd35a86b1b64622",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N06-r2-runtime/N06.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Walk from rehearsal floor to control booth, lounge and both side alleys.",
+        "Check booth-glass visibility and rehearsal/media behavior with another user if configured."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The rehearsal floor connects to a control booth, lounge and side alleys. Booth glazing remains transparent enough for passing characters."
+      },
+      "workbook_row": 15
+    },
+    {
+      "id": "N07",
+      "name": "Harbor Tongues Exchange",
+      "review_revision": "N07-r3",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n07",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N07-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N07-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N07-r3-runtime/N07.tmj",
+        "tmj_sha256": "b96f56cc179b53ee4cb69cb93f8f314fbeba4be5cf2bbaf6a9b1f1a68cc2d48d",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N07-r3-runtime/N07.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Reach both side decks through real doorways.",
+        "Check south-rail transparency keeps the player readable while the railing footprint stays solid."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Side decks connect through real doorways. Southern railings keep their visible structure while using transparency over passing characters."
+      },
+      "workbook_row": 16
+    },
+    {
+      "id": "N08",
+      "name": "Mosswater Tea House",
+      "review_revision": "N08-r3",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n08",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N08-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N08-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N08-r3-runtime/N08.tmj",
+        "tmj_sha256": "5d724f1cd9426c4767d3ecd6d80b2626335e2a5b0512108cc9de1423b72dc530",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N08-r3-runtime/N08.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Cross the widened cedar bridge end to end.",
+        "Reach both tea pavilions and the full garden path; inspect bank/rail collision."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "A genuinely open cedar bridge replaced the narrow connector. Both tea pavilions and the garden path have checked routes."
+      },
+      "workbook_row": 17
+    },
+    {
+      "id": "N09",
+      "name": "Turntable Dance Loft",
+      "review_revision": "N09-r2",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n09",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N09-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N09-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N09-r2-runtime/N09.tmj",
+        "tmj_sha256": "e84da61edec377e85d0e463defa9c41b703a404e4d8782ed5d83932dae60f3c1",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N09-r2-runtime/N09.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Cross the dance floor and all doorways, then approach the DJ area separately.",
+        "Test all five lounge-chair arrivals and inspect native player fit."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The broad dance floor and doorway widths have been checked, with five native-fit lounge chairs and a separate DJ approach."
+      },
+      "workbook_row": 18
+    },
+    {
+      "id": "N10",
+      "name": "Silvergrain Photo Club",
+      "review_revision": "N10-r4",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n10",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N10-r4-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N10-r4-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N10-r4-runtime/N10.tmj",
+        "tmj_sha256": "77601ced44d304a9f38171edad2a2c76f39b8a91516aec37bb614dd787abac69",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N10-r4-runtime/N10.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Walk the broad west-nook route and connected stone forecourt.",
+        "Photo wall and bench bodies must stay solid; inspect arrival/readability around them."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The photo wall and bench bodies are protected. A broad west-nook route and connected stone forecourt were restored."
+      },
+      "workbook_row": 19
+    },
+    {
+      "id": "N11",
+      "name": "Framehouse Film Society",
+      "review_revision": "N11-r2",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n11",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N11-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N11-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N11-r2-runtime/N11.tmj",
+        "tmj_sha256": "b6dd7464df666cad01c6b31de87232cef81290061ca5442898ad34578601e903",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N11-r2-runtime/N11.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Walk all screening aisles and the separate salon, lobby and street routes.",
+        "Try velvet pouf approaches and screening audio/media with two users if configured."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Screening chairs became backless velvet poufs with clear aisles. The discussion salon, lobby and street retain separate connected routes."
+      },
+      "workbook_row": 20
+    },
+    {
+      "id": "N12",
+      "name": "Tideglass Aquarium Hall",
+      "review_revision": "N12-r3",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n12",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N12-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N12-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N12-r3-runtime/N12.tmj",
+        "tmj_sha256": "33717693e09a13cfe3f1f72097be5ffebca1782af5ee09da2e8b2ca0823fe726",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N12-r3-runtime/N12.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Traverse the central entrance and both deck branches with full body width.",
+        "Entrance posts, pots and tank bases must remain solid."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Entrance posts, display pots and tank bases now remain solid. The central entrance and both deck branches retain full-body routes."
+      },
+      "workbook_row": 21
+    },
+    {
+      "id": "N13",
+      "name": "Snowsteam Bathhouse",
+      "review_revision": "N13-r3",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n13",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N13-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N13-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N13-r3-runtime/N13.tmj",
+        "tmj_sha256": "127187d48e062b9b76798dc8cfa97eea47a3cb1f5b8ab6588ec4886d36cc5a95",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N13-r3-runtime/N13.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Walk from forecourt through the room and narrow pool-side route.",
+        "Keep pool, rock and lantern bases solid; inspect foreground depth near water."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The room, forecourt and narrow pool-side route were checked end to end. Pool, rock and lantern bases remain solid."
+      },
+      "workbook_row": 22
+    },
+    {
+      "id": "N14",
+      "name": "Skylot Garden Commons",
+      "review_revision": "N14-r2",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n14",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N14-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N14-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N14-r2-runtime/N14.tmj",
+        "tmj_sha256": "b0f95412c279e45a7dbcd8c3c381260c0787bd0b0d2d96f775192c8573d22a85",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N14-r2-runtime/N14.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Use the real cross-aisle between shortened planting beds.",
+        "Keep picnic furniture and garden fixtures solid without blocking clear paving."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Middle planting beds were shortened in the artwork to restore a real cross-aisle. Picnic furniture and garden fixtures remain solid."
+      },
+      "workbook_row": 23
+    },
+    {
+      "id": "N15",
+      "name": "Threadwell Craft Studio",
+      "review_revision": "N15-r3",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n15",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N15-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N15-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N15-r3-runtime/N15.tmj",
+        "tmj_sha256": "ce51c72174c0cebaf87a7c373b75936a155d809b79c0837aedcc0e5391f871a7",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N15-r3-runtime/N15.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Traverse canal steps, loom gaps and cutting-table approaches.",
+        "The stair post and real equipment must stay solid without narrowing the walkway."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The canal stair post was made solid without narrowing the real walkway. Loom gaps and cutting-table approaches were checked."
+      },
+      "workbook_row": 24
+    },
+    {
+      "id": "N16",
+      "name": "Rainveil Meditation",
+      "review_revision": "N16-r2",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n16",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N16-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N16-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N16-r2-runtime/N16.tmj",
+        "tmj_sha256": "2946e076ced81d0735136ee14b1d63ee4a0e26a12ea8eaa4235f610427ace79f",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N16-r2-runtime/N16.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Use the broad main stair and complete L-shaped west platform.",
+        "South rails and both stair-end posts must remain solid."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "South rails and both stair-end posts now remain solid. The broad main stair and L-shaped west platform retain full-body routes."
+      },
+      "workbook_row": 25
+    },
+    {
+      "id": "N17",
+      "name": "Neon Nickel Arcade",
+      "review_revision": "N17-r3",
+      "category": "Social",
+      "role": "Current candidate",
+      "page": "n-social.md",
+      "anchor": "n17",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N17-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N17-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N17-r3-runtime/N17.tmj",
+        "tmj_sha256": "d2ab2a301b630810f0097c0bb70eb8e3c14942cb8067fc071855fa383b4e7d3c",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N17-r3-runtime/N17.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Try cocktail-table aisles, open hall and both forecourt branches.",
+        "Machines, counters and furniture bodies must stay solid; only claim arcade interaction if configured."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The open hall, cocktail-table aisles and forecourt branches have checked routes. Machine, counter and furniture bodies stay protected."
+      },
+      "workbook_row": 26
+    },
+    {
+      "id": "N18",
+      "name": "Alpine Isotope Field Station",
+      "review_revision": "N18-r3",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n18",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N18-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N18-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/map.tmj",
+        "tmj_sha256": "4cf2b4beb61a4344f8432cf944d315274b25675892ec874587e1c611979cbf32",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N18-r3-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Traverse laboratory, entrance and both side paths; clear interior tile floor must remain open.",
+        "Keep actual table feet solid and test desk arrivals with full body width."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Actual table feet are now protected. A false block on empty interior tile floor was removed, preserving laboratory, entrance and side-path circulation."
+      },
+      "workbook_row": 27
+    },
+    {
+      "id": "N19",
+      "name": "Tidepool Marine Classroom",
+      "review_revision": "N19-r3",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n19",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N19-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N19-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/map.tmj",
+        "tmj_sha256": "4c03dfe637b7f8693d5b6c55a872b50e23c4947f79a3626c2a1ec1c84b2b5eea",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N19-r3-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Use every classroom aisle and all four shallower desks.",
+        "Verify real desk feet remain solid and native chair approaches fit."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "All four desks were made genuinely shallower in the artwork, keeping their real feet solid and preserving native chair fit and continuous classroom routes."
+      },
+      "workbook_row": 28
+    },
+    {
+      "id": "N20",
+      "name": "Kiln Robotics Assembly Lab",
+      "review_revision": "N20-r3",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n20",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N20-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N20-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/map.tmj",
+        "tmj_sha256": "1bff8502895530e20aace8b5ae40216651093498e93b3a10d65e54dce51972bd",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N20-r3-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Cross the open floor and approach both moved chairs at their new locations.",
+        "Console feet and actual rear legs stay solid; old chair positions must not retain ghost blocks."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Console feet are protected and both chairs moved south in the artwork. Old chair blocks were cleared; actual rear legs and open cross-floor routes now align."
+      },
+      "workbook_row": 29
+    },
+    {
+      "id": "N21",
+      "name": "Vienna Pattern Atelier",
+      "review_revision": "N21-r2",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n21",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N21-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N21-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/map.tmj",
+        "tmj_sha256": "d157119f542265ca0d74a2cf913ee53011af125ad61e8e2321f7cb7ba72d54a5",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N21-r2-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Walk both paired-chair aisles and garden steps.",
+        "Check the shallower upper drafting-table feet remain solid and arrivals are native-scale."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The upper drafting table was made shallower in the artwork. Its real feet remain solid while both paired-chair aisles and garden steps stay open."
+      },
+      "workbook_row": 30
+    },
+    {
+      "id": "N22",
+      "name": "Washi Paper Architecture Workshop",
+      "review_revision": "N22-r1",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n22",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N22-r1-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N22-r1-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/map.tmj",
+        "tmj_sha256": "b7ccfe465862fc65f698dee37c6bd203a33c144f29e0ae4150eea700e58be759",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N22-r1-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Test broad entrances and straight circulation end to end.",
+        "Check cedar/indigo chair arrivals and real workshop furniture footprints."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Broad entrances and straight circulation were designed in from the start. Cedar-and-indigo chairs were fitted to native arrivals."
+      },
+      "workbook_row": 31
+    },
+    {
+      "id": "N23",
+      "name": "Crosswind Aviation Briefing School",
+      "review_revision": "N23-r2",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n23",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N23-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N23-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/map.tmj",
+        "tmj_sha256": "e4c738e1f45d02f8b530f04074aa2a85127ca7ffac86eafa77edc575976e80da",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N23-r2-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Cross the freed lower chair/cross-aisle floor after desk moves.",
+        "Both navigation-desk feet must remain solid at their new positions."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Both navigation desks moved north in the artwork. Their actual feet remain solid, freeing the lower chair and cross-aisle floor."
+      },
+      "workbook_row": 32
+    },
+    {
+      "id": "N24",
+      "name": "Basalt Geology Field Camp",
+      "review_revision": "N24-r4",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n24",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N24-r4-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N24-r4-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/map.tmj",
+        "tmj_sha256": "979cda465a06dd54f9e211ae1006abb8036b6d641cc2d62e2df47b8e9420fa36",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N24-r4-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Reach the lookout through the real route where rocks were removed.",
+        "Check retained ground structure and protected real rock/equipment footprints."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Nonstructural ground overlays were removed. Small rocks were removed from the artwork to open real lookout access."
+      },
+      "workbook_row": 33
+    },
+    {
+      "id": "N25",
+      "name": "Ochre Archaeology Academy",
+      "review_revision": "N25-r1",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n25",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N25-r1-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N25-r1-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/map.tmj",
+        "tmj_sha256": "b89cfec16355f2055945f0dfe42cccddc8e3fad9db43cf9268d686b1cc37227a",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N25-r1-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Use broad classroom access and the entire excavation viewing loop.",
+        "Pit railing must prevent stepping into the excavation."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "A clear pit railing separates the excavation from the viewing loop. Broad classroom access remains open."
+      },
+      "workbook_row": 34
+    },
+    {
+      "id": "N26",
+      "name": "Nordic Product Loft",
+      "review_revision": "N26-r1",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n26",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N26-r1-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N26-r1-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/map.tmj",
+        "tmj_sha256": "116323ca8344b34a43186865e0470820ebe52816c4f49437cf9006779aa67050",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N26-r1-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Traverse studio, café, bridge, street and pier as one connected route.",
+        "Check native chairs and low rails without losing head/body visibility."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Broad studio and cafe circulation was checked alongside bridge, street and pier connections. Native chairs keep genuine low rails."
+      },
+      "workbook_row": 35
+    },
+    {
+      "id": "N27",
+      "name": "Silicon Circuit Innovation Campus",
+      "review_revision": "N27-r3",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n27",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N27-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N27-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/map.tmj",
+        "tmj_sha256": "648f25259baee7520d49290ddfbff8933d7767049d92e1da08ff52300fe86557",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N27-r3-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Pass between the separated demonstration tables using full body width.",
+        "Each actual table foot remains solid; inspect the edited artwork and usable aisle."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Demonstration tables were moved apart in the artwork, preserving real aisles while keeping every table foot solid."
+      },
+      "workbook_row": 36
+    },
+    {
+      "id": "N28",
+      "name": "Floating Wetland Research Lab",
+      "review_revision": "N28-r2",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n28",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N28-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N28-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/map.tmj",
+        "tmj_sha256": "8f231bccc2586b64de3114badb497a8793cb874b99e925871cb9fcfd97d2cd31",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N28-r2-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Walk the entire west deck after clutter removal.",
+        "Specimen-table feet and waterfront boundaries stay solid."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Specimen-table feet are now solid. Supply clutter was removed from the artwork to keep a continuous west-deck route."
+      },
+      "workbook_row": 37
+    },
+    {
+      "id": "N29",
+      "name": "Monastic Manuscript Scriptorium",
+      "review_revision": "N29-r2",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n29",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N29-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N29-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/map.tmj",
+        "tmj_sha256": "bdcccf305cf5013b3d39ecec76b6841a7fb9f158ce976cd4705fb1f98e1bbdc9",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N29-r2-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Enter and cross the opened east workshop where table/shelving were removed.",
+        "Real remaining craft equipment stays protected; check native approaches."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The east workshop was opened by removing a table and shelving from the artwork. Real craft equipment remains protected."
+      },
+      "workbook_row": 38
+    },
+    {
+      "id": "N30",
+      "name": "Glass Borough Civic Library",
+      "review_revision": "N30-r2",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n30",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N30-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N30-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/map.tmj",
+        "tmj_sha256": "aebb62f3fe5c86a19f3316662e6b664dff9e3aa9dc4aa03a2882cba275b85418",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N30-r2-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Cross the plaza without stale invisible collision.",
+        "Tree, bicycle, lamp and bollard bases remain solid."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Stale plaza collision was removed. Tree, bicycle, lamp and bollard bases are protected while the real crossing stays open."
+      },
+      "workbook_row": 39
+    },
+    {
+      "id": "N31",
+      "name": "Desert Heliostat Research School",
+      "review_revision": "N31-r2",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n31",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N31-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N31-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/map.tmj",
+        "tmj_sha256": "eb39681b735811862b75a7235d06a1d6ab5b96996d0dd7041a3c3614e289b020",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N31-r2-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Test study-chair arrivals and the classroom doorway with the native player.",
+        "Equipment and terrace boundaries remain protected while circulation stays connected."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Native study-chair arrivals and the classroom doorway were checked. Protected equipment and terrace boundaries preserve clear circulation."
+      },
+      "workbook_row": 40
+    },
+    {
+      "id": "N32",
+      "name": "Indigo Textile Design Guild",
+      "review_revision": "N32-r2",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n32",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N32-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N32-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/map.tmj",
+        "tmj_sha256": "c851ef2a17bcee3a0be9059c590d3b5849eb8a4fe663d18d661516470a1666cc",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N32-r2-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Use workshop/court routes and approach the visibly closed garden gate.",
+        "Three pot bases and west court wall remain solid; the closed gate must not become an invisible passage."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Three pot bases and the west court wall now match solid collision. The garden gate is visibly closed, while the surrounding workshop and court routes remain open."
+      },
+      "workbook_row": 41
+    },
+    {
+      "id": "N33",
+      "name": "Circular Civic Debate Hall",
+      "review_revision": "N33-r1",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n33",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N33-r1-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N33-r1-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/map.tmj",
+        "tmj_sha256": "1a280d1b17e398f30a1bccbf91d6fb880c6d91124022df39354561dd589aee37",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N33-r1-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Reach clerk chairs and traverse the complete forum.",
+        "Real lectern, shelving and planter bases stay solid; removed exterior clutter leaves usable paving."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Clerk-chair approaches and the complete forum were reviewed. Removed exterior clutter leaves real paving, while the lectern, shelves and planter bases remain protected."
+      },
+      "workbook_row": 42
+    },
+    {
+      "id": "N34",
+      "name": "Harbour Language Exchange Lab",
+      "review_revision": "N34-r2",
+      "category": "Work / Learning",
+      "role": "Current candidate",
+      "page": "n-learning.md",
+      "anchor": "n34",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N34-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N34-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/map.tmj",
+        "tmj_sha256": "2273fef40efbcc3c323305067bc32e1c832fb307c32d058470d36444ec699bcc",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N34-r2-runtime/map32/map.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Visit both classrooms, all pods and each waterfront branch.",
+        "Desk/divider/quay bases including the north lamp remain solid."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Desk, divider and quay-fixture bases now remain protected, including the north lamp. Both classrooms, all pods and connected waterfront branches were reviewed."
+      },
+      "workbook_row": 43
+    },
+    {
+      "id": "N35",
+      "name": "Lighthouse Festival Island",
+      "review_revision": "N35-r3",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n35",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N35-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N35-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N35-r3-runtime/lighthouse-festival-island.tmj",
+        "tmj_sha256": "e977b32148d7d70e29b15114baee3db7327a982b4a2c33d07980dde909d3cf65",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N35-r3-runtime/lighthouse-festival-island.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Visit lighthouse and pavilion through repaired routes.",
+        "East bench, columns, planters and balustrade retain collision; this is the N35 festival map, not either puzzle map."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Lighthouse and pavilion routes were repaired. The east bench, columns, planters and balustrade now retain solid collision footprints."
+      },
+      "workbook_row": 44
+    },
+    {
+      "id": "N36",
+      "name": "Desert Caravan Crossroads",
+      "review_revision": "N36-r4",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n36",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N36-r4-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N36-r4-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N36-r4-runtime/desert-caravan-crossroads.tmj",
+        "tmj_sha256": "9f30ef8ff64ab1fdb1d69626fa5818db3938b8c4f66bcf4aa489ecb6fe206a64",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N36-r4-runtime/desert-caravan-crossroads.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Confirm arrival lands on clear sand, then reach shops, shrine and corral routes.",
+        "Removed corral clutter must not leave invisible blocks; retained fixtures remain solid."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Obstructing corral clutter was removed from the artwork. Arrival now lands on clear sand, with shop and shrine approaches kept open."
+      },
+      "workbook_row": 45
+    },
+    {
+      "id": "N37",
+      "name": "Mountain Cable Station Village",
+      "review_revision": "N37-r2",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n37",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N37-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N37-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N37-r2-runtime/mountain-cable-station-village.tmj",
+        "tmj_sha256": "0a49353b2dcdca146965458566bab521871b031fc14c2c4ade6a4e31bc4e06ca",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N37-r2-runtime/mountain-cable-station-village.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Walk the southern trail fully to the scene edge.",
+        "Use plaza stairs to station, lodge, overlooks and lower terraces without false barriers."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The southern trail now reaches the scene edge. Plaza stairs connect the station, lodge, overlooks and lower terraces."
+      },
+      "workbook_row": 46
+    },
+    {
+      "id": "N38",
+      "name": "Rainforest Canopy Forum",
+      "review_revision": "N38-r2",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n38",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N38-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N38-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N38-r2-runtime/rainforest-canopy-forum.tmj",
+        "tmj_sha256": "24920afcf88375c0340a09740400a7cc023a66375b66ed7fe93c301f4d7d269a",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N38-r2-runtime/rainforest-canopy-forum.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Walk every raised path and approach each bench from its standing position.",
+        "Bench bodies and rail boundaries stay solid; standing approaches do not imply sitting animation."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Raised paths and rail boundaries make circulation clearer. Benches remain solid, with separate reachable standing approaches."
+      },
+      "workbook_row": 47
+    },
+    {
+      "id": "N39",
+      "name": "Volcanic Observatory Lodge",
+      "review_revision": "N39-r3",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n39",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N39-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N39-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N39-r3-runtime/volcanic-observatory-lodge.tmj",
+        "tmj_sha256": "ac6f097436f2106cd70cf6375f1f22e5422dac279d07ae3b753a21586340f5eb",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N39-r3-runtime/volcanic-observatory-lodge.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Use bridge, broad stair and all doorway approaches.",
+        "Both observatory planter bases stay solid; inspect visible-floor alignment."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Both observatory planter bases now have solid collision. The bridge, broad stair and doorway approaches align with visible floor."
+      },
+      "workbook_row": 48
+    },
+    {
+      "id": "N40",
+      "name": "Coral Research Pier",
+      "review_revision": "N40-r3",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n40",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N40-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N40-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N40-r3-runtime/coral-research-pier.tmj",
+        "tmj_sha256": "e3b5e44c8b43bf8e5b3f66dce642eade6738dfe78a296ff2df24d2a89fbdb1d9",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N40-r3-runtime/coral-research-pier.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Reach the display tank from its front approach.",
+        "Tank and both side-column bases stay solid; test full-body clearance on the pier."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The display tank and both side-column bases are solid, while its front approach stays reachable."
+      },
+      "workbook_row": 49
+    },
+    {
+      "id": "N41",
+      "name": "Moonlit Ruin Courtyard",
+      "review_revision": "N41-r3",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n41",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N41-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N41-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N41-r3-runtime/moonlit-ruin-courtyard.tmj",
+        "tmj_sha256": "933915f23172c9bebcf4f962e32e32e356ea974edd4202d1b849cb7ef9d9d168",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N41-r3-runtime/moonlit-ruin-courtyard.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Traverse zigzag stairs and connected terraces.",
+        "Both southern urn bases stay solid; inspect foreground/player depth on landings."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Both southern urn bases are now protected. The zigzag stairs and terraces retain connected, visible-floor routes."
+      },
+      "workbook_row": 50
+    },
+    {
+      "id": "N42",
+      "name": "Sky Village Airship Terminal",
+      "review_revision": "N42-r4",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n42",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N42-r4-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N42-r4-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N42-r4-runtime/sky-village-airship-terminal.tmj",
+        "tmj_sha256": "f5250de920da2f87bdda475018e261380558d8dfe619c456ef02104eb7d1da5e",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N42-r4-runtime/sky-village-airship-terminal.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Arrive at the east cottage inside its fence on the real doorway apron.",
+        "Traverse connected bridges and protect pavilion bases; avoid fence-crossing shortcuts."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The east cottage arrival was moved inside its fence onto the real doorway apron. Pavilion bases and connected bridges remain protected."
+      },
+      "workbook_row": 51
+    },
+    {
+      "id": "N43",
+      "name": "Glass Hall Conference Campus",
+      "review_revision": "N43-r1",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n43",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N43-r1-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N43-r1-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N43-r1-runtime/glass-hall-conference-campus.tmj",
+        "tmj_sha256": "48886ff4aa1541910a61a26c6636474c1fe468a414c8d11aaacbf41472608dba",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N43-r1-runtime/glass-hall-conference-campus.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Test all 18 native audience chair approaches and speaker/listener boundaries.",
+        "Use two users to verify actual role/media behavior and whole-hall camera limits on the deployed engine."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Eighteen native-fit chair positions form a clear audience. Speaker/listener areas and whole-hall camera bounds are source-configured."
+      },
+      "workbook_row": 52
+    },
+    {
+      "id": "N44",
+      "name": "Autumn Amphitheatre",
+      "review_revision": "N44-r1",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n44",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N44-r1-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N44-r1-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N44-r1-runtime/autumn-amphitheatre.tmj",
+        "tmj_sha256": "16698fef74238d0024d7ec1bdf9aa0cdb1110d1dc2eabadcc816dce6e0a07f4f",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N44-r1-runtime/autumn-amphitheatre.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Test 24 audience chair positions and both sides of the repaired patio bridge.",
+        "Verify bounded speaker/listener areas and camera focus with two users, not just source configuration."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Twenty-four native-fit audience chairs were added. A missing patio bridge was repaired, with bounded speaker/listener areas source-configured."
+      },
+      "workbook_row": 53
+    },
+    {
+      "id": "N45",
+      "name": "Desert Esports Pavilion",
+      "review_revision": "N45-r2",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n45",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N45-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N45-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N45-r2-runtime/desert-esports-pavilion.tmj",
+        "tmj_sha256": "35eea1f009d307ee1f6c932b42f76d56399ee0403ce60b3d7d3a0a622e204053",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N45-r2-runtime/desert-esports-pavilion.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Enter via southwest steps/apron from the lower scene edge.",
+        "Verify speaker/audience camera bounds and event media with two users on desktop and phone."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The southwest entrance steps and apron now connect to the lower edge. Speaker and audience camera bounds are source-configured."
+      },
+      "workbook_row": 54
+    },
+    {
+      "id": "N46",
+      "name": "Riverside Art Fair",
+      "review_revision": "N46-r2",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n46",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N46-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N46-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N46-r2-runtime/riverside-art-fair.tmj",
+        "tmj_sha256": "e2e0c0ec4af61749924060f5ada9dd559447c45181ad68389622b59d336d1f75",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N46-r2-runtime/riverside-art-fair.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Confirm arrival is on paving, then cross bridge and visit each stall route.",
+        "Raised-bed feet, bridge rails and river banks remain protected."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Arrival was moved onto real paving; raised-bed feet, bridge rails and river banks now remain protected."
+      },
+      "workbook_row": 55
+    },
+    {
+      "id": "N47",
+      "name": "Winter Lantern Festival",
+      "review_revision": "N47-r3",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n47",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N47-r3-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N47-r3-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N47-r3-runtime/winter-lantern-festival.tmj",
+        "tmj_sha256": "6f93d4f1b1f5d32d922c2e0bf57a8f13149b18f9acea084463da129aab2f7700",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N47-r3-runtime/winter-lantern-festival.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Reach the west overlook via its genuine paved connector and complete lower-terrace route.",
+        "Repeat repaired branch clicks quickly and on touch; verify the latest destination wins."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "The west overlook gained a genuine paved connector. Repaired branch clicks and the lower terrace route were replayed locally."
+      },
+      "workbook_row": 56
+    },
+    {
+      "id": "N48",
+      "name": "Acoustic Cave Hall",
+      "review_revision": "N48-r1",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n48",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N48-r1-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N48-r1-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N48-r1-runtime/acoustic-cave-hall.tmj",
+        "tmj_sha256": "73f18ebf500aef88826eb06f59c2b374ff3765af5993dce60ac7684ffb4fd579",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N48-r1-runtime/acoustic-cave-hall.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Reach stage from both approaches while respecting cave boundaries.",
+        "Verify speaker/listener roles, audio/media cleanup and bounded camera focus with two users."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Both stage approaches and solid cave boundaries were checked. Speaker/listener roles and bounded camera focus are source-configured."
+      },
+      "workbook_row": 57
+    },
+    {
+      "id": "N49",
+      "name": "Ocean Exposition",
+      "review_revision": "N49-r2",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n49",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N49-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N49-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N49-r2-runtime/ocean-exposition.tmj",
+        "tmj_sha256": "78da585fe4a19ccbca6de12e546e97dcab186659dcb72684dca19854162ce0ed",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N49-r2-runtime/ocean-exposition.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Reach skeleton and orbital display on real dry paving.",
+        "Compound exhibit bases, rails and tree feet stay solid."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Compound exhibit bases, rails and tree feet are now protected. Skeleton and orbital-display arrivals land on real dry paving."
+      },
+      "workbook_row": 58
+    },
+    {
+      "id": "N50",
+      "name": "Lush Hotel Courtyard",
+      "review_revision": "N50-r2",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "n-exploration.md",
+      "anchor": "n50",
+      "state": "Recovered original source and runtime; historical checks retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "N50-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/N50-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/N50-r2-runtime/lush-hotel-courtyard.tmj",
+        "tmj_sha256": "83b0f15a25d4340f12c772410eb6ca6b570c349552e91db8ab089f6cbd8c245f",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/N50-r2-runtime/lush-hotel-courtyard.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Enter through the genuinely open arrival route between gate leaves.",
+        "Gate artwork and leaf collision must agree; check courtyard furniture and edge paths."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Entrance-gate artwork and collision were revised to keep gate leaves solid and preserve a genuine open arrival route."
+      },
+      "workbook_row": 59
+    },
+    {
+      "id": "timber-studio-context-r3",
+      "name": "Timber & Stone Studio (north context)",
+      "review_revision": "context r3",
+      "category": "Team work and creative collaboration",
+      "role": "Current candidate",
+      "page": "work-gardens.md",
+      "anchor": "timber-studio-context-r3",
+      "state": "Recovered historical r3 context authoring; distinct from Studio r8 repair",
+      "runtime": null,
+      "test_next": [
+        "Compare the six added north rows with the intended panorama; confirm the accepted interior was not shifted or reworked.",
+        "Check native furniture arrivals and movement between interior and outdoor context."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "North panorama extended by six rows while the accepted interior is preserved exactly. Context-family PDF delivered 06:31 UTC. This revision awaits user design review."
+      },
+      "workbook_row": 60
+    },
+    {
+      "id": "quiet-orbit-observatory-r4",
+      "name": "Quiet Orbit Observatory (matching furniture)",
+      "review_revision": "r4",
+      "category": "Research, demonstrations and discussion",
+      "role": "Current candidate",
+      "page": "work-gardens.md",
+      "anchor": "quiet-orbit-observatory-r4",
+      "state": "Recovered r4 candidate; user design approval and live acceptance open",
+      "runtime": {
+        "revision_id": "quiet-orbit-observatory-r4-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/map.tmj",
+        "tmj_sha256": "64e5144453b49830e9d46eb3b2d2e2be5fa819411fdae39634221cf6e5c60ee0",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/quiet-orbit-observatory-r4-runtime/map32/map.wam"
+        ],
+        "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Try all 24 padded seat positions and paired desk approaches; protect the complete desk footprint.",
+        "Inspect navy/brass furniture, relocated research area and player head/lower-back layering at actual zoom."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Matching navy/brass furniture, 24 padded seats and relocated research section. Complete desk footprint corrected within r4; independent final source review now passes."
+      },
+      "workbook_row": 61
+    },
+    {
+      "id": "mission-control-center-r4-paired-shift",
+      "name": "Mission Control (paired desk/chair depth repair)",
+      "review_revision": "r4 paired shift",
+      "category": "Coordination and team briefings",
+      "role": "Current candidate",
+      "page": "work-gardens.md",
+      "anchor": "mission-control-center-r4-paired-shift",
+      "state": "Recovered r4 candidate; user final design approval and live acceptance open",
+      "runtime": {
+        "revision_id": "Mission-Control-r4-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/map.tmj",
+        "tmj_sha256": "ecba8068ca83077a051dbd68fdf4af956e4b5271688bae15ebece7ea9a4cab08",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/Mission-Control-r4-runtime/mission-control-center/map32/map.wam"
+        ],
+        "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Test all six authored desk/chair arrivals after the paired shifts; check clear faces and lower-back foreground rails.",
+        "Walk behind and between desk rows; keep desk feet solid and test briefing interaction with a second user."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Upper desks move 15px south, lower desks 12px and all six chairs 15px. Every authored tap arrival has a foreground lumbar rail covering the lower back with a clear face. PDF and six-arrival proof delivered 08:47 UTC. User final design review pending."
+      },
+      "workbook_row": 62
+    },
+    {
+      "id": "willow-quay-tea-garden-furniture-r05",
+      "name": "Willow Quay (final furniture and bridge repair)",
+      "review_revision": "r5 candidate r05",
+      "category": "Informal conversations and small gatherings",
+      "role": "Current candidate",
+      "page": "work-gardens.md",
+      "anchor": "willow-quay-tea-garden-furniture-r05",
+      "state": "Recovered r5 candidate r05; user design approval and live acceptance open",
+      "runtime": {
+        "revision_id": "willow-furniture-r5-r05-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.tmj",
+        "tmj_sha256": "de651bdc163a7f6356c8118c8772a95471e1de5a8a7a61ad8b1469ab853a7e3c",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.wam"
+        ],
+        "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Cross the bridge end to end; all three old rail positions must remain blocked while supported deck stays walkable.",
+        "Check tea furniture arrivals, approach clearance and river-edge collision; inspect the revised garden/bridge artwork."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Final garden/bridge repair passed source QA. All three prior bridge rail positions are blocked; supported deck stays clear. Full/closeup previews and runtime delivered 06:45 UTC. User final design approval pending."
+      },
+      "workbook_row": 63
+    },
+    {
+      "id": "art-deco-sales-atelier-r2b",
+      "name": "Art Deco Sales Atelier (furniture and entrance)",
+      "review_revision": "r2b",
+      "category": "CRM preparation and sales research",
+      "role": "Current candidate",
+      "page": "work-gardens.md",
+      "anchor": "art-deco-sales-atelier-r2b",
+      "state": "Recovered r2b candidate; user design approval and live acceptance open",
+      "runtime": {
+        "revision_id": "art-deco-sales-atelier-r2b-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.tmj",
+        "tmj_sha256": "53156d1a72dec2536fdf606ac8e5fa501acdaa3bc67b329f5dba9b68a80222cf",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.wam"
+        ],
+        "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Enter from the real entrance landing; test both opposing native-scale furniture groups and clear aisle access.",
+        "Check standing and seated-arrival body/head alignment; verify any intended CRM/research interaction only if configured."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Opposing native-scale furniture and corrected real entrance landing. Review PDF delivered; user design approval pending."
+      },
+      "workbook_row": 64
+    },
+    {
+      "id": "timber-movement-studio-r2",
+      "name": "Timber Movement Studio (woodland landing)",
+      "review_revision": "r2 expansion",
+      "category": "Open-floor classes and rehearsal with an outdoor arrival/gathering area",
+      "role": "Current candidate",
+      "page": "work-gardens.md",
+      "anchor": "timber-movement-studio-r2",
+      "state": "Recovered r2 expansion; original r1 approval does not approve this expansion",
+      "runtime": {
+        "revision_id": "timber-movement-studio-r2",
+        "root": "archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/",
+        "tmj": "archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/map.tmj",
+        "tmj_sha256": "64ba9b845ef53c033454038769899f90ca491092bbb1894ee70994978963395b",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/timber-movement-studio-r2/timber-movement-studio-r2/map32/map.wam"
+        ],
+        "status": "Latest surviving explicitly named runtime in this distinct activity family; earlier numbered packages are revisions.",
+        "experimental": false
+      },
+      "test_next": [
+        "Compare the preserved original scene/collision at the +96,+96 offset; test the 28 added south landing cells.",
+        "Try a group class/rehearsal route between woodland landing and open floor; review expansion size and artwork."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Requested modest expansion of approved r1. Original scene, collision and eleven-actor proof remain exact at +96,+96; 28 new southern landing cells are walkable. PDF and overview delivered 09:14 UTC. User r2 design approval pending."
+      },
+      "workbook_row": 65
+    },
+    {
+      "id": "celestial-transit-garden-expanded-r4",
+      "name": "Celestial Transit Garden (final footprint repair)",
+      "review_revision": "expanded r4",
+      "category": "Arrival and onward navigation",
+      "role": "Original preserved",
+      "page": "work-gardens.md",
+      "anchor": "celestial-transit-garden-expanded-r4",
+      "state": "Recovered original r4; design changes requested; calmer draft is separate",
+      "runtime": null,
+      "test_next": [
+        "Review saturation against the explicit request for a calmer treatment; retain original r4 for comparison.",
+        "Check five portal approaches and ground-footprint collision. Animation remains an optional direction, not a requirement."
+      ],
+      "imported_review": {
+        "Design review": "Tweak",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Tweak",
+        "Feedback / next change": "User feedback 11 Oct 2026, 13:12 UTC: User finds the garden too saturated and invites a better treatment. Reduce or rebalance saturation; animation is a possible direction, not an approved requirement. Earlier record: All 20 prior ground-footprint defects repaired. Five portal approaches remain accessible. Final source QA passed; overview, depth proof and runtime delivered 07:05 UTC. User design review pending."
+      },
+      "workbook_row": 66
+    },
+    {
+      "id": "flagship-glass-d-r02",
+      "name": "Flagship Glass D (terrace and glass candidate)",
+      "review_revision": "Glass D r02",
+      "category": "Large presentations with foyer and breakout spaces",
+      "role": "Current candidate",
+      "page": "campus-flagship.md",
+      "anchor": "flagship-glass-d-r02",
+      "state": "Recovered glass/terrace candidate; study only; final design not approved",
+      "runtime": {
+        "revision_id": "flagship-glass-d-r02",
+        "root": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/",
+        "tmj": "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.tmj",
+        "tmj_sha256": "135665c51c1cb57f87d7c8b66d87d47a7db5b3d57e0da0be767c45054da1ee53",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/flagship-glass-d-r02/grand-auditorium.wam"
+        ],
+        "status": "Separate isolated Glass D candidate; README states A/B/C originals unchanged and D r01 visually blocked.",
+        "experimental": true
+      },
+      "test_next": [
+        "Compare lower flooring and terrace with the family rejection; preserve the liked stage/exterior approach.",
+        "Inspect glass transparency and nine changed terrace collision cells with the native player; verify exits and breakout routes."
+      ],
+      "imported_review": {
+        "Design review": "Tweak",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Glass/terrace candidate passed final source QA. Original hall/stage/approach retained; nine declared terrace collision cells changed. PDF/runtime delivered 07:03 UTC. User final design approval pending."
+      },
+      "workbook_row": 67
+    },
+    {
+      "id": "gate-v4",
+      "name": "Gate B · v4",
+      "review_revision": "v4",
+      "category": "Entrance and onward arrival",
+      "role": "Existing reference",
+      "page": "campus-flagship.md",
+      "anchor": "gate-v4",
+      "state": "Recovered Gate B v4 reference; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "butterfly-gate-b-v4",
+        "root": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/",
+        "tmj": "archive/runtime-recovery-2026-10-13/butterfly-gate-b-v4/publish/public/butterfly-town/gate-b/v4/gate.tmj",
+        "tmj_sha256": "9f92df380846507e5134d7ec42c977750df9d987514f845ccf0d1606211eebea",
+        "wam_paths": [],
+        "status": "Latest Gate B candidate; v1/v2/v3 are revisions; references exact shared v6 Gate A artwork.",
+        "experimental": false
+      },
+      "test_next": [
+        "Test arrival framing, balconies and boundaries at desktop and phone sizes; click near edges and return to the start.",
+        "Verify intended silent/ambient zones and onward route behavior without assuming a current hosted URL."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 68
+    },
+    {
+      "id": "campus-v11",
+      "name": "Campus · v11",
+      "review_revision": "v11",
+      "category": "Teaching, office work and informal gathering",
+      "role": "Existing reference",
+      "page": "campus-flagship.md",
+      "anchor": "campus-v11",
+      "state": "Recovered v11 runtime with cross-version dependencies retained; live acceptance not rerun",
+      "runtime": {
+        "revision_id": "campus-v11",
+        "root": "archive/runtime-recovery-2026-10-13/campus-v11/",
+        "tmj": "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.tmj",
+        "tmj_sha256": "1c7a9d27d434732453d706ac79dc482309db59a217d80f19b626d9380bc097ad",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/campus-v11/publication/v11/map32/magical-campus.wam"
+        ],
+        "status": "Latest named main-campus repair, retaining relative v9/v10 dependencies; earlier campus v3/v6/v8/v9/v10 are revisions.",
+        "experimental": false
+      },
+      "test_next": [
+        "Load the full v11 subtree with its v9/v10 dependencies; check teaching, office and shared gathering routes.",
+        "Test fountain/fire audio after gesture, zone exit and reconnect; verify any entity/camera behavior against the deployed engine revision."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 69
+    },
+    {
+      "id": "flagship-a",
+      "name": "Flagship A · v07",
+      "review_revision": "v07",
+      "category": "Large presentations with foyer and breakout spaces",
+      "role": "Historical option",
+      "page": "campus-flagship.md",
+      "anchor": "flagship-a",
+      "state": "Historical option; not newly approved",
+      "runtime": {
+        "revision_id": "astral-flagship-a-v07",
+        "root": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/",
+        "tmj": "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.tmj",
+        "tmj_sha256": "50c07de93567b15d7b5170bca02a4fe2b43dd5865fe02f6b90d06605947e2b85",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/astral-flagship-a-v07/map32/grand-auditorium.wam"
+        ],
+        "status": "README explicitly preserves this as a separate comparison variant: A corrective baseline, B garden/coffee variation, C building variation. Not silently collapsed by numeric revision.",
+        "experimental": false
+      },
+      "test_next": [
+        "Compare foyer, stage and breakout circulation with later family feedback; preserve the liked stage and exterior approach.",
+        "Treat lower-floor/terrace and glass choices as unresolved design work; do not mark A approved from another version’s source checks."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Historical Flagship option retained. Latest family feedback rejects lower flooring/terrace while liking the stage and exterior approach; glass work is a study only. No new approval for this historical version."
+      },
+      "workbook_row": 70
+    },
+    {
+      "id": "flagship-b",
+      "name": "Flagship B · v08",
+      "review_revision": "v08",
+      "category": "Large presentations with foyer and breakout spaces",
+      "role": "Historical option",
+      "page": "campus-flagship.md",
+      "anchor": "flagship-b",
+      "state": "Historical option; not newly approved",
+      "runtime": {
+        "revision_id": "astral-flagship-b-v08",
+        "root": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/",
+        "tmj": "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.tmj",
+        "tmj_sha256": "a9120457e63c3118de7a884879471b6219442bb26a72971f8c4ce163615e8f7b",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/astral-flagship-b-v08/map32/grand-auditorium.wam"
+        ],
+        "status": "README explicitly preserves this as a separate comparison variant: A corrective baseline, B garden/coffee variation, C building variation. Not silently collapsed by numeric revision.",
+        "experimental": false
+      },
+      "test_next": [
+        "Compare foyer, stage and breakout circulation with later family feedback; preserve the liked stage and exterior approach.",
+        "Test stage/listener boundaries only on a separately approved isolated test deployment."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Historical Flagship option retained. Latest family feedback rejects lower flooring/terrace while liking the stage and exterior approach; glass work is a study only. No new approval for this historical version."
+      },
+      "workbook_row": 71
+    },
+    {
+      "id": "flagship-c",
+      "name": "Flagship C · v09",
+      "review_revision": "v09",
+      "category": "Large presentations with foyer and breakout spaces",
+      "role": "Historical option",
+      "page": "campus-flagship.md",
+      "anchor": "flagship-c",
+      "state": "Historical option; lower flooring/terrace rejected; glass study only",
+      "runtime": {
+        "revision_id": "astral-flagship-c-v09",
+        "root": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/",
+        "tmj": "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+        "tmj_sha256": "1f63e14e5fe656a4db00eda91cb52a961540e6e7a44bdeafd7ec1c5daf44dc9e",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/astral-flagship-c-v09/map32/grand-auditorium.wam"
+        ],
+        "status": "README explicitly preserves this as a separate comparison variant: A corrective baseline, B garden/coffee variation, C building variation. Not silently collapsed by numeric revision.",
+        "experimental": false
+      },
+      "test_next": [
+        "Review the rejected lower flooring and terrace before spending time on live acceptance.",
+        "Preserve the liked stage/exterior approach and exact v09 reference; keep future design changes separate."
+      ],
+      "imported_review": {
+        "Design review": "Tweak",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Tweak",
+        "Feedback / next change": "Latest Flagship feedback: lower flooring and terrace rejected; stage and exterior approach liked. Glass treatment is a study only, not an approved final map."
+      },
+      "workbook_row": 72
+    },
+    {
+      "id": "night-market-ambient",
+      "name": "Lantern Souk Bazaar (optional ambient)",
+      "review_revision": "r01 ambient",
+      "category": "Community events and browsing",
+      "role": "Historical option",
+      "page": "optional-archive.md",
+      "anchor": "night-market-ambient",
+      "state": "Historical optional ambient variant; not current hosted Souk revision",
+      "runtime": null,
+      "test_next": [
+        "If this optional variant is selected, compare its motion/audio with the static base; test reduced motion, mute and zone exit.",
+        "Verify stall/fountain circulation again on the exact ambient revision, not the hosted r8b repair."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Optional ambient variant; preview shows the static base layout."
+      },
+      "workbook_row": 73
+    },
+    {
+      "id": "portal-courtyard-ambient",
+      "name": "Celestial Transit Garden (optional ambient)",
+      "review_revision": "r01 ambient",
+      "category": "Arrival and onward navigation",
+      "role": "Historical option",
+      "page": "optional-archive.md",
+      "anchor": "portal-courtyard-ambient",
+      "state": "Historical optional ambient variant; separate from expanded r4 and calmer draft",
+      "runtime": null,
+      "test_next": [
+        "If selected, review ambience and palette without treating animation as mandatory.",
+        "Verify all onward approaches, motion cleanup and reduced-motion behavior on this exact variant."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Optional ambient variant; preview shows the static base layout."
+      },
+      "workbook_row": 74
+    },
+    {
+      "id": "waterside-cafe-ambient",
+      "name": "Willow Quay tea garden (optional ambient)",
+      "review_revision": "r01 ambient",
+      "category": "Informal conversations and small gatherings",
+      "role": "Historical option",
+      "page": "optional-archive.md",
+      "anchor": "waterside-cafe-ambient",
+      "state": "Historical optional ambient variant; separate from r5 furniture repair",
+      "runtime": null,
+      "test_next": [
+        "If selected, compare ambient movement/audio with the r5 design direction.",
+        "Verify bridge/rail collision, reduced motion, mute and cleanup on the exact variant."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": "Optional ambient variant; preview shows the static base layout."
+      },
+      "workbook_row": 75
+    },
+    {
+      "id": "multi-hall-conference",
+      "name": "Lantern Congress (archived)",
+      "review_revision": "lantern-congress-lectern-depth-final",
+      "category": "Simultaneous sessions across multiple halls",
+      "role": "Rejected reference",
+      "page": "optional-archive.md",
+      "anchor": "multi-hall-conference",
+      "state": "Rejected reference; retained for history, not recommended",
+      "runtime": {
+        "revision_id": "lantern-congress-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.tmj",
+        "tmj_sha256": "a1a3040a45384ae3380b90f479c327c35c5301e7e71a695c5a5f5fe628c84005",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/lantern-congress-runtime/map32/conference.wam"
+        ],
+        "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [],
+      "imported_review": {
+        "Design review": "Reject",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Reject",
+        "Feedback / next change": "Rejected by the user. Archived in this tracker and not recommended. Historical published URL is retained for reference only."
+      },
+      "workbook_row": 76
+    },
+    {
+      "id": "esports-event",
+      "name": "Circuit Arena (archived)",
+      "review_revision": "circuit-arena-counter-depth-fix-03",
+      "category": "Competitive events and spectator gathering",
+      "role": "Rejected reference",
+      "page": "optional-archive.md",
+      "anchor": "esports-event",
+      "state": "Rejected reference; retained for history, not recommended",
+      "runtime": {
+        "revision_id": "esports-arena-01-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.tmj",
+        "tmj_sha256": "b72cc096702debb18bd56bf19eeb012e197ce9b03c3b03a4a399244a0cd7ec89",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.wam"
+        ],
+        "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [],
+      "imported_review": {
+        "Design review": "Reject",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Reject",
+        "Feedback / next change": "Rejected by the user. Archived in this tracker and not recommended. Historical published URL is retained for reference only."
+      },
+      "workbook_row": 77
+    },
+    {
+      "id": "timber-mixed-six-mat-concept-r1",
+      "name": "Timber Mixed Activity (approved six-mat concept)",
+      "review_revision": "concept r1",
+      "category": "Mixed Gym/Yoga activities with six mat stations and instructor area",
+      "role": "Original preserved",
+      "page": "wellbeing-concepts.md",
+      "anchor": "timber-mixed-six-mat-concept-r1",
+      "state": "Original six-mat concept approved; later instructor-facing r4 is a separate unapproved revision",
+      "runtime": {
+        "revision_id": "timber-mixed-six-mat-instructor-facing-r4",
+        "root": "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/",
+        "tmj": "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.tmj",
+        "tmj_sha256": "9291affcd0f9bb2b3051b43dc5151bfeeced5839dc43e7bac179d2d78aa1abff",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.wam"
+        ],
+        "status": "Latest surviving explicitly named runtime in this distinct activity family; earlier numbered packages are revisions.",
+        "experimental": false
+      },
+      "test_next": [
+        "Preserve the approved original concept and compare any later arrangement against it.",
+        "Review whether all six mats face the instructor as requested; original concept approval must not be copied onto r4."
+      ],
+      "imported_review": {
+        "Design review": "Approved original concept",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Approve",
+        "Feedback / next change": "User approved this original six-mat mixed-activity source concept at 09:05 UTC and requested a different arrangement with mats facing the instructor. Source approval does not approve the later layout. Separate from the 12-student Yoga Retreat and Gym-only derivative."
+      },
+      "workbook_row": 78
+    },
+    {
+      "id": "timber-studio-continuous-floor-r8",
+      "name": "Timber Yoga Studio",
+      "review_revision": "r8",
+      "category": "Activity / Wellbeing",
+      "role": "Current candidate",
+      "page": "repairs.md",
+      "anchor": "timber-studio-continuous-floor-r8",
+      "state": "Exact frozen r8 runtime recovered; full original authoring missing; reconstruction separate; rendering acceptance open",
+      "runtime": {
+        "revision_id": "timber-studio-r8-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/map.tmj",
+        "tmj_sha256": "cf02f68080b959f1da5288480c3428f4aa7c9dc3e928c2f83751603a102360ca",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/map.wam"
+        ],
+        "status": "Exact frozen runtime fixture recovered; original full source missing; rendering/live acceptance open",
+        "experimental": false
+      },
+      "test_next": [
+        "Inspect the two repaired floor/plant/shadow bands at the user’s real viewport and zoom. Record a screenshot if pixelation, black edges or seams persist.",
+        "Walk entry stairs and the north interior with native body/head dimensions; test furniture foreground depth on desktop and phone."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 79
+    },
+    {
+      "id": "reading-crossaisle-r4",
+      "name": "Reading Conservatory",
+      "review_revision": "r4",
+      "category": "Knowledge / Social",
+      "role": "Current candidate",
+      "page": "repairs.md",
+      "anchor": "reading-crossaisle-r4",
+      "state": "Exact frozen r4 runtime recovered; full original authoring missing; reconstruction separate; rendering acceptance open",
+      "runtime": {
+        "revision_id": "reading-conservatory-r4-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/map.tmj",
+        "tmj_sha256": "bc640034dbe13645ce7208ed45e13071909bb4c1f02a3bc8ef5dee41d16e1347",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/map.wam"
+        ],
+        "status": "Exact frozen candidate runtime fixture recovered; original full source missing; rendering/live acceptance open",
+        "experimental": false
+      },
+      "test_next": [
+        "Walk the cross-aisle above the left chairs before the bookshelf in both directions; test every nearby chair approach with the real player body.",
+        "Inspect black edges, pixelation and seams at actual desktop/phone zoom and viewport; compare the exact frozen r4, not withdrawn r3b."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 80
+    },
+    {
+      "id": "media-r9",
+      "name": "Resonance Media House",
+      "review_revision": "r9",
+      "category": "Events / Media",
+      "role": "Current candidate",
+      "page": "repairs.md",
+      "anchor": "media-r9",
+      "state": "Requested r9 original source/runtime still missing; r7c fallback and partial reconstruction only",
+      "runtime": {
+        "revision_id": "resonance-media-house-r7c-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/resonance-media-house.tmj",
+        "tmj_sha256": "b2999caf485804debc977aaa385975d001caafe0bec357d6e63dd565dd8fccc3",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/resonance-media-house.wam"
+        ],
+        "status": "Latest surviving r7c runtime; requested later r9 source/runtime missing",
+        "experimental": false
+      },
+      "test_next": [
+        "Recover and identify exact r9 before judging its reported repairs; do not rename r7c or the reconstruction as r9.",
+        "When r9 is available: test plant/wall passage, entrance glow crop and rug proportions. Bench access must be described as standing-idle unless real sitting is implemented and verified.",
+        "Test booth/screen/media interaction with two users, interruption and reconnect. Current r7c and the two reconstructed standing landmarks do not establish r9 repair acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 81
+    },
+    {
+      "id": "lighthouse-last-signal-r2",
+      "name": "Lighthouse: The Last Signal",
+      "review_revision": "r2",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "interactive.md",
+      "anchor": "lighthouse-last-signal-r2",
+      "state": "Original r2 source and runtime recovered; unpublished; live acceptance open",
+      "runtime": {
+        "revision_id": "lighthouse-last-signal-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.tmj",
+        "tmj_sha256": "3f0da81589faee13032922a438cdac5d3fa33ed87f22752c1b826abbde993b0e",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/lighthouse-last-signal.wam"
+        ],
+        "status": "Recovered runtime; live acceptance not independently rerun",
+        "experimental": false
+      },
+      "test_next": [
+        "Inspect the rings and collect LOW, MIDDLE and HIGH notes; restore the beacon and check the visible completion feedback.",
+        "Test out-of-order actions, repeat clicks, close/reopen and restart; verify progress is private to this visit and another player is unaffected.",
+        "Enable optional shore audio with an intentional gesture; leave/re-enter its zone, reconnect and verify mute/cleanup behavior."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 82
+    },
+    {
+      "id": "lighthouse-keepers-return-r2",
+      "name": "Lighthouse: The Keeper’s Return",
+      "review_revision": "r2",
+      "category": "Events / Exploration",
+      "role": "Current candidate",
+      "page": "interactive.md",
+      "anchor": "lighthouse-keepers-return-r2",
+      "state": "Original r2 runtime recovered; full original authoring missing; reconstructed authoring is separate; known teleport-race failure",
+      "runtime": {
+        "revision_id": "lighthouse-keepers-return-r2-runtime",
+        "root": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+        "tmj_sha256": "94bdc3c6dbd4ccf9a096b828016795083497f39da6f5f4c2ab2b8080b48634aa",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.wam"
+        ],
+        "status": "Exact original runtime; inherited teleport-race known failure; original full source missing",
+        "experimental": false
+      },
+      "test_next": [
+        "Enter and leave the house, workshop and lantern room; collect chart/key/fuse and complete power, telescope, lens and signal steps in order.",
+        "Reproduce the inherited teleport-recovery race: interrupt/overlap room transitions, reconnect during a pending transition and verify no stale completion relocates the player.",
+        "Repeat, cancel and restart puzzle actions; verify private visit progress, no duplicate UI/listeners and correct room recovery. The known race is not fixed by backup."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 83
+    },
+    {
+      "id": "celestial-calmer-draft",
+      "name": "Celestial Transit Garden: Calmer Draft",
+      "review_revision": "Calmer Draft",
+      "category": "Arrival / Social",
+      "role": "Current candidate",
+      "page": "work-gardens.md",
+      "anchor": "celestial-calmer-draft",
+      "state": "Recovered unaccepted calmer-palette draft; original expanded r4 preserved",
+      "runtime": {
+        "revision_id": "Celestial-Garden-Calmer-Draft-Runtime",
+        "root": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/",
+        "tmj": "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.tmj",
+        "tmj_sha256": "bcfbb89c171d327d17385a8a3604eab38e94b77843e134e52ea07746730d67e1",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/Celestial-Garden-Calmer-Draft-Runtime/map32/celestial-transit-garden-calm-draft.wam"
+        ],
+        "status": "Newest recovered Celestial runtime by Library modified time; explicitly an unaccepted calmer draft; expanded r4 retained in Library",
+        "experimental": false
+      },
+      "test_next": [
+        "Compare palette and atmosphere directly with preserved expanded r4; record whether saturation is now acceptable.",
+        "Walk all five onward approaches and inspect native body/head depth; do not assume animation or portal destinations are approved."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 84
+    },
+    {
+      "id": "timber-gym-context-r4d",
+      "name": "Timber Gym · visible-floor r4d",
+      "review_revision": "timber-gym-context-r4d",
+      "category": "Activity / Wellbeing",
+      "role": "Rejected reference",
+      "page": "wellbeing-concepts.md",
+      "anchor": "timber-gym-context-r4d",
+      "state": "Rejected reference; larger replacement is a separate concept",
+      "runtime": {
+        "revision_id": "timber-gym-context-r3",
+        "root": "archive/runtime-recovery-2026-10-13/timber-gym-context-r3/",
+        "tmj": "archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/map.tmj",
+        "tmj_sha256": "29ffbaefd54379dfcd8a7e5f0884d859f227e83a22a3815d7d43786bd7ad49dd",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/timber-gym-context-r3/timber-gym-context-r3/map32/map.wam"
+        ],
+        "status": "Latest surviving explicitly named runtime in this distinct activity family; earlier numbered packages are revisions.",
+        "experimental": false
+      },
+      "test_next": [],
+      "imported_review": {
+        "Design review": "Rejected",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Reject",
+        "Feedback / next change": null
+      },
+      "workbook_row": 85
+    },
+    {
+      "id": "timber-retreat-visible-floor-r7",
+      "name": "Timber Yoga Retreat · visible-floor r7",
+      "review_revision": "timber-retreat-visible-floor-r7",
+      "category": "Activity / Wellbeing",
+      "role": "Paused reference",
+      "page": "wellbeing-concepts.md",
+      "anchor": "timber-retreat-visible-floor-r7",
+      "state": "Paused/shelved reference; testing and iteration stopped",
+      "runtime": {
+        "revision_id": "timber-yoga-dark-mats-r4",
+        "root": "archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/",
+        "tmj": "archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/map.tmj",
+        "tmj_sha256": "2137729371bbea7e248a406e462503202b6b775fd09e07cda11ef9dc7c292be6",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/timber-yoga-dark-mats-r4/timber-yoga-dark-mats-r4/map32/map.wam"
+        ],
+        "status": "Latest surviving explicitly named runtime in this distinct activity family; earlier numbered packages are revisions.",
+        "experimental": false
+      },
+      "test_next": [],
+      "imported_review": {
+        "Design review": "Paused",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 86
+    },
+    {
+      "id": "garden-floor-r2b",
+      "name": "Reading Conservatory Garden · floor repair r2b",
+      "review_revision": "garden-floor-r2b",
+      "category": "Knowledge / Social",
+      "role": "Rejected reference",
+      "page": "reading-concepts.md",
+      "anchor": "garden-floor-r2b",
+      "state": "Rejected garden design; structural/style transition rejected, not merely colour",
+      "runtime": null,
+      "test_next": [],
+      "imported_review": {
+        "Design review": "Rejected",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Reject",
+        "Feedback / next change": null
+      },
+      "workbook_row": 87
+    },
+    {
+      "id": "garden-athletic-club-concept-r2",
+      "name": "Garden Athletic Club",
+      "review_revision": "concept r2",
+      "category": "Activity / Wellbeing",
+      "role": "Current candidate",
+      "page": "wellbeing-concepts.md",
+      "anchor": "garden-athletic-club-concept-r2",
+      "state": "Concept only; no accepted runtime verified",
+      "runtime": null,
+      "test_next": [
+        "Review the larger architectural fitness-club concept and usable activity footprint.",
+        "After design approval, create a separately identified runtime and validate real body-width routes and equipment collision before live testing."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 88
+    },
+    {
+      "id": "reading-garden-study-a",
+      "name": "Reading Garden study A: original atmosphere",
+      "review_revision": "design study A",
+      "category": "Knowledge / Social",
+      "role": "Current candidate",
+      "page": "reading-concepts.md",
+      "anchor": "reading-garden-study-a",
+      "state": "Design study only; no runtime verified",
+      "runtime": null,
+      "test_next": [
+        "Review whether the retained original Conservatory atmosphere solves the rejected abrupt structural/style transition.",
+        "Choose style/footprint before implementation; carry the r4 cross-aisle fix into any future runtime."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 89
+    },
+    {
+      "id": "reading-garden-study-b",
+      "name": "Reading Garden study B: clean Garden style",
+      "review_revision": "design study B",
+      "category": "Knowledge / Social",
+      "role": "Current candidate",
+      "page": "reading-concepts.md",
+      "anchor": "reading-garden-study-b",
+      "state": "Design study only; no runtime verified",
+      "runtime": null,
+      "test_next": [
+        "Review whether a consistent clean Garden style solves the rejected abrupt structural/style transition.",
+        "Choose style/footprint before implementation; carry the r4 cross-aisle fix into any future runtime."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 90
+    },
+    {
+      "id": "saltwind-performance-r1",
+      "name": "Saltwind Performance Courtyard · r1",
+      "review_revision": "concept r1",
+      "category": "Event Room: performances, shared listening and small community gatherings",
+      "role": "Current candidate",
+      "page": "saltwind.md",
+      "anchor": "saltwind-performance-r1",
+      "state": "Concept-only bundle recovered; no TMJ/runtime; user design approval pending",
+      "runtime": null,
+      "test_next": [
+        "Review stage, shore, ramp and audience footprint as a concept; there is no validated occupied route or seating animation.",
+        "If approved, implement real aisles, ramp/shore collision, foreground depth and media interaction before native/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 91
+    },
+    {
+      "id": "H001",
+      "name": "Clockmaker's Waterworks",
+      "review_revision": "H001-r7",
+      "category": "Kinetic places",
+      "role": "New 100-map batch",
+      "page": "h-kinetic.md",
+      "anchor": "h001",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 92
+    },
+    {
+      "id": "H002",
+      "name": "Pneumatic Post Exchange",
+      "review_revision": "H002-r2",
+      "category": "Kinetic places",
+      "role": "New 100-map batch",
+      "page": "h-kinetic.md",
+      "anchor": "h002",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 93
+    },
+    {
+      "id": "H003",
+      "name": "Funicular Repair Yard",
+      "review_revision": "H003-r2",
+      "category": "Kinetic places",
+      "role": "New 100-map batch",
+      "page": "h-kinetic.md",
+      "anchor": "h003",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 94
+    },
+    {
+      "id": "H004",
+      "name": "Wind Organ Courtyard",
+      "review_revision": "H004-r2",
+      "category": "Kinetic places",
+      "role": "New 100-map batch",
+      "page": "h-kinetic.md",
+      "anchor": "h004",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 95
+    },
+    {
+      "id": "H005",
+      "name": "Mirror Relay Foundry",
+      "review_revision": "H005-r2",
+      "category": "Kinetic places",
+      "role": "New 100-map batch",
+      "page": "h-kinetic.md",
+      "anchor": "h005",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 96
+    },
+    {
+      "id": "H011",
+      "name": "Beaver Creek Restoration",
+      "review_revision": "H011-r5",
+      "category": "Living landscapes",
+      "role": "New 100-map batch",
+      "page": "h-landscapes.md",
+      "anchor": "h011",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 97
+    },
+    {
+      "id": "H012",
+      "name": "Pollinator Patch Mosaic",
+      "review_revision": "H012-r1",
+      "category": "Living landscapes",
+      "role": "New 100-map batch",
+      "page": "h-landscapes.md",
+      "anchor": "h012",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 98
+    },
+    {
+      "id": "H013",
+      "name": "Mycelium Lantern Grove",
+      "review_revision": "H013-r2",
+      "category": "Living landscapes",
+      "role": "New 100-map batch",
+      "page": "h-landscapes.md",
+      "anchor": "h013",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 99
+    },
+    {
+      "id": "H014",
+      "name": "Dune Grass Nursery",
+      "review_revision": "H014-r4",
+      "category": "Living landscapes",
+      "role": "New 100-map batch",
+      "page": "h-landscapes.md",
+      "anchor": "h014",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 100
+    },
+    {
+      "id": "H015",
+      "name": "Orchard Grafting House",
+      "review_revision": "H015-r2",
+      "category": "Living landscapes",
+      "role": "New 100-map batch",
+      "page": "h-landscapes.md",
+      "anchor": "h015",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 101
+    },
+    {
+      "id": "H016",
+      "name": "Mangrove Nursery Pier",
+      "review_revision": "H016-r2",
+      "category": "Living landscapes",
+      "role": "New 100-map batch",
+      "page": "h-landscapes.md",
+      "anchor": "h016",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 102
+    },
+    {
+      "id": "H017",
+      "name": "Peatland Water Gauge Walk",
+      "review_revision": "H017-r3",
+      "category": "Living landscapes",
+      "role": "New 100-map batch",
+      "page": "h-landscapes.md",
+      "anchor": "h017",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 103
+    },
+    {
+      "id": "H018",
+      "name": "Firefly Meadow Hide",
+      "review_revision": "H018-r1",
+      "category": "Living landscapes",
+      "role": "New 100-map batch",
+      "page": "h-landscapes.md",
+      "anchor": "h018",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 104
+    },
+    {
+      "id": "H021",
+      "name": "Sleeper Train Terminus",
+      "review_revision": "H021-r4",
+      "category": "Journeys and wayfinding",
+      "role": "New 100-map batch",
+      "page": "h-journeys.md",
+      "anchor": "h021",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 105
+    },
+    {
+      "id": "H022",
+      "name": "Canal Boat Depot",
+      "review_revision": "H022-r2",
+      "category": "Journeys and wayfinding",
+      "role": "New 100-map batch",
+      "page": "h-journeys.md",
+      "anchor": "h022",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 106
+    },
+    {
+      "id": "H023",
+      "name": "Mountain Mail Trail",
+      "review_revision": "H023-r3",
+      "category": "Journeys and wayfinding",
+      "role": "New 100-map batch",
+      "page": "h-journeys.md",
+      "anchor": "h023",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 107
+    },
+    {
+      "id": "H024",
+      "name": "Tidal Causeway Crossing",
+      "review_revision": "H024-r4",
+      "category": "Journeys and wayfinding",
+      "role": "New 100-map batch",
+      "page": "h-journeys.md",
+      "anchor": "h024",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 108
+    },
+    {
+      "id": "H031",
+      "name": "Glassblower’s Ribbon Hall",
+      "review_revision": "H031-r5",
+      "category": "Materials and making",
+      "role": "New 100-map batch",
+      "page": "h-making.md",
+      "anchor": "h031",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 109
+    },
+    {
+      "id": "H032",
+      "name": "Letterpress Print Yard",
+      "review_revision": "H032-r4",
+      "category": "Materials and making",
+      "role": "New 100-map batch",
+      "page": "h-making.md",
+      "anchor": "h032",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 110
+    },
+    {
+      "id": "H033",
+      "name": "Stone Mosaic Courtyard",
+      "review_revision": "H033-r4",
+      "category": "Materials and making",
+      "role": "New 100-map batch",
+      "page": "h-making.md",
+      "anchor": "h033",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 111
+    },
+    {
+      "id": "H034",
+      "name": "Lacquer Box Workshop",
+      "review_revision": "H034-r3",
+      "category": "Materials and making",
+      "role": "New 100-map batch",
+      "page": "h-making.md",
+      "anchor": "h034",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 112
+    },
+    {
+      "id": "H035",
+      "name": "Basketry Reed House",
+      "review_revision": "H035-r3",
+      "category": "Materials and making",
+      "role": "New 100-map batch",
+      "page": "h-making.md",
+      "anchor": "h035",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 113
+    },
+    {
+      "id": "H036",
+      "name": "Bookbinding Stitch Loft",
+      "review_revision": "H036-r2",
+      "category": "Materials and making",
+      "role": "New 100-map batch",
+      "page": "h-making.md",
+      "anchor": "h036",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 114
+    },
+    {
+      "id": "H037",
+      "name": "Copper Enamel Atelier",
+      "review_revision": "H037-r4",
+      "category": "Materials and making",
+      "role": "New 100-map batch",
+      "page": "h-making.md",
+      "anchor": "h037",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 115
+    },
+    {
+      "id": "H006",
+      "name": "Counterweight Theatre",
+      "review_revision": "H006-r1",
+      "category": "Kinetic places",
+      "role": "New 100-map batch",
+      "page": "h-kinetic.md",
+      "anchor": "h006",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 116
+    },
+    {
+      "id": "H007",
+      "name": "Lockkeeper’s Canal Basin",
+      "review_revision": "H007-r3",
+      "category": "Kinetic places",
+      "role": "New 100-map batch",
+      "page": "h-kinetic.md",
+      "anchor": "h007",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 117
+    },
+    {
+      "id": "H019",
+      "name": "Alpine Seed Vault",
+      "review_revision": "H019-r3",
+      "category": "Living landscapes",
+      "role": "New 100-map batch",
+      "page": "h-landscapes.md",
+      "anchor": "h019",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 118
+    },
+    {
+      "id": "H020",
+      "name": "Rain Chain Garden",
+      "review_revision": "H020-r2",
+      "category": "Living landscapes",
+      "role": "New 100-map batch",
+      "page": "h-landscapes.md",
+      "anchor": "h020",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 119
+    },
+    {
+      "id": "H008",
+      "name": "Marble Run Pavilion",
+      "review_revision": "H008-r3",
+      "category": "Kinetic places",
+      "role": "New 100-map batch",
+      "page": "h-kinetic.md",
+      "anchor": "h008",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 120
+    },
+    {
+      "id": "H038",
+      "name": "Scent Garden Distillery",
+      "review_revision": "H038-r1",
+      "category": "Materials and making",
+      "role": "New 100-map batch",
+      "page": "h-making.md",
+      "anchor": "h038",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 121
+    },
+    {
+      "id": "H009",
+      "name": "Mechanical Orchard",
+      "review_revision": "H009-r3",
+      "category": "Kinetic places",
+      "role": "New 100-map batch",
+      "page": "h-kinetic.md",
+      "anchor": "h009",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing",
+      "runtime": null,
+      "test_next": [
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 122
+    },
+    {
+      "id": "H025",
+      "name": "Desert Star Caravanserai",
+      "review_revision": "H025-r2",
+      "category": "Journeys and wayfinding",
+      "role": "New 100-map batch",
+      "page": "h-journeys.md",
+      "anchor": "h025",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing. A new incomplete nonvisual derivation is available; no complete map is recovered.",
+      "runtime": null,
+      "test_next": [
+        "Recover the original final-build art masters: courtyard-r3.png, rooms-r3.png, packed-r1.png. Validate imagery against this newly derived geometry before rebuilding the complete map.",
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance.",
+        "After the illustrated full build exists, verify actual-engine route following, initial random spawn, rendered state/foreground, keyboard, touch and multiplayer. The 19 passing cases are supported-WA mocks."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 123,
+      "nonvisual_checkpoint": {
+        "path": "recovery/nonvisual-h025-h039-2026-10-13",
+        "classification": "INCOMPLETE_NONVISUAL_DERIVATION",
+        "date": "2026-10-13",
+        "full_map_recovered": false,
+        "new_artwork_created": false,
+        "original_partial_recovery_folders_unchanged": true,
+        "source_geometry_pass": true,
+        "open_cells": 608,
+        "rooms": 4,
+        "anchors": 22,
+        "native_standing_contacts": 2,
+        "mock_controller_cases_passed": 19,
+        "mock_controller_cases_blocked": 0,
+        "full_mock_controller_suite_pass": true,
+        "combined_reproducible_source_script_outputs": 9,
+        "independent_historical_hash_match_scope": "No independently retained historical hash for newly derived outputs",
+        "script_path": "recovery/nonvisual-h025-h039-2026-10-13/generated/H025/map32/caravan.js",
+        "script_sha256": "8e7fd7a6cabe877cc91952d9a9fd5b297d6db13c6c552d807d33c2b8094d5834",
+        "missing_final_build_masters": [
+          "art/masters/courtyard-r3.png",
+          "art/masters/rooms-r3.png",
+          "art/masters/packed-r1.png"
+        ],
+        "unrecovered_final_tmj_target_sha256": "370f6d1ad29138de7c9dc64bc5f8b2636b3c9e17bc2108c478f42da291a4c1a9",
+        "no_png_tmj_wam_created": true,
+        "not_run": [
+          "Full raster/art build",
+          "Actual-engine/native route replay",
+          "Actual initial random-spawn enumeration",
+          "Rendered pixel/state/foreground acceptance",
+          "Browser/GPU/keyboard/touch/multiplayer live acceptance"
+        ],
+        "check_status_path": "recovery/nonvisual-h025-h039-2026-10-13/CHECK-STATUS.json",
+        "readme_path": "recovery/nonvisual-h025-h039-2026-10-13/README.md"
+      }
+    },
+    {
+      "id": "H039",
+      "name": "Paper Marbling Mill",
+      "review_revision": "H039-r1",
+      "category": "Materials and making",
+      "role": "New 100-map batch",
+      "page": "h-making.md",
+      "anchor": "h039",
+      "state": "Original master art, final TMJ/textures, full source workflow and full freeze/QA package still missing. A new incomplete nonvisual derivation is available; no complete map is recovered.",
+      "runtime": null,
+      "test_next": [
+        "Recover the original final-build art masters: mill-r5.png, pattern-room-r1.png, stools-r1.png, patterns-r1.png. Validate imagery against this newly derived geometry before rebuilding the complete map.",
+        "Recover the original package and verify exact revision/hash before testing. Historical QA is not current file availability.",
+        "If original recovery fails, treat any later reconstruction as a separate new revision with independent source/native/art/live acceptance.",
+        "After actual rendered artwork exists, run the one blocked original controller/art case; the current full controller suite remains false. Then perform native-engine and live acceptance on the exact full build."
+      ],
+      "imported_review": {
+        "Design review": "Pending",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": 124,
+      "nonvisual_checkpoint": {
+        "path": "recovery/nonvisual-h025-h039-2026-10-13",
+        "classification": "INCOMPLETE_NONVISUAL_DERIVATION",
+        "date": "2026-10-13",
+        "full_map_recovered": false,
+        "new_artwork_created": false,
+        "original_partial_recovery_folders_unchanged": true,
+        "source_geometry_pass": true,
+        "open_cells": 277,
+        "rooms": 2,
+        "anchors": 16,
+        "native_standing_contacts": 2,
+        "mock_controller_cases_passed": 14,
+        "mock_controller_cases_blocked": 1,
+        "full_mock_controller_suite_pass": false,
+        "combined_reproducible_source_script_outputs": 9,
+        "independent_historical_hash_match_scope": "H039 emitted interaction script only",
+        "script_path": "recovery/nonvisual-h025-h039-2026-10-13/generated/H039/runtime/experience.js",
+        "script_sha256": "96cc654f6a1cbfb83d4c0e14269e11f428912b5029b49f022ab067cf3d15ddf3",
+        "missing_final_build_masters": [
+          "art/masters/mill-r5.png",
+          "art/masters/pattern-room-r1.png",
+          "art/masters/stools-r1.png",
+          "art/masters/patterns-r1.png"
+        ],
+        "unrecovered_final_tmj_target_sha256": "25cb99347eb63e8c535215b12c2a01d23784254bf430ff2f4019ec2763d2b240",
+        "no_png_tmj_wam_created": true,
+        "not_run": [
+          "Full raster/art build",
+          "Actual-engine/native route replay",
+          "Actual initial random-spawn enumeration",
+          "Rendered pixel/state/foreground acceptance",
+          "Browser/GPU/keyboard/touch/multiplayer live acceptance"
+        ],
+        "check_status_path": "recovery/nonvisual-h025-h039-2026-10-13/CHECK-STATUS.json",
+        "readme_path": "recovery/nonvisual-h025-h039-2026-10-13/README.md"
+      }
+    },
+    {
+      "id": "butterfly-town-v2",
+      "name": "Butterfly Town",
+      "review_revision": "v2",
+      "category": "Town / navigation",
+      "role": "Additional recovered runtime",
+      "page": "campus-flagship.md",
+      "anchor": "butterfly-town-v2",
+      "state": "Recovered runtime candidate; not a newly accepted design or deployment",
+      "runtime": {
+        "revision_id": "butterfly-town-v2",
+        "root": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/",
+        "tmj": "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+        "tmj_sha256": "dff32360181d8e4c465756ab5e2f9577faad17083e2bfde19084eac8af749831",
+        "wam_paths": [],
+        "status": "Latest original three-interior Town runtime; distinct landscape/layout from later workplace-campus family.",
+        "experimental": false
+      },
+      "test_next": [
+        "Walk main roads, crossings and building approaches, checking full-body collision against the artwork.",
+        "Native audio is disabled in the preserved script (ENABLE_NATIVE_AUDIO = false). Verify a compatible deployed #712 engine before proposing activation; this backup does not enable audio."
+      ],
+      "imported_review": {
+        "Design review": "Not recorded",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": null
+    },
+    {
+      "id": "butterfly-gate-a-v6",
+      "name": "Butterfly Gate A",
+      "review_revision": "v6",
+      "category": "Arrival / navigation",
+      "role": "Additional recovered runtime",
+      "page": "campus-flagship.md",
+      "anchor": "butterfly-gate-a-v6",
+      "state": "Recovered runtime candidate; not a newly accepted design or deployment",
+      "runtime": {
+        "revision_id": "butterfly-gate-a-v6",
+        "root": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/",
+        "tmj": "archive/runtime-recovery-2026-10-13/butterfly-gate-a-v6/gate/map/gate.tmj",
+        "tmj_sha256": "d284ee94a6c608903e3858efc30fcae12837d4ee7e89a6cf9f49c5a5cec8f104",
+        "wam_paths": [],
+        "status": "Exact separately preserved native Gate A, not replaced by Gate B.",
+        "experimental": false
+      },
+      "test_next": [
+        "Test spawn framing, visible gate openings and onward approaches on desktop and phone.",
+        "Keep gate/wall footprints solid; compare Gate A with Gate B without treating one as a revision of the other."
+      ],
+      "imported_review": {
+        "Design review": "Not recorded",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": null
+    },
+    {
+      "id": "studenthub-connected-workplace-01",
+      "name": "StudentHub Connected Workplace",
+      "review_revision": "connected-workplace-01",
+      "category": "Work / social",
+      "role": "Additional recovered runtime",
+      "page": "campus-flagship.md",
+      "anchor": "studenthub-connected-workplace-01",
+      "state": "Recovered runtime candidate; not a newly accepted design or deployment",
+      "runtime": {
+        "revision_id": "studenthub-connected-workplace-01",
+        "root": "archive/runtime-recovery-2026-10-13/studenthub-connected-workplace-01/",
+        "tmj": "archive/runtime-recovery-2026-10-13/studenthub-connected-workplace-01/studenthub-connected-workplace/map/studenthub-proof.tmj",
+        "tmj_sha256": "0a70a16ef729d66939899d12f04de3c2b1ae7ab635dae1c9c43b60a56b8ca8be",
+        "wam_paths": [],
+        "status": "Distinct importable 960x768 indoor workplace experience; named proof but has actual TMJ, native image and script.",
+        "experimental": true
+      },
+      "test_next": [
+        "Try workstations, collaboration areas and all connecting routes with two users.",
+        "Check standing/seating arrivals, proximity behavior and reconnect cleanup on the selected engine build."
+      ],
+      "imported_review": {
+        "Design review": "Not recorded",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": null
+    },
+    {
+      "id": "social-outdoor-office-02",
+      "name": "Social / Outdoor Office",
+      "review_revision": "02",
+      "category": "Work / social",
+      "role": "Additional recovered runtime",
+      "page": "campus-flagship.md",
+      "anchor": "social-outdoor-office-02",
+      "state": "Recovered runtime candidate; not a newly accepted design or deployment",
+      "runtime": {
+        "revision_id": "social-outdoor-office-02",
+        "root": "archive/runtime-recovery-2026-10-13/social-outdoor-office-02/",
+        "tmj": "archive/runtime-recovery-2026-10-13/social-outdoor-office-02/spawn-proximity-repair-01/candidates/social-outdoor-office-02/map/studenthub-outdoor-office.tmj",
+        "tmj_sha256": "0e1d34ac9094a1d882e7145009679dec39d9fa8de963a83b76e3a0a8c9f9f618",
+        "wam_paths": [],
+        "status": "Latest explicit outdoor-office derivative, with map-only native silence change; original seats atlas reused byte-identically.",
+        "experimental": true
+      },
+      "test_next": [
+        "Test spawn proximity and movement between indoor/outdoor collaboration areas.",
+        "Use two users to check conversation boundaries, real furniture collision and recovery after reconnect."
+      ],
+      "imported_review": {
+        "Design review": "Not recorded",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": null
+    },
+    {
+      "id": "astral-concourse-lobby-01",
+      "name": "Astral Concourse Lobby",
+      "review_revision": "01",
+      "category": "Arrival / events",
+      "role": "Additional recovered runtime",
+      "page": "campus-flagship.md",
+      "anchor": "astral-concourse-lobby-01",
+      "state": "Recovered runtime candidate; not a newly accepted design or deployment",
+      "runtime": {
+        "revision_id": "astral-concourse-lobby-01",
+        "root": "archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/",
+        "tmj": "archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/astral-concourse-lobby.tmj",
+        "tmj_sha256": "0d0ad1d16b4a434ad8e05cccdc490029f6ceb10656ab742e6002523384af9f15",
+        "wam_paths": [
+          "archive/runtime-recovery-2026-10-13/astral-concourse-lobby-01/astral-concourse-lobby-01/map32/astral-concourse-lobby.wam"
+        ],
+        "status": "Distinct lobby; supersedes its concept-only package.",
+        "experimental": false
+      },
+      "test_next": [
+        "Walk arrival, lobby and onward-hall approaches; inspect camera framing and native body clearance.",
+        "Verify any portal/onward target is configured and authorized before recommending it as an entrance."
+      ],
+      "imported_review": {
+        "Design review": "Not recorded",
+        "Desktop test": "Not tested",
+        "Phone / touch test": "Not tested",
+        "Media / multi-user test": "Not tested",
+        "Tester": null,
+        "Test date": null,
+        "Decision": "Pending",
+        "Feedback / next change": null
+      },
+      "workbook_row": null
+    }
+  ],
+  "runtime_commit": "9f80f9020df16993a4d1811552b0d816d403ccb1",
+  "runtime_tree": "99563233ab2962604ff0f71cce0a8d18faed0c3d",
+  "runtime_verified_at": "2026-10-13T13:08:08.014841+00:00",
+  "restore_receipt": "../RESTORE-RECEIPT.md"
+}

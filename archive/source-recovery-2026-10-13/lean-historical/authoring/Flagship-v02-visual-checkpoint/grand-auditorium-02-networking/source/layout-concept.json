@@ -1,0 +1,116 @@
+{
+  "status": "Visual checkpoint; separate local functional implementation authorized after this review",
+  "world": [
+    1536,
+    1280
+  ],
+  "protectedRectXYXYExclusive": [
+    0,
+    0,
+    1536,
+    1008
+  ],
+  "changedRGBBoundingRectXYXYExclusive": [
+    264,
+    1016,
+    1272,
+    1144
+  ],
+  "furniture": [
+    {
+      "id": "west-lounge-1",
+      "asset": "assets/lounge-pair-native.png",
+      "x": 264,
+      "y": 1060,
+      "w": 112,
+      "h": 58,
+      "visualSeats": 2
+    },
+    {
+      "id": "west-lounge-2",
+      "asset": "assets/lounge-pair-native.png",
+      "x": 388,
+      "y": 1060,
+      "w": 112,
+      "h": 58,
+      "visualSeats": 2
+    },
+    {
+      "id": "east-coffee",
+      "asset": "assets/coffee-counter-native.png",
+      "x": 1104,
+      "y": 1016,
+      "w": 168,
+      "h": 94,
+      "visualSeats": 0
+    },
+    {
+      "id": "east-bistro",
+      "asset": "assets/cafe-pair-native.png",
+      "x": 1008,
+      "y": 1090,
+      "w": 96,
+      "h": 54,
+      "visualSeats": 2
+    }
+  ],
+  "proposedQuietArrival": {
+    "type": "union of rectangles",
+    "rectanglesXYWH": [
+      [
+        704,
+        1088,
+        128,
+        160
+      ],
+      [
+        528,
+        1024,
+        480,
+        64
+      ],
+      [
+        528,
+        944,
+        64,
+        144
+      ],
+      [
+        944,
+        944,
+        64,
+        144
+      ]
+    ],
+    "defaultSpawn": [
+      768,
+      1088
+    ],
+    "notes": "Planning only. Quiet-zone membership and default-spawn fringe must be verified against the source before runtime. Social pockets must not inherit v01 broad south-foyer silence."
+  },
+  "proposedSocialPockets": [
+    {
+      "id": "west",
+      "rectXYWH": [
+        256,
+        1008,
+        248,
+        136
+      ]
+    },
+    {
+      "id": "east",
+      "rectXYWH": [
+        1008,
+        1008,
+        272,
+        136
+      ]
+    }
+  ],
+  "reviewActorsOnly": true,
+  "runtimeSeatStatesImplemented": false,
+  "runtimeGeometryTested": false,
+  "coffeeOperational": false,
+  "ambientMusic": false
+}

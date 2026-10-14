@@ -1,0 +1,48 @@
+{
+  "asset": "assets/garden-leaf-accent-native.png",
+  "frameSize": [
+    32,
+    32
+  ],
+  "durationsMs": [
+    350,
+    450,
+    350,
+    650
+  ],
+  "placements": [
+    {
+      "id": "southwest-hedge-tip",
+      "cell": [
+        55,
+        32
+      ],
+      "setting": "blocked established planting, outside all walking lanes"
+    },
+    {
+      "id": "northwest-flowerbed-tip",
+      "cell": [
+        62,
+        13
+      ],
+      "setting": "blocked established planting, outside all walking lanes"
+    },
+    {
+      "id": "southeast-leaf-mass",
+      "cell": [
+        79,
+        35
+      ],
+      "setting": "blocked established planting, outside all walking lanes"
+    }
+  ],
+  "behaviorProperties": false,
+  "belowActors": true,
+  "script": false,
+  "nativePauseSettingSupported": true,
+  "sourceCoordinateTranslationTiles": [
+    4,
+    8
+  ],
+  "status": "Source-only translated B animation placement; not compiled or installed"
+}

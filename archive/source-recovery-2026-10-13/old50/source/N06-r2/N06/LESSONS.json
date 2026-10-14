@@ -1,0 +1,5 @@
+{
+  "observed": "The generated rehearsal scene contains two control-booth stools and four lounge cushions, not the six lounge cushions requested. Its south booth wall is glazing, which would incorrectly put avatars in front of the window if left wholly below them.",
+  "applied": "Counted the six actual seats only. Authored the instrument rehearsal floor, linked lounge/booth/entry rooms and both exterior alleys. Added a semantically bounded control-window layer and, using N05 feedback, capped its opacity in every admitted native-head envelope so passing heads remain readable. Independent actual-fixture review protects piano front leg[845,261] and lounge doorway pot[505,512].",
+  "next": "Verify generated counts from pixels. Treat stage/instrument positions as standing social anchors only unless actual interaction is implemented. Keep transparent architectural depth head-readable along routes, not just at seats."
+}

@@ -1,0 +1,2662 @@
+{
+  "schema_version": 1,
+  "checkpoint": "furniture-access-2026-10-13-core-runtimes",
+  "target_subtree": "recovery/furniture-access-2026-10-13/",
+  "scope": "First checkpoint: exactly 311 dependency-complete runtime files, three runtime manifests and three restore scripts; complete restorable 28-map runtimes, not the complete sealed source/proof bundle.",
+  "preparation_status": "Prepared and hash-verified locally; no remote commit or upload completion is asserted by this descriptor.",
+  "source_initial_manifest_sha256": "96acc79c23040b0f15d507ef1fe55962774123a9f54c3656cf0192c3587375b3",
+  "file_count": 317,
+  "runtime_file_count": 311,
+  "runtime_manifest_count": 3,
+  "restore_script_count": 3,
+  "bytes": 172299241,
+  "map_count": 28,
+  "map_ids": [
+    "N44-r1-runtime",
+    "N43-r1-runtime",
+    "N26-r1-runtime",
+    "N22-r1-runtime",
+    "N24-r4-runtime",
+    "N27-r3-runtime",
+    "N20-r3-runtime",
+    "N30-r2-runtime",
+    "N18-r3-runtime",
+    "N33-r1-runtime",
+    "flagship-glass-d-r02",
+    "resonance-media-house-r7c-runtime",
+    "lantern-congress-runtime",
+    "astral-flagship-a-v07",
+    "quiet-orbit-observatory-r4-runtime",
+    "esports-arena-01-runtime",
+    "olive-academy-live-repair-r6-runtime",
+    "astral-flagship-b-v08",
+    "Mission-Control-r4-runtime",
+    "astral-flagship-c-v09",
+    "willow-furniture-r5-r05-runtime",
+    "art-deco-sales-atelier-r2b-runtime",
+    "N21-r2-runtime",
+    "N29-r2-runtime",
+    "lantern-souk-bazaar-r6-fountain-runtime",
+    "lighthouse-keepers-return-r2-runtime",
+    "campus-v11",
+    "butterfly-town-v2"
+  ],
+  "bundles": [
+    {
+      "bundle": "reviewed-revision",
+      "map_count": 22,
+      "runtime_file_count": 197,
+      "checkpoint_file_count": 199,
+      "manifest": "recovery/furniture-access-2026-10-13/reviewed-revision/manifest.json",
+      "restore_script": "recovery/furniture-access-2026-10-13/reviewed-revision/restore_revision.py",
+      "map_ids": [
+        "N44-r1-runtime",
+        "N43-r1-runtime",
+        "N26-r1-runtime",
+        "N22-r1-runtime",
+        "N24-r4-runtime",
+        "N27-r3-runtime",
+        "N20-r3-runtime",
+        "N30-r2-runtime",
+        "N18-r3-runtime",
+        "N33-r1-runtime",
+        "flagship-glass-d-r02",
+        "resonance-media-house-r7c-runtime",
+        "lantern-congress-runtime",
+        "astral-flagship-a-v07",
+        "quiet-orbit-observatory-r4-runtime",
+        "esports-arena-01-runtime",
+        "olive-academy-live-repair-r6-runtime",
+        "astral-flagship-b-v08",
+        "Mission-Control-r4-runtime",
+        "astral-flagship-c-v09",
+        "willow-furniture-r5-r05-runtime",
+        "art-deco-sales-atelier-r2b-runtime"
+      ]
+    },
+    {
+      "bundle": "additional-reviewed-revision",
+      "map_count": 5,
+      "runtime_file_count": 64,
+      "checkpoint_file_count": 66,
+      "manifest": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/manifest.json",
+      "restore_script": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/restore_revision.py",
+      "map_ids": [
+        "N21-r2-runtime",
+        "N29-r2-runtime",
+        "lantern-souk-bazaar-r6-fountain-runtime",
+        "lighthouse-keepers-return-r2-runtime",
+        "campus-v11"
+      ]
+    },
+    {
+      "bundle": "cafe-reviewed-revision",
+      "map_count": 1,
+      "runtime_file_count": 50,
+      "checkpoint_file_count": 52,
+      "manifest": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/manifest.json",
+      "restore_script": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/restore_revision.py",
+      "map_ids": [
+        "butterfly-town-v2"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/manifest.json",
+      "bytes": 27560,
+      "sha256": "80f0eb65c04f43b8b14f77a49e33b6bdd777341772391c14d836f064c3daa348",
+      "gitBlobSha1": "4628d87557d22e7a2cb6338d18cb0c75c578f75d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/restore_revision.py",
+      "bytes": 1227,
+      "sha256": "af9f4a1e2c2be5517bb020e47769a9ac40ce93238cd90db2b0a84b8a5444845b",
+      "gitBlobSha1": "f262dfca229e779e607c7f0c426a709a94f70dea",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N21-r2-runtime/map32/foreground-0.png",
+      "bytes": 99768,
+      "sha256": "e76c90c9f9f1907a8df773a6365a4307116aa8279cbf047ca47daafc8f61322e",
+      "gitBlobSha1": "8475ab5d8e03f9f8ee7517410304019de6d29d11",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N21-r2-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2081147,
+      "sha256": "f89a74b6a55956220fe64f5dc85fcb8ace2f301147173e61446e1da17850c660",
+      "gitBlobSha1": "dfebe4de7773ca42ac2bd19a8b51560dd1360833",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N21-r2-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1113175,
+      "sha256": "50c493975f65dd22f237955b22d1471dc1d66d45d52175bcbb53004f55e1a7e0",
+      "gitBlobSha1": "250ef7e99648c33b589014d3a588b27192639f4a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N21-r2-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N21-r2-runtime/map32/map.tmj",
+      "bytes": 96473,
+      "sha256": "325155b0ee584a51af3e67f4d1708db7e58b4a8f12c5c270a9b6b973bf5bdbf5",
+      "gitBlobSha1": "99fb5b51ceb2b9c66059304d4199adf2d3294963",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N21-r2-runtime/map32/map.wam",
+      "bytes": 520,
+      "sha256": "bb03e6b6be3ab97b4fe52d28e4b50719ea29d57b584c3a3189be49a6cf8845f7",
+      "gitBlobSha1": "02925c57054080d31d2bb1e4b9850d2284752c8a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N21-r2-runtime/map32/rear-chair-owned-depth.png",
+      "bytes": 1467,
+      "sha256": "372504ad9e47ef0410bd514f032ee970de24c6bc2f48f00312da9661a9705609",
+      "gitBlobSha1": "785a4a6d425f458e90a17b65793c18319bed5bb5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N29-r2-runtime/map32/foreground-0.png",
+      "bytes": 1313,
+      "sha256": "667daa08a074c5c60c89fbc485ab3ad96023a0e21ee858c042c3180a4c641869",
+      "gitBlobSha1": "a11d43d96dff37b96e288b98d7ec187e84c71fb5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N29-r2-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2256889,
+      "sha256": "1861a315ca855277ce21d5ca731aa1211bfae4bc50dcbc149e5f186a71d2fb89",
+      "gitBlobSha1": "805d52dde326090d12bd54afa8d9fc21aa886e3e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N29-r2-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1181960,
+      "sha256": "fc7349492d123289574f8248383965eb9bf6cf548ef3c48e09f9453460468eb9",
+      "gitBlobSha1": "44f74ac7c82d6c6500b7c759c0ebf6f7d0d303ad",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N29-r2-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N29-r2-runtime/map32/map.tmj",
+      "bytes": 96336,
+      "sha256": "c4d111551481247ad15a76a613a338be1fedf9442465886250cd6057267a3bdf",
+      "gitBlobSha1": "9f9ee925d1fd59a1e467fb1d43b818f021d9a1dd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N29-r2-runtime/map32/map.wam",
+      "bytes": 890,
+      "sha256": "3dbf0229aa79162db1f742bf72ea513d907180d8fff18d4c365e39cb920b2370",
+      "gitBlobSha1": "c78329d835d9688c5965d98c7596401fe892e067",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/N29-r2-runtime/map32/rear-chair-owned-depth.png",
+      "bytes": 1504,
+      "sha256": "e271cc704592edd6eff0ddbbed3cd6716faf1af2a5016d98228ccadc8be39c4a",
+      "gitBlobSha1": "dcff19ec7e00325d4819ca3633c8e85163312a51",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v10/map32/campus10-changed-p0.png",
+      "bytes": 2497458,
+      "sha256": "aa0b57ddeda0db22aa71d38c6ce830b70678b124f2a2055c77c4ec45bf26b466",
+      "gitBlobSha1": "e76ac35dfeb6e7722e29019d7ad3faaf9394e775",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v10/map32/campus10-changed-p1.png",
+      "bytes": 1214450,
+      "sha256": "43485e533a8530579aad768796b9b6a026aafcc9f4eb0d81c0ea2d4cdcb49403",
+      "gitBlobSha1": "3f7dae6a1d1a23b81df514ab2f3adfa9228bb520",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v10/map32/fire-flame-p0.png",
+      "bytes": 23237,
+      "sha256": "670da95978fe443cce12cac82ec46b03b9d21b416165b227f5d7c1321f5837a6",
+      "gitBlobSha1": "b262695a1b35651c58973a15d639e548decfc0ad",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v10/map32/fountain-water-p0.png",
+      "bytes": 96352,
+      "sha256": "23e32ee3a3360b0a9fbd736a484b5a1a0b369255e0f24c070f418e4fd6bf55e9",
+      "gitBlobSha1": "084a73133bde7a0085226a4d03abd2fdcb42c6c1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v10/map32/garden-life-p0.png",
+      "bytes": 24897,
+      "sha256": "7c9ae812a58bcb7cafb84e352a58d335cee4c801a610fa21e685c48bb2d3b051",
+      "gitBlobSha1": "ed9ccda689c777a288660b0b2a51f2ae7bcedc56",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v10/map32/river-water-p0.png",
+      "bytes": 251059,
+      "sha256": "7410c71c131c0e67511f7768632fd2baad9dcfc4bec582358165fc66c8e88922",
+      "gitBlobSha1": "81347f5e973a975a199e1d1afaf0e2c3f72b196e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v10/map32/river-water-p1.png",
+      "bytes": 151876,
+      "sha256": "7fb0df425692fe0538b068e4bf3221c9b8125d9196c2e638c4256b6d75a81e68",
+      "gitBlobSha1": "2780c6d8cfe7c10fe208a782a06b1fb899354a44",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v11/map32/campus11-changed-p0.png",
+      "bytes": 204327,
+      "sha256": "e4a055c15b4086052ea684657746641cf3d15f493af7261c98ad023f16964230",
+      "gitBlobSha1": "7d0e5a022fcf50c62b543a521e221874c538eea9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v11/map32/magical-campus.tmj",
+      "bytes": 189700,
+      "sha256": "5230e2e7617e81fee9e1c0692f9e5bf0eaefaf4e367f95386e35044d15f8ca42",
+      "gitBlobSha1": "099edd0bfa6b7a9838d25b82ff659054d8b2ac47",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v11/map32/magical-campus.wam",
+      "bytes": 962,
+      "sha256": "5831ae09f48cfa68928eb02ccc51f83fe31b5036c23229a1a4f30c5ba8086013",
+      "gitBlobSha1": "14aa0233a32d25823ffa79b1a912b5ca24ba224d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v11/map32/rear-access-campus-above.png",
+      "bytes": 11137,
+      "sha256": "aa3d031fcece467502f07f52881d753bdf7da052119b86dff9c32396fa7e88c7",
+      "gitBlobSha1": "070cb397b53f478c6682c3d810a30953d5820358",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v11/map32/rear-access-campus-base.png",
+      "bytes": 83985,
+      "sha256": "db524fdcf1325560d60d7178802c195f715ebb1deefd98a6cf3f3db469fe2120",
+      "gitBlobSha1": "d83bcd0f34f1a6f13175403d60304910fa11e5d7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v9/map32/audio/fire-soft.mp3",
+      "bytes": 193004,
+      "sha256": "58dd8d473efbd786beae9f93368ece56b2c7034f76fb7acbbe1e8559033dc49d",
+      "gitBlobSha1": "e857014b3bd040e013e8ebc1b4dc974c02ea0ed9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v9/map32/audio/fountain-soft.mp3",
+      "bytes": 144908,
+      "sha256": "e83c4da6aeec6330a8c7230eca281dfe1f428e1de83c8cd2f3f8c389cfbc7492",
+      "gitBlobSha1": "522e00191456b3b6012c3c624325f4eb17cdc8cf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v9/map32/campus-above-p0.png",
+      "bytes": 1954703,
+      "sha256": "a360950baf680c1b88e8a15a8cb211ceadacf27309689a082114f2df7fa27e96",
+      "gitBlobSha1": "6a1be4f6b8b15205f39f7d6b4c39406286e5a84e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v9/map32/campus-above-p1.png",
+      "bytes": 2231047,
+      "sha256": "efb99e0fcaf97f756a03e0ac77787dd9f3a06cae9e493c0b111c6c72561b1a67",
+      "gitBlobSha1": "dcafe37f4d3a0481bf12d2312c507c8492a9ee51",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v9/map32/campus-above-p2.png",
+      "bytes": 117680,
+      "sha256": "abe9a3ebf3189368283842f7e96cfbe2046e412e59bcfd1182a54dea9f80126b",
+      "gitBlobSha1": "79dc528f988138844468c72154f03775ec2cdb7c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v9/map32/campus-base-p0.png",
+      "bytes": 2701663,
+      "sha256": "9ac74c222cbb0858d3b0fda7d9ed0cff3f2cc92e6ad760ae75adc32ba0fd2392",
+      "gitBlobSha1": "1d5cdb134ed0ce5e22fd2668e4b3b443e01d53b7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v9/map32/campus-base-p1.png",
+      "bytes": 2581249,
+      "sha256": "2e9f28384accb7ee611033d8bd0436ed5ebac4dd4c880583d54ddf83d5cd1fe4",
+      "gitBlobSha1": "b128e3c053681945b97d059ce6585bbf3e4a84c5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v9/map32/campus-base-p2.png",
+      "bytes": 2486185,
+      "sha256": "5ba8a3338b1886c7cdf63d483fccc3d19f2bb632a6fda976e906c06e559e1786",
+      "gitBlobSha1": "092d8bb74349c4ddaf5d7363ffd521ef8ea3df03",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v9/map32/campus-base-p3.png",
+      "bytes": 2357321,
+      "sha256": "f8573e4735ef80a5a7411987093bf2903f08ee422eec1c3ee0d92295dc68366a",
+      "gitBlobSha1": "f52b0ea35bbd2ee7f2d0fa86da8c54186fd2cccf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v9/map32/campus-base-p4.png",
+      "bytes": 2456941,
+      "sha256": "2653123772a47fd7d2a13cc6a24ab46e195e29881b7ee0e5140069eecf517944",
+      "gitBlobSha1": "ba960741ba7ae234cdfbda5df7dcd18a775ae58c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v9/map32/campus-base-p5.png",
+      "bytes": 2385466,
+      "sha256": "309110e9163946afb27829fdf147e229ff08f6de6c1ff1cfc1b48bced32a3cf1",
+      "gitBlobSha1": "9d44886048fb041153214534502ad413fa3a524a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/campus-v11/publication/v9/map32/collision-cell.png",
+      "bytes": 110,
+      "sha256": "99251d131efeccc80c2948c4f90146968613afc604c1c17e11b62d0b7b282c93",
+      "gitBlobSha1": "11d051200b62e93099ad46e9b7a7f9ac7fb43269",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lantern-souk-bazaar-r6-fountain-runtime/ambient-native-r01.png",
+      "bytes": 384748,
+      "sha256": "3ba6206b7d839fea29dbd342666de545fe42976a2540e74d9b5917f421f89f67",
+      "gitBlobSha1": "f5cd540960cd571b2dfd7ee36901e732cfd255b1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lantern-souk-bazaar-r6-fountain-runtime/ground-and-objects-0.png",
+      "bytes": 1926304,
+      "sha256": "993ead23ce6e83f3ae78f7903eb2e931855573598051f169fe8831809243405a",
+      "gitBlobSha1": "d3702502f685bae10c58fbe171e752e51c960547",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lantern-souk-bazaar-r6-fountain-runtime/ground-and-objects-1.png",
+      "bytes": 2049136,
+      "sha256": "8ae7090f0205b1e5c5f95160edda471f1915906e5f9111a36ea01af90d508ca5",
+      "gitBlobSha1": "2276cd5993836a6b1588835a4798a0f674001293",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lantern-souk-bazaar-r6-fountain-runtime/ground-and-objects-2.png",
+      "bytes": 660155,
+      "sha256": "de102943cf1eb05f5eae806bf9a6b239e0fa0258356dcc41c35a8df57f621ca2",
+      "gitBlobSha1": "50148c78920c106433eb52d98d67390fe7e8f017",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.tmj",
+      "bytes": 169099,
+      "sha256": "0889156605a0021e5204f2c43e66d3ad71dc32b1d1cb623dbf670e4d0f4e7316",
+      "gitBlobSha1": "75f61faf62a63f542eaa92e24b83e1fb70cd24ee",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.wam",
+      "bytes": 472,
+      "sha256": "b846f9c7efc49266da1ab937291fa3a21e4d3f82dfa2f45ee0b669fff4063696",
+      "gitBlobSha1": "6979daf7d92acc23cb696378182669d4b00c4ad7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lantern-souk-bazaar-r6-fountain-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/foreground-0.png",
+      "bytes": 21475,
+      "sha256": "77c8e5e017deff9be96122af825150a0a96eaa97a66c05dc3829f537200a4c74",
+      "gitBlobSha1": "622b14d31b3c0e09b6fc88bf8f2caa6953588119",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-0.png",
+      "bytes": 2639626,
+      "sha256": "317f82f0c6621bb7993654edbee7c823cf921d652d717d7ad41b2d34adda6dd0",
+      "gitBlobSha1": "58652ff425c3542581eb2c77c9faa5b6829b3dbb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/ground-and-objects-1.png",
+      "bytes": 1285405,
+      "sha256": "10d37d4344c6bc78535a1fcd76c27ff53e69afd9a087675fc1146e8ffd899fcd",
+      "gitBlobSha1": "3f0bb2ad58654d886f90de6e1623f18a48097280",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-exterior.png",
+      "bytes": 6890,
+      "sha256": "0e1625abb8f458b54f48b7e5fd437828994526f4a833c309541f6affb41bf1cb",
+      "gitBlobSha1": "fbd3a100fe7cdf8aabf88ce74c8ad2aeda71ffc1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-keeper-house.png",
+      "bytes": 2159,
+      "sha256": "469649070ef9b47f6e796bc08840c3fb392cf9e6d9e07f2151fbaebf60f92a1b",
+      "gitBlobSha1": "53909148ad0f8e331c28eea81a3fae2cdcd60068",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lantern-room.png",
+      "bytes": 2041,
+      "sha256": "03f04ab6c25d24bbcc6894e599ae58cf40d1c492ee3242ce9aeced1e4668e08e",
+      "gitBlobSha1": "ce390ab3e6e5de315241c11f286e0d3e72b48fc0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inlays-lighthouse-workshop.png",
+      "bytes": 2157,
+      "sha256": "d6670003d9dbe6cda5863c05e06c231022fcb51477e5189d0d8e6d843a187aa8",
+      "gitBlobSha1": "3131c69c4a92ccda97a7c980bbe19315fcc8557a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-exterior-lit.png",
+      "bytes": 2399,
+      "sha256": "dc42ec37453396f25f39f897b8ffe1ccd2d879838b85ee8c8c067de5f6d0273a",
+      "gitBlobSha1": "fd25b0e275b7f89f1ed19467d6bc1131c0e77fcc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-house-key.png",
+      "bytes": 458,
+      "sha256": "c7f4ebc3cf62b34e820178196e24077eb60950b900d9248613dd723f067f82bf",
+      "gitBlobSha1": "ad2ca82259fdcea8469990e99b1ee55667ec4a24",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lantern-lit.png",
+      "bytes": 1882,
+      "sha256": "33b2aad5769cdadeed16b37bcebf9bb51b34fbfb05278d8680cf9858352606e7",
+      "gitBlobSha1": "6f69f139965feb76ff523581a0e4d35b1fa7833f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-lens-focused.png",
+      "bytes": 3195,
+      "sha256": "511762993dbce272e72f61ce04508f15ae11ef0788a375fa2c83a31e02c15f31",
+      "gitBlobSha1": "d4f7d94435bacaca7ca1b6b6df819353fafc94d5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/inside-workshop-power.png",
+      "bytes": 2028,
+      "sha256": "7bad5c1f3e7036f684bed05f74e95620270a4230826478e9d6da6721d3e412d1",
+      "gitBlobSha1": "8522b3b1ad34f77175f0b732e28695798594ae41",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keeper-house.png",
+      "bytes": 549185,
+      "sha256": "0cc9158333c17d33f87b7f8fb8f024964e07995006894bdf168e6b8142953293",
+      "gitBlobSha1": "82d839da5c84a51014e777eaa7ec7c12c5c1da1a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keeper.js",
+      "bytes": 8827,
+      "sha256": "6d30f79fe129687d1a5558e380d6212833b61b1b70374cfb14e9a761b9592a94",
+      "gitBlobSha1": "0199a20a0287fc23c411adbd5e3ca3beec977f22",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.tmj",
+      "bytes": 587219,
+      "sha256": "c169f3dace176c9dcf136dedfefdcd200ba79b71f01d8321ee1b660232d686f0",
+      "gitBlobSha1": "1fb6f7f0ed745ede2813d1e3d33baa0d24710ed8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/keepers-return.wam",
+      "bytes": 511,
+      "sha256": "4b89abbfaf6a74248027c32103c576d6662a5f24bf4df0c05f6b9322c6ee9272",
+      "gitBlobSha1": "e0d6573f7fbc40a1736361bb6e1477a40ca89355",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lantern-room.png",
+      "bytes": 671591,
+      "sha256": "a3f4a7b0713e5061b842b9ebd1d071fa4247107974c4a96cc8a3b56edbb542fd",
+      "gitBlobSha1": "b309658134e3a0107e8f0eab87eb9148d990b67b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/lighthouse-workshop.png",
+      "bytes": 652191,
+      "sha256": "034038ef52eb0c2f8aa56fa2ed221f91ee2fa3370c0425dd3b7c1626bf4a0250",
+      "gitBlobSha1": "ffc203477efd5866a662390db11f5e60f68d8040",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/additional-reviewed-revision/runtime/lighthouse-keepers-return-r2-runtime/enterable-lighthouse-r2/runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/manifest.json",
+      "bytes": 23509,
+      "sha256": "a75f616a41b612731c57fe28464d63f7f231348cdf7f6bfd26fa6f2ec1ff365c",
+      "gitBlobSha1": "900421c945c618f1ecda9396c049188f5a821299",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/restore_revision.py",
+      "bytes": 1227,
+      "sha256": "af9f4a1e2c2be5517bb020e47769a9ac40ce93238cd90db2b0a84b8a5444845b",
+      "gitBlobSha1": "f262dfca229e779e607c7f0c426a709a94f70dea",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/assets/audio/cascade-soft.mp3",
+      "bytes": 193004,
+      "sha256": "40a838261cd33bbb1d1f4ad8c271ca821ffc76c7923d8bf6a2cea4198a815ff8",
+      "gitBlobSha1": "1fe134dc93b89abefa3a69bd5f4e7d1d431a41ee",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/assets/audio/fountain.mp3",
+      "bytes": 144908,
+      "sha256": "629e31d1ba5298364a04a7845c91769d6a0ff3eaa9b1805f85fb3a86cf8a267e",
+      "gitBlobSha1": "9d6337c703109f421a6b633555abc37b69a7345f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/assets/audio/gate-crossing.mp3",
+      "bytes": 61100,
+      "sha256": "7757417f5a2a9a2029ea23c62f9b0ec36e3573cc6b4fd9468c53c37ee1017c19",
+      "gitBlobSha1": "8b63048aa0ef3bbf534088723b5e37c885b7c619",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "bytes": 1658852,
+      "sha256": "1558c9d9e686b17442f7bfb6c7df870119ea70877371117635e898318051b9e1",
+      "gitBlobSha1": "30d1797ac5155400ad01225b24931c75a71b4f88",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio-runtime.mjs",
+      "bytes": 3482,
+      "sha256": "99e41235b4498fb3c889207bf09396b246b8028ff428d65a849eb77da1be274f",
+      "gitBlobSha1": "99b0c035680e24b57702d1a22a4fc842ce11bdeb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio.mjs",
+      "bytes": 7800,
+      "sha256": "4d2f950cefd9747470423223153709966b2eb0b3928b49f8590c96c719b0d94e",
+      "gitBlobSha1": "bee3ca8c5a0298d59f0e014194197d8542bc3453",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town.js",
+      "bytes": 6931,
+      "sha256": "fc8b49cc24a61b36ab54977ceb3ac1aa7d8d952c56495f518b027f1dbfcc7b62",
+      "gitBlobSha1": "ece05fec2df8472017db5873ccea84b98dac3f45",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-architecture-alpha.png",
+      "bytes": 52135,
+      "sha256": "cd794911a265a699a80f2a27e0f8a2fe0f2e5de9b1c3c042f056c67c4c27a218",
+      "gitBlobSha1": "48791876c26c72de7fedbcf2f224a419465e5777",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-door-foreground.png",
+      "bytes": 2027,
+      "sha256": "bc078c5ab8c728f2dbebf82c447ca0115711b1fc6fe41bb2df29dd9490a445ae",
+      "gitBlobSha1": "71b7e1602bf8935b6102880460d719c00ba86f30",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-focus.png",
+      "bytes": 8765,
+      "sha256": "84cccecd9104d4755054d78b55d4f78277339980e6318a5745b2a62762f31deb",
+      "gitBlobSha1": "43d878db7cac5266c23a00f11a40a758d91d2278",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-furniture-canopies.png",
+      "bytes": 11287,
+      "sha256": "ef6c18bb843d2e2961e796843cb748f83cb9839f820b8d1ca95fedc08eaff056",
+      "gitBlobSha1": "a79fc321a0a4e69ed6f2f92627afd6bbcd72fa14",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-furniture-feet.png",
+      "bytes": 8297,
+      "sha256": "45e6fa370e31782887bd8a29c286615d343b1ede6e09735f555c05a1280dc3d5",
+      "gitBlobSha1": "decf71eeb7dcad9896009b6192951b997222718d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-interior.png",
+      "bytes": 150916,
+      "sha256": "4809b29757d2f52c4077fb42e5a5583b2fdded3ce3e1ae29860d3b9367226009",
+      "gitBlobSha1": "9a1d0b4df8d47dc946a4c77146f8fdf6a7338f9c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-roof.png",
+      "bytes": 151153,
+      "sha256": "5ac9d7071c8066e1c8f73b658635e2975ce6311ba1ea427eb9f361b9eaddc96c",
+      "gitBlobSha1": "28debbc2a6dd3f9eb7b72519609e16b9ecaf2413",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-architecture-alpha.png",
+      "bytes": 65884,
+      "sha256": "23d07d74ffdb42d544136fcfc085da5d741d35070719038204badaf225742437",
+      "gitBlobSha1": "5dee62b4eb96ffacdf57d56db8f45fc73e842b3c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-door-foreground.png",
+      "bytes": 4759,
+      "sha256": "8f892d00788075ce449f212c26fe6bda25b7d009da4cd6a18ae9b2a7ae5a1dc4",
+      "gitBlobSha1": "849857a4a169ed520dd904c7474534ee0fb0aa4f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-focus.png",
+      "bytes": 8782,
+      "sha256": "0794af9be0172207fadb0c47af2f7ad7093b35142cb92351ad752c46b10b9532",
+      "gitBlobSha1": "6c6a1281c3f23f3cc890eadcd55a41d5dc5a49ce",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-canopies.png",
+      "bytes": 6886,
+      "sha256": "71a5f2bdbf3b1f56f09a9c355f57174122c4d683200a12cd18584fe12dfdc274",
+      "gitBlobSha1": "9a1ffe41e9242a88f74e68f18c564aba8592fd9c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-feet.png",
+      "bytes": 20770,
+      "sha256": "a60357db74a85baa084e7eaa2a016f3ba73fd983f0814aa61250bdf21c7304a9",
+      "gitBlobSha1": "1325ff56ac06e15c6d96e29981ad4a93400c25fa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-interior.png",
+      "bytes": 238425,
+      "sha256": "15eb718a693d48a3bc2e9ec27b0b1a4b9d5e8903cfde3765b49b2220c45d3576",
+      "gitBlobSha1": "ee618282c5a83895d4f6c88ac6a655fde181b5cf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-roof.png",
+      "bytes": 232210,
+      "sha256": "7c0859f2f0eb88b49f3771d041b5cc1c0bd61bc388d3765695634c5fdd49b9d6",
+      "gitBlobSha1": "12883880072de05d87c5f88fb5ade57504fab0ee",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-basin-mist.png",
+      "bytes": 59122,
+      "sha256": "499cfd7a90dbb73cd16afec6f57ef654de72712fcad687be1f31a97ed76ebc77",
+      "gitBlobSha1": "b9726c32c40bbe277fb5de291f458fb597ef1444",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-butterflies.png",
+      "bytes": 36966,
+      "sha256": "ccf85c6c32983c1467e1fb45c4fe544ac463310bd2074a958ef4619132ed9bc5",
+      "gitBlobSha1": "5f53be6a4ad1e57451431da172345868b44a76d3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-cascades.png",
+      "bytes": 99629,
+      "sha256": "f031b9b501a9517c2a7ec5a0588c0426a1c120ecd4d274fb3188428b9c5d1648",
+      "gitBlobSha1": "0d1c1b52f96b8943d9ea25f3e07e9982d8780400",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-edge-fog.png",
+      "bytes": 31118,
+      "sha256": "aaa9e7d4bd404f30be415296e17bcfd27af37a8beae15e915772cc76966fa83d",
+      "gitBlobSha1": "e692a262655adb054804dba127d1cec38b683b56",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-ground.png",
+      "bytes": 7982752,
+      "sha256": "a063aec091da2a794e593153d9c72729a72e3eb7d912e3427dd939e7d54d4cfc",
+      "gitBlobSha1": "b6dbbc52472b97261c851e0943a27cb3e5bc9843",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-pulse.png",
+      "bytes": 176478,
+      "sha256": "3e7ea6a110745afa192f612bbb2ecaac30e0d84e17eb372b25b92571f41933f5",
+      "gitBlobSha1": "11f24643f8054fb1c21b51a757374868b73a0292",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-scenery-canopies.png",
+      "bytes": 232658,
+      "sha256": "80988a9f374e95e65f3f4548f95af928931e224d7d85c4bc878b2191558f0cfb",
+      "gitBlobSha1": "50d79c4802746deaec0fb9f20b2e62a80d4cedc1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-steady.png",
+      "bytes": 51819,
+      "sha256": "c914d4a5a9d020eb6dd80496223cf87ad772a9057014694a50d98468709e4334",
+      "gitBlobSha1": "90d0465cdac814657fef0e036a353f309c18848f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-water.png",
+      "bytes": 2509,
+      "sha256": "b52a293a653fe5aa74f789b95077f15a31aa12beb273252a503f9ce9b9fac17b",
+      "gitBlobSha1": "7575c382f25d03219b2bda75455b8f7e9c51e557",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/markers.png",
+      "bytes": 87,
+      "sha256": "050ab82bd34987f71468d5851d3707e15c6c6de862d98384259834d92deefd57",
+      "gitBlobSha1": "4203d43af4a6da5556e0d1305ecb90cb260c0434",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/midnight-terrain.png",
+      "bytes": 3898,
+      "sha256": "d6bd36368df434847ae09e6d94df30ad374750b10dd629df117b12e79bee73ea",
+      "gitBlobSha1": "d4d7d5e88ef760e9cbf4c345223907bc8bce165d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-architecture-alpha.png",
+      "bytes": 65414,
+      "sha256": "789dbd47b761411bfca0b0f7442848232fa4ff07b8a60e737effbcba9e63fe83",
+      "gitBlobSha1": "4365207f77bb9cc43280ddf586d239339f0899a7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-door-foreground.png",
+      "bytes": 3775,
+      "sha256": "0975550fd4953c4b6e8b2e83ed6d5ce6bcb2933f207a9fcc59b3e3d8f4ceab64",
+      "gitBlobSha1": "a277d4a79e2c4b3ce23fefb6c36068c1749b58b8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-focus.png",
+      "bytes": 8783,
+      "sha256": "3e363bf6496c7ef379a373ca414c8bd0b9c59b5485cc79e5c09a9893303e8838",
+      "gitBlobSha1": "5071d089c6fa0edfc89641363922c537ac6154e2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-furniture-canopies.png",
+      "bytes": 33615,
+      "sha256": "89e763bfc87f65266762b04808b9c27be1c5d8b660ddffcc2ea09b3a768d900e",
+      "gitBlobSha1": "4b2b8c1c04e76a2b09403903ac6d8d09367109f8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-furniture-feet.png",
+      "bytes": 38110,
+      "sha256": "93a034774346bd98b32c87f100aaffb9dfa584e8a8e422942c859ef788a956b5",
+      "gitBlobSha1": "1bbd3ca71c52103fd2377c9f11e6d9021280f308",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-interior.png",
+      "bytes": 268649,
+      "sha256": "38d499a7c91a2258af3ea35ba934f530a55e628d4c0f667f0a09e47a0c8e18d0",
+      "gitBlobSha1": "cd6584350fed2efd3348c96762ad91129f724c47",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-roof.png",
+      "bytes": 277664,
+      "sha256": "b18b27f7e01b497eedd268b81b2a41398791adb1c4cf1ae6a241dba2acae1022",
+      "gitBlobSha1": "209db6363b5191186d839fa52a3d9941e0fe36d8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-details.png",
+      "bytes": 13711,
+      "sha256": "fe8a612e99a7649b630d1ee9f2d12bc4405e698b48aa59b43715a1af9cd48a54",
+      "gitBlobSha1": "7a7a400372b7ece9b710839973a0956f7d533107",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-edge-fog.png",
+      "bytes": 22115,
+      "sha256": "721edc50b6b45791fdccb6097885c5ca6f26f563ef508e63b1632d5fd18868b2",
+      "gitBlobSha1": "d531b108bf99ba05238f07c5938d94fa2292784d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-ground.png",
+      "bytes": 3166649,
+      "sha256": "67c0158fd54a2f022b058f4d2a5d1bc31979ad640224dc6de3585b7bb2d1b34b",
+      "gitBlobSha1": "4169a1c9ac29dabc9888be98d7cac9448b135f83",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-olive-shadow.png",
+      "bytes": 1122,
+      "sha256": "8499f3119dda5eaec86d0eea12d38106c30d3073c6d50538d746584607f448b8",
+      "gitBlobSha1": "dc475e1fe45e9b6b3c9ca066ec9c0d0d633925f7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-olive.png",
+      "bytes": 8431,
+      "sha256": "76aa18725bdc33d5cba6d6df88690b741c633e97753079e2126b85e3aebefce0",
+      "gitBlobSha1": "e16d92b075a0e5e8b62295f80ebddc07c1048560",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-pulse.png",
+      "bytes": 151411,
+      "sha256": "b66001e5c04e8808408bce48790e0c81f4a64f7b40eff8b8fbb63cf2cd2f0a7b",
+      "gitBlobSha1": "a9efd7b7547099724b485d5b991b8d53ca870a20",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-scenery-canopies.png",
+      "bytes": 2543851,
+      "sha256": "14cce8b6701b6fb8d6c1861cf516287727952aca96142cdca07cb9af4aee0490",
+      "gitBlobSha1": "aab1b1b4cf5d43ee3cdc8d3107b6b9ae9894dfe9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-scenery-feet.png",
+      "bytes": 184527,
+      "sha256": "0abaa5aa58be51698a7021c8062168fcc2effec189bb7fc4fb041365c6e745d6",
+      "gitBlobSha1": "b42df2024a1f31155f7b166722ab5d2af9ee00ca",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-steady.png",
+      "bytes": 60293,
+      "sha256": "f15f04fc70e2b805b202650cd68108a144224c8da583711927abe77ad2b7ed71",
+      "gitBlobSha1": "6749427d466ff47cdc68f919516d24f4eb98ccce",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-surroundings.png",
+      "bytes": 262080,
+      "sha256": "d1aa61b1bedb52cfc96036cacbe849d1845f792d89df2f74efbe85e0be564e0a",
+      "gitBlobSha1": "e18dd15cd97b1b482e66f369b8b23c68a62da93f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/cafe-reviewed-revision/runtime/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-water.png",
+      "bytes": 5786,
+      "sha256": "40d2dab3b05aaa0823935e6ac432d0008f2052bec75c1bbe4995e69d7bf518a0",
+      "gitBlobSha1": "8b11ea97dc33a1b1e2b90ec6dc54dfc6de8759a2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/manifest.json",
+      "bytes": 81632,
+      "sha256": "f51d0f3f9be55319943257179d8b16fc5b83516041e429cd4272770b206a2b8a",
+      "gitBlobSha1": "d96d82fff92f9d039c9af121da182e36cd2f9976",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/restore_revision.py",
+      "bytes": 1227,
+      "sha256": "af9f4a1e2c2be5517bb020e47769a9ac40ce93238cd90db2b0a84b8a5444845b",
+      "gitBlobSha1": "f262dfca229e779e607c7f0c426a709a94f70dea",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/Mission-Control-r4-runtime/mission-control-center/map32/architecture-and-furniture-0.png",
+      "bytes": 1530731,
+      "sha256": "99f969b7aa0cbac6a2c9e1ad1097a7812ebdbda2e0e81749838a28e460a7a2dc",
+      "gitBlobSha1": "56805f30b4f57c9eaa8b8fb5cf60de9db9e54391",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/Mission-Control-r4-runtime/mission-control-center/map32/architecture-and-furniture-1.png",
+      "bytes": 1614496,
+      "sha256": "975bbbcabf18a3ee99a1a360041328b5768f09f3e0fca6be1f1e7db70eea01db",
+      "gitBlobSha1": "3637813e189cfa8eff3aca3f64059cb729e1b32a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/Mission-Control-r4-runtime/mission-control-center/map32/architecture-and-furniture-2.png",
+      "bytes": 45673,
+      "sha256": "7baee7b90eb96c0c8eee44990cfec8643b8fe14610d3ca47c181cdf3320c3f12",
+      "gitBlobSha1": "375542fe59a4c24ee38581427094b3a1392b1515",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/Mission-Control-r4-runtime/mission-control-center/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/Mission-Control-r4-runtime/mission-control-center/map32/map.tmj",
+      "bytes": 131759,
+      "sha256": "d2b8382bd0e5c8e32d2bdbc9e5da037b98f4b212875381d366df2f3a2a8f83c7",
+      "gitBlobSha1": "484913635d42f4a84469d1f102e5b8e047491404",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/Mission-Control-r4-runtime/mission-control-center/map32/map.wam",
+      "bytes": 645,
+      "sha256": "6f4684227d647bad39420377091bca156b1105427892c8a23e91fd139fdc1c41",
+      "gitBlobSha1": "2bbfd0c2e64f826f1730c18bcc4de6d39f24dbf7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/Mission-Control-r4-runtime/mission-control-center/map32/rear-chair-depth-corrections.png",
+      "bytes": 1439,
+      "sha256": "7b3f4ae9a9136aba6815e92cdc0ea3360cc9d178b54b5f0895862f93a867d94c",
+      "gitBlobSha1": "ab3e2376f971b59bd681fb444e478493075973dc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/Mission-Control-r4-runtime/mission-control-center/map32/seat-backs-0.png",
+      "bytes": 1573,
+      "sha256": "216e26b963e5abc50049d17e5e3d33b0b6d169cb62e3738adc275366fcedfcde",
+      "gitBlobSha1": "95c911e369fe58d5aec52d4c9ec9500ed2a28d0c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N18-r3-runtime/map32/foreground-0.png",
+      "bytes": 171009,
+      "sha256": "f443b6f5d056ab375ba1f5b8e73e7b37f46fbbf486ba977ca0f38354e589a494",
+      "gitBlobSha1": "6930e59270b1708e17f4a5a11aa6442e145f2050",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N18-r3-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2166607,
+      "sha256": "a842a4fa34c71366307a36f50625ffaaf6765c6a867ed78235b58d9751a0eccd",
+      "gitBlobSha1": "c7b7785986ea853d0893ec959263cd7d309c67e5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N18-r3-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1061985,
+      "sha256": "8ad7a45d9349f148e71e63fd46b98f794f20bfd97f12c6492b927b97a8962844",
+      "gitBlobSha1": "647f768fa99fa622b509315e51cd3ef27699f3b8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N18-r3-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N18-r3-runtime/map32/map.tmj",
+      "bytes": 96215,
+      "sha256": "56ae360f6f73deed4c6523f1131566f2e1f312af8ae8ee947d123443a13690a1",
+      "gitBlobSha1": "d1454a96b12484d3fa4dd2537047b7787e35320a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N18-r3-runtime/map32/map.wam",
+      "bytes": 502,
+      "sha256": "44c94e80e5cdb8891d22eddc3d8c5081b7b3c5374f112c25418be78dd739c711",
+      "gitBlobSha1": "e688012cd2f4a3d3ab1405bf1792c3c5e80b87e2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N18-r3-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1357,
+      "sha256": "435ef09a0b33a5f84d70bc42de29a9a2740e4621035bb0185c2fe36c3c662248",
+      "gitBlobSha1": "dc0f835d3b1415fb48ed1d65bed5c5cd05ed9f75",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N20-r3-runtime/map32/foreground-0.png",
+      "bytes": 192850,
+      "sha256": "8b7a694c3606dc2ea9f019eefee4a169d20f3865a637447f795dad302608f009",
+      "gitBlobSha1": "b32a318b1ce744da3de5f04631dfc5b97816f90c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N20-r3-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2279145,
+      "sha256": "fe341ebb0f4964c672a3486a63c5735362a6a6113cf185fb990c40cd5217a1c0",
+      "gitBlobSha1": "b9e8d6ee36dd311c2b127275d52ec0038992b7ac",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N20-r3-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1027177,
+      "sha256": "34fa04ad28f4de20284ce4130fe143d82bf6a08135b83aef34b3414dbdab5680",
+      "gitBlobSha1": "8fea0257de78f320d035b0c39a611168ffdd41ee",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N20-r3-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N20-r3-runtime/map32/map.tmj",
+      "bytes": 96378,
+      "sha256": "1bed4ebec60ff2761c391473d22cbf3e81860a9138a06cb84c70d8c1b9d8a2af",
+      "gitBlobSha1": "5b2c5068011fe3d3b135ac291b937ab9ee542eec",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N20-r3-runtime/map32/map.wam",
+      "bytes": 508,
+      "sha256": "16f28d912c547f2b3c30f346fbc4d2d1dc3bf10e705bde63a638eb3f793fd5ed",
+      "gitBlobSha1": "868c9d9198409a16640e4af912b89ebf1f0007ff",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N20-r3-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1218,
+      "sha256": "6e56c99cd8741900893687a54eda755dc1c829d8bdf5f87a093190a45e855711",
+      "gitBlobSha1": "cc5e19e568b573dba0b17761c037120400885f37",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N22-r1-runtime/map32/foreground-0.png",
+      "bytes": 49642,
+      "sha256": "5b263e397b29f13b7424bcde44187deaeae51565c51e53279621788062eb13a6",
+      "gitBlobSha1": "e158b5da33894c4ee84de2365a26f7db8c63fdd5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N22-r1-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2692573,
+      "sha256": "7a132c700a9da7a7fa255adef2fba14d8a8cea4a7199cfb59e01ae258a6f045a",
+      "gitBlobSha1": "ff3389f1d4123f48dbbb7ada54239d6f06d82a40",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N22-r1-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1462663,
+      "sha256": "4d1a144386d552301209b30fb7926c0589d0855a1df5e2f69dff644fc2fc7ac6",
+      "gitBlobSha1": "f4b83e3816ddfd8d6db4f316ae58d0d8c0e01cdc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N22-r1-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N22-r1-runtime/map32/map.tmj",
+      "bytes": 96376,
+      "sha256": "9061239f95cd41c495fcb1dba4dd3487bf718bf2b65bef6f46d4629ca41e3ef5",
+      "gitBlobSha1": "dbfe0aa7e60ad99fa4ca1e5f26fe259fc7cf40ed",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N22-r1-runtime/map32/map.wam",
+      "bytes": 511,
+      "sha256": "59c9f0092a7f8a24b884eb4449c2a15be39a3df41ec12f2159924ae4b9b4ebde",
+      "gitBlobSha1": "effdb90c4ae91eef2917aef43ad75b44c74b5582",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N22-r1-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1125,
+      "sha256": "73d96e540b9a4502da200f1421ee4651b9cde63157b1dbf9b49291c62b5b0ee4",
+      "gitBlobSha1": "07b22ca9d464e555110f038c9c6de9b9cee18055",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N24-r4-runtime/map32/foreground-0.png",
+      "bytes": 2788,
+      "sha256": "b2b789cdb2599bd6c126e25b4bfdf735a3e45c1ac269956c1ef8b594fb213e1f",
+      "gitBlobSha1": "830421265937a116839012affd28432aaead4a42",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N24-r4-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2627466,
+      "sha256": "931b97643ec1a231c4b13a8c0cedc750d9b4ce762f1fa15f5163ca7058d4e3e7",
+      "gitBlobSha1": "9d884a9aaf6b6c5f104203c6f6aa28ac19b159a5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N24-r4-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1309147,
+      "sha256": "89b954348470a309965c4198e88d0037987a4aa4bf902a52644c1cfd9969cd43",
+      "gitBlobSha1": "37c47013463e0ae9dc0e5297582698b097d9aa79",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N24-r4-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N24-r4-runtime/map32/map.tmj",
+      "bytes": 96585,
+      "sha256": "aa7d283bb64089391c87a8775ba3b6e5f3979e218c2cc5e703d77fe08fa71b51",
+      "gitBlobSha1": "b8ba6b936bb0c5b9fa53f1d3334d4879d4f400c4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N24-r4-runtime/map32/map.wam",
+      "bytes": 508,
+      "sha256": "da1a341e743b66700a3a2bc948493e695cabd63fbf97fc816d1a07ff72d13000",
+      "gitBlobSha1": "3e33175376dc3f00fbd8b0f74627ecda57987ef1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N24-r4-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 3111,
+      "sha256": "4a3c5a993c4af6b251cdada80d1ffa47e85c59595c221ad18b593d755a1d9d93",
+      "gitBlobSha1": "5f2a2cb8fdb58bfbb9019c0358b31d42bfa427fc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N26-r1-runtime/map32/foreground-0.png",
+      "bytes": 933,
+      "sha256": "bddaff613f3f0465256f628357fa6aeffdaab6339bf58e8c21a2410bdce6a2f7",
+      "gitBlobSha1": "7807c2650b6d354f00f62b9da1f3d4b7110c72aa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N26-r1-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 1966422,
+      "sha256": "fb72d4e1bdfc5d90ff5f58c43652fad467cae3976bcf57a06f9b5585db121563",
+      "gitBlobSha1": "0ba5b4fd2526bf2a6cb810627c060dbf5712151f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N26-r1-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1112076,
+      "sha256": "1594c6328b06725ef69e6b0e3dbbb631d9b7e81dcbf501c5f0f40171337eb303",
+      "gitBlobSha1": "bf8d9e8e4af1c76fcf38a28760c42e327e8f74a6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N26-r1-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N26-r1-runtime/map32/map.tmj",
+      "bytes": 95730,
+      "sha256": "d38d3383504a12178b298bfe6e5522463537ee097de963fd8f9dc6f1ebc46ee5",
+      "gitBlobSha1": "58aa74a224509422a923270fff6ffd500179329c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N26-r1-runtime/map32/map.wam",
+      "bytes": 878,
+      "sha256": "1ef65c2543f6c99c2ebca7815ea8326d2e6bf3e8f5641d6cf9168ebbe428be3b",
+      "gitBlobSha1": "0dc31763de2ad48de8d9bdf5e2aaa641253f7cf7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N26-r1-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1029,
+      "sha256": "9565b645aa51cb0bfdd1a80451d11ca05c70669eabbfbcab77925a056d9c1a0f",
+      "gitBlobSha1": "2073ff617e29455cee3cca56cf6b57a14b9a4175",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N27-r3-runtime/map32/foreground-0.png",
+      "bytes": 969,
+      "sha256": "0effc08eaf4b2356669d1263b5f3e66a711e426f18ebc78d81d09e623491ce6d",
+      "gitBlobSha1": "fbdb26afcceb917c758f267deb83d913b3ae10f5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N27-r3-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 1949755,
+      "sha256": "936f92dae9d07e26a883eaee001aee62b1e21a83d6545923b5fc33c20077422a",
+      "gitBlobSha1": "af10a23b894911e660288065d4fd732625bfa556",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N27-r3-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1013198,
+      "sha256": "2cd6d0129bb05bc1816c77503a667511faade52770675a26c5f3a6d4a07e7eae",
+      "gitBlobSha1": "23d841e5003fe4c3abfd90d171ce0c944292cb54",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N27-r3-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N27-r3-runtime/map32/map.tmj",
+      "bytes": 95891,
+      "sha256": "9430a419e457eca6b90e5c400d45ee6f52743eef28472a212234a424b7e8ab87",
+      "gitBlobSha1": "69e584471dc2699a08a433dda2fd265586349dab",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N27-r3-runtime/map32/map.wam",
+      "bytes": 906,
+      "sha256": "fb0c813e080e2140f99de18d84b48450564f997952452d1acc30c6087452bf23",
+      "gitBlobSha1": "264f9e35403344a8fb0ec688e2297741ddbd08f0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N27-r3-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1207,
+      "sha256": "47546cc859695fec27344cb11a0c2036b7dac065bc1186c6281ab23c857b3e03",
+      "gitBlobSha1": "ff0a28e781209b7d3e9c58ecf447006531bf5418",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N30-r2-runtime/map32/foreground-0.png",
+      "bytes": 1071,
+      "sha256": "ed2a7ef7f2ea5310a59a874168eec885e0c74f23d56b0489c9c2da55bba000d5",
+      "gitBlobSha1": "4f9fe8db45de3a9fb869f9a0b1c8f7be30171d16",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N30-r2-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2192478,
+      "sha256": "6e386132dd6b554c2a201486c472c945b1037a78a32e5e237c330d7cd725550d",
+      "gitBlobSha1": "c74d7169789295a998fa86503c3552e026f3c980",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N30-r2-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1088935,
+      "sha256": "61352fc39aa8944a0c027d3cc6ebab30af75d6253e48491522db23a6e2339dc4",
+      "gitBlobSha1": "fe801a293c43790f32cdc96073d4e1378f79c96f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N30-r2-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N30-r2-runtime/map32/map.tmj",
+      "bytes": 95033,
+      "sha256": "0aebb0a085660dc2acd721288ad5d1ede9bc404fabd23c076f3d8698af2069a3",
+      "gitBlobSha1": "3552af3b0522614028bd2a320dd621f8f4614efb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N30-r2-runtime/map32/map.wam",
+      "bytes": 696,
+      "sha256": "d0274981ddc7d81d6d8fd4fb154ddee9cfac75323b7ca3c32ed177a9ab8eedd0",
+      "gitBlobSha1": "0818ac60eba6780cd3b21855e674ccb0aa17b977",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N30-r2-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1183,
+      "sha256": "9334425580972d7d876c8a07ad1bb660e5b43fb995b4ac24ecc8c7665def2be0",
+      "gitBlobSha1": "fa3c90244d13bf8d484219fb534695053dfc7043",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N33-r1-runtime/map32/foreground-0.png",
+      "bytes": 1197,
+      "sha256": "8037b15dc7fd041f59be339d22d92da55e242b66ea04d4a3a33cb213230492ec",
+      "gitBlobSha1": "bfa87dfa7483dcb74093af1ef8a61e5a8771ec88",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N33-r1-runtime/map32/ground-and-architecture-0.png",
+      "bytes": 2287239,
+      "sha256": "57ed15903581f5a1aa48e23fe196925a46972586d22d0b8ae48f3527048da030",
+      "gitBlobSha1": "8c5f8250b535f68e2db4f79eadf17910f7e36471",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N33-r1-runtime/map32/ground-and-architecture-1.png",
+      "bytes": 1179510,
+      "sha256": "d7e3ed801cc96cdb9724e8fb91a91bed27ea6f4f10c6900c44fc9c822db647e5",
+      "gitBlobSha1": "9773950e7d9f914547e2400b27c365ea3c638a8e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N33-r1-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N33-r1-runtime/map32/map.tmj",
+      "bytes": 95554,
+      "sha256": "92c44887a740fe318664bc47a717973e7b7f67a95ca1743d6b93b469ac188ede",
+      "gitBlobSha1": "9a69a42314e75838bf5c54f6acdc0f2c416c1e60",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N33-r1-runtime/map32/map.wam",
+      "bytes": 873,
+      "sha256": "9d58a2c1cd247c0c3b4dc077879dcb07dd281fa25a32ebffa19f5ddbfe30126d",
+      "gitBlobSha1": "eca5a98562e6024d9cb75b70c2e25bd2dde2c436",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N33-r1-runtime/map32/rear-chair-head-safe-depth.png",
+      "bytes": 1325,
+      "sha256": "554da50c0a1d9278ac043d85bc5a78f4ea497702859bfbe6b81dc9a610fc84e6",
+      "gitBlobSha1": "3ed0daf3ca4930ad3deb32c77c4a788135cf9291",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N43-r1-runtime/foreground-0.png",
+      "bytes": 10968,
+      "sha256": "f1b94f3b5f41907120a7cc0725a096f41d7f24202a21e45b47d0de26a41b29b9",
+      "gitBlobSha1": "205c3cc15d55f47929f280ff9fc379725265316c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N43-r1-runtime/glass-hall-conference-campus.tmj",
+      "bytes": 96128,
+      "sha256": "66ec684ac61db42dc530f2a092014330de10490ca0788f50cbd58c07c004ac2b",
+      "gitBlobSha1": "b48451368cbdb9db1e4fb9aee97b021ba9ef8ed6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N43-r1-runtime/glass-hall-conference-campus.wam",
+      "bytes": 1361,
+      "sha256": "5603310a506de241620ecb97f7912d4fcd43fb0b12401959b28527852fab6c73",
+      "gitBlobSha1": "5d72377c44be9a271a0cdf7125f7c70fb7eccb40",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N43-r1-runtime/ground-and-objects-0.png",
+      "bytes": 2167958,
+      "sha256": "b324353bb7ef4f2653dfe9cf765bf9ca4929a3f0ef9db37535dfe1fdee0e8f12",
+      "gitBlobSha1": "ae8299b38e14714a111d80f5244914369c6cf474",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N43-r1-runtime/ground-and-objects-1.png",
+      "bytes": 1194019,
+      "sha256": "69d09497fd881fbb5ab402158d1d25837af6aca40a6cb992235912e37727dcfa",
+      "gitBlobSha1": "7d8dc6aa1d925252ce0ed18ca5bb4543eb8dc8ac",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N43-r1-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N43-r1-runtime/rear-chair-head-safe-depth.png",
+      "bytes": 4853,
+      "sha256": "3e5e04788321044faf2017be12afb19774919ccdcba61dfca10522ad0bb6851e",
+      "gitBlobSha1": "e8b76e14c9e65c024df7b53d46e3aecde01874f5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N44-r1-runtime/autumn-amphitheatre.tmj",
+      "bytes": 96236,
+      "sha256": "d9738bfed28a12cd04a600676a8a5a1c86a81103efa75af6c6867d2539472c3a",
+      "gitBlobSha1": "d0e2004b10c3a5e525abd9fef3e5a021ca7f3ecb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N44-r1-runtime/autumn-amphitheatre.wam",
+      "bytes": 1280,
+      "sha256": "747c2030b5bacbfc9c8e699e6fa2298145f77c44ae0c9a18e870c570a3b42fce",
+      "gitBlobSha1": "ebcc21a594cd6250a1c2e6942689fc4573899ab2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N44-r1-runtime/foreground-0.png",
+      "bytes": 22654,
+      "sha256": "bc1144f4dddbd469d6e7816ea32518d6d83554d6401bc655740c808bb51b9642",
+      "gitBlobSha1": "571349dae8134f97e023e8d35a0409bbb9bf4e4c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N44-r1-runtime/ground-and-objects-0.png",
+      "bytes": 2446912,
+      "sha256": "92a773ef09d31b2deeb5ef5c141c151d5fea7ffd51bd37c502d289d68f27bd51",
+      "gitBlobSha1": "dec271a0cc54da66b92c0a09bb04625275b94cd9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N44-r1-runtime/ground-and-objects-1.png",
+      "bytes": 1285371,
+      "sha256": "8ea3904476918659cf18a86f7e73cf7ad03e8145120fa71e5e7e8ddf64e4263d",
+      "gitBlobSha1": "f7fc875b7f09a4dd155c192ab86a8fd96e59e1a4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N44-r1-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/N44-r1-runtime/rear-chair-head-safe-depth.png",
+      "bytes": 5882,
+      "sha256": "7fd660982cd9dbd95fa765887f4d7c1ef85302958c4b4122a533e1aea3cce421",
+      "gitBlobSha1": "e3a5fa2934b96edbcb1a05a5756bd149541315c2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/architecture-and-furniture-0.png",
+      "bytes": 1750523,
+      "sha256": "3083aa55b7b20688c4929458c9412034bb06198b8fed53d8b478ff8bb387b19f",
+      "gitBlobSha1": "d13bb39210354755811578d07fc430f50d27de6e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/architecture-and-furniture-1.png",
+      "bytes": 1856856,
+      "sha256": "450a2aa3b69a44f247740e635bf14ee4c4d5f39b0ee339dcdc49186ee623166e",
+      "gitBlobSha1": "39654308a8a946fb66542d87502d65a0f2f19ce0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/architecture-and-furniture-2.png",
+      "bytes": 526301,
+      "sha256": "7155a145d3d6784bc99de2fb33cfd4cf044b4aaeb15b4d302c883aaa49c6c5e2",
+      "gitBlobSha1": "decce06c898e50043a76a45091ad506681a3c2a8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.tmj",
+      "bytes": 176271,
+      "sha256": "54a374c187ceb9de19defc2cc92e90f5504c4cce8acc03e3a0f00cf687064fba",
+      "gitBlobSha1": "5e852eb0686310867afce058bbd9db7a79fd0e6e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/map.wam",
+      "bytes": 2148,
+      "sha256": "b3c415ef183cdd739d1b5e5fb8a6c9c2b006a803be710ec0a75c3a1f99c58e19",
+      "gitBlobSha1": "05e4ab840d0799e50c6a1645de451804c87e5b27",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/scoped-chair-transfer.png",
+      "bytes": 2046,
+      "sha256": "63447c981f6bfc71be1d77bbd614e0b29c70c1c482a9622d0d81ff76ed820730",
+      "gitBlobSha1": "933e6c4a6ecf89e676d5eeea280295cb58a4c0aa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/scoped-desktop-depth.png",
+      "bytes": 13212,
+      "sha256": "64cb390332bf09171c12d475d344e0b64762cebb607b4f32c9334cb37b934966",
+      "gitBlobSha1": "099621373cb83e3e71f2d850942c2463288f1598",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/scoped-seat-backs.png",
+      "bytes": 66352,
+      "sha256": "b362fb9e0b8fb47b4012821c830ab16ef0ed045c46124ccf74c371cbfe13d5f3",
+      "gitBlobSha1": "4ab366b3cd9b55ee63e4bc62883f4dd74ece9303",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/art-deco-sales-atelier-r2b-runtime/art-deco-sales-atelier-r2b/map32/seat-backs-0.png",
+      "bytes": 68382,
+      "sha256": "9e24d6cd6a5f6f7125f045ffd806d436406287fc5f7c9da419c8e2e34a89a251",
+      "gitBlobSha1": "ee74c8a7ba61f251384fa9b68986cb00f505226d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-a-v07/map32/collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+      "gitBlobSha1": "51693a39ae4a8539f8b40385eb47e99ae6bf99c0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-a-v07/map32/grand-auditorium.tmj",
+      "bytes": 293381,
+      "sha256": "dfe7b932ecf08b9d4ed07874da798f53d36486b4071399a9f2fd31058816e190",
+      "gitBlobSha1": "611dbd70db7bcced06eca7b4e9483692de5b64da",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-a-v07/map32/grand-auditorium.wam",
+      "bytes": 3484,
+      "sha256": "2504f5871750964aa6972f88bb4071ccbca73aa74847d84398637d18838954c2",
+      "gitBlobSha1": "5ab9cac312c9ee97d46d42ec644539e55de6b90d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-a-v07/map32/hall-above-p0.png",
+      "bytes": 19102,
+      "sha256": "b10b49e46d59134fab6832752c2a0fa5c02781a9bd0a43cf9a5f2ea1dc9746d9",
+      "gitBlobSha1": "1a5698bc4b6f2685a4b6d6fd160ea2edacd3f8f3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-a-v07/map32/hall-base-p0.png",
+      "bytes": 1932511,
+      "sha256": "ce1fbdf68e384952fb99b1705a3420a93e63e6be8bd078b607e069e2598cbaca",
+      "gitBlobSha1": "a4b392a78ef3bac255266a5904c225bba64ab57a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-a-v07/map32/hall-base-p1.png",
+      "bytes": 1831994,
+      "sha256": "50c3d1ee13b5ebb187704a51c2ed7203e1be5d8bdcefbd04ff978af296630dcb",
+      "gitBlobSha1": "aa703d5caa63fafaec305fc13e7c1b9642437498",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-a-v07/map32/hall-base-p2.png",
+      "bytes": 1845505,
+      "sha256": "14babc84f04dd17938bddceb818c7dc1fc8b584a0917d342210a9640aee4983c",
+      "gitBlobSha1": "1385c660fb5c77fa2cfe99ac9e34ac2ee3629d81",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-a-v07/map32/hall-base-p3.png",
+      "bytes": 947391,
+      "sha256": "2eb8f81ad313523b55345b417a358a6f359da83beb2e9e0b3ce9ea19c5754418",
+      "gitBlobSha1": "96afb20562890f514e3f0314d1bab101c0e4e682",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-a-v07/map32/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-a-v07/map32/rear-chair-depth-corrections.png",
+      "bytes": 5731,
+      "sha256": "839c34ee4868a017a3054c3030072734e78bbde5741a19abd202768929eeb53f",
+      "gitBlobSha1": "5a7ed690b1154e40418537f193b0aec17d4bda3a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-b-v08/map32/collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+      "gitBlobSha1": "51693a39ae4a8539f8b40385eb47e99ae6bf99c0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-b-v08/map32/garden-accent.png",
+      "bytes": 5163,
+      "sha256": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646",
+      "gitBlobSha1": "ac74764773e5730feb5f094f51a521e479e1c256",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-b-v08/map32/grand-auditorium.tmj",
+      "bytes": 347281,
+      "sha256": "5b8b76929c7ab560243a0b8481156957622fc5dde8c0bb8965d0664eb9349781",
+      "gitBlobSha1": "dfaf500fa770942266e37982f7029f96bbbc1b47",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-b-v08/map32/grand-auditorium.wam",
+      "bytes": 3484,
+      "sha256": "dd5a4d310640f82e6b4acc28f068733142b8f5f9bc3f0bda384c7fd3c00467f5",
+      "gitBlobSha1": "66d03fd986b8722f8407af96101633a937ec84e3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-b-v08/map32/hall-above-p0.png",
+      "bytes": 18474,
+      "sha256": "7f665ab1b7bdec5f8ae8f02d0225709dd5eaa2c675ffdc1e99ca74b2a68948e3",
+      "gitBlobSha1": "d89491b591350876d3918a97e03f4ff27346f46e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-b-v08/map32/hall-base-p0.png",
+      "bytes": 2082495,
+      "sha256": "c6e9ee5b6d60778f1e09b9f1e931d795b5955ba4e11cb45a441c8d54e5be7589",
+      "gitBlobSha1": "1fcd6d8ef088df790c17b4c39d94e9800e6921ef",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-b-v08/map32/hall-base-p1.png",
+      "bytes": 1888462,
+      "sha256": "c1a4a765aa95bbb57160969345230b1531aab6ece3fef05ea4413f8d3d415f41",
+      "gitBlobSha1": "12ca4c5199f40ec2937b49521c2d939e97f2fe7a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-b-v08/map32/hall-base-p2.png",
+      "bytes": 2021746,
+      "sha256": "c66677c3b7b9f1035f15ab5d5b29ed617363ff254a4e84a4ef318e394cdfec9d",
+      "gitBlobSha1": "051ea20e2885292131b275a89f18f7c04253a256",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-b-v08/map32/hall-base-p3.png",
+      "bytes": 1746267,
+      "sha256": "5492b195318fe5a3495be7c2a828dd1c84e4b8cfe66e9e27fa48a2b3d114d517",
+      "gitBlobSha1": "dda6d2590fe0e26643b217fb4df1357a8c56e5ed",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-b-v08/map32/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-b-v08/map32/rear-chair-depth-corrections.png",
+      "bytes": 4983,
+      "sha256": "ca969f8cb82b8bb84729ae5006495eb4efc34a4ef9e78ef484c17e0d0d2ecdc3",
+      "gitBlobSha1": "75789eca19f44569b90b62f4de472e2d99a9d05b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/building-reveal.js",
+      "bytes": 3603,
+      "sha256": "a8f2f0a1258cbb2a36e219c4039c8968b35c4308ffa1354ad7af498ca413b263",
+      "gitBlobSha1": "cd0ff1da14f300f27cd77c248d32d77aac844c77",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+      "gitBlobSha1": "51693a39ae4a8539f8b40385eb47e99ae6bf99c0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/garden-accent.png",
+      "bytes": 5163,
+      "sha256": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646",
+      "gitBlobSha1": "ac74764773e5730feb5f094f51a521e479e1c256",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/grand-auditorium.tmj",
+      "bytes": 1103112,
+      "sha256": "64dd70cdef1b7edd28f44398b847249b745b9de44dbb57259f00caf4dde7e14b",
+      "gitBlobSha1": "5e85cd41645da1b9358c19ee67a84739cd8219f3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/grand-auditorium.wam",
+      "bytes": 3486,
+      "sha256": "d5fcbe0894c4fc6b6e03ecb89b0d5edd9536d42abddfeed9fd6bc89d0599bec7",
+      "gitBlobSha1": "1fcef7909d845b6632f0274e28c2d89c4339a4a2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/interior-above-p0.png",
+      "bytes": 18474,
+      "sha256": "7f665ab1b7bdec5f8ae8f02d0225709dd5eaa2c675ffdc1e99ca74b2a68948e3",
+      "gitBlobSha1": "d89491b591350876d3918a97e03f4ff27346f46e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/interior-base-p0.png",
+      "bytes": 2367694,
+      "sha256": "cefb3228c7b327007f08429548389d9415c0477cf02297af390c9f497399e8db",
+      "gitBlobSha1": "6ce4a162dbaba47e80dc02cf551e95aaf9f2932f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/interior-base-p1.png",
+      "bytes": 2020238,
+      "sha256": "d00d2efe7c17006b16c1d80d61bbef3a745b828e735e44d8bce98c71711c26dd",
+      "gitBlobSha1": "b64367fd87726f1a9441c6123e0003ca184c0db6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/interior-base-p2.png",
+      "bytes": 2035981,
+      "sha256": "5f14252a7b66fd2db93707196f1e77a2b5b6327222029b10e5b40c2946ce1998",
+      "gitBlobSha1": "f514542101d27ccb8aa34129432046710a15cb32",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/interior-base-p3.png",
+      "bytes": 1879050,
+      "sha256": "bddae5c6686fb55a2fc14b3f1d1d83a166c03b4c0a96f9731236a5e1930aa627",
+      "gitBlobSha1": "8335ee826d0bb3cc86830ada7ee71eb050567d65",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/interior-base-p4.png",
+      "bytes": 2140995,
+      "sha256": "aabe34fe2051eabf1a6a2443630faa565c259a89c9b430d49a1aee0dcf260561",
+      "gitBlobSha1": "09a6292c0cc48d0075e102944708dc00c48fa9e6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/interior-base-p5.png",
+      "bytes": 383188,
+      "sha256": "6c665d753acf3da9a35d31834817a0e2f01e423ad8a47fd0a07fb25d1c868828",
+      "gitBlobSha1": "44f53f35aab1b74b5322600d707436a1dbecc325",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/rear-chair-depth-corrections.png",
+      "bytes": 4983,
+      "sha256": "ca969f8cb82b8bb84729ae5006495eb4efc34a4ef9e78ef484c17e0d0d2ecdc3",
+      "gitBlobSha1": "75789eca19f44569b90b62f4de472e2d99a9d05b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/v09-foyer-front-art-p0.png",
+      "bytes": 336114,
+      "sha256": "3f32d3fbd1e9cd677aa625eef7955e3548c119dab6d3b75d847a565b2ec35c1e",
+      "gitBlobSha1": "9a8471a07a83de90e33a6ee9d0bde7f192723eaf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/v09-foyer-roof-art-p0.png",
+      "bytes": 1559888,
+      "sha256": "e296a59be1afd989f295c0b7961e4f164b297ab6d000454e2d5548008c8a7eb2",
+      "gitBlobSha1": "697131379ccabc29b6aaaf6a10cb70360e9c80d0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/v09-foyer-shadow-art-p0.png",
+      "bytes": 7604,
+      "sha256": "6808adbdb6492437238ec3e3e30698da5c0ff4851f9b9e0e78c0f2807fb140ac",
+      "gitBlobSha1": "7c2a860953b71bc3ca4d9d41fc87714003ae3d8f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/v09-foyer-wings-art-p0.png",
+      "bytes": 85813,
+      "sha256": "db4e4d6ff5e96394c027c3b213ca06da3faead64295765ebb02daaa70673a59d",
+      "gitBlobSha1": "748478579a4b02b7835f3545f0ad88a9f72abfe0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/v09-hall-shadow-art-p0.png",
+      "bytes": 5071,
+      "sha256": "74e1d700555187dbfb29469c6f277439ace4d9ec3eaa8697677849d16b49620d",
+      "gitBlobSha1": "3be0e6f89f138d8e1ad1a10f49d93323b3485b86",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/v09-hall-shell-art-p0.png",
+      "bytes": 1819785,
+      "sha256": "74667b9314331284410210093a8b7d9b1b4ed27f67bb00454d9066cb84cd4a8d",
+      "gitBlobSha1": "b909deb7b3b90e6c25f2bd3b401453f7d40d4a8e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/astral-flagship-c-v09/map32/v09-hall-shell-art-p1.png",
+      "bytes": 591232,
+      "sha256": "b5cf50130381df4134c813c10906568790641f0d0c9c58a4b0667221fdf77119",
+      "gitBlobSha1": "836adbb2f1e401c9880179508683c3aec9c3211d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/esports-arena-01-runtime/esports-arena-01/map32/collision-cell.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.tmj",
+      "bytes": 175497,
+      "sha256": "136587a8d2fc3666dede5c7eb5f032f7577989ea57ab972d2bb9eebfbbf24923",
+      "gitBlobSha1": "f3fbd57196e832c0712adf697f66a2aefe039a34",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/esports-arena-01-runtime/esports-arena-01/map32/esports-arena.wam",
+      "bytes": 2226,
+      "sha256": "6355c478fb3ed26a5b2d7aa7991da000a6b834f896c02896f2b378226e3cc904",
+      "gitBlobSha1": "d6bf55ba36fd31d249138c26331ea99b864127ad",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/esports-arena-01-runtime/esports-arena-01/map32/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/esports-arena-01-runtime/esports-arena-01/map32/rear-chair-depth-corrections.png",
+      "bytes": 8090,
+      "sha256": "cac76d4c4e65970a4c99758cf19c42973db3722bd58ae1e1b1e61cb7507787f2",
+      "gitBlobSha1": "7d1b29f661eede4dfed37a890c79c671e394d171",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/esports-arena-01-runtime/esports-arena-01/map32/runtime-above-p0.png",
+      "bytes": 163571,
+      "sha256": "8d6f3e2d88fb7aab3c8b9a6eee33280f07c15d9a5d707efbd22fc96311079ad2",
+      "gitBlobSha1": "c88922d40a37f0acf04212d1263367588a06e457",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/esports-arena-01-runtime/esports-arena-01/map32/runtime-base-p0.png",
+      "bytes": 917021,
+      "sha256": "e6f9c92a3546e623bafb38a1907266461eef99d2912426fc1006a37f6edc7fcd",
+      "gitBlobSha1": "20f3a218b2e2af7a889faa58134e7838135daf29",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/building-reveal.js",
+      "bytes": 3603,
+      "sha256": "a8f2f0a1258cbb2a36e219c4039c8968b35c4308ffa1354ad7af498ca413b263",
+      "gitBlobSha1": "cd0ff1da14f300f27cd77c248d32d77aac844c77",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/collision-cell.png",
+      "bytes": 111,
+      "sha256": "7e285a1bf660a131415e1e37f30fb2507f34471ec24ce0832b52d6704a0d2092",
+      "gitBlobSha1": "51693a39ae4a8539f8b40385eb47e99ae6bf99c0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/garden-accent.png",
+      "bytes": 5163,
+      "sha256": "9cc1642d9d5c16883bb3352c066bdb2fe2bb867c83f9102e12f7ba06f8788646",
+      "gitBlobSha1": "ac74764773e5730feb5f094f51a521e479e1c256",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/glass-pane-over-actors-p0.png",
+      "bytes": 340,
+      "sha256": "ca9e97292b23c808483f9b459d04a04997b9fb9b7a9c5deb53eced1da8099190",
+      "gitBlobSha1": "b34f792ed451f773d17fdf28b5991a3fda58f015",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/glass-permanent-p0.png",
+      "bytes": 46670,
+      "sha256": "04a6aff79428a6bed74ac2965019cb5701e859459f46b54a0bbe4f02d2d75191",
+      "gitBlobSha1": "59076d0e8bd976aa604b3f7be77cec52ca26780f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/grand-auditorium.tmj",
+      "bytes": 1244548,
+      "sha256": "fde51d3348f85a64021db0fbb202ffbcfc1c2cada4f65428549d002c1bab49d3",
+      "gitBlobSha1": "15db1939402730c038c01eae17d895e25f2883ca",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/grand-auditorium.wam",
+      "bytes": 3486,
+      "sha256": "d5fcbe0894c4fc6b6e03ecb89b0d5edd9536d42abddfeed9fd6bc89d0599bec7",
+      "gitBlobSha1": "1fcef7909d845b6632f0274e28c2d89c4339a4a2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/interior-above-p0.png",
+      "bytes": 18328,
+      "sha256": "3dbb1eeacf41a535a0bc4843e9cfffee424ddb64ed4ef1239a33601986d3df3d",
+      "gitBlobSha1": "a1cd095838aff8b4914638dd0419b3fcb79a7a9b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/interior-base-p0.png",
+      "bytes": 2367694,
+      "sha256": "cefb3228c7b327007f08429548389d9415c0477cf02297af390c9f497399e8db",
+      "gitBlobSha1": "6ce4a162dbaba47e80dc02cf551e95aaf9f2932f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/interior-base-p1.png",
+      "bytes": 1986656,
+      "sha256": "221e46659b0709e6f53fe7cc45a03b6092e2d233d52b854a867f7d6e2d9d19d1",
+      "gitBlobSha1": "8c99fe4eccd88cc91cbb4c3ccf0592315e4fc9e3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/interior-base-p2.png",
+      "bytes": 2008877,
+      "sha256": "aa71b75d67621fc0decf6c2063abaef6509cf491a835bcc576bab72eba4a9706",
+      "gitBlobSha1": "3822504e9c61f0a0e52b96c8d3d4fa86fd0a106a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/interior-base-p3.png",
+      "bytes": 1995430,
+      "sha256": "c941e3d4920891a423e8cbcb67eff34cf7ce4a4764a2155d09a5fc8e90b15b5e",
+      "gitBlobSha1": "b42938148a454a45c284f3423557d34ad0ca6d52",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/interior-base-p4.png",
+      "bytes": 1869356,
+      "sha256": "eeddc50bee86b6956a286a656ab6b8b0bdd79244314a924b6ba0d52078235b28",
+      "gitBlobSha1": "e649c8903ea4a165a376a8b52b6f9c5b92d53c22",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/interior-base-p5.png",
+      "bytes": 2545451,
+      "sha256": "cd3eeccb076ef0d01bfc98358fff3139f89951a7a5d0e60e0af8908f2e648dc1",
+      "gitBlobSha1": "e6dcda0ec29003562cb7e75e3f273efc36195088",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/interior-base-p6.png",
+      "bytes": 27303,
+      "sha256": "cbe4fcb5a362f47820d4ea2b1d11e1d5748d7ef4e8b063b21f99ad5c85473847",
+      "gitBlobSha1": "d5adeb51d7a151a5115f3512e45e92dbbdd0fa75",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/quiet-marker.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/rear-chair-depth-corrections.png",
+      "bytes": 4807,
+      "sha256": "780042269517765b9a6ee8f314ee7930240d18e379f3ce6288c3b52c974536eb",
+      "gitBlobSha1": "62f3af5ee8ad7e657df58607806920186359cebc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/v09-foyer-front-art-p0.png",
+      "bytes": 266291,
+      "sha256": "6532e3c45a4e98a4cf181f925f1240921968c038f104385c3d89504d137066ab",
+      "gitBlobSha1": "2d20de492f785fce61c8cf0e13c271690c7639ec",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/v09-foyer-shadow-art-p0.png",
+      "bytes": 3187,
+      "sha256": "0d599c0aa62fd9f1bde5ec0a4784377577c4b2c72b3accee598175b2c3ed60b9",
+      "gitBlobSha1": "4caf26d33ccd8305d3dc652e96840f373d741878",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/flagship-glass-d-r02/v09-foyer-wings-art-p0.png",
+      "bytes": 40001,
+      "sha256": "db9e8f785c773c35bf986420cc53944e7c5ef31bf574260456560ee084f7920e",
+      "gitBlobSha1": "f2978d928c13b882bbfccfd88bd9f274a0817ca5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/lantern-congress-runtime/map32/architecture-furniture-0.png",
+      "bytes": 1321484,
+      "sha256": "98d917a0b7ab59d35bbb0d84552e018b0df0824ed3767c4d29c3a4910c86e51a",
+      "gitBlobSha1": "c058b1e5769cc6a9d17828d69cc7e7487a89b6fc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/lantern-congress-runtime/map32/architecture-furniture-1.png",
+      "bytes": 1202101,
+      "sha256": "ebe43a43cb3c5e0d54ed5d979414dce084e60bdbb766d6b48ed0112232237f6c",
+      "gitBlobSha1": "e86d7fe9cecb9088a946658b923f972d397365db",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/lantern-congress-runtime/map32/architecture-furniture-2.png",
+      "bytes": 1180566,
+      "sha256": "101d362b8e52ca3c2e36fc95db8a715d9ad33358e4a04c1d8f398a7316b003b5",
+      "gitBlobSha1": "74f419f8b97780aa1e9b9ce4a2e90741f3d7db1a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/lantern-congress-runtime/map32/architecture-furniture-3.png",
+      "bytes": 619685,
+      "sha256": "9e939ed73b6f62cf36e80b0f5183d63e2db56f7a1936267f3ed0433551b67db6",
+      "gitBlobSha1": "1a61dc41a6980f2361b836fc3ed928eee064ea15",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/lantern-congress-runtime/map32/collision.png",
+      "bytes": 104,
+      "sha256": "ce75997479da8e0c9f1239e8e04ff1e4758a1af985d2540f78585ed848132cde",
+      "gitBlobSha1": "8a9e961d6b80743fc015a0fa958ca72542c75538",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/lantern-congress-runtime/map32/conference.tmj",
+      "bytes": 363955,
+      "sha256": "701d56898f6828ecf25170c93be77ff3f7fe79743487137f97e6d327e2ec1295",
+      "gitBlobSha1": "5855a87213ad913f8741d8a15de5f7fc543091f5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/lantern-congress-runtime/map32/conference.wam",
+      "bytes": 3466,
+      "sha256": "cdbab04682978c8aa6979daddeb5545504dea93db3c4327ebb0081638d7958bb",
+      "gitBlobSha1": "f315d98825be9fdfe398148625d58d71c012116c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/lantern-congress-runtime/map32/quiet.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/lantern-congress-runtime/map32/rear-chair-depth-corrections.png",
+      "bytes": 24288,
+      "sha256": "6d306cf3332dcca9bac64181de657458b067f3f83fb9bbd1370cb8779f209174",
+      "gitBlobSha1": "b3e60e65635cc6f5369ee179162422b8b348560b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/lantern-congress-runtime/map32/seat-backs-0.png",
+      "bytes": 2847,
+      "sha256": "f06d02ac6dc3279d8bd83cf5a7771a96926a89ba4622fc0c056511ef93a75307",
+      "gitBlobSha1": "9632104fff70fe0f70644ca6d6f99b22e01e52cc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/architecture-and-furniture-0.png",
+      "bytes": 2063958,
+      "sha256": "ee217238f13f1af40f097dc03f9f3f3f568df9c8c3ddedcd284e814e05422071",
+      "gitBlobSha1": "5c7c7b0260c67bc5ff98023e0adac9490e20969c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/architecture-and-furniture-1.png",
+      "bytes": 1118268,
+      "sha256": "a1f99cc41d74cd51c03f7c5371ccff93aeda52df6c77180bd075ee4e7b427b5c",
+      "gitBlobSha1": "10d6296478e9c1e64527220e76578b63f026ab18",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj",
+      "bytes": 134382,
+      "sha256": "79785de9a72c6b6114c79991163b415bacacea8596151cd114dfc07c4607b4e6",
+      "gitBlobSha1": "2f758f572239c4eafc753d9b76d26f91ba1829f3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.wam",
+      "bytes": 2182,
+      "sha256": "692da4bc9933d3cca75d7e9c38494005290cf89d9b1f2fb22734a6469b2ce749",
+      "gitBlobSha1": "d3dd10840b1c3f0836fedb1564ecac2903c303c4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/north-context.png",
+      "bytes": 744154,
+      "sha256": "a1d731ad99964859c16409f8bba3cb9ab193ce05412f148bfe16930f9f5c8570",
+      "gitBlobSha1": "ffb84fa37f97bb26a00d7fc882cdcc30d5a22dcf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/rear-chair-depth-corrections.png",
+      "bytes": 533,
+      "sha256": "421320409589d19ae340bb5c3a98e6960188711d4f424600d78984c09d192006",
+      "gitBlobSha1": "20d478e95a486690e1d9c1f290aa73fae90b4d86",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/seat-backs-0.png",
+      "bytes": 101205,
+      "sha256": "26a2ecb726c552c06c312de8ed7a1abb3ab1e647156ddf735316af1ed250abaa",
+      "gitBlobSha1": "301634d0b22646683e0aeb90f77a5ea4054a911c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/quiet-orbit-observatory-r4-runtime/map32/architecture-and-furniture-0.png",
+      "bytes": 1995250,
+      "sha256": "f8d1a3cf3b7630d62cd8ee359edd17899e2ffc843440fa15d8b26759f48939b3",
+      "gitBlobSha1": "cacac6a952ed9f96eda9725c6164dd39a5409679",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/quiet-orbit-observatory-r4-runtime/map32/architecture-and-furniture-1.png",
+      "bytes": 1972454,
+      "sha256": "7d4dc6c6194570efac02b7792ef43869df695cd41d3d531f11220869b74d634c",
+      "gitBlobSha1": "b41b28be579ed7e2e5cf67272b41bbca9c84cfb5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/quiet-orbit-observatory-r4-runtime/map32/architecture-and-furniture-2.png",
+      "bytes": 143349,
+      "sha256": "227d39f45f8ee1e9f0710ea56aeba5b65d39bb2069981209eb3a979fdc699bd6",
+      "gitBlobSha1": "34d027695904bb10b9f3a9528476bfdbe3cfe147",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/quiet-orbit-observatory-r4-runtime/map32/logic.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/quiet-orbit-observatory-r4-runtime/map32/map.tmj",
+      "bytes": 132207,
+      "sha256": "511fdca2f78c7f91d0e97a10d01bfabb86651b20b01263f658b33ff29f26944e",
+      "gitBlobSha1": "1f8888f2a069c021141dd3f94e975f554a7df961",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/quiet-orbit-observatory-r4-runtime/map32/map.wam",
+      "bytes": 929,
+      "sha256": "fb704aa1e374899c640f33b89a6c78be33566559c59301a56523b9331b6d9c20",
+      "gitBlobSha1": "fb7134f9f781008497ba3a75625d216663f10e9d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/quiet-orbit-observatory-r4-runtime/map32/rear-chair-depth-corrections.png",
+      "bytes": 3166,
+      "sha256": "87ce454d3b7a69d11fd7cf46c59d5e9a88668a8128c1a97db9b38c763543e5f6",
+      "gitBlobSha1": "9ab24dad6aa69ba72a4b98fd543df51f7d1b70c6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/quiet-orbit-observatory-r4-runtime/map32/seat-backs-0.png",
+      "bytes": 52251,
+      "sha256": "0d3c8245fb7628c7057651c936930f6453d05f08f8492686cae2c44cb40e4925",
+      "gitBlobSha1": "2f3b1a1abf181625ff8ef19a2bb634f1613d6303",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/resonance-media-house-r7c-runtime/foreground-0.png",
+      "bytes": 1196,
+      "sha256": "35fea5eaceccaed9adfc401503875b620abb59b79eef9da83e707ebb3a56e163",
+      "gitBlobSha1": "9eb1d009ae4e505c80dbc017dfe7a7d9bcb88a37",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/resonance-media-house-r7c-runtime/ground-and-objects-0.png",
+      "bytes": 1844066,
+      "sha256": "1447b84d2650ae5096779e117979b7f215fb113fa00b19d58a723bdc803624ee",
+      "gitBlobSha1": "379ff0425f94149cab9c87cf16b04044dbdaf1e3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/resonance-media-house-r7c-runtime/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/resonance-media-house-r7c-runtime/rear-chair-depth-corrections.png",
+      "bytes": 1856,
+      "sha256": "9bc806f11933721a0551387eb7ced1c0c868d7c6fef96e80369b204368b9a90b",
+      "gitBlobSha1": "2767090c00eb74347ea703bf6b60833095302dc6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/resonance-media-house-r7c-runtime/resonance-media-house.tmj",
+      "bytes": 59632,
+      "sha256": "0496985cfc841b591814807d8a00d06705308b3bfb6b985de913b943269b0749",
+      "gitBlobSha1": "efd9e1ebd99ff3e72c6ad0934e031c8d429da859",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/resonance-media-house-r7c-runtime/resonance-media-house.wam",
+      "bytes": 1207,
+      "sha256": "61b1c799212a08d024c8cf03d46d76dc74c91a20acd8783098b749f065e47eb5",
+      "gitBlobSha1": "6b48b16ba5593bd83dc205e8255def034fb89a72",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/willow-furniture-r5-r05-runtime/map32/foreground-0.png",
+      "bytes": 12710,
+      "sha256": "86e67d89be763a0a6b30404d2b3c367f875c5458904d7b55055633fa19dd8f50",
+      "gitBlobSha1": "77202c53484d06399725bb098e18219df7f534ae",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/willow-furniture-r5-r05-runtime/map32/ground-and-objects-0.png",
+      "bytes": 2488099,
+      "sha256": "de51eea8b7cea25d0d331fc7499b928ccd9f51740c1bbee225db761e6c233eac",
+      "gitBlobSha1": "fff65eba103abd9493915894a57d7d04c26fc5ed",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/willow-furniture-r5-r05-runtime/map32/ground-and-objects-1.png",
+      "bytes": 1872702,
+      "sha256": "c64aecb40706864c2eaec0db180e494f345f77c3978bc8e790ce8f2fe6cb0f92",
+      "gitBlobSha1": "b56b2d5949bc8442ee0a68ad1fa838a54cadec5e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/willow-furniture-r5-r05-runtime/map32/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "gitBlobSha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/willow-furniture-r5-r05-runtime/map32/scoped-chair-transfer.png",
+      "bytes": 10213,
+      "sha256": "a9287c1725a9363edae737a2a7467e65696f09aa6ed6fa3f61e7b2a483117958",
+      "gitBlobSha1": "7c2b2696cfcedd0f107308827e51a7bc2fbfd338",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/willow-furniture-r5-r05-runtime/map32/scoped-foreground.png",
+      "bytes": 3084,
+      "sha256": "db46abc39831eb337673c81ba1534a914d4be60f030dfa3e6f702db62afe237c",
+      "gitBlobSha1": "544c93cff747a146441e3c2c6b89bae93175f21a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.tmj",
+      "bytes": 113771,
+      "sha256": "fe6978f502b3f9360fcd786ab80f1a1554ddfbc4c569f616356ba7e10d0400a4",
+      "gitBlobSha1": "f3b3fa99ff71e963a6daf5139762e14a9329e0d7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "recovery/furniture-access-2026-10-13/reviewed-revision/runtime/willow-furniture-r5-r05-runtime/map32/willow-quay-tea-garden.wam",
+      "bytes": 1060,
+      "sha256": "537d5b182a20bd357be5d1f242f41a2355d039632670ca12295e2669d57225aa",
+      "gitBlobSha1": "29ae0dffd289597bcadbdb6eacca76c7ea269393",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "preservation": {
+    "original_collection_files_verified_unchanged": 596,
+    "protected_and_excluded_map_ids": [
+      "N39-r3-runtime",
+      "N40-r3-runtime",
+      "N41-r3-runtime",
+      "N48-r1-runtime"
+    ],
+    "existing_original_paths_and_urls_unchanged": true,
+    "mode": "Additive checkpoint only; no overwrites of original archive paths."
+  },
+  "subsequent_checkpoint_scope": "Expand to all 433 complete sealed-snapshot paths, including proof/QA records and historical seals, plus the bounded source/fixture supplement. Sanitized metadata copies require their published hash/redaction ledger. These are not claimed present or remotely verified by this 317-file checkpoint.",
+  "limits": [
+    "No live Phaser or authenticated WorkAdventure PASS; source replay and static/native-avatar proofs only.",
+    "No deployment, publication, release publishing, merge or sitting/interactive-seat feature is part of this checkpoint.",
+    "Butterfly remains a partial two-cafe-cell revision; three larger-loss openings remain blocked.",
+    "Later Mission Control and Tea floor candidates are separate and excluded from these exact 28-map checkpoint bytes and counts.",
+    "Complete portable source reconstruction is not claimed.",
+    "The two checkpoint descriptor files are not included in the 317 payload-file count or payload-byte total."
+  ]
+}

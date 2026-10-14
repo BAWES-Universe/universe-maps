@@ -1,0 +1,441 @@
+{
+  "schema_version": 1,
+  "revision": "2026-10-13-butterfly-cafe-access-r1",
+  "scope": "One partial Butterfly cafe revision; exact two cells, larger-loss three cells excluded; all original and prior frozen bundles preserved",
+  "maps": [
+    {
+      "id": "butterfly-town-v2",
+      "tmj": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "removed_collision_cells": 2,
+      "empty_scene_rgba_byte_exact": true,
+      "original_non_tmj_assets_byte_exact": false,
+      "intentionally_repartitioned_candidate_assets": [
+        "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-canopies.png",
+        "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-feet.png"
+      ],
+      "all_other_original_assets_byte_exact": true,
+      "original_map_metadata_and_objects_preserved": true
+    }
+  ],
+  "files": [
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj",
+      "bytes": 1658852,
+      "sha256": "1558c9d9e686b17442f7bfb6c7df870119ea70877371117635e898318051b9e1",
+      "git_blob_sha": "30d1797ac5155400ad01225b24931c75a71b4f88",
+      "status": "modified",
+      "original_sha256": "dff32360181d8e4c465756ab5e2f9577faad17083e2bfde19084eac8af749831"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio-runtime.mjs",
+      "bytes": 3482,
+      "sha256": "99e41235b4498fb3c889207bf09396b246b8028ff428d65a849eb77da1be274f",
+      "git_blob_sha": "99b0c035680e24b57702d1a22a4fc842ce11bdeb",
+      "status": "unchanged-original",
+      "original_sha256": "99e41235b4498fb3c889207bf09396b246b8028ff428d65a849eb77da1be274f"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town-audio.mjs",
+      "bytes": 7800,
+      "sha256": "4d2f950cefd9747470423223153709966b2eb0b3928b49f8590c96c719b0d94e",
+      "git_blob_sha": "bee3ca8c5a0298d59f0e014194197d8542bc3453",
+      "status": "unchanged-original",
+      "original_sha256": "4d2f950cefd9747470423223153709966b2eb0b3928b49f8590c96c719b0d94e"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town.js",
+      "bytes": 6931,
+      "sha256": "fc8b49cc24a61b36ab54977ceb3ac1aa7d8d952c56495f518b027f1dbfcc7b62",
+      "git_blob_sha": "ece05fec2df8472017db5873ccea84b98dac3f45",
+      "status": "unchanged-original",
+      "original_sha256": "fc8b49cc24a61b36ab54977ceb3ac1aa7d8d952c56495f518b027f1dbfcc7b62"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-ground.png",
+      "bytes": 3166649,
+      "sha256": "67c0158fd54a2f022b058f4d2a5d1bc31979ad640224dc6de3585b7bb2d1b34b",
+      "git_blob_sha": "4169a1c9ac29dabc9888be98d7cac9448b135f83",
+      "status": "unchanged-original",
+      "original_sha256": "67c0158fd54a2f022b058f4d2a5d1bc31979ad640224dc6de3585b7bb2d1b34b"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-architecture-alpha.png",
+      "bytes": 52135,
+      "sha256": "cd794911a265a699a80f2a27e0f8a2fe0f2e5de9b1c3c042f056c67c4c27a218",
+      "git_blob_sha": "48791876c26c72de7fedbcf2f224a419465e5777",
+      "status": "unchanged-original",
+      "original_sha256": "cd794911a265a699a80f2a27e0f8a2fe0f2e5de9b1c3c042f056c67c4c27a218"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-steady.png",
+      "bytes": 60293,
+      "sha256": "f15f04fc70e2b805b202650cd68108a144224c8da583711927abe77ad2b7ed71",
+      "git_blob_sha": "6749427d466ff47cdc68f919516d24f4eb98ccce",
+      "status": "unchanged-original",
+      "original_sha256": "f15f04fc70e2b805b202650cd68108a144224c8da583711927abe77ad2b7ed71"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-door-foreground.png",
+      "bytes": 4759,
+      "sha256": "8f892d00788075ce449f212c26fe6bda25b7d009da4cd6a18ae9b2a7ae5a1dc4",
+      "git_blob_sha": "849857a4a169ed520dd904c7474534ee0fb0aa4f",
+      "status": "unchanged-original",
+      "original_sha256": "8f892d00788075ce449f212c26fe6bda25b7d009da4cd6a18ae9b2a7ae5a1dc4"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-scenery-canopies.png",
+      "bytes": 2543851,
+      "sha256": "14cce8b6701b6fb8d6c1861cf516287727952aca96142cdca07cb9af4aee0490",
+      "git_blob_sha": "aab1b1b4cf5d43ee3cdc8d3107b6b9ae9894dfe9",
+      "status": "unchanged-original",
+      "original_sha256": "14cce8b6701b6fb8d6c1861cf516287727952aca96142cdca07cb9af4aee0490"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-roof.png",
+      "bytes": 232210,
+      "sha256": "7c0859f2f0eb88b49f3771d041b5cc1c0bd61bc388d3765695634c5fdd49b9d6",
+      "git_blob_sha": "12883880072de05d87c5f88fb5ade57504fab0ee",
+      "status": "unchanged-original",
+      "original_sha256": "7c0859f2f0eb88b49f3771d041b5cc1c0bd61bc388d3765695634c5fdd49b9d6"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-edge-fog.png",
+      "bytes": 22115,
+      "sha256": "721edc50b6b45791fdccb6097885c5ca6f26f563ef508e63b1632d5fd18868b2",
+      "git_blob_sha": "d531b108bf99ba05238f07c5938d94fa2292784d",
+      "status": "unchanged-original",
+      "original_sha256": "721edc50b6b45791fdccb6097885c5ca6f26f563ef508e63b1632d5fd18868b2"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-ground.png",
+      "bytes": 7982752,
+      "sha256": "a063aec091da2a794e593153d9c72729a72e3eb7d912e3427dd939e7d54d4cfc",
+      "git_blob_sha": "b6dbbc52472b97261c851e0943a27cb3e5bc9843",
+      "status": "unchanged-original",
+      "original_sha256": "a063aec091da2a794e593153d9c72729a72e3eb7d912e3427dd939e7d54d4cfc"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-furniture-canopies.png",
+      "bytes": 11287,
+      "sha256": "ef6c18bb843d2e2961e796843cb748f83cb9839f820b8d1ca95fedc08eaff056",
+      "git_blob_sha": "a79fc321a0a4e69ed6f2f92627afd6bbcd72fa14",
+      "status": "unchanged-original",
+      "original_sha256": "ef6c18bb843d2e2961e796843cb748f83cb9839f820b8d1ca95fedc08eaff056"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-roof.png",
+      "bytes": 277664,
+      "sha256": "b18b27f7e01b497eedd268b81b2a41398791adb1c4cf1ae6a241dba2acae1022",
+      "git_blob_sha": "209db6363b5191186d839fa52a3d9941e0fe36d8",
+      "status": "unchanged-original",
+      "original_sha256": "b18b27f7e01b497eedd268b81b2a41398791adb1c4cf1ae6a241dba2acae1022"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-water.png",
+      "bytes": 2509,
+      "sha256": "b52a293a653fe5aa74f789b95077f15a31aa12beb273252a503f9ce9b9fac17b",
+      "git_blob_sha": "7575c382f25d03219b2bda75455b8f7e9c51e557",
+      "status": "unchanged-original",
+      "original_sha256": "b52a293a653fe5aa74f789b95077f15a31aa12beb273252a503f9ce9b9fac17b"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-water.png",
+      "bytes": 5786,
+      "sha256": "40d2dab3b05aaa0823935e6ac432d0008f2052bec75c1bbe4995e69d7bf518a0",
+      "git_blob_sha": "8b11ea97dc33a1b1e2b90ec6dc54dfc6de8759a2",
+      "status": "unchanged-original",
+      "original_sha256": "40d2dab3b05aaa0823935e6ac432d0008f2052bec75c1bbe4995e69d7bf518a0"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-roof.png",
+      "bytes": 151153,
+      "sha256": "5ac9d7071c8066e1c8f73b658635e2975ce6311ba1ea427eb9f361b9eaddc96c",
+      "git_blob_sha": "28debbc2a6dd3f9eb7b72519609e16b9ecaf2413",
+      "status": "unchanged-original",
+      "original_sha256": "5ac9d7071c8066e1c8f73b658635e2975ce6311ba1ea427eb9f361b9eaddc96c"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-details.png",
+      "bytes": 13711,
+      "sha256": "fe8a612e99a7649b630d1ee9f2d12bc4405e698b48aa59b43715a1af9cd48a54",
+      "git_blob_sha": "7a7a400372b7ece9b710839973a0956f7d533107",
+      "status": "unchanged-original",
+      "original_sha256": "fe8a612e99a7649b630d1ee9f2d12bc4405e698b48aa59b43715a1af9cd48a54"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-architecture-alpha.png",
+      "bytes": 65414,
+      "sha256": "789dbd47b761411bfca0b0f7442848232fa4ff07b8a60e737effbcba9e63fe83",
+      "git_blob_sha": "4365207f77bb9cc43280ddf586d239339f0899a7",
+      "status": "unchanged-original",
+      "original_sha256": "789dbd47b761411bfca0b0f7442848232fa4ff07b8a60e737effbcba9e63fe83"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-focus.png",
+      "bytes": 8782,
+      "sha256": "0794af9be0172207fadb0c47af2f7ad7093b35142cb92351ad752c46b10b9532",
+      "git_blob_sha": "6c6a1281c3f23f3cc890eadcd55a41d5dc5a49ce",
+      "status": "unchanged-original",
+      "original_sha256": "0794af9be0172207fadb0c47af2f7ad7093b35142cb92351ad752c46b10b9532"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-pulse.png",
+      "bytes": 176478,
+      "sha256": "3e7ea6a110745afa192f612bbb2ecaac30e0d84e17eb372b25b92571f41933f5",
+      "git_blob_sha": "11f24643f8054fb1c21b51a757374868b73a0292",
+      "status": "unchanged-original",
+      "original_sha256": "3e7ea6a110745afa192f612bbb2ecaac30e0d84e17eb372b25b92571f41933f5"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-olive-shadow.png",
+      "bytes": 1122,
+      "sha256": "8499f3119dda5eaec86d0eea12d38106c30d3073c6d50538d746584607f448b8",
+      "git_blob_sha": "dc475e1fe45e9b6b3c9ca066ec9c0d0d633925f7",
+      "status": "unchanged-original",
+      "original_sha256": "8499f3119dda5eaec86d0eea12d38106c30d3073c6d50538d746584607f448b8"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-furniture-canopies.png",
+      "bytes": 33615,
+      "sha256": "89e763bfc87f65266762b04808b9c27be1c5d8b660ddffcc2ea09b3a768d900e",
+      "git_blob_sha": "4b2b8c1c04e76a2b09403903ac6d8d09367109f8",
+      "status": "unchanged-original",
+      "original_sha256": "89e763bfc87f65266762b04808b9c27be1c5d8b660ddffcc2ea09b3a768d900e"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-canopies.png",
+      "bytes": 6886,
+      "sha256": "71a5f2bdbf3b1f56f09a9c355f57174122c4d683200a12cd18584fe12dfdc274",
+      "git_blob_sha": "9a1ffe41e9242a88f74e68f18c564aba8592fd9c",
+      "status": "modified",
+      "original_sha256": "31ecc67f6240db1bb4e2988659372d5731b8fab2c21cc3b0a8f998bd004c7490"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-scenery-canopies.png",
+      "bytes": 232658,
+      "sha256": "80988a9f374e95e65f3f4548f95af928931e224d7d85c4bc878b2191558f0cfb",
+      "git_blob_sha": "50d79c4802746deaec0fb9f20b2e62a80d4cedc1",
+      "status": "unchanged-original",
+      "original_sha256": "80988a9f374e95e65f3f4548f95af928931e224d7d85c4bc878b2191558f0cfb"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-olive.png",
+      "bytes": 8431,
+      "sha256": "76aa18725bdc33d5cba6d6df88690b741c633e97753079e2126b85e3aebefce0",
+      "git_blob_sha": "e16d92b075a0e5e8b62295f80ebddc07c1048560",
+      "status": "unchanged-original",
+      "original_sha256": "76aa18725bdc33d5cba6d6df88690b741c633e97753079e2126b85e3aebefce0"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-butterflies.png",
+      "bytes": 36966,
+      "sha256": "ccf85c6c32983c1467e1fb45c4fe544ac463310bd2074a958ef4619132ed9bc5",
+      "git_blob_sha": "5f53be6a4ad1e57451431da172345868b44a76d3",
+      "status": "unchanged-original",
+      "original_sha256": "ccf85c6c32983c1467e1fb45c4fe544ac463310bd2074a958ef4619132ed9bc5"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-scenery-feet.png",
+      "bytes": 184527,
+      "sha256": "0abaa5aa58be51698a7021c8062168fcc2effec189bb7fc4fb041365c6e745d6",
+      "git_blob_sha": "b42df2024a1f31155f7b166722ab5d2af9ee00ca",
+      "status": "unchanged-original",
+      "original_sha256": "0abaa5aa58be51698a7021c8062168fcc2effec189bb7fc4fb041365c6e745d6"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-focus.png",
+      "bytes": 8765,
+      "sha256": "84cccecd9104d4755054d78b55d4f78277339980e6318a5745b2a62762f31deb",
+      "git_blob_sha": "43d878db7cac5266c23a00f11a40a758d91d2278",
+      "status": "unchanged-original",
+      "original_sha256": "84cccecd9104d4755054d78b55d4f78277339980e6318a5745b2a62762f31deb"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-edge-fog.png",
+      "bytes": 31118,
+      "sha256": "aaa9e7d4bd404f30be415296e17bcfd27af37a8beae15e915772cc76966fa83d",
+      "git_blob_sha": "e692a262655adb054804dba127d1cec38b683b56",
+      "status": "unchanged-original",
+      "original_sha256": "aaa9e7d4bd404f30be415296e17bcfd27af37a8beae15e915772cc76966fa83d"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-focus.png",
+      "bytes": 8783,
+      "sha256": "3e363bf6496c7ef379a373ca414c8bd0b9c59b5485cc79e5c09a9893303e8838",
+      "git_blob_sha": "5071d089c6fa0edfc89641363922c537ac6154e2",
+      "status": "unchanged-original",
+      "original_sha256": "3e363bf6496c7ef379a373ca414c8bd0b9c59b5485cc79e5c09a9893303e8838"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-surroundings.png",
+      "bytes": 262080,
+      "sha256": "d1aa61b1bedb52cfc96036cacbe849d1845f792d89df2f74efbe85e0be564e0a",
+      "git_blob_sha": "e18dd15cd97b1b482e66f369b8b23c68a62da93f",
+      "status": "unchanged-original",
+      "original_sha256": "d1aa61b1bedb52cfc96036cacbe849d1845f792d89df2f74efbe85e0be564e0a"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-interior.png",
+      "bytes": 150916,
+      "sha256": "4809b29757d2f52c4077fb42e5a5583b2fdded3ce3e1ae29860d3b9367226009",
+      "git_blob_sha": "9a1d0b4df8d47dc946a4c77146f8fdf6a7338f9c",
+      "status": "unchanged-original",
+      "original_sha256": "4809b29757d2f52c4077fb42e5a5583b2fdded3ce3e1ae29860d3b9367226009"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-door-foreground.png",
+      "bytes": 3775,
+      "sha256": "0975550fd4953c4b6e8b2e83ed6d5ce6bcb2933f207a9fcc59b3e3d8f4ceab64",
+      "git_blob_sha": "a277d4a79e2c4b3ce23fefb6c36068c1749b58b8",
+      "status": "unchanged-original",
+      "original_sha256": "0975550fd4953c4b6e8b2e83ed6d5ce6bcb2933f207a9fcc59b3e3d8f4ceab64"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-furniture-feet.png",
+      "bytes": 38110,
+      "sha256": "93a034774346bd98b32c87f100aaffb9dfa584e8a8e422942c859ef788a956b5",
+      "git_blob_sha": "1bbd3ca71c52103fd2377c9f11e6d9021280f308",
+      "status": "unchanged-original",
+      "original_sha256": "93a034774346bd98b32c87f100aaffb9dfa584e8a8e422942c859ef788a956b5"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-cascades.png",
+      "bytes": 99629,
+      "sha256": "f031b9b501a9517c2a7ec5a0588c0426a1c120ecd4d274fb3188428b9c5d1648",
+      "git_blob_sha": "0d1c1b52f96b8943d9ea25f3e07e9982d8780400",
+      "status": "unchanged-original",
+      "original_sha256": "f031b9b501a9517c2a7ec5a0588c0426a1c120ecd4d274fb3188428b9c5d1648"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/studenthub-interior.png",
+      "bytes": 268649,
+      "sha256": "38d499a7c91a2258af3ea35ba934f530a55e628d4c0f667f0a09e47a0c8e18d0",
+      "git_blob_sha": "cd6584350fed2efd3348c96762ad91129f724c47",
+      "status": "unchanged-original",
+      "original_sha256": "38d499a7c91a2258af3ea35ba934f530a55e628d4c0f667f0a09e47a0c8e18d0"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-interior.png",
+      "bytes": 238425,
+      "sha256": "15eb718a693d48a3bc2e9ec27b0b1a4b9d5e8903cfde3765b49b2220c45d3576",
+      "git_blob_sha": "ee618282c5a83895d4f6c88ac6a655fde181b5cf",
+      "status": "unchanged-original",
+      "original_sha256": "15eb718a693d48a3bc2e9ec27b0b1a4b9d5e8903cfde3765b49b2220c45d3576"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-architecture-alpha.png",
+      "bytes": 65884,
+      "sha256": "23d07d74ffdb42d544136fcfc085da5d741d35070719038204badaf225742437",
+      "git_blob_sha": "5dee62b4eb96ffacdf57d56db8f45fc73e842b3c",
+      "status": "unchanged-original",
+      "original_sha256": "23d07d74ffdb42d544136fcfc085da5d741d35070719038204badaf225742437"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/town-pulse.png",
+      "bytes": 151411,
+      "sha256": "b66001e5c04e8808408bce48790e0c81f4a64f7b40eff8b8fbb63cf2cd2f0a7b",
+      "git_blob_sha": "a9efd7b7547099724b485d5b991b8d53ca870a20",
+      "status": "unchanged-original",
+      "original_sha256": "b66001e5c04e8808408bce48790e0c81f4a64f7b40eff8b8fbb63cf2cd2f0a7b"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-steady.png",
+      "bytes": 51819,
+      "sha256": "c914d4a5a9d020eb6dd80496223cf87ad772a9057014694a50d98468709e4334",
+      "git_blob_sha": "90d0465cdac814657fef0e036a353f309c18848f",
+      "status": "unchanged-original",
+      "original_sha256": "c914d4a5a9d020eb6dd80496223cf87ad772a9057014694a50d98468709e4334"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/midnight-terrain.png",
+      "bytes": 3898,
+      "sha256": "d6bd36368df434847ae09e6d94df30ad374750b10dd629df117b12e79bee73ea",
+      "git_blob_sha": "d4d7d5e88ef760e9cbf4c345223907bc8bce165d",
+      "status": "unchanged-original",
+      "original_sha256": "d6bd36368df434847ae09e6d94df30ad374750b10dd629df117b12e79bee73ea"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/gate-basin-mist.png",
+      "bytes": 59122,
+      "sha256": "499cfd7a90dbb73cd16afec6f57ef654de72712fcad687be1f31a97ed76ebc77",
+      "git_blob_sha": "b9726c32c40bbe277fb5de291f458fb597ef1444",
+      "status": "unchanged-original",
+      "original_sha256": "499cfd7a90dbb73cd16afec6f57ef654de72712fcad687be1f31a97ed76ebc77"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/markers.png",
+      "bytes": 87,
+      "sha256": "050ab82bd34987f71468d5851d3707e15c6c6de862d98384259834d92deefd57",
+      "git_blob_sha": "4203d43af4a6da5556e0d1305ecb90cb260c0434",
+      "status": "unchanged-original",
+      "original_sha256": "050ab82bd34987f71468d5851d3707e15c6c6de862d98384259834d92deefd57"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-furniture-feet.png",
+      "bytes": 8297,
+      "sha256": "45e6fa370e31782887bd8a29c286615d343b1ede6e09735f555c05a1280dc3d5",
+      "git_blob_sha": "decf71eeb7dcad9896009b6192951b997222718d",
+      "status": "unchanged-original",
+      "original_sha256": "45e6fa370e31782887bd8a29c286615d343b1ede6e09735f555c05a1280dc3d5"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/cafe-furniture-feet.png",
+      "bytes": 20770,
+      "sha256": "a60357db74a85baa084e7eaa2a016f3ba73fd983f0814aa61250bdf21c7304a9",
+      "git_blob_sha": "1325ff56ac06e15c6d96e29981ad4a93400c25fa",
+      "status": "modified",
+      "original_sha256": "b1507d1655e0e6eb20324efe20bf4a30aaadb80fb750712b0496390ddfc3f661"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/tilesets/archive-door-foreground.png",
+      "bytes": 2027,
+      "sha256": "bc078c5ab8c728f2dbebf82c447ca0115711b1fc6fe41bb2df29dd9490a445ae",
+      "git_blob_sha": "71b7e1602bf8935b6102880460d719c00ba86f30",
+      "status": "unchanged-original",
+      "original_sha256": "bc078c5ab8c728f2dbebf82c447ca0115711b1fc6fe41bb2df29dd9490a445ae"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/assets/audio/gate-crossing.mp3",
+      "bytes": 61100,
+      "sha256": "7757417f5a2a9a2029ea23c62f9b0ec36e3573cc6b4fd9468c53c37ee1017c19",
+      "git_blob_sha": "8b63048aa0ef3bbf534088723b5e37c885b7c619",
+      "status": "unchanged-original",
+      "original_sha256": "7757417f5a2a9a2029ea23c62f9b0ec36e3573cc6b4fd9468c53c37ee1017c19"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/assets/audio/fountain.mp3",
+      "bytes": 144908,
+      "sha256": "629e31d1ba5298364a04a7845c91769d6a0ff3eaa9b1805f85fb3a86cf8a267e",
+      "git_blob_sha": "9d6337c703109f421a6b633555abc37b69a7345f",
+      "status": "unchanged-original",
+      "original_sha256": "629e31d1ba5298364a04a7845c91769d6a0ff3eaa9b1805f85fb3a86cf8a267e"
+    },
+    {
+      "path": "butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/assets/audio/cascade-soft.mp3",
+      "bytes": 193004,
+      "sha256": "40a838261cd33bbb1d1f4ad8c271ca821ffc76c7923d8bf6a2cea4198a815ff8",
+      "git_blob_sha": "1fe134dc93b89abefa3a69bd5f4e7d1d431a41ee",
+      "status": "unchanged-original",
+      "original_sha256": "40a838261cd33bbb1d1f4ad8c271ca821ffc76c7923d8bf6a2cea4198a815ff8"
+    }
+  ],
+  "summary": {
+    "map_count": 1,
+    "file_count": 50,
+    "collision_cells_removed": 2,
+    "file_statuses": {
+      "modified": 3,
+      "unchanged-original": 47
+    },
+    "all_empty_scenes_byte_exact": true,
+    "original_dependency_edges_verified": 49,
+    "live_gameplay_verified": false,
+    "published": false
+  },
+  "limits": [
+    "17 formerly uncertain packages manually reviewed; remaining shared-support geometry is explicitly retained, not general gameplay acceptance.",
+    "Real overlapping table/wall/planter/rail boundaries remain; not every approach can be open.",
+    "Partial Butterfly map fix only. The three larger-loss StudentHub/isolated openings remain blocked; shared true supports remain unchanged. Cafe far-side lower-body coverage differs by at most3 edge pixels, with useful occlusion visually reviewed and retained.",
+    "Standing native avatars shown; no sitting animation or interactive seat behavior added."
+  ]
+}

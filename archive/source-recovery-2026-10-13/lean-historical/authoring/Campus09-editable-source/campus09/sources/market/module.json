@@ -1,0 +1,89 @@
+{
+  "id": "small-back-market",
+  "worldOrigin": [
+    512,
+    0
+  ],
+  "size": [
+    768,
+    320
+  ],
+  "nativeWoka": 32,
+  "walkablePolygons": [
+    [
+      [
+        0,
+        208
+      ],
+      [
+        80,
+        208
+      ],
+      [
+        80,
+        168
+      ],
+      [
+        704,
+        168
+      ],
+      [
+        704,
+        320
+      ],
+      [
+        0,
+        320
+      ]
+    ]
+  ],
+  "obstacles": [
+    {
+      "id": "left-planter",
+      "type": "circle",
+      "cx": 104,
+      "cy": 132,
+      "radius": 28
+    },
+    {
+      "id": "center-planter",
+      "type": "circle",
+      "cx": 390,
+      "cy": 137,
+      "radius": 28
+    },
+    {
+      "id": "right-planter",
+      "type": "circle",
+      "cx": 630,
+      "cy": 137,
+      "radius": 28
+    }
+  ],
+  "stalls": [
+    {
+      "id": "student-creations",
+      "customerAnchor": [
+        264,
+        192
+      ],
+      "interaction": "notconfigured"
+    },
+    {
+      "id": "media-crafts",
+      "customerAnchor": [
+        504,
+        192
+      ],
+      "interaction": "notconfigured"
+    }
+  ],
+  "entry": [
+    16,
+    256
+  ],
+  "notes": [
+    "Two modest native-scale stalls; small inventory display is illustrative, no live commercelinks.",
+    "Only sourcecomposition checked; integrated route/runtime pending."
+  ]
+}

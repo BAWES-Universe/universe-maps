@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N48-r1-runtime",
+  "destination": "old50/runtime/N48-r1",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N48-r1-runtime.zip",
+      "sha256": "48167cecfd3a826857d8711a1c7e62c302bbb275cfdf191f9132937ec52cb1fd",
+      "size_bytes": 3511223
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "acoustic-cave-hall.tmj",
+      "sha256": "73f18ebf500aef88826eb06f59c2b374ff3765af5993dce60ac7684ffb4fd579",
+      "size_bytes": 78076,
+      "git_blob_sha1": "236c879a7b98e8df93dafd93871e40db5daab5d3",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "acoustic-cave-hall.wam",
+      "sha256": "5fca22804655469395430262635aad7a8950464161816d618c6cbaf73d10a3a9",
+      "size_bytes": 1272,
+      "git_blob_sha1": "c16b5470f811f4d9c1cd568e658d41943b19e261",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "foreground-0.png",
+      "sha256": "487005783c6d341e10b5141a4077f8245e1a8de66606cecc7f76b429ea56ded9",
+      "size_bytes": 24069,
+      "git_blob_sha1": "0aa0088232c77da8e825396cd5aec7cb67e396a8",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "12f9b884dfc308dfd5bf49be70cc00a5a99f54501df19eba41be514bb3d492f0",
+      "size_bytes": 2331214,
+      "git_blob_sha1": "d687f0a24516acc7bb52526479d3b392431b0002",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "d6c24ab208e605bc290f767503a9d6ec3d255887d9fa6de77b257e31dcd212ab",
+      "size_bytes": 1148372,
+      "git_blob_sha1": "9cd6633a03d7a9ecc85602abba17e98a919b50ef",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    }
+  ]
+}

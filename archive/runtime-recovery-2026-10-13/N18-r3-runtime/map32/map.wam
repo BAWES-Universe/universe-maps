@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N18-zone-1",
+      "name": "Sample laboratory",
+      "x": 240,
+      "y": 376,
+      "width": 384,
+      "height": 144,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N18-zone-2",
+      "name": "Instrument classroom",
+      "x": 1024,
+      "y": 352,
+      "width": 224,
+      "height": 160,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

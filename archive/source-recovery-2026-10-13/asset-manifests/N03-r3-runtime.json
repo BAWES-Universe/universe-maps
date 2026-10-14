@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N03-r3-runtime",
+  "destination": "old50/runtime/N03-r3",
+  "artifact": {
+    "name": "overnight-50-runtime-01-of-02.zip",
+    "library_file_id": "libfile_92983cf502d88191b495e32b875a8141",
+    "version_id": null,
+    "sha256": "5a6bc87db07aeba894efe53c62700380102a4072e5960fcf3391fe7141f812e5",
+    "size_bytes": 98259633
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N03-r3-runtime.zip",
+      "sha256": "a9da3481702550cb311ea57859e709a571cd862263b48af2f085d2fab4315729",
+      "size_bytes": 2229285
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "N03.tmj",
+      "sha256": "7b1b47582da94e22c9bf0fc30926a92ff75e41795afbf6c9896e791a519c2926",
+      "size_bytes": 46035,
+      "git_blob_sha1": "86b894f81238f00d82aa9e059060edf3f07ac2e4",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "N03.wam",
+      "sha256": "b5614d747545417712a5d6383ac886693765e3beb1bd3a09a0d53e64051d3f5d",
+      "size_bytes": 397,
+      "git_blob_sha1": "ae2a09a165e89510be5c7fa244b3f642e802165d",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "foreground.png",
+      "sha256": "8cb5b2cb13275d38d5c6fe8a2f3957603e8ccb642d6a38f548c8a6265c33bee8",
+      "size_bytes": 27660,
+      "git_blob_sha1": "ca5a6dd97f0e849b455f665b23568aec33875973",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground.png",
+      "sha256": "fe58d1197cde55c65fffa9eb98ed4341e5e759e8097183195a41f0f992017753",
+      "size_bytes": 2196955,
+      "git_blob_sha1": "2c212d013a55056bfbd7f0339b951cb27c014dcf",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "logic.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "README.txt",
+      "sha256": "34d9b791a61154879b40c3d51f7f88b2396e954c876a0563375e2986536dd307",
+      "size_bytes": 106,
+      "git_blob_sha1": "7cdf923c16e72731504d9910c733f578135cb88a",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    }
+  ]
+}

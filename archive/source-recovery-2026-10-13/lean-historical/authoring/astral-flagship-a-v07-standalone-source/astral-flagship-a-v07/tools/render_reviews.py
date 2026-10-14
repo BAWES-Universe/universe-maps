@@ -1,0 +1,18 @@
+from pathlib import Path
+from PIL import Image,ImageDraw,ImageFont
+import json
+R=Path(__file__).resolve().parents[1];W,H=2560,1920;rgba=lambda p:Image.open(p).convert('RGBA');base=rgba(R/'assets/runtime-base.png');above=rgba(R/'assets/runtime-above.png');greg=rgba(R/'assets/greg-reference.png');frames={n:greg.crop((i%3*32,i//3*32,i%3*32+32,i//3*32+32))for n,i in [('north',10),('south',1),('east',7),('west',4)]};h=json.loads((R/'source/collision-grid.json').read_text());cfg=json.loads((R/'source/runtime-layout.json').read_text());seats=json.loads((R/'source/seats.json').read_text());actors=Image.new('RGBA',(W,H));points=[]
+for i,p in enumerate(seats):
+ if(i*7)%17<10:points.append(dict(x=p['x'],y=p['y'],direction='north'))
+points+=h['socialAnchors'];r=cfg['reception'];points +=[{'x':r['staffAnchor'][0],'y':r['staffAnchor'][1],'direction':'south'},{'x':r['customerAnchor'][0],'y':r['customerAnchor'][1],'direction':'north'}]
+points +=[dict(x=x,y=y,direction=d)for x,y,d in [(768,264,'south'),(512,264,'south'),(1024,264,'south'),(768,1824,'north'),(560,1184,'north'),(976,960,'south'),(624,1232,'north'),(880,1232,'north'),(768,1376,'east'),(1504,1392,'east'),(1876,1240,'north'),(1504,496,'east'),(2048,512,'north'),(2176,160,'south'),(2208,1056,'north')]]
+for p in points:actors.alpha_composite(frames[p['direction']],(p['x']-16,p['y']-16))
+occupied=base.copy();occupied.alpha_composite(actors);occupied.alpha_composite(above);occupied.save(R/'review/flagship-a-occupied-native.png');actors.save(R/'review/qa-actors-only.png');empty=base.copy();empty.alpha_composite(above);empty.save(R/'review/runtime-empty-native.png')
+for name,box in [('foyer',(32,1008,1536,1776)),('reception',(864,1440,1456,1712)),('terrace',(1536,1056,2496,1760)),('pavilion',(1920,48,2400,400)),('center-bay',(480,1008,1056,1376))]:occupied.crop(box).save(R/'review'/f'flagship-a-{name}-occupied-native.png')
+B='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf';F='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf';font=lambda s:ImageFont.truetype(F,s);bold=lambda s:ImageFont.truetype(B,s)
+card=Image.new('RGB',(1664,1400),'#123036');d=ImageDraw.Draw(card);d.text((40,24),'FLAGSHIP A  /  SAME LAYOUT, CLEANER EXPERIENCE',font=bold(27),fill='#f6dda6');d.text((40,68),'Accepted chairs throughout • Accessible reception • Wider center bay • Spawn-only silence',font=font(20),fill='#cbddda');card.paste(occupied.resize((1584,1188),Image.Resampling.LANCZOS),(40,112));d.text((40,1320),'Native32 compiled-map artwork. All210 hall seats and16 meeting seats preserved.',font=font(20),fill='#ebc77f');d.text((40,1355),'Source-tested entry focus; rotation caveat. Static render, not a live room or media session.',font=font(17),fill='#b9cfca');card.save(R/'review/flagship-a-overview.png')
+old=rgba(R/'source/baseline-v05/flagship-v05-occupied-native.png');pairs=[('Reception',(416,1440,736,1760),(896,1440,1216,1760)),('Casual seating',(1184,1504,1440,1696),(1184,1504,1440,1696)),('Pavilion',(1984,160,2368,320),(1984,160,2368,320))];sheet=Image.new('RGB',(840,920),'#123036');d=ImageDraw.Draw(sheet);d.text((20,16),'COMPILED NATIVE1:1 COMPARISON',font=bold(21),fill='#f6dda6');d.text((20,52),'V05 baseline',font=font(16),fill='white');d.text((436,52),'Corrective A',font=font(16),fill='white');y=86
+for label,b0,b1 in pairs:
+ d.text((20,y),label,font=bold(17),fill='#edc878');y+=30;im0=old.crop(b0);im1=occupied.crop(b1);sheet.paste(im0,(20,y));sheet.paste(im1,(436,y));y+=max(im0.height,im1.height)+24
+sheet=sheet.crop((0,0,840,min(y+12,sheet.height)));sheet.save(R/'review/flagship-a-comparison-native.png')
+print('compiled review images saved')

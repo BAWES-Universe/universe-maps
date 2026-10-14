@@ -1,0 +1,78 @@
+{
+  "scope": "Independent review of source reconstruction; no source or original runtime modified",
+  "source_only_clean_copy": "/tmp/keeper-final-review-wl68m22g",
+  "exact_original_runtime_files": 19,
+  "unchanged_textures": 16,
+  "unchanged_controller_body": true,
+  "checks": [
+    {
+      "cmd": [
+        "python3",
+        "tools/build.py",
+        "--report",
+        "evidence/runtime-comparison.json"
+      ],
+      "exit": 0,
+      "stdout": "{\"files\": 19, \"exact_original_runtime\": true, \"mismatches\": []}"
+    },
+    {
+      "cmd": [
+        "python3",
+        "tests/structure.py"
+      ],
+      "exit": 0,
+      "stdout": "{\"passed\": 105, \"failed\": 0, \"open_grid_cells\": 627, \"grid_components\": 4, \"portal_pairs\": 3}"
+    },
+    {
+      "cmd": [
+        "node",
+        "tests/controller.cjs"
+      ],
+      "exit": 0,
+      "stdout": "{\"passed\":19,\"failed\":0}"
+    },
+    {
+      "cmd": [
+        "python3",
+        "tools/clean_rebuild.py"
+      ],
+      "exit": 0,
+      "stdout": "{\"exact_runtime_files\": 19, \"source_unchanged\": true, \"editability_probes\": 2}"
+    }
+  ],
+  "nested_extra_output_rejected": true,
+  "art_restore": {
+    "clean_restore_exact": true,
+    "modified_existing_artwork_rejected": true
+  },
+  "findings": [
+    {
+      "severity": "nonblocking inherited controller issue",
+      "location": "source/controller.js travel() rejection handler",
+      "detail": "Delayed recovery getPosition can overwrite a newer onPlayerMove because it checks transitionId/disposed but not moveCount. Reproduced after rejected teleport: move to chart while recovery position pending, then resolve stale houseDoor; snapshot.current changes from chart to houseDoor. Preserve original bytes; track as candidate behavior fix only.",
+      "proof_script": "/workspace/shared/keeper-r2-review/reproduce-rejected-teleport-position-race.cjs",
+      "proof_result": "/workspace/shared/keeper-r2-review/rejected-teleport-position-race.json",
+      "reproduced_against_original_and_rebuilt": true,
+      "failing_regression_test": "/workspace/shared/keeper-r2-review/known-issues/rejected-teleport-newer-movement.test.cjs",
+      "regression_results": [
+        {
+          "target": "original",
+          "exit_code": 1,
+          "expected_current": "chart",
+          "observed_current": "houseDoor"
+        },
+        {
+          "target": "rebuilt",
+          "exit_code": 1,
+          "expected_current": "chart",
+          "observed_current": "houseDoor"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "No native physics or live-game/device acceptance",
+    "Original authoring project, masters, masks, prompts, original tests not recovered"
+  ],
+  "verdict": "Exact new editable runtime reconstruction verified; provenance language honest; no missing dependency found beyond retained original textures/ZIP needed for source-only checkpoint."
+}

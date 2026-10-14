@@ -1,0 +1,160 @@
+--- gate-b/v3/native-audio/gate-with-native-audio.js
++++ gate-b/v4/native-audio/gate-with-native-audio.js
+@@ -1,5 +1,5 @@
+-/* Gate B v3: the FIRST IIFE below is the preserved Bv2 portal/audio core.
+- * Its camera-free comments apply only to that core. Separate v3 camera controllers follow.
++/* Gate B v4: the first IIFE is the byte-preserved portal/audio core.
++ * Its camera-free comments apply only to that core. One mobile setup follows.
+  */
+ /* Gate B v2: normal native follow, one static native audio source, reversible portal effects.
+  * Map APIs verified at universe-develop d2bc57b63b4abab9303fb3cbcecf1a0450fd15cc.
+@@ -131,98 +131,59 @@
+   window.addEventListener('pagehide', dispose, {once:true});
+ })();
+ 
+-/* Separate camera-only v3 experiment; v2 portal/audio core above is byte-preserved. */
+-(()=>{
+-/* Experimental Gate B v3 reveal, existing public APIs only.
+- * One native timed pan/zoom per map visit; widened zoom is retained by native
+- * movement-triggered follow. This reveal controller never calls followPlayer: that would restore old zoom.
++/* Static mobile arrival only. No cinematic, walking-zoom restore or landing reveal. */
++(() => {
++/* Gate B v4: one unlocked, immediate arrival setup for a coarse primary pointer.
++ * The hidden script iframe is not a game viewport; never use its innerWidth.
++ * Native follow resumes on first movement without restoring the old zoom.
++ * No later camera calls: movement, pinch, resize and reversal belong to the game.
+  */
+-function installGateReveal(WA, host = window) {
+-  const state = {phase:'waiting', reason:null, commands:0};
+-  const api=WA?.camera;
+-  if (typeof api?.set!=='function' || typeof api?.onCameraUpdate!=='function' || typeof WA?.player?.onPlayerMove!=='function') {
+-    state.phase='disabled';state.reason='camera-api-unavailable';return {state,dispose(){}};
++function installMobileStaticView(WA, host = window) {
++  const state = {phase: 'skipped', commands: 0};
++  let disposed = false, latest = null, subscription;
++  const dispose = () => { disposed = true; subscription?.unsubscribe?.(); };
++  const empty = () => ({state, ready: Promise.resolve(), dispose});
++  const coarse = host.matchMedia?.('(pointer: coarse)')?.matches === true;
++  if (!coarse) { state.reason = 'native-fine-pointer-view'; return empty(); }
++  const type = host.screen?.orientation?.type;
++  const knownType = typeof type === 'string' && /^(portrait|landscape)-(primary|secondary)$/.test(type);
++  const legacy = Number.isFinite(host.orientation);
++  const screenAspect = Number.isFinite(host.screen?.width) && Number.isFinite(host.screen?.height)
++    && host.screen.width > 0 && host.screen.height > 0;
++  if (!knownType && !legacy && !screenAspect) { state.reason = 'orientation-unavailable'; return empty(); }
++  const portrait = knownType ? type.startsWith('portrait') : legacy
++    ? Math.abs(host.orientation) % 180 === 0 : host.screen.width < host.screen.height;
++  state.device = {coarse, portrait, orientationSource: knownType ? 'screen.orientation.type'
++    : legacy ? 'legacy-window-orientation' : 'screen-aspect-heuristic'};
++  if (typeof WA?.camera?.set !== 'function' || typeof WA?.player?.getPosition !== 'function'
++    || typeof WA?.player?.onPlayerMove !== 'function') {
++    state.reason = 'required-api-unavailable'; return empty();
+   }
+-  const media=host.matchMedia('(prefers-reduced-motion: reduce)');
+-  const now=()=>host.performance.now();
+-  let disposed=false,view=null,viewAt=-Infinity,approached=false,lastY=null;
+-  const subscriptions=[];
+-  const finite=(...values)=>values.every(Number.isFinite);
+-  subscriptions.push(api.onCameraUpdate().subscribe(next=>{
+-    if(disposed || !next || !finite(next.x,next.y,next.width,next.height,next.zoom) || next.width<64 || next.height<64 || next.width>4096 || next.height>4096 || next.zoom<=0 || next.zoom>16)return;
+-    view={...next};viewAt=now();
+-  }));
+-  subscriptions.push(WA.player.onPlayerMove(position=>{
+-    if(disposed || state.phase==='revealed' || state.phase==='disabled' || !position || !finite(position.x,position.y))return;
+-    const previousY=lastY;lastY=position.y;
+-    // A real approach from the lower flight, with separate arm and trigger lines.
+-    // A spawn/teleport already above the landing does not trigger a reveal.
+-    if(position.y>=896)approached=true;
+-    if(!approached || previousY===null || position.y>=previousY || position.y>816 || position.y<752 || position.x<416 || position.x>576)return;
+-    if(media.matches){state.phase='disabled';state.reason='reduced-motion';return;}
+-    if(!view || now()-viewAt>96){state.reason='no-fresh-native-viewport';return;}
+-    // Keep a small native Woka readable. zoom is native CSS scale in normal Follow.
+-    // Already very wide/exploration views are left alone.
+-    const duration=200;
+-    // Native follow glide temporarily relaxes map bounds. Reserve travel at
+-    // 360 world px/s through both 200ms phases, plus one sprite half-width.
+-    // Skip a reveal that would need a later map-edge correction.
+-    const reserve=360*(duration*2/1000)+16;
+-    const safeWidth=2*Math.min(position.x-16,960-position.x-16);
+-    const safeHeight=2*Math.min(position.y-reserve,1440-position.y-reserve);
+-    const factor=Math.min(1.12,(32*view.zoom)/20,safeWidth/view.width,safeHeight/view.height);
+-    if(factor<1.025 || view.width>960 || view.height>1440){state.reason='deferred-for-frame-or-avatar-budget';return;}
+-    state.phase='revealed';state.reason=null;state.commands++;
+-    state.before={...view};state.factor=factor;state.duration=duration;
+-    // Preserve the actual viewport centre, including native bounds/HUD offset.
+-    // One call only; native pan and native movement-follow glide own every frame.
+-    api.set(view.x+view.width/2,view.y+view.height/2,view.width*factor,view.height*factor,false,true,duration);
+-  }));
+-  return {state,dispose(){if(disposed)return;disposed=true;subscriptions.forEach(s=>s?.unsubscribe?.());state.phase='disposed';}};
++  state.phase = 'waiting-for-position';
++  subscription = WA.player.onPlayerMove(position => {
++    if (Number.isFinite(position?.x) && Number.isFinite(position?.y)) latest = {x: position.x, y: position.y};
++  });
++  const ready = WA.player.getPosition().then(position => {
++    if (disposed) return;
++    const start = latest ?? position;
++    if (!Number.isFinite(start?.x) || !Number.isFinite(start?.y)
++      || start.y < 1056 || start.y > 1184 || start.x < 352 || start.x > 608) {
++      state.phase = 'skipped'; state.reason = 'already-away-from-arrival'; return;
++    }
++    // Same wide scale as v3's opening, aligned with the player and native map bounds.
++    // Rotate the authored rectangle only at initial setup; orientation changes never reset it.
++    const width = portrait ? 640 : 1280, height = portrait ? 1280 : 640;
++    WA.camera.set(start.x, start.y, width, height, false, false);
++    state.phase = 'applied'; state.commands = 1;
++    state.initialFrame = {x: start.x, y: start.y, width, height, lock: false, smooth: false};
++  }).catch(() => { state.phase = 'skipped'; state.reason = 'position-unavailable'; })
++    .finally(() => subscription?.unsubscribe?.());
++  return {state, ready, dispose};
+ }
+ 
+-/* Experimental portrait arrival using existing APIs only.
+- * The script iframe is hidden: never use its innerWidth or width media queries.
+- * Device classification uses coarse pointer and Screen Orientation when available.
+- * Authored overview dimensions are world coordinates, not a claimed viewport query.
+- */
+-function installMobileArrivalExperiment(WA,host=window,overview={width:640,height:1280}){
+- const state={phase:'skipped',commands:0};
+- const coarse=host.matchMedia('(pointer: coarse)').matches;
+- const orientationType=host.screen?.orientation?.type;
+- const portrait=typeof orientationType==='string' ? orientationType.startsWith('portrait') :
+-   Number.isFinite(host.orientation) ? Math.abs(host.orientation)%180===0 : host.screen.width<host.screen.height;
+- state.device={coarse,portrait,orientationSource:typeof orientationType==='string'?'screen.orientation.type':Number.isFinite(host.orientation)?'legacy-window-orientation':'screen-aspect-heuristic'};
+- const portraitCoarse=coarse && portrait;
+- const empty=()=>({state,ready:Promise.resolve(),dispose(){}});
+- if(!portraitCoarse||host.matchMedia('(prefers-reduced-motion: reduce)').matches||typeof WA?.camera?.set!=='function'||typeof WA?.camera?.followPlayer!=='function'||typeof WA?.player?.getPosition!=='function')return empty();
+- let disposed=false,origin=null,latest=null;
+- state.phase='waiting-for-position';
+- const subscription=WA.player.onPlayerMove(position=>{
+-   if(disposed||!Number.isFinite(position?.x)||!Number.isFinite(position?.y))return;
+-   latest={x:position.x,y:position.y};
+-   if(state.phase!=='establishing')return;
+-   if(host.matchMedia('(prefers-reduced-motion: reduce)').matches){state.phase='motion-disabled';return;}
+-   if(position.y>origin.y-128)return;
+-   state.phase='walking';state.commands++;
+-   WA.camera.followPlayer(true,400);
+- });
+- const ready=WA.player.getPosition().then(position=>{
+-   if(disposed)return;
+-   if(host.matchMedia('(prefers-reduced-motion: reduce)').matches){state.phase='skipped';state.reason='reduced-motion';return;}
+-   const start=latest??position;
+-   // Late loading or joining at the gate must not drag the camera back to spawn.
+-   if(!Number.isFinite(start?.x)||!Number.isFinite(start?.y)||start.y<1056||start.x<352||start.x>608){state.phase='skipped';state.reason='already-away-from-arrival';return;}
+-   origin={...start};state.phase='establishing';state.commands++;
+-   WA.camera.set(480,800,overview.width,overview.height,false,false);
+- }).catch(()=>{state.phase='skipped';state.reason='position-unavailable';});
+- return{state,ready,dispose(){disposed=true;subscription.unsubscribe?.();}};
+-}
+-
+-let disposed=false,revealController,arrivalController;
+-window.addEventListener('pagehide',()=>{disposed=true;revealController?.dispose();arrivalController?.dispose();},{once:true});
+-WA.onInit().then(()=>{if(disposed)return;
+-arrivalController=installMobileArrivalExperiment(WA,window);
+-revealController=installGateReveal(WA,window);
+-}).catch(error=>console.warn('Gate camera experiment unavailable; native camera retained.',error));
++  let disposed = false, controller;
++  window.addEventListener('pagehide', () => { disposed = true; controller?.dispose(); }, {once: true});
++  WA.onInit().then(() => {
++    if (!disposed) controller = installMobileStaticView(WA, window);
++  }).catch(error => console.warn('Gate initial framing unavailable; native camera retained.', error));
+ })();

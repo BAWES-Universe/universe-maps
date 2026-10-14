@@ -1,0 +1,86 @@
+{
+  "scope": "New syntax checks only. No build, original validation, behavior, image rendering, or historical hash verification is implied.",
+  "checks": [
+    {
+      "file": "tools/author-floor.py",
+      "syntax": "Python AST parse only",
+      "pass": true
+    },
+    {
+      "file": "tools/author-layout.py",
+      "syntax": "Python AST parse only",
+      "pass": true
+    },
+    {
+      "file": "tools/author-review.py",
+      "syntax": "Python AST parse only",
+      "pass": true
+    },
+    {
+      "file": "tools/build.py",
+      "syntax": "Python AST parse only",
+      "pass": true
+    },
+    {
+      "file": "tools/clean-rebuild.py",
+      "syntax": "Python AST parse only",
+      "pass": true
+    },
+    {
+      "file": "tools/proof.py",
+      "syntax": "Python AST parse only",
+      "pass": true
+    },
+    {
+      "file": "tools/verify-floor.py",
+      "syntax": "Python AST parse only",
+      "pass": true
+    },
+    {
+      "file": "tools/verify-native-all.py",
+      "syntax": "Python AST parse only",
+      "pass": true
+    },
+    {
+      "file": "tools/verify-whole-footprints.py",
+      "syntax": "Python AST parse only",
+      "pass": true
+    },
+    {
+      "file": "source/controller.js",
+      "syntax": "node --check only",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "tools/native-all-cells.cjs",
+      "syntax": "node --check only",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "tools/spawn.cjs",
+      "syntax": "node --check only",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "tools/test-controller.cjs",
+      "syntax": "node --check only",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "tools/test-transition.cjs",
+      "syntax": "node --check only",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "tools/trace.cjs",
+      "syntax": "node --check only",
+      "pass": true,
+      "stderr": ""
+    }
+  ]
+}

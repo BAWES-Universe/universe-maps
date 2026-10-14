@@ -1,0 +1,127 @@
+{
+  "coordinateSpace": "garden local native pixels; actualworldorigin1904,1248",
+  "artFile": "/workspace/shared/campus11-fire-access-review/garden-final-art-candidate.png",
+  "alwaysBaseRects": [
+    [
+      "south old ownership reset",
+      [
+        408,
+        584,
+        576,
+        688
+      ]
+    ],
+    [
+      "east low rails/arms and attached flowers",
+      [
+        576,
+        440,
+        656,
+        608
+      ]
+    ],
+    [
+      "north low arms and attached flowers",
+      [
+        408,
+        344,
+        576,
+        440
+      ]
+    ],
+    [
+      "paved west-edge low foliage segment",
+      [
+        296,
+        448,
+        336,
+        576
+      ]
+    ],
+    [
+      "NE pot and ground vine",
+      [
+        536,
+        256,
+        672,
+        368
+      ]
+    ],
+    [
+      "west outside backrail and upper arm",
+      [
+        336,
+        440,
+        408,
+        600
+      ]
+    ]
+  ],
+  "alwaysAbovePolygons": {
+    "south-near-backrail": [
+      [
+        446,
+        626
+      ],
+      [
+        540,
+        626
+      ],
+      [
+        544,
+        632
+      ],
+      [
+        542,
+        652
+      ],
+      [
+        445,
+        652
+      ],
+      [
+        442,
+        632
+      ]
+    ],
+    "west-near-lower-arm-lip": [
+      [
+        364,
+        554
+      ],
+      [
+        390,
+        554
+      ],
+      [
+        391,
+        559
+      ],
+      [
+        362,
+        559
+      ]
+    ],
+    "east-near-lower-arm-lip": [
+      [
+        606,
+        554
+      ],
+      [
+        638,
+        554
+      ],
+      [
+        646,
+        559
+      ],
+      [
+        605,
+        559
+      ]
+    ]
+  },
+  "allOtherOriginalForegroundRetained": true,
+  "bodyDependentMasking": false,
+  "poseDependentMasking": false
+}

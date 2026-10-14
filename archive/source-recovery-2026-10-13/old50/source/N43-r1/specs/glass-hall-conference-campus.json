@@ -1,0 +1,614 @@
+{
+  "id": "N43",
+  "title": "Glass Hall Conference Campus",
+  "category": "Event / conference",
+  "style": "Powder-blue glass, pale stone, walnut stage and water gardens",
+  "spawn": [
+    496,
+    960
+  ],
+  "floor": [
+    [
+      [
+        144,
+        160
+      ],
+      [
+        224,
+        160
+      ],
+      [
+        224,
+        144
+      ],
+      [
+        384,
+        144
+      ],
+      [
+        384,
+        128
+      ],
+      [
+        608,
+        128
+      ],
+      [
+        608,
+        160
+      ],
+      [
+        800,
+        160
+      ],
+      [
+        800,
+        192
+      ],
+      [
+        864,
+        192
+      ],
+      [
+        864,
+        384
+      ],
+      [
+        800,
+        384
+      ],
+      [
+        800,
+        416
+      ],
+      [
+        544,
+        416
+      ],
+      [
+        544,
+        512
+      ],
+      [
+        608,
+        544
+      ],
+      [
+        608,
+        576
+      ],
+      [
+        576,
+        608
+      ],
+      [
+        576,
+        864
+      ],
+      [
+        608,
+        896
+      ],
+      [
+        608,
+        1024
+      ],
+      [
+        352,
+        1024
+      ],
+      [
+        352,
+        896
+      ],
+      [
+        384,
+        864
+      ],
+      [
+        384,
+        576
+      ],
+      [
+        352,
+        576
+      ],
+      [
+        352,
+        544
+      ],
+      [
+        416,
+        512
+      ],
+      [
+        416,
+        416
+      ],
+      [
+        192,
+        416
+      ],
+      [
+        192,
+        384
+      ],
+      [
+        144,
+        384
+      ]
+    ],
+    [
+      [
+        928,
+        160
+      ],
+      [
+        992,
+        160
+      ],
+      [
+        992,
+        352
+      ],
+      [
+        1056,
+        352
+      ],
+      [
+        1056,
+        320
+      ],
+      [
+        1152,
+        320
+      ],
+      [
+        1184,
+        288
+      ],
+      [
+        1184,
+        256
+      ],
+      [
+        1088,
+        256
+      ],
+      [
+        1088,
+        160
+      ],
+      [
+        1344,
+        160
+      ],
+      [
+        1344,
+        256
+      ],
+      [
+        1216,
+        256
+      ],
+      [
+        1216,
+        320
+      ],
+      [
+        1312,
+        320
+      ],
+      [
+        1312,
+        352
+      ],
+      [
+        1376,
+        352
+      ],
+      [
+        1376,
+        384
+      ],
+      [
+        1088,
+        384
+      ],
+      [
+        1088,
+        416
+      ],
+      [
+        1024,
+        448
+      ],
+      [
+        992,
+        480
+      ],
+      [
+        992,
+        800
+      ],
+      [
+        1184,
+        800
+      ],
+      [
+        1248,
+        768
+      ],
+      [
+        1248,
+        704
+      ],
+      [
+        1152,
+        704
+      ],
+      [
+        1152,
+        576
+      ],
+      [
+        1408,
+        576
+      ],
+      [
+        1408,
+        704
+      ],
+      [
+        1312,
+        704
+      ],
+      [
+        1312,
+        768
+      ],
+      [
+        1472,
+        800
+      ],
+      [
+        1472,
+        864
+      ],
+      [
+        1376,
+        864
+      ],
+      [
+        1376,
+        1024
+      ],
+      [
+        1312,
+        1024
+      ],
+      [
+        1312,
+        864
+      ],
+      [
+        992,
+        864
+      ],
+      [
+        928,
+        736
+      ]
+    ]
+  ],
+  "floorRects": [
+    [
+      576,
+      608,
+      672,
+      704
+    ],
+    [
+      672,
+      640,
+      1088,
+      672
+    ]
+  ],
+  "blocks": [
+    [
+      "west-hall-counter",
+      [
+        144,
+        224,
+        176,
+        288
+      ]
+    ],
+    [
+      "west-hall-plant",
+      [
+        176,
+        288,
+        208,
+        352
+      ]
+    ],
+    [
+      "east-hall-counter",
+      [
+        832,
+        224,
+        864,
+        288
+      ]
+    ],
+    [
+      "east-hall-plant",
+      [
+        800,
+        288,
+        832,
+        352
+      ]
+    ],
+    [
+      "north-pavilion-sofa",
+      [
+        1152,
+        128,
+        1280,
+        160
+      ]
+    ],
+    [
+      "north-west-sofa",
+      [
+        1056,
+        160,
+        1088,
+        256
+      ]
+    ],
+    [
+      "north-east-sofa",
+      [
+        1312,
+        160,
+        1344,
+        256
+      ]
+    ],
+    [
+      "south-pavilion-sofa",
+      [
+        1216,
+        544,
+        1344,
+        608
+      ]
+    ],
+    [
+      "south-west-sofa",
+      [
+        1120,
+        576,
+        1152,
+        704
+      ]
+    ],
+    [
+      "south-east-sofa",
+      [
+        1408,
+        576,
+        1440,
+        704
+      ]
+    ],
+    [
+      "garden-west-planter",
+      [
+        352,
+        800,
+        384,
+        864
+      ]
+    ],
+    [
+      "garden-east-planter",
+      [
+        576,
+        800,
+        608,
+        864
+      ]
+    ]
+  ],
+  "foreground": [
+    [
+      112,
+      80,
+      120,
+      160
+    ],
+    [
+      784,
+      64,
+      800,
+      144
+    ],
+    [
+      1072,
+      272,
+      1120,
+      288
+    ]
+  ],
+  "anchors": [
+    [
+      "presenter-stage",
+      496,
+      128,
+      "south",
+      "social"
+    ],
+    [
+      "main-center-aisle",
+      528,
+      320,
+      "north",
+      "landmark"
+    ],
+    [
+      "main-entry",
+      496,
+      448,
+      "north",
+      "landmark"
+    ],
+    [
+      "north-meeting-room",
+      1200,
+      224,
+      "south",
+      "social"
+    ],
+    [
+      "south-meeting-room",
+      1296,
+      640,
+      "south",
+      "social"
+    ],
+    [
+      "garden-arrival",
+      496,
+      704,
+      "north",
+      "social"
+    ],
+    [
+      "east-garden-link",
+      976,
+      576,
+      "north",
+      "landmark"
+    ]
+  ],
+  "zones": [],
+  "seats": [
+    {
+      "id": "audience-1",
+      "x": 336,
+      "y": 239
+    },
+    {
+      "id": "audience-2",
+      "x": 400,
+      "y": 239
+    },
+    {
+      "id": "audience-3",
+      "x": 464,
+      "y": 239
+    },
+    {
+      "id": "audience-4",
+      "x": 592,
+      "y": 239
+    },
+    {
+      "id": "audience-5",
+      "x": 656,
+      "y": 239
+    },
+    {
+      "id": "audience-6",
+      "x": 720,
+      "y": 239
+    },
+    {
+      "id": "audience-7",
+      "x": 336,
+      "y": 303
+    },
+    {
+      "id": "audience-8",
+      "x": 400,
+      "y": 303
+    },
+    {
+      "id": "audience-9",
+      "x": 464,
+      "y": 303
+    },
+    {
+      "id": "audience-10",
+      "x": 592,
+      "y": 303
+    },
+    {
+      "id": "audience-11",
+      "x": 656,
+      "y": 303
+    },
+    {
+      "id": "audience-12",
+      "x": 720,
+      "y": 303
+    },
+    {
+      "id": "audience-13",
+      "x": 336,
+      "y": 367
+    },
+    {
+      "id": "audience-14",
+      "x": 400,
+      "y": 367
+    },
+    {
+      "id": "audience-15",
+      "x": 464,
+      "y": 367
+    },
+    {
+      "id": "audience-16",
+      "x": 592,
+      "y": 367
+    },
+    {
+      "id": "audience-17",
+      "x": 656,
+      "y": 367
+    },
+    {
+      "id": "audience-18",
+      "x": 720,
+      "y": 367
+    }
+  ],
+  "event": {
+    "focus": [
+      224,
+      128,
+      768,
+      416
+    ],
+    "stage": [
+      384,
+      128,
+      608,
+      176
+    ],
+    "audience": [
+      224,
+      192,
+      768,
+      416
+    ]
+  },
+  "lesson": "Conference gains native-fit chair occupancy and bounded event focus; media hooks use source-verified WAM speaker-area IDs, never a broad silent floor. Live service operation remains untested.",
+  "prompt": "Original orthogonal top-down modern glass conference campus with empty main audience floor and walnut stage, two small meeting pavilions, outdoor water garden routes, varied glass architecture; native32 no text/people. Targeted imagegen repair added actual lower garden pedestrian bridge linking main court and right pavilion path."
+}

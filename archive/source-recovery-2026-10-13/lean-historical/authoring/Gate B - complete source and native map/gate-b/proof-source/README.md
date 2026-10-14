@@ -1,0 +1,1 @@
+These are the exact standalone local proof sources. Original result paths referenced a temporary host. The runnable candidate is ../gate/map/gate.tmj. Harness dependencies and copied native source hashes are recorded in ../docs/evidence/frozen-proof-manifest.json. These source files are provenance, not required runtime files.

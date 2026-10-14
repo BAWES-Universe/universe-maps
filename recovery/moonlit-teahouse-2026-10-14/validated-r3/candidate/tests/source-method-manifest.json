@@ -1,0 +1,103 @@
+{
+  "head": "aa3ca1d60801172bfd97b6619bbf351c17eb3dba",
+  "sourceFiles": {
+    "libs/math-utils/src/MathUtils.ts": "0bfbe5030c3cb8983c8de8a90cc396d165f8b05756aed0f6c6f7fdaf77883b74",
+    "play/src/front/Phaser/Player/Player.ts": "480b0c721752ce52cbdd10200de2da94093e361196ff3b21e692999247efbdf4",
+    "play/src/front/Phaser/Game/GameScene.ts": "845917a9093d28ea825c476e021e4b5a97b1b11bd776ed48d831e7b963672cf3",
+    "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts": "d0e3c4359b6e128bd075e6f01ba912c2d250c60f66beee7b7acddcd55cdaf3f7",
+    "play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts": "9719fe689f3e79e51fc11a48a88c0e6809761cbfc7a6d728f252a1d57b996df3"
+  },
+  "methods": [
+    {
+      "file": "libs/math-utils/src/MathUtils.ts",
+      "method": "isBetween",
+      "sha256": "cb3c55c18bec69221365004b07d031290d0fd581a095f6232be4ffa667cbc5c6"
+    },
+    {
+      "file": "libs/math-utils/src/MathUtils.ts",
+      "method": "isOverlappingWithRectangle",
+      "sha256": "a09b9541e31303f6dc2166e6e76c6254b99b3258001efb9b36a13f34e07aa804"
+    },
+    {
+      "file": "libs/math-utils/src/MathUtils.ts",
+      "method": "distanceBetween",
+      "sha256": "b0a91b63dc987d068eb4e491acd95e8d8aa904bab135cd220ac278bc9246267a"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "setPathToFollow",
+      "sha256": "fdff966070839a559b6ae2ca6908fdab635be29cc734db7eb2cc48b63e699066"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "getCurrentPathDestinationPoint",
+      "sha256": "d5795ffecf63ceaeebbe1a80b90060aa6fb37b3042600bebd9e2bb96608a4d05"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "finishFollowingPath",
+      "sha256": "1d9dfb0729b1827de2979df61e759dbe8091c73cd9c40f987e1f5c7fc592f9f1"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "deduceSpeed",
+      "sha256": "583770fcf9430e18c6b6223f5be4cdde352ea4529097b5b15656e1bb7b7e6093"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "adjustPathToFollowToColliderBounds",
+      "sha256": "672196ee11c7e472cfcccb90c2a22d052c44e44e0bebc506a966f3b3f50f9653"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "followPath",
+      "sha256": "786357821cd745b61126295b11070b5a78ced811b10a5072332ad3af54c6310d"
+    },
+    {
+      "file": "play/src/front/Phaser/Player/Player.ts",
+      "method": "moveToPos",
+      "sha256": "b7053088a02ae545f7a46c2b7d087b1c85d10a9f4056c11cac2d5f7f6abfe24d"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameScene.ts",
+      "method": "moveTo",
+      "sha256": "d4b957996fcf779eb57db4f6c7f81e09d5f930b6883547ba55a18468d940461d"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameScene.ts",
+      "method": "subscribeToGameMapChanged",
+      "sha256": "2d28f55b351517ebbe4d88985155da161e17a83a37bcb41eed542dc2d4484769"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "method": "setLayerVisibility",
+      "sha256": "70ea03871e798ef81c8a371ec1f45743dcd4033cc55694f68c49dfc5c78787ba"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "method": "findPhaserLayer",
+      "sha256": "33e93e71ed89731e0459533a7d9b14c925b4de2ac8fef13412169c6ea22cb729"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "method": "findPhaserLayers",
+      "sha256": "5145ab6524795eb656d2aaadd7073c704c10df7f793ccc7ddb2f4e756705553c"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "method": "getLayerCollisionGrid",
+      "sha256": "ec540dbeeb516b3d774fd4330b7ba69517cc49baa8de71e88a2f29692d9c4ba0"
+    },
+    {
+      "file": "play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "method": "updateCollisionGrid",
+      "sha256": "c846eb0efb42d92bc27a31520667a4e836b84c1f38f7d77a3ce6f896c7695db2"
+    },
+    {
+      "file": "play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts",
+      "method": "handlePointerUpEvent",
+      "sha256": "f4e8f82cef85e6e425ab9bf83678e3180ed8e26021a645f0e44c32d8d0ba1f80"
+    }
+  ],
+  "generatedJavaScriptSHA256": "d7e546b7b0012184a1ee0892e95be32f945adb48c2e70d66ae58d490b5a84b65"
+}

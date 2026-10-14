@@ -1,0 +1,71 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "reading-conservatory-r2-group-1",
+      "name": "West reading conversation",
+      "x": 223,
+      "y": 223,
+      "width": 97,
+      "height": 65,
+      "visible": true,
+      "properties": [
+        {
+          "id": "reading-conservatory-r2-group-1-room",
+          "type": "livekitRoomProperty",
+          "roomName": "reading-conservatory-r2-group-1",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": true,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "reading-conservatory-r2-group-2",
+      "name": "East reading conversation",
+      "x": 447,
+      "y": 223,
+      "width": 97,
+      "height": 65,
+      "visible": true,
+      "properties": [
+        {
+          "id": "reading-conservatory-r2-group-2-room",
+          "type": "livekitRoomProperty",
+          "roomName": "reading-conservatory-r2-group-2",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": true,
+            "disableChat": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "reading-conservatory-r2-group-3",
+      "name": "Mentorship conversation",
+      "x": 607,
+      "y": 175,
+      "width": 98,
+      "height": 50,
+      "visible": true,
+      "properties": [
+        {
+          "id": "reading-conservatory-r2-group-3-room",
+          "type": "livekitRoomProperty",
+          "roomName": "reading-conservatory-r2-group-3",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": true,
+            "disableChat": false
+          }
+        }
+      ]
+    }
+  ]
+}

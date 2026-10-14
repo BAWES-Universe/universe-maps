@@ -1,0 +1,103 @@
+{
+  "effects": [
+    {
+      "name": "river-water",
+      "origin": [
+        3040,
+        1920
+      ],
+      "size": [
+        160,
+        1024
+      ],
+      "frames": [
+        "effects/river-water-00.png",
+        "effects/river-water-01.png",
+        "effects/river-water-02.png",
+        "effects/river-water-03.png",
+        "effects/river-water-04.png",
+        "effects/river-water-05.png",
+        "effects/river-water-06.png",
+        "effects/river-water-07.png"
+      ],
+      "duration": 180,
+      "source": "/workspace/shared/universe-riverside-garden/layers/garden-water.png",
+      "sourceSha256": "dc2fa2cf3575d216bc82dea292c50f7f33846d1d2a0ddced8bca7b4f6295863e",
+      "sourceCrop": [
+        864,
+        0,
+        1024,
+        1024
+      ],
+      "transform": "integer native-pixel vertical translation inside fixed original mask and scalar alpha",
+      "nativeAudioEnabled": false,
+      "coverage": "Fixed sparse native river ripple bands"
+    },
+    {
+      "name": "fire-flame",
+      "origin": [
+        2632,
+        2392
+      ],
+      "size": [
+        72,
+        80
+      ],
+      "frames": [
+        "effects/fire-flame-00.png",
+        "effects/fire-flame-01.png",
+        "effects/fire-flame-02.png",
+        "effects/fire-flame-03.png",
+        "effects/fire-flame-04.png",
+        "effects/fire-flame-05.png",
+        "effects/fire-flame-06.png",
+        "effects/fire-flame-07.png"
+      ],
+      "duration": 100,
+      "source": "/workspace/shared/universe-riverside-garden/layers/garden-fire.png",
+      "sourceSha256": "bdb300fd59a504e12442a833a9eecf01cfb0d62ca154966536c86d3cd52c5569",
+      "sourceCrop": [
+        456,
+        472,
+        528,
+        552
+      ],
+      "transform": "integer native-pixel vertical translation inside fixed original mask and scalar alpha",
+      "nativeAudioEnabled": false,
+      "coverage": "Original source mask"
+    },
+    {
+      "name": "fountain-water",
+      "origin": [
+        1072,
+        2000
+      ],
+      "size": [
+        240,
+        152
+      ],
+      "frames": [
+        "effects/fountain-water-00.png",
+        "effects/fountain-water-01.png",
+        "effects/fountain-water-02.png",
+        "effects/fountain-water-03.png",
+        "effects/fountain-water-04.png",
+        "effects/fountain-water-05.png",
+        "effects/fountain-water-06.png",
+        "effects/fountain-water-07.png"
+      ],
+      "duration": 180,
+      "source": "/workspace/shared/universe-campus-courtyard/layers/court-water.png",
+      "sourceSha256": "eb8e70d4e74acee9a9367ed02f689fc46b1864b7c586fe3d47fd206e54af3122",
+      "sourceCrop": [
+        368,
+        224,
+        608,
+        376
+      ],
+      "transform": "integer native-pixel vertical translation inside fixed original mask and scalar alpha",
+      "nativeAudioEnabled": false,
+      "coverage": "Original source mask"
+    }
+  ]
+}

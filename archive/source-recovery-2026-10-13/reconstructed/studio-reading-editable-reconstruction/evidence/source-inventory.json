@@ -1,0 +1,102 @@
+{
+  "README.md": {
+    "sha256": "d3ae06639cd4d2fdf31f5d8e05b1dae1417653ef5ab64d0433d5c11910854664",
+    "bytes": 3188
+  },
+  "evidence/verification.json": {
+    "sha256": "58ea4baecdf29ae6838bd0010ace09a771b18af7f4a69655a4c3d4be580fb1af",
+    "bytes": 789
+  },
+  "source/provenance.json": {
+    "sha256": "ce0aa35430cf3c928faf228e73c1c03f5c2964bad8fa58ddcdbe57b3d5d5495a",
+    "bytes": 952
+  },
+  "source/reading/areas.wam.json": {
+    "sha256": "c8ce4f8cdd5e20918e7479c666dde23b3e855f19c3bdb42aeb7aa7bb0a7d6b0a",
+    "bytes": 1796
+  },
+  "source/reading/art/architecture-and-furniture.png": {
+    "sha256": "fa24a6234eb712dabf63d14479916674963eaefb23fa084d6538033f49297818",
+    "bytes": 1018173
+  },
+  "source/reading/art/foreground.png": {
+    "sha256": "4045da132a75fa2e72607a1c650aebf184da8b71ba4783240cdcd96ab46d4bf3",
+    "bytes": 5078
+  },
+  "source/reading/art/logic.png": {
+    "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "bytes": 83
+  },
+  "source/reading/extras/README.md": {
+    "sha256": "410092aee4cb4b2e00a4e7d8e4e283efa8f3b4c96503aa914ed81d539e75207b",
+    "bytes": 1264
+  },
+  "source/reading/layers/01-architecture-and-furniture.csv": {
+    "sha256": "b2144989d318887f5069946d21c2b60fa6d31dcc1494a3d8a5d37dff0ee6b133",
+    "bytes": 1428
+  },
+  "source/reading/layers/02-collision.csv": {
+    "sha256": "8bdc036927f64130f2a85fb9a1077c1c9915f463c5897a53b669011d8e53129c",
+    "bytes": 1336
+  },
+  "source/reading/layers/03-quiet-arrival.csv": {
+    "sha256": "8960d5d535947f1333fe5dab32a8cd2cc08318f0a3a16350062f73cd40a59b1d",
+    "bytes": 770
+  },
+  "source/reading/layers/05-foreground.csv": {
+    "sha256": "5008977b28fb89f2b93f58d013e6e5ca32901007d711553eae01221050855b52",
+    "bytes": 790
+  },
+  "source/reading/map.recipe.json": {
+    "sha256": "0d3e41ee5391a6e51f19cc2a9ee658b5e3097af2c549e299365d9158379dfcc3",
+    "bytes": 4154
+  },
+  "source/runtime-baseline.json": {
+    "sha256": "f45db3c840fa07b82b1b98379eb1abaf3c0c89d222d7ff13c1e155b0941ad814",
+    "bytes": 1505
+  },
+  "source/studio/areas.wam.json": {
+    "sha256": "f7de32f75df015a676fae413ca4bf9c9f90d1cd6605d46734a1c8c0ad981e44a",
+    "bytes": 1043
+  },
+  "source/studio/art/environment.png": {
+    "sha256": "026330ce32025e52cedff8822b1758a0ed9be8a1de1e951742e2e8df996ba2f1",
+    "bytes": 1967275
+  },
+  "source/studio/art/foreground.png": {
+    "sha256": "b7448f3923afaee45ac9e2f1341df251d05716ac0a261e7abd5e848a8b610ea5",
+    "bytes": 105102
+  },
+  "source/studio/art/logic.png": {
+    "sha256": "050ab82bd34987f71468d5851d3707e15c6c6de862d98384259834d92deefd57",
+    "bytes": 87
+  },
+  "source/studio/layers/01-environment.csv": {
+    "sha256": "39a6600d88b3ab7de663f8998e9fbb15b053958dc1c12570956483087fd1bbea",
+    "bytes": 3094
+  },
+  "source/studio/layers/02-collision.csv": {
+    "sha256": "987801c13a78f3c8c5167064dd86af8eb42951885721a17b5d25022d99858f3d",
+    "bytes": 2886
+  },
+  "source/studio/layers/03-spawn-only-silence.csv": {
+    "sha256": "87bab8734ad6ad969866c0714787ebc0cb0e43b5cd30f2111d547f01f4a8f4ab",
+    "bytes": 1622
+  },
+  "source/studio/layers/05-foreground.csv": {
+    "sha256": "8e291856a5ca08d44fcbc44ea8cbdbb6b66152998b865b25dd184e2594d1ab59",
+    "bytes": 1760
+  },
+  "source/studio/map.recipe.json": {
+    "sha256": "34d5192ae50ee9d4b791948665fcc365cfefa1917819273bcb0228a21b7c22d2",
+    "bytes": 3767
+  },
+  "tests/verify.py": {
+    "sha256": "0142714712948deef0aa186e6fb0484a028910528e71695329a074c7351a46d9",
+    "bytes": 4088
+  },
+  "tools/build.py": {
+    "sha256": "4da5e5d9cd2eb9884120517b7d633d509ac3775e5e2dfb4d9b36483531623331",
+    "bytes": 1554
+  }
+}

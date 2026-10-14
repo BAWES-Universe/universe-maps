@@ -1,0 +1,193 @@
+{
+  "status": "NEW reconstruction; not the lost three-cell patch",
+  "baselineMapSha256": "b3b124bd6bbb4ab573eb2848ca4681a58991a3e4a481a7dc1e0f046c62171696",
+  "sourceDimensions": [
+    3840,
+    3456
+  ],
+  "tileSize": 16,
+  "bodyRelativeToPlayer": [
+    -8,
+    0,
+    16,
+    16
+  ],
+  "spriteRelativeToPlayer": [
+    -16,
+    -16,
+    32,
+    32
+  ],
+  "fountainCenter": [
+    1448,
+    1871
+  ],
+  "fountainRationale": "Only diagonal-only 2x2 pinch in the ring: open both pavement connector cells, retain neighboring planter/greenery (100,116).",
+  "boothRationale": "At body-top contact y=3040, a 32px sprite reaches y=3024. Row 189 contains an 8px-high opaque duplicate of base pavement/fascia bottom. Clear only the two central strips; original base art provides identical below-player pixels. Side foliage and all other foreground GIDs remain unchanged.",
+  "contactRoutes": [
+    {
+      "id": "books",
+      "centerX": [
+        2784,
+        2896
+      ],
+      "bodyTopY": [
+        3040,
+        3120
+      ]
+    },
+    {
+      "id": "curios",
+      "centerX": [
+        2992,
+        3104
+      ],
+      "bodyTopY": [
+        3040,
+        3120
+      ]
+    }
+  ],
+  "edits": [
+    {
+      "layer": "collision-permanent",
+      "x": 101,
+      "y": 114,
+      "beforeGid": 61154,
+      "afterGid": 0
+    },
+    {
+      "layer": "collision-permanent",
+      "x": 100,
+      "y": 115,
+      "beforeGid": 61154,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 173,
+      "y": 189,
+      "beforeGid": 40978,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 174,
+      "y": 189,
+      "beforeGid": 40979,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 175,
+      "y": 189,
+      "beforeGid": 40980,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 176,
+      "y": 189,
+      "beforeGid": 40981,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 177,
+      "y": 189,
+      "beforeGid": 40982,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 178,
+      "y": 189,
+      "beforeGid": 40983,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 179,
+      "y": 189,
+      "beforeGid": 40984,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 180,
+      "y": 189,
+      "beforeGid": 40985,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 181,
+      "y": 189,
+      "beforeGid": 40986,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 186,
+      "y": 189,
+      "beforeGid": 40991,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 187,
+      "y": 189,
+      "beforeGid": 40992,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 188,
+      "y": 189,
+      "beforeGid": 40993,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 189,
+      "y": 189,
+      "beforeGid": 40994,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 190,
+      "y": 189,
+      "beforeGid": 40995,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 191,
+      "y": 189,
+      "beforeGid": 40996,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 192,
+      "y": 189,
+      "beforeGid": 40997,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 193,
+      "y": 189,
+      "beforeGid": 40998,
+      "afterGid": 0
+    },
+    {
+      "layer": "fixed-foreground",
+      "x": 194,
+      "y": 189,
+      "beforeGid": 40999,
+      "afterGid": 0
+    }
+  ]
+}

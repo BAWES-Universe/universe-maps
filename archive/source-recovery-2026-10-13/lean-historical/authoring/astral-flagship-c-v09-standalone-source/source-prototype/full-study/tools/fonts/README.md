@@ -1,0 +1,1 @@
+Build-only fonts for byte-identical review-card text. These are not original generated artwork and are not runtime dependencies. Copied from the existing Debian DejaVu Sans installation; the installed copyright/license file is LICENSE.txt. Bundled here solely to remove machine-specific font-path dependencies from the four documented art commands.

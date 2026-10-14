@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./lantern-souk-bazaar-r5.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "lantern-souk-bazaar-r5-spawn",
+      "name": "Safe arrival",
+      "x": 972,
+      "y": 1163,
+      "width": 8,
+      "height": 8,
+      "visible": true,
+      "properties": [
+        {
+          "id": "lantern-souk-bazaar-r5-default-start",
+          "type": "start",
+          "isDefault": true
+        }
+      ]
+    }
+  ]
+}

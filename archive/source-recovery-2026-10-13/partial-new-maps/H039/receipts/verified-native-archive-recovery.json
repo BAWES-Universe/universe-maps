@@ -1,0 +1,38 @@
+[
+  {
+    "file": "tools/native-source/StartPositionCalculator.ts",
+    "archive": "/workspace/shared/map-library-recovery/restored/overnight-50-source-01-of-07.zip!packages/N01-r3-source.zip",
+    "member": "tools/native/source/StartPositionCalculator.ts",
+    "expectedSHA256": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+    "actualSHA256": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+    "matches": true,
+    "expectedHashSource": "Retained H039 original actor provenance or native spawn report tool output."
+  },
+  {
+    "file": "tools/native-source/MathUtils.ts",
+    "archive": "/workspace/shared/map-library-recovery/restored/overnight-50-source-01-of-07.zip!packages/N01-r3-source.zip",
+    "member": "tools/native/source/libs/math-utils/src/MathUtils.ts",
+    "expectedSHA256": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+    "actualSHA256": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+    "matches": true,
+    "expectedHashSource": "Retained H039 original actor provenance or native spawn report tool output."
+  },
+  {
+    "file": "source/actors/Female 04-1.png",
+    "archive": "/workspace/shared/map-library-recovery/restored/overnight-50-source-05-of-07.zip!packages/N18-r3-source.zip",
+    "member": "source/actors/Female 04-1.png",
+    "expectedSHA256": "3554502d83883e873f3150f544787076a9889320264e0ab5955fca61bde674c9",
+    "actualSHA256": "3554502d83883e873f3150f544787076a9889320264e0ab5955fca61bde674c9",
+    "matches": true,
+    "expectedHashSource": "Retained H039 original actor provenance or native spawn report tool output."
+  },
+  {
+    "file": "source/actors/Male 09-4.png",
+    "archive": "/workspace/shared/map-library-recovery/restored/overnight-50-source-05-of-07.zip!packages/N18-r3-source.zip",
+    "member": "source/actors/Male 09-4.png",
+    "expectedSHA256": "a85403821a61cb1603c161fefc0170f64721a99c26fcec8e484665fc238f812b",
+    "actualSHA256": "a85403821a61cb1603c161fefc0170f64721a99c26fcec8e484665fc238f812b",
+    "matches": true,
+    "expectedHashSource": "Retained H039 original actor provenance or native spawn report tool output."
+  }
+]

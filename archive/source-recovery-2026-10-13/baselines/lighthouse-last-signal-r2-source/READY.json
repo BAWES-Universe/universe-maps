@@ -1,0 +1,20 @@
+{
+  "revision": "r2",
+  "status": "READY_FOR_FRESH_INDEPENDENT_REVIEW",
+  "replaces": "r1 only after review; r1 unchanged",
+  "scope": "Additive map script only; no publication, engine edits or live room changes",
+  "runtimeEntry": "runtime/lighthouse-last-signal.wam",
+  "scriptSHA256": "eeaae3d76ba5a1ae73eadb8faeab47e47bc90d1ef5090c1ef907c40137d71c5a",
+  "tmjSHA256": "3f0da81589faee13032922a438cdac5d3fa33ed87f22752c1b826abbde993b0e",
+  "tests": {
+    "interaction": 18,
+    "nativeRouteLegs": 800,
+    "nativeMapChanges": 2624,
+    "nativeMovementSamples": 1118624,
+    "failures": 0
+  },
+  "browser": "NOT RUN: independent prior Chromium launch blocked by process-singleton socket restriction; no bypass",
+  "inGame": "NOT RUN; owner/admin-approved isolated QA room needed",
+  "audioHardware": "NOT RUN",
+  "fixedBlocker": "Global journal uses screen-space action message; nearby popups only at rings; off-station global sound-off and explicit temporary restart confirmation; Close is nondestructive."
+}

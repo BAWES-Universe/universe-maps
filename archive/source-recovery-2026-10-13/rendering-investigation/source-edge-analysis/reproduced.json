@@ -1,0 +1,56 @@
+{
+  "reading-r4": {
+    "model": "Premultiplied bilinear sample at source coordinate + (0.5,0.5), then foreground source-over base. Ideal contiguous planes, no atlas bleed or geometry gaps simulated. Not GPU evidence.",
+    "complementaryAlphaExact": true,
+    "outputSamplesBelowOpaque": 775,
+    "minimumCompositedAlpha": 0.75,
+    "exampleWorldSample": [
+      462.5,
+      309.5
+    ],
+    "exampleAlpha": 0.75,
+    "exampleIndependentRGBOverDark": [
+      76,
+      83,
+      56
+    ],
+    "exampleCompositeFirstRGB": [
+      95,
+      105,
+      65
+    ],
+    "proofBox": [
+      445,
+      295,
+      490,
+      332
+    ]
+  },
+  "studio-r8": {
+    "model": "Premultiplied bilinear sample at source coordinate + (0.5,0.5), then foreground source-over base. Ideal contiguous planes, no atlas bleed or geometry gaps simulated. Not GPU evidence.",
+    "complementaryAlphaExact": true,
+    "outputSamplesBelowOpaque": 2507,
+    "minimumCompositedAlpha": 0.75,
+    "exampleWorldSample": [
+      269.5,
+      571.5
+    ],
+    "exampleAlpha": 0.8125,
+    "exampleIndependentRGBOverDark": [
+      99,
+      89,
+      25
+    ],
+    "exampleCompositeFirstRGB": [
+      118,
+      105,
+      24
+    ],
+    "proofBox": [
+      246,
+      552,
+      293,
+      590
+    ]
+  }
+}

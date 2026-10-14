@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "package_id": "mission-control-center-r1-rebuild",
+  "destination": "original12/mission-control-center-r1-rebuild",
+  "artifact": {
+    "name": "mission-control-center-r1-rebuild.zip",
+    "library_file_id": "libfile_17e189ca99c88191afcc28ee567bfbd2",
+    "version_id": null,
+    "sha256": "48ec81a28910dc31858dde16f2811c6e912530fd8ef70a7780e1b9552d184ccd",
+    "size_bytes": 16756898
+  },
+  "nested_archives": [],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "mission-control-center/FREEZE.json",
+      "sha256": "0b1c4c86d25dd225836b0114b4c3f12162f83f9370965e0b0b5f981b4be1d09d",
+      "size_bytes": 3934,
+      "git_blob_sha1": "259250ba44b34053c31e79525c22cfede5d9ccc3",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "mission-control-center/VALIDATION.json",
+      "sha256": "eafe88f1aa10a4540356d0c311980f0b3cdb1cc1c5f48e8e07a1ffa2ae0b0b8f",
+      "size_bytes": 960,
+      "git_blob_sha1": "2b9f16f74f48749a28d054ce702d5a2a1169ea6e",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "mission-control-center/NATIVE-ROUTES.json",
+      "sha256": "119c8e7ebdc16f6e629f187f5242eee5559b9635023bd0ab1412cee030cf7b2c",
+      "size_bytes": 234104,
+      "git_blob_sha1": "5488e906fa8c343f6430127da2e7db0981ec0bf5",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "mission-control-center/GUIDE.md",
+      "sha256": "fa2b1d8ce4dcf1339fa0dbe51443f01c426e17db3c3eb58bddb72ae1c2210e1c",
+      "size_bytes": 2599,
+      "git_blob_sha1": "74101783c8936398f48757da5899aa78b3d4fad6",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "mission-control-center/MANIFEST.json",
+      "sha256": "9dcd0ac4162c03419820be097e98fe36d57344edc9166a564dfd0f0d1f3c8095",
+      "size_bytes": 3452,
+      "git_blob_sha1": "7a26603e6d579c1ead045322958b7d637632fef8",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "mission-control-center/HEAD-GEOMETRY.json",
+      "sha256": "e5ac79f4a2c6c56987b56512626bbd7e5320e0e265d8709e4284c9925ed18025",
+      "size_bytes": 4184,
+      "git_blob_sha1": "897ca8a30f39e7b3b1dad30bb9d69639a98c1e71",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "mission-control-center/map32/map.wam",
+      "sha256": "4610a85e4ef2903e5942c17c86094f3383c5af59c7e6ecb9316bc42fb2f397e0",
+      "size_bytes": 644,
+      "git_blob_sha1": "05e9db2091cbee7b477576bfe74ba89b9112ed39",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "mission-control-center/map32/architecture-and-furniture-1.png",
+      "sha256": "b6c35063127ab1cf62e2df50cd4a9ea27aac6c017534d879b37f4c70516cecc1",
+      "size_bytes": 739919,
+      "git_blob_sha1": "6be00a8c6d8e8c33257cc00e9f30471286a1b801",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "mission-control-center/map32/seat-backs-0.png",
+      "sha256": "a237c4abc247618da5454083300892ab57bbd9a2f473642ce0490524f48227fa",
+      "size_bytes": 1501,
+      "git_blob_sha1": "21318a9fcb59a9723d6d4df8dcc9ec65e0d3167b",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "mission-control-center/map32/map.tmj",
+      "sha256": "0d585f41476c1b1d625ce43904400b85d7c08a4135b78db5fda871fa76bbf230",
+      "size_bytes": 78847,
+      "git_blob_sha1": "6f9652ea1572589047150684ebcf17804f045bf1",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "mission-control-center/map32/architecture-and-furniture-0.png",
+      "sha256": "a04ccd0e9f5a28996f16c52fc0d620ade71bb6af1a0cb13fa1bbf6ed50def0bd",
+      "size_bytes": 1660000,
+      "git_blob_sha1": "d98863ee253ab031cb470802033697fbc7773399",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "mission-control-center/map32/logic.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "mission-control-center/source/foreground-safety.json",
+      "sha256": "d95a97e4094d8f0397ca35f30f2e84d95752853b9e14500bef68306d40153f28",
+      "size_bytes": 195,
+      "git_blob_sha1": "97b41f04c4e14d03ae42cb2e1cdeae676d66457a",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "mission-control-center/source/layout.json",
+      "sha256": "88fdae64923114386a7bdd95cd19b0b0dacca006eacf2a6c59ad5d7768a6cc16",
+      "size_bytes": 16964,
+      "git_blob_sha1": "11ba4ed5b2d86a6718a3e6c4812f10f56b5bfdc5",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "mission-control-center/assets/above.png",
+      "sha256": "3078bc08d4d63f32805300d0cef078359553887095fa70961f58476512fdcf36",
+      "size_bytes": 10774,
+      "git_blob_sha1": "a2805449d383b53932c07c5274bcaaec49abe299",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "mission-control-center/assets/base.png",
+      "sha256": "4fb27e6ab076984843b483847ad8f591f003c12fc75e708b14d873d6da6c09b6",
+      "size_bytes": 2387964,
+      "git_blob_sha1": "08ddb22b4e74bc606ee07fa9b15b97a68c6b2cf6",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "mission-control-center/review/briefing-occupied-native.png",
+      "sha256": "0647984fb252d2e94a0c377217310710f9d1df7823c23591d415d874977c3ec9",
+      "size_bytes": 163432,
+      "git_blob_sha1": "6616a6e56d07036c52195a6dc5b497be57ea6f77",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "mission-control-center/review/occupied-native.png",
+      "sha256": "dfeb594a48ac50f6aa2ee105e6f4411d2c4b952cc23f218cc76f2f92f4d0e0fd",
+      "size_bytes": 2392957,
+      "git_blob_sha1": "3a5c3c6a6bb0f12ff87600cfa6e6833d3275dca7",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "mission-control-center/review/collision-overlay.png",
+      "sha256": "5b8cf5bd915ad49d1fb74dd249306cbb9a04a0c4c59dc26bdfd2b55b5281e19b",
+      "size_bytes": 2166930,
+      "git_blob_sha1": "5b715c4ad40eec6f64afcf8a1d44ec87967c66e1",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "mission-control-center/review/empty-native.png",
+      "sha256": "ae43577d1dcf4ec15d3250b842641a92fd24968f93f6ad7e79f199aa03370d0f",
+      "size_bytes": 2387506,
+      "git_blob_sha1": "eb04852f114b7165599a26739b81f2930bb8ab12",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "mission-control-center/review/overview.png",
+      "sha256": "007ec4c651219b1699da1abe5e92fc90ed9dd40c14472b80eb6db34796bb1006",
+      "size_bytes": 2136935,
+      "git_blob_sha1": "fe0a5c614d0d941662c7dd67605e39dddce7b25f",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "mission-control-center/review/operators-occupied-native.png",
+      "sha256": "a5ff6052d2c40bf631ce8425aa5312d15fb7311dd12fc41d9834aca954e61365",
+      "size_bytes": 298902,
+      "git_blob_sha1": "28114fb1d17c78f709e468a85d123270498033c6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "mission-control-center/review/incident-occupied-native.png",
+      "sha256": "c8b1fe43d4fdf542388c7a498c0d44dea2c2ef9515e75f8ff197e3be6da8f382",
+      "size_bytes": 137321,
+      "git_blob_sha1": "c3a9dafc41fabbe079a8c5022da5440f6fc68970",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "tools/build_environments.py",
+      "sha256": "ef8f0a7ffd18c33337fc89f80fa06c40adee9d5c48ed0a5aadf7c6b274b94386",
+      "size_bytes": 9028,
+      "git_blob_sha1": "99e2a3f3e229d2c7fee18088ffa22f45e22974de",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/lean_rebuild.py",
+      "sha256": "7308f68cc69e46bb5e09bbdcd175093bbfd41d40dc95ff18ef5c822d37fe782e",
+      "size_bytes": 2756,
+      "git_blob_sha1": "dfe41de336045b8a6882839b7bc1ebed0ad7f9fc",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/freeze_map.py",
+      "sha256": "495a7cf626c1d798b2231ed3580fa36d385f9badb4aa8ddc5f0a5bee9f338f21",
+      "size_bytes": 2140,
+      "git_blob_sha1": "5720c23896dce6660063af22e3698bf2631065f8",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/build_templates.py",
+      "sha256": "8bd8b995d7b6e55ba7832ed5738df1ff90af5f3c786beca289b62e5e007d199a",
+      "size_bytes": 27004,
+      "git_blob_sha1": "36d2581832a4fdcff10035fdaa030f6e1c57e4bc",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/verify_native_routes.cjs",
+      "sha256": "19f33de870f99717d04930e8a85224360bcbd2e398a651795cf95d91574f670d",
+      "size_bytes": 4406,
+      "git_blob_sha1": "6265e9a6a05fa5290e19608b296c5345999f4785",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/check_head_geometry.py",
+      "sha256": "2cf2fea538db50f8304c2a0dc81de1c7153c65027d91b0a13ab1c4c211a05db0",
+      "size_bytes": 8091,
+      "git_blob_sha1": "bcecb2a91853f05a5e2977655899ea5ca79b038b",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native-fixture/easystar-0.4.4.js",
+      "sha256": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+      "size_bytes": 25143,
+      "git_blob_sha1": "91c1011123b2eafdb0d3de614120ad6a9d9c5279",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native-fixture/extracted-current-source.cjs",
+      "sha256": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+      "size_bytes": 31744,
+      "git_blob_sha1": "4df97863541382687271aa3dc753ae57438f1cc1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native-fixture/native-runtime-portable.cjs",
+      "sha256": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+      "size_bytes": 2190,
+      "git_blob_sha1": "7c2d9ca60b15caa8e5495862eb9186d1a4dd6fb1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source-assets/light-desk.png",
+      "sha256": "7155fbfee4ff74ef08b4b810d9b8fb14a126fd563f10a9407e5672ce70523e8a",
+      "size_bytes": 6526,
+      "git_blob_sha1": "0952f18c2bc17f70446ff1e48b4ebdb946736296",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source-assets/industrial-chair-provenance.json",
+      "sha256": "47dd0f2aac55a4029042a8b482c6855b40554f7527c943d7f10fb8e8ce75d47d",
+      "size_bytes": 3222,
+      "git_blob_sha1": "0676c27c8dde02c3ba87f9ada1c697a224436785",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source-assets/chair-foreground-safe.png",
+      "sha256": "a006ec51a437ad6fbfe20570ca62a18546900ffa9606ef997bf896625b223af3",
+      "size_bytes": 828,
+      "git_blob_sha1": "6d23a5260b865c0fca42aa819426f6367e9b3991",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source-assets/command-environment-clear.png",
+      "sha256": "9fefb4d4cc57d117df627dead2ee92ad369d898349021d8d11dc41de22be6be8",
+      "size_bytes": 2231159,
+      "git_blob_sha1": "b2afd67be0515137e497ab997c71143c55ad06ee",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source-assets/low-lounge-table.png",
+      "sha256": "22d1169759331b49481442afe2fcecd8432dfa76813a957eec61c684b0944241",
+      "size_bytes": 5721,
+      "git_blob_sha1": "662478ed3227a417f98d30a798319f34aeb20c45",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source-assets/podium-above.png",
+      "sha256": "4665b7c1d461062e1db3a1566d9772665ebdc8cc569061b03fbefc814959e506",
+      "size_bytes": 3289,
+      "git_blob_sha1": "c04fbc09d16733a5b33a556b2149130b691fbef8",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source-assets/greg-reference.png",
+      "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+      "size_bytes": 9396,
+      "git_blob_sha1": "26c5fb73b09082ba3f8453d9766e672e2432155b",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source-assets/chair-below-safe.png",
+      "sha256": "e78ae892d40b427a512a45c8e47f0d92650e8767247b9902bb0889ca1a0c8fea",
+      "size_bytes": 2196,
+      "git_blob_sha1": "911074235aea5e5206ce8b2f290b7a77ede0a5f3",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source-assets/industrial-chair40-native.png",
+      "sha256": "8815105ad53384c9a42ddb46a6cf440075a79256d0a20b1aa0369b3edde97037",
+      "size_bytes": 3667,
+      "git_blob_sha1": "b23d9aa554e842a7b7d996f162370ab1b83afe13",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source-assets/podium-below.png",
+      "sha256": "04bbe7732e3146a48a72763eb6aa5672851e139d40f838bb4741a7aaf8f3cbc2",
+      "size_bytes": 6507,
+      "git_blob_sha1": "21eaf10b2f87ffa8a9a039768a5b53c02676f8b8",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ASSET-PROVENANCE.md",
+      "sha256": "d13aae01117cce05e41d99299cd6ebd15ea0c5586de186a80762d3e138a42fed",
+      "size_bytes": 2990,
+      "git_blob_sha1": "b727f9fa8af971998b732920a0b0398e003fc85b",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "d79903a56dc4d3270b9a4f083fd03e56d95c545407bf0839a4d5f28fe21fa8f4",
+      "size_bytes": 22,
+      "git_blob_sha1": "41af71b529481d272f85fdad660683ee4d2c08b1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "REBUILD-INSTRUCTIONS.md",
+      "sha256": "f5c2e4a365011d07103fdaa981b914b66661c0fb2e103789a6d1572636a11bfb",
+      "size_bytes": 803,
+      "git_blob_sha1": "2b9a93c2eecc68f859350edf191335e01482aeb0",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    }
+  ]
+}

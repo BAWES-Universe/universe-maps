@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N23-zone-1",
+      "name": "Navigation briefing",
+      "x": 176,
+      "y": 464,
+      "width": 336,
+      "height": 112,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N23-zone-2",
+      "name": "Aircraft maintenance teaching",
+      "x": 848,
+      "y": 464,
+      "width": 464,
+      "height": 208,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

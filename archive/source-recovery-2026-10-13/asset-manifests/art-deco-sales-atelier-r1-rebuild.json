@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "package_id": "art-deco-sales-atelier-r1-rebuild",
+  "destination": "original12/art-deco-sales-atelier-r1-rebuild",
+  "artifact": {
+    "name": "art-deco-sales-atelier-r1-rebuild.zip",
+    "library_file_id": "libfile_400b946af2388191818741fb0cd92f98",
+    "version_id": null,
+    "sha256": "e65e7abb4f9cc877534d81cb68c72ed61de6ad1b6b5b861aa2504663138ca012",
+    "size_bytes": 8144227
+  },
+  "nested_archives": [],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "tools/build_environments.py",
+      "sha256": "99f3afe2d2d3b5d12ed0cf9fc381da4d694a3fd0005afcbcb4daa7510eaee866",
+      "size_bytes": 10090,
+      "git_blob_sha1": "c348acccb698a259705ec84e20c050c265ee7582",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/build_templates.py",
+      "sha256": "e1cbee1ae009dc69b211f8a9de9d3a9cbdefd92fade738bfe5d89117935e1e9d",
+      "size_bytes": 26956,
+      "git_blob_sha1": "889dbe2f5cbcd378a8ef50f991c9ab873f16fd0f",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/verify_native_routes.cjs",
+      "sha256": "ff93d83b56f04ac32f4f2237bbb8ccd76e3dff9c9cb3acbcaf1a17dd5a751b63",
+      "size_bytes": 4406,
+      "git_blob_sha1": "1ba3111b5bb2146e1ab6bac5a6f2e027bac718b5",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/check_head_geometry.py",
+      "sha256": "185983f44bf0ec3ee01029cab32ab40cbc433b6a50c3601b643c23455b203b09",
+      "size_bytes": 8092,
+      "git_blob_sha1": "23a384ce3508b8522e83691d5765f6b6c31f0803",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native-fixture/easystar-0.4.4.js",
+      "sha256": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+      "size_bytes": 25143,
+      "git_blob_sha1": "91c1011123b2eafdb0d3de614120ad6a9d9c5279",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native-fixture/extracted-current-source.cjs",
+      "sha256": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+      "size_bytes": 31744,
+      "git_blob_sha1": "4df97863541382687271aa3dc753ae57438f1cc1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native-fixture/native-runtime-portable.cjs",
+      "sha256": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+      "size_bytes": 2190,
+      "git_blob_sha1": "7c2d9ca60b15caa8e5495862eb9186d1a4dd6fb1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source-assets/DejaVu-LICENSE.txt",
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+      "size_bytes": 3859,
+      "git_blob_sha1": "b3d93a1235a82213fbc451853317c40e62ed9272",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source-assets/light-desk.png",
+      "sha256": "7155fbfee4ff74ef08b4b810d9b8fb14a126fd563f10a9407e5672ce70523e8a",
+      "size_bytes": 6526,
+      "git_blob_sha1": "0952f18c2bc17f70446ff1e48b4ebdb946736296",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source-assets/industrial-chair-provenance.json",
+      "sha256": "47dd0f2aac55a4029042a8b482c6855b40554f7527c943d7f10fb8e8ce75d47d",
+      "size_bytes": 3222,
+      "git_blob_sha1": "0676c27c8dde02c3ba87f9ada1c697a224436785",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source-assets/DejaVuSans-Bold.ttf",
+      "sha256": "a4c5bc453ca281d90ea079e596da7ae0dfeb5777497c29ec254e76d97ff6f890",
+      "size_bytes": 708920,
+      "git_blob_sha1": "0a7fb3f0407f69c14369e71baeb43e8d0e3a5138",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source-assets/chair-foreground-safe.png",
+      "sha256": "a006ec51a437ad6fbfe20570ca62a18546900ffa9606ef997bf896625b223af3",
+      "size_bytes": 828,
+      "git_blob_sha1": "6d23a5260b865c0fca42aa819426f6367e9b3991",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source-assets/low-lounge-table.png",
+      "sha256": "22d1169759331b49481442afe2fcecd8432dfa76813a957eec61c684b0944241",
+      "size_bytes": 5721,
+      "git_blob_sha1": "662478ed3227a417f98d30a798319f34aeb20c45",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source-assets/sales-environment-flat.png",
+      "sha256": "d7f46b790d940367a3709040d261e996437bbc907c109257d1bc1e026a9e67d5",
+      "size_bytes": 2408626,
+      "git_blob_sha1": "e187b8fada41c4cdc683245662423b8c6149b5c9",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source-assets/greg-reference.png",
+      "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+      "size_bytes": 9396,
+      "git_blob_sha1": "26c5fb73b09082ba3f8453d9766e672e2432155b",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source-assets/DejaVuSans.ttf",
+      "sha256": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e",
+      "size_bytes": 759720,
+      "git_blob_sha1": "1728e9ec32bad1522771b4e5d3d05149e7b06a88",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source-assets/chair-below-safe.png",
+      "sha256": "e78ae892d40b427a512a45c8e47f0d92650e8767247b9902bb0889ca1a0c8fea",
+      "size_bytes": 2196,
+      "git_blob_sha1": "911074235aea5e5206ce8b2f290b7a77ede0a5f3",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source-assets/light-meeting_table.png",
+      "sha256": "604bf96f1749b57098bcb60d7fb0fc2cc325bf7c4e3b59437b2758598af1f1f3",
+      "size_bytes": 17218,
+      "git_blob_sha1": "9df42cbb4ff502318130b8cc03d83dc48c6dbc42",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source-assets/industrial-chair40-native.png",
+      "sha256": "8815105ad53384c9a42ddb46a6cf440075a79256d0a20b1aa0369b3edde97037",
+      "size_bytes": 3667,
+      "git_blob_sha1": "b23d9aa554e842a7b7d996f162370ab1b83afe13",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "d79903a56dc4d3270b9a4f083fd03e56d95c545407bf0839a4d5f28fe21fa8f4",
+      "size_bytes": 22,
+      "git_blob_sha1": "41af71b529481d272f85fdad660683ee4d2c08b1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "ASSET-PROVENANCE.md",
+      "sha256": "0ec03298f05c0d95b4159ea34a330d535cbc93e31659338b1b088f1180f38479",
+      "size_bytes": 4156,
+      "git_blob_sha1": "b412e5213e7b18ae3630fdab0940c5f97ac2fd87",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "GENERATION-PROMPTS.md",
+      "sha256": "4a483a5a6110edb6cf7ef8c11e9e15b42bbe37a9300d528b92c10f7fc1125b92",
+      "size_bytes": 2894,
+      "git_blob_sha1": "fdc664ce5a0d5429db820ae389b7457cde3cd4af",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "HARNESS-RETURN-FIX.diff",
+      "sha256": "84838636f54fb3b9fc86c22b45951aa9cd3dae8b7a0627febe243e4392de9255",
+      "size_bytes": 5164,
+      "git_blob_sha1": "ae1bd2256bb50535cf43b37a10dc54ecbc4baef2",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "NATIVE-FIXTURE-HASHES.json",
+      "sha256": "7280e19517a5b988547f4583560a60d56b89e536ee812808a22074d7ecab4839",
+      "size_bytes": 479,
+      "git_blob_sha1": "23e7be052034df0c9d53a19375db394b8e68d953",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "reference/GUIDE.md",
+      "sha256": "07bf29810562950b5b032b1f6c4688ba4f64cf21cfd8b9cb62fde2c25d46eb29",
+      "size_bytes": 2805,
+      "git_blob_sha1": "deda485614c552360ba02da8e2bcd5919232f480",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "reference/FREEZE.json",
+      "sha256": "8d395145bfd2df2a2d3a10b553a2e0940f108cf6d37a01f00ee226fa31f1c6eb",
+      "size_bytes": 5041,
+      "git_blob_sha1": "b6b7ef5aaa80e44e9720e08b634b54c2963ec61d",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "reference/VALIDATION.json",
+      "sha256": "d9dc3ab16551a045b4b842c772ac432d254555d7a523eff037f41721f3893023",
+      "size_bytes": 964,
+      "git_blob_sha1": "a92a8170dec6be979f618713afe3e6531e05f32b",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "reference/NATIVE-ROUTES.json",
+      "sha256": "80097efb423917d822c5548a4305bc020be0491086937d1446d0b809dc580809",
+      "size_bytes": 375972,
+      "git_blob_sha1": "2227af159e034be1837687eb73a816d2ad781160",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "reference/HEAD-GEOMETRY.json",
+      "sha256": "647c1aa30c89035e49348e8ebb4d0c2ef6ca245224a358f611edba69f180c3a4",
+      "size_bytes": 7245,
+      "git_blob_sha1": "8615733b3bd25fe21dbb4d94b796c61cb4c47adf",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "reference/map32/map.wam",
+      "sha256": "5738991ece4927fa6f71c3f965e5abd38cc205c8012723e58964bf4ee45de498",
+      "size_bytes": 2157,
+      "git_blob_sha1": "b2d1c87aa4115f9e7fa7265f688c012aaf3793cd",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "reference/map32/architecture-and-furniture-1.png",
+      "sha256": "3d74e42a34c335db30d831211375f870a2fd722186f780a15a24e860f10dd7a6",
+      "size_bytes": 788242,
+      "git_blob_sha1": "83c88aeaa36ed4d44c7a6c654bd3589931c6e0a1",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "reference/map32/seat-backs-0.png",
+      "sha256": "fa4032809f1370829e4f42dd75a56a5509771b0c72bef51e3d7d388f57ebd008",
+      "size_bytes": 66422,
+      "git_blob_sha1": "aa954f49aa4339785cc0586e2d573a6d59a0cd62",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "reference/map32/map.tmj",
+      "sha256": "8b7ed220030fc38fb8f10a94e56370e1feadee5749ebe84968ee86e5347717df",
+      "size_bytes": 78490,
+      "git_blob_sha1": "cff56054f9e259db47d42415ae2aef16b4048abd",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "reference/map32/architecture-and-furniture-0.png",
+      "sha256": "fd8e328f534f07e5ee094a2bf4152d542f5652661e83d5d464ff87720681f558",
+      "size_bytes": 1807849,
+      "git_blob_sha1": "895e99a6960715339d9c7fe71a92b99a4b21bab3",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "reference/map32/logic.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "reference/overview.png",
+      "sha256": "a1fc3b7eefbc96355de717a5d30a7ad6557f0d807f5ca22c037b74a22c36a283",
+      "size_bytes": 2281066,
+      "git_blob_sha1": "064664cc0e6bb85d3fd950098cb1c9a88790768f",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "REBUILD-INSTRUCTIONS.md",
+      "sha256": "ea1fa38aed9cc88ddecf9a681c68e9556c5945928c76f3aaf0ff1dc56461dfa7",
+      "size_bytes": 808,
+      "git_blob_sha1": "549a7bf769c796fad53c717186c578dcbd5c8772",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    }
+  ]
+}

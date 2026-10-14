@@ -1,0 +1,11 @@
+{
+  "fixtureRevision": 1,
+  "phaser": "3.86.0",
+  "applicationSourceBase": "adc13cffd4e57aca6bc0353ad108bba423c61de1",
+  "narrowFixCommit": "44dda03e5108b6cd257ce8a3cdeb9630edb8d908",
+  "browserAcceptance": "not run",
+  "pointerSourceChecks": 9,
+  "lifecycleSourceChecks": 13,
+  "changes": "Explicit pointer displayScale plus scroll bounds; event-serialized latest-wins recreation, per-run callbacks, failure reporting.",
+  "filterMetadataSourceChecks": 12
+}

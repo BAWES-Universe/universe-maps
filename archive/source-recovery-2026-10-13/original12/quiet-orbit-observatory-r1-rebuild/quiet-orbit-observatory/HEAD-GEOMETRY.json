@@ -1,0 +1,259 @@
+{
+  "dimensions": [
+    48,
+    32,
+    32
+  ],
+  "source_reconstruction": {
+    "assets/base.png": true,
+    "assets/above.png": true
+  },
+  "random_spawns": [
+    {
+      "name": "start",
+      "xRange": [
+        784,
+        784
+      ],
+      "yRange": [
+        944,
+        944
+      ],
+      "samples": 1,
+      "bad": [],
+      "badCount": 0
+    }
+  ],
+  "walkable_cells": 368,
+  "unreachable_cells": 0,
+  "quiet_cells": 1,
+  "anchors": [
+    {
+      "id": "telescope west",
+      "x": 624,
+      "y": 303,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "telescope east",
+      "x": 944,
+      "y": 303,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "observation ring",
+      "x": 784,
+      "y": 463,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "north telescope loop",
+      "x": 784,
+      "y": 175,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "northwest telescope loop",
+      "x": 656,
+      "y": 239,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "northeast telescope loop",
+      "x": 912,
+      "y": 239,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research entry",
+      "x": 656,
+      "y": 623,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seminar speaker",
+      "x": 1168,
+      "y": 527,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seminar entry",
+      "x": 912,
+      "y": 623,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "arrival",
+      "x": 784,
+      "y": 943,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": true
+    },
+    {
+      "id": "research-1",
+      "x": 240,
+      "y": 591,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-2",
+      "x": 496,
+      "y": 591,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-3",
+      "x": 240,
+      "y": 687,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "research-4",
+      "x": 496,
+      "y": 687,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seminar-1",
+      "x": 1040,
+      "y": 591,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seminar-2",
+      "x": 1136,
+      "y": 591,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seminar-3",
+      "x": 1232,
+      "y": 591,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seminar-4",
+      "x": 1328,
+      "y": 591,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seminar-5",
+      "x": 1040,
+      "y": 687,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seminar-6",
+      "x": 1136,
+      "y": 687,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seminar-7",
+      "x": 1232,
+      "y": 687,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seminar-8",
+      "x": 1328,
+      "y": 687,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    }
+  ],
+  "body_clear_positions": 314042,
+  "head_conflicts": 0,
+  "head_conflict_examples": [],
+  "media_areas": [
+    {
+      "id": "quiet-orbit-observatory-0",
+      "name": "Seminar speaker",
+      "x": 960,
+      "y": 512,
+      "width": 415,
+      "height": 31,
+      "visible": true,
+      "properties": [
+        {
+          "id": "quiet-orbit-observatory-0-speaker",
+          "type": "speakerMegaphone",
+          "name": "quiet-orbit-observatory-0",
+          "chatEnabled": false
+        }
+      ],
+      "reachable_membership_positions": 4992
+    },
+    {
+      "id": "quiet-orbit-observatory-1",
+      "name": "Seminar audience",
+      "x": 960,
+      "y": 544,
+      "width": 415,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "quiet-orbit-observatory-1-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "quiet-orbit-observatory-0",
+          "chatEnabled": false
+        }
+      ],
+      "reachable_membership_positions": 60216
+    }
+  ],
+  "issues": [],
+  "scope": "Independent actual-TMJ atlas decode, collision-derived cardinal connectivity and exhaustive integer source body/head geometry; not native route replay, browser, physics keyboard, devices, media or deployment.",
+  "input_hashes": {
+    "map32/architecture-and-furniture-0.png": "b0facf25c3428c4d6c40a24e2ec51ec996b77072db6d90ae7938218b4a79f5be",
+    "map32/architecture-and-furniture-1.png": "a37da6645462544341894f6bd299db8c83dde7f3d52741e18795957ef425bea2",
+    "map32/logic.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "map32/map.tmj": "b37a1b274115d959d5d513798ab6e1bfbc50d493b714db7c3835f93b17977fa1",
+    "map32/map.wam": "3f8a40ff8362e0a93471e2e5d7f027e58aabb89f21562cc60dded2e53410c49e",
+    "map32/seat-backs-0.png": "58e071109efc199fb9206b4c46193b88ec7ecdef5a0b08cb8673dc32b8cc0c6f"
+  }
+}

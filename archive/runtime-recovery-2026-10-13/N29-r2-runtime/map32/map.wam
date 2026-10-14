@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N29-zone-1",
+      "name": "Manuscript instruction",
+      "x": 416,
+      "y": 272,
+      "width": 704,
+      "height": 112,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N29-zone-2",
+      "name": "Pigment study",
+      "x": 208,
+      "y": 320,
+      "width": 128,
+      "height": 80,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N29-zone-3",
+      "name": "Parchment workshop",
+      "x": 1184,
+      "y": 352,
+      "width": 144,
+      "height": 48,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N29-zone-4",
+      "name": "Herb cloister exchange",
+      "x": 448,
+      "y": 528,
+      "width": 192,
+      "height": 208,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "dimensions": [
+    48,
+    32,
+    32
+  ],
+  "source_reconstruction": {
+    "assets/base.png": true,
+    "assets/above.png": true
+  },
+  "random_spawns": [
+    {
+      "name": "start",
+      "xRange": [
+        656,
+        656
+      ],
+      "yRange": [
+        976,
+        976
+      ],
+      "samples": 1,
+      "bad": [],
+      "badCount": 0
+    }
+  ],
+  "walkable_cells": 554,
+  "unreachable_cells": 0,
+  "quiet_cells": 1,
+  "anchors": [
+    {
+      "id": "teacher",
+      "x": 560,
+      "y": 143,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Study A entry",
+      "x": 1168,
+      "y": 207,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "Study B entry",
+      "x": 1168,
+      "y": 463,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "classroom door",
+      "x": 560,
+      "y": 495,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "fountain",
+      "x": 208,
+      "y": 719,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "court center",
+      "x": 592,
+      "y": 687,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "court west loop",
+      "x": 208,
+      "y": 623,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "court east loop",
+      "x": 944,
+      "y": 719,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "reading veranda",
+      "x": 1264,
+      "y": 719,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "arrival",
+      "x": 656,
+      "y": 975,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": true
+    },
+    {
+      "id": "seat-01",
+      "x": 368,
+      "y": 271,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-02",
+      "x": 432,
+      "y": 271,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-03",
+      "x": 496,
+      "y": 271,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-04",
+      "x": 624,
+      "y": 271,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-05",
+      "x": 688,
+      "y": 271,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-06",
+      "x": 752,
+      "y": 271,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-07",
+      "x": 368,
+      "y": 335,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-08",
+      "x": 432,
+      "y": 335,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-09",
+      "x": 496,
+      "y": 335,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-10",
+      "x": 624,
+      "y": 335,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-11",
+      "x": 688,
+      "y": 335,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-12",
+      "x": 752,
+      "y": 335,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-13",
+      "x": 368,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-14",
+      "x": 432,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-15",
+      "x": 496,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-16",
+      "x": 624,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-17",
+      "x": 688,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-18",
+      "x": 752,
+      "y": 399,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-19",
+      "x": 1264,
+      "y": 239,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-20",
+      "x": 1296,
+      "y": 239,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-21",
+      "x": 1264,
+      "y": 495,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    },
+    {
+      "id": "seat-22",
+      "x": 1296,
+      "y": 495,
+      "bodyClear": true,
+      "reachable": true,
+      "silent": false
+    }
+  ],
+  "body_clear_positions": 475121,
+  "head_conflicts": 38924,
+  "head_conflict_examples": [
+    [
+      904,
+      539
+    ],
+    [
+      905,
+      539
+    ],
+    [
+      906,
+      539
+    ],
+    [
+      907,
+      539
+    ],
+    [
+      908,
+      539
+    ],
+    [
+      909,
+      539
+    ],
+    [
+      910,
+      539
+    ],
+    [
+      911,
+      539
+    ],
+    [
+      912,
+      539
+    ],
+    [
+      913,
+      539
+    ],
+    [
+      914,
+      539
+    ],
+    [
+      915,
+      539
+    ],
+    [
+      916,
+      539
+    ],
+    [
+      917,
+      539
+    ],
+    [
+      918,
+      539
+    ],
+    [
+      919,
+      539
+    ],
+    [
+      920,
+      539
+    ],
+    [
+      904,
+      540
+    ],
+    [
+      905,
+      540
+    ],
+    [
+      906,
+      540
+    ],
+    [
+      907,
+      540
+    ],
+    [
+      908,
+      540
+    ],
+    [
+      909,
+      540
+    ],
+    [
+      910,
+      540
+    ],
+    [
+      911,
+      540
+    ],
+    [
+      912,
+      540
+    ],
+    [
+      913,
+      540
+    ],
+    [
+      914,
+      540
+    ],
+    [
+      915,
+      540
+    ],
+    [
+      916,
+      540
+    ]
+  ],
+  "media_areas": [
+    {
+      "id": "olive-arabic-academy-0",
+      "name": "Teacher presentation",
+      "x": 480,
+      "y": 128,
+      "width": 159,
+      "height": 31,
+      "visible": true,
+      "properties": [
+        {
+          "id": "olive-arabic-academy-0-speaker",
+          "type": "speakerMegaphone",
+          "name": "olive-arabic-academy-0",
+          "chatEnabled": false
+        }
+      ],
+      "reachable_membership_positions": 2432
+    },
+    {
+      "id": "olive-arabic-academy-1",
+      "name": "Classroom audience",
+      "x": 288,
+      "y": 256,
+      "width": 543,
+      "height": 191,
+      "visible": true,
+      "properties": [
+        {
+          "id": "olive-arabic-academy-1-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "olive-arabic-academy-0",
+          "chatEnabled": false
+        }
+      ],
+      "reachable_membership_positions": 69198
+    },
+    {
+      "id": "olive-arabic-academy-2",
+      "name": "Study A",
+      "x": 1184,
+      "y": 160,
+      "width": 191,
+      "height": 95,
+      "visible": true,
+      "properties": [
+        {
+          "id": "olive-arabic-academy-2-room",
+          "type": "livekitRoomProperty",
+          "roomName": "olive-arabic-academy-2",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ],
+      "reachable_membership_positions": 12832
+    },
+    {
+      "id": "olive-arabic-academy-3",
+      "name": "Study B",
+      "x": 1184,
+      "y": 416,
+      "width": 191,
+      "height": 95,
+      "visible": true,
+      "properties": [
+        {
+          "id": "olive-arabic-academy-3-room",
+          "type": "livekitRoomProperty",
+          "roomName": "olive-arabic-academy-3",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false
+          }
+        }
+      ],
+      "reachable_membership_positions": 14719
+    }
+  ],
+  "issues": [
+    "Reachable foreground head conflicts"
+  ],
+  "scope": "Independent actual-TMJ atlas decode, collision-derived cardinal connectivity and exhaustive integer source body/head geometry; not native route replay, browser, physics keyboard, devices, media or deployment.",
+  "input_hashes": {
+    "map32/architecture-and-furniture-0.png": "592fedb7ab47aba83ea45cd15830dab02b701edc88c95e624ddae6030763f14d",
+    "map32/architecture-and-furniture-1.png": "a1f99cc41d74cd51c03f7c5371ccff93aeda52df6c77180bd075ee4e7b427b5c",
+    "map32/logic.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "map32/map.tmj": "f07ebab78cf437076dd3452d06ffd05182457657a87f1724d1d5016e1c73af87",
+    "map32/map.wam": "c9c71bf0d6285c7c9bc5d99fd445e5810a588d309f4a642d6a49d32fe45bacb9",
+    "map32/seat-backs-0.png": "cdc73bb3cf707c74cf37fc9ba62467f4b4c9068893adea3cbede9bba77ecc25b"
+  }
+}

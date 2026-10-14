@@ -1,0 +1,60 @@
+✖ default timer scheduling and cancellation retain browser-global receiver (10.086729ms)
+✖ native departure cleanup by descriptor removes every keyed menu; rejoin callbacks remain functional (4.913512ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 220.491491
+
+✖ failing tests:
+
+test at scratch/moonlit-repair-r3/baseline-regression-control/tests/repair-regression.cjs:10:1
+✖ default timer scheduling and cancellation retain browser-global receiver (10.086729ms)
+  AssertionError [ERR_ASSERTION]: native timer receiver
+  + actual - expected
+  
+  + {
+  - <ref *1> {
+      clearTimeout: [Function: clearTimeout],
+  -   globalRef: [Circular *1],
+  -   module: {
+  -     exports: {
+  -       createExperience: [Function: createExperience]
+  -     }
+  -   },
+      setTimeout: [Function: setTimeout]
+    }
+  
+      at Object.setTimeout (/workspace/scratch/moonlit-repair-r3/baseline-regression-control/tests/repair-regression.cjs:5:81)
+      at later (evalmachine.<anonymous>:10:38)
+      at Object.viewTerrace (evalmachine.<anonymous>:40:177)
+      at TestContext.<anonymous> (/workspace/scratch/moonlit-repair-r3/baseline-regression-control/tests/repair-regression.cjs:10:132)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [Object],
+    expected: [Object],
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at scratch/moonlit-repair-r3/baseline-regression-control/tests/repair-regression.cjs:11:1
+✖ native departure cleanup by descriptor removes every keyed menu; rejoin callbacks remain functional (4.913512ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  4 !== 0
+  
+      at TestContext.<anonymous> (/workspace/scratch/moonlit-repair-r3/baseline-regression-control/tests/repair-regression.cjs:11:269)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 4,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

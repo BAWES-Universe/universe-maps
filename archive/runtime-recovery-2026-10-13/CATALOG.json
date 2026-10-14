@@ -1,0 +1,1424 @@
+{
+  "schema_version": 1,
+  "description": "Exact recovered runtime bytes and required local assets. Backup preservation only; deployment and live acceptance are not established by this checkpoint.",
+  "prepared_against_commit": "f6c4ec62a2023e6f321a63b7db0269ffa0e60822",
+  "summary": {
+    "map_count": 80,
+    "runtime_paths": 596,
+    "unique_runtime_blobs": 489,
+    "runtime_path_bytes": 341991574,
+    "unique_runtime_bytes": 319374100,
+    "missing_runtime_blobs": 411,
+    "missing_runtime_bytes": 290141853,
+    "reused_runtime_blobs": 78,
+    "checks": {
+      "original_hashes_verified": 596,
+      "json_parsed": 155,
+      "png_verified": 420,
+      "wav_verified": 2,
+      "javascript_syntax_checked": 11
+    },
+    "local_dependency_edges_verified": 517,
+    "missing_local_dependencies": [],
+    "external_file_references": [],
+    "credential_pattern_findings": []
+  },
+  "maps": [
+    {
+      "id": "N01-r3-runtime",
+      "name": "Ember Ridge Lodge",
+      "group": "N01-N50",
+      "path": "N01-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N01.tmj",
+        "N01.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2179698,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N02-r4-runtime",
+      "name": "Lantern Dune Majlis",
+      "group": "N01-N50",
+      "path": "N02-r4-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N02.tmj",
+        "N02.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2195238,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N03-r3-runtime",
+      "name": "Clay Circle Atelier",
+      "group": "N01-N50",
+      "path": "N03-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N03.tmj",
+        "N03.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2271130,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N04-r3-runtime",
+      "name": "Glassleaf Cooking Club",
+      "group": "N01-N50",
+      "path": "N04-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N04.tmj",
+        "N04.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2419146,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N05-r3-runtime",
+      "name": "Dicewood Table Club",
+      "group": "N01-N50",
+      "path": "N05-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N05.tmj",
+        "N05.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2022141,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N06-r2-runtime",
+      "name": "Copperbeat Rehearsal",
+      "group": "N01-N50",
+      "path": "N06-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N06.tmj",
+        "N06.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2237271,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N07-r3-runtime",
+      "name": "Harbor Tongues Exchange",
+      "group": "N01-N50",
+      "path": "N07-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N07.tmj",
+        "N07.wam"
+      ],
+      "file_count": 5,
+      "bytes": 1968001,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N08-r3-runtime",
+      "name": "Mosswater Tea House",
+      "group": "N01-N50",
+      "path": "N08-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N08.tmj",
+        "N08.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2032815,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N09-r2-runtime",
+      "name": "Turntable Dance Loft",
+      "group": "N01-N50",
+      "path": "N09-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N09.tmj",
+        "N09.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2038704,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N10-r4-runtime",
+      "name": "Silvergrain Photo Club",
+      "group": "N01-N50",
+      "path": "N10-r4-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N10.tmj",
+        "N10.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2095621,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N11-r2-runtime",
+      "name": "Framehouse Film Society",
+      "group": "N01-N50",
+      "path": "N11-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N11.tmj",
+        "N11.wam"
+      ],
+      "file_count": 5,
+      "bytes": 1692469,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N12-r3-runtime",
+      "name": "Tideglass Aquarium Hall",
+      "group": "N01-N50",
+      "path": "N12-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N12.tmj",
+        "N12.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2190231,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N13-r3-runtime",
+      "name": "Snowsteam Bathhouse",
+      "group": "N01-N50",
+      "path": "N13-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N13.tmj",
+        "N13.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2236558,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N14-r2-runtime",
+      "name": "Skylot Garden Commons",
+      "group": "N01-N50",
+      "path": "N14-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N14.tmj",
+        "N14.wam"
+      ],
+      "file_count": 5,
+      "bytes": 1920390,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N15-r3-runtime",
+      "name": "Threadwell Craft Studio",
+      "group": "N01-N50",
+      "path": "N15-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N15.tmj",
+        "N15.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2340242,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N16-r2-runtime",
+      "name": "Rainveil Meditation",
+      "group": "N01-N50",
+      "path": "N16-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N16.tmj",
+        "N16.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2345698,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N17-r3-runtime",
+      "name": "Neon Nickel Arcade",
+      "group": "N01-N50",
+      "path": "N17-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "N17.tmj",
+        "N17.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2131525,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N18-r3-runtime",
+      "name": "Alpine Isotope Field Station",
+      "group": "N01-N50",
+      "path": "N18-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3478959,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N19-r3-runtime",
+      "name": "Tidepool Marine Classroom",
+      "group": "N01-N50",
+      "path": "N19-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3426511,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N20-r3-runtime",
+      "name": "Kiln Robotics Assembly Lab",
+      "group": "N01-N50",
+      "path": "N20-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3578699,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N21-r2-runtime",
+      "name": "Vienna Pattern Atelier",
+      "group": "N01-N50",
+      "path": "N21-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3373736,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N22-r1-runtime",
+      "name": "Washi Paper Architecture Workshop",
+      "group": "N01-N50",
+      "path": "N22-r1-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 4284400,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N23-r2-runtime",
+      "name": "Crosswind Aviation Briefing School",
+      "group": "N01-N50",
+      "path": "N23-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3238013,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N24-r4-runtime",
+      "name": "Basalt Geology Field Camp",
+      "group": "N01-N50",
+      "path": "N24-r4-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 4019133,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N25-r1-runtime",
+      "name": "Ochre Archaeology Academy",
+      "group": "N01-N50",
+      "path": "N25-r1-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3468952,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N26-r1-runtime",
+      "name": "Nordic Product Loft",
+      "group": "N01-N50",
+      "path": "N26-r1-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3158680,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N27-r3-runtime",
+      "name": "Silicon Circuit Innovation Campus",
+      "group": "N01-N50",
+      "path": "N27-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3043360,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N28-r2-runtime",
+      "name": "Floating Wetland Research Lab",
+      "group": "N01-N50",
+      "path": "N28-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3486026,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N29-r2-runtime",
+      "name": "Monastic Manuscript Scriptorium",
+      "group": "N01-N50",
+      "path": "N29-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3520041,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N30-r2-runtime",
+      "name": "Glass Borough Civic Library",
+      "group": "N01-N50",
+      "path": "N30-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3360854,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N31-r2-runtime",
+      "name": "Desert Heliostat Research School",
+      "group": "N01-N50",
+      "path": "N31-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3532135,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N32-r2-runtime",
+      "name": "Indigo Textile Design Guild",
+      "group": "N01-N50",
+      "path": "N32-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3683701,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N33-r1-runtime",
+      "name": "Circular Civic Debate Hall",
+      "group": "N01-N50",
+      "path": "N33-r1-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3547014,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N34-r2-runtime",
+      "name": "Harbour Language Exchange Lab",
+      "group": "N01-N50",
+      "path": "N34-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3578211,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N35-r3-runtime",
+      "name": "Lighthouse Festival Island",
+      "group": "N01-N50",
+      "path": "N35-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "lighthouse-festival-island.tmj",
+        "lighthouse-festival-island.wam"
+      ],
+      "file_count": 6,
+      "bytes": 4027475,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N36-r4-runtime",
+      "name": "Desert Caravan Crossroads",
+      "group": "N01-N50",
+      "path": "N36-r4-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "desert-caravan-crossroads.tmj",
+        "desert-caravan-crossroads.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3637019,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N37-r2-runtime",
+      "name": "Mountain Cable Station Village",
+      "group": "N01-N50",
+      "path": "N37-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "mountain-cable-station-village.tmj",
+        "mountain-cable-station-village.wam"
+      ],
+      "file_count": 6,
+      "bytes": 4124404,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N38-r2-runtime",
+      "name": "Rainforest Canopy Forum",
+      "group": "N01-N50",
+      "path": "N38-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "rainforest-canopy-forum.tmj",
+        "rainforest-canopy-forum.wam"
+      ],
+      "file_count": 6,
+      "bytes": 4102510,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N39-r3-runtime",
+      "name": "Volcanic Observatory Lodge",
+      "group": "N01-N50",
+      "path": "N39-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "volcanic-observatory-lodge.tmj",
+        "volcanic-observatory-lodge.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3563800,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N40-r3-runtime",
+      "name": "Coral Research Pier",
+      "group": "N01-N50",
+      "path": "N40-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "coral-research-pier.tmj",
+        "coral-research-pier.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3776482,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N41-r3-runtime",
+      "name": "Moonlit Ruin Courtyard",
+      "group": "N01-N50",
+      "path": "N41-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "moonlit-ruin-courtyard.tmj",
+        "moonlit-ruin-courtyard.wam"
+      ],
+      "file_count": 6,
+      "bytes": 4085985,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N42-r4-runtime",
+      "name": "Sky Village Airship Terminal",
+      "group": "N01-N50",
+      "path": "N42-r4-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "sky-village-airship-terminal.tmj",
+        "sky-village-airship-terminal.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3795148,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N43-r1-runtime",
+      "name": "Glass Hall Conference Campus",
+      "group": "N01-N50",
+      "path": "N43-r1-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "glass-hall-conference-campus.tmj",
+        "glass-hall-conference-campus.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3453018,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N44-r1-runtime",
+      "name": "Autumn Amphitheatre",
+      "group": "N01-N50",
+      "path": "N44-r1-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "autumn-amphitheatre.tmj",
+        "autumn-amphitheatre.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3835019,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N45-r2-runtime",
+      "name": "Desert Esports Pavilion",
+      "group": "N01-N50",
+      "path": "N45-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "desert-esports-pavilion.tmj",
+        "desert-esports-pavilion.wam"
+      ],
+      "file_count": 6,
+      "bytes": 4071611,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N46-r2-runtime",
+      "name": "Riverside Art Fair",
+      "group": "N01-N50",
+      "path": "N46-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "riverside-art-fair.tmj",
+        "riverside-art-fair.wam"
+      ],
+      "file_count": 6,
+      "bytes": 4174749,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N47-r3-runtime",
+      "name": "Winter Lantern Festival",
+      "group": "N01-N50",
+      "path": "N47-r3-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "winter-lantern-festival.tmj",
+        "winter-lantern-festival.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3883592,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N48-r1-runtime",
+      "name": "Acoustic Cave Hall",
+      "group": "N01-N50",
+      "path": "N48-r1-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "acoustic-cave-hall.tmj",
+        "acoustic-cave-hall.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3583086,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N49-r2-runtime",
+      "name": "Ocean Exposition",
+      "group": "N01-N50",
+      "path": "N49-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "ocean-exposition.tmj",
+        "ocean-exposition.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3517198,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "N50-r2-runtime",
+      "name": "Lush Hotel Courtyard",
+      "group": "N01-N50",
+      "path": "N50-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "lush-hotel-courtyard.tmj",
+        "lush-hotel-courtyard.wam"
+      ],
+      "file_count": 6,
+      "bytes": 3540134,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "olive-academy-live-repair-r6-runtime",
+      "name": "Olive Arabic Academy r6",
+      "group": "12-template-families",
+      "path": "olive-academy-live-repair-r6-runtime",
+      "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "olive-academy-live-repair-r6/map32/map.tmj",
+        "olive-academy-live-repair-r6/map32/map.wam"
+      ],
+      "file_count": 7,
+      "bytes": 4143623,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "quiet-orbit-observatory-r4-runtime",
+      "name": "Quiet Orbit Observatory r4",
+      "group": "12-template-families",
+      "path": "quiet-orbit-observatory-r4-runtime",
+      "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 7,
+      "bytes": 4272688,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "Mission-Control-r4-runtime",
+      "name": "Mission Control Center r4",
+      "group": "12-template-families",
+      "path": "Mission-Control-r4-runtime",
+      "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "mission-control-center/map32/map.tmj",
+        "mission-control-center/map32/map.wam"
+      ],
+      "file_count": 7,
+      "bytes": 3301183,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "lantern-souk-bazaar-r6-fountain-runtime",
+      "name": "Lantern Souk Bazaar r6 fountain",
+      "group": "12-template-families",
+      "path": "lantern-souk-bazaar-r6-fountain-runtime",
+      "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "lantern-souk-bazaar-r5.tmj",
+        "lantern-souk-bazaar-r5.wam"
+      ],
+      "file_count": 7,
+      "bytes": 5190009,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "willow-furniture-r5-r05-runtime",
+      "name": "Willow Quay Tea Garden r5",
+      "group": "12-template-families",
+      "path": "willow-furniture-r5-r05-runtime",
+      "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/willow-quay-tea-garden.tmj",
+        "map32/willow-quay-tea-garden.wam"
+      ],
+      "file_count": 6,
+      "bytes": 4468166,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "Celestial-Garden-Calmer-Draft-Runtime",
+      "name": "Celestial Transit Garden calmer draft",
+      "group": "12-template-families",
+      "path": "Celestial-Garden-Calmer-Draft-Runtime",
+      "status": "Newest recovered Celestial runtime by Library modified time; explicitly an unaccepted calmer draft; expanded r4 retained in Library",
+      "entrypoints": [
+        "map32/celestial-transit-garden-calm-draft.tmj",
+        "map32/celestial-transit-garden-calm-draft.wam"
+      ],
+      "file_count": 7,
+      "bytes": 5746628,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "resonance-media-house-r7c-runtime",
+      "name": "Resonance Media House r7c",
+      "group": "12-template-families",
+      "path": "resonance-media-house-r7c-runtime",
+      "status": "Latest surviving r7c runtime; requested later r9 source/runtime missing",
+      "entrypoints": [
+        "resonance-media-house.tmj",
+        "resonance-media-house.wam"
+      ],
+      "file_count": 5,
+      "bytes": 1895781,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "esports-arena-01-runtime",
+      "name": "Circuit Arena",
+      "group": "12-template-families",
+      "path": "esports-arena-01-runtime",
+      "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "esports-arena-01/map32/esports-arena.tmj",
+        "esports-arena-01/map32/esports-arena.wam"
+      ],
+      "file_count": 6,
+      "bytes": 1225538,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "lantern-congress-runtime",
+      "name": "Lantern Congress",
+      "group": "12-template-families",
+      "path": "lantern-congress-runtime",
+      "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/conference.tmj",
+        "map32/conference.wam"
+      ],
+      "file_count": 9,
+      "bytes": 4626257,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "inventors-sandbox-workshop-r2-runtime",
+      "name": "Inventor’s Sandbox Workshop r2",
+      "group": "12-template-families",
+      "path": "inventors-sandbox-workshop-r2-runtime",
+      "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/map.tmj",
+        "map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 4044845,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "art-deco-sales-atelier-r2b-runtime",
+      "name": "Art Deco Sales Atelier r2b",
+      "group": "12-template-families",
+      "path": "art-deco-sales-atelier-r2b-runtime",
+      "status": "Latest surviving candidate runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "art-deco-sales-atelier-r2b/map32/map.tmj",
+        "art-deco-sales-atelier-r2b/map32/map.wam"
+      ],
+      "file_count": 7,
+      "bytes": 4326392,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "timber-studio-r8-runtime",
+      "name": "Timber Studio r8",
+      "group": "12-template-families",
+      "path": "timber-studio-r8-runtime",
+      "status": "Exact frozen runtime fixture recovered; original full source missing; rendering/live acceptance open",
+      "entrypoints": [
+        "map.tmj",
+        "map.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2115616,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "reading-conservatory-r4-runtime",
+      "name": "Reading Conservatory r4",
+      "group": "additional-reading",
+      "path": "reading-conservatory-r4-runtime",
+      "status": "Exact frozen candidate runtime fixture recovered; original full source missing; rendering/live acceptance open",
+      "entrypoints": [
+        "map.tmj",
+        "map.wam"
+      ],
+      "file_count": 5,
+      "bytes": 1047242,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "lighthouse-last-signal-r2-runtime",
+      "name": "Lighthouse: The Last Signal · interactive map candidate r2",
+      "group": "additional-lighthouses",
+      "path": "lighthouse-last-signal-r2-runtime",
+      "status": "Recovered runtime; live acceptance not independently rerun",
+      "entrypoints": [
+        "lighthouse-last-signal.tmj",
+        "lighthouse-last-signal.wam"
+      ],
+      "file_count": 10,
+      "bytes": 4712584,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "lighthouse-keepers-return-r2-runtime",
+      "name": "Lighthouse: The Keeper’s Return r2",
+      "group": "additional-lighthouses",
+      "path": "lighthouse-keepers-return-r2-runtime",
+      "status": "Exact original runtime; inherited teleport-race known failure; original full source missing",
+      "entrypoints": [
+        "enterable-lighthouse-r2/runtime/keepers-return.tmj",
+        "enterable-lighthouse-r2/runtime/keepers-return.wam"
+      ],
+      "file_count": 19,
+      "bytes": 6439334,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "campus-v11",
+      "name": "Magical Campus",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "campus-v11",
+      "status": "Recovered runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "publication/v11/map32/magical-campus.tmj",
+        "publication/v11/map32/magical-campus.wam"
+      ],
+      "file_count": 22,
+      "bytes": 24264325,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "butterfly-town-v2",
+      "name": "Butterfly Town",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "butterfly-town-v2",
+      "status": "Recovered runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "Butterfly-Town-v2/candidate/public/butterfly-town/v2/butterfly-town.tmj"
+      ],
+      "file_count": 50,
+      "bytes": 18831270,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "butterfly-gate-a-v6",
+      "name": "Butterfly Gate A",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "butterfly-gate-a-v6",
+      "status": "Recovered runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "gate/map/gate.tmj"
+      ],
+      "file_count": 20,
+      "bytes": 12756766,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "butterfly-gate-b-v4",
+      "name": "Butterfly Gate B",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "butterfly-gate-b-v4",
+      "status": "Recovered runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "publish/public/butterfly-town/gate-b/v4/gate.tmj"
+      ],
+      "file_count": 19,
+      "bytes": 13108494,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "studenthub-connected-workplace-01",
+      "name": "StudentHub Connected Workplace",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "studenthub-connected-workplace-01",
+      "status": "Recovered experimental runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "studenthub-connected-workplace/map/studenthub-proof.tmj"
+      ],
+      "file_count": 3,
+      "bytes": 1242115,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "social-outdoor-office-02",
+      "name": "Social/Outdoor Office",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "social-outdoor-office-02",
+      "status": "Recovered experimental runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "spawn-proximity-repair-01/candidates/social-outdoor-office-02/map/studenthub-outdoor-office.tmj"
+      ],
+      "file_count": 2,
+      "bytes": 1106878,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "astral-concourse-lobby-01",
+      "name": "Astral Concourse Lobby",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "astral-concourse-lobby-01",
+      "status": "Recovered runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "astral-concourse-lobby-01/map32/astral-concourse-lobby.tmj",
+        "astral-concourse-lobby-01/map32/astral-concourse-lobby.wam"
+      ],
+      "file_count": 5,
+      "bytes": 1912054,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "astral-flagship-a-v07",
+      "name": "Astral Flagship A",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "astral-flagship-a-v07",
+      "status": "Recovered runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/grand-auditorium.tmj",
+        "map32/grand-auditorium.wam"
+      ],
+      "file_count": 9,
+      "bytes": 6819572,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "astral-flagship-b-v08",
+      "name": "Astral Flagship B",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "astral-flagship-b-v08",
+      "status": "Recovered runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/grand-auditorium.tmj",
+        "map32/grand-auditorium.wam"
+      ],
+      "file_count": 10,
+      "bytes": 8059582,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "astral-flagship-c-v09",
+      "name": "Astral Flagship C",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "astral-flagship-c-v09",
+      "status": "Recovered runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "map32/grand-auditorium.tmj",
+        "map32/grand-auditorium.wam"
+      ],
+      "file_count": 20,
+      "bytes": 16291932,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "flagship-glass-d-r02",
+      "name": "Astral Flagship Glass D",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "flagship-glass-d-r02",
+      "status": "Recovered experimental runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "grand-auditorium.tmj",
+        "grand-auditorium.wam"
+      ],
+      "file_count": 19,
+      "bytes": 14357825,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "timber-yoga-dark-mats-r4",
+      "name": "Timber Yoga Retreat",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "timber-yoga-dark-mats-r4",
+      "status": "Recovered runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "timber-yoga-dark-mats-r4/map32/map.tmj",
+        "timber-yoga-dark-mats-r4/map32/map.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2082391,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "timber-gym-context-r3",
+      "name": "Timber Gym",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "timber-gym-context-r3",
+      "status": "Recovered runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "timber-gym-context-r3/map32/map.tmj",
+        "timber-gym-context-r3/map32/map.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2119644,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "timber-mixed-six-mat-instructor-facing-r4",
+      "name": "Timber Mixed Six-Mat",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "timber-mixed-six-mat-instructor-facing-r4",
+      "status": "Recovered runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "timber-mixed-six-mat-instructor-facing-r4/map32/map.tmj",
+        "timber-mixed-six-mat-instructor-facing-r4/map32/map.wam"
+      ],
+      "file_count": 6,
+      "bytes": 2132270,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    },
+    {
+      "id": "timber-movement-studio-r2",
+      "name": "Timber Movement Studio",
+      "group": "Campus/Gate/Astral/Timber extras",
+      "path": "timber-movement-studio-r2",
+      "status": "Recovered runtime candidate; shared dependencies recovered by recorded hashes or exact baseline lineage; live acceptance not independently rerun",
+      "entrypoints": [
+        "timber-movement-studio-r2/map32/map.tmj",
+        "timber-movement-studio-r2/map32/map.wam"
+      ],
+      "file_count": 5,
+      "bytes": 2084037,
+      "local_dependencies_present": true,
+      "live_acceptance_established_by_this_backup": false
+    }
+  ],
+  "unavailable_original_count": 33,
+  "unavailable_originals": [
+    {
+      "id": "H001",
+      "name": "Clockmaker's Waterworks",
+      "revision": "H001-r7",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H002",
+      "name": "Pneumatic Post Exchange",
+      "revision": "H002-r2",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H003",
+      "name": "Funicular Repair Yard",
+      "revision": "H003-r2",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H004",
+      "name": "Wind Organ Courtyard",
+      "revision": "H004-r2",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H005",
+      "name": "Mirror Relay Foundry",
+      "revision": "H005-r2",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H006",
+      "name": "Counterweight Theatre",
+      "revision": "H006-r1",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H007",
+      "name": "Lockkeeper’s Canal Basin",
+      "revision": "H007-r3",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H008",
+      "name": "Marble Run Pavilion",
+      "revision": "H008-r3",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H009",
+      "name": "Mechanical Orchard",
+      "revision": "H009-r3",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H011",
+      "name": "Beaver Creek Restoration",
+      "revision": "H011-r5",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H012",
+      "name": "Pollinator Patch Mosaic",
+      "revision": "H012-r1",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H013",
+      "name": "Mycelium Lantern Grove",
+      "revision": "H013-r2",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H014",
+      "name": "Dune Grass Nursery",
+      "revision": "H014-r4",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H015",
+      "name": "Orchard Grafting House",
+      "revision": "H015-r2",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H016",
+      "name": "Mangrove Nursery Pier",
+      "revision": "H016-r2",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H017",
+      "name": "Peatland Water Gauge Walk",
+      "revision": "H017-r3",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H018",
+      "name": "Firefly Meadow Hide",
+      "revision": "H018-r1",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H019",
+      "name": "Alpine Seed Vault",
+      "revision": "H019-r3",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H020",
+      "name": "Rain Chain Garden",
+      "revision": "H020-r2",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H021",
+      "name": "Sleeper Train Terminus",
+      "revision": "H021-r4",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H022",
+      "name": "Canal Boat Depot",
+      "revision": "H022-r2",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H023",
+      "name": "Mountain Mail Trail",
+      "revision": "H023-r3",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H024",
+      "name": "Tidal Causeway Crossing",
+      "revision": "H024-r4",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H025",
+      "name": "Desert Star Caravanserai",
+      "revision": "H025-r2",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H031",
+      "name": "Glassblower’s Ribbon Hall",
+      "revision": "H031-r5",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H032",
+      "name": "Letterpress Print Yard",
+      "revision": "H032-r4",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H033",
+      "name": "Stone Mosaic Courtyard",
+      "revision": "H033-r4",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H034",
+      "name": "Lacquer Box Workshop",
+      "revision": "H034-r3",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H035",
+      "name": "Basketry Reed House",
+      "revision": "H035-r3",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H036",
+      "name": "Bookbinding Stitch Loft",
+      "revision": "H036-r2",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H037",
+      "name": "Copper Enamel Atelier",
+      "revision": "H037-r4",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H038",
+      "name": "Scent Garden Distillery",
+      "revision": "H038-r1",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    },
+    {
+      "id": "H039",
+      "name": "Paper Marbling Mill",
+      "revision": "H039-r1",
+      "status": "Original source, art and runtime unavailable; not represented as recovered."
+    }
+  ]
+}

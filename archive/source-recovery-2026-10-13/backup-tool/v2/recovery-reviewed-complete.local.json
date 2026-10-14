@@ -1,0 +1,2240 @@
+{
+  "roots": {
+    "keeper": "/workspace/shared/keeper-r2-editable-reconstruction",
+    "studio-reading": "/workspace/shared/studio-reading-editable-reconstruction",
+    "media-house": "/workspace/shared/media-house-editable-reconstruction",
+    "map-library": "/workspace/shared/map-library-recovery",
+    "remaining-library": "/workspace/shared/map-library-remaining-recovery",
+    "testing-checklist": "/workspace/shared/outputs/map-recovery-v22"
+  },
+  "max_total_bytes": 6442450944,
+  "max_file_bytes": 1073741824,
+  "max_files": 20000,
+  "extra_exclude": [],
+  "max_new_bytes": 134217728,
+  "max_upload_operations": 6000,
+  "reviewed_include": {
+    "map-library/baseline-download-result.json": "4fc12b182a5598d3af2c87e5958c61ceb843dbaa38b660c4da2929e69037d9dc",
+    "map-library/baseline-expanded/Lighthouse-Last-Signal-r2-Delivery/Lighthouse-Last-Signal-Interactive-Review.pdf": "b62db2779aa6d1e56bd2c6c29263cfb98b04acd4dc0af55a63ec609c625e95aa",
+    "map-library/baseline-expanded/Lighthouse-Last-Signal-r2-Delivery/lighthouse-last-signal-r2-source/MANIFEST.sha256": "4e95eb32897cc8f05f2e0d69f1d71bce0cea6ffa085d98eeacc3e42e276846f2",
+    "map-library/baseline-expanded/Lighthouse-Last-Signal-r2-Delivery/lighthouse-last-signal-r2-source/evidence/api/play_src_front_Components_PopUp_PopUpContainer.svelte": "5f487b61f018831f434eec0b5cdb9f3b27fcb2d0ea30d83eb4c1ada3f4205014",
+    "map-library/baseline-expanded/Lighthouse-Last-Signal-r2-Delivery/lighthouse-last-signal-r2-source/evidence/api/play_src_front_Components_PopUp_PopUpTriggerActionMessage.svelte": "8603d6cc504c5b143d239a7240cbc9ef4e9799caa8d7c34c1d877782321f86cc",
+    "map-library/baseline-expanded/Rendering-Investigation/candidate.patch": "f473f0db8cf4447fcca8dedacd501768c517f986c61ea8380596bbabe6ea5d78",
+    "map-library/baseline-expanded/Rendering-Investigation/fixture-lifecycle-verification.log": "870d22419b6c37fef5ef2b1c8e1cb0dbfd01e651bb7af275d21a0ffea6b5ce1f",
+    "map-library/baseline-expanded/Rendering-Investigation/fixture-pointer-verification.log": "79375f2360eb1b5c618814769b7c3bed2e282022c0cf3676cc403df9d1e34744",
+    "map-library/download-input.json": "0ecb0bae3a91055496848413e4f7854e3fa68b52f622ce01fd7df3d2c9222722",
+    "map-library/download-result.json": "ced98878c1523ae46bfcbe13204008bf23d4912f19fc94d450998c7a112e0bb4",
+    "map-library/expanded/source/N01-r3-source/N01/validation/arrival.log": "aef53afa664d6cc9ed45173834c6c5677296b545882dc1378d79fe76f70ddcb3",
+    "map-library/expanded/source/N02-r4-source/N02/validation/arrival.log": "05fdb625dc0ad56af99b0313889630e1e4f8e11502fa75db1e082ef23b6b9c57",
+    "map-library/expanded/source/N03-r3-source/N03/validation/arrival.log": "343374e0d5a244d8d66ba81b16ba877bf902aa0bdcaee672ca00e59620f484e6",
+    "map-library/expanded/source/N04-r3-source/N04/validation/arrival.log": "c578730e522706ae5362a84f377199466e181e9564f0dea4bde84c86cd8f2cb9",
+    "map-library/expanded/source/N05-r3-source/N05/validation/arrival.log": "4d64313186c432e4d292b5cae58425568c8c682a2ff249066663510f153e5da5",
+    "map-library/expanded/source/N06-r2-source/N06/validation/arrival.log": "17dbf3213605ee878db4c89c7b4bf737673b7fad56e156acf55214e8fc14d247",
+    "map-library/expanded/source/N07-r3-source/N07/validation/arrival.log": "dd1790e00a77b2daa59543044329fb8f4ea6ab52885b579d26cffe598ca34e63",
+    "map-library/expanded/source/N08-r3-source/N08/validation/arrival.log": "d29f8c06c61af326614a68c3b7589e0186b96f4790b7fbd256866a0c51ad5522",
+    "map-library/expanded/source/N09-r2-source/N09/validation/arrival.log": "46d2a371cb7ef06c4cfaf9ecc908b3bea6720fce094fd2878af4485afee8008e",
+    "map-library/expanded/source/N10-r4-source/N10/validation/arrival.log": "638d7922ee5b7f59def31979fb3965b242a911bc9ad9bd772052236cf668a5c8",
+    "map-library/expanded/source/N11-r2-source/N11/validation/arrival.log": "337d17898297aed8e6caa38861e619af358f2a1b079cbf3d7523fa410ad0b902",
+    "map-library/expanded/source/N12-r3-source/N12/validation/arrival.log": "ad0cdebfeb189347a47af0c038df0d8122148de71186e00ea0db985697d00af3",
+    "map-library/expanded/source/N13-r3-source/N13/validation/arrival.log": "eaccc6be1f9fbe18f4b1f1ab47fa5fb780ec0bf68bf1884b52b6ff4145e17435",
+    "map-library/expanded/source/N14-r2-source/N14/validation/arrival.log": "4eb285c84a386adc6b03ddb67c2ed6950b2a7fa251a3c34dfb08769e06ee589f",
+    "map-library/expanded/source/N15-r3-source/N15/validation/arrival.log": "229ea9ba8b4b9b14d25d8573ec9bae2ca7dabcf9c86a2dafcc04163f49811810",
+    "map-library/expanded/source/N16-r2-source/N16/validation/arrival.log": "b1ce5fa2e52dd8b2059a8a4ca1c1dbc5adb7e30b07c9cce0a75c9fc1117cb427",
+    "map-library/expanded/source/N17-r3-source/N17/validation/arrival.log": "bb90d0e519e34456d8de60a21134e412d6fd095c2d8325ac1f69fe63c47c0f68",
+    "map-library/partial-library-upload.json": "210609d3c1d0d0945b4679735420f727f90b0109e8acd37a89bbd3b24c1399a2",
+    "map-library/restored/Universe-Map-Testing-Updated-2026-10-13.xlsx": "886e207bd4b31633447c79e92c0137194261d626bdfcaf7646d4f77a9e02fdd3",
+    "media-house/evidence/after-native-routes.log": "2347961b4b3acbf1cb62142abda262a65e5aa9bd137a40350596db3822246ddb",
+    "media-house/evidence/before-native-routes.log": "328cd60692d12cf15167870d5c7b542b7bf1db48114093e60d4bc24cb93a3963",
+    "remaining-library/download-input.json": "e54caf8c38c436a77bfe1cfc126adccf3aefac204f442b56d26a43f49f72d1b3",
+    "remaining-library/download-result.json": "8f8b7f4e351d8c13454de9640626c3effa98335ee9f2009537d471b01e5be8a9",
+    "remaining-library/extracted/Butterfly-Campus-v3-Git-ready-map/review/family-index-proposal.patch": "26fbbc6fe85c9dd14ac9305a8dce378944f83d9befd6273d920642ba93032b29",
+    "remaining-library/extracted/Butterfly-Campus-v3-source-review/Butterfly-Campus-v3/docs/family-index-proposal.patch": "26fbbc6fe85c9dd14ac9305a8dce378944f83d9befd6273d920642ba93032b29",
+    "remaining-library/extracted/Butterfly-Campus-v3-source-review/Butterfly-Campus-v3/qa/audio-assets-check.log": "d2c989082ea2df86506f14a28e1628910e7e2b5fa543cc240aa18766545fea1b",
+    "remaining-library/extracted/Butterfly-Campus-v3-source-review/Butterfly-Campus-v3/qa/audio-native-build.log": "f7f32bdcdeed1951bd1a82c48f613be42d0125827a694c5657d081a64335ae7b",
+    "remaining-library/extracted/Butterfly-Campus-v3-source-review/Butterfly-Campus-v3/qa/audio-native-source/AudioPlayer.svelte": "0eafb52501c0fec17df65b6e0af08664c9a0f5829a35442c91c9ad2480260d96",
+    "remaining-library/extracted/Butterfly-Campus-v3-source-review/Butterfly-Campus-v3/qa/audio-policy-tests.log": "30fb9fd74925f0d3f655e987887a703b586d7ac5e726fafe3ede44b5346ca3e4",
+    "remaining-library/extracted/Butterfly-Town-audio-design-pack/evidence/audio/codec-check.log": "ebe1fd26ff81e2b89df8a1347050006237490ba945c0aac97d35219fb781379b",
+    "remaining-library/extracted/Butterfly-Town-audio-design-pack/evidence/audio/generation.log": "49013ee56081549b10db829aef4bf2c22b6fd3dcf5622a5a1e0613dc7d30d5d1",
+    "remaining-library/extracted/Butterfly-Town-audio-design-pack/evidence/audio/mastered-ebur128.log": "da5dc76c886445219645d6d9ca306d3c647e1ec72df763f5ff827260b1fab602",
+    "remaining-library/extracted/Butterfly-Town-audio-design-pack/evidence/audio/native-source/AudioPlayer.svelte": "4b0e2c7b0b71d47e9326ea4ecadd9f0a72324a3aeb196d3a27c0a14f9bd26cfe",
+    "remaining-library/extracted/Butterfly-Town-source-candidate/evidence/repository-release-build.log": "33ac330937e21a0e32b075086224eceb3bed197eaafb1408efcdf506ff9a9815",
+    "remaining-library/extracted/Butterfly-Town-v2-source-review/Butterfly-Town-v2/evidence/engine-validation.log": "e0cbc87d102b3dbdd7617b2cde0308d4230ecd235fd96d1af50711fd7f598208",
+    "remaining-library/extracted/Butterfly-Town-v2-source-review/Butterfly-Town-v2/evidence/repository-build.log": "b1987a0f19cbe51f480fa69c43e9441e50e707694044589121389c431762833a",
+    "remaining-library/extracted/Butterfly-Town-v2-source-review/Butterfly-Town-v2/evidence/scenery-static.log": "8d640bc79598194cf38caa40da0752aa797a88116d4554823f6c0adda4184397",
+    "remaining-library/extracted/Butterfly-Town-v2-source-review/Butterfly-Town-v2/evidence/scenery-video-encode.log": "30f4b9af2443c9ff06da9b8938092794e8f9c790617e3549250b74a6c8be2eaa",
+    "remaining-library/extracted/Butterfly-Town-v2-source-review/Butterfly-Town-v2/evidence/state-tests.log": "a57f16266137d72db21c56b315fe4e84d618b163b5cd030a97c42d341b2e7376",
+    "remaining-library/extracted/Butterfly-Town-v2-source-review/Butterfly-Town-v2/evidence/water-fix-build.log": "49229b9da137c1400472f98e5b4f8ee0171acc8d0aaf0eab55444786a609d837",
+    "remaining-library/extracted/Butterfly-Town-v2-source-review/Butterfly-Town-v2/evidence/water-static.log": "6787e3b09c7ce5123d44a0534148caa72fc463ebfd8ef8127d600f214e822b88",
+    "remaining-library/extracted/Butterfly-Town-v2-source-review/Butterfly-Town-v2/qa/native-source-pin/AudioPlayer.svelte": "6d41dfb6030611ea88761e3bbe383536a69b1319c1d0926aac6c3d86743e1698",
+    "remaining-library/extracted/Campus 06 reconstructed repairs source checkpoint/roof-work/adaptive-roofs.patch": "d69dca1efdfdf6dc9fff2e3fe9c31a1183b4f0180a3f8207105e7095380aa2d8",
+    "remaining-library/extracted/Campus09-editable-source/campus09/sources/garden/SOURCE.sha256": "f89081c1b875f5a9d8200869eae4a36ad420b20aaa803bf8237e0c1f469e87f8",
+    "remaining-library/extracted/Campus10-publication-freeze/campus10/publication/upload-plan.json": "de99f0135445589ff310d56e9a9120e6f35df16202bc6f56a52098ad1768eb3d",
+    "remaining-library/extracted/Campus10-restored24-publication-freeze/campus10-restored24/publication/upload-plan.json": "fe5fe8ce581a6a3d880ff1148b743d6eec0d8b89de5fa8a1e2bf88fb04ae6d42",
+    "remaining-library/extracted/Campus11-final-source-and-preview/publication/upload-manifest11.json": "7c23b3fa902d420ce895cf6261f9e321b8661274a10372e8470c29158c43dc62",
+    "remaining-library/extracted/Campus11-publication-evidence/upload-manifest11.json": "7c23b3fa902d420ce895cf6261f9e321b8661274a10372e8470c29158c43dc62",
+    "remaining-library/extracted/Campus11-publication-evidence/upload-plan.json": "f5242ddc3184e3771453061234687db02f301b6881dbe4a4231760df46bd9fda",
+    "remaining-library/extracted/Gate-B-native-camera-local-review/Gate-B-native-camera-local-review/PRESERVE-NATIVE-FOLLOW.patch": "ae37301f8e2a491f360d8cf24dc9f7e3bdf4ece329452bcfd3b855799a87ece2",
+    "remaining-library/extracted/Gate-B-v2-map-only-review/MAP-ONLY-REVIEW.patch": "6f6c2d7b739149757e7fd0a8254ed5b9dd4c05c4c883b4093134f1c27608682a",
+    "remaining-library/extracted/Gate-B-v2-map-only-review/publication/upload-plan.json": "bd019eb8c70dcfa8f0ddd9be136db0f6a323926d2ccf26a0b3902b92530726fd",
+    "remaining-library/extracted/Gate-B-v2-map-only-review/source-audit/audio/pinned-source/play/src/front/Components/ActionBar/MenuIcons/MusicMenuItem.svelte": "fd50c1a4309e063095500ff83f4c5a7a8c4dc36ec6811be2a6edc3452f13e035",
+    "remaining-library/extracted/Gate-B-v2-map-only-review/source-audit/audio/pinned-source/play/src/front/Components/AudioManager/AudioManager.svelte": "1a355bf29eff9fa903baa275cc1886f977bbeae63aab7875c8208c0c0a3b6cda",
+    "remaining-library/extracted/Gate-B-v2-map-only-review/source-audit/audio/pinned-source/play/src/front/Components/AudioManager/AudioPlayer.svelte": "8c8715760ab126093a0aa69849da1680d3124422ddb9342ed7698666dff318f7",
+    "remaining-library/extracted/Gate-B-v2-map-only-review/source-audit/audio/pinned-source/play/src/front/Components/Menu/SettingsSubMenu.svelte": "0b552bb6e526c21a4fcdff143245a0b4aebfc53d718326be2e974dd852744350",
+    "remaining-library/extracted/Gate-B-v4-static-view-review/V3-TO-V4-SCRIPT.patch": "38fc98e4e8d50b8ae9947ab9c012a39107e901a4c9c207b78b96d4246a0af1f6",
+    "remaining-library/extracted/Lush-campus08-native-source-checkpoint/validation-work/PathfindingManager-proposal.patch": "5185bd21653fe4886e5d7222c5150083b58d0962db83d5afdcb425dc895a3e77",
+    "remaining-library/extracted/Lush-campus08-native-source-checkpoint/validation-work/PathfindingManager-repository-ready.patch": "cbaf1bbf98cf74398fcb5b3ff8e72ab949dc13855e556ad16c3f1aa9d4ffe5b2",
+    "remaining-library/extracted/Saltwind-Performance-r1-concept-bundle/Saltwind-Performance-r1-review.pdf": "c8448510488853c5e44017f06eb5703f05330de2152af06035fe86708654a35c",
+    "remaining-library/extracted/Universe-Catalogue-and-Templates/creator-kit-catalogue.patch": "1ffcc5ff34ccfc1041c7dfd2a6820560a0caaa4971e7f957823c231b2f645d33",
+    "remaining-library/extracted/art-deco-sales-atelier-r1-rebuild/HARNESS-RETURN-FIX.diff": "84838636f54fb3b9fc86c22b45951aa9cd3dae8b7a0627febe243e4392de9255",
+    "remaining-library/extracted/astral-flagship-a-v07-standalone-source/astral-flagship-a-v07/validation/native-focus/source/App.svelte": "8fcc8b2cdd90001392e983e4d2e02070c9c4a76d45fe3d7e664947c9f4aa5de0",
+    "remaining-library/extracted/astral-flagship-a-v07-standalone-source/astral-flagship-a-v07/validation/native-routes/current90a/exit-code": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "remaining-library/extracted/astral-flagship-a-v07-standalone-source/astral-flagship-a-v07/validation/native-routes/merged60e/exit-code": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "remaining-library/extracted/astral-flagship-b-v08-standalone-source/astral-flagship-b-v08/validation/native-focus/source/App.svelte": "8fcc8b2cdd90001392e983e4d2e02070c9c4a76d45fe3d7e664947c9f4aa5de0",
+    "remaining-library/extracted/astral-flagship-b-v08-standalone-source/astral-flagship-b-v08/validation/native-routes/merged60e/exit-code": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "remaining-library/extracted/astral-flagship-c-v09-standalone-source/validation/native-replay/merged60e/exit-code": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "remaining-library/extracted/astral-flagship-c-v09-standalone-source/validation/native-replay/merged60e/lifecycle-precompile.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "remaining-library/extracted/astral-flagship-c-v09-standalone-source/validation/native-replay/merged60e/smoke.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "remaining-library/extracted/astral-flagship-v03-complete-source/astral-flagship-v03/validation/current-role-audit/current/LivekitRoomPropertyEditor.svelte": "8660946ae7cd2bd8ce9ed52817d0a7a27d7d4eb8d7b16cec4419bdede5cf025b",
+    "remaining-library/extracted/astral-flagship-v04-blocked-source-checkpoint/grand-auditorium-04-topdown/validation/minimal-native32-repro/portable-reproduction.log": "86eb85f8fb6b3ad7f48440ef711cf5a01f33f414c293fc6e5604b13bbd33edab",
+    "remaining-library/extracted/astral-flagship-v04-blocked-source-checkpoint/grand-auditorium-04-topdown/validation/roof-coverage.log": "29d0b1a84b40c497e3130eb535fa63ed8257505844b311ae201faa86e668c63d",
+    "remaining-library/extracted/astral-flagship-v04-blocked-source-checkpoint/grand-auditorium-04-topdown/validation/transition-route-audit/additional-lifecycle.log": "3e8a260060d4a84057811766ebd5567b541fa5c0faeacee0db6e8534ba61c765",
+    "remaining-library/extracted/astral-flagship-v04-blocked-source-checkpoint/grand-auditorium-04-topdown/validation/transition-route-audit/additional-reproductions.log": "fcd93d00d7e2da454a484427a550c1d1a79d8df8940004fc2f67ce7e70e2db9d",
+    "remaining-library/extracted/astral-flagship-v04-blocked-source-checkpoint/grand-auditorium-04-topdown/validation/transition-route-audit/failure-replay.log": "03128f9a17c551ea2083ce7a377b2d197ec75779e9c4e3a5c1e708424db43931",
+    "remaining-library/extracted/astral-flagship-v04-blocked-source-checkpoint/grand-auditorium-04-topdown/validation/transition-route-audit/failure-reproduction.log": "d781f86410d81d6c744294dea7686de2d5ee92155a157e1738d00e71519e911c",
+    "remaining-library/extracted/astral-flagship-v04-blocked-source-checkpoint/grand-auditorium-04-topdown/validation/transition-route-audit/final-native-reproduction.log": "d781f86410d81d6c744294dea7686de2d5ee92155a157e1738d00e71519e911c",
+    "remaining-library/extracted/astral-flagship-v04-blocked-source-checkpoint/grand-auditorium-04-topdown/validation/transition-route-audit/final-semantic-verification.log": "ca38aba58feac1b606a755d00a57898bbfabfe88a9a85e3e130752c35b7e8d6c",
+    "remaining-library/extracted/astral-flagship-v04-blocked-source-checkpoint/grand-auditorium-04-topdown/validation/transition-route-audit/full-run.log": "9a2f674a996fbbe6c5c88cd1b94fa576a31fe6f2c8e04216d0fe2173dbfb9e50",
+    "remaining-library/extracted/astral-flagship-v04-blocked-source-checkpoint/grand-auditorium-04-topdown/validation/transition-route-audit/minimal-32px-fixture.log": "86eb85f8fb6b3ad7f48440ef711cf5a01f33f414c293fc6e5604b13bbd33edab",
+    "remaining-library/extracted/astral-flagship-v04-blocked-source-checkpoint/grand-auditorium-04-topdown/validation/transition-route-audit/smoke.log": "2c471ecb034d0c9e4c8c363a95e615954205e850665c30960d44aee3c55bd062",
+    "remaining-library/extracted/campus10-restored24-publication-evidence/upload-plan.json": "fe5fe8ce581a6a3d880ff1148b743d6eec0d8b89de5fa8a1e2bf88fb04ae6d42",
+    "remaining-library/extracted/celestial-transit-garden-source-replay/celestial-transit-garden/validation/native-routes.log": "60c149055d555df128db8c3f047f60bfc5ce5f4d19a2c0d98ba62e18687ff606",
+    "remaining-library/extracted/esports-arena-01-source-complete/esports-arena-01/validation/independent-final/replay-final.log": "6a7211405b0f534024b7f134d6122e350d69ec4bb4e7e83107bd22b74a7795b6",
+    "remaining-library/extracted/esports-arena-01-source-complete/esports-arena-01/validation/route-proof/replay.log": "65d8093804e81ba9b25635960d2cac63014ad8a1bd0de3bb599da69ee5fa95da",
+    "remaining-library/extracted/flagship-glass-d-r02-source/review/flagship-glass-d-r02-review.pdf": "3cbe787fcf935f92180abde8bd2197ea62ddc75c246825c88602f833d5ad6034",
+    "remaining-library/extracted/flagship-glass-door-study/flagship-glass-door-study/output/pdf/flagship-glass-design-study.pdf": "6bf5e5bcd419442a72b5ebf14e351c89a6b1b0447077e6adee771de2fff958b8",
+    "remaining-library/extracted/inventors-sandbox-workshop-r1-rebuild/HARNESS-RETURN-FIX.diff": "84838636f54fb3b9fc86c22b45951aa9cd3dae8b7a0627febe243e4392de9255",
+    "remaining-library/extracted/lantern-congress-source-complete/validation/independent/replay-final.log": "ae4aa96ed8b3d24070b331ca0bbef12669a584f627ffb76552bf914aff1e6797",
+    "remaining-library/extracted/lantern-congress-source-complete/validation/native-runner.log": "ae4aa96ed8b3d24070b331ca0bbef12669a584f627ffb76552bf914aff1e6797",
+    "remaining-library/extracted/lantern-souk-bazaar-r5-source-replay/lantern-souk-bazaar-r5/Lantern-Souk-Bazaar-r5-review.pdf": "61c0f6ecfd638b76fd423adc597a9addc9f4ff3c7688ed63178e1106b665a4e1",
+    "remaining-library/extracted/lantern-souk-bazaar-r5-source-replay/lantern-souk-bazaar-r5/validation/native-routes.log": "1708fc214aa787193ff26fb7f9e0c74d67ff70035034a0010386e35e69440cf7",
+    "remaining-library/extracted/lantern-souk-bazaar-r6-fountain-source/lantern-souk-bazaar-r5-fountain-motion/validation/native-motion.log": "efc86c94aaa9c9f2a0b30955c06fcf6c903ff5858c9297f324226f146768af19",
+    "remaining-library/extracted/lantern-souk-bazaar-source-replay/lantern-souk-bazaar/validation/native-route-run.log": "e118f06837f6d8c4b1c08b4c6cf734afc622d476392676d657593cd8c73ccc46",
+    "remaining-library/extracted/lantern-souk-bazaar-source-replay/lantern-souk-bazaar/validation/native-routes.log": "fa14f577fcf8a3eb913d54828dd760e20128581522237adaff420e3b29a42825",
+    "remaining-library/extracted/magical-campus-editable-source/sources/garden/SOURCE.sha256": "f89081c1b875f5a9d8200869eae4a36ad420b20aaa803bf8237e0c1f469e87f8",
+    "remaining-library/extracted/magical-campus-package-01-of-03/layers/.keep": "17eb4cf447feef21fa01523579c81a14cd61e4988d803f761c94da7e411c00b5",
+    "remaining-library/extracted/magical-campus-package-01-of-03/sources/garden/SOURCE.sha256": "f89081c1b875f5a9d8200869eae4a36ad420b20aaa803bf8237e0c1f469e87f8",
+    "remaining-library/extracted/native32-same-tile-replan-reproduction/minimal-native32-repro/portable-reproduction.log": "86eb85f8fb6b3ad7f48440ef711cf5a01f33f414c293fc6e5604b13bbd33edab",
+    "remaining-library/extracted/path-correction-repository-ready/PathfindingManager-proposal.patch": "5185bd21653fe4886e5d7222c5150083b58d0962db83d5afdcb425dc895a3e77",
+    "remaining-library/extracted/path-correction-repository-ready/PathfindingManager-repository-ready.patch": "cbaf1bbf98cf74398fcb5b3ff8e72ab949dc13855e556ad16c3f1aa9d4ffe5b2",
+    "remaining-library/extracted/path-correction-repository-ready/repository-checks/baseline-regression.log": "1f330dcf447440f01be72b5a2c1f712939ca5448ce0a3faa6bd3a5313fc4cda8",
+    "remaining-library/extracted/resonance-media-house-r6-source-replay/resonance-media-house/validation/native-routes.log": "82716c7fbbd7beef5cbf2c367eec23379c9ef256d74063a4a589e9d5ee8e1cf5",
+    "remaining-library/extracted/resonance-media-house-r7c-source-replay/resonance-media-house/validation/arrival-routes.log": "328cd60692d12cf15167870d5c7b542b7bf1db48114093e60d4bc24cb93a3963",
+    "remaining-library/extracted/resonance-media-house-r7c-source-replay/resonance-media-house/validation/native-routes.log": "328cd60692d12cf15167870d5c7b542b7bf1db48114093e60d4bc24cb93a3963",
+    "remaining-library/extracted/resonance-media-house-source-replay/resonance-media-house/validation/native-routes.log": "b6e31aa57d266e63a0c320a93e885d1776987238fdb068646afb794d765fd5fd",
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/.dockerignore": "9ecfce7a3da16c516c08cc13cdf88bfe4000b3effb46161ca6a4c7b92b304bc4",
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/checkpoint/mobile-camera.patch": "7425d7a22305c89aab52e52ce6313a1fa3c203236bcad7f6a52bcac9e14f276b",
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/checkpoint/universe-camera-before.log": "b0c573733bdfb7688e39f68950b38a5565a703e1603de48195342a817766ef62",
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/checkpoint/universe-camera-renderer-base.log": "350d5c5d690a878028ac5d75faf04e709192ece9de64de5c53a874dd499aa5c0",
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/checkpoint/universe-camera-renderer-rerun.log": "350d5c5d690a878028ac5d75faf04e709192ece9de64de5c53a874dd499aa5c0",
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/checkpoint/universe-camera-renderer.log": "d484d069d2812c121eb489d7f77dc969643cb6e54926cb6ef11856bcf988c7ec",
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/checkpoint/universe-focus-unit.log": "913e4de6b2a7a143340ce53f3f64ac9b248aa6b056efed9d754d04449b0bf401",
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/checkpoint/universe-focus-verify.log": "583212698da47fe4cab2d7d35a7d6178415256ee898cf2da3c31395a52278260",
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/docs/compact-conversations-public-style-compatibility.patch": "f87ab7b43c86f169c232526d8d8cbb8579696102b35d08bfa6629b2cffd273ab",
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/docs/compact-conversations-shell-compatibility.patch": "3f1e74d9d5adec7b32d95b66e082b04493c0ab090afc13682e17cb35ab0404d1",
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/docs/image-physical-size-cross-owner.patch": "fce737c176fa4c3ae207305416253fe4097a7c5b8e52b7ed495f6c51d2a2a9c0",
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/docs/image-protocol-admission-port.patch": "450a1ae136f8317b11b95f31166469c65fc9ebdfa1232b1c145b26d41b12f825",
+    "remaining-library/extracted/willow-quay-tea-garden-source-replay/willow-quay-tea-garden/validation/native-routes.log": "f6917f5ba024e1f8fceced0866356821670afed36474ac5e15b9db2e05a60181",
+    "remaining-library/upload-screening.json": "d1f65060baf7e9494e5f076d8d82a7e5ab054e10a4117c8bfa07a9bd58c94cf2",
+    "studio-reading/evidence/library-upload.json": "83ed8e06afb3679edbebc96198de18b0f6e6148059800c3c557d0b84b506befd",
+    "testing-checklist/Universe-Map-Testing-Updated-2026-10-13.xlsx": "8c249a05a90633303d019179e21c550b9baadea6f3c2cfac86c8bcf54fe0543d"
+  },
+  "root_files": {
+    "testing-checklist": [
+      "Universe-Map-Testing-Updated-2026-10-13.xlsx"
+    ]
+  },
+  "reviewed_gzip": {
+    "remaining-library/extracted/astral-flagship-a-v07-standalone-source/astral-flagship-a-v07/validation/native-routes/current90a/route-records.ndjson.gz": "42518c34d1d953dd25b355ac8c8b86e66a425c3f6b48027a32b13d886f25191c",
+    "remaining-library/extracted/astral-flagship-a-v07-standalone-source/astral-flagship-a-v07/validation/native-routes/current90a/route-traces.json.gz": "d8ee041a5eb3ff2fe267b67563d4e2b0441a3581105f02033634b8c7192cec1d",
+    "remaining-library/extracted/astral-flagship-a-v07-standalone-source/astral-flagship-a-v07/validation/native-routes/merged60e/route-records.ndjson.gz": "73efbde65bf07410b1af43cb5ca271aef62822230de882cc46ba8a58f58711e3",
+    "remaining-library/extracted/astral-flagship-a-v07-standalone-source/astral-flagship-a-v07/validation/native-routes/merged60e/route-traces.json.gz": "07eea3611f699309b809936e8652505c15a771b762c1667a7a4385216d65c0e6",
+    "remaining-library/extracted/astral-flagship-b-v08-standalone-source/astral-flagship-b-v08/validation/native-routes/merged60e/route-records.ndjson.gz": "14878a97da65e93e72c5e0bd7908b8ec030563bf89d134374b39f02dd1605d64",
+    "remaining-library/extracted/astral-flagship-b-v08-standalone-source/astral-flagship-b-v08/validation/native-routes/merged60e/route-traces.json.gz": "698c820c88fd646c9cb63adf675e1dcacb18870821bfc153fb87f972618cb644",
+    "remaining-library/extracted/astral-flagship-c-v09-standalone-source/validation/native-replay/merged60e/route-records.ndjson.gz": "63a688c4a94b128c20b80b0113912298be05245f5fb63f254b50e05fa7408afb",
+    "remaining-library/extracted/astral-flagship-c-v09-standalone-source/validation/native-replay/merged60e/route-traces.json.gz": "54731a51dad5bd6e580245b898931d240d37f53a8fff3e2b1dd16d7bbe68d6df",
+    "remaining-library/extracted/astral-flagship-v03-complete-source/astral-flagship-v03/validation/native-route-samples.f64.gz": "6628aa3f0998066f0364cec74d63244cce15d2b6cfef0a2f6ef00fd1ddcf6d11",
+    "remaining-library/extracted/astral-flagship-v05-source-and-proof/astral-flagship-v05-source/validation/native-route-proof/route-records.ndjson.gz": "81bf617bf4f24271a61ffaaf6fa9b9625402953db1aa4b78546ab7aac574aa8c",
+    "remaining-library/extracted/astral-flagship-v05-source-and-proof/astral-flagship-v05-source/validation/native-route-proof/route-traces.json.gz": "3cdd14a48e42de0f1fd85e38fca8248e6d2cab440dec1017605da5a228fec6a3",
+    "remaining-library/extracted/esports-arena-01-source-complete/esports-arena-01/validation/route-proof/route-records.ndjson.gz": "c6ad9483818fc6bed238dfae3d1066ff215ceb70a2c00a60dc96578cf7d4745b",
+    "remaining-library/extracted/esports-arena-01-source-complete/esports-arena-01/validation/route-proof/route-traces.json.gz": "aa62b37937db6a6941d201d0d53815c27e02649755ebcca0d64ee802e369b4b7",
+    "remaining-library/extracted/lantern-congress-source-complete/validation/native-routes/all-routes.json.gz": "07031cf3f7d10e92cb395945bf0fdb642d4827bfdd63ad01f24145abaea712db",
+    "remaining-library/extracted/lantern-congress-source-complete/validation/native-routes/failed-traces.json.gz": "21947b02ead137acb20e602e9448c7c453b2836d1a755aadd5e1c61ecd2eb034"
+  },
+  "reviewed_nonsecret_matches": {
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/image-asset-renderer.test.mjs": {
+      "sha256": "87a676bcf81240cfa5355c3738fc9356217acce4aefa81a6331c02f3346d30e4",
+      "matches": [
+        {
+          "offset": 6173,
+          "length": 7,
+          "match_sha256": "169527e6668e9141f9ff534dcecc54b376f7348b9dea2f844d24159979c01544"
+        },
+        {
+          "offset": 6260,
+          "length": 18,
+          "match_sha256": "fbddae166ead16d1dd67736b19403ab1ac0095e344f663573848af911a7ce273"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/reconnect-authority.full.mjs": {
+      "sha256": "ac1119d68a379f9ff94a29d302f069d620d0a205aff29185c44d326b8e56f1e1",
+      "matches": [
+        {
+          "offset": 3463,
+          "length": 39,
+          "match_sha256": "6708b180b834e0bcea7f186b3fd402772119ccdca62949d175e5e09503b00769"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/site-admission-independent.test.mjs": {
+      "sha256": "6cf96d1a5b30853037cd8e835908ae3ef04645538684ea0f2aa00d64922f3e67",
+      "matches": [
+        {
+          "offset": 17941,
+          "length": 7,
+          "match_sha256": "169527e6668e9141f9ff534dcecc54b376f7348b9dea2f844d24159979c01544"
+        },
+        {
+          "offset": 20602,
+          "length": 7,
+          "match_sha256": "3832b7c60b6b94a223919c25e0d58edb08c6ccc63fbd98956ab7c8b905cdf674"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/travel-location.test.mjs": {
+      "sha256": "2d415187d6cd1bc670450a07795a82c2146ed160cf83acb6e862bab53a2f6501",
+      "matches": [
+        {
+          "offset": 1696,
+          "length": 7,
+          "match_sha256": "3832b7c60b6b94a223919c25e0d58edb08c6ccc63fbd98956ab7c8b905cdf674"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/polish-integration-friends.mjs": {
+      "sha256": "7ea2d473e8018f47519e50daa922d99ced60f5ccd0f9eef17f7fbf2144bcfc6c",
+      "matches": [
+        {
+          "offset": 2428,
+          "length": 44,
+          "match_sha256": "bf118394b5770952c50a72af21603fd670c6b0c29c143f20a9b8126c0efa3114"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/resident-chat-adapter.test.mjs": {
+      "sha256": "93f17e554f37d1770736f80836da135e64dd9198c1013ce6a20227e24ce4b62b",
+      "matches": [
+        {
+          "offset": 6301,
+          "length": 19,
+          "match_sha256": "295af13e19c5083e15ee2557fc9c885ffca6fb58c04995fdc2145380c3cc6d57"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/places-creation.full.mjs": {
+      "sha256": "0a48c6013b7a44fcf369dd7146cfe7788f87928d710b5007f90e4a353c047094",
+      "matches": [
+        {
+          "offset": 10664,
+          "length": 33,
+          "match_sha256": "4ecc8dfd021e147dd641efa0f43cb06c4c0aa77cecc580f1e984771088405df2"
+        },
+        {
+          "offset": 10763,
+          "length": 33,
+          "match_sha256": "4ecc8dfd021e147dd641efa0f43cb06c4c0aa77cecc580f1e984771088405df2"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/action-schema.test.mjs": {
+      "sha256": "3a220f69148f4687e8a837512a7d040ccdc025bd9a0aa12e2bee66346b56bed7",
+      "matches": [
+        {
+          "offset": 2154,
+          "length": 12,
+          "match_sha256": "7ddcba9e3e77c3b73ed526aa78b7b1219560d13715c1c1bfa6e4556b15e7096b"
+        },
+        {
+          "offset": 2199,
+          "length": 14,
+          "match_sha256": "cf44caf1c3d0e8d553aa4f48a5fed8b3aa53f0219eea9e2d0ab1670367b6cd7d"
+        },
+        {
+          "offset": 2241,
+          "length": 7,
+          "match_sha256": "f38b6ee23ba12e0901a529390676efe46cdedfb3f9387a755dac52c0eb82d12e"
+        },
+        {
+          "offset": 2292,
+          "length": 7,
+          "match_sha256": "169527e6668e9141f9ff534dcecc54b376f7348b9dea2f844d24159979c01544"
+        },
+        {
+          "offset": 3965,
+          "length": 22,
+          "match_sha256": "093866188144b0216fb125431572e8ac2df8980dfeeb6ebeb3d9f3987d1e4c1d"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/external-shell-journeys.mjs": {
+      "sha256": "2d0903b059537ed891c0c4f417acb1b7ff4d35dbc58811369434ce27acb08f82",
+      "matches": [
+        {
+          "offset": 2950,
+          "length": 38,
+          "match_sha256": "3d01f9e83133bb7346f5fe8bceb55fe9df4d3b3730e9e773e1b3afab14afd6c6"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/mvp-image-workflow.test.mjs": {
+      "sha256": "837c84b9e683b12d6c075922f36fca63b0be8cd82032c659b8c8ca4bbf7250bf",
+      "matches": [
+        {
+          "offset": 4510,
+          "length": 29,
+          "match_sha256": "9de28891748aa8a5c12ef6a379365add709317fb806df09dceef5bb003ae4ee1"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/social.live.mjs": {
+      "sha256": "81e92367bc122b5e7ebe0ce469badf2752154183ccecf64de1f638d346957630",
+      "matches": [
+        {
+          "offset": 9016,
+          "length": 34,
+          "match_sha256": "b000ec0eae3cbcec9a54f07355acf159a81293c12599b1565d71e2031f65727c"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/arrival-surfaces.browser.mjs": {
+      "sha256": "d030fbcd2571e93e66c803eca2032bf504f05ea4a39e45e4f1a12d44bd8e1b86",
+      "matches": [
+        {
+          "offset": 3401,
+          "length": 7,
+          "match_sha256": "3832b7c60b6b94a223919c25e0d58edb08c6ccc63fbd98956ab7c8b905cdf674"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/site-admission-service.test.mjs": {
+      "sha256": "d1b45e125b76a43b837f43e1433e0ae09e24dc8a05565eb80ac76e0aac38a727",
+      "matches": [
+        {
+          "offset": 17249,
+          "length": 7,
+          "match_sha256": "169527e6668e9141f9ff534dcecc54b376f7348b9dea2f844d24159979c01544"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/places.live.mjs": {
+      "sha256": "92af21860a6e6e7e46b98a4dd36ac21f67ed21d608c75e213bb57c8ae76afad6",
+      "matches": [
+        {
+          "offset": 3827,
+          "length": 32,
+          "match_sha256": "6bfa42378ed969c94fd24d3ff8f653b78b2a5874bd73ba1bb12cd9f87dd58cd2"
+        },
+        {
+          "offset": 3916,
+          "length": 32,
+          "match_sha256": "5c48cac15e55080d38fc88819a5ed603c0050f25b0490049315690345f230a73"
+        }
+      ]
+    },
+    "map-library/baseline-expanded/Lighthouse-Last-Signal-r2-Delivery/Lighthouse-Last-Signal-Interactive-Review.pdf": {
+      "sha256": "b62db2779aa6d1e56bd2c6c29263cfb98b04acd4dc0af55a63ec609c625e95aa",
+      "matches": [
+        {
+          "offset": 431877,
+          "length": 12,
+          "match_sha256": "358ac9e3e104827550da0916979be82561713e3a1f63e055b640581bc1dc77ee"
+        },
+        {
+          "offset": 3246226,
+          "length": 79,
+          "match_sha256": "c8cbc49b90e8ee0660e22ddaadce00dff3fd7998f1ae2cc36df3c335f4dd8667"
+        },
+        {
+          "offset": 5814850,
+          "length": 64,
+          "match_sha256": "7c3660ae997b53a8666ced0c918a0ebbf0a5003a9be4d65df2560b74d0005fb9"
+        }
+      ]
+    },
+    "remaining-library/extracted/Saltwind-Performance-r1-concept-bundle/Saltwind-Performance-r1-review.pdf": {
+      "sha256": "c8448510488853c5e44017f06eb5703f05330de2152af06035fe86708654a35c",
+      "matches": [
+        {
+          "offset": 6406502,
+          "length": 37,
+          "match_sha256": "a4a765dc0cccb337be0e45aa74c4a73880f0ed33f505d190c35c09b4c92ee4af"
+        }
+      ]
+    },
+    "remaining-library/extracted/flagship-glass-d-r02-source/review/flagship-glass-d-r02-review.pdf": {
+      "sha256": "3cbe787fcf935f92180abde8bd2197ea62ddc75c246825c88602f833d5ad6034",
+      "matches": [
+        {
+          "offset": 1489972,
+          "length": 67,
+          "match_sha256": "8fa7e474243582c089649b5c4f4386eddf2ca942ca59be153c4317fa00e446d2"
+        }
+      ]
+    },
+    "remaining-library/extracted/Butterfly-Town-source-candidate/map/scripts/town.js": {
+      "sha256": "e48aa7f7b6060075bc665af53aa51a91656d500a2b62687bcb45a0b23a099370",
+      "matches": [
+        {
+          "offset": 4461,
+          "length": 7,
+          "match_sha256": "3832b7c60b6b94a223919c25e0d58edb08c6ccc63fbd98956ab7c8b905cdf674"
+        }
+      ]
+    },
+    "remaining-library/extracted/Butterfly-Town-v2-source-review/Butterfly-Town-v2/baseline-map/scripts/town.js": {
+      "sha256": "e48aa7f7b6060075bc665af53aa51a91656d500a2b62687bcb45a0b23a099370",
+      "matches": [
+        {
+          "offset": 4461,
+          "length": 7,
+          "match_sha256": "3832b7c60b6b94a223919c25e0d58edb08c6ccc63fbd98956ab7c8b905cdf674"
+        }
+      ]
+    },
+    "remaining-library/extracted/Butterfly-Town-v2-source-review/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town.js": {
+      "sha256": "fc8b49cc24a61b36ab54977ceb3ac1aa7d8d952c56495f518b027f1dbfcc7b62",
+      "matches": [
+        {
+          "offset": 5003,
+          "length": 7,
+          "match_sha256": "3832b7c60b6b94a223919c25e0d58edb08c6ccc63fbd98956ab7c8b905cdf674"
+        }
+      ]
+    },
+    "remaining-library/extracted/Butterfly-Town-v2-source-review/Butterfly-Town-v2/map/scripts/town.js": {
+      "sha256": "fc8b49cc24a61b36ab54977ceb3ac1aa7d8d952c56495f518b027f1dbfcc7b62",
+      "matches": [
+        {
+          "offset": 5003,
+          "length": 7,
+          "match_sha256": "3832b7c60b6b94a223919c25e0d58edb08c6ccc63fbd98956ab7c8b905cdf674"
+        }
+      ]
+    },
+    "remaining-library/extracted/Gate-B-v2-map-only-review/source-audit/audio/pinned-source/play/src/front/Connection/LocalUserStore.ts": {
+      "sha256": "f802462ab6509ef9f073544e3e338d2fb802d117841a730fe138a451f2db9a70",
+      "matches": [
+        {
+          "offset": 2805,
+          "length": 38,
+          "match_sha256": "4f8d12f8c991030b86e776e52879220658a6673e9cc4139b83b67654591baab8"
+        },
+        {
+          "offset": 2919,
+          "length": 40,
+          "match_sha256": "1920abf0f46596b2c0031353e36768df4f169e507485ceb75a3e0d2685f10d88"
+        },
+        {
+          "offset": 3009,
+          "length": 36,
+          "match_sha256": "3af21e003f2dd457504f6ae525bd4d71c6fe24a9224f59672aa24d2d6f42e5c3"
+        }
+      ]
+    },
+    "remaining-library/extracted/astral-concourse-lobby-01-runtime-source/astral-concourse-lobby-01/source/lobby-concept-native.svg": {
+      "sha256": "f9ede8d0222e8c0c03d517d0d64defff07c757a204779aef2c9bfcf5b52d0013",
+      "matches": [
+        {
+          "offset": 50803,
+          "length": 20,
+          "match_sha256": "248964329f6d386937d2b1328e9e8e9dd734539eedd44ca6bc7f508aa98a3031"
+        },
+        {
+          "offset": 59926,
+          "length": 20,
+          "match_sha256": "1064ed318b737462e9ed1c268e24746e96a93705a7671f21cb9027750a4e79c2"
+        },
+        {
+          "offset": 81426,
+          "length": 20,
+          "match_sha256": "7f11211b66321861079cf457c2080c647b30e85358fb9fff760f47e445d9cedf"
+        },
+        {
+          "offset": 82339,
+          "length": 20,
+          "match_sha256": "d3aa044ed61ad20b12a2e7f6721785dc827d54b84b2234a4323039b4964c9691"
+        },
+        {
+          "offset": 101065,
+          "length": 20,
+          "match_sha256": "af407b53c5f5c43dbd9c8660e29a16c35d59b023cde1e908bded83a0eb924ead"
+        },
+        {
+          "offset": 975315,
+          "length": 20,
+          "match_sha256": "bebedec32ec0ad9d1f0f1f1a87ccc3bdcf68075fa7863eb1a062324e8d0a9e4b"
+        },
+        {
+          "offset": 1697574,
+          "length": 20,
+          "match_sha256": "4e8701af1262c9a4ab1a2a4428d703e58489cb3d5093022cad35265e7eb3f310"
+        },
+        {
+          "offset": 2470550,
+          "length": 20,
+          "match_sha256": "a644efd4e5a89d0f12022eea0f9d9ef82a4c16774e16d269c90dd11c2e4ab3c8"
+        },
+        {
+          "offset": 2728778,
+          "length": 20,
+          "match_sha256": "6b3f5069fd6e163befbf81142f8d10025d3036cdb3403cb202edc637be5adbb3"
+        },
+        {
+          "offset": 3027567,
+          "length": 20,
+          "match_sha256": "ff6d3f3c5c3f4ca954deeb56fce79d022e48288f44b92ea0cf926ec233b7dad4"
+        },
+        {
+          "offset": 3438066,
+          "length": 20,
+          "match_sha256": "a4964292b7253b2718d68a57ae199c172651a2837b736a87f68040a28a7f2720"
+        },
+        {
+          "offset": 3499326,
+          "length": 20,
+          "match_sha256": "a60233430b4026e4e944882c9652654aeb021535c0acc836ccd5554c3a2473bd"
+        },
+        {
+          "offset": 3508063,
+          "length": 20,
+          "match_sha256": "51f6bdd5eeda084a0a10e47adbc196e6b67d4ceb4e78c65fb180d7b1fb13ae7c"
+        },
+        {
+          "offset": 3511721,
+          "length": 20,
+          "match_sha256": "0fcd1c9e1149b05db7876d43caa5663946746fd60da46436d70aa25e68c78f9c"
+        },
+        {
+          "offset": 3522443,
+          "length": 20,
+          "match_sha256": "c5498d14629359e28f6d767d2e015e369d83eb7866548b589502be7d16471c2f"
+        }
+      ]
+    },
+    "remaining-library/extracted/astral-concourse-lobby-01-source/astral-concourse-lobby-01/source/lobby-concept-native.svg": {
+      "sha256": "f9ede8d0222e8c0c03d517d0d64defff07c757a204779aef2c9bfcf5b52d0013",
+      "matches": [
+        {
+          "offset": 50803,
+          "length": 20,
+          "match_sha256": "248964329f6d386937d2b1328e9e8e9dd734539eedd44ca6bc7f508aa98a3031"
+        },
+        {
+          "offset": 59926,
+          "length": 20,
+          "match_sha256": "1064ed318b737462e9ed1c268e24746e96a93705a7671f21cb9027750a4e79c2"
+        },
+        {
+          "offset": 81426,
+          "length": 20,
+          "match_sha256": "7f11211b66321861079cf457c2080c647b30e85358fb9fff760f47e445d9cedf"
+        },
+        {
+          "offset": 82339,
+          "length": 20,
+          "match_sha256": "d3aa044ed61ad20b12a2e7f6721785dc827d54b84b2234a4323039b4964c9691"
+        },
+        {
+          "offset": 101065,
+          "length": 20,
+          "match_sha256": "af407b53c5f5c43dbd9c8660e29a16c35d59b023cde1e908bded83a0eb924ead"
+        },
+        {
+          "offset": 975315,
+          "length": 20,
+          "match_sha256": "bebedec32ec0ad9d1f0f1f1a87ccc3bdcf68075fa7863eb1a062324e8d0a9e4b"
+        },
+        {
+          "offset": 1697574,
+          "length": 20,
+          "match_sha256": "4e8701af1262c9a4ab1a2a4428d703e58489cb3d5093022cad35265e7eb3f310"
+        },
+        {
+          "offset": 2470550,
+          "length": 20,
+          "match_sha256": "a644efd4e5a89d0f12022eea0f9d9ef82a4c16774e16d269c90dd11c2e4ab3c8"
+        },
+        {
+          "offset": 2728778,
+          "length": 20,
+          "match_sha256": "6b3f5069fd6e163befbf81142f8d10025d3036cdb3403cb202edc637be5adbb3"
+        },
+        {
+          "offset": 3027567,
+          "length": 20,
+          "match_sha256": "ff6d3f3c5c3f4ca954deeb56fce79d022e48288f44b92ea0cf926ec233b7dad4"
+        },
+        {
+          "offset": 3438066,
+          "length": 20,
+          "match_sha256": "a4964292b7253b2718d68a57ae199c172651a2837b736a87f68040a28a7f2720"
+        },
+        {
+          "offset": 3499326,
+          "length": 20,
+          "match_sha256": "a60233430b4026e4e944882c9652654aeb021535c0acc836ccd5554c3a2473bd"
+        },
+        {
+          "offset": 3508063,
+          "length": 20,
+          "match_sha256": "51f6bdd5eeda084a0a10e47adbc196e6b67d4ceb4e78c65fb180d7b1fb13ae7c"
+        },
+        {
+          "offset": 3511721,
+          "length": 20,
+          "match_sha256": "0fcd1c9e1149b05db7876d43caa5663946746fd60da46436d70aa25e68c78f9c"
+        },
+        {
+          "offset": 3522443,
+          "length": 20,
+          "match_sha256": "c5498d14629359e28f6d767d2e015e369d83eb7866548b589502be7d16471c2f"
+        }
+      ]
+    },
+    "remaining-library/extracted/astral-concourse-lobby-01-runtime-source/astral-concourse-lobby-01/source/lobby-concept-review.svg": {
+      "sha256": "ba12f4ff006d309c1561b74ff48ecda6c2c825d2571b1a1bd151d463375c06d7",
+      "matches": [
+        {
+          "offset": 51496,
+          "length": 20,
+          "match_sha256": "248964329f6d386937d2b1328e9e8e9dd734539eedd44ca6bc7f508aa98a3031"
+        },
+        {
+          "offset": 60619,
+          "length": 20,
+          "match_sha256": "1064ed318b737462e9ed1c268e24746e96a93705a7671f21cb9027750a4e79c2"
+        },
+        {
+          "offset": 82119,
+          "length": 20,
+          "match_sha256": "7f11211b66321861079cf457c2080c647b30e85358fb9fff760f47e445d9cedf"
+        },
+        {
+          "offset": 83032,
+          "length": 20,
+          "match_sha256": "d3aa044ed61ad20b12a2e7f6721785dc827d54b84b2234a4323039b4964c9691"
+        },
+        {
+          "offset": 101758,
+          "length": 20,
+          "match_sha256": "af407b53c5f5c43dbd9c8660e29a16c35d59b023cde1e908bded83a0eb924ead"
+        },
+        {
+          "offset": 976008,
+          "length": 20,
+          "match_sha256": "bebedec32ec0ad9d1f0f1f1a87ccc3bdcf68075fa7863eb1a062324e8d0a9e4b"
+        },
+        {
+          "offset": 1698267,
+          "length": 20,
+          "match_sha256": "4e8701af1262c9a4ab1a2a4428d703e58489cb3d5093022cad35265e7eb3f310"
+        },
+        {
+          "offset": 2471243,
+          "length": 20,
+          "match_sha256": "a644efd4e5a89d0f12022eea0f9d9ef82a4c16774e16d269c90dd11c2e4ab3c8"
+        },
+        {
+          "offset": 2729471,
+          "length": 20,
+          "match_sha256": "6b3f5069fd6e163befbf81142f8d10025d3036cdb3403cb202edc637be5adbb3"
+        },
+        {
+          "offset": 3028260,
+          "length": 20,
+          "match_sha256": "ff6d3f3c5c3f4ca954deeb56fce79d022e48288f44b92ea0cf926ec233b7dad4"
+        },
+        {
+          "offset": 3438759,
+          "length": 20,
+          "match_sha256": "a4964292b7253b2718d68a57ae199c172651a2837b736a87f68040a28a7f2720"
+        },
+        {
+          "offset": 3500019,
+          "length": 20,
+          "match_sha256": "a60233430b4026e4e944882c9652654aeb021535c0acc836ccd5554c3a2473bd"
+        },
+        {
+          "offset": 3508756,
+          "length": 20,
+          "match_sha256": "51f6bdd5eeda084a0a10e47adbc196e6b67d4ceb4e78c65fb180d7b1fb13ae7c"
+        },
+        {
+          "offset": 3512414,
+          "length": 20,
+          "match_sha256": "0fcd1c9e1149b05db7876d43caa5663946746fd60da46436d70aa25e68c78f9c"
+        },
+        {
+          "offset": 3523136,
+          "length": 20,
+          "match_sha256": "c5498d14629359e28f6d767d2e015e369d83eb7866548b589502be7d16471c2f"
+        }
+      ]
+    },
+    "remaining-library/extracted/astral-concourse-lobby-01-source/astral-concourse-lobby-01/source/lobby-concept-review.svg": {
+      "sha256": "ba12f4ff006d309c1561b74ff48ecda6c2c825d2571b1a1bd151d463375c06d7",
+      "matches": [
+        {
+          "offset": 51496,
+          "length": 20,
+          "match_sha256": "248964329f6d386937d2b1328e9e8e9dd734539eedd44ca6bc7f508aa98a3031"
+        },
+        {
+          "offset": 60619,
+          "length": 20,
+          "match_sha256": "1064ed318b737462e9ed1c268e24746e96a93705a7671f21cb9027750a4e79c2"
+        },
+        {
+          "offset": 82119,
+          "length": 20,
+          "match_sha256": "7f11211b66321861079cf457c2080c647b30e85358fb9fff760f47e445d9cedf"
+        },
+        {
+          "offset": 83032,
+          "length": 20,
+          "match_sha256": "d3aa044ed61ad20b12a2e7f6721785dc827d54b84b2234a4323039b4964c9691"
+        },
+        {
+          "offset": 101758,
+          "length": 20,
+          "match_sha256": "af407b53c5f5c43dbd9c8660e29a16c35d59b023cde1e908bded83a0eb924ead"
+        },
+        {
+          "offset": 976008,
+          "length": 20,
+          "match_sha256": "bebedec32ec0ad9d1f0f1f1a87ccc3bdcf68075fa7863eb1a062324e8d0a9e4b"
+        },
+        {
+          "offset": 1698267,
+          "length": 20,
+          "match_sha256": "4e8701af1262c9a4ab1a2a4428d703e58489cb3d5093022cad35265e7eb3f310"
+        },
+        {
+          "offset": 2471243,
+          "length": 20,
+          "match_sha256": "a644efd4e5a89d0f12022eea0f9d9ef82a4c16774e16d269c90dd11c2e4ab3c8"
+        },
+        {
+          "offset": 2729471,
+          "length": 20,
+          "match_sha256": "6b3f5069fd6e163befbf81142f8d10025d3036cdb3403cb202edc637be5adbb3"
+        },
+        {
+          "offset": 3028260,
+          "length": 20,
+          "match_sha256": "ff6d3f3c5c3f4ca954deeb56fce79d022e48288f44b92ea0cf926ec233b7dad4"
+        },
+        {
+          "offset": 3438759,
+          "length": 20,
+          "match_sha256": "a4964292b7253b2718d68a57ae199c172651a2837b736a87f68040a28a7f2720"
+        },
+        {
+          "offset": 3500019,
+          "length": 20,
+          "match_sha256": "a60233430b4026e4e944882c9652654aeb021535c0acc836ccd5554c3a2473bd"
+        },
+        {
+          "offset": 3508756,
+          "length": 20,
+          "match_sha256": "51f6bdd5eeda084a0a10e47adbc196e6b67d4ceb4e78c65fb180d7b1fb13ae7c"
+        },
+        {
+          "offset": 3512414,
+          "length": 20,
+          "match_sha256": "0fcd1c9e1149b05db7876d43caa5663946746fd60da46436d70aa25e68c78f9c"
+        },
+        {
+          "offset": 3523136,
+          "length": 20,
+          "match_sha256": "c5498d14629359e28f6d767d2e015e369d83eb7866548b589502be7d16471c2f"
+        }
+      ]
+    },
+    "remaining-library/extracted/astral-concourse-lobby-01-runtime-source/astral-concourse-lobby-01/source/lobby-runtime-art.svg": {
+      "sha256": "b7f53b80628c6ff8313b62e4a32b653bed8fde51c6f433f7e45dc8da3a2740c3",
+      "matches": [
+        {
+          "offset": 50803,
+          "length": 20,
+          "match_sha256": "248964329f6d386937d2b1328e9e8e9dd734539eedd44ca6bc7f508aa98a3031"
+        },
+        {
+          "offset": 59926,
+          "length": 20,
+          "match_sha256": "1064ed318b737462e9ed1c268e24746e96a93705a7671f21cb9027750a4e79c2"
+        },
+        {
+          "offset": 81426,
+          "length": 20,
+          "match_sha256": "7f11211b66321861079cf457c2080c647b30e85358fb9fff760f47e445d9cedf"
+        },
+        {
+          "offset": 82339,
+          "length": 20,
+          "match_sha256": "d3aa044ed61ad20b12a2e7f6721785dc827d54b84b2234a4323039b4964c9691"
+        },
+        {
+          "offset": 101065,
+          "length": 20,
+          "match_sha256": "af407b53c5f5c43dbd9c8660e29a16c35d59b023cde1e908bded83a0eb924ead"
+        },
+        {
+          "offset": 975315,
+          "length": 20,
+          "match_sha256": "bebedec32ec0ad9d1f0f1f1a87ccc3bdcf68075fa7863eb1a062324e8d0a9e4b"
+        },
+        {
+          "offset": 1697574,
+          "length": 20,
+          "match_sha256": "4e8701af1262c9a4ab1a2a4428d703e58489cb3d5093022cad35265e7eb3f310"
+        },
+        {
+          "offset": 2470550,
+          "length": 20,
+          "match_sha256": "a644efd4e5a89d0f12022eea0f9d9ef82a4c16774e16d269c90dd11c2e4ab3c8"
+        },
+        {
+          "offset": 2728778,
+          "length": 20,
+          "match_sha256": "6b3f5069fd6e163befbf81142f8d10025d3036cdb3403cb202edc637be5adbb3"
+        },
+        {
+          "offset": 3027567,
+          "length": 20,
+          "match_sha256": "ff6d3f3c5c3f4ca954deeb56fce79d022e48288f44b92ea0cf926ec233b7dad4"
+        },
+        {
+          "offset": 3438066,
+          "length": 20,
+          "match_sha256": "a4964292b7253b2718d68a57ae199c172651a2837b736a87f68040a28a7f2720"
+        },
+        {
+          "offset": 3499326,
+          "length": 20,
+          "match_sha256": "a60233430b4026e4e944882c9652654aeb021535c0acc836ccd5554c3a2473bd"
+        },
+        {
+          "offset": 3508063,
+          "length": 20,
+          "match_sha256": "51f6bdd5eeda084a0a10e47adbc196e6b67d4ceb4e78c65fb180d7b1fb13ae7c"
+        },
+        {
+          "offset": 3511721,
+          "length": 20,
+          "match_sha256": "0fcd1c9e1149b05db7876d43caa5663946746fd60da46436d70aa25e68c78f9c"
+        },
+        {
+          "offset": 3522443,
+          "length": 20,
+          "match_sha256": "c5498d14629359e28f6d767d2e015e369d83eb7866548b589502be7d16471c2f"
+        }
+      ]
+    },
+    "remaining-library/extracted/astral-concourse-lobby-01-runtime-source/astral-concourse-lobby-01/source/lobby-runtime-review.svg": {
+      "sha256": "bd55c33231a579a8904a092d6a926d01a9717cd3311dcab9092318f3747830a4",
+      "matches": [
+        {
+          "offset": 281567,
+          "length": 20,
+          "match_sha256": "a0072e373a112bcd94834cf0251f3b129c495d7e262b4d66eb416ade9b885da7"
+        },
+        {
+          "offset": 389023,
+          "length": 20,
+          "match_sha256": "b24dcbca1a47eac0aeb62e28f4a35cfd53a59c37c6a62951bad1c4c2080584fa"
+        },
+        {
+          "offset": 758545,
+          "length": 20,
+          "match_sha256": "39e5008507f14b9e72385ea021081130de81091848659adc5d8ebaa9e19667f4"
+        },
+        {
+          "offset": 1265952,
+          "length": 20,
+          "match_sha256": "a084125ab96d4c271b9e8b16ad401a67933c10ef174b52797f7a69a265a748f4"
+        },
+        {
+          "offset": 1905644,
+          "length": 20,
+          "match_sha256": "8e9f22884c90b42ce071e216d92698b9b9d32ee2c9b1298926c65e7d9a19b834"
+        },
+        {
+          "offset": 2083071,
+          "length": 20,
+          "match_sha256": "d7d68b8fc4a31bba5c255ea872a163faa3a5d287254db237121319d9e78d1504"
+        }
+      ]
+    },
+    "remaining-library/extracted/astral-forum-hall-01-source/source/forum-architecture-native.svg": {
+      "sha256": "1f5dac8b6d95684ad920d1beb2811a96ebc2ed290c09dcbf4fd42a03226a4688",
+      "matches": [
+        {
+          "offset": 122718,
+          "length": 20,
+          "match_sha256": "6e241394bbbe7f55cd8bc23e8d787dac38d0f33dc8cb1f4e2a61d0dc8dcecc23"
+        },
+        {
+          "offset": 332374,
+          "length": 20,
+          "match_sha256": "103cb8d2b45e476afec975713ff098e133e993a1d498f55a3dcafb8b0bac164c"
+        },
+        {
+          "offset": 385997,
+          "length": 20,
+          "match_sha256": "ac8639174ee276834e5a23a87c385cbc469853ce4dbb0c5d72872184eaa845c7"
+        },
+        {
+          "offset": 859226,
+          "length": 20,
+          "match_sha256": "cbc44f7fdbba122970bc76f2b64e8281958538596c57439ee5c6d898a613d4d8"
+        },
+        {
+          "offset": 1054958,
+          "length": 20,
+          "match_sha256": "a62d279e8f6c4126b4db4af2bd757616c2fe034f2f02b0a275a8a6fc0b5b31ab"
+        },
+        {
+          "offset": 1147057,
+          "length": 20,
+          "match_sha256": "e85e0591f888c5e667b5fe32bfe0eb2825d6c3ec04a734be3c9ca1481b68cac3"
+        },
+        {
+          "offset": 1262846,
+          "length": 20,
+          "match_sha256": "8920163c33d4355272024653f468fcf2e2f8893fc4fc7ad432f4bafd0259fd46"
+        },
+        {
+          "offset": 1410387,
+          "length": 20,
+          "match_sha256": "158b3ff892fed5562421720d08315734301afbb061b7e3fbb4b218d4b6bc8e78"
+        },
+        {
+          "offset": 2355922,
+          "length": 20,
+          "match_sha256": "e223511e0f94468a10ef5012869899e384285a838f508d01a1298d89d18a033d"
+        },
+        {
+          "offset": 2619849,
+          "length": 20,
+          "match_sha256": "8808ddf226f1c4d64b5fd4d00ef8db4a0e2b6593eed20bfc5b3bb67bf67916b1"
+        },
+        {
+          "offset": 2655817,
+          "length": 20,
+          "match_sha256": "902c3e2a5e87647a33993db2bfa512b9d7b42c86de00e443022a000fd81ace84"
+        },
+        {
+          "offset": 3020233,
+          "length": 20,
+          "match_sha256": "8ccea9b4f1bcda55c780fc91b6775f12a3e6259b9b67fc9d8e93cc1bae9bfc9e"
+        },
+        {
+          "offset": 3325186,
+          "length": 20,
+          "match_sha256": "1b5b7576a5b8a171a7b6e66b3d2c07cbe4ad68ae33409c6d2ffb3113fc1c322e"
+        },
+        {
+          "offset": 3345506,
+          "length": 20,
+          "match_sha256": "71405e8ef9336186c02e69819a224a41bd57148c37096794f91bf92e8246dec5"
+        },
+        {
+          "offset": 3376767,
+          "length": 20,
+          "match_sha256": "e977f0b1337f96384865439fd7b1ea1fdcd593fbcff29c7b347dd827452edd6a"
+        },
+        {
+          "offset": 3396895,
+          "length": 20,
+          "match_sha256": "e42ae907d83f7de7831650166788388a6889e8e0a7f699f290fa00361fcc07e5"
+        },
+        {
+          "offset": 3404438,
+          "length": 20,
+          "match_sha256": "5bae31fc834fd3e2f372f69e7b18b2227e04a9a1f6585d21dd6f586f6bd791ea"
+        },
+        {
+          "offset": 3408970,
+          "length": 20,
+          "match_sha256": "721c3e91a8a528286b69fd2d4c4fedf03e7bb358b28973cf673ec53f12597036"
+        }
+      ]
+    },
+    "remaining-library/extracted/astral-forum-hall-01-source/source/forum-empty-native.svg": {
+      "sha256": "664e62bfc34a718445ddd457e86f92cd5bc04d2a7732c59d28a22faa7b6555ce",
+      "matches": [
+        {
+          "offset": 122718,
+          "length": 20,
+          "match_sha256": "6e241394bbbe7f55cd8bc23e8d787dac38d0f33dc8cb1f4e2a61d0dc8dcecc23"
+        },
+        {
+          "offset": 332374,
+          "length": 20,
+          "match_sha256": "103cb8d2b45e476afec975713ff098e133e993a1d498f55a3dcafb8b0bac164c"
+        },
+        {
+          "offset": 385997,
+          "length": 20,
+          "match_sha256": "ac8639174ee276834e5a23a87c385cbc469853ce4dbb0c5d72872184eaa845c7"
+        },
+        {
+          "offset": 859226,
+          "length": 20,
+          "match_sha256": "cbc44f7fdbba122970bc76f2b64e8281958538596c57439ee5c6d898a613d4d8"
+        },
+        {
+          "offset": 1054958,
+          "length": 20,
+          "match_sha256": "a62d279e8f6c4126b4db4af2bd757616c2fe034f2f02b0a275a8a6fc0b5b31ab"
+        },
+        {
+          "offset": 1147057,
+          "length": 20,
+          "match_sha256": "e85e0591f888c5e667b5fe32bfe0eb2825d6c3ec04a734be3c9ca1481b68cac3"
+        },
+        {
+          "offset": 1262846,
+          "length": 20,
+          "match_sha256": "8920163c33d4355272024653f468fcf2e2f8893fc4fc7ad432f4bafd0259fd46"
+        },
+        {
+          "offset": 1410387,
+          "length": 20,
+          "match_sha256": "158b3ff892fed5562421720d08315734301afbb061b7e3fbb4b218d4b6bc8e78"
+        },
+        {
+          "offset": 2355922,
+          "length": 20,
+          "match_sha256": "e223511e0f94468a10ef5012869899e384285a838f508d01a1298d89d18a033d"
+        },
+        {
+          "offset": 2619849,
+          "length": 20,
+          "match_sha256": "8808ddf226f1c4d64b5fd4d00ef8db4a0e2b6593eed20bfc5b3bb67bf67916b1"
+        },
+        {
+          "offset": 2655817,
+          "length": 20,
+          "match_sha256": "902c3e2a5e87647a33993db2bfa512b9d7b42c86de00e443022a000fd81ace84"
+        },
+        {
+          "offset": 3020233,
+          "length": 20,
+          "match_sha256": "8ccea9b4f1bcda55c780fc91b6775f12a3e6259b9b67fc9d8e93cc1bae9bfc9e"
+        },
+        {
+          "offset": 3325186,
+          "length": 20,
+          "match_sha256": "1b5b7576a5b8a171a7b6e66b3d2c07cbe4ad68ae33409c6d2ffb3113fc1c322e"
+        },
+        {
+          "offset": 3345506,
+          "length": 20,
+          "match_sha256": "71405e8ef9336186c02e69819a224a41bd57148c37096794f91bf92e8246dec5"
+        },
+        {
+          "offset": 3376767,
+          "length": 20,
+          "match_sha256": "e977f0b1337f96384865439fd7b1ea1fdcd593fbcff29c7b347dd827452edd6a"
+        },
+        {
+          "offset": 3396895,
+          "length": 20,
+          "match_sha256": "e42ae907d83f7de7831650166788388a6889e8e0a7f699f290fa00361fcc07e5"
+        },
+        {
+          "offset": 3404438,
+          "length": 20,
+          "match_sha256": "5bae31fc834fd3e2f372f69e7b18b2227e04a9a1f6585d21dd6f586f6bd791ea"
+        },
+        {
+          "offset": 3408970,
+          "length": 20,
+          "match_sha256": "721c3e91a8a528286b69fd2d4c4fedf03e7bb358b28973cf673ec53f12597036"
+        }
+      ]
+    },
+    "remaining-library/extracted/astral-forum-hall-01-source/source/forum-occupied-native.svg": {
+      "sha256": "6ff82bb55047e3a207e585147358629e2b9a9938e10edf24a0e1c57a1251f64b",
+      "matches": [
+        {
+          "offset": 122718,
+          "length": 20,
+          "match_sha256": "6e241394bbbe7f55cd8bc23e8d787dac38d0f33dc8cb1f4e2a61d0dc8dcecc23"
+        },
+        {
+          "offset": 332374,
+          "length": 20,
+          "match_sha256": "103cb8d2b45e476afec975713ff098e133e993a1d498f55a3dcafb8b0bac164c"
+        },
+        {
+          "offset": 385997,
+          "length": 20,
+          "match_sha256": "ac8639174ee276834e5a23a87c385cbc469853ce4dbb0c5d72872184eaa845c7"
+        },
+        {
+          "offset": 859226,
+          "length": 20,
+          "match_sha256": "cbc44f7fdbba122970bc76f2b64e8281958538596c57439ee5c6d898a613d4d8"
+        },
+        {
+          "offset": 1054958,
+          "length": 20,
+          "match_sha256": "a62d279e8f6c4126b4db4af2bd757616c2fe034f2f02b0a275a8a6fc0b5b31ab"
+        },
+        {
+          "offset": 1147057,
+          "length": 20,
+          "match_sha256": "e85e0591f888c5e667b5fe32bfe0eb2825d6c3ec04a734be3c9ca1481b68cac3"
+        },
+        {
+          "offset": 1262846,
+          "length": 20,
+          "match_sha256": "8920163c33d4355272024653f468fcf2e2f8893fc4fc7ad432f4bafd0259fd46"
+        },
+        {
+          "offset": 1410387,
+          "length": 20,
+          "match_sha256": "158b3ff892fed5562421720d08315734301afbb061b7e3fbb4b218d4b6bc8e78"
+        },
+        {
+          "offset": 2355922,
+          "length": 20,
+          "match_sha256": "e223511e0f94468a10ef5012869899e384285a838f508d01a1298d89d18a033d"
+        },
+        {
+          "offset": 2619849,
+          "length": 20,
+          "match_sha256": "8808ddf226f1c4d64b5fd4d00ef8db4a0e2b6593eed20bfc5b3bb67bf67916b1"
+        },
+        {
+          "offset": 2655817,
+          "length": 20,
+          "match_sha256": "902c3e2a5e87647a33993db2bfa512b9d7b42c86de00e443022a000fd81ace84"
+        },
+        {
+          "offset": 3020233,
+          "length": 20,
+          "match_sha256": "8ccea9b4f1bcda55c780fc91b6775f12a3e6259b9b67fc9d8e93cc1bae9bfc9e"
+        },
+        {
+          "offset": 3325186,
+          "length": 20,
+          "match_sha256": "1b5b7576a5b8a171a7b6e66b3d2c07cbe4ad68ae33409c6d2ffb3113fc1c322e"
+        },
+        {
+          "offset": 3345506,
+          "length": 20,
+          "match_sha256": "71405e8ef9336186c02e69819a224a41bd57148c37096794f91bf92e8246dec5"
+        },
+        {
+          "offset": 3376767,
+          "length": 20,
+          "match_sha256": "e977f0b1337f96384865439fd7b1ea1fdcd593fbcff29c7b347dd827452edd6a"
+        },
+        {
+          "offset": 3396895,
+          "length": 20,
+          "match_sha256": "e42ae907d83f7de7831650166788388a6889e8e0a7f699f290fa00361fcc07e5"
+        },
+        {
+          "offset": 3404438,
+          "length": 20,
+          "match_sha256": "5bae31fc834fd3e2f372f69e7b18b2227e04a9a1f6585d21dd6f586f6bd791ea"
+        },
+        {
+          "offset": 3408970,
+          "length": 20,
+          "match_sha256": "721c3e91a8a528286b69fd2d4c4fedf03e7bb358b28973cf673ec53f12597036"
+        },
+        {
+          "offset": 3595252,
+          "length": 20,
+          "match_sha256": "6e241394bbbe7f55cd8bc23e8d787dac38d0f33dc8cb1f4e2a61d0dc8dcecc23"
+        },
+        {
+          "offset": 3804908,
+          "length": 20,
+          "match_sha256": "103cb8d2b45e476afec975713ff098e133e993a1d498f55a3dcafb8b0bac164c"
+        },
+        {
+          "offset": 3858531,
+          "length": 20,
+          "match_sha256": "ac8639174ee276834e5a23a87c385cbc469853ce4dbb0c5d72872184eaa845c7"
+        },
+        {
+          "offset": 4331760,
+          "length": 20,
+          "match_sha256": "cbc44f7fdbba122970bc76f2b64e8281958538596c57439ee5c6d898a613d4d8"
+        },
+        {
+          "offset": 4527492,
+          "length": 20,
+          "match_sha256": "a62d279e8f6c4126b4db4af2bd757616c2fe034f2f02b0a275a8a6fc0b5b31ab"
+        },
+        {
+          "offset": 4619591,
+          "length": 20,
+          "match_sha256": "e85e0591f888c5e667b5fe32bfe0eb2825d6c3ec04a734be3c9ca1481b68cac3"
+        },
+        {
+          "offset": 4735380,
+          "length": 20,
+          "match_sha256": "8920163c33d4355272024653f468fcf2e2f8893fc4fc7ad432f4bafd0259fd46"
+        },
+        {
+          "offset": 4882921,
+          "length": 20,
+          "match_sha256": "158b3ff892fed5562421720d08315734301afbb061b7e3fbb4b218d4b6bc8e78"
+        },
+        {
+          "offset": 5828456,
+          "length": 20,
+          "match_sha256": "e223511e0f94468a10ef5012869899e384285a838f508d01a1298d89d18a033d"
+        },
+        {
+          "offset": 6092383,
+          "length": 20,
+          "match_sha256": "8808ddf226f1c4d64b5fd4d00ef8db4a0e2b6593eed20bfc5b3bb67bf67916b1"
+        },
+        {
+          "offset": 6128351,
+          "length": 20,
+          "match_sha256": "902c3e2a5e87647a33993db2bfa512b9d7b42c86de00e443022a000fd81ace84"
+        },
+        {
+          "offset": 6492767,
+          "length": 20,
+          "match_sha256": "8ccea9b4f1bcda55c780fc91b6775f12a3e6259b9b67fc9d8e93cc1bae9bfc9e"
+        },
+        {
+          "offset": 6797720,
+          "length": 20,
+          "match_sha256": "1b5b7576a5b8a171a7b6e66b3d2c07cbe4ad68ae33409c6d2ffb3113fc1c322e"
+        },
+        {
+          "offset": 6818040,
+          "length": 20,
+          "match_sha256": "71405e8ef9336186c02e69819a224a41bd57148c37096794f91bf92e8246dec5"
+        },
+        {
+          "offset": 6849301,
+          "length": 20,
+          "match_sha256": "e977f0b1337f96384865439fd7b1ea1fdcd593fbcff29c7b347dd827452edd6a"
+        },
+        {
+          "offset": 6869429,
+          "length": 20,
+          "match_sha256": "e42ae907d83f7de7831650166788388a6889e8e0a7f699f290fa00361fcc07e5"
+        },
+        {
+          "offset": 6876972,
+          "length": 20,
+          "match_sha256": "5bae31fc834fd3e2f372f69e7b18b2227e04a9a1f6585d21dd6f586f6bd791ea"
+        },
+        {
+          "offset": 6881504,
+          "length": 20,
+          "match_sha256": "721c3e91a8a528286b69fd2d4c4fedf03e7bb358b28973cf673ec53f12597036"
+        }
+      ]
+    },
+    "remaining-library/extracted/astral-forum-hall-01-source/source/forum-overview.svg": {
+      "sha256": "26bd78c60212a147e48b048cf04c396975ec972819e050e8832383ceafec9a67",
+      "matches": [
+        {
+          "offset": 123410,
+          "length": 20,
+          "match_sha256": "6e241394bbbe7f55cd8bc23e8d787dac38d0f33dc8cb1f4e2a61d0dc8dcecc23"
+        },
+        {
+          "offset": 333066,
+          "length": 20,
+          "match_sha256": "103cb8d2b45e476afec975713ff098e133e993a1d498f55a3dcafb8b0bac164c"
+        },
+        {
+          "offset": 386689,
+          "length": 20,
+          "match_sha256": "ac8639174ee276834e5a23a87c385cbc469853ce4dbb0c5d72872184eaa845c7"
+        },
+        {
+          "offset": 859918,
+          "length": 20,
+          "match_sha256": "cbc44f7fdbba122970bc76f2b64e8281958538596c57439ee5c6d898a613d4d8"
+        },
+        {
+          "offset": 1055650,
+          "length": 20,
+          "match_sha256": "a62d279e8f6c4126b4db4af2bd757616c2fe034f2f02b0a275a8a6fc0b5b31ab"
+        },
+        {
+          "offset": 1147749,
+          "length": 20,
+          "match_sha256": "e85e0591f888c5e667b5fe32bfe0eb2825d6c3ec04a734be3c9ca1481b68cac3"
+        },
+        {
+          "offset": 1263538,
+          "length": 20,
+          "match_sha256": "8920163c33d4355272024653f468fcf2e2f8893fc4fc7ad432f4bafd0259fd46"
+        },
+        {
+          "offset": 1411079,
+          "length": 20,
+          "match_sha256": "158b3ff892fed5562421720d08315734301afbb061b7e3fbb4b218d4b6bc8e78"
+        },
+        {
+          "offset": 2356614,
+          "length": 20,
+          "match_sha256": "e223511e0f94468a10ef5012869899e384285a838f508d01a1298d89d18a033d"
+        },
+        {
+          "offset": 2620541,
+          "length": 20,
+          "match_sha256": "8808ddf226f1c4d64b5fd4d00ef8db4a0e2b6593eed20bfc5b3bb67bf67916b1"
+        },
+        {
+          "offset": 2656509,
+          "length": 20,
+          "match_sha256": "902c3e2a5e87647a33993db2bfa512b9d7b42c86de00e443022a000fd81ace84"
+        },
+        {
+          "offset": 3020925,
+          "length": 20,
+          "match_sha256": "8ccea9b4f1bcda55c780fc91b6775f12a3e6259b9b67fc9d8e93cc1bae9bfc9e"
+        },
+        {
+          "offset": 3325878,
+          "length": 20,
+          "match_sha256": "1b5b7576a5b8a171a7b6e66b3d2c07cbe4ad68ae33409c6d2ffb3113fc1c322e"
+        },
+        {
+          "offset": 3346198,
+          "length": 20,
+          "match_sha256": "71405e8ef9336186c02e69819a224a41bd57148c37096794f91bf92e8246dec5"
+        },
+        {
+          "offset": 3377459,
+          "length": 20,
+          "match_sha256": "e977f0b1337f96384865439fd7b1ea1fdcd593fbcff29c7b347dd827452edd6a"
+        },
+        {
+          "offset": 3397587,
+          "length": 20,
+          "match_sha256": "e42ae907d83f7de7831650166788388a6889e8e0a7f699f290fa00361fcc07e5"
+        },
+        {
+          "offset": 3405130,
+          "length": 20,
+          "match_sha256": "5bae31fc834fd3e2f372f69e7b18b2227e04a9a1f6585d21dd6f586f6bd791ea"
+        },
+        {
+          "offset": 3409662,
+          "length": 20,
+          "match_sha256": "721c3e91a8a528286b69fd2d4c4fedf03e7bb358b28973cf673ec53f12597036"
+        },
+        {
+          "offset": 3595944,
+          "length": 20,
+          "match_sha256": "6e241394bbbe7f55cd8bc23e8d787dac38d0f33dc8cb1f4e2a61d0dc8dcecc23"
+        },
+        {
+          "offset": 3805600,
+          "length": 20,
+          "match_sha256": "103cb8d2b45e476afec975713ff098e133e993a1d498f55a3dcafb8b0bac164c"
+        },
+        {
+          "offset": 3859223,
+          "length": 20,
+          "match_sha256": "ac8639174ee276834e5a23a87c385cbc469853ce4dbb0c5d72872184eaa845c7"
+        },
+        {
+          "offset": 4332452,
+          "length": 20,
+          "match_sha256": "cbc44f7fdbba122970bc76f2b64e8281958538596c57439ee5c6d898a613d4d8"
+        },
+        {
+          "offset": 4528184,
+          "length": 20,
+          "match_sha256": "a62d279e8f6c4126b4db4af2bd757616c2fe034f2f02b0a275a8a6fc0b5b31ab"
+        },
+        {
+          "offset": 4620283,
+          "length": 20,
+          "match_sha256": "e85e0591f888c5e667b5fe32bfe0eb2825d6c3ec04a734be3c9ca1481b68cac3"
+        },
+        {
+          "offset": 4736072,
+          "length": 20,
+          "match_sha256": "8920163c33d4355272024653f468fcf2e2f8893fc4fc7ad432f4bafd0259fd46"
+        },
+        {
+          "offset": 4883613,
+          "length": 20,
+          "match_sha256": "158b3ff892fed5562421720d08315734301afbb061b7e3fbb4b218d4b6bc8e78"
+        },
+        {
+          "offset": 5829148,
+          "length": 20,
+          "match_sha256": "e223511e0f94468a10ef5012869899e384285a838f508d01a1298d89d18a033d"
+        },
+        {
+          "offset": 6093075,
+          "length": 20,
+          "match_sha256": "8808ddf226f1c4d64b5fd4d00ef8db4a0e2b6593eed20bfc5b3bb67bf67916b1"
+        },
+        {
+          "offset": 6129043,
+          "length": 20,
+          "match_sha256": "902c3e2a5e87647a33993db2bfa512b9d7b42c86de00e443022a000fd81ace84"
+        },
+        {
+          "offset": 6493459,
+          "length": 20,
+          "match_sha256": "8ccea9b4f1bcda55c780fc91b6775f12a3e6259b9b67fc9d8e93cc1bae9bfc9e"
+        },
+        {
+          "offset": 6798412,
+          "length": 20,
+          "match_sha256": "1b5b7576a5b8a171a7b6e66b3d2c07cbe4ad68ae33409c6d2ffb3113fc1c322e"
+        },
+        {
+          "offset": 6818732,
+          "length": 20,
+          "match_sha256": "71405e8ef9336186c02e69819a224a41bd57148c37096794f91bf92e8246dec5"
+        },
+        {
+          "offset": 6849993,
+          "length": 20,
+          "match_sha256": "e977f0b1337f96384865439fd7b1ea1fdcd593fbcff29c7b347dd827452edd6a"
+        },
+        {
+          "offset": 6870121,
+          "length": 20,
+          "match_sha256": "e42ae907d83f7de7831650166788388a6889e8e0a7f699f290fa00361fcc07e5"
+        },
+        {
+          "offset": 6877664,
+          "length": 20,
+          "match_sha256": "5bae31fc834fd3e2f372f69e7b18b2227e04a9a1f6585d21dd6f586f6bd791ea"
+        },
+        {
+          "offset": 6882196,
+          "length": 20,
+          "match_sha256": "721c3e91a8a528286b69fd2d4c4fedf03e7bb358b28973cf673ec53f12597036"
+        }
+      ]
+    },
+    "remaining-library/extracted/astral-forum-hall-01-source/source/native-scale-composition.svg": {
+      "sha256": "7b5986c9e5407c6c4c3bcb7c7fcf7c0a06149df86e0f6464f41e690ae52e8bd4",
+      "matches": [
+        {
+          "offset": 123159,
+          "length": 20,
+          "match_sha256": "6e241394bbbe7f55cd8bc23e8d787dac38d0f33dc8cb1f4e2a61d0dc8dcecc23"
+        },
+        {
+          "offset": 332815,
+          "length": 20,
+          "match_sha256": "103cb8d2b45e476afec975713ff098e133e993a1d498f55a3dcafb8b0bac164c"
+        },
+        {
+          "offset": 386438,
+          "length": 20,
+          "match_sha256": "ac8639174ee276834e5a23a87c385cbc469853ce4dbb0c5d72872184eaa845c7"
+        },
+        {
+          "offset": 859667,
+          "length": 20,
+          "match_sha256": "cbc44f7fdbba122970bc76f2b64e8281958538596c57439ee5c6d898a613d4d8"
+        },
+        {
+          "offset": 1055399,
+          "length": 20,
+          "match_sha256": "a62d279e8f6c4126b4db4af2bd757616c2fe034f2f02b0a275a8a6fc0b5b31ab"
+        },
+        {
+          "offset": 1147498,
+          "length": 20,
+          "match_sha256": "e85e0591f888c5e667b5fe32bfe0eb2825d6c3ec04a734be3c9ca1481b68cac3"
+        },
+        {
+          "offset": 1263287,
+          "length": 20,
+          "match_sha256": "8920163c33d4355272024653f468fcf2e2f8893fc4fc7ad432f4bafd0259fd46"
+        },
+        {
+          "offset": 1410828,
+          "length": 20,
+          "match_sha256": "158b3ff892fed5562421720d08315734301afbb061b7e3fbb4b218d4b6bc8e78"
+        },
+        {
+          "offset": 2356363,
+          "length": 20,
+          "match_sha256": "e223511e0f94468a10ef5012869899e384285a838f508d01a1298d89d18a033d"
+        },
+        {
+          "offset": 2620290,
+          "length": 20,
+          "match_sha256": "8808ddf226f1c4d64b5fd4d00ef8db4a0e2b6593eed20bfc5b3bb67bf67916b1"
+        },
+        {
+          "offset": 2656258,
+          "length": 20,
+          "match_sha256": "902c3e2a5e87647a33993db2bfa512b9d7b42c86de00e443022a000fd81ace84"
+        },
+        {
+          "offset": 3020674,
+          "length": 20,
+          "match_sha256": "8ccea9b4f1bcda55c780fc91b6775f12a3e6259b9b67fc9d8e93cc1bae9bfc9e"
+        },
+        {
+          "offset": 3325627,
+          "length": 20,
+          "match_sha256": "1b5b7576a5b8a171a7b6e66b3d2c07cbe4ad68ae33409c6d2ffb3113fc1c322e"
+        },
+        {
+          "offset": 3345947,
+          "length": 20,
+          "match_sha256": "71405e8ef9336186c02e69819a224a41bd57148c37096794f91bf92e8246dec5"
+        },
+        {
+          "offset": 3377208,
+          "length": 20,
+          "match_sha256": "e977f0b1337f96384865439fd7b1ea1fdcd593fbcff29c7b347dd827452edd6a"
+        },
+        {
+          "offset": 3397336,
+          "length": 20,
+          "match_sha256": "e42ae907d83f7de7831650166788388a6889e8e0a7f699f290fa00361fcc07e5"
+        },
+        {
+          "offset": 3404879,
+          "length": 20,
+          "match_sha256": "5bae31fc834fd3e2f372f69e7b18b2227e04a9a1f6585d21dd6f586f6bd791ea"
+        },
+        {
+          "offset": 3409411,
+          "length": 20,
+          "match_sha256": "721c3e91a8a528286b69fd2d4c4fedf03e7bb358b28973cf673ec53f12597036"
+        },
+        {
+          "offset": 3595693,
+          "length": 20,
+          "match_sha256": "6e241394bbbe7f55cd8bc23e8d787dac38d0f33dc8cb1f4e2a61d0dc8dcecc23"
+        },
+        {
+          "offset": 3805349,
+          "length": 20,
+          "match_sha256": "103cb8d2b45e476afec975713ff098e133e993a1d498f55a3dcafb8b0bac164c"
+        },
+        {
+          "offset": 3858972,
+          "length": 20,
+          "match_sha256": "ac8639174ee276834e5a23a87c385cbc469853ce4dbb0c5d72872184eaa845c7"
+        },
+        {
+          "offset": 4332201,
+          "length": 20,
+          "match_sha256": "cbc44f7fdbba122970bc76f2b64e8281958538596c57439ee5c6d898a613d4d8"
+        },
+        {
+          "offset": 4527933,
+          "length": 20,
+          "match_sha256": "a62d279e8f6c4126b4db4af2bd757616c2fe034f2f02b0a275a8a6fc0b5b31ab"
+        },
+        {
+          "offset": 4620032,
+          "length": 20,
+          "match_sha256": "e85e0591f888c5e667b5fe32bfe0eb2825d6c3ec04a734be3c9ca1481b68cac3"
+        },
+        {
+          "offset": 4735821,
+          "length": 20,
+          "match_sha256": "8920163c33d4355272024653f468fcf2e2f8893fc4fc7ad432f4bafd0259fd46"
+        },
+        {
+          "offset": 4883362,
+          "length": 20,
+          "match_sha256": "158b3ff892fed5562421720d08315734301afbb061b7e3fbb4b218d4b6bc8e78"
+        },
+        {
+          "offset": 5828897,
+          "length": 20,
+          "match_sha256": "e223511e0f94468a10ef5012869899e384285a838f508d01a1298d89d18a033d"
+        },
+        {
+          "offset": 6092824,
+          "length": 20,
+          "match_sha256": "8808ddf226f1c4d64b5fd4d00ef8db4a0e2b6593eed20bfc5b3bb67bf67916b1"
+        },
+        {
+          "offset": 6128792,
+          "length": 20,
+          "match_sha256": "902c3e2a5e87647a33993db2bfa512b9d7b42c86de00e443022a000fd81ace84"
+        },
+        {
+          "offset": 6493208,
+          "length": 20,
+          "match_sha256": "8ccea9b4f1bcda55c780fc91b6775f12a3e6259b9b67fc9d8e93cc1bae9bfc9e"
+        },
+        {
+          "offset": 6798161,
+          "length": 20,
+          "match_sha256": "1b5b7576a5b8a171a7b6e66b3d2c07cbe4ad68ae33409c6d2ffb3113fc1c322e"
+        },
+        {
+          "offset": 6818481,
+          "length": 20,
+          "match_sha256": "71405e8ef9336186c02e69819a224a41bd57148c37096794f91bf92e8246dec5"
+        },
+        {
+          "offset": 6849742,
+          "length": 20,
+          "match_sha256": "e977f0b1337f96384865439fd7b1ea1fdcd593fbcff29c7b347dd827452edd6a"
+        },
+        {
+          "offset": 6869870,
+          "length": 20,
+          "match_sha256": "e42ae907d83f7de7831650166788388a6889e8e0a7f699f290fa00361fcc07e5"
+        },
+        {
+          "offset": 6877413,
+          "length": 20,
+          "match_sha256": "5bae31fc834fd3e2f372f69e7b18b2227e04a9a1f6585d21dd6f586f6bd791ea"
+        },
+        {
+          "offset": 6881945,
+          "length": 20,
+          "match_sha256": "721c3e91a8a528286b69fd2d4c4fedf03e7bb358b28973cf673ec53f12597036"
+        },
+        {
+          "offset": 7653327,
+          "length": 20,
+          "match_sha256": "6e241394bbbe7f55cd8bc23e8d787dac38d0f33dc8cb1f4e2a61d0dc8dcecc23"
+        },
+        {
+          "offset": 7862983,
+          "length": 20,
+          "match_sha256": "103cb8d2b45e476afec975713ff098e133e993a1d498f55a3dcafb8b0bac164c"
+        },
+        {
+          "offset": 7916606,
+          "length": 20,
+          "match_sha256": "ac8639174ee276834e5a23a87c385cbc469853ce4dbb0c5d72872184eaa845c7"
+        },
+        {
+          "offset": 8389835,
+          "length": 20,
+          "match_sha256": "cbc44f7fdbba122970bc76f2b64e8281958538596c57439ee5c6d898a613d4d8"
+        },
+        {
+          "offset": 8585567,
+          "length": 20,
+          "match_sha256": "a62d279e8f6c4126b4db4af2bd757616c2fe034f2f02b0a275a8a6fc0b5b31ab"
+        },
+        {
+          "offset": 8677666,
+          "length": 20,
+          "match_sha256": "e85e0591f888c5e667b5fe32bfe0eb2825d6c3ec04a734be3c9ca1481b68cac3"
+        },
+        {
+          "offset": 8793455,
+          "length": 20,
+          "match_sha256": "8920163c33d4355272024653f468fcf2e2f8893fc4fc7ad432f4bafd0259fd46"
+        },
+        {
+          "offset": 8940996,
+          "length": 20,
+          "match_sha256": "158b3ff892fed5562421720d08315734301afbb061b7e3fbb4b218d4b6bc8e78"
+        },
+        {
+          "offset": 9886531,
+          "length": 20,
+          "match_sha256": "e223511e0f94468a10ef5012869899e384285a838f508d01a1298d89d18a033d"
+        },
+        {
+          "offset": 10150458,
+          "length": 20,
+          "match_sha256": "8808ddf226f1c4d64b5fd4d00ef8db4a0e2b6593eed20bfc5b3bb67bf67916b1"
+        },
+        {
+          "offset": 10186426,
+          "length": 20,
+          "match_sha256": "902c3e2a5e87647a33993db2bfa512b9d7b42c86de00e443022a000fd81ace84"
+        },
+        {
+          "offset": 10550842,
+          "length": 20,
+          "match_sha256": "8ccea9b4f1bcda55c780fc91b6775f12a3e6259b9b67fc9d8e93cc1bae9bfc9e"
+        },
+        {
+          "offset": 10855795,
+          "length": 20,
+          "match_sha256": "1b5b7576a5b8a171a7b6e66b3d2c07cbe4ad68ae33409c6d2ffb3113fc1c322e"
+        },
+        {
+          "offset": 10876115,
+          "length": 20,
+          "match_sha256": "71405e8ef9336186c02e69819a224a41bd57148c37096794f91bf92e8246dec5"
+        },
+        {
+          "offset": 10907376,
+          "length": 20,
+          "match_sha256": "e977f0b1337f96384865439fd7b1ea1fdcd593fbcff29c7b347dd827452edd6a"
+        },
+        {
+          "offset": 10927504,
+          "length": 20,
+          "match_sha256": "e42ae907d83f7de7831650166788388a6889e8e0a7f699f290fa00361fcc07e5"
+        },
+        {
+          "offset": 10935047,
+          "length": 20,
+          "match_sha256": "5bae31fc834fd3e2f372f69e7b18b2227e04a9a1f6585d21dd6f586f6bd791ea"
+        },
+        {
+          "offset": 10939579,
+          "length": 20,
+          "match_sha256": "721c3e91a8a528286b69fd2d4c4fedf03e7bb358b28973cf673ec53f12597036"
+        },
+        {
+          "offset": 11125861,
+          "length": 20,
+          "match_sha256": "6e241394bbbe7f55cd8bc23e8d787dac38d0f33dc8cb1f4e2a61d0dc8dcecc23"
+        },
+        {
+          "offset": 11335517,
+          "length": 20,
+          "match_sha256": "103cb8d2b45e476afec975713ff098e133e993a1d498f55a3dcafb8b0bac164c"
+        },
+        {
+          "offset": 11389140,
+          "length": 20,
+          "match_sha256": "ac8639174ee276834e5a23a87c385cbc469853ce4dbb0c5d72872184eaa845c7"
+        },
+        {
+          "offset": 11862369,
+          "length": 20,
+          "match_sha256": "cbc44f7fdbba122970bc76f2b64e8281958538596c57439ee5c6d898a613d4d8"
+        },
+        {
+          "offset": 12058101,
+          "length": 20,
+          "match_sha256": "a62d279e8f6c4126b4db4af2bd757616c2fe034f2f02b0a275a8a6fc0b5b31ab"
+        },
+        {
+          "offset": 12150200,
+          "length": 20,
+          "match_sha256": "e85e0591f888c5e667b5fe32bfe0eb2825d6c3ec04a734be3c9ca1481b68cac3"
+        },
+        {
+          "offset": 12265989,
+          "length": 20,
+          "match_sha256": "8920163c33d4355272024653f468fcf2e2f8893fc4fc7ad432f4bafd0259fd46"
+        },
+        {
+          "offset": 12413530,
+          "length": 20,
+          "match_sha256": "158b3ff892fed5562421720d08315734301afbb061b7e3fbb4b218d4b6bc8e78"
+        },
+        {
+          "offset": 13359065,
+          "length": 20,
+          "match_sha256": "e223511e0f94468a10ef5012869899e384285a838f508d01a1298d89d18a033d"
+        },
+        {
+          "offset": 13622992,
+          "length": 20,
+          "match_sha256": "8808ddf226f1c4d64b5fd4d00ef8db4a0e2b6593eed20bfc5b3bb67bf67916b1"
+        },
+        {
+          "offset": 13658960,
+          "length": 20,
+          "match_sha256": "902c3e2a5e87647a33993db2bfa512b9d7b42c86de00e443022a000fd81ace84"
+        },
+        {
+          "offset": 14023376,
+          "length": 20,
+          "match_sha256": "8ccea9b4f1bcda55c780fc91b6775f12a3e6259b9b67fc9d8e93cc1bae9bfc9e"
+        },
+        {
+          "offset": 14328329,
+          "length": 20,
+          "match_sha256": "1b5b7576a5b8a171a7b6e66b3d2c07cbe4ad68ae33409c6d2ffb3113fc1c322e"
+        },
+        {
+          "offset": 14348649,
+          "length": 20,
+          "match_sha256": "71405e8ef9336186c02e69819a224a41bd57148c37096794f91bf92e8246dec5"
+        },
+        {
+          "offset": 14379910,
+          "length": 20,
+          "match_sha256": "e977f0b1337f96384865439fd7b1ea1fdcd593fbcff29c7b347dd827452edd6a"
+        },
+        {
+          "offset": 14400038,
+          "length": 20,
+          "match_sha256": "e42ae907d83f7de7831650166788388a6889e8e0a7f699f290fa00361fcc07e5"
+        },
+        {
+          "offset": 14407581,
+          "length": 20,
+          "match_sha256": "5bae31fc834fd3e2f372f69e7b18b2227e04a9a1f6585d21dd6f586f6bd791ea"
+        },
+        {
+          "offset": 14412113,
+          "length": 20,
+          "match_sha256": "721c3e91a8a528286b69fd2d4c4fedf03e7bb358b28973cf673ec53f12597036"
+        },
+        {
+          "offset": 15183493,
+          "length": 20,
+          "match_sha256": "6e241394bbbe7f55cd8bc23e8d787dac38d0f33dc8cb1f4e2a61d0dc8dcecc23"
+        },
+        {
+          "offset": 15393149,
+          "length": 20,
+          "match_sha256": "103cb8d2b45e476afec975713ff098e133e993a1d498f55a3dcafb8b0bac164c"
+        },
+        {
+          "offset": 15446772,
+          "length": 20,
+          "match_sha256": "ac8639174ee276834e5a23a87c385cbc469853ce4dbb0c5d72872184eaa845c7"
+        },
+        {
+          "offset": 15920001,
+          "length": 20,
+          "match_sha256": "cbc44f7fdbba122970bc76f2b64e8281958538596c57439ee5c6d898a613d4d8"
+        },
+        {
+          "offset": 16115733,
+          "length": 20,
+          "match_sha256": "a62d279e8f6c4126b4db4af2bd757616c2fe034f2f02b0a275a8a6fc0b5b31ab"
+        },
+        {
+          "offset": 16207832,
+          "length": 20,
+          "match_sha256": "e85e0591f888c5e667b5fe32bfe0eb2825d6c3ec04a734be3c9ca1481b68cac3"
+        },
+        {
+          "offset": 16323621,
+          "length": 20,
+          "match_sha256": "8920163c33d4355272024653f468fcf2e2f8893fc4fc7ad432f4bafd0259fd46"
+        },
+        {
+          "offset": 16471162,
+          "length": 20,
+          "match_sha256": "158b3ff892fed5562421720d08315734301afbb061b7e3fbb4b218d4b6bc8e78"
+        },
+        {
+          "offset": 17416697,
+          "length": 20,
+          "match_sha256": "e223511e0f94468a10ef5012869899e384285a838f508d01a1298d89d18a033d"
+        },
+        {
+          "offset": 17680624,
+          "length": 20,
+          "match_sha256": "8808ddf226f1c4d64b5fd4d00ef8db4a0e2b6593eed20bfc5b3bb67bf67916b1"
+        },
+        {
+          "offset": 17716592,
+          "length": 20,
+          "match_sha256": "902c3e2a5e87647a33993db2bfa512b9d7b42c86de00e443022a000fd81ace84"
+        },
+        {
+          "offset": 18081008,
+          "length": 20,
+          "match_sha256": "8ccea9b4f1bcda55c780fc91b6775f12a3e6259b9b67fc9d8e93cc1bae9bfc9e"
+        },
+        {
+          "offset": 18385961,
+          "length": 20,
+          "match_sha256": "1b5b7576a5b8a171a7b6e66b3d2c07cbe4ad68ae33409c6d2ffb3113fc1c322e"
+        },
+        {
+          "offset": 18406281,
+          "length": 20,
+          "match_sha256": "71405e8ef9336186c02e69819a224a41bd57148c37096794f91bf92e8246dec5"
+        },
+        {
+          "offset": 18437542,
+          "length": 20,
+          "match_sha256": "e977f0b1337f96384865439fd7b1ea1fdcd593fbcff29c7b347dd827452edd6a"
+        },
+        {
+          "offset": 18457670,
+          "length": 20,
+          "match_sha256": "e42ae907d83f7de7831650166788388a6889e8e0a7f699f290fa00361fcc07e5"
+        },
+        {
+          "offset": 18465213,
+          "length": 20,
+          "match_sha256": "5bae31fc834fd3e2f372f69e7b18b2227e04a9a1f6585d21dd6f586f6bd791ea"
+        },
+        {
+          "offset": 18469745,
+          "length": 20,
+          "match_sha256": "721c3e91a8a528286b69fd2d4c4fedf03e7bb358b28973cf673ec53f12597036"
+        },
+        {
+          "offset": 18656027,
+          "length": 20,
+          "match_sha256": "6e241394bbbe7f55cd8bc23e8d787dac38d0f33dc8cb1f4e2a61d0dc8dcecc23"
+        },
+        {
+          "offset": 18865683,
+          "length": 20,
+          "match_sha256": "103cb8d2b45e476afec975713ff098e133e993a1d498f55a3dcafb8b0bac164c"
+        },
+        {
+          "offset": 18919306,
+          "length": 20,
+          "match_sha256": "ac8639174ee276834e5a23a87c385cbc469853ce4dbb0c5d72872184eaa845c7"
+        },
+        {
+          "offset": 19392535,
+          "length": 20,
+          "match_sha256": "cbc44f7fdbba122970bc76f2b64e8281958538596c57439ee5c6d898a613d4d8"
+        },
+        {
+          "offset": 19588267,
+          "length": 20,
+          "match_sha256": "a62d279e8f6c4126b4db4af2bd757616c2fe034f2f02b0a275a8a6fc0b5b31ab"
+        },
+        {
+          "offset": 19680366,
+          "length": 20,
+          "match_sha256": "e85e0591f888c5e667b5fe32bfe0eb2825d6c3ec04a734be3c9ca1481b68cac3"
+        },
+        {
+          "offset": 19796155,
+          "length": 20,
+          "match_sha256": "8920163c33d4355272024653f468fcf2e2f8893fc4fc7ad432f4bafd0259fd46"
+        },
+        {
+          "offset": 19943696,
+          "length": 20,
+          "match_sha256": "158b3ff892fed5562421720d08315734301afbb061b7e3fbb4b218d4b6bc8e78"
+        },
+        {
+          "offset": 20889231,
+          "length": 20,
+          "match_sha256": "e223511e0f94468a10ef5012869899e384285a838f508d01a1298d89d18a033d"
+        },
+        {
+          "offset": 21153158,
+          "length": 20,
+          "match_sha256": "8808ddf226f1c4d64b5fd4d00ef8db4a0e2b6593eed20bfc5b3bb67bf67916b1"
+        },
+        {
+          "offset": 21189126,
+          "length": 20,
+          "match_sha256": "902c3e2a5e87647a33993db2bfa512b9d7b42c86de00e443022a000fd81ace84"
+        },
+        {
+          "offset": 21553542,
+          "length": 20,
+          "match_sha256": "8ccea9b4f1bcda55c780fc91b6775f12a3e6259b9b67fc9d8e93cc1bae9bfc9e"
+        },
+        {
+          "offset": 21858495,
+          "length": 20,
+          "match_sha256": "1b5b7576a5b8a171a7b6e66b3d2c07cbe4ad68ae33409c6d2ffb3113fc1c322e"
+        },
+        {
+          "offset": 21878815,
+          "length": 20,
+          "match_sha256": "71405e8ef9336186c02e69819a224a41bd57148c37096794f91bf92e8246dec5"
+        },
+        {
+          "offset": 21910076,
+          "length": 20,
+          "match_sha256": "e977f0b1337f96384865439fd7b1ea1fdcd593fbcff29c7b347dd827452edd6a"
+        },
+        {
+          "offset": 21930204,
+          "length": 20,
+          "match_sha256": "e42ae907d83f7de7831650166788388a6889e8e0a7f699f290fa00361fcc07e5"
+        },
+        {
+          "offset": 21937747,
+          "length": 20,
+          "match_sha256": "5bae31fc834fd3e2f372f69e7b18b2227e04a9a1f6585d21dd6f586f6bd791ea"
+        },
+        {
+          "offset": 21942279,
+          "length": 20,
+          "match_sha256": "721c3e91a8a528286b69fd2d4c4fedf03e7bb358b28973cf673ec53f12597036"
+        },
+        {
+          "offset": 22713661,
+          "length": 20,
+          "match_sha256": "6e241394bbbe7f55cd8bc23e8d787dac38d0f33dc8cb1f4e2a61d0dc8dcecc23"
+        },
+        {
+          "offset": 22923317,
+          "length": 20,
+          "match_sha256": "103cb8d2b45e476afec975713ff098e133e993a1d498f55a3dcafb8b0bac164c"
+        },
+        {
+          "offset": 22976940,
+          "length": 20,
+          "match_sha256": "ac8639174ee276834e5a23a87c385cbc469853ce4dbb0c5d72872184eaa845c7"
+        },
+        {
+          "offset": 23450169,
+          "length": 20,
+          "match_sha256": "cbc44f7fdbba122970bc76f2b64e8281958538596c57439ee5c6d898a613d4d8"
+        },
+        {
+          "offset": 23645901,
+          "length": 20,
+          "match_sha256": "a62d279e8f6c4126b4db4af2bd757616c2fe034f2f02b0a275a8a6fc0b5b31ab"
+        },
+        {
+          "offset": 23738000,
+          "length": 20,
+          "match_sha256": "e85e0591f888c5e667b5fe32bfe0eb2825d6c3ec04a734be3c9ca1481b68cac3"
+        },
+        {
+          "offset": 23853789,
+          "length": 20,
+          "match_sha256": "8920163c33d4355272024653f468fcf2e2f8893fc4fc7ad432f4bafd0259fd46"
+        },
+        {
+          "offset": 24001330,
+          "length": 20,
+          "match_sha256": "158b3ff892fed5562421720d08315734301afbb061b7e3fbb4b218d4b6bc8e78"
+        },
+        {
+          "offset": 24946865,
+          "length": 20,
+          "match_sha256": "e223511e0f94468a10ef5012869899e384285a838f508d01a1298d89d18a033d"
+        },
+        {
+          "offset": 25210792,
+          "length": 20,
+          "match_sha256": "8808ddf226f1c4d64b5fd4d00ef8db4a0e2b6593eed20bfc5b3bb67bf67916b1"
+        },
+        {
+          "offset": 25246760,
+          "length": 20,
+          "match_sha256": "902c3e2a5e87647a33993db2bfa512b9d7b42c86de00e443022a000fd81ace84"
+        },
+        {
+          "offset": 25611176,
+          "length": 20,
+          "match_sha256": "8ccea9b4f1bcda55c780fc91b6775f12a3e6259b9b67fc9d8e93cc1bae9bfc9e"
+        },
+        {
+          "offset": 25916129,
+          "length": 20,
+          "match_sha256": "1b5b7576a5b8a171a7b6e66b3d2c07cbe4ad68ae33409c6d2ffb3113fc1c322e"
+        },
+        {
+          "offset": 25936449,
+          "length": 20,
+          "match_sha256": "71405e8ef9336186c02e69819a224a41bd57148c37096794f91bf92e8246dec5"
+        },
+        {
+          "offset": 25967710,
+          "length": 20,
+          "match_sha256": "e977f0b1337f96384865439fd7b1ea1fdcd593fbcff29c7b347dd827452edd6a"
+        },
+        {
+          "offset": 25987838,
+          "length": 20,
+          "match_sha256": "e42ae907d83f7de7831650166788388a6889e8e0a7f699f290fa00361fcc07e5"
+        },
+        {
+          "offset": 25995381,
+          "length": 20,
+          "match_sha256": "5bae31fc834fd3e2f372f69e7b18b2227e04a9a1f6585d21dd6f586f6bd791ea"
+        },
+        {
+          "offset": 25999913,
+          "length": 20,
+          "match_sha256": "721c3e91a8a528286b69fd2d4c4fedf03e7bb358b28973cf673ec53f12597036"
+        }
+      ]
+    },
+    "remaining-library/extracted/flagship-foyer-editable-layout-backup/flagship-foyer-layout-options/option-a-deep-indoor-concourse.svg": {
+      "sha256": "8ba50451b8c0129f2ee3c602a693e852c77252e1b9e5f5ee996c591713f9f7c3",
+      "matches": [
+        {
+          "offset": 22669,
+          "length": 20,
+          "match_sha256": "208e652927fc722f5e6e92f7ae75998c21ee58c1c02ac5df74a908fde2e285c3"
+        },
+        {
+          "offset": 889903,
+          "length": 20,
+          "match_sha256": "6404e88b64613ddf293ebeab6707d60a122776b04f6badb66b5e92fcd4f45e5b"
+        },
+        {
+          "offset": 2064981,
+          "length": 20,
+          "match_sha256": "c7a5957e01c9a72483f22e5589effb78fd8c0b7b41d08a4678bc58c6bb3b49c5"
+        },
+        {
+          "offset": 2232309,
+          "length": 20,
+          "match_sha256": "4a9e8ea39fc81dc87efa9d01c9b21c95f5ddc0eb5ec48847977de048204bd2af"
+        },
+        {
+          "offset": 3523760,
+          "length": 20,
+          "match_sha256": "7e79ee8e4ea86c22ffdc035a5ec93a5e69591ae7b32b611bb770d931086f9175"
+        }
+      ]
+    },
+    "remaining-library/extracted/flagship-foyer-editable-layout-backup/flagship-foyer-layout-options/option-b-covered-garden-forecourt.svg": {
+      "sha256": "37c9c8dcdc571b9bef1d449cd38f1d21d8688b19e6c60642e41864fe97c9c876",
+      "matches": [
+        {
+          "offset": 22686,
+          "length": 20,
+          "match_sha256": "208e652927fc722f5e6e92f7ae75998c21ee58c1c02ac5df74a908fde2e285c3"
+        },
+        {
+          "offset": 902061,
+          "length": 20,
+          "match_sha256": "6404e88b64613ddf293ebeab6707d60a122776b04f6badb66b5e92fcd4f45e5b"
+        },
+        {
+          "offset": 2077139,
+          "length": 20,
+          "match_sha256": "c7a5957e01c9a72483f22e5589effb78fd8c0b7b41d08a4678bc58c6bb3b49c5"
+        },
+        {
+          "offset": 2244467,
+          "length": 20,
+          "match_sha256": "4a9e8ea39fc81dc87efa9d01c9b21c95f5ddc0eb5ec48847977de048204bd2af"
+        },
+        {
+          "offset": 3535918,
+          "length": 20,
+          "match_sha256": "7e79ee8e4ea86c22ffdc035a5ec93a5e69591ae7b32b611bb770d931086f9175"
+        }
+      ]
+    },
+    "remaining-library/extracted/magical-campus-editable-source/sources/campus-return/tests/check-return.cjs": {
+      "sha256": "d26ab5ab586542469f7de912c413c705931bceb93611be6b99286a9d206589b2",
+      "matches": [
+        {
+          "offset": 2453,
+          "length": 18,
+          "match_sha256": "fbddae166ead16d1dd67736b19403ab1ac0095e344f663573848af911a7ce273"
+        }
+      ]
+    },
+    "remaining-library/extracted/magical-campus-package-01-of-03/sources/campus-return/tests/check-return.cjs": {
+      "sha256": "d26ab5ab586542469f7de912c413c705931bceb93611be6b99286a9d206589b2",
+      "matches": [
+        {
+          "offset": 2453,
+          "length": 18,
+          "match_sha256": "fbddae166ead16d1dd67736b19403ab1ac0095e344f663573848af911a7ce273"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/public/join.html": {
+      "sha256": "1bb121b21ea0fd4c2a3547dfd3b7854eaa302a055708043f68fe65d3a273f177",
+      "matches": [
+        {
+          "offset": 4613,
+          "length": 30,
+          "match_sha256": "334e91138fab882d74ae1457dfecae93f7beaecf40b0196098f8276266a60eb9"
+        },
+        {
+          "offset": 5115,
+          "length": 29,
+          "match_sha256": "d80e9655e2e160c4475ba822cb9afedb9f71d486ba56a91486767e1154d28182"
+        },
+        {
+          "offset": 6570,
+          "length": 30,
+          "match_sha256": "ab8c40a11c1bd99e94dee20547a26484e8ab7f10b9ef5d02edf60415e0e7fcd0"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/public/signup.html": {
+      "sha256": "9f8fd067a8bb142dc824fe64f4d3289b592138f7896aa0ea4c6816f63af134f0",
+      "matches": [
+        {
+          "offset": 3211,
+          "length": 30,
+          "match_sha256": "334e91138fab882d74ae1457dfecae93f7beaecf40b0196098f8276266a60eb9"
+        },
+        {
+          "offset": 3697,
+          "length": 29,
+          "match_sha256": "d80e9655e2e160c4475ba822cb9afedb9f71d486ba56a91486767e1154d28182"
+        },
+        {
+          "offset": 4971,
+          "length": 30,
+          "match_sha256": "ab8c40a11c1bd99e94dee20547a26484e8ab7f10b9ef5d02edf60415e0e7fcd0"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/src/resident-test.js": {
+      "sha256": "e7a59cf773a9cd18d8a8cd41568b7f6632020db49f303b3495720930c5c012f6",
+      "matches": [
+        {
+          "offset": 6303,
+          "length": 7,
+          "match_sha256": "3832b7c60b6b94a223919c25e0d58edb08c6ccc63fbd98956ab7c8b905cdf674"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/preview/coolify.test.mjs": {
+      "sha256": "87d50e10729a5eed6a4e67e9feeb7fdb1f594351261da2b2554479d2a532c1b1",
+      "matches": [
+        {
+          "offset": 1167,
+          "length": 34,
+          "match_sha256": "0d38759117729b2b351a8cf9dcdf6096a4f9db3ac3b46c984e34f5fea78377d2"
+        },
+        {
+          "offset": 3317,
+          "length": 18,
+          "match_sha256": "fbddae166ead16d1dd67736b19403ab1ac0095e344f663573848af911a7ce273"
+        }
+      ]
+    },
+    "remaining-library/extracted/universe-mobile-camera-checkpoint/tests/preview/host.test.mjs": {
+      "sha256": "1416741578a2b66c3736735af6654b7917b824b553ac846281db5e33a1152227",
+      "matches": [
+        {
+          "offset": 5209,
+          "length": 42,
+          "match_sha256": "600c9a655f510695099b36b96c63e89691c092d6d4b78fac5ac1b72ffe65fff3"
+        }
+      ]
+    }
+  }
+}

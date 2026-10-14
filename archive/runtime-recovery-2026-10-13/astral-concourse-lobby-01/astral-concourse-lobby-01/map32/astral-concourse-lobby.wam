@@ -1,0 +1,54 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./astral-concourse-lobby.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "astral-lobby-quiet-main-foyer",
+      "name": "quiet-main-foyer",
+      "x": 96,
+      "y": 352,
+      "width": 960,
+      "height": 544,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-lobby-quiet-main-foyer-silent",
+          "type": "silent"
+        }
+      ]
+    },
+    {
+      "id": "astral-lobby-quiet-north-circulation",
+      "name": "quiet-north-circulation",
+      "x": 384,
+      "y": 160,
+      "width": 384,
+      "height": 192,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-lobby-quiet-north-circulation-silent",
+          "type": "silent"
+        }
+      ]
+    },
+    {
+      "id": "astral-lobby-arrival",
+      "name": "Lobby arrival",
+      "x": 544,
+      "y": 704,
+      "width": 64,
+      "height": 64,
+      "visible": true,
+      "properties": [
+        {
+          "id": "astral-lobby-start",
+          "type": "start",
+          "isDefault": true
+        }
+      ]
+    }
+  ]
+}

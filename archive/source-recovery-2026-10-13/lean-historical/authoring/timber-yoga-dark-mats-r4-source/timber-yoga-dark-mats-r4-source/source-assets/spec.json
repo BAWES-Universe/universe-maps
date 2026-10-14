@@ -1,0 +1,666 @@
+{
+  "world": [
+    960,
+    864
+  ],
+  "tiles": [
+    30,
+    27
+  ],
+  "tileSize": 32,
+  "environmentScale": 0.5,
+  "sourceOffset": [
+    96,
+    96
+  ],
+  "actorScale": 1,
+  "spawnCell": [
+    15,
+    25
+  ],
+  "landingOpenRects": [
+    [
+      13,
+      22,
+      4,
+      1
+    ],
+    [
+      12,
+      23,
+      6,
+      1
+    ],
+    [
+      11,
+      24,
+      8,
+      1
+    ],
+    [
+      12,
+      25,
+      6,
+      1
+    ],
+    [
+      13,
+      26,
+      4,
+      1
+    ]
+  ],
+  "slug": "timber-yoga-dark-mats-r4",
+  "title": "Yoga Retreat - native-scale woodland approach r4",
+  "openRects": [
+    [
+      6,
+      9,
+      18,
+      3
+    ],
+    [
+      14,
+      12,
+      2,
+      3
+    ],
+    [
+      10,
+      15,
+      9,
+      1
+    ],
+    [
+      7,
+      16,
+      16,
+      1
+    ],
+    [
+      7,
+      17,
+      4,
+      1
+    ],
+    [
+      14,
+      17,
+      2,
+      1
+    ],
+    [
+      19,
+      17,
+      4,
+      1
+    ],
+    [
+      14,
+      18,
+      2,
+      4
+    ],
+    [
+      6,
+      12,
+      18,
+      1
+    ]
+  ],
+  "blockedCells": [
+    [
+      12,
+      9
+    ],
+    [
+      13,
+      9
+    ],
+    [
+      16,
+      9
+    ],
+    [
+      17,
+      9
+    ]
+  ],
+  "matAnchors": [
+    [
+      "west practice mat 1-1",
+      232,
+      328
+    ],
+    [
+      "west practice mat 1-2",
+      280,
+      328
+    ],
+    [
+      "west practice mat 1-3",
+      328,
+      328
+    ],
+    [
+      "west practice mat 2-1",
+      232,
+      367
+    ],
+    [
+      "west practice mat 2-2",
+      280,
+      367
+    ],
+    [
+      "west practice mat 2-3",
+      328,
+      367
+    ],
+    [
+      "east practice mat 1-1",
+      632,
+      328
+    ],
+    [
+      "east practice mat 1-2",
+      680,
+      328
+    ],
+    [
+      "east practice mat 1-3",
+      728,
+      328
+    ],
+    [
+      "east practice mat 2-1",
+      632,
+      367
+    ],
+    [
+      "east practice mat 2-2",
+      680,
+      367
+    ],
+    [
+      "east practice mat 2-3",
+      728,
+      367
+    ]
+  ],
+  "anchors": [
+    [
+      "instructor position",
+      488,
+      290,
+      "instructor"
+    ],
+    [
+      "tea cushion 1 approach",
+      240,
+      527,
+      "approach"
+    ],
+    [
+      "tea cushion 2 approach",
+      304,
+      527,
+      "approach"
+    ],
+    [
+      "tea cushion 3 approach",
+      280,
+      551,
+      "approach"
+    ],
+    [
+      "rest cushion 1 approach",
+      624,
+      527,
+      "approach"
+    ],
+    [
+      "rest cushion 2 approach",
+      720,
+      527,
+      "approach"
+    ],
+    [
+      "rest cushion 3 approach",
+      680,
+      551,
+      "approach"
+    ],
+    [
+      "west practice entry",
+      408,
+      367,
+      "approach"
+    ],
+    [
+      "east practice entry",
+      568,
+      367,
+      "approach"
+    ],
+    [
+      "prop storage approach",
+      456,
+      303,
+      "approach"
+    ],
+    [
+      "central medallion",
+      488,
+      367,
+      "approach"
+    ],
+    [
+      "central social hall",
+      488,
+      527,
+      "approach"
+    ],
+    [
+      "tea alcove approach",
+      368,
+      527,
+      "approach"
+    ],
+    [
+      "rest alcove approach",
+      592,
+      527,
+      "approach"
+    ],
+    [
+      "old arrival stairs",
+      488,
+      655,
+      "approach"
+    ],
+    [
+      "west mat-front circulation",
+      232,
+      390,
+      "approach"
+    ],
+    [
+      "east mat-front circulation",
+      728,
+      390,
+      "approach"
+    ]
+  ],
+  "notes": "All twelve student and instructor16x16 native bodies must fit inside scaled charcoal faces, not just their shadows. Front student-row anchors moved a few pixels up so native floor-click fitting can reach them without entering the blocking partition row. Instructor face spans approximately x473..503,y285..306.5, so anchor488,290 fits. Retain every mat at exact uniform0.5 art scale. No fake sitting; tea/rest anchors are standing approaches. Remove redundant storage/instructor proof overlap.",
+  "key": "retreat",
+  "solidBaseRectsToInspect": [
+    [
+      387,
+      464,
+      417,
+      480
+    ],
+    [
+      542,
+      464,
+      572,
+      480
+    ],
+    [
+      399,
+      170,
+      429,
+      289
+    ],
+    [
+      531,
+      168,
+      561,
+      289
+    ],
+    [
+      197,
+      442,
+      357,
+      479
+    ],
+    [
+      603,
+      443,
+      772,
+      480
+    ],
+    [
+      363,
+      574,
+      391,
+      608
+    ],
+    [
+      578,
+      574,
+      603,
+      608
+    ],
+    [
+      419,
+      565,
+      444,
+      631
+    ],
+    [
+      524,
+      565,
+      549,
+      631
+    ]
+  ],
+  "geometryNotes": [
+    "Native32 body footprints; anchors use actual native fitted endpoints. Water station x704 corrected to712.",
+    "Projected elevated doorway caps are foreground, not ground blockers. Solid support bases stay within blocked cells; visibly open nook approach floor stays open.",
+    "Retreat back partition/shelf solid bases end at y480; cast shadows are not solid bases."
+  ],
+  "foregroundArchitecturePolygons": [
+    [
+      [
+        366,
+        542
+      ],
+      [
+        374,
+        542
+      ],
+      [
+        375,
+        546
+      ],
+      [
+        374,
+        557
+      ],
+      [
+        370,
+        568
+      ],
+      [
+        370,
+        600
+      ],
+      [
+        367,
+        604
+      ],
+      [
+        363,
+        602
+      ],
+      [
+        363,
+        568
+      ],
+      [
+        360,
+        565
+      ],
+      [
+        360,
+        553
+      ],
+      [
+        363,
+        549
+      ],
+      [
+        364,
+        544
+      ]
+    ],
+    [
+      [
+        585,
+        542
+      ],
+      [
+        594,
+        542
+      ],
+      [
+        595,
+        546
+      ],
+      [
+        597,
+        549
+      ],
+      [
+        598,
+        557
+      ],
+      [
+        598,
+        565
+      ],
+      [
+        600,
+        570
+      ],
+      [
+        598,
+        602
+      ],
+      [
+        594,
+        605
+      ],
+      [
+        588,
+        602
+      ],
+      [
+        587,
+        574
+      ],
+      [
+        584,
+        568
+      ],
+      [
+        583,
+        556
+      ],
+      [
+        584,
+        548
+      ]
+    ],
+    [
+      [
+        387,
+        394
+      ],
+      [
+        411,
+        394
+      ],
+      [
+        413,
+        398
+      ],
+      [
+        413,
+        414
+      ],
+      [
+        408,
+        416
+      ],
+      [
+        393,
+        416
+      ],
+      [
+        389,
+        412
+      ],
+      [
+        386,
+        406
+      ]
+    ],
+    [
+      [
+        546,
+        394
+      ],
+      [
+        570,
+        394
+      ],
+      [
+        572,
+        399
+      ],
+      [
+        571,
+        412
+      ],
+      [
+        566,
+        416
+      ],
+      [
+        551,
+        416
+      ],
+      [
+        547,
+        411
+      ],
+      [
+        545,
+        404
+      ]
+    ]
+  ],
+  "foregroundMaskNotes": "Conservative traced polygons lie inside actual architecture silhouettes. No plant rectangle or surrounding wood/stone floor is promoted to foreground. Inherited foreground mask is retained. Head-envelope subtraction further limits newly authored silhouettes without changing empty appearance.",
+  "row15GroundWitnesses": [
+    {
+      "cell": [
+        6,
+        15
+      ],
+      "name": "Window / plant base edge",
+      "rect": [
+        196,
+        482,
+        202,
+        491
+      ]
+    },
+    {
+      "cell": [
+        7,
+        15
+      ],
+      "name": "West floor cushion",
+      "rect": [
+        227,
+        505,
+        238,
+        510
+      ]
+    },
+    {
+      "cell": [
+        8,
+        15
+      ],
+      "name": "Tea table foot",
+      "rect": [
+        259,
+        507,
+        263,
+        511
+      ]
+    },
+    {
+      "cell": [
+        9,
+        15
+      ],
+      "name": "West floor cushion",
+      "rect": [
+        307,
+        505,
+        318,
+        510
+      ]
+    },
+    {
+      "cell": [
+        19,
+        15
+      ],
+      "name": "East floor cushion",
+      "rect": [
+        626,
+        505,
+        637,
+        510
+      ]
+    },
+    {
+      "cell": [
+        20,
+        15
+      ],
+      "name": "Rest table west foot",
+      "rect": [
+        659,
+        507,
+        663,
+        511
+      ]
+    },
+    {
+      "cell": [
+        21,
+        15
+      ],
+      "name": "Rest table east foot",
+      "rect": [
+        683,
+        507,
+        687,
+        511
+      ]
+    },
+    {
+      "cell": [
+        22,
+        15
+      ],
+      "name": "East floor cushion",
+      "rect": [
+        706,
+        505,
+        717,
+        510
+      ]
+    },
+    {
+      "cell": [
+        23,
+        15
+      ],
+      "name": "Window / plant base edge",
+      "rect": [
+        744,
+        482,
+        752,
+        491
+      ]
+    }
+  ]
+}

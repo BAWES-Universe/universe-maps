@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N26-zone-1",
+      "name": "Product sketch studio",
+      "x": 288,
+      "y": 256,
+      "width": 304,
+      "height": 128,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N26-zone-2",
+      "name": "Prototype gallery",
+      "x": 944,
+      "y": 288,
+      "width": 304,
+      "height": 128,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N26-zone-3",
+      "name": "Review alcove",
+      "x": 240,
+      "y": 464,
+      "width": 256,
+      "height": 144,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N26-zone-4",
+      "name": "Canal cafe",
+      "x": 1040,
+      "y": 536,
+      "width": 256,
+      "height": 128,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

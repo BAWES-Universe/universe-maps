@@ -1,0 +1,615 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-13T12:04:01Z",
+  "method": "Read-only inspection of preserved exact runtime/source plus fresh GitHub connector PR/branch metadata.",
+  "important": "Only Last Signal explicitly pins the audio/proximity/native32 PR contract. Keeper has a implemented multi-step interactive loop but no new engine-PR API requirement. Static templates must not be advertised as consuming latest interactive engine features merely because they have spatial zones.",
+  "entries": [
+    {
+      "id": "keeper-return-r2",
+      "name": "Lighthouse: Keeper’s Return",
+      "revision": "r2 retained runtime; reconstructed editable source",
+      "what_player_does": "Enter the keeper’s house, lighthouse workshop and upstairs lantern room using same-map doors/stairs. Read the chart, collect a brass key, install a fuse, charge the generator, select NORTHEAST and AMBER, then send LOW–MIDDLE–HIGH to illuminate the beacon.",
+      "implemented": [
+        "Per-visit inventory and puzzle state",
+        "Popup buttons and global journal",
+        "Same-map teleport doors/stairs preserve progress",
+        "Five visual state layers",
+        "Silent by design"
+      ],
+      "not_implemented": [
+        "Shared/persistent quest state",
+        "Automatic sitting/facing",
+        "Sound",
+        "Verified live deployment"
+      ],
+      "pr_relationships": [
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/799",
+          "relationship": "relevant_engine_fix_not_proven_map_pin",
+          "reason": "The retained controller toggles decorative layers and uses native floor movement; #799 fixes click/tap destination drift across layer replans. No exact Keeper engine deployment pin was retained."
+        },
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/727",
+          "relationship": "not_used",
+          "reason": "Controller has no nativeSoundscape or audio call; the experience is explicitly silent."
+        },
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/842",
+          "relationship": "not_required_by_map_api",
+          "reason": "Controller uses existing UI, room visibility and player teleport APIs; no new camera API is requested.",
+          "current_merge_status": "merged 2026-10-13T12:07:42Z",
+          "merge_sha": "09b61364b330edb1ece68020daca14c9d9ea2803",
+          "deployment_status": "Current #815 source includes it; production release and running frontend not verified."
+        }
+      ],
+      "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/f6c4ec62a2023e6f321a63b7db0269ffa0e60822/archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/controller.js",
+      "play_url": null,
+      "play_status": "Unpublished candidate; no verified game-room URL.",
+      "blockers": [
+        "Original authoring archive missing; reconstruction preserves runtime bytes.",
+        "Known inherited teleport-rejection stale-position race; fix would need a new revision.",
+        "Full-game camera, physics, touch, popup and multiplayer acceptance outstanding."
+      ],
+      "evidence": [
+        {
+          "sha256": "bc21f1a348dcdbc2dac1ba81e3d10826a23fe561d45ca3e728423a4b021a0d55",
+          "git_blob_sha1": "6b62a21c782ec67326f9c0463288cfc404f5333a",
+          "bytes": 7285,
+          "member_name": "controller.js",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/controller.js"
+          ]
+        },
+        {
+          "sha256": "a6fef13385735a44012e0f4e480e8e611ab50643ed5fa39d83a19c655d8203fc",
+          "git_blob_sha1": "1e86e9603da81328a7a4db412998c1e0c6c514e5",
+          "bytes": 2228,
+          "member_name": "anchors.json",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/source/anchors.json"
+          ]
+        },
+        {
+          "sha256": "82a2a56f6c6110204d530288b3f6fdef0da4710f5d6777453f4dcc2dbe9138f9",
+          "git_blob_sha1": "5ea32d7de26bb99ec576bbc32111a1b0e1d9bbe2",
+          "bytes": 4706,
+          "member_name": "README.md",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/reconstructed/keeper-r2-editable-reconstruction/README.md"
+          ]
+        }
+      ],
+      "live_frontend_commit_verified": false
+    },
+    {
+      "id": "last-signal-r2",
+      "name": "Lighthouse: The Last Signal",
+      "revision": "r2",
+      "what_player_does": "Choose a quiet visit or optional shore signal; walk to three brass floor rings, capture the LOW/MIDDLE/HIGH notes, return to the lighthouse and transmit the sequence. Captured rings turn mint; success adds a warm beacon glow.",
+      "implemented": [
+        "Complete local per-visit puzzle",
+        "Global screen-space journal",
+        "Explicit reset confirmation",
+        "Optional distance-attenuated shoreline signal controlled by native audio UI",
+        "Quiet gathering lawn"
+      ],
+      "not_implemented": [
+        "Shared cooperative puzzle state",
+        "Persistent progress",
+        "Event broadcasting system",
+        "Verified live deployment"
+      ],
+      "pr_relationships": [
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/712",
+          "relationship": "explicit_source_contract",
+          "reason": "Uses native playAudio controls and unload semantics."
+        },
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/727",
+          "relationship": "explicit_source_contract_and_runtime_use",
+          "reason": "signal.js sets nativeSoundscape descriptor and an exact-zero silent playAudio carrier for one distance-attenuated ambience emitter."
+        },
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/799",
+          "relationship": "explicit_source_contract_and_native_fixture_pin",
+          "reason": "Native floor click/tap movement plus show/hide ring layers; README pins source-native routes to merge 60e7afdc3f96ef32525597cd46bd41175d61a2ef."
+        },
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/800",
+          "relationship": "production_source_baseline",
+          "reason": "README pins universe to merge 42ba35bd6eefeb4f74359114904d167cbaecf1ad; branch still has that SHA at research time."
+        },
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/842",
+          "relationship": "no_new_map_api_dependency",
+          "reason": "No new camera API is used; latest zoom-resize fix is a separate engine change.",
+          "current_merge_status": "merged 2026-10-13T12:07:42Z",
+          "merge_sha": "09b61364b330edb1ece68020daca14c9d9ea2803",
+          "deployment_status": "Current #815 source includes it; production release and running frontend not verified."
+        }
+      ],
+      "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/f6c4ec62a2023e6f321a63b7db0269ffa0e60822/archive/source-recovery-2026-10-13/baselines/lighthouse-last-signal-r2-source/README.md",
+      "play_url": null,
+      "play_status": "Unpublished candidate; no verified game-room URL.",
+      "blockers": [
+        "Needs approved isolated QA room with full runtime assets and supported engine.",
+        "Source fixtures passed historically; real popup/mobile/audio/multiplayer acceptance not established."
+      ],
+      "evidence": [
+        {
+          "sha256": "23143e235f5a8a7dc09a2d4f452122efe92c27c2d73e59d2c458ef850390924e",
+          "git_blob_sha1": "b59f2881442bfadf5471bd0774af5b32855e0e90",
+          "bytes": 9843,
+          "member_name": "README.md",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/baselines/lighthouse-last-signal-r2-source/README.md"
+          ]
+        },
+        {
+          "sha256": "eeaae3d76ba5a1ae73eadb8faeab47e47bc90d1ef5090c1ef907c40137d71c5a",
+          "git_blob_sha1": "dd0968565fdaef53874086036a349cf8d8fbc0d4",
+          "bytes": 9442,
+          "member_name": "signal.js",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/baselines/lighthouse-last-signal-r2-runtime/signal.js",
+            "archive/source-recovery-2026-10-13/baselines/lighthouse-last-signal-r2-source/runtime/signal.js",
+            "archive/runtime-recovery-2026-10-13/lighthouse-last-signal-r2-runtime/signal.js"
+          ]
+        }
+      ],
+      "live_frontend_commit_verified": false
+    },
+    {
+      "id": "studio-r8",
+      "name": "Timber Studio",
+      "revision": "continuous-floor r8 retained runtime; reconstructed editable source",
+      "what_player_does": "Walk through the repaired studio floor and instructor/participant positions. Companion WAM configures an instructor megaphone zone and a linked participant listener zone.",
+      "implemented": [
+        "Walkable spatial layout",
+        "WAM instructor speakerMegaphone and participant listenerMegaphone areas"
+      ],
+      "not_implemented": [
+        "Quest/controller script",
+        "Automatic sitting/facing or yoga animation",
+        "Verified live audio/conferencing"
+      ],
+      "pr_relationships": [
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/842",
+          "relationship": "diagnostic_fixture_not_included_fix",
+          "reason": "Studio r8 was used in rendering/zoom investigation. #842 changes the engine resize/scene-camera behavior, not these map bytes, source-art resolution or tile-edge rendering.",
+          "current_merge_status": "merged 2026-10-13T12:07:42Z",
+          "merge_sha": "09b61364b330edb1ece68020daca14c9d9ea2803",
+          "deployment_status": "Current #815 source includes it; production release and running frontend not verified."
+        },
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/815",
+          "relationship": "general_platform_candidate_not_map_dependency",
+          "reason": "No source evidence binds this map to the open v0.3.5 release."
+        }
+      ],
+      "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/f6c4ec62a2023e6f321a63b7db0269ffa0e60822/archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/studio/areas.wam.json",
+      "play_url": null,
+      "play_status": "Retained runtime and rebuilt source; no verified current game-room URL.",
+      "blockers": [
+        "Latest original source archive missing; reconstruction preserves runtime.",
+        "Pixelation/black-edge concerns unresolved.",
+        "Full-game body/depth/touch/AV acceptance unverified."
+      ],
+      "evidence": [
+        {
+          "sha256": "34d5192ae50ee9d4b791948665fcc365cfefa1917819273bcb0228a21b7c22d2",
+          "git_blob_sha1": "0dac29f97396f571903e5abbfa115c9917784bfb",
+          "bytes": 3767,
+          "member_name": "map.recipe.json",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/studio/map.recipe.json"
+          ]
+        },
+        {
+          "sha256": "f7de32f75df015a676fae413ca4bf9c9f90d1cd6605d46734a1c8c0ad981e44a",
+          "git_blob_sha1": "45777a463771ff3c0c0cd25bc93aa42904cc12b0",
+          "bytes": 1043,
+          "member_name": "areas.wam.json",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/studio/areas.wam.json",
+            "public/templates/2026-10-11-approved/studio-r4/map32/map.wam",
+            "public/templates/2026-10-11-path-repairs/timber-studio-visible-floor-r7/map32/map.wam",
+            "archive/runtime-recovery-2026-10-13/timber-studio-r8-runtime/map.wam",
+            "archive/runtime-recovery-2026-10-13/timber-mixed-six-mat-instructor-facing-r4/timber-mixed-six-mat-instructor-facing-r4/map32/map.wam"
+          ]
+        },
+        {
+          "sha256": "d3ae06639cd4d2fdf31f5d8e05b1dae1417653ef5ab64d0433d5c11910854664",
+          "git_blob_sha1": "1ff8e7b7b51343fa6f3ee80a4400902a5619dd8e",
+          "bytes": 3188,
+          "member_name": "README.md",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/README.md"
+          ]
+        }
+      ],
+      "live_frontend_commit_verified": false
+    },
+    {
+      "id": "reading-r4",
+      "name": "Reading Conservatory",
+      "revision": "crossaisle repair r4 retained runtime; reconstructed editable source",
+      "what_player_does": "Walk the newly cleared crossaisle above the reading groups and use west reading, east reading and mentorship conversation areas when the WAM is imported.",
+      "implemented": [
+        "Repaired crossaisle layout",
+        "Three WAM LiveKit conversation areas"
+      ],
+      "not_implemented": [
+        "Quest/controller script",
+        "Automatic sitting or forced facing",
+        "Verified live conferencing"
+      ],
+      "pr_relationships": [
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/842",
+          "relationship": "diagnostic_fixture_not_included_fix",
+          "reason": "Reading r4 was a rendering investigation fixture, not a deployment of the zoom-resize fix. The fix does not cure source-art pixelation or thin tile lines.",
+          "current_merge_status": "merged 2026-10-13T12:07:42Z",
+          "merge_sha": "09b61364b330edb1ece68020daca14c9d9ea2803",
+          "deployment_status": "Current #815 source includes it; production release and running frontend not verified."
+        },
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/815",
+          "relationship": "general_platform_candidate_not_map_dependency",
+          "reason": "No source evidence binds this map to the open v0.3.5 release."
+        }
+      ],
+      "source_url": null,
+      "play_url": null,
+      "play_status": "Unpublished r4 candidate; no verified current game-room URL.",
+      "blockers": [
+        "Original r4 source archive missing; reconstructed source preserves runtime.",
+        "Rendering complaints remain open.",
+        "Media areas and live body/device acceptance unverified."
+      ],
+      "evidence": [
+        {
+          "sha256": "0d3e41ee5391a6e51f19cc2a9ee658b5e3097af2c549e299365d9158379dfcc3",
+          "git_blob_sha1": "45c34f0c8d2780be5f3b4b0507e49315510cee93",
+          "bytes": 4154,
+          "member_name": "map.recipe.json",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/reading/map.recipe.json"
+          ]
+        },
+        {
+          "sha256": "c8ce4f8cdd5e20918e7479c666dde23b3e855f19c3bdb42aeb7aa7bb0a7d6b0a",
+          "git_blob_sha1": "c97b4940226e86ed9d2b5ff0a45d6069584a38d2",
+          "bytes": 1796,
+          "member_name": "areas.wam.json",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/reading/areas.wam.json",
+            "public/templates/2026-10-11-approved/reading-r2/map32/map.wam",
+            "public/templates/2026-10-11-path-repairs/reading-floor-r3b/map32/map.wam",
+            "archive/runtime-recovery-2026-10-13/reading-conservatory-r4-runtime/map.wam"
+          ]
+        },
+        {
+          "sha256": "410092aee4cb4b2e00a4e7d8e4e283efa8f3b4c96503aa914ed81d539e75207b",
+          "git_blob_sha1": "c096c7c92e2435129648b82132af21eb9f99000c",
+          "bytes": 1264,
+          "member_name": "README.md",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/reconstructed/studio-reading-editable-reconstruction/source/reading/extras/README.md",
+            "archive/source-recovery-2026-10-13/rendering-investigation/fixture/assets/reading/README.md"
+          ]
+        }
+      ],
+      "live_frontend_commit_verified": false
+    },
+    {
+      "id": "media-house-r7c",
+      "name": "Resonance Media House",
+      "revision": "r7c survives; r9 unavailable",
+      "what_player_does": "Explore the media-house garden court and editor, voice, screen and music areas. Those four areas are setup placeholders, with empty property arrays in the surviving WAM.",
+      "implemented": [
+        "Spatial layout and safe spawn",
+        "Labelled editor/voice/screen/music setup zones"
+      ],
+      "not_implemented": [
+        "Configured media tools or broadcasts in those zones",
+        "Quest/controller script",
+        "Recovered r9 repairs",
+        "Automatic sitting/facing"
+      ],
+      "pr_relationships": [
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/736",
+          "relationship": "relevant_engine_fix_not_verified_deployment",
+          "reason": "Surviving runtime has a silent-spawn-only layer; #736 fixes initial room-join silence."
+        },
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/842",
+          "relationship": "no_map_specific_dependency_established",
+          "reason": "No camera script or feature-specific engine pin found.",
+          "current_merge_status": "merged 2026-10-13T12:07:42Z",
+          "merge_sha": "09b61364b330edb1ece68020daca14c9d9ea2803",
+          "deployment_status": "Current #815 source includes it; production release and running frontend not verified."
+        }
+      ],
+      "source_url": "https://github.com/BAWES-Universe/universe-maps/blob/f6c4ec62a2023e6f321a63b7db0269ffa0e60822/archive/source-recovery-2026-10-13/reconstructed/media-house-editable-reconstruction/README.md",
+      "play_url": null,
+      "play_status": "r7c restored locally; no verified current game-room URL. r9 cannot be offered as restored.",
+      "blockers": [
+        "r9 visual repairs missing.",
+        "Live playtest and service configuration pending."
+      ],
+      "evidence": [
+        {
+          "sha256": "b2999caf485804debc977aaa385975d001caafe0bec357d6e63dd565dd8fccc3",
+          "git_blob_sha1": "27db0248f343654fb8eb2c7ce417a775468b1666",
+          "bytes": 49229,
+          "member_name": "resonance-media-house.tmj",
+          "repository_paths_with_same_blob": [
+            "public/templates/2026-10-11-approved/media-r7c/map32/resonance-media-house.tmj",
+            "archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/resonance-media-house.tmj"
+          ]
+        },
+        {
+          "sha256": "61b1c799212a08d024c8cf03d46d76dc74c91a20acd8783098b749f065e47eb5",
+          "git_blob_sha1": "6b48b16ba5593bd83dc205e8255def034fb89a72",
+          "bytes": 1207,
+          "member_name": "resonance-media-house.wam",
+          "repository_paths_with_same_blob": [
+            "public/templates/2026-10-11-approved/media-r7c/map32/resonance-media-house.wam",
+            "public/templates/2026-10-11-path-repairs/media-floor-r8/map32/resonance-media-house.wam",
+            "archive/runtime-recovery-2026-10-13/resonance-media-house-r7c-runtime/resonance-media-house.wam"
+          ]
+        }
+      ],
+      "live_frontend_commit_verified": false
+    },
+    {
+      "id": "academy-r6",
+      "name": "Olive Arabic Academy",
+      "revision": "live-repair r6 preserved package",
+      "what_player_does": "Walk the classroom and woven lounges; the companion WAM defines a teacher megaphone, linked classroom audience and two LiveKit meeting lounges.",
+      "implemented": [
+        "Teaching and lounge spatial areas",
+        "WAM speaker/listener and two LiveKit rooms"
+      ],
+      "not_implemented": [
+        "AI teaching or lesson materials",
+        "Quest/controller script",
+        "Verified service/device acceptance"
+      ],
+      "pr_relationships": [
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/736",
+          "relationship": "relevant_engine_fix_not_verified_deployment",
+          "reason": "Runtime has spawn-only-silence layer."
+        }
+      ],
+      "source_url": null,
+      "play_url": null,
+      "play_status": "Hosted-source verification delegated to register parent; no play URL asserted by this research.",
+      "blockers": [
+        "A hosted TMJ alone does not import WAM or establish a playable configured room."
+      ],
+      "evidence": [
+        {
+          "sha256": "a8efab5a3f472ee27d11af1eaa5e54ccb3ecfe0f1e27460e31c1435e999d3a08",
+          "git_blob_sha1": "6ca03897c47859216982d810dc85f41d9872f8b2",
+          "bytes": 113773,
+          "member_name": "map.tmj",
+          "repository_paths_with_same_blob": [
+            "public/templates/2026-10-11-approved/academy-r6/map32/map.tmj",
+            "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.tmj"
+          ]
+        },
+        {
+          "sha256": "692da4bc9933d3cca75d7e9c38494005290cf89d9b1f2fb22734a6469b2ce749",
+          "git_blob_sha1": "d3dd10840b1c3f0836fedb1564ecac2903c303c4",
+          "bytes": 2182,
+          "member_name": "map.wam",
+          "repository_paths_with_same_blob": [
+            "public/templates/2026-10-11-approved/academy-r6/map32/map.wam",
+            "public/templates/2026-10-11-path-repairs/academy-floor-r7/map32/map.wam",
+            "archive/runtime-recovery-2026-10-13/olive-academy-live-repair-r6-runtime/olive-academy-live-repair-r6/map32/map.wam"
+          ]
+        }
+      ],
+      "live_frontend_commit_verified": false
+    },
+    {
+      "id": "souk-r6",
+      "name": "Lantern Souk Bazaar",
+      "revision": "fountain-motion r6 preserved package",
+      "what_player_does": "Explore the bazaar and watch the fountain surface, falling streams and ripples animate: 26 native 32px animated cells, eight frames, 1.12-second loop.",
+      "implemented": [
+        "Native Tiled fountain animation",
+        "Spatial layout and safe spawn"
+      ],
+      "not_implemented": [
+        "Quest/controller script",
+        "Audio/media/bots/payments/services"
+      ],
+      "pr_relationships": [
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/736",
+          "relationship": "relevant_engine_fix_not_verified_deployment",
+          "reason": "Runtime has silent-spawn-only layer."
+        },
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/727",
+          "relationship": "not_used",
+          "reason": "No map audio descriptor; README states animation needs no script or engine change."
+        }
+      ],
+      "source_url": null,
+      "play_url": null,
+      "play_status": "Hosted-source verification delegated to register parent; no play URL asserted by this research.",
+      "blockers": [
+        "Exact r6 revision must be verified; internal filename still says r5.",
+        "No live browser/device/multiplayer acceptance."
+      ],
+      "evidence": [
+        {
+          "sha256": "6442282c70ecbac39a0916d786e5a74416937254e50e0116a96385911cec921a",
+          "git_blob_sha1": "a5e11ee67b4f36111373bdb2add602f0b15964a9",
+          "bytes": 169111,
+          "member_name": "lantern-souk-bazaar-r5.tmj",
+          "repository_paths_with_same_blob": [
+            "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.tmj"
+          ]
+        },
+        {
+          "sha256": "b846f9c7efc49266da1ab937291fa3a21e4d3f82dfa2f45ee0b669fff4063696",
+          "git_blob_sha1": "6979daf7d92acc23cb696378182669d4b00c4ad7",
+          "bytes": 472,
+          "member_name": "lantern-souk-bazaar-r5.wam",
+          "repository_paths_with_same_blob": [
+            "public/templates/2026-10-11-approved/souk-r7/map32/lantern-souk-bazaar-r5.wam",
+            "public/templates/2026-10-11-path-repairs/souk-floor-r8b/map32/lantern-souk-bazaar-r5.wam",
+            "archive/runtime-recovery-2026-10-13/lantern-souk-bazaar-r6-fountain-runtime/lantern-souk-bazaar-r5.wam"
+          ]
+        },
+        {
+          "sha256": "ef145b2c71980a0855bb39272da433e0bed2f309654c6ffba3384e10840b7fbf",
+          "git_blob_sha1": "73b164f3ec8867e1c4da59caf4957d4d16ac54a5",
+          "bytes": 2179,
+          "member_name": "README.md",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/lean-historical/authoring/lantern-souk-bazaar-r6-fountain-source/lantern-souk-bazaar-r5-fountain-motion/README.md"
+          ]
+        }
+      ],
+      "live_frontend_commit_verified": false
+    },
+    {
+      "id": "workshop-r2",
+      "name": "Inventor’s Workshop",
+      "revision": "r2 preserved source/runtime",
+      "what_player_does": "Walk the creation pads, outdoor test court and courtyard workbench. The companion WAM configures one indoor LiveKit collaboration area; other pads are empty setup zones.",
+      "implemented": [
+        "Spatial workshop layout",
+        "One WAM LiveKit collaboration area"
+      ],
+      "not_implemented": [
+        "Functional invention simulator",
+        "Quest/controller script",
+        "Configured tools on creation pads"
+      ],
+      "pr_relationships": [
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/736",
+          "relationship": "relevant_engine_fix_not_verified_deployment",
+          "reason": "Runtime has spawn-only-silence layer."
+        }
+      ],
+      "source_url": null,
+      "play_url": null,
+      "play_status": "Hosted-source verification delegated to register parent; no play URL asserted by this research.",
+      "blockers": [
+        "A hosted TMJ is not a configured game-room URL; WAM import and live AV/device testing still required."
+      ],
+      "evidence": [
+        {
+          "sha256": "841e315d43cb869140a052c7225ae25ad161a29ab4f8896994111e6ee8ff9739",
+          "git_blob_sha1": "48bf64e98f9f9510eab68c6c913ea223ac298b31",
+          "bytes": 88158,
+          "member_name": "map.tmj",
+          "repository_paths_with_same_blob": [
+            "public/templates/2026-10-11-approved/maker-sandbox-r2-review3/map32/map.tmj",
+            "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.tmj"
+          ]
+        },
+        {
+          "sha256": "4f9054f3ee15d87b32b9f210afa273d225d1d8fa21314bb75f1f048bf9b42ae4",
+          "git_blob_sha1": "1b1f8f938c03dcb9cab89b10cb40f83e977fc01e",
+          "bytes": 1724,
+          "member_name": "map.wam",
+          "repository_paths_with_same_blob": [
+            "public/templates/2026-10-11-approved/maker-sandbox-r2-review3/map32/map.wam",
+            "public/templates/2026-10-11-path-repairs/workshop-walkability-r3-review2/map32/map.wam",
+            "archive/runtime-recovery-2026-10-13/inventors-sandbox-workshop-r2-runtime/map32/map.wam"
+          ]
+        }
+      ],
+      "live_frontend_commit_verified": false
+    },
+    {
+      "id": "butterfly-town-v2",
+      "name": "Butterfly Town",
+      "revision": "v2 integrated review candidate",
+      "what_player_does": "Explore the town/gate scenery with animated terrace cascades, fountain water and cleared interior doorways. The nearby fountain/cascade native-audio integration exists in source but is disabled.",
+      "implemented": [
+        "Animated scenery and interior visual repairs",
+        "Default-off native audio source integration"
+      ],
+      "not_implemented": [
+        "Working native-audio demo in this retained runtime",
+        "Sitting interaction",
+        "Verified live/device acceptance"
+      ],
+      "pr_relationships": [
+        {
+          "pr_url": "https://github.com/BAWES-Universe/workadventure-universe/pull/712",
+          "relationship": "implemented_but_disabled_release_gate",
+          "reason": "town.js line 6 sets ENABLE_NATIVE_AUDIO=false; line 4 says activate only after compatible native PR712 build is deployed. PR712 is merged, but deployment/device/listening acceptance and explicit activation were not established.",
+          "historical_qa_pin": "93939afff9862c5bf43876288cd5d5bd692b277c",
+          "historical_qa_limit": "Retained native component QA was pinned to that older PR712 head; it is not acceptance evidence for final merged head 8380a80f60f3427807257cdaaabd1b11580dadbf."
+        }
+      ],
+      "source_url": null,
+      "play_url": null,
+      "play_status": "No current game-room URL verified by this research. Retained v2 native audio is OFF.",
+      "blockers": [
+        "Compatible native-audio deployment, physical device/listening acceptance and explicit activation remain gates.",
+        "Do not describe this as an already-working native-audio demo."
+      ],
+      "live_frontend_commit_verified": false,
+      "evidence": [
+        {
+          "sha256": "fc8b49cc24a61b36ab54977ceb3ac1aa7d8d952c56495f518b027f1dbfcc7b62",
+          "git_blob_sha1": "ece05fec2df8472017db5873ccea84b98dac3f45",
+          "bytes": 6931,
+          "member_name": "town.js",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/lean-historical/authoring/Butterfly-Town-v2-source-review/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town.js",
+            "archive/runtime-recovery-2026-10-13/butterfly-town-v2/Butterfly-Town-v2/candidate/public/butterfly-town/v2/scripts/town.js"
+          ]
+        },
+        {
+          "sha256": "9f16234a5afa19f0a5ba62981aeb44157d05430e35f42d972f5b0511ad0bb386",
+          "git_blob_sha1": "ead0d25764a1cbda0e8b81f8c99c39870be9a330",
+          "bytes": 5083,
+          "member_name": "README.md",
+          "repository_paths_with_same_blob": [
+            "archive/source-recovery-2026-10-13/lean-historical/authoring/Butterfly-Town-v2-source-review/Butterfly-Town-v2/README.md"
+          ]
+        },
+        {
+          "sha256": "31d1e9f77228925d89a415e2b4628dc77fa5af114c373bef90b0e1f414479a46",
+          "git_blob_sha1": "d7cb9d8bc9d83a7473e40c0260cf8d43a32d5779",
+          "bytes": 5927,
+          "member_name": "AUDIO-INTEGRATION.md",
+          "repository_paths_with_same_blob": []
+        }
+      ]
+    }
+  ],
+  "pr_refresh_checked_at": "2026-10-13T12:10:24Z",
+  "release_status": {
+    "source": "Parent relay of user update at 2026-10-13 12:09 UTC",
+    "user_report": "#842 merged and intended for next release",
+    "verified": "#842 merge is included in the current #815 source head. #815 remains open; production-source universe remains #800.",
+    "deployment_status": "Not verified; no live frontend SHA or release deployment evidence obtained."
+  },
+  "zoom_resize_exit_reconnect_acceptance": [
+    "Use a build proven to contain #842 merge 09b61364b330edb1ece68020daca14c9d9ea2803, and record the actual frontend version/SHA before testing.",
+    "Zoom out on a large map, open a website panel, then close it. Map should re-fit immediately, without new black margin space; the next small scroll or pinch should make only a small change.",
+    "While zoomed out, take an exit to another map. The new scene should start at the retained zoom and the next small scroll/pinch should not jump.",
+    "Reconnect/recreate the scene while zoomed out, then open/close a panel and resize again. Confirm the new camera owns resizing and the old scene camera cannot receive updates.",
+    "Repeat on portrait phone with pinch, rotate to landscape, and exercise browser-bar resize. Check ordinary zoom and player-follow behavior remain intact.",
+    "Record actual game/device results separately from source tests. Source-art pixelation and thin tile lines are outside #842 scope."
+  ],
+  "town_audio_checked_at": "2026-10-13T12:12:48Z"
+}

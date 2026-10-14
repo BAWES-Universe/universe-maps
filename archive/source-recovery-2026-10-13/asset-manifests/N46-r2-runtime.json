@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "package_id": "N46-r2-runtime",
+  "destination": "old50/runtime/N46-r2",
+  "artifact": {
+    "name": "overnight-50-runtime-02-of-02.zip",
+    "library_file_id": "libfile_b439320580648191904a851cdb537312",
+    "version_id": null,
+    "sha256": "bb24e53d1a62077b855c39f947380c5eccff934099729ffe7dfeb8590679858e",
+    "size_bytes": 56201790
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N46-r2-runtime.zip",
+      "sha256": "2ca99a77d6d13cc4b365eb2632c505f726ac36b51efff8a5d1410771b5d5f060",
+      "size_bytes": 4102396
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "foreground-0.png",
+      "sha256": "87b72b6a1fc2a5c641d144b0b02ddd74adbada6fd781740ae4defcb91992185e",
+      "size_bytes": 16195,
+      "git_blob_sha1": "e0ffc4ede6273de807b57bae86eb27d4f2c80fcf",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "ground-and-objects-0.png",
+      "sha256": "82a418ad98f632ea65f4fe14b4d19b85afa91e4f5f51d6bcd02dc332346131b5",
+      "size_bytes": 2703192,
+      "git_blob_sha1": "d36b9feba4b69b47b6501c4065b7a52919be836b",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "ground-and-objects-1.png",
+      "sha256": "fd310bc8e8705c620c20552ba43383b913da46e5e9683552959c833e594e8ecf",
+      "size_bytes": 1375291,
+      "git_blob_sha1": "919f6ae3dd6ed20d469bf24e66ec1f8db0170732",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "riverside-art-fair.tmj",
+      "sha256": "e2e0c0ec4af61749924060f5ada9dd559447c45181ad68389622b59d336d1f75",
+      "size_bytes": 79662,
+      "git_blob_sha1": "e27f057c299ab974d5b377aee0dc217d8c21d201",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "riverside-art-fair.wam",
+      "sha256": "5752eea7ba9446be79864ebb2177510ff654fefad324535ced82a94989db5dc7",
+      "size_bytes": 326,
+      "git_blob_sha1": "79b1069dbd805ebdcd10a8af03f56538ba61ad30",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    }
+  ]
+}

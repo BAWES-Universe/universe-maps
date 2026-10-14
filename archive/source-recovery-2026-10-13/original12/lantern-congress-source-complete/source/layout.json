@@ -1,0 +1,8046 @@
+{
+  "name": "Lantern Congress",
+  "world": [
+    3072,
+    2048
+  ],
+  "nativeTile": 32,
+  "start": [
+    1440,
+    1888
+  ],
+  "spawnRect": [
+    1408,
+    1888,
+    64,
+    32
+  ],
+  "seats": [
+    {
+      "id": "summit-r1-b1-s1",
+      "anchor": [
+        304,
+        512
+      ],
+      "floorClick": [
+        304,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        280,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        288,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b1-s2",
+      "anchor": [
+        368,
+        512
+      ],
+      "floorClick": [
+        368,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        344,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        352,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b1-s3",
+      "anchor": [
+        432,
+        512
+      ],
+      "floorClick": [
+        432,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        408,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        416,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b1-s4",
+      "anchor": [
+        496,
+        512
+      ],
+      "floorClick": [
+        496,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        472,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        480,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b2-s1",
+      "anchor": [
+        624,
+        512
+      ],
+      "floorClick": [
+        624,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        600,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        608,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b2-s2",
+      "anchor": [
+        688,
+        512
+      ],
+      "floorClick": [
+        688,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        664,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        672,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b2-s3",
+      "anchor": [
+        752,
+        512
+      ],
+      "floorClick": [
+        752,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        728,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        736,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b2-s4",
+      "anchor": [
+        816,
+        512
+      ],
+      "floorClick": [
+        816,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        792,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        800,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b3-s1",
+      "anchor": [
+        944,
+        512
+      ],
+      "floorClick": [
+        944,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        920,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        928,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b3-s2",
+      "anchor": [
+        1008,
+        512
+      ],
+      "floorClick": [
+        1008,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        984,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        992,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b3-s3",
+      "anchor": [
+        1072,
+        512
+      ],
+      "floorClick": [
+        1072,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1048,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        1056,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b3-s4",
+      "anchor": [
+        1136,
+        512
+      ],
+      "floorClick": [
+        1136,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1112,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        1120,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b1-s1",
+      "anchor": [
+        304,
+        608
+      ],
+      "floorClick": [
+        304,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        280,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        288,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b1-s2",
+      "anchor": [
+        368,
+        608
+      ],
+      "floorClick": [
+        368,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        344,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        352,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b1-s3",
+      "anchor": [
+        432,
+        608
+      ],
+      "floorClick": [
+        432,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        408,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        416,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b1-s4",
+      "anchor": [
+        496,
+        608
+      ],
+      "floorClick": [
+        496,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        472,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        480,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b2-s1",
+      "anchor": [
+        624,
+        608
+      ],
+      "floorClick": [
+        624,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        600,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        608,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b2-s2",
+      "anchor": [
+        688,
+        608
+      ],
+      "floorClick": [
+        688,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        664,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        672,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b2-s3",
+      "anchor": [
+        752,
+        608
+      ],
+      "floorClick": [
+        752,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        728,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        736,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b2-s4",
+      "anchor": [
+        816,
+        608
+      ],
+      "floorClick": [
+        816,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        792,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        800,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b3-s1",
+      "anchor": [
+        944,
+        608
+      ],
+      "floorClick": [
+        944,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        920,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        928,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b3-s2",
+      "anchor": [
+        1008,
+        608
+      ],
+      "floorClick": [
+        1008,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        984,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        992,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b3-s3",
+      "anchor": [
+        1072,
+        608
+      ],
+      "floorClick": [
+        1072,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1048,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        1056,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b3-s4",
+      "anchor": [
+        1136,
+        608
+      ],
+      "floorClick": [
+        1136,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1112,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        1120,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b1-s1",
+      "anchor": [
+        304,
+        704
+      ],
+      "floorClick": [
+        304,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        280,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        288,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b1-s2",
+      "anchor": [
+        368,
+        704
+      ],
+      "floorClick": [
+        368,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        344,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        352,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b1-s3",
+      "anchor": [
+        432,
+        704
+      ],
+      "floorClick": [
+        432,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        408,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        416,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b1-s4",
+      "anchor": [
+        496,
+        704
+      ],
+      "floorClick": [
+        496,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        472,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        480,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b2-s1",
+      "anchor": [
+        624,
+        704
+      ],
+      "floorClick": [
+        624,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        600,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        608,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b2-s2",
+      "anchor": [
+        688,
+        704
+      ],
+      "floorClick": [
+        688,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        664,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        672,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b2-s3",
+      "anchor": [
+        752,
+        704
+      ],
+      "floorClick": [
+        752,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        728,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        736,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b2-s4",
+      "anchor": [
+        816,
+        704
+      ],
+      "floorClick": [
+        816,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        792,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        800,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b3-s1",
+      "anchor": [
+        944,
+        704
+      ],
+      "floorClick": [
+        944,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        920,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        928,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b3-s2",
+      "anchor": [
+        1008,
+        704
+      ],
+      "floorClick": [
+        1008,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        984,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        992,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b3-s3",
+      "anchor": [
+        1072,
+        704
+      ],
+      "floorClick": [
+        1072,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1048,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        1056,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b3-s4",
+      "anchor": [
+        1136,
+        704
+      ],
+      "floorClick": [
+        1136,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1112,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        1120,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b1-s1",
+      "anchor": [
+        304,
+        800
+      ],
+      "floorClick": [
+        304,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        280,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        288,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b1-s2",
+      "anchor": [
+        368,
+        800
+      ],
+      "floorClick": [
+        368,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        344,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        352,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b1-s3",
+      "anchor": [
+        432,
+        800
+      ],
+      "floorClick": [
+        432,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        408,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        416,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b1-s4",
+      "anchor": [
+        496,
+        800
+      ],
+      "floorClick": [
+        496,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        472,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        480,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b2-s1",
+      "anchor": [
+        624,
+        800
+      ],
+      "floorClick": [
+        624,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        600,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        608,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b2-s2",
+      "anchor": [
+        688,
+        800
+      ],
+      "floorClick": [
+        688,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        664,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        672,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b2-s3",
+      "anchor": [
+        752,
+        800
+      ],
+      "floorClick": [
+        752,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        728,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        736,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b2-s4",
+      "anchor": [
+        816,
+        800
+      ],
+      "floorClick": [
+        816,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        792,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        800,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b3-s1",
+      "anchor": [
+        944,
+        800
+      ],
+      "floorClick": [
+        944,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        920,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        928,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b3-s2",
+      "anchor": [
+        1008,
+        800
+      ],
+      "floorClick": [
+        1008,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        984,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        992,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b3-s3",
+      "anchor": [
+        1072,
+        800
+      ],
+      "floorClick": [
+        1072,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1048,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        1056,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b3-s4",
+      "anchor": [
+        1136,
+        800
+      ],
+      "floorClick": [
+        1136,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1112,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        1120,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-0-0",
+      "anchor": [
+        1968,
+        480
+      ],
+      "floorClick": [
+        1968,
+        496
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1944,
+        464,
+        48,
+        46
+      ],
+      "solid": [
+        1952,
+        512,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-0-1",
+      "anchor": [
+        2096,
+        480
+      ],
+      "floorClick": [
+        2096,
+        496
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2072,
+        464,
+        48,
+        46
+      ],
+      "solid": [
+        2080,
+        512,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-0-2",
+      "anchor": [
+        2224,
+        480
+      ],
+      "floorClick": [
+        2224,
+        496
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2200,
+        464,
+        48,
+        46
+      ],
+      "solid": [
+        2208,
+        512,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-0-3",
+      "anchor": [
+        2352,
+        480
+      ],
+      "floorClick": [
+        2352,
+        496
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2328,
+        464,
+        48,
+        46
+      ],
+      "solid": [
+        2336,
+        512,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-1-0",
+      "anchor": [
+        1968,
+        576
+      ],
+      "floorClick": [
+        1968,
+        592
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1944,
+        560,
+        48,
+        46
+      ],
+      "solid": [
+        1952,
+        608,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-1-1",
+      "anchor": [
+        2096,
+        576
+      ],
+      "floorClick": [
+        2096,
+        592
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2072,
+        560,
+        48,
+        46
+      ],
+      "solid": [
+        2080,
+        608,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-1-2",
+      "anchor": [
+        2224,
+        576
+      ],
+      "floorClick": [
+        2224,
+        592
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2200,
+        560,
+        48,
+        46
+      ],
+      "solid": [
+        2208,
+        608,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-1-3",
+      "anchor": [
+        2352,
+        576
+      ],
+      "floorClick": [
+        2352,
+        592
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2328,
+        560,
+        48,
+        46
+      ],
+      "solid": [
+        2336,
+        608,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-2-0",
+      "anchor": [
+        1968,
+        672
+      ],
+      "floorClick": [
+        1968,
+        688
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1944,
+        656,
+        48,
+        46
+      ],
+      "solid": [
+        1952,
+        704,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-2-1",
+      "anchor": [
+        2096,
+        672
+      ],
+      "floorClick": [
+        2096,
+        688
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2072,
+        656,
+        48,
+        46
+      ],
+      "solid": [
+        2080,
+        704,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-2-2",
+      "anchor": [
+        2224,
+        672
+      ],
+      "floorClick": [
+        2224,
+        688
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2200,
+        656,
+        48,
+        46
+      ],
+      "solid": [
+        2208,
+        704,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-2-3",
+      "anchor": [
+        2352,
+        672
+      ],
+      "floorClick": [
+        2352,
+        688
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2328,
+        656,
+        48,
+        46
+      ],
+      "solid": [
+        2336,
+        704,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-west-0",
+      "anchor": [
+        1776,
+        416
+      ],
+      "floorClick": [
+        1776,
+        432
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1746,
+        388,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        416,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-west-1",
+      "anchor": [
+        1776,
+        480
+      ],
+      "floorClick": [
+        1776,
+        496
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1746,
+        452,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        480,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-west-2",
+      "anchor": [
+        1776,
+        544
+      ],
+      "floorClick": [
+        1776,
+        560
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1746,
+        516,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-west-3",
+      "anchor": [
+        1776,
+        608
+      ],
+      "floorClick": [
+        1776,
+        624
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1746,
+        580,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        608,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-west-4",
+      "anchor": [
+        1776,
+        672
+      ],
+      "floorClick": [
+        1776,
+        688
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1746,
+        644,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        672,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-west-5",
+      "anchor": [
+        1776,
+        736
+      ],
+      "floorClick": [
+        1776,
+        752
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1746,
+        708,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-east-0",
+      "anchor": [
+        2608,
+        416
+      ],
+      "floorClick": [
+        2608,
+        432
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2590,
+        388,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        416,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-east-1",
+      "anchor": [
+        2608,
+        480
+      ],
+      "floorClick": [
+        2608,
+        496
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2590,
+        452,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        480,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-east-2",
+      "anchor": [
+        2608,
+        544
+      ],
+      "floorClick": [
+        2608,
+        560
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2590,
+        516,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-east-3",
+      "anchor": [
+        2608,
+        608
+      ],
+      "floorClick": [
+        2608,
+        624
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2590,
+        580,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        608,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-east-4",
+      "anchor": [
+        2608,
+        672
+      ],
+      "floorClick": [
+        2608,
+        688
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2590,
+        644,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        672,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-east-5",
+      "anchor": [
+        2608,
+        736
+      ],
+      "floorClick": [
+        2608,
+        752
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2590,
+        708,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-0-0-north",
+      "anchor": [
+        1872,
+        1440
+      ],
+      "floorClick": [
+        1872,
+        1456
+      ],
+      "direction": "south",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1848,
+        1404,
+        48,
+        53
+      ],
+      "solid": [
+        1856,
+        1376,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lab-0-0-south",
+      "anchor": [
+        1872,
+        1568
+      ],
+      "floorClick": [
+        1872,
+        1584
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1848,
+        1552,
+        48,
+        46
+      ],
+      "solid": [
+        1856,
+        1600,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lab-0-0-west",
+      "anchor": [
+        1776,
+        1504
+      ],
+      "floorClick": [
+        1776,
+        1520
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1746,
+        1476,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        1504,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-0-0-east",
+      "anchor": [
+        1968,
+        1504
+      ],
+      "floorClick": [
+        1968,
+        1520
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1950,
+        1476,
+        48,
+        52
+      ],
+      "solid": [
+        1984,
+        1504,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-0-1-north",
+      "anchor": [
+        2192,
+        1440
+      ],
+      "floorClick": [
+        2192,
+        1456
+      ],
+      "direction": "south",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2168,
+        1404,
+        48,
+        53
+      ],
+      "solid": [
+        2176,
+        1376,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lab-0-1-south",
+      "anchor": [
+        2192,
+        1568
+      ],
+      "floorClick": [
+        2192,
+        1584
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2168,
+        1552,
+        48,
+        46
+      ],
+      "solid": [
+        2176,
+        1600,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lab-0-1-west",
+      "anchor": [
+        2096,
+        1504
+      ],
+      "floorClick": [
+        2096,
+        1520
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2066,
+        1476,
+        48,
+        52
+      ],
+      "solid": [
+        2048,
+        1504,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-0-1-east",
+      "anchor": [
+        2288,
+        1504
+      ],
+      "floorClick": [
+        2288,
+        1520
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2270,
+        1476,
+        48,
+        52
+      ],
+      "solid": [
+        2304,
+        1504,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-0-2-north",
+      "anchor": [
+        2512,
+        1440
+      ],
+      "floorClick": [
+        2512,
+        1456
+      ],
+      "direction": "south",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2488,
+        1404,
+        48,
+        53
+      ],
+      "solid": [
+        2496,
+        1376,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lab-0-2-south",
+      "anchor": [
+        2512,
+        1568
+      ],
+      "floorClick": [
+        2512,
+        1584
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2488,
+        1552,
+        48,
+        46
+      ],
+      "solid": [
+        2496,
+        1600,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lab-0-2-west",
+      "anchor": [
+        2416,
+        1504
+      ],
+      "floorClick": [
+        2416,
+        1520
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2386,
+        1476,
+        48,
+        52
+      ],
+      "solid": [
+        2368,
+        1504,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-0-2-east",
+      "anchor": [
+        2608,
+        1504
+      ],
+      "floorClick": [
+        2608,
+        1520
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2590,
+        1476,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        1504,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-1-0-north",
+      "anchor": [
+        1872,
+        1664
+      ],
+      "floorClick": [
+        1872,
+        1680
+      ],
+      "direction": "south",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1848,
+        1628,
+        48,
+        53
+      ],
+      "solid": [
+        1856,
+        1600,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lab-1-0-south",
+      "anchor": [
+        1872,
+        1792
+      ],
+      "floorClick": [
+        1872,
+        1808
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1848,
+        1776,
+        48,
+        46
+      ],
+      "solid": [
+        1856,
+        1824,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lab-1-0-west",
+      "anchor": [
+        1776,
+        1728
+      ],
+      "floorClick": [
+        1776,
+        1744
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1746,
+        1700,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        1728,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-1-0-east",
+      "anchor": [
+        1968,
+        1728
+      ],
+      "floorClick": [
+        1968,
+        1744
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1950,
+        1700,
+        48,
+        52
+      ],
+      "solid": [
+        1984,
+        1728,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-1-1-north",
+      "anchor": [
+        2192,
+        1664
+      ],
+      "floorClick": [
+        2192,
+        1680
+      ],
+      "direction": "south",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2168,
+        1628,
+        48,
+        53
+      ],
+      "solid": [
+        2176,
+        1600,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lab-1-1-south",
+      "anchor": [
+        2192,
+        1792
+      ],
+      "floorClick": [
+        2192,
+        1808
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2168,
+        1776,
+        48,
+        46
+      ],
+      "solid": [
+        2176,
+        1824,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lab-1-1-west",
+      "anchor": [
+        2096,
+        1728
+      ],
+      "floorClick": [
+        2096,
+        1744
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2066,
+        1700,
+        48,
+        52
+      ],
+      "solid": [
+        2048,
+        1728,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-1-1-east",
+      "anchor": [
+        2288,
+        1728
+      ],
+      "floorClick": [
+        2288,
+        1744
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2270,
+        1700,
+        48,
+        52
+      ],
+      "solid": [
+        2304,
+        1728,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-1-2-north",
+      "anchor": [
+        2512,
+        1664
+      ],
+      "floorClick": [
+        2512,
+        1680
+      ],
+      "direction": "south",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2488,
+        1628,
+        48,
+        53
+      ],
+      "solid": [
+        2496,
+        1600,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lab-1-2-south",
+      "anchor": [
+        2512,
+        1792
+      ],
+      "floorClick": [
+        2512,
+        1808
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2488,
+        1776,
+        48,
+        46
+      ],
+      "solid": [
+        2496,
+        1824,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lab-1-2-west",
+      "anchor": [
+        2416,
+        1728
+      ],
+      "floorClick": [
+        2416,
+        1744
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2386,
+        1700,
+        48,
+        52
+      ],
+      "solid": [
+        2368,
+        1728,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-1-2-east",
+      "anchor": [
+        2608,
+        1728
+      ],
+      "floorClick": [
+        2608,
+        1744
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2590,
+        1700,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        1728,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    }
+  ],
+  "social": [
+    {
+      "id": "lounge-1-north",
+      "anchor": [
+        400,
+        1376
+      ],
+      "floorClick": [
+        400,
+        1392
+      ],
+      "direction": "south",
+      "kind": "group",
+      "room": "congress-lounge-1",
+      "art": [
+        376,
+        1340,
+        48,
+        53
+      ],
+      "solid": [
+        384,
+        1312,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lounge-1-south",
+      "anchor": [
+        400,
+        1504
+      ],
+      "floorClick": [
+        400,
+        1520
+      ],
+      "direction": "north",
+      "kind": "group",
+      "room": "congress-lounge-1",
+      "art": [
+        376,
+        1488,
+        48,
+        46
+      ],
+      "solid": [
+        384,
+        1536,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lounge-1-west",
+      "anchor": [
+        304,
+        1440
+      ],
+      "floorClick": [
+        304,
+        1456
+      ],
+      "direction": "east",
+      "kind": "group",
+      "room": "congress-lounge-1",
+      "art": [
+        274,
+        1412,
+        48,
+        52
+      ],
+      "solid": [
+        256,
+        1440,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lounge-1-east",
+      "anchor": [
+        496,
+        1440
+      ],
+      "floorClick": [
+        496,
+        1456
+      ],
+      "direction": "west",
+      "kind": "group",
+      "room": "congress-lounge-1",
+      "art": [
+        478,
+        1412,
+        48,
+        52
+      ],
+      "solid": [
+        512,
+        1440,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lounge-2-north",
+      "anchor": [
+        912,
+        1376
+      ],
+      "floorClick": [
+        912,
+        1392
+      ],
+      "direction": "south",
+      "kind": "group",
+      "room": "congress-lounge-2",
+      "art": [
+        888,
+        1340,
+        48,
+        53
+      ],
+      "solid": [
+        896,
+        1312,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lounge-2-south",
+      "anchor": [
+        912,
+        1504
+      ],
+      "floorClick": [
+        912,
+        1520
+      ],
+      "direction": "north",
+      "kind": "group",
+      "room": "congress-lounge-2",
+      "art": [
+        888,
+        1488,
+        48,
+        46
+      ],
+      "solid": [
+        896,
+        1536,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lounge-2-west",
+      "anchor": [
+        816,
+        1440
+      ],
+      "floorClick": [
+        816,
+        1456
+      ],
+      "direction": "east",
+      "kind": "group",
+      "room": "congress-lounge-2",
+      "art": [
+        786,
+        1412,
+        48,
+        52
+      ],
+      "solid": [
+        768,
+        1440,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lounge-2-east",
+      "anchor": [
+        1008,
+        1440
+      ],
+      "floorClick": [
+        1008,
+        1456
+      ],
+      "direction": "west",
+      "kind": "group",
+      "room": "congress-lounge-2",
+      "art": [
+        990,
+        1412,
+        48,
+        52
+      ],
+      "solid": [
+        1024,
+        1440,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "casual-0-0",
+      "anchor": [
+        244,
+        1600
+      ],
+      "floorClick": [
+        244,
+        1616
+      ],
+      "direction": "north",
+      "kind": "casual",
+      "room": null,
+      "art": [
+        220,
+        1584,
+        48,
+        46
+      ],
+      "solid": [
+        224,
+        1632,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "casual-0-1",
+      "anchor": [
+        300,
+        1600
+      ],
+      "floorClick": [
+        300,
+        1616
+      ],
+      "direction": "north",
+      "kind": "casual",
+      "room": null,
+      "art": [
+        276,
+        1584,
+        48,
+        46
+      ],
+      "solid": [
+        288,
+        1632,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "casual-1-0",
+      "anchor": [
+        564,
+        1600
+      ],
+      "floorClick": [
+        564,
+        1616
+      ],
+      "direction": "north",
+      "kind": "casual",
+      "room": null,
+      "art": [
+        540,
+        1584,
+        48,
+        46
+      ],
+      "solid": [
+        544,
+        1632,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "casual-1-1",
+      "anchor": [
+        620,
+        1600
+      ],
+      "floorClick": [
+        620,
+        1616
+      ],
+      "direction": "north",
+      "kind": "casual",
+      "room": null,
+      "art": [
+        596,
+        1584,
+        48,
+        46
+      ],
+      "solid": [
+        608,
+        1632,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "casual-2-0",
+      "anchor": [
+        884,
+        1600
+      ],
+      "floorClick": [
+        884,
+        1616
+      ],
+      "direction": "north",
+      "kind": "casual",
+      "room": null,
+      "art": [
+        860,
+        1584,
+        48,
+        46
+      ],
+      "solid": [
+        864,
+        1632,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "casual-2-1",
+      "anchor": [
+        940,
+        1600
+      ],
+      "floorClick": [
+        940,
+        1616
+      ],
+      "direction": "north",
+      "kind": "casual",
+      "room": null,
+      "art": [
+        916,
+        1584,
+        48,
+        46
+      ],
+      "solid": [
+        928,
+        1632,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "summit-lectern-speaker",
+      "anchor": [
+        720,
+        360
+      ],
+      "floorClick": [
+        720,
+        376
+      ],
+      "kind": "speaker"
+    },
+    {
+      "id": "forum-lectern-speaker",
+      "anchor": [
+        2192,
+        360
+      ],
+      "floorClick": [
+        2192,
+        376
+      ],
+      "kind": "speaker"
+    },
+    {
+      "id": "lab-lectern-speaker",
+      "anchor": [
+        1936,
+        1352
+      ],
+      "floorClick": [
+        1936,
+        1368
+      ],
+      "kind": "speaker"
+    },
+    {
+      "id": "coffee-staff",
+      "anchor": [
+        288,
+        1704
+      ],
+      "floorClick": [
+        288,
+        1720
+      ],
+      "kind": "service"
+    },
+    {
+      "id": "coffee-customer",
+      "anchor": [
+        288,
+        1888
+      ],
+      "floorClick": [
+        288,
+        1904
+      ],
+      "kind": "service"
+    },
+    {
+      "id": "registration-staff",
+      "anchor": [
+        992,
+        1704
+      ],
+      "floorClick": [
+        992,
+        1720
+      ],
+      "kind": "service"
+    },
+    {
+      "id": "registration-customer",
+      "anchor": [
+        992,
+        1888
+      ],
+      "floorClick": [
+        992,
+        1904
+      ],
+      "kind": "service"
+    },
+    {
+      "id": "arrival",
+      "anchor": [
+        1440,
+        1888
+      ],
+      "floorClick": [
+        1440,
+        1904
+      ],
+      "kind": "arrival"
+    },
+    {
+      "id": "cross-concourse",
+      "anchor": [
+        1440,
+        1056
+      ],
+      "floorClick": [
+        1440,
+        1072
+      ],
+      "kind": "route"
+    },
+    {
+      "id": "summit-threshold",
+      "anchor": [
+        704,
+        1024
+      ],
+      "floorClick": [
+        704,
+        1040
+      ],
+      "kind": "route"
+    },
+    {
+      "id": "forum-threshold",
+      "anchor": [
+        2192,
+        928
+      ],
+      "floorClick": [
+        2192,
+        944
+      ],
+      "kind": "route"
+    },
+    {
+      "id": "lab-threshold",
+      "anchor": [
+        1552,
+        1536
+      ],
+      "floorClick": [
+        1552,
+        1552
+      ],
+      "kind": "route"
+    },
+    {
+      "id": "summit-steps-top",
+      "anchor": [
+        784,
+        384
+      ],
+      "floorClick": [
+        784,
+        400
+      ],
+      "kind": "stage-route",
+      "expectedRole": "lantern-summit-podium"
+    },
+    {
+      "id": "summit-steps-bottom",
+      "anchor": [
+        784,
+        480
+      ],
+      "floorClick": [
+        784,
+        496
+      ],
+      "kind": "stage-route",
+      "expectedRole": "lantern-summit-audience"
+    },
+    {
+      "id": "forum-steps-top",
+      "anchor": [
+        2256,
+        384
+      ],
+      "floorClick": [
+        2256,
+        400
+      ],
+      "kind": "stage-route",
+      "expectedRole": "lantern-forum-podium"
+    },
+    {
+      "id": "forum-steps-bottom",
+      "anchor": [
+        2256,
+        464
+      ],
+      "floorClick": [
+        2256,
+        480
+      ],
+      "kind": "stage-route",
+      "expectedRole": "lantern-forum-audience"
+    },
+    {
+      "id": "lab-steps-top",
+      "anchor": [
+        2064,
+        1376
+      ],
+      "floorClick": [
+        2064,
+        1392
+      ],
+      "kind": "stage-route",
+      "expectedRole": "lantern-lab-podium"
+    },
+    {
+      "id": "lab-steps-bottom",
+      "anchor": [
+        2064,
+        1456
+      ],
+      "floorClick": [
+        2064,
+        1472
+      ],
+      "kind": "stage-route",
+      "expectedRole": "lantern-lab-audience"
+    }
+  ],
+  "solids": [
+    {
+      "id": "summit-north",
+      "rect": [
+        128,
+        192,
+        1152,
+        32
+      ]
+    },
+    {
+      "id": "summit-west",
+      "rect": [
+        128,
+        224,
+        32,
+        768
+      ]
+    },
+    {
+      "id": "summit-east",
+      "rect": [
+        1248,
+        224,
+        32,
+        768
+      ]
+    },
+    {
+      "id": "summit-south",
+      "rect": [
+        128,
+        960,
+        1152,
+        32
+      ]
+    },
+    {
+      "id": "forum-north",
+      "rect": [
+        1600,
+        192,
+        1152,
+        32
+      ]
+    },
+    {
+      "id": "forum-west",
+      "rect": [
+        1600,
+        224,
+        32,
+        672
+      ]
+    },
+    {
+      "id": "forum-east",
+      "rect": [
+        2720,
+        224,
+        32,
+        672
+      ]
+    },
+    {
+      "id": "forum-south",
+      "rect": [
+        1600,
+        864,
+        1152,
+        32
+      ]
+    },
+    {
+      "id": "lab-north",
+      "rect": [
+        1600,
+        1216,
+        1152,
+        32
+      ]
+    },
+    {
+      "id": "lab-west",
+      "rect": [
+        1600,
+        1248,
+        32,
+        640
+      ]
+    },
+    {
+      "id": "lab-east",
+      "rect": [
+        2720,
+        1248,
+        32,
+        640
+      ]
+    },
+    {
+      "id": "lab-south",
+      "rect": [
+        1600,
+        1856,
+        1152,
+        32
+      ]
+    },
+    {
+      "id": "foyer-west",
+      "rect": [
+        128,
+        1216,
+        32,
+        736
+      ]
+    },
+    {
+      "id": "foyer-south",
+      "rect": [
+        128,
+        1920,
+        1152,
+        32
+      ]
+    },
+    {
+      "id": "foyer-north-short",
+      "rect": [
+        128,
+        1216,
+        416,
+        32
+      ]
+    },
+    {
+      "id": "foyer-north-short2",
+      "rect": [
+        864,
+        1216,
+        416,
+        32
+      ]
+    },
+    {
+      "id": "venue-north",
+      "rect": [
+        64,
+        96,
+        2880,
+        32
+      ]
+    },
+    {
+      "id": "venue-west",
+      "rect": [
+        64,
+        128,
+        32,
+        1856
+      ]
+    },
+    {
+      "id": "venue-east",
+      "rect": [
+        2912,
+        128,
+        32,
+        1856
+      ]
+    },
+    {
+      "id": "venue-south",
+      "rect": [
+        64,
+        1952,
+        2880,
+        32
+      ]
+    },
+    {
+      "id": "summit-screen",
+      "rect": [
+        576,
+        320,
+        256,
+        32
+      ]
+    },
+    {
+      "id": "summit-lectern",
+      "rect": [
+        704,
+        384,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-screen",
+      "rect": [
+        2048,
+        320,
+        256,
+        32
+      ]
+    },
+    {
+      "id": "forum-lectern",
+      "rect": [
+        2176,
+        384,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-screen",
+      "rect": [
+        2048,
+        1344,
+        256,
+        32
+      ]
+    },
+    {
+      "id": "lab-lectern",
+      "rect": [
+        1920,
+        1376,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r1-b1-s1-back",
+      "rect": [
+        288,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r1-b1-s2-back",
+      "rect": [
+        352,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r1-b1-s3-back",
+      "rect": [
+        416,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r1-b1-s4-back",
+      "rect": [
+        480,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r1-b2-s1-back",
+      "rect": [
+        608,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r1-b2-s2-back",
+      "rect": [
+        672,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r1-b2-s3-back",
+      "rect": [
+        736,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r1-b2-s4-back",
+      "rect": [
+        800,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r1-b3-s1-back",
+      "rect": [
+        928,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r1-b3-s2-back",
+      "rect": [
+        992,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r1-b3-s3-back",
+      "rect": [
+        1056,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r1-b3-s4-back",
+      "rect": [
+        1120,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r2-b1-s1-back",
+      "rect": [
+        288,
+        640,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r2-b1-s2-back",
+      "rect": [
+        352,
+        640,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r2-b1-s3-back",
+      "rect": [
+        416,
+        640,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r2-b1-s4-back",
+      "rect": [
+        480,
+        640,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r2-b2-s1-back",
+      "rect": [
+        608,
+        640,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r2-b2-s2-back",
+      "rect": [
+        672,
+        640,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r2-b2-s3-back",
+      "rect": [
+        736,
+        640,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r2-b2-s4-back",
+      "rect": [
+        800,
+        640,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r2-b3-s1-back",
+      "rect": [
+        928,
+        640,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r2-b3-s2-back",
+      "rect": [
+        992,
+        640,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r2-b3-s3-back",
+      "rect": [
+        1056,
+        640,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r2-b3-s4-back",
+      "rect": [
+        1120,
+        640,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r3-b1-s1-back",
+      "rect": [
+        288,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r3-b1-s2-back",
+      "rect": [
+        352,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r3-b1-s3-back",
+      "rect": [
+        416,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r3-b1-s4-back",
+      "rect": [
+        480,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r3-b2-s1-back",
+      "rect": [
+        608,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r3-b2-s2-back",
+      "rect": [
+        672,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r3-b2-s3-back",
+      "rect": [
+        736,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r3-b2-s4-back",
+      "rect": [
+        800,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r3-b3-s1-back",
+      "rect": [
+        928,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r3-b3-s2-back",
+      "rect": [
+        992,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r3-b3-s3-back",
+      "rect": [
+        1056,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r3-b3-s4-back",
+      "rect": [
+        1120,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r4-b1-s1-back",
+      "rect": [
+        288,
+        832,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r4-b1-s2-back",
+      "rect": [
+        352,
+        832,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r4-b1-s3-back",
+      "rect": [
+        416,
+        832,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r4-b1-s4-back",
+      "rect": [
+        480,
+        832,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r4-b2-s1-back",
+      "rect": [
+        608,
+        832,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r4-b2-s2-back",
+      "rect": [
+        672,
+        832,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r4-b2-s3-back",
+      "rect": [
+        736,
+        832,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r4-b2-s4-back",
+      "rect": [
+        800,
+        832,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r4-b3-s1-back",
+      "rect": [
+        928,
+        832,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r4-b3-s2-back",
+      "rect": [
+        992,
+        832,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r4-b3-s3-back",
+      "rect": [
+        1056,
+        832,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "summit-r4-b3-s4-back",
+      "rect": [
+        1120,
+        832,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-front-0-0-back",
+      "rect": [
+        1952,
+        512,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-front-0-1-back",
+      "rect": [
+        2080,
+        512,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-front-0-2-back",
+      "rect": [
+        2208,
+        512,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-front-0-3-back",
+      "rect": [
+        2336,
+        512,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-front-1-0-back",
+      "rect": [
+        1952,
+        608,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-front-1-1-back",
+      "rect": [
+        2080,
+        608,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-front-1-2-back",
+      "rect": [
+        2208,
+        608,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-front-1-3-back",
+      "rect": [
+        2336,
+        608,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-front-2-0-back",
+      "rect": [
+        1952,
+        704,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-front-2-1-back",
+      "rect": [
+        2080,
+        704,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-front-2-2-back",
+      "rect": [
+        2208,
+        704,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-front-2-3-back",
+      "rect": [
+        2336,
+        704,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-west-0-back",
+      "rect": [
+        1728,
+        416,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-west-1-back",
+      "rect": [
+        1728,
+        480,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-west-2-back",
+      "rect": [
+        1728,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-west-3-back",
+      "rect": [
+        1728,
+        608,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-west-4-back",
+      "rect": [
+        1728,
+        672,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-west-5-back",
+      "rect": [
+        1728,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-east-0-back",
+      "rect": [
+        2624,
+        416,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-east-1-back",
+      "rect": [
+        2624,
+        480,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-east-2-back",
+      "rect": [
+        2624,
+        544,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-east-3-back",
+      "rect": [
+        2624,
+        608,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-east-4-back",
+      "rect": [
+        2624,
+        672,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "forum-east-5-back",
+      "rect": [
+        2624,
+        736,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-table-0-0",
+      "rect": [
+        1824,
+        1504,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-0-north-back",
+      "rect": [
+        1856,
+        1376,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-0-south-back",
+      "rect": [
+        1856,
+        1600,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-0-west-back",
+      "rect": [
+        1728,
+        1504,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-0-east-back",
+      "rect": [
+        1984,
+        1504,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-table-0-1",
+      "rect": [
+        2144,
+        1504,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-1-north-back",
+      "rect": [
+        2176,
+        1376,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-1-south-back",
+      "rect": [
+        2176,
+        1600,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-1-west-back",
+      "rect": [
+        2048,
+        1504,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-1-east-back",
+      "rect": [
+        2304,
+        1504,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-table-0-2",
+      "rect": [
+        2464,
+        1504,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-2-north-back",
+      "rect": [
+        2496,
+        1376,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-2-south-back",
+      "rect": [
+        2496,
+        1600,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-2-west-back",
+      "rect": [
+        2368,
+        1504,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-2-east-back",
+      "rect": [
+        2624,
+        1504,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-table-1-0",
+      "rect": [
+        1824,
+        1728,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-0-north-back",
+      "rect": [
+        1856,
+        1600,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-0-south-back",
+      "rect": [
+        1856,
+        1824,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-0-west-back",
+      "rect": [
+        1728,
+        1728,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-0-east-back",
+      "rect": [
+        1984,
+        1728,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-table-1-1",
+      "rect": [
+        2144,
+        1728,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-1-north-back",
+      "rect": [
+        2176,
+        1600,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-1-south-back",
+      "rect": [
+        2176,
+        1824,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-1-west-back",
+      "rect": [
+        2048,
+        1728,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-1-east-back",
+      "rect": [
+        2304,
+        1728,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-table-1-2",
+      "rect": [
+        2464,
+        1728,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-2-north-back",
+      "rect": [
+        2496,
+        1600,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-2-south-back",
+      "rect": [
+        2496,
+        1824,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-2-west-back",
+      "rect": [
+        2368,
+        1728,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-2-east-back",
+      "rect": [
+        2624,
+        1728,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lounge-1-divider-0",
+      "rect": [
+        192,
+        1280,
+        384,
+        32
+      ]
+    },
+    {
+      "id": "lounge-1-divider-1",
+      "rect": [
+        192,
+        1312,
+        32,
+        256
+      ]
+    },
+    {
+      "id": "lounge-1-divider-2",
+      "rect": [
+        544,
+        1312,
+        32,
+        256
+      ]
+    },
+    {
+      "id": "lounge-1-divider-3",
+      "rect": [
+        224,
+        1536,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lounge-1-divider-4",
+      "rect": [
+        480,
+        1536,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lounge-1-table",
+      "rect": [
+        352,
+        1440,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lounge-1-north-back",
+      "rect": [
+        384,
+        1312,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lounge-1-south-back",
+      "rect": [
+        384,
+        1536,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lounge-1-west-back",
+      "rect": [
+        256,
+        1440,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lounge-1-east-back",
+      "rect": [
+        512,
+        1440,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lounge-2-divider-0",
+      "rect": [
+        704,
+        1280,
+        384,
+        32
+      ]
+    },
+    {
+      "id": "lounge-2-divider-1",
+      "rect": [
+        704,
+        1312,
+        32,
+        256
+      ]
+    },
+    {
+      "id": "lounge-2-divider-2",
+      "rect": [
+        1056,
+        1312,
+        32,
+        256
+      ]
+    },
+    {
+      "id": "lounge-2-divider-3",
+      "rect": [
+        736,
+        1536,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lounge-2-divider-4",
+      "rect": [
+        992,
+        1536,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lounge-2-table",
+      "rect": [
+        864,
+        1440,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lounge-2-north-back",
+      "rect": [
+        896,
+        1312,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lounge-2-south-back",
+      "rect": [
+        896,
+        1536,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lounge-2-west-back",
+      "rect": [
+        768,
+        1440,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "lounge-2-east-back",
+      "rect": [
+        1024,
+        1440,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "casual-0-0-back",
+      "rect": [
+        224,
+        1632,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "casual-0-1-back",
+      "rect": [
+        288,
+        1632,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "casual-side-table-0",
+      "rect": [
+        352,
+        1600,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "casual-1-0-back",
+      "rect": [
+        544,
+        1632,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "casual-1-1-back",
+      "rect": [
+        608,
+        1632,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "casual-side-table-1",
+      "rect": [
+        672,
+        1600,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "casual-2-0-back",
+      "rect": [
+        864,
+        1632,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "casual-2-1-back",
+      "rect": [
+        928,
+        1632,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "casual-side-table-2",
+      "rect": [
+        992,
+        1600,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "coffee-front",
+      "rect": [
+        192,
+        1728,
+        192,
+        64
+      ]
+    },
+    {
+      "id": "coffee-left-wing",
+      "rect": [
+        192,
+        1696,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "coffee-right-wing",
+      "rect": [
+        352,
+        1696,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "registration-front",
+      "rect": [
+        896,
+        1728,
+        192,
+        64
+      ]
+    },
+    {
+      "id": "registration-left-wing",
+      "rect": [
+        896,
+        1696,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "registration-right-wing",
+      "rect": [
+        1056,
+        1696,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "coffee-espresso-base",
+      "rect": [
+        320,
+        1696,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "olive-0",
+      "rect": [
+        352,
+        1056,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "olive-1",
+      "rect": [
+        1024,
+        1056,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "olive-2",
+      "rect": [
+        1760,
+        928,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "olive-3",
+      "rect": [
+        2624,
+        928,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "olive-4",
+      "rect": [
+        1344,
+        320,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "olive-5",
+      "rect": [
+        2816,
+        1312,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "olive-6",
+      "rect": [
+        1152,
+        1728,
+        32,
+        32
+      ]
+    }
+  ],
+  "doors": [
+    {
+      "id": "summit-east-door",
+      "rect": [
+        1248,
+        864,
+        32,
+        96
+      ],
+      "anchor": [
+        1264,
+        912
+      ]
+    },
+    {
+      "id": "summit-south-door",
+      "rect": [
+        608,
+        960,
+        192,
+        32
+      ],
+      "anchor": [
+        704,
+        960
+      ]
+    },
+    {
+      "id": "forum-west-door",
+      "rect": [
+        1600,
+        768,
+        32,
+        96
+      ],
+      "anchor": [
+        1616,
+        816
+      ]
+    },
+    {
+      "id": "forum-south-door",
+      "rect": [
+        2112,
+        864,
+        192,
+        32
+      ],
+      "anchor": [
+        2208,
+        864
+      ]
+    },
+    {
+      "id": "lab-west-door",
+      "rect": [
+        1600,
+        1440,
+        32,
+        192
+      ],
+      "anchor": [
+        1616,
+        1536
+      ]
+    },
+    {
+      "id": "venue-south-door",
+      "rect": [
+        1376,
+        1952,
+        128,
+        32
+      ],
+      "anchor": [
+        1440,
+        1952
+      ]
+    }
+  ],
+  "meetingRooms": [
+    {
+      "id": "congress-lounge-1",
+      "rect": [
+        224,
+        1312,
+        319,
+        223
+      ]
+    },
+    {
+      "id": "congress-lounge-2",
+      "rect": [
+        736,
+        1312,
+        319,
+        223
+      ]
+    }
+  ],
+  "stageSteps": {
+    "physics": "single permanent2D floor; tread artwork walkable",
+    "endCaps": "cropped away to avoid solid-looking posts without collision",
+    "routeAnchors": [
+      "summit-steps-top",
+      "summit-steps-bottom",
+      "forum-steps-top",
+      "forum-steps-bottom",
+      "lab-steps-top",
+      "lab-steps-bottom"
+    ]
+  },
+  "furniture": [
+    {
+      "id": "summit-r1-b1-s1",
+      "anchor": [
+        304,
+        512
+      ],
+      "floorClick": [
+        304,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        280,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        288,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b1-s2",
+      "anchor": [
+        368,
+        512
+      ],
+      "floorClick": [
+        368,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        344,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        352,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b1-s3",
+      "anchor": [
+        432,
+        512
+      ],
+      "floorClick": [
+        432,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        408,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        416,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b1-s4",
+      "anchor": [
+        496,
+        512
+      ],
+      "floorClick": [
+        496,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        472,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        480,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b2-s1",
+      "anchor": [
+        624,
+        512
+      ],
+      "floorClick": [
+        624,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        600,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        608,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b2-s2",
+      "anchor": [
+        688,
+        512
+      ],
+      "floorClick": [
+        688,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        664,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        672,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b2-s3",
+      "anchor": [
+        752,
+        512
+      ],
+      "floorClick": [
+        752,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        728,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        736,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b2-s4",
+      "anchor": [
+        816,
+        512
+      ],
+      "floorClick": [
+        816,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        792,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        800,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b3-s1",
+      "anchor": [
+        944,
+        512
+      ],
+      "floorClick": [
+        944,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        920,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        928,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b3-s2",
+      "anchor": [
+        1008,
+        512
+      ],
+      "floorClick": [
+        1008,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        984,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        992,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b3-s3",
+      "anchor": [
+        1072,
+        512
+      ],
+      "floorClick": [
+        1072,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1048,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        1056,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r1-b3-s4",
+      "anchor": [
+        1136,
+        512
+      ],
+      "floorClick": [
+        1136,
+        528
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1112,
+        496,
+        48,
+        46
+      ],
+      "solid": [
+        1120,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b1-s1",
+      "anchor": [
+        304,
+        608
+      ],
+      "floorClick": [
+        304,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        280,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        288,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b1-s2",
+      "anchor": [
+        368,
+        608
+      ],
+      "floorClick": [
+        368,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        344,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        352,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b1-s3",
+      "anchor": [
+        432,
+        608
+      ],
+      "floorClick": [
+        432,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        408,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        416,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b1-s4",
+      "anchor": [
+        496,
+        608
+      ],
+      "floorClick": [
+        496,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        472,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        480,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b2-s1",
+      "anchor": [
+        624,
+        608
+      ],
+      "floorClick": [
+        624,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        600,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        608,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b2-s2",
+      "anchor": [
+        688,
+        608
+      ],
+      "floorClick": [
+        688,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        664,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        672,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b2-s3",
+      "anchor": [
+        752,
+        608
+      ],
+      "floorClick": [
+        752,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        728,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        736,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b2-s4",
+      "anchor": [
+        816,
+        608
+      ],
+      "floorClick": [
+        816,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        792,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        800,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b3-s1",
+      "anchor": [
+        944,
+        608
+      ],
+      "floorClick": [
+        944,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        920,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        928,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b3-s2",
+      "anchor": [
+        1008,
+        608
+      ],
+      "floorClick": [
+        1008,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        984,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        992,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b3-s3",
+      "anchor": [
+        1072,
+        608
+      ],
+      "floorClick": [
+        1072,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1048,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        1056,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r2-b3-s4",
+      "anchor": [
+        1136,
+        608
+      ],
+      "floorClick": [
+        1136,
+        624
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1112,
+        592,
+        48,
+        46
+      ],
+      "solid": [
+        1120,
+        640,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b1-s1",
+      "anchor": [
+        304,
+        704
+      ],
+      "floorClick": [
+        304,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        280,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        288,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b1-s2",
+      "anchor": [
+        368,
+        704
+      ],
+      "floorClick": [
+        368,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        344,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        352,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b1-s3",
+      "anchor": [
+        432,
+        704
+      ],
+      "floorClick": [
+        432,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        408,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        416,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b1-s4",
+      "anchor": [
+        496,
+        704
+      ],
+      "floorClick": [
+        496,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        472,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        480,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b2-s1",
+      "anchor": [
+        624,
+        704
+      ],
+      "floorClick": [
+        624,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        600,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        608,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b2-s2",
+      "anchor": [
+        688,
+        704
+      ],
+      "floorClick": [
+        688,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        664,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        672,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b2-s3",
+      "anchor": [
+        752,
+        704
+      ],
+      "floorClick": [
+        752,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        728,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        736,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b2-s4",
+      "anchor": [
+        816,
+        704
+      ],
+      "floorClick": [
+        816,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        792,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        800,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b3-s1",
+      "anchor": [
+        944,
+        704
+      ],
+      "floorClick": [
+        944,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        920,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        928,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b3-s2",
+      "anchor": [
+        1008,
+        704
+      ],
+      "floorClick": [
+        1008,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        984,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        992,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b3-s3",
+      "anchor": [
+        1072,
+        704
+      ],
+      "floorClick": [
+        1072,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1048,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        1056,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r3-b3-s4",
+      "anchor": [
+        1136,
+        704
+      ],
+      "floorClick": [
+        1136,
+        720
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1112,
+        688,
+        48,
+        46
+      ],
+      "solid": [
+        1120,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b1-s1",
+      "anchor": [
+        304,
+        800
+      ],
+      "floorClick": [
+        304,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        280,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        288,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b1-s2",
+      "anchor": [
+        368,
+        800
+      ],
+      "floorClick": [
+        368,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        344,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        352,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b1-s3",
+      "anchor": [
+        432,
+        800
+      ],
+      "floorClick": [
+        432,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        408,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        416,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b1-s4",
+      "anchor": [
+        496,
+        800
+      ],
+      "floorClick": [
+        496,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        472,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        480,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b2-s1",
+      "anchor": [
+        624,
+        800
+      ],
+      "floorClick": [
+        624,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        600,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        608,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b2-s2",
+      "anchor": [
+        688,
+        800
+      ],
+      "floorClick": [
+        688,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        664,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        672,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b2-s3",
+      "anchor": [
+        752,
+        800
+      ],
+      "floorClick": [
+        752,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        728,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        736,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b2-s4",
+      "anchor": [
+        816,
+        800
+      ],
+      "floorClick": [
+        816,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        792,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        800,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b3-s1",
+      "anchor": [
+        944,
+        800
+      ],
+      "floorClick": [
+        944,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        920,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        928,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b3-s2",
+      "anchor": [
+        1008,
+        800
+      ],
+      "floorClick": [
+        1008,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        984,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        992,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b3-s3",
+      "anchor": [
+        1072,
+        800
+      ],
+      "floorClick": [
+        1072,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1048,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        1056,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "summit-r4-b3-s4",
+      "anchor": [
+        1136,
+        800
+      ],
+      "floorClick": [
+        1136,
+        816
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "summit",
+      "art": [
+        1112,
+        784,
+        48,
+        46
+      ],
+      "solid": [
+        1120,
+        832,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-0-0",
+      "anchor": [
+        1968,
+        480
+      ],
+      "floorClick": [
+        1968,
+        496
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1944,
+        464,
+        48,
+        46
+      ],
+      "solid": [
+        1952,
+        512,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-0-1",
+      "anchor": [
+        2096,
+        480
+      ],
+      "floorClick": [
+        2096,
+        496
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2072,
+        464,
+        48,
+        46
+      ],
+      "solid": [
+        2080,
+        512,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-0-2",
+      "anchor": [
+        2224,
+        480
+      ],
+      "floorClick": [
+        2224,
+        496
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2200,
+        464,
+        48,
+        46
+      ],
+      "solid": [
+        2208,
+        512,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-0-3",
+      "anchor": [
+        2352,
+        480
+      ],
+      "floorClick": [
+        2352,
+        496
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2328,
+        464,
+        48,
+        46
+      ],
+      "solid": [
+        2336,
+        512,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-1-0",
+      "anchor": [
+        1968,
+        576
+      ],
+      "floorClick": [
+        1968,
+        592
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1944,
+        560,
+        48,
+        46
+      ],
+      "solid": [
+        1952,
+        608,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-1-1",
+      "anchor": [
+        2096,
+        576
+      ],
+      "floorClick": [
+        2096,
+        592
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2072,
+        560,
+        48,
+        46
+      ],
+      "solid": [
+        2080,
+        608,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-1-2",
+      "anchor": [
+        2224,
+        576
+      ],
+      "floorClick": [
+        2224,
+        592
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2200,
+        560,
+        48,
+        46
+      ],
+      "solid": [
+        2208,
+        608,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-1-3",
+      "anchor": [
+        2352,
+        576
+      ],
+      "floorClick": [
+        2352,
+        592
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2328,
+        560,
+        48,
+        46
+      ],
+      "solid": [
+        2336,
+        608,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-2-0",
+      "anchor": [
+        1968,
+        672
+      ],
+      "floorClick": [
+        1968,
+        688
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1944,
+        656,
+        48,
+        46
+      ],
+      "solid": [
+        1952,
+        704,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-2-1",
+      "anchor": [
+        2096,
+        672
+      ],
+      "floorClick": [
+        2096,
+        688
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2072,
+        656,
+        48,
+        46
+      ],
+      "solid": [
+        2080,
+        704,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-2-2",
+      "anchor": [
+        2224,
+        672
+      ],
+      "floorClick": [
+        2224,
+        688
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2200,
+        656,
+        48,
+        46
+      ],
+      "solid": [
+        2208,
+        704,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-front-2-3",
+      "anchor": [
+        2352,
+        672
+      ],
+      "floorClick": [
+        2352,
+        688
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2328,
+        656,
+        48,
+        46
+      ],
+      "solid": [
+        2336,
+        704,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "forum-west-0",
+      "anchor": [
+        1776,
+        416
+      ],
+      "floorClick": [
+        1776,
+        432
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1746,
+        388,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        416,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-west-1",
+      "anchor": [
+        1776,
+        480
+      ],
+      "floorClick": [
+        1776,
+        496
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1746,
+        452,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        480,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-west-2",
+      "anchor": [
+        1776,
+        544
+      ],
+      "floorClick": [
+        1776,
+        560
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1746,
+        516,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-west-3",
+      "anchor": [
+        1776,
+        608
+      ],
+      "floorClick": [
+        1776,
+        624
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1746,
+        580,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        608,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-west-4",
+      "anchor": [
+        1776,
+        672
+      ],
+      "floorClick": [
+        1776,
+        688
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1746,
+        644,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        672,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-west-5",
+      "anchor": [
+        1776,
+        736
+      ],
+      "floorClick": [
+        1776,
+        752
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        1746,
+        708,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-east-0",
+      "anchor": [
+        2608,
+        416
+      ],
+      "floorClick": [
+        2608,
+        432
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2590,
+        388,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        416,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-east-1",
+      "anchor": [
+        2608,
+        480
+      ],
+      "floorClick": [
+        2608,
+        496
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2590,
+        452,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        480,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-east-2",
+      "anchor": [
+        2608,
+        544
+      ],
+      "floorClick": [
+        2608,
+        560
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2590,
+        516,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        544,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-east-3",
+      "anchor": [
+        2608,
+        608
+      ],
+      "floorClick": [
+        2608,
+        624
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2590,
+        580,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        608,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-east-4",
+      "anchor": [
+        2608,
+        672
+      ],
+      "floorClick": [
+        2608,
+        688
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2590,
+        644,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        672,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "forum-east-5",
+      "anchor": [
+        2608,
+        736
+      ],
+      "floorClick": [
+        2608,
+        752
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "forum",
+      "art": [
+        2590,
+        708,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        736,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-table-0-0",
+      "kind": "table",
+      "art": [
+        1816,
+        1482,
+        80,
+        46
+      ],
+      "solid": [
+        1824,
+        1504,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-0-north",
+      "anchor": [
+        1872,
+        1440
+      ],
+      "floorClick": [
+        1872,
+        1456
+      ],
+      "direction": "south",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1848,
+        1404,
+        48,
+        53
+      ],
+      "solid": [
+        1856,
+        1376,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lab-0-0-south",
+      "anchor": [
+        1872,
+        1568
+      ],
+      "floorClick": [
+        1872,
+        1584
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1848,
+        1552,
+        48,
+        46
+      ],
+      "solid": [
+        1856,
+        1600,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lab-0-0-west",
+      "anchor": [
+        1776,
+        1504
+      ],
+      "floorClick": [
+        1776,
+        1520
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1746,
+        1476,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        1504,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-0-0-east",
+      "anchor": [
+        1968,
+        1504
+      ],
+      "floorClick": [
+        1968,
+        1520
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1950,
+        1476,
+        48,
+        52
+      ],
+      "solid": [
+        1984,
+        1504,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-table-0-1",
+      "kind": "table",
+      "art": [
+        2136,
+        1482,
+        80,
+        46
+      ],
+      "solid": [
+        2144,
+        1504,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-1-north",
+      "anchor": [
+        2192,
+        1440
+      ],
+      "floorClick": [
+        2192,
+        1456
+      ],
+      "direction": "south",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2168,
+        1404,
+        48,
+        53
+      ],
+      "solid": [
+        2176,
+        1376,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lab-0-1-south",
+      "anchor": [
+        2192,
+        1568
+      ],
+      "floorClick": [
+        2192,
+        1584
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2168,
+        1552,
+        48,
+        46
+      ],
+      "solid": [
+        2176,
+        1600,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lab-0-1-west",
+      "anchor": [
+        2096,
+        1504
+      ],
+      "floorClick": [
+        2096,
+        1520
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2066,
+        1476,
+        48,
+        52
+      ],
+      "solid": [
+        2048,
+        1504,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-0-1-east",
+      "anchor": [
+        2288,
+        1504
+      ],
+      "floorClick": [
+        2288,
+        1520
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2270,
+        1476,
+        48,
+        52
+      ],
+      "solid": [
+        2304,
+        1504,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-table-0-2",
+      "kind": "table",
+      "art": [
+        2456,
+        1482,
+        80,
+        46
+      ],
+      "solid": [
+        2464,
+        1504,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lab-0-2-north",
+      "anchor": [
+        2512,
+        1440
+      ],
+      "floorClick": [
+        2512,
+        1456
+      ],
+      "direction": "south",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2488,
+        1404,
+        48,
+        53
+      ],
+      "solid": [
+        2496,
+        1376,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lab-0-2-south",
+      "anchor": [
+        2512,
+        1568
+      ],
+      "floorClick": [
+        2512,
+        1584
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2488,
+        1552,
+        48,
+        46
+      ],
+      "solid": [
+        2496,
+        1600,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lab-0-2-west",
+      "anchor": [
+        2416,
+        1504
+      ],
+      "floorClick": [
+        2416,
+        1520
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2386,
+        1476,
+        48,
+        52
+      ],
+      "solid": [
+        2368,
+        1504,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-0-2-east",
+      "anchor": [
+        2608,
+        1504
+      ],
+      "floorClick": [
+        2608,
+        1520
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2590,
+        1476,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        1504,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-table-1-0",
+      "kind": "table",
+      "art": [
+        1816,
+        1706,
+        80,
+        46
+      ],
+      "solid": [
+        1824,
+        1728,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-0-north",
+      "anchor": [
+        1872,
+        1664
+      ],
+      "floorClick": [
+        1872,
+        1680
+      ],
+      "direction": "south",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1848,
+        1628,
+        48,
+        53
+      ],
+      "solid": [
+        1856,
+        1600,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lab-1-0-south",
+      "anchor": [
+        1872,
+        1792
+      ],
+      "floorClick": [
+        1872,
+        1808
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1848,
+        1776,
+        48,
+        46
+      ],
+      "solid": [
+        1856,
+        1824,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lab-1-0-west",
+      "anchor": [
+        1776,
+        1728
+      ],
+      "floorClick": [
+        1776,
+        1744
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1746,
+        1700,
+        48,
+        52
+      ],
+      "solid": [
+        1728,
+        1728,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-1-0-east",
+      "anchor": [
+        1968,
+        1728
+      ],
+      "floorClick": [
+        1968,
+        1744
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        1950,
+        1700,
+        48,
+        52
+      ],
+      "solid": [
+        1984,
+        1728,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-table-1-1",
+      "kind": "table",
+      "art": [
+        2136,
+        1706,
+        80,
+        46
+      ],
+      "solid": [
+        2144,
+        1728,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-1-north",
+      "anchor": [
+        2192,
+        1664
+      ],
+      "floorClick": [
+        2192,
+        1680
+      ],
+      "direction": "south",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2168,
+        1628,
+        48,
+        53
+      ],
+      "solid": [
+        2176,
+        1600,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lab-1-1-south",
+      "anchor": [
+        2192,
+        1792
+      ],
+      "floorClick": [
+        2192,
+        1808
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2168,
+        1776,
+        48,
+        46
+      ],
+      "solid": [
+        2176,
+        1824,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lab-1-1-west",
+      "anchor": [
+        2096,
+        1728
+      ],
+      "floorClick": [
+        2096,
+        1744
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2066,
+        1700,
+        48,
+        52
+      ],
+      "solid": [
+        2048,
+        1728,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-1-1-east",
+      "anchor": [
+        2288,
+        1728
+      ],
+      "floorClick": [
+        2288,
+        1744
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2270,
+        1700,
+        48,
+        52
+      ],
+      "solid": [
+        2304,
+        1728,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-table-1-2",
+      "kind": "table",
+      "art": [
+        2456,
+        1706,
+        80,
+        46
+      ],
+      "solid": [
+        2464,
+        1728,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lab-1-2-north",
+      "anchor": [
+        2512,
+        1664
+      ],
+      "floorClick": [
+        2512,
+        1680
+      ],
+      "direction": "south",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2488,
+        1628,
+        48,
+        53
+      ],
+      "solid": [
+        2496,
+        1600,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lab-1-2-south",
+      "anchor": [
+        2512,
+        1792
+      ],
+      "floorClick": [
+        2512,
+        1808
+      ],
+      "direction": "north",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2488,
+        1776,
+        48,
+        46
+      ],
+      "solid": [
+        2496,
+        1824,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lab-1-2-west",
+      "anchor": [
+        2416,
+        1728
+      ],
+      "floorClick": [
+        2416,
+        1744
+      ],
+      "direction": "east",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2386,
+        1700,
+        48,
+        52
+      ],
+      "solid": [
+        2368,
+        1728,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lab-1-2-east",
+      "anchor": [
+        2608,
+        1728
+      ],
+      "floorClick": [
+        2608,
+        1744
+      ],
+      "direction": "west",
+      "kind": "audience",
+      "room": "lab",
+      "art": [
+        2590,
+        1700,
+        48,
+        52
+      ],
+      "solid": [
+        2624,
+        1728,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lounge-1-table",
+      "kind": "table",
+      "art": [
+        344,
+        1418,
+        80,
+        46
+      ],
+      "solid": [
+        352,
+        1440,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lounge-1-north",
+      "anchor": [
+        400,
+        1376
+      ],
+      "floorClick": [
+        400,
+        1392
+      ],
+      "direction": "south",
+      "kind": "group",
+      "room": "congress-lounge-1",
+      "art": [
+        376,
+        1340,
+        48,
+        53
+      ],
+      "solid": [
+        384,
+        1312,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lounge-1-south",
+      "anchor": [
+        400,
+        1504
+      ],
+      "floorClick": [
+        400,
+        1520
+      ],
+      "direction": "north",
+      "kind": "group",
+      "room": "congress-lounge-1",
+      "art": [
+        376,
+        1488,
+        48,
+        46
+      ],
+      "solid": [
+        384,
+        1536,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lounge-1-west",
+      "anchor": [
+        304,
+        1440
+      ],
+      "floorClick": [
+        304,
+        1456
+      ],
+      "direction": "east",
+      "kind": "group",
+      "room": "congress-lounge-1",
+      "art": [
+        274,
+        1412,
+        48,
+        52
+      ],
+      "solid": [
+        256,
+        1440,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lounge-1-east",
+      "anchor": [
+        496,
+        1440
+      ],
+      "floorClick": [
+        496,
+        1456
+      ],
+      "direction": "west",
+      "kind": "group",
+      "room": "congress-lounge-1",
+      "art": [
+        478,
+        1412,
+        48,
+        52
+      ],
+      "solid": [
+        512,
+        1440,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lounge-2-table",
+      "kind": "table",
+      "art": [
+        856,
+        1418,
+        80,
+        46
+      ],
+      "solid": [
+        864,
+        1440,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "lounge-2-north",
+      "anchor": [
+        912,
+        1376
+      ],
+      "floorClick": [
+        912,
+        1392
+      ],
+      "direction": "south",
+      "kind": "group",
+      "room": "congress-lounge-2",
+      "art": [
+        888,
+        1340,
+        48,
+        53
+      ],
+      "solid": [
+        896,
+        1312,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 53
+    },
+    {
+      "id": "lounge-2-south",
+      "anchor": [
+        912,
+        1504
+      ],
+      "floorClick": [
+        912,
+        1520
+      ],
+      "direction": "north",
+      "kind": "group",
+      "room": "congress-lounge-2",
+      "art": [
+        888,
+        1488,
+        48,
+        46
+      ],
+      "solid": [
+        896,
+        1536,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "lounge-2-west",
+      "anchor": [
+        816,
+        1440
+      ],
+      "floorClick": [
+        816,
+        1456
+      ],
+      "direction": "east",
+      "kind": "group",
+      "room": "congress-lounge-2",
+      "art": [
+        786,
+        1412,
+        48,
+        52
+      ],
+      "solid": [
+        768,
+        1440,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "lounge-2-east",
+      "anchor": [
+        1008,
+        1440
+      ],
+      "floorClick": [
+        1008,
+        1456
+      ],
+      "direction": "west",
+      "kind": "group",
+      "room": "congress-lounge-2",
+      "art": [
+        990,
+        1412,
+        48,
+        52
+      ],
+      "solid": [
+        1024,
+        1440,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 45
+    },
+    {
+      "id": "casual-0-0",
+      "anchor": [
+        244,
+        1600
+      ],
+      "floorClick": [
+        244,
+        1616
+      ],
+      "direction": "north",
+      "kind": "casual",
+      "room": null,
+      "art": [
+        220,
+        1584,
+        48,
+        46
+      ],
+      "solid": [
+        224,
+        1632,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "casual-0-1",
+      "anchor": [
+        300,
+        1600
+      ],
+      "floorClick": [
+        300,
+        1616
+      ],
+      "direction": "north",
+      "kind": "casual",
+      "room": null,
+      "art": [
+        276,
+        1584,
+        48,
+        46
+      ],
+      "solid": [
+        288,
+        1632,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "casual-side-table-0",
+      "kind": "table",
+      "art": [
+        344,
+        1578,
+        80,
+        46
+      ],
+      "solid": [
+        352,
+        1600,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "casual-1-0",
+      "anchor": [
+        564,
+        1600
+      ],
+      "floorClick": [
+        564,
+        1616
+      ],
+      "direction": "north",
+      "kind": "casual",
+      "room": null,
+      "art": [
+        540,
+        1584,
+        48,
+        46
+      ],
+      "solid": [
+        544,
+        1632,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "casual-1-1",
+      "anchor": [
+        620,
+        1600
+      ],
+      "floorClick": [
+        620,
+        1616
+      ],
+      "direction": "north",
+      "kind": "casual",
+      "room": null,
+      "art": [
+        596,
+        1584,
+        48,
+        46
+      ],
+      "solid": [
+        608,
+        1632,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "casual-side-table-1",
+      "kind": "table",
+      "art": [
+        664,
+        1578,
+        80,
+        46
+      ],
+      "solid": [
+        672,
+        1600,
+        64,
+        32
+      ]
+    },
+    {
+      "id": "casual-2-0",
+      "anchor": [
+        884,
+        1600
+      ],
+      "floorClick": [
+        884,
+        1616
+      ],
+      "direction": "north",
+      "kind": "casual",
+      "room": null,
+      "art": [
+        860,
+        1584,
+        48,
+        46
+      ],
+      "solid": [
+        864,
+        1632,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "casual-2-1",
+      "anchor": [
+        940,
+        1600
+      ],
+      "floorClick": [
+        940,
+        1616
+      ],
+      "direction": "north",
+      "kind": "casual",
+      "room": null,
+      "art": [
+        916,
+        1584,
+        48,
+        46
+      ],
+      "solid": [
+        928,
+        1632,
+        32,
+        32
+      ],
+      "aboveFromLocalY": 29
+    },
+    {
+      "id": "casual-side-table-2",
+      "kind": "table",
+      "art": [
+        984,
+        1578,
+        80,
+        46
+      ],
+      "solid": [
+        992,
+        1600,
+        64,
+        32
+      ]
+    }
+  ],
+  "focus": [
+    {
+      "id": "summit",
+      "rect": [
+        128,
+        160,
+        1152,
+        832
+      ]
+    },
+    {
+      "id": "forum",
+      "rect": [
+        1600,
+        160,
+        1152,
+        736
+      ]
+    },
+    {
+      "id": "lab",
+      "rect": [
+        1600,
+        1184,
+        1152,
+        704
+      ]
+    }
+  ]
+}

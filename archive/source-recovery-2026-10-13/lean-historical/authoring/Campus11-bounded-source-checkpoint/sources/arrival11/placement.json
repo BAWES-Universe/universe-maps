@@ -1,0 +1,18 @@
+{
+  "source": "court-sign.svg",
+  "world": [1288,1656],
+  "nativeSize": [152,160],
+  "artLayer": "base",
+  "compositeAfter": "sources/exterior10/apply_exterior.py",
+  "fixedForegroundOwnership": "Clear existing above-layer alpha under the sign's nonzero alpha only, then recompose above from foreground, glass and shade. No actor-dependent mask.",
+  "entireCanvasOnAlreadyBlockedGround": true,
+  "directions": {
+    "Student Hub / Reception / Meeting": "north to the StudentHub entrance promenade; reception through the central entrance, meeting via the east meeting doorway",
+    "Classroom": "west along the fountain court's lower public path to the classroom east entrance",
+    "Stage": "south on the main axis, then west at the lower avenue junction to the event hall east entrance",
+    "Campfire": "east along the court path, then follow the visible garden approach",
+    "Market": "east along the court path, then south on the riverside promenade to the market forecourt"
+  },
+  "floorText": false,
+  "newColliders": false
+}

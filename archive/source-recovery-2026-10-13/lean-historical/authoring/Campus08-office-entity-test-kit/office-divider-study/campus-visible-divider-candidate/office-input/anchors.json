@@ -1,0 +1,271 @@
+[
+  {
+    "id": "cross-lounge-west-sofa-seat-1",
+    "x": 260,
+    "y": 676,
+    "kind": "lounge-seat",
+    "facing": "south"
+  },
+  {
+    "id": "cross-lounge-west-sofa-seat-2",
+    "x": 316,
+    "y": 676,
+    "kind": "lounge-seat",
+    "facing": "south"
+  },
+  {
+    "id": "cross-lounge-west-guest",
+    "x": 288,
+    "y": 768,
+    "kind": "lounge-seat",
+    "facing": "north"
+  },
+  {
+    "id": "conference-north-place-1",
+    "x": 1280,
+    "y": 592,
+    "kind": "meeting-seat",
+    "facing": "south",
+    "contactDirection": "south"
+  },
+  {
+    "id": "conference-south-place-1",
+    "x": 1280,
+    "y": 704,
+    "kind": "meeting-seat",
+    "facing": "north",
+    "contactDirection": "north"
+  },
+  {
+    "id": "conference-north-place-2",
+    "x": 1344,
+    "y": 592,
+    "kind": "meeting-seat",
+    "facing": "south",
+    "contactDirection": "south"
+  },
+  {
+    "id": "conference-south-place-2",
+    "x": 1344,
+    "y": 704,
+    "kind": "meeting-seat",
+    "facing": "north",
+    "contactDirection": "north"
+  },
+  {
+    "id": "conference-north-place-3",
+    "x": 1408,
+    "y": 592,
+    "kind": "meeting-seat",
+    "facing": "south",
+    "contactDirection": "south"
+  },
+  {
+    "id": "conference-south-place-3",
+    "x": 1408,
+    "y": 704,
+    "kind": "meeting-seat",
+    "facing": "north",
+    "contactDirection": "north"
+  },
+  {
+    "id": "studenthub-operations-island-left-north",
+    "x": 208,
+    "y": 272,
+    "kind": "work-seat",
+    "facing": "south",
+    "contactDirection": "south",
+    "approach": {
+      "x": 304,
+      "y": 272
+    },
+    "workSide": "left"
+  },
+  {
+    "id": "studenthub-operations-island-left-south",
+    "x": 208,
+    "y": 384,
+    "kind": "work-seat",
+    "facing": "north",
+    "contactDirection": "north",
+    "approach": {
+      "x": 304,
+      "y": 384
+    },
+    "workSide": "left"
+  },
+  {
+    "id": "studenthub-operations-island-right-north",
+    "x": 400,
+    "y": 272,
+    "kind": "work-seat",
+    "facing": "south",
+    "contactDirection": "south",
+    "approach": {
+      "x": 304,
+      "y": 272
+    },
+    "workSide": "left"
+  },
+  {
+    "id": "studenthub-operations-island-right-south",
+    "x": 400,
+    "y": 384,
+    "kind": "work-seat",
+    "facing": "north",
+    "contactDirection": "north",
+    "approach": {
+      "x": 304,
+      "y": 384
+    },
+    "workSide": "left"
+  },
+  {
+    "id": "studenthub-recruitment-island-left-north",
+    "x": 688,
+    "y": 272,
+    "kind": "work-seat",
+    "facing": "south",
+    "contactDirection": "south",
+    "approach": {
+      "x": 784,
+      "y": 272
+    },
+    "workSide": "right"
+  },
+  {
+    "id": "studenthub-recruitment-island-left-south",
+    "x": 688,
+    "y": 384,
+    "kind": "work-seat",
+    "facing": "north",
+    "contactDirection": "north",
+    "approach": {
+      "x": 784,
+      "y": 384
+    },
+    "workSide": "right"
+  },
+  {
+    "id": "studenthub-recruitment-island-right-north",
+    "x": 880,
+    "y": 272,
+    "kind": "work-seat",
+    "facing": "south",
+    "contactDirection": "south",
+    "approach": {
+      "x": 784,
+      "y": 272
+    },
+    "workSide": "right"
+  },
+  {
+    "id": "studenthub-recruitment-island-right-south",
+    "x": 880,
+    "y": 384,
+    "kind": "work-seat",
+    "facing": "north",
+    "contactDirection": "north",
+    "approach": {
+      "x": 784,
+      "y": 384
+    },
+    "workSide": "right"
+  },
+  {
+    "id": "reception-staff-1",
+    "x": 720,
+    "y": 752,
+    "kind": "reception-staff",
+    "facing": "south",
+    "contactDirection": "south",
+    "station": 1
+  },
+  {
+    "id": "reception-visitor-1",
+    "x": 720,
+    "y": 800,
+    "kind": "reception-visitor",
+    "facing": "north",
+    "contactDirection": "north",
+    "station": 1,
+    "intendedPartner": "reception-staff-1"
+  },
+  {
+    "id": "reception-queue-1",
+    "x": 720,
+    "y": 880,
+    "kind": "checkpoint",
+    "facing": "north",
+    "station": 1
+  },
+  {
+    "id": "reception-staff-2",
+    "x": 880,
+    "y": 752,
+    "kind": "reception-staff",
+    "facing": "south",
+    "contactDirection": "south",
+    "station": 2
+  },
+  {
+    "id": "reception-visitor-2",
+    "x": 880,
+    "y": 800,
+    "kind": "reception-visitor",
+    "facing": "north",
+    "contactDirection": "north",
+    "station": 2,
+    "intendedPartner": "reception-staff-2"
+  },
+  {
+    "id": "reception-queue-2",
+    "x": 880,
+    "y": 880,
+    "kind": "checkpoint",
+    "facing": "north",
+    "station": 2
+  },
+  {
+    "id": "main-entrance",
+    "x": 544,
+    "y": 944,
+    "kind": "checkpoint",
+    "facing": "north"
+  },
+  {
+    "id": "gallery-public-entrance",
+    "x": 1136,
+    "y": 944,
+    "kind": "checkpoint",
+    "facing": "north"
+  },
+  {
+    "id": "shared-spine",
+    "x": 544,
+    "y": 592,
+    "kind": "checkpoint",
+    "facing": "north"
+  },
+  {
+    "id": "gallery-main-threshold",
+    "x": 1040,
+    "y": 688,
+    "kind": "checkpoint",
+    "facing": "east"
+  },
+  {
+    "id": "gallery-corridor",
+    "x": 1136,
+    "y": 688,
+    "kind": "checkpoint",
+    "facing": "north"
+  },
+  {
+    "id": "conference-threshold",
+    "x": 1216,
+    "y": 648,
+    "kind": "checkpoint",
+    "facing": "east"
+  }
+]

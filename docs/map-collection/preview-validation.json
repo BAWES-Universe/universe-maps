@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "scope": "Local deterministic source-preview verification only; no live gameplay acceptance.",
+  "map_count": 80,
+  "successfully_rendered": 80,
+  "render_failures": 0,
+  "source_files_sha256_rechecked": 500,
+  "thumbnail_files_decoded_and_verified": 80,
+  "max_thumbnail_dimension_px": 480,
+  "full_collection_second_render": "All 80 full RGBA pixel hashes and all 80 encoded thumbnail hashes match a separate second render.",
+  "contact_sheet_second_render": "All nine contact sheets are byte-identical on a separate second render.",
+  "manifest_second_render": "Complete manifest is byte-identical.",
+  "synthetic_tests": {
+    "passed": 9,
+    "failed": 0,
+    "coverage": [
+      "all eight GID flip combinations",
+      "reserved bit clearing",
+      "nested offsets and opacity",
+      "authored visibility and layer order",
+      "animation first frame",
+      "invalid GID rejection",
+      "unsupported visual-object rejection",
+      "all-invisible rejection",
+      "tileset margin and spacing"
+    ]
+  },
+  "visual_review": {
+    "method": "Viewed all nine actual rendered contact sheets plus individual N01 and revised Story sheet; inspected every family and all 80 map overviews.",
+    "groups": [
+      "story",
+      "n-social",
+      "n-learning",
+      "n-exploration",
+      "shared-spaces",
+      "connected-world",
+      "flagship",
+      "wellbeing",
+      "held-events"
+    ],
+    "findings": [
+      "Coherent reconstructed scenes, not packed atlas thumbnails.",
+      "Separated authored spaces retained in Keeper and Butterfly Town.",
+      "Gate A and Gate B initial scenes match; runtime differences cannot be determined from static previews.",
+      "No clipped subtitles after narrow contact-sheet header adjustment."
+    ]
+  },
+  "thumbnail_bytes": 7990349,
+  "contact_sheet_bytes": 2525911,
+  "unique_thumbnail_hashes": 79
+}

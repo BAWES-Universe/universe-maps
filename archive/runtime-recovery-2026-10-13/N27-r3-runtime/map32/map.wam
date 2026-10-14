@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N27-zone-1",
+      "name": "Chip architecture forum",
+      "x": 656,
+      "y": 576,
+      "width": 224,
+      "height": 80,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N27-zone-2",
+      "name": "Inspection gallery",
+      "x": 544,
+      "y": 192,
+      "width": 448,
+      "height": 96,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N27-zone-3",
+      "name": "Clean instrument workshop",
+      "x": 352,
+      "y": 320,
+      "width": 80,
+      "height": 240,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N27-zone-4",
+      "name": "Semiconductor teaching bay",
+      "x": 1136,
+      "y": 320,
+      "width": 192,
+      "height": 256,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

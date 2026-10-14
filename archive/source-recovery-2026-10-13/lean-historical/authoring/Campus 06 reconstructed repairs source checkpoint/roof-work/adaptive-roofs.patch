@@ -1,0 +1,79 @@
+--- a/public/butterfly-town/v6/map16/scripts/adaptive-roofs.js
++++ b/public/butterfly-town/v6/map16/scripts/adaptive-roofs.js
+@@ -1,4 +1,5 @@
+-/* Per-player roof presentation using the fork's existing native map APIs. */
++/* NEW reconstruction from restored06, not the unavailable lost07repair.
++ * Per-player binary roof presentation using the fork's existing native map APIs. */
+ (() => {
+   'use strict';
+   const subscriptions = [], visibility = new Map();
+@@ -9,25 +10,32 @@
+   const fail = message => { throw new Error('Adaptive roof contract: ' + message); };
+ 
+   // Native area queries use the player's foot point, 16 pixels below the position origin.
+-  function contains(position, area) {
++  function contains(position, area, margin = 0) {
+     const x = position.x, y = position.y + configuration.feetOffsetY;
+-    return x >= area.x && x < area.x + area.width && y >= area.y && y < area.y + area.height;
++    // The player's body ends at y + 16. At a south wall it can rest exactly
++    // on the area's maximum edge, so both rectangle edges are inclusive.
++    return x >= area.x - margin && x <= area.x + area.width + margin &&
++      y >= area.y - margin && y <= area.y + area.height + margin;
+   }
+   function show(name, value) {
++    // Also guard this path against a future caller accidentally showing it.
++    if (name === configuration?.sharedTranslucentLayer) value = false;
+     if (disposed || visibility.get(name) === value) return;
+     (value ? WA.room.showLayer : WA.room.hideLayer)(name);
+     visibility.set(name, value);
+   }
+   function reconcile(position) {
+     if (disposed || !configuration || !Number.isFinite(position.x) || !Number.isFinite(position.y)) return;
+-    const inside = buildings.filter(b => b.interiors.some(a => contains(position, a)));
+     // Hide only visual artwork. Structural shell, glass, posts and collision never appear here.
+-    show(configuration.sharedTranslucentLayer, inside.length === 0);
++    show(configuration.sharedTranslucentLayer, false);
+     for (const building of buildings) {
+-      const isInside = inside.includes(building);
+-      const approaching = building.approaches.some(a => contains(position, a));
+-      // An interior takes priority over any overlapping approach event from another building.
+-      show(building.opaqueLayer, inside.length ? !isInside : !approaching);
++      const areas = [...building.interiors, ...building.approaches];
++      const entering = areas.some(a => contains(position, a));
++      // Expand each real interior/door rectangle independently. A bounding box
++      // around their union would retain the reveal in unrelated outdoor space.
++      const retaining = areas.some(a => contains(position, a, configuration.retainMargin));
++      building.revealed = entering || (building.revealed && retaining);
++      show(building.opaqueLayer, !building.revealed);
+     }
+   }
+   async function refresh() {
+@@ -52,12 +60,14 @@
+   }
+ 
+   WA.onInit().then(async () => {
++    if (disposed) return;
+     const map = await WA.room.getTiledMap();
+     if (disposed) return;
+     const raw = prop(map, 'campusRoofContract');
+     if (typeof raw !== 'string') fail('campusRoofContract must contain the compiler-issued JSON string.');
+     configuration = JSON.parse(raw);
+     if (configuration.version !== 1 || configuration.feetOffsetY !== 16) fail('unsupported version or foot origin.');
++    if (configuration.retainMargin !== 16) fail('expected the reconstructed 16-pixel retain margin.');
+     const layers = flatten(map.layers), objects = layers.flatMap(l => l.objects ?? []);
+     const findArea = name => {
+       const area = objects.find(o => o.name === name && o.class === 'area');
+@@ -82,9 +92,12 @@
+     const layerNames = [configuration.sharedTranslucentLayer, ...configuration.buildings.map(b => b.opaqueLayer)];
+     if (new Set(layerNames).size !== layerNames.length) fail('roof layer names must be unique.');
+     layerNames.forEach(verifyVisualLayer);
+-    buildings = configuration.buildings.map(b => ({...b, interiors: b.interiorAreas.map(findArea), approaches: b.approachAreas.map(findArea)}));
++    buildings = configuration.buildings.map(b => ({...b, revealed: false, interiors: b.interiorAreas.map(findArea), approaches: b.approachAreas.map(findArea)}));
+     motionLayers = configuration.motionLayers ?? [];
++    if (motionLayers.some(name => layerNames.includes(name))) fail('motion layers must not control roofs.');
+     motionLayers.forEach(verifyVisualLayer);
++    // The map patch hides this before script initialization; keep it hidden forever.
++    show(configuration.sharedTranslucentLayer, false);
+     subscriptions.push(WA.player.onPlayerMove(position => { ++positionRevision; reconcile(position); }));
+     const areaNames = new Set(configuration.buildings.flatMap(b => [...b.interiorAreas, ...b.approachAreas]));
+     for (const name of areaNames) {

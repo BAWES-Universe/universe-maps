@@ -1,0 +1,25 @@
+{
+  "method": "Built-in imagegen precise-object edits; generated pixels composited only within two bounded local patches. No engine changes.",
+  "prompts": [
+    "Use case: precise-object-edit. Edit target: the attached 1536x1024 orthogonal top-down winter village game map. Make one bounded terrain correction only in the bottom entrance's RIGHT-HAND snow-capped retaining wall: at image coordinates approximately x688..832, y912..1024, add a visibly open, wide pedestrian gateway through the wall to connect the cobblestone main entrance street on its left to the snowy bench terrace on its right. The open passage should be centered near (736,960), at least 64 pixels wide north-south, physically plausible and fully clear at ground level, with cobblestone/snow path running continuously east through the gap toward (864,960). Preserve the existing nearby lantern pillars and both benches. Remove only the wall segment that obstructs this passage; the remaining wall must have tidy snow-capped cut ends. Preserve EXACT original full map framing and 1536x1024 size, native pixel-art detail, lighting, all buildings, trees, terraces, river, distant mountain landscape, and every area outside this small local doorway correction. No text, people, UI, labels, or new objects. This is a tiny local repair, not a redraw of the scene.",
+    "Use case: precise-object-edit. Edit target: attached 1536x1024 winter game map. Make a tiny local terrain correction only: remove the small snow-covered pine sapling obstructing the paved lower-right bench terrace footpath, centered at approximately (874,950), immediately BELOW and to the LEFT of the western bench and just to the right of the new gateway. Replace its entire small footprint, roughly x848..896,y920..992, with continuous matching flat snow-edged cobblestone paving. This should make the walkway unobstructed. Do not change the benches, gateway, lantern pillars, walls, large trees, buildings, mountains, paths elsewhere, color, style, framing or size. Maintain EXACT 1536x1024 dimensions. No people, labels, text or UI. Single small sapling removal only; preserve all other scenery."
+  ],
+  "patchesXYXY": [
+    [
+      640,
+      704,
+      864,
+      960
+    ],
+    [
+      848,
+      912,
+      992,
+      1024
+    ]
+  ],
+  "outsidePatchesByteIdentical": true,
+  "changedPixels": 72678,
+  "finalArtSha256": "eed8e835b80ee742bad8ee3d0c2cb2774a483e96f108a98484672d80c04593b4",
+  "retainedOriginalWallCrossingBlocked": true
+}

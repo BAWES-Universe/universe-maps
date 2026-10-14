@@ -1,0 +1,277 @@
+{
+  "title": "Willow Quay Tea Garden",
+  "slug": "willow-quay-tea-garden",
+  "category": "Social / caf\u00e9",
+  "style": "Lush pond pavilion, curved timber quay and flowering garden patios",
+  "nativeTileSize": 32,
+  "world": [
+    1536,
+    1024
+  ],
+  "visualSeats": 12,
+  "anchorCount": 18,
+  "runtime": [
+    {
+      "path": "map32/ground-and-objects-0.png",
+      "bytes": 2407646,
+      "sha256": "1acb51e0f5d6bae0f641a093597e5ff38966830db958a3aa595cf95bac5fe96d"
+    },
+    {
+      "path": "map32/ground-and-objects-1.png",
+      "bytes": 1285329,
+      "sha256": "b04a4a9f7583c9c73fbc92064140008398064edfd0c0c22e63a50973a0c86006"
+    },
+    {
+      "path": "map32/markers.png",
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "map32/willow-quay-tea-garden.tmj",
+      "bytes": 80908,
+      "sha256": "7f2909f752d898c5ecdfb9c59e0dfefd91621525f9e528252847384a21cce64b"
+    },
+    {
+      "path": "map32/willow-quay-tea-garden.wam",
+      "bytes": 1059,
+      "sha256": "5cf682e14ee855285ae8ec46a070d809e62483dbd98a3d9e84c3aaa93b14d696"
+    }
+  ],
+  "geometry": {
+    "scope": "Static native32 geometry: exhaustive integer body positions, union of all 12 Greg upper-head masks, cardinal tile connectivity. Not live gameplay or engine route replay.",
+    "walkableCells": 315,
+    "reachableCells": 315,
+    "unreachableCells": 0,
+    "safeBodyPlacements": 248385,
+    "headConflicts": 0,
+    "anchorCount": 18,
+    "badAnchors": [],
+    "quietCells": 1,
+    "allPass": true,
+    "anchors": [
+      {
+        "id": "pavilion-west-left",
+        "x": 276,
+        "y": 239,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "pavilion-west-right",
+        "x": 332,
+        "y": 239,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "pavilion-east-left",
+        "x": 468,
+        "y": 239,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "pavilion-east-right",
+        "x": 524,
+        "y": 239,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "quay-left",
+        "x": 852,
+        "y": 335,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "quay-right",
+        "x": 908,
+        "y": 335,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "water-view-left",
+        "x": 1156,
+        "y": 463,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "water-view-right",
+        "x": 1212,
+        "y": 463,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "gazebo-west",
+        "x": 1360,
+        "y": 143,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "gazebo-east",
+        "x": 1392,
+        "y": 143,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "rose-patio-left",
+        "x": 196,
+        "y": 623,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "rose-patio-right",
+        "x": 252,
+        "y": 623,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "jasmine-patio-left",
+        "x": 404,
+        "y": 783,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "jasmine-patio-right",
+        "x": 460,
+        "y": 783,
+        "direction": "north",
+        "kind": "social",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "tea-counter-front",
+        "x": 416,
+        "y": 207,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "bridge-entry",
+        "x": 1168,
+        "y": 271,
+        "direction": "east",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "garden-junction",
+        "x": 560,
+        "y": 655,
+        "direction": "north",
+        "kind": "landmark",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": false
+      },
+      {
+        "id": "spawn",
+        "x": 688,
+        "y": 975,
+        "direction": "north",
+        "kind": "spawn",
+        "bodyClear": true,
+        "headClear": true,
+        "reachable": true,
+        "silent": true
+      }
+    ]
+  },
+  "nativeRoutes": {
+    "scope": "Unchanged source-extracted native PathfindingManager, Player movement, GameScene/pointer methods from 60e7afdc3f96ef32525597cd46bd41175d61a2ef, real EasyStar0.4.4. Adapter executes desktop/touch pointers, both-way spawn routes, four destination-tile edges all ordered anchor pairs, and every admitted floor cell center plus return. Native60Hz movement sampled every<=0.5px. Not live browser, Phaser renderer, keyboard physics, devices, networking or service integration.",
+    "nativeCollisionMatchesTMJ": true,
+    "legs": 1080,
+    "samples": 2342284,
+    "frames": 324522,
+    "mapChanges": 0,
+    "failures": 0,
+    "allPass": true,
+    "failedRows": []
+  },
+  "revision": "r04-gazebo-edge",
+  "status": {
+    "independentReview": "pending",
+    "compiled": true,
+    "staticValidated": true,
+    "nativeRouteReplay": true,
+    "livePlaytest": false,
+    "published": false,
+    "animated": false,
+    "externalServicesConfigured": false
+  },
+  "preview": "review/occupied-native.png",
+  "runtimeZip": "willow-quay-tea-garden-runtime.zip",
+  "sourceZip": "willow-quay-tea-garden-source-replay.zip"
+}

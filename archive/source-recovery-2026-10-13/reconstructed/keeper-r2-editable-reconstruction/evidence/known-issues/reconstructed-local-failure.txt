@@ -1,0 +1,24 @@
+AssertionError [ERR_ASSERTION]: Newer onPlayerMove must win over delayed rejection-recovery getPosition
++ actual - expected
+
+  {
+    bearing: 0,
+    busy: false,
+    chart: false,
+    complete: false,
++   current: 'houseDoor',
+-   current: 'chart',
+    fuse: false,
+    key: false,
+    lens: 0,
+    power: false,
+    signal: []
+
+    at /workspace/shared/keeper-r2-editable-reconstruction/evidence/known-issues/rejected-teleport-newer-movement.test.cjs:59:10 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: [Object],
+  expected: [Object],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}

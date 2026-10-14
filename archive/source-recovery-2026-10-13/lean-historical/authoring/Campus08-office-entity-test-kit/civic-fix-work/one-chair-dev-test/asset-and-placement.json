@@ -1,0 +1,201 @@
+{
+  "status": "ONE-ASSET-READY-FOR-AUTHORIZED-DEV-TEST-NOT-UPLOADED",
+  "asset": "civic-audience-backrest-native.png",
+  "meaning": "Exact original above-player chairback pixels only; existing full chair base remains in the furniture below-player layer. This is an ordinary WAM map entity, not a player companion pet.",
+  "source": "/workspace/shared/magical-campus-return-08/candidate/sources/civic/foreground-native.png",
+  "sourceSha256": "0fd166ca30c2c00162029178b214f5e171ac852332ac534f8567fbe5fbf5044a",
+  "sourceCropExclusiveBounds": [
+    131,
+    819,
+    159,
+    839
+  ],
+  "width": 28,
+  "height": 20,
+  "scale": 1,
+  "pixelEdited": false,
+  "decodedSourceRGBAIdentical": true,
+  "assetSha256": "8a5c0e246bf4a3ed953e1818da7637b9de08c1e1a7357c10121db944180d2fde",
+  "deduplication": [
+    {
+      "id": "attendee-1",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-2",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-3",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-4",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-5",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-6",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-7",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-8",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-9",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-10",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-11",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-12",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-13",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-14",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-15",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-16",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-17",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-18",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-19",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-20",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-21",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-22",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-23",
+      "identicalRGBA": true
+    },
+    {
+      "id": "attendee-24",
+      "identicalRGBA": true
+    }
+  ],
+  "prefabDepthOffset": -6,
+  "editorCustomSelectorValue": 6,
+  "entityCollisionGrid": "omit / Floating Object enabled",
+  "placementRelativeToSeatedPlayerOrigin": {
+    "x": -13,
+    "y": 3
+  },
+  "entityDepthRelativeToSeatedPlayerOriginY": 17,
+  "originalWorldPlacement": {
+    "x": 131,
+    "y": 1955,
+    "seatedPlayerOrigin": [
+      144,
+      1952
+    ],
+    "entityDepth": 1969
+  },
+  "illustrativeClearFloorPlacement": {
+    "x": 307,
+    "y": 323,
+    "seatedPlayerOrigin": [
+      320,
+      320
+    ],
+    "entityDepth": 337,
+    "note": "Use only if this rectangle is verified clear in the dedicated dev room; otherwise translate all coordinates together."
+  },
+  "fixedAbovePixelsToRemoveForOriginalCampusPlacement": {
+    "civicLocalExclusiveBounds": [
+      131,
+      819,
+      159,
+      839
+    ],
+    "worldExclusiveBounds": [
+      131,
+      1955,
+      159,
+      1975
+    ],
+    "scope": "Remove exactly this foreground crop from the companion test variant and all rebuilt above composites. Keep the candidate TMJ-only package untouched. Do not merely overlay this PNG on the unchanged baked above layer."
+  },
+  "localPlayerDepth": "player.y+16",
+  "remotePlayerDepth": "remote position.y after updates; unresolved16px difference",
+  "portability": "TMJ alone does not retain this entity. Requires WAM entity instance and collection/prefab, plus persistent accessible image URL in the same authorized world; editor custom assets are scoped to universe/world. A standalone export must include/relocate all references.",
+  "mandatory32pxPadding": false,
+  "originalPixelPaddingApplied": false,
+  "uploadBytesPreservedBySource": "UploadGuide.svelte86-105 sends file.arrayBuffer() directly; fit suggestion is informational; save disabled only if naturalWidth===0 at286.",
+  "physicalCollisionAcceptance": {
+    "floatingEntityProvidesCollision": false,
+    "originalWorldRearFootRectangle": [
+      128,
+      1968,
+      32,
+      16
+    ],
+    "originalWorldFootCells16px": [
+      [
+        8,
+        123
+      ],
+      [
+        9,
+        123
+      ]
+    ],
+    "illustrativeTranslatedRearFootRectangle": [
+      304,
+      336,
+      32,
+      16
+    ],
+    "illustrativeFootCells16px": [
+      [
+        19,
+        21
+      ],
+      [
+        20,
+        21
+      ]
+    ],
+    "requirement": "A full physical test also needs the original below-player chair artwork and these fixed16px cells in an authorized isolated test map. The one PNG on clear floor proves only render depth."
+  }
+}

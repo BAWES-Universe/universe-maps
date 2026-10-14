@@ -1,0 +1,786 @@
+{
+  "title": "Reading Conservatory",
+  "version": "functional candidate r2",
+  "dimensions": [
+    24,
+    16
+  ],
+  "spawn": [
+    12,
+    14
+  ],
+  "collision": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "seats": [
+    {
+      "name": "West reading north 1",
+      "anchor": [
+        244,
+        224
+      ],
+      "floorClick": [
+        244,
+        240
+      ],
+      "direction": "south",
+      "kind": "walk-to chair; native standing idle only"
+    },
+    {
+      "name": "West reading north 2",
+      "anchor": [
+        300,
+        224
+      ],
+      "floorClick": [
+        300,
+        240
+      ],
+      "direction": "south",
+      "kind": "walk-to chair; native standing idle only"
+    },
+    {
+      "name": "West reading south 1",
+      "anchor": [
+        244,
+        271
+      ],
+      "floorClick": [
+        244,
+        287
+      ],
+      "direction": "north",
+      "kind": "walk-to chair; native standing idle only"
+    },
+    {
+      "name": "West reading south 2",
+      "anchor": [
+        300,
+        271
+      ],
+      "floorClick": [
+        300,
+        287
+      ],
+      "direction": "north",
+      "kind": "walk-to chair; native standing idle only"
+    },
+    {
+      "name": "East reading north 1",
+      "anchor": [
+        468,
+        224
+      ],
+      "floorClick": [
+        468,
+        240
+      ],
+      "direction": "south",
+      "kind": "walk-to chair; native standing idle only"
+    },
+    {
+      "name": "East reading north 2",
+      "anchor": [
+        524,
+        224
+      ],
+      "floorClick": [
+        524,
+        240
+      ],
+      "direction": "south",
+      "kind": "walk-to chair; native standing idle only"
+    },
+    {
+      "name": "East reading south 1",
+      "anchor": [
+        468,
+        271
+      ],
+      "floorClick": [
+        468,
+        287
+      ],
+      "direction": "north",
+      "kind": "walk-to chair; native standing idle only"
+    },
+    {
+      "name": "East reading south 2",
+      "anchor": [
+        524,
+        271
+      ],
+      "floorClick": [
+        524,
+        287
+      ],
+      "direction": "north",
+      "kind": "walk-to chair; native standing idle only"
+    },
+    {
+      "name": "Mentorship west",
+      "anchor": [
+        616,
+        192
+      ],
+      "floorClick": [
+        616,
+        208
+      ],
+      "direction": "east",
+      "kind": "walk-to chair; native standing idle only"
+    },
+    {
+      "name": "Mentorship east",
+      "anchor": [
+        696,
+        192
+      ],
+      "floorClick": [
+        696,
+        208
+      ],
+      "direction": "west",
+      "kind": "walk-to chair; native standing idle only"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "West standing reading desk",
+      "anchor": [
+        84,
+        160
+      ],
+      "floorClick": [
+        84,
+        176
+      ],
+      "cell": [
+        2,
+        5
+      ],
+      "kind": "walk-to approach"
+    },
+    {
+      "name": "East standing reading desk",
+      "anchor": [
+        140,
+        160
+      ],
+      "floorClick": [
+        140,
+        176
+      ],
+      "cell": [
+        4,
+        5
+      ],
+      "kind": "walk-to approach"
+    },
+    {
+      "name": "Quiet study interior",
+      "anchor": [
+        112,
+        207
+      ],
+      "floorClick": [
+        112,
+        223
+      ],
+      "cell": [
+        3,
+        6
+      ],
+      "kind": "walk-to approach"
+    },
+    {
+      "name": "West bookshelf approach",
+      "anchor": [
+        176,
+        271
+      ],
+      "floorClick": [
+        176,
+        287
+      ],
+      "cell": [
+        5,
+        8
+      ],
+      "kind": "walk-to approach"
+    },
+    {
+      "name": "East bookshelf approach",
+      "anchor": [
+        592,
+        271
+      ],
+      "floorClick": [
+        592,
+        287
+      ],
+      "cell": [
+        18,
+        8
+      ],
+      "kind": "walk-to approach"
+    },
+    {
+      "name": "Central aisle",
+      "anchor": [
+        376,
+        271
+      ],
+      "floorClick": [
+        376,
+        287
+      ],
+      "cell": [
+        11,
+        8
+      ],
+      "kind": "walk-to approach"
+    },
+    {
+      "name": "South cross aisle west",
+      "anchor": [
+        208,
+        335
+      ],
+      "floorClick": [
+        208,
+        351
+      ],
+      "cell": [
+        6,
+        10
+      ],
+      "kind": "walk-to approach"
+    },
+    {
+      "name": "South cross aisle east",
+      "anchor": [
+        560,
+        335
+      ],
+      "floorClick": [
+        560,
+        351
+      ],
+      "cell": [
+        17,
+        10
+      ],
+      "kind": "walk-to approach"
+    },
+    {
+      "name": "Inside entrance",
+      "anchor": [
+        376,
+        335
+      ],
+      "floorClick": [
+        376,
+        351
+      ],
+      "cell": [
+        11,
+        10
+      ],
+      "kind": "walk-to approach"
+    },
+    {
+      "name": "Doorway",
+      "anchor": [
+        376,
+        367
+      ],
+      "floorClick": [
+        376,
+        383
+      ],
+      "cell": [
+        11,
+        11
+      ],
+      "kind": "walk-to approach"
+    },
+    {
+      "name": "Outer landing",
+      "anchor": [
+        376,
+        399
+      ],
+      "floorClick": [
+        376,
+        415
+      ],
+      "cell": [
+        11,
+        12
+      ],
+      "kind": "walk-to approach"
+    },
+    {
+      "name": "Arrival",
+      "anchor": [
+        400,
+        463
+      ],
+      "floorClick": [
+        400,
+        479
+      ],
+      "cell": [
+        12,
+        14
+      ],
+      "kind": "walk-to approach"
+    }
+  ],
+  "zones": [
+    {
+      "name": "West reading conversation",
+      "rect": [
+        223,
+        223,
+        97,
+        65
+      ]
+    },
+    {
+      "name": "East reading conversation",
+      "rect": [
+        447,
+        223,
+        97,
+        65
+      ]
+    },
+    {
+      "name": "Mentorship conversation",
+      "rect": [
+        607,
+        175,
+        98,
+        50
+      ]
+    }
+  ],
+  "notes": "Ten manually faced native idle chair anchors. No sitting pose, automatic facing or snapping. Three optional distinct native LiveKit conversation areas; actual media services are untested. All scripts map-only; no engine change."
+}

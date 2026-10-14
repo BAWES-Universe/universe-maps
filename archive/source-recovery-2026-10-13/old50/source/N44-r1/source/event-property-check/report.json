@@ -1,0 +1,67 @@
+{
+  "commit": "4d0b3a83f9e75e94ab55765247f26c83a2bc8974",
+  "method": "Read-only pinned source assertions plus independent illustrative fixture geometry and ID checks. Not Zod execution, engine execution, import, browser, or live-media verification.",
+  "checks": [
+    {
+      "check": "WAM speaker schema",
+      "passed": true
+    },
+    {
+      "check": "WAM listener schema",
+      "passed": true
+    },
+    {
+      "check": "WAM area id resolves to speaker name",
+      "passed": true
+    },
+    {
+      "check": "WAM streaming starts on speaker entry",
+      "passed": true
+    },
+    {
+      "check": "focus margin defaults zero",
+      "passed": true
+    },
+    {
+      "check": "focus margin multiplies target dimensions",
+      "passed": true
+    },
+    {
+      "check": "focus fits both dimensions",
+      "passed": true
+    },
+    {
+      "check": "WAM load is explicit",
+      "passed": true
+    },
+    {
+      "check": "unique area and property IDs",
+      "passed": true
+    },
+    {
+      "check": "listener target exists and is speaker",
+      "passed": true
+    },
+    {
+      "check": "speaker and audience have no overlap",
+      "passed": true
+    },
+    {
+      "check": "focus contains both role rectangles",
+      "passed": true
+    },
+    {
+      "check": "no silent zones",
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "GameMapFrontWrapper.ts": "d0e3c4359b6e128bd075e6f01ba912c2d250c60f66beee7b7acddcd55cdaf3f7",
+    "GameScene.ts": "715d1e2ee1b245dc8e6fedd213dc5bf708159505f584ded0d95175be2f832da6",
+    "WaScaleManager.ts": "ae1a8510888bc0d0d58c73d7a1cbf6a917a1f22962a9ec66eff4c73e4f985f96",
+    "types.ts": "4a2d9ff85af6511f7fdd0c86e87932bb12457efc15d3d2d9493efd384089dc54",
+    "Utils.ts": "22a23247fb3766c3e7bfcfa8bd7dcea796dc95e305fd69002d3701d9483ac8d1",
+    "CameraManager.ts": "a8bc2cc837c8ffde5539adfff2b7cc70b1e699c5f46c9ca623ea04dd86b5dd9c",
+    "AreasPropertiesListener.ts": "cfac3d672609948a9c0a2701343083c449a7b360f0364fca011635420a71c9b6"
+  }
+}

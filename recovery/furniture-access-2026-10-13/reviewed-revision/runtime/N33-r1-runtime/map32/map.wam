@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "./map.tmj",
+  "entities": {},
+  "entityCollections": [],
+  "areas": [
+    {
+      "id": "N33-zone-1",
+      "name": "Public debate forum",
+      "x": 576,
+      "y": 480,
+      "width": 384,
+      "height": 192,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N33-zone-2",
+      "name": "West breakout",
+      "x": 256,
+      "y": 384,
+      "width": 112,
+      "height": 96,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N33-zone-3",
+      "name": "East breakout",
+      "x": 1168,
+      "y": 384,
+      "width": 112,
+      "height": 96,
+      "visible": true,
+      "properties": []
+    },
+    {
+      "id": "N33-zone-4",
+      "name": "Civic records",
+      "x": 576,
+      "y": 160,
+      "width": 384,
+      "height": 128,
+      "visible": true,
+      "properties": []
+    }
+  ]
+}

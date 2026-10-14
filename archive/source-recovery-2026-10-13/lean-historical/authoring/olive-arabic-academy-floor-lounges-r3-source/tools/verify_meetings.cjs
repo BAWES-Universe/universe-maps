@@ -1,0 +1,9 @@
+const fs=require('fs'),path=require('path'),assert=require('assert'),crypto=require('crypto');
+const {z}=require(process.env.ZOD_MODULE||'zod');
+const root=path.resolve(process.argv[2]);
+const source=fs.readFileSync(path.join(__dirname,'native-fixture/map-editor-types.ts'),'utf8');
+let code='';for(const name of ['PropertyBase','LivekitRoomConfigData','LivekitRoomPropertyData']){const pattern=new RegExp('export const '+name+' = [\\s\\S]*?;');const hit=source.match(pattern);assert(hit,name);code+=hit[0].replace('export const','const')+'\n';}
+const schema=new Function('z',code+'return LivekitRoomPropertyData;')(z);
+const wam=JSON.parse(fs.readFileSync(root+'/map32/map.wam'));const layout=JSON.parse(fs.readFileSync(root+'/source/layout.json'));const meetings=wam.areas.filter(a=>a.properties.some(p=>p.type==='livekitRoomProperty'));assert.equal(meetings.length,2);const names=[];
+for(const a of meetings){for(const p of a.properties){schema.parse(p);names.push(p.roomName);}assert.equal(a.x,1152);assert.equal(a.width,255);assert.equal(a.height,127);assert([128,384].includes(a.y));assert(a.x>1088,'Room domain must not enter main corridor');const seats=layout.seats.filter(s=>s.name.startsWith(a.name));assert.equal(seats.length,6);for(const s of seats){const [x,y]=s.anchor;assert(x>=a.x&&x<=a.x+a.width&&y+16>=a.y&&y+16<=a.y+a.height);}}
+assert.equal(new Set(names).size,2);assert(meetings[0].y+meetings[0].height<meetings[1].y);const out={pass:true,meetingRooms:2,cushionsPerRoom:6,separateRoomNames:names,allCushionFootPositionsInsideRoom:true,corridorExcluded:true,meetingDomainsDisjoint:true,contract:'Actual source-extracted PropertyBase, LivekitRoomConfigData, LivekitRoomPropertyData parsed through Zod',schemaFileSha256:crypto.createHash('sha256').update(source).digest('hex'),liveConferencingTested:false};fs.writeFileSync(root+'/MEETING-VALIDATION.json',JSON.stringify(out,null,2)+'\n');console.log(out);

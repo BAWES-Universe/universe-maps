@@ -1,0 +1,38 @@
+{
+  "library_file_id": "libfile_0c77fe834d0c81919cd14a1ae87c59c2",
+  "file_id": "file_00000000660081fdb67f898d1ace24f6",
+  "version": 1,
+  "sha256": "991e592d477f805e543f2bdd8ec9e842ad6785f72173281cb34767faaaffe01d",
+  "bytes": 3113223,
+  "readback_sha_match": true,
+  "restored_checkpoint_tests": {
+    "classification": "fresh reconstruction verification",
+    "maps": {
+      "studio": {
+        "byte_exact_files": 5,
+        "width": 30,
+        "height": 27,
+        "blocked_cells": 633,
+        "spawn_connected_cells": 177,
+        "unblocked_cells": 177,
+        "wam_areas": 2
+      },
+      "reading": {
+        "byte_exact_files": 6,
+        "width": 24,
+        "height": 16,
+        "blocked_cells": 284,
+        "spawn_connected_cells": 100,
+        "unblocked_cells": 100,
+        "wam_areas": 3
+      }
+    },
+    "limitations": [
+      "No live GPU, native physical-body routes, avatar/head/depth, touch, or multiplayer acceptance.",
+      "Grid connectivity is diagnostic, not a native route certification."
+    ],
+    "source_only_rebuild": "PASS",
+    "editable_grid_test": "PASS",
+    "invalid_grid_rejection": "PASS"
+  }
+}

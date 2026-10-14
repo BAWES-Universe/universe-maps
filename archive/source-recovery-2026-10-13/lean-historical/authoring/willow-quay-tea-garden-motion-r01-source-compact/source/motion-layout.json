@@ -1,0 +1,268 @@
+{
+  "slug": "willow-quay-tea-garden",
+  "revision": "motion-r01",
+  "kind": "water",
+  "layerName": "willow-quay-tea-garden-ambient-native-r01",
+  "firstgid": 1539,
+  "placements": [
+    {
+      "cell": [
+        31,
+        19
+      ],
+      "center": [
+        21,
+        24
+      ],
+      "phase": 0,
+      "width": 17
+    },
+    {
+      "cell": [
+        34,
+        21
+      ],
+      "center": [
+        12,
+        23
+      ],
+      "phase": 2,
+      "width": 18
+    },
+    {
+      "cell": [
+        29,
+        21
+      ],
+      "center": [
+        16,
+        25
+      ],
+      "phase": 5,
+      "width": 20
+    },
+    {
+      "cell": [
+        32,
+        20
+      ],
+      "center": [
+        19,
+        17
+      ],
+      "phase": 7,
+      "width": 19
+    }
+  ],
+  "frameStats": [
+    {
+      "cell": [
+        31,
+        19
+      ],
+      "frameSHA256": [
+        "539d248f651ceeeb1aa2b21749c9cb683ff48f060863f667ab0887c584e8d325",
+        "a7a9561049076bfc578c7011647af1def95ad74a9ff35b3279c62689ce46774c",
+        "ee72ed03e73c31e82f45ec951a2309272595bb815cad113d8c5e07631b3e0748",
+        "f986264442c3ed9f4375a6402db283cf00c943e4592394fe2258ee962788dd2c",
+        "2dc61c06d24b3feb66fe1489fb53d62a23e5de13366085d7475624cf2e48c00b",
+        "35d490c9b0492ec0a210ca1384cb54a87605d0aafacc0149e600e98706f040ed",
+        "15382fc0ceb1ec5077b6f8a7955a151701555fe01b5c11e23c411354690dad18",
+        "88ee340dac7e6c530858470977ccc854040f7a7b6676a7a45c716cdf1f0abafc"
+      ],
+      "distinctFrames": 8,
+      "changedPixelsPerFrame": [
+        29,
+        31,
+        32,
+        31,
+        29,
+        27,
+        25,
+        27
+      ],
+      "maxAlphaPerFrame": [
+        20,
+        27,
+        34,
+        42,
+        30,
+        16,
+        18,
+        24
+      ]
+    },
+    {
+      "cell": [
+        34,
+        21
+      ],
+      "frameSHA256": [
+        "9edd0b230dbd85a0cbc199e95349122d42e51565d15241c5522a099331b34982",
+        "53339190c6d3e0eaa4c9678677060b5c6969599f863709d92c50d9282e5e4994",
+        "a6051acce7946559ba368585f62eb16cc31c2384f6d0eb8372c9cc85f05b36f7",
+        "486637afbc5c318ed35a724216ef69bd4a1c0e948a39fbae891efee6e0a57291",
+        "1fbb49dd82507c5fd650166147a373cc5546fe4ad1c2a7dd5ebe2edbfd866f1a",
+        "57296ab60453d6d94c3e28f926103941469c347a4dcdaac3955f6931abccecf2",
+        "b6baeb3b49bf1cd782733646fa32be07ac29c785b56dd9a83946ec81c45aa8a6",
+        "5baf894d8cdd40bc1009fdcb9cdb2792209702e3ad3f6983714ea653ec33d93f"
+      ],
+      "distinctFrames": 8,
+      "changedPixelsPerFrame": [
+        34,
+        32,
+        31,
+        29,
+        27,
+        29,
+        31,
+        32
+      ],
+      "maxAlphaPerFrame": [
+        34,
+        42,
+        30,
+        16,
+        18,
+        24,
+        20,
+        27
+      ]
+    },
+    {
+      "cell": [
+        29,
+        21
+      ],
+      "frameSHA256": [
+        "6b4006363689bbbd1c99d612598b3e893132299df3a54c67a9981adff1367caa",
+        "181e93e0e83fb2101d14e89837636291071181c0f1f625b0ef4f12dbf20f5e03",
+        "bf757c8a42872c59610ee6b9f02f2f1dc890cac2eaff0ddabd30a38cbb14edbf",
+        "28877401ee244cd9486bb296b68cbed67f8454177517d7863141d22f20e5820c",
+        "5c7871e9de880cd900fd18ae3d0db81e500d44eaa85551d82f4f3588023c2435",
+        "77803d95ad643fdd2b4386c81515202c3cedbcab44efbd12b56ccebb40ed7216",
+        "e1cc47daa90fbb9377119e4fe2ab7af792e6e8942fbae23f5e39dbeefd120637",
+        "13a663ef1b2667bb351cf713013b8f4693a755a6f66c90c506bb07aa1ef53506"
+      ],
+      "distinctFrames": 8,
+      "changedPixelsPerFrame": [
+        32,
+        31,
+        32,
+        34,
+        36,
+        38,
+        36,
+        34
+      ],
+      "maxAlphaPerFrame": [
+        16,
+        18,
+        24,
+        20,
+        27,
+        34,
+        42,
+        30
+      ]
+    },
+    {
+      "cell": [
+        32,
+        20
+      ],
+      "frameSHA256": [
+        "b12d028ad4d29b37f8143d0a89db224401b74d189fa1505e2c26c8303c5a4f96",
+        "e09c31921d0ccdfd7b46ce020c2289ba99c105a10f7360c670027f41a9cce9d9",
+        "3054637c66e85557c5da2d83240035c10a376cb26972d454f3cd3427f568ccae",
+        "f460d6ed0833822bf474587e45e61f431ee8dd15310f621ac0be296c200f2704",
+        "e750787b2c06edd9bc30d97cbf0bbd3d44fdc354e54add2a24e671e324d7e986",
+        "14b3717803f6cb8c0e3f8a5a839b8176bbaa0985422c9263732b6b7461b40f6c",
+        "a245897c5de19789c8737c4dbf019287b84d374a9a6a9bfa5835e24b15fc70ef",
+        "6bccf2dff4ad4f7a24fb2d6f69947fbdc68a322213ee80c0e7b69cb6316f5365"
+      ],
+      "distinctFrames": 8,
+      "changedPixelsPerFrame": [
+        31,
+        32,
+        34,
+        36,
+        34,
+        32,
+        31,
+        29
+      ],
+      "maxAlphaPerFrame": [
+        24,
+        20,
+        27,
+        34,
+        42,
+        30,
+        16,
+        18
+      ]
+    }
+  ],
+  "originalSHA256": {
+    "FREEZE.json": "38da27c7a0057d14db86a2c0035351298510865683cf1202a071f82c1f7a55db",
+    "MANIFEST.json": "f1a9f7e1e1c98cdefb19285c391dad777d195703ad8d484737d96fab215ee3d4",
+    "PROVENANCE.md": "70152fe8a6d92e10004d942fe99daedde71ce2899ae1faff09a086a1382470ff",
+    "README.md": "52d6cfc6a4f6e8e1b52d724949aeb0689dcd536ba51231c179768034faf59120",
+    "integration/ROOM-SETUP.md": "3760f92e83893b8144c0283cdf096938ec26315853f380e234961f8ccb7554fb",
+    "map32/ground-and-objects-0.png": "1acb51e0f5d6bae0f641a093597e5ff38966830db958a3aa595cf95bac5fe96d",
+    "map32/ground-and-objects-1.png": "b04a4a9f7583c9c73fbc92064140008398064edfd0c0c22e63a50973a0c86006",
+    "map32/markers.png": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+    "map32/willow-quay-tea-garden.tmj": "7f2909f752d898c5ecdfb9c59e0dfefd91621525f9e528252847384a21cce64b",
+    "map32/willow-quay-tea-garden.wam": "5cf682e14ee855285ae8ec46a070d809e62483dbd98a3d9e84c3aaa93b14d696",
+    "portable-tools/build_maps.py": "361566c2a062a0ddcd431772f9b435c46b1e7c7930cfe39826d49777e91a1639",
+    "portable-tools/check_spawn_and_boundaries.py": "30045b0e365be05dab5e08c55d4ce84cbdad9da068964101f4569efd62a32192",
+    "portable-tools/native/easystar-0.4.4.js": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+    "portable-tools/native/extracted-current-source.cjs": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+    "portable-tools/native/native-runtime-portable.cjs": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+    "portable-tools/native/route-audit.cjs": "995d45f73d2840cf9a1a6f8256532bb1b0fd22564b8218fe9b2c0b7c1851f7ef",
+    "portable-tools/native/source/StartPositionCalculator.ts": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+    "portable-tools/native/source/libs/math-utils/src/MathUtils.ts": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+    "portable-tools/native/source/play/src/front/Phaser/Game/CameraManager.ts": "c6bea29bffe270221ec35435ea1181df5d670edeac0dbb3b1918db0da8553b80",
+    "portable-tools/native/source/play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts": "f011429f25599b348640a57894b28560f3755da1a72b97cdfdbffd9ae2d3cdfc",
+    "portable-tools/native/source/play/src/front/Phaser/Game/GameScene.ts": "7c901514db24890c3750631d8e32124643e87de41750fb90e4a2d7f54ac1c146",
+    "portable-tools/native/source/play/src/front/Phaser/Player/Player.ts": "47c30fe3c2d16f52da3b499599de57b2240e75be4d91b2c816aae1179e8bc3d9",
+    "portable-tools/native/source/play/src/front/Phaser/Services/HdpiManager.ts": "6e25f9e127d3b712edf8ab7e87b1f11f82f8b4681772ccfe1d20c868e3f4d3fc",
+    "portable-tools/native/source/play/src/front/Phaser/Services/WaScaleManager.ts": "d811cf48d3fa8561a37a6689bcc0e639f5ceb1837fb3d762b326e104dde77a27",
+    "portable-tools/native/source/play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts": "d4bdce55f82caa5e94e372fa2ca57eb2a241f0ed0e78609d4dedb975b665a89a",
+    "portable-tools/native/source/play/src/front/Utils/PathfindingManager.ts": "b6d055091ec000f2e47b3e1def2f7ee7c42aae96ff3301c36a8b26b9c1b0c715",
+    "portable-tools/native/source-method-manifest.json": "86c7dff4e686ea1c12f638626042618a6b35c96bb8a4b0c7c54e0becc119d665",
+    "portable-tools/package_map.py": "ffcf7c007822e3c12894da6b880ed5b90d48f0bbf68ef1fd57a3a4eb7618ac49",
+    "review/boundary-sweep-0-native.png": "9522abc03bd0be2f6db307c35e9798b18eb1c5020aafde3445d2f1279f18cfc4",
+    "review/boundary-sweep-1-native.png": "524b88c9bead345a692135cdc90227e6cf78afa4de20dbf445b3b9d4fb417895",
+    "review/boundary-sweep-2-native.png": "00028916190e75605fc25568e98ee7c2669b7a066c7943885043ed9d073b43ff",
+    "review/boundary-sweep-3-native.png": "cf17af1632acc7aaf8bbeb82a244d9fcd023127dee7c5e847a207b57a93d060a",
+    "review/collision-native.png": "e615037fd2153c3d0a66cd3c184da3f4a1525902e6bce3165dbbb3aa21d29755",
+    "review/empty-native.png": "527e158c5b70a56644561d5f98497b14660dff6d4e49a8b8fb050158a43ab2d6",
+    "review/occupied-native.png": "7a6c9a4eb5b83de7a46a781ceef80c7148c39481fafca2d311322464deafa056",
+    "review/overview.png": "cc3b6d3d9ee1e6ef0ef490252a56d68a1697c9c34d2281cccee9ac3fa2d4e18b",
+    "review/revised-bridge-occupied-3x.png": "4b27cf1b2c78a22cd6dedf7ddea2bac247bff788b5545475a33e6fe29f1bfbe5",
+    "source/authored-walkable-mask.png": "a5c43b0b9bcf082fad47840ffdb3afe616010cbded928e525764e4997a6c8702",
+    "source/generation-history.json": "b94407b1f79643a074424e06af515fa5c68cd99ee8290f0cc7e15b5c0a1a843f",
+    "source/greg-reference.png": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+    "source/layout.json": "53f2ff13f066e777d30f02929d188b8a6ba25bf445864b4b55aa476955718e70",
+    "source/lounge-chair-north.png": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+    "source/low-lounge-table.png": "22d1169759331b49481442afe2fcecd8432dfa76813a957eec61c684b0944241",
+    "source/runtime-above.png": "64085d665f67f408b0cd67f69bebaa5a814b79eeed296c3d952e62988d7a440f",
+    "source/runtime-base.png": "527e158c5b70a56644561d5f98497b14660dff6d4e49a8b8fb050158a43ab2d6",
+    "source/tea-garden-clear-landing-master.png": "79fff087903f038bc12d554446736c8eea599736df320f34286685584e31f65e",
+    "source/tea-garden-environment-master.png": "de55ecefa16d11458d8ea2fa90e3d685343ccce6b6119a74abadb675c117494c",
+    "source/tea-garden-wide-bridge-master.png": "73169abef3c9c0860ef10381bb524c60fb0fe2e18b6098bdeeac479f0a9f52b5",
+    "source/tea-generation-prompt.txt": "1fb73e35404516480e201d929d4d8e67107d033fba0acbfc761ca2a5727a7cd6",
+    "validation/atlas-roundtrip.json": "7b5b6e4198b9272400d7cdc0ebdfb24847f600c9b2a9053c9c0a9326e5aff0fd",
+    "validation/boundary-sweep.json": "9552b0e5e12aa28275c9fdeb2a5c13988bcd408aed3ec20b3d83646cf91ad41a",
+    "validation/depth-partition.json": "bdf01c07d65af0fcfa358f862b2df934eb24bdd459d2f067b0f76199de0c31cf",
+    "validation/geometry.json": "3f55fbf2e94eb79ae73f7c55ec67d7cd95294e8f4beb5ff6e915294fc0f4e061",
+    "validation/native-routes.json": "ff492f01513ed52a530e99c73a00be94dff997b091181752c1c524aeca01462c",
+    "validation/native-routes.log": "f6917f5ba024e1f8fceced0866356821670afed36474ac5e15b9db2e05a60181",
+    "validation/spawn-domains.json": "1f1c41ac8e182c21e002fa235bcf15c3e51f45bfd181d1b1f44dc61060207344",
+    "willow-quay-tea-garden-runtime.zip": "0ef057c552647d2485c4f3e71b44beb192458ffc9d05d0627872ce9a0fa10d48",
+    "willow-quay-tea-garden-source-replay.zip": "6ad5ae9602bec260c0b1894b49f0dcbe0005e081acfb5593e5aeeac57023b276"
+  },
+  "staticSourceReplaySHA256": "6ad5ae9602bec260c0b1894b49f0dcbe0005e081acfb5593e5aeeac57023b276"
+}

@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "package_id": "celestial-transit-garden-source-replay",
+  "destination": "original12/celestial-transit-garden-source-replay",
+  "artifact": {
+    "name": "celestial-transit-garden-source-replay.zip",
+    "library_file_id": "libfile_6b6036e250c88191b1b1d1103fe1ee90",
+    "version_id": null,
+    "sha256": "e7381ba13582a912c0223c8492fa3173fcd4bdf5a406127060fb5c5f743f551b",
+    "size_bytes": 28194384
+  },
+  "nested_archives": [],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "tools/build_maps.py",
+      "sha256": "e9cd4aee0bc718fcf5d5f4489f7bab32acd92905d6b6072cd5c08ccf519e9f16",
+      "size_bytes": 29077,
+      "git_blob_sha1": "f847ca59cae49e4c35514eee78e1135059e1c568",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/check_spawn_and_boundaries.py",
+      "sha256": "30045b0e365be05dab5e08c55d4ce84cbdad9da068964101f4569efd62a32192",
+      "size_bytes": 3034,
+      "git_blob_sha1": "31cebc865156190ae58e3ea0aea8c8f807cf945e",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/easystar-0.4.4.js",
+      "sha256": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+      "size_bytes": 25143,
+      "git_blob_sha1": "91c1011123b2eafdb0d3de614120ad6a9d9c5279",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/extracted-current-source.cjs",
+      "sha256": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+      "size_bytes": 31744,
+      "git_blob_sha1": "4df97863541382687271aa3dc753ae57438f1cc1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/native-runtime-portable.cjs",
+      "sha256": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+      "size_bytes": 2190,
+      "git_blob_sha1": "7c2d9ca60b15caa8e5495862eb9186d1a4dd6fb1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/route-audit.cjs",
+      "sha256": "995d45f73d2840cf9a1a6f8256532bb1b0fd22564b8218fe9b2c0b7c1851f7ef",
+      "size_bytes": 5447,
+      "git_blob_sha1": "0d0ce787ab56eb350b36c077704842589ffb0a15",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/StartPositionCalculator.ts",
+      "sha256": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+      "size_bytes": 12453,
+      "git_blob_sha1": "c73f03c6e9242007acf839b0deb120f7664e2e7c",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/libs/math-utils/src/MathUtils.ts",
+      "sha256": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+      "size_bytes": 2002,
+      "git_blob_sha1": "fbf112735b3710294efd50fcb06a5006db5c3a6a",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/CameraManager.ts",
+      "sha256": "c6bea29bffe270221ec35435ea1181df5d670edeac0dbb3b1918db0da8553b80",
+      "size_bytes": 47978,
+      "git_blob_sha1": "cc79b8b6af93778aba3051b7f1b187897d449e7b",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "sha256": "f011429f25599b348640a57894b28560f3755da1a72b97cdfdbffd9ae2d3cdfc",
+      "size_bytes": 53557,
+      "git_blob_sha1": "93ab4bd2df2e8a5e8f2ca748bb351b3e0e0a4436",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/GameScene.ts",
+      "sha256": "7c901514db24890c3750631d8e32124643e87de41750fb90e4a2d7f54ac1c146",
+      "size_bytes": 200530,
+      "git_blob_sha1": "4451b827cb48f9baeea4daa06cc62a6c419ff864",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Player/Player.ts",
+      "sha256": "47c30fe3c2d16f52da3b499599de57b2240e75be4d91b2c816aae1179e8bc3d9",
+      "size_bytes": 15312,
+      "git_blob_sha1": "3b1eee86204b1d5993ad1e7784cdf6961c9416f0",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Services/HdpiManager.ts",
+      "sha256": "6e25f9e127d3b712edf8ab7e87b1f11f82f8b4681772ccfe1d20c868e3f4d3fc",
+      "size_bytes": 5693,
+      "git_blob_sha1": "a87b8fba27dc5dcbd0b018f1e504448d704f5293",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Services/WaScaleManager.ts",
+      "sha256": "d811cf48d3fa8561a37a6689bcc0e639f5ceb1837fb3d762b326e104dde77a27",
+      "size_bytes": 8256,
+      "git_blob_sha1": "2005fd7b22a57983d8e92820a7914e1b86b2017f",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts",
+      "sha256": "d4bdce55f82caa5e94e372fa2ca57eb2a241f0ed0e78609d4dedb975b665a89a",
+      "size_bytes": 13849,
+      "git_blob_sha1": "a50370cc0927de73cff75dd5d46e72543d8fa935",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Utils/PathfindingManager.ts",
+      "sha256": "b6d055091ec000f2e47b3e1def2f7ee7c42aae96ff3301c36a8b26b9c1b0c715",
+      "size_bytes": 12672,
+      "git_blob_sha1": "5b74fe6971bf14674f5c66b17b8ac1508eaee942",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source-method-manifest.json",
+      "sha256": "86c7dff4e686ea1c12f638626042618a6b35c96bb8a4b0c7c54e0becc119d665",
+      "size_bytes": 5842,
+      "git_blob_sha1": "9c67df6e15e4e0cc5592a86346ce27f94991c5b9",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/package_map.py",
+      "sha256": "01a61af0c825a14271142aaa0894bc67b34907ab0be529bb8094ce127f0ba798",
+      "size_bytes": 8606,
+      "git_blob_sha1": "c2999c72273277d1823e1d09bb8d536134d6bef7",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/greg-reference.png",
+      "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+      "size_bytes": 9396,
+      "git_blob_sha1": "26c5fb73b09082ba3f8453d9766e672e2432155b",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/portal-generation-prompt.txt",
+      "sha256": "30df9f8b2e78ae7a3b683ce03d6bb254a684e1fc024211cab7c48e8b6d6b6ccc",
+      "size_bytes": 2030,
+      "git_blob_sha1": "2591ee5b510ac6de6f0cc6ba25bae58c38bcc7d9",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/portal-environment-garden-boundaries-master.png",
+      "sha256": "46755a7d932d2ba3e013f0775694ccff59c009fd381b545faf0ebfd56120cac4",
+      "size_bytes": 3468469,
+      "git_blob_sha1": "557bf845c4baae2e041337bff5b2ab8722ee8723",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source/generation-history.json",
+      "sha256": "b94407b1f79643a074424e06af515fa5c68cd99ee8290f0cc7e15b5c0a1a843f",
+      "size_bytes": 1304,
+      "git_blob_sha1": "c90ebbed48b8dad3bad1512e536d275144c2f6ce",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "size_bytes": 4772,
+      "git_blob_sha1": "3d10e7d64c83b0cedb1479baf37317ccbd332dbe",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/low-lounge-table.png",
+      "sha256": "22d1169759331b49481442afe2fcecd8432dfa76813a957eec61c684b0944241",
+      "size_bytes": 5721,
+      "git_blob_sha1": "662478ed3227a417f98d30a798319f34aeb20c45",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "celestial-transit-garden/MANIFEST.json",
+      "sha256": "3de8d9d41f1f8e8bc0066ad675292a0c86f1326119f8078ceb09f695f5598440",
+      "size_bytes": 5745,
+      "git_blob_sha1": "f1071cfd9af22bc59c6d02259d1ee964e5836eae",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "celestial-transit-garden/PROVENANCE.md",
+      "sha256": "70152fe8a6d92e10004d942fe99daedde71ce2899ae1faff09a086a1382470ff",
+      "size_bytes": 1344,
+      "git_blob_sha1": "975aefe966b3ad56f50f22ce28e0df4b59b02714",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "celestial-transit-garden/README.md",
+      "sha256": "6c3f6ed1e2012efa68e3c38ce3216ec6d68e8e6df3284607d88fcee49d315b13",
+      "size_bytes": 2398,
+      "git_blob_sha1": "72553c2a7743dc88054fd2fd5c9a8d53f0a89ff3",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "celestial-transit-garden/integration/ROOM-SETUP.md",
+      "sha256": "3760f92e83893b8144c0283cdf096938ec26315853f380e234961f8ccb7554fb",
+      "size_bytes": 1464,
+      "git_blob_sha1": "0967736e096ffdcebbeef5ba9339fae66584a708",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "celestial-transit-garden/map32/celestial-transit-garden.tmj",
+      "sha256": "b6621829c11b5ad150ab2133deabd303823f8b14d37f513647a604affeaea7f2",
+      "size_bytes": 82722,
+      "git_blob_sha1": "bacdd47843f280be67f877dc5f7b20fd0ca88ceb",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "celestial-transit-garden/map32/celestial-transit-garden.wam",
+      "sha256": "90525b998a03bc956b598f91de3de85810c34d719d64c3f5e39bc2dcb63689a0",
+      "size_bytes": 1549,
+      "git_blob_sha1": "74673aa2957252d4145b7f1ceab300313cc68a7f",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "celestial-transit-garden/map32/ground-and-objects-0.png",
+      "sha256": "f51cba58668e0fbc18f034276d546bef9c5ecf29de02d56a51a61f1f1ea5da5f",
+      "size_bytes": 2473121,
+      "git_blob_sha1": "cfdc986beb3932ae77d586376c069027c2ff2c1e",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "celestial-transit-garden/map32/ground-and-objects-1.png",
+      "sha256": "47b9462dad1851c0669575c5c92fb32afd7da868f19058473dbe251a4db35640",
+      "size_bytes": 1164509,
+      "git_blob_sha1": "af32f0882e79e84122fc272145372870a8d6b94c",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "celestial-transit-garden/map32/markers.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "celestial-transit-garden/review/collision-native.png",
+      "sha256": "7400db1dd92c96ae5fd061e6991a2d1cf81d8c5614399d9697415fffb5ad75e5",
+      "size_bytes": 3380811,
+      "git_blob_sha1": "67d115b3fcd66fe1850cc77b7589b9d015f76058",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "celestial-transit-garden/review/empty-native.png",
+      "sha256": "41108564a6c1ce06b82aa05d9408f2371969f0443b2d28a76885004088708155",
+      "size_bytes": 3626235,
+      "git_blob_sha1": "cde06b00c21bffb8f03a7f56071b98d06943489e",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "celestial-transit-garden/review/occupied-native.png",
+      "sha256": "332182559ca3937f36ffb2d891cb3ac652bb7d3d571aaf684af2e6d5abf03c45",
+      "size_bytes": 3625949,
+      "git_blob_sha1": "5e3dbfe582958380ca3da48545e397118fe8f686",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "celestial-transit-garden/review/overview.png",
+      "sha256": "33b30d56ce9c632c1196284170dd7a625227dfc3beb15a95644b0ad10c13adad",
+      "size_bytes": 3227966,
+      "git_blob_sha1": "b3c9769e85e06a5fbbae80548ab5c20ecf5bc947",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "celestial-transit-garden/source/authored-walkable-mask.png",
+      "sha256": "1ee5b4766db9f784619f1074ae61e642ea7450f59faedf60e2a3c18964599f32",
+      "size_bytes": 9196,
+      "git_blob_sha1": "c1f7b77afdc7d965ede0c012dd8aaddf0e2b2eb9",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "celestial-transit-garden/source/generation-history.json",
+      "sha256": "b94407b1f79643a074424e06af515fa5c68cd99ee8290f0cc7e15b5c0a1a843f",
+      "size_bytes": 1304,
+      "git_blob_sha1": "c90ebbed48b8dad3bad1512e536d275144c2f6ce",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "celestial-transit-garden/source/greg-reference.png",
+      "sha256": "e88ba016c58f6bc7616c831c3c56a4656e66772794940af93c0c0835e85a987d",
+      "size_bytes": 9396,
+      "git_blob_sha1": "26c5fb73b09082ba3f8453d9766e672e2432155b",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "celestial-transit-garden/source/layout.json",
+      "sha256": "86d5ac011b7e66db06b116a86e175ea08318cf1106bea080b1704d99bca16376",
+      "size_bytes": 35456,
+      "git_blob_sha1": "edfd825106df8479ba25529df95a46af7196d98d",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "celestial-transit-garden/source/lounge-chair-north.png",
+      "sha256": "f29676491e02b50e1818917b6eb63cc099d923b5e2a0b7a6981b743448733ab6",
+      "size_bytes": 4772,
+      "git_blob_sha1": "3d10e7d64c83b0cedb1479baf37317ccbd332dbe",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "celestial-transit-garden/source/low-lounge-table.png",
+      "sha256": "22d1169759331b49481442afe2fcecd8432dfa76813a957eec61c684b0944241",
+      "size_bytes": 5721,
+      "git_blob_sha1": "662478ed3227a417f98d30a798319f34aeb20c45",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "celestial-transit-garden/source/portal-environment-garden-boundaries-master.png",
+      "sha256": "46755a7d932d2ba3e013f0775694ccff59c009fd381b545faf0ebfd56120cac4",
+      "size_bytes": 3468469,
+      "git_blob_sha1": "557bf845c4baae2e041337bff5b2ab8722ee8723",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "celestial-transit-garden/source/portal-generation-prompt.txt",
+      "sha256": "30df9f8b2e78ae7a3b683ce03d6bb254a684e1fc024211cab7c48e8b6d6b6ccc",
+      "size_bytes": 2030,
+      "git_blob_sha1": "2591ee5b510ac6de6f0cc6ba25bae58c38bcc7d9",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "celestial-transit-garden/source/runtime-above.png",
+      "sha256": "64085d665f67f408b0cd67f69bebaa5a814b79eeed296c3d952e62988d7a440f",
+      "size_bytes": 6177,
+      "git_blob_sha1": "fa03be01d2fb49011dd27a6db606a9e00b994785",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "celestial-transit-garden/source/runtime-base.png",
+      "sha256": "41108564a6c1ce06b82aa05d9408f2371969f0443b2d28a76885004088708155",
+      "size_bytes": 3626235,
+      "git_blob_sha1": "cde06b00c21bffb8f03a7f56071b98d06943489e",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "celestial-transit-garden/validation/atlas-roundtrip.json",
+      "sha256": "7b5b6e4198b9272400d7cdc0ebdfb24847f600c9b2a9053c9c0a9326e5aff0fd",
+      "size_bytes": 176,
+      "git_blob_sha1": "796fab2829ec36fc45ad5b7dedc78ca3d79c0c7b",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "celestial-transit-garden/validation/boundary-sweep.json",
+      "sha256": "bf673fe5bd7f5925e9174e80a57192a6d919859c5b2793eb9e6d46388fcb58a3",
+      "size_bytes": 110568,
+      "git_blob_sha1": "66af8e3bc2502008142fc3a538674298285cb466",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "celestial-transit-garden/validation/depth-partition.json",
+      "sha256": "bdf01c07d65af0fcfa358f862b2df934eb24bdd459d2f067b0f76199de0c31cf",
+      "size_bytes": 203,
+      "git_blob_sha1": "9bba193458ff8e065cb2d65fd7491ddd34b697cb",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "celestial-transit-garden/validation/geometry.json",
+      "sha256": "2cb80b06003023b8f1b531b279c5cb9bd3ee7e37e01afeebfe7ae8d7709e2f27",
+      "size_bytes": 3142,
+      "git_blob_sha1": "9e259a15a81d9281702e1444e000ddf801cd6ce6",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "celestial-transit-garden/validation/native-routes.json",
+      "sha256": "3241f2486a138cdf560e1a80288bacdfff66ab79aada252690fee22f9ce9dc07",
+      "size_bytes": 301641,
+      "git_blob_sha1": "8323fcc44790568689192cb805596ff01657c0fa",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "celestial-transit-garden/validation/native-routes.log",
+      "sha256": "60c149055d555df128db8c3f047f60bfc5ce5f4d19a2c0d98ba62e18687ff606",
+      "size_bytes": 657,
+      "git_blob_sha1": "51c95d17addda57432af06adabc4dcbd3bb68abc",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "celestial-transit-garden/validation/spawn-domains.json",
+      "sha256": "274d731b6c419eb45223293b9851613315b9fab69f8490637aa53c472f3c06e8",
+      "size_bytes": 1136,
+      "git_blob_sha1": "3b32a6622a1d1c89615d1640236fb66b4c80f4d1",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "status": "Six semantic decorative exports, no runtime/controller install",
+  "groups": {
+    "hall-shadow": {
+      "asset": "assets/hall-shadow.png",
+      "z": "below actors",
+      "hiddenWhen": [
+        "hallOpen"
+      ],
+      "sourceModules": [
+        "hall-front-foot shadow",
+        "hall east-porch contact shadow"
+      ]
+    },
+    "foyer-shadow": {
+      "asset": "assets/foyer-shadow.png",
+      "z": "below actors",
+      "hiddenWhen": [
+        "foyerOpen"
+      ],
+      "sourceModules": [
+        "south-wing foot shadows",
+        "approved entrance shadow",
+        "foyer east-porch contact shadow"
+      ]
+    },
+    "hall-shell": {
+      "asset": "assets/hall-shell.png",
+      "z": "above actors, first shell slot",
+      "hiddenWhen": [
+        "hallOpen"
+      ],
+      "sourceModules": [
+        "hall front face",
+        "hall roof",
+        "hall east porch"
+      ]
+    },
+    "foyer-wings": {
+      "asset": "assets/foyer-wings.png",
+      "z": "above hall-shell, below foyer-roof",
+      "hiddenWhen": [
+        "foyerOpen"
+      ],
+      "sourceModules": [
+        "native south-wing windows and piers"
+      ]
+    },
+    "foyer-roof": {
+      "asset": "assets/foyer-roof.png",
+      "z": "above foyer-wings, below foyer-front",
+      "hiddenWhen": [
+        "hallOpen",
+        "foyerOpen"
+      ],
+      "condition": "hide if EITHER owner is open",
+      "sourceModules": [
+        "entire original-size foyer roof master"
+      ]
+    },
+    "foyer-front": {
+      "asset": "assets/foyer-front.png",
+      "z": "last shell slot above foyer-roof",
+      "hiddenWhen": [
+        "foyerOpen"
+      ],
+      "sourceModules": [
+        "unchanged approved south entrance/pediment",
+        "foyer east porch"
+      ]
+    }
+  },
+  "allGroupsWorldPixels": [
+    2816,
+    2432
+  ],
+  "renderOrder": [
+    "permanent base",
+    "permanent threshold below actors",
+    "hall-shadow if visible",
+    "foyer-shadow if visible",
+    "actors original32",
+    "permanent B interior-above",
+    "hall-shell if visible",
+    "foyer-wings if visible",
+    "foyer-roof if visible",
+    "foyer-front if visible"
+  ],
+  "entryRegionsXYXY": {
+    "hall": {
+      "core": [
+        128,
+        256,
+        1664,
+        1344
+      ],
+      "eastApron": [
+        1536,
+        432,
+        1832,
+        880
+      ]
+    },
+    "foyer": {
+      "core": [
+        128,
+        1280,
+        1664,
+        2032
+      ],
+      "southApron": [
+        512,
+        1696,
+        1280,
+        2112
+      ],
+      "eastApron": [
+        1536,
+        1328,
+        1832,
+        1776
+      ]
+    }
+  },
+  "holdRegionsXYXY": {
+    "hall": {
+      "core": [
+        96,
+        224,
+        1696,
+        1376
+      ],
+      "eastApron": [
+        1504,
+        400,
+        1864,
+        912
+      ]
+    },
+    "foyer": {
+      "core": [
+        96,
+        1248,
+        1696,
+        2064
+      ],
+      "southApron": [
+        480,
+        1664,
+        1312,
+        2144
+      ],
+      "eastApron": [
+        1504,
+        1296,
+        1864,
+        1808
+      ]
+    }
+  },
+  "boundaryConvention": "Inclusive. Enter at y1344 for hall from foyer, y2112 south orx1832 east; restore immediately beyond hold boundaries, not while exactly on them.",
+  "transition": "Evaluate each logical owner independently; initialize each from its entry-region union; instant visibility changes. Hall camera focus is separate.",
+  "dependencies": {
+    "hallOpenHides": [
+      "hall-shadow",
+      "hall-shell",
+      "foyer-roof"
+    ],
+    "foyerOpenHides": [
+      "foyer-shadow",
+      "foyer-wings",
+      "foyer-roof",
+      "foyer-front"
+    ]
+  },
+  "alphaBoundsXYXY": {
+    "hall-shadow": [
+      133,
+      825,
+      1777,
+      1305
+    ],
+    "foyer-shadow": [
+      133,
+      1721,
+      1777,
+      2069
+    ],
+    "hall-shell": [
+      128,
+      112,
+      1776,
+      1291
+    ],
+    "foyer-wings": [
+      128,
+      1802,
+      1664,
+      2055
+    ],
+    "foyer-roof": [
+      169,
+      1154,
+      1625,
+      1861
+    ],
+    "foyer-front": [
+      589,
+      1387,
+      1776,
+      2055
+    ]
+  },
+  "overlap": {
+    "foyerRoofIntoAcceptedHallFloor": {
+      "pixelCount": 28781,
+      "boundsXYXY": [
+        170,
+        1154,
+        1625,
+        1200
+      ]
+    },
+    "foyerRoofWithinHallRevealCore": {
+      "pixelCount": 236077,
+      "boundsXYXY": [
+        169,
+        1154,
+        1625,
+        1345
+      ]
+    },
+    "wingRoofPainterOverlap": {
+      "pixelCount": 28740,
+      "boundsXYXY": [
+        171,
+        1802,
+        1624,
+        1861
+      ],
+      "reasonForSeparateWingsSlot": "Wings precede roof while entry and porch follow roof; flattening all foyer-front changes approved composition."
+    },
+    "handling": "Hide the entire foyer-roof module while hallOpen. No arbitrary horizontal alpha slice. Both shadow groups are ground/contact shadows only and have no foreign-roof dependency."
+  },
+  "measuredFrontBounds": {
+    "hallFront": [
+      128,
+      989,
+      1662,
+      1291
+    ],
+    "hallShadow": [
+      133,
+      825,
+      1777,
+      1305
+    ],
+    "foyerRoof": [
+      169,
+      1154,
+      1625,
+      1861
+    ]
+  },
+  "hallSouthTriggerSafety": {
+    "playerCenterY": 1344,
+    "conservativeFrameTopY": 1328,
+    "lastHallFrontAlphaY": 1290,
+    "marginPixels": 37,
+    "lastHallGroundShadowAlphaY": 1304,
+    "shadowBelowActor": true
+  },
+  "sourceOwnership": "Original modules, not arbitrary world-coordinate splitting",
+  "collisionConstant": true,
+  "outsideCamera": "Ordinary follow/manual zoom; no exterior camera state",
+  "hallFocus": "Accepted native hall focus translated only, independent of both reveal owners."
+}

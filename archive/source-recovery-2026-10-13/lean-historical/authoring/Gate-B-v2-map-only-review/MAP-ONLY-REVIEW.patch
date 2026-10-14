@@ -1,0 +1,252 @@
+--- Gate-B-v1/native-audio/gate-with-native-audio.js
++++ Gate-B-v2/native-audio/gate-with-native-audio.js
+@@ -1,107 +1,129 @@
+-import { installGateAmbientAudio } from './gate-ambient-audio.mjs';
+-import { installGateCameraB } from './gate-camera-b.mjs';
+-const nativeNearbyAudio = installGateAmbientAudio();
+-const gateCameraB = installGateCameraB();
+-/* Bounded Universe gate. Native map APIs only; the destination is a real PLAY room URL. */
++/* Gate B v2: normal native follow, one static native audio source, reversible portal effects.
++ * Map APIs verified at universe-develop d2bc57b63b4abab9303fb3cbcecf1a0450fd15cc.
++ * This script never changes camera, movement controls, audio properties or audio playback.
++ */
+ (() => {
+   'use strict';
+   const media = window.matchMedia('(prefers-reduced-motion: reduce)');
+-  const subscriptions = [], visibility = new Map();
++  const subscriptions = [], visibility = new Map(), waits = new Map();
+   const veils = ['journey-veil-1', 'journey-veil-2', 'journey-veil-3', 'journey-veil-4'];
+-  const prop = (o, name) => o.properties?.find(p => p.name === name)?.value;
+-  const flatten = list => list.flatMap(l => l.type === 'group' ? flatten(l.layers) : [l]);
+-  const inside = (p, r) => p.x >= r.x && p.x <= r.x + r.width && p.y + 16 >= r.y && p.y + 16 <= r.y + r.height;
+-  const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+-  let disposed = false, sequence = 0, revision = 0, transitioning = false, armed = true;
+-  let layers = [], bounds = {x:0,y:0,width:960,height:1440}, spawn = {x:480,y:1336};
+-  let threshold = {x:416,y:544,width:128,height:64}, destination = null;
++  const prop = (object, name) => object.properties?.find(property => property.name === name)?.value;
++  const flatten = list => list.flatMap(layer => layer.type === 'group' ? flatten(layer.layers) : [layer]);
++  const valid = position => position && Number.isFinite(position.x) && Number.isFinite(position.y);
++  const inside = (position, rectangle, margin = 0) => valid(position) &&
++    position.x >= rectangle.x - margin && position.x < rectangle.x + rectangle.width + margin &&
++    position.y + 16 >= rectangle.y - margin && position.y + 16 < rectangle.y + rectangle.height + margin;
++  let disposed = false, sequence = 0, revision = 0, transitioning = false, armed = false;
++  let layers = [], threshold = {x:416,y:544,width:128,height:64}, destination = null;
+ 
+-  function show(name, value) {
+-    if (!layers.some(l => l.name === name) || visibility.get(name) === value) return;
+-    visibility.set(name, value);
+-    (value ? WA.room.showLayer : WA.room.hideLayer)(name);
++  function show(name, visible) {
++    if (!layers.some(layer => layer.name === name) || visibility.get(name) === visible) return;
++    visibility.set(name, visible);
++    (visible ? WA.room.showLayer : WA.room.hideLayer)(name);
+   }
+   function curtain(level) { veils.forEach((name, index) => show(name, index === level - 1)); }
+-  function releaseCamera() { gateCameraB.release(); }
++  function resetEffects() { curtain(0); show('gate-threshold-charge', false); }
+   function visuals() {
+     for (const layer of layers) {
+-      if (layer.name === 'permanent-collisions' || layer.name === 'start') continue;
+-      if (veils.includes(layer.name)) continue;
++      if (['permanent-collisions', 'start', 'campus-audio-control'].includes(layer.name) || veils.includes(layer.name)) continue;
+       show(layer.name, prop(layer, 'transitOnly') !== true && !(media.matches && prop(layer, 'reducedMotionHide') === true));
+     }
+   }
+-  function camera(position) { gateCameraB.update(position); }
++  function sleep(ms) {
++    return new Promise(resolve => {
++      const id = window.setTimeout(() => { waits.delete(id); resolve(); }, ms);
++      waits.set(id, resolve);
++    });
++  }
++  function cancelTransition() {
++    ++sequence;
++    transitioning = false;
++    for (const [id, resolve] of waits) { window.clearTimeout(id); resolve(); }
++    waits.clear();
++    resetEffects();
++  }
+   function reconcile(position, allowTravel = true) {
+-    if (disposed || transitioning) return;
+-    camera(position);
+-    if (!inside(position, threshold)) armed = true;
+-    // An unregistered destination remains an inactive portal, never a guessed or broken URL.
+-    if (allowTravel && destination && armed && inside(position, threshold)) {
+-      armed = false; void travel();
++    if (disposed || !valid(position)) return;
++    if (transitioning && !inside(position, threshold)) cancelTransition();
++    // Re-entry needs a deliberate exit beyond a 16 px band; a tap on the edge cannot retrigger it.
++    if (!inside(position, threshold, 16)) armed = true;
++    if (allowTravel && !transitioning && destination && armed && inside(position, threshold)) {
++      armed = false;
++      void travel();
+     }
+   }
+   async function refresh() {
+     const at = ++revision;
+-    try { const p = await WA.player.getPosition(); if (!disposed && !transitioning && at === revision) reconcile(p); }
+-    catch (error) { if (!disposed) console.warn('Gate position refresh failed.', error); }
++    try {
++      const position = await WA.player.getPosition();
++      if (!disposed && at === revision) reconcile(position);
++    } catch (error) { if (!disposed) console.warn('Gate position refresh failed.', error); }
+   }
+   async function travel() {
+     if (disposed || transitioning || !destination) return;
+-    transitioning = true; const token = ++sequence; ++revision;
++    transitioning = true;
++    const token = ++sequence;
++    ++revision;
++    const current = () => !disposed && transitioning && token === sequence;
+     try {
+       if (!media.matches) {
+-        show('gate-threshold-charge', true); nativeNearbyAudio.beginGate(token); await sleep(260);
+-        if (disposed || token !== sequence) return;
+-        const current = await WA.player.getPosition();
+-        if (!inside(current, threshold)) {
+-          transitioning = false; show('gate-threshold-charge', false); nativeNearbyAudio.cancelGate(token); reconcile(current, false); return;
+-        }
++        show('gate-threshold-charge', true);
++        await sleep(260);
++        if (!current()) return;
++        const position = await WA.player.getPosition();
++        if (!current()) return;
++        if (!inside(position, threshold)) { cancelTransition(); reconcile(position, false); return; }
+         for (let level = 1; level <= 4 && !media.matches; level++) {
+-          if (disposed || token !== sequence) return;
+-          curtain(level); await sleep(55);
++          curtain(level);
++          await sleep(55);
++          if (!current()) return;
+         }
+       }
+-      releaseCamera(1);
+-      // The fork resolves this against the PLAY URL. Supply a verified room URL, not a sibling asset path.
+-      nativeNearbyAudio.pauseForTransition();
++      const position = await WA.player.getPosition();
++      if (!current()) return;
++      if (!inside(position, threshold)) { cancelTransition(); reconcile(position, false); return; }
+       await WA.nav.goToRoom(destination);
+-      // Native navigation normally unloads this iframe. If it does not, never leave a persistent veil/lock.
++      // Native navigation normally unloads the script. Otherwise clear effects without auto-retrying.
++      if (!current()) return;
+       await sleep(800);
+-      if (!disposed && token === sequence) { nativeNearbyAudio.resumeAfterTransition(); transitioning = false; curtain(0); show('gate-threshold-charge', false); nativeNearbyAudio.cancelGate(token); }
++      if (current()) cancelTransition();
+     } catch (error) {
+-      if (disposed || token !== sequence) return;
+-      transitioning = false; nativeNearbyAudio.resumeAfterTransition(); curtain(0); show('gate-threshold-charge', false); nativeNearbyAudio.cancelGate(token); releaseCamera(1);
++      if (!current()) return;
++      cancelTransition();
+       console.warn('Gate room navigation did not complete. Step out before trying again.', error);
+     }
+   }
+   function motionChanged() {
+     if (disposed) return;
+     visuals();
+-    if (media.matches) { nativeNearbyAudio.cancelGate(); releaseCamera(1); curtain(0); }
++    if (media.matches) resetEffects();
+   }
+   function dispose() {
+     if (disposed) return;
+-    disposed = true; ++sequence; ++revision; nativeNearbyAudio.dispose(); gateCameraB.dispose();
+-    subscriptions.splice(0).forEach(s => s?.unsubscribe?.());
+-    media.removeEventListener?.('change', motionChanged); releaseCamera(1); curtain(0);
++    disposed = true;
++    ++revision;
++    cancelTransition();
++    subscriptions.splice(0).forEach(subscription => subscription?.unsubscribe?.());
++    media.removeEventListener?.('change', motionChanged);
+   }
+   WA.onInit().then(async () => {
+-    const map = await WA.room.getTiledMap(); if (disposed) return;
+-    const all = flatten(map.layers); layers = all.filter(l => l.type === 'tilelayer');
+-    const objects = all.flatMap(l => l.objects ?? []);
+-    bounds = objects.find(o => o.name === 'gate-bounds') ?? bounds;
+-    spawn = objects.find(o => o.name === 'gate-spawn') ?? spawn;
+-    threshold = objects.find(o => o.name === 'gate-threshold') ?? threshold;
++    if (disposed) return;
++    const map = await WA.room.getTiledMap();
++    if (disposed) return;
++    const all = flatten(map.layers);
++    layers = all.filter(layer => layer.type === 'tilelayer');
++    threshold = all.flatMap(layer => layer.objects ?? []).find(object => object.name === 'gate-threshold') ?? threshold;
+     const configured = prop(map, 'campusRoomUrl');
+     if (typeof configured === 'string' && configured.trim()) {
+-      // Absolute HTTPS PLAY URLs only: this avoids asset-relative navigation surprises on /@ routes.
++      // A room owner supplies the real HTTPS PLAY room URL. An empty target stays inactive.
+       try { const url = new URL(configured); if (url.protocol === 'https:') destination = url.href; }
+       catch { console.warn('campusRoomUrl must be a verified absolute HTTPS PLAY room URL.'); }
+     }
+-    visuals(); curtain(0); media.addEventListener?.('change', motionChanged);
+-    subscriptions.push(WA.player.onPlayerMove(p => { ++revision; reconcile(p); }));
++    visuals(); resetEffects();
++    media.addEventListener?.('change', motionChanged);
++    subscriptions.push(WA.player.onPlayerMove(position => { ++revision; reconcile(position); }));
+     for (const edge of ['onEnter', 'onLeave']) subscriptions.push(WA.room.area[edge]('gate-threshold').subscribe(refresh));
+     await refresh();
+-  }).catch(error => console.error('Bounded gate initialization failed.', error));
++  }).catch(error => { if (!disposed) console.error('Gate initialization failed.', error); });
+   window.addEventListener('pagehide', dispose, {once:true});
+ })();
+--- Gate-B-v1/gate.tmj
++++ Gate-B-v2/gate.tmj
+@@ -4105,6 +4105,23 @@
+         2,
+         2,
+         2
++      ],
++      "properties": [
++        {
++          "name": "playAudio",
++          "type": "string",
++          "value": "native-audio/assets/gate-music-waterfalls-loop.mp3"
++        },
++        {
++          "name": "audioLoop",
++          "type": "bool",
++          "value": true
++        },
++        {
++          "name": "audioVolume",
++          "type": "float",
++          "value": 1
++        }
+       ]
+     },
+     {
+@@ -69393,16 +69410,6 @@
+   ],
+   "properties": [
+     {
+-      "name": "campusVersion",
+-      "type": "string",
+-      "value": "gate-b-detail-to-monument"
+-    },
+-    {
+-      "name": "audioEnabled",
+-      "type": "bool",
+-      "value": false
+-    },
+-    {
+       "name": "campusRoomUrl",
+       "type": "string",
+       "value": ""
+@@ -69423,14 +69430,14 @@
+       "value": "native-audio/gate-with-native-audio.js"
+     },
+     {
+-      "name": "gateAmbientAudio",
++      "name": "campusVersion",
+       "type": "string",
+-      "value": "{\"version\":1,\"auditedCommit\":\"f00b3482f23c51976b4b339d7a891cad683d6498\",\"scene\":\"gate\",\"carrierLayer\":\"campus-audio-control\",\"startPolicy\":\"explicit-per-map\",\"sourceVolume\":1,\"url\":\"native-audio/assets/gate-music-waterfalls-loop.mp3\",\"description\":\"Original gate music plus cascade, fixed gain baked into one 48-second loop\"}"
++      "value": "gate-b-v2-native-follow-32"
+     },
+     {
+       "name": "gateCameraVersion",
+       "type": "string",
+-      "value": "B: progressive pullback, hold, native manual opt-out"
++      "value": "B v2: normal native follow and manual zoom"
+     }
+   ],
+   "nextlayerid": 55,

@@ -1,0 +1,487 @@
+{
+  "id": "N25",
+  "title": "Ochre Archaeology Academy",
+  "concept": "Terracotta artifact-drawing school and restoration portico surrounding a protected excavated mosaic court",
+  "world": [
+    1536,
+    1024
+  ],
+  "spawn": [
+    720,
+    975
+  ],
+  "walkPolygons": [
+    [
+      [
+        311,
+        177
+      ],
+      [
+        526,
+        177
+      ],
+      [
+        526,
+        235
+      ],
+      [
+        311,
+        235
+      ]
+    ],
+    [
+      [
+        383,
+        229
+      ],
+      [
+        452,
+        229
+      ],
+      [
+        452,
+        329
+      ],
+      [
+        383,
+        329
+      ]
+    ],
+    [
+      [
+        290,
+        314
+      ],
+      [
+        1093,
+        314
+      ],
+      [
+        1093,
+        690
+      ],
+      [
+        331,
+        690
+      ],
+      [
+        303,
+        657
+      ],
+      [
+        303,
+        392
+      ],
+      [
+        265,
+        392
+      ],
+      [
+        265,
+        346
+      ]
+    ],
+    [
+      [
+        570,
+        246
+      ],
+      [
+        1099,
+        246
+      ],
+      [
+        1099,
+        330
+      ],
+      [
+        570,
+        330
+      ]
+    ],
+    [
+      [
+        594,
+        196
+      ],
+      [
+        673,
+        196
+      ],
+      [
+        673,
+        262
+      ],
+      [
+        594,
+        262
+      ]
+    ],
+    [
+      [
+        714,
+        193
+      ],
+      [
+        821,
+        193
+      ],
+      [
+        821,
+        262
+      ],
+      [
+        714,
+        262
+      ]
+    ],
+    [
+      [
+        867,
+        194
+      ],
+      [
+        974,
+        194
+      ],
+      [
+        974,
+        262
+      ],
+      [
+        867,
+        262
+      ]
+    ],
+    [
+      [
+        645,
+        682
+      ],
+      [
+        814,
+        682
+      ],
+      [
+        814,
+        1023
+      ],
+      [
+        606,
+        1023
+      ],
+      [
+        638,
+        929
+      ]
+    ],
+    [
+      [
+        1156,
+        220
+      ],
+      [
+        1201,
+        220
+      ],
+      [
+        1201,
+        677
+      ],
+      [
+        1156,
+        677
+      ]
+    ],
+    [
+      [
+        1087,
+        374
+      ],
+      [
+        1201,
+        374
+      ],
+      [
+        1201,
+        410
+      ],
+      [
+        1087,
+        410
+      ]
+    ],
+    [
+      [
+        1090,
+        486
+      ],
+      [
+        1201,
+        486
+      ],
+      [
+        1201,
+        529
+      ],
+      [
+        1090,
+        529
+      ]
+    ]
+  ],
+  "solidRects": [
+    [
+      342,
+      144,
+      406,
+      180
+    ],
+    [
+      430,
+      144,
+      493,
+      180
+    ],
+    [
+      431,
+      328,
+      1017,
+      640
+    ],
+    [
+      283,
+      285,
+      310,
+      334
+    ],
+    [
+      332,
+      284,
+      368,
+      326
+    ],
+    [
+      474,
+      284,
+      508,
+      329
+    ],
+    [
+      521,
+      286,
+      557,
+      327
+    ],
+    [
+      302,
+      429,
+      337,
+      479
+    ],
+    [
+      299,
+      553,
+      327,
+      636
+    ],
+    [
+      1100,
+      279,
+      1127,
+      352
+    ],
+    [
+      1102,
+      402,
+      1129,
+      480
+    ],
+    [
+      1105,
+      535,
+      1133,
+      575
+    ],
+    [
+      1112,
+      638,
+      1138,
+      678
+    ],
+    [
+      586,
+      225,
+      608,
+      257
+    ],
+    [
+      686,
+      218,
+      712,
+      257
+    ],
+    [
+      835,
+      215,
+      856,
+      254
+    ],
+    [
+      978,
+      219,
+      1007,
+      261
+    ]
+  ],
+  "seats": [
+    {
+      "name": "Artifact illustration west",
+      "anchor": [
+        360,
+        207
+      ],
+      "direction": "north"
+    },
+    {
+      "name": "Artifact illustration east",
+      "anchor": [
+        472,
+        207
+      ],
+      "direction": "north"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Mosaic north viewing",
+      "anchor": [
+        784,
+        303
+      ]
+    },
+    {
+      "name": "Mosaic west viewing",
+      "anchor": [
+        376,
+        495
+      ]
+    },
+    {
+      "name": "Mosaic south viewing",
+      "anchor": [
+        784,
+        655
+      ]
+    },
+    {
+      "name": "Restoration gallery crossing",
+      "anchor": [
+        1168,
+        399
+      ]
+    },
+    {
+      "name": "Pottery comparison portico",
+      "anchor": [
+        752,
+        239
+      ]
+    },
+    {
+      "name": "Academy threshold",
+      "anchor": [
+        408,
+        288
+      ]
+    }
+  ],
+  "foregroundRects": [
+    [
+      273,
+      246,
+      357,
+      271
+    ],
+    [
+      474,
+      246,
+      558,
+      271
+    ]
+  ],
+  "chairAsset": "field-chair-master.png",
+  "chairNative": false,
+  "blockedCells": [
+    [
+      10,
+      7
+    ],
+    [
+      11,
+      7
+    ],
+    [
+      14,
+      7
+    ],
+    [
+      15,
+      7
+    ]
+  ],
+  "openCells": [
+    [
+      10,
+      6
+    ],
+    [
+      11,
+      6
+    ],
+    [
+      14,
+      6
+    ],
+    [
+      15,
+      6
+    ]
+  ],
+  "zones": [
+    {
+      "name": "Artifact drawing classroom",
+      "rect": [
+        320,
+        176,
+        192,
+        56
+      ]
+    },
+    {
+      "name": "Restoration and comparison portico",
+      "rect": [
+        592,
+        192,
+        480,
+        112
+      ]
+    },
+    {
+      "name": "Mosaic observation court",
+      "rect": [
+        336,
+        640,
+        704,
+        48
+      ]
+    }
+  ],
+  "nonNavigableContext": "Central excavation is a visibly continuous fenced protected exhibit, not a walkable digging mechanic. Ruins beyond academy walls, storage annex and desert canyon are scenic context. Classroom, viewing ring, portico and broad sandstone arrival are traversable.",
+  "lessons": [
+    "N24 showed that tiny scattered props must be checked after rasterization and inaccessible visible floor must be solved in art. N25 uses a clearly fenced protected excavation instead of pretending its archaeological surfaces are public circulation.",
+    "The original small classroom desks left inadequate chair depth; a targeted art edit moved and shortened those desks, leaving a real native-scale approach before the south wall.",
+    "Closed the generated excavation-rail gap in artwork so its protected collision boundary is visually honest.",
+    "Separate slightly off-centre desk approaches preserve two whole native floor cells for the central classroom doorway; rear chair feet do not form a continuous door-blocking strip."
+  ]
+}

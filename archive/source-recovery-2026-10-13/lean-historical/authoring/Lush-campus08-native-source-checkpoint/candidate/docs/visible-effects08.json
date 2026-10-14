@@ -1,0 +1,24 @@
+{
+  "pass": true,
+  "scope": "Pixel-composited visible differences through fixed foreground; playback pacing and physical-device smoothness separate.",
+  "effects": [
+    {
+      "effect": "river-water",
+      "visibleChangedPixelsAfterForeground": 4372,
+      "peakChannelChange": 133,
+      "pass": true
+    },
+    {
+      "effect": "fire-flame",
+      "visibleChangedPixelsAfterForeground": 1615,
+      "peakChannelChange": 86,
+      "pass": true
+    },
+    {
+      "effect": "fountain-water",
+      "visibleChangedPixelsAfterForeground": 8112,
+      "peakChannelChange": 43,
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "mode": "verify-only",
+  "all_manifests_valid": true,
+  "results": [
+    {
+      "manifest": "keeper-r2-reconstructed.json",
+      "returncode": 0,
+      "result": {
+        "existing": 0,
+        "verified": 61,
+        "written": 0
+      }
+    },
+    {
+      "manifest": "media-r7c-partial-reconstructed.json",
+      "returncode": 0,
+      "result": {
+        "existing": 0,
+        "verified": 33,
+        "written": 0
+      }
+    },
+    {
+      "manifest": "studio-reading-reconstructed.json",
+      "returncode": 0,
+      "result": {
+        "existing": 0,
+        "verified": 26,
+        "written": 0
+      }
+    },
+    {
+      "manifest": "keeper-original-runtime.json",
+      "returncode": 0,
+      "result": {
+        "existing": 0,
+        "verified": 19,
+        "written": 0
+      }
+    },
+    {
+      "manifest": "resonance-media-house-r7c-runtime.json",
+      "returncode": 0,
+      "result": {
+        "existing": 0,
+        "verified": 5,
+        "written": 0
+      }
+    },
+    {
+      "manifest": "resonance-media-house-r7c-source-replay.json",
+      "returncode": 0,
+      "result": {
+        "existing": 0,
+        "verified": 105,
+        "written": 0
+      }
+    }
+  ]
+}

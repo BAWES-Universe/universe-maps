@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "package_id": "N14-r2-source",
+  "destination": "old50/source/N14-r2",
+  "artifact": {
+    "name": "overnight-50-source-04-of-07.zip",
+    "library_file_id": "libfile_99b375841c7c8191a0bcbd5db8ecfbcb",
+    "version_id": null,
+    "sha256": "2ce95f64ef969fde28132f8858faad4804b2264a5a42e78ece9e8ee7af3f96b9",
+    "size_bytes": 85434536
+  },
+  "nested_archives": [
+    {
+      "member": "packages/N14-r2-source.zip",
+      "sha256": "2de90a439b33a9c50a646adc67c6c4a39a7229fb3eeed1cbef8cfe9db0ef2388",
+      "size_bytes": 22098437
+    }
+  ],
+  "source_status": "complete_recovered_package_verified",
+  "git_scope": "Selected small authoring text; all other exact bytes remain Library-backed. Restore full package before building.",
+  "files": [
+    {
+      "path": "N14/LESSONS.json",
+      "sha256": "2d43e2ca8b51bcf78ffce9aba34dd5a3be5751592c9b499289a08cc657152ed7",
+      "size_bytes": 697,
+      "git_blob_sha1": "6fd9f875efddfea30b85156979a6227477bc1eb7",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "N14/README.md",
+      "sha256": "400c9dd904b84e495de7499f5c8cc9685a56baf10a32b2dbb0ff93dc7618cb67",
+      "size_bytes": 953,
+      "git_blob_sha1": "fb350373e7241dfaa1bbf25d2263e406604477f0",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "N14/map32/N14.tmj",
+      "sha256": "b0f95412c279e45a7dbcd8c3c381260c0787bd0b0d2d96f775192c8573d22a85",
+      "size_bytes": 46117,
+      "git_blob_sha1": "7e919409dd979b78d0ce7560e2e80acf60d230ce",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "N14/map32/N14.wam",
+      "sha256": "3fd8b6319681966b46b06ed361f6f9bf3a9752907d6acb38809f775ae4a6384d",
+      "size_bytes": 397,
+      "git_blob_sha1": "8f6ed2afae63a55c5c2e4335fe23e1ad42cfab85",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "N14/map32/foreground.png",
+      "sha256": "f4c0a4e9821ce8014a93f631c651011d5e6244b52f9d09b38de30ba15951f252",
+      "size_bytes": 8279,
+      "git_blob_sha1": "130594178d5ebd6e206a180e6518f36d73baadf2",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "N14/map32/ground.png",
+      "sha256": "82eead97b72076f1530414a95a2a7500a8a316c64733ded0ec6070b26be6a0ba",
+      "size_bytes": 1865514,
+      "git_blob_sha1": "8150133f05f8524d61c672926c7bb44776b864f0",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "N14/map32/logic.png",
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "size_bytes": 83,
+      "git_blob_sha1": "6e3cb09bcf701bc53ecc7886c19b82d386469aa6",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "N14/review/actual-native-arrivals.png",
+      "sha256": "4462e0e2bbb608babe80aaa9f5ba4bcf37d24683d61da0e802e55e2da53c1ae6",
+      "size_bytes": 1870880,
+      "git_blob_sha1": "25a0964f79ba578aa352a96e58d8bb69fd040a00",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "N14/review/collision.png",
+      "sha256": "f5bf0b4f10c46db8b7b3e5ac7c5fa7db1e570d11fca5113b4ae0a7841be3b7c5",
+      "size_bytes": 1713275,
+      "git_blob_sha1": "e334eb8eea58b322ca8b3845f7a35c2ab586db09",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "N14/review/empty-native.png",
+      "sha256": "82eead97b72076f1530414a95a2a7500a8a316c64733ded0ec6070b26be6a0ba",
+      "size_bytes": 1865514,
+      "git_blob_sha1": "8150133f05f8524d61c672926c7bb44776b864f0",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "N14/review/occupants.json",
+      "sha256": "c70a28d4a364b1f472f3309465d60cf08e77540255721a89c33f4a47ff120e50",
+      "size_bytes": 6535,
+      "git_blob_sha1": "ab752e32fae70455682d1ff37ee31c2e19c2abe3",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "N14/review/occupied-native.png",
+      "sha256": "d769a9725969454f4ab4dda4fbf78607afcc4466270fc2da9339d02d6c4a70f6",
+      "size_bytes": 1873744,
+      "git_blob_sha1": "5cee1f1a4fcfd49207ed8915cfa89d5ad9a77d09",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "N14/review/review.png",
+      "sha256": "569f9b30d2452abee1851e9c6b7c305658786529684fc90b726a202f631c0cf5",
+      "size_bytes": 1659688,
+      "git_blob_sha1": "e1aef70c8d5b767204b8a92ea5a8693cf6b3f8c8",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "N14/review/seat-contact-empty-actual-4x.png",
+      "sha256": "df45b228c0c1d95971ecfeeee3d45ead29697015c45c76652fdba50b456733be",
+      "size_bytes": 79533,
+      "git_blob_sha1": "490ecf820ddd99d28dcd739a0a54884e6e9bfaf9",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "N14/source/layout.json",
+      "sha256": "4091861904fac62e42fc30c7b8fb93e836161e921fa98847174d4b91a2aa4883",
+      "size_bytes": 11831,
+      "git_blob_sha1": "892e0d71b2a7b4707cc172258bb2b4120307a365",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "N14/source/runtime-base.png",
+      "sha256": "82eead97b72076f1530414a95a2a7500a8a316c64733ded0ec6070b26be6a0ba",
+      "size_bytes": 1865514,
+      "git_blob_sha1": "8150133f05f8524d61c672926c7bb44776b864f0",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "N14/source/runtime-foreground.png",
+      "sha256": "07e5ef89da86480787a3e2eee7c98f90ae7546a101b56f478a20383dc80c327f",
+      "size_bytes": 12758,
+      "git_blob_sha1": "a2f0305e8304f287b2648919de07d6c1e012675b",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "N14/validation/anchor-endpoints.json",
+      "sha256": "050860390fb3ab8fcb39c73a74466b041134392c9cba961b5e3e5e41514bc2ec",
+      "size_bytes": 2133,
+      "git_blob_sha1": "17ad4c1047bf463a8c01e20de4a554ba44b2716e",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "N14/validation/arrival-facing-enum-note.txt",
+      "sha256": "a2f6c8fa7db2fb8ce8c55baeccc6e77912a1e4b8af0241543c91de55bb2f2807",
+      "size_bytes": 233,
+      "git_blob_sha1": "70c40b0ad1e44e773e5bd8af2aa1cafaf2e596be",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "N14/validation/arrival.log",
+      "sha256": "4eb285c84a386adc6b03ddb67c2ed6950b2a7fa251a3c34dfb08769e06ee589f",
+      "size_bytes": 656,
+      "git_blob_sha1": "5e1fcbc88fc8c2f180fdd79d7ec02fa29af8cbf1",
+      "storage": "library",
+      "reason": "runtime_asset_or_other_format"
+    },
+    {
+      "path": "N14/validation/native-arrival-routes.json",
+      "sha256": "5cb3be3fe69a2f3a97aca23d1cc34947ab25acfa9dbbfc56e9ce0263a5b82d92",
+      "size_bytes": 307841,
+      "git_blob_sha1": "38f59d8bf340a9df1e1134863d36452ce2b10ab6",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "N14/validation/static.json",
+      "sha256": "3d1aaad1f1b9d8bfaa157288aecf335137480719972acedc260252c359fa806e",
+      "size_bytes": 1406,
+      "git_blob_sha1": "b898493985f19a75f0eddb4b5ddf3e159cb391c4",
+      "storage": "library",
+      "reason": "generated_or_reference_evidence"
+    },
+    {
+      "path": "PORTABLE-README.txt",
+      "sha256": "78d14a93992c884198b3e18b13883f3b8d21c96adb1070abcc927e3c37f89e4b",
+      "size_bytes": 579,
+      "git_blob_sha1": "7f11402c6503a90260f081d11f3e6347cac69c1a",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "SOURCE-CONTENTS-SHA256.txt",
+      "sha256": "ef523abe407b6a827e2e38f4660027e29bde917edbbfbad3802353443308751d",
+      "size_bytes": 5349,
+      "git_blob_sha1": "e836939f53d21e2bd7e815167dd5339054c0eb68",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "fixtures/ACTOR-PROVENANCE.json",
+      "sha256": "5b985c9e5fcffff1fd2fe6d2b388a735e6d2cdb701c508ba7a205a10556c1c00",
+      "size_bytes": 10419,
+      "git_blob_sha1": "0e389096d670fcd79884c0b60976ecd57f91694f",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "fixtures/proof-actors-east.png",
+      "sha256": "fb40efa695c371ebd62eeb957450b3954501a1291f208da721d86b39472b537c",
+      "size_bytes": 11874,
+      "git_blob_sha1": "9deaa23d7f5e0676917ce7131e7bab43cf5e028b",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "fixtures/proof-actors-north.png",
+      "sha256": "0a181bcc16de56b3e56316c169109fba8b61788e0801504a3bd0b56a76541934",
+      "size_bytes": 10889,
+      "git_blob_sha1": "b8c08fdf50a7914cb1741cd3e89c26237b699d05",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "fixtures/proof-actors-south.png",
+      "sha256": "30d23563ec7cb82be8a0902856cd4ea851327128c9ecedf427df39f931824ca0",
+      "size_bytes": 14300,
+      "git_blob_sha1": "92a6471c782ff720916f8d757ad0b65d03de2115",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "fixtures/proof-actors-west.png",
+      "sha256": "82d3e86db5800c4b17558c8278e867bb908c676647c5f724b0fe38438df8e121",
+      "size_bytes": 12012,
+      "git_blob_sha1": "74a173ae40992bee4331a4309222e0978490bd61",
+      "storage": "library",
+      "reason": "binary_asset"
+    },
+    {
+      "path": "source/N14-aisle-repair-original.png",
+      "sha256": "e2bee38f3c1e317da9d42570d0a01bcad5a8c756d4b2f85b9b8ef35a19d18d01",
+      "size_bytes": 2661362,
+      "git_blob_sha1": "57e40c890d713e9efd3e3b21ddb1b8089133ab5a",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source/N14-fullscene-prompt.txt",
+      "sha256": "b67c59743f30b807031b16865454c039d9a6dc1c54ff9336141b9c7e4ddd5abb",
+      "size_bytes": 1565,
+      "git_blob_sha1": "f38fff78432c4479a8b8b3ea62ab23c7c1cd8a2a",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/N14-lessons.json",
+      "sha256": "2d43e2ca8b51bcf78ffce9aba34dd5a3be5751592c9b499289a08cc657152ed7",
+      "size_bytes": 697,
+      "git_blob_sha1": "6fd9f875efddfea30b85156979a6227477bc1eb7",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "source/N14-original.png",
+      "sha256": "8bef3e934710aba3cd405e1bac78abaa052a8d7f82479efb295e8cee0238f286",
+      "size_bytes": 3006511,
+      "git_blob_sha1": "ffa209b637d7d51f90faa875917c218e4583e440",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source/N14-scene-r2.png",
+      "sha256": "cee723505760a6289406d4b7f2f5a2560142834bdd788504059b13aeb193e0ac",
+      "size_bytes": 1631562,
+      "git_blob_sha1": "cacee5c8d19d53920957c1587f5327c37800f006",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "source/N14-scene.png",
+      "sha256": "b9d7f42e8d0099ba637cbe71d22d72f672a32860e0123237fb5435ebe8a84169",
+      "size_bytes": 1785155,
+      "git_blob_sha1": "4d7e990ef15a19fba16d1e96c8f10ebecbe1149a",
+      "storage": "library",
+      "reason": "large_file"
+    },
+    {
+      "path": "tools/build.py",
+      "sha256": "bd76b0950f43b99bb21cee23ae9e4c3b4c5f78de8801886f5b408ed5dc056f8e",
+      "size_bytes": 45433,
+      "git_blob_sha1": "2881434c93231bcc295d10cb19a1bd80d7f59916",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/freeze.py",
+      "sha256": "00781b6227212be33da052a5a4b4568c2ad60c564b2fbf3ac3351a0ef53e575c",
+      "size_bytes": 7096,
+      "git_blob_sha1": "dd7c15b270128a859d91cf0cc96d3469a89b01dd",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/arrival-audit.cjs",
+      "sha256": "3bbb38b336ac449e98cb190d9468405e81ae8c2e953a176827ad16b0ee56c232",
+      "size_bytes": 5487,
+      "git_blob_sha1": "d55eb69006faf5580456eba3da9a2e1a7e28a4ae",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/easystar-0.4.4.js",
+      "sha256": "071b6a325b5c9eacfbbe836c6fd4b91dbf362f6665556b1dc12317511e97fc95",
+      "size_bytes": 25143,
+      "git_blob_sha1": "91c1011123b2eafdb0d3de614120ad6a9d9c5279",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/extracted-current-source.cjs",
+      "sha256": "e71a5f0179e359e6859477604ab759b9aa7c50e0d793c4df827d6978964fcd79",
+      "size_bytes": 31744,
+      "git_blob_sha1": "4df97863541382687271aa3dc753ae57438f1cc1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/native-runtime-portable.cjs",
+      "sha256": "56b1a9908880bc2bbd25d2cf4754c0a4e88f414d142b4fbf13a0169cf23d990c",
+      "size_bytes": 2190,
+      "git_blob_sha1": "7c2d9ca60b15caa8e5495862eb9186d1a4dd6fb1",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/route-audit.cjs",
+      "sha256": "995d45f73d2840cf9a1a6f8256532bb1b0fd22564b8218fe9b2c0b7c1851f7ef",
+      "size_bytes": 5447,
+      "git_blob_sha1": "0d0ce787ab56eb350b36c077704842589ffb0a15",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source-method-manifest.json",
+      "sha256": "86c7dff4e686ea1c12f638626042618a6b35c96bb8a4b0c7c54e0becc119d665",
+      "size_bytes": 5842,
+      "git_blob_sha1": "9c67df6e15e4e0cc5592a86346ce27f94991c5b9",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/StartPositionCalculator.ts",
+      "sha256": "ab8b73cd967c5b2a66105a5c971fda7cf5cf097d48fc8a90ca11141b7153997a",
+      "size_bytes": 12453,
+      "git_blob_sha1": "c73f03c6e9242007acf839b0deb120f7664e2e7c",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/libs/math-utils/src/MathUtils.ts",
+      "sha256": "03fff3fddfae685b104b5337e5aafef2a4c4cba881c977de115355b4893212bc",
+      "size_bytes": 2002,
+      "git_blob_sha1": "fbf112735b3710294efd50fcb06a5006db5c3a6a",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/CameraManager.ts",
+      "sha256": "c6bea29bffe270221ec35435ea1181df5d670edeac0dbb3b1918db0da8553b80",
+      "size_bytes": 47978,
+      "git_blob_sha1": "cc79b8b6af93778aba3051b7f1b187897d449e7b",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/GameMap/GameMapFrontWrapper.ts",
+      "sha256": "f011429f25599b348640a57894b28560f3755da1a72b97cdfdbffd9ae2d3cdfc",
+      "size_bytes": 53557,
+      "git_blob_sha1": "93ab4bd2df2e8a5e8f2ca748bb351b3e0e0a4436",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Game/GameScene.ts",
+      "sha256": "7c901514db24890c3750631d8e32124643e87de41750fb90e4a2d7f54ac1c146",
+      "size_bytes": 200530,
+      "git_blob_sha1": "4451b827cb48f9baeea4daa06cc62a6c419ff864",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Player/Player.ts",
+      "sha256": "47c30fe3c2d16f52da3b499599de57b2240e75be4d91b2c816aae1179e8bc3d9",
+      "size_bytes": 15312,
+      "git_blob_sha1": "3b1eee86204b1d5993ad1e7784cdf6961c9416f0",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Services/HdpiManager.ts",
+      "sha256": "6e25f9e127d3b712edf8ab7e87b1f11f82f8b4681772ccfe1d20c868e3f4d3fc",
+      "size_bytes": 5693,
+      "git_blob_sha1": "a87b8fba27dc5dcbd0b018f1e504448d704f5293",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/Services/WaScaleManager.ts",
+      "sha256": "d811cf48d3fa8561a37a6689bcc0e639f5ceb1837fb3d762b326e104dde77a27",
+      "size_bytes": 8256,
+      "git_blob_sha1": "2005fd7b22a57983d8e92820a7914e1b86b2017f",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Phaser/UserInput/GameSceneUserInputHandler.ts",
+      "sha256": "d4bdce55f82caa5e94e372fa2ca57eb2a241f0ed0e78609d4dedb975b665a89a",
+      "size_bytes": 13849,
+      "git_blob_sha1": "a50370cc0927de73cff75dd5d46e72543d8fa935",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/native/source/play/src/front/Utils/PathfindingManager.ts",
+      "sha256": "b6d055091ec000f2e47b3e1def2f7ee7c42aae96ff3301c36a8b26b9c1b0c715",
+      "size_bytes": 12672,
+      "git_blob_sha1": "5b74fe6971bf14674f5c66b17b8ac1508eaee942",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    },
+    {
+      "path": "tools/package.py",
+      "sha256": "f21e333ee87ee2fd06b7e62d0c6d04d2a0b69eb99803b5ca1ef4194aa7423a83",
+      "size_bytes": 5861,
+      "git_blob_sha1": "6a5429c6b6378c9a82d425bd50a2e7db5bdafcf7",
+      "storage": "git",
+      "reason": "small_authoring_text"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "scope": "Mock-only diagnostic of unchanged original controller",
+  "sequence": [
+    "Initialize at houseDoor",
+    "Invoke Enter keeper’s house; reject teleport",
+    "Hold rejection-recovery getPosition() pending",
+    "Emit a newer onPlayerMove at chart",
+    "Resolve older recovery position as houseDoor"
+  ],
+  "expected": {
+    "chart": false,
+    "key": false,
+    "fuse": false,
+    "power": false,
+    "bearing": 0,
+    "lens": 0,
+    "signal": [],
+    "complete": false,
+    "current": "chart",
+    "busy": false
+  },
+  "observed": {
+    "chart": false,
+    "key": false,
+    "fuse": false,
+    "power": false,
+    "bearing": 0,
+    "lens": 0,
+    "signal": [],
+    "complete": false,
+    "current": "houseDoor",
+    "busy": false
+  },
+  "diagnosis": "Delayed rejection-recovery position overwrites the newer movement because this path checks disposed/transitionId but does not guard moveCount.",
+  "messages": [
+    "The doorway did not complete its move. Your progress is safe. Try the nearby doorway again."
+  ]
+}

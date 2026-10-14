@@ -1,0 +1,63 @@
+{
+  "world": {
+    "width": 1024,
+    "height": 896,
+    "tileSize": 32
+  },
+  "audienceSeatCount": 48,
+  "panelPlaces": 3,
+  "rows": [
+    {
+      "row": "A",
+      "count": 12
+    },
+    {
+      "row": "B",
+      "count": 16
+    },
+    {
+      "row": "C",
+      "count": 20
+    }
+  ],
+  "panelActors": [
+    {
+      "id": "panel-left",
+      "x": 456,
+      "y": 195,
+      "frame": 1
+    },
+    {
+      "id": "panel-center",
+      "x": 512,
+      "y": 200,
+      "frame": 1
+    },
+    {
+      "id": "panel-right",
+      "x": 568,
+      "y": 195,
+      "frame": 1
+    }
+  ],
+  "referenceActors": [
+    {
+      "id": "entry",
+      "x": 496,
+      "y": 785,
+      "frame": 10
+    },
+    {
+      "id": "perimeter",
+      "x": 144,
+      "y": 528,
+      "frame": 10
+    },
+    {
+      "id": "side-approach",
+      "x": 816,
+      "y": 240,
+      "frame": 4
+    }
+  ]
+}

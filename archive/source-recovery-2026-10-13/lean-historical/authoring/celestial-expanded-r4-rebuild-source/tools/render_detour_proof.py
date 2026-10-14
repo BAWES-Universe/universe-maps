@@ -1,0 +1,9 @@
+from PIL import Image,ImageDraw
+from pathlib import Path
+import json,numpy as np
+r=Path(__file__).resolve().parents[1];p=r/'celestial-transit-garden';lo=Image.open(p/'source/runtime-base.png').convert('RGBA');hi=Image.open(p/'source/runtime-above.png').convert('RGBA');sp=Image.open(r/'source/greg-reference.png').convert('RGBA');out=Image.new('RGB',(1280,576),'#182d35');d=ImageDraw.Draw(out)
+for i,(x,y,direction) in enumerate([(824,1007,'east'),(840,1007,'east'),(840,1007,'west'),(824,1007,'west'),(1224,1007,'east'),(1240,1007,'east'),(1240,1007,'west'),(1224,1007,'west')]):
+ f=7 if direction=='east' else 4
+ frame=sp.crop((f%3*32,f//3*32,f%3*32+32,f//3*32+32));im=lo.copy();im.alpha_composite(frame,(x-16,y-16));im.alpha_composite(hi);xx=(i%4)*320;yy=(i//4)*288;out.paste(im.crop((x-56,y-48,x+56,y+64)).resize((224,224)),(xx+48,yy+38));d.text((xx+8,yy+12),f'{direction} along supported stone ({x},{y})',fill='white')
+out.save(r/'conifer-detour-occupied-proof.png')
+old=json.load(open(r/'source/expanded-r2-layout.json'));new=json.load(open(p/'source/layout.json'));a=np.array(old['grid']);b=np.array(new['grid']);delta={'newlyBlockedCells':[[int(x),int(y)] for y,x in np.argwhere((a==0)&(b==1))],'newlyAdmittedStoneCells':[[int(x),int(y)] for y,x in np.argwhere((a==1)&(b==0))],'anchorMoves':[{'id':n['id'],'from':[o['x'],o['y']],'to':[n['x'],n['y']]} for o,n in zip(old['anchors'],new['anchors']) if (o['x'],o['y'])!=(n['x'],n['y'])],'exactArtworkComposite':Image.alpha_composite(lo,hi).tobytes()==Image.open(r/'source/final-composite.png').convert('RGBA').tobytes(),'spawnExact':old['start']==new['start']};(p/'validation/exact-collision-delta.json').write_text(json.dumps(delta,indent=2));print({k:v for k,v in delta.items() if 'Cells' not in k});print('blocked',len(delta['newlyBlockedCells']),'admitted',len(delta['newlyAdmittedStoneCells']))

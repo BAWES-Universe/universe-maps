@@ -1,0 +1,18 @@
+PASS cycle 1 live commands work after join {"commands":[{"type":"scripting","label":"Open pavilion door","key":"Open pavilion door","visible":{}},{"type":"scripting","label":"View moon terrace","key":"View moon terrace","visible":{}},{"type":"scripting","label":"Enable test bell ambience","key":"Enable test bell ambience","visible":{}},{"type":"scripting","label":"Silence test ambience","key":"Silence test ambience","visible":{}}],"camera":{"x":93,"y":382,"zoom":1,"width":720,"height":450,"scaleZoom":2,"modifier":1,"savedZoom":1,"mode":"Follow"}}
+FAIL cycle 1 real map departure removes menus and audio page.evaluate: GameSceneNotFoundError: Not the Game Scene
+    at GameManager.getCurrentGameScene (http://localhost:8080/src/front/Phaser/Game/GameManager.ts:231:13)
+    at eval (eval at evaluate (:290:30), <anonymous>:1:179)
+    at async <anonymous>:316:30
+FAIL real rejoin restores exactly four usable commands page.evaluate: GameSceneNotFoundError: Not the Game Scene
+    at GameManager.getCurrentGameScene (http://localhost:8080/src/front/Phaser/Game/GameManager.ts:231:13)
+    at eval (eval at evaluate (:290:30), <anonymous>:1:179)
+    at async <anonymous>:316:30
+FAIL cycle 2 live commands work after join expect(received).toHaveLength(expected)
+
+Expected length: 4
+Received length: 0
+Received array:  []
+FAIL cycle 2 real map departure removes menus and audio frame.evaluate: ReferenceError: WA is not defined
+    at eval (eval at evaluate (:290:30), <anonymous>:1:11)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)

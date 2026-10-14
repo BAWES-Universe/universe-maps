@@ -1,0 +1,39 @@
+{
+  "engineHead": "aa3ca1d60801172bfd97b6619bbf351c17eb3dba",
+  "tileSize": 32,
+  "mapSize": [
+    36,
+    26
+  ],
+  "scope": "Isolated local technical slice; provisional original-fixture art, not Moonlit art approval",
+  "route": [
+    [
+      14,
+      22
+    ],
+    [
+      14,
+      10
+    ],
+    [
+      29,
+      13
+    ]
+  ],
+  "doorCells": [
+    [
+      13,
+      13
+    ],
+    [
+      14,
+      13
+    ]
+  ],
+  "doorPolicy": "Open by default, no automatic closing. Shared opening only. Explicit doorDemo=single-client mode (legacy qaDoorClose=1) enables local close/open controls; not multiplayer safe.",
+  "doorMotionMs": 320,
+  "roofPolicy": "Per-player, hysteretic stepped authored opacity cutaway; not native continuous alpha tween",
+  "audio": "Optional original local tide-signal bell test loop, silent default. Not final music or waterfall recording.",
+  "seat": "Accessible standing approach next to seat art; no sitting mechanic claimed",
+  "verification": "Source/adapter tests and static renders only; no live game pass"
+}

@@ -1,0 +1,25 @@
+✔ default fails open and exposes no close command (6.484741ms)
+✔ QA close refuses occupied threshold (0.471385ms)
+✔ closing animation finishes before collision enabled; reopening releases at end (3.658708ms)
+✔ opening cancels stale close and leaves passage open (1.083686ms)
+✔ entering threshold during closing aborts and opens (2.272309ms)
+✔ roof hysteresis and camera restore are local (2.848159ms)
+✔ audio starts silent, explicit on uses native carrier, off unloads (2.356757ms)
+✔ disposal removes menus, cancels animations, restores follow and opens door (3.506984ms)
+✔ audio cleanup throws cannot block camera restore or collision release (3.968886ms)
+✔ failed collision cleanup remains retryable after disposal (5.895405ms)
+✔ camera cleanup rejection is contained and retryable (4.119167ms)
+✔ roof reverses from displayed alpha without jumping to a fixed stage (0.582078ms)
+✔ explicit single-client demo exposes named controls and completes full motion cycle (13.545563ms)
+✔ starting inside never flashes an opaque roof before cutting away (0.301415ms)
+✔ unsubscribe and menu exceptions do not prevent independent recovery attempts (3.789642ms)
+✔ failed visual write does not poison cache or suppress a later cleanup retry (2.735803ms)
+✔ roof reversal from every intermediate stage advances only one alpha step (4.350911ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 519.458101

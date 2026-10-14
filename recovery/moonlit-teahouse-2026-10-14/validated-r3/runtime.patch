@@ -1,0 +1,21 @@
+--- /workspace/scratch/moonlit-validation/sealed-r2/runtime/moonlit.js	2026-10-14 19:35:27.025598383 +0000
++++ /workspace/scratch/moonlit-repair-r3/candidate/runtime/moonlit.js	2026-10-14 20:59:31.206128016 +0000
+@@ -3,7 +3,7 @@
+  * doorDemo=single-client (legacy qaDoorClose=1) is SINGLE-CLIENT TEST MODE, never multiplayer-safe occupancy arbitration.
+  */
+ (function(root){'use strict';
+-function createExperience(WA,clock={setTimeout,clearTimeout}){
++function createExperience(WA,clock={setTimeout:(fn,ms)=>root.setTimeout(fn,ms),clearTimeout:id=>root.clearTimeout(id)}){
+  let door='open',frame=4,doorEpoch=0,roofEpoch=0,roofInside=false,roofStage=0,disposed=false,position={x:448,y:704},moveCount=0,cameraTimer;
+  const timers=new Set(),menus=[],subs=[],visibility=new Map(),cleanupErrors=[];
+  const demo=()=>WA.room.hashParameters.doorDemo==='single-client'||WA.room.hashParameters.qaDoorClose==='1';
+@@ -38,7 +38,8 @@
+   WA.room.setProperty('native-audio','audioVolume',0);WA.room.setProperty('native-audio','audioLoop',true);WA.room.setProperty('native-audio','playAudio','audio/silent-carrier.wav');
+  }
+  function viewTerrace(){if(disposed)return;if(cameraTimer){clock.clearTimeout(cameraTimer);timers.delete(cameraTimer)}WA.camera.set(944,400,448,384,false,true,650);cameraTimer=later(()=>{cameraTimer=null;WA.camera.followPlayer(true,500)},1500)}
+- function menu(label,fn){menus.push(WA.ui.registerMenuCommand(label,()=>{if(!disposed)fn()}))}
++ // This engine removes script menus by label on iframe close; use the same supported key.
++ function menu(label,fn){menus.push(WA.ui.registerMenuCommand(label,{key:label,callback:()=>{if(!disposed)fn()}}))}
+  async function init(){failOpen();for(let j=1;j<=4;j++)visible('roof-alpha-'+j,false);
+   subs.push(WA.state.onVariableChange('doorOpen').subscribe(value=>{if(value===true&&!disposed)animate(true)}));
+   const subscription=WA.player.onPlayerMove(move);if(subscription)subs.push(subscription);

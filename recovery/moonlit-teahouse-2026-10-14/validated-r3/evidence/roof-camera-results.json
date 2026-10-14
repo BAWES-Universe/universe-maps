@@ -1,0 +1,234 @@
+{
+  "checks": [
+    {
+      "name": "actual roof reversal with controlled in-map position changes",
+      "status": "pass",
+      "detail": {
+        "stages": [
+          4,
+          3,
+          2,
+          1,
+          2,
+          3,
+          4,
+          3,
+          2,
+          1,
+          0,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ],
+        "intermediate": [
+          {
+            "name": "roof-alpha-2",
+            "visible": true,
+            "alpha": 0.5,
+            "depth": 1000000
+          }
+        ],
+        "glassAlwaysVisible": true
+      }
+    },
+    {
+      "name": "camera actual scale reveal and timed follow restoration",
+      "status": "pass",
+      "detail": {
+        "before": {
+          "x": 432,
+          "y": 167,
+          "zoom": 1,
+          "width": 720,
+          "height": 450,
+          "scaleZoom": 2,
+          "modifier": 1,
+          "savedZoom": 1,
+          "mode": "Follow"
+        },
+        "scenic": {
+          "x": 537,
+          "y": 207,
+          "zoom": 1,
+          "width": 615,
+          "height": 384,
+          "scaleZoom": 2.341463414634146,
+          "modifier": 1.171875,
+          "savedZoom": 1,
+          "mode": "Positioned"
+        },
+        "returned": {
+          "x": 432,
+          "y": 167,
+          "zoom": 1,
+          "width": 720,
+          "height": 450,
+          "scaleZoom": 2,
+          "modifier": 1,
+          "savedZoom": 1,
+          "mode": "Follow"
+        }
+      }
+    },
+    {
+      "name": "camera movement interruption restores follow",
+      "status": "pass",
+      "detail": {
+        "position": {
+          "x": 944,
+          "y": 488
+        },
+        "camera": {
+          "x": 432,
+          "y": 239,
+          "zoom": 1,
+          "width": 720,
+          "height": 450,
+          "scaleZoom": 2,
+          "modifier": 1,
+          "savedZoom": 1,
+          "mode": "Follow"
+        }
+      }
+    },
+    {
+      "name": "real script initializes indoors without showing roof",
+      "status": "pass",
+      "detail": {
+        "setup": "walked indoors in live game while only script response was held; released original unchanged script",
+        "route": {
+          "x": 456,
+          "y": 288,
+          "cancelled": false
+        },
+        "position": {
+          "x": 456,
+          "y": 288
+        },
+        "roofSamples": 62,
+        "roofVisibleSamples": 0
+      }
+    }
+  ],
+  "clients": {
+    "RoofCamera": {
+      "url": "http://localhost:8000/_/r3-moonlit-roof-camera/localhost:8081/moonlit-repair-r3/moonlit.tmj",
+      "mobileEmulation": false,
+      "errors": [
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag."
+      ],
+      "console": [
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x25f40abcca00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x25f40abcca00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x25f40abcca00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x25f40abcca00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+        },
+        {
+          "type": "warning",
+          "text": "Service Worker registration blocked by Playwright"
+        },
+        {
+          "type": "warning",
+          "text": "saveName: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "warning",
+          "text": "saveTextures: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has a video track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has an audio track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "<ExploreMenuItem> was created with unknown prop 'last'"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        }
+      ],
+      "blocked": [],
+      "failedRequests": [],
+      "errorStacks": [
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7"
+      ]
+    },
+    "IndoorInit": {
+      "url": "http://localhost:8000/_/r3-moonlit-roof-camera/localhost:8081/moonlit-repair-r3/moonlit.tmj?indoor-init=1",
+      "mobileEmulation": false,
+      "errors": [
+        "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag."
+      ],
+      "console": [
+        {
+          "type": "warning",
+          "text": "Service Worker registration blocked by Playwright"
+        },
+        {
+          "type": "warning",
+          "text": "saveName: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "warning",
+          "text": "saveTextures: skipped — missing auth or capability. authToken: true capability: undefined"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has a video track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "[MediaStore] New stream already has an audio track, cannot reuse old one"
+        },
+        {
+          "type": "error",
+          "text": "Explore: could not load the universe's rooms Error: No admin backoffice set!\n    at RoomConnection.socket.onmessage [as _onmessageListener] (http://localhost:8080/src/front/Connection/RoomConnection.ts:568:28)\n    at WebSocket._apiSendToPage (<anonymous>:207:12)\n    at globalThis.__pwWebSocketDispatch (<anonymous>:87:10)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:12)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        {
+          "type": "warning",
+          "text": "<ExploreMenuItem> was created with unknown prop 'last'"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        },
+        {
+          "type": "warning",
+          "text": "Switching communication strategy to WEBRTC"
+        }
+      ],
+      "blocked": [],
+      "failedRequests": [],
+      "errorStacks": [
+        "SecurityError: Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.\n    at <anonymous>:3:15\n    at <anonymous>:5:7"
+      ]
+    }
+  }
+}

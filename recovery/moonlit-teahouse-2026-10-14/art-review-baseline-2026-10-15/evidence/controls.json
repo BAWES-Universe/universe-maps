@@ -1,0 +1,71 @@
+{
+  "focused": {
+    "position": {
+      "x": 656,
+      "y": 960
+    },
+    "body": {
+      "left": 656,
+      "right": 672,
+      "top": 960,
+      "bottom": 976
+    },
+    "camera": {
+      "x": 48,
+      "y": 62,
+      "zoom": 0.87890625,
+      "width": 1440,
+      "height": 900,
+      "scaleZoom": 0.8785845027455765,
+      "modifier": 0.439453125,
+      "savedZoom": 1,
+      "mode": "Positioned"
+    },
+    "layers": [],
+    "doorGrid": [
+      1,
+      1
+    ],
+    "playerDepth": 976
+  },
+  "returned": {
+    "position": {
+      "x": 656,
+      "y": 960
+    },
+    "body": {
+      "left": 656,
+      "right": 672,
+      "top": 960,
+      "bottom": 976
+    },
+    "camera": {
+      "x": 296,
+      "y": 574,
+      "zoom": 1,
+      "width": 720,
+      "height": 450,
+      "scaleZoom": 2,
+      "modifier": 1,
+      "savedZoom": 1,
+      "mode": "Follow"
+    },
+    "layers": [],
+    "doorGrid": [
+      1,
+      1
+    ],
+    "playerDepth": 976
+  },
+  "audio": [
+    {
+      "paused": false,
+      "time": 1.560478
+    },
+    {
+      "paused": false,
+      "time": 1.56048
+    }
+  ],
+  "remainingAudio": 0
+}

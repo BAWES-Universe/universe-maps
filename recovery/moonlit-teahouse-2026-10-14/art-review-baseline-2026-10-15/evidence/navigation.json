@@ -1,0 +1,74 @@
+[
+  {
+    "name": "lower-garden",
+    "before": {
+      "x": 656,
+      "y": 960
+    },
+    "result": {
+      "initial": {
+        "x": 656,
+        "y": 704,
+        "cancelled": false
+      },
+      "actual": {
+        "x": 656,
+        "y": 704
+      }
+    }
+  },
+  {
+    "name": "mosaic-court",
+    "before": {
+      "x": 656,
+      "y": 704
+    },
+    "result": {
+      "initial": {
+        "x": 1232,
+        "y": 608,
+        "cancelled": false
+      },
+      "actual": {
+        "x": 1232,
+        "y": 608
+      }
+    }
+  },
+  {
+    "name": "upper-ruins",
+    "before": {
+      "x": 1232,
+      "y": 608
+    },
+    "result": {
+      "initial": {
+        "x": 1264,
+        "y": 224,
+        "cancelled": false
+      },
+      "actual": {
+        "x": 1264,
+        "y": 224
+      }
+    }
+  },
+  {
+    "name": "gazebo-approach",
+    "before": {
+      "x": 1264,
+      "y": 224
+    },
+    "result": {
+      "initial": {
+        "x": 336,
+        "y": 256,
+        "cancelled": false
+      },
+      "actual": {
+        "x": 336,
+        "y": 256
+      }
+    }
+  }
+]

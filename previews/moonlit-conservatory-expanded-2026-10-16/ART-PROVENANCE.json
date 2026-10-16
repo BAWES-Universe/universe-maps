@@ -1,0 +1,25 @@
+{
+  "method": "Built-in image_gen editing of existing Moonlit artwork and map-only renderer reference. No external paid API or credit purchase. Runtime image bytes copied unchanged; tilemap placements and geometry authored locally.",
+  "originalReference": "/workspace/scratch/moonlit-scale-repair/navigation-revision/runtime/furniture-scale-scene.png",
+  "acceptedSourceImages": {
+    "interior-original.png": "exec-cca49daa-90c2-41ad-b9cd-8e816353eee1.png",
+    "exterior-original.png": "exec-8752c701-8a1d-4164-aabb-b633d85a0edc.png",
+    "expansion-clean.png": "exec-5b389505-a31e-41a7-abcd-13b01fe6c2cc.png",
+    "expansion-exterior.png": "exec-ee75e8c6-8c51-44e8-ba3b-a91c964cae2b.png",
+    "junction-continuous.png": "exec-b3c77406-301c-451c-8879-5d72bca2ced9.png",
+    "furniture-cutout.png": "moonlit-review-furniture-small.png",
+    "junction-mask.png": "exec-3ac9687c-0f44-4536-bf29-6150ed5f0bb6.png",
+    "junction-lamp-fix.png": "exec-27212ff3-41cd-4209-a025-73e6e664f128.png"
+  },
+  "architecture": "Registered full-scene exterior and clean-interior state plates; glass-only alpha attempts rejected for geometric drift. Compact furniture uses an actual separate RGBA cutout layer.",
+  "dimensions": [
+    1536,
+    2048
+  ],
+  "woka": {
+    "width": 32,
+    "height": 32,
+    "scale": 1
+  },
+  "published": "Preserved; this is local unpublished candidate."
+}

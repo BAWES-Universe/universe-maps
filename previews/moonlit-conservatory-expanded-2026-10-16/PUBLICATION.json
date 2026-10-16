@@ -1,0 +1,139 @@
+{
+  "runtime_zip_sha256": "fdf664b1424b2d8cba666d831dcfd53fa5a84fcf24816fc39526ef419eb9a8c5",
+  "dimensions": [
+    1536,
+    2048
+  ],
+  "independent_visual_review": "passed locally",
+  "screenshots": "local gameplay; final junction and accepted furniture evidence",
+  "files": {
+    "ART-PROVENANCE.json": {
+      "bytes": 1372,
+      "sha256": "d850d49bba21d2d9d85241ae731c4defa29ef8e8cc2ab83ee2d509fdc1240bb3"
+    },
+    "audio/PROVENANCE.txt": {
+      "bytes": 462,
+      "sha256": "22ea70c03cc169f086c9612644e604764de9fbf111f087a300c81e8eaddfd529"
+    },
+    "audio/fountain.mp3": {
+      "bytes": 144908,
+      "sha256": "629e31d1ba5298364a04a7845c91769d6a0ff3eaa9b1805f85fb3a86cf8a267e"
+    },
+    "audio/silent-carrier.wav": {
+      "bytes": 352844,
+      "sha256": "d632daecb4ab19e0f93f179107f4bb4240d5b261217dd6fe33505d7b4fc6106f"
+    },
+    "door-closed-scene.png": {
+      "bytes": 3683630,
+      "sha256": "b8e8324fe4253b6362eb91e1f53ab4c2e8683798cce395301b27b01edec457b5"
+    },
+    "door-half-scene.png": {
+      "bytes": 3534311,
+      "sha256": "475510a2f250ab57b8060d62ecc10e8475f733eb2cc3918918da0e94366e2c42"
+    },
+    "expansion-clean.png": {
+      "bytes": 3932307,
+      "sha256": "09d0e68183f38e5fde83a6e09ddb7eab022514d4639ca6070b4d8155026f4580"
+    },
+    "expansion-exterior.png": {
+      "bytes": 3642838,
+      "sha256": "606227ca8206845bcf10f459ebbe80192a352f05950c7fd3b0a912d99e10dc31"
+    },
+    "exterior-original.png": {
+      "bytes": 3437913,
+      "sha256": "fd771cae755394711512847d285483afe4b245a2186e924a9fad6b6057b5cc2f"
+    },
+    "furniture-cutout.png": {
+      "bytes": 552130,
+      "sha256": "be56958eb20a3b5297e8a897f55098a2a65c5a9f91bc808780f4c431f741e5c8"
+    },
+    "interior-original.png": {
+      "bytes": 3502406,
+      "sha256": "d1a888dcfc031152217e5ac2013e44e4ae673d3b700ace842309356880e51a24"
+    },
+    "junction-continuous.png": {
+      "bytes": 3584609,
+      "sha256": "0fdbfeefd22df2d9edf7eb632f9372caf79731c8e016d052b7b80245d1d298a1"
+    },
+    "junction-lamp-fix.png": {
+      "bytes": 1817721,
+      "sha256": "d403795047b7976f126689a46640ee6d9dcd3148b9b31bad7e3c09da5e141c5f"
+    },
+    "junction-mask.png": {
+      "bytes": 1262821,
+      "sha256": "7a0413edbe27bcc119a42e6eb2adcbe09fd7a97828ca6827d61e0c04367fcde0"
+    },
+    "markers.png": {
+      "bytes": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    "moonlit.tmj": {
+      "bytes": 361892,
+      "sha256": "eba319e4bd09d373f8621ce2161646e0e0c68ec550896616dda5b49b8943d441"
+    },
+    "roof-counter-scene.png": {
+      "bytes": 3416475,
+      "sha256": "c3a0520701eb49e9189e24f24ec4bdb4785383bfd47e549856adfd4c2bcc88cd"
+    },
+    "roof-scene.png": {
+      "bytes": 3559415,
+      "sha256": "23a81448c54765c7b5c3616915c393a482fbbb5bbde34ef8944a3f91a4062148"
+    },
+    "scene.js": {
+      "bytes": 12649,
+      "sha256": "d0d3503c6c47a637957ece44d3ab0cbbdead31d488fb3842fa4d0d50810b1843"
+    },
+    "tea-ritual.png": {
+      "bytes": 687,
+      "sha256": "d7e0cb63aa0e984bbce5ab77a01e8d7a53cd6b4bdf3b17401fe609193b5f427f"
+    },
+    "waterfall-animation.png": {
+      "bytes": 739417,
+      "sha256": "821b4a9f33b70b025498a589e58d3a4650d40a2e0c331269c00a9637c181cf5c"
+    },
+    "manifest.json": {
+      "bytes": 2803,
+      "sha256": "257185c77f32340c4002b5c1dad6a9f9f55d16d3529dd0e5f319bea6b1ed8f41"
+    },
+    "review/junction-lower.png": {
+      "bytes": 1232336,
+      "sha256": "d35638f2a9d9cebc13861c5dd2a6db7eacde7e2b23c18c356ba0178cb0204e91"
+    },
+    "review/junction-middle.png": {
+      "bytes": 1224244,
+      "sha256": "70abfa209e24e8e17d2780b9d4bcfa160f69b211da112270f09cfe051b21a1ba"
+    },
+    "review/junction-upper.png": {
+      "bytes": 1214760,
+      "sha256": "2d66c80239e2eb2b4d96bb7de5c34591115cca1feffa33554700acff12989abb"
+    },
+    "review/furniture-scale.png": {
+      "bytes": 1252085,
+      "sha256": "b37082b5d9c33bc9ed822856d9bb1ff14d501cf8bb081c59946a40daf3006c47"
+    },
+    "review/new-pavilion-inside.png": {
+      "bytes": 1246872,
+      "sha256": "3b039f6b941d84b59755336272c0e1a204c6b61c69c3db1d1cad7a7f5c1300ba"
+    },
+    "review/new-pavilion-outside.png": {
+      "bytes": 1246247,
+      "sha256": "2d50e719e0085286c6c1ab83c0b1abc988077f95a20301ca6fa1d9fc2543d514"
+    },
+    "review/original-pavilion-inside.png": {
+      "bytes": 1179136,
+      "sha256": "00ab076f63fd1b8d9582dc3254726d3b3c928541ca3ff22ee5042b17cf607061"
+    },
+    "review/touch-serve.png": {
+      "bytes": 1226743,
+      "sha256": "e5dfe4189bb4aa7b31c583b15fa82b68b5ae8f01d5f0f5aac2bbae7d6327d068"
+    },
+    "review/mouse-served.png": {
+      "bytes": 937710,
+      "sha256": "48b2d6d1bf31328617b6475501e68502702768095618bfdd886d9adf7c2b38a1"
+    },
+    "review/index.html": {
+      "bytes": 1326,
+      "sha256": "dc91e5a197aa967d44028f7f21a764844233ea7d07741d17a14041760194e53e"
+    }
+  }
+}

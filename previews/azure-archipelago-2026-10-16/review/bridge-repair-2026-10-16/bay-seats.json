@@ -1,0 +1,258 @@
+[
+  {
+    "id": "viewing-bay-0",
+    "target": {
+      "id": "viewing-bay-0",
+      "island": "bridge",
+      "x": 2363,
+      "y": 1712,
+      "approachDistance": 32,
+      "approachX": 0,
+      "facing": "down"
+    },
+    "ready": true,
+    "occupied": {
+      "x": 2363,
+      "y": 1712,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exit": {
+      "x": 2363,
+      "y": 1648,
+      "direction": 0,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exact": true
+  },
+  {
+    "id": "viewing-bay-1",
+    "target": {
+      "id": "viewing-bay-1",
+      "island": "bridge",
+      "x": 2756,
+      "y": 1712,
+      "approachDistance": 32,
+      "approachX": 0,
+      "facing": "down"
+    },
+    "ready": true,
+    "occupied": {
+      "x": 2756,
+      "y": 1712,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exit": {
+      "x": 2756,
+      "y": 1648,
+      "direction": 0,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exact": true
+  },
+  {
+    "id": "viewing-bay-2",
+    "target": {
+      "id": "viewing-bay-2",
+      "island": "bridge",
+      "x": 2363,
+      "y": 3376,
+      "approachDistance": 32,
+      "approachX": 0,
+      "facing": "down"
+    },
+    "ready": true,
+    "occupied": {
+      "x": 2363,
+      "y": 3376,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exit": {
+      "x": 2363,
+      "y": 3312,
+      "direction": 0,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exact": true
+  },
+  {
+    "id": "viewing-bay-3",
+    "target": {
+      "id": "viewing-bay-3",
+      "island": "bridge",
+      "x": 2756,
+      "y": 3376,
+      "approachDistance": 32,
+      "approachX": 0,
+      "facing": "down"
+    },
+    "ready": true,
+    "occupied": {
+      "x": 2756,
+      "y": 3376,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exit": {
+      "x": 2756,
+      "y": 3312,
+      "direction": 0,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exact": true
+  },
+  {
+    "id": "viewing-bay-4",
+    "target": {
+      "id": "viewing-bay-4",
+      "island": "bridge",
+      "x": 1744,
+      "y": 2363,
+      "approachDistance": 0,
+      "approachX": 32,
+      "facing": "left"
+    },
+    "ready": true,
+    "occupied": {
+      "x": 1744,
+      "y": 2363,
+      "direction": 3,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exit": {
+      "x": 1816,
+      "y": 2363,
+      "direction": 1,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 180,
+      "vy": 0
+    },
+    "exact": true
+  },
+  {
+    "id": "viewing-bay-5",
+    "target": {
+      "id": "viewing-bay-5",
+      "island": "bridge",
+      "x": 1744,
+      "y": 2756,
+      "approachDistance": 0,
+      "approachX": 32,
+      "facing": "left"
+    },
+    "ready": true,
+    "occupied": {
+      "x": 1744,
+      "y": 2756,
+      "direction": 3,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exit": {
+      "x": 1816,
+      "y": 2756,
+      "direction": 1,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exact": true
+  },
+  {
+    "id": "viewing-bay-6",
+    "target": {
+      "id": "viewing-bay-6",
+      "island": "bridge",
+      "x": 3408,
+      "y": 2363,
+      "approachDistance": 0,
+      "approachX": 32,
+      "facing": "left"
+    },
+    "ready": true,
+    "occupied": {
+      "x": 3408,
+      "y": 2363,
+      "direction": 3,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exit": {
+      "x": 3480,
+      "y": 2363,
+      "direction": 1,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exact": true
+  },
+  {
+    "id": "viewing-bay-7",
+    "target": {
+      "id": "viewing-bay-7",
+      "island": "bridge",
+      "x": 3408,
+      "y": 2756,
+      "approachDistance": 0,
+      "approachX": 32,
+      "facing": "left"
+    },
+    "ready": true,
+    "occupied": {
+      "x": 3408,
+      "y": 2756,
+      "direction": 3,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exit": {
+      "x": 3480,
+      "y": 2756,
+      "direction": 1,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exact": true
+  }
+]

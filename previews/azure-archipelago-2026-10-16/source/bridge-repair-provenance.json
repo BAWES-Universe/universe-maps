@@ -1,0 +1,11 @@
+{
+  "base_commit": "d0d9a80b4fbbbeac83e431493914524abc5fb424",
+  "scope": "Bridge floor continuity, landing inlays, and removal of lounge canopy interior lattice only.",
+  "assets": {
+    "bridge-floor.png": "Image generation: warm ivory limestone slabs without baked shadows, normalized to a native128px repeating slab.",
+    "bay.png": "Image edit of existing bay: remove baked floor while retaining outer rails and two seats; registered to original576x320 atlas.",
+    "threshold.png": "Build-generated thin limestone/brass inlay.",
+    "glass.png": "Build-generated muted perimeter outline; transparent interior."
+  },
+  "preserved": "All four canonical island images, hub/bridge art, geometry,55 seat definitions,17 table definitions,controller,water atlases,sea texture and sound byte-identical to base."
+}

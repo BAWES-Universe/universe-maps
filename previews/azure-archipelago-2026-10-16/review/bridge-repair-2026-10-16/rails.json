@@ -1,0 +1,90 @@
+[
+  {
+    "name": "north-bridge",
+    "state": {
+      "x": 2440,
+      "y": 1456,
+      "visible": true,
+      "zoom": 1,
+      "scale": 1
+    },
+    "blocked": true
+  },
+  {
+    "name": "south-bridge",
+    "state": {
+      "x": 2680,
+      "y": 3632,
+      "visible": true,
+      "zoom": 1,
+      "scale": 1
+    },
+    "blocked": true
+  },
+  {
+    "name": "west-bridge",
+    "state": {
+      "x": 1456,
+      "y": 2448,
+      "visible": true,
+      "zoom": 1,
+      "scale": 1
+    },
+    "blocked": true
+  },
+  {
+    "name": "east-bridge",
+    "state": {
+      "x": 3632,
+      "y": 2688,
+      "visible": true,
+      "zoom": 1,
+      "scale": 1
+    },
+    "blocked": true
+  },
+  {
+    "name": "north-bay",
+    "state": {
+      "x": 2312,
+      "y": 1744,
+      "visible": true,
+      "zoom": 1,
+      "scale": 1
+    },
+    "blocked": true
+  },
+  {
+    "name": "south-bay",
+    "state": {
+      "x": 2808,
+      "y": 3408,
+      "visible": true,
+      "zoom": 1,
+      "scale": 1
+    },
+    "blocked": true
+  },
+  {
+    "name": "west-bay",
+    "state": {
+      "x": 1744,
+      "y": 2320,
+      "visible": true,
+      "zoom": 1,
+      "scale": 1
+    },
+    "blocked": true
+  },
+  {
+    "name": "east-bay",
+    "state": {
+      "x": 3408,
+      "y": 2816,
+      "visible": true,
+      "zoom": 1,
+      "scale": 1
+    },
+    "blocked": true
+  }
+]

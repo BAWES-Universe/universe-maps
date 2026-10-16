@@ -141,7 +141,7 @@ def building(name,x,y,w,h,kind='office'):
   s.rectangle((x*T,y*T,(x+w)*T-1,(y+h-5)*T-1),fill='#6b746f',outline='#c1bda8',width=4)
   for yy in range(y*T+10,(y+h-5)*T,16):s.line((x*T+6,yy,(x+w)*T-7,yy),fill='#7c867c')
   for xx in range(x*T+8,(x+w)*T-8,32):s.line((xx,y*T+4,xx,(y+h-5)*T),fill='#616e68')
-  shell.alpha_composite(fitted_shell('redesign/tower-original.png',w,h,door-x,5,.84),(x*T,y*T))
+  shell.alpha_composite(fitted_shell('brand_reset/tower-original.png',w,h,door-x,5,.84),(x*T,y*T))
  elif kind!='portal':
   s.rectangle((x*T,y*T,(x+w)*T-1,(y+h-4)*T-1),fill='#596d63',outline='#b8bea7',width=3)
   shell.alpha_composite(fitted_shell('cowork-polished-original.png',w,h,door-x,4,.74),(x*T,y*T))
@@ -243,7 +243,7 @@ pond=[38,59,3,3];block(pond)
 water=Image.open(ROOT/'water.png').convert('RGBA')
 doors=[dict(name='tower-front-door',box=[19,50,6,1]),dict(name='tower-rear-door',box=[19,32,6,1]),dict(name='meeting-door',box=[19,47,1,2],lockedVariable='bawesMeetingLocked')]
 # Representative art review section; the rest of campus remains the rejected checkpoint.
-from redesign.assemble import apply as apply_redesign
+from brand_reset.assemble import apply as apply_redesign
 apply_redesign(ROOT,floor,backs,blocked,seats,tables)
 # Export faithful tile atlases; explicit collision is never inferred from artwork.
 layers=[];tilesets=[];gid=1
@@ -265,8 +265,8 @@ for b in buildings:
  ix,iy,iw,ih=b['interior'];layer(b['name']+'-interior',[logicgid+1 if ix<=x<ix+iw and iy<=y<iy+ih else 0 for y in range(H) for x in range(W)])
 layers.append(dict(id=len(layers)+1,type='objectgroup',name='floorLayer',x=0,y=0,opacity=1,visible=True,objects=[dict(id=1,name='bawesMeetingLocked',type='variable',point=True,x=18*T,y=48*T,width=0,height=0,rotation=0,visible=True,properties=[dict(name='default',type='bool',value=False),dict(name='persist',type='bool',value=False)])]))
 doorart=Image.new('RGBA',(64,32));dd=ImageDraw.Draw(doorart)
-dd.rectangle((0,3,31,28),fill=(35,29,54,95));dd.line((0,3,31,3),fill=(205,183,144,160));dd.line((0,28,31,28),fill=(81,76,104,180));dd.line((1,4,1,27),fill=(154,160,186,100))
-dd.rectangle((40,0,56,31),fill=(35,29,54,95));dd.line((40,0,40,31),fill=(205,183,144,160));dd.line((56,0,56,31),fill=(81,76,104,180))
+dd.rectangle((0,3,31,28),fill=(35,29,54,95));dd.line((0,3,31,3),fill=(165,190,235,160));dd.line((0,28,31,28),fill=(81,76,104,180));dd.line((1,4,1,27),fill=(154,160,186,100))
+dd.rectangle((40,0,56,31),fill=(35,29,54,95));dd.line((40,0,40,31),fill=(165,190,235,160));dd.line((56,0,56,31),fill=(81,76,104,180))
 doorart.save(ROOT/'doors.png');doorgid=gid;gid+=2
 tilesets.append(dict(firstgid=doorgid,name='doors',image='doors.png',imagewidth=64,imageheight=32,tilewidth=32,tileheight=32,tilecount=2,columns=2,tiles=[dict(id=i,properties=[dict(name='collides',type='bool',value=True)]) for i in range(2)]))
 for door in doors:
@@ -276,7 +276,7 @@ for name,img in covers.items():layer(name,atlas(name.removesuffix('-cover'),img)
 mapdata=dict(type='map',version='1.10',tiledversion='1.11.2',orientation='orthogonal',renderorder='right-down',infinite=False,width=W,height=H,tilewidth=T,tileheight=T,nextlayerid=len(layers)+1,nextobjectid=2,layers=layers,tilesets=tilesets,properties=[dict(name='script',type='string',value='runtime.js'),dict(name='mapCopyright',type='string',value='Original BAWES campus layout and architecture with selected 100 Roads WA Village furniture/material assets, used under user-reported partnership permission; see source/ASSET-PROVENANCE.md.')])
 (ROOT/'campus.tmj').write_text(json.dumps(mapdata,separators=(',',':'))+'\n')
 tower=next(b for b in buildings if b['name']=='tower')
-layout=dict(status='representative tower section art study; campus-wide redesign pending owner review',grid=[W,H,T],spawn=[22,53],entrance=tower['front_door'],rear_entrance=tower['rear_door'],interior=tower['interior'],building_footprint=tower['footprint'],buildings=buildings,studenthub_reserve=[45,34,18,16],seats=seats,tables=tables,pond=pond,main_route_width_px=192,portal_slots=portal_slots,doors=doors,meeting_room=[11,44,8,6],areas={'stage':[73,45,16,6],'beach':[4,69,89,9],'booths':[74,35,15,7],'staff_balcony':[73,24,17,2],'cowork_terrace':[10,24,24,2],'sea':[1,78,94,H-79]},tower_asset_bounds=[320,51*T-590,768,590])
+layout=dict(status='illustrated brand-reset representative study; campus-wide work paused for review',grid=[W,H,T],spawn=[22,53],entrance=tower['front_door'],rear_entrance=tower['rear_door'],interior=tower['interior'],building_footprint=tower['footprint'],buildings=buildings,studenthub_reserve=[45,34,18,16],seats=seats,tables=tables,pond=pond,main_route_width_px=192,portal_slots=portal_slots,doors=doors,meeting_room=[11,44,8,6],areas={'stage':[73,45,16,6],'beach':[4,69,89,9],'booths':[74,35,15,7],'staff_balcony':[73,24,17,2],'cowork_terrace':[10,24,24,2],'sea':[1,78,94,H-79]},tower_asset_bounds=[320,51*T-590,768,590])
 layout['representative_art_seat_pixels']=[[432,1552],[464,1552],[496,1552],[880,1552],[912,1552],[944,1552]]
 (ROOT/'source/layout.json').write_text(json.dumps(layout,indent=2)+'\n')
 (ROOT/'source/portal-areas.json').write_text(json.dumps(portal_slots,indent=2)+'\n')

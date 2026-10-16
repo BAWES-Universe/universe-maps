@@ -12,3 +12,11 @@ Generated artwork was inspected, normalized to native map dimensions, registered
 - Sea:ba9e57ff-f88e-4f56-b471-77dbb283d58d,512×512. Native animated shimmer stroke opacity reduced to.10/.07 after independent review found.24/.18 too conspicuous on the darker base. Timing remains24frames×100ms.
 
 No island dimensions, camera zoom, Woka scale or number of destinations changed. No quests or walking-triggered audio UI added. Native map routes, seats, table collision and roof cutaway require the fresh report accompanying this artifact, rather than relying on historical acceptance.
+
+Independent footage review found rectangular surf clipping on the garden right boundary. Generated targeted repair04c258b5-1010-4653-a95f-92de313c48af was normalized1200×1198; only its rightmost112px strip was registered to96px atx1088, within the existing1216canvas. Originalopaqueinteriorx<1088 is unchanged; transparentedge compositing differs by at most1channel. Fullytransparent32pxrightmargin avoids hard cropping. One former outermost shore cell3136,4384 was blocked; remaining3600walkcells are connected and all55seatapproaches remain reachable.
+
+Garden top canopy repair0c1ed07d-2faf-4f13-8754-8a0b44808ecb: only top112px outside x416..800 central bridge strip were imported; native crop packed to96px with16pxtransparenttopmargin, retaining the original canvas and all gameplay geometry.
+
+Café bottom landinge8ab5dce-e6e8-487a-9449-9668eceb7081: onlybottom192px imported after originalnative registration. Two inward railing returns and finished piers replace clipped foliage. Outer64pxon eachside blocked overlast128px; central256px remainsclear. Builder repeats bottomfloorrow onlywithincentralcorridor, preserving transparentfinishedoutercorners.
+
+Lounge upper bridge post previously blocked oneedge lane: nativeatlasplacement cols34..37,rows13..15 shifts sourceart32pxnorth and uses actualpaving forrow15; cell1216,2432reopened. Freshstraightkeyboardcrossing required; prior16/16summary was corrected to15/16beforefix.

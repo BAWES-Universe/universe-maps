@@ -7,6 +7,10 @@ for(const s of g.seats.filter(s=>s.island===id)){const old=[s.x,s.y];let sx=s.x-
 for(let y=0;y<info.height;y+=32)for(let x=0;x<info.width;x+=32){const wx=origin[0]+x,wy=origin[1]+y,i=wy/32*160+wx/32;if(before.blocked[i])continue;let green=0,center=0;for(let yy=0;yy<32;yy++)for(let xx=0;xx<32;xx++){const[r,gg,b]=rgb(x+xx,y+yy);if(gg>r*1.12&&gg>b*1.15&&gg>45){green++;if(xx>=8&&xx<24&&yy>=8&&yy<24)center++;}}if(green>512&&center>128){g.furniture.push({island:id,kind:'solid',x:wx,y:wy,w:32,h:32});audit.plantIntrusions.push([id,wx,wy]);}}
 }
 for(const s of g.seats)for(const[x,y]of[[s.x,s.y],[s.x+(s.approachX||0),s.y-s.approachDistance]]){const xx=Math.floor(x/32)*32,yy=Math.floor(y/32)*32;if(!g.floors.some(r=>r[0]===xx&&r[1]===yy))g.floors.push([xx,yy,32,32]);}
+// Repaired curved shore ends before the former clipped outermost beach cell.
+g.furniture.push({island:'garden',kind:'solid',x:3136,y:4384,w:32,h:32});
+g.furniture.push({island:'cafe',kind:'solid',x:2368,y:1152,w:64,h:128},{island:'cafe',kind:'solid',x:2688,y:1152,w:64,h:128});
+g.floors.push([1216,2432,32,32]);
 const wall=g.furniture.find(f=>f.island==='lounge'&&f.kind==='solid'&&f.x===416&&f.y===2272);wall.h=64;
 // Added shelf frontage remains above the moved rear seats and their approach row.
 g.notes='Reviewed original circulation graph with registered polished artwork; native seat targets remeasured. New foliage and lounge shelf frontage blocked. Fresh gameplay acceptance required.';

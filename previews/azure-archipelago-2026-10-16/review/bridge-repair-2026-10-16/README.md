@@ -1,3 +1,5 @@
+> Bridge paving in this revision was rejected in visual review. See [revision2](../bridge-repair-v2-2026-10-16/README.md). The canopy change is retained.
+
 # Azure bridge and canopy repair — 2026-10-16
 
 Base: `d0d9a80b4fbbbeac83e431493914524abc5fb424`. Saved only on `preview/azure-archipelago-2026-10-16`; no deployment or merge. No Moonlit edits.

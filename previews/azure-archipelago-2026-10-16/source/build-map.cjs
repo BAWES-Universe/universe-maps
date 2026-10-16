@@ -13,10 +13,10 @@ function free(r){cells(r,i=>blocked[i]=false)}
 (async()=>{
 for(const a of g.islands){const p=root+'/source/transparent-islands/'+a.id+'.png';if(fs.existsSync(p))fs.copyFileSync(p,root+'/'+a.id+'.png');}
 
-// Shared128px limestone slabs in a native32px atlas, plus preserved vector rail placeholders.
+// Existing rail placeholders; bridge floor uses measured source-art paving modules.
 let floor=rect(0,0,128,128,'#f3e7ce');for(let y=0;y<128;y+=32)floor+=`<path d="M0 ${y+.5}H128" stroke="#c1b89d" stroke-width=".6" opacity=".35"/>`;for(let y=0;y<128;y+=32)for(let x=(y%64?32:0);x<128;x+=64)floor+=`<path d="M${x+.5} ${y}v32" stroke="#b4a88c" stroke-width=".6" opacity=".25"/>`;for(let i=0;i<400;i++){let x=(i*37.17)%128,y=(i*63.71)%128;floor+=`<circle cx="${x}" cy="${y}" r=".45" fill="${i%2?'#fffbea':'#ad997b'}" opacity=".14"/>`;}for(let k=0;k<5;k++)floor+=`<path d="M${k*31-16} 0q-12 32 3 64t3 64" fill="none" stroke="#a89371" stroke-width=".5" opacity=".1"/>`;
 floor+=rect(128,0,32,128,'#28616a');for(const x of[131,156])floor+=rect(x,0,2,32,'#d7bd79');for(const y of[35,60])floor+=rect(128,y,32,2,'#d7bd79');floor+=rect(132,68,24,24,'#c5a96d')+rect(135,71,18,18,'#f2e7bf')+rect(139,75,10,10,'#3d7f80');for(let k=0;k<8;k++)floor+=`<ellipse cx="${136+(k*7%16)}" cy="${102+(k*11%20)}" rx="7" ry="3" fill="${k%2?'#7fa674':'#366f5b'}" transform="rotate(${k*43} ${136+(k*7%16)} ${102+(k*11%20)})"/>`;
-await sharp(Buffer.from(svg(160,128,floor))).composite([{input:root+'/source/bridge-floor.png',left:0,top:0}]).png().toFile(root+'/paving.png');const paving=tileset('Limestone and brass parapet','paving.png',160,128),floorGid=i=>paving+(i%N%4)+Math.floor(i/N)%4*5;
+await sharp(Buffer.from(svg(160,128,floor))).png().toFile(root+'/paving.png');const paving=tileset('Limestone and brass parapet','paving.png',160,128);await require('./build-bridge-surface.cjs')(root);const stone=tileset('Native court paving','bridge-surface.png',1440,864),floorGid=i=>stone+(i%N%45)+Math.floor(i/N)%27*45;
 const sea=tileset('Coastal sea','sea-texture.png',512,512);layer('Coastal sea',Array.from({length:L},(_,i)=>{let x=i%N,y=Math.floor(i/N),fx=Math.floor(x/16)%2,fy=Math.floor(y/16)%2;return (sea+(fy?15-y%16:y%16)*16+(fx?15-x%16:x%16)+(fx?0x80000000:0)+(fy?0x40000000:0))>>>0;}));
 const oceanParts=[],oceanAnims=[];for(let f=0;f<24;f++){const phase=f/24*Math.PI*2;let s='';for(let k=-3;k<12;k++){let d='';for(let x=-16;x<=144;x+=4){const y=k*32+6*Math.sin(x/128*Math.PI*4+phase+k*Math.PI/2)+3*Math.sin(x/128*Math.PI*8-phase);d+=(x===-16?'M':'L')+x+' '+y;}s+=`<path d="${d}" fill="none" stroke="#c9fff0" stroke-width="1.1" opacity=".10"/>`;d='';for(let y=-16;y<=144;y+=4){const x=k*32+8*Math.sin(y/128*Math.PI*4-phase+k*Math.PI/2);d+=(y===-16?'M':'L')+x+' '+y;}s+=`<path d="${d}" fill="none" stroke="#b1f6ec" stroke-width="1.2" opacity=".07"/>`;}const frame=await sharp(Buffer.from(svg(128,128,s))).png().toBuffer();oceanParts.push({input:frame,left:f*128,top:0});}oceanAnims.push({id:0,animation:Array.from({length:24},(_,f)=>({tileid:f,duration:100}))});await sharp({create:{width:3072,height:128,channels:4,background:{r:0,g:0,b:0,alpha:0}}}).composite(oceanParts).png().toFile(root+'/ocean.png');const ocean=tileset('Sea motion','ocean.png',3072,128,oceanAnims);Object.assign(sets.at(-1),{tilewidth:128,tileheight:128,columns:24,tilecount:24});nextgid-=360;const oceanMotionData=Array(L).fill(ocean);
 // All bridge/bay surfaces are one union; parapets only border that union.
@@ -27,14 +27,10 @@ if(fs.existsSync(root+'/hub.png')){const first=tileset('Fountain court','hub.png
 for(const a of g.islands){const file=a.id+'.png';if(!fs.existsSync(root+'/'+file))fs.copyFileSync(root+'/source/'+a.id+'-guide.png',root+'/'+file);const first=tileset(a.id,file,1216,1216);cells([a.x,a.y,1216,1216],(i,x,y)=>{const row=y-a.y/T,col=x-a.x/T;let sourceRow=a.id==='cafe'&&row===37&&col>=15&&col<=22?36:row;if(a.id==='gathering'&&col<10&&row>=22&&row<=24)sourceRow=row-1;let sourceCol=a.id==='lounge'&&col===37&&row>=15&&row<=22?36:col;if(a.id==='garden'&&row===0&&col>=15&&col<=22)sourceRow=1;surface[i]=first+sourceRow*38+sourceCol;});const land={north:[a.x+480,a.y,256,64],south:[a.x+480,a.y+1152,256,64],east:[a.x+1152,a.y+480,64,256],west:[a.x,a.y+480,64,256]}[a.entrance];}
 for(const r of art.floors)free(r);
 layer('Island floors and furniture',surface);
-// World-aligned floor continues inside each mouth. A narrow threshold makes the
-// transition to preserved island/hub paving intentional; collision stays unchanged.
-const landing=full();
-for(const r of [[2432,1216,256,64],[2432,2176,256,32],[2432,2912,256,32],[2432,3840,256,64],[1216,2432,64,256],[2176,2432,32,256],[2912,2432,32,256],[3840,2432,64,256]])cells(r,i=>landing[i]=floorGid(i));
-layer('Continuous bridge landings',landing);const trim=full();let threshold=rect(0,0,32,2,'#a99f7d')+rect(0,2,32,1,'#f3e6c6')+rect(32,30,32,2,'#a99f7d')+rect(32,29,32,1,'#f3e6c6')+rect(64,0,2,32,'#a99f7d')+rect(66,0,1,32,'#f3e6c6')+rect(126,0,2,32,'#a99f7d')+rect(125,0,1,32,'#f3e6c6');
-await sharp(Buffer.from(svg(128,32,threshold))).png().toFile(root+'/threshold.png');const sill=tileset('Landing threshold','threshold.png',128,32);
-for(const [x,y,w,h,rot]of [[2432,1216,256,32,0],[2432,2176,256,32,1],[2432,2912,256,32,0],[2432,3872,256,32,1],[1216,2432,32,256,2],[2176,2432,32,256,3],[2912,2432,32,256,2],[3872,2432,32,256,3]])cells([x,y,w,h],i=>trim[i]=sill+rot);
-layer('Landing inlay',trim);
+// Full mosaic courses are inset into the bridge ends; no island overpainting.
+const trim=full(),sill=tileset('Court mosaic landing','threshold.png',64,32);
+for(const [x,y,w,h,rot]of [[2432,1280,256,32,false],[2432,2144,256,32,false],[2432,2944,256,32,false],[2432,3808,256,32,false],[1280,2432,32,256,true],[2144,2432,32,256,true],[2944,2432,32,256,true],[3808,2432,32,256,true]])cells([x,y,w,h],(i,xx,yy)=>trim[i]=(sill+((rot?yy:xx)%2)+(rot?0xa0000000:0))>>>0);
+layer('Court mosaic bridge landings',trim);
 const seaBlocks=full();for(let y=0;y<N;y+=4)for(let x=0;x<N;x+=4)seaBlocks[y*N+x]=ocean;const seaLayer=layer('Native sea shimmer',seaBlocks);layers.splice(layers.indexOf(seaLayer),1);layers.splice(1,0,seaLayer);
 
 for(const o of g.furniture)if(o.kind!=='seat')cells([o.x,o.y,o.w,o.h],i=>blocked[i]=true);

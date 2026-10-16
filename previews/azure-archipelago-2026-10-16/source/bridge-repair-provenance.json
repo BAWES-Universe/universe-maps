@@ -1,11 +1,8 @@
 {
-  "base_commit": "d0d9a80b4fbbbeac83e431493914524abc5fb424",
-  "scope": "Bridge floor continuity, landing inlays, and removal of lounge canopy interior lattice only.",
-  "assets": {
-    "bridge-floor.png": "Image generation: warm ivory limestone slabs without baked shadows, normalized to a native128px repeating slab.",
-    "bay.png": "Image edit of existing bay: remove baked floor while retaining outer rails and two seats; registered to original576x320 atlas.",
-    "threshold.png": "Build-generated thin limestone/brass inlay.",
-    "glass.png": "Build-generated muted perimeter outline; transparent interior."
-  },
-  "preserved": "All four canonical island images, hub/bridge art, geometry,55 seat definitions,17 table definitions,controller,water atlases,sea texture and sound byte-identical to base."
+  "revision": 2,
+  "base_commit": "0bffac61e1c2f991f968bef059faa3677f8f247a",
+  "bridge_surface": "Existing hub.png stone patch at40,275,48x32, expanded within a90x54 court paving module; grout sampled from native court edges. No generated giant-slab texture remains. World-aligned repeat shared by bridges/bays.",
+  "landing": "Native court mosaic course sampled at144,16,64x32, repeated across bridge ends only; no island or hub artwork overpainting.",
+  "source": "source/build-bridge-surface.cjs",
+  "preserved": "All island and hub PNGs; grid removal and canopy cutaway; bay seats/rails; navigation and controller."
 }

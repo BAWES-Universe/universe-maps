@@ -1,0 +1,158 @@
+[
+  {
+    "label": "square",
+    "arrived": true,
+    "expectedCover": true,
+    "actual": {
+      "x": 720,
+      "y": 960,
+      "cover": true,
+      "scale": 1,
+      "zoom": 1
+    },
+    "pass": true
+  },
+  {
+    "label": "front-interior",
+    "arrived": true,
+    "expectedCover": false,
+    "actual": {
+      "x": 720,
+      "y": 768,
+      "cover": false,
+      "scale": 1,
+      "zoom": 1
+    },
+    "pass": true
+  },
+  {
+    "label": "crown-interior",
+    "arrived": true,
+    "expectedCover": false,
+    "actual": {
+      "x": 720,
+      "y": 288,
+      "cover": false,
+      "scale": 1,
+      "zoom": 1
+    },
+    "pass": true
+  },
+  {
+    "label": "rear-exit",
+    "arrived": true,
+    "expectedCover": true,
+    "actual": {
+      "x": 720,
+      "y": 224,
+      "cover": true,
+      "scale": 1,
+      "zoom": 1
+    },
+    "pass": true
+  },
+  {
+    "label": "rear-terrace",
+    "arrived": true,
+    "expectedCover": true,
+    "actual": {
+      "x": 720,
+      "y": 96,
+      "cover": true,
+      "scale": 1,
+      "zoom": 1
+    },
+    "pass": true
+  },
+  {
+    "label": "west-behind",
+    "arrived": true,
+    "expectedCover": true,
+    "actual": {
+      "x": 240,
+      "y": 96,
+      "cover": true,
+      "scale": 1,
+      "zoom": 1
+    },
+    "pass": true
+  },
+  {
+    "label": "west-side",
+    "arrived": true,
+    "expectedCover": true,
+    "actual": {
+      "x": 240,
+      "y": 640,
+      "cover": true,
+      "scale": 1,
+      "zoom": 1
+    },
+    "pass": true
+  },
+  {
+    "label": "front-return",
+    "arrived": true,
+    "expectedCover": true,
+    "actual": {
+      "x": 720,
+      "y": 960,
+      "cover": true,
+      "scale": 1,
+      "zoom": 1
+    },
+    "pass": true
+  },
+  {
+    "label": "east-side",
+    "arrived": true,
+    "expectedCover": true,
+    "actual": {
+      "x": 1200,
+      "y": 640,
+      "cover": true,
+      "scale": 1,
+      "zoom": 1
+    },
+    "pass": true
+  },
+  {
+    "label": "east-behind",
+    "arrived": true,
+    "expectedCover": true,
+    "actual": {
+      "x": 1200,
+      "y": 96,
+      "cover": true,
+      "scale": 1,
+      "zoom": 1
+    },
+    "pass": true
+  },
+  {
+    "label": "rear-entry",
+    "arrived": true,
+    "expectedCover": false,
+    "actual": {
+      "x": 720,
+      "y": 288,
+      "cover": false,
+      "scale": 1,
+      "zoom": 1
+    },
+    "pass": true
+  },
+  {
+    "label": "upper-work",
+    "arrived": true,
+    "expectedCover": false,
+    "actual": {
+      "x": 432,
+      "y": 384,
+      "cover": false,
+      "scale": 1,
+      "zoom": 1
+    },
+    "pass": true
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "label": "current-team-spawn",
+    "pass": true,
+    "x": 720,
+    "y": 1712
+  },
+  {
+    "label": "beach-waterfront",
+    "pass": true,
+    "x": 1776,
+    "y": 2448
+  },
+  {
+    "label": "shoreline",
+    "pass": true,
+    "x": 1776,
+    "y": 2480
+  },
+  {
+    "label": "sea-collision-boundary",
+    "pass": true,
+    "actual": {
+      "bottom": 2496,
+      "x": 1776,
+      "y": 2480
+    }
+  },
+  {
+    "label": "cowork-terrace",
+    "pass": true,
+    "x": 496,
+    "y": 816
+  }
+]

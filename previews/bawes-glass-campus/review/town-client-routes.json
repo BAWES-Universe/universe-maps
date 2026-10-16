@@ -1,0 +1,522 @@
+[
+  {
+    "label": "team-spawn",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 720,
+      "y": 1728,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "front-door-approach",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 720,
+      "y": 1664,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": false,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "tower-work",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 720,
+      "y": 1472,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": false,
+        "tower-rear-door": false,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": false
+      }
+    }
+  },
+  {
+    "label": "meeting-door-approach",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 688,
+      "y": 1536,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": false,
+        "tower-rear-door": false,
+        "meeting-door": false,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": false
+      }
+    }
+  },
+  {
+    "label": "meeting-seat",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 464,
+      "y": 1504,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": false,
+        "tower-rear-door": false,
+        "meeting-door": false,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": false
+      }
+    }
+  },
+  {
+    "label": "meeting-exit",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 688,
+      "y": 1536,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": false,
+        "tower-rear-door": false,
+        "meeting-door": false,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": false
+      }
+    }
+  },
+  {
+    "label": "crown-floor",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 720,
+      "y": 1088,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": false,
+        "tower-rear-door": false,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": false
+      }
+    }
+  },
+  {
+    "label": "rear-door-approach",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 720,
+      "y": 1056,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": false,
+        "tower-rear-door": false,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": false
+      }
+    }
+  },
+  {
+    "label": "rear-street",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 720,
+      "y": 896,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "cowork-frontage",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 720,
+      "y": 800,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "cowork-meeting",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 464,
+      "y": 672,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": false,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "cowork-rear-exit",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 720,
+      "y": 192,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "behind-all-buildings",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 1776,
+      "y": 160,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "portal-north-entry",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 1776,
+      "y": 320,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": false,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "portal-bay-one",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 1552,
+      "y": 384,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": false,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "portal-bay-six",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 2000,
+      "y": 608,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": false,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "portal-exit",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 1776,
+      "y": 832,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "staff-entry",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 2608,
+      "y": 704,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": false,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "staff-work",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 2480,
+      "y": 416,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": false,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "staff-balcony",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 2608,
+      "y": 800,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "booth-seat",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 2448,
+      "y": 1248,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "stage",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 2576,
+      "y": 1536,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "stage-audience",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 2608,
+      "y": 1728,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "beach",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 1776,
+      "y": 2336,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "studenthub-seat",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 1552,
+      "y": 1504,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  },
+  {
+    "label": "return-to-team",
+    "pass": true,
+    "arrived": true,
+    "actual": {
+      "x": 720,
+      "y": 1728,
+      "scale": 1,
+      "zoom": 1,
+      "layers": {
+        "tower-front-door": true,
+        "tower-rear-door": true,
+        "meeting-door": true,
+        "cowork-glass-cover": true,
+        "portal-glass-cover": true,
+        "staff-glass-cover": true,
+        "tower-glass-cover": true
+      }
+    }
+  }
+]

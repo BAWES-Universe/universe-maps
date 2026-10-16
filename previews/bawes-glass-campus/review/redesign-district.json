@@ -1,0 +1,42 @@
+[
+  {
+    "label": "current-front-seat-reached",
+    "pass": true,
+    "details": {
+      "visible": false,
+      "collides": false,
+      "x": 464,
+      "y": 1536
+    }
+  },
+  {
+    "label": "current-spawn-outside-cover",
+    "pass": true,
+    "details": {}
+  },
+  {
+    "label": "current-seat-inside-cutaway",
+    "pass": true,
+    "details": {}
+  },
+  {
+    "label": "lounge-seat-occupied",
+    "pass": true,
+    "details": {
+      "visible": true,
+      "collides": true,
+      "x": 400,
+      "y": 1312
+    }
+  },
+  {
+    "label": "lounge-seat-exit",
+    "pass": true,
+    "details": {
+      "visible": true,
+      "collides": true,
+      "x": 400,
+      "y": 1344
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "label": "owner-lock-action",
+    "pass": true,
+    "details": {
+      "visible": false,
+      "collides": false,
+      "x": 592,
+      "y": 1536
+    }
+  },
+  {
+    "label": "late-join-sees-locked-collision",
+    "pass": true,
+    "details": {
+      "visible": true,
+      "collides": true,
+      "x": 688,
+      "y": 1536
+    }
+  },
+  {
+    "label": "outside-locked-entry-blocked",
+    "pass": true,
+    "details": {
+      "visible": true,
+      "collides": true,
+      "x": 648,
+      "y": 1536
+    }
+  },
+  {
+    "label": "reconnect-retains-lock",
+    "pass": true,
+    "details": {
+      "visible": true,
+      "collides": true,
+      "x": 688,
+      "y": 1536
+    }
+  },
+  {
+    "label": "locked-occupant-exits",
+    "pass": true,
+    "details": {
+      "visible": true,
+      "collides": true,
+      "x": 688,
+      "y": 1536
+    }
+  },
+  {
+    "label": "owner-unlock-propagates",
+    "pass": true,
+    "details": {
+      "visible": false,
+      "collides": false,
+      "x": 688,
+      "y": 1536
+    }
+  },
+  {
+    "label": "touch-lock-button",
+    "pass": true,
+    "details": {
+      "visible": false,
+      "collides": false,
+      "x": 592,
+      "y": 1536
+    }
+  },
+  {
+    "label": "touch-unlock-button",
+    "pass": true,
+    "details": {
+      "visible": false,
+      "collides": false,
+      "x": 592,
+      "y": 1536
+    }
+  },
+  {
+    "label": "outside-independent-cover",
+    "pass": true,
+    "details": {}
+  },
+  {
+    "label": "inside-independent-cover",
+    "pass": true,
+    "details": {}
+  }
+]

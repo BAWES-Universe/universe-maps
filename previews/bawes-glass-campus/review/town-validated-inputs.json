@@ -1,0 +1,50 @@
+{
+  "engine_commit": "274114560c5ec95fdf8e51e67986a53069f3cf06",
+  "source_map_grid": [
+    96,
+    88,
+    32
+  ],
+  "main_spawn": [
+    22,
+    53
+  ],
+  "evidence": {
+    "town-client-routes": {
+      "passed": 26,
+      "total": 26
+    },
+    "town-doors": {
+      "passed": 10,
+      "total": 10
+    },
+    "town-crossing": {
+      "passed": 2,
+      "total": 2
+    },
+    "town-glass": {
+      "passed": 3,
+      "total": 3
+    },
+    "town-coast": {
+      "passed": 5,
+      "total": 5
+    }
+  },
+  "scope_note": "26-route sweep before final front-seat/spawn and sea refinements; affected positions rechecked by town-glass and town-coast. No visual acceptance, no deployment, no security or audio-isolation claim.",
+  "sha256": {
+    "campus.tmj": "2bc403f7e8fafb37f5076797a99e84b248432fd37b17f7d2a4be1562e4c7616a",
+    "runtime.js": "deb2c338e5ec251b55a04ccf981d775134b7bde9c3433a6e7c7a53c42203c3f3",
+    "ground.png": "325b31a312efab24a62a0b7255caa2ead912db528954f945d101d9d28483c480",
+    "tower-glass.png": "15e2c53d5d0b18782cf65ac1a6ddc8953a9bbf83a56d80c94ea4d00626752fbf",
+    "cowork-glass.png": "b11867528a06e01f557eaee29cd0e914a1ad12a9c9dce2b5da0055f695b0da5e",
+    "staff-glass.png": "85054627efe22cdd20a4895fa015f1d78c539649432cd7bc17fc21ee2a5b8242",
+    "portal-glass.png": "bb2374c7f942bf54d8f5c26c3972fce58cc36df8d3bef2f972b77c7280824839",
+    "doors.png": "e9ff09dfb5fcd848e919d74f10269a6e943250dab7f2aa17918de87b167fbb89",
+    "seat-backs.png": "cd4ccb60636e8d91ba3fd53c0846dc3961066d48bd5a827e2717e56885189627",
+    "water.png": "ffb10fd5686b217e07d2cb8a2619a038aadc930eeff8a5b1f725713a82a33203",
+    "source/build.py": "a5a4754c0ba93648587a17cfedf9634857043e689c0ed56cf5dc73cf2087e868",
+    "source/runtime.template.js": "359877ab74853d4bc55bd026146c14446e31b76cb33d2702d08d7bada940ec28",
+    "source/layout.json": "6e84e2570fde76a9018b10899a6e0331837f4d2befbef27a762ccc8dda603f89"
+  }
+}

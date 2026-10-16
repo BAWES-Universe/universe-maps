@@ -1,0 +1,30 @@
+[
+  {
+    "label": "simultaneous-opposing-main-door-crossing",
+    "pass": true,
+    "details": {
+      "a": {
+        "visible": true,
+        "collides": true,
+        "x": 720,
+        "y": 1728
+      },
+      "b": {
+        "visible": true,
+        "collides": true,
+        "x": 720,
+        "y": 1536
+      }
+    }
+  },
+  {
+    "label": "rear-door-exit",
+    "pass": true,
+    "details": {
+      "visible": true,
+      "collides": true,
+      "x": 720,
+      "y": 896
+    }
+  }
+]

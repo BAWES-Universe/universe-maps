@@ -1,0 +1,89 @@
+[
+  {
+    "label": "desktop-right-click-seat-approach",
+    "pass": true,
+    "details": {
+      "x": 272,
+      "y": 530,
+      "zoom": 1,
+      "scale": 1,
+      "actual": {
+        "visible": false,
+        "collides": false,
+        "x": 464,
+        "y": 1536
+      }
+    }
+  },
+  {
+    "label": "desktop-right-click-seat-exit",
+    "pass": true,
+    "details": {
+      "x": 976,
+      "y": 594,
+      "zoom": 1,
+      "scale": 1,
+      "actual": {
+        "visible": false,
+        "collides": false,
+        "x": 591.7211660040605,
+        "y": 1568
+      }
+    }
+  },
+  {
+    "label": "keyboard-movement-after-exit",
+    "pass": true,
+    "details": {
+      "before": {
+        "visible": false,
+        "collides": false,
+        "x": 592,
+        "y": 1568
+      },
+      "after": {
+        "visible": false,
+        "collides": false,
+        "x": 496,
+        "y": 1568
+      }
+    }
+  },
+  {
+    "label": "touch-seat-approach",
+    "pass": true,
+    "details": {
+      "x": 151,
+      "y": 398,
+      "zoom": 1,
+      "scale": 1,
+      "actual": {
+        "visible": false,
+        "collides": false,
+        "x": 464,
+        "y": 1536
+      }
+    }
+  },
+  {
+    "label": "touch-seat-exit",
+    "pass": true,
+    "details": {
+      "x": 279,
+      "y": 462,
+      "zoom": 1,
+      "scale": 1,
+      "actual": {
+        "visible": false,
+        "collides": false,
+        "x": 525.7331660040606,
+        "y": 1568
+      }
+    }
+  },
+  {
+    "label": "independent-inside-cover",
+    "pass": true,
+    "details": {}
+  }
+]

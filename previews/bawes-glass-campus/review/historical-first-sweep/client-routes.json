@@ -1,0 +1,1074 @@
+[
+  {
+    "label": "outdoor-spawn-return",
+    "target": {
+      "x": 720,
+      "y": 1104
+    },
+    "pass": true,
+    "actual": {
+      "x": 720,
+      "y": 1088.008,
+      "feetY": 1104.008,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "entrance",
+    "target": {
+      "x": 720,
+      "y": 976
+    },
+    "pass": true,
+    "actual": {
+      "x": 720,
+      "y": 961.344,
+      "feetY": 977.344,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "daily-work-aisle",
+    "target": {
+      "x": 720,
+      "y": 848
+    },
+    "pass": true,
+    "actual": {
+      "x": 720,
+      "y": 833.3519999999999,
+      "feetY": 849.3519999999999,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-0-approach",
+    "target": {
+      "x": 432,
+      "y": 944
+    },
+    "pass": true,
+    "actual": {
+      "x": 434.44450198781715,
+      "y": 928,
+      "feetY": 944,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-0-occupy",
+    "target": {
+      "x": 432,
+      "y": 912
+    },
+    "pass": true,
+    "actual": {
+      "x": 432,
+      "y": 896,
+      "feetY": 912,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-0-exit",
+    "target": {
+      "x": 432,
+      "y": 944
+    },
+    "pass": true,
+    "actual": {
+      "x": 432,
+      "y": 928,
+      "feetY": 944,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-1-approach",
+    "target": {
+      "x": 464,
+      "y": 944
+    },
+    "pass": true,
+    "actual": {
+      "x": 464,
+      "y": 928,
+      "feetY": 944,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-1-occupy",
+    "target": {
+      "x": 464,
+      "y": 912
+    },
+    "pass": true,
+    "actual": {
+      "x": 464,
+      "y": 896,
+      "feetY": 912,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-1-exit",
+    "target": {
+      "x": 464,
+      "y": 944
+    },
+    "pass": true,
+    "actual": {
+      "x": 464,
+      "y": 928,
+      "feetY": 944,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-2-approach",
+    "target": {
+      "x": 496,
+      "y": 944
+    },
+    "pass": true,
+    "actual": {
+      "x": 496,
+      "y": 928,
+      "feetY": 944,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-2-occupy",
+    "target": {
+      "x": 496,
+      "y": 912
+    },
+    "pass": true,
+    "actual": {
+      "x": 496,
+      "y": 896,
+      "feetY": 912,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-2-exit",
+    "target": {
+      "x": 496,
+      "y": 944
+    },
+    "pass": true,
+    "actual": {
+      "x": 496,
+      "y": 928,
+      "feetY": 944,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-3-approach",
+    "target": {
+      "x": 880,
+      "y": 944
+    },
+    "pass": true,
+    "actual": {
+      "x": 880,
+      "y": 928,
+      "feetY": 944,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-3-occupy",
+    "target": {
+      "x": 880,
+      "y": 912
+    },
+    "pass": true,
+    "actual": {
+      "x": 880,
+      "y": 896,
+      "feetY": 912,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-3-exit",
+    "target": {
+      "x": 880,
+      "y": 944
+    },
+    "pass": true,
+    "actual": {
+      "x": 880,
+      "y": 928,
+      "feetY": 944,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-4-approach",
+    "target": {
+      "x": 912,
+      "y": 944
+    },
+    "pass": true,
+    "actual": {
+      "x": 912,
+      "y": 928,
+      "feetY": 944,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-4-occupy",
+    "target": {
+      "x": 912,
+      "y": 912
+    },
+    "pass": true,
+    "actual": {
+      "x": 912,
+      "y": 896,
+      "feetY": 912,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-4-exit",
+    "target": {
+      "x": 912,
+      "y": 944
+    },
+    "pass": true,
+    "actual": {
+      "x": 912,
+      "y": 928,
+      "feetY": 944,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-5-approach",
+    "target": {
+      "x": 944,
+      "y": 944
+    },
+    "pass": true,
+    "actual": {
+      "x": 944,
+      "y": 928,
+      "feetY": 944,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-5-occupy",
+    "target": {
+      "x": 944,
+      "y": 912
+    },
+    "pass": true,
+    "actual": {
+      "x": 944,
+      "y": 896,
+      "feetY": 912,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-5-exit",
+    "target": {
+      "x": 944,
+      "y": 944
+    },
+    "pass": true,
+    "actual": {
+      "x": 944,
+      "y": 928,
+      "feetY": 944,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-6-approach",
+    "target": {
+      "x": 432,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 432,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-6-occupy",
+    "target": {
+      "x": 432,
+      "y": 720
+    },
+    "pass": true,
+    "actual": {
+      "x": 432,
+      "y": 704,
+      "feetY": 720,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-6-exit",
+    "target": {
+      "x": 432,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 432,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-7-approach",
+    "target": {
+      "x": 464,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 464,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-7-occupy",
+    "target": {
+      "x": 464,
+      "y": 720
+    },
+    "pass": true,
+    "actual": {
+      "x": 464,
+      "y": 704,
+      "feetY": 720,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-7-exit",
+    "target": {
+      "x": 464,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 464,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-8-approach",
+    "target": {
+      "x": 496,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 492,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-8-occupy",
+    "target": {
+      "x": 496,
+      "y": 720
+    },
+    "pass": true,
+    "actual": {
+      "x": 496,
+      "y": 704,
+      "feetY": 720,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-8-exit",
+    "target": {
+      "x": 496,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 496,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-9-approach",
+    "target": {
+      "x": 528,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 528,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-9-occupy",
+    "target": {
+      "x": 528,
+      "y": 720
+    },
+    "pass": true,
+    "actual": {
+      "x": 528,
+      "y": 704,
+      "feetY": 720,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-9-exit",
+    "target": {
+      "x": 528,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 528,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-10-approach",
+    "target": {
+      "x": 848,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 848,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-10-occupy",
+    "target": {
+      "x": 848,
+      "y": 720
+    },
+    "pass": true,
+    "actual": {
+      "x": 848,
+      "y": 704,
+      "feetY": 720,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-10-exit",
+    "target": {
+      "x": 848,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 848,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-11-approach",
+    "target": {
+      "x": 880,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 880,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-11-occupy",
+    "target": {
+      "x": 880,
+      "y": 720
+    },
+    "pass": true,
+    "actual": {
+      "x": 880,
+      "y": 704,
+      "feetY": 720,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-11-exit",
+    "target": {
+      "x": 880,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 880,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-12-approach",
+    "target": {
+      "x": 912,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 908,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-12-occupy",
+    "target": {
+      "x": 912,
+      "y": 720
+    },
+    "pass": true,
+    "actual": {
+      "x": 912,
+      "y": 704,
+      "feetY": 720,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-12-exit",
+    "target": {
+      "x": 912,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 912,
+      "y": 733.3360000000004,
+      "feetY": 749.3360000000004,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-13-approach",
+    "target": {
+      "x": 944,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 944,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-13-occupy",
+    "target": {
+      "x": 944,
+      "y": 720
+    },
+    "pass": true,
+    "actual": {
+      "x": 944,
+      "y": 704,
+      "feetY": 720,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-13-exit",
+    "target": {
+      "x": 944,
+      "y": 752
+    },
+    "pass": true,
+    "actual": {
+      "x": 944,
+      "y": 736,
+      "feetY": 752,
+      "cover": false,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-14-approach",
+    "target": {
+      "x": 304,
+      "y": 1392
+    },
+    "pass": true,
+    "actual": {
+      "x": 304,
+      "y": 1376,
+      "feetY": 1392,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-14-occupy",
+    "target": {
+      "x": 304,
+      "y": 1360
+    },
+    "pass": true,
+    "actual": {
+      "x": 304,
+      "y": 1344,
+      "feetY": 1360,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-14-exit",
+    "target": {
+      "x": 304,
+      "y": 1392
+    },
+    "pass": true,
+    "actual": {
+      "x": 304,
+      "y": 1376,
+      "feetY": 1392,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-15-approach",
+    "target": {
+      "x": 336,
+      "y": 1392
+    },
+    "pass": true,
+    "actual": {
+      "x": 336,
+      "y": 1376,
+      "feetY": 1392,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-15-occupy",
+    "target": {
+      "x": 336,
+      "y": 1360
+    },
+    "pass": true,
+    "actual": {
+      "x": 336,
+      "y": 1344,
+      "feetY": 1360,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-15-exit",
+    "target": {
+      "x": 336,
+      "y": 1392
+    },
+    "pass": true,
+    "actual": {
+      "x": 336,
+      "y": 1376,
+      "feetY": 1392,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-16-approach",
+    "target": {
+      "x": 368,
+      "y": 1392
+    },
+    "pass": true,
+    "actual": {
+      "x": 368,
+      "y": 1376,
+      "feetY": 1392,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-16-occupy",
+    "target": {
+      "x": 368,
+      "y": 1360
+    },
+    "pass": true,
+    "actual": {
+      "x": 368,
+      "y": 1344.0079999999998,
+      "feetY": 1360.0079999999998,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-16-exit",
+    "target": {
+      "x": 368,
+      "y": 1392
+    },
+    "pass": true,
+    "actual": {
+      "x": 368,
+      "y": 1376,
+      "feetY": 1392,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-17-approach",
+    "target": {
+      "x": 1552,
+      "y": 1392
+    },
+    "pass": true,
+    "actual": {
+      "x": 1552,
+      "y": 1376,
+      "feetY": 1392,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-17-occupy",
+    "target": {
+      "x": 1552,
+      "y": 1360
+    },
+    "pass": true,
+    "actual": {
+      "x": 1552,
+      "y": 1344,
+      "feetY": 1360,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-17-exit",
+    "target": {
+      "x": 1552,
+      "y": 1392
+    },
+    "pass": true,
+    "actual": {
+      "x": 1552,
+      "y": 1376,
+      "feetY": 1392,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-18-approach",
+    "target": {
+      "x": 1584,
+      "y": 1392
+    },
+    "pass": true,
+    "actual": {
+      "x": 1584,
+      "y": 1376,
+      "feetY": 1392,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-18-occupy",
+    "target": {
+      "x": 1584,
+      "y": 1360
+    },
+    "pass": true,
+    "actual": {
+      "x": 1584,
+      "y": 1344,
+      "feetY": 1360,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-18-exit",
+    "target": {
+      "x": 1584,
+      "y": 1392
+    },
+    "pass": true,
+    "actual": {
+      "x": 1584,
+      "y": 1376,
+      "feetY": 1392,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-19-approach",
+    "target": {
+      "x": 1616,
+      "y": 1392
+    },
+    "pass": true,
+    "actual": {
+      "x": 1616,
+      "y": 1376,
+      "feetY": 1392,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-19-occupy",
+    "target": {
+      "x": 1616,
+      "y": 1360
+    },
+    "pass": true,
+    "actual": {
+      "x": 1616,
+      "y": 1344,
+      "feetY": 1360,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "seat-19-exit",
+    "target": {
+      "x": 1616,
+      "y": 1392
+    },
+    "pass": true,
+    "actual": {
+      "x": 1616,
+      "y": 1376,
+      "feetY": 1392,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "studenthub-reserve",
+    "target": {
+      "x": 1616,
+      "y": 784
+    },
+    "pass": true,
+    "actual": {
+      "x": 1616,
+      "y": 768,
+      "feetY": 784,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "square-return",
+    "target": {
+      "x": 720,
+      "y": 1104
+    },
+    "pass": true,
+    "actual": {
+      "x": 721.9243399593914,
+      "y": 1088,
+      "feetY": 1104,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "pond",
+    "target": {
+      "x": 1296,
+      "y": 1328
+    },
+    "pass": true,
+    "actual": {
+      "x": 1296,
+      "y": 1312,
+      "feetY": 1328,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "label": "final-square",
+    "target": {
+      "x": 720,
+      "y": 1104
+    },
+    "pass": true,
+    "actual": {
+      "x": 720.9781699796955,
+      "y": 1088,
+      "feetY": 1104,
+      "cover": true,
+      "zoom": 1,
+      "scale": 1
+    }
+  }
+]

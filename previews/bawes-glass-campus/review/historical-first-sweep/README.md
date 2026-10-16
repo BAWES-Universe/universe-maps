@@ -1,0 +1,1 @@
+Historical setup/blockout and first-sweep evidence. Some captures include a camera-permission prompt or superseded art/coordinates. The first 67-route sweep predates the trimmed final campus and the 48-frame basin. Do not present these as final candidate evidence. See the parent review directory and main README for current results.

@@ -1,0 +1,10 @@
+owner-lock-action true {"visible":false,"collides":false,"x":592,"y":1536}
+late-join-sees-locked-collision true {"visible":true,"collides":true,"x":688,"y":1536}
+outside-locked-entry-blocked true {"visible":true,"collides":true,"x":648,"y":1536}
+reconnect-retains-lock true {"visible":true,"collides":true,"x":688,"y":1536}
+locked-occupant-exits true {"visible":true,"collides":true,"x":688,"y":1536}
+owner-unlock-propagates true {"visible":false,"collides":false,"x":688,"y":1536}
+touch-lock-button true {"visible":false,"collides":false,"x":592,"y":1536}
+touch-unlock-button true {"visible":false,"collides":false,"x":592,"y":1536}
+outside-independent-cover true {}
+inside-independent-cover true {}

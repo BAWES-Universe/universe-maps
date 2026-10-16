@@ -1,0 +1,100 @@
+
+> workadventure-map-starter-kit@3.3.18 build
+> tsc && vite build
+
+vite v4.5.14 building for production...
+transforming...
+✓ 23 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                       6.82 kB │ gzip: 1.97 kB
+dist/assets/office-7f74ee09.png                     108.87 kB
+dist/assets/bawes-glass-campus-runtime-275b391a.js    0.44 kB │ gzip: 0.31 kB │ map:  1.24 kB
+dist/assets/scripts-courtyard-66a2190d.js             1.82 kB │ gzip: 0.90 kB │ map:  6.11 kB
+dist/assets/scripts-town-5bf223ee.js                  3.66 kB │ gzip: 1.69 kB │ map: 11.98 kB
+dist/assets/src-main-66e7c871.js                     18.48 kB │ gzip: 6.17 kB │ map: 86.11 kB
+conference optimization is started!
+adventure optimization is started!
+office optimization is started!
+campus optimization is started!
+lantern-courtyard-editable optimization is started!
+universe-empty-sharp optimization is started!
+lantern-courtyard optimization is started!
+universe-empty-wide optimization is started!
+universe-empty optimization is started!
+universe optimization is started!
+butterfly-town optimization is started!
+Start tiles optimization...
+Start tiles optimization...
+Start tiles optimization...
+Start tiles optimization...
+Start tiles optimization...
+Start tiles optimization...
+Start tiles optimization...
+Start tiles optimization...
+Start tiles optimization...
+Chunk 1: 512x256px, 89 tiles — layers: start, collisions, floor1, floor2, walls1, walls2, furniture2, furniture3, above1
+Tiles optimization has been done: 1 tileset(s), 89 unique tiles, 0 duplicated
+conference map file render in progress!
+Chunk 1: 2048x2048px, 3467 tiles — layers: ground-and-furniture, pond-motion, persistent-collision, start, tower-interior, seat-backs, tower-glass-cover
+Tiles optimization has been done: 1 tileset(s), 3467 unique tiles, 0 duplicated
+campus map file render in progress!
+conference map file rendered!
+campus map file rendered!
+Start tiles optimization...
+Chunk 1: 512x512px, 256 tiles — layers: start, ocean, island, plants, rocks-shadows, bridge
+Chunk 2: 512x256px, 122 tiles — layers: collisions, trees v2, rocks, hometower, fountain, trees, stuff, fountain-top
+Chunk 1: 2048x1024px, 1446 tiles — layers: start, collisions, ground
+Tiles optimization has been done: 1 tileset(s), 1446 unique tiles, 0 duplicated
+universe map file render in progress!
+Chunk 3: 128x128px, 13 tiles — layers: stuff
+Tiles optimization has been done: 3 tileset(s), 386 unique tiles, 5 duplicated
+office map file render in progress!
+Chunk 1: 2048x1024px, 1934 tiles — layers: collisions, start, courtyard-ground, lantern-steady, pool-ripples, lantern-flicker, gathering-glow, alcove-post-feet, alcove-posts, alcove-roof, entrance-arch, gathering-butterflies
+Tiles optimization has been done: 1 tileset(s), 1934 unique tiles, 0 duplicated
+lantern-courtyard-editable map file render in progress!
+universe map file rendered!
+Chunk 1: 2048x1024px, 1652 tiles — layers: start, collisions, ground
+Tiles optimization has been done: 1 tileset(s), 1652 unique tiles, 0 duplicated
+universe-empty map file render in progress!
+office map file rendered!
+universe-empty map file rendered!
+lantern-courtyard-editable map file rendered!
+Chunk 1: 2048x1024px, 1652 tiles — layers: start, collisions, ground
+Tiles optimization has been done: 1 tileset(s), 1652 unique tiles, 0 duplicated
+universe-empty-sharp map file render in progress!
+universe-empty-sharp map file rendered!
+Chunk 1: 2048x1024px, 1976 tiles — layers: collisions, start, object-footprints, coffee-table-footprint, courtyard-ground, lantern-steady, pool-ripples, lantern-flicker, gathering-glow, object-feet, coffee-table-base, alcove-post-feet, object-canopies, coffee-table-top, alcove-posts, alcove-roof, entrance-arch, gathering-butterflies
+Tiles optimization has been done: 1 tileset(s), 1976 unique tiles, 0 duplicated
+lantern-courtyard map file render in progress!
+lantern-courtyard map file rendered!
+Chunk 1: 512x512px, 255 tiles — layers: start, collisions, ground, plants-subdecor, plants-decor, wall, doors-bg-black, doors-overlay, struct, props, stage, seats, new decor, plantsv2, decorzz-beach, stuff-other, stage-above, stage-glow-2, stuff-other-above
+Chunk 2: 256x256px, 64 tiles — layers: stage-glow-1, plants, plantsv3, plantsv4, stuff, stuff-above, plantsv4-above
+Tiles optimization has been done: 2 tileset(s), 292 unique tiles, 27 duplicated
+adventure map file render in progress!
+adventure map file rendered!
+Start tiles optimization...
+Chunk 1: 2048x2048px, 3506 tiles — layers: start, collisions, ground
+Tiles optimization has been done: 1 tileset(s), 3506 unique tiles, 0 duplicated
+universe-empty-wide map file render in progress!
+universe-empty-wide map file rendered!
+Chunk 1: 4096x4096px, 16350 tiles — layers: permanent-collisions, start, midnight-surroundings, gate-ground, town-surroundings, town-ground, town-edge-fog, archive-interior, town-olive-shadow, town-olive-feet, town-olive-canopies, studenthub-architecture, gate-butterflies
+Chunk 2: 4096x2048px, 7620 tiles — layers: studenthub-interior, studenthub-furniture-feet, cafe-interior, cafe-furniture-feet, archive-furniture-feet, gate-steady, town-steady, gate-pulse, town-pulse, gate-water, town-water, studenthub-furniture-canopies, studenthub-roof, cafe-furniture-canopies, cafe-architecture, cafe-roof, archive-furniture-canopies, archive-architecture, archive-roof, town-details
+Chunk 3: 2048x2048px, 3072 tiles — layers: studenthub-focus, cafe-focus
+Chunk 4: 2048x1024px, 1536 tiles — layers: archive-focus
+Tiles optimization has been done: 4 tileset(s), 28578 unique tiles, 0 duplicated
+butterfly-town map file render in progress!
+butterfly-town map file rendered!
+✓ built in 4.17s
+
+========================================
+ Map optimization report
+========================================
+  11 map(s) processed, 11 succeeded, 0 failed.
+  ✓ All maps optimized successfully.
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

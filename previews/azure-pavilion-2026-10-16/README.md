@@ -1,6 +1,6 @@
 # Azure Pavilion — review candidate
 
-A separate compact coastal Art Deco social map with reusable, text-free artwork. No public Pages preview has been published. Moonlit and all unrelated maps are unchanged.
+A separate compact coastal Art Deco social map with reusable, text-free artwork. Public Pages preview publication was authorized2026-10-16. Runtime assets match tested commit0992485c4b48d0846aaf4ab00e17f8d2d3d92dc7. Moonlit and all unrelated maps are unchanged.
 
 Open `azure.tmj` with its adjacent assets in WorkAdventure. The map uses a native32px grid, Woka scale1 and camera zoom1. It contains a glass lounge, two café groups, connected promenade, animated fountain, ocean caustic highlights and overlook. See [exact interactions](INTERACTIONS.md).
 
@@ -29,4 +29,4 @@ The released native audio Stop action restarts full-map audio on the next tile m
 
 Final artwork: `coastal-unlabeled.png`, generated with the built-in image tool and downsampled to1280×1024; original retained in `source/unlabeled-artwork-original.png`. No external paid service. `source/build-layout.cjs` is an earlier geometry scaffold, not a final-map rebuild script; final TMJ/geometry are authoritative. `source/build-ocean.cjs` generates the ocean overlay. Fountain and synthetic sea-breeze were authored locally. Superseded labeled artwork remains only in earlier Git history; historical review screenshots are explicitly marked.
 
-This source branch is prepared for review only. Publication, if separately authorized, is limited to this preview directory and its assets. No world registration, production deployment, permission changes or spending.
+Publication is limited to this preview directory and its assets. No world registration, production deployment, permission changes or spending.

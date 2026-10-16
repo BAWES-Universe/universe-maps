@@ -1,10 +1,11 @@
 {
-  "status": "candidate prepared; not published",
+  "status": "publication authorized; Pages deployment in progress",
   "branch": "preview/azure-pavilion-2026-10-16",
   "base": "gh-pages",
   "directory": "previews/azure-pavilion-2026-10-16",
   "entry": "azure.tmj",
   "proposedPublicTmj": "https://bawes-universe.github.io/universe-maps/previews/azure-pavilion-2026-10-16/azure.tmj",
-  "scope": "Only this new preview directory; do not alter Moonlit or unrelated maps. Requires separate publication authorization.",
-  "engineCommit": "274114560c5ec95fdf8e51e67986a53069f3cf06"
+  "scope": "Only this new preview directory and its assets. Publication authorized2026-10-16; no engine or production app deployment.",
+  "engineCommit": "274114560c5ec95fdf8e51e67986a53069f3cf06",
+  "testedCommit": "0992485c4b48d0846aaf4ab00e17f8d2d3d92dc7"
 }

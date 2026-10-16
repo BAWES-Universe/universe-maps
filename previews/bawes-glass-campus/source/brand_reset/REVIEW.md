@@ -28,3 +28,11 @@ The first desktop test used left-click and did not move. Inspection of `play/src
 ## Current actual-game evidence
 
 Normal-scale captures show the occupant head and torso at the lower meeting-chair anchor and visible through the exterior frontage. Desktop right-click approach/exit and short touch-tap approach/exit are tested. Keyboard movement is measured after bringing the game canvas into focus, with a 96px horizontal change in the final run. The separate final JSON records the tested positions and native scale. Static validation passes 6,396 connected walkable cells and 88 reachable seats; four mocked reveal handlers pass; repository build succeeds for 11/11 maps. These results do not imply visual acceptance or campus-wide polish.
+
+## Owner consistency feedback — focused follow-up
+
+Tea Garden, Sky Village and the earlier Butterfly/Magical Campus lineage were visually rechecked. Their useful common quality is coordinated projection, compact furnishing, material continuity and readable routes; their wood/gold themes are not copied. This pass reuses the current registered furniture/planting/wall kit across the existing tower upper rooms, arrival terraces and bordering paths. `empty-material-original.png` is a single image-tool edit of `review/brand-section-native.png`, with furniture removed to restore empty rugs. It supports native assembly without duplicate chairs. No external paid generation, new theme or broad campus expansion.
+
+The lower reviewed seating section and tower shell remain intact. Existing work/meeting/social anchors and collision cells remain unchanged; new chair foreground strips cover only the feet. Other districts beyond surrounding street junctions remain unfinished, and repetition in the shared furniture/material kit is a remaining limitation rather than a claim of Tea Garden-equivalent finish.
+
+A bounded second finishing edit, `consistency-finish-original.png`, uses `consistency-guide.png` (the compiled existing section) to repair repeated paving spots and clipped planter joins. It is composited at the same world bounds, without collision or runtime changes. This is retained separately from the empty-material source for reproducibility.

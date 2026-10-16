@@ -1,0 +1,26 @@
+{
+  "baseline": "205b8811d094e38c8c6b982693ab8b6c10c9a83a",
+  "changed_map_layers": [
+    "seat-backs"
+  ],
+  "persistent_collision_unchanged": true,
+  "runtime_unchanged": true,
+  "sha256": {
+    "campus.tmj": "6e078d485afce210befb01515ba40e89ca779bf57afde690734ceb7419860eed",
+    "ground.png": "01f73838575dcb21dce23e3dd6fe4cb44d16b2351f964eebf4a6738ad528808a",
+    "seat-backs.png": "bd9e2e6cb47140dd25555e03ff55b59ddb1a512374ecc5e86e64123e22f47906",
+    "tower-glass.png": "ccb122063e8806faee1d0e5f790a8bfa73a3957d48ebd3ea27742aaf10b8a681",
+    "runtime.js": "deb2c338e5ec251b55a04ccf981d775134b7bde9c3433a6e7c7a53c42203c3f3",
+    "source/brand_reset/assemble.py": "3cc1d5c7e0aa871ba83c1779116cf010f23d6cf967bd089010b8587a9fe20a22",
+    "source/brand_reset/empty-material-original.png": "dd4d39094ced8da8d7abe1ee9bbf3defe953b3930e23668e9bf397aad48788b1",
+    "source/validation/consistency.cjs": "bb963a88681713592a134c00251fe7a7c1667c413a7a041c20a9acda51a8a3c4",
+    "source/brand_reset/consistency-guide.png": "3f56ecf4db5f17f87d40de988837c2a48b85ffe65a9aed636b6d6ad8d9506f0c",
+    "source/brand_reset/consistency-finish-original.png": "57da271d9069aa31c53cf423ae5a56c96143736b2d75d1a571a88ef6c9f14f13"
+  },
+  "actual_client_checks": {
+    "passed": 10,
+    "total": 10,
+    "camera_zoom": 1,
+    "woka_scale": 1
+  }
+}

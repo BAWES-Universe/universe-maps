@@ -1,33 +1,32 @@
-# BAWES town — architecture and interaction candidate
+# BAWES glass campus
 
-An isolated original 96×88 campus at native 32px scale. Spawn stays beside the team tower and its near-entrance meeting room. The tower's entire 24×19 projected footprint becomes a continuous office when its shell is hidden. Coworking, staff offices and a glass portal pavilion stand behind it, separated by a connected street. Side routes lead to the StudentHub court, conversation booths, outdoor stage, staff and coworking terraces, and beach promenade with a visible sea.
+An isolated 96×88 campus at native 32px scale, with a folded colored-glass BAWES tower facing an open square. Outdoor spawn is beside the entrance and meeting room; seated occupants remain visible through the front glazing. Stepped planted wings, stone piers and deep eaves give the tower a complete architectural mass. A coworking house, staff house and curved glass portal pavilion form the northern district.
 
-This is an architecture/layout iteration, **not a visually finished or deployed world**. Current furniture and architectural detailing are still schematic. The full tower/podium cover now masks the complete footprint outside, rather than exposing an unrelated office floor around the crown. Its retained generated facade still needs visual review alongside the newly authored buildings.
+The visual pass adds reference-atlas furniture and materials, furnished work and meeting clusters, a lounge, presentation boards, planting, terraces, a stage and a beach with parasols, boardwalks and shoreline. The StudentHub court remains open for shared use and later configuration. Wide connected routes link every district. This is a local-client-tested draft for owner review; it has not been deployed.
 
-The latest arrival correction moves spawn to (22,53) and front seats into the transparent window band. A fresh paired capture (`town-glass.json`) confirms the occupied chair is visible through the glass; the 26-route sweep precedes that small adjustment. `town-coast.json` checks the final spawn, shoreline collision and coworking terrace after extending the sea.
+## Behavior
 
-## Current behavior
+- Four independent full-footprint cutaways preserve floors, furniture and permanent collision. The tower's entire 24×19 projected footprint becomes usable interior.
+- Six-tile tower entrances; 6,395 connected walkable cells, 88 statically reachable seats and six reachable portal bays.
+- Front/rear tower doors open on approach and permit safe exit. The meeting room has an explicit Apps-menu courtesy lock, also available in the mobile profile menu. Shared state propagates to visitors and reconnects; occupants retain exit, the owner can unlock from outside, and a 15-minute lease expires abandoned locks. This is not authorization or audio isolation.
+- Six portal arches await destination binding through the existing area editor's “Portal to any room”. `source/portal-areas.json` supplies pixel rectangles with empty properties, not installed WAM areas. No invented destination URLs or engine feature.
+- No baked labels, walking popups, quests, background audio or conversation-disabling `silent` property. Furnishing does not automatically configure live media/events.
 
-- Four independent full-footprint shell cutaways, with floor, furniture and permanent collision kept separate.
-- Six-tile main circulation and tower entrances. 6,504 connected walkable cells, 86 statically reachable seats and six reachable portal bays.
-- Native main-office front/rear door layers open on approach and remain passable for occupants leaving. A near-spawn meeting enclosure has a shared courtesy lock controlled by an explicit Apps-menu button (including the mobile profile menu). Occupants can always leave; the owner can unlock from outside. A 15-minute lease prevents an indefinitely abandoned lock. This is not authorization or audio isolation.
-- Six original portal arches are ready for configuration through the **existing** area editor’s “Portal to any room”. `source/portal-areas.json` contains pixel rectangles with empty properties. These records are not installed WAM/editor areas. Destinations are deliberately unbound; no fake room URLs or new portal engine feature.
-- The stage, offices and booths are useful physical places. Live event/media settings and staffing are not inferred from furnishing. No walking popups, quest triggers, background audio or conversation-disabling `silent` property.
+## Current evidence
 
-## Evidence and reproduction
+- `review/polished-campus-routes.json`: 26/26 actual-client routes through the tower, meeting room, rear street, coworking, portals, staff terrace, stage, beach and StudentHub.
+- `review/polished-doors.json`: 10/10 two-client checks for lock control, late join, collision, reconnect, safe exit, propagated unlock, touch controls and independent cutaways.
+- `review/polished-district.json`: 5/5 checks of the final occupied glass frontage, independent interior reveal and lounge seating/exit.
+- `review/polished-coast.json`: current spawn, beach/shore collision and cowork terrace checks.
+- `review/static-validation.json`: connected walkable cells, seats, portal bays and complete reveal masks. Static reachability does not certify every seat's native avatar overlap.
+- `review/polished-*.png` are actual game captures. Normal desktop captures use 1440×900 viewport, native Woka scale and camera zoom 1. Files named `overview` and `northern-district` use the client's zoom-out control; narrow mobile captures test touch UI. `review/outside.png` and `inside.png` are offline full-map layer exports, not gameplay screenshots.
 
-- `review/town-client-routes.json`: 26 actual-client routes covering spawn, meeting entry/seating/exit, full-height tower interior, rear street, coworking, portal bays, staff rooms/terrace, stage, beach and StudentHub.
-- `review/town-doors.json`: 10 passing two-client checks covering lock action, late joining, collision, reconnect, safe exit, propagated unlock, touch lock/unlock and independent shell visibility. `review/town-crossing.json` records a separate opposing-direction doorway crossing.
-- `review/static-validation.json`: all-cell connectivity, reachable seats, portal bays and four full-footprint reveal masks. Static checks do not prove native avatar overlap or visual quality for every seat.
-- `review/outside.png` and `review/inside.png`: **offline full-map layer exports**. `review/town-*.png` are actual client captures. `town-overview.png` is a zoomed-out southern district view, not the complete map. `town-northern-district.png` is a zoomed-out view of the buildings behind the tower. Other captures use normal camera scale except the explicitly narrow touch-client captures.
-- Retained failure evidence records the first closed-door exit/pathfinding issue and first unlock-propagation observation. It is not passing evidence.
+The route/door sweep used the final furniture and collision layout before the last exterior-only tower/pavilion substitutions. District and northern captures use those final shells. Historical `town-*`, `geometry-*` and `client-*` evidence belongs to prior revisions and does not certify this visual pass. Source and generated-file hashes are recorded in `review/polished-validated-inputs.json`.
 
-Build with `python3 source/build.py` from this directory, then `python3 source/validate.py` and `node source/test-reveal.cjs`. The repository `npm run build` optimizes maps without deploying. Existing local runtime instructions are in `source/runtime/README.md`; the engine remains pinned to `274114560c5ec95fdf8e51e67986a53069f3cf06`.
+Build from this directory with `python3 source/build.py`, then run `python3 source/validate.py` and `node source/test-reveal.cjs`. Repository `npm run build` passed all 11 maps without deployment. Local runtime setup is in `source/runtime/README.md`; engine revision is `274114560c5ec95fdf8e51e67986a53069f3cf06`.
 
-## Source and scope
+## Provenance and scope
 
-`source/REFERENCE-CONTRACTS.md` records the WA Village study, 100 Roads provenance, user-reported partnership permission and exact existing portal contracts. All candidate art/layout/code is original or the retained BAWES-generated tower source; no reference-map assets were copied. `source/ART-PROVENANCE.md` describes compilation.
+`source/ASSET-PROVENANCE.md`, `asset-manifest.json` and `REFERENCE-CONTRACTS.md` document selected WA Village/100 Roads atlases used under the user's reported WorkAdventure partnership permission. No general/open license is asserted. Campus layout/code and generated architecture are separately authored; retained generation inputs support rebuilding. `ART-PROVENANCE.md` retains historical first-generation notes.
 
-The rejected facade prototype is preserved at `eeebac0`; the full-footprint geometry checkpoint is `5aaee09`. Prior `client-*`, `geometry-*`, table/door reports and historical sweep files refer to those old layouts and cannot certify this town revision. Only `town-*` and the rebuilt static report apply here.
-
-All changes stay under `previews/bawes-glass-campus/`, on `feat/bawes-glass-campus`, draft PR #21. Existing maps, Azure and engine tracked source remain unchanged. No merge, deployment or world registration has occurred.
+All work stays under `previews/bawes-glass-campus/` on `feat/bawes-glass-campus`, draft PR #21. Existing maps, Azure and tracked engine source remain unchanged. No merge, deployment or world registration. Portal destination binding and owner visual acceptance remain outstanding.

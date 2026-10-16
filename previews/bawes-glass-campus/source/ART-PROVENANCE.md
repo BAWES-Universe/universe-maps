@@ -1,3 +1,7 @@
+# Historical first-generation art notes
+
+The current visual pass is documented in `ASSET-PROVENANCE.md`. The account below records the earlier generated tower and procedural prototype, not the current atlas-based artwork.
+
 # Artwork provenance and compilation
 
 The modern mark reference is `lettermark.svg`, copied unchanged from the BAWES Universe game's brand folder at commit 274114560c5ec95fdf8e51e67986a53069f3cf06. The supplied brand asset remains BAWES's. Its four paths informed the original blockout; no historical robot, skyline or third-party campus art was reused.

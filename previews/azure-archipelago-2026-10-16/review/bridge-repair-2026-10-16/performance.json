@@ -1,0 +1,62 @@
+[
+  {
+    "label": "before",
+    "name": "bridge",
+    "fps": 57.210331121393914,
+    "p95": 33.29999999999927,
+    "zoom": 1,
+    "scale": 1,
+    "roof": true,
+    "water": true
+  },
+  {
+    "label": "before",
+    "name": "roof-outside",
+    "fps": 41.76094769063845,
+    "p95": 33.400000000001455,
+    "zoom": 1,
+    "scale": 1,
+    "roof": true,
+    "water": true
+  },
+  {
+    "label": "before",
+    "name": "roof-inside",
+    "fps": 40.70511222977921,
+    "p95": 33.400000000001455,
+    "zoom": 1,
+    "scale": 1,
+    "roof": false,
+    "water": true
+  },
+  {
+    "label": "after",
+    "name": "bridge",
+    "fps": 56.977209116367604,
+    "p95": 33.29999999999927,
+    "zoom": 1,
+    "scale": 1,
+    "roof": true,
+    "water": true
+  },
+  {
+    "label": "after",
+    "name": "roof-outside",
+    "fps": 46.47985872790767,
+    "p95": 33.400000000001455,
+    "zoom": 1,
+    "scale": 1,
+    "roof": true,
+    "water": true
+  },
+  {
+    "label": "after",
+    "name": "roof-inside",
+    "fps": 41.081764353699626,
+    "p95": 33.400000000001455,
+    "zoom": 1,
+    "scale": 1,
+    "roof": false,
+    "water": true
+  }
+]

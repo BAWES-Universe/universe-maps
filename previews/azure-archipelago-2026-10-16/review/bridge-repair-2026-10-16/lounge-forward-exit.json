@@ -1,0 +1,34 @@
+[
+  {
+    "id": "lounge-0",
+    "target": {
+      "id": "lounge-0",
+      "island": "lounge",
+      "x": 603,
+      "y": 2371,
+      "approachX": 0,
+      "approachDistance": 32,
+      "facing": "down"
+    },
+    "ready": true,
+    "occupied": {
+      "x": 603,
+      "y": 2371,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exit": {
+      "x": 603,
+      "y": 2455,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exact": true
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "roof-east-outside",
+    "x": 1104,
+    "y": 2512,
+    "scale": 1,
+    "zoom": 1,
+    "roof": true
+  },
+  {
+    "name": "roof-east-enter",
+    "x": 942,
+    "y": 2512,
+    "scale": 1,
+    "zoom": 1,
+    "roof": false
+  },
+  {
+    "name": "roof-east-leave",
+    "x": 1104,
+    "y": 2512,
+    "scale": 1,
+    "zoom": 1,
+    "roof": true
+  },
+  {
+    "name": "roof-southeast-outside",
+    "x": 1072,
+    "y": 2704,
+    "scale": 1,
+    "zoom": 1,
+    "roof": true
+  },
+  {
+    "name": "roof-southeast-enter",
+    "x": 913,
+    "y": 2704,
+    "scale": 1,
+    "zoom": 1,
+    "roof": false
+  },
+  {
+    "name": "roof-southeast-leave",
+    "x": 1080,
+    "y": 2704,
+    "scale": 1,
+    "zoom": 1,
+    "roof": true
+  }
+]

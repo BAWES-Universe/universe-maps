@@ -1,0 +1,8 @@
+{
+  "revision": 2,
+  "base_commit": "0bffac61e1c2f991f968bef059faa3677f8f247a",
+  "bridge_surface": "Existing hub.png stone patch at40,275,48x32, expanded within a90x54 court paving module; grout sampled from native court edges. No generated giant-slab texture remains. World-aligned repeat shared by bridges/bays.",
+  "landing": "Native court mosaic course sampled at144,16,64x32, repeated across bridge ends only; no island or hub artwork overpainting.",
+  "source": "source/build-bridge-surface.cjs",
+  "preserved": "All island and hub PNGs; grid removal and canopy cutaway; bay seats/rails; navigation and controller."
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "lounge-0",
+    "target": {
+      "id": "lounge-0",
+      "island": "lounge",
+      "x": 603,
+      "y": 2371,
+      "approachX": 0,
+      "approachDistance": 32,
+      "facing": "down"
+    },
+    "ready": true,
+    "occupied": {
+      "x": 603,
+      "y": 2371,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exit": {
+      "x": 603,
+      "y": 2352,
+      "direction": 0,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exact": true
+  },
+  {
+    "id": "lounge-4",
+    "target": {
+      "id": "lounge-4",
+      "island": "lounge",
+      "x": 636,
+      "y": 2493,
+      "approachX": 0,
+      "approachDistance": 32,
+      "facing": "down"
+    },
+    "ready": true,
+    "occupied": {
+      "x": 636,
+      "y": 2493,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exit": {
+      "x": 636,
+      "y": 2409,
+      "direction": 0,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exact": true
+  },
+  {
+    "id": "lounge-8",
+    "target": {
+      "id": "lounge-8",
+      "island": "lounge",
+      "x": 208,
+      "y": 2493,
+      "approachX": 32,
+      "approachDistance": 0,
+      "facing": "left"
+    },
+    "ready": true,
+    "occupied": {
+      "x": 208,
+      "y": 2493,
+      "direction": 3,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exit": {
+      "x": 295,
+      "y": 2493,
+      "direction": 1,
+      "zoom": 1,
+      "scale": 1,
+      "vx": 0,
+      "vy": 0
+    },
+    "exact": true
+  }
+]

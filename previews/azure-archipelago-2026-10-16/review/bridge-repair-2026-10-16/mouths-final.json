@@ -1,0 +1,386 @@
+[
+  {
+    "name": "cafe",
+    "lane": 2448,
+    "A": [
+      2448,
+      1200
+    ],
+    "Z": [
+      2448,
+      1328
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 2447.6666666666665,
+      "y": 1190,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "cafe",
+    "lane": 2672,
+    "A": [
+      2672,
+      1200
+    ],
+    "Z": [
+      2672,
+      1328
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 2671.6666666666665,
+      "y": 1184,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "north-hub",
+    "lane": 2448,
+    "A": [
+      2448,
+      2128
+    ],
+    "Z": [
+      2448,
+      2224
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 2447.6666666666665,
+      "y": 2122,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "north-hub",
+    "lane": 2672,
+    "A": [
+      2672,
+      2128
+    ],
+    "Z": [
+      2672,
+      2224
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 2671.6666666666665,
+      "y": 2125,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "south-hub",
+    "lane": 2448,
+    "A": [
+      2448,
+      2896
+    ],
+    "Z": [
+      2448,
+      2992
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 2447.6666666666665,
+      "y": 2893,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "south-hub",
+    "lane": 2672,
+    "A": [
+      2672,
+      2896
+    ],
+    "Z": [
+      2672,
+      2992
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 2671.6666666666665,
+      "y": 2890,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "garden",
+    "lane": 2448,
+    "A": [
+      2448,
+      3792
+    ],
+    "Z": [
+      2448,
+      3920
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 2447.6666666666665,
+      "y": 3782,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "garden",
+    "lane": 2672,
+    "A": [
+      2672,
+      3792
+    ],
+    "Z": [
+      2672,
+      3920
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 2671.6666666666665,
+      "y": 3785,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "lounge",
+    "lane": 2448,
+    "A": [
+      1200,
+      2448
+    ],
+    "Z": [
+      1328,
+      2448
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 1189.6666666666665,
+      "y": 2448,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "lounge",
+    "lane": 2672,
+    "A": [
+      1200,
+      2672
+    ],
+    "Z": [
+      1328,
+      2672
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 1189.6666666666665,
+      "y": 2672,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "west-hub",
+    "lane": 2448,
+    "A": [
+      2128,
+      2448
+    ],
+    "Z": [
+      2224,
+      2448
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 2124.6666666666665,
+      "y": 2448,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "west-hub",
+    "lane": 2672,
+    "A": [
+      2128,
+      2672
+    ],
+    "Z": [
+      2224,
+      2672
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 2124.6666666666665,
+      "y": 2672,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "east-hub",
+    "lane": 2448,
+    "A": [
+      2896,
+      2448
+    ],
+    "Z": [
+      2992,
+      2448
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 2892.6666666666665,
+      "y": 2448,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "east-hub",
+    "lane": 2672,
+    "A": [
+      2896,
+      2672
+    ],
+    "Z": [
+      2992,
+      2672
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 2892.6666666666665,
+      "y": 2672,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "gathering",
+    "lane": 2448,
+    "A": [
+      3792,
+      2448
+    ],
+    "Z": [
+      3920,
+      2448
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 3778.6666666666665,
+      "y": 2448,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  },
+  {
+    "name": "gathering",
+    "lane": 2672,
+    "A": [
+      3792,
+      2672
+    ],
+    "Z": [
+      3920,
+      2672
+    ],
+    "setup": true,
+    "click": true,
+    "keyboard": true,
+    "state": {
+      "x": 3784.6666666666665,
+      "y": 2672,
+      "v": 0,
+      "zoom": 1,
+      "scale": 1,
+      "visible": true,
+      "popups": 0
+    }
+  }
+]

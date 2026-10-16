@@ -2,7 +2,7 @@
 
 Reviewer: non-author agent; actual isolated BAWES v0.3.8 runtime, engine commit 274114560c5ec95fdf8e51e67986a53069f3cf06. No map or engine source edited by reviewer.
 
-Status: independent furniture, visual, motion and assigned corridor checks PASS. Final audio fallback requires author runtime result; source reviewed independently. Earlier audio/static-ocean details below are historical and superseded by the final-pass section.
+Status: independent furniture, visual, motion and assigned corridor checks PASS. Final audio fallback author runtime evidence independently reviewed and accepted. Earlier audio/static-ocean details below are historical and superseded by the final-pass section.
 
 Reviewed loaded TMJ SHA256: 7d93cd30ae0d778b66bfa72435a84b33f324c825094f4926c802087105870259. Author subsequently changed popup anchor x coordinates only; current disk TMJ 2e230066591c211bbe13934baff4db6d300e3f0265aaafa51e71aa21faa0fa3d. Controller d4117788765d3d42830c9f2bc492e741ed8186c8d169e6c491ca7a71b1e344df and café art fb117e29927f69e010e1aecc2d29d4e6c041f5bc3c683e631fe0f64407370be0 unchanged.
 
@@ -39,4 +39,13 @@ Final continuous capture final-ocean-fountain-12s.mp4 contains12.34s,156 frames 
 
 Audio supersession: native Stop was reported by author to restart after walking because engine property caching reapplies playAudio. Do not claim that native control works reliably. The final source uses one explicit native menu command toggling Play sea sound / Stop sea sound, backed by WA.sound, and does not register audio in movement callbacks or show an audio popup. Spawn does not play sound. This source design addresses the defect without engine edits, but final actual audible-output, Stop-persistence and crossing tests belong to author evidence and remain the remaining gate at this report's completion. No independent physical-speaker listening is claimed.
 
-Independent browser CDP9222 released. No map, engine source, or unrelated Moonlit files modified by reviewer. Preview visual/gameplay acceptance passes within the limitations stated; final audio runtime result and publication/package smoke remain author gates.
+Independent browser CDP9222 released. No map, engine source, or unrelated Moonlit files modified by reviewer. Preview visual/gameplay acceptance passes within the limitations stated; final audio runtime evidence was subsequently reviewed and accepted below; publication/package smoke remains an author gate.
+
+
+## Final audio gate closed
+
+Independently reviewed /workspace/coastal-runtime/final-audio-results.json and final-audio.cjs, and decoded final-rendered-audio.webm successfully (51.68seconds). Harness uses real native menu clicks for Play sea sound and Stop sea sound. Its WebAudio analyser/MediaRecorder taps Phaser master output without calling play or resuming the context. Evidence supports silent spawn (RMS0), actual rendered playback (RMS0.0126437, HTTP200asset, looptrue, volume0.45), six playing movement checkpoints with nonzero output and zero popups, then Stop with RMS0 and four further movement checkpoints plus keyboard movement remaining silent and prompt-free. Audio gate PASS on author-executed evidence independently reviewed. This is not a second independently executed runtime test or physical-speaker listening. Dynamic explicit Play/Stop menu is the documented fallback for unreliable native media Stop, not a custom popup.
+
+Final author gameplay recording also reviewed after successful finalization: /workspace/coastal-runtime/final-gameplay-motion.mp4, duration26.633s, size5,325,529bytes. Extracted ordered frames every3seconds corroborate the initial stationary water view, changing fountain/caustic phases, visible avatar walking into the lounge with canopy hidden, and walking back outside. No popup obscures those sampled frames. Contact sheet is author-video-frames/sequence.jpg. This is review of extracted frames and file integrity, not a claim to continuous human playback. Existing independent12.34s recording and direct keyboard roof tests remain complementary evidence.
+
+All requested independent review gates are now closed except publication/package smoke, which remains the author's responsibility. No further map edits are requested by this reviewer.

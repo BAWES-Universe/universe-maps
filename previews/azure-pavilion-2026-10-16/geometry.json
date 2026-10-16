@@ -5,39 +5,94 @@
   "seats": [
     {
       "id": "lounge-west-outer",
-      "x": 416,
+      "x": 408,
       "y": 272,
-      "side": -1
+      "approach": "north",
+      "facing": "down"
     },
     {
       "id": "lounge-west-inner",
-      "x": 512,
+      "x": 504,
       "y": 272,
-      "side": 1
+      "approach": "north",
+      "facing": "down"
     },
     {
       "id": "lounge-east-inner",
-      "x": 768,
+      "x": 760,
       "y": 272,
-      "side": -1
+      "approach": "north",
+      "facing": "down"
     },
     {
       "id": "lounge-east-outer",
-      "x": 864,
+      "x": 856,
       "y": 272,
-      "side": 1
+      "approach": "north",
+      "facing": "down"
     },
     {
       "id": "overlook-west",
-      "x": 576,
+      "x": 568,
       "y": 880,
-      "side": -1
+      "approach": "north",
+      "facing": "down"
     },
     {
       "id": "overlook-east",
-      "x": 704,
+      "x": 696,
       "y": 880,
-      "side": 1
+      "approach": "north",
+      "facing": "down"
+    },
+    {
+      "id": "cafe-west-left",
+      "x": 296,
+      "y": 592,
+      "approach": "north",
+      "facing": "down"
+    },
+    {
+      "id": "cafe-west-right",
+      "x": 408,
+      "y": 592,
+      "approach": "north",
+      "facing": "down"
+    },
+    {
+      "id": "cafe-east-left",
+      "x": 872,
+      "y": 592,
+      "approach": "north",
+      "facing": "down"
+    },
+    {
+      "id": "cafe-east-right",
+      "x": 984,
+      "y": 592,
+      "approach": "north",
+      "facing": "down"
+    },
+    {
+      "id": "settee-left",
+      "x": 600,
+      "y": 216,
+      "approach": "north",
+      "facing": "down"
+    },
+    {
+      "id": "settee-middle",
+      "x": 632,
+      "y": 216,
+      "approach": "north",
+      "facing": "down"
+    },
+    {
+      "id": "settee-right",
+      "x": 664,
+      "y": 216,
+      "approach": "north",
+      "facing": "down"
     }
   ],
   "tables": [
@@ -54,10 +109,28 @@
       32
     ],
     [
-      624,
+      608,
       864,
-      32,
+      64,
       32
+    ],
+    [
+      320,
+      544,
+      64,
+      64
+    ],
+    [
+      896,
+      544,
+      64,
+      64
+    ],
+    [
+      608,
+      224,
+      64,
+      64
     ]
   ],
   "blocked": [
@@ -277,14 +350,14 @@
     true,
     true,
     false,
-    false,
-    false,
-    false,
-    false,
+    true,
+    true,
     false,
     false,
     false,
     false,
+    true,
+    true,
     false,
     true,
     true,
@@ -312,19 +385,19 @@
     true,
     true,
     true,
-    false,
-    false,
-    false,
     false,
     false,
     false,
     false,
     false,
-    false,
+    true,
+    true,
     false,
     false,
     false,
     false,
+    true,
+    true,
     false,
     false,
     false,
@@ -352,10 +425,7 @@
     true,
     true,
     true,
-    false,
-    false,
-    false,
-    false,
+    true,
     false,
     false,
     false,
@@ -363,6 +433,8 @@
     false,
     false,
     false,
+    true,
+    true,
     false,
     false,
     false,
@@ -392,16 +464,17 @@
     true,
     true,
     true,
-    false,
-    false,
-    false,
     true,
+    true,
     false,
     false,
+    true,
     false,
     false,
     false,
     false,
+    true,
+    true,
     false,
     false,
     false,
@@ -409,7 +482,6 @@
     true,
     false,
     false,
-    false,
     true,
     true,
     true,
@@ -432,8 +504,8 @@
     true,
     true,
     true,
-    false,
-    false,
+    true,
+    true,
     false,
     false,
     false,
@@ -472,8 +544,8 @@
     true,
     true,
     true,
-    false,
-    false,
+    true,
+    true,
     false,
     false,
     false,
@@ -514,6 +586,7 @@
     true,
     true,
     true,
+    true,
     false,
     false,
     false,
@@ -745,14 +818,14 @@
     true,
     true,
     true,
-    false,
     false,
     false,
     false,
     false,
     false,
     false,
-    false,
+    true,
+    true,
     false,
     false,
     false,
@@ -763,14 +836,14 @@
     true,
     true,
     true,
-    false,
     false,
     false,
     false,
     false,
     false,
     false,
-    false,
+    true,
+    true,
     false,
     false,
     false,
@@ -791,8 +864,8 @@
     false,
     false,
     false,
-    false,
-    false,
+    true,
+    true,
     false,
     false,
     false,
@@ -809,8 +882,8 @@
     false,
     false,
     false,
-    false,
-    false,
+    true,
+    true,
     false,
     false,
     false,
@@ -1160,8 +1233,8 @@
     false,
     false,
     false,
-    false,
-    false,
+    true,
+    true,
     false,
     false,
     false,
@@ -1345,5 +1418,103 @@
   "spawn": {
     "x": 656,
     "y": 720
-  }
+  },
+  "structure": [
+    [
+      320,
+      128,
+      640,
+      32
+    ],
+    [
+      320,
+      160,
+      32,
+      224
+    ],
+    [
+      928,
+      160,
+      32,
+      224
+    ],
+    [
+      320,
+      352,
+      96,
+      32
+    ],
+    [
+      864,
+      352,
+      96,
+      32
+    ],
+    [
+      352,
+      160,
+      128,
+      32
+    ],
+    [
+      800,
+      160,
+      128,
+      32
+    ],
+    [
+      576,
+      512,
+      128,
+      128
+    ],
+    [
+      192,
+      448,
+      64,
+      64
+    ],
+    [
+      1024,
+      448,
+      64,
+      64
+    ],
+    [
+      192,
+      672,
+      64,
+      64
+    ],
+    [
+      1024,
+      672,
+      64,
+      64
+    ],
+    [
+      352,
+      224,
+      32,
+      128
+    ],
+    [
+      896,
+      224,
+      32,
+      128
+    ],
+    [
+      512,
+      160,
+      64,
+      64
+    ],
+    [
+      704,
+      160,
+      64,
+      64
+    ]
+  ]
 }

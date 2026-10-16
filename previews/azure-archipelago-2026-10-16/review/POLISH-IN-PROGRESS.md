@@ -1,6 +1,6 @@
 # Unpublished finish pass
 
-No publication or deployment is authorized at this stage. The owner requires a finished reviewable candidate first. Current fresh independent review found no remaining material gameplay/visual blocker; its final report and final-art performance evidence are being attached. This document supersedes earlier progress counts, not historical reports tied to other hashes.
+No publication or deployment is authorized at this stage. The owner requires a finished reviewable candidate first. Current fresh independent review found no remaining material gameplay/visual blocker; its final report and final-art performance evidence are attached. This document supersedes earlier progress counts, not historical reports tied to other hashes.
 
 Finished four distinct island interiors, quieter mosaic court, integrated bridge/bay materials, native sea culling repair, natural garden shoreline/canopy edges and finished café landing returns. The lounge upper bridge post was moved clear of the full passage and directly retested. Native Woka/camera remain1. No new destinations or expanded canvas.
 

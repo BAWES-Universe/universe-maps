@@ -1,0 +1,1162 @@
+[
+  {
+    "table": 0,
+    "side": "north",
+    "approached": true,
+    "before": {
+      "x": 464.0359328807426,
+      "y": 416,
+      "body": {
+        "left": 458.69993288074255,
+        "right": 474.69993288074255,
+        "top": 416,
+        "bottom": 432
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 464.0359328807426,
+      "y": 432,
+      "body": {
+        "left": 456.0359328807426,
+        "right": 472.0359328807426,
+        "top": 432,
+        "bottom": 448
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 0,
+    "side": "south",
+    "approached": true,
+    "before": {
+      "x": 462.8467694087203,
+      "y": 480,
+      "body": {
+        "left": 450.8467694087203,
+        "right": 466.8467694087203,
+        "top": 480,
+        "bottom": 496
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 462.8467694087203,
+      "y": 480,
+      "body": {
+        "left": 454.8467694087203,
+        "right": 470.8467694087203,
+        "top": 480,
+        "bottom": 496
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 0,
+    "side": "west",
+    "approached": true,
+    "before": {
+      "x": 400,
+      "y": 452.1747694087202,
+      "body": {
+        "left": 392,
+        "right": 408,
+        "top": 454.8467694087203,
+        "bottom": 470.8467694087203
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 408,
+      "y": 452.1747694087202,
+      "body": {
+        "left": 400,
+        "right": 416,
+        "top": 452.1747694087202,
+        "bottom": 468.1747694087202
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 0,
+    "side": "east",
+    "approached": true,
+    "before": {
+      "x": 528,
+      "y": 445.6151951370347,
+      "body": {
+        "left": 520,
+        "right": 536,
+        "top": 440.2791951370346,
+        "bottom": 456.2791951370346
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 520,
+      "y": 445.6151951370347,
+      "body": {
+        "left": 512,
+        "right": 528,
+        "top": 445.6151951370347,
+        "bottom": 461.6151951370347
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 1,
+    "side": "north",
+    "approached": true,
+    "before": {
+      "x": 911.5419308519204,
+      "y": 416,
+      "body": {
+        "left": 899.5419308519204,
+        "right": 915.5419308519204,
+        "top": 416,
+        "bottom": 432
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 911.5419308519204,
+      "y": 432,
+      "body": {
+        "left": 903.5419308519204,
+        "right": 919.5419308519204,
+        "top": 432,
+        "bottom": 448
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 1,
+    "side": "south",
+    "approached": true,
+    "before": {
+      "x": 909.9600285870494,
+      "y": 480,
+      "body": {
+        "left": 897.9600285870494,
+        "right": 913.9600285870494,
+        "top": 480,
+        "bottom": 496
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 909.9600285870494,
+      "y": 480,
+      "body": {
+        "left": 901.9600285870494,
+        "right": 917.9600285870494,
+        "top": 480,
+        "bottom": 496
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 1,
+    "side": "west",
+    "approached": true,
+    "before": {
+      "x": 848,
+      "y": 449.96802858704984,
+      "body": {
+        "left": 840,
+        "right": 856,
+        "top": 453.96802858704984,
+        "bottom": 469.96802858704984
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 856,
+      "y": 449.96802858704984,
+      "body": {
+        "left": 848,
+        "right": 864,
+        "top": 449.96802858704984,
+        "bottom": 465.96802858704984
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 1,
+    "side": "east",
+    "approached": true,
+    "before": {
+      "x": 976,
+      "y": 443.7666223608332,
+      "body": {
+        "left": 968,
+        "right": 984,
+        "top": 439.7666223608332,
+        "bottom": 455.7666223608332
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 968,
+      "y": 443.7666223608332,
+      "body": {
+        "left": 960,
+        "right": 976,
+        "top": 443.7666223608332,
+        "bottom": 459.7666223608332
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 2,
+    "side": "north",
+    "approached": true,
+    "before": {
+      "x": 496.03952028867536,
+      "y": 224,
+      "body": {
+        "left": 492.03952028867536,
+        "right": 508.03952028867536,
+        "top": 224,
+        "bottom": 240
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 496.03952028867536,
+      "y": 240,
+      "body": {
+        "left": 488.03952028867536,
+        "right": 504.03952028867536,
+        "top": 240,
+        "bottom": 256
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 2,
+    "side": "south",
+    "approached": true,
+    "before": {
+      "x": 496,
+      "y": 320,
+      "body": {
+        "left": 493.0777439890386,
+        "right": 509.0777439890386,
+        "top": 320,
+        "bottom": 336
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 496,
+      "y": 320,
+      "body": {
+        "left": 488,
+        "right": 504,
+        "top": 320,
+        "bottom": 336
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 2,
+    "side": "west",
+    "approached": true,
+    "before": {
+      "x": 400,
+      "y": 292,
+      "body": {
+        "left": 392,
+        "right": 408,
+        "top": 296.00799999999987,
+        "bottom": 312.00799999999987
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 408,
+      "y": 292,
+      "body": {
+        "left": 400,
+        "right": 416,
+        "top": 292,
+        "bottom": 308
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 2,
+    "side": "east",
+    "approached": true,
+    "before": {
+      "x": 560,
+      "y": 288,
+      "body": {
+        "left": 552,
+        "right": 568,
+        "top": 293.12843955712196,
+        "bottom": 309.12843955712196
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 552,
+      "y": 288,
+      "body": {
+        "left": 544,
+        "right": 560,
+        "top": 288,
+        "bottom": 304
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 3,
+    "side": "north",
+    "approached": true,
+    "before": {
+      "x": 908.8401721045976,
+      "y": 224,
+      "body": {
+        "left": 895.5041721045978,
+        "right": 911.5041721045978,
+        "top": 224,
+        "bottom": 240
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 908.8401721045976,
+      "y": 240,
+      "body": {
+        "left": 900.8401721045976,
+        "right": 916.8401721045976,
+        "top": 240,
+        "bottom": 256
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 3,
+    "side": "south",
+    "approached": true,
+    "before": {
+      "x": 915.9731793549169,
+      "y": 320,
+      "body": {
+        "left": 910.6371793549171,
+        "right": 926.6371793549171,
+        "top": 320,
+        "bottom": 336
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 915.9731793549169,
+      "y": 320,
+      "body": {
+        "left": 907.9731793549169,
+        "right": 923.9731793549169,
+        "top": 320,
+        "bottom": 336
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 3,
+    "side": "west",
+    "approached": true,
+    "before": {
+      "x": 816,
+      "y": 291.98117935491615,
+      "body": {
+        "left": 808,
+        "right": 824,
+        "top": 297.3171793549171,
+        "bottom": 313.3171793549171
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 824,
+      "y": 291.98117935491615,
+      "body": {
+        "left": 816,
+        "right": 832,
+        "top": 291.98117935491615,
+        "bottom": 307.98117935491615
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 3,
+    "side": "east",
+    "approached": true,
+    "before": {
+      "x": 976,
+      "y": 291.81053651680793,
+      "body": {
+        "left": 968,
+        "right": 984,
+        "top": 297.1465365168077,
+        "bottom": 313.1465365168077
+      },
+      "cover": false
+    },
+    "after": {
+      "x": 968,
+      "y": 291.81053651680793,
+      "body": {
+        "left": 960,
+        "right": 976,
+        "top": 291.81053651680793,
+        "bottom": 307.81053651680793
+      },
+      "cover": false
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 4,
+    "side": "north",
+    "approached": true,
+    "before": {
+      "x": 336,
+      "y": 864,
+      "body": {
+        "left": 330.6748373916718,
+        "right": 346.6748373916718,
+        "top": 864,
+        "bottom": 880
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 336,
+      "y": 880,
+      "body": {
+        "left": 328,
+        "right": 344,
+        "top": 880,
+        "bottom": 896
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 4,
+    "side": "south",
+    "approached": true,
+    "before": {
+      "x": 334.87891236000314,
+      "y": 928,
+      "body": {
+        "left": 322.88691236000244,
+        "right": 338.88691236000244,
+        "top": 928,
+        "bottom": 944
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 334.87891236000314,
+      "y": 928,
+      "body": {
+        "left": 326.87891236000314,
+        "right": 342.87891236000314,
+        "top": 928,
+        "bottom": 944
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 4,
+    "side": "west",
+    "approached": true,
+    "before": {
+      "x": 272,
+      "y": 898.8869123600036,
+      "body": {
+        "left": 264,
+        "right": 280,
+        "top": 902.8869123600036,
+        "bottom": 918.8869123600036
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 280,
+      "y": 898.8869123600036,
+      "body": {
+        "left": 272,
+        "right": 288,
+        "top": 898.8869123600036,
+        "bottom": 914.8869123600036
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 4,
+    "side": "east",
+    "approached": true,
+    "before": {
+      "x": 400,
+      "y": 894.8635894355439,
+      "body": {
+        "left": 392,
+        "right": 408,
+        "top": 890.8635894355439,
+        "bottom": 906.8635894355439
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 392,
+      "y": 894.8635894355439,
+      "body": {
+        "left": 384,
+        "right": 400,
+        "top": 894.8635894355439,
+        "bottom": 910.8635894355439
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 5,
+    "side": "north",
+    "approached": true,
+    "before": {
+      "x": 1582.7651224805459,
+      "y": 864,
+      "body": {
+        "left": 1569.4371224805454,
+        "right": 1585.4371224805454,
+        "top": 864,
+        "bottom": 880
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1582.7651224805459,
+      "y": 880,
+      "body": {
+        "left": 1574.7651224805459,
+        "right": 1590.7651224805459,
+        "top": 880,
+        "bottom": 896
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 5,
+    "side": "south",
+    "approached": true,
+    "before": {
+      "x": 1581.3230226051492,
+      "y": 928,
+      "body": {
+        "left": 1569.315022605149,
+        "right": 1585.315022605149,
+        "top": 928,
+        "bottom": 944
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1581.3230226051492,
+      "y": 928,
+      "body": {
+        "left": 1573.3230226051492,
+        "right": 1589.3230226051492,
+        "top": 928,
+        "bottom": 944
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 5,
+    "side": "west",
+    "approached": true,
+    "before": {
+      "x": 1520,
+      "y": 896,
+      "body": {
+        "left": 1512,
+        "right": 1528,
+        "top": 898.659022605149,
+        "bottom": 914.659022605149
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1528,
+      "y": 896,
+      "body": {
+        "left": 1520,
+        "right": 1536,
+        "top": 896,
+        "bottom": 912
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 5,
+    "side": "east",
+    "approached": true,
+    "before": {
+      "x": 1648,
+      "y": 896,
+      "body": {
+        "left": 1640,
+        "right": 1656,
+        "top": 893.6791549950578,
+        "bottom": 909.6791549950578
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1640,
+      "y": 896,
+      "body": {
+        "left": 1632,
+        "right": 1648,
+        "top": 896,
+        "bottom": 912
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 6,
+    "side": "north",
+    "approached": true,
+    "before": {
+      "x": 1524.781346992758,
+      "y": 256,
+      "body": {
+        "left": 1519.4453469927594,
+        "right": 1535.4453469927594,
+        "top": 256,
+        "bottom": 272
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1524.781346992758,
+      "y": 272,
+      "body": {
+        "left": 1516.781346992758,
+        "right": 1532.781346992758,
+        "top": 272,
+        "bottom": 288
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 6,
+    "side": "south",
+    "approached": true,
+    "before": {
+      "x": 1522.2450117589156,
+      "y": 320,
+      "body": {
+        "left": 1518.2450117589156,
+        "right": 1534.2450117589156,
+        "top": 320,
+        "bottom": 336
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1522.2450117589156,
+      "y": 320,
+      "body": {
+        "left": 1514.2450117589156,
+        "right": 1530.2450117589156,
+        "top": 320,
+        "bottom": 336
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 6,
+    "side": "west",
+    "approached": true,
+    "before": {
+      "x": 1456,
+      "y": 288,
+      "body": {
+        "left": 1448,
+        "right": 1464,
+        "top": 290.24501175891555,
+        "bottom": 306.24501175891555
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1464,
+      "y": 288,
+      "body": {
+        "left": 1456,
+        "right": 1472,
+        "top": 288,
+        "bottom": 304
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 6,
+    "side": "east",
+    "approached": true,
+    "before": {
+      "x": 1552,
+      "y": 285.6791549950578,
+      "body": {
+        "left": 1544,
+        "right": 1560,
+        "top": 280.3431549950592,
+        "bottom": 296.3431549950592
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1544,
+      "y": 285.6791549950578,
+      "body": {
+        "left": 1536,
+        "right": 1552,
+        "top": 285.6791549950578,
+        "bottom": 301.6791549950578
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 7,
+    "side": "north",
+    "approached": true,
+    "before": {
+      "x": 1708.8558456352725,
+      "y": 256,
+      "body": {
+        "left": 1696.8558456352725,
+        "right": 1712.8558456352725,
+        "top": 256,
+        "bottom": 272
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1708.8558456352725,
+      "y": 272,
+      "body": {
+        "left": 1700.8558456352725,
+        "right": 1716.8558456352725,
+        "top": 272,
+        "bottom": 288
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 7,
+    "side": "south",
+    "approached": true,
+    "before": {
+      "x": 1714.6149140360533,
+      "y": 320,
+      "body": {
+        "left": 1709.2789140360549,
+        "right": 1725.2789140360549,
+        "top": 320,
+        "bottom": 336
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1714.6149140360533,
+      "y": 320,
+      "body": {
+        "left": 1706.6149140360533,
+        "right": 1722.6149140360533,
+        "top": 320,
+        "bottom": 336
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 7,
+    "side": "west",
+    "approached": true,
+    "before": {
+      "x": 1648,
+      "y": 288,
+      "body": {
+        "left": 1640,
+        "right": 1656,
+        "top": 289.2789140360547,
+        "bottom": 305.2789140360547
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1656,
+      "y": 288,
+      "body": {
+        "left": 1648,
+        "right": 1664,
+        "top": 288,
+        "bottom": 304
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 7,
+    "side": "east",
+    "approached": true,
+    "before": {
+      "x": 1744,
+      "y": 284.3431549950592,
+      "body": {
+        "left": 1736,
+        "right": 1752,
+        "top": 281.6711549950596,
+        "bottom": 297.6711549950596
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1736,
+      "y": 284.3431549950592,
+      "body": {
+        "left": 1728,
+        "right": 1744,
+        "top": 284.3431549950592,
+        "bottom": 300.3431549950592
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 8,
+    "side": "north",
+    "approached": true,
+    "before": {
+      "x": 1521.9046667992645,
+      "y": 416,
+      "body": {
+        "left": 1516.5686667992659,
+        "right": 1532.5686667992659,
+        "top": 416,
+        "bottom": 432
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1521.9046667992645,
+      "y": 432,
+      "body": {
+        "left": 1513.9046667992645,
+        "right": 1529.9046667992645,
+        "top": 432,
+        "bottom": 448
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 8,
+    "side": "south",
+    "approached": true,
+    "before": {
+      "x": 1524.7481470549467,
+      "y": 480,
+      "body": {
+        "left": 1520.7561470549472,
+        "right": 1536.7561470549472,
+        "top": 480,
+        "bottom": 496
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1524.7481470549467,
+      "y": 480,
+      "body": {
+        "left": 1516.7481470549467,
+        "right": 1532.7481470549467,
+        "top": 480,
+        "bottom": 496
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 8,
+    "side": "west",
+    "approached": true,
+    "before": {
+      "x": 1456,
+      "y": 448,
+      "body": {
+        "left": 1448,
+        "right": 1464,
+        "top": 451.4281470549467,
+        "bottom": 467.4281470549467
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1464,
+      "y": 448,
+      "body": {
+        "left": 1456,
+        "right": 1472,
+        "top": 448,
+        "bottom": 464
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 8,
+    "side": "east",
+    "approached": true,
+    "before": {
+      "x": 1552,
+      "y": 444.35115499505963,
+      "body": {
+        "left": 1544,
+        "right": 1560,
+        "top": 440.35115499505963,
+        "bottom": 456.35115499505963
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1544,
+      "y": 444.35115499505963,
+      "body": {
+        "left": 1536,
+        "right": 1552,
+        "top": 444.35115499505963,
+        "bottom": 460.35115499505963
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 9,
+    "side": "north",
+    "approached": true,
+    "before": {
+      "x": 1712,
+      "y": 416,
+      "body": {
+        "left": 1702.963559380764,
+        "right": 1718.963559380764,
+        "top": 416,
+        "bottom": 432
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1712,
+      "y": 432,
+      "body": {
+        "left": 1704,
+        "right": 1720,
+        "top": 432,
+        "bottom": 448
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 9,
+    "side": "south",
+    "approached": true,
+    "before": {
+      "x": 1712,
+      "y": 480,
+      "body": {
+        "left": 1706.4490876399962,
+        "right": 1722.4490876399962,
+        "top": 480,
+        "bottom": 496
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1712,
+      "y": 480,
+      "body": {
+        "left": 1704,
+        "right": 1720,
+        "top": 480,
+        "bottom": 496
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 9,
+    "side": "west",
+    "approached": true,
+    "before": {
+      "x": 1648,
+      "y": 449.3360000000009,
+      "body": {
+        "left": 1640,
+        "right": 1656,
+        "top": 452.00800000000044,
+        "bottom": 468.00800000000044
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1656,
+      "y": 449.3360000000009,
+      "body": {
+        "left": 1648,
+        "right": 1664,
+        "top": 449.3360000000009,
+        "bottom": 465.3360000000009
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  },
+  {
+    "table": 9,
+    "side": "east",
+    "approached": true,
+    "before": {
+      "x": 1744,
+      "y": 443.0375132757254,
+      "body": {
+        "left": 1736,
+        "right": 1752,
+        "top": 439.0375132757254,
+        "bottom": 455.0375132757254
+      },
+      "cover": true
+    },
+    "after": {
+      "x": 1736,
+      "y": 443.0375132757254,
+      "body": {
+        "left": 1728,
+        "right": 1744,
+        "top": 443.0375132757254,
+        "bottom": 459.0375132757254
+      },
+      "cover": true
+    },
+    "intersects": false,
+    "pass": true
+  }
+]

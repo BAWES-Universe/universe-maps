@@ -1,9 +1,9 @@
 {
   "scope": "static cell connectivity and asset integrity only",
-  "walkable_cells": 2722,
-  "reachable_seats": 20,
+  "walkable_cells": 1846,
+  "reachable_seats": 28,
   "entrance_width_px": 192,
   "studenthub_reserve_connected": true,
-  "runtime": "NOT RUN",
+  "runtime_coverage": "none in this static check; see separate actual-client evidence",
   "visual_acceptance": "NOT REVIEWED"
 }

@@ -1,0 +1,13 @@
+const fs=require('fs');const{chromium}=require(require('node:path').join(process.env.BAWES_ENGINE_ROOT || '/workspace/workadventure-universe','node_modules/playwright'));const root=require('node:path').resolve(__dirname,'../..');
+(async()=>{const b=await chromium.connectOverCDP('http://localhost:9222');const c=await b.newContext({viewport:{width:1440,height:900}});await c.addInitScript(()=>{if(window.top!==window.self)return;for(const[k,v]of Object.entries({playerName:'Boundary Tester',characterTextures:'["male2"]',requestedCameraStateKey:'false',requestedMicrophoneStateKey:'false',helpCameraSettingsShown:'1'}))localStorage.setItem(k,v)});const p=await c.newPage();await p.goto('http://localhost:8000/_/global/localhost:8090/campus.tmj');await p.waitForTimeout(7000);await p.getByText('Save',{exact:true}).click({timeout:1000}).catch(()=>{});await p.waitForTimeout(4000);await p.getByText('Continue without webcam',{exact:true}).click({timeout:1500}).catch(()=>{});await p.waitForTimeout(500);await p.evaluate(async()=>{const{gameManager}=await import('http://localhost:8080/src/front/Phaser/Game/GameManager.ts');window.gs=gameManager.getCurrentGameScene()});
+async function state(){return p.evaluate(()=>({x:gs.CurrentPlayer.x,y:gs.CurrentPlayer.y,body:{left:gs.CurrentPlayer.body.x,right:gs.CurrentPlayer.body.right,top:gs.CurrentPlayer.body.y,bottom:gs.CurrentPlayer.body.bottom},cover:gs.gameMapFrontWrapper.phaserLayers.find(l=>l.layer.name==='tower-glass-cover').visible}));}
+async function move(x,y){await p.evaluate(({x,y})=>{gs.moveTo({x,y},false,4).catch(()=>{})},{x,y});for(let i=0;i<300;i++){const s=await state();if(Math.hypot(s.x-x,s.y+16-y)<5)return true;await p.waitForTimeout(100)}return false}
+const layout=JSON.parse(fs.readFileSync(root+'/source/layout.json'));const results=[];
+for(const[i,[x,y,w,h]]of layout.tables.entries()){
+ const cx=x+Math.floor(w/2),cy=y+Math.floor(h/2);
+ for(const[side,ax,ay,key]of [['north',cx,y-1,'ArrowDown'],['south',cx,y+h,'ArrowUp'],['west',x-1,cy,'ArrowRight'],['east',x+w,cy,'ArrowLeft']]){
+  const approached=await move(ax*32+16,ay*32+16);const before=await state();await p.keyboard.down(key);await p.waitForTimeout(650);await p.keyboard.up(key);await p.waitForTimeout(120);const after=await state(),q=after.body;const intersects=q.left<(x+w)*32-0.1&&q.right>x*32+0.1&&q.top<(y+h)*32-0.1&&q.bottom>y*32+0.1;
+  const r={table:i,side,approached,before,after,intersects,pass:approached&&!intersects};results.push(r);console.log(i,side,r.pass);fs.writeFileSync(root+'/review/table-boundaries.json',JSON.stringify(results,null,2));
+ }
+}
+console.log('DONE',results.filter(x=>!x.pass));await c.close();await b.close()})();

@@ -1,0 +1,13 @@
+# Artwork provenance and compilation
+
+The modern mark reference is `lettermark.svg`, copied unchanged from the BAWES Universe game's brand folder at commit 274114560c5ec95fdf8e51e67986a53069f3cf06. The supplied brand asset remains BAWES's. Its four paths informed the original blockout; no historical robot, skyline or third-party campus art was reused.
+
+The built-in image tool generated `tower-study-original.png` from that original blockout. Direction: a believable folded-glass architectural tower with the upper downward triangle, upper-right diamond, diagonal ribbon and lower upward triangle; orthogonal near-front 2.5D game architecture; Universe Ink structure, blue/violet panes, slender metal seams, selective gold entrance light; no people, labels, signs or wordmarks; a wide low transparent podium and central entrance.
+
+A second image-tool edit produced `tower-cutout-original.png`. Direction: preserve the upper folded tower; remove all baked ground-floor interior scenery, plants, floors, benches, furniture, rear walls and people; make both low-wing window centers true alpha holes; make the central entrance an open transparent passage, retaining thin structural posts, outer frames and canopy. The originals are preserved without overwriting the image tool's outputs.
+
+`build.py` is the gameplay asset compiler. It crops the retained cutout at source rectangle (37,14)-(1432,1086), samples it to a 768×590 native-world overlay, and anchors it at world (320,18) after trimming unused campus margins. A restrained RGBA (111,101,190,45) pane wash sits behind the open ground-floor windows. Real Wokas render under that foreground layer and over the separately authored ground. No exterior art or window opacity is used to derive collision.
+
+The final face is a generated architectural interpretation of the reference silhouette, not an exact SVG polygon replacement. The full facade disappears only for the local inside observer; other clients keep it. The upstairs glazing is scenic architecture rather than additional gameplay floors. The podium's actual occupancy and glass visibility are proved with two separate synthetic game sessions.
+
+Ground, paving, furniture, backrests, planting and water are authored by the Python source, with a fixed random seed for minor stone/leaf texture. The water has 48 frames at 40ms and uses a periodic sine phase; its tiled animation metadata and collision footprint are separate. All raster outputs can be rebuilt from retained inputs with Python and Pillow. No external paid service, purchased asset pack or copied third-party map art was used.

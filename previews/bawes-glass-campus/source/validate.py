@@ -25,12 +25,12 @@ for p in layout['seats']:
     x,y=p
     assert (x,y) in seen and (x,y+1) in seen
 for x in range(19,25):
-    for y in range(23,44):assert (x,y) in seen and not b[y*w+x]
-assert (50,24) in seen
+    for y in range(11,31):assert (x,y) in seen and not b[y*w+x]
+assert (50,12) in seen
 assert not layers['tower-interior']['data'][spawn[1]*w+spawn[0]]
 assert sum(bool(v) for v in layers['start']['data'])==1
 logic=next(t for t in m['tilesets'] if t['name']=='logic')
 assert all(v != logic['firstgid'] for v in layers['tower-glass-cover']['data'])
-result={'scope':'static cell connectivity and asset integrity only','walkable_cells':len(seen),'reachable_seats':len(layout['seats']),'entrance_width_px':192,'studenthub_reserve_connected':True,'runtime':'NOT RUN','visual_acceptance':'NOT REVIEWED'}
+result={'scope':'static cell connectivity and asset integrity only','walkable_cells':len(seen),'reachable_seats':len(layout['seats']),'entrance_width_px':192,'studenthub_reserve_connected':True,'runtime_coverage':'none in this static check; see separate actual-client evidence','visual_acceptance':'NOT REVIEWED'}
 (root/'review/static-validation.json').write_text(json.dumps(result,indent=2)+'\n')
 print(json.dumps(result,indent=2))

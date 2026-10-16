@@ -1,0 +1,30 @@
+owner-lock-action true {"visible":false,"collides":false,"x":592,"y":1536}
+late-join-sees-locked-collision true {"visible":true,"collides":true,"x":688,"y":1536}
+outside-locked-entry-blocked true {"visible":true,"collides":true,"x":648,"y":1536}
+reconnect-retains-lock true {"visible":true,"collides":true,"x":688,"y":1536}
+locked-occupant-exits true {"visible":true,"collides":true,"x":688,"y":1536}
+owner-unlock-propagates true {"visible":false,"collides":false,"x":688,"y":1536}
+locator.tap: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Lock meeting door', exact: true })[22m
+[2m    - locator resolved to <button type="button" data-state="normal" class="u-ab-btn h-12 @sm/actions:h-10 @xl/actions:h-12 p-1 m-0 px-4 text-base @sm/actions:text-sm @xl/actions:text-base whitespace-nowrap  rounded-none  text-neutral-100 flex items-center justify-center outline-none focus:outline-none gap-2 select-none s-3Qtc3UwtpDjA">…</button>[22m
+[2m  - attempting tap action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not stable[22m
+[2m  - retrying tap action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not visible[22m
+[2m  - retrying tap action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying tap action[22m
+[2m      - waiting 100ms[22m
+[2m    41 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is not visible[22m
+[2m     - retrying tap action[22m
+[2m       - waiting 500ms[22m
+
+    at /workspace/universe-maps-bawes/previews/bawes-glass-campus/source/validation/town-doors.cjs:18:127 {
+  name: 'TimeoutError'
+}

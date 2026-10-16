@@ -30,7 +30,7 @@ chromium --headless --no-sandbox --disable-dev-shm-usage \
   --remote-debugging-port=9222 --user-data-dir=/workspace/bawes-runtime/browser about:blank
 ```
 
-Open the local game, choose a synthetic name/Woka, and continue without webcam. Tests in `source/validation/` connect to this browser. `routes.cjs` and `capture.cjs` use the existing first tab; `tables.cjs` and `two-clients.cjs` create independent anonymous browser contexts. Do not run two tests that control the same tab simultaneously. No real identity, camera, microphone or login token is checked into the repository.
+Open the local game, choose a synthetic name/Woka, and continue without webcam. Tests in `source/validation/` connect to this browser. For the current town use `town.cjs`, `town-doors.cjs` and `town-crossing.cjs`; the other drivers retain earlier prototype coordinates. `routes.cjs` and `capture.cjs` use the existing first tab; `tables.cjs` and `two-clients.cjs` create independent anonymous browser contexts. Do not run two tests that control the same tab simultaneously. No real identity, camera, microphone or login token is checked into the repository.
 
 `capture.cjs` writes timestamped JPEG frames to `/workspace/bawes-runtime/motion-frames`. The reviewed movie was encoded with:
 

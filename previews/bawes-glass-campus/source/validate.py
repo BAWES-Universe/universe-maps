@@ -25,11 +25,15 @@ for p in layout['seats']:
     x,y=p
     assert (x,y) in seen and (x,y+1) in seen
 # Every unobstructed cell beneath the complete shell is interior and connected.
-ix,iy,iw,ih=layout['interior']
-for y in range(iy,iy+ih):
-    for x in range(ix,ix+iw):
-        assert layers['tower-interior']['data'][y*w+x]
-        if not b[y*w+x]: assert (x,y) in seen
+for room in layout['buildings']:
+    ix,iy,iw,ih=room['interior']
+    for y in range(iy,iy+ih):
+        for x in range(ix,ix+iw):
+            assert layers[room['name']+'-interior']['data'][y*w+x]
+            if not b[y*w+x]: assert (x,y) in seen
+for portal in layout['portal_slots']:
+    assert (portal['x']//32,portal['y']//32) in seen
+    assert portal['properties']==[]
 for key in ['entrance','rear_entrance']:
     x,y,ww,hh=layout[key]
     for xx in range(x,x+ww): assert (xx,y) in seen

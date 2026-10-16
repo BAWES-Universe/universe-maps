@@ -1,0 +1,9 @@
+team-spawn true 720 1728
+front-door-approach true 720 1664
+tower-work true 720 1472
+meeting-door-approach true 688 1536
+meeting-seat true 464 1504
+meeting-exit false 464 1504
+Error: meeting-exit failed
+    at move (/workspace/universe-maps-bawes/previews/bawes-glass-campus/source/validation/town.cjs:7:914)
+    at async /workspace/universe-maps-bawes/previews/bawes-glass-campus/source/validation/town.cjs:9:2

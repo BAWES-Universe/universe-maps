@@ -1,115 +1,22 @@
 {
   "cafe": {
-    "free": 421,
+    "free": 442,
     "discarded": 0,
-    "missingSeats": [
-      {
-        "id": "cafe-4",
-        "x": 789,
-        "y": 342,
-        "approach": [
-          789,
-          374
-        ]
-      }
-    ]
+    "missingSeats": []
   },
   "lounge": {
-    "free": 528,
+    "free": 549,
     "discarded": 0,
-    "missingSeats": [
-      {
-        "id": "lounge-0",
-        "x": 531,
-        "y": 360,
-        "approach": [
-          531,
-          328
-        ]
-      },
-      {
-        "id": "lounge-1",
-        "x": 644,
-        "y": 360,
-        "approach": [
-          644,
-          328
-        ]
-      },
-      {
-        "id": "lounge-2",
-        "x": 767,
-        "y": 360,
-        "approach": [
-          767,
-          328
-        ]
-      }
-    ]
+    "missingSeats": []
   },
   "garden": {
-    "free": 364,
-    "discarded": 14,
+    "free": 393,
+    "discarded": 18,
     "missingSeats": []
   },
   "gathering": {
-    "free": 483,
-    "discarded": 30,
-    "missingSeats": [
-      {
-        "id": "gathering-2",
-        "x": 940,
-        "y": 146,
-        "approach": [
-          940,
-          114
-        ]
-      },
-      {
-        "id": "gathering-3",
-        "x": 1008,
-        "y": 196,
-        "approach": [
-          1040,
-          196
-        ]
-      },
-      {
-        "id": "gathering-5",
-        "x": 1085,
-        "y": 525,
-        "approach": [
-          1085,
-          493
-        ]
-      },
-      {
-        "id": "gathering-9",
-        "x": 937,
-        "y": 917,
-        "approach": [
-          937,
-          885
-        ]
-      },
-      {
-        "id": "gathering-10",
-        "x": 919,
-        "y": 1024,
-        "approach": [
-          919,
-          1056
-        ]
-      },
-      {
-        "id": "gathering-11",
-        "x": 983,
-        "y": 1005,
-        "approach": [
-          983,
-          1037
-        ]
-      }
-    ]
+    "free": 559,
+    "discarded": 0,
+    "missingSeats": []
   }
 }

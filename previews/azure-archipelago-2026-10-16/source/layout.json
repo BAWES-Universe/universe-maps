@@ -559,5 +559,12 @@
     }
   ],
   "clearBridgeTiles": 8,
-  "status": "draft; not gameplay accepted; not published"
+  "status": "draft; not gameplay accepted; not published",
+  "hubFountain": [
+    2496,
+    2496,
+    128,
+    128
+  ],
+  "seatCoordinateSemantics": "x/y are occupancy anchors; other furniture uses top-left rectangles"
 }

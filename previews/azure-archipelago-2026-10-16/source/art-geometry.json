@@ -1,0 +1,1153 @@
+{
+  "areas": {
+    "cafe": {
+      "origin": [
+        1952,
+        64
+      ],
+      "floors": [
+        [
+          96,
+          96,
+          1024,
+          864
+        ],
+        [
+          480,
+          928,
+          256,
+          288
+        ]
+      ],
+      "solids": [
+        [
+          96,
+          96,
+          160,
+          192
+        ],
+        [
+          960,
+          96,
+          160,
+          192
+        ],
+        [
+          96,
+          800,
+          160,
+          128
+        ],
+        [
+          960,
+          800,
+          160,
+          128
+        ],
+        [
+          256,
+          64,
+          704,
+          128
+        ]
+      ],
+      "tables": [
+        [
+          352,
+          320,
+          64,
+          96
+        ],
+        [
+          800,
+          320,
+          64,
+          96
+        ],
+        [
+          352,
+          704,
+          64,
+          64
+        ],
+        [
+          800,
+          704,
+          64,
+          64
+        ]
+      ]
+    },
+    "lounge": {
+      "origin": [
+        64,
+        1952
+      ],
+      "floors": [
+        [
+          96,
+          128,
+          1024,
+          928
+        ],
+        [
+          1088,
+          480,
+          128,
+          256
+        ]
+      ],
+      "solids": [
+        [
+          96,
+          96,
+          160,
+          160
+        ],
+        [
+          960,
+          96,
+          160,
+          160
+        ],
+        [
+          96,
+          896,
+          160,
+          160
+        ],
+        [
+          960,
+          896,
+          160,
+          160
+        ],
+        [
+          224,
+          256,
+          64,
+          608
+        ],
+        [
+          256,
+          256,
+          512,
+          64
+        ],
+        [
+          256,
+          800,
+          704,
+          64
+        ]
+      ],
+      "tables": [
+        [
+          384,
+          512,
+          96,
+          96
+        ],
+        [
+          704,
+          512,
+          96,
+          96
+        ]
+      ]
+    },
+    "garden": {
+      "origin": [
+        1952,
+        3840
+      ],
+      "floors": [
+        [
+          96,
+          96,
+          1024,
+          960
+        ],
+        [
+          480,
+          0,
+          256,
+          128
+        ]
+      ],
+      "solids": [
+        [
+          96,
+          96,
+          128,
+          160
+        ],
+        [
+          992,
+          96,
+          128,
+          160
+        ],
+        [
+          96,
+          928,
+          128,
+          128
+        ],
+        [
+          992,
+          928,
+          128,
+          128
+        ],
+        [
+          256,
+          256,
+          192,
+          224
+        ],
+        [
+          768,
+          256,
+          192,
+          224
+        ],
+        [
+          256,
+          736,
+          192,
+          192
+        ],
+        [
+          768,
+          736,
+          192,
+          192
+        ],
+        [
+          512,
+          512,
+          192,
+          192
+        ]
+      ],
+      "tables": []
+    },
+    "gathering": {
+      "origin": [
+        3840,
+        1952
+      ],
+      "floors": [
+        [
+          96,
+          128,
+          1024,
+          928
+        ],
+        [
+          0,
+          480,
+          128,
+          256
+        ]
+      ],
+      "solids": [
+        [
+          128,
+          128,
+          160,
+          160
+        ],
+        [
+          928,
+          128,
+          160,
+          160
+        ],
+        [
+          128,
+          864,
+          160,
+          160
+        ],
+        [
+          928,
+          864,
+          160,
+          160
+        ]
+      ],
+      "tables": [
+        [
+          384,
+          288,
+          64,
+          96
+        ],
+        [
+          768,
+          288,
+          64,
+          96
+        ],
+        [
+          384,
+          800,
+          64,
+          64
+        ],
+        [
+          768,
+          800,
+          64,
+          64
+        ]
+      ]
+    },
+    "hub": {
+      "origin": [
+        2176,
+        2176
+      ],
+      "floors": [
+        [
+          0,
+          0,
+          768,
+          768
+        ]
+      ],
+      "solids": [
+        [
+          32,
+          32,
+          96,
+          96
+        ],
+        [
+          640,
+          32,
+          96,
+          96
+        ],
+        [
+          32,
+          608,
+          96,
+          96
+        ],
+        [
+          640,
+          608,
+          96,
+          96
+        ],
+        [
+          288,
+          256,
+          192,
+          224
+        ]
+      ],
+      "tables": [
+        [
+          192,
+          96,
+          64,
+          64
+        ],
+        [
+          512,
+          96,
+          64,
+          64
+        ],
+        [
+          192,
+          576,
+          64,
+          64
+        ],
+        [
+          512,
+          576,
+          64,
+          64
+        ]
+      ]
+    }
+  },
+  "floors": [
+    [
+      2048,
+      160,
+      1024,
+      864
+    ],
+    [
+      2432,
+      992,
+      256,
+      288
+    ],
+    [
+      160,
+      2080,
+      1024,
+      928
+    ],
+    [
+      1152,
+      2432,
+      128,
+      256
+    ],
+    [
+      2048,
+      3936,
+      1024,
+      960
+    ],
+    [
+      2432,
+      3840,
+      256,
+      128
+    ],
+    [
+      3936,
+      2080,
+      1024,
+      928
+    ],
+    [
+      3840,
+      2432,
+      128,
+      256
+    ],
+    [
+      2176,
+      2176,
+      768,
+      768
+    ]
+  ],
+  "furniture": [
+    {
+      "island": "cafe",
+      "kind": "solid",
+      "x": 2048,
+      "y": 160,
+      "w": 160,
+      "h": 192
+    },
+    {
+      "island": "cafe",
+      "kind": "solid",
+      "x": 2912,
+      "y": 160,
+      "w": 160,
+      "h": 192
+    },
+    {
+      "island": "cafe",
+      "kind": "solid",
+      "x": 2048,
+      "y": 864,
+      "w": 160,
+      "h": 128
+    },
+    {
+      "island": "cafe",
+      "kind": "solid",
+      "x": 2912,
+      "y": 864,
+      "w": 160,
+      "h": 128
+    },
+    {
+      "island": "cafe",
+      "kind": "solid",
+      "x": 2208,
+      "y": 128,
+      "w": 704,
+      "h": 128
+    },
+    {
+      "island": "cafe",
+      "kind": "table",
+      "x": 2304,
+      "y": 384,
+      "w": 64,
+      "h": 96
+    },
+    {
+      "island": "cafe",
+      "kind": "table",
+      "x": 2752,
+      "y": 384,
+      "w": 64,
+      "h": 96
+    },
+    {
+      "island": "cafe",
+      "kind": "table",
+      "x": 2304,
+      "y": 768,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "cafe",
+      "kind": "table",
+      "x": 2752,
+      "y": 768,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "lounge",
+      "kind": "solid",
+      "x": 160,
+      "y": 2048,
+      "w": 160,
+      "h": 160
+    },
+    {
+      "island": "lounge",
+      "kind": "solid",
+      "x": 1024,
+      "y": 2048,
+      "w": 160,
+      "h": 160
+    },
+    {
+      "island": "lounge",
+      "kind": "solid",
+      "x": 160,
+      "y": 2848,
+      "w": 160,
+      "h": 160
+    },
+    {
+      "island": "lounge",
+      "kind": "solid",
+      "x": 1024,
+      "y": 2848,
+      "w": 160,
+      "h": 160
+    },
+    {
+      "island": "lounge",
+      "kind": "solid",
+      "x": 288,
+      "y": 2208,
+      "w": 64,
+      "h": 608
+    },
+    {
+      "island": "lounge",
+      "kind": "solid",
+      "x": 320,
+      "y": 2208,
+      "w": 512,
+      "h": 64
+    },
+    {
+      "island": "lounge",
+      "kind": "solid",
+      "x": 320,
+      "y": 2752,
+      "w": 704,
+      "h": 64
+    },
+    {
+      "island": "lounge",
+      "kind": "table",
+      "x": 448,
+      "y": 2464,
+      "w": 96,
+      "h": 96
+    },
+    {
+      "island": "lounge",
+      "kind": "table",
+      "x": 768,
+      "y": 2464,
+      "w": 96,
+      "h": 96
+    },
+    {
+      "island": "garden",
+      "kind": "solid",
+      "x": 2048,
+      "y": 3936,
+      "w": 128,
+      "h": 160
+    },
+    {
+      "island": "garden",
+      "kind": "solid",
+      "x": 2944,
+      "y": 3936,
+      "w": 128,
+      "h": 160
+    },
+    {
+      "island": "garden",
+      "kind": "solid",
+      "x": 2048,
+      "y": 4768,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "garden",
+      "kind": "solid",
+      "x": 2944,
+      "y": 4768,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "garden",
+      "kind": "solid",
+      "x": 2208,
+      "y": 4096,
+      "w": 192,
+      "h": 224
+    },
+    {
+      "island": "garden",
+      "kind": "solid",
+      "x": 2720,
+      "y": 4096,
+      "w": 192,
+      "h": 224
+    },
+    {
+      "island": "garden",
+      "kind": "solid",
+      "x": 2208,
+      "y": 4576,
+      "w": 192,
+      "h": 192
+    },
+    {
+      "island": "garden",
+      "kind": "solid",
+      "x": 2720,
+      "y": 4576,
+      "w": 192,
+      "h": 192
+    },
+    {
+      "island": "garden",
+      "kind": "solid",
+      "x": 2464,
+      "y": 4352,
+      "w": 192,
+      "h": 192
+    },
+    {
+      "island": "gathering",
+      "kind": "solid",
+      "x": 3968,
+      "y": 2080,
+      "w": 160,
+      "h": 160
+    },
+    {
+      "island": "gathering",
+      "kind": "solid",
+      "x": 4768,
+      "y": 2080,
+      "w": 160,
+      "h": 160
+    },
+    {
+      "island": "gathering",
+      "kind": "solid",
+      "x": 3968,
+      "y": 2816,
+      "w": 160,
+      "h": 160
+    },
+    {
+      "island": "gathering",
+      "kind": "solid",
+      "x": 4768,
+      "y": 2816,
+      "w": 160,
+      "h": 160
+    },
+    {
+      "island": "gathering",
+      "kind": "table",
+      "x": 4224,
+      "y": 2240,
+      "w": 64,
+      "h": 96
+    },
+    {
+      "island": "gathering",
+      "kind": "table",
+      "x": 4608,
+      "y": 2240,
+      "w": 64,
+      "h": 96
+    },
+    {
+      "island": "gathering",
+      "kind": "table",
+      "x": 4224,
+      "y": 2752,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "gathering",
+      "kind": "table",
+      "x": 4608,
+      "y": 2752,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "hub",
+      "kind": "solid",
+      "x": 2208,
+      "y": 2208,
+      "w": 96,
+      "h": 96
+    },
+    {
+      "island": "hub",
+      "kind": "solid",
+      "x": 2816,
+      "y": 2208,
+      "w": 96,
+      "h": 96
+    },
+    {
+      "island": "hub",
+      "kind": "solid",
+      "x": 2208,
+      "y": 2784,
+      "w": 96,
+      "h": 96
+    },
+    {
+      "island": "hub",
+      "kind": "solid",
+      "x": 2816,
+      "y": 2784,
+      "w": 96,
+      "h": 96
+    },
+    {
+      "island": "hub",
+      "kind": "solid",
+      "x": 2464,
+      "y": 2432,
+      "w": 192,
+      "h": 224
+    },
+    {
+      "island": "hub",
+      "kind": "table",
+      "x": 2368,
+      "y": 2272,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "hub",
+      "kind": "table",
+      "x": 2688,
+      "y": 2272,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "hub",
+      "kind": "table",
+      "x": 2368,
+      "y": 2752,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "hub",
+      "kind": "table",
+      "x": 2688,
+      "y": 2752,
+      "w": 64,
+      "h": 64
+    }
+  ],
+  "seats": [
+    {
+      "id": "cafe-0",
+      "island": "cafe",
+      "x": 2278,
+      "y": 428,
+      "approachDistance": 32
+    },
+    {
+      "id": "cafe-1",
+      "island": "cafe",
+      "x": 2396,
+      "y": 428,
+      "approachDistance": 32
+    },
+    {
+      "id": "cafe-2",
+      "island": "cafe",
+      "x": 2718,
+      "y": 428,
+      "approachDistance": 32
+    },
+    {
+      "id": "cafe-3",
+      "island": "cafe",
+      "x": 2837,
+      "y": 428,
+      "approachDistance": 32
+    },
+    {
+      "id": "cafe-4",
+      "island": "cafe",
+      "x": 2278,
+      "y": 790,
+      "approachDistance": 32
+    },
+    {
+      "id": "cafe-5",
+      "island": "cafe",
+      "x": 2397,
+      "y": 790,
+      "approachDistance": 32
+    },
+    {
+      "id": "cafe-6",
+      "island": "cafe",
+      "x": 2718,
+      "y": 791,
+      "approachDistance": 32
+    },
+    {
+      "id": "cafe-7",
+      "island": "cafe",
+      "x": 2837,
+      "y": 790,
+      "approachDistance": 32
+    },
+    {
+      "id": "lounge-0",
+      "island": "lounge",
+      "x": 535,
+      "y": 2302,
+      "approachDistance": 16
+    },
+    {
+      "id": "lounge-1",
+      "island": "lounge",
+      "x": 668,
+      "y": 2300,
+      "approachDistance": 16
+    },
+    {
+      "id": "lounge-2",
+      "island": "lounge",
+      "x": 801,
+      "y": 2301,
+      "approachDistance": 16
+    },
+    {
+      "id": "lounge-3",
+      "island": "lounge",
+      "x": 427,
+      "y": 2512,
+      "approachDistance": 32
+    },
+    {
+      "id": "lounge-4",
+      "island": "lounge",
+      "x": 571,
+      "y": 2512,
+      "approachDistance": 32
+    },
+    {
+      "id": "lounge-5",
+      "island": "lounge",
+      "x": 748,
+      "y": 2512,
+      "approachDistance": 32
+    },
+    {
+      "id": "lounge-6",
+      "island": "lounge",
+      "x": 892,
+      "y": 2512,
+      "approachDistance": 32
+    },
+    {
+      "id": "garden-0",
+      "island": "garden",
+      "x": 2453,
+      "y": 4187,
+      "approachDistance": 32
+    },
+    {
+      "id": "garden-1",
+      "island": "garden",
+      "x": 2666,
+      "y": 4187,
+      "approachDistance": 32
+    },
+    {
+      "id": "garden-2",
+      "island": "garden",
+      "x": 2453,
+      "y": 4666,
+      "approachDistance": 32
+    },
+    {
+      "id": "garden-3",
+      "island": "garden",
+      "x": 2667,
+      "y": 4666,
+      "approachDistance": 32
+    },
+    {
+      "id": "gathering-0",
+      "island": "gathering",
+      "x": 4202,
+      "y": 2282,
+      "approachDistance": 32
+    },
+    {
+      "id": "gathering-1",
+      "island": "gathering",
+      "x": 4314,
+      "y": 2282,
+      "approachDistance": 32
+    },
+    {
+      "id": "gathering-2",
+      "island": "gathering",
+      "x": 4582,
+      "y": 2283,
+      "approachDistance": 32
+    },
+    {
+      "id": "gathering-3",
+      "island": "gathering",
+      "x": 4694,
+      "y": 2282,
+      "approachDistance": 32
+    },
+    {
+      "id": "gathering-4",
+      "island": "gathering",
+      "x": 4202,
+      "y": 2776,
+      "approachDistance": 32
+    },
+    {
+      "id": "gathering-5",
+      "island": "gathering",
+      "x": 4314,
+      "y": 2778,
+      "approachDistance": 32
+    },
+    {
+      "id": "gathering-6",
+      "island": "gathering",
+      "x": 4582,
+      "y": 2776,
+      "approachDistance": 32
+    },
+    {
+      "id": "gathering-7",
+      "island": "gathering",
+      "x": 4694,
+      "y": 2776,
+      "approachDistance": 32
+    },
+    {
+      "id": "hub-0",
+      "island": "hub",
+      "x": 2336,
+      "y": 2306,
+      "approachDistance": 32
+    },
+    {
+      "id": "hub-1",
+      "island": "hub",
+      "x": 2446,
+      "y": 2306,
+      "approachDistance": 32
+    },
+    {
+      "id": "hub-2",
+      "island": "hub",
+      "x": 2674,
+      "y": 2306,
+      "approachDistance": 32
+    },
+    {
+      "id": "hub-3",
+      "island": "hub",
+      "x": 2783,
+      "y": 2306,
+      "approachDistance": 32
+    },
+    {
+      "id": "hub-4",
+      "island": "hub",
+      "x": 2336,
+      "y": 2771,
+      "approachDistance": 32
+    },
+    {
+      "id": "hub-5",
+      "island": "hub",
+      "x": 2445,
+      "y": 2770,
+      "approachDistance": 32
+    },
+    {
+      "id": "hub-6",
+      "island": "hub",
+      "x": 2674,
+      "y": 2770,
+      "approachDistance": 32
+    },
+    {
+      "id": "hub-7",
+      "island": "hub",
+      "x": 2782,
+      "y": 2770,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-0",
+      "island": "bridge",
+      "x": 2384,
+      "y": 1712,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-1",
+      "island": "bridge",
+      "x": 2736,
+      "y": 1712,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-2",
+      "island": "bridge",
+      "x": 2384,
+      "y": 3376,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-3",
+      "island": "bridge",
+      "x": 2736,
+      "y": 3376,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-4",
+      "island": "bridge",
+      "x": 1712,
+      "y": 2384,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-5",
+      "island": "bridge",
+      "x": 1712,
+      "y": 2736,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-6",
+      "island": "bridge",
+      "x": 3376,
+      "y": 2384,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-7",
+      "island": "bridge",
+      "x": 3376,
+      "y": 2736,
+      "approachDistance": 32
+    }
+  ],
+  "baySeats": [
+    {
+      "id": "viewing-bay-0",
+      "island": "bridge",
+      "x": 2384,
+      "y": 1712,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-1",
+      "island": "bridge",
+      "x": 2736,
+      "y": 1712,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-2",
+      "island": "bridge",
+      "x": 2384,
+      "y": 3376,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-3",
+      "island": "bridge",
+      "x": 2736,
+      "y": 3376,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-4",
+      "island": "bridge",
+      "x": 1712,
+      "y": 2384,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-5",
+      "island": "bridge",
+      "x": 1712,
+      "y": 2736,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-6",
+      "island": "bridge",
+      "x": 3376,
+      "y": 2384,
+      "approachDistance": 32
+    },
+    {
+      "id": "viewing-bay-7",
+      "island": "bridge",
+      "x": 3376,
+      "y": 2736,
+      "approachDistance": 32
+    }
+  ],
+  "notes": "Collision approximates visible artwork on native32px tile grid; full gameplay review pending."
+}

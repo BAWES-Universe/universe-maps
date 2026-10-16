@@ -1,0 +1,13 @@
+# Map-local performance and water-continuity repair
+
+Controlled1366×768, same Chromium/engine, camera1, Woka1, one rendering browser, same stationary court position.15s samples force redraw after every update; water remains enabled. Alternating original / optimized / original / optimized eliminates the idle redraw-suppression confound. Mean RAF rates:29.26 /57.40 /28.76 /59.40FPS. Main-thread task time15.05s before versus12.19–12.97s after; JS script time increased0.47–0.48s to0.72–0.74s due smaller water patches, while total redraw work decreased. No engine source changed.
+
+Exact cause addressed: lower static sea and bridge-floor tiles were drawn under completely opaque higher island/bridge artwork. The map compiler now removes only fully covered tiles:2116sea tiles and1952redundant bridge/hub tiles in this artifact. It also sets transparent collision/start layers to opacity0 without removing their data. Runtime native collisions must be regression-tested separately. Rendering less hidden geometry is the principal speedup; it is not a claim that animation bookkeeping was the original bottleneck.
+
+Water continuity: original128px animated patch origins could fall outside the engine's default one32px-cell cull margin while part of the patch remained visible. Repack each128px frame into four64px quadrants, preserving all24frames and100ms frame timing. Native culling now includes every intersecting patch. Before, five of six views omitted4–12 partly visible patches; after, all six have0 missing. Animated instance count rises1600→5968 after coverage pruning, a measured tradeoff for correct continuity; the small extra JS cost is included above. Default camera/native player scale unchanged.
+
+Full-map frame0 raster comparison before art changes:14909pixels differ by at most1channel value from transparent-atlas rounding, mean absolute RGBA difference0.000142. This establishes preserved visible artwork within rounding, not bit-exact equality.
+
+Eight-second forced-redraw view samples (before→optimized FPS): café34.5→40.0, lounge33.2→33.6, garden33.4→38.6, gathering35.4→39.7, bridge32.9→59.7, beach34.6→40.0. Area tests use diagnostic position setup; lounge canopy state may differ from normal native entry, so do not present its value as a tested moving-player benchmark. All comparisons are on pre-polish artwork. Final-art performance and continuous video remain pending. No hardware FPS guarantee or GPU-versus-driver root-cause claim.
+
+Evidence: alternating samples in performance-polish-samples.json; area performance/culling in area-performance-polish.json; layer-ablation evidence in layer-cost.json. All source remains unpublished.

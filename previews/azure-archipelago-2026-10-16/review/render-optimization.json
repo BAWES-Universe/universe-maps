@@ -1,5 +1,5 @@
 {
-  "method": "Remove only tiles fully hidden by opaque higher artwork; identical visible pixels. Repack128px animation frames to64px cull-safe tiles without timing or pixel changes.",
+  "method": "Remove only tiles fully hidden by opaque higher artwork; visible artwork preserved (atlas repacking may round channels by1). Repack128px animation frames to64px cull-safe tiles without timing or pixel changes.",
   "stats": [
     {
       "layer": "Lounge glass canopy",

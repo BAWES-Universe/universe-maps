@@ -1,0 +1,182 @@
+[
+  {
+    "variant": "before",
+    "area": "cafe",
+    "fps": 34.488360178433354,
+    "viewport": [
+      1366,
+      768
+    ],
+    "zoom": 1,
+    "scale": 1,
+    "waterCulling": {
+      "required": 40,
+      "missing": 12
+    }
+  },
+  {
+    "variant": "before",
+    "area": "lounge",
+    "fps": 33.20517301642164,
+    "viewport": [
+      1366,
+      768
+    ],
+    "zoom": 1,
+    "scale": 1,
+    "waterCulling": {
+      "required": 40,
+      "missing": 5
+    }
+  },
+  {
+    "variant": "before",
+    "area": "garden",
+    "fps": 33.369857555539596,
+    "viewport": [
+      1366,
+      768
+    ],
+    "zoom": 1,
+    "scale": 1,
+    "waterCulling": {
+      "required": 32,
+      "missing": 4
+    }
+  },
+  {
+    "variant": "before",
+    "area": "gathering",
+    "fps": 35.43886795277488,
+    "viewport": [
+      1366,
+      768
+    ],
+    "zoom": 1,
+    "scale": 1,
+    "waterCulling": {
+      "required": 32,
+      "missing": 0
+    }
+  },
+  {
+    "variant": "before",
+    "area": "bridge",
+    "fps": 32.85816019289502,
+    "viewport": [
+      1366,
+      768
+    ],
+    "zoom": 1,
+    "scale": 1,
+    "waterCulling": {
+      "required": 32,
+      "missing": 4
+    }
+  },
+  {
+    "variant": "before",
+    "area": "beach",
+    "fps": 34.61029062647729,
+    "viewport": [
+      1366,
+      768
+    ],
+    "zoom": 1,
+    "scale": 1,
+    "waterCulling": {
+      "required": 32,
+      "missing": 4
+    }
+  },
+  {
+    "variant": "optimized",
+    "area": "cafe",
+    "fps": 40.02294149918453,
+    "viewport": [
+      1366,
+      768
+    ],
+    "zoom": 1,
+    "scale": 1,
+    "waterCulling": {
+      "required": 135,
+      "missing": 0
+    }
+  },
+  {
+    "variant": "optimized",
+    "area": "lounge",
+    "fps": 33.63563882799733,
+    "viewport": [
+      1366,
+      768
+    ],
+    "zoom": 1,
+    "scale": 1,
+    "waterCulling": {
+      "required": 135,
+      "missing": 0
+    }
+  },
+  {
+    "variant": "optimized",
+    "area": "garden",
+    "fps": 38.60569715142429,
+    "viewport": [
+      1366,
+      768
+    ],
+    "zoom": 1,
+    "scale": 1,
+    "waterCulling": {
+      "required": 120,
+      "missing": 0
+    }
+  },
+  {
+    "variant": "optimized",
+    "area": "gathering",
+    "fps": 39.70582726719481,
+    "viewport": [
+      1366,
+      768
+    ],
+    "zoom": 1,
+    "scale": 1,
+    "waterCulling": {
+      "required": 120,
+      "missing": 0
+    }
+  },
+  {
+    "variant": "optimized",
+    "area": "bridge",
+    "fps": 59.73208037588722,
+    "viewport": [
+      1366,
+      768
+    ],
+    "zoom": 1,
+    "scale": 1,
+    "waterCulling": {
+      "required": 72,
+      "missing": 0
+    }
+  },
+  {
+    "variant": "optimized",
+    "area": "beach",
+    "fps": 40.04341154898386,
+    "viewport": [
+      1366,
+      768
+    ],
+    "zoom": 1,
+    "scale": 1,
+    "waterCulling": {
+      "required": 120,
+      "missing": 0
+    }
+  }
+]

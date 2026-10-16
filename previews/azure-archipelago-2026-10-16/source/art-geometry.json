@@ -12616,6 +12616,204 @@
       2080,
       32,
       32
+    ],
+    [
+      2336,
+      2304,
+      32,
+      32
+    ],
+    [
+      2336,
+      2272,
+      32,
+      32
+    ],
+    [
+      2432,
+      2304,
+      32,
+      32
+    ],
+    [
+      2432,
+      2272,
+      32,
+      32
+    ],
+    [
+      2656,
+      2304,
+      32,
+      32
+    ],
+    [
+      2656,
+      2272,
+      32,
+      32
+    ],
+    [
+      2752,
+      2304,
+      32,
+      32
+    ],
+    [
+      2752,
+      2272,
+      32,
+      32
+    ],
+    [
+      2336,
+      2752,
+      32,
+      32
+    ],
+    [
+      2336,
+      2720,
+      32,
+      32
+    ],
+    [
+      2432,
+      2752,
+      32,
+      32
+    ],
+    [
+      2432,
+      2720,
+      32,
+      32
+    ],
+    [
+      2656,
+      2752,
+      32,
+      32
+    ],
+    [
+      2656,
+      2720,
+      32,
+      32
+    ],
+    [
+      2752,
+      2752,
+      32,
+      32
+    ],
+    [
+      2752,
+      2720,
+      32,
+      32
+    ],
+    [
+      2336,
+      1696,
+      32,
+      32
+    ],
+    [
+      2336,
+      1664,
+      32,
+      32
+    ],
+    [
+      2752,
+      1696,
+      32,
+      32
+    ],
+    [
+      2752,
+      1664,
+      32,
+      32
+    ],
+    [
+      2336,
+      3360,
+      32,
+      32
+    ],
+    [
+      2336,
+      3328,
+      32,
+      32
+    ],
+    [
+      2752,
+      3360,
+      32,
+      32
+    ],
+    [
+      2752,
+      3328,
+      32,
+      32
+    ],
+    [
+      1728,
+      2336,
+      32,
+      32
+    ],
+    [
+      1760,
+      2336,
+      32,
+      32
+    ],
+    [
+      1728,
+      2752,
+      32,
+      32
+    ],
+    [
+      1760,
+      2752,
+      32,
+      32
+    ],
+    [
+      3392,
+      2336,
+      32,
+      32
+    ],
+    [
+      3424,
+      2336,
+      32,
+      32
+    ],
+    [
+      3392,
+      2752,
+      32,
+      32
+    ],
+    [
+      3424,
+      2752,
+      32,
+      32
+    ],
+    [
+      4928,
+      2464,
+      32,
+      32
     ]
   ],
   "furniture": [
@@ -12753,7 +12951,7 @@
       "x": 416,
       "y": 2272,
       "w": 448,
-      "h": 32
+      "h": 64
     },
     {
       "island": "garden",
@@ -12817,56 +13015,56 @@
       "id": "hub-0",
       "island": "hub",
       "x": 2336,
-      "y": 2306,
+      "y": 2304,
       "approachDistance": 32
     },
     {
       "id": "hub-1",
       "island": "hub",
-      "x": 2446,
-      "y": 2306,
+      "x": 2445,
+      "y": 2304,
       "approachDistance": 32
     },
     {
       "id": "hub-2",
       "island": "hub",
       "x": 2674,
-      "y": 2306,
+      "y": 2304,
       "approachDistance": 32
     },
     {
       "id": "hub-3",
       "island": "hub",
       "x": 2783,
-      "y": 2306,
+      "y": 2304,
       "approachDistance": 32
     },
     {
       "id": "hub-4",
       "island": "hub",
       "x": 2336,
-      "y": 2771,
+      "y": 2768,
       "approachDistance": 32
     },
     {
       "id": "hub-5",
       "island": "hub",
       "x": 2445,
-      "y": 2770,
+      "y": 2769,
       "approachDistance": 32
     },
     {
       "id": "hub-6",
       "island": "hub",
       "x": 2674,
-      "y": 2770,
+      "y": 2769,
       "approachDistance": 32
     },
     {
       "id": "hub-7",
       "island": "hub",
-      "x": 2782,
-      "y": 2770,
+      "x": 2783,
+      "y": 2769,
       "approachDistance": 32
     },
     {
@@ -12953,8 +13151,8 @@
     {
       "id": "cafe-1",
       "island": "cafe",
-      "x": 2182,
-      "y": 559,
+      "x": 2183,
+      "y": 560,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -12963,7 +13161,7 @@
       "id": "cafe-2",
       "island": "cafe",
       "x": 2677,
-      "y": 308,
+      "y": 311,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -12971,8 +13169,8 @@
     {
       "id": "cafe-3",
       "island": "cafe",
-      "x": 2753,
-      "y": 332,
+      "x": 2754,
+      "y": 333,
       "approachX": 32,
       "approachDistance": 0,
       "facing": "left"
@@ -12980,7 +13178,7 @@
     {
       "id": "cafe-4",
       "island": "cafe",
-      "x": 2741,
+      "x": 2742,
       "y": 406,
       "approachX": 0,
       "approachDistance": -32,
@@ -12989,7 +13187,7 @@
     {
       "id": "cafe-5",
       "island": "cafe",
-      "x": 2676,
+      "x": 2677,
       "y": 421,
       "approachX": 0,
       "approachDistance": -32,
@@ -12998,8 +13196,8 @@
     {
       "id": "cafe-6",
       "island": "cafe",
-      "x": 2635,
-      "y": 369,
+      "x": 2636,
+      "y": 368,
       "approachX": -32,
       "approachDistance": 0,
       "facing": "right"
@@ -13007,8 +13205,8 @@
     {
       "id": "cafe-7",
       "island": "cafe",
-      "x": 3021,
-      "y": 515,
+      "x": 3023,
+      "y": 516,
       "approachX": -32,
       "approachDistance": 0,
       "facing": "right"
@@ -13016,8 +13214,8 @@
     {
       "id": "cafe-8",
       "island": "cafe",
-      "x": 3022,
-      "y": 592,
+      "x": 3023,
+      "y": 593,
       "approachX": -32,
       "approachDistance": 0,
       "facing": "right"
@@ -13025,8 +13223,8 @@
     {
       "id": "cafe-9",
       "island": "cafe",
-      "x": 3022,
-      "y": 666,
+      "x": 3023,
+      "y": 667,
       "approachX": -32,
       "approachDistance": 0,
       "facing": "right"
@@ -13034,8 +13232,8 @@
     {
       "id": "lounge-0",
       "island": "lounge",
-      "x": 604,
-      "y": 2342,
+      "x": 603,
+      "y": 2371,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13043,8 +13241,8 @@
     {
       "id": "lounge-1",
       "island": "lounge",
-      "x": 716,
-      "y": 2343,
+      "x": 717,
+      "y": 2372,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13052,8 +13250,8 @@
     {
       "id": "lounge-2",
       "island": "lounge",
-      "x": 841,
-      "y": 2342,
+      "x": 842,
+      "y": 2372,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13079,7 +13277,7 @@
     {
       "id": "lounge-5",
       "island": "lounge",
-      "x": 788,
+      "x": 789,
       "y": 2493,
       "approachX": 0,
       "approachDistance": 32,
@@ -13088,8 +13286,8 @@
     {
       "id": "lounge-6",
       "island": "lounge",
-      "x": 911,
-      "y": 2494,
+      "x": 914,
+      "y": 2493,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13097,7 +13295,7 @@
     {
       "id": "lounge-7",
       "island": "lounge",
-      "x": 207,
+      "x": 208,
       "y": 2430,
       "approachX": 32,
       "approachDistance": 0,
@@ -13106,8 +13304,8 @@
     {
       "id": "lounge-8",
       "island": "lounge",
-      "x": 207,
-      "y": 2494,
+      "x": 208,
+      "y": 2493,
       "approachX": 32,
       "approachDistance": 0,
       "facing": "left"
@@ -13115,8 +13313,8 @@
     {
       "id": "lounge-9",
       "island": "lounge",
-      "x": 706,
-      "y": 2938,
+      "x": 707,
+      "y": 2940,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13124,8 +13322,8 @@
     {
       "id": "lounge-10",
       "island": "lounge",
-      "x": 920,
-      "y": 2938,
+      "x": 922,
+      "y": 2940,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13133,7 +13331,7 @@
     {
       "id": "garden-0",
       "island": "garden",
-      "x": 2491,
+      "x": 2492,
       "y": 4235,
       "approachX": 0,
       "approachDistance": 32,
@@ -13143,7 +13341,7 @@
       "id": "garden-1",
       "island": "garden",
       "x": 2608,
-      "y": 4235,
+      "y": 4236,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13151,8 +13349,8 @@
     {
       "id": "garden-2",
       "island": "garden",
-      "x": 2490,
-      "y": 4583,
+      "x": 2492,
+      "y": 4584,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13160,7 +13358,7 @@
     {
       "id": "garden-3",
       "island": "garden",
-      "x": 2607,
+      "x": 2608,
       "y": 4584,
       "approachX": 0,
       "approachDistance": 32,
@@ -13169,7 +13367,7 @@
     {
       "id": "garden-4",
       "island": "garden",
-      "x": 2518,
+      "x": 2519,
       "y": 4819,
       "approachX": 0,
       "approachDistance": 32,
@@ -13178,7 +13376,7 @@
     {
       "id": "garden-5",
       "island": "garden",
-      "x": 2581,
+      "x": 2582,
       "y": 4819,
       "approachX": 0,
       "approachDistance": 32,
@@ -13187,8 +13385,8 @@
     {
       "id": "gathering-0",
       "island": "gathering",
-      "x": 4536,
-      "y": 2128,
+      "x": 4537,
+      "y": 2126,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13196,8 +13394,8 @@
     {
       "id": "gathering-1",
       "island": "gathering",
-      "x": 4632,
-      "y": 2136,
+      "x": 4634,
+      "y": 2134,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13206,7 +13404,7 @@
       "id": "gathering-2",
       "island": "gathering",
       "x": 4780,
-      "y": 2099,
+      "y": 2100,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13214,8 +13412,8 @@
     {
       "id": "gathering-3",
       "island": "gathering",
-      "x": 4848,
-      "y": 2148,
+      "x": 4851,
+      "y": 2150,
       "approachX": 32,
       "approachDistance": 0,
       "facing": "left"
@@ -13223,8 +13421,8 @@
     {
       "id": "gathering-4",
       "island": "gathering",
-      "x": 4825,
-      "y": 2471,
+      "x": 4828,
+      "y": 2469,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13232,8 +13430,8 @@
     {
       "id": "gathering-5",
       "island": "gathering",
-      "x": 4926,
-      "y": 2477,
+      "x": 4929,
+      "y": 2476,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13241,8 +13439,8 @@
     {
       "id": "gathering-6",
       "island": "gathering",
-      "x": 4336,
-      "y": 2793,
+      "x": 4335,
+      "y": 2792,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13250,7 +13448,7 @@
     {
       "id": "gathering-7",
       "island": "gathering",
-      "x": 4424,
+      "x": 4425,
       "y": 2830,
       "approachX": 0,
       "approachDistance": 32,
@@ -13259,8 +13457,8 @@
     {
       "id": "gathering-8",
       "island": "gathering",
-      "x": 4690,
-      "y": 2901,
+      "x": 4692,
+      "y": 2902,
       "approachX": 0,
       "approachDistance": 32,
       "facing": "down"
@@ -13268,7 +13466,7 @@
     {
       "id": "gathering-9",
       "island": "gathering",
-      "x": 4777,
+      "x": 4781,
       "y": 2869,
       "approachX": 0,
       "approachDistance": 32,
@@ -13277,8 +13475,8 @@
     {
       "id": "gathering-10",
       "island": "gathering",
-      "x": 4760,
-      "y": 2976,
+      "x": 4761,
+      "y": 2977,
       "approachX": 0,
       "approachDistance": -32,
       "facing": "up"
@@ -13286,12 +13484,12 @@
     {
       "id": "gathering-11",
       "island": "gathering",
-      "x": 4824,
-      "y": 2957,
+      "x": 4825,
+      "y": 2958,
       "approachX": 0,
       "approachDistance": -16,
       "facing": "up"
     }
   ],
-  "notes": "Native32px art-derived draft floor mask, manual table footprints and individually measured cushion centers. Gameplay verification required."
+  "notes": "Reviewed original circulation graph with registered polished artwork; native seat targets remeasured. New foliage and lounge shelf frontage blocked. Fresh gameplay acceptance required."
 }

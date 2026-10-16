@@ -1,3 +1,13 @@
+# BAWES representative section redesign
+
+The owner rejected the visual quality of checkpoint `579875d`. The current working revision is a tower-frontage/interior art study for review, not completed campus art. See [source/redesign/REVIEW.md](source/redesign/REVIEW.md) for the inspected Tea Garden, Volcanic Observatory, Sky Village and Bazaar references, exact scope, and remaining work.
+
+Current static geometry: 6,396 connected walkable cells and 88 reachable seat cells. Pixel seating anchors are recorded separately. The doors/shared-lock script is unchanged. The final section run passed 5/5 checks; shared-door checks passed 10/10 before the last artwork-only cleanup; build passed 11/11 maps. Older validation and images below describe the rejected checkpoint and must not be presented as acceptance of this redesign.
+
+---
+
+## Historical checkpoint notes
+
 # BAWES glass campus
 
 An isolated 96×88 campus at native 32px scale, with a folded colored-glass BAWES tower facing an open square. Outdoor spawn is beside the entrance and meeting room; seated occupants remain visible through the front glazing. Stepped planted wings, stone piers and deep eaves give the tower a complete architectural mass. A coworking house, staff house and curved glass portal pavilion form the northern district.

@@ -1,0 +1,139 @@
+{
+  "status": "representative art study for owner review, not completed campus art",
+  "preserved_checkpoint": "579875dbe5aad999b0c383462d0fa99e7dc04e7c",
+  "engine_commit": "274114560c5ec95fdf8e51e67986a53069f3cf06",
+  "collision_delta": [
+    {
+      "tile": [
+        28,
+        41
+      ],
+      "before": true,
+      "after": false
+    },
+    {
+      "tile": [
+        29,
+        41
+      ],
+      "before": true,
+      "after": false
+    },
+    {
+      "tile": [
+        30,
+        41
+      ],
+      "before": true,
+      "after": false
+    },
+    {
+      "tile": [
+        31,
+        41
+      ],
+      "before": true,
+      "after": false
+    },
+    {
+      "tile": [
+        16,
+        46
+      ],
+      "before": false,
+      "after": true
+    },
+    {
+      "tile": [
+        30,
+        46
+      ],
+      "before": false,
+      "after": true
+    },
+    {
+      "tile": [
+        31,
+        46
+      ],
+      "before": false,
+      "after": true
+    }
+  ],
+  "runtime_script_identical_to_checkpoint": true,
+  "door_checks": "10 passed before final chair-art cleanup and cosmetic door sprite change; collision/state logic identical",
+  "static_checks": {
+    "walkable_cells": 6396,
+    "reachable_seat_cells": 88
+  },
+  "art_acceptance": "pending owner review",
+  "sha256": {
+    "README.md": "ca0f47cadf95620017b4c6181d59ff98d954a00d7feef69d62d3d8d1417e1f90",
+    "campus.tmj": "e14cc761a66e0cbff37132f42249bc0deb855f78afb8ec9068cc464f8d4dbecc",
+    "cowork-glass.png": "81e8b26b8ae84e81a882bb7e44df6ef538f60c3766156a7c16fc1ea8afedae76",
+    "doors.png": "e1f00322339a457caa5a9f350abec034c30447198114896e99b7c6a59ecae5f3",
+    "ground.png": "5f161e5adb44cd553ac0357591038618c665699d719f458cde2e6d73ad93b623",
+    "logic.png": "050ab82bd34987f71468d5851d3707e15c6c6de862d98384259834d92deefd57",
+    "portal-glass.png": "419b39baafed3d8b21190218786269d5044176d7067e9c4c13e4dc513e664fa8",
+    "runtime.js": "deb2c338e5ec251b55a04ccf981d775134b7bde9c3433a6e7c7a53c42203c3f3",
+    "seat-backs.png": "935ecaf99276bff2b04cb5de6f91f6f659f680e632223dcef2d8b67a53abb9bf",
+    "source/ART-PROVENANCE.md": "e199fd223b409eff4758c411a09c482e41481cba97059aab52081674238d6657",
+    "source/ASSET-PROVENANCE.md": "24d6e504466008ade4809a8ea0c8acbdce57f269f43e3fd1fe7231580f8636c3",
+    "source/REFERENCE-CONTRACTS.md": "0849e0ff087e016a727f152626ecbfb8af2887f2dbab3ef0ba279667653bac59",
+    "source/asset-manifest.json": "e019bce4aa6ef529c4eeb176b8c9e602b6e513d0f2b4a3f993754926aa3f9aee",
+    "source/build.py": "175594f13f387e917d1e63d98b14d709c767cbd496a8eda99c906e0f6dcbd2c3",
+    "source/cowork-polished-original.png": "7da8a375bca1670fa730b15bd31148bf80189a17a12e90c4c9b01497a21c3c97",
+    "source/layout.json": "62ad198f428e26e59666cc33b6ce466594ed20fe1e03f70f62b045c52aeace8a",
+    "source/lettermark.svg": "8b20a5f08836af01033a8cb71a3441fa02d21d69ca6ae1cf28d52691e9eabf99",
+    "source/licensed-wa-village/100R_Floor.png": "c49d3160447e2634efccb2873765bc748e546e34a9059ba64ef9c4278064d89f",
+    "source/licensed-wa-village/chairs.png": "db7d630295330889a9ad9089089ef06785168e0c06d298a6a2c0a8807ef1e3a2",
+    "source/licensed-wa-village/couches.png": "44565083ecfef418d5e58208813e609672a6052aa95b477d01791d4f2f0b18e0",
+    "source/licensed-wa-village/decor.png": "96917177c02a3d3cdd238356cda890f71785286ecfccfc77cd418b48547cb217",
+    "source/licensed-wa-village/grounds-assets.png": "f3a7105f7eeec07f1036b46dae3b57c6784a0d50e76463a50fd922ed90b37411",
+    "source/licensed-wa-village/mini-trees.png": "9156e044c4c1773ecde9c2fddb79ddd07353cacc07d2a2d3cedb472feb27571d",
+    "source/licensed-wa-village/tables.png": "a82b7ce877ec6f21eb55f1ddcc6948c73ffd4fd6f8fed8da3eb03e8055a67c93",
+    "source/licensed-wa-village/trees-shadow.png": "d08fe685f4bc64422052a255c4eef2a0e17a8db78930d67054e9bb3c7a73321c",
+    "source/portal-areas.json": "41415561d320c16fa8e00df2219e9e255c1a5b5024cc028deadea2d26514324a",
+    "source/portal-pavilion-polished-original.png": "be38fb5299b037e8f771b56103065022aa437c3043884fdbf7709d250dabb2fe",
+    "source/portal-polished-original.png": "3eb3678d4df94013653440bee7ac7e899a54f28a5276ce0312b4e1f1a61b41a2",
+    "source/redesign/.gitignore": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
+    "source/redesign/REVIEW.md": "7dc6d40cd79418a4060d33560034adeaafa133507afa5861b4cc30046915482c",
+    "source/redesign/assemble.py": "c627c05324022870a7fd15c8ba35b40078fac1cea6fcb48d4ddecc1577e6aa76",
+    "source/redesign/registration-study.py": "8b3aa913b24b27f0e9bd96bc1ac8556165b0c6ca3720d1eed1da40a60c263810",
+    "source/redesign/section-original.png": "e5a7a03fd57d1fde28bf71bc0bebb9e0d5aeb9e27211eccb5d8c095f12a82638",
+    "source/redesign/section-registered-original.png": "947e9c9e9ddf0576d89a3d42a5dd2b8bda3cf26cbb627f1b781fc89ffb277b89",
+    "source/redesign/tower-original.png": "520b4bd01bc6cbf0a2300652b49dc9cd104c9afae9d4192137e08d557485d19b",
+    "source/runtime/README.md": "4704815bd54a6bd02049e028e2591bb7d7350e83456372d8a552e89ccf50c725",
+    "source/runtime/run-local.sh": "29b360fe1fea7f0c61942d7fe94ed574dc8d42de909b689dfc573d77a42ba840",
+    "source/runtime/serve-map.py": "2201ee88a9cca6c9ae9f38394c7f320e053984630ed6a46375e7d461c4f9d969",
+    "source/runtime.template.js": "359877ab74853d4bc55bd026146c14446e31b76cb33d2702d08d7bada940ec28",
+    "source/test-reveal.cjs": "b22ceed32afa9d9121a79581185bca4f27d198bd8a9fd930f799bc8015fe091b",
+    "source/tower-complete-original.png": "b0946154f9542cf911f53f897a3966c781e55b0340e6b8207019969308d76c8f",
+    "source/tower-cutout-original.png": "87b11a492af7cfc4a81110cf7988804679db4fac5a49f714a6e3084a49b50396",
+    "source/tower-polished-original.png": "38bab21a256bd4f9f2cb56c6dee3d20031052b36e44101c10f89cfa9a0865c8f",
+    "source/tower-study-original.png": "b0846e3482d14178a3f2014d80cf9a735fe2d6233f25244eafadbfc2ecdfea1d",
+    "source/validate.py": "853a176931fce6f4a80e60b2a2d7df5b74939d59c317f43938d4d58f9c5a93e1",
+    "source/validation/capture.cjs": "843d2ebf6497488ad71aa358b5fdbf18b8ea2f58bc6f3236a4c39e35d41ba712",
+    "source/validation/doors.cjs": "6ab6fcd7768bfff28cd12f54eacf0e5af2824092713ecdf84533cc35151d93c7",
+    "source/validation/footprint.cjs": "e726722070c11d341c81b44e9bcec72c0fff7f447fdf13601295a115c720db63",
+    "source/validation/polished-campus.cjs": "ae450a33509c70eb35dec1f485b84876226cf38d2abf4f035b9fd420793a09a4",
+    "source/validation/polished-coast.cjs": "ffdc3a994123937d98922df1350fac5efd543cc2fffe2d376c559352c1c8696a",
+    "source/validation/polished-district.cjs": "d5714b00e96de9744f406ccac54ae4b2a76a9d5a3b7e58c58d95ae1556ea2e74",
+    "source/validation/polished-doors.cjs": "26fb63b0405d0868f3bbf48384e47fc18597602dd73723661004752345242910",
+    "source/validation/polished-north.cjs": "44fdcf2ef85b9bb4f53f19a00ceb182dac025f950f58a485780da85ec3cb4baa",
+    "source/validation/redesign-district.cjs": "8cba286b72f615531e1e9a132c347f3090696215ee464f85e2109f6432576172",
+    "source/validation/redesign-doors.cjs": "642aed204dab9b31c1c5305dbeab0d191f443a73b74703c119f1d5c3aca43c05",
+    "source/validation/routes.cjs": "7bf25c81373d83e951d6a995cc04ca8ae215e17ba9f903b9cc943a895327e75c",
+    "source/validation/tables.cjs": "aee9a1409917d02fbfc27f2100056d37e0347ba307d1f3f71f55e02d1f6ee0d4",
+    "source/validation/town-coast.cjs": "f9525550afb25d6c662f12f7f6e994b1aa85d383a4b9cb28b952095f4aaa39c3",
+    "source/validation/town-crossing.cjs": "e652fd585dfa1bc34d928f6ce4b70a698ec6fbc8530049953f8f0c759b48a165",
+    "source/validation/town-doors.cjs": "02aaadf3f15ad49ddb546751b3013cdfba0791c8c7cd01703841437dcc626501",
+    "source/validation/town-glass.cjs": "97cbb3372f48fcb702049d14a6b76cc9e4a72853b1243e0f6eda124f0b0507c6",
+    "source/validation/town.cjs": "0704710b29927bee4de6dfe3a9f1d70975ca90148aecc06d089a8f42e0561782",
+    "source/validation/two-clients.cjs": "4a4946dd2a52b6df8ed0bca1ad9df334f0a4ebc0d2671c9100e0081f0dbca17b",
+    "staff-glass.png": "b9390a418fbbe0a7b86456ac13de04d81b239f47eb81519c40eb6f2215927bbd",
+    "tower-glass.png": "bc12b630145b6772daa08f1861f4a8327121238f7b114e24e77aaf950b234727",
+    "water.png": "ffb10fd5686b217e07d2cb8a2619a038aadc930eeff8a5b1f725713a82a33203"
+  },
+  "final_section_checks": "5 passed on final registered chair and door artwork"
+}

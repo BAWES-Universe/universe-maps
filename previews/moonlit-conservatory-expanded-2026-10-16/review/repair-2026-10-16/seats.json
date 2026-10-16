@@ -1,0 +1,262 @@
+[
+  {
+    "seat": {
+      "id": "upper-west-left",
+      "x": 216,
+      "y": 250,
+      "side": -1
+    },
+    "arrival": true,
+    "taken": true,
+    "occupied": {
+      "x": 216,
+      "y": 234,
+      "feetY": 250,
+      "direction": 1,
+      "zoom": 1,
+      "scale": 1
+    },
+    "exited": {
+      "x": 216,
+      "y": 297,
+      "feetY": 313,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "seat": {
+      "id": "upper-west-right",
+      "x": 268,
+      "y": 250,
+      "side": 1
+    },
+    "arrival": true,
+    "taken": true,
+    "occupied": {
+      "x": 268,
+      "y": 234,
+      "feetY": 250,
+      "direction": 3,
+      "zoom": 1,
+      "scale": 1
+    },
+    "exited": {
+      "x": 268,
+      "y": 303,
+      "feetY": 319,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "seat": {
+      "id": "upper-east-left",
+      "x": 408,
+      "y": 250,
+      "side": -1
+    },
+    "arrival": true,
+    "taken": true,
+    "occupied": {
+      "x": 408,
+      "y": 234,
+      "feetY": 250,
+      "direction": 1,
+      "zoom": 1,
+      "scale": 1
+    },
+    "exited": {
+      "x": 408,
+      "y": 300,
+      "feetY": 316,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "seat": {
+      "id": "upper-east-right",
+      "x": 456,
+      "y": 250,
+      "side": 1
+    },
+    "arrival": true,
+    "taken": true,
+    "occupied": {
+      "x": 456,
+      "y": 234,
+      "feetY": 250,
+      "direction": 3,
+      "zoom": 1,
+      "scale": 1
+    },
+    "exited": {
+      "x": 456,
+      "y": 304,
+      "feetY": 320,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "seat": {
+      "id": "terrace-left",
+      "x": 1168,
+      "y": 536,
+      "side": -1
+    },
+    "arrival": true,
+    "taken": true,
+    "occupied": {
+      "x": 1168,
+      "y": 520,
+      "feetY": 536,
+      "direction": 1,
+      "zoom": 1,
+      "scale": 1
+    },
+    "exited": {
+      "x": 1168,
+      "y": 592,
+      "feetY": 608,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "seat": {
+      "id": "terrace-right",
+      "x": 1240,
+      "y": 536,
+      "side": 1
+    },
+    "arrival": true,
+    "taken": true,
+    "occupied": {
+      "x": 1240,
+      "y": 520,
+      "feetY": 536,
+      "direction": 3,
+      "zoom": 1,
+      "scale": 1
+    },
+    "exited": {
+      "x": 1240,
+      "y": 592,
+      "feetY": 608,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "seat": {
+      "id": "lower-west-left",
+      "x": 1104,
+      "y": 1464,
+      "side": -1
+    },
+    "arrival": true,
+    "taken": true,
+    "occupied": {
+      "x": 1104,
+      "y": 1448,
+      "feetY": 1464,
+      "direction": 1,
+      "zoom": 1,
+      "scale": 1
+    },
+    "exited": {
+      "x": 1104,
+      "y": 1514,
+      "feetY": 1530,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "seat": {
+      "id": "lower-west-right",
+      "x": 1168,
+      "y": 1464,
+      "side": 1
+    },
+    "arrival": true,
+    "taken": true,
+    "occupied": {
+      "x": 1168,
+      "y": 1448,
+      "feetY": 1464,
+      "direction": 3,
+      "zoom": 1,
+      "scale": 1
+    },
+    "exited": {
+      "x": 1168,
+      "y": 1517,
+      "feetY": 1533,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "seat": {
+      "id": "lower-east-left",
+      "x": 1360,
+      "y": 1464,
+      "side": -1
+    },
+    "arrival": true,
+    "taken": true,
+    "occupied": {
+      "x": 1360,
+      "y": 1448,
+      "feetY": 1464,
+      "direction": 1,
+      "zoom": 1,
+      "scale": 1
+    },
+    "exited": {
+      "x": 1360,
+      "y": 1511,
+      "feetY": 1527,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1
+    }
+  },
+  {
+    "seat": {
+      "id": "lower-east-right",
+      "x": 1424,
+      "y": 1464,
+      "side": 1
+    },
+    "arrival": true,
+    "taken": true,
+    "occupied": {
+      "x": 1424,
+      "y": 1448,
+      "feetY": 1464,
+      "direction": 3,
+      "zoom": 1,
+      "scale": 1
+    },
+    "exited": {
+      "x": 1424,
+      "y": 1514,
+      "feetY": 1530,
+      "direction": 2,
+      "zoom": 1,
+      "scale": 1
+    }
+  }
+]

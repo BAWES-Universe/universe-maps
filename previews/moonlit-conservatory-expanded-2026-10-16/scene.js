@@ -14,8 +14,29 @@
         let disposed = false, position = null, moves = 0, roofInside = false, roofFrame = -1, roofEpoch = 0;
         let door = 'open', frame = 2, doorEpoch = 0, tea = 'idle', teaEpoch = 0;
         let prompt = null, promptKey = '', audioEnabled = false;
-        let audioSource = '', newPavilionInside = false;
-        const waterSources = [{x: 928,y: 368,innerRadius: 80,outerRadius: 260}, {x: 1250,y: 600,innerRadius: 100,outerRadius: 270}, {x:784,y:1456,innerRadius:100,outerRadius:330}];
+        let newPavilionInside = false, seating = false;
+        // Native occupancy: feet align with chair cushion; final approach faces the table.
+        const seats = [
+            {id:'upper-west-left',x:216,y:250,side:-1}, {id:'upper-west-right',x:268,y:250,side:1},
+            {id:'upper-east-left',x:408,y:250,side:-1}, {id:'upper-east-right',x:456,y:250,side:1},
+            {id:'terrace-left',x:1168,y:536,side:-1}, {id:'terrace-right',x:1240,y:536,side:1},
+            {id:'lower-west-left',x:1104,y:1464,side:-1}, {id:'lower-west-right',x:1168,y:1464,side:1},
+            {id:'lower-east-left',x:1360,y:1464,side:-1}, {id:'lower-east-right',x:1424,y:1464,side:1}
+        ];
+        async function takeSeat() {
+            if (disposed || seating || !position) return false;
+            const distance = s => Math.hypot(position.x-s.x, position.y+16-s.y);
+            const seat = seats.reduce((a,b) => distance(a)<distance(b) ? a : b);
+            if (distance(seat)>96) return false;
+            seating = true;
+            try {
+                const approach = await WA.player.moveTo(seat.x + seat.side*32, seat.y, 3);
+                if (disposed || approach.cancelled) return false;
+                const result = await WA.player.moveTo(seat.x, seat.y, 3);
+                return !result.cancelled;
+            } catch (error) { console.warn('Moonlit seat approach interrupted', error); return false; }
+            finally { seating = false; }
+        }
         const timers = new Set(), menus = [], subscriptions = [], visibility = new Map();
         const near = (point, radius) => position && (Math.hypot(position.x-point.x,position.y-point.y)<=radius || (point===geometry.counter && Math.hypot(position.x-1264,position.y-1392)<=radius) || (point===geometry.terrace && Math.hypot(position.x-1400,position.y-1520)<=radius));
         function inPavilion(x, y) {
@@ -44,24 +65,22 @@
             if (old) Promise.resolve(old.close ? old.close() : old.remove()).catch(() => {});
         }
         function showPrompt(key, message, callback) {
-            const anchor = position && position.y > 1000 ? (key === 'guide' ? 'garden-guide' : (key === 'serve' ? 'new-terrace-actions' : (key === 'water' ? ('water-'+Math.floor(position.x/64)+'-'+Math.floor(position.y/64)) : 'new-counter-actions'))) : (key === 'water' && position.x < 1100 ? 'upper-water-actions' : (key === 'serve' || key === 'water' ? 'terrace-tea-touch' : 'counter-tea-touch'));
-            const identity = key + ':' + audioEnabled + ':' + anchor;
+            const anchor = position && position.y > 1000
+                ? (key === 'guide' ? 'garden-guide' : key === 'serve' ? 'new-terrace-actions' : 'new-counter-actions')
+                : (key === 'serve' ? 'terrace-tea-touch' : 'counter-tea-touch');
+            const identity = key + ':' + anchor;
             if (identity === promptKey) return;
             promptKey = identity; removePrompt();
             const labels = { brew: 'Brew tea', collect: 'Collect tea', serve: 'Serve tea', again: 'Brew another pot', guide: 'Walk to fountain' };
-            if (!labels[key] && key !== 'water') return;
+            if (!labels[key]) return;
             const buttons = [];
             if (labels[key]) buttons.push({ label: labels[key], callback: () => {
                 if (!disposed && identity === promptKey) callback();
             }});
-            if (key === 'water') buttons.push({label: audioEnabled ? 'Mute water' : 'Enable water sound', callback: () => {
-                if (disposed || identity !== promptKey) return;
-                audio(!audioEnabled); refreshTea();
-            }});
             buttons.push({label: 'Dismiss', callback: removePrompt});
 
             prompt = WA.ui.openPopup(anchor,
-                key === 'serve' || key === 'water' ? 'Water garden' : 'Moonflower tea', buttons);
+                key === 'serve' ? 'Water garden' : 'Moonflower tea', buttons);
         }
         function doorFrame(index) {
             // Open doorway is baked into the base artwork; frame 2 hides both overlays.
@@ -82,7 +101,7 @@
             if (open) {
                 const token = doorEpoch; door = 'opening'; doorFrame(1);
                 later(() => { if (token === doorEpoch) { doorFrame(2); door = 'open'; } }, 90);
-            } else { doorFrame(0); door = 'closed'; layer('Door Collision', true); }
+            } else { doorFrame(0); door = 'closed'; } // Visual door only; never make pathfinding reject the doorway.
         }
         function refreshTea() {
             layer('Tea Ready', tea === 'ready'); layer('Tea Served', tea === 'served');
@@ -98,7 +117,6 @@
                 else if (tea === 'served') showPrompt('served', 'Moonflower tea, served beneath the stars.', () => {});
                 else showPrompt('terrace', 'Bring a warm cup from the glass pavilion.', () => {});
             } else if (near({x:576,y:1264},90)) showPrompt('guide','', () => { removePrompt(); WA.player.moveTo(992,1472,4); });
-            else if (waterSources.some(source => near(source, source.outerRadius))) showPrompt('water', '', () => {});
             else showPrompt('', '', () => {});
         }
         function prepare() {
@@ -135,29 +153,21 @@
             // Keep the exit path available throughout the interior, including the counter.
             if (roofInside || near(geometry.door, 220)) animateDoor(true);
             else if (!near(geometry.door, 280)) animateDoor(false);
-            if (audioEnabled) updateWater();
             refreshTea();
-        }
-        function updateWater() {
-            if (!audioEnabled || !position) return;
-            const source = waterSources.reduce((a,b) => Math.hypot(position.x-a.x,position.y-a.y) < Math.hypot(position.x-b.x,position.y-b.y) ? a : b);
-            const key = source.x + ',' + source.y;
-            if (audioSource === key) return;
-            audioSource = key;
-            WA.room.setProperty('native-audio', 'nativeSoundscape', JSON.stringify({url:'audio/fountain.mp3',volume:0.22,...source}));
         }
         function audio(on) {
             if (disposed && on) return;
-            audioEnabled = !!on; audioSource = '';
+            audioEnabled = !!on;
+            // User opt-in only. The standard player owns mute, pause and volume.
+            // No walking event changes playback or opens audio UI.
+            WA.room.setProperty('native-audio', 'nativeSoundscape', undefined);
             if (!on) {
-                WA.room.setProperty('native-audio','playAudio',undefined);
-                WA.room.setProperty('native-audio','nativeSoundscape',undefined);
+                WA.room.setProperty('native-audio', 'playAudio', undefined);
                 return;
             }
-            updateWater();
-            WA.room.setProperty('native-audio','audioVolume',0);
-            WA.room.setProperty('native-audio','audioLoop',true);
-            WA.room.setProperty('native-audio','playAudio','audio/silent-carrier.wav');
+            WA.room.setProperty('native-audio', 'audioVolume', 0.22);
+            WA.room.setProperty('native-audio', 'audioLoop', true);
+            WA.room.setProperty('native-audio', 'playAudio', 'audio/fountain.mp3');
         }
         function menu(label, callback) {
             // This engine cleans up menus by label on iframe departure: key must match.
@@ -172,6 +182,7 @@
             menu('Enable water sound', () => audio(true));
             menu('Mute water', () => audio(false));
             menu('Brew a fresh pot', resetTea);
+            menu('Take nearest seat', takeSeat);
             const before = moves, p = await WA.player.getPosition();
             if (!disposed && before === moves) move(p);
         }
@@ -186,7 +197,7 @@
             menus.forEach(m => attempt(() => m.remove()));
             attempt(() => audio(false));
         }
-        return { init, dispose, prepare, collect, serve, resetTea, audio, geometry,
+        return { init, dispose, prepare, collect, serve, resetTea, audio, takeSeat, seats, geometry,
             status: () => ({ door, frame, roofInside, roofFrame, newPavilionInside, tea, audioEnabled, position, disposed }) };
     }
     if (typeof module !== 'undefined' && module.exports) module.exports = { createExperience };

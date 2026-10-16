@@ -1,0 +1,43 @@
+{
+  "beforeStop": {
+    "audit": {
+      "started": 1792147520006,
+      "samples": 1159,
+      "hits": []
+    },
+    "controls": {
+      "muted": false,
+      "volume": 0.925,
+      "decreaseWhileTalking": true,
+      "talking": false,
+      "paused": true,
+      "stopped": false
+    },
+    "source": {
+      "url": "http://localhost:8766/audio/fountain.mp3",
+      "volume": 0.22,
+      "loop": true
+    }
+  },
+  "afterStopAndWalking": {
+    "source": {
+      "url": "http://localhost:8766/audio/fountain.mp3",
+      "volume": 0.22,
+      "loop": true
+    },
+    "controls": {
+      "muted": false,
+      "volume": 0.925,
+      "decreaseWhileTalking": true,
+      "talking": false,
+      "paused": true,
+      "stopped": false
+    },
+    "audio": [
+      {
+        "paused": true,
+        "volume": 0.20350000000000001
+      }
+    ]
+  }
+}

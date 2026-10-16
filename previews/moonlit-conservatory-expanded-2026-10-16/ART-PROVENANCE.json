@@ -1,5 +1,4 @@
 {
-  "method": "Built-in image_gen editing of existing Moonlit artwork and map-only renderer reference. No external paid API or credit purchase. Runtime image bytes copied unchanged; tilemap placements and geometry authored locally.",
   "originalReference": "/workspace/scratch/moonlit-scale-repair/navigation-revision/runtime/furniture-scale-scene.png",
   "acceptedSourceImages": {
     "interior-original.png": "exec-cca49daa-90c2-41ad-b9cd-8e816353eee1.png",
@@ -21,5 +20,12 @@
     "height": 32,
     "scale": 1
   },
-  "published": "Preserved; this is local unpublished candidate."
+  "original_method": "Built-in image_gen editing of existing Moonlit artwork and map-only renderer reference. No external paid API or credit purchase. Runtime image bytes copied unchanged; tilemap placements and geometry authored locally.",
+  "method": "Repair of pinned published assets. Existing upper furniture translated +16/+8 pixels with smooth adjacent-floor displacement; lower right furniture group translated -12 pixels. Furniture and Woka dimensions unchanged. Transparent flowing-water highlights and expanding rings rendered locally with Canvas, using native Tiled animations. No new generated scene, external paid API, credits or additional map area.",
+  "repair_source_commit": "37363a42e77e6535791e2ddd171f6d94c48d9f0a",
+  "repair_assets": {
+    "interior-repair-20261016.png": "Registered upper furniture, same dimensions; existing adjacent floor smoothly displaced.",
+    "furniture-repair-20261016.png": "Existing lower right furniture group translated12px left.",
+    "water-flow.png": "Locally authored transparent moving highlights/rings; no paid generation."
+  }
 }

@@ -1,0 +1,15 @@
+{
+  "interior-repair-20261016.png": {
+    "replaces": "interior-original.png",
+    "sha256": "73c40e6abcab454ba4b494bcec9acbfaea67f245e3ddb6387ad95c20c63a8aeb"
+  },
+  "furniture-repair-20261016.png": {
+    "replaces": "furniture-cutout.png",
+    "sha256": "525e4455324f98e5015da9a34ccdb7ffde944a754aea27cbb11975e1a9074be0"
+  },
+  "scene-repair-20261016.js": {
+    "replaces": "scene.js",
+    "sha256": "66198fe5316a5a6a36907e6eb55ad24163c67970dde77452e3006502dc1fcd2b"
+  },
+  "map_difference": "Only image and script paths differ from reviewed c776df59952a83a843ad9f49ee262f1975110be93de18d28ea0c6e53d56e1815; referenced runtime bytes identical."
+}

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "silentSpawn": true,
+  "servedMapSha256": "186e0d0c427f8be503597cecfc258385eedf880528f878607b024b7fca68f237",
+  "responses": [
+    {
+      "url": "http://localhost:8000/_/global/localhost:8766/moonlit.tmj",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8766/moonlit.tmj",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8766/interior-repair-20261016.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8766/furniture-repair-20261016.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8766/water-flow.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8766/scene-repair-20261016.js",
+      "status": 200
+    }
+  ],
+  "seatViaActualNativeMenu": {
+    "x": 268,
+    "y": 234,
+    "zoom": 1,
+    "scale": 1
+  }
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "label": "silent-before-opt-in",
+    "controls": {
+      "muted": false,
+      "volume": 1,
+      "decreaseWhileTalking": true,
+      "talking": false,
+      "paused": false,
+      "stopped": false
+    },
+    "visibility": "hidden",
+    "audio": [],
+    "waterPopupButtons": []
+  },
+  {
+    "label": "native-playing",
+    "source": {
+      "url": "http://localhost:8766/audio/fountain.mp3",
+      "volume": 0.22,
+      "loop": true
+    },
+    "controls": {
+      "muted": false,
+      "volume": 1,
+      "decreaseWhileTalking": true,
+      "talking": false,
+      "paused": false,
+      "stopped": false
+    },
+    "playerState": "playing",
+    "visibility": "visible",
+    "audio": [
+      {
+        "src": "http://localhost:8766/audio/fountain.mp3",
+        "paused": false,
+        "time": 2.845048,
+        "volume": 0.22,
+        "muted": false
+      }
+    ],
+    "waterPopupButtons": []
+  },
+  {
+    "label": "native-paused",
+    "source": {
+      "url": "http://localhost:8766/audio/fountain.mp3",
+      "volume": 0.22,
+      "loop": true
+    },
+    "controls": {
+      "muted": false,
+      "volume": 1,
+      "decreaseWhileTalking": true,
+      "talking": false,
+      "paused": true,
+      "stopped": false
+    },
+    "playerState": "playing",
+    "visibility": "visible",
+    "audio": [
+      {
+        "src": "http://localhost:8766/audio/fountain.mp3",
+        "paused": true,
+        "time": 3.376986,
+        "volume": 0.22,
+        "muted": false
+      }
+    ],
+    "waterPopupButtons": []
+  },
+  {
+    "label": "native-muted",
+    "source": {
+      "url": "http://localhost:8766/audio/fountain.mp3",
+      "volume": 0.22,
+      "loop": true
+    },
+    "controls": {
+      "muted": true,
+      "volume": 1,
+      "decreaseWhileTalking": true,
+      "talking": false,
+      "paused": true,
+      "stopped": false
+    },
+    "playerState": "playing",
+    "visibility": "visible",
+    "audio": [
+      {
+        "src": "http://localhost:8766/audio/fountain.mp3",
+        "paused": true,
+        "time": 3.376986,
+        "volume": 0.22,
+        "muted": true
+      }
+    ],
+    "waterPopupButtons": []
+  },
+  {
+    "label": "native-volume-thumb-click-no-change",
+    "source": {
+      "url": "http://localhost:8766/audio/fountain.mp3",
+      "volume": 0.22,
+      "loop": true
+    },
+    "controls": {
+      "muted": true,
+      "volume": 1,
+      "decreaseWhileTalking": true,
+      "talking": false,
+      "paused": true,
+      "stopped": false
+    },
+    "playerState": "playing",
+    "visibility": "visible",
+    "audio": [
+      {
+        "src": "http://localhost:8766/audio/fountain.mp3",
+        "paused": true,
+        "time": 3.376986,
+        "volume": 0.22,
+        "muted": true
+      }
+    ],
+    "waterPopupButtons": []
+  },
+  {
+    "label": "paused-after-six-crossings",
+    "source": {
+      "url": "http://localhost:8766/audio/fountain.mp3",
+      "volume": 0.22,
+      "loop": true
+    },
+    "controls": {
+      "muted": true,
+      "volume": 1,
+      "decreaseWhileTalking": true,
+      "talking": false,
+      "paused": true,
+      "stopped": false
+    },
+    "playerState": "playing",
+    "visibility": "visible",
+    "audio": [
+      {
+        "src": "http://localhost:8766/audio/fountain.mp3",
+        "paused": true,
+        "time": 3.376986,
+        "volume": 0.22,
+        "muted": true
+      }
+    ],
+    "waterPopupButtons": []
+  },
+  {
+    "label": "manual-source-cleared",
+    "controls": {
+      "muted": true,
+      "volume": 1,
+      "decreaseWhileTalking": true,
+      "talking": false,
+      "paused": true,
+      "stopped": true
+    },
+    "visibility": "hidden",
+    "audio": [],
+    "waterPopupButtons": []
+  }
+]

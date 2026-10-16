@@ -1,7 +1,15 @@
 {
   "ART-PROVENANCE.json": {
-    "bytes": 1372,
-    "sha256": "d850d49bba21d2d9d85241ae731c4defa29ef8e8cc2ab83ee2d509fdc1240bb3"
+    "bytes": 2162,
+    "sha256": "f1c4ac1cba429cbea51570d7ecf7649de4f4d28b02adea21e0b6eeba86c96177"
+  },
+  "PUBLICATION.json": {
+    "bytes": 1278,
+    "sha256": "c6b9b2f07659bf77a260cdd4b7b38496005cdef29635099bf9c67e54b7247d38"
+  },
+  "REPAIR-STATUS.md": {
+    "bytes": 5683,
+    "sha256": "42a9bd5b9283186ee462ee75f51763d6a36d1fdbd61d08d41af543335353dd40"
   },
   "audio/PROVENANCE.txt": {
     "bytes": 462,
@@ -39,9 +47,17 @@
     "bytes": 552130,
     "sha256": "be56958eb20a3b5297e8a897f55098a2a65c5a9f91bc808780f4c431f741e5c8"
   },
+  "furniture-repair-20261016.png": {
+    "bytes": 90922,
+    "sha256": "525e4455324f98e5015da9a34ccdb7ffde944a754aea27cbb11975e1a9074be0"
+  },
   "interior-original.png": {
     "bytes": 3502406,
     "sha256": "d1a888dcfc031152217e5ac2013e44e4ae673d3b700ace842309356880e51a24"
+  },
+  "interior-repair-20261016.png": {
+    "bytes": 4334321,
+    "sha256": "73c40e6abcab454ba4b494bcec9acbfaea67f245e3ddb6387ad95c20c63a8aeb"
   },
   "junction-continuous.png": {
     "bytes": 3584609,
@@ -60,8 +76,268 @@
     "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
   },
   "moonlit.tmj": {
-    "bytes": 361892,
-    "sha256": "eba319e4bd09d373f8621ce2161646e0e0c68ec550896616dda5b49b8943d441"
+    "bytes": 321871,
+    "sha256": "186e0d0c427f8be503597cecfc258385eedf880528f878607b024b7fca68f237"
+  },
+  "review/furniture-scale.png": {
+    "bytes": 1252085,
+    "sha256": "b37082b5d9c33bc9ed822856d9bb1ff14d501cf8bb081c59946a40daf3006c47"
+  },
+  "review/independent-candidate-review.md": {
+    "bytes": 4625,
+    "sha256": "c3e34bbd75a0337754b671514839d51d2e1c0c6d43fe6198107846bb21d7ac62"
+  },
+  "review/independent-final-review.md": {
+    "bytes": 10037,
+    "sha256": "17e7a03b2463c0bd0f59709e68393ca5ec633416ee467875feed0718ea77e5d3"
+  },
+  "review/independent-gameplay-pass.md": {
+    "bytes": 2569,
+    "sha256": "2f5b6639c5dccf4af98cb6f5702c0da607ba8bf67afc2bf26b47f5d16c3e8d82"
+  },
+  "review/independent-original-review.md": {
+    "bytes": 2229,
+    "sha256": "2d04005fd8b7454fa665631661c28a059b7db3e809766a53a8d9ebc96c9f65dd"
+  },
+  "review/index.html": {
+    "bytes": 8033,
+    "sha256": "301f47b81e563916258db04b9ba4137e7f0164f69986d77fb4dc6c2e1b264292"
+  },
+  "review/junction-lower.png": {
+    "bytes": 1232336,
+    "sha256": "d35638f2a9d9cebc13861c5dd2a6db7eacde7e2b23c18c356ba0178cb0204e91"
+  },
+  "review/junction-middle.png": {
+    "bytes": 1224244,
+    "sha256": "70abfa209e24e8e17d2780b9d4bcfa160f69b211da112270f09cfe051b21a1ba"
+  },
+  "review/junction-upper.png": {
+    "bytes": 1214760,
+    "sha256": "2d66c80239e2eb2b4d96bb7de5c34591115cca1feffa33554700acff12989abb"
+  },
+  "review/mouse-served.png": {
+    "bytes": 937710,
+    "sha256": "48b2d6d1bf31328617b6475501e68502702768095618bfdd886d9adf7c2b38a1"
+  },
+  "review/native-seating-investigation.md": {
+    "bytes": 3963,
+    "sha256": "1a765aa993266ffd7bfc57ea40cd9adb484380aa8fab98507d445ecc2710fc28"
+  },
+  "review/new-pavilion-inside.png": {
+    "bytes": 1246872,
+    "sha256": "3b039f6b941d84b59755336272c0e1a204c6b61c69c3db1d1cad7a7f5c1300ba"
+  },
+  "review/new-pavilion-outside.png": {
+    "bytes": 1246247,
+    "sha256": "2d50e719e0085286c6c1ab83c0b1abc988077f95a20301ca6fa1d9fc2543d514"
+  },
+  "review/original-pavilion-inside.png": {
+    "bytes": 1179136,
+    "sha256": "00ab076f63fd1b8d9582dc3254726d3b3c928541ca3ff22ee5042b17cf607061"
+  },
+  "review/repair-2026-10-16/asset-versioning.json": {
+    "bytes": 649,
+    "sha256": "9792e39d3bc5126d25654df446abcb88b08d924acd4ef9151a646b8c23d22322"
+  },
+  "review/repair-2026-10-16/audio-results.json": {
+    "bytes": 3674,
+    "sha256": "8e04bbc5dd5b66e511c8fe44e164940b1174369566e4f28068f08a012f40f68f"
+  },
+  "review/repair-2026-10-16/connector-lower.jpg": {
+    "bytes": 568330,
+    "sha256": "7031cc25787c0c0fd90f886ce51943bc51a10bde29a35cb6e65869737a387f9d"
+  },
+  "review/repair-2026-10-16/connector-middle.jpg": {
+    "bytes": 526533,
+    "sha256": "c14a556da7e54ba11f5d4665615d10bb8f4d0db1a5692b419ad921990283adeb"
+  },
+  "review/repair-2026-10-16/connector-upper.jpg": {
+    "bytes": 488331,
+    "sha256": "2cd28ae263d739e17f55d7adfc74dbfd67cf30c29c8c3d7dbd8dd0dbd85e42cc"
+  },
+  "review/repair-2026-10-16/controller-checks.json": {
+    "bytes": 440,
+    "sha256": "f3ed04d2c37cfb07c259f4bd1e78128345ed7f12dee49d104b3a07547aade499"
+  },
+  "review/repair-2026-10-16/final-audio-audit.json": {
+    "bytes": 841,
+    "sha256": "e8e8de1fa666e554bfd5e9ef322029869b00e3a9d959efb702e5a2569c9f55bf"
+  },
+  "review/repair-2026-10-16/final-bed-east-block.jpg": {
+    "bytes": 481027,
+    "sha256": "2d064f97bd92a91a4bde13ff86c3f6faaa0ad9dfd10d5f21a76b9fab0b3e2f40"
+  },
+  "review/repair-2026-10-16/final-bed-west-block.jpg": {
+    "bytes": 489424,
+    "sha256": "794728de4f716ebfbd44e63777418f6a13d020ddfd9d5899804d556d0e04096b"
+  },
+  "review/repair-2026-10-16/final-collision-review.json": {
+    "bytes": 2927,
+    "sha256": "0da3c1172e5b8d5fee99609f891cf969878ef8b70e08bba9fb2aa649e2beaa71"
+  },
+  "review/repair-2026-10-16/final-southwest-plants-block.jpg": {
+    "bytes": 481708,
+    "sha256": "68f809d40ee86c463b42a32256357a4eeb60d6adcce1253b866f5e93557b95aa"
+  },
+  "review/repair-2026-10-16/final-underbed-east.jpg": {
+    "bytes": 481174,
+    "sha256": "adc7b4d544a9cbb8ea7e9da88cf13ad426fbbd66f6568fb52109996a6df0b8f7"
+  },
+  "review/repair-2026-10-16/final-underbed-west.jpg": {
+    "bytes": 481511,
+    "sha256": "1f41cf6a2fb44b10534bf00f4e8f7df088e9ba904fda7b18f510ca6046f62b44"
+  },
+  "review/repair-2026-10-16/final-west-alcove.jpg": {
+    "bytes": 488334,
+    "sha256": "4fa1fb1b8ecaa3a970bcfcee3cf1e1dadb422ba30e521c7cc8b1f46fe8465b9e"
+  },
+  "review/repair-2026-10-16/final-west-path.jpg": {
+    "bytes": 490098,
+    "sha256": "0d0a5559be238beb8235659294ed535a19f1a67ada8f0c220fcd03549add7ac6"
+  },
+  "review/repair-2026-10-16/fountain-motion-8s.mp4": {
+    "bytes": 527381,
+    "sha256": "72707eec0edb122067d161f99ac8d29193d6d6a1bea4972c003717a2a6fee5f6"
+  },
+  "review/repair-2026-10-16/full-route-results.json": {
+    "bytes": 8804,
+    "sha256": "4f8bc5152f2182b4c487490c07392665d022fc85b2c3f496094785281c7586a5"
+  },
+  "review/repair-2026-10-16/guide-arrival.jpg": {
+    "bytes": 565692,
+    "sha256": "c3c4bbcc72b14bec64abccbef7cfafe8207e114a8409f9b805d92b29a9ec8d50"
+  },
+  "review/repair-2026-10-16/lower-east-left.jpg": {
+    "bytes": 578997,
+    "sha256": "1a38519e23f0ee3489d3385598a78e73367a089175d3692b1ea53614cab566f0"
+  },
+  "review/repair-2026-10-16/lower-east-right.jpg": {
+    "bytes": 579149,
+    "sha256": "919feefa4981692a29913ef48a078946a801c79f29b79129dcd48e9cdda0d876"
+  },
+  "review/repair-2026-10-16/lower-pavilion-inside.jpg": {
+    "bytes": 574364,
+    "sha256": "812b6ece8bf95de5f89d8d174d05601120328e9eda85a185490d7ff8793690d0"
+  },
+  "review/repair-2026-10-16/lower-pavilion-outside.jpg": {
+    "bytes": 565800,
+    "sha256": "e5982de863f7bf768c3e03159037ea77251437d8173981c2c1c59eaa491ed278"
+  },
+  "review/repair-2026-10-16/lower-west-left.jpg": {
+    "bytes": 580440,
+    "sha256": "6726038987251a9fad269ca1a9a9835c2a8676c6a54b5d1b64bd8e50eb5a5bf1"
+  },
+  "review/repair-2026-10-16/lower-west-right.jpg": {
+    "bytes": 579003,
+    "sha256": "1563383ba79041fc214bdaa0325f242588aae77abae4a8162ffc450d23298606"
+  },
+  "review/repair-2026-10-16/native-audio-controls.jpg": {
+    "bytes": 528023,
+    "sha256": "3d9dbeb1f0bd50290f12d95e77e1a9c2156fa24de61dfdaf4d036d1b2a3df5a0"
+  },
+  "review/repair-2026-10-16/packaged-chair.jpg": {
+    "bytes": 493998,
+    "sha256": "a5fdabe054ddfe0042e392c0c945ef7d319e9e5cd6dce1aced9d92e10bd78e9c"
+  },
+  "review/repair-2026-10-16/packaged-smoke.json": {
+    "bytes": 820,
+    "sha256": "d099e774446db3aa0684392589e879c8128e4ae8117f03dc4aba306d1432c43e"
+  },
+  "review/repair-2026-10-16/packaged-under-bed.jpg": {
+    "bytes": 481426,
+    "sha256": "ada78ecf64221d5d66d08d59957af69477db81c8bf46bd5c0c857193c9c03c2b"
+  },
+  "review/repair-2026-10-16/packaged-upper-path.jpg": {
+    "bytes": 484084,
+    "sha256": "d0484574f52f68892c54f6bf534b3030447d1f817b95df59f115d8962d7d0713"
+  },
+  "review/repair-2026-10-16/seats.json": {
+    "bytes": 4164,
+    "sha256": "0b601867d81cfbe8f492cf2d9cb9a07065e95774ed7ff98c47d34bf99c080501"
+  },
+  "review/repair-2026-10-16/spawn.jpg": {
+    "bytes": 531145,
+    "sha256": "63fade7e91d5fb5903a40292e3028b438f97118d05d9dfda6cee6eb0299f77bd"
+  },
+  "review/repair-2026-10-16/tea-served.jpg": {
+    "bytes": 470027,
+    "sha256": "1deb85506b45ac351bace11046986537e5b375d09b014a462da3535cae8ac175"
+  },
+  "review/repair-2026-10-16/terrace-left.jpg": {
+    "bytes": 469198,
+    "sha256": "4676eb91f56354ba4ea8494fa5f529bb154eb5e7a4e4800a1749588798002044"
+  },
+  "review/repair-2026-10-16/terrace-right.jpg": {
+    "bytes": 469166,
+    "sha256": "16508ba71f2ae8ee89dc622fd6cefc4f567cbd1d596c9aec174b4077525bc48d"
+  },
+  "review/repair-2026-10-16/tree-east.jpg": {
+    "bytes": 588590,
+    "sha256": "77b802a9af456ac6d324f5f21a764954a99d696210bfc89c493193638ec3df9d"
+  },
+  "review/repair-2026-10-16/tree-north.jpg": {
+    "bytes": 587815,
+    "sha256": "60c910c76435c5e365a0c8bf8b043bd2d255b9cbb6551b4b44bbe6cb1bc9d511"
+  },
+  "review/repair-2026-10-16/tree-south.jpg": {
+    "bytes": 594189,
+    "sha256": "8cc90b1ecb7a6ba4254d909c355016248b8825cbfb793e1f1e6148eb2c3a4085"
+  },
+  "review/repair-2026-10-16/tree-west.jpg": {
+    "bytes": 588696,
+    "sha256": "1e34293f748dbc58318e8891992e1f87a8fd528c9758c7d40a1ba755d9a5ffee"
+  },
+  "review/repair-2026-10-16/under-bed-paving.jpg": {
+    "bytes": 480107,
+    "sha256": "63cd08183d0f2923bac24fd3da565d28ab56f8d4435d2d844a6354d1f557f4da"
+  },
+  "review/repair-2026-10-16/upper-east-left.jpg": {
+    "bytes": 503953,
+    "sha256": "41bcfd359041438fbe3a4f52f1e8e161a8358c45ff9e7f1ffe02b3c0057945b0"
+  },
+  "review/repair-2026-10-16/upper-east-right.jpg": {
+    "bytes": 503826,
+    "sha256": "3e606760197234afea507c05175572c0a8377fd3a730451c69efc3323bc3807c"
+  },
+  "review/repair-2026-10-16/upper-north.jpg": {
+    "bytes": 482686,
+    "sha256": "5a54cd6267561986854bc4c3687f7b04fd0e31e60edcbfa5bcfc15221fa30939"
+  },
+  "review/repair-2026-10-16/upper-pavilion-inside.jpg": {
+    "bytes": 498401,
+    "sha256": "3b1db9551d1faa551da8de6abe98ab32237d8f925173631a283011a8309eb023"
+  },
+  "review/repair-2026-10-16/upper-pavilion-outside.jpg": {
+    "bytes": 495391,
+    "sha256": "a26f3d8326a108a53196fc92e16c9a4c371c74f85c800a87e8d856a3f0e71fc0"
+  },
+  "review/repair-2026-10-16/upper-waterfall-motion-8s.mp4": {
+    "bytes": 389036,
+    "sha256": "4c0e2684c2194626f88ad11b3a8fb91238e474037c0c91a3081efb07b5313b9a"
+  },
+  "review/repair-2026-10-16/upper-west-left.jpg": {
+    "bytes": 496902,
+    "sha256": "f51b4758aaaded8fdaee77380a9340b0630c6f1ee13edeff2bb95a570843cc59"
+  },
+  "review/repair-2026-10-16/upper-west-right.jpg": {
+    "bytes": 496863,
+    "sha256": "6eb932a56720f29a44aca47b9150b7acd9ce48eb9463b44a0d789631bfacef83"
+  },
+  "review/repair-2026-10-16/volume-results.json": {
+    "bytes": 205,
+    "sha256": "f5c88e8b985545ccbf3057fea2044cdd7d0731a3bb988ca4b39aa5fe3bfcc1af"
+  },
+  "review/repair-2026-10-16/water-and-traversal.mp4": {
+    "bytes": 23344665,
+    "sha256": "54a8dbbad0557fb849fa6f11d63a0b41e499421edd1b83734958d040b2b60a68"
+  },
+  "review/runtime-route-screenshot-review.md": {
+    "bytes": 4430,
+    "sha256": "af81260a9b8a96b493c3d19e23acd7a99be8a6f1044334422ff21ec91e67d671"
+  },
+  "review/touch-serve.png": {
+    "bytes": 1226743,
+    "sha256": "e5dfe4189bb4aa7b31c583b15fa82b68b5ae8f01d5f0f5aac2bbae7d6327d068"
   },
   "roof-counter-scene.png": {
     "bytes": 3416475,
@@ -71,13 +347,21 @@
     "bytes": 3559415,
     "sha256": "23a81448c54765c7b5c3616915c393a482fbbb5bbde34ef8944a3f91a4062148"
   },
+  "scene-repair-20261016.js": {
+    "bytes": 12957,
+    "sha256": "66198fe5316a5a6a36907e6eb55ad24163c67970dde77452e3006502dc1fcd2b"
+  },
   "scene.js": {
-    "bytes": 12649,
-    "sha256": "d0d3503c6c47a637957ece44d3ab0cbbdead31d488fb3842fa4d0d50810b1843"
+    "bytes": 12957,
+    "sha256": "66198fe5316a5a6a36907e6eb55ad24163c67970dde77452e3006502dc1fcd2b"
   },
   "tea-ritual.png": {
     "bytes": 687,
     "sha256": "d7e0cb63aa0e984bbce5ab77a01e8d7a53cd6b4bdf3b17401fe609193b5f427f"
+  },
+  "water-flow.png": {
+    "bytes": 128092,
+    "sha256": "28053c0eac4d4227cbdcc15b99b4dc9f36927b4503238239c3660958c3f02e05"
   },
   "waterfall-animation.png": {
     "bytes": 739417,

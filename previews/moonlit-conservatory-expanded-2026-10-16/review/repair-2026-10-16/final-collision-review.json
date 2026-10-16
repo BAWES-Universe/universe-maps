@@ -1,0 +1,170 @@
+[
+  {
+    "name": "final-underbed-west",
+    "arrived": true,
+    "after": {
+      "x": 752,
+      "y": 512,
+      "feetY": 528,
+      "body": {
+        "x": 744,
+        "y": 513.0353359837559,
+        "width": 16,
+        "height": 16
+      },
+      "scale": 1,
+      "zoom": 1,
+      "popupText": false
+    }
+  },
+  {
+    "name": "final-underbed-east",
+    "arrived": true,
+    "after": {
+      "x": 784,
+      "y": 512,
+      "feetY": 528,
+      "body": {
+        "x": 772,
+        "y": 512,
+        "width": 16,
+        "height": 16
+      },
+      "scale": 1,
+      "zoom": 1,
+      "popupText": false
+    }
+  },
+  {
+    "name": "final-west-path",
+    "arrived": true,
+    "after": {
+      "x": 560,
+      "y": 448,
+      "feetY": 464,
+      "body": {
+        "x": 552,
+        "y": 444.21149801218263,
+        "width": 16,
+        "height": 16
+      },
+      "scale": 1,
+      "zoom": 1,
+      "popupText": false
+    }
+  },
+  {
+    "name": "final-west-alcove",
+    "arrived": true,
+    "after": {
+      "x": 560,
+      "y": 544,
+      "feetY": 560,
+      "body": {
+        "x": 552,
+        "y": 541.3359999999998,
+        "width": 16,
+        "height": 16
+      },
+      "scale": 1,
+      "zoom": 1,
+      "popupText": false
+    }
+  },
+  {
+    "name": "final-bed-west-block",
+    "arrived": true,
+    "before": {
+      "x": 560,
+      "y": 448,
+      "feetY": 464,
+      "body": {
+        "x": 552,
+        "y": 448.0080000000005,
+        "width": 16,
+        "height": 16
+      },
+      "scale": 1,
+      "zoom": 1,
+      "popupText": false
+    },
+    "after": {
+      "x": 568,
+      "y": 448,
+      "feetY": 464,
+      "body": {
+        "x": 560,
+        "y": 448,
+        "width": 16,
+        "height": 16
+      },
+      "scale": 1,
+      "zoom": 1,
+      "popupText": false
+    }
+  },
+  {
+    "name": "final-bed-east-block",
+    "arrived": true,
+    "before": {
+      "x": 912,
+      "y": 448,
+      "feetY": 464,
+      "body": {
+        "x": 903.5162109833332,
+        "y": 447.5162109833331,
+        "width": 16,
+        "height": 16
+      },
+      "scale": 1,
+      "zoom": 1,
+      "popupText": false
+    },
+    "after": {
+      "x": 872,
+      "y": 448,
+      "feetY": 464,
+      "body": {
+        "x": 864,
+        "y": 448,
+        "width": 16,
+        "height": 16
+      },
+      "scale": 1,
+      "zoom": 1,
+      "popupText": false
+    }
+  },
+  {
+    "name": "final-southwest-plants-block",
+    "arrived": true,
+    "before": {
+      "x": 752,
+      "y": 512,
+      "feetY": 528,
+      "body": {
+        "x": 746.3368450049409,
+        "y": 512,
+        "width": 16,
+        "height": 16
+      },
+      "scale": 1,
+      "zoom": 1,
+      "popupText": false
+    },
+    "after": {
+      "x": 744,
+      "y": 512,
+      "feetY": 528,
+      "body": {
+        "x": 736,
+        "y": 512,
+        "width": 16,
+        "height": 16
+      },
+      "scale": 1,
+      "zoom": 1,
+      "popupText": false
+    }
+  }
+]

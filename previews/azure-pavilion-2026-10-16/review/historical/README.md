@@ -1,0 +1,1 @@
+Historical diagnostics from earlier candidate revisions. These are not final acceptance evidence. The earlier styled WA.sound popup was replaced with the existing native audio player; earlier screenshots may show the subsequently removed facade name. Final artwork is coastal-unlabeled.png. Original rendered audio capture remains here solely as historical evidence.

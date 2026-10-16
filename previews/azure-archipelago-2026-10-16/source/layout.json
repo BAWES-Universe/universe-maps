@@ -1,0 +1,570 @@
+{
+  "width": 5120,
+  "height": 5120,
+  "tile": 32,
+  "islands": [
+    {
+      "id": "cafe",
+      "x": 1952,
+      "y": 64,
+      "entrance": "south"
+    },
+    {
+      "id": "garden",
+      "x": 1952,
+      "y": 3840,
+      "entrance": "north"
+    },
+    {
+      "id": "lounge",
+      "x": 64,
+      "y": 1952,
+      "entrance": "east"
+    },
+    {
+      "id": "gathering",
+      "x": 3840,
+      "y": 1952,
+      "entrance": "west"
+    }
+  ],
+  "bridges": [
+    [
+      2432,
+      1280,
+      256,
+      896
+    ],
+    [
+      2432,
+      2944,
+      256,
+      896
+    ],
+    [
+      1280,
+      2432,
+      896,
+      256
+    ],
+    [
+      2944,
+      2432,
+      896,
+      256
+    ]
+  ],
+  "hub": [
+    2176,
+    2176,
+    768,
+    768
+  ],
+  "furniture": [
+    {
+      "island": "cafe",
+      "kind": "plants",
+      "x": 2048,
+      "y": 160,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "cafe",
+      "kind": "plants",
+      "x": 2944,
+      "y": 160,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "cafe",
+      "kind": "plants",
+      "x": 2048,
+      "y": 1056,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "cafe",
+      "kind": "plants",
+      "x": 2944,
+      "y": 1056,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "cafe",
+      "kind": "wall",
+      "x": 2208,
+      "y": 192,
+      "w": 704,
+      "h": 64
+    },
+    {
+      "island": "cafe",
+      "kind": "table",
+      "x": 2304,
+      "y": 416,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "cafe",
+      "kind": "seat",
+      "x": 2256,
+      "y": 464,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "cafe",
+      "kind": "seat",
+      "x": 2416,
+      "y": 464,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "cafe",
+      "kind": "table",
+      "x": 2752,
+      "y": 416,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "cafe",
+      "kind": "seat",
+      "x": 2704,
+      "y": 464,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "cafe",
+      "kind": "seat",
+      "x": 2864,
+      "y": 464,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "cafe",
+      "kind": "table",
+      "x": 2304,
+      "y": 800,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "cafe",
+      "kind": "seat",
+      "x": 2256,
+      "y": 848,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "cafe",
+      "kind": "seat",
+      "x": 2416,
+      "y": 848,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "cafe",
+      "kind": "table",
+      "x": 2752,
+      "y": 800,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "cafe",
+      "kind": "seat",
+      "x": 2704,
+      "y": 848,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "cafe",
+      "kind": "seat",
+      "x": 2864,
+      "y": 848,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "garden",
+      "kind": "plants",
+      "x": 2048,
+      "y": 3936,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "garden",
+      "kind": "plants",
+      "x": 2944,
+      "y": 3936,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "garden",
+      "kind": "plants",
+      "x": 2048,
+      "y": 4832,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "garden",
+      "kind": "plants",
+      "x": 2944,
+      "y": 4832,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "garden",
+      "kind": "plants",
+      "x": 2208,
+      "y": 4096,
+      "w": 192,
+      "h": 192
+    },
+    {
+      "island": "garden",
+      "kind": "plants",
+      "x": 2720,
+      "y": 4096,
+      "w": 192,
+      "h": 192
+    },
+    {
+      "island": "garden",
+      "kind": "plants",
+      "x": 2208,
+      "y": 4608,
+      "w": 192,
+      "h": 192
+    },
+    {
+      "island": "garden",
+      "kind": "plants",
+      "x": 2720,
+      "y": 4608,
+      "w": 192,
+      "h": 192
+    },
+    {
+      "island": "garden",
+      "kind": "fountain",
+      "x": 2496,
+      "y": 4384,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "garden",
+      "kind": "seat",
+      "x": 2448,
+      "y": 4176,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "garden",
+      "kind": "seat",
+      "x": 2672,
+      "y": 4176,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "garden",
+      "kind": "seat",
+      "x": 2448,
+      "y": 4752,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "garden",
+      "kind": "seat",
+      "x": 2672,
+      "y": 4752,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "lounge",
+      "kind": "plants",
+      "x": 160,
+      "y": 2048,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "lounge",
+      "kind": "plants",
+      "x": 1056,
+      "y": 2048,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "lounge",
+      "kind": "plants",
+      "x": 160,
+      "y": 2944,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "lounge",
+      "kind": "plants",
+      "x": 1056,
+      "y": 2944,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "lounge",
+      "kind": "wall",
+      "x": 320,
+      "y": 2208,
+      "w": 704,
+      "h": 32
+    },
+    {
+      "island": "lounge",
+      "kind": "wall",
+      "x": 288,
+      "y": 2208,
+      "w": 32,
+      "h": 576
+    },
+    {
+      "island": "lounge",
+      "kind": "wall",
+      "x": 320,
+      "y": 2752,
+      "w": 704,
+      "h": 32
+    },
+    {
+      "island": "lounge",
+      "kind": "table",
+      "x": 448,
+      "y": 2432,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "lounge",
+      "kind": "seat",
+      "x": 400,
+      "y": 2480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "lounge",
+      "kind": "seat",
+      "x": 560,
+      "y": 2480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "lounge",
+      "kind": "table",
+      "x": 768,
+      "y": 2432,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "lounge",
+      "kind": "seat",
+      "x": 720,
+      "y": 2480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "lounge",
+      "kind": "seat",
+      "x": 880,
+      "y": 2480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "lounge",
+      "kind": "seat",
+      "x": 560,
+      "y": 2288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "lounge",
+      "kind": "seat",
+      "x": 688,
+      "y": 2288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "lounge",
+      "kind": "seat",
+      "x": 816,
+      "y": 2288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "gathering",
+      "kind": "plants",
+      "x": 3936,
+      "y": 2048,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "gathering",
+      "kind": "plants",
+      "x": 4832,
+      "y": 2048,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "gathering",
+      "kind": "plants",
+      "x": 3936,
+      "y": 2944,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "gathering",
+      "kind": "plants",
+      "x": 4832,
+      "y": 2944,
+      "w": 128,
+      "h": 128
+    },
+    {
+      "island": "gathering",
+      "kind": "table",
+      "x": 4192,
+      "y": 2272,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "gathering",
+      "kind": "seat",
+      "x": 4144,
+      "y": 2320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "gathering",
+      "kind": "seat",
+      "x": 4304,
+      "y": 2320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "gathering",
+      "kind": "table",
+      "x": 4640,
+      "y": 2272,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "gathering",
+      "kind": "seat",
+      "x": 4592,
+      "y": 2320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "gathering",
+      "kind": "seat",
+      "x": 4752,
+      "y": 2320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "gathering",
+      "kind": "table",
+      "x": 4192,
+      "y": 2720,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "gathering",
+      "kind": "seat",
+      "x": 4144,
+      "y": 2768,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "gathering",
+      "kind": "seat",
+      "x": 4304,
+      "y": 2768,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "gathering",
+      "kind": "table",
+      "x": 4640,
+      "y": 2720,
+      "w": 64,
+      "h": 64
+    },
+    {
+      "island": "gathering",
+      "kind": "seat",
+      "x": 4592,
+      "y": 2768,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "island": "gathering",
+      "kind": "seat",
+      "x": 4752,
+      "y": 2768,
+      "w": 32,
+      "h": 32
+    }
+  ],
+  "clearBridgeTiles": 8,
+  "status": "draft; not gameplay accepted; not published",
+  "hubFountain": [
+    2496,
+    2496,
+    128,
+    128
+  ],
+  "seatCoordinateSemantics": "x/y are occupancy anchors; other furniture uses top-left rectangles"
+}

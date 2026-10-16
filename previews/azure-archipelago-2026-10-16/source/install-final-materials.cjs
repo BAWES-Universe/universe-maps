@@ -1,0 +1,2 @@
+const sharp=require('/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+(async()=>{await sharp('/workspace/generated_images/exec-948a02ea-8071-4977-a938-c48519546ee6.png').resize(576,320,{fit:'fill'}).png().toFile('/workspace/azure-expanded/bay.png');await sharp('/workspace/generated_images/exec-ba9e57ff-f88e-4f56-b471-77dbb283d58d.png').resize(512,512,{fit:'fill'}).png().toFile('/workspace/azure-expanded/sea-texture.png');})();

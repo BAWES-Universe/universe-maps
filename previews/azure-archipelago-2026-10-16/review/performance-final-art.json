@@ -1,0 +1,138 @@
+[
+  {
+    "map": "before",
+    "active": true,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "viewport": [
+        1366,
+        768
+      ],
+      "elapsed": 15003.90000000149,
+      "frames": 306,
+      "mean": 49.03235294118134,
+      "p95": 66.70000000000073,
+      "gameFps": 20.034150342286694,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        2576,
+        2800
+      ],
+      "animationGroups": [
+        73
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 15.085240999999998,
+      "ScriptDuration": 0.40552200000000016,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.151486
+    }
+  },
+  {
+    "map": "final",
+    "active": true,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "viewport": [
+        1366,
+        768
+      ],
+      "elapsed": 15013.79999999702,
+      "frames": 897,
+      "mean": 16.737792642137144,
+      "p95": 16.700000000000728,
+      "gameFps": 60.52502469347962,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        2576,
+        2800
+      ],
+      "animationGroups": [
+        77
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 11.961759,
+      "ScriptDuration": 0.6599680000000001,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.34204500000000004
+    }
+  },
+  {
+    "map": "before",
+    "active": true,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "viewport": [
+        1366,
+        768
+      ],
+      "elapsed": 15017.200000004472,
+      "frames": 477,
+      "mean": 31.482599580722162,
+      "p95": 50,
+      "gameFps": 32.79012279119797,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        2576,
+        2800
+      ],
+      "animationGroups": [
+        73
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 15.055055000000003,
+      "ScriptDuration": 0.5179729999999996,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.17441700000000004
+    }
+  },
+  {
+    "map": "final",
+    "active": true,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "viewport": [
+        1366,
+        768
+      ],
+      "elapsed": 15010.900000004469,
+      "frames": 900,
+      "mean": 16.67877777778274,
+      "p95": 16.799999999999272,
+      "gameFps": 60.53237951261012,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        2576,
+        2800
+      ],
+      "animationGroups": [
+        77
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 11.420942999999994,
+      "ScriptDuration": 0.6225459999999998,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.32323199999999996
+    }
+  }
+]

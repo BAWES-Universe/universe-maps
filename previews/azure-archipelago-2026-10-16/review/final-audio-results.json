@@ -1,0 +1,248 @@
+{
+  "passed": true,
+  "before": {
+    "rms": 0,
+    "peak": 0,
+    "contextState": "suspended",
+    "masterMuted": false,
+    "masterVolume": 1,
+    "sound": null,
+    "popups": 0
+  },
+  "requests": [
+    {
+      "url": "http://localhost:8768/sea-breeze.wav",
+      "status": 200
+    }
+  ],
+  "playing": {
+    "rms": 0.01271597903612756,
+    "peak": 0.05206011235713959,
+    "contextState": "running",
+    "masterMuted": false,
+    "masterVolume": 1,
+    "sound": {
+      "isPlaying": true,
+      "isPaused": false,
+      "volume": 0.44999998807907104,
+      "loop": true,
+      "seek": 3.311746031746032
+    },
+    "popups": 0
+  },
+  "crossings": [
+    {
+      "rms": 0.015315303127784714,
+      "peak": 0.06860560923814774,
+      "contextState": "running",
+      "masterMuted": false,
+      "masterVolume": 1,
+      "sound": {
+        "isPlaying": true,
+        "isPaused": false,
+        "volume": 0.44999998807907104,
+        "loop": true,
+        "seek": 5.520544217687075
+      },
+      "popups": 0
+    },
+    {
+      "rms": 0.01437397983233451,
+      "peak": 0.05477891117334366,
+      "contextState": "running",
+      "masterMuted": false,
+      "masterVolume": 1,
+      "sound": {
+        "isPlaying": true,
+        "isPaused": false,
+        "volume": 0.44999998807907104,
+        "loop": true,
+        "seek": 9.250249433106577
+      },
+      "popups": 0
+    },
+    {
+      "rms": 0.011668407850897584,
+      "peak": 0.05033641681075096,
+      "contextState": "running",
+      "masterMuted": false,
+      "masterVolume": 1,
+      "sound": {
+        "isPlaying": true,
+        "isPaused": false,
+        "volume": 0.44999998807907104,
+        "loop": true,
+        "seek": 0.6809977324263041
+      },
+      "popups": 0
+    },
+    {
+      "rms": 0.011412506683579984,
+      "peak": 0.04281223937869072,
+      "contextState": "running",
+      "masterMuted": false,
+      "masterVolume": 1,
+      "sound": {
+        "isPlaying": true,
+        "isPaused": false,
+        "volume": 0.44999998807907104,
+        "loop": true,
+        "seek": 3.8592290249433105
+      },
+      "popups": 0
+    },
+    {
+      "rms": 0.012922232561935643,
+      "peak": 0.05201976001262665,
+      "contextState": "running",
+      "masterMuted": false,
+      "masterVolume": 1,
+      "sound": {
+        "isPlaying": true,
+        "isPaused": false,
+        "volume": 0.44999998807907104,
+        "loop": true,
+        "seek": 7.420589569160999
+      },
+      "popups": 0
+    },
+    {
+      "rms": 0.01301271618324452,
+      "peak": 0.05324074625968933,
+      "contextState": "running",
+      "masterMuted": false,
+      "masterVolume": 1,
+      "sound": {
+        "isPlaying": true,
+        "isPaused": false,
+        "volume": 0.44999998807907104,
+        "loop": true,
+        "seek": 10.369523809523809
+      },
+      "popups": 0
+    }
+  ],
+  "stopped": {
+    "rms": 0,
+    "peak": 0,
+    "contextState": "running",
+    "masterMuted": false,
+    "masterVolume": 1,
+    "sound": {
+      "isPlaying": false,
+      "isPaused": false,
+      "volume": 0.44999998807907104,
+      "loop": true,
+      "seek": 0
+    },
+    "popups": 0
+  },
+  "stoppedCrossings": [
+    {
+      "rms": 0,
+      "peak": 0,
+      "contextState": "running",
+      "masterMuted": false,
+      "masterVolume": 1,
+      "sound": {
+        "isPlaying": false,
+        "isPaused": false,
+        "volume": 0.44999998807907104,
+        "loop": true,
+        "seek": 0
+      },
+      "popups": 0
+    },
+    {
+      "rms": 0,
+      "peak": 0,
+      "contextState": "running",
+      "masterMuted": false,
+      "masterVolume": 1,
+      "sound": {
+        "isPlaying": false,
+        "isPaused": false,
+        "volume": 0.44999998807907104,
+        "loop": true,
+        "seek": 0
+      },
+      "popups": 0
+    },
+    {
+      "rms": 0,
+      "peak": 0,
+      "contextState": "running",
+      "masterMuted": false,
+      "masterVolume": 1,
+      "sound": {
+        "isPlaying": false,
+        "isPaused": false,
+        "volume": 0.44999998807907104,
+        "loop": true,
+        "seek": 0
+      },
+      "popups": 0
+    },
+    {
+      "rms": 0,
+      "peak": 0,
+      "contextState": "running",
+      "masterMuted": false,
+      "masterVolume": 1,
+      "sound": {
+        "isPlaying": false,
+        "isPaused": false,
+        "volume": 0.44999998807907104,
+        "loop": true,
+        "seek": 0
+      },
+      "popups": 0
+    },
+    {
+      "rms": 0,
+      "peak": 0,
+      "contextState": "running",
+      "masterMuted": false,
+      "masterVolume": 1,
+      "sound": {
+        "isPlaying": false,
+        "isPaused": false,
+        "volume": 0.44999998807907104,
+        "loop": true,
+        "seek": 0
+      },
+      "popups": 0
+    },
+    {
+      "rms": 0,
+      "peak": 0,
+      "contextState": "running",
+      "masterMuted": false,
+      "masterVolume": 1,
+      "sound": {
+        "isPlaying": false,
+        "isPaused": false,
+        "volume": 0.44999998807907104,
+        "loop": true,
+        "seek": 0
+      },
+      "popups": 0
+    }
+  ],
+  "afterMovement": {
+    "rms": 0,
+    "peak": 0,
+    "contextState": "running",
+    "masterMuted": false,
+    "masterVolume": 1,
+    "sound": {
+      "isPlaying": false,
+      "isPaused": false,
+      "volume": 0.44999998807907104,
+      "loop": true,
+      "seek": 0
+    },
+    "popups": 0
+  },
+  "capture": "Actual Phaser master output through WebAudio MediaStreamDestination; no audio play or context-resume invoked by test. Physical speaker listening is not verified."
+}

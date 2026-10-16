@@ -1,0 +1,53 @@
+{
+  "method": "Remove only tiles fully hidden by opaque higher artwork; visible artwork preserved (atlas repacking may round channels by1). Repack128px animation frames to64px cull-safe tiles without timing or pixel changes.",
+  "stats": [
+    {
+      "layer": "Lounge glass canopy",
+      "removed": 0,
+      "remaining": 320
+    },
+    {
+      "layer": "start",
+      "render": "opacity0; collision/start data preserved"
+    },
+    {
+      "layer": "Solid sea walls planting and tables",
+      "render": "opacity0; collision/start data preserved"
+    },
+    {
+      "layer": "garden-water",
+      "removed": 0,
+      "remaining": 36
+    },
+    {
+      "layer": "hub-water",
+      "removed": 0,
+      "remaining": 36
+    },
+    {
+      "layer": "Island floors and furniture",
+      "removed": 0,
+      "remaining": 6352
+    },
+    {
+      "layer": "Coastal bridge craftsmanship",
+      "removed": 0,
+      "remaining": 1440
+    },
+    {
+      "layer": "Bridges viewing bays and hub",
+      "removed": 1296,
+      "remaining": 756
+    },
+    {
+      "layer": "Native sea shimmer",
+      "removed": 432,
+      "remaining": 5968
+    },
+    {
+      "layer": "Coastal sea",
+      "removed": 2052,
+      "remaining": 23548
+    }
+  ]
+}

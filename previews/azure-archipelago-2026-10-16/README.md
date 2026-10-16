@@ -1,0 +1,15 @@
+# Azure Archipelago — published separate preview
+
+Published from accepted source `d0d9a80b4fbbbeac83e431493914524abc5fb424`. See [review and evidence](review/index.html) and [TMJ](azure.tmj). Publication was authorized after completion; the original candidate hold notices retained in historical reports predate that authorization. No production world registration or engine deployment.
+
+The native32px map is5120×5120 world pixels. Four distinct islands connect to a fountain court through256px clear bridges and seating bays: café with ocean balconies, botanical garden with beach/overlook, glass reading lounge, and gathering terrace. Native Woka and camera scale remain1. The finish pass improves materials, planting, bridge integration and shoreline edges without adding destinations or expanding the canvas.
+
+Current geometry has3589connected walkable cells,55seats and17table footprints. Fresh independent review covers allseats, actual table pushes from accessible sides, shelf contacts, roof entry/exit, garden overlooks/beach, and16bridge edge lanes with keyboard reversals. Blocked test setup sides are excluded from successful-contact counts. See `review/finish-independent-review.md` for exact acceptance, hashes and limitations. Earlier reports in this directory are historical and apply only to their stated artifacts.
+
+Fountain droplets/ripples and ocean highlight lines animate over painted static textures; shoreline surf is static. Continuous native-scale runtime footage accompanies the candidate. Silent spawn and deliberate Play/Stop were measured through browser audio output, with six playing and six stopped crossings and no prompts. The map's explicit WA.sound controls use a separate channel from native master-audio UI. Physical speaker playback is unverified.
+
+Map-local renderer optimization removes fully occluded draws, skips transparent collision/start drawing while retaining collision data, and repacks128px ocean patches into64px quadrants to prevent culling gaps. No engine changes. See `review/finish-performance.md` for controlled final-art measurements and limitations; do not treat capture FPS as a benchmark or assume60FPS on every device.
+
+Build order: `node source/polish-geometry.cjs`, `node source/water.cjs`, `node source/build-map.cjs`. Scripts use this workspace's absolute root and installedSharp. Runtime PNGs and registered `source/transparent-islands` are canonical inputs. The build automatically applies `source/optimize-render.cjs`. Preserve `source/polish-before/art-geometry.json` as the reviewed baseline graph. Historical scaffold generators and local image-import recipes are retained for provenance; do not rerun them over canonical finished artwork. See `review/art-finish-provenance.md`.
+
+The stronger finish uses actual Tea Garden, Observatory, Sky Village and Bazaar references. Independent acceptance means usable and polished within the tested scope; an objective 'better than Tea Garden' ranking is not claimed.

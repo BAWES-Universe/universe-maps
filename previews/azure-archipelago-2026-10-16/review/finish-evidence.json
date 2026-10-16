@@ -1,0 +1,16 @@
+{
+  "status": "Passed independent usable/polished local review within documented scope; unpublished",
+  "runtimeTmjSha256": "d5c0e46f269e364538784d2b200545b3ebb4650b0ee70083be4198279968bb62",
+  "walkableCells": 3589,
+  "seats": 55,
+  "tables": 17,
+  "cameraZoom": 1,
+  "wokaScale": 1,
+  "published": false,
+  "limitations": [
+    "Physical speaker playback not verified",
+    "Ocean has animated highlight lines over a static painted base; surf is static",
+    "Explicit WA.sound Play/Stop fallback is separate from native master audio UI",
+    "Reference superiority is subjective"
+  ]
+}

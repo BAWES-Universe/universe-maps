@@ -1,0 +1,134 @@
+{
+  "hub-fountain": {
+    "seconds": 12.80061388015747,
+    "frames": 153,
+    "roi": [
+      570,
+      115,
+      750,
+      305
+    ],
+    "meanAbsolutePixelDifferences": [
+      7.769785575048733,
+      8.658586744639376,
+      8.986140350877193,
+      8.56233918128655,
+      8.640194931773879
+    ],
+    "samples": [
+      {
+        "name": "frame-00000.jpg",
+        "t": 1792174021.493705
+      },
+      {
+        "name": "frame-00005.jpg",
+        "t": 1792174021.964593
+      },
+      {
+        "name": "frame-00010.jpg",
+        "t": 1792174022.26272
+      },
+      {
+        "name": "frame-00015.jpg",
+        "t": 1792174022.710996
+      },
+      {
+        "name": "frame-00019.jpg",
+        "t": 1792174023.077431
+      },
+      {
+        "name": "frame-00023.jpg",
+        "t": 1792174023.478424
+      }
+    ],
+    "note": "Quantifies actual water-region pixel changes in stationary native footage; does not replace visual assessment of convincing motion."
+  },
+  "garden-fountain": {
+    "seconds": 12.947304010391235,
+    "frames": 144,
+    "roi": [
+      565,
+      190,
+      738,
+      345
+    ],
+    "meanAbsolutePixelDifferences": [
+      11.52900739635776,
+      11.461246814593823,
+      11.59312573808192,
+      11.686195537323638,
+      11.352153645347753
+    ],
+    "samples": [
+      {
+        "name": "frame-00000.jpg",
+        "t": 1792174048.890944
+      },
+      {
+        "name": "frame-00004.jpg",
+        "t": 1792174049.264431
+      },
+      {
+        "name": "frame-00007.jpg",
+        "t": 1792174049.670502
+      },
+      {
+        "name": "frame-00011.jpg",
+        "t": 1792174050.088821
+      },
+      {
+        "name": "frame-00015.jpg",
+        "t": 1792174050.530204
+      },
+      {
+        "name": "frame-00018.jpg",
+        "t": 1792174050.922561
+      }
+    ],
+    "note": "Quantifies actual water-region pixel changes in stationary native footage; does not replace visual assessment of convincing motion."
+  },
+  "beach-ocean": {
+    "seconds": 13.428369998931885,
+    "frames": 150,
+    "roi": [
+      950,
+      180,
+      1230,
+      480
+    ],
+    "meanAbsolutePixelDifferences": [
+      4.135638888888889,
+      4.138305555555555,
+      3.641638888888889,
+      4.157670634920635,
+      3.863468253968254
+    ],
+    "samples": [
+      {
+        "name": "frame-00000.jpg",
+        "t": 1792174067.884032
+      },
+      {
+        "name": "frame-00004.jpg",
+        "t": 1792174068.288525
+      },
+      {
+        "name": "frame-00008.jpg",
+        "t": 1792174068.711057
+      },
+      {
+        "name": "frame-00012.jpg",
+        "t": 1792174069.113186
+      },
+      {
+        "name": "frame-00017.jpg",
+        "t": 1792174069.526106
+      },
+      {
+        "name": "frame-00022.jpg",
+        "t": 1792174069.924431
+      }
+    ],
+    "note": "Quantifies actual water-region pixel changes in stationary native footage; does not replace visual assessment of convincing motion."
+  }
+}

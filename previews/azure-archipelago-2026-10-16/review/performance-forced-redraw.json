@@ -1,0 +1,138 @@
+[
+  {
+    "map": "expanded-forced-redraw",
+    "active": true,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "viewport": [
+        1366,
+        768
+      ],
+      "elapsed": 15013.300000002237,
+      "frames": 460,
+      "mean": 32.637608695657036,
+      "p95": 50,
+      "gameFps": 32.54450555857691,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        2576,
+        2800
+      ],
+      "animationGroups": [
+        73
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 15.050212,
+      "ScriptDuration": 0.6080560000000002,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.193923
+    }
+  },
+  {
+    "map": "expanded-forced-redraw",
+    "active": false,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "viewport": [
+        1366,
+        768
+      ],
+      "elapsed": 15035.400000002235,
+      "frames": 432,
+      "mean": 34.80416666667184,
+      "p95": 50,
+      "gameFps": 30.100094627178144,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        2576,
+        2800
+      ],
+      "animationGroups": [
+        73
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 15.083877999999999,
+      "ScriptDuration": 0.4605889999999999,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.185334
+    }
+  },
+  {
+    "map": "compact-forced-redraw",
+    "active": true,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "viewport": [
+        1366,
+        768
+      ],
+      "elapsed": 15016.399999999256,
+      "frames": 603,
+      "mean": 24.90281923714636,
+      "p95": 33.400000000001455,
+      "gameFps": 39.571125239529195,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        656,
+        720
+      ],
+      "animationGroups": [
+        592
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 15.003741000000005,
+      "ScriptDuration": 0.5134720000000002,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.23400500000000002
+    }
+  },
+  {
+    "map": "compact-forced-redraw",
+    "active": false,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "viewport": [
+        1366,
+        768
+      ],
+      "elapsed": 15003.89999999851,
+      "frames": 599,
+      "mean": 25.048247078461618,
+      "p95": 33.400000000001455,
+      "gameFps": 40.577736010506904,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        656,
+        720
+      ],
+      "animationGroups": [
+        592
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 15.05640799999999,
+      "ScriptDuration": 0.46606399999999937,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.25873100000000004
+    }
+  }
+]

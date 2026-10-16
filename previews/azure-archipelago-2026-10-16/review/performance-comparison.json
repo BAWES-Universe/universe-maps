@@ -1,0 +1,182 @@
+[
+  {
+    "map": "expanded",
+    "active": true,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "elapsed": 15001.699999998498,
+      "frames": 791,
+      "mean": 18.96548672566182,
+      "p95": 33.399999999965075,
+      "gameFps": 52.88819131697525,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        2576,
+        2656
+      ],
+      "animationGroups": [
+        73
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 9.231466,
+      "ScriptDuration": 0.38179299999999994,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.281184
+    }
+  },
+  {
+    "map": "expanded",
+    "active": false,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "elapsed": 15012.999999997788,
+      "frames": 901,
+      "mean": 16.66259711431497,
+      "p95": 16.70000000001164,
+      "gameFps": 60.29398416817055,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        2576,
+        2656
+      ],
+      "animationGroups": [
+        73
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 1.083442999999999,
+      "ScriptDuration": 0.13429199999999997,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.342663
+    }
+  },
+  {
+    "map": "expanded",
+    "active": true,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "elapsed": 15000.599999998522,
+      "frames": 791,
+      "mean": 18.96409608090837,
+      "p95": 33.399999999965075,
+      "gameFps": 54.27711868147734,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        2576,
+        2656
+      ],
+      "animationGroups": [
+        73
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 8.976958999999997,
+      "ScriptDuration": 0.3487150000000001,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.2782859999999999
+    }
+  },
+  {
+    "map": "compact",
+    "active": true,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "elapsed": 15000.999999998508,
+      "frames": 885,
+      "mean": 16.95028248587402,
+      "p95": 16.799999999999272,
+      "gameFps": 60.0983255699104,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        656,
+        720
+      ],
+      "animationGroups": [
+        592
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 6.8180869999999985,
+      "ScriptDuration": 0.4253689999999999,
+      "LayoutDuration": 0.001353,
+      "RecalcStyleDuration": 0.34684399999999993
+    }
+  },
+  {
+    "map": "compact",
+    "active": false,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "elapsed": 15007.89999999851,
+      "frames": 899,
+      "mean": 16.69399332591603,
+      "p95": 16.700000000004366,
+      "gameFps": 60.487144905366236,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        656,
+        720
+      ],
+      "animationGroups": [
+        592
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 1.3338989999999953,
+      "ScriptDuration": 0.13938300000000003,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.384493
+    }
+  },
+  {
+    "map": "compact",
+    "active": true,
+    "viewport": [
+      1366,
+      768
+    ],
+    "frame": {
+      "elapsed": 15014.300000000003,
+      "frames": 860,
+      "mean": 17.458488372093026,
+      "p95": 16.80000000000291,
+      "gameFps": 55.51009149339299,
+      "zoom": 1,
+      "scale": 1,
+      "position": [
+        656,
+        720
+      ],
+      "animationGroups": [
+        592
+      ]
+    },
+    "metrics": {
+      "TaskDuration": 7.522482000000004,
+      "ScriptDuration": 0.3983249999999998,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.363518
+    }
+  }
+]

@@ -1,0 +1,1122 @@
+[
+  {
+    "file": "profile-compact-false-4.json",
+    "sampleSeconds": 15.20768,
+    "animatedTilesSelfSeconds": 0.0,
+    "top": [
+      {
+        "function": "(idle)",
+        "url": "",
+        "line": 0,
+        "seconds": 13.668972,
+        "percent": 89.88
+      },
+      {
+        "function": "(program)",
+        "url": "",
+        "line": 0,
+        "seconds": 1.277534,
+        "percent": 8.4
+      },
+      {
+        "function": "(garbage collector)",
+        "url": "",
+        "line": 0,
+        "seconds": 0.114656,
+        "percent": 0.75
+      },
+      {
+        "function": "requestAnimationFrame",
+        "url": "",
+        "line": 0,
+        "seconds": 0.038999,
+        "percent": 0.26
+      },
+      {
+        "function": "emit",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 97,
+        "seconds": 0.010043,
+        "percent": 0.07
+      },
+      {
+        "function": "update",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 110361,
+        "seconds": 0.009513,
+        "percent": 0.06
+      },
+      {
+        "function": "tick",
+        "url": "",
+        "line": 1,
+        "seconds": 0.009503,
+        "percent": 0.06
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 112208,
+        "seconds": 0.009105,
+        "percent": 0.06
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 16404,
+        "seconds": 0.008428,
+        "percent": 0.06
+      },
+      {
+        "function": "subscribe2",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/chunk-KFVO7WJI.js?v=9e40b68d",
+        "line": 56,
+        "seconds": 0.005683,
+        "percent": 0.04
+      },
+      {
+        "function": "reset",
+        "url": "http://localhost:8080/src/front/Phaser/Game/RemotePlayersRepository.ts",
+        "line": 143,
+        "seconds": 0.00443,
+        "percent": 0.03
+      },
+      {
+        "function": "postUpdate",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 63349,
+        "seconds": 0.003779,
+        "percent": 0.02
+      },
+      {
+        "function": "getDelta",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 133000,
+        "seconds": 0.003681,
+        "percent": 0.02
+      },
+      {
+        "function": "set",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/chunk-KFVO7WJI.js?v=9e40b68d",
+        "line": 35,
+        "seconds": 0.003585,
+        "percent": 0.02
+      },
+      {
+        "function": "",
+        "url": "http://localhost:8080/src/front/Phaser/UserInput/UserInputManager.ts",
+        "line": 294,
+        "seconds": 0.002742,
+        "percent": 0.02
+      }
+    ]
+  },
+  {
+    "file": "profile-compact-forced-redraw-false-3.json",
+    "sampleSeconds": 15.298925,
+    "animatedTilesSelfSeconds": 0.0,
+    "top": [
+      {
+        "function": "(program)",
+        "url": "",
+        "line": 0,
+        "seconds": 14.792326,
+        "percent": 96.69
+      },
+      {
+        "function": "updateProjectionMatrix",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98393,
+        "seconds": 0.078409,
+        "percent": 0.51
+      },
+      {
+        "function": "(garbage collector)",
+        "url": "",
+        "line": 0,
+        "seconds": 0.068172,
+        "percent": 0.45
+      },
+      {
+        "function": "RunCull",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 129726,
+        "seconds": 0.061331,
+        "percent": 0.4
+      },
+      {
+        "function": "DOMElementCSSRenderer",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 28413,
+        "seconds": 0.034303,
+        "percent": 0.22
+      },
+      {
+        "function": "(idle)",
+        "url": "",
+        "line": 0,
+        "seconds": 0.025889,
+        "percent": 0.17
+      },
+      {
+        "function": "batchQuad",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98908,
+        "seconds": 0.02442,
+        "percent": 0.16
+      },
+      {
+        "function": "batchTexture",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 104001,
+        "seconds": 0.019729,
+        "percent": 0.13
+      },
+      {
+        "function": "bufferSubData",
+        "url": "",
+        "line": 0,
+        "seconds": 0.015562,
+        "percent": 0.1
+      },
+      {
+        "function": "update",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 116384,
+        "seconds": 0.012171,
+        "percent": 0.08
+      },
+      {
+        "function": "emit",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 97,
+        "seconds": 0.011681,
+        "percent": 0.08
+      },
+      {
+        "function": "set",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 96925,
+        "seconds": 0.01037,
+        "percent": 0.07
+      },
+      {
+        "function": "requestAnimationFrame",
+        "url": "",
+        "line": 0,
+        "seconds": 0.009959,
+        "percent": 0.07
+      },
+      {
+        "function": "flush",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98606,
+        "seconds": 0.009906,
+        "percent": 0.06
+      },
+      {
+        "function": "setQuad",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 26298,
+        "seconds": 0.007718,
+        "percent": 0.05
+      }
+    ]
+  },
+  {
+    "file": "profile-compact-forced-redraw-true-2.json",
+    "sampleSeconds": 15.297615,
+    "animatedTilesSelfSeconds": 0.040358,
+    "top": [
+      {
+        "function": "(program)",
+        "url": "",
+        "line": 0,
+        "seconds": 14.750395,
+        "percent": 96.42
+      },
+      {
+        "function": "updateProjectionMatrix",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98393,
+        "seconds": 0.072076,
+        "percent": 0.47
+      },
+      {
+        "function": "(idle)",
+        "url": "",
+        "line": 0,
+        "seconds": 0.07018,
+        "percent": 0.46
+      },
+      {
+        "function": "RunCull",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 129726,
+        "seconds": 0.044265,
+        "percent": 0.29
+      },
+      {
+        "function": "",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser-animated-tiles.js?v=9e40b68d",
+        "line": 172,
+        "seconds": 0.040358,
+        "percent": 0.26
+      },
+      {
+        "function": "DOMElementCSSRenderer",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 28413,
+        "seconds": 0.038702,
+        "percent": 0.25
+      },
+      {
+        "function": "batchQuad",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98908,
+        "seconds": 0.035577,
+        "percent": 0.23
+      },
+      {
+        "function": "bufferSubData",
+        "url": "",
+        "line": 0,
+        "seconds": 0.027872,
+        "percent": 0.18
+      },
+      {
+        "function": "emit",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 97,
+        "seconds": 0.016408,
+        "percent": 0.11
+      },
+      {
+        "function": "batchTexture",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 104001,
+        "seconds": 0.01332,
+        "percent": 0.09
+      },
+      {
+        "function": "clear",
+        "url": "",
+        "line": 0,
+        "seconds": 0.011523,
+        "percent": 0.08
+      },
+      {
+        "function": "update",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 116384,
+        "seconds": 0.01091,
+        "percent": 0.07
+      },
+      {
+        "function": "requestAnimationFrame",
+        "url": "",
+        "line": 0,
+        "seconds": 0.01087,
+        "percent": 0.07
+      },
+      {
+        "function": "subscribe2",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/chunk-KFVO7WJI.js?v=9e40b68d",
+        "line": 56,
+        "seconds": 0.009981,
+        "percent": 0.07
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/src/front/Phaser/Game/Game.ts",
+        "line": 24,
+        "seconds": 0.009017,
+        "percent": 0.06
+      }
+    ]
+  },
+  {
+    "file": "profile-compact-true-3.json",
+    "sampleSeconds": 15.573174,
+    "animatedTilesSelfSeconds": 0.088907,
+    "top": [
+      {
+        "function": "(idle)",
+        "url": "",
+        "line": 0,
+        "seconds": 8.226185,
+        "percent": 52.82
+      },
+      {
+        "function": "(program)",
+        "url": "",
+        "line": 0,
+        "seconds": 6.920862,
+        "percent": 44.44
+      },
+      {
+        "function": "",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser-animated-tiles.js?v=9e40b68d",
+        "line": 172,
+        "seconds": 0.086418,
+        "percent": 0.55
+      },
+      {
+        "function": "updateProjectionMatrix",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98393,
+        "seconds": 0.037309,
+        "percent": 0.24
+      },
+      {
+        "function": "emit",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 97,
+        "seconds": 0.031128,
+        "percent": 0.2
+      },
+      {
+        "function": "RunCull",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 129726,
+        "seconds": 0.025683,
+        "percent": 0.16
+      },
+      {
+        "function": "requestAnimationFrame",
+        "url": "",
+        "line": 0,
+        "seconds": 0.024458,
+        "percent": 0.16
+      },
+      {
+        "function": "DOMElementCSSRenderer",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 28413,
+        "seconds": 0.014972,
+        "percent": 0.1
+      },
+      {
+        "function": "batchQuad",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98908,
+        "seconds": 0.014798,
+        "percent": 0.1
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 112208,
+        "seconds": 0.014507,
+        "percent": 0.09
+      },
+      {
+        "function": "(garbage collector)",
+        "url": "",
+        "line": 0,
+        "seconds": 0.013831,
+        "percent": 0.09
+      },
+      {
+        "function": "subscribe2",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/chunk-KFVO7WJI.js?v=9e40b68d",
+        "line": 56,
+        "seconds": 0.008752,
+        "percent": 0.06
+      },
+      {
+        "function": "update",
+        "url": "http://localhost:8080/src/front/Phaser/Game/GameScene.ts",
+        "line": 1164,
+        "seconds": 0.008297,
+        "percent": 0.05
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 16404,
+        "seconds": 0.007931,
+        "percent": 0.05
+      },
+      {
+        "function": "batchTexture",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 104001,
+        "seconds": 0.007573,
+        "percent": 0.05
+      }
+    ]
+  },
+  {
+    "file": "profile-compact-true-5.json",
+    "sampleSeconds": 15.210014,
+    "animatedTilesSelfSeconds": 0.068478,
+    "top": [
+      {
+        "function": "(idle)",
+        "url": "",
+        "line": 0,
+        "seconds": 7.551979,
+        "percent": 49.65
+      },
+      {
+        "function": "(program)",
+        "url": "",
+        "line": 0,
+        "seconds": 7.230426,
+        "percent": 47.54
+      },
+      {
+        "function": "",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser-animated-tiles.js?v=9e40b68d",
+        "line": 172,
+        "seconds": 0.062825,
+        "percent": 0.41
+      },
+      {
+        "function": "requestAnimationFrame",
+        "url": "",
+        "line": 0,
+        "seconds": 0.045843,
+        "percent": 0.3
+      },
+      {
+        "function": "(garbage collector)",
+        "url": "",
+        "line": 0,
+        "seconds": 0.034254,
+        "percent": 0.23
+      },
+      {
+        "function": "RunCull",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 129726,
+        "seconds": 0.03187,
+        "percent": 0.21
+      },
+      {
+        "function": "updateProjectionMatrix",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98393,
+        "seconds": 0.026699,
+        "percent": 0.18
+      },
+      {
+        "function": "DOMElementCSSRenderer",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 28413,
+        "seconds": 0.025141,
+        "percent": 0.17
+      },
+      {
+        "function": "emit",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 97,
+        "seconds": 0.019539,
+        "percent": 0.13
+      },
+      {
+        "function": "bufferSubData",
+        "url": "",
+        "line": 0,
+        "seconds": 0.016902,
+        "percent": 0.11
+      },
+      {
+        "function": "batchQuad",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98908,
+        "seconds": 0.015998,
+        "percent": 0.11
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 16404,
+        "seconds": 0.009024,
+        "percent": 0.06
+      },
+      {
+        "function": "update",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 110361,
+        "seconds": 0.008281,
+        "percent": 0.05
+      },
+      {
+        "function": "subscribe2",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/chunk-KFVO7WJI.js?v=9e40b68d",
+        "line": 56,
+        "seconds": 0.008222,
+        "percent": 0.05
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 112208,
+        "seconds": 0.007941,
+        "percent": 0.05
+      }
+    ]
+  },
+  {
+    "file": "profile-expanded-false-1.json",
+    "sampleSeconds": 15.185822,
+    "animatedTilesSelfSeconds": 0.00115,
+    "top": [
+      {
+        "function": "(idle)",
+        "url": "",
+        "line": 0,
+        "seconds": 13.875251,
+        "percent": 91.37
+      },
+      {
+        "function": "(program)",
+        "url": "",
+        "line": 0,
+        "seconds": 1.110772,
+        "percent": 7.31
+      },
+      {
+        "function": "requestAnimationFrame",
+        "url": "",
+        "line": 0,
+        "seconds": 0.032766,
+        "percent": 0.22
+      },
+      {
+        "function": "emit",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 97,
+        "seconds": 0.020024,
+        "percent": 0.13
+      },
+      {
+        "function": "update",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 116384,
+        "seconds": 0.014675,
+        "percent": 0.1
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 112208,
+        "seconds": 0.014563,
+        "percent": 0.1
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/src/front/Phaser/Game/Game.ts",
+        "line": 24,
+        "seconds": 0.009592,
+        "percent": 0.06
+      },
+      {
+        "function": "update",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 110361,
+        "seconds": 0.008993,
+        "percent": 0.06
+      },
+      {
+        "function": "update",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 6386,
+        "seconds": 0.008026,
+        "percent": 0.05
+      },
+      {
+        "function": "getEventListForGameTick",
+        "url": "http://localhost:8080/src/front/Phaser/UserInput/UserInputManager.ts",
+        "line": 266,
+        "seconds": 0.006847,
+        "percent": 0.05
+      },
+      {
+        "function": "postUpdate",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 82114,
+        "seconds": 0.006689,
+        "percent": 0.04
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 16404,
+        "seconds": 0.005499,
+        "percent": 0.04
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/src/front/Phaser/Companion/Companion.ts",
+        "line": 48,
+        "seconds": 0.005103,
+        "percent": 0.03
+      },
+      {
+        "function": "getDelta",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 133000,
+        "seconds": 0.004992,
+        "percent": 0.03
+      },
+      {
+        "function": "tick",
+        "url": "",
+        "line": 1,
+        "seconds": 0.004592,
+        "percent": 0.03
+      }
+    ]
+  },
+  {
+    "file": "profile-expanded-forced-redraw-false-1.json",
+    "sampleSeconds": 15.331111,
+    "animatedTilesSelfSeconds": 0.0,
+    "top": [
+      {
+        "function": "(program)",
+        "url": "",
+        "line": 0,
+        "seconds": 14.89879,
+        "percent": 97.18
+      },
+      {
+        "function": "updateProjectionMatrix",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98393,
+        "seconds": 0.085835,
+        "percent": 0.56
+      },
+      {
+        "function": "RunCull",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 129726,
+        "seconds": 0.045019,
+        "percent": 0.29
+      },
+      {
+        "function": "DOMElementCSSRenderer",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 28413,
+        "seconds": 0.026734,
+        "percent": 0.17
+      },
+      {
+        "function": "(garbage collector)",
+        "url": "",
+        "line": 0,
+        "seconds": 0.02585,
+        "percent": 0.17
+      },
+      {
+        "function": "bufferSubData",
+        "url": "",
+        "line": 0,
+        "seconds": 0.025439,
+        "percent": 0.17
+      },
+      {
+        "function": "batchTexture",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 104001,
+        "seconds": 0.022489,
+        "percent": 0.15
+      },
+      {
+        "function": "(idle)",
+        "url": "",
+        "line": 0,
+        "seconds": 0.020519,
+        "percent": 0.13
+      },
+      {
+        "function": "sortByDepth",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 17607,
+        "seconds": 0.017218,
+        "percent": 0.11
+      },
+      {
+        "function": "requestAnimationFrame",
+        "url": "",
+        "line": 0,
+        "seconds": 0.01584,
+        "percent": 0.1
+      },
+      {
+        "function": "batchQuad",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98908,
+        "seconds": 0.015805,
+        "percent": 0.1
+      },
+      {
+        "function": "setQuad",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 26298,
+        "seconds": 0.009926,
+        "percent": 0.06
+      },
+      {
+        "function": "update",
+        "url": "http://localhost:8080/src/front/Phaser/Game/GameScene.ts",
+        "line": 1164,
+        "seconds": 0.008334,
+        "percent": 0.05
+      },
+      {
+        "function": "render",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 101381,
+        "seconds": 0.007909,
+        "percent": 0.05
+      },
+      {
+        "function": "set",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 96925,
+        "seconds": 0.007687,
+        "percent": 0.05
+      }
+    ]
+  },
+  {
+    "file": "profile-expanded-forced-redraw-true-0.json",
+    "sampleSeconds": 15.335689,
+    "animatedTilesSelfSeconds": 0.008275,
+    "top": [
+      {
+        "function": "(program)",
+        "url": "",
+        "line": 0,
+        "seconds": 14.711069,
+        "percent": 95.93
+      },
+      {
+        "function": "(garbage collector)",
+        "url": "",
+        "line": 0,
+        "seconds": 0.126237,
+        "percent": 0.82
+      },
+      {
+        "function": "updateProjectionMatrix",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98393,
+        "seconds": 0.099389,
+        "percent": 0.65
+      },
+      {
+        "function": "RunCull",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 129726,
+        "seconds": 0.060143,
+        "percent": 0.39
+      },
+      {
+        "function": "(idle)",
+        "url": "",
+        "line": 0,
+        "seconds": 0.041525,
+        "percent": 0.27
+      },
+      {
+        "function": "batchQuad",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98908,
+        "seconds": 0.030358,
+        "percent": 0.2
+      },
+      {
+        "function": "DOMElementCSSRenderer",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 28413,
+        "seconds": 0.026236,
+        "percent": 0.17
+      },
+      {
+        "function": "bufferSubData",
+        "url": "",
+        "line": 0,
+        "seconds": 0.021521,
+        "percent": 0.14
+      },
+      {
+        "function": "getZoomSignature",
+        "url": "http://localhost:8080/src/front/Phaser/Game/UsernameDomLayer.ts",
+        "line": 119,
+        "seconds": 0.014415,
+        "percent": 0.09
+      },
+      {
+        "function": "setQuad",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 26298,
+        "seconds": 0.013889,
+        "percent": 0.09
+      },
+      {
+        "function": "batchTexture",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 104001,
+        "seconds": 0.013862,
+        "percent": 0.09
+      },
+      {
+        "function": "emit",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 97,
+        "seconds": 0.012956,
+        "percent": 0.08
+      },
+      {
+        "function": "requestAnimationFrame",
+        "url": "",
+        "line": 0,
+        "seconds": 0.009914,
+        "percent": 0.06
+      },
+      {
+        "function": "set",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 96925,
+        "seconds": 0.009092,
+        "percent": 0.06
+      },
+      {
+        "function": "CullTiles",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 128552,
+        "seconds": 0.008403,
+        "percent": 0.05
+      }
+    ]
+  },
+  {
+    "file": "profile-expanded-true-0.json",
+    "sampleSeconds": 16.177958,
+    "animatedTilesSelfSeconds": 0.018975,
+    "top": [
+      {
+        "function": "(program)",
+        "url": "",
+        "line": 0,
+        "seconds": 9.931527,
+        "percent": 61.39
+      },
+      {
+        "function": "(idle)",
+        "url": "",
+        "line": 0,
+        "seconds": 5.823277,
+        "percent": 36.0
+      },
+      {
+        "function": "(garbage collector)",
+        "url": "",
+        "line": 0,
+        "seconds": 0.072174,
+        "percent": 0.45
+      },
+      {
+        "function": "RunCull",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 129726,
+        "seconds": 0.059347,
+        "percent": 0.37
+      },
+      {
+        "function": "batchTexture",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 104001,
+        "seconds": 0.052076,
+        "percent": 0.32
+      },
+      {
+        "function": "TilemapLayerWebGLRenderer",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 127979,
+        "seconds": 0.034653,
+        "percent": 0.21
+      },
+      {
+        "function": "requestAnimationFrame",
+        "url": "",
+        "line": 0,
+        "seconds": 0.024635,
+        "percent": 0.15
+      },
+      {
+        "function": "DOMElementCSSRenderer",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 28413,
+        "seconds": 0.018633,
+        "percent": 0.12
+      },
+      {
+        "function": "batchQuad",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98908,
+        "seconds": 0.016387,
+        "percent": 0.1
+      },
+      {
+        "function": "emit",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 97,
+        "seconds": 0.010387,
+        "percent": 0.06
+      },
+      {
+        "function": "update",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 116384,
+        "seconds": 0.009524,
+        "percent": 0.06
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 16404,
+        "seconds": 0.008922,
+        "percent": 0.06
+      },
+      {
+        "function": "bufferSubData",
+        "url": "",
+        "line": 0,
+        "seconds": 0.008587,
+        "percent": 0.05
+      },
+      {
+        "function": "",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser-animated-tiles.js?v=9e40b68d",
+        "line": 203,
+        "seconds": 0.008146,
+        "percent": 0.05
+      },
+      {
+        "function": "moveUser",
+        "url": "http://localhost:8080/src/front/Phaser/Player/Player.ts",
+        "line": 37,
+        "seconds": 0.007403,
+        "percent": 0.05
+      }
+    ]
+  },
+  {
+    "file": "profile-expanded-true-2.json",
+    "sampleSeconds": 15.231709,
+    "animatedTilesSelfSeconds": 0.027475,
+    "top": [
+      {
+        "function": "(program)",
+        "url": "",
+        "line": 0,
+        "seconds": 8.758922,
+        "percent": 57.5
+      },
+      {
+        "function": "(idle)",
+        "url": "",
+        "line": 0,
+        "seconds": 6.122807,
+        "percent": 40.2
+      },
+      {
+        "function": "requestAnimationFrame",
+        "url": "",
+        "line": 0,
+        "seconds": 0.045509,
+        "percent": 0.3
+      },
+      {
+        "function": "RunCull",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 129726,
+        "seconds": 0.042226,
+        "percent": 0.28
+      },
+      {
+        "function": "TilemapLayerWebGLRenderer",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 127979,
+        "seconds": 0.037245,
+        "percent": 0.24
+      },
+      {
+        "function": "batchTexture",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 104001,
+        "seconds": 0.034371,
+        "percent": 0.23
+      },
+      {
+        "function": "",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser-animated-tiles.js?v=9e40b68d",
+        "line": 203,
+        "seconds": 0.015797,
+        "percent": 0.1
+      },
+      {
+        "function": "emit",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 97,
+        "seconds": 0.012225,
+        "percent": 0.08
+      },
+      {
+        "function": "DOMElementCSSRenderer",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 28413,
+        "seconds": 0.011477,
+        "percent": 0.08
+      },
+      {
+        "function": "(garbage collector)",
+        "url": "",
+        "line": 0,
+        "seconds": 0.010777,
+        "percent": 0.07
+      },
+      {
+        "function": "batchQuad",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 98908,
+        "seconds": 0.00901,
+        "percent": 0.06
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser.js?v=9e40b68d",
+        "line": 112208,
+        "seconds": 0.007311,
+        "percent": 0.05
+      },
+      {
+        "function": "step",
+        "url": "http://localhost:8080/src/front/Phaser/Game/Game.ts",
+        "line": 24,
+        "seconds": 0.006106,
+        "percent": 0.04
+      },
+      {
+        "function": "updateLayer",
+        "url": "http://localhost:8080/@fs/workspace/coastal-runtime/vite-cache-front/deps/phaser-animated-tiles.js?v=9e40b68d",
+        "line": 199,
+        "seconds": 0.005857,
+        "percent": 0.04
+      },
+      {
+        "function": "clear",
+        "url": "",
+        "line": 0,
+        "seconds": 0.005635,
+        "percent": 0.04
+      }
+    ]
+  }
+]

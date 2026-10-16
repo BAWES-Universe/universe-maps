@@ -41,7 +41,6 @@ for(let x=432;x<864;x+=32)a+=path(`M${x} 362l8 -8 8 8 -8 8Z`,'#b4a272',1);
 // rear cocktail ledge, art-deco fans, no route behind it
 for(const x of [352,800]){a+=rect(x,160,128,32,'#396a70')+rect(x,160,128,7,'#e8c98c');for(let i=0;i<5;i++)a+=path(`M${x+48} 183 L${x+12+i*18} 164`,'#c8b57f',1);}
 // typography placed on blocked upper wall, not across the walking floor
-a+=`<text x="640" y="149" text-anchor="middle" fill="#f6e4b4" font-family="DejaVu Sans" font-size="12" letter-spacing="5">AZURE PAVILION</text>`;
 // 64px planted beds: raised curbs and dense leaf shapes never resemble paving
 function planter(x,y){let s=rect(x+3,y+5,60,60,'#39636a','opacity=".2" filter="url(#shadow)"')+rect(x,y,64,64,'#bcae86','rx="5"')+rect(x+4,y+4,56,56,'#2e6960','rx="3"');for(let i=0;i<11;i++){let px=x+12+(i*17%41),py=y+11+(i*23%42);s+=ellipse(px,py,9,5,['#72a77d','#abc28b','#448773'][i%3],`transform="rotate(${i*31} ${px} ${py})"`);}// Layered palm fronds and ivory agapanthus sit wholly within the raised bed.
 for(let k=0;k<9;k++){let ang=k*Math.PI*2/9,dx=Math.cos(ang),dy=Math.sin(ang),cx=x+32,cy=y+30,tx=cx+dx*25,ty=cy+dy*25;s+=`<path d="M${cx} ${cy} Q${cx+dx*12-dy*7} ${cy+dy*12+dx*7} ${tx} ${ty} Q${cx+dx*15+dy*3} ${cy+dy*15-dx*3} ${cx} ${cy}" fill="${['#427e64','#7aa574','#aac18b'][k%3]}"/>`;s+=path(`M${cx} ${cy}L${tx} ${ty}`,'#c0cf96',.65,'opacity=".7"');}

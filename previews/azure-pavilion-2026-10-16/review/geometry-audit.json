@@ -1,0 +1,764 @@
+{
+  "walkableTiles": 516,
+  "connectedWalkableTiles": 516,
+  "allFreeTilesCoveredByHorizontalAndVerticalRuns": true,
+  "maximalRuns": [
+    {
+      "axis": "horizontal",
+      "fixed": 5,
+      "first": 15,
+      "last": 15,
+      "length": 1
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 5,
+      "first": 18,
+      "last": 21,
+      "length": 4
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 5,
+      "first": 24,
+      "last": 24,
+      "length": 1
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 6,
+      "first": 11,
+      "last": 15,
+      "length": 5
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 6,
+      "first": 18,
+      "last": 21,
+      "length": 4
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 6,
+      "first": 24,
+      "last": 28,
+      "length": 5
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 7,
+      "first": 12,
+      "last": 18,
+      "length": 7
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 7,
+      "first": 21,
+      "last": 27,
+      "length": 7
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 8,
+      "first": 12,
+      "last": 13,
+      "length": 2
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 8,
+      "first": 15,
+      "last": 18,
+      "length": 4
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 8,
+      "first": 21,
+      "last": 24,
+      "length": 4
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 8,
+      "first": 26,
+      "last": 27,
+      "length": 2
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 9,
+      "first": 12,
+      "last": 27,
+      "length": 16
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 10,
+      "first": 12,
+      "last": 27,
+      "length": 16
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 11,
+      "first": 13,
+      "last": 26,
+      "length": 14
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 12,
+      "first": 4,
+      "last": 35,
+      "length": 32
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 13,
+      "first": 4,
+      "last": 35,
+      "length": 32
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 14,
+      "first": 4,
+      "last": 5,
+      "length": 2
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 14,
+      "first": 8,
+      "last": 31,
+      "length": 24
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 14,
+      "first": 34,
+      "last": 35,
+      "length": 2
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 15,
+      "first": 4,
+      "last": 5,
+      "length": 2
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 15,
+      "first": 8,
+      "last": 31,
+      "length": 24
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 15,
+      "first": 34,
+      "last": 35,
+      "length": 2
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 16,
+      "first": 4,
+      "last": 17,
+      "length": 14
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 16,
+      "first": 22,
+      "last": 35,
+      "length": 14
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 17,
+      "first": 4,
+      "last": 9,
+      "length": 6
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 17,
+      "first": 12,
+      "last": 17,
+      "length": 6
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 17,
+      "first": 22,
+      "last": 27,
+      "length": 6
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 17,
+      "first": 30,
+      "last": 35,
+      "length": 6
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 18,
+      "first": 4,
+      "last": 9,
+      "length": 6
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 18,
+      "first": 12,
+      "last": 17,
+      "length": 6
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 18,
+      "first": 22,
+      "last": 27,
+      "length": 6
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 18,
+      "first": 30,
+      "last": 35,
+      "length": 6
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 19,
+      "first": 4,
+      "last": 17,
+      "length": 14
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 19,
+      "first": 22,
+      "last": 35,
+      "length": 14
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 20,
+      "first": 4,
+      "last": 35,
+      "length": 32
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 21,
+      "first": 4,
+      "last": 5,
+      "length": 2
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 21,
+      "first": 8,
+      "last": 31,
+      "length": 24
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 21,
+      "first": 34,
+      "last": 35,
+      "length": 2
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 22,
+      "first": 4,
+      "last": 5,
+      "length": 2
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 22,
+      "first": 8,
+      "last": 31,
+      "length": 24
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 22,
+      "first": 34,
+      "last": 35,
+      "length": 2
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 23,
+      "first": 4,
+      "last": 35,
+      "length": 32
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 24,
+      "first": 4,
+      "last": 35,
+      "length": 32
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 25,
+      "first": 15,
+      "last": 24,
+      "length": 10
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 26,
+      "first": 15,
+      "last": 24,
+      "length": 10
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 27,
+      "first": 15,
+      "last": 18,
+      "length": 4
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 27,
+      "first": 21,
+      "last": 24,
+      "length": 4
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 28,
+      "first": 15,
+      "last": 24,
+      "length": 10
+    },
+    {
+      "axis": "horizontal",
+      "fixed": 29,
+      "first": 15,
+      "last": 24,
+      "length": 10
+    },
+    {
+      "axis": "vertical",
+      "fixed": 4,
+      "first": 12,
+      "last": 24,
+      "length": 13
+    },
+    {
+      "axis": "vertical",
+      "fixed": 5,
+      "first": 12,
+      "last": 24,
+      "length": 13
+    },
+    {
+      "axis": "vertical",
+      "fixed": 6,
+      "first": 12,
+      "last": 13,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 6,
+      "first": 16,
+      "last": 20,
+      "length": 5
+    },
+    {
+      "axis": "vertical",
+      "fixed": 6,
+      "first": 23,
+      "last": 24,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 7,
+      "first": 12,
+      "last": 13,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 7,
+      "first": 16,
+      "last": 20,
+      "length": 5
+    },
+    {
+      "axis": "vertical",
+      "fixed": 7,
+      "first": 23,
+      "last": 24,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 8,
+      "first": 12,
+      "last": 24,
+      "length": 13
+    },
+    {
+      "axis": "vertical",
+      "fixed": 9,
+      "first": 12,
+      "last": 24,
+      "length": 13
+    },
+    {
+      "axis": "vertical",
+      "fixed": 10,
+      "first": 12,
+      "last": 16,
+      "length": 5
+    },
+    {
+      "axis": "vertical",
+      "fixed": 10,
+      "first": 19,
+      "last": 24,
+      "length": 6
+    },
+    {
+      "axis": "vertical",
+      "fixed": 11,
+      "first": 6,
+      "last": 6,
+      "length": 1
+    },
+    {
+      "axis": "vertical",
+      "fixed": 11,
+      "first": 12,
+      "last": 16,
+      "length": 5
+    },
+    {
+      "axis": "vertical",
+      "fixed": 11,
+      "first": 19,
+      "last": 24,
+      "length": 6
+    },
+    {
+      "axis": "vertical",
+      "fixed": 12,
+      "first": 6,
+      "last": 10,
+      "length": 5
+    },
+    {
+      "axis": "vertical",
+      "fixed": 12,
+      "first": 12,
+      "last": 24,
+      "length": 13
+    },
+    {
+      "axis": "vertical",
+      "fixed": 13,
+      "first": 6,
+      "last": 24,
+      "length": 19
+    },
+    {
+      "axis": "vertical",
+      "fixed": 14,
+      "first": 6,
+      "last": 7,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 14,
+      "first": 9,
+      "last": 24,
+      "length": 16
+    },
+    {
+      "axis": "vertical",
+      "fixed": 15,
+      "first": 5,
+      "last": 29,
+      "length": 25
+    },
+    {
+      "axis": "vertical",
+      "fixed": 16,
+      "first": 7,
+      "last": 29,
+      "length": 23
+    },
+    {
+      "axis": "vertical",
+      "fixed": 17,
+      "first": 7,
+      "last": 29,
+      "length": 23
+    },
+    {
+      "axis": "vertical",
+      "fixed": 18,
+      "first": 5,
+      "last": 15,
+      "length": 11
+    },
+    {
+      "axis": "vertical",
+      "fixed": 18,
+      "first": 20,
+      "last": 29,
+      "length": 10
+    },
+    {
+      "axis": "vertical",
+      "fixed": 19,
+      "first": 5,
+      "last": 6,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 19,
+      "first": 9,
+      "last": 15,
+      "length": 7
+    },
+    {
+      "axis": "vertical",
+      "fixed": 19,
+      "first": 20,
+      "last": 26,
+      "length": 7
+    },
+    {
+      "axis": "vertical",
+      "fixed": 19,
+      "first": 28,
+      "last": 29,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 20,
+      "first": 5,
+      "last": 6,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 20,
+      "first": 9,
+      "last": 15,
+      "length": 7
+    },
+    {
+      "axis": "vertical",
+      "fixed": 20,
+      "first": 20,
+      "last": 26,
+      "length": 7
+    },
+    {
+      "axis": "vertical",
+      "fixed": 20,
+      "first": 28,
+      "last": 29,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 21,
+      "first": 5,
+      "last": 15,
+      "length": 11
+    },
+    {
+      "axis": "vertical",
+      "fixed": 21,
+      "first": 20,
+      "last": 29,
+      "length": 10
+    },
+    {
+      "axis": "vertical",
+      "fixed": 22,
+      "first": 7,
+      "last": 29,
+      "length": 23
+    },
+    {
+      "axis": "vertical",
+      "fixed": 23,
+      "first": 7,
+      "last": 29,
+      "length": 23
+    },
+    {
+      "axis": "vertical",
+      "fixed": 24,
+      "first": 5,
+      "last": 29,
+      "length": 25
+    },
+    {
+      "axis": "vertical",
+      "fixed": 25,
+      "first": 6,
+      "last": 7,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 25,
+      "first": 9,
+      "last": 24,
+      "length": 16
+    },
+    {
+      "axis": "vertical",
+      "fixed": 26,
+      "first": 6,
+      "last": 24,
+      "length": 19
+    },
+    {
+      "axis": "vertical",
+      "fixed": 27,
+      "first": 6,
+      "last": 10,
+      "length": 5
+    },
+    {
+      "axis": "vertical",
+      "fixed": 27,
+      "first": 12,
+      "last": 24,
+      "length": 13
+    },
+    {
+      "axis": "vertical",
+      "fixed": 28,
+      "first": 6,
+      "last": 6,
+      "length": 1
+    },
+    {
+      "axis": "vertical",
+      "fixed": 28,
+      "first": 12,
+      "last": 16,
+      "length": 5
+    },
+    {
+      "axis": "vertical",
+      "fixed": 28,
+      "first": 19,
+      "last": 24,
+      "length": 6
+    },
+    {
+      "axis": "vertical",
+      "fixed": 29,
+      "first": 12,
+      "last": 16,
+      "length": 5
+    },
+    {
+      "axis": "vertical",
+      "fixed": 29,
+      "first": 19,
+      "last": 24,
+      "length": 6
+    },
+    {
+      "axis": "vertical",
+      "fixed": 30,
+      "first": 12,
+      "last": 24,
+      "length": 13
+    },
+    {
+      "axis": "vertical",
+      "fixed": 31,
+      "first": 12,
+      "last": 24,
+      "length": 13
+    },
+    {
+      "axis": "vertical",
+      "fixed": 32,
+      "first": 12,
+      "last": 13,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 32,
+      "first": 16,
+      "last": 20,
+      "length": 5
+    },
+    {
+      "axis": "vertical",
+      "fixed": 32,
+      "first": 23,
+      "last": 24,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 33,
+      "first": 12,
+      "last": 13,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 33,
+      "first": 16,
+      "last": 20,
+      "length": 5
+    },
+    {
+      "axis": "vertical",
+      "fixed": 33,
+      "first": 23,
+      "last": 24,
+      "length": 2
+    },
+    {
+      "axis": "vertical",
+      "fixed": 34,
+      "first": 12,
+      "last": 24,
+      "length": 13
+    },
+    {
+      "axis": "vertical",
+      "fixed": 35,
+      "first": 12,
+      "last": 24,
+      "length": 13
+    }
+  ],
+  "note": "Static coverage is not gameplay acceptance. Actual browser traversal of every exposed corridor still required."
+}

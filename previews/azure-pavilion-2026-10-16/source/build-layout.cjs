@@ -1,5 +1,5 @@
 const fs=require('fs'),sharp=require('/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
-const D='/workspace/coastal-pavilion',W=1280,H=1024,T=32,C=40,R=32;
+const D=process.env.OUTPUT_DIR||'/tmp/azure-layout-scaffold',W=1280,H=1024,T=32,C=40,R=32;
 const rect=(x,y,w,h,fill,extra='')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${fill}" ${extra}/>`;
 const path=(d,stroke,width=1,extra='')=>`<path d="${d}" fill="none" stroke="${stroke}" stroke-width="${width}" ${extra}/>`;
 const ellipse=(x,y,rx,ry,fill,extra='')=>`<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" fill="${fill}" ${extra}/>`;

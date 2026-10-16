@@ -1,0 +1,16 @@
+{
+  "engineCommit": "274114560c5ec95fdf8e51e67986a53069f3cf06",
+  "worktree": "/workspace/coastal-engine",
+  "frontPort": 8080,
+  "gatewayPort": 8000,
+  "apiSha256": "e4eb30ff48ccb2b07613cc60855f7ae9f732ffdb14bd690cac04153405bd1883",
+  "trackedEngineChanges": false,
+  "reuse": [
+    "installed node_modules",
+    "generated messages",
+    "generated i18n files",
+    "existing back/pusher/maps services"
+  ],
+  "externalConfigAdaptation": "svelte-preprocess default import for installed package compatibility",
+  "runtimeGameplayTest": "pending browser reload"
+}

@@ -1,124 +1,12 @@
 {
   "passed": true,
-  "traversals": 416,
-  "maximalRuns": 104,
-  "methods": [
-    "keyboard",
-    "native right-click"
-  ],
-  "directions": [
-    "forward",
-    "reverse"
-  ],
-  "authorRuns": [
-    0,
-    51
-  ],
-  "independentRuns": [
-    52,
-    103
-  ],
+  "traversals": 404,
+  "maximalRuns": 101,
+  "walkableTiles": 510,
+  "evidence": "388 traversals retained for exactly unchanged run geometries;16 traversals rerun for all4 shortened rear-wall runs. Previous complete sweep416 records retained under historical.",
   "records": [
     {
       "run": 0,
-      "geometry": {
-        "axis": "horizontal",
-        "fixed": 5,
-        "first": 18,
-        "last": 21,
-        "length": 4
-      },
-      "method": "keyboard",
-      "direction": "forward",
-      "target": {
-        "x": 688,
-        "y": 176
-      },
-      "x": 696,
-      "y": 176,
-      "vx": 0,
-      "vy": 0,
-      "zoom": 1,
-      "scale": 1,
-      "popups": 0,
-      "arrived": true,
-      "ms": 752
-    },
-    {
-      "run": 0,
-      "geometry": {
-        "axis": "horizontal",
-        "fixed": 5,
-        "first": 18,
-        "last": 21,
-        "length": 4
-      },
-      "method": "keyboard",
-      "direction": "reverse",
-      "target": {
-        "x": 592,
-        "y": 176
-      },
-      "x": 584,
-      "y": 176,
-      "vx": 0,
-      "vy": 0,
-      "zoom": 1,
-      "scale": 1,
-      "popups": 0,
-      "arrived": true,
-      "ms": 794
-    },
-    {
-      "run": 0,
-      "geometry": {
-        "axis": "horizontal",
-        "fixed": 5,
-        "first": 18,
-        "last": 21,
-        "length": 4
-      },
-      "method": "click",
-      "direction": "forward",
-      "target": {
-        "x": 688,
-        "y": 176
-      },
-      "x": 687.6666666666666,
-      "y": 176,
-      "vx": 0,
-      "vy": 0,
-      "zoom": 1,
-      "scale": 1,
-      "popups": 0,
-      "arrived": true
-    },
-    {
-      "run": 0,
-      "geometry": {
-        "axis": "horizontal",
-        "fixed": 5,
-        "first": 18,
-        "last": 21,
-        "length": 4
-      },
-      "method": "click",
-      "direction": "reverse",
-      "target": {
-        "x": 592,
-        "y": 176
-      },
-      "x": 592,
-      "y": 176,
-      "vx": 0,
-      "vy": 0,
-      "zoom": 1,
-      "scale": 1,
-      "popups": 0,
-      "arrived": true
-    },
-    {
-      "run": 1,
       "geometry": {
         "axis": "horizontal",
         "fixed": 6,
@@ -140,10 +28,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 919
+      "ms": 919,
+      "originalRun": 1,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 1,
+      "run": 0,
       "geometry": {
         "axis": "horizontal",
         "fixed": 6,
@@ -165,10 +55,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1006
+      "ms": 1006,
+      "originalRun": 1,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 1,
+      "run": 0,
       "geometry": {
         "axis": "horizontal",
         "fixed": 6,
@@ -189,10 +81,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 1,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 1,
+      "run": 0,
       "geometry": {
         "axis": "horizontal",
         "fixed": 6,
@@ -213,10 +107,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 1,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 2,
+      "run": 1,
       "geometry": {
         "axis": "horizontal",
         "fixed": 6,
@@ -238,10 +134,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 808
+      "ms": 808,
+      "originalRun": 2,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 2,
+      "run": 1,
       "geometry": {
         "axis": "horizontal",
         "fixed": 6,
@@ -263,10 +161,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 831
+      "ms": 831,
+      "originalRun": 2,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 2,
+      "run": 1,
       "geometry": {
         "axis": "horizontal",
         "fixed": 6,
@@ -287,10 +187,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 2,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 2,
+      "run": 1,
       "geometry": {
         "axis": "horizontal",
         "fixed": 6,
@@ -311,10 +213,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 2,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 3,
+      "run": 2,
       "geometry": {
         "axis": "horizontal",
         "fixed": 6,
@@ -336,10 +240,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 995
+      "ms": 995,
+      "originalRun": 3,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 3,
+      "run": 2,
       "geometry": {
         "axis": "horizontal",
         "fixed": 6,
@@ -361,10 +267,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 964
+      "ms": 964,
+      "originalRun": 3,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 3,
+      "run": 2,
       "geometry": {
         "axis": "horizontal",
         "fixed": 6,
@@ -385,10 +293,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 3,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 3,
+      "run": 2,
       "geometry": {
         "axis": "horizontal",
         "fixed": 6,
@@ -409,10 +319,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 3,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 4,
+      "run": 3,
       "geometry": {
         "axis": "horizontal",
         "fixed": 7,
@@ -434,10 +346,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1421
+      "ms": 1421,
+      "originalRun": 4,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 4,
+      "run": 3,
       "geometry": {
         "axis": "horizontal",
         "fixed": 7,
@@ -459,10 +373,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1346
+      "ms": 1346,
+      "originalRun": 4,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 4,
+      "run": 3,
       "geometry": {
         "axis": "horizontal",
         "fixed": 7,
@@ -483,10 +399,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 4,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 4,
+      "run": 3,
       "geometry": {
         "axis": "horizontal",
         "fixed": 7,
@@ -507,10 +425,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 4,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 5,
+      "run": 4,
       "geometry": {
         "axis": "horizontal",
         "fixed": 7,
@@ -532,10 +452,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1307
+      "ms": 1307,
+      "originalRun": 5,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 5,
+      "run": 4,
       "geometry": {
         "axis": "horizontal",
         "fixed": 7,
@@ -557,10 +479,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1378
+      "ms": 1378,
+      "originalRun": 5,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 5,
+      "run": 4,
       "geometry": {
         "axis": "horizontal",
         "fixed": 7,
@@ -581,10 +505,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 5,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 5,
+      "run": 4,
       "geometry": {
         "axis": "horizontal",
         "fixed": 7,
@@ -605,10 +531,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 5,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 6,
+      "run": 5,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -630,10 +558,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 377
+      "ms": 377,
+      "originalRun": 6,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 6,
+      "run": 5,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -655,10 +585,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 409
+      "ms": 409,
+      "originalRun": 6,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 6,
+      "run": 5,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -679,10 +611,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 6,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 6,
+      "run": 5,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -703,10 +637,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 6,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 7,
+      "run": 6,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -728,10 +664,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 744
+      "ms": 744,
+      "originalRun": 7,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 7,
+      "run": 6,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -753,10 +691,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 766
+      "ms": 766,
+      "originalRun": 7,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 7,
+      "run": 6,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -777,10 +717,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 7,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 7,
+      "run": 6,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -801,10 +743,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 7,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 8,
+      "run": 7,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -826,10 +770,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 826
+      "ms": 826,
+      "originalRun": 8,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 8,
+      "run": 7,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -851,10 +797,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 783
+      "ms": 783,
+      "originalRun": 8,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 8,
+      "run": 7,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -875,10 +823,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 8,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 8,
+      "run": 7,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -899,10 +849,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 8,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 9,
+      "run": 8,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -924,10 +876,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 399
+      "ms": 399,
+      "originalRun": 9,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 9,
+      "run": 8,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -949,10 +903,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 397
+      "ms": 397,
+      "originalRun": 9,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 9,
+      "run": 8,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -973,10 +929,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 9,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 9,
+      "run": 8,
       "geometry": {
         "axis": "horizontal",
         "fixed": 8,
@@ -997,10 +955,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 9,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 10,
+      "run": 9,
       "geometry": {
         "axis": "horizontal",
         "fixed": 9,
@@ -1022,10 +982,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2917
+      "ms": 2917,
+      "originalRun": 10,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 10,
+      "run": 9,
       "geometry": {
         "axis": "horizontal",
         "fixed": 9,
@@ -1047,10 +1009,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2962
+      "ms": 2962,
+      "originalRun": 10,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 10,
+      "run": 9,
       "geometry": {
         "axis": "horizontal",
         "fixed": 9,
@@ -1071,10 +1035,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 10,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 10,
+      "run": 9,
       "geometry": {
         "axis": "horizontal",
         "fixed": 9,
@@ -1095,10 +1061,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 10,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 11,
+      "run": 10,
       "geometry": {
         "axis": "horizontal",
         "fixed": 10,
@@ -1120,10 +1088,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2904
+      "ms": 2904,
+      "originalRun": 11,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 11,
+      "run": 10,
       "geometry": {
         "axis": "horizontal",
         "fixed": 10,
@@ -1145,10 +1115,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2976
+      "ms": 2976,
+      "originalRun": 11,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 11,
+      "run": 10,
       "geometry": {
         "axis": "horizontal",
         "fixed": 10,
@@ -1169,10 +1141,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 11,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 11,
+      "run": 10,
       "geometry": {
         "axis": "horizontal",
         "fixed": 10,
@@ -1193,10 +1167,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 11,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 12,
+      "run": 11,
       "geometry": {
         "axis": "horizontal",
         "fixed": 11,
@@ -1218,10 +1194,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2609
+      "ms": 2609,
+      "originalRun": 12,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 12,
+      "run": 11,
       "geometry": {
         "axis": "horizontal",
         "fixed": 11,
@@ -1243,10 +1221,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2674
+      "ms": 2674,
+      "originalRun": 12,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 12,
+      "run": 11,
       "geometry": {
         "axis": "horizontal",
         "fixed": 11,
@@ -1267,10 +1247,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 12,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 12,
+      "run": 11,
       "geometry": {
         "axis": "horizontal",
         "fixed": 11,
@@ -1291,10 +1273,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 12,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 13,
+      "run": 12,
       "geometry": {
         "axis": "horizontal",
         "fixed": 12,
@@ -1316,10 +1300,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5802
+      "ms": 5802,
+      "originalRun": 13,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 13,
+      "run": 12,
       "geometry": {
         "axis": "horizontal",
         "fixed": 12,
@@ -1341,10 +1327,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5879
+      "ms": 5879,
+      "originalRun": 13,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 13,
+      "run": 12,
       "geometry": {
         "axis": "horizontal",
         "fixed": 12,
@@ -1365,10 +1353,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 13,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 13,
+      "run": 12,
       "geometry": {
         "axis": "horizontal",
         "fixed": 12,
@@ -1389,10 +1379,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 13,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 14,
+      "run": 13,
       "geometry": {
         "axis": "horizontal",
         "fixed": 13,
@@ -1414,10 +1406,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5813
+      "ms": 5813,
+      "originalRun": 14,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 14,
+      "run": 13,
       "geometry": {
         "axis": "horizontal",
         "fixed": 13,
@@ -1439,10 +1433,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5876
+      "ms": 5876,
+      "originalRun": 14,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 14,
+      "run": 13,
       "geometry": {
         "axis": "horizontal",
         "fixed": 13,
@@ -1463,10 +1459,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 14,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 14,
+      "run": 13,
       "geometry": {
         "axis": "horizontal",
         "fixed": 13,
@@ -1487,10 +1485,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 14,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 15,
+      "run": 14,
       "geometry": {
         "axis": "horizontal",
         "fixed": 14,
@@ -1512,10 +1512,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 356
+      "ms": 356,
+      "originalRun": 15,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 15,
+      "run": 14,
       "geometry": {
         "axis": "horizontal",
         "fixed": 14,
@@ -1537,10 +1539,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 467
+      "ms": 467,
+      "originalRun": 15,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 15,
+      "run": 14,
       "geometry": {
         "axis": "horizontal",
         "fixed": 14,
@@ -1561,10 +1565,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 15,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 15,
+      "run": 14,
       "geometry": {
         "axis": "horizontal",
         "fixed": 14,
@@ -1585,10 +1591,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 15,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 16,
+      "run": 15,
       "geometry": {
         "axis": "horizontal",
         "fixed": 14,
@@ -1610,10 +1618,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4332
+      "ms": 4332,
+      "originalRun": 16,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 16,
+      "run": 15,
       "geometry": {
         "axis": "horizontal",
         "fixed": 14,
@@ -1635,10 +1645,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4405
+      "ms": 4405,
+      "originalRun": 16,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 16,
+      "run": 15,
       "geometry": {
         "axis": "horizontal",
         "fixed": 14,
@@ -1659,10 +1671,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 16,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 16,
+      "run": 15,
       "geometry": {
         "axis": "horizontal",
         "fixed": 14,
@@ -1683,10 +1697,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 16,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 17,
+      "run": 16,
       "geometry": {
         "axis": "horizontal",
         "fixed": 14,
@@ -1708,10 +1724,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 511
+      "ms": 511,
+      "originalRun": 17,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 17,
+      "run": 16,
       "geometry": {
         "axis": "horizontal",
         "fixed": 14,
@@ -1733,10 +1751,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 518
+      "ms": 518,
+      "originalRun": 17,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 17,
+      "run": 16,
       "geometry": {
         "axis": "horizontal",
         "fixed": 14,
@@ -1757,10 +1777,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 17,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 17,
+      "run": 16,
       "geometry": {
         "axis": "horizontal",
         "fixed": 14,
@@ -1781,10 +1803,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 17,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 18,
+      "run": 17,
       "geometry": {
         "axis": "horizontal",
         "fixed": 15,
@@ -1806,10 +1830,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 453
+      "ms": 453,
+      "originalRun": 18,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 18,
+      "run": 17,
       "geometry": {
         "axis": "horizontal",
         "fixed": 15,
@@ -1831,10 +1857,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 485
+      "ms": 485,
+      "originalRun": 18,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 18,
+      "run": 17,
       "geometry": {
         "axis": "horizontal",
         "fixed": 15,
@@ -1855,10 +1883,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 18,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 18,
+      "run": 17,
       "geometry": {
         "axis": "horizontal",
         "fixed": 15,
@@ -1879,10 +1909,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 18,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 19,
+      "run": 18,
       "geometry": {
         "axis": "horizontal",
         "fixed": 15,
@@ -1904,10 +1936,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4380
+      "ms": 4380,
+      "originalRun": 19,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 19,
+      "run": 18,
       "geometry": {
         "axis": "horizontal",
         "fixed": 15,
@@ -1929,10 +1963,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4350
+      "ms": 4350,
+      "originalRun": 19,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 19,
+      "run": 18,
       "geometry": {
         "axis": "horizontal",
         "fixed": 15,
@@ -1953,10 +1989,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 19,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 19,
+      "run": 18,
       "geometry": {
         "axis": "horizontal",
         "fixed": 15,
@@ -1977,10 +2015,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 19,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 20,
+      "run": 19,
       "geometry": {
         "axis": "horizontal",
         "fixed": 15,
@@ -2002,10 +2042,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 391
+      "ms": 391,
+      "originalRun": 20,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 20,
+      "run": 19,
       "geometry": {
         "axis": "horizontal",
         "fixed": 15,
@@ -2027,10 +2069,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 444
+      "ms": 444,
+      "originalRun": 20,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 20,
+      "run": 19,
       "geometry": {
         "axis": "horizontal",
         "fixed": 15,
@@ -2051,10 +2095,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 20,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 20,
+      "run": 19,
       "geometry": {
         "axis": "horizontal",
         "fixed": 15,
@@ -2075,10 +2121,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 20,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 21,
+      "run": 20,
       "geometry": {
         "axis": "horizontal",
         "fixed": 16,
@@ -2100,10 +2148,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2530
+      "ms": 2530,
+      "originalRun": 21,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 21,
+      "run": 20,
       "geometry": {
         "axis": "horizontal",
         "fixed": 16,
@@ -2125,10 +2175,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2556
+      "ms": 2556,
+      "originalRun": 21,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 21,
+      "run": 20,
       "geometry": {
         "axis": "horizontal",
         "fixed": 16,
@@ -2149,10 +2201,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 21,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 21,
+      "run": 20,
       "geometry": {
         "axis": "horizontal",
         "fixed": 16,
@@ -2173,10 +2227,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 21,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 22,
+      "run": 21,
       "geometry": {
         "axis": "horizontal",
         "fixed": 16,
@@ -2198,10 +2254,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2595
+      "ms": 2595,
+      "originalRun": 22,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 22,
+      "run": 21,
       "geometry": {
         "axis": "horizontal",
         "fixed": 16,
@@ -2223,10 +2281,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2653
+      "ms": 2653,
+      "originalRun": 22,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 22,
+      "run": 21,
       "geometry": {
         "axis": "horizontal",
         "fixed": 16,
@@ -2247,10 +2307,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 22,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 22,
+      "run": 21,
       "geometry": {
         "axis": "horizontal",
         "fixed": 16,
@@ -2271,10 +2333,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 22,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 23,
+      "run": 22,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2296,10 +2360,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1121
+      "ms": 1121,
+      "originalRun": 23,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 23,
+      "run": 22,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2321,10 +2387,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1238
+      "ms": 1238,
+      "originalRun": 23,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 23,
+      "run": 22,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2345,10 +2413,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 23,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 23,
+      "run": 22,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2369,10 +2439,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 23,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 24,
+      "run": 23,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2394,10 +2466,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1113
+      "ms": 1113,
+      "originalRun": 24,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 24,
+      "run": 23,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2419,10 +2493,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1142
+      "ms": 1142,
+      "originalRun": 24,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 24,
+      "run": 23,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2443,10 +2519,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 24,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 24,
+      "run": 23,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2467,10 +2545,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 24,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 25,
+      "run": 24,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2492,10 +2572,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1142
+      "ms": 1142,
+      "originalRun": 25,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 25,
+      "run": 24,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2517,10 +2599,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1226
+      "ms": 1226,
+      "originalRun": 25,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 25,
+      "run": 24,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2541,10 +2625,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 25,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 25,
+      "run": 24,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2565,10 +2651,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 25,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 26,
+      "run": 25,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2590,10 +2678,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1163
+      "ms": 1163,
+      "originalRun": 26,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 26,
+      "run": 25,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2615,10 +2705,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1202
+      "ms": 1202,
+      "originalRun": 26,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 26,
+      "run": 25,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2639,10 +2731,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 26,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 26,
+      "run": 25,
       "geometry": {
         "axis": "horizontal",
         "fixed": 17,
@@ -2663,10 +2757,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 26,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 27,
+      "run": 26,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -2688,10 +2784,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1134
+      "ms": 1134,
+      "originalRun": 27,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 27,
+      "run": 26,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -2713,10 +2811,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1109
+      "ms": 1109,
+      "originalRun": 27,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 27,
+      "run": 26,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -2737,10 +2837,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 27,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 27,
+      "run": 26,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -2761,10 +2863,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 27,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 28,
+      "run": 27,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -2786,10 +2890,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1154
+      "ms": 1154,
+      "originalRun": 28,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 28,
+      "run": 27,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -2811,10 +2917,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1068
+      "ms": 1068,
+      "originalRun": 28,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 28,
+      "run": 27,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -2835,10 +2943,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 28,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 28,
+      "run": 27,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -2859,10 +2969,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 28,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 29,
+      "run": 28,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -2884,10 +2996,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1140
+      "ms": 1140,
+      "originalRun": 29,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 29,
+      "run": 28,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -2909,10 +3023,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1251
+      "ms": 1251,
+      "originalRun": 29,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 29,
+      "run": 28,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -2933,10 +3049,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 29,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 29,
+      "run": 28,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -2957,10 +3075,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 29,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 30,
+      "run": 29,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -2982,10 +3102,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1134
+      "ms": 1134,
+      "originalRun": 30,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 30,
+      "run": 29,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -3007,10 +3129,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1207
+      "ms": 1207,
+      "originalRun": 30,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 30,
+      "run": 29,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -3031,10 +3155,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 30,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 30,
+      "run": 29,
       "geometry": {
         "axis": "horizontal",
         "fixed": 18,
@@ -3055,10 +3181,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 30,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 31,
+      "run": 30,
       "geometry": {
         "axis": "horizontal",
         "fixed": 19,
@@ -3080,10 +3208,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2703
+      "ms": 2703,
+      "originalRun": 31,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 31,
+      "run": 30,
       "geometry": {
         "axis": "horizontal",
         "fixed": 19,
@@ -3105,10 +3235,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2559
+      "ms": 2559,
+      "originalRun": 31,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 31,
+      "run": 30,
       "geometry": {
         "axis": "horizontal",
         "fixed": 19,
@@ -3129,10 +3261,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 31,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 31,
+      "run": 30,
       "geometry": {
         "axis": "horizontal",
         "fixed": 19,
@@ -3153,10 +3287,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 31,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 32,
+      "run": 31,
       "geometry": {
         "axis": "horizontal",
         "fixed": 19,
@@ -3178,10 +3314,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2667
+      "ms": 2667,
+      "originalRun": 32,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 32,
+      "run": 31,
       "geometry": {
         "axis": "horizontal",
         "fixed": 19,
@@ -3203,10 +3341,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2512
+      "ms": 2512,
+      "originalRun": 32,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 32,
+      "run": 31,
       "geometry": {
         "axis": "horizontal",
         "fixed": 19,
@@ -3227,10 +3367,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 32,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 32,
+      "run": 31,
       "geometry": {
         "axis": "horizontal",
         "fixed": 19,
@@ -3251,10 +3393,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 32,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 33,
+      "run": 32,
       "geometry": {
         "axis": "horizontal",
         "fixed": 20,
@@ -3276,10 +3420,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5740
+      "ms": 5740,
+      "originalRun": 33,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 33,
+      "run": 32,
       "geometry": {
         "axis": "horizontal",
         "fixed": 20,
@@ -3301,10 +3447,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5798
+      "ms": 5798,
+      "originalRun": 33,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 33,
+      "run": 32,
       "geometry": {
         "axis": "horizontal",
         "fixed": 20,
@@ -3325,10 +3473,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 33,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 33,
+      "run": 32,
       "geometry": {
         "axis": "horizontal",
         "fixed": 20,
@@ -3349,10 +3499,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 33,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 34,
+      "run": 33,
       "geometry": {
         "axis": "horizontal",
         "fixed": 21,
@@ -3374,10 +3526,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 482
+      "ms": 482,
+      "originalRun": 34,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 34,
+      "run": 33,
       "geometry": {
         "axis": "horizontal",
         "fixed": 21,
@@ -3399,10 +3553,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 679
+      "ms": 679,
+      "originalRun": 34,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 34,
+      "run": 33,
       "geometry": {
         "axis": "horizontal",
         "fixed": 21,
@@ -3423,10 +3579,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 34,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 34,
+      "run": 33,
       "geometry": {
         "axis": "horizontal",
         "fixed": 21,
@@ -3447,10 +3605,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 34,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 35,
+      "run": 34,
       "geometry": {
         "axis": "horizontal",
         "fixed": 21,
@@ -3472,10 +3632,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4330
+      "ms": 4330,
+      "originalRun": 35,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 35,
+      "run": 34,
       "geometry": {
         "axis": "horizontal",
         "fixed": 21,
@@ -3497,10 +3659,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4382
+      "ms": 4382,
+      "originalRun": 35,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 35,
+      "run": 34,
       "geometry": {
         "axis": "horizontal",
         "fixed": 21,
@@ -3521,10 +3685,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 35,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 35,
+      "run": 34,
       "geometry": {
         "axis": "horizontal",
         "fixed": 21,
@@ -3545,10 +3711,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 35,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 36,
+      "run": 35,
       "geometry": {
         "axis": "horizontal",
         "fixed": 21,
@@ -3570,10 +3738,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 456
+      "ms": 456,
+      "originalRun": 36,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 36,
+      "run": 35,
       "geometry": {
         "axis": "horizontal",
         "fixed": 21,
@@ -3595,10 +3765,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 462
+      "ms": 462,
+      "originalRun": 36,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 36,
+      "run": 35,
       "geometry": {
         "axis": "horizontal",
         "fixed": 21,
@@ -3619,10 +3791,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 36,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 36,
+      "run": 35,
       "geometry": {
         "axis": "horizontal",
         "fixed": 21,
@@ -3643,10 +3817,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 36,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 37,
+      "run": 36,
       "geometry": {
         "axis": "horizontal",
         "fixed": 22,
@@ -3668,10 +3844,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 403
+      "ms": 403,
+      "originalRun": 37,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 37,
+      "run": 36,
       "geometry": {
         "axis": "horizontal",
         "fixed": 22,
@@ -3693,10 +3871,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 462
+      "ms": 462,
+      "originalRun": 37,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 37,
+      "run": 36,
       "geometry": {
         "axis": "horizontal",
         "fixed": 22,
@@ -3717,10 +3897,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 37,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 37,
+      "run": 36,
       "geometry": {
         "axis": "horizontal",
         "fixed": 22,
@@ -3741,10 +3923,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 37,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 38,
+      "run": 37,
       "geometry": {
         "axis": "horizontal",
         "fixed": 22,
@@ -3766,10 +3950,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4328
+      "ms": 4328,
+      "originalRun": 38,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 38,
+      "run": 37,
       "geometry": {
         "axis": "horizontal",
         "fixed": 22,
@@ -3791,10 +3977,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4408
+      "ms": 4408,
+      "originalRun": 38,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 38,
+      "run": 37,
       "geometry": {
         "axis": "horizontal",
         "fixed": 22,
@@ -3815,10 +4003,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 38,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 38,
+      "run": 37,
       "geometry": {
         "axis": "horizontal",
         "fixed": 22,
@@ -3839,10 +4029,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 38,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 39,
+      "run": 38,
       "geometry": {
         "axis": "horizontal",
         "fixed": 22,
@@ -3864,10 +4056,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 453
+      "ms": 453,
+      "originalRun": 39,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 39,
+      "run": 38,
       "geometry": {
         "axis": "horizontal",
         "fixed": 22,
@@ -3889,10 +4083,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 480
+      "ms": 480,
+      "originalRun": 39,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 39,
+      "run": 38,
       "geometry": {
         "axis": "horizontal",
         "fixed": 22,
@@ -3913,10 +4109,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 39,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 39,
+      "run": 38,
       "geometry": {
         "axis": "horizontal",
         "fixed": 22,
@@ -3937,10 +4135,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 39,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 40,
+      "run": 39,
       "geometry": {
         "axis": "horizontal",
         "fixed": 23,
@@ -3962,10 +4162,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5770
+      "ms": 5770,
+      "originalRun": 40,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 40,
+      "run": 39,
       "geometry": {
         "axis": "horizontal",
         "fixed": 23,
@@ -3987,10 +4189,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5741
+      "ms": 5741,
+      "originalRun": 40,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 40,
+      "run": 39,
       "geometry": {
         "axis": "horizontal",
         "fixed": 23,
@@ -4011,10 +4215,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 40,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 40,
+      "run": 39,
       "geometry": {
         "axis": "horizontal",
         "fixed": 23,
@@ -4035,10 +4241,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 40,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 41,
+      "run": 40,
       "geometry": {
         "axis": "horizontal",
         "fixed": 24,
@@ -4060,10 +4268,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5717
+      "ms": 5717,
+      "originalRun": 41,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 41,
+      "run": 40,
       "geometry": {
         "axis": "horizontal",
         "fixed": 24,
@@ -4085,10 +4295,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5768
+      "ms": 5768,
+      "originalRun": 41,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 41,
+      "run": 40,
       "geometry": {
         "axis": "horizontal",
         "fixed": 24,
@@ -4109,10 +4321,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 41,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 41,
+      "run": 40,
       "geometry": {
         "axis": "horizontal",
         "fixed": 24,
@@ -4133,10 +4347,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 41,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 42,
+      "run": 41,
       "geometry": {
         "axis": "horizontal",
         "fixed": 25,
@@ -4158,10 +4374,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1798
+      "ms": 1798,
+      "originalRun": 42,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 42,
+      "run": 41,
       "geometry": {
         "axis": "horizontal",
         "fixed": 25,
@@ -4183,10 +4401,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1864
+      "ms": 1864,
+      "originalRun": 42,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 42,
+      "run": 41,
       "geometry": {
         "axis": "horizontal",
         "fixed": 25,
@@ -4207,10 +4427,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 42,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 42,
+      "run": 41,
       "geometry": {
         "axis": "horizontal",
         "fixed": 25,
@@ -4231,10 +4453,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 42,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 43,
+      "run": 42,
       "geometry": {
         "axis": "horizontal",
         "fixed": 26,
@@ -4256,10 +4480,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1823
+      "ms": 1823,
+      "originalRun": 43,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 43,
+      "run": 42,
       "geometry": {
         "axis": "horizontal",
         "fixed": 26,
@@ -4281,10 +4507,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1891
+      "ms": 1891,
+      "originalRun": 43,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 43,
+      "run": 42,
       "geometry": {
         "axis": "horizontal",
         "fixed": 26,
@@ -4305,10 +4533,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 43,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 43,
+      "run": 42,
       "geometry": {
         "axis": "horizontal",
         "fixed": 26,
@@ -4329,10 +4559,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 43,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 44,
+      "run": 43,
       "geometry": {
         "axis": "horizontal",
         "fixed": 27,
@@ -4354,10 +4586,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 812
+      "ms": 812,
+      "originalRun": 44,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 44,
+      "run": 43,
       "geometry": {
         "axis": "horizontal",
         "fixed": 27,
@@ -4379,10 +4613,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 839
+      "ms": 839,
+      "originalRun": 44,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 44,
+      "run": 43,
       "geometry": {
         "axis": "horizontal",
         "fixed": 27,
@@ -4403,10 +4639,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 44,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 44,
+      "run": 43,
       "geometry": {
         "axis": "horizontal",
         "fixed": 27,
@@ -4427,10 +4665,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 44,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 45,
+      "run": 44,
       "geometry": {
         "axis": "horizontal",
         "fixed": 27,
@@ -4452,10 +4692,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 771
+      "ms": 771,
+      "originalRun": 45,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 45,
+      "run": 44,
       "geometry": {
         "axis": "horizontal",
         "fixed": 27,
@@ -4477,10 +4719,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 893
+      "ms": 893,
+      "originalRun": 45,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 45,
+      "run": 44,
       "geometry": {
         "axis": "horizontal",
         "fixed": 27,
@@ -4501,10 +4745,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 45,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 45,
+      "run": 44,
       "geometry": {
         "axis": "horizontal",
         "fixed": 27,
@@ -4525,10 +4771,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 45,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 46,
+      "run": 45,
       "geometry": {
         "axis": "horizontal",
         "fixed": 28,
@@ -4550,10 +4798,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1829
+      "ms": 1829,
+      "originalRun": 46,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 46,
+      "run": 45,
       "geometry": {
         "axis": "horizontal",
         "fixed": 28,
@@ -4575,10 +4825,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1906
+      "ms": 1906,
+      "originalRun": 46,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 46,
+      "run": 45,
       "geometry": {
         "axis": "horizontal",
         "fixed": 28,
@@ -4599,10 +4851,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 46,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 46,
+      "run": 45,
       "geometry": {
         "axis": "horizontal",
         "fixed": 28,
@@ -4623,10 +4877,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 46,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 47,
+      "run": 46,
       "geometry": {
         "axis": "horizontal",
         "fixed": 29,
@@ -4648,10 +4904,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1840
+      "ms": 1840,
+      "originalRun": 47,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 47,
+      "run": 46,
       "geometry": {
         "axis": "horizontal",
         "fixed": 29,
@@ -4673,10 +4931,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1937
+      "ms": 1937,
+      "originalRun": 47,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 47,
+      "run": 46,
       "geometry": {
         "axis": "horizontal",
         "fixed": 29,
@@ -4697,10 +4957,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 47,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 47,
+      "run": 46,
       "geometry": {
         "axis": "horizontal",
         "fixed": 29,
@@ -4721,10 +4983,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 47,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 48,
+      "run": 47,
       "geometry": {
         "axis": "vertical",
         "fixed": 4,
@@ -4746,10 +5010,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4446
+      "ms": 4446,
+      "originalRun": 48,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 48,
+      "run": 47,
       "geometry": {
         "axis": "vertical",
         "fixed": 4,
@@ -4771,10 +5037,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4193
+      "ms": 4193,
+      "originalRun": 48,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 48,
+      "run": 47,
       "geometry": {
         "axis": "vertical",
         "fixed": 4,
@@ -4795,10 +5063,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 48,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 48,
+      "run": 47,
       "geometry": {
         "axis": "vertical",
         "fixed": 4,
@@ -4819,10 +5089,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 48,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 49,
+      "run": 48,
       "geometry": {
         "axis": "vertical",
         "fixed": 5,
@@ -4844,10 +5116,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4362
+      "ms": 4362,
+      "originalRun": 49,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 49,
+      "run": 48,
       "geometry": {
         "axis": "vertical",
         "fixed": 5,
@@ -4869,10 +5143,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4266
+      "ms": 4266,
+      "originalRun": 49,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 49,
+      "run": 48,
       "geometry": {
         "axis": "vertical",
         "fixed": 5,
@@ -4893,10 +5169,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 49,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 49,
+      "run": 48,
       "geometry": {
         "axis": "vertical",
         "fixed": 5,
@@ -4917,10 +5195,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 49,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 50,
+      "run": 49,
       "geometry": {
         "axis": "vertical",
         "fixed": 6,
@@ -4942,10 +5222,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 463
+      "ms": 463,
+      "originalRun": 50,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 50,
+      "run": 49,
       "geometry": {
         "axis": "vertical",
         "fixed": 6,
@@ -4967,10 +5249,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 541
+      "ms": 541,
+      "originalRun": 50,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 50,
+      "run": 49,
       "geometry": {
         "axis": "vertical",
         "fixed": 6,
@@ -4991,10 +5275,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 50,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 50,
+      "run": 49,
       "geometry": {
         "axis": "vertical",
         "fixed": 6,
@@ -5015,10 +5301,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 50,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 51,
+      "run": 50,
       "geometry": {
         "axis": "vertical",
         "fixed": 6,
@@ -5040,10 +5328,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1438
+      "ms": 1438,
+      "originalRun": 51,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 51,
+      "run": 50,
       "geometry": {
         "axis": "vertical",
         "fixed": 6,
@@ -5065,10 +5355,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1567
+      "ms": 1567,
+      "originalRun": 51,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 51,
+      "run": 50,
       "geometry": {
         "axis": "vertical",
         "fixed": 6,
@@ -5089,10 +5381,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 51,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 51,
+      "run": 50,
       "geometry": {
         "axis": "vertical",
         "fixed": 6,
@@ -5113,10 +5407,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 51,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 52,
+      "run": 51,
       "geometry": {
         "axis": "vertical",
         "fixed": 6,
@@ -5138,10 +5434,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 347
+      "ms": 347,
+      "originalRun": 52,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 52,
+      "run": 51,
       "geometry": {
         "axis": "vertical",
         "fixed": 6,
@@ -5163,10 +5461,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 310
+      "ms": 310,
+      "originalRun": 52,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 52,
+      "run": 51,
       "geometry": {
         "axis": "vertical",
         "fixed": 6,
@@ -5187,10 +5487,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 52,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 52,
+      "run": 51,
       "geometry": {
         "axis": "vertical",
         "fixed": 6,
@@ -5211,10 +5513,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 52,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 53,
+      "run": 52,
       "geometry": {
         "axis": "vertical",
         "fixed": 7,
@@ -5236,10 +5540,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 406
+      "ms": 406,
+      "originalRun": 53,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 53,
+      "run": 52,
       "geometry": {
         "axis": "vertical",
         "fixed": 7,
@@ -5261,10 +5567,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 510
+      "ms": 510,
+      "originalRun": 53,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 53,
+      "run": 52,
       "geometry": {
         "axis": "vertical",
         "fixed": 7,
@@ -5285,10 +5593,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 53,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 53,
+      "run": 52,
       "geometry": {
         "axis": "vertical",
         "fixed": 7,
@@ -5309,10 +5619,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 53,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 54,
+      "run": 53,
       "geometry": {
         "axis": "vertical",
         "fixed": 7,
@@ -5334,10 +5646,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1365
+      "ms": 1365,
+      "originalRun": 54,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 54,
+      "run": 53,
       "geometry": {
         "axis": "vertical",
         "fixed": 7,
@@ -5359,10 +5673,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1557
+      "ms": 1557,
+      "originalRun": 54,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 54,
+      "run": 53,
       "geometry": {
         "axis": "vertical",
         "fixed": 7,
@@ -5383,10 +5699,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 54,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 54,
+      "run": 53,
       "geometry": {
         "axis": "vertical",
         "fixed": 7,
@@ -5407,10 +5725,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 54,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 55,
+      "run": 54,
       "geometry": {
         "axis": "vertical",
         "fixed": 7,
@@ -5432,10 +5752,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 419
+      "ms": 419,
+      "originalRun": 55,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 55,
+      "run": 54,
       "geometry": {
         "axis": "vertical",
         "fixed": 7,
@@ -5457,10 +5779,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 569
+      "ms": 569,
+      "originalRun": 55,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 55,
+      "run": 54,
       "geometry": {
         "axis": "vertical",
         "fixed": 7,
@@ -5481,10 +5805,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 55,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 55,
+      "run": 54,
       "geometry": {
         "axis": "vertical",
         "fixed": 7,
@@ -5505,10 +5831,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 55,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 56,
+      "run": 55,
       "geometry": {
         "axis": "vertical",
         "fixed": 8,
@@ -5530,10 +5858,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4235
+      "ms": 4235,
+      "originalRun": 56,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 56,
+      "run": 55,
       "geometry": {
         "axis": "vertical",
         "fixed": 8,
@@ -5555,10 +5885,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4303
+      "ms": 4303,
+      "originalRun": 56,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 56,
+      "run": 55,
       "geometry": {
         "axis": "vertical",
         "fixed": 8,
@@ -5579,10 +5911,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 56,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 56,
+      "run": 55,
       "geometry": {
         "axis": "vertical",
         "fixed": 8,
@@ -5603,10 +5937,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 56,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 57,
+      "run": 56,
       "geometry": {
         "axis": "vertical",
         "fixed": 9,
@@ -5628,10 +5964,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4070
+      "ms": 4070,
+      "originalRun": 57,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 57,
+      "run": 56,
       "geometry": {
         "axis": "vertical",
         "fixed": 9,
@@ -5653,10 +5991,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4189
+      "ms": 4189,
+      "originalRun": 57,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 57,
+      "run": 56,
       "geometry": {
         "axis": "vertical",
         "fixed": 9,
@@ -5677,10 +6017,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 57,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 57,
+      "run": 56,
       "geometry": {
         "axis": "vertical",
         "fixed": 9,
@@ -5701,10 +6043,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 57,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 58,
+      "run": 57,
       "geometry": {
         "axis": "vertical",
         "fixed": 10,
@@ -5726,10 +6070,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1562
+      "ms": 1562,
+      "originalRun": 58,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 58,
+      "run": 57,
       "geometry": {
         "axis": "vertical",
         "fixed": 10,
@@ -5751,10 +6097,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1503
+      "ms": 1503,
+      "originalRun": 58,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 58,
+      "run": 57,
       "geometry": {
         "axis": "vertical",
         "fixed": 10,
@@ -5775,10 +6123,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 58,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 58,
+      "run": 57,
       "geometry": {
         "axis": "vertical",
         "fixed": 10,
@@ -5799,10 +6149,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 58,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 59,
+      "run": 58,
       "geometry": {
         "axis": "vertical",
         "fixed": 10,
@@ -5824,10 +6176,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1979
+      "ms": 1979,
+      "originalRun": 59,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 59,
+      "run": 58,
       "geometry": {
         "axis": "vertical",
         "fixed": 10,
@@ -5849,10 +6203,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1885
+      "ms": 1885,
+      "originalRun": 59,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 59,
+      "run": 58,
       "geometry": {
         "axis": "vertical",
         "fixed": 10,
@@ -5873,10 +6229,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 59,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 59,
+      "run": 58,
       "geometry": {
         "axis": "vertical",
         "fixed": 10,
@@ -5897,10 +6255,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 59,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 60,
+      "run": 59,
       "geometry": {
         "axis": "vertical",
         "fixed": 11,
@@ -5922,10 +6282,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1369
+      "ms": 1369,
+      "originalRun": 60,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 60,
+      "run": 59,
       "geometry": {
         "axis": "vertical",
         "fixed": 11,
@@ -5947,10 +6309,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1456
+      "ms": 1456,
+      "originalRun": 60,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 60,
+      "run": 59,
       "geometry": {
         "axis": "vertical",
         "fixed": 11,
@@ -5971,10 +6335,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 60,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 60,
+      "run": 59,
       "geometry": {
         "axis": "vertical",
         "fixed": 11,
@@ -5995,10 +6361,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 60,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 61,
+      "run": 60,
       "geometry": {
         "axis": "vertical",
         "fixed": 11,
@@ -6020,10 +6388,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1582
+      "ms": 1582,
+      "originalRun": 61,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 61,
+      "run": 60,
       "geometry": {
         "axis": "vertical",
         "fixed": 11,
@@ -6045,10 +6415,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1628
+      "ms": 1628,
+      "originalRun": 61,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 61,
+      "run": 60,
       "geometry": {
         "axis": "vertical",
         "fixed": 11,
@@ -6069,10 +6441,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 61,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 61,
+      "run": 60,
       "geometry": {
         "axis": "vertical",
         "fixed": 11,
@@ -6093,10 +6467,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 61,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 62,
+      "run": 61,
       "geometry": {
         "axis": "vertical",
         "fixed": 12,
@@ -6118,10 +6494,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1469
+      "ms": 1469,
+      "originalRun": 62,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 62,
+      "run": 61,
       "geometry": {
         "axis": "vertical",
         "fixed": 12,
@@ -6143,10 +6521,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1281
+      "ms": 1281,
+      "originalRun": 62,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 62,
+      "run": 61,
       "geometry": {
         "axis": "vertical",
         "fixed": 12,
@@ -6167,10 +6547,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 62,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 62,
+      "run": 61,
       "geometry": {
         "axis": "vertical",
         "fixed": 12,
@@ -6191,10 +6573,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 62,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 63,
+      "run": 62,
       "geometry": {
         "axis": "vertical",
         "fixed": 12,
@@ -6216,10 +6600,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 3780
+      "ms": 3780,
+      "originalRun": 63,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 63,
+      "run": 62,
       "geometry": {
         "axis": "vertical",
         "fixed": 12,
@@ -6241,10 +6627,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4372
+      "ms": 4372,
+      "originalRun": 63,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 63,
+      "run": 62,
       "geometry": {
         "axis": "vertical",
         "fixed": 12,
@@ -6265,10 +6653,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 63,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 63,
+      "run": 62,
       "geometry": {
         "axis": "vertical",
         "fixed": 12,
@@ -6289,10 +6679,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 63,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 64,
+      "run": 63,
       "geometry": {
         "axis": "vertical",
         "fixed": 13,
@@ -6314,10 +6706,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5930
+      "ms": 5930,
+      "originalRun": 64,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 64,
+      "run": 63,
       "geometry": {
         "axis": "vertical",
         "fixed": 13,
@@ -6339,10 +6733,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5907
+      "ms": 5907,
+      "originalRun": 64,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 64,
+      "run": 63,
       "geometry": {
         "axis": "vertical",
         "fixed": 13,
@@ -6363,10 +6759,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 64,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 64,
+      "run": 63,
       "geometry": {
         "axis": "vertical",
         "fixed": 13,
@@ -6387,10 +6785,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 64,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 65,
+      "run": 64,
       "geometry": {
         "axis": "vertical",
         "fixed": 14,
@@ -6412,10 +6812,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 429
+      "ms": 429,
+      "originalRun": 65,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 65,
+      "run": 64,
       "geometry": {
         "axis": "vertical",
         "fixed": 14,
@@ -6437,10 +6839,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 398
+      "ms": 398,
+      "originalRun": 65,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 65,
+      "run": 64,
       "geometry": {
         "axis": "vertical",
         "fixed": 14,
@@ -6461,10 +6865,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 65,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 65,
+      "run": 64,
       "geometry": {
         "axis": "vertical",
         "fixed": 14,
@@ -6485,10 +6891,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 65,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 66,
+      "run": 65,
       "geometry": {
         "axis": "vertical",
         "fixed": 14,
@@ -6510,10 +6918,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5092
+      "ms": 5092,
+      "originalRun": 66,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 66,
+      "run": 65,
       "geometry": {
         "axis": "vertical",
         "fixed": 14,
@@ -6535,10 +6945,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5287
+      "ms": 5287,
+      "originalRun": 66,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 66,
+      "run": 65,
       "geometry": {
         "axis": "vertical",
         "fixed": 14,
@@ -6559,10 +6971,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 66,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 66,
+      "run": 65,
       "geometry": {
         "axis": "vertical",
         "fixed": 14,
@@ -6583,16 +6997,18 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 66,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 67,
+      "run": 66,
       "geometry": {
         "axis": "vertical",
         "fixed": 15,
-        "first": 5,
+        "first": 6,
         "last": 29,
-        "length": 25
+        "length": 24
       },
       "method": "keyboard",
       "direction": "forward",
@@ -6601,48 +7017,48 @@
         "y": 944
       },
       "x": 496,
-      "y": 941,
+      "y": 949,
       "vx": 0,
       "vy": 0,
       "zoom": 1,
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 7698
+      "ms": 8962
     },
     {
-      "run": 67,
+      "run": 66,
       "geometry": {
         "axis": "vertical",
         "fixed": 15,
-        "first": 5,
+        "first": 6,
         "last": 29,
-        "length": 25
+        "length": 24
       },
       "method": "keyboard",
       "direction": "reverse",
       "target": {
         "x": 496,
-        "y": 176
+        "y": 208
       },
       "x": 496,
-      "y": 179,
+      "y": 208,
       "vx": 0,
       "vy": 0,
       "zoom": 1,
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 7782
+      "ms": 7635
     },
     {
-      "run": 67,
+      "run": 66,
       "geometry": {
         "axis": "vertical",
         "fixed": 15,
-        "first": 5,
+        "first": 6,
         "last": 29,
-        "length": 25
+        "length": 24
       },
       "method": "click",
       "direction": "forward",
@@ -6660,22 +7076,22 @@
       "arrived": true
     },
     {
-      "run": 67,
+      "run": 66,
       "geometry": {
         "axis": "vertical",
         "fixed": 15,
-        "first": 5,
+        "first": 6,
         "last": 29,
-        "length": 25
+        "length": 24
       },
       "method": "click",
       "direction": "reverse",
       "target": {
         "x": 496,
-        "y": 176
+        "y": 208
       },
       "x": 496,
-      "y": 176,
+      "y": 208,
       "vx": 0,
       "vy": 0,
       "zoom": 1,
@@ -6684,7 +7100,7 @@
       "arrived": true
     },
     {
-      "run": 68,
+      "run": 67,
       "geometry": {
         "axis": "vertical",
         "fixed": 16,
@@ -6706,10 +7122,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 7735
+      "ms": 7735,
+      "originalRun": 68,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 68,
+      "run": 67,
       "geometry": {
         "axis": "vertical",
         "fixed": 16,
@@ -6731,10 +7149,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 7786
+      "ms": 7786,
+      "originalRun": 68,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 68,
+      "run": 67,
       "geometry": {
         "axis": "vertical",
         "fixed": 16,
@@ -6755,10 +7175,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 68,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 68,
+      "run": 67,
       "geometry": {
         "axis": "vertical",
         "fixed": 16,
@@ -6779,10 +7201,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 68,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 69,
+      "run": 68,
       "geometry": {
         "axis": "vertical",
         "fixed": 17,
@@ -6804,10 +7228,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 7631
+      "ms": 7631,
+      "originalRun": 69,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 69,
+      "run": 68,
       "geometry": {
         "axis": "vertical",
         "fixed": 17,
@@ -6829,10 +7255,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 7359
+      "ms": 7359,
+      "originalRun": 69,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 69,
+      "run": 68,
       "geometry": {
         "axis": "vertical",
         "fixed": 17,
@@ -6853,10 +7281,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 69,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 69,
+      "run": 68,
       "geometry": {
         "axis": "vertical",
         "fixed": 17,
@@ -6877,16 +7307,18 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 69,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 70,
+      "run": 69,
       "geometry": {
         "axis": "vertical",
         "fixed": 18,
-        "first": 5,
+        "first": 6,
         "last": 15,
-        "length": 11
+        "length": 10
       },
       "method": "keyboard",
       "direction": "forward",
@@ -6895,48 +7327,48 @@
         "y": 496
       },
       "x": 592,
-      "y": 494,
+      "y": 496,
       "vx": 0,
       "vy": 0,
       "zoom": 1,
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 3915
+      "ms": 3137
     },
     {
-      "run": 70,
+      "run": 69,
       "geometry": {
         "axis": "vertical",
         "fixed": 18,
-        "first": 5,
+        "first": 6,
         "last": 15,
-        "length": 11
+        "length": 10
       },
       "method": "keyboard",
       "direction": "reverse",
       "target": {
         "x": 592,
-        "y": 176
+        "y": 208
       },
       "x": 592,
-      "y": 176,
+      "y": 211,
       "vx": 0,
       "vy": 0,
       "zoom": 1,
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 3583
+      "ms": 3294
     },
     {
-      "run": 70,
+      "run": 69,
       "geometry": {
         "axis": "vertical",
         "fixed": 18,
-        "first": 5,
+        "first": 6,
         "last": 15,
-        "length": 11
+        "length": 10
       },
       "method": "click",
       "direction": "forward",
@@ -6954,22 +7386,22 @@
       "arrived": true
     },
     {
-      "run": 70,
+      "run": 69,
       "geometry": {
         "axis": "vertical",
         "fixed": 18,
-        "first": 5,
+        "first": 6,
         "last": 15,
-        "length": 11
+        "length": 10
       },
       "method": "click",
       "direction": "reverse",
       "target": {
         "x": 592,
-        "y": 176
+        "y": 208
       },
       "x": 592,
-      "y": 176,
+      "y": 208,
       "vx": 0,
       "vy": 0,
       "zoom": 1,
@@ -6978,7 +7410,7 @@
       "arrived": true
     },
     {
-      "run": 71,
+      "run": 70,
       "geometry": {
         "axis": "vertical",
         "fixed": 18,
@@ -7000,10 +7432,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 3052
+      "ms": 3052,
+      "originalRun": 71,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 71,
+      "run": 70,
       "geometry": {
         "axis": "vertical",
         "fixed": 18,
@@ -7025,10 +7459,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 3066
+      "ms": 3066,
+      "originalRun": 71,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 71,
+      "run": 70,
       "geometry": {
         "axis": "vertical",
         "fixed": 18,
@@ -7049,10 +7485,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 71,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 71,
+      "run": 70,
       "geometry": {
         "axis": "vertical",
         "fixed": 18,
@@ -7073,108 +7511,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
-    },
-    {
-      "run": 72,
-      "geometry": {
-        "axis": "vertical",
-        "fixed": 19,
-        "first": 5,
-        "last": 6,
-        "length": 2
-      },
-      "method": "keyboard",
-      "direction": "forward",
-      "target": {
-        "x": 624,
-        "y": 208
-      },
-      "x": 624,
-      "y": 203,
-      "vx": 0,
-      "vy": 0,
-      "zoom": 1,
-      "scale": 1,
-      "popups": 0,
       "arrived": true,
-      "ms": 338
+      "originalRun": 71,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 72,
-      "geometry": {
-        "axis": "vertical",
-        "fixed": 19,
-        "first": 5,
-        "last": 6,
-        "length": 2
-      },
-      "method": "keyboard",
-      "direction": "reverse",
-      "target": {
-        "x": 624,
-        "y": 176
-      },
-      "x": 624,
-      "y": 176,
-      "vx": 0,
-      "vy": 0,
-      "zoom": 1,
-      "scale": 1,
-      "popups": 0,
-      "arrived": true,
-      "ms": 343
-    },
-    {
-      "run": 72,
-      "geometry": {
-        "axis": "vertical",
-        "fixed": 19,
-        "first": 5,
-        "last": 6,
-        "length": 2
-      },
-      "method": "click",
-      "direction": "forward",
-      "target": {
-        "x": 624,
-        "y": 208
-      },
-      "x": 623.6666666666666,
-      "y": 208,
-      "vx": 0,
-      "vy": 0,
-      "zoom": 1,
-      "scale": 1,
-      "popups": 0,
-      "arrived": true
-    },
-    {
-      "run": 72,
-      "geometry": {
-        "axis": "vertical",
-        "fixed": 19,
-        "first": 5,
-        "last": 6,
-        "length": 2
-      },
-      "method": "click",
-      "direction": "reverse",
-      "target": {
-        "x": 624,
-        "y": 176
-      },
-      "x": 624,
-      "y": 176,
-      "vx": 0,
-      "vy": 0,
-      "zoom": 1,
-      "scale": 1,
-      "popups": 0,
-      "arrived": true
-    },
-    {
-      "run": 73,
+      "run": 71,
       "geometry": {
         "axis": "vertical",
         "fixed": 19,
@@ -7196,10 +7538,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2744
+      "ms": 2744,
+      "originalRun": 73,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 73,
+      "run": 71,
       "geometry": {
         "axis": "vertical",
         "fixed": 19,
@@ -7221,10 +7565,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2151
+      "ms": 2151,
+      "originalRun": 73,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 73,
+      "run": 71,
       "geometry": {
         "axis": "vertical",
         "fixed": 19,
@@ -7245,10 +7591,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 73,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 73,
+      "run": 71,
       "geometry": {
         "axis": "vertical",
         "fixed": 19,
@@ -7269,10 +7617,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 73,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 74,
+      "run": 72,
       "geometry": {
         "axis": "vertical",
         "fixed": 19,
@@ -7294,10 +7644,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2079
+      "ms": 2079,
+      "originalRun": 74,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 74,
+      "run": 72,
       "geometry": {
         "axis": "vertical",
         "fixed": 19,
@@ -7319,10 +7671,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2012
+      "ms": 2012,
+      "originalRun": 74,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 74,
+      "run": 72,
       "geometry": {
         "axis": "vertical",
         "fixed": 19,
@@ -7343,10 +7697,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 74,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 74,
+      "run": 72,
       "geometry": {
         "axis": "vertical",
         "fixed": 19,
@@ -7367,10 +7723,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 74,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 75,
+      "run": 73,
       "geometry": {
         "axis": "vertical",
         "fixed": 19,
@@ -7392,10 +7750,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 479
+      "ms": 479,
+      "originalRun": 75,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 75,
+      "run": 73,
       "geometry": {
         "axis": "vertical",
         "fixed": 19,
@@ -7417,10 +7777,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 501
+      "ms": 501,
+      "originalRun": 75,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 75,
+      "run": 73,
       "geometry": {
         "axis": "vertical",
         "fixed": 19,
@@ -7441,10 +7803,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 75,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 75,
+      "run": 73,
       "geometry": {
         "axis": "vertical",
         "fixed": 19,
@@ -7465,108 +7829,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
-    },
-    {
-      "run": 76,
-      "geometry": {
-        "axis": "vertical",
-        "fixed": 20,
-        "first": 5,
-        "last": 6,
-        "length": 2
-      },
-      "method": "keyboard",
-      "direction": "forward",
-      "target": {
-        "x": 656,
-        "y": 208
-      },
-      "x": 656,
-      "y": 206,
-      "vx": 0,
-      "vy": 0,
-      "zoom": 1,
-      "scale": 1,
-      "popups": 0,
       "arrived": true,
-      "ms": 498
+      "originalRun": 75,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 76,
-      "geometry": {
-        "axis": "vertical",
-        "fixed": 20,
-        "first": 5,
-        "last": 6,
-        "length": 2
-      },
-      "method": "keyboard",
-      "direction": "reverse",
-      "target": {
-        "x": 656,
-        "y": 176
-      },
-      "x": 656,
-      "y": 176,
-      "vx": 0,
-      "vy": 0,
-      "zoom": 1,
-      "scale": 1,
-      "popups": 0,
-      "arrived": true,
-      "ms": 400
-    },
-    {
-      "run": 76,
-      "geometry": {
-        "axis": "vertical",
-        "fixed": 20,
-        "first": 5,
-        "last": 6,
-        "length": 2
-      },
-      "method": "click",
-      "direction": "forward",
-      "target": {
-        "x": 656,
-        "y": 208
-      },
-      "x": 655.6666666666666,
-      "y": 208,
-      "vx": 0,
-      "vy": 0,
-      "zoom": 1,
-      "scale": 1,
-      "popups": 0,
-      "arrived": true
-    },
-    {
-      "run": 76,
-      "geometry": {
-        "axis": "vertical",
-        "fixed": 20,
-        "first": 5,
-        "last": 6,
-        "length": 2
-      },
-      "method": "click",
-      "direction": "reverse",
-      "target": {
-        "x": 656,
-        "y": 176
-      },
-      "x": 656,
-      "y": 176,
-      "vx": 0,
-      "vy": 0,
-      "zoom": 1,
-      "scale": 1,
-      "popups": 0,
-      "arrived": true
-    },
-    {
-      "run": 77,
+      "run": 74,
       "geometry": {
         "axis": "vertical",
         "fixed": 20,
@@ -7588,10 +7856,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2098
+      "ms": 2098,
+      "originalRun": 77,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 77,
+      "run": 74,
       "geometry": {
         "axis": "vertical",
         "fixed": 20,
@@ -7613,10 +7883,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2262
+      "ms": 2262,
+      "originalRun": 77,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 77,
+      "run": 74,
       "geometry": {
         "axis": "vertical",
         "fixed": 20,
@@ -7637,10 +7909,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 77,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 77,
+      "run": 74,
       "geometry": {
         "axis": "vertical",
         "fixed": 20,
@@ -7661,10 +7935,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 77,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 78,
+      "run": 75,
       "geometry": {
         "axis": "vertical",
         "fixed": 20,
@@ -7686,10 +7962,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2324
+      "ms": 2324,
+      "originalRun": 78,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 78,
+      "run": 75,
       "geometry": {
         "axis": "vertical",
         "fixed": 20,
@@ -7711,10 +7989,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 2211
+      "ms": 2211,
+      "originalRun": 78,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 78,
+      "run": 75,
       "geometry": {
         "axis": "vertical",
         "fixed": 20,
@@ -7735,10 +8015,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 78,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 78,
+      "run": 75,
       "geometry": {
         "axis": "vertical",
         "fixed": 20,
@@ -7759,10 +8041,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 78,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 79,
+      "run": 76,
       "geometry": {
         "axis": "vertical",
         "fixed": 20,
@@ -7784,10 +8068,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 432
+      "ms": 432,
+      "originalRun": 79,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 79,
+      "run": 76,
       "geometry": {
         "axis": "vertical",
         "fixed": 20,
@@ -7809,10 +8095,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 591
+      "ms": 591,
+      "originalRun": 79,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 79,
+      "run": 76,
       "geometry": {
         "axis": "vertical",
         "fixed": 20,
@@ -7833,10 +8121,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 79,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 79,
+      "run": 76,
       "geometry": {
         "axis": "vertical",
         "fixed": 20,
@@ -7857,16 +8147,18 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 79,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 80,
+      "run": 77,
       "geometry": {
         "axis": "vertical",
         "fixed": 21,
-        "first": 5,
+        "first": 6,
         "last": 15,
-        "length": 11
+        "length": 10
       },
       "method": "keyboard",
       "direction": "forward",
@@ -7882,41 +8174,41 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 3379
+      "ms": 4814
     },
     {
-      "run": 80,
+      "run": 77,
       "geometry": {
         "axis": "vertical",
         "fixed": 21,
-        "first": 5,
+        "first": 6,
         "last": 15,
-        "length": 11
+        "length": 10
       },
       "method": "keyboard",
       "direction": "reverse",
       "target": {
         "x": 688,
-        "y": 176
+        "y": 208
       },
       "x": 688,
-      "y": 176,
+      "y": 208,
       "vx": 0,
       "vy": 0,
       "zoom": 1,
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 3639
+      "ms": 3304
     },
     {
-      "run": 80,
+      "run": 77,
       "geometry": {
         "axis": "vertical",
         "fixed": 21,
-        "first": 5,
+        "first": 6,
         "last": 15,
-        "length": 11
+        "length": 10
       },
       "method": "click",
       "direction": "forward",
@@ -7934,22 +8226,22 @@
       "arrived": true
     },
     {
-      "run": 80,
+      "run": 77,
       "geometry": {
         "axis": "vertical",
         "fixed": 21,
-        "first": 5,
+        "first": 6,
         "last": 15,
-        "length": 11
+        "length": 10
       },
       "method": "click",
       "direction": "reverse",
       "target": {
         "x": 688,
-        "y": 176
+        "y": 208
       },
       "x": 688,
-      "y": 176,
+      "y": 208,
       "vx": 0,
       "vy": 0,
       "zoom": 1,
@@ -7958,7 +8250,7 @@
       "arrived": true
     },
     {
-      "run": 81,
+      "run": 78,
       "geometry": {
         "axis": "vertical",
         "fixed": 21,
@@ -7980,10 +8272,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 3184
+      "ms": 3184,
+      "originalRun": 81,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 81,
+      "run": 78,
       "geometry": {
         "axis": "vertical",
         "fixed": 21,
@@ -8005,10 +8299,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 3168
+      "ms": 3168,
+      "originalRun": 81,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 81,
+      "run": 78,
       "geometry": {
         "axis": "vertical",
         "fixed": 21,
@@ -8029,10 +8325,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 81,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 81,
+      "run": 78,
       "geometry": {
         "axis": "vertical",
         "fixed": 21,
@@ -8053,10 +8351,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 81,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 82,
+      "run": 79,
       "geometry": {
         "axis": "vertical",
         "fixed": 22,
@@ -8078,10 +8378,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 7892
+      "ms": 7892,
+      "originalRun": 82,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 82,
+      "run": 79,
       "geometry": {
         "axis": "vertical",
         "fixed": 22,
@@ -8103,10 +8405,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 8060
+      "ms": 8060,
+      "originalRun": 82,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 82,
+      "run": 79,
       "geometry": {
         "axis": "vertical",
         "fixed": 22,
@@ -8127,10 +8431,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 82,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 82,
+      "run": 79,
       "geometry": {
         "axis": "vertical",
         "fixed": 22,
@@ -8151,10 +8457,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 82,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 83,
+      "run": 80,
       "geometry": {
         "axis": "vertical",
         "fixed": 23,
@@ -8176,10 +8484,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 7523
+      "ms": 7523,
+      "originalRun": 83,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 83,
+      "run": 80,
       "geometry": {
         "axis": "vertical",
         "fixed": 23,
@@ -8201,10 +8511,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 7669
+      "ms": 7669,
+      "originalRun": 83,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 83,
+      "run": 80,
       "geometry": {
         "axis": "vertical",
         "fixed": 23,
@@ -8225,10 +8537,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 83,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 83,
+      "run": 80,
       "geometry": {
         "axis": "vertical",
         "fixed": 23,
@@ -8249,16 +8563,18 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 83,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 84,
+      "run": 81,
       "geometry": {
         "axis": "vertical",
         "fixed": 24,
-        "first": 5,
+        "first": 6,
         "last": 29,
-        "length": 25
+        "length": 24
       },
       "method": "keyboard",
       "direction": "forward",
@@ -8267,48 +8583,48 @@
         "y": 944
       },
       "x": 784,
-      "y": 944,
+      "y": 946,
       "vx": 0,
       "vy": 0,
       "zoom": 1,
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 8305
+      "ms": 8166
     },
     {
-      "run": 84,
+      "run": 81,
       "geometry": {
         "axis": "vertical",
         "fixed": 24,
-        "first": 5,
+        "first": 6,
         "last": 29,
-        "length": 25
+        "length": 24
       },
       "method": "keyboard",
       "direction": "reverse",
       "target": {
         "x": 784,
-        "y": 176
+        "y": 208
       },
       "x": 784,
-      "y": 176,
+      "y": 208,
       "vx": 0,
       "vy": 0,
       "zoom": 1,
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 8332
+      "ms": 8644
     },
     {
-      "run": 84,
+      "run": 81,
       "geometry": {
         "axis": "vertical",
         "fixed": 24,
-        "first": 5,
+        "first": 6,
         "last": 29,
-        "length": 25
+        "length": 24
       },
       "method": "click",
       "direction": "forward",
@@ -8326,22 +8642,22 @@
       "arrived": true
     },
     {
-      "run": 84,
+      "run": 81,
       "geometry": {
         "axis": "vertical",
         "fixed": 24,
-        "first": 5,
+        "first": 6,
         "last": 29,
-        "length": 25
+        "length": 24
       },
       "method": "click",
       "direction": "reverse",
       "target": {
         "x": 784,
-        "y": 176
+        "y": 208
       },
       "x": 784,
-      "y": 176,
+      "y": 208,
       "vx": 0,
       "vy": 0,
       "zoom": 1,
@@ -8350,7 +8666,7 @@
       "arrived": true
     },
     {
-      "run": 85,
+      "run": 82,
       "geometry": {
         "axis": "vertical",
         "fixed": 25,
@@ -8372,10 +8688,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 443
+      "ms": 443,
+      "originalRun": 85,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 85,
+      "run": 82,
       "geometry": {
         "axis": "vertical",
         "fixed": 25,
@@ -8397,10 +8715,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 392
+      "ms": 392,
+      "originalRun": 85,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 85,
+      "run": 82,
       "geometry": {
         "axis": "vertical",
         "fixed": 25,
@@ -8421,10 +8741,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 85,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 85,
+      "run": 82,
       "geometry": {
         "axis": "vertical",
         "fixed": 25,
@@ -8445,10 +8767,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 85,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 86,
+      "run": 83,
       "geometry": {
         "axis": "vertical",
         "fixed": 25,
@@ -8470,10 +8794,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5233
+      "ms": 5233,
+      "originalRun": 86,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 86,
+      "run": 83,
       "geometry": {
         "axis": "vertical",
         "fixed": 25,
@@ -8495,10 +8821,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 5351
+      "ms": 5351,
+      "originalRun": 86,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 86,
+      "run": 83,
       "geometry": {
         "axis": "vertical",
         "fixed": 25,
@@ -8519,10 +8847,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 86,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 86,
+      "run": 83,
       "geometry": {
         "axis": "vertical",
         "fixed": 25,
@@ -8543,10 +8873,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 86,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 87,
+      "run": 84,
       "geometry": {
         "axis": "vertical",
         "fixed": 26,
@@ -8568,10 +8900,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 6390
+      "ms": 6390,
+      "originalRun": 87,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 87,
+      "run": 84,
       "geometry": {
         "axis": "vertical",
         "fixed": 26,
@@ -8593,10 +8927,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 6435
+      "ms": 6435,
+      "originalRun": 87,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 87,
+      "run": 84,
       "geometry": {
         "axis": "vertical",
         "fixed": 26,
@@ -8617,10 +8953,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 87,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 87,
+      "run": 84,
       "geometry": {
         "axis": "vertical",
         "fixed": 26,
@@ -8641,10 +8979,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 87,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 88,
+      "run": 85,
       "geometry": {
         "axis": "vertical",
         "fixed": 27,
@@ -8666,10 +9006,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1553
+      "ms": 1553,
+      "originalRun": 88,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 88,
+      "run": 85,
       "geometry": {
         "axis": "vertical",
         "fixed": 27,
@@ -8691,10 +9033,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1615
+      "ms": 1615,
+      "originalRun": 88,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 88,
+      "run": 85,
       "geometry": {
         "axis": "vertical",
         "fixed": 27,
@@ -8715,10 +9059,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 88,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 88,
+      "run": 85,
       "geometry": {
         "axis": "vertical",
         "fixed": 27,
@@ -8739,10 +9085,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 88,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 89,
+      "run": 86,
       "geometry": {
         "axis": "vertical",
         "fixed": 27,
@@ -8764,10 +9112,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4365
+      "ms": 4365,
+      "originalRun": 89,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 89,
+      "run": 86,
       "geometry": {
         "axis": "vertical",
         "fixed": 27,
@@ -8789,10 +9139,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4319
+      "ms": 4319,
+      "originalRun": 89,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 89,
+      "run": 86,
       "geometry": {
         "axis": "vertical",
         "fixed": 27,
@@ -8813,10 +9165,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 89,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 89,
+      "run": 86,
       "geometry": {
         "axis": "vertical",
         "fixed": 27,
@@ -8837,10 +9191,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 89,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 90,
+      "run": 87,
       "geometry": {
         "axis": "vertical",
         "fixed": 28,
@@ -8862,10 +9218,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1547
+      "ms": 1547,
+      "originalRun": 90,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 90,
+      "run": 87,
       "geometry": {
         "axis": "vertical",
         "fixed": 28,
@@ -8887,10 +9245,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1709
+      "ms": 1709,
+      "originalRun": 90,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 90,
+      "run": 87,
       "geometry": {
         "axis": "vertical",
         "fixed": 28,
@@ -8911,10 +9271,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 90,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 90,
+      "run": 87,
       "geometry": {
         "axis": "vertical",
         "fixed": 28,
@@ -8935,10 +9297,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 90,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 91,
+      "run": 88,
       "geometry": {
         "axis": "vertical",
         "fixed": 28,
@@ -8960,10 +9324,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1693
+      "ms": 1693,
+      "originalRun": 91,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 91,
+      "run": 88,
       "geometry": {
         "axis": "vertical",
         "fixed": 28,
@@ -8985,10 +9351,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1773
+      "ms": 1773,
+      "originalRun": 91,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 91,
+      "run": 88,
       "geometry": {
         "axis": "vertical",
         "fixed": 28,
@@ -9009,10 +9377,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 91,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 91,
+      "run": 88,
       "geometry": {
         "axis": "vertical",
         "fixed": 28,
@@ -9033,10 +9403,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 91,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 92,
+      "run": 89,
       "geometry": {
         "axis": "vertical",
         "fixed": 29,
@@ -9058,10 +9430,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1358
+      "ms": 1358,
+      "originalRun": 92,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 92,
+      "run": 89,
       "geometry": {
         "axis": "vertical",
         "fixed": 29,
@@ -9083,10 +9457,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1361
+      "ms": 1361,
+      "originalRun": 92,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 92,
+      "run": 89,
       "geometry": {
         "axis": "vertical",
         "fixed": 29,
@@ -9107,10 +9483,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 92,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 92,
+      "run": 89,
       "geometry": {
         "axis": "vertical",
         "fixed": 29,
@@ -9131,10 +9509,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 92,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 93,
+      "run": 90,
       "geometry": {
         "axis": "vertical",
         "fixed": 29,
@@ -9156,10 +9536,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1689
+      "ms": 1689,
+      "originalRun": 93,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 93,
+      "run": 90,
       "geometry": {
         "axis": "vertical",
         "fixed": 29,
@@ -9181,10 +9563,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1699
+      "ms": 1699,
+      "originalRun": 93,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 93,
+      "run": 90,
       "geometry": {
         "axis": "vertical",
         "fixed": 29,
@@ -9205,10 +9589,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 93,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 93,
+      "run": 90,
       "geometry": {
         "axis": "vertical",
         "fixed": 29,
@@ -9229,10 +9615,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 93,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 94,
+      "run": 91,
       "geometry": {
         "axis": "vertical",
         "fixed": 30,
@@ -9254,10 +9642,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4087
+      "ms": 4087,
+      "originalRun": 94,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 94,
+      "run": 91,
       "geometry": {
         "axis": "vertical",
         "fixed": 30,
@@ -9279,10 +9669,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4102
+      "ms": 4102,
+      "originalRun": 94,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 94,
+      "run": 91,
       "geometry": {
         "axis": "vertical",
         "fixed": 30,
@@ -9303,10 +9695,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 94,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 94,
+      "run": 91,
       "geometry": {
         "axis": "vertical",
         "fixed": 30,
@@ -9327,10 +9721,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 94,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 95,
+      "run": 92,
       "geometry": {
         "axis": "vertical",
         "fixed": 31,
@@ -9352,10 +9748,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4590
+      "ms": 4590,
+      "originalRun": 95,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 95,
+      "run": 92,
       "geometry": {
         "axis": "vertical",
         "fixed": 31,
@@ -9377,10 +9775,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4198
+      "ms": 4198,
+      "originalRun": 95,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 95,
+      "run": 92,
       "geometry": {
         "axis": "vertical",
         "fixed": 31,
@@ -9401,10 +9801,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 95,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 95,
+      "run": 92,
       "geometry": {
         "axis": "vertical",
         "fixed": 31,
@@ -9425,10 +9827,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 95,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 96,
+      "run": 93,
       "geometry": {
         "axis": "vertical",
         "fixed": 32,
@@ -9450,10 +9854,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 673
+      "ms": 673,
+      "originalRun": 96,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 96,
+      "run": 93,
       "geometry": {
         "axis": "vertical",
         "fixed": 32,
@@ -9475,10 +9881,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 318
+      "ms": 318,
+      "originalRun": 96,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 96,
+      "run": 93,
       "geometry": {
         "axis": "vertical",
         "fixed": 32,
@@ -9499,10 +9907,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 96,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 96,
+      "run": 93,
       "geometry": {
         "axis": "vertical",
         "fixed": 32,
@@ -9523,10 +9933,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 96,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 97,
+      "run": 94,
       "geometry": {
         "axis": "vertical",
         "fixed": 32,
@@ -9548,10 +9960,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1427
+      "ms": 1427,
+      "originalRun": 97,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 97,
+      "run": 94,
       "geometry": {
         "axis": "vertical",
         "fixed": 32,
@@ -9573,10 +9987,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1468
+      "ms": 1468,
+      "originalRun": 97,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 97,
+      "run": 94,
       "geometry": {
         "axis": "vertical",
         "fixed": 32,
@@ -9597,10 +10013,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 97,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 97,
+      "run": 94,
       "geometry": {
         "axis": "vertical",
         "fixed": 32,
@@ -9621,10 +10039,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 97,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 98,
+      "run": 95,
       "geometry": {
         "axis": "vertical",
         "fixed": 32,
@@ -9646,10 +10066,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 370
+      "ms": 370,
+      "originalRun": 98,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 98,
+      "run": 95,
       "geometry": {
         "axis": "vertical",
         "fixed": 32,
@@ -9671,10 +10093,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 482
+      "ms": 482,
+      "originalRun": 98,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 98,
+      "run": 95,
       "geometry": {
         "axis": "vertical",
         "fixed": 32,
@@ -9695,10 +10119,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 98,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 98,
+      "run": 95,
       "geometry": {
         "axis": "vertical",
         "fixed": 32,
@@ -9719,10 +10145,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 98,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 99,
+      "run": 96,
       "geometry": {
         "axis": "vertical",
         "fixed": 33,
@@ -9744,10 +10172,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 432
+      "ms": 432,
+      "originalRun": 99,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 99,
+      "run": 96,
       "geometry": {
         "axis": "vertical",
         "fixed": 33,
@@ -9769,10 +10199,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 570
+      "ms": 570,
+      "originalRun": 99,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 99,
+      "run": 96,
       "geometry": {
         "axis": "vertical",
         "fixed": 33,
@@ -9793,10 +10225,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 99,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 99,
+      "run": 96,
       "geometry": {
         "axis": "vertical",
         "fixed": 33,
@@ -9817,10 +10251,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 99,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 100,
+      "run": 97,
       "geometry": {
         "axis": "vertical",
         "fixed": 33,
@@ -9842,10 +10278,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1352
+      "ms": 1352,
+      "originalRun": 100,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 100,
+      "run": 97,
       "geometry": {
         "axis": "vertical",
         "fixed": 33,
@@ -9867,10 +10305,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 1341
+      "ms": 1341,
+      "originalRun": 100,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 100,
+      "run": 97,
       "geometry": {
         "axis": "vertical",
         "fixed": 33,
@@ -9891,10 +10331,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 100,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 100,
+      "run": 97,
       "geometry": {
         "axis": "vertical",
         "fixed": 33,
@@ -9915,10 +10357,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 100,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 101,
+      "run": 98,
       "geometry": {
         "axis": "vertical",
         "fixed": 33,
@@ -9940,10 +10384,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 363
+      "ms": 363,
+      "originalRun": 101,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 101,
+      "run": 98,
       "geometry": {
         "axis": "vertical",
         "fixed": 33,
@@ -9965,10 +10411,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 421
+      "ms": 421,
+      "originalRun": 101,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 101,
+      "run": 98,
       "geometry": {
         "axis": "vertical",
         "fixed": 33,
@@ -9989,10 +10437,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 101,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 101,
+      "run": 98,
       "geometry": {
         "axis": "vertical",
         "fixed": 33,
@@ -10013,10 +10463,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 101,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 102,
+      "run": 99,
       "geometry": {
         "axis": "vertical",
         "fixed": 34,
@@ -10038,10 +10490,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4462
+      "ms": 4462,
+      "originalRun": 102,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 102,
+      "run": 99,
       "geometry": {
         "axis": "vertical",
         "fixed": 34,
@@ -10063,10 +10517,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4524
+      "ms": 4524,
+      "originalRun": 102,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 102,
+      "run": 99,
       "geometry": {
         "axis": "vertical",
         "fixed": 34,
@@ -10087,10 +10543,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 102,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 102,
+      "run": 99,
       "geometry": {
         "axis": "vertical",
         "fixed": 34,
@@ -10111,10 +10569,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 102,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 103,
+      "run": 100,
       "geometry": {
         "axis": "vertical",
         "fixed": 35,
@@ -10136,10 +10596,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 3953
+      "ms": 3953,
+      "originalRun": 103,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 103,
+      "run": 100,
       "geometry": {
         "axis": "vertical",
         "fixed": 35,
@@ -10161,10 +10623,12 @@
       "scale": 1,
       "popups": 0,
       "arrived": true,
-      "ms": 4223
+      "ms": 4223,
+      "originalRun": 103,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 103,
+      "run": 100,
       "geometry": {
         "axis": "vertical",
         "fixed": 35,
@@ -10185,10 +10649,12 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 103,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     },
     {
-      "run": 103,
+      "run": 100,
       "geometry": {
         "axis": "vertical",
         "fixed": 35,
@@ -10209,7 +10675,9 @@
       "zoom": 1,
       "scale": 1,
       "popups": 0,
-      "arrived": true
+      "arrived": true,
+      "originalRun": 103,
+      "evidenceReuse": "Identical maximal-run geometry; no collision/artwork changes along this run"
     }
   ]
 }

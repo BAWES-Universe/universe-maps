@@ -5,94 +5,113 @@
   "seats": [
     {
       "id": "lounge-west-outer",
-      "x": 408,
+      "x": 416,
       "y": 272,
       "approach": "north",
-      "facing": "down"
+      "facing": "down",
+      "walkX": 408,
+      "approachDistance": 32
     },
     {
       "id": "lounge-west-inner",
-      "x": 504,
+      "x": 512,
       "y": 272,
       "approach": "north",
-      "facing": "down"
+      "facing": "down",
+      "walkX": 504,
+      "approachDistance": 32
     },
     {
       "id": "lounge-east-inner",
-      "x": 760,
+      "x": 768,
       "y": 272,
       "approach": "north",
-      "facing": "down"
+      "facing": "down",
+      "walkX": 760,
+      "approachDistance": 32
     },
     {
       "id": "lounge-east-outer",
-      "x": 856,
+      "x": 864,
       "y": 272,
       "approach": "north",
-      "facing": "down"
+      "facing": "down",
+      "walkX": 856,
+      "approachDistance": 32
     },
     {
       "id": "overlook-west",
-      "x": 568,
+      "x": 576,
       "y": 880,
       "approach": "north",
-      "facing": "down"
+      "facing": "down",
+      "walkX": 568,
+      "approachDistance": 32
     },
     {
       "id": "overlook-east",
-      "x": 696,
+      "x": 704,
       "y": 880,
       "approach": "north",
-      "facing": "down"
+      "facing": "down",
+      "walkX": 696,
+      "approachDistance": 32
     },
     {
       "id": "cafe-west-left",
       "x": 296,
       "y": 592,
       "approach": "north",
-      "facing": "down"
+      "facing": "down",
+      "approachDistance": 32
     },
     {
       "id": "cafe-west-right",
       "x": 408,
       "y": 592,
       "approach": "north",
-      "facing": "down"
+      "facing": "down",
+      "approachDistance": 32
     },
     {
       "id": "cafe-east-left",
       "x": 872,
       "y": 592,
       "approach": "north",
-      "facing": "down"
+      "facing": "down",
+      "approachDistance": 32
     },
     {
       "id": "cafe-east-right",
       "x": 984,
       "y": 592,
       "approach": "north",
-      "facing": "down"
+      "facing": "down",
+      "approachDistance": 32
     },
     {
       "id": "settee-left",
       "x": 600,
       "y": 216,
       "approach": "north",
-      "facing": "down"
+      "facing": "down",
+      "approachDistance": 16
     },
     {
       "id": "settee-middle",
-      "x": 632,
+      "x": 640,
       "y": 216,
       "approach": "north",
-      "facing": "down"
+      "facing": "down",
+      "approachDistance": 16
     },
     {
       "id": "settee-right",
-      "x": 664,
+      "x": 680,
       "y": 216,
       "approach": "north",
-      "facing": "down"
+      "facing": "down",
+      "approachDistance": 16
     }
   ],
   "tables": [
@@ -349,16 +368,16 @@
     true,
     true,
     true,
-    false,
+    1,
     true,
     true,
-    false,
-    false,
-    false,
-    false,
+    1,
+    1,
+    1,
+    1,
     true,
     true,
-    false,
+    1,
     true,
     true,
     true,

@@ -1,29 +1,8 @@
 {
-  "walkableTiles": 516,
-  "connectedWalkableTiles": 516,
+  "walkableTiles": 510,
+  "connectedWalkableTiles": 510,
   "allFreeTilesCoveredByHorizontalAndVerticalRuns": true,
   "maximalRuns": [
-    {
-      "axis": "horizontal",
-      "fixed": 5,
-      "first": 15,
-      "last": 15,
-      "length": 1
-    },
-    {
-      "axis": "horizontal",
-      "fixed": 5,
-      "first": 18,
-      "last": 21,
-      "length": 4
-    },
-    {
-      "axis": "horizontal",
-      "fixed": 5,
-      "first": 24,
-      "last": 24,
-      "length": 1
-    },
     {
       "axis": "horizontal",
       "fixed": 6,
@@ -496,9 +475,9 @@
     {
       "axis": "vertical",
       "fixed": 15,
-      "first": 5,
+      "first": 6,
       "last": 29,
-      "length": 25
+      "length": 24
     },
     {
       "axis": "vertical",
@@ -517,9 +496,9 @@
     {
       "axis": "vertical",
       "fixed": 18,
-      "first": 5,
+      "first": 6,
       "last": 15,
-      "length": 11
+      "length": 10
     },
     {
       "axis": "vertical",
@@ -531,9 +510,9 @@
     {
       "axis": "vertical",
       "fixed": 19,
-      "first": 5,
+      "first": 6,
       "last": 6,
-      "length": 2
+      "length": 1
     },
     {
       "axis": "vertical",
@@ -559,9 +538,9 @@
     {
       "axis": "vertical",
       "fixed": 20,
-      "first": 5,
+      "first": 6,
       "last": 6,
-      "length": 2
+      "length": 1
     },
     {
       "axis": "vertical",
@@ -587,9 +566,9 @@
     {
       "axis": "vertical",
       "fixed": 21,
-      "first": 5,
+      "first": 6,
       "last": 15,
-      "length": 11
+      "length": 10
     },
     {
       "axis": "vertical",
@@ -615,9 +594,9 @@
     {
       "axis": "vertical",
       "fixed": 24,
-      "first": 5,
+      "first": 6,
       "last": 29,
-      "length": 25
+      "length": 24
     },
     {
       "axis": "vertical",

@@ -1,13 +1,11 @@
-# Unpublished finish pass — in progress
+# Unpublished finish pass
 
-Owner requires finished quality before publication. Do not deploy. Earlier acceptance applies only to its recorded artifact.
+No publication or deployment is authorized at this stage. The owner requires a finished reviewable candidate first. Current fresh independent review found no remaining material gameplay/visual blocker; its final report and final-art performance evidence are being attached. This document supersedes earlier progress counts, not historical reports tied to other hashes.
 
-Actual Tea Garden, Volcanic Observatory, Sky Village Airship Terminal and Bazaar repository previews informed richer planting, stronger materials and bridge integration. Azure retains four islands, ocean, beach, balconies, native Woka/camera and silent spawn.
+Finished four distinct island interiors, quieter mosaic court, integrated bridge/bay materials, native sea culling repair, natural garden shoreline/canopy edges and finished café landing returns. The lounge upper bridge post was moved clear of the full passage and directly retested. Native Woka/camera remain1. No new destinations or expanded canvas.
 
-Installed: botanical garden beds, café timber/citrus detail, lounge chart floor and bookshelves, gathering sea-glass inlay, quieter fountain court, supported bridge parapets, transparent viewing-bay exterior and deeper blue sea. Rear lounge chairs moved32px south to clear the new shelf; other native seat centers remeasured. Fresh independent gameplay and visual review are ongoing.
+All3589walkable cells connect;55seat targets and approaches are reachable. Fresh independent gameplay tested55seats,17table footprints with actual pushes from accessible sides, shelf contacts, roof entry/exit, garden overlooks/beach and all16bridge edge-lane crossings. Blocked test setup sides are excluded from actual-contact counts. Final details and limitations belong in finish-independent-review.md.
 
-Render changes remove only completely occluded tiles and skip drawing transparent collision/start layers while preserving collision data. Ocean128px frames are repacked as64px quadrants to fit the engine's default culling margin. Same24frames and100ms timing. No engine edits. The pre-art comparison showed a maximum1channel rounding difference on14909pixels.
+Renderer work prunes only fully occluded tiles and skips drawing transparent collision/start layers without removing collision data. Ocean frames are repacked128→64pixels to fit the engine's culling margin; timing remains24×100ms. Lower shimmer contrast improves the darker sea's visual hierarchy. No engine changes. Detailed controlled method, measured results and tradeoffs belong in finish-performance.md.
 
-Controlled1366×768 stationary court, forced redraw,15-second alternating samples: old29.26/28.76FPS versus optimized57.40/59.40FPS. Script time increased0.47–0.48s to0.72–0.74s due to more small animation instances; total main-thread task time fell15.05s to12.19–12.97s. This isolates rendering changes before the final artwork and is not a final-art or universal-device guarantee. Final-art samples and fresh continuous water clips remain pending.
-
-Independent current pass:35+ non-hub seats checked with exact targets, facing and keyboard exits; all11 lounge seats visually clear. Full furniture, connections, bays, hub and final visual acceptance remain open. Do not infer completion from this progress document.
+Water motion consists of fountain jets/ripples and ocean highlight animation over painted static base textures. Surf is static. Continuous native-scale videos support motion, not performance. Audio spawn is silent; deliberate map Play/Stop uses WA.sound separately from native master-audio UI. Physical speaker playback has not been verified. No claim of objectively being better than Tea Garden is made.

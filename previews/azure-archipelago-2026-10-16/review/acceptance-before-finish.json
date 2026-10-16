@@ -1,0 +1,22 @@
+{
+  "independentGameplayReview": "passed within documented scope",
+  "publication": "not published; isolated branch only",
+  "mapSha256": "a80c3bc2a7bc2a60d6ce83fbc9c9e1be9c7a25e57daf06b4eb9fa62f0310b591",
+  "freeConnectedCells": 3613,
+  "seatsExercised": 55,
+  "changedSeatsRetested": 21,
+  "tablesInspected": 17,
+  "bridgeMouthCrossings": 24,
+  "spawnSilent": true,
+  "playingCrossingsWithoutPopup": 6,
+  "stoppedCrossingsWithoutPopup": 6,
+  "nativeCameraZoom": 1,
+  "wokaScale": 1,
+  "limitations": [
+    "Native 32px table boundaries approximate curves; unavailable table sides are recorded, not counted as pushes.",
+    "Ocean shimmer moves; painted shoreline foam stays static.",
+    "Motion independently reviewed through ordered timestamped frames; continuous videos delivered.",
+    "WA.sound Play/Stop fallback is separate from native master audio controls; physical speakers not tested.",
+    "Performance is environment-dependent; see performance report."
+  ]
+}

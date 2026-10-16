@@ -20,3 +20,5 @@ Garden top canopy repair0c1ed07d-2faf-4f13-8754-8a0b44808ecb: only top112px outs
 Café bottom landinge8ab5dce-e6e8-487a-9449-9668eceb7081: onlybottom192px imported after originalnative registration. Two inward railing returns and finished piers replace clipped foliage. Outer64pxon eachside blocked overlast128px; central256px remainsclear. Builder repeats bottomfloorrow onlywithincentralcorridor, preserving transparentfinishedoutercorners.
 
 Lounge upper bridge post previously blocked oneedge lane: nativeatlasplacement cols34..37,rows13..15 shifts sourceart32pxnorth and uses actualpaving forrow15; cell1216,2432reopened. Freshstraightkeyboardcrossing required; prior16/16summary was corrected to15/16beforefix.
+
+Final lounge appearance replaces the temporary atlas-row shift with targeted generatedlocalrepair82fef3c9-6d6d-4f25-a862-2bcc31053838. Onlynative x1040..1216,y352..576 imported; upperpost/return liesabove walkingrow480 and matchingpaving fills the reopened lane. No furniture/roomart changes. Temporarytile-rowshift removed because it left a visible rectangular seam.

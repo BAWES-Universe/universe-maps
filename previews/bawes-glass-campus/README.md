@@ -1,3 +1,17 @@
+# BAWES campus — footprint correction in progress
+
+The user rejected the facade-only prototype. Its immutable checkpoint is commit `eeebac0df14e895436779da3e814de174a0631f3` and local branch `checkpoint/bawes-facade-prototype-eeebac0`.
+
+The current map expands the actual interior to the complete projected tower rectangle: 24×19 tiles, with a 22×17 usable inner floor. The whole exterior shell/crown is a single removable layer; permanent floor, furnishings and collision are separate. Both front and rear have six-tile entrances. Seven outdoor rows behind the building and six-tile side paths connect the rear terrace, town square and StudentHub reserve. The map is now 64×42; spawn is (22,30). Static validation finds 2,316 connected walkable cells and 42 reachable seats.
+
+This is a geometry correction, **not visual completion**. The existing shell and furniture remain placeholders pending the earlier WorkAdventure reference. Long transparent frontage and the coherent material/furnishing redesign remain to be completed. All 12 live-client geometry checks passed at normal camera/Woka scale, including crown-area occupancy, rear entry/exit and both exterior side routes. The repository build passes. These are geometry checks, not renewed seating/second-occupant or visual acceptance. Current geometry checks are in `review/geometry-client.json`; their driver is `source/validation/footprint.cjs`. Offline current exports are `review/inside.png` and `review/outside.png`.
+
+All evidence below refers to the superseded `eeebac0` prototype and must not be used to certify current coordinates, seating, visibility or appearance. Its original source and screenshots remain recoverable at that commit. Existing maps and Azure are unchanged. Nothing has been deployed.
+
+---
+
+## Historical prototype record (eeebac0)
+
 # BAWES glass campus — playable review candidate
 
 A new, isolated campus with an outdoor town-square spawn, a folded glass tower, shared daily work and meeting tables, outdoor social seating, and a connected study court reserved for the future StudentHub wing. The tower art follows the modern four-part BAWES mark; Universe Ink and violet/blue glass replace the historical red/orange/brown identity. No labels or wordmarks are baked into the map.

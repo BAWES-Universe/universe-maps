@@ -26,8 +26,13 @@ rect((1,1,62,46),'#201d2b')
 rect((7,31,51,12),'#353140',EDGE)
 rect((19,27,6,17),'#55505f')  # continuous 192px arrival spine
 rect((6,32,53,6),'#484250')  # 192px cross-campus promenade
-rect((10,17,24,14),'#302c3c',EDGE)
-rect((11,18,22,12),'#3e384b')
+# The occupied footprint covers the FULL projected shell, including its crown.
+rect((10,12,24,19),'#302c3c',EDGE)
+rect((11,13,22,17),'#3e384b')
+# Connected rear terrace and side paths remain outside that footprint.
+rect((4,5,36,7),'#484250',EDGE)
+rect((4,12,6,20),'#484250')
+rect((34,12,6,20),'#484250')
 rect((42,17,17,14),'#302c3c',EDGE) # reserved future StudentHub courtyard
 rect((44,19,13,10),'#393545')
 for x in range(0,W,2):
@@ -36,7 +41,7 @@ for y in range(32,39,2):
     d.line((6*T,y*T,59*T,y*T), fill='#504a59')
 # Native paving texture: quiet stone seams, distinct from the raised furniture.
 rng=random.Random(41)
-for yy in range(18*T,30*T,32):
+for yy in range(13*T,30*T,32):
     for xx in range(11*T,33*T,32):
         d.line((xx,yy,xx+31,yy),fill='#484154')
         for _ in range(9):
@@ -47,7 +52,7 @@ for yy in range(31*T,43*T,32):
         d.line((xx,yy,xx+63,yy),fill='#514a5a')
         d.line((xx,yy,xx,yy+31),fill='#2e2a38')
 # Permanent wall footprint does not belong to the revealable facade.
-for box in [(10,17,24,1),(10,18,1,13),(33,18,1,13),(11,30,8,1),(25,30,8,1)]:
+for box in [(10,12,9,1),(25,12,9,1),(10,13,1,18),(33,13,1,18),(11,30,8,1),(25,30,8,1)]:
     block(box);rect(box, '#1e1b28', '#8b809e')
 for box in [(0,0,W,1),(0,H-1,W,1),(0,1,1,H-2),(W-1,1,1,H-2)]:
     block(box)
@@ -80,7 +85,7 @@ def table(x,y,w,h):
     d.ellipse(((x+w)*T-20,y*T+14,(x+w)*T-17,y*T+17),fill='#463c49')
 
 # Daily work and social groups sit at the arrival-facing edge; quieter work at rear.
-for x,y,w,h in [(13,26,3,1),(27,26,3,1),(13,20,4,2),(26,20,4,2),(9,40,3,1),(48,40,3,1),(46,21,2,1),(52,21,2,1),(46,26,2,1),(52,26,2,1)]:
+for x,y,w,h in [(13,14,4,2),(26,14,4,2),(13,7,3,1),(27,7,3,1),(13,26,3,1),(27,26,3,1),(13,20,4,2),(26,20,4,2),(9,40,3,1),(48,40,3,1),(46,21,2,1),(52,21,2,1),(46,26,2,1),(52,26,2,1)]:
     table(x,y,w,h)
     for sx in range(x,x+w): chair(sx,y+2)
 for box in [(4,28,3,3),(36,28,3,3),(37,40,3,3),(54,40,3,3)]:
@@ -106,7 +111,7 @@ for x in [13,15,26,28]:
     d.rounded_rectangle((x*T+6,20*T+8,x*T+26,20*T+22),3,fill='#171922',outline='#756d91')
     d.rectangle((x*T+9,20*T+11,x*T+23,20*T+18),fill='#6b64ad')
 for x in range(11,34,2):
-    d.line((x*T,18*T,x*T,30*T-1),fill='#443d50')
+    d.line((x*T,13*T,x*T,30*T-1),fill='#443d50')
 # Architectural base, canopy edge and discreet floor lighting frame the open route.
 for x in [18,25]:
     d.rectangle((x*T+4,29*T,x*T+12,31*T-1),fill='#201c2d',outline='#82739d')
@@ -139,17 +144,17 @@ for x0,x1 in [(11*T,19*T),(25*T,33*T)]:
     gd.rectangle((x0,27*T,x1-1,30*T-1),fill=(111,101,190,45))
 glass.alpha_composite(art,(10*T,31*T-590))
 
-# Trim unused northern/southern margins; keep the meaningful connected campus.
-for box in [(0,12,64,1),(0,45,64,1)]:
+# Keep a seven-tile-deep outdoor area behind the entire building.
+Y_SHIFT=4
+for box in [(0,Y_SHIFT,64,1),(0,45,64,1)]:
     block(box);rect(box,'#15131f','#4a4359')
-Y_SHIFT=12
-floor=floor.crop((0,12*T,W*T,46*T))
-backs=backs.crop((0,12*T,W*T,46*T))
-glass=glass.crop((0,12*T,W*T,46*T))
-blocked={(x,y-Y_SHIFT) for x,y in blocked if 12<=y<46}
+floor=floor.crop((0,Y_SHIFT*T,W*T,46*T))
+backs=backs.crop((0,Y_SHIFT*T,W*T,46*T))
+glass=glass.crop((0,Y_SHIFT*T,W*T,46*T))
+blocked={(x,y-Y_SHIFT) for x,y in blocked if Y_SHIFT<=y<46}
 seats=[[x,y-Y_SHIFT] for x,y in seats]
 tables=[[x,y-Y_SHIFT,w,h] for x,y,w,h in tables]
-H=34;SIZE=(W*T,H*T)
+H=46-Y_SHIFT;SIZE=(W*T,H*T)
 
 # Tile atlases are faithful layer exports; no picture-derived collision inference.
 layers=[];tilesets=[];gid=1
@@ -165,21 +170,34 @@ def layer(name,data,opacity=1):
 layer('ground-and-furniture',atlas('ground',floor))
 watergid=gid;gid+=432
 tilesets.append(dict(firstgid=watergid,name='water',image='water.png',imagewidth=768,imageheight=576,tilewidth=32,tileheight=32,tilecount=432,columns=24,tiles=[dict(id=ry*24+rx,animation=[dict(tileid=(frame//8*3+ry)*24+(frame%8)*3+rx,duration=40) for frame in range(48)]) for ry in range(3) for rx in range(3)]))
-layer('pond-motion',[watergid+(y-28)*24+x-37 if 37<=x<40 and 28<=y<31 else 0 for y in range(H) for x in range(W)])
+layer('pond-motion',[watergid+(y-(40-Y_SHIFT))*24+x-37 if 37<=x<40 and 40-Y_SHIFT<=y<43-Y_SHIFT else 0 for y in range(H) for x in range(W)])
 logic=Image.new('RGBA',(64,32));logic.save(ROOT/'logic.png')
 logicgid=gid;gid+=2
 tilesets.append(dict(firstgid=logicgid,name='logic',image='logic.png',imagewidth=64,imageheight=32,tilewidth=32,tileheight=32,tilecount=2,columns=2,tiles=[dict(id=0,properties=[dict(name='collides',type='bool',value=True)])]))
 layer('persistent-collision',[logicgid if (x,y) in blocked else 0 for y in range(H) for x in range(W)])
-layer('start',[logicgid+1 if (x,y)==(22,22) else 0 for y in range(H) for x in range(W)])
-layer('tower-interior',[logicgid+1 if 11<=x<33 and 6<=y<18 else 0 for y in range(H) for x in range(W)])
+layer('start',[logicgid+1 if (x,y)==(22,34-Y_SHIFT) else 0 for y in range(H) for x in range(W)])
+layer('tower-interior',[logicgid+1 if 11<=x<33 and 13-Y_SHIFT<=y<30-Y_SHIFT else 0 for y in range(H) for x in range(W)])
 layers.append(dict(id=len(layers)+1,type='objectgroup',name='floorLayer',x=0,y=0,opacity=1,visible=True,objects=[]))
 layer('seat-backs',atlas('seat-backs',backs))
 layer('tower-glass-cover',atlas('tower-glass',glass))
 mapdata=dict(type='map',version='1.10',tiledversion='1.11.2',orientation='orthogonal',renderorder='right-down',infinite=False,width=W,height=H,tilewidth=T,tileheight=T,nextlayerid=len(layers)+1,nextobjectid=1,layers=layers,tilesets=tilesets,properties=[dict(name='script',type='string',value='runtime.js'),dict(name='mapCopyright',type='string',value='Original BAWES campus architectural blockout; mark supplied by BAWES Universe.')])
 (ROOT/'campus.tmj').write_text(json.dumps(mapdata,separators=(',',':'))+'\n')
-layout=dict(status='playable local-client-tested review candidate; owner visual acceptance open',grid=[W,H,T],spawn=[22,22],entrance=[19,18,6,1],interior=[11,6,22,12],studenthub_reserve=[42,5,17,14],seats=seats,tables=tables,source_y_offset_tiles=12,main_route_width_px=192,podium_tint_alpha=45,brand_reference_paths='source/lettermark.svg',tower_asset_bounds=[320,18,768,590])
+layout=dict(status='geometry correction in progress; prior client evidence superseded; visual reference pending',grid=[W,H,T],spawn=[22,34-Y_SHIFT],entrance=[19,30-Y_SHIFT,6,1],rear_entrance=[19,12-Y_SHIFT,6,1],interior=[11,13-Y_SHIFT,22,17],building_footprint=[10,12-Y_SHIFT,24,19],rear_terrace=[4,5-Y_SHIFT,36,7],studenthub_reserve=[42,17-Y_SHIFT,17,14],seats=seats,tables=tables,source_y_offset_tiles=Y_SHIFT,main_route_width_px=192,podium_tint_alpha=45,brand_reference_paths='source/lettermark.svg',tower_asset_bounds=[320,31*T-590-Y_SHIFT*T,768,590])
 (ROOT/'source/layout.json').write_text(json.dumps(layout,indent=2)+'\n')
-preview_floor=floor.copy();preview_floor.alpha_composite(water.crop((0,0,96,96)),(37*T,28*T))
+preview_floor=floor.copy();preview_floor.alpha_composite(water.crop((0,0,96,96)),(37*T,(40-Y_SHIFT)*T))
 for name,img in [('layout',preview_floor),('outside',Image.alpha_composite(Image.alpha_composite(preview_floor,backs),glass)),('inside',Image.alpha_composite(preview_floor,backs))]:
     img.save(ROOT/'review'/(name+'.png'))
 print('Built campus.tmj, separate runtime layers and offline review exports.')
+
+runtime = """/* Local shell reveal: permanent floor, furniture and collision remain. */
+(async () => {
+    await WA.onInit();
+    const cover = 'tower-glass-cover';
+    const inside = ({x,y}) => x >= 352 && x < 1056 && y >= %d && y < %d;
+    const apply = value => value ? WA.room.hideLayer(cover) : WA.room.showLayer(cover);
+    apply(inside(await WA.player.getPosition()));
+    WA.room.onEnterLayer('tower-interior').subscribe(() => apply(true));
+    WA.room.onLeaveLayer('tower-interior').subscribe(() => apply(false));
+})().catch(error => console.error('Campus reveal initialization failed', error));
+""" % ((13-Y_SHIFT)*T, (30-Y_SHIFT)*T)
+(ROOT/'runtime.js').write_text(runtime)

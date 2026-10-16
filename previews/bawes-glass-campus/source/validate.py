@@ -24,9 +24,16 @@ assert len(seen)==sum(v==0 for v in b)
 for p in layout['seats']:
     x,y=p
     assert (x,y) in seen and (x,y+1) in seen
-for x in range(19,25):
-    for y in range(11,31):assert (x,y) in seen and not b[y*w+x]
-assert (50,12) in seen
+# Every unobstructed cell beneath the complete shell is interior and connected.
+ix,iy,iw,ih=layout['interior']
+for y in range(iy,iy+ih):
+    for x in range(ix,ix+iw):
+        assert layers['tower-interior']['data'][y*w+x]
+        if not b[y*w+x]: assert (x,y) in seen
+for key in ['entrance','rear_entrance']:
+    x,y,ww,hh=layout[key]
+    for xx in range(x,x+ww): assert (xx,y) in seen
+for point in [(7,7),(37,7),(22,3),(50,20)]: assert point in seen
 assert not layers['tower-interior']['data'][spawn[1]*w+spawn[0]]
 assert sum(bool(v) for v in layers['start']['data'])==1
 logic=next(t for t in m['tilesets'] if t['name']=='logic')

@@ -2,7 +2,7 @@ const {readFileSync}=require('node:fs');
 const vm=require('node:vm');
 const assert=require('node:assert/strict');
 (async()=>{
-  for(const [position,initial] of [[{x:720,y:720},'show'],[{x:720,y:416},'hide']]){
+  for(const [position,initial] of [[{x:720,y:976},'show'],[{x:720,y:416},'hide'],[{x:720,y:304},'hide'],[{x:720,y:112},'show']]){
     const calls=[],handlers={};
     const WA={onInit:async()=>{},player:{getPosition:async()=>position},room:{
       hideLayer:name=>calls.push(['hide',name]),showLayer:name=>calls.push(['show',name]),

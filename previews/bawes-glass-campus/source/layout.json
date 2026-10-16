@@ -2,7 +2,7 @@
   "status": "original town architecture in progress; visual acceptance pending",
   "grid": [
     96,
-    80,
+    88,
     32
   ],
   "spawn": [
@@ -770,6 +770,18 @@
       24,
       17,
       2
+    ],
+    "cowork_terrace": [
+      10,
+      24,
+      24,
+      2
+    ],
+    "sea": [
+      1,
+      78,
+      94,
+      9
     ]
   },
   "tower_asset_bounds": [

@@ -1,10 +1,10 @@
 # BAWES town — architecture and interaction candidate
 
-An isolated original 96×80 campus at native 32px scale. Spawn stays beside the team tower and its near-entrance meeting room. The tower's entire 24×19 projected footprint becomes a continuous office when its shell is hidden. Coworking, staff offices and a glass portal pavilion stand behind it, separated by a connected street. Side routes lead to the StudentHub court, conversation booths, outdoor stage, staff terrace and beach promenade.
+An isolated original 96×88 campus at native 32px scale. Spawn stays beside the team tower and its near-entrance meeting room. The tower's entire 24×19 projected footprint becomes a continuous office when its shell is hidden. Coworking, staff offices and a glass portal pavilion stand behind it, separated by a connected street. Side routes lead to the StudentHub court, conversation booths, outdoor stage, staff and coworking terraces, and beach promenade with a visible sea.
 
 This is an architecture/layout iteration, **not a visually finished or deployed world**. Current furniture and architectural detailing are still schematic. The full tower/podium cover now masks the complete footprint outside, rather than exposing an unrelated office floor around the crown. Its retained generated facade still needs visual review alongside the newly authored buildings.
 
-The latest arrival correction moves spawn to (22,53) and front seats into the transparent window band. A fresh paired capture is in progress; the 26-route sweep precedes that small adjustment.
+The latest arrival correction moves spawn to (22,53) and front seats into the transparent window band. A fresh paired capture (`town-glass.json`) confirms the occupied chair is visible through the glass; the 26-route sweep precedes that small adjustment. `town-coast.json` checks the final spawn, shoreline collision and coworking terrace after extending the sea.
 
 ## Current behavior
 

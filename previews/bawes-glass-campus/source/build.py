@@ -3,7 +3,7 @@ import json, math, random
 from pathlib import Path
 from PIL import Image, ImageDraw
 ROOT=Path(__file__).resolve().parents[1]
-W,H,T=96,80,32
+W,H,T=96,88,32
 SIZE=(W*T,H*T)
 rng=random.Random(41)
 floor=Image.new('RGBA',SIZE,'#64776c');d=ImageDraw.Draw(floor)
@@ -30,8 +30,14 @@ for _ in range(21000):
 for box in [(4,26,88,6),(34,4,7,67),(4,51,88,7),(4,4,6,60),(90,4,3,67),(4,63,89,6),(40,26,5,32),(67,4,6,60)]:material(box,'stone')
 material((8,51,56,12),'stone');material((4,69,89,9),'sand')
 # Shore is separated from the playable beach by a shallow edging, no hidden pits.
-rect((1,78,94,1),'#5d8995');block((1,78,94,1))
-for xx in range(32,95*T,15):d.line((xx,78*T+7,xx+8,78*T+5),fill='#a7ccd0')
+rect((1,78,94,H-79),'#537f90');block((1,78,94,H-79))
+for yy in range(78*T,(H-1)*T):
+ depth=(yy-78*T)/((H-79)*T)
+ d.line((T,yy,(W-1)*T-1,yy),fill=(int(92-25*depth),int(145-32*depth),int(155-22*depth)))
+for yy in range(78*T+6,(H-1)*T,24):
+ for xx in range(32,95*T,64):
+  offset=rng.randrange(16);d.arc((xx+offset,yy,xx+offset+40,yy+10),0,150,fill='#9bbcb9',width=1)
+d.line((T,78*T,(W-1)*T-1,78*T),fill='#ece2c4',width=4)
 for box in [(0,0,W,1),(0,H-1,W,1),(0,1,1,H-2),(W-1,1,1,H-2)]:block(box);rect(box,'#344b46')
 def chair(x,y,color='#657d83'):
  seats.append([x,y]);d.ellipse((x*T+2,y*T+8,x*T+30,y*T+23),fill='#4d514d')
@@ -100,7 +106,10 @@ for args in [(13,11,4,1,'work'),(27,11,3,1,'work'),(13,18,4,2,'meeting'),(27,18,
 # Near-spawn team meeting room: one explicit side door, no hidden exit walls.
 for box in [(11,43,9,1),(19,44,1,3),(19,49,1,1)]:
  block(box);rect(box,'#61777b','#adbcba')
-# Staff terrace/balcony is a genuine walkable deck, approached from the street.
+# Ground-accessible podium terraces link the offices to the rear street.
+material((10,24,24,2),'wood')
+for xx in range(10,34):
+ if not 19<=xx<25:bd.line((xx*T,26*T-4,(xx+1)*T,26*T-4),fill='#bac2b6',width=3)
 material((73,24,17,2),'wood')
 for xx in range(73,90):
  if not 78<=xx<84:bd.line((xx*T,26*T-4,(xx+1)*T,26*T-4),fill='#bac2b6',width=3)
@@ -162,7 +171,7 @@ for name,img in covers.items():layer(name,atlas(name.removesuffix('-cover'),img)
 mapdata=dict(type='map',version='1.10',tiledversion='1.11.2',orientation='orthogonal',renderorder='right-down',infinite=False,width=W,height=H,tilewidth=T,tileheight=T,nextlayerid=len(layers)+1,nextobjectid=2,layers=layers,tilesets=tilesets,properties=[dict(name='script',type='string',value='runtime.js'),dict(name='mapCopyright',type='string',value='Original BAWES campus. No WA Village artwork, map data or layout incorporated.')])
 (ROOT/'campus.tmj').write_text(json.dumps(mapdata,separators=(',',':'))+'\n')
 tower=next(b for b in buildings if b['name']=='tower')
-layout=dict(status='original town architecture in progress; visual acceptance pending',grid=[W,H,T],spawn=[22,53],entrance=tower['front_door'],rear_entrance=tower['rear_door'],interior=tower['interior'],building_footprint=tower['footprint'],buildings=buildings,studenthub_reserve=[45,34,18,16],seats=seats,tables=tables,pond=pond,main_route_width_px=192,portal_slots=portal_slots,doors=doors,meeting_room=[11,44,8,6],areas={'stage':[73,45,16,6],'beach':[4,69,89,9],'booths':[74,35,15,7],'staff_balcony':[73,24,17,2]},tower_asset_bounds=[320,51*T-590,768,590])
+layout=dict(status='original town architecture in progress; visual acceptance pending',grid=[W,H,T],spawn=[22,53],entrance=tower['front_door'],rear_entrance=tower['rear_door'],interior=tower['interior'],building_footprint=tower['footprint'],buildings=buildings,studenthub_reserve=[45,34,18,16],seats=seats,tables=tables,pond=pond,main_route_width_px=192,portal_slots=portal_slots,doors=doors,meeting_room=[11,44,8,6],areas={'stage':[73,45,16,6],'beach':[4,69,89,9],'booths':[74,35,15,7],'staff_balcony':[73,24,17,2],'cowork_terrace':[10,24,24,2],'sea':[1,78,94,H-79]},tower_asset_bounds=[320,51*T-590,768,590])
 (ROOT/'source/layout.json').write_text(json.dumps(layout,indent=2)+'\n')
 (ROOT/'source/portal-areas.json').write_text(json.dumps(portal_slots,indent=2)+'\n')
 # Static native Tiled maps do not install editor WAM areas; these are ready-to-configure coordinates.

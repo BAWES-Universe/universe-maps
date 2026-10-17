@@ -1468,6 +1468,32 @@
       "width": 48,
       "height": 64,
       "collision": null
+    },
+    {
+      "kind": "scenic-obstacle",
+      "x": 1948,
+      "y": 3098,
+      "width": 474,
+      "height": 315,
+      "collision": [
+        1948,
+        3098,
+        474,
+        315
+      ]
+    },
+    {
+      "kind": "scenic-obstacle",
+      "x": 2347,
+      "y": 3074,
+      "width": 195,
+      "height": 114,
+      "collision": [
+        2347,
+        3074,
+        195,
+        114
+      ]
     }
   ],
   "doors": [

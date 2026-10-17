@@ -143,6 +143,12 @@ rectwalk((PX+140*S,PY+650*S,250*S,87*S),0)
 # Portal arch is scenery only; no invented URL. Keep the arch landing freely accessible.
 # Explicit obstacle masks for planters at the bridge ends and garden borders.
 for sx,sy,sw,sh in [(685,649,17,37),(778,648,19,39),(620,661,51,36),(812,661,43,37),(1038,695,45,36),(1100,692,46,35),(1350,745,35,42),(90,353,40,38)]:rectwalk((PX+sx*S,PY+sy*S,sw*S,sh*S),0)
+# Baked western conservatory furniture is decorative, never a walk-through prop.
+# Exact inspected source bounds: curved lounge/table, entrance dining set, central planter strip.
+# Keep only the clear eastern approach and stair landing open; no narrow path behind the painted lounge.
+for sx,sy,sw,sh in [(52,350,158,105),(185,342,65,38)]:
+ box=(PX+sx*S,PY+sy*S,sw*S,sh*S);rectwalk(box,0)
+ objects.append(dict(kind='scenic-obstacle',x=box[0],y=box[1],width=box[2],height=box[3],collision=box))
 # Full-footprint translucent glass cover. Actual alpha is retained; window band softened for visible occupants.
 shell=Image.open(R/'source/office-shell-original.png').convert('RGBA');bounds=shell.getchannel('A').point(lambda a:255 if a>90 else 0).getbbox();shell=shell.crop(bounds).resize((OW,OH),Image.Resampling.LANCZOS)
 sa=np.array(shell);sa[int(OH*.73):,:,3]=(sa[int(OH*.73):,:,3]*.48).astype('uint8')

@@ -1,4 +1,6 @@
-# Review evidence — 2026-10-17
+# Baseline review evidence — 2026-10-17
+
+This records commit `2b1e342`. See [REFINEMENT.md](REFINEMENT.md) for subsequent optimizer configuration and western collision corrections. Baseline runtime/camera results remain scoped to their recorded geometry.
 
 Status: runnable local review candidate; owner visual acceptance pending. No production deployment, Azure changes, merge, existing-map edits or engine patch.
 

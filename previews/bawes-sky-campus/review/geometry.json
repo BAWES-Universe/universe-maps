@@ -1,0 +1,29 @@
+{
+  "dimensions": [
+    8192,
+    7168
+  ],
+  "connectedWalkableCells": 22852,
+  "totalWalkableCells": 22852,
+  "waypoints": {
+    "spawn": true,
+    "office-center": true,
+    "rear": true,
+    "cafe": true,
+    "stage": true,
+    "audience": true,
+    "portal": true,
+    "lower-square": true,
+    "west-terrace": true
+  },
+  "reachableSeats": 74,
+  "totalSeats": 74,
+  "missingAssets": [],
+  "allLayersNativeDimensions": true,
+  "walkableBoundsPixels": [
+    1952,
+    1536,
+    6256,
+    4592
+  ]
+}

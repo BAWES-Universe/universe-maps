@@ -1,0 +1,1645 @@
+{
+  "world": [
+    8192,
+    7168
+  ],
+  "tile": 16,
+  "woka": 32,
+  "conceptOrigin": [
+    1792,
+    2048
+  ],
+  "conceptScale": 3,
+  "office": [
+    2896,
+    1664,
+    2240,
+    1440
+  ],
+  "spawn": [
+    4016,
+    3184
+  ],
+  "seats": [
+    {
+      "x": 3096,
+      "y": 2016,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3096,
+      "y": 2176,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3256,
+      "y": 2016,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3256,
+      "y": 2176,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3448,
+      "y": 2016,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3448,
+      "y": 2176,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3608,
+      "y": 2016,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3608,
+      "y": 2176,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3096,
+      "y": 2560,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3096,
+      "y": 2720,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3256,
+      "y": 2560,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3256,
+      "y": 2720,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3448,
+      "y": 2560,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3448,
+      "y": 2720,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3608,
+      "y": 2560,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 3608,
+      "y": 2720,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4392,
+      "y": 2080,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4392,
+      "y": 1952,
+      "group": "office",
+      "facing": "down"
+    },
+    {
+      "x": 4456,
+      "y": 2080,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4456,
+      "y": 1952,
+      "group": "office",
+      "facing": "down"
+    },
+    {
+      "x": 4712,
+      "y": 2080,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4712,
+      "y": 1952,
+      "group": "office",
+      "facing": "down"
+    },
+    {
+      "x": 4776,
+      "y": 2080,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4776,
+      "y": 1952,
+      "group": "office",
+      "facing": "down"
+    },
+    {
+      "x": 4392,
+      "y": 2544,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4456,
+      "y": 2432,
+      "group": "office",
+      "facing": "down"
+    },
+    {
+      "x": 4776,
+      "y": 2544,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4840,
+      "y": 2432,
+      "group": "office",
+      "facing": "down"
+    },
+    {
+      "x": 4392,
+      "y": 2832,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4456,
+      "y": 2720,
+      "group": "office",
+      "facing": "down"
+    },
+    {
+      "x": 4776,
+      "y": 2832,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4840,
+      "y": 2720,
+      "group": "office",
+      "facing": "down"
+    },
+    {
+      "x": 3088,
+      "y": 2928,
+      "group": "lounge",
+      "facing": "up"
+    },
+    {
+      "x": 3152,
+      "y": 2928,
+      "group": "lounge",
+      "facing": "up"
+    },
+    {
+      "x": 3472,
+      "y": 2928,
+      "group": "lounge",
+      "facing": "up"
+    },
+    {
+      "x": 3536,
+      "y": 2928,
+      "group": "lounge",
+      "facing": "up"
+    },
+    {
+      "x": 5432,
+      "y": 3184,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5480,
+      "y": 3184,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5544,
+      "y": 3184,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5592,
+      "y": 3184,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5432,
+      "y": 3248,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5480,
+      "y": 3248,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5544,
+      "y": 3248,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5592,
+      "y": 3248,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5432,
+      "y": 3312,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5480,
+      "y": 3312,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5544,
+      "y": 3312,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5592,
+      "y": 3312,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5432,
+      "y": 3376,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5480,
+      "y": 3376,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5544,
+      "y": 3376,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5592,
+      "y": 3376,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5832,
+      "y": 3184,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5880,
+      "y": 3184,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5944,
+      "y": 3184,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5992,
+      "y": 3184,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5832,
+      "y": 3248,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5880,
+      "y": 3248,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5944,
+      "y": 3248,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5992,
+      "y": 3248,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5832,
+      "y": 3312,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5880,
+      "y": 3312,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5944,
+      "y": 3312,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5992,
+      "y": 3312,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5832,
+      "y": 3376,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5880,
+      "y": 3376,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5944,
+      "y": 3376,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5992,
+      "y": 3376,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 2360,
+      "y": 4368,
+      "group": "cafe",
+      "facing": "down"
+    },
+    {
+      "x": 2488,
+      "y": 4368,
+      "group": "cafe",
+      "facing": "up"
+    },
+    {
+      "x": 2824,
+      "y": 4368,
+      "group": "cafe",
+      "facing": "down"
+    },
+    {
+      "x": 2952,
+      "y": 4368,
+      "group": "cafe",
+      "facing": "up"
+    },
+    {
+      "x": 3064,
+      "y": 4368,
+      "group": "cafe",
+      "facing": "down"
+    },
+    {
+      "x": 3192,
+      "y": 4368,
+      "group": "cafe",
+      "facing": "up"
+    }
+  ],
+  "objects": [
+    {
+      "kind": "desk",
+      "x": 3056,
+      "y": 1920,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3056,
+        1928,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3072,
+      "y": 1984,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3056,
+      "y": 2080,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3056,
+        2088,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3072,
+      "y": 2144,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3216,
+      "y": 1920,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3216,
+        1928,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3232,
+      "y": 1984,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3216,
+      "y": 2080,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3216,
+        2088,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3232,
+      "y": 2144,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3408,
+      "y": 1920,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3408,
+        1928,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3424,
+      "y": 1984,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3408,
+      "y": 2080,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3408,
+        2088,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3424,
+      "y": 2144,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3568,
+      "y": 1920,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3568,
+        1928,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3584,
+      "y": 1984,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3568,
+      "y": 2080,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3568,
+        2088,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3584,
+      "y": 2144,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3056,
+      "y": 2464,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3056,
+        2472,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3072,
+      "y": 2528,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3056,
+      "y": 2624,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3056,
+        2632,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3072,
+      "y": 2688,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3216,
+      "y": 2464,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3216,
+        2472,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3232,
+      "y": 2528,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3216,
+      "y": 2624,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3216,
+        2632,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3232,
+      "y": 2688,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3408,
+      "y": 2464,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3408,
+        2472,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3424,
+      "y": 2528,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3408,
+      "y": 2624,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3408,
+        2632,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3424,
+      "y": 2688,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3568,
+      "y": 2464,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3568,
+        2472,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3584,
+      "y": 2528,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3568,
+      "y": 2624,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3568,
+        2632,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3584,
+      "y": 2688,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "meeting",
+      "x": 4352,
+      "y": 1984,
+      "width": 128,
+      "height": 64,
+      "collision": [
+        4352,
+        1992,
+        128,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 4368,
+      "y": 2048,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "amber-chair",
+      "x": 4368,
+      "y": 1920,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 4432,
+      "y": 2048,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "amber-chair",
+      "x": 4432,
+      "y": 1920,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "meeting",
+      "x": 4672,
+      "y": 1984,
+      "width": 128,
+      "height": 64,
+      "collision": [
+        4672,
+        1992,
+        128,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 4688,
+      "y": 2048,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "amber-chair",
+      "x": 4688,
+      "y": 1920,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 4752,
+      "y": 2048,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "amber-chair",
+      "x": 4752,
+      "y": 1920,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "meeting",
+      "x": 4352,
+      "y": 2464,
+      "width": 128,
+      "height": 64,
+      "collision": [
+        4352,
+        2472,
+        128,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 4368,
+      "y": 2512,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "amber-chair",
+      "x": 4432,
+      "y": 2400,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "meeting",
+      "x": 4736,
+      "y": 2464,
+      "width": 128,
+      "height": 64,
+      "collision": [
+        4736,
+        2472,
+        128,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 4752,
+      "y": 2512,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "amber-chair",
+      "x": 4816,
+      "y": 2400,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "meeting",
+      "x": 4352,
+      "y": 2752,
+      "width": 128,
+      "height": 64,
+      "collision": [
+        4352,
+        2760,
+        128,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 4368,
+      "y": 2800,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "amber-chair",
+      "x": 4432,
+      "y": 2688,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "meeting",
+      "x": 4736,
+      "y": 2752,
+      "width": 128,
+      "height": 64,
+      "collision": [
+        4736,
+        2760,
+        128,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 4752,
+      "y": 2800,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "amber-chair",
+      "x": 4816,
+      "y": 2688,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "sofa",
+      "x": 3056,
+      "y": 2880,
+      "width": 128,
+      "height": 80,
+      "collision": [
+        3056,
+        2880,
+        128,
+        32
+      ]
+    },
+    {
+      "kind": "sofa",
+      "x": 3440,
+      "y": 2880,
+      "width": 128,
+      "height": 80,
+      "collision": [
+        3440,
+        2880,
+        128,
+        32
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 2928,
+      "y": 1760,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        2928,
+        1776,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 2928,
+      "y": 2208,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        2928,
+        2224,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 2928,
+      "y": 2944,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        2928,
+        2960,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 5024,
+      "y": 1760,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        5024,
+        1776,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 5024,
+      "y": 2208,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        5024,
+        2224,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 5024,
+      "y": 2944,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        5024,
+        2960,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 5408,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5456,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5520,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5568,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5408,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5456,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5520,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5568,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5408,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5456,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5520,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5568,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5408,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5456,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5520,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5568,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5808,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5856,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5920,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5968,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5808,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5856,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5920,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5968,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5808,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5856,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5920,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5968,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5808,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5856,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5920,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 5968,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 5812,
+      "y": 3008,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        5812,
+        3020,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "cafe",
+      "x": 2384,
+      "y": 4320,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        2384,
+        4328,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "amber-chair",
+      "x": 2336,
+      "y": 4336,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 2464,
+      "y": 4336,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "cafe",
+      "x": 2848,
+      "y": 4320,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        2848,
+        4328,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "amber-chair",
+      "x": 2800,
+      "y": 4336,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 2928,
+      "y": 4336,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "cafe",
+      "x": 3088,
+      "y": 4320,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3088,
+        4328,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "amber-chair",
+      "x": 3040,
+      "y": 4336,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 3168,
+      "y": 4336,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    }
+  ],
+  "doors": [
+    {
+      "id": "meeting-1",
+      "box": [
+        4272,
+        2448,
+        16,
+        96
+      ],
+      "inside": [
+        4288,
+        2416,
+        240,
+        160
+      ],
+      "lock": "meetingLock1"
+    },
+    {
+      "id": "meeting-2",
+      "box": [
+        4656,
+        2448,
+        16,
+        96
+      ],
+      "inside": [
+        4672,
+        2416,
+        240,
+        160
+      ],
+      "lock": "meetingLock2"
+    },
+    {
+      "id": "meeting-3",
+      "box": [
+        4272,
+        2736,
+        16,
+        96
+      ],
+      "inside": [
+        4288,
+        2704,
+        240,
+        160
+      ],
+      "lock": "meetingLock3"
+    },
+    {
+      "id": "meeting-4",
+      "box": [
+        4656,
+        2736,
+        16,
+        96
+      ],
+      "inside": [
+        4672,
+        2704,
+        240,
+        160
+      ],
+      "lock": "meetingLock4"
+    },
+    {
+      "id": "office-front",
+      "box": [
+        3920,
+        3088,
+        192,
+        16
+      ],
+      "inside": [
+        2912,
+        1680,
+        2208,
+        1408
+      ]
+    },
+    {
+      "id": "office-rear",
+      "box": [
+        3920,
+        1664,
+        192,
+        16
+      ],
+      "inside": [
+        2912,
+        1680,
+        2208,
+        1408
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": "meeting-1",
+      "box": [
+        4288,
+        2416,
+        240,
+        160
+      ]
+    },
+    {
+      "id": "meeting-2",
+      "box": [
+        4672,
+        2416,
+        240,
+        160
+      ]
+    },
+    {
+      "id": "meeting-3",
+      "box": [
+        4288,
+        2704,
+        240,
+        160
+      ]
+    },
+    {
+      "id": "meeting-4",
+      "box": [
+        4672,
+        2704,
+        240,
+        160
+      ]
+    }
+  ],
+  "waypoints": {
+    "spawn": [
+      4016,
+      3184
+    ],
+    "office-center": [
+      4016,
+      2364
+    ],
+    "rear": [
+      4016,
+      1600
+    ],
+    "cafe": [
+      2992,
+      4304
+    ],
+    "stage": [
+      5752,
+      3053
+    ],
+    "audience": [
+      5752,
+      3338
+    ],
+    "portal": [
+      5632,
+      4373
+    ],
+    "lower-square": [
+      4012,
+      4313
+    ],
+    "west-terrace": [
+      2482,
+      3263
+    ]
+  }
+}

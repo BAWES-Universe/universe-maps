@@ -1,0 +1,140 @@
+[
+  {
+    "label": "permanent wall collision with roof hidden",
+    "pass": true,
+    "details": {
+      "x": 2920,
+      "y": 1760,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2560,
+        "y": 1535,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "cliff blocks keyboard movement",
+    "pass": true,
+    "details": {
+      "x": 3096,
+      "y": 3216,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2736,
+        "y": 2991,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "native stage platform",
+    "pass": true,
+    "details": {
+      "x": 5752,
+      "y": 3056,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5392,
+        "y": 2831,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "audience chair",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 322
+      },
+      "x": 5432,
+      "y": 3184,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5072,
+        "y": 2959,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "cleaned cafe route",
+    "pass": true,
+    "details": {
+      "x": 3000,
+      "y": 4304,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2640,
+        "y": 4079,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "cafe chair",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 322
+      },
+      "x": 2360,
+      "y": 4368,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2000,
+        "y": 4143,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "cafe chair exit",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 752,
+        "y": 578
+      },
+      "x": 2376,
+      "y": 4432,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2016,
+        "y": 4207,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  }
+]

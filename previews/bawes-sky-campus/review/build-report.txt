@@ -1,0 +1,6 @@
+2026-10-17
+TypeScript tsc: PASS
+Vite map optimizer: FAIL for previews/bawes-sky-campus/campus.tmj
+Error: Tileset scenery-and-campus-0-0 not compatible! Accept only 32 tile size
+11 maps processed: 10 succeeded, 1 failed. No existing map was changed.
+Direct native16 TMJ: loaded and tested in pinned Universe client.

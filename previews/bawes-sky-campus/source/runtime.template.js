@@ -9,7 +9,11 @@
  function update(){
   // This pinned client replans active paths whenever any layer visibility changes.
   // Apply cutaways and door closing at rest to avoid shifting 16px-grid click targets.
-  if(!moving)show('office-cover',!contains(position,layout.office));
+  if(!moving){
+   const inside=contains(position,layout.cutaway);
+   show('office-cover',!inside);show('office-window-interior',!inside);
+   for(const layer of ['office-floor','office-walls','office-furniture','office-chair-fronts'])show(layer,inside);
+  }
   for(const door of layout.doors){
    // Exit remains available to an occupant even when another client has locked the room.
    if(contains(position,door.inside))egress.add(door.id);

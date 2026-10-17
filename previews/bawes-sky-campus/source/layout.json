@@ -16,6 +16,18 @@
     2240,
     1440
   ],
+  "cutaway": [
+    2768,
+    1536,
+    2496,
+    1568
+  ],
+  "exterior": [
+    2896,
+    2144,
+    2240,
+    960
+  ],
   "spawn": [
     4016,
     3184
@@ -463,6 +475,30 @@
       "x": 3192,
       "y": 4368,
       "group": "cafe",
+      "facing": "up"
+    },
+    {
+      "x": 2392,
+      "y": 3136,
+      "group": "west-review",
+      "facing": "down"
+    },
+    {
+      "x": 2520,
+      "y": 3136,
+      "group": "west-review",
+      "facing": "up"
+    },
+    {
+      "x": 2120,
+      "y": 3312,
+      "group": "west-review",
+      "facing": "down"
+    },
+    {
+      "x": 2248,
+      "y": 3312,
+      "group": "west-review",
       "facing": "up"
     }
   ],
@@ -1470,30 +1506,62 @@
       "collision": null
     },
     {
-      "kind": "scenic-obstacle",
-      "x": 1948,
-      "y": 3098,
-      "width": 474,
-      "height": 315,
+      "kind": "cafe",
+      "x": 2416,
+      "y": 3088,
+      "width": 64,
+      "height": 64,
       "collision": [
-        1948,
-        3098,
-        474,
-        315
+        2416,
+        3096,
+        64,
+        48
       ]
     },
     {
-      "kind": "scenic-obstacle",
-      "x": 2347,
-      "y": 3074,
-      "width": 195,
-      "height": 114,
+      "kind": "amber-chair",
+      "x": 2368,
+      "y": 3104,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 2496,
+      "y": 3104,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "cafe",
+      "x": 2144,
+      "y": 3264,
+      "width": 64,
+      "height": 64,
       "collision": [
-        2347,
-        3074,
-        195,
-        114
+        2144,
+        3272,
+        64,
+        48
       ]
+    },
+    {
+      "kind": "amber-chair",
+      "x": 2096,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "red-chair",
+      "x": 2224,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
     }
   ],
   "doors": [

@@ -1,0 +1,52 @@
+{
+  "status": "rejected offline; no map integration",
+  "sourceCommit": "cd7223d4dc1f8c675e2f9a543767f6fc30487aa2",
+  "runtimeCheckpoint": "6b7a519e69d68bd2adf246aa77884f734d064e96",
+  "mainAssemblyAlphaThreshold": 32,
+  "mainAssemblyCrop": [
+    130,
+    44,
+    1921,
+    531
+  ],
+  "uniformScale": 0.21440536013400335,
+  "nativeSize": [
+    384,
+    104
+  ],
+  "estimatedFrontBodyHeight": [
+    28,
+    36
+  ],
+  "requiredFrontBodyHeight": [
+    40,
+    48
+  ],
+  "separateApronUsed": false,
+  "trialEnvelopeSource": [
+    216,
+    676,
+    400,
+    746
+  ],
+  "localAlignmentInverse": [
+    0.9615384615384615,
+    0,
+    17.307692307692307,
+    0.04807692307692308,
+    1,
+    -19.134615384615383
+  ],
+  "cleanPlateRegistered": false,
+  "mapChanged": false,
+  "trialsAreRuntimeScreenshots": false,
+  "limitations": [
+    "Trial silhouette is an experimental removal mask, not an approved protected-structure mask.",
+    "Local alignment improves one endpoint while drifting others; visible shelf/post/floor seams remain.",
+    "Native counter proportions are offline measurements, not tested runtime occupancy."
+  ],
+  "sourceSha256": {
+    "counter-assembly-candidate.png": "6be681ec35319fdf67ab708d3ef2f661c1c197e6e7662bf5e6c984b05cd1b434",
+    "counter-free-candidate.png": "dfa83991b10ef016f00b1dc5d8a257bcd201288c4d25bc572154d1611d0e33c1"
+  }
+}

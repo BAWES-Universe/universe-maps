@@ -37,3 +37,5 @@ Outdoor restoration is now tied to the exact original attachment: see [source co
 Current outdoor changes and limitations: [conservatory/stage/café correction pass](review/OUTDOOR-RESTORATION-PASS.md).
 
 Latest source assessment and bounded polish: [counter and navigation follow-up](review/COUNTER-AND-NAVIGATION.md). Exterior entrance animation now waits for the approach to stop, avoiding gate-triggered path drift; accepted interior behavior and artwork remain unchanged.
+
+Counter source candidates were tested offline and rejected without map changes: [assessment and exact remaining requirements](review/COUNTER-CANDIDATE-ASSESSMENT.md).

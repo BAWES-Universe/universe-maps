@@ -1,0 +1,194 @@
+[
+  {
+    "label": "outdoor anchor outdoor-lounge",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 816,
+        "y": 354
+      },
+      "x": 3544,
+      "y": 3184,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3184,
+        "y": 2959,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "native scale outdoor-lounge",
+    "pass": true,
+    "details": {
+      "x": 3544,
+      "y": 3184,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3184,
+        "y": 2959,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true,
+      "seat": {
+        "x": 3544,
+        "y": 3184,
+        "group": "outdoor-lounge",
+        "facing": "up"
+      },
+      "actualDirection": 1,
+      "scope": "occupied anchor and scale only; no seated-pose or correct automatic-facing claim"
+    }
+  },
+  {
+    "label": "outdoor anchor west-review",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 816,
+        "y": 354
+      },
+      "x": 2392,
+      "y": 3136,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2032,
+        "y": 2911,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "native scale west-review",
+    "pass": true,
+    "details": {
+      "x": 2392,
+      "y": 3136,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2032,
+        "y": 2911,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true,
+      "seat": {
+        "x": 2392,
+        "y": 3136,
+        "group": "west-review",
+        "facing": "down"
+      },
+      "actualDirection": 1,
+      "scope": "occupied anchor and scale only; no seated-pose or correct automatic-facing claim"
+    }
+  },
+  {
+    "label": "outdoor anchor audience",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 816,
+        "y": 354
+      },
+      "x": 5432,
+      "y": 3184,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5072,
+        "y": 2959,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "native scale audience",
+    "pass": true,
+    "details": {
+      "x": 5432,
+      "y": 3184,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5072,
+        "y": 2959,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true,
+      "seat": {
+        "x": 5432,
+        "y": 3184,
+        "group": "audience",
+        "facing": "up"
+      },
+      "actualDirection": 1,
+      "scope": "occupied anchor and scale only; no seated-pose or correct automatic-facing claim"
+    }
+  },
+  {
+    "label": "outdoor anchor cafe",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 816,
+        "y": 354
+      },
+      "x": 2360,
+      "y": 4368,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2000,
+        "y": 4143,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "native scale cafe",
+    "pass": true,
+    "details": {
+      "x": 2360,
+      "y": 4368,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2000,
+        "y": 4143,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true,
+      "seat": {
+        "x": 2360,
+        "y": 4368,
+        "group": "cafe",
+        "facing": "down"
+      },
+      "actualDirection": 1,
+      "scope": "occupied anchor and scale only; no seated-pose or correct automatic-facing claim"
+    }
+  }
+]

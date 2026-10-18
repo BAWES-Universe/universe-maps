@@ -31,3 +31,5 @@ The script uses local map variables; the local development server explicitly dis
 Scenery extends beyond all walkable sides. The engine's unrestricted Explore camera can pan outside any finite map; padding cannot guarantee scenery for arbitrary pan or zoom. Measured supported-view results are recorded separately under `review/` rather than claiming an engine-wide guarantee.
 
 The rear exit and external service floor were removed because they extended into sky behind the building. Existing plaza paving connects the front threshold to outdoor spawn. The beverage prompt and its prompt-dependent steam trigger are removed, with no replacement popup or control. Existing native movement and courtesy-lock controls remain. Gate appearance and behavior are unchanged; its stepped motion remains a known limitation.
+
+Outdoor restoration is now tied to the exact original attachment: see [source comparison, native audit and bounded restoration needs](review/OUTDOOR-RESTORATION-AUDIT.md). No flattened-source restoration has been integrated.

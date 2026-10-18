@@ -20,7 +20,7 @@ For the recorded local engine at `274114560c5ec95fdf8e51e67986a53069f3cf06`, run
 
 From this candidate directory, run `node ../../node_modules/vite/bin/vite.js build --config vite.config.ts`, then `python3 source/validation/optimization.py`. Use the saved Node22 binary if the shell Node version differs. The output is `dist/`; the equivalence check compares every used tile pixel and tile property, layer order and map dimensions. The candidate config changes no engine code or shared tooling. It retains `runtime.js` instead of the optimizer's generic remote-API HTML wrapper.
 
-See `review/COMPOSITION-PASS.md` for current visual evidence; `FOOTPRINT-REDESIGN.md`, `SEAMS-AND-COMPOSITION.md`, `COMPOSITING.md`, `REFINEMENT.md` and `COMPOSITING-CHECKPOINT.md` describe earlier checkpoints.
+See `review/GATE-AND-FLOOR.md` for the current floor and unresolved smooth-gate limitation; `COMPOSITION-PASS.md` records the preceding furnishing pass; `FOOTPRINT-REDESIGN.md`, `SEAMS-AND-COMPOSITION.md`, `COMPOSITING.md`, `REFINEMENT.md` and `COMPOSITING-CHECKPOINT.md` describe earlier checkpoints.
 
 ## Review limits
 

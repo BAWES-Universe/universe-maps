@@ -33,5 +33,27 @@
       },
       "method": "stationary inside player; force only roof/floor visibility through map API for comparison"
     }
+  },
+  {
+    "label": "native work chair",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 402
+      },
+      "x": 3080,
+      "y": 2672,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2720,
+        "y": 2423,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
   }
 ]

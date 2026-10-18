@@ -71,9 +71,7 @@ def rug(x,y,w,h):
  rd.rectangle((x+7,y+7,x+w-8,y+h-8),outline='#b5a06b',width=2)
  rd.rectangle((x+12,y+12,x+w-13,y+h-13),outline='#ba8750',width=1)
 for box in [(64,112,384,416),(576,112,384,416),(1424,96,656,144)]:rug(*box)
-fd=ImageDraw.Draw(floor)
-fd.polygon([(1072,368),(1120,400),(1120,464),(1072,496),(1024,464),(1024,400)],fill='#c59b45',outline='#75573c',width=2)
-fd.polygon([(1072,392),(1104,432),(1072,472),(1040,432)],fill='#b54f36')
+# Keep the central arrival route in continuous existing stone; no invented logo mark.
 cutaway_ground=floor
 # Foreground sprite source atlas: own layers, no authored furniture baked into office floor.
 kit=Image.open(R/'source/furniture-original.png').convert('RGBA')

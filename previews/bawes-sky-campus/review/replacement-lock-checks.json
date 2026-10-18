@@ -1,0 +1,236 @@
+[
+  {
+    "label": "meeting-1 enter",
+    "pass": true,
+    "details": {
+      "x": 4488,
+      "y": 2832,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4128,
+        "y": 2583,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "meeting-1 locked to visitor",
+    "pass": true,
+    "details": {
+      "x": 4488,
+      "y": 2960,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4128,
+        "y": 2711,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "meeting-1 blocks traversal",
+    "pass": true,
+    "details": {
+      "x": 4488,
+      "y": 2960,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4128,
+        "y": 2711,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "meeting-1 occupant safe exit",
+    "pass": true,
+    "details": {
+      "x": 4488,
+      "y": 2960,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4128,
+        "y": 2700,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "meeting-1 unlocked entry",
+    "pass": true,
+    "details": {
+      "x": 4488,
+      "y": 2832,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4079,
+        "y": 2572,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "meeting-2 enter",
+    "pass": true,
+    "details": {
+      "x": 4888,
+      "y": 2832,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4528,
+        "y": 2583,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "meeting-2 locked to visitor",
+    "pass": true,
+    "details": {
+      "x": 4888,
+      "y": 2960,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4528,
+        "y": 2711,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "meeting-2 blocks traversal",
+    "pass": true,
+    "details": {
+      "x": 4888,
+      "y": 2960,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4528,
+        "y": 2711,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "meeting-2 occupant safe exit",
+    "pass": true,
+    "details": {
+      "x": 4888,
+      "y": 2960,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4528,
+        "y": 2704,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "meeting-2 unlocked entry",
+    "pass": true,
+    "details": {
+      "x": 4888,
+      "y": 2832,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4482,
+        "y": 2567,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "front exit",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 3184,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3664,
+        "y": 2935,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "exterior restores with glazing hidden",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 3184,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3664,
+        "y": 2935,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "native Woka scale preserved",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 3184,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3664,
+        "y": 2935,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "name": "reception",
+    "sourceBox": [
+      32,
+      24,
+      454,
+      408
+    ],
+    "alphaBounds": [
+      13,
+      12,
+      415,
+      374
+    ],
+    "trimmedSource": [
+      402,
+      362
+    ],
+    "uniformScale": 0.6368159203980099,
+    "rasterSize": [
+      256,
+      231
+    ],
+    "paddedSize": [
+      256,
+      240
+    ]
+  },
+  {
+    "name": "desk-paper",
+    "sourceBox": [
+      500,
+      75,
+      804,
+      242
+    ],
+    "alphaBounds": [
+      10,
+      14,
+      288,
+      158
+    ],
+    "trimmedSource": [
+      278,
+      144
+    ],
+    "uniformScale": 0.4028776978417266,
+    "rasterSize": [
+      112,
+      58
+    ],
+    "paddedSize": [
+      112,
+      64
+    ]
+  },
+  {
+    "name": "desk-laptop",
+    "sourceBox": [
+      834,
+      75,
+      1132,
+      242
+    ],
+    "alphaBounds": [
+      9,
+      9,
+      286,
+      158
+    ],
+    "trimmedSource": [
+      277,
+      149
+    ],
+    "uniformScale": 0.4043321299638989,
+    "rasterSize": [
+      112,
+      60
+    ],
+    "paddedSize": [
+      112,
+      64
+    ]
+  },
+  {
+    "name": "project",
+    "sourceBox": [
+      488,
+      260,
+      818,
+      451
+    ],
+    "alphaBounds": [
+      10,
+      11,
+      318,
+      184
+    ],
+    "trimmedSource": [
+      308,
+      173
+    ],
+    "uniformScale": 0.5194805194805194,
+    "rasterSize": [
+      160,
+      90
+    ],
+    "paddedSize": [
+      160,
+      96
+    ]
+  },
+  {
+    "name": "meeting",
+    "sourceBox": [
+      858,
+      264,
+      1138,
+      431
+    ],
+    "alphaBounds": [
+      10,
+      8,
+      266,
+      160
+    ],
+    "trimmedSource": [
+      256,
+      152
+    ],
+    "uniformScale": 0.5625,
+    "rasterSize": [
+      144,
+      86
+    ],
+    "paddedSize": [
+      144,
+      96
+    ]
+  },
+  {
+    "name": "sofa",
+    "sourceBox": [
+      56,
+      450,
+      423,
+      625
+    ],
+    "alphaBounds": [
+      10,
+      12,
+      359,
+      166
+    ],
+    "trimmedSource": [
+      349,
+      154
+    ],
+    "uniformScale": 0.504297994269341,
+    "rasterSize": [
+      176,
+      78
+    ],
+    "paddedSize": [
+      176,
+      80
+    ]
+  },
+  {
+    "name": "side",
+    "sourceBox": [
+      452,
+      480,
+      580,
+      620
+    ],
+    "alphaBounds": [
+      12,
+      6,
+      120,
+      128
+    ],
+    "trimmedSource": [
+      108,
+      122
+    ],
+    "uniformScale": 0.4444444444444444,
+    "rasterSize": [
+      48,
+      54
+    ],
+    "paddedSize": [
+      48,
+      64
+    ]
+  },
+  {
+    "name": "plant",
+    "sourceBox": [
+      618,
+      450,
+      792,
+      636
+    ],
+    "alphaBounds": [
+      15,
+      9,
+      153,
+      172
+    ],
+    "trimmedSource": [
+      138,
+      163
+    ],
+    "uniformScale": 0.34782608695652173,
+    "rasterSize": [
+      48,
+      57
+    ],
+    "paddedSize": [
+      48,
+      64
+    ]
+  },
+  {
+    "name": "planter",
+    "sourceBox": [
+      802,
+      454,
+      1240,
+      636
+    ],
+    "alphaBounds": [
+      11,
+      16,
+      429,
+      169
+    ],
+    "trimmedSource": [
+      418,
+      153
+    ],
+    "uniformScale": 0.5358851674641149,
+    "rasterSize": [
+      224,
+      82
+    ],
+    "paddedSize": [
+      224,
+      96
+    ]
+  },
+  {
+    "name": "chair-down",
+    "sourceBox": [
+      72,
+      638,
+      216,
+      790
+    ],
+    "alphaBounds": [
+      8,
+      6,
+      136,
+      135
+    ],
+    "trimmedSource": [
+      128,
+      129
+    ],
+    "uniformScale": 0.31007751937984496,
+    "rasterSize": [
+      40,
+      40
+    ],
+    "paddedSize": [
+      48,
+      64
+    ]
+  },
+  {
+    "name": "chair-up",
+    "sourceBox": [
+      264,
+      636,
+      408,
+      790
+    ],
+    "alphaBounds": [
+      9,
+      8,
+      134,
+      137
+    ],
+    "trimmedSource": [
+      125,
+      129
+    ],
+    "uniformScale": 0.31007751937984496,
+    "rasterSize": [
+      39,
+      40
+    ],
+    "paddedSize": [
+      48,
+      64
+    ]
+  },
+  {
+    "name": "chair-right",
+    "sourceBox": [
+      450,
+      636,
+      590,
+      790
+    ],
+    "alphaBounds": [
+      14,
+      8,
+      125,
+      137
+    ],
+    "trimmedSource": [
+      111,
+      129
+    ],
+    "uniformScale": 0.31007751937984496,
+    "rasterSize": [
+      34,
+      40
+    ],
+    "paddedSize": [
+      48,
+      64
+    ]
+  },
+  {
+    "name": "chair-left",
+    "sourceBox": [
+      620,
+      636,
+      752,
+      790
+    ],
+    "alphaBounds": [
+      13,
+      8,
+      124,
+      137
+    ],
+    "trimmedSource": [
+      111,
+      129
+    ],
+    "uniformScale": 0.31007751937984496,
+    "rasterSize": [
+      34,
+      40
+    ],
+    "paddedSize": [
+      48,
+      64
+    ]
+  }
+]

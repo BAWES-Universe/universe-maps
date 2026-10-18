@@ -21,9 +21,8 @@
   // Apply cutaways and door closing at rest to avoid shifting 16px-grid click targets.
   if(!moving){
    const inside=contains(position,layout.cutaway);
-   show('reception-activity',inside&&contains(position,[layout.office[0]+1120,layout.office[1]+384,208,176])&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches);
    show('office-cover',!inside);show('office-window-interior',!inside);
-   for(const layer of ['office-floor','office-walls','office-furniture','office-chair-fronts'])show(layer,inside);
+   for(const layer of ['office-floor','office-walls','office-furniture','office-chair-fronts','office-glazing'])show(layer,inside);
   }
   for(const door of layout.doors){
    // Exit remains available to an occupant even when another client has locked the room.
@@ -31,8 +30,8 @@
    if(!contains(position,door.inside,80))egress.delete(door.id);
    const state=states.get(door.lock),locked=!!(state?.locked&&state.expiresAt>Date.now());
    const near=contains(position,door.box,80);
-   const open=door.lock ? near&&(!locked||egress.has(door.id)) : contains(position,door.inside)||near;
-   if(open||!moving){if(door.id==='office-front'){if(open)show('office-front-door',false);animateEntrance(open)}else show(door.id+'-door',!open);}
+   const open=door.lock ? (contains(position,door.inside)||near&&(!locked||egress.has(door.id))) : contains(position,door.inside)||near;
+   if(open||!moving){if(door.id==='office-front'){if(open)show('office-front-door',false);animateEntrance(open)}else {show(door.id+'-door',!open);show(door.id+'-glass',!open&&contains(position,layout.cutaway));}}
   }
  }
  const owner=WA.player.uuid||WA.player.id;

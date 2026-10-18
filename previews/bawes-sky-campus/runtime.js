@@ -1,7 +1,7 @@
 /* Map-local cutaways and proximity doors. No navigation prompts, audio or destinations. */
 (async () => {
  await WA.onInit();
- const layout={"office":[2944,2448,2144,592],"cutaway":[2944,2448,2144,592],"doors":[{"id":"meeting-1","box":[4320,2816,16,96],"inside":[4336,2784,288,160],"lock":"meetingLock1"},{"id":"meeting-2","box":[4704,2816,16,96],"inside":[4720,2784,288,160],"lock":"meetingLock2"},{"id":"office-front","box":[3920,3024,192,16],"inside":[2960,2528,2112,496]}]};
+ const layout={"office":[2944,2448,2144,592],"cutaway":[2944,2448,2144,592],"doors":[{"id":"meeting-1","box":[4432,2896,96,16],"inside":[4352,2560,272,336],"lock":"meetingLock1"},{"id":"meeting-2","box":[4832,2896,96,16],"inside":[4752,2560,272,336],"lock":"meetingLock2"},{"id":"office-front","box":[3920,3024,192,16],"inside":[2960,2496,2112,528]}]};
  let position=await WA.player.getPosition(),moving=false;
  const states=new Map(),visibility=new Map(),egress=new Set();
  const contains=(p,b,pad=0)=>p.x>=b[0]-pad&&p.x<b[0]+b[2]+pad&&p.y>=b[1]-pad&&p.y<b[1]+b[3]+pad;
@@ -21,9 +21,8 @@
   // Apply cutaways and door closing at rest to avoid shifting 16px-grid click targets.
   if(!moving){
    const inside=contains(position,layout.cutaway);
-   show('reception-activity',inside&&contains(position,[layout.office[0]+1120,layout.office[1]+384,208,176])&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches);
    show('office-cover',!inside);show('office-window-interior',!inside);
-   for(const layer of ['office-floor','office-walls','office-furniture','office-chair-fronts'])show(layer,inside);
+   for(const layer of ['office-floor','office-walls','office-furniture','office-chair-fronts','office-glazing'])show(layer,inside);
   }
   for(const door of layout.doors){
    // Exit remains available to an occupant even when another client has locked the room.
@@ -31,8 +30,8 @@
    if(!contains(position,door.inside,80))egress.delete(door.id);
    const state=states.get(door.lock),locked=!!(state?.locked&&state.expiresAt>Date.now());
    const near=contains(position,door.box,80);
-   const open=door.lock ? near&&(!locked||egress.has(door.id)) : contains(position,door.inside)||near;
-   if(open||!moving){if(door.id==='office-front'){if(open)show('office-front-door',false);animateEntrance(open)}else show(door.id+'-door',!open);}
+   const open=door.lock ? (contains(position,door.inside)||near&&(!locked||egress.has(door.id))) : contains(position,door.inside)||near;
+   if(open||!moving){if(door.id==='office-front'){if(open)show('office-front-door',false);animateEntrance(open)}else {show(door.id+'-door',!open);show(door.id+'-glass',!open&&contains(position,layout.cutaway));}}
   }
  }
  const owner=WA.player.uuid||WA.player.id;

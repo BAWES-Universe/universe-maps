@@ -1,0 +1,800 @@
+[
+  {
+    "label": "actual pointer seat 0 focus",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 832,
+        "y": 580
+      },
+      "x": 3080,
+      "y": 2624,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2653,
+        "y": 2350,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 0",
+    "pass": true,
+    "details": {
+      "expected": "up",
+      "direction": 0,
+      "x": 3080,
+      "y": 2624,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2720,
+        "y": 2375,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 1 focus",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 3512,
+      "y": 2624,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3152,
+        "y": 2375,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 1",
+    "pass": true,
+    "details": {
+      "expected": "up",
+      "direction": 0,
+      "x": 3512,
+      "y": 2624,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3152,
+        "y": 2375,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 2 project",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 3240,
+      "y": 2560,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2880,
+        "y": 2311,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 2",
+    "pass": true,
+    "details": {
+      "expected": "down",
+      "direction": 2,
+      "x": 3240,
+      "y": 2560,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2880,
+        "y": 2311,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 3 project",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 3240,
+      "y": 2704,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2880,
+        "y": 2455,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 3",
+    "pass": true,
+    "details": {
+      "expected": "up",
+      "direction": 0,
+      "x": 3240,
+      "y": 2704,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2880,
+        "y": 2455,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 4 project",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 3320,
+      "y": 2560,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2960,
+        "y": 2311,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 4",
+    "pass": true,
+    "details": {
+      "expected": "down",
+      "direction": 2,
+      "x": 3320,
+      "y": 2560,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2960,
+        "y": 2311,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 5 project",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 3320,
+      "y": 2704,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2960,
+        "y": 2455,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 5",
+    "pass": true,
+    "details": {
+      "expected": "up",
+      "direction": 0,
+      "x": 3320,
+      "y": 2704,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2960,
+        "y": 2455,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 6 outward-lounge",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 3096,
+      "y": 2896,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2736,
+        "y": 2647,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 6",
+    "pass": true,
+    "details": {
+      "expected": "down",
+      "direction": 2,
+      "x": 3096,
+      "y": 2896,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2736,
+        "y": 2647,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 7 outward-lounge",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 3176,
+      "y": 2896,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2816,
+        "y": 2647,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 7",
+    "pass": true,
+    "details": {
+      "expected": "down",
+      "direction": 2,
+      "x": 3176,
+      "y": 2896,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2816,
+        "y": 2647,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 8 outward-lounge",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 3448,
+      "y": 2896,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3088,
+        "y": 2647,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 8",
+    "pass": true,
+    "details": {
+      "expected": "down",
+      "direction": 2,
+      "x": 3448,
+      "y": 2896,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3088,
+        "y": 2647,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 9 outward-lounge",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 3528,
+      "y": 2896,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3168,
+        "y": 2647,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 9",
+    "pass": true,
+    "details": {
+      "expected": "down",
+      "direction": 2,
+      "x": 3528,
+      "y": 2896,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3168,
+        "y": 2647,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 10 reception",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 3800,
+      "y": 2640,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3440,
+        "y": 2391,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 10",
+    "pass": true,
+    "details": {
+      "expected": "down",
+      "direction": 2,
+      "x": 3800,
+      "y": 2640,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3440,
+        "y": 2391,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 11 meeting",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 4456,
+      "y": 2656,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4096,
+        "y": 2407,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 11",
+    "pass": true,
+    "details": {
+      "expected": "down",
+      "direction": 2,
+      "x": 4456,
+      "y": 2656,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4096,
+        "y": 2407,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 12 meeting",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 4456,
+      "y": 2768,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4096,
+        "y": 2519,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 12",
+    "pass": true,
+    "details": {
+      "expected": "up",
+      "direction": 0,
+      "x": 4456,
+      "y": 2768,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4096,
+        "y": 2519,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 13 meeting",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 4536,
+      "y": 2640,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4176,
+        "y": 2391,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 13",
+    "pass": true,
+    "details": {
+      "expected": "down",
+      "direction": 2,
+      "x": 4536,
+      "y": 2640,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4176,
+        "y": 2391,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 14 meeting",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 4536,
+      "y": 2768,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4176,
+        "y": 2519,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 14",
+    "pass": true,
+    "details": {
+      "expected": "up",
+      "direction": 0,
+      "x": 4536,
+      "y": 2768,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4176,
+        "y": 2519,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 15 meeting",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 4856,
+      "y": 2656,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4496,
+        "y": 2407,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 15",
+    "pass": true,
+    "details": {
+      "expected": "down",
+      "direction": 2,
+      "x": 4856,
+      "y": 2656,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4496,
+        "y": 2407,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 16 meeting",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 4856,
+      "y": 2768,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4496,
+        "y": 2519,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 16",
+    "pass": true,
+    "details": {
+      "expected": "up",
+      "direction": 0,
+      "x": 4856,
+      "y": 2768,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4496,
+        "y": 2519,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 17 meeting",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 4936,
+      "y": 2640,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4576,
+        "y": 2391,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 17",
+    "pass": true,
+    "details": {
+      "expected": "down",
+      "direction": 2,
+      "x": 4936,
+      "y": 2640,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4576,
+        "y": 2391,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual pointer seat 18 meeting",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 656,
+        "y": 498
+      },
+      "x": 4936,
+      "y": 2768,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4576,
+        "y": 2519,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native facing 18",
+    "pass": true,
+    "details": {
+      "expected": "up",
+      "direction": 0,
+      "x": 4936,
+      "y": 2768,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4576,
+        "y": 2519,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  }
+]

@@ -8,7 +8,7 @@ def load(root):
  for ts in m['tilesets']:
   im=Image.open(root/ts['image']).convert('RGBA');props={t['id']:t for t in ts.get('tiles',[])};cols=ts['columns'];start=ts['firstgid']
   for gid in used.intersection(range(start,start+ts['tilecount'])):
-   local=gid-start;x=(local%cols)*16;y=(local//cols)*16;meta={k:v for k,v in props.get(local,{}).items() if k!='id'}
+   local=gid-start;x=ts.get('margin',0)+(local%cols)*(16+ts.get('spacing',0));y=ts.get('margin',0)+(local//cols)*(16+ts.get('spacing',0));meta={k:v for k,v in props.get(local,{}).items() if k!='id'}
    signatures[gid]=hashlib.sha256(im.crop((x,y,x+16,y+16)).tobytes()+json.dumps(meta,sort_keys=True).encode()).digest()
  return m,signatures
 source,ss=load(r);optimized,os=load(r/'dist');checks={}

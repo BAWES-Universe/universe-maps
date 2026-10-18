@@ -226,6 +226,96 @@
       "facing": "down"
     },
     {
+      "x": 4456,
+      "y": 2544,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4392,
+      "y": 2432,
+      "group": "office",
+      "facing": "down"
+    },
+    {
+      "x": 4840,
+      "y": 2544,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4776,
+      "y": 2432,
+      "group": "office",
+      "facing": "down"
+    },
+    {
+      "x": 4456,
+      "y": 2832,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4392,
+      "y": 2720,
+      "group": "office",
+      "facing": "down"
+    },
+    {
+      "x": 4840,
+      "y": 2832,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4776,
+      "y": 2720,
+      "group": "office",
+      "facing": "down"
+    },
+    {
+      "x": 3800,
+      "y": 2864,
+      "group": "office",
+      "facing": "up"
+    },
+    {
+      "x": 4256,
+      "y": 1808,
+      "group": "review-lounge",
+      "facing": "up"
+    },
+    {
+      "x": 4320,
+      "y": 1808,
+      "group": "review-lounge",
+      "facing": "up"
+    },
+    {
+      "x": 4576,
+      "y": 1808,
+      "group": "review-lounge",
+      "facing": "up"
+    },
+    {
+      "x": 4640,
+      "y": 1808,
+      "group": "review-lounge",
+      "facing": "up"
+    },
+    {
+      "x": 4896,
+      "y": 1808,
+      "group": "review-lounge",
+      "facing": "up"
+    },
+    {
+      "x": 4960,
+      "y": 1808,
+      "group": "review-lounge",
+      "facing": "up"
+    },
+    {
       "x": 3088,
       "y": 2928,
       "group": "lounge",
@@ -1080,6 +1170,423 @@
       "width": 48,
       "height": 64,
       "collision": null
+    },
+    {
+      "kind": "glass",
+      "x": 4288,
+      "y": 2368,
+      "width": 96,
+      "height": 48,
+      "collision": null
+    },
+    {
+      "kind": "glass",
+      "x": 4416,
+      "y": 2368,
+      "width": 96,
+      "height": 48,
+      "collision": null
+    },
+    {
+      "kind": "planter",
+      "x": 4544,
+      "y": 2448,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        4544,
+        2464,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 4432,
+      "y": 2512,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "amber-chair",
+      "x": 4368,
+      "y": 2400,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "glass",
+      "x": 4672,
+      "y": 2368,
+      "width": 96,
+      "height": 48,
+      "collision": null
+    },
+    {
+      "kind": "glass",
+      "x": 4800,
+      "y": 2368,
+      "width": 96,
+      "height": 48,
+      "collision": null
+    },
+    {
+      "kind": "planter",
+      "x": 4928,
+      "y": 2448,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        4928,
+        2464,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 4816,
+      "y": 2512,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "amber-chair",
+      "x": 4752,
+      "y": 2400,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "glass",
+      "x": 4288,
+      "y": 2656,
+      "width": 96,
+      "height": 48,
+      "collision": null
+    },
+    {
+      "kind": "glass",
+      "x": 4416,
+      "y": 2656,
+      "width": 96,
+      "height": 48,
+      "collision": null
+    },
+    {
+      "kind": "planter",
+      "x": 4544,
+      "y": 2736,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        4544,
+        2752,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 4432,
+      "y": 2800,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "amber-chair",
+      "x": 4368,
+      "y": 2688,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "glass",
+      "x": 4672,
+      "y": 2656,
+      "width": 96,
+      "height": 48,
+      "collision": null
+    },
+    {
+      "kind": "glass",
+      "x": 4800,
+      "y": 2656,
+      "width": 96,
+      "height": 48,
+      "collision": null
+    },
+    {
+      "kind": "planter",
+      "x": 4928,
+      "y": 2736,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        4928,
+        2752,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 4816,
+      "y": 2800,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "amber-chair",
+      "x": 4752,
+      "y": 2688,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "desk",
+      "x": 3760,
+      "y": 2768,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3760,
+        2776,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "red-chair",
+      "x": 3776,
+      "y": 2832,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "kind": "glass",
+      "x": 3728,
+      "y": 2720,
+      "width": 96,
+      "height": 48,
+      "collision": null
+    },
+    {
+      "kind": "cafe",
+      "x": 3200,
+      "y": 2896,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3200,
+        2904,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "cafe",
+      "x": 3584,
+      "y": 2896,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        3584,
+        2904,
+        64,
+        48
+      ]
+    },
+    {
+      "kind": "sofa",
+      "x": 4224,
+      "y": 1760,
+      "width": 128,
+      "height": 80,
+      "collision": [
+        4224,
+        1760,
+        128,
+        32
+      ]
+    },
+    {
+      "kind": "sofa",
+      "x": 4544,
+      "y": 1760,
+      "width": 128,
+      "height": 80,
+      "collision": [
+        4544,
+        1760,
+        128,
+        32
+      ]
+    },
+    {
+      "kind": "sofa",
+      "x": 4864,
+      "y": 1760,
+      "width": 128,
+      "height": 80,
+      "collision": [
+        4864,
+        1760,
+        128,
+        32
+      ]
+    },
+    {
+      "kind": "glass",
+      "x": 4272,
+      "y": 2224,
+      "width": 96,
+      "height": 48,
+      "collision": [
+        4272,
+        2256,
+        96,
+        16
+      ]
+    },
+    {
+      "kind": "glass",
+      "x": 4592,
+      "y": 2224,
+      "width": 96,
+      "height": 48,
+      "collision": [
+        4592,
+        2256,
+        96,
+        16
+      ]
+    },
+    {
+      "kind": "glass",
+      "x": 4912,
+      "y": 2224,
+      "width": 96,
+      "height": 48,
+      "collision": [
+        4912,
+        2256,
+        96,
+        16
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 4176,
+      "y": 1984,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        4176,
+        2000,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 4176,
+      "y": 2240,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        4176,
+        2256,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 5024,
+      "y": 1984,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        5024,
+        2000,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 5024,
+      "y": 2240,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        5024,
+        2256,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 3056,
+      "y": 1824,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        3056,
+        1840,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 3056,
+      "y": 2304,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        3056,
+        2320,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 3408,
+      "y": 1824,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        3408,
+        1840,
+        80,
+        48
+      ]
+    },
+    {
+      "kind": "planter",
+      "x": 3408,
+      "y": 2304,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        3408,
+        2320,
+        80,
+        48
+      ]
     },
     {
       "kind": "sofa",

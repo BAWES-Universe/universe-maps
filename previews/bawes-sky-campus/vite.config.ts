@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import { execFileSync } from 'node:child_process';
 import { readFileSync, writeFileSync, copyFileSync } from 'node:fs';
 import { getMaps, getMapsScripts, getMapsOptimizers } from 'wa-map-optimizer-vite';
 
@@ -27,6 +28,7 @@ export default defineConfig({
           map.properties.find((property: { name: string }) => property.name === 'script').value = 'runtime.js';
           copyFileSync('runtime.js', 'dist/runtime.js');
           writeFileSync(file, JSON.stringify(map));
+          execFileSync('python3', ['source/pad-optimized.py']);
         },
       },
     },

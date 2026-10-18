@@ -21,9 +21,12 @@ def image_layer(name,im,x=0,y=0):
    if not crop.getchannel('A').getbbox():continue
    ww=math.ceil(crop.width/T)*T;hh=math.ceil(crop.height/T)*T
    page=Image.new('RGBA',(ww,hh));page.alpha_composite(crop)
-   filename=f'{name}-{cx//1024}-{cy//1024}.png';page.save(A/filename,compress_level=3)
+   filename=f'{name}-{cx//1024}-{cy//1024}.png'
+   # Extend the edge texels: fractional zoom must not sample beyond a page.
+   padded=Image.fromarray(np.pad(np.asarray(page),((1,1),(1,1),(0,0)),mode='edge'))
+   padded.save(A/filename,compress_level=3)
    nc=ww//T;nr=hh//T;first=gid;gid+=nc*nr
-   tilesets.append(dict(firstgid=first,name=filename[:-4],image='assets/'+filename,imagewidth=ww,imageheight=hh,tilewidth=T,tileheight=T,tilecount=nc*nr,columns=nc))
+   tilesets.append(dict(firstgid=first,name=filename[:-4],image='assets/'+filename,imagewidth=ww+2,imageheight=hh+2,margin=1,spacing=0,tilewidth=T,tileheight=T,tilecount=nc*nr,columns=nc))
    alpha=np.asarray(page.getchannel('A')).reshape(nr,T,nc,T).max(axis=(1,3))
    for ry in range(nr):
     for rx in range(nc):
@@ -32,8 +35,7 @@ def image_layer(name,im,x=0,y=0):
  layer(name,data)
 # Original arrangement scaled once. Feather only source sky-edge pixels into overscan scenery.
 sky=Image.open(R/'source/sky-original.png').convert('RGBA').resize((W,H),Image.Resampling.LANCZOS)
-concept=Image.open(R/'source/campus-site-final.png').convert('RGBA').resize((4608,3072),Image.Resampling.LANCZOS)
-mask=Image.new('L',concept.size,0);ImageDraw.Draw(mask).rectangle((40,40,4567,3031),fill=255);mask=mask.filter(ImageFilter.GaussianBlur(22));concept.putalpha(mask)
+concept=Image.open(R/'source/campus-site-cutout.png').convert('RGBA').resize((4608,3072),Image.Resampling.LANCZOS)
 sky.alpha_composite(concept,(PX,PY))
 # Native paths conservatively track visible stone floors, not cliffs or distant islands.
 for polygon in [
@@ -50,8 +52,20 @@ for polygon in [
 # Office occupies a complete independently furnished floor. 128px exterior ring connects rear route.
 rectwalk((OX-128,OY-128,OW+256,OH+256))
 base=Image.open(R/'source/floor-original.png').convert('RGBA').crop((105,100,1440,850))
-floor=base.resize((OW,OH),Image.Resampling.LANCZOS)
+reference_floor=base.resize((OW,OH),Image.Resampling.LANCZOS)
 rim=base.crop((625,70,689,134)).resize((128,128),Image.Resampling.LANCZOS)
+floor=Image.new('RGBA',(OW,OH))
+for yy in range(0,OH,128):
+ for xx in range(0,OW,128):floor.alpha_composite(rim,(xx,yy))
+# Functional rugs bound the unchanged native furniture, with a clear central spine.
+rug=Image.open(R/'source/floor-original.png').convert('RGBA').crop((130,118,650,355))
+for box in [(112,192,736,448),(112,736,736,448),(1408,224,640,304),(128,1168,704,208),(1280,64,816,144)]:
+ x,y,w,h=box;floor.alpha_composite(rug.resize((w,h),Image.Resampling.LANCZOS),(x,y))
+fd=ImageDraw.Draw(floor)
+# Amber/red folded-glass motif, inlaid into the reception route rather than a sign.
+fd.polygon([(1120,560),(1176,592),(1176,672),(1120,704),(1064,672),(1064,592)],fill='#d5a44c',outline='#8c6337',width=3)
+fd.polygon([(1120,592),(1152,624),(1120,656),(1088,624)],fill='#b84e35')
+fd.line([(1120,560),(1120,704)],fill='#f4d69a',width=2)
 # The exterior uses the cleaned illustrated site, never a pasted full floor slab.
 # The complete usable floor and its rear access ring are local cutaway layers only.
 cutaway_ground=Image.new('RGBA',(OW+256,OH+256))
@@ -107,6 +121,28 @@ for i,(xx,yy) in enumerate([(1376,736),(1760,736),(1376,1024),(1760,1024)]):
  door=dict(id=f'meeting-{i+1}',box=[x,y+48,16,96],inside=[x+16,y+16,w-32,h-32],lock=f'meetingLock{i+1}')
  doors.append(door);rooms.append(dict(id=door['id'],box=door['inside']))
  item('meeting',x+80,y+64,(x+80,y+72,128,48));chair(x+112,y+144);chair(x+176,y+32,'down')
+# Frame meeting rooms with native glass panels on their existing structural lines.
+for xx,yy in [(1376,736),(1760,736),(1376,1024),(1760,1024)]:
+ for dx in (16,144):item('glass',OX+xx+dx,OY+yy-32)
+ item('planter',OX+xx+272,OY+yy+48,(OX+xx+272,OY+yy+64,80,48))
+ # Four usable places around each native table, retaining the 96px entrance.
+ chair(OX+xx+176,OY+yy+144);chair(OX+xx+112,OY+yy+32,'down')
+# Reception desk and waiting pair sit to the side of the arrival spine.
+item('desk',OX+864,OY+1104,(OX+864,OY+1112,64,48));chair(OX+896,OY+1200)
+item('glass',OX+832,OY+1056)
+for xx in (160,544):
+ item('cafe',OX+xx+144,OY+1232,(OX+xx+144,OY+1240,64,48))
+# Shared review wing: quiet conversation bench and a screened collaboration edge.
+for xx in (1328,1648,1968):
+ item('sofa',OX+xx,OY+96,(OX+xx,OY+96,128,32))
+ for dx in (32,96):seats.append(dict(x=OX+xx+dx,y=OY+144,group='review-lounge',facing='up'))
+for xx in (1376,1696,2016):
+ item('glass',OX+xx,OY+560,(OX+xx,OY+592,96,16))
+for xx in (1280,2128):
+ for yy in (320,576):item('planter',OX+xx,OY+yy,(OX+xx,OY+yy+16,80,48))
+# Cluster-end planters give the work areas defined edges without blocking chair aisles.
+for xx in (160,512):
+ for yy in (160,640):item('planter',OX+xx,OY+yy,(OX+xx,OY+yy+16,80,48))
 # Native welcoming lounges; positions avoid the central spine and entrances.
 for x in (OX+160,OX+544):
  item('sofa',x,OY+1216,(x,OY+1216,128,32))

@@ -1,0 +1,350 @@
+[
+  {
+    "label": "closed entrance has illustrated leaves",
+    "pass": true,
+    "details": {
+      "office-front-door": true,
+      "office-front-leaves": true,
+      "reception-activity": false
+    }
+  },
+  {
+    "label": "front approach",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 3088,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3647,
+        "y": 2831,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "entrance leaves open on approach",
+    "pass": true,
+    "details": {
+      "office-front-door": false,
+      "office-front-leaves": false,
+      "reception-activity": false
+    }
+  },
+  {
+    "label": "roof comparison identical camera and avatar",
+    "pass": true,
+    "details": {
+      "before": {
+        "x": 4024,
+        "y": 2768,
+        "scale": 1,
+        "zoom": 0.54,
+        "view": {
+          "type": 5,
+          "x": 2691,
+          "y": 1846,
+          "width": 2667,
+          "height": 1667
+        },
+        "cover": false
+      },
+      "after": {
+        "x": 4024,
+        "y": 2768,
+        "scale": 1,
+        "zoom": 0.54,
+        "view": {
+          "type": 5,
+          "x": 2691,
+          "y": 1846,
+          "width": 2667,
+          "height": 1667
+        },
+        "cover": true
+      },
+      "method": "stationary inside player; force only roof/floor visibility through map API for comparison"
+    }
+  },
+  {
+    "label": "native work chair",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 402
+      },
+      "x": 3048,
+      "y": 2640,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2688,
+        "y": 2391,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "project room entrance",
+    "pass": true,
+    "details": {
+      "x": 4376,
+      "y": 2592,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4016,
+        "y": 2343,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "shared locked project room blocks visitor",
+    "pass": true,
+    "details": {
+      "x": 4280,
+      "y": 2592,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3920,
+        "y": 2367,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "locked room safe exit",
+    "pass": true,
+    "details": {
+      "x": 4280,
+      "y": 2592,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3904,
+        "y": 2326,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "unlocked project room entrance",
+    "pass": true,
+    "details": {
+      "x": 4376,
+      "y": 2592,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3931,
+        "y": 2303,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "reception approach",
+    "pass": true,
+    "details": {
+      "x": 3880,
+      "y": 2960,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3520,
+        "y": 2711,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "reception proximity glow active",
+    "pass": true,
+    "details": {
+      "office-front-door": false,
+      "office-front-leaves": false,
+      "reception-activity": true
+    }
+  },
+  {
+    "label": "reduced motion suppresses activity glow",
+    "pass": true,
+    "details": {
+      "office-front-door": false,
+      "office-front-leaves": false,
+      "reception-activity": false
+    }
+  },
+  {
+    "label": "front exit",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 3184,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3664,
+        "y": 2935,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "exterior restores and entrance recloses",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 3184,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3664,
+        "y": 2935,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true,
+      "office-front-door": true,
+      "office-front-leaves": true,
+      "reception-activity": false
+    }
+  },
+  {
+    "label": "route west-terrace",
+    "pass": true,
+    "details": {
+      "x": 2488,
+      "y": 3248,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2128,
+        "y": 2999,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "route stage",
+    "pass": true,
+    "details": {
+      "x": 5752,
+      "y": 3056,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5392,
+        "y": 2807,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "route audience",
+    "pass": true,
+    "details": {
+      "x": 5752,
+      "y": 3328,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5392,
+        "y": 3079,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "route lower-square",
+    "pass": true,
+    "details": {
+      "x": 4008,
+      "y": 4304,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3648,
+        "y": 4055,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "route cafe",
+    "pass": true,
+    "details": {
+      "x": 3000,
+      "y": 4304,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2640,
+        "y": 4055,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "route portal",
+    "pass": true,
+    "details": {
+      "x": 5640,
+      "y": 4368,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5280,
+        "y": 4119,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  }
+]

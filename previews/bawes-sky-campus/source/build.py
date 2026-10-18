@@ -59,20 +59,15 @@ stone=base.crop((720,160,784,224))
 floor=Image.new('RGBA',(OW,OH))
 for yy in range(0,OH,64):
  for xx in range(0,OW,64):floor.alpha_composite(stone,(xx,yy))
-# Nine-slice the prior map's native woven carpet, preserving its border scale.
-carpet=prior.crop((56,120,176,248));border=16
+# Repeat only the interior textile sample; do not repeat the prior room's rug edges.
+textile=prior.crop((80,144,128,192))
 def rug(x,y,w,h):
- center=carpet.crop((16,16,104,112))
- for yy in range(y+16,y+h-16,96):
-  for xx in range(x+16,x+w-16,88):
-   tile=center.crop((0,0,min(88,x+w-16-xx),min(96,y+h-16-yy)));floor.alpha_composite(tile,(xx,yy))
- for xx in range(x+16,x+w-16,88):
-  n=min(88,x+w-16-xx)
-  floor.alpha_composite(carpet.crop((16,0,16+n,16)),(xx,y));floor.alpha_composite(carpet.crop((16,112,16+n,128)),(xx,y+h-16))
- for yy in range(y+16,y+h-16,96):
-  n=min(96,y+h-16-yy)
-  floor.alpha_composite(carpet.crop((0,16,16,16+n)),(x,yy));floor.alpha_composite(carpet.crop((104,16,120,16+n)),(x+w-16,yy))
- for dx,dy,sx,sy in [(0,0,0,0),(w-16,0,104,0),(0,h-16,0,112),(w-16,h-16,104,112)]:floor.alpha_composite(carpet.crop((sx,sy,sx+16,sy+16)),(x+dx,y+dy))
+ for yy in range(y,y+h,48):
+  for xx in range(x,x+w,48):floor.alpha_composite(textile.crop((0,0,min(48,x+w-xx),min(48,y+h-yy))),(xx,yy))
+ rd=ImageDraw.Draw(floor)
+ rd.rectangle((x,y,x+w-1,y+h-1),outline='#344e50',width=7)
+ rd.rectangle((x+7,y+7,x+w-8,y+h-8),outline='#b5a06b',width=2)
+ rd.rectangle((x+12,y+12,x+w-13,y+h-13),outline='#72827a',width=1)
 for box in [(48,80,432,176),(528,80,432,176),(48,256,432,176),(528,256,432,176),(64,432,704,128)]:rug(*box)
 fd=ImageDraw.Draw(floor)
 fd.polygon([(1072,368),(1120,400),(1120,464),(1072,496),(1024,464),(1024,400)],fill='#c59b45',outline='#75573c',width=2)
@@ -108,6 +103,13 @@ walls=Image.new('RGBA',(OW,OH));wallD=ImageDraw.Draw(walls)
 def wall(x,y,w,h):
  rectwalk((x,y,w,h),0)
  wallD.rectangle((x-OX,y-OY,x-OX+w-1,y-OY+h-1),fill='#77624a',outline='#e7cf9d',width=2)
+ if h<=16:
+  cap=prior.crop((24,256,176,280))
+  for dx in range(0,w,152):walls.alpha_composite(cap.crop((0,0,min(152,w-dx),24)),(x-OX+dx,y-OY-8))
+ elif w<=16:
+  pier=prior.crop((8,80,24,240))
+  for dy in range(0,h,160):walls.alpha_composite(pier.crop((0,0,16,min(160,h-dy))),(x-OX,y-OY+dy))
+
 # Recovered illustrated stonework, shelving and lamps give the back wall actual depth.
 wall(OX,OY,OW,80);wall(OX,OY+80,16,OH-80);wall(OX+OW-16,OY+80,16,OH-80)
 back=prior.crop((20,24,428,104))

@@ -35,61 +35,61 @@
   "seats": [
     {
       "x": 3080,
-      "y": 2624,
+      "y": 2656,
       "group": "focus",
       "facing": "up"
     },
     {
       "x": 3512,
-      "y": 2624,
+      "y": 2656,
       "group": "focus",
       "facing": "up"
     },
     {
       "x": 3240,
-      "y": 2560,
+      "y": 2624,
       "group": "project",
       "facing": "down"
     },
     {
       "x": 3240,
-      "y": 2704,
+      "y": 2768,
       "group": "project",
       "facing": "up"
     },
     {
       "x": 3320,
-      "y": 2560,
+      "y": 2624,
       "group": "project",
       "facing": "down"
     },
     {
       "x": 3320,
-      "y": 2704,
+      "y": 2768,
       "group": "project",
       "facing": "up"
     },
     {
-      "x": 3088,
-      "y": 2904,
+      "x": 3080,
+      "y": 2896,
       "group": "outward-lounge",
       "facing": "down"
     },
     {
-      "x": 3168,
-      "y": 2904,
+      "x": 3128,
+      "y": 2896,
       "group": "outward-lounge",
       "facing": "down"
     },
     {
-      "x": 3440,
-      "y": 2904,
+      "x": 3432,
+      "y": 2896,
       "group": "outward-lounge",
       "facing": "down"
     },
     {
-      "x": 3520,
-      "y": 2904,
+      "x": 3480,
+      "y": 2896,
       "group": "outward-lounge",
       "facing": "down"
     },
@@ -441,12 +441,12 @@
       "zone": "office",
       "kind": "in-desk-paper",
       "x": 3024,
-      "y": 2528,
+      "y": 2560,
       "width": 112,
       "height": 64,
       "collision": [
         3024,
-        2544,
+        2576,
         112,
         48
       ]
@@ -455,7 +455,7 @@
       "zone": "office",
       "kind": "in-chair-up",
       "x": 3056,
-      "y": 2592,
+      "y": 2624,
       "width": 48,
       "height": 64,
       "collision": null
@@ -464,12 +464,12 @@
       "zone": "office",
       "kind": "in-desk-laptop",
       "x": 3456,
-      "y": 2528,
+      "y": 2560,
       "width": 112,
       "height": 64,
       "collision": [
         3456,
-        2544,
+        2576,
         112,
         48
       ]
@@ -478,7 +478,7 @@
       "zone": "office",
       "kind": "in-chair-up",
       "x": 3488,
-      "y": 2592,
+      "y": 2624,
       "width": 48,
       "height": 64,
       "collision": null
@@ -487,12 +487,12 @@
       "zone": "office",
       "kind": "in-project",
       "x": 3200,
-      "y": 2592,
+      "y": 2656,
       "width": 160,
       "height": 96,
       "collision": [
         3200,
-        2608,
+        2672,
         160,
         64
       ]
@@ -501,7 +501,7 @@
       "zone": "office",
       "kind": "in-chair-down",
       "x": 3216,
-      "y": 2528,
+      "y": 2592,
       "width": 48,
       "height": 64,
       "collision": null
@@ -510,7 +510,7 @@
       "zone": "office",
       "kind": "in-chair-up",
       "x": 3216,
-      "y": 2672,
+      "y": 2736,
       "width": 48,
       "height": 64,
       "collision": null
@@ -519,7 +519,7 @@
       "zone": "office",
       "kind": "in-chair-down",
       "x": 3296,
-      "y": 2528,
+      "y": 2592,
       "width": 48,
       "height": 64,
       "collision": null
@@ -528,7 +528,7 @@
       "zone": "office",
       "kind": "in-chair-up",
       "x": 3296,
-      "y": 2672,
+      "y": 2736,
       "width": 48,
       "height": 64,
       "collision": null
@@ -537,25 +537,25 @@
       "zone": "office",
       "kind": "in-sofa",
       "x": 3040,
-      "y": 2848,
-      "width": 176,
-      "height": 80,
+      "y": 2864,
+      "width": 128,
+      "height": 64,
       "collision": [
         3040,
-        2848,
-        176,
-        32
+        2864,
+        128,
+        16
       ]
     },
     {
       "zone": "office",
       "kind": "in-side",
-      "x": 3248,
+      "x": 3184,
       "y": 2864,
       "width": 48,
       "height": 64,
       "collision": [
-        3248,
+        3184,
         2880,
         48,
         32
@@ -565,25 +565,25 @@
       "zone": "office",
       "kind": "in-sofa",
       "x": 3392,
-      "y": 2848,
-      "width": 176,
-      "height": 80,
+      "y": 2864,
+      "width": 128,
+      "height": 64,
       "collision": [
         3392,
-        2848,
-        176,
-        32
+        2864,
+        128,
+        16
       ]
     },
     {
       "zone": "office",
       "kind": "in-side",
-      "x": 3600,
+      "x": 3536,
       "y": 2864,
       "width": 48,
       "height": 64,
       "collision": [
-        3600,
+        3536,
         2880,
         48,
         32
@@ -617,6 +617,62 @@
       "collision": [
         3904,
         2544,
+        224,
+        32
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 3024,
+      "y": 2464,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        3024,
+        2512,
+        224,
+        32
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 3392,
+      "y": 2464,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        3392,
+        2512,
+        224,
+        32
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 4400,
+      "y": 2464,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        4400,
+        2512,
+        224,
+        32
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 4800,
+      "y": 2464,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        4800,
+        2512,
         224,
         32
       ]
@@ -681,6 +737,34 @@
       "collision": [
         4368,
         2608,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4352,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4352,
+        2864,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4576,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4576,
+        2864,
         48,
         16
       ]
@@ -752,6 +836,34 @@
     {
       "zone": "office",
       "kind": "in-plant",
+      "x": 4752,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4752,
+        2864,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4976,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4976,
+        2864,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
       "x": 2976,
       "y": 2672,
       "width": 48,
@@ -759,6 +871,20 @@
       "collision": [
         2976,
         2720,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 2976,
+      "y": 2848,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        2976,
+        2896,
         48,
         16
       ]

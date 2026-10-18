@@ -1,0 +1,9 @@
+# Cafe source candidates — bounded preparation
+
+Received and inspected commit `03de3b07f061d7fbbbb23cf90778e72914b14414`. Original candidate PNGs and QA are preserved under `source/cafe-candidates`. No island pixels, collision, seats, bar, pond, waterfall or bridge were changed by this preparation.
+
+The furniture alpha silhouettes can be extracted cleanly. `cafe-source-calibration.png` compares proposed native sizes against a 32px square: curved lounge176px, chair48px, table64px, stool32px and bench128px. These are uniform scales, not occupied gameplay approval. Front/rear lounge and bench silhouettes are useful; side armchairs remain slightly oblique. Foreground segmentation and real occupied calibration are still required before runtime use.
+
+The ground candidate changes the deck curvature, pond rocks, waterfall outlet, right bridge steps and view angle. Its similar overall aspect ratio does not make it registered. A whole-district replacement would alter the island. A clean timber sample is available at candidate `(260,455)-(620,515)`, but the current deck boundary and central lamp/front balustrade must be recovered independently before covering the stone terrace. A rough polygon would either paint over foreground foliage and the lamp or leave visible stone patches around them. This pass does not call that a faithful restoration.
+
+The missing work is bounded, not a new island: registered timber-only deck patch at current source `(130,720)-(480,810)` (world `2182,4208,1050,270`), plus independent foreground lamp/planter/balustrade alpha at `(262,758)-(480,826)` (world `2578,4322,654,204`). These are preparation envelopes; the patch must follow the existing curved perimeter, bar base and unchanged stone connection within them. Exact machine-readable scope is `source/cafe-candidates/restoration-patch.json`. Preserve source outside the final mask byte-for-byte. No further generation was performed here.

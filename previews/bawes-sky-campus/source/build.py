@@ -116,12 +116,13 @@ window_walls=walls.copy();wall_alpha=window_walls.getchannel('A');ImageDraw.Draw
 window_room=floor.copy();window_room.alpha_composite(window_walls);window_room.alpha_composite(glazing)
 for n,x,y in placements:
  if OX<=x<OX+OW and OY<=y<OY+OH:window_room.alpha_composite(sprites[n],(x-OX,y-OY))
-window_room.putalpha(window_mask)
+window_room.alpha_composite(office_fronts);window_room.putalpha(window_mask)
 is_office=lambda x,y: OX<=x<OX+OW and OY<=y<OY+OH
 # Offline states mirror runtime visibility; no hidden interior is drawn into the exterior preview.
 sky.resize((2048,1792),Image.Resampling.LANCZOS).save(R/'review/campus-context.png')
 preview=sky.copy();preview.alpha_composite(cutaway_ground,(OX,OY));preview.alpha_composite(walls,(OX,OY));preview.alpha_composite(glazing,(OX,OY))
 for n,x,y in placements:preview.alpha_composite(sprites[n],(x,y))
+preview.alpha_composite(office_fronts,(OX,OY));preview.alpha_composite(glazing,(OX,OY))
 preview.crop((OX-160,OY-160,OX+OW+160,OY+OH+160)).resize((1280,round((OH+320)*1280/(OW+320)))).save(R/'review/office-plan.png');del preview
 preview=sky.copy()
 for n,x,y in placements:
@@ -186,11 +187,7 @@ for d in doors:
   for xx in range(x//16,(x+w)//16):data[yy*COL+xx]=dg+(1 if h>w else 0)
  layer(d['id']+'-door',data)
  if d.get('lock'):
-  pane=Image.new('RGBA',(w,48));pd=ImageDraw.Draw(pane)
-  pd.rectangle((0,0,w-1,47),fill=(225,170,65,35),outline=(96,59,25,245),width=2)
-  pd.rectangle((2,2,w-3,45),outline=(238,185,77,240),width=2)
-  pd.line((w//2,2,w//2,45),fill=(96,59,25,245),width=2)
-  for hx in (w//2-6,w//2+6):pd.line((hx,20,hx,29),fill=(255,229,156,255),width=2)
+  pane=Image.new('RGBA',(w,48));detailed_horizontal(pane,0,0,w,48)
   image_layer(d['id']+'-glass',pane,x,y-32);layers[-1]['visible']=False
 # The illustrated sliding entrance leaves share the existing proximity-door state.
 leaves=Image.new('RGBA',(192,96))

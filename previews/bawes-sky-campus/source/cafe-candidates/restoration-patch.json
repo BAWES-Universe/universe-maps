@@ -1,0 +1,44 @@
+{
+  "candidateCommit": "03de3b07f061d7fbbbb23cf90778e72914b14414",
+  "status": "source preparation; not integrated",
+  "groundCandidateWholePlateRejected": true,
+  "preserve": "existing pond, waterfall, cliff, bar, bridge and stone connection coordinates",
+  "usableTimberSampleCandidateBox": [
+    260,
+    455,
+    620,
+    515
+  ],
+  "requiredRegisteredPatch": {
+    "source": "campus-site-cutout.png",
+    "referenceBox": [
+      130,
+      720,
+      480,
+      810
+    ],
+    "worldBox": [
+      2182,
+      4208,
+      1050,
+      270
+    ],
+    "output": "timber deck surface only with transparent exterior; precisely follow current curved stone/deck perimeter and bar base; exclude structural stone connection"
+  },
+  "requiredForegroundMask": {
+    "referenceBox": [
+      262,
+      758,
+      480,
+      826
+    ],
+    "worldBox": [
+      2578,
+      4322,
+      654,
+      204
+    ],
+    "output": "separate current central lamp/planter, front balustrade and foliage occluders; preserve their positions and antialiased boundary"
+  },
+  "forbidden": "replace whole generated district, move bridges, nonuniformly stretch candidate or paint timber over foreground objects"
+}

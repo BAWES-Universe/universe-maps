@@ -1,6 +1,6 @@
 # BAWES sky campus — replacement interior preview
 
-The approved interior family is now implemented from the matching clean-floor and object candidates. See [replacement implementation and evidence](review/REPLACEMENT-INTERIOR.md). This is an isolated review candidate; visual acceptance remains with the user.
+The interior candidate now uses matching furniture and detailed source columns, piers, rails, plinths and planting around genuinely transparent amber panes. The earlier flat-wall version was rejected; this is its architectural correction. See [replacement implementation and evidence](review/REPLACEMENT-INTERIOR.md). This is an isolated review candidate; visual acceptance remains with the user.
 
 This candidate follows the approved sky-island concept retrieved from backup/bawes-build-transfer-2026-10-17 (96b79b7). It is a new map on feat/bawes-sky-campus; existing maps and the older rejected glass-campus preview are unchanged. No Azure resources or production deployment are involved.
 
@@ -32,4 +32,4 @@ Scenery extends beyond all walkable sides. The engine's unrestricted Explore cam
 
 The rear exit and external service floor were removed because they extended into sky behind the building. Existing plaza paving connects the front threshold to outdoor spawn. The beverage prompt and its prompt-dependent steam trigger are removed, with no replacement popup or control. Existing native movement and courtesy-lock controls remain. Gate appearance and behavior are unchanged; its stepped motion remains a known limitation.
 
-Outdoor restoration is now tied to the exact original attachment: see [source comparison, native audit and bounded restoration needs](review/OUTDOOR-RESTORATION-AUDIT.md). No flattened-source restoration has been integrated.
+Outdoor restoration is now tied to the exact original attachment: see [source comparison, native audit and bounded restoration needs](review/OUTDOOR-RESTORATION-AUDIT.md). No flattened-source restoration has been integrated. New café candidates and the exact remaining patch requirements are recorded in [café source assessment](review/CAFE-CANDIDATE-ASSESSMENT.md).

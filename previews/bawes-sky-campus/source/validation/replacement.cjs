@@ -17,11 +17,12 @@ const facing={up:0,right:1,down:2,left:3};const captured=new Set();
 for(const [i,s] of (process.env.CHECK_LOCKS_ONLY?[]:layout.seats).entries()){
  if(s.x<layout.office[0]||s.x>=layout.office[0]+layout.office[2]||s.y<layout.office[1]||s.y>=layout.office[1]+layout.office[3])continue;
  const [dx,dy]=[[32,0],[-32,0],[0,32],[0,-32]].find(([x,y])=>!grid[Math.floor((s.y+y)/16)*map.width+Math.floor((s.x+x)/16)]);
- await p.evaluate(({x,y})=>{gs.CurrentPlayer.setPosition(x,y);gs.markDirty()},{x:s.x+dx,y:s.y+dy});await p.waitForTimeout(700);await pointer(p,s.x,s.y,false,'actual pointer seat '+i+' '+s.group);
+ await p.evaluate(({x,y})=>{gs.CurrentPlayer.setPosition(x,y);gs.markDirty()},{x:s.x+dx,y:s.y+dy});await p.keyboard.down('ArrowRight');await p.waitForTimeout(120);await p.keyboard.up('ArrowRight');await p.waitForTimeout(1200);await pointer(p,s.x,s.y,false,'actual pointer seat '+i+' '+s.group);
  for(let j=0;j<4;j++){if(await p.evaluate(()=>gs.CurrentPlayer.lastDirection)===facing[s.facing])break;await p.keyboard.press('r');await p.waitForTimeout(150)}
  const direction=await p.evaluate(()=>gs.CurrentPlayer.lastDirection);record('native facing '+i,direction===facing[s.facing],{expected:s.facing,direction,...await state(p)});
  if(!captured.has(s.group)){captured.add(s.group);await p.screenshot({path:root+'/review/replacement-occupied-'+s.group+'.png'})}
 }
+if(process.env.CHECK_SEATS_ONLY)return;
 const q=await client('Replacement Visitor');const qf=await api(q);await enter(q);
 for(const d of layout.doors.filter(d=>d.lock)){
  const cx=d.box[0]+d.box[2]/2,cy=d.box[1],approach=[cx,cy+64],within=[cx,cy-64];

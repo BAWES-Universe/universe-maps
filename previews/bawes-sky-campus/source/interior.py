@@ -4,7 +4,7 @@ candidate=Image.open(R/'source/interior-candidates/objects.png').convert('RGBA')
 extractions={
  'reception':((32,24,454,408),256), 'desk-paper':((500,75,804,242),112),
  'desk-laptop':((834,75,1132,242),112), 'project':((488,260,818,451),160),
- 'meeting':((858,264,1138,431),144), 'sofa':((56,450,423,625),176),
+ 'meeting':((858,264,1138,431),144), 'sofa':((56,450,423,625),128),
  'side':((452,480,580,620),48), 'plant':((618,450,792,636),48),
  'planter':((802,454,1240,636),224),
  'chair-down':((72,638,216,790),None), 'chair-up':((264,636,408,790),None),
@@ -17,7 +17,7 @@ for name,(box,width) in extractions.items():
  scale=(width/im.width) if width else 40/im.height
  size=(round(im.width*scale),round(im.height*scale));small=im.resize(size,Image.Resampling.LANCZOS)
  if name.startswith('chair'):
-  out=Image.new('RGBA',(48,64));out.alpha_composite(small,((48-small.width)//2,8))
+  out=Image.new('RGBA',(48,64));out.alpha_composite(small,((48-small.width)//2,16 if name=='chair-down' else 8))
  else:
   out=Image.new('RGBA',(math.ceil(size[0]/16)*16,math.ceil(size[1]/16)*16));out.alpha_composite(small)
  sprites['in-'+name]=out;out.save(A/('in-'+name+'.png'))
@@ -39,39 +39,30 @@ cutaway_ground=floor
 walls=Image.new('RGBA',(OW,OH));wallD=ImageDraw.Draw(walls)
 glazing=Image.new('RGBA',(OW,OH));gd=ImageDraw.Draw(glazing)
 office_fronts=Image.new('RGBA',(OW,OH))
-def stone_wall(x,y,w,h):
- rectwalk((OX+x,OY+y,w,h),0)
- wallD.rectangle((x,y,x+w-1,y+h-1),fill='#bfa477',outline='#644932',width=2)
- wallD.rectangle((x+2,y+2,x+w-3,y+h-3),fill='#ead4b0',outline='#fff0d3',width=1)
- if h>=32:wallD.line((x+2,y+18,x+w-3,y+18),fill='#b89d72',width=2)
-def glass_run(x,y,w,h,block=True):
- if block:rectwalk((OX+x,OY+y,w,h),0)
- # Real alpha, no copied opaque pane/background/foliage. Complete orthogonal rails.
- gd.rectangle((x,y,x+w-1,y+h-1),fill=(225,170,65,35),outline=(96,59,25,245),width=2)
- gd.rectangle((x+2,y+2,x+w-3,y+h-3),outline=(238,185,77,240),width=2)
- if w>h:gd.line((x+4,y+5,x+w-5,y+5),fill=(255,229,156,230),width=2)
- else:gd.line((x+4,y+4,x+4,y+h-5),fill=(255,229,156,230),width=2)
-stone_wall(0,0,OW,48);stone_wall(0,48,16,OH-48);stone_wall(OW-16,48,16,OH-48)
-for xx,ww in [(0,976),(1168,OW-1168)]:stone_wall(xx,OH-16,ww,16)
+exec((R/'source/architecture.py').read_text())
 # Only two individual desks; no rows or borrowed carpet blocks.
 for name,x in [('desk-paper',80),('desk-laptop',512)]:
- item('in-'+name,OX+x,OY+80,(OX+x,OY+96,112,48));chair(OX+x+56,OY+176,'up','focus')
-item('in-project',OX+256,OY+144,(OX+256,OY+160,160,64))
-for dx in (40,120):chair(OX+256+dx,OY+112,'down','project');chair(OX+256+dx,OY+256,'up','project')
+ item('in-'+name,OX+x,OY+112,(OX+x,OY+128,112,48));chair(OX+x+56,OY+208,'up','focus')
+item('in-project',OX+256,OY+208,(OX+256,OY+224,160,64))
+for dx in (40,120):chair(OX+256+dx,OY+176,'down','project');chair(OX+256+dx,OY+320,'up','project')
 # Matched outward-facing sofas; front clear route is 96px inside the perimeter wall.
 for xx in (96,448):
- item('in-sofa',OX+xx,OY+400,(OX+xx,OY+400,176,32))
- for dx in (48,128):seats.append(dict(x=OX+xx+dx,y=OY+456,group='outward-lounge',facing='down'))
- item('in-side',OX+xx+208,OY+416,(OX+xx+208,OY+432,48,32))
+ item('in-sofa',OX+xx,OY+416,(OX+xx,OY+416,128,16))
+ for dx in (40,88):seats.append(dict(x=OX+xx+dx,y=OY+448,group='outward-lounge',facing='down'))
+ item('in-side',OX+xx+144,OY+416,(OX+xx+144,OY+432,48,32))
 # Curved reception remains left of the unobstructed arrival spine.
 item('in-reception',OX+704,OY+64)
 rectwalk((OX+704,OY+64,64,176),0);rectwalk((OX+704,OY+224,256,80),0)
 chair(OX+848,OY+192,'down','reception')
 item('in-planter',OX+960,OY+32,(OX+960,OY+96,224,32))
+for px in (80,448,1456,1856):
+ item('in-planter',OX+px,OY+16,(OX+px,OY+64,224,32))
 # Two complete rooms, with 96px front doors and 96px between-room circulation.
 for i,xx in enumerate((1392,1792)):
  yy=64;ww=304;hh=400
  stone_wall(xx,yy,ww,48)
+ for px in (xx,xx+ww-40):architecture_post(px,yy-16)
+ for px in (xx,xx+ww-40):architecture_post(px,yy+hh-83)
  glass_run(xx,yy+48,16,hh-48);glass_run(xx+ww-16,yy+48,16,hh-48)
  for dx,width in [(0,96),(192,ww-192)]:glass_run(xx+dx,yy+hh-16,width,16)
  # Front rail rises above the floor in its own transparent foreground plane.
@@ -81,15 +72,17 @@ for i,xx in enumerate((1392,1792)):
  item('in-meeting',OX+xx+80,OY+yy+160,(OX+xx+80,OY+yy+176,144,64))
  for dx in (112,192):chair(OX+xx+dx,OY+yy+128,'down','meeting');chair(OX+xx+dx,OY+yy+256,'up','meeting')
  item('in-plant',OX+xx+32,OY+yy+48,(OX+xx+32,OY+yy+96,48,16))
-for xx,yy in [(32,224),(656,368)]:item('in-plant',OX+xx,OY+yy,(OX+xx,OY+yy+48,48,16))
+ for px in (xx+16,xx+ww-64):item('in-plant',OX+px,OY+368,(OX+px,OY+416,48,16))
+for im,px,py in architecture_posts:glazing.alpha_composite(im,(px,py))
+for xx,yy in [(32,224),(32,400),(656,368)]:item('in-plant',OX+xx,OY+yy,(OX+xx,OY+yy+48,48,16))
 doors.append(dict(id='office-front',box=[OX+976,OY+OH-16,192,16],inside=[OX+16,OY+48,OW-32,OH-64]))
 # Extract matching foreground strips from the same sprites, not alternate art.
 for name,x,y in placements:
  im=sprites[name];mask=Image.new('L',im.size);md=ImageDraw.Draw(mask)
  if name.startswith('in-chair-'):
-  top=40 if name=='in-chair-up' else 41
-  md.rectangle((0,top,im.width-1,47),fill=255)
- elif name=='in-sofa':md.rectangle((0,60,im.width-1,im.height-1),fill=255)
+  top=40 if name=='in-chair-up' else 45
+  md.rectangle((0,top,im.width-1,55 if name=='in-chair-down' else 47),fill=255)
+ elif name=='in-sofa':md.rectangle((0,44,im.width-1,im.height-1),fill=255)
  elif name=='in-reception':md.rectangle((0,178,im.width-1,im.height-1),fill=255)
  else:continue
  piece=im.copy();piece.putalpha(Image.fromarray(np.minimum(np.asarray(im.getchannel('A')),np.asarray(mask))))

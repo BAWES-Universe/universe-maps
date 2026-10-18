@@ -1,0 +1,254 @@
+[
+  {
+    "name": "lounge-front",
+    "sourceBox": [
+      40,
+      40,
+      775,
+      360
+    ],
+    "alphaBounds": [
+      22,
+      18,
+      721,
+      312
+    ],
+    "scale": 0.25178826895565093,
+    "rasterSize": [
+      176,
+      74
+    ],
+    "status": "source sizing proposal only; no occupied-runtime validation"
+  },
+  {
+    "name": "lounge-rear",
+    "sourceBox": [
+      795,
+      55,
+      1505,
+      360
+    ],
+    "alphaBounds": [
+      10,
+      23,
+      688,
+      298
+    ],
+    "scale": 0.25958702064896755,
+    "rasterSize": [
+      176,
+      71
+    ],
+    "status": "source sizing proposal only; no occupied-runtime validation"
+  },
+  {
+    "name": "chair-front",
+    "sourceBox": [
+      20,
+      395,
+      270,
+      660
+    ],
+    "alphaBounds": [
+      10,
+      18,
+      242,
+      248
+    ],
+    "scale": 0.20689655172413793,
+    "rasterSize": [
+      48,
+      48
+    ],
+    "status": "source sizing proposal only; no occupied-runtime validation"
+  },
+  {
+    "name": "chair-rear",
+    "sourceBox": [
+      275,
+      400,
+      520,
+      660
+    ],
+    "alphaBounds": [
+      9,
+      20,
+      241,
+      251
+    ],
+    "scale": 0.20689655172413793,
+    "rasterSize": [
+      48,
+      48
+    ],
+    "status": "source sizing proposal only; no occupied-runtime validation"
+  },
+  {
+    "name": "chair-right",
+    "sourceBox": [
+      548,
+      390,
+      750,
+      660
+    ],
+    "alphaBounds": [
+      10,
+      17,
+      192,
+      258
+    ],
+    "scale": 0.26373626373626374,
+    "rasterSize": [
+      48,
+      64
+    ],
+    "status": "source sizing proposal only; no occupied-runtime validation"
+  },
+  {
+    "name": "chair-left",
+    "sourceBox": [
+      765,
+      390,
+      970,
+      660
+    ],
+    "alphaBounds": [
+      10,
+      17,
+      191,
+      258
+    ],
+    "scale": 0.26519337016574585,
+    "rasterSize": [
+      48,
+      64
+    ],
+    "status": "source sizing proposal only; no occupied-runtime validation"
+  },
+  {
+    "name": "table-cups",
+    "sourceBox": [
+      990,
+      415,
+      1250,
+      650
+    ],
+    "alphaBounds": [
+      18,
+      12,
+      251,
+      218
+    ],
+    "scale": 0.27467811158798283,
+    "rasterSize": [
+      64,
+      57
+    ],
+    "status": "source sizing proposal only; no occupied-runtime validation"
+  },
+  {
+    "name": "table-plain",
+    "sourceBox": [
+      1260,
+      415,
+      1520,
+      650
+    ],
+    "alphaBounds": [
+      22,
+      12,
+      250,
+      218
+    ],
+    "scale": 0.2807017543859649,
+    "rasterSize": [
+      64,
+      58
+    ],
+    "status": "source sizing proposal only; no occupied-runtime validation"
+  },
+  {
+    "name": "stool-front",
+    "sourceBox": [
+      45,
+      710,
+      210,
+      950
+    ],
+    "alphaBounds": [
+      11,
+      18,
+      155,
+      229
+    ],
+    "scale": 0.2222222222222222,
+    "rasterSize": [
+      32,
+      47
+    ],
+    "status": "source sizing proposal only; no occupied-runtime validation"
+  },
+  {
+    "name": "stool-alt",
+    "sourceBox": [
+      235,
+      705,
+      415,
+      950
+    ],
+    "alphaBounds": [
+      12,
+      16,
+      167,
+      234
+    ],
+    "scale": 0.2064516129032258,
+    "rasterSize": [
+      32,
+      45
+    ],
+    "status": "source sizing proposal only; no occupied-runtime validation"
+  },
+  {
+    "name": "bench-front",
+    "sourceBox": [
+      475,
+      705,
+      985,
+      955
+    ],
+    "alphaBounds": [
+      9,
+      17,
+      502,
+      238
+    ],
+    "scale": 0.25963488843813387,
+    "rasterSize": [
+      128,
+      57
+    ],
+    "status": "source sizing proposal only; no occupied-runtime validation"
+  },
+  {
+    "name": "bench-rear",
+    "sourceBox": [
+      1005,
+      705,
+      1520,
+      955
+    ],
+    "alphaBounds": [
+      9,
+      23,
+      504,
+      237
+    ],
+    "scale": 0.2585858585858586,
+    "rasterSize": [
+      128,
+      55
+    ],
+    "status": "source sizing proposal only; no occupied-runtime validation"
+  }
+]

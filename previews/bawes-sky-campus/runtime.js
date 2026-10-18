@@ -1,7 +1,7 @@
 /* Map-local cutaways and proximity doors. No navigation prompts, audio or destinations. */
 (async () => {
  await WA.onInit();
- const layout={"office":[2896,1664,2240,1440],"cutaway":[2768,1536,2496,1568],"doors":[{"id":"meeting-1","box":[4272,2448,16,96],"inside":[4288,2416,240,160],"lock":"meetingLock1"},{"id":"meeting-2","box":[4656,2448,16,96],"inside":[4672,2416,240,160],"lock":"meetingLock2"},{"id":"meeting-3","box":[4272,2736,16,96],"inside":[4288,2704,240,160],"lock":"meetingLock3"},{"id":"meeting-4","box":[4656,2736,16,96],"inside":[4672,2704,240,160],"lock":"meetingLock4"},{"id":"office-front","box":[3920,3088,192,16],"inside":[2912,1680,2208,1408]},{"id":"office-rear","box":[3920,1664,192,16],"inside":[2912,1680,2208,1408]}]};
+ const layout={"office":[2944,2448,2144,592],"cutaway":[2944,2448,2144,592],"doors":[{"id":"meeting-1","box":[4320,2544,16,96],"inside":[4336,2512,672,160],"lock":"meetingLock1"},{"id":"meeting-2","box":[4320,2816,16,96],"inside":[4336,2784,288,160],"lock":"meetingLock2"},{"id":"meeting-3","box":[4704,2816,16,96],"inside":[4720,2784,288,160],"lock":"meetingLock3"},{"id":"office-front","box":[3920,3024,192,16],"inside":[2960,2528,2112,496]}]};
  let position=await WA.player.getPosition(),moving=false;
  const states=new Map(),visibility=new Map(),egress=new Set();
  const contains=(p,b,pad=0)=>p.x>=b[0]-pad&&p.x<b[0]+b[2]+pad&&p.y>=b[1]-pad&&p.y<b[1]+b[3]+pad;
@@ -11,6 +11,7 @@
   // Apply cutaways and door closing at rest to avoid shifting 16px-grid click targets.
   if(!moving){
    const inside=contains(position,layout.cutaway);
+   show('reception-activity',inside&&contains(position,[layout.office[0]+784,layout.office[1]+384,208,176])&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches);
    show('office-cover',!inside);show('office-window-interior',!inside);
    for(const layer of ['office-floor','office-walls','office-furniture','office-chair-fronts'])show(layer,inside);
   }
@@ -21,7 +22,7 @@
    const state=states.get(door.lock),locked=!!(state?.locked&&state.expiresAt>Date.now());
    const near=contains(position,door.box,80);
    const open=door.lock ? near&&(!locked||egress.has(door.id)) : contains(position,door.inside)||near;
-   if(open||!moving)show(door.id+'-door',!open);
+   if(open||!moving){show(door.id+'-door',!open);if(door.id==='office-front')show('office-front-leaves',!open);}
   }
  }
  const owner=WA.player.uuid||WA.player.id;

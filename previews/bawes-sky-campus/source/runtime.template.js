@@ -11,6 +11,7 @@
   // Apply cutaways and door closing at rest to avoid shifting 16px-grid click targets.
   if(!moving){
    const inside=contains(position,layout.cutaway);
+   show('reception-activity',inside&&contains(position,[layout.office[0]+784,layout.office[1]+384,208,176])&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches);
    show('office-cover',!inside);show('office-window-interior',!inside);
    for(const layer of ['office-floor','office-walls','office-furniture','office-chair-fronts'])show(layer,inside);
   }
@@ -21,7 +22,7 @@
    const state=states.get(door.lock),locked=!!(state?.locked&&state.expiresAt>Date.now());
    const near=contains(position,door.box,80);
    const open=door.lock ? near&&(!locked||egress.has(door.id)) : contains(position,door.inside)||near;
-   if(open||!moving)show(door.id+'-door',!open);
+   if(open||!moving){show(door.id+'-door',!open);if(door.id==='office-front')show('office-front-leaves',!open);}
   }
  }
  const owner=WA.player.uuid||WA.player.id;

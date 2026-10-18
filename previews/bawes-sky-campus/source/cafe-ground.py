@@ -16,7 +16,7 @@ fgmask=fgmask.filter(ImageFilter.GaussianBlur(.55))
 original=sky.crop((CX,CY,CX+CW,CY+CH));rgb=np.asarray(original)[:,:,:3].astype('int16')
 pale=(rgb[:,:,0]>180)&(rgb[:,:,1]>145)&(rgb[:,:,2]>105)&((rgb[:,:,0]-rgb[:,:,2])<125)
 upper=np.indices((CH,CW))[0] < (PY+791*S-CY)
-fa=np.asarray(fgmask);eroded=np.asarray(fgmask.filter(ImageFilter.MinFilter(7)))
+fa=np.asarray(fgmask);eroded=np.asarray(fgmask.filter(ImageFilter.MinFilter(11)))
 fgmask=Image.fromarray(np.where(pale&upper,eroded,fa).astype('uint8'))
 alpha=np.asarray(foot).astype('float32')*(1-np.asarray(fgmask).astype('float32')/255)
 mask=Image.fromarray(alpha.astype('uint8'))
@@ -27,11 +27,23 @@ for yy in range(0,CH,40):
   sample=material.transpose(Image.Transpose.FLIP_LEFT_RIGHT) if (xx//340)%2 else material
   if (yy//40)%2:sample=sample.transpose(Image.Transpose.FLIP_TOP_BOTTOM)
   wood.alpha_composite(sample,(xx,yy))
-# Fine native board joints: continuous horizontal courses, staggered ends.
-wd2=ImageDraw.Draw(wood)
+# Small native board variation and restrained staggered joints preserve grain;
+# contact shading is confined to the boundary, never a blanket blur.
+import random
+rng=random.Random(52);arr=np.asarray(wood).copy()
+for y in range(0,CH,24):
+ x=-rng.randrange(64,200)
+ while x<CW:
+  end=x+rng.randrange(150,270);left=max(0,x);right=min(CW,end)
+  if right>left:arr[y:min(y+24,CH),left:right,:3]=np.clip(arr[y:min(y+24,CH),left:right,:3]*rng.uniform(.975,1.025),0,255).astype('uint8')
+  x=end
+wood=Image.fromarray(arr);wd2=ImageDraw.Draw(wood)
 for yy in range(12,CH,24):
- wd2.line((0,yy,CW,yy),fill=(145,84,35,105),width=1)
- for xx in range((yy//24%2)*96,CW,192):wd2.line((xx,yy,xx,yy+23),fill=(154,91,40,95),width=1)
+ wd2.line((0,yy,CW,yy),fill=(167,110,59,255),width=1)
+ for xx in range((yy//24%3)*64,CW,224):wd2.line((xx,yy,xx,yy+23),fill=(173,115,64,255),width=1)
+edge=np.maximum(0,np.asarray(mask).astype('float32')-np.asarray(mask.filter(ImageFilter.MinFilter(21))).astype('float32'))/255
+edge=np.asarray(Image.fromarray((edge*255).astype('uint8')).filter(ImageFilter.GaussianBlur(3)))/255
+arr=np.asarray(wood).copy();arr[:,:,:3]=(arr[:,:,:3]*(1-.22*edge[:,:,None])).astype('uint8');wood=Image.fromarray(arr)
 wood.putalpha(mask);cafe_ground=wood
 original=sky.crop((CX,CY,CX+CW,CY+CH));cafe_foreground=original.copy();cafe_foreground.putalpha(fgmask)
 mask.save(R/'source/cafe-candidates/registered-deck-mask.png');fgmask.save(R/'source/cafe-candidates/registered-foreground-mask.png')

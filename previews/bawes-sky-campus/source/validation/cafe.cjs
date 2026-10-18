@@ -23,7 +23,7 @@ async function overview(p,file,factor,cx,cy){await p.getByTestId('map-overview-b
 const p=await client('Cafe Restoration');await move(p,...layout.waypoints['cafe'],'spawn to cafe bridge');
 const facing={up:0,right:1,down:2,left:3};const captured=new Set();
 for(const [i,s] of layout.seats.entries()){
- if(!['cafe-lounge','cafe-bar','outdoor-lounge'].includes(s.group))continue;
+ if(!['cafe-lounge','cafe-armchair','cafe-bar','outdoor-lounge'].includes(s.group))continue;
  const map=JSON.parse(fs.readFileSync(root+'/campus.tmj')),grid=map.layers.find(l=>l.name==='persistent-collision').data;
  const [dx,dy]=[[32,0],[-32,0],[0,32],[0,-32]].find(([x,y])=>!grid[Math.floor((s.y+y)/16)*map.width+Math.floor((s.x+x)/16)]);
  await p.evaluate(({x,y})=>{gs.CurrentPlayer.setPosition(x,y);gs.markDirty()},{x:s.x+dx,y:s.y+dy});await p.keyboard.down('ArrowRight');await p.waitForTimeout(120);await p.keyboard.up('ArrowRight');await p.waitForTimeout(1000);
@@ -33,7 +33,7 @@ for(const [i,s] of layout.seats.entries()){
  record('facing '+i,await p.evaluate(()=>gs.CurrentPlayer.lastDirection)===facing[s.facing],{seat:s,...await state(p)});
  if(!captured.has(s.group)){captured.add(s.group);await p.screenshot({path:root+'/review/cafe-occupied-'+s.group+'.png'})}
 }
-await move(p,3152,4320,'portal return to cafe east');await move(p,2840,4320,'main cafe route');await move(p,2504,4320,'left lounge approach');
+await move(p,3152,4320,'portal return to cafe east');await move(p,2840,4320,'main cafe route');await move(p,2568,4352,'left lounge approach');
 await p.screenshot({path:root+'/review/cafe-native-close.png'});
 await p.evaluate(()=>gs.getCameraManager().zoomByFactor(.55,false));await p.waitForTimeout(1000);await move(p,2736,4352);await p.waitForTimeout(1000);await p.screenshot({path:root+'/review/cafe-full.png'});
 await p.evaluate(()=>gs.getCameraManager().zoomByFactor(1/.55,false));await p.waitForTimeout(700);await move(p,4016,3600);await overview(p,'runtime-campus-cafe-restored',.10,4016,3600);

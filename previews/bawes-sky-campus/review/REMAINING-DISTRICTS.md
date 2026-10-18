@@ -1,4 +1,6 @@
-# Remaining stage and conservatory restoration
+# Historical stage/conservatory preparation
+
+Implementation status is superseded by [the outdoor restoration pass](OUTDOOR-RESTORATION-PASS.md). The comparison below records the preceding source checkpoint.
 
 The cafe does not change these districts. `remaining-district-comparison.png` compares the exact original attachment with the current cleaned source; runtime furniture is separate and is not shown in those source crops.
 

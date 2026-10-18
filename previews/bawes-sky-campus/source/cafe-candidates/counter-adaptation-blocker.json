@@ -1,0 +1,38 @@
+{
+  "status": "unresolved source blocker; no independent generation",
+  "source": "campus-site-cutout.png",
+  "referenceBox": [
+    198,
+    688,
+    390,
+    744
+  ],
+  "worldBox": [
+    2386,
+    4112,
+    576,
+    168
+  ],
+  "missing": [
+    "registered clean background behind current countertop/body/props while preserving canopy supports and shelves",
+    "independent complete matching counter with top/body/props and foreground segmentation"
+  ],
+  "proposedNativeCalibration": {
+    "widthRange": [
+      320,
+      384
+    ],
+    "bodyHeightRange": [
+      40,
+      48
+    ],
+    "woka": 32
+  },
+  "whyExistingCandidateIsInsufficient": "Contains another large counter and shifted perspective; no clean registered background. Most of current counter lies above the timber mask.",
+  "doNot": [
+    "shrink avatars",
+    "paint a rectangle over existing counter",
+    "move canopy or island boundaries",
+    "claim stool occupancy fixes counter scale"
+  ]
+}

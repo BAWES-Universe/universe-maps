@@ -39,6 +39,7 @@ sky=Image.open(R/'source/sky-original.png').convert('RGBA').resize((W,H),Image.R
 concept=Image.open(R/'source/campus-site-cutout.png').convert('RGBA').resize((4608,3072),Image.Resampling.LANCZOS)
 sky.alpha_composite(concept,(PX,PY))
 exec((R/'source/cafe-ground.py').read_text())
+exec((R/'source/alcove-ground.py').read_text())
 # Native paths conservatively track visible stone floors, not cliffs or distant islands.
 for polygon in [
  [(340,350),(1138,350),(1138,410),(1000,432),(795,448),(670,448),(480,423),(340,405)],
@@ -48,7 +49,7 @@ for polygon in [
  [(704,435),(778,435),(778,694),(704,694)],
  [(490,704),(660,680),(815,680),(939,727),(919,797),(590,803),(491,775)],
  [(433,731),(600,731),(600,777),(433,777)],[(868,739),(1028,739),(1028,786),(868,786)],
- [(146,758),(206,748),(258,747),(340,732),(387,727),(411,733),(445,750),(453,766),(434,784),(380,791),(325,792),(315,782),(308,774),(290,774),(280,788),(225,789),(180,785),(151,777)],
+ [(146,758),(206,748),(258,747),(340,732),(387,727),(411,733),(445,750),(453,766),(434,784),(380,791),(325,792),(314,791),(310,789),(288,789),(280,788),(225,789),(180,785),(151,777)],
  [(990,728),(1195,713),(1385,747),(1395,807),(1295,840),(1040,822),(962,781)],
  [(1220,710),(1348,710),(1348,782),(1220,782)]]:polywalk(polygon)
 # The navigable interior fits the facade's main wall body. No outdoor service ring.
@@ -76,10 +77,8 @@ def chair(x,y,facing='up',group='office'):
  if zone!='office':fronts.append((name,x-24,y,48,16))
 exec((R/'source/interior.py').read_text())
 zone='campus'
-# Stage keeps original artwork/backdrop; 32 individually placed audience chairs, 56x64 pitch.
-for bx in (PX+1200*S+32,PX+1200*S+432):
- for row in range(4):
-  for col in range(4):chair(bx+col*56,PY+380*S+row*64,group='audience')
+# Dark matching timber audience banks; existing stage artwork remains intact.
+exec((R/'source/stage-seating.py').read_text())
 item('desk',PX+1340*S,PY+320*S,(PX+1340*S,PY+324*S,64,48))
 # Mark original stage rear, furniture and planted margins impassable; stage front remains accessible.
 rectwalk((PX+1205*S,PY+282*S,280*S,45*S),0)
@@ -88,8 +87,9 @@ exec((R/'source/cafe-furniture.py').read_text())
 # Explicit obstacle masks for planters at the bridge ends and garden borders.
 for sx,sy,sw,sh in [(685,649,17,37),(778,648,19,39),(620,661,51,36),(812,661,43,37),(1038,695,45,36),(1100,692,46,35),(1350,745,35,42),(90,353,40,38)]:rectwalk((PX+sx*S,PY+sy*S,sw*S,sh*S),0)
 # Cleared western terrace now receives native furniture instead of painted oversized seating.
-for x,y in [(2416,3088),(2144,3264)]:
+for x,y in [(2416,3088)]:
  item('cafe',x,y,(x,y+8,64,48));chair(x-32,y+48,'down','west-review');chair(x+96,y+48,'up','west-review')
+exec((R/'source/alcove-furniture.py').read_text())
 # Matching outdoor benches reuse the existing locations.
 for x,y in [(3504,3136),(4336,3136),(5120,4192)]:
  new_cafe_item('bench-front',x,y,(x,y,128,16))
@@ -117,7 +117,7 @@ window_room.alpha_composite(office_fronts);window_room.putalpha(window_mask)
 is_office=lambda x,y: OX<=x<OX+OW and OY<=y<OY+OH
 # Offline states mirror runtime visibility; no hidden interior is drawn into the exterior preview.
 sky.resize((2048,1792),Image.Resampling.LANCZOS).save(R/'review/campus-context.png')
-preview=sky.copy();preview.alpha_composite(cafe_ground,(CX,CY));preview.alpha_composite(cutaway_ground,(OX,OY));preview.alpha_composite(walls,(OX,OY));preview.alpha_composite(glazing,(OX,OY))
+preview=sky.copy();preview.alpha_composite(cafe_ground,(CX,CY));preview.alpha_composite(alcove_ground,(LX,LY));preview.alpha_composite(stage_shadows,(5472,3152));preview.alpha_composite(cutaway_ground,(OX,OY));preview.alpha_composite(walls,(OX,OY));preview.alpha_composite(glazing,(OX,OY))
 for n,x,y in placements:preview.alpha_composite(sprites[n],(x,y))
 preview.alpha_composite(office_fronts,(OX,OY));preview.alpha_composite(glazing,(OX,OY))
 preview.crop((OX-160,OY-160,OX+OW+160,OY+OH+160)).resize((1280,round((OH+320)*1280/(OW+320)))).save(R/'review/office-plan.png');del preview
@@ -128,6 +128,8 @@ preview.alpha_composite(window_room,(OX,OY));preview.alpha_composite(shell,(EX,E
 preview.resize((2048,1792),Image.Resampling.LANCZOS).save(R/'review/campus-exterior.png');del preview
 image_layer('scenery-and-campus',sky);del sky
 image_layer('cafe-timber',cafe_ground,CX,CY)
+image_layer('alcove-floor',alcove_ground,LX,LY)
+image_layer('audience-shadows',stage_shadows,5472,3152)
 image_layer('office-window-interior',window_room,OX,OY)
 image_layer('office-floor',cutaway_ground,OX,OY);layers[-1]['visible']=False
 image_layer('office-walls',walls,OX,OY);layers[-1]['visible']=False
@@ -172,6 +174,8 @@ for n,x,y,w,h in fronts:
  for rx in range(3):frontdata[(round(y/16))*COL+round(x/16)+rx]=cf+(0 if n=='red-chair' else 3)+rx
 layer('campus-chair-fronts',[v if not is_office((i%COL)*16,(i//COL)*16) else 0 for i,v in enumerate(frontdata)])
 image_layer('cafe-foreground',cafe_foreground,CX,CY)
+image_layer('alcove-foreground',alcove_foreground,LX,LY)
+image_layer('audience-fronts',stage_fronts,5472,3152)
 image_layer('campus-bench-fronts',bench_fronts,3504,3136)
 image_layer('office-chair-fronts',office_fronts,OX,OY);layers[-1]['visible']=False
 image_layer('office-glazing',glazing,OX,OY);layers[-1]['visible']=False

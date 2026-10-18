@@ -1,4 +1,6 @@
-# Bounded cafe restoration — 2026-10-18
+# Initial bounded cafe restoration — 2026-10-18
+
+The initial pass was not visually accepted as finished. See [subsequent café corrections and counter blocker](OUTDOOR-RESTORATION-PASS.md).
 
 This pass reconstructs the timber surface inside a hand-traced mask on the existing cafe. It does not paste the unregistered ground candidate or move the pond, waterfall, bar, cliff, lamps, balustrade or bridge. No generation, engine change or deployment was used. The accepted interior at45b7535 is pixel-identical and retains identical collision and runtime script.
 

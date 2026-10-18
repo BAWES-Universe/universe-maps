@@ -44,6 +44,9 @@ for yy in range(12,CH,24):
 edge=np.maximum(0,np.asarray(mask).astype('float32')-np.asarray(mask.filter(ImageFilter.MinFilter(21))).astype('float32'))/255
 edge=np.asarray(Image.fromarray((edge*255).astype('uint8')).filter(ImageFilter.GaussianBlur(3)))/255
 arr=np.asarray(wood).copy();arr[:,:,:3]=(arr[:,:,:3]*(1-.22*edge[:,:,None])).astype('uint8');wood=Image.fromarray(arr)
+# Ease only the cut boundary into the registered scene, without blurring grain.
+soft=mask.filter(ImageFilter.GaussianBlur(1.4))
+mask=Image.fromarray(np.minimum(np.asarray(mask),np.asarray(soft)).astype('uint8'))
 wood.putalpha(mask);cafe_ground=wood
 original=sky.crop((CX,CY,CX+CW,CY+CH));cafe_foreground=original.copy();cafe_foreground.putalpha(fgmask)
 mask.save(R/'source/cafe-candidates/registered-deck-mask.png');fgmask.save(R/'source/cafe-candidates/registered-foreground-mask.png')

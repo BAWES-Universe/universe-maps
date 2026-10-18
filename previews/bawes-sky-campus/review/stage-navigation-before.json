@@ -1,0 +1,576 @@
+[
+  {
+    "attempt": 0,
+    "start": {
+      "x": 2408,
+      "y": 3264
+    },
+    "result": {
+      "x": 3966.9932470182753,
+      "y": 3112,
+      "cancelled": true
+    },
+    "events": [
+      {
+        "time": 28897.800000000745,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3104
+          },
+          false,
+          20
+        ]
+      },
+      {
+        "time": 28917.700000000186,
+        "kind": "path",
+        "first": {
+          "x": 2408,
+          "y": 3272
+        },
+        "last": {
+          "x": 5752,
+          "y": 3120
+        },
+        "length": 210,
+        "speed": 20
+      },
+      {
+        "time": 32911.40000000037,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3120
+          },
+          true
+        ]
+      },
+      {
+        "time": 32912.300000000745,
+        "kind": "mapChanged"
+      },
+      {
+        "time": 32948.300000000745,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3120
+          },
+          true,
+          null
+        ]
+      },
+      {
+        "time": 32949.10000000056,
+        "kind": "mapChanged"
+      },
+      {
+        "time": 32949.10000000056,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3120
+          },
+          true
+        ],
+        "result": {
+          "x": 3906.9932470182753,
+          "y": 3112,
+          "cancelled": true
+        }
+      },
+      {
+        "time": 33004.40000000037,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3120
+          },
+          true,
+          null
+        ]
+      },
+      {
+        "time": 33005,
+        "kind": "mapChanged"
+      },
+      {
+        "time": 33005.10000000056,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3120
+          },
+          true,
+          null
+        ],
+        "result": {
+          "x": 3920.3132470182736,
+          "y": 3112,
+          "cancelled": true
+        }
+      },
+      {
+        "time": 33048.5,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3120
+          },
+          true,
+          null
+        ]
+      },
+      {
+        "time": 33049,
+        "kind": "mapChanged"
+      },
+      {
+        "time": 33049.10000000056,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3120
+          },
+          true,
+          null
+        ],
+        "result": {
+          "x": 3920.3132470182736,
+          "y": 3112,
+          "cancelled": true
+        }
+      },
+      {
+        "time": 33103.10000000056,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3120
+          },
+          true,
+          null
+        ]
+      },
+      {
+        "time": 33103.40000000037,
+        "kind": "mapChanged"
+      },
+      {
+        "time": 33103.5,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3120
+          },
+          true,
+          null
+        ],
+        "result": {
+          "x": 3920.3132470182736,
+          "y": 3112,
+          "cancelled": true
+        }
+      },
+      {
+        "time": 33122.200000000186,
+        "kind": "path",
+        "first": {
+          "x": 3920.3132470182736,
+          "y": 3120
+        },
+        "last": {
+          "x": 5752,
+          "y": 3136
+        },
+        "length": 115,
+        "speed": 20
+      },
+      {
+        "time": 33122.300000000745,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3104
+          },
+          false,
+          20
+        ],
+        "result": {
+          "x": 3966.9932470182753,
+          "y": 3112,
+          "cancelled": true
+        }
+      },
+      {
+        "time": 33293.700000000186,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3136
+          },
+          true
+        ]
+      },
+      {
+        "time": 33293.90000000037,
+        "kind": "mapChanged"
+      },
+      {
+        "time": 33331.60000000056,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3136
+          },
+          true,
+          null
+        ]
+      },
+      {
+        "time": 33331.800000000745,
+        "kind": "mapChanged"
+      },
+      {
+        "time": 33331.90000000037,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3136
+          },
+          true
+        ],
+        "result": {
+          "x": 3984.9181972655147,
+          "y": 3112,
+          "cancelled": true
+        }
+      },
+      {
+        "time": 33351.10000000056,
+        "kind": "path",
+        "first": {
+          "x": 3984.9181972655147,
+          "y": 3120
+        },
+        "last": {
+          "x": 5752,
+          "y": 3152
+        },
+        "length": 111,
+        "speed": 20
+      },
+      {
+        "time": 33351.10000000056,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3120
+          },
+          true,
+          null
+        ],
+        "result": {
+          "x": 3991.598197265513,
+          "y": 3112,
+          "cancelled": true
+        }
+      },
+      {
+        "time": 34293.90000000037,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3152
+          },
+          true
+        ]
+      },
+      {
+        "time": 34294.10000000056,
+        "kind": "mapChanged"
+      },
+      {
+        "time": 34327.300000000745,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3152
+          },
+          true,
+          null
+        ]
+      },
+      {
+        "time": 34327.5,
+        "kind": "mapChanged"
+      },
+      {
+        "time": 34327.60000000056,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3152
+          },
+          true
+        ],
+        "result": {
+          "x": 4366.468924413806,
+          "y": 3112,
+          "cancelled": true
+        }
+      },
+      {
+        "time": 34344.5,
+        "kind": "path",
+        "first": {
+          "x": 4366.468924413806,
+          "y": 3120
+        },
+        "last": {
+          "x": 5752,
+          "y": 3168
+        },
+        "length": 88,
+        "speed": 20
+      },
+      {
+        "time": 34344.60000000056,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3136
+          },
+          true,
+          null
+        ],
+        "result": {
+          "x": 4373.148924413806,
+          "y": 3112,
+          "cancelled": true
+        }
+      }
+    ],
+    "after": {
+      "x": 4491.667654990785,
+      "y": 3131.667654990785,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4131,
+        "y": 2906,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "attempt": 1,
+    "start": {
+      "x": 3723.35393252755,
+      "y": 3224
+    },
+    "result": {
+      "x": 5752,
+      "y": 3104,
+      "cancelled": false
+    },
+    "events": [
+      {
+        "time": 36825.10000000056,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3104
+          },
+          false,
+          20
+        ]
+      },
+      {
+        "time": 36843.10000000056,
+        "kind": "path",
+        "first": {
+          "x": 3723.35393252755,
+          "y": 3232
+        },
+        "last": {
+          "x": 5752,
+          "y": 3120
+        },
+        "length": 128,
+        "speed": 20
+      },
+      {
+        "time": 36843.200000000186,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 2408,
+            "y": 3280
+          },
+          true
+        ],
+        "result": {
+          "x": 3709.9939325275495,
+          "y": 3224,
+          "cancelled": true
+        }
+      },
+      {
+        "time": 42125.800000000745,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3104
+          },
+          false,
+          20
+        ],
+        "result": {
+          "x": 5752,
+          "y": 3104,
+          "cancelled": false
+        }
+      },
+      {
+        "time": 42197.700000000186,
+        "kind": "mapChanged"
+      },
+      {
+        "time": 43298.700000000186,
+        "kind": "mapChanged"
+      },
+      {
+        "time": 43345.200000000186,
+        "kind": "mapChanged"
+      }
+    ],
+    "after": {
+      "x": 5752,
+      "y": 3104,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5392,
+        "y": 2879,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "attempt": 2,
+    "start": {
+      "x": 4990.089132310077,
+      "y": 3224
+    },
+    "result": {
+      "x": 5752,
+      "y": 3104,
+      "cancelled": false
+    },
+    "events": [
+      {
+        "time": 45867.10000000056,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3104
+          },
+          false,
+          20
+        ]
+      },
+      {
+        "time": 45883.40000000037,
+        "kind": "path",
+        "first": {
+          "x": 4990.089132310077,
+          "y": 3232
+        },
+        "last": {
+          "x": 5752,
+          "y": 3120
+        },
+        "length": 49,
+        "speed": 20
+      },
+      {
+        "time": 45883.40000000037,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 2408,
+            "y": 3296
+          },
+          true,
+          null
+        ],
+        "result": {
+          "x": 4983.409132310075,
+          "y": 3224,
+          "cancelled": true
+        }
+      },
+      {
+        "time": 47955.40000000037,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3104
+          },
+          false,
+          20
+        ],
+        "result": {
+          "x": 5752,
+          "y": 3104,
+          "cancelled": false
+        }
+      }
+    ],
+    "after": {
+      "x": 5752,
+      "y": 3104,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5392,
+        "y": 2879,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  }
+]

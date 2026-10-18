@@ -23,7 +23,7 @@ lower=Image.new('L',(LW,LH));ImageDraw.Draw(lower).ellipse((48,66,320,192),fill=
 lower=Image.fromarray(np.minimum(np.asarray(lower),np.asarray(inside)))
 floor=texture.copy();arr=np.asarray(floor).copy();arr[:,:,:3]=(arr[:,:,:3]*.90).astype('uint8');floor=Image.fromarray(arr);floor.putalpha(lower);base.alpha_composite(floor)
 bd=ImageDraw.Draw(base)
-bd.ellipse(outer,outline='#f6e2c0',width=3);bd.ellipse((26,27,342,197),outline='#bd9b70',width=1)
+bd.ellipse(outer,outline='#d8b88f',width=1);bd.ellipse((26,27,342,197),outline='#bd9b70',width=1)
 bd.ellipse(inner,outline='#8c6b45',width=4);bd.arc((51,51,317,176),180,355,fill='#b89c75',width=5)
 # Jointed cap stones follow the curve instead of an outlined rectangle.
 for degrees in range(0,360,20):
@@ -33,7 +33,17 @@ for i in range(3):
  x=288+i*24;y=96
  patch=texture.crop((x,y,x+24,y+64));pa=np.asarray(patch).copy();pa[:,:,:3]=(pa[:,:,:3]*(.84+i*.08)).astype('uint8');patch=Image.fromarray(pa);base.alpha_composite(patch,(x,y))
  bd.rectangle((x,y,x+23,y+63),outline='#bc9a6d',width=1)
- bd.line((x,y,x,y+63),fill='#795a38',width=3);bd.line((x+3,y+1,x+3,y+62),fill='#fff0d0',width=2)
+ bd.line((x,y,x,y+63),fill='#795a38',width=3);bd.line((x+3,y+1,x+3,y+62),fill='#ddc29a',width=1)
+# Bounded contact shadow and softened cut edge; preserve native stone detail.
+alpha=base.getchannel('A');soft=alpha.filter(ImageFilter.GaussianBlur(2))
+shadow=Image.new('RGBA',base.size,(70,48,28,0));shadow.putalpha(soft.point(lambda a:round(a*.28)))
+edge=Image.fromarray(np.minimum(np.asarray(alpha),np.asarray(soft)).astype('uint8'))
+base.putalpha(edge);shadow.alpha_composite(base);base=shadow
+# Blend the final 8px of the east landing into its registered underlying floor.
+a=np.asarray(base).copy();under=np.asarray(sky.crop((LX,LY,LX+LW,LY+LH)))
+for x in range(352,360):
+ t=(x-352)/7;a[96:160,x,:3]=(a[96:160,x,:3]*(1-t)+under[96:160,x,:3]*t).astype('uint8')
+base=Image.fromarray(a)
 # Apply the verified mask; all inherited plants/railing pixels stay untouched.
 a=np.asarray(base).copy();a[:,:,3]=np.minimum(a[:,:,3],np.asarray(valid));base=Image.fromarray(a)
 alcove_ground=base

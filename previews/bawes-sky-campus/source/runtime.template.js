@@ -29,8 +29,10 @@
    if(contains(position,door.inside))egress.add(door.id);
    if(!contains(position,door.inside,80))egress.delete(door.id);
    const state=states.get(door.lock),locked=!!(state?.locked&&state.expiresAt>Date.now());
-   const near=contains(position,door.box,80);
+   const near=contains(position,door.box,door.id==='office-front'&&!contains(position,layout.cutaway)?64:80);
    const open=door.lock ? (contains(position,door.inside)||near&&(!locked||egress.has(door.id))) : contains(position,door.inside)||near;
+   // Exterior approach settles before gate layers change, avoiding path-target drift.
+   if(door.id==='office-front'&&moving&&!contains(position,layout.cutaway))continue;
    if(open||!moving){if(door.id==='office-front'){if(open)show('office-front-door',false);animateEntrance(open)}else {show(door.id+'-door',!open);show(door.id+'-glass',!open&&contains(position,layout.cutaway));}}
   }
  }

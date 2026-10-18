@@ -35,3 +35,5 @@ The rear exit and external service floor were removed because they extended into
 Outdoor restoration is now tied to the exact original attachment: see [source comparison, native audit and bounded restoration needs](review/OUTDOOR-RESTORATION-AUDIT.md). The bounded café reconstruction is documented in [café restoration](review/CAFE-RESTORATION.md), with [historical stage and conservatory scope](review/REMAINING-DISTRICTS.md). The earlier candidate assessment records source QA before integration.
 
 Current outdoor changes and limitations: [conservatory/stage/café correction pass](review/OUTDOOR-RESTORATION-PASS.md).
+
+Latest source assessment and bounded polish: [counter and navigation follow-up](review/COUNTER-AND-NAVIGATION.md). Exterior entrance animation now waits for the approach to stop, avoiding gate-triggered path drift; accepted interior behavior and artwork remain unchanged.

@@ -79,7 +79,7 @@ exec((R/'source/interior.py').read_text())
 zone='campus'
 # Dark matching timber audience banks; existing stage artwork remains intact.
 exec((R/'source/stage-seating.py').read_text())
-item('desk',PX+1340*S,PY+320*S,(PX+1340*S,PY+324*S,64,48))
+# Removed the unrelated laptop desk restoration substitute; keep the stage open.
 # Mark original stage rear, furniture and planted margins impassable; stage front remains accessible.
 rectwalk((PX+1205*S,PY+282*S,280*S,45*S),0)
 exec((R/'source/cafe-furniture.py').read_text())

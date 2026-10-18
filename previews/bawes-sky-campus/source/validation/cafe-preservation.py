@@ -16,7 +16,8 @@ for name in [l['name'] for l in a['layers'] if l['type']=='tilelayer' and l['nam
  x=next(l for l in a['layers'] if l['name']==name);y=next(l for l in b['layers'] if l['name']==name)
  pairs=set(zip(x['data'],y['data']));checks[name]=all(signature(a,i,True)==signature(b,j,False) for i,j in pairs)
 checks['scenerySourceImagesByteIdentical']=all(prior(t['image'])==(r/t['image']).read_bytes() for t in a['tilesets'] if t['name'].startswith('scenery-and-campus'))
-checks['runtimeScriptByteIdentical']=prior('runtime.js')==(r/'runtime.js').read_bytes()
+# Only authorized exterior gate proximity changes; accepted interior logic is exact.
+checks['runtimeOnlyExteriorProximityChanged']=prior('runtime.js').decode().replace('const near=contains(position,door.box,80);',"const near=contains(position,door.box,door.id==='office-front'&&!contains(position,layout.cutaway)?64:80);").replace('   if(open||!moving){',"   // Exterior approach settles before gate layers change, avoiding path-target drift.\n   if(door.id==='office-front'&&moving&&!contains(position,layout.cutaway))continue;\n   if(open||!moving){")== (r/'runtime.js').read_text()
 x=next(l['data'] for l in a['layers'] if l['name']=='persistent-collision');y=next(l['data'] for l in b['layers'] if l['name']=='persistent-collision');cols=b['width']
 checks['officeCollisionIdentical']=all(bool(x[ty*cols+tx])==bool(y[ty*cols+tx]) for ty in range(2448//16,3040//16) for tx in range(2944//16,5088//16))
 checks['foregroundAbovePlayers']=next(i for i,l in enumerate(b['layers']) if l['name']=='cafe-foreground')>next(i for i,l in enumerate(b['layers']) if l['name']=='floorLayer')

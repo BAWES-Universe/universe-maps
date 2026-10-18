@@ -16,7 +16,7 @@ Complete front/rear timber armchair views from the coordinated cafe sheet were m
 
 Two4×4 banks use48px chair artwork at64px pitch. The left bank begins5504, the right5856; the clear central aisle is112px. The left bank moved32px inward to keep the narrowing western edge clear. Contact shadows sit beneath chairs; lower timber backs render above occupants. All32 anchors face the stage at Woka32 scale1. The existing warm stage floor, steps, canopy and planted boundary are retained as source pixels. `stage-restored.png` and `district-occupied-audience.png` show actual client views.
 
-The original small microphone has not been restored. The existing stage desk remains at its prior checkpoint; a matched independently placed microphone/podium prop would be needed if that original detail is required. It is outside the audience-bank restoration performed here.
+The original small microphone has not been restored. The unrelated laptop desk was removed in the follow-up; a matched independently placed microphone/podium prop would be needed if that original detail is required. It is outside the audience-bank restoration performed here.
 
 ## Cafe corrections and remaining blocker
 
@@ -33,3 +33,5 @@ The oversized counter is **not fixed**. Its countertop/body/props are baked into
 `geometry.json` covers all72 connected anchors. `district-runtime-checks.json` covers changed audience/conservatory seats, facing, stairs and district/aisle routes. `cafe-runtime-checks.json` covers the regrouped cafe. `cafe-preservation.json` verifies unchanged accepted interior pixels/collision/runtime and scenic source images. `optimizer-equivalence.json` compares the final optimized map with source. Full-campus evidence is `runtime-campus-outdoor-restored.png`.
 
 The stage route harness initially stopped short during long cross-campus navigation. Reissuing the same route after settling reached the stage apron and floor, then all three audience aisles. The harness now allows two settled retries; this is not reported as a single uninterrupted traversal. All 35 new seat clicks passed independently, with exact anchors and native facing.
+
+Follow-up: see [counter source inspection, navigation diagnosis and bounded polish](COUNTER-AND-NAVIGATION.md). The original retry explanation above is superseded: gate-triggered replans caused a reproducible destination drift, now avoided on the cross-campus route through a64px exterior entrance proximity. Accepted interior logic remains unchanged.

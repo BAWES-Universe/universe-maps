@@ -1,0 +1,215 @@
+[
+  {
+    "attempt": 0,
+    "start": {
+      "x": 2408,
+      "y": 3264
+    },
+    "result": {
+      "x": 5752,
+      "y": 3104,
+      "cancelled": false
+    },
+    "events": [
+      {
+        "time": 35756.90000000037,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3104
+          },
+          false,
+          20
+        ]
+      },
+      {
+        "time": 35778.800000000745,
+        "kind": "path",
+        "first": {
+          "x": 2408,
+          "y": 3272
+        },
+        "last": {
+          "x": 5752,
+          "y": 3120
+        },
+        "length": 210,
+        "speed": 20
+      },
+      {
+        "time": 44350.40000000037,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3104
+          },
+          false,
+          20
+        ],
+        "result": {
+          "x": 5752,
+          "y": 3104,
+          "cancelled": false
+        }
+      }
+    ],
+    "after": {
+      "x": 5752,
+      "y": 3104,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5392,
+        "y": 2879,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "attempt": 1,
+    "start": {
+      "x": 2408,
+      "y": 3264
+    },
+    "result": {
+      "x": 5752,
+      "y": 3104,
+      "cancelled": false
+    },
+    "events": [
+      {
+        "time": 56121,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3104
+          },
+          false,
+          20
+        ]
+      },
+      {
+        "time": 56121.700000000186,
+        "kind": "path",
+        "first": {
+          "x": 2408,
+          "y": 3272
+        },
+        "last": {
+          "x": 5752,
+          "y": 3120
+        },
+        "length": 210,
+        "speed": 20
+      },
+      {
+        "time": 64708.10000000056,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3104
+          },
+          false,
+          20
+        ],
+        "result": {
+          "x": 5752,
+          "y": 3104,
+          "cancelled": false
+        }
+      }
+    ],
+    "after": {
+      "x": 5752,
+      "y": 3104,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5392,
+        "y": 2879,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "attempt": 2,
+    "start": {
+      "x": 2408,
+      "y": 3264
+    },
+    "result": {
+      "x": 5752,
+      "y": 3104,
+      "cancelled": false
+    },
+    "events": [
+      {
+        "time": 76453.5,
+        "kind": "moveTo",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3104
+          },
+          false,
+          20
+        ]
+      },
+      {
+        "time": 76454.20000000019,
+        "kind": "path",
+        "first": {
+          "x": 2408,
+          "y": 3272
+        },
+        "last": {
+          "x": 5752,
+          "y": 3120
+        },
+        "length": 210,
+        "speed": 20
+      },
+      {
+        "time": 85051,
+        "kind": "resolved",
+        "args": [
+          {
+            "x": 5752,
+            "y": 3104
+          },
+          false,
+          20
+        ],
+        "result": {
+          "x": 5752,
+          "y": 3104,
+          "cancelled": false
+        }
+      }
+    ],
+    "after": {
+      "x": 5752,
+      "y": 3104,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5392,
+        "y": 2879,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  }
+]

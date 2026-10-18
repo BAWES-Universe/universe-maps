@@ -27,6 +27,17 @@
     }
   },
   {
+    "label": "gate has three intermediate frames over time",
+    "pass": true,
+    "details": {
+      "observedFrames": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
     "label": "entrance leaves open on approach",
     "pass": true,
     "details": {
@@ -78,14 +89,14 @@
         "x": 720,
         "y": 402
       },
-      "x": 3048,
-      "y": 2640,
+      "x": 3080,
+      "y": 2672,
       "scale": 1,
       "zoom": 1,
       "view": {
         "type": 5,
-        "x": 2688,
-        "y": 2391,
+        "x": 2720,
+        "y": 2423,
         "width": 720,
         "height": 450
       },
@@ -97,13 +108,13 @@
     "pass": true,
     "details": {
       "x": 4376,
-      "y": 2592,
+      "y": 2864,
       "scale": 1,
       "zoom": 1,
       "view": {
         "type": 5,
         "x": 4016,
-        "y": 2343,
+        "y": 2615,
         "width": 720,
         "height": 450
       },
@@ -114,13 +125,13 @@
     "label": "reception approach",
     "pass": true,
     "details": {
-      "x": 3880,
+      "x": 4216,
       "y": 2960,
       "scale": 1,
       "zoom": 1,
       "view": {
         "type": 5,
-        "x": 3520,
+        "x": 3856,
         "y": 2711,
         "width": 720,
         "height": 450
@@ -145,6 +156,175 @@
       "office-front-leaves": false,
       "reception-activity": false
     }
+  },
+  {
+    "label": "beverage approach",
+    "pass": true,
+    "details": {
+      "x": 4216,
+      "y": 2816,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3856,
+        "y": 2567,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "beverage action animates three steam frames",
+    "pass": true,
+    "details": [
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": true,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": true,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": true,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": true,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      }
+    ]
+  },
+  {
+    "label": "steam stops after the activity",
+    "pass": true,
+    "details": {}
   },
   {
     "label": "front exit",
@@ -217,16 +397,16 @@
     "details": {
       "point": {
         "x": 215,
-        "y": 402
+        "y": 386
       },
-      "x": 3048,
-      "y": 2640,
+      "x": 3080,
+      "y": 2672,
       "scale": 1,
       "zoom": 1,
       "view": {
         "type": 5,
-        "x": 2833,
-        "y": 2190,
+        "x": 2865,
+        "y": 2222,
         "width": 430,
         "height": 900
       },
@@ -241,14 +421,14 @@
         "x": 247,
         "y": 498
       },
-      "x": 3080,
-      "y": 2688,
+      "x": 3112,
+      "y": 2720,
       "scale": 1,
       "zoom": 1,
       "view": {
         "type": 5,
-        "x": 2865,
-        "y": 2238,
+        "x": 2897,
+        "y": 2270,
         "width": 430,
         "height": 900
       },

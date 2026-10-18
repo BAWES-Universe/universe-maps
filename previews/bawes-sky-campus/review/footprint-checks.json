@@ -13,13 +13,13 @@
     "pass": true,
     "details": {
       "x": 4024,
-      "y": 3088,
+      "y": 3104,
       "scale": 1,
       "zoom": 1,
       "view": {
         "type": 5,
-        "x": 3647,
-        "y": 2831,
+        "x": 3664,
+        "y": 2879,
         "width": 720,
         "height": 450
       },
@@ -41,13 +41,13 @@
     "details": {
       "before": {
         "x": 4024,
-        "y": 2768,
+        "y": 2784,
         "scale": 1,
         "zoom": 0.54,
         "view": {
           "type": 5,
           "x": 2691,
-          "y": 1846,
+          "y": 1862,
           "width": 2667,
           "height": 1667
         },
@@ -55,13 +55,13 @@
       },
       "after": {
         "x": 4024,
-        "y": 2768,
+        "y": 2784,
         "scale": 1,
         "zoom": 0.54,
         "view": {
           "type": 5,
           "x": 2691,
-          "y": 1846,
+          "y": 1862,
           "width": 2667,
           "height": 1667
         },
@@ -78,14 +78,14 @@
         "x": 720,
         "y": 402
       },
-      "x": 3048,
-      "y": 2640,
+      "x": 3080,
+      "y": 2672,
       "scale": 1,
       "zoom": 1,
       "view": {
         "type": 5,
-        "x": 2688,
-        "y": 2391,
+        "x": 2720,
+        "y": 2423,
         "width": 720,
         "height": 450
       },
@@ -97,13 +97,13 @@
     "pass": true,
     "details": {
       "x": 4376,
-      "y": 2592,
+      "y": 2864,
       "scale": 1,
       "zoom": 1,
       "view": {
         "type": 5,
         "x": 4016,
-        "y": 2343,
+        "y": 2615,
         "width": 720,
         "height": 450
       },
@@ -115,13 +115,13 @@
     "pass": true,
     "details": {
       "x": 4280,
-      "y": 2592,
+      "y": 2880,
       "scale": 1,
       "zoom": 1,
       "view": {
         "type": 5,
         "x": 3920,
-        "y": 2367,
+        "y": 2655,
         "width": 720,
         "height": 450
       },
@@ -133,13 +133,13 @@
     "pass": true,
     "details": {
       "x": 4280,
-      "y": 2592,
+      "y": 2864,
       "scale": 1,
       "zoom": 1,
       "view": {
         "type": 5,
-        "x": 3904,
-        "y": 2326,
+        "x": 3920,
+        "y": 2615,
         "width": 720,
         "height": 450
       },
@@ -151,13 +151,13 @@
     "pass": true,
     "details": {
       "x": 4376,
-      "y": 2592,
+      "y": 2864,
       "scale": 1,
       "zoom": 1,
       "view": {
         "type": 5,
-        "x": 3931,
-        "y": 2303,
+        "x": 3929,
+        "y": 2575,
         "width": 720,
         "height": 450
       },
@@ -168,14 +168,14 @@
     "label": "reception approach",
     "pass": true,
     "details": {
-      "x": 3880,
+      "x": 4216,
       "y": 2960,
       "scale": 1,
       "zoom": 1,
       "view": {
         "type": 5,
-        "x": 3520,
-        "y": 2711,
+        "x": 3846,
+        "y": 2708,
         "width": 720,
         "height": 450
       },
@@ -199,6 +199,29 @@
       "office-front-leaves": false,
       "reception-activity": false
     }
+  },
+  {
+    "label": "beverage reduced-motion approach",
+    "pass": true,
+    "details": {
+      "x": 4216,
+      "y": 2816,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3856,
+        "y": 2567,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "reduced motion suppresses beverage steam",
+    "pass": true,
+    "details": {}
   },
   {
     "label": "front exit",

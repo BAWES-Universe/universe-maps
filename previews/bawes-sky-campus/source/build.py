@@ -61,14 +61,16 @@ for yy in range(0,OH,64):
  for xx in range(0,OW,64):floor.alpha_composite(stone,(xx,yy))
 # Repeat only the interior textile sample; do not repeat the prior room's rug edges.
 textile=prior.crop((80,144,128,192))
+# Retain woven texture, shift teal into the approved warm amber/red family.
+a=np.asarray(textile).copy(); lum=a[:,:,:3].mean(axis=2);a[:,:,0]=np.clip(lum*1.12+40,0,255);a[:,:,1]=np.clip(lum*.57+17,0,255);a[:,:,2]=np.clip(lum*.35+13,0,255);textile=Image.fromarray(a)
 def rug(x,y,w,h):
  for yy in range(y,y+h,48):
   for xx in range(x,x+w,48):floor.alpha_composite(textile.crop((0,0,min(48,x+w-xx),min(48,y+h-yy))),(xx,yy))
  rd=ImageDraw.Draw(floor)
- rd.rectangle((x,y,x+w-1,y+h-1),outline='#344e50',width=7)
+ rd.rectangle((x,y,x+w-1,y+h-1),outline='#673c2c',width=7)
  rd.rectangle((x+7,y+7,x+w-8,y+h-8),outline='#b5a06b',width=2)
- rd.rectangle((x+12,y+12,x+w-13,y+h-13),outline='#72827a',width=1)
-for box in [(48,80,432,176),(528,80,432,176),(48,256,432,176),(528,256,432,176),(64,432,704,128)]:rug(*box)
+ rd.rectangle((x+12,y+12,x+w-13,y+h-13),outline='#ba8750',width=1)
+for box in [(64,112,384,416),(576,112,384,416),(1424,96,656,144)]:rug(*box)
 fd=ImageDraw.Draw(floor)
 fd.polygon([(1072,368),(1120,400),(1120,464),(1072,496),(1024,464),(1024,400)],fill='#c59b45',outline='#75573c',width=2)
 fd.polygon([(1072,392),(1104,432),(1072,472),(1040,432)],fill='#b54f36')
@@ -93,12 +95,15 @@ def chair(x,y,facing='up',group='office'):
  seats.append(dict(x=x,y=y,group=group,facing=facing))
  # Small front edge, entirely below torso at the exact floor anchor.
  fronts.append((name,x-24,y,48,16))
-# Four furnished work pods, each with four native desks and clear chair approaches.
-for by in (96,272):
- for bx in (64,544):
-  for dx in (0,112,224,336):
-   x=OX+bx+dx;y=OY+by
-   item('desk',x,y,(x,y+8,64,48));chair(x+32,y+96)
+# Two team neighborhoods: three individual stations plus a shared project table each.
+# A 128px cross-route separates them; the entrance spine remains unoccupied.
+for bx in (96,608):
+ for dx in (0,112,224):
+  x=OX+bx+dx;y=OY+128
+  item('desk',x,y,(x,y+8,64,48));chair(x+32,y+96)
+ x=OX+bx+80;y=OY+352
+ item('meeting',x,y,(x,y+8,128,48))
+ for dx in (32,96):chair(x+dx,y-32,'down','team-project');chair(x+dx,y+96,group='team-project')
 walls=Image.new('RGBA',(OW,OH));wallD=ImageDraw.Draw(walls)
 def wall(x,y,w,h):
  rectwalk((x,y,w,h),0)
@@ -112,11 +117,15 @@ def wall(x,y,w,h):
 
 # Recovered illustrated stonework, shelving and lamps give the back wall actual depth.
 wall(OX,OY,OW,80);wall(OX,OY+80,16,OH-80);wall(OX+OW-16,OY+80,16,OH-80)
-back=prior.crop((20,24,428,104))
-for xx in range(16,OW-16,408):walls.alpha_composite(back.crop((0,0,min(408,OW-16-xx),80)),(xx,0))
+# Plain lit stone piers replace the continuous library shelf band.
+back=prior.crop((268,24,280,104))
+for xx in range(16,OW-16,12):walls.alpha_composite(back.crop((0,0,min(12,OW-16-xx),80)),(xx,0))
+for xx in (208,720,1024,1856):walls.alpha_composite(prior.crop((176,24,280,104)),(xx,0))
+# Only the shared lounge keeps one existing bookcase.
+walls.alpha_composite(prior.crop((72,24,176,104)),(1664,0))
 for xx,ww in [(0,976),(1168,OW-1168)]:wall(OX+xx,OY+OH-16,ww,16)
-# One project room and two smaller meeting rooms, with illustrated wall faces and 96px doors.
-for i,(xx,yy,w,h) in enumerate([(1376,16,704,224),(1376,288,320,224),(1760,288,320,224)]):
+# Two enclosed meeting rooms with illustrated wall faces and 96px doors.
+for i,(xx,yy,w,h) in enumerate([(1376,288,320,224),(1760,288,320,224)]):
  x=OX+xx;y=OY+yy
  wall(x,y,w,48);wall(x,y+h-16,w,16);wall(x+w-16,y+48,16,h-64)
  wall(x,y+48,16,32);wall(x,y+176,16,h-176)
@@ -126,18 +135,21 @@ for i,(xx,yy,w,h) in enumerate([(1376,16,704,224),(1376,288,320,224),(1760,288,3
  wallD.rectangle((xx+16,yy+48,xx+w-17,yy+55),fill=(61,44,29,65))
  door=dict(id=f'meeting-{i+1}',box=[x,y+80,16,96],inside=[x+16,y+48,w-32,h-64],lock=f'meetingLock{i+1}')
  doors.append(door);rooms.append(dict(id=door['id'],box=door['inside']))
- for tx in ([96,384] if i==0 else [96]):
+ for tx in [96]:
   item('meeting',x+tx,y+96,(x+tx,y+104,128,48))
   for dx in (32,96):chair(x+tx+dx,y+192);chair(x+tx+dx,y+64,'down')
  # Low glass at the front permits visual connection to the main circulation.
  for dx in range(16,w-96,128):item('glass',x+dx,y+h-48)
-# Reception and two conversation settings have at least 64px to the front building edge.
-item('desk',OX+864,OY+416,(OX+864,OY+424,64,48));chair(OX+896,OY+512)
-for xx in (96,448):
- item('sofa',OX+xx,OY+448,(OX+xx,OY+448,128,32))
- for dx in (32,96):seats.append(dict(x=OX+xx+dx,y=OY+496,group='lounge',facing='up'))
- item('cafe',OX+xx+160,OY+464,(OX+xx+160,OY+472,64,48))
-for xx,yy in [(16,432),(1168,96),(1168,288),(2048,368)]:item('planter',OX+xx,OY+yy,(OX+xx,OY+yy+16,80,48))
+# Open upper-right lounge; it is neither enclosed nor described as private.
+for xx in (1456,1808):
+ item('sofa',OX+xx,OY+112,(OX+xx,OY+112,128,32))
+ for dx in (32,96):seats.append(dict(x=OX+xx+dx,y=OY+160,group='shared-lounge',facing='up'))
+ item('cafe',OX+xx+160,OY+144,(OX+xx+160,OY+152,64,48))
+# Reception sits to the right of the 192px entrance spine, facing arrivals.
+item('desk',OX+1184,OY+416,(OX+1184,OY+424,64,48));chair(OX+1216,OY+512)
+# Beverage point adjacent to reception, reachable from the spine and lounge.
+item('cafe',OX+1216,OY+288,(OX+1216,OY+296,64,48))
+for xx,yy in [(1296,112),(2048,208)]:item('planter',OX+xx,OY+yy,(OX+xx,OY+yy+16,80,48))
 doors.append(dict(id='office-front',box=[OX+976,OY+OH-16,192,16],inside=[OX+16,OY+80,OW-32,OH-96]))
 # Every interior furnishing must fit the wall body; classification cannot hide overflow.
 for obj in objects:
@@ -254,8 +266,22 @@ for d in doors:
 leaves=Image.new('RGBA',(192,96))
 for xx in (0,96):leaves.alpha_composite(sprites['glass'].resize((96,96),Image.Resampling.LANCZOS),(xx,0))
 image_layer('office-front-leaves',leaves,OX+976,OY+OH-96)
+# Existing glass leaves in three intermediate positions, using map-layer animation only.
+for frame in range(1,4):
+ im=Image.new('RGBA',(192,96));shift=frame*24
+ im.alpha_composite(leaves.crop((shift,0,96,96)),(0,0))
+ im.alpha_composite(leaves.crop((96,0,192-shift,96)),(96+shift,0))
+ image_layer('office-front-slide-'+str(frame),im,OX+976,OY+OH-96);layers[-1]['visible']=False
+# Small procedural steam glyphs for the beverage interaction; no image generation/assets purchased.
+for frame in range(3):
+ im=Image.new('RGBA',(32,48));draw=ImageDraw.Draw(im)
+ for strand in range(2):
+  pts=[(10+strand*12+round(math.sin((j+frame*3)*.5)*3),40-j*2-frame*2) for j in range(14)]
+  draw.line(pts,fill=(110,94,78,150-frame*15),width=4)
+  draw.line(pts,fill=(255,248,230,225-frame*20),width=2)
+ image_layer('beverage-steam-'+str(frame),im,OX+1232,OY+256);layers[-1]['visible']=False
 activity=Image.open(R/'source/reused/activity-glow.png').convert('RGBA').resize((128,128),Image.Resampling.LANCZOS)
-image_layer('reception-activity',activity,OX+800,OY+384);layers[-1]['visible']=False
+image_layer('reception-activity',activity,OX+1136,OY+384);layers[-1]['visible']=False
 image_layer('office-cover',shell,EX,EY)
 mapdata=dict(type='map',version='1.10',tiledversion='1.11.2',orientation='orthogonal',renderorder='right-down',infinite=False,width=COL,height=ROW,tilewidth=16,tileheight=16,nextlayerid=len(layers)+1,nextobjectid=10,layers=layers,tilesets=tilesets,properties=[dict(name='script',type='string',value='runtime.js')])
 (R/'campus.tmj').write_text(json.dumps(mapdata,separators=(',',':'))+'\n')

@@ -19,846 +19,396 @@
       "object": 0,
       "zone": "office",
       "kind": "desk",
-      "x": 3008,
-      "y": 2544,
+      "x": 3040,
+      "y": 2576,
       "width": 64,
       "height": 64,
       "collision": [
-        3008,
-        2552,
+        3040,
+        2584,
         64,
         48
       ],
       "clearanceToBuildingPixels": {
-        "left": 64,
-        "back": 96,
-        "right": 2016,
-        "front": 432
+        "left": 96,
+        "back": 128,
+        "right": 1984,
+        "front": 400
       }
     },
     {
       "object": 1,
       "zone": "office",
       "kind": "red-chair",
-      "x": 3024,
-      "y": 2608,
+      "x": 3056,
+      "y": 2640,
       "width": 48,
       "height": 64,
       "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 80,
-        "back": 160,
-        "right": 2016,
-        "front": 368
+        "left": 112,
+        "back": 192,
+        "right": 1984,
+        "front": 336
       }
     },
     {
       "object": 2,
       "zone": "office",
       "kind": "desk",
-      "x": 3120,
-      "y": 2544,
+      "x": 3152,
+      "y": 2576,
       "width": 64,
       "height": 64,
       "collision": [
-        3120,
-        2552,
+        3152,
+        2584,
         64,
         48
       ],
       "clearanceToBuildingPixels": {
-        "left": 176,
-        "back": 96,
-        "right": 1904,
-        "front": 432
+        "left": 208,
+        "back": 128,
+        "right": 1872,
+        "front": 400
       }
     },
     {
       "object": 3,
       "zone": "office",
       "kind": "red-chair",
-      "x": 3136,
-      "y": 2608,
+      "x": 3168,
+      "y": 2640,
       "width": 48,
       "height": 64,
       "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 192,
-        "back": 160,
-        "right": 1904,
-        "front": 368
+        "left": 224,
+        "back": 192,
+        "right": 1872,
+        "front": 336
       }
     },
     {
       "object": 4,
       "zone": "office",
       "kind": "desk",
-      "x": 3232,
-      "y": 2544,
+      "x": 3264,
+      "y": 2576,
       "width": 64,
       "height": 64,
       "collision": [
-        3232,
-        2552,
+        3264,
+        2584,
         64,
         48
       ],
       "clearanceToBuildingPixels": {
-        "left": 288,
-        "back": 96,
-        "right": 1792,
-        "front": 432
+        "left": 320,
+        "back": 128,
+        "right": 1760,
+        "front": 400
       }
     },
     {
       "object": 5,
       "zone": "office",
       "kind": "red-chair",
-      "x": 3248,
-      "y": 2608,
+      "x": 3280,
+      "y": 2640,
       "width": 48,
       "height": 64,
       "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 304,
-        "back": 160,
-        "right": 1792,
-        "front": 368
+        "left": 336,
+        "back": 192,
+        "right": 1760,
+        "front": 336
       }
     },
     {
       "object": 6,
       "zone": "office",
-      "kind": "desk",
-      "x": 3344,
-      "y": 2544,
-      "width": 64,
+      "kind": "meeting",
+      "x": 3120,
+      "y": 2800,
+      "width": 128,
       "height": 64,
       "collision": [
-        3344,
-        2552,
-        64,
+        3120,
+        2808,
+        128,
         48
       ],
       "clearanceToBuildingPixels": {
-        "left": 400,
-        "back": 96,
-        "right": 1680,
-        "front": 432
+        "left": 176,
+        "back": 352,
+        "right": 1840,
+        "front": 176
       }
     },
     {
       "object": 7,
       "zone": "office",
-      "kind": "red-chair",
-      "x": 3360,
-      "y": 2608,
+      "kind": "amber-chair",
+      "x": 3136,
+      "y": 2736,
       "width": 48,
       "height": 64,
       "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 416,
-        "back": 160,
-        "right": 1680,
-        "front": 368
+        "left": 192,
+        "back": 288,
+        "right": 1904,
+        "front": 240
       }
     },
     {
       "object": 8,
       "zone": "office",
-      "kind": "desk",
-      "x": 3488,
-      "y": 2544,
-      "width": 64,
+      "kind": "red-chair",
+      "x": 3136,
+      "y": 2864,
+      "width": 48,
       "height": 64,
-      "collision": [
-        3488,
-        2552,
-        64,
-        48
-      ],
+      "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 544,
-        "back": 96,
-        "right": 1536,
-        "front": 432
+        "left": 192,
+        "back": 416,
+        "right": 1904,
+        "front": 112
       }
     },
     {
       "object": 9,
       "zone": "office",
-      "kind": "red-chair",
-      "x": 3504,
-      "y": 2608,
+      "kind": "amber-chair",
+      "x": 3200,
+      "y": 2736,
       "width": 48,
       "height": 64,
       "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 560,
-        "back": 160,
-        "right": 1536,
-        "front": 368
+        "left": 256,
+        "back": 288,
+        "right": 1840,
+        "front": 240
       }
     },
     {
       "object": 10,
       "zone": "office",
-      "kind": "desk",
-      "x": 3600,
-      "y": 2544,
-      "width": 64,
+      "kind": "red-chair",
+      "x": 3200,
+      "y": 2864,
+      "width": 48,
       "height": 64,
-      "collision": [
-        3600,
-        2552,
-        64,
-        48
-      ],
+      "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 656,
-        "back": 96,
-        "right": 1424,
-        "front": 432
+        "left": 256,
+        "back": 416,
+        "right": 1840,
+        "front": 112
       }
     },
     {
       "object": 11,
       "zone": "office",
-      "kind": "red-chair",
-      "x": 3616,
-      "y": 2608,
-      "width": 48,
+      "kind": "desk",
+      "x": 3552,
+      "y": 2576,
+      "width": 64,
       "height": 64,
-      "collision": null,
+      "collision": [
+        3552,
+        2584,
+        64,
+        48
+      ],
       "clearanceToBuildingPixels": {
-        "left": 672,
-        "back": 160,
-        "right": 1424,
-        "front": 368
+        "left": 608,
+        "back": 128,
+        "right": 1472,
+        "front": 400
       }
     },
     {
       "object": 12,
       "zone": "office",
-      "kind": "desk",
-      "x": 3712,
-      "y": 2544,
-      "width": 64,
+      "kind": "red-chair",
+      "x": 3568,
+      "y": 2640,
+      "width": 48,
       "height": 64,
-      "collision": [
-        3712,
-        2552,
-        64,
-        48
-      ],
+      "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 768,
-        "back": 96,
-        "right": 1312,
-        "front": 432
+        "left": 624,
+        "back": 192,
+        "right": 1472,
+        "front": 336
       }
     },
     {
       "object": 13,
       "zone": "office",
-      "kind": "red-chair",
-      "x": 3728,
-      "y": 2608,
-      "width": 48,
+      "kind": "desk",
+      "x": 3664,
+      "y": 2576,
+      "width": 64,
       "height": 64,
-      "collision": null,
+      "collision": [
+        3664,
+        2584,
+        64,
+        48
+      ],
       "clearanceToBuildingPixels": {
-        "left": 784,
-        "back": 160,
-        "right": 1312,
-        "front": 368
+        "left": 720,
+        "back": 128,
+        "right": 1360,
+        "front": 400
       }
     },
     {
       "object": 14,
       "zone": "office",
-      "kind": "desk",
-      "x": 3824,
-      "y": 2544,
-      "width": 64,
+      "kind": "red-chair",
+      "x": 3680,
+      "y": 2640,
+      "width": 48,
       "height": 64,
-      "collision": [
-        3824,
-        2552,
-        64,
-        48
-      ],
+      "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 880,
-        "back": 96,
-        "right": 1200,
-        "front": 432
+        "left": 736,
+        "back": 192,
+        "right": 1360,
+        "front": 336
       }
     },
     {
       "object": 15,
       "zone": "office",
-      "kind": "red-chair",
-      "x": 3840,
-      "y": 2608,
-      "width": 48,
+      "kind": "desk",
+      "x": 3776,
+      "y": 2576,
+      "width": 64,
       "height": 64,
-      "collision": null,
+      "collision": [
+        3776,
+        2584,
+        64,
+        48
+      ],
       "clearanceToBuildingPixels": {
-        "left": 896,
-        "back": 160,
-        "right": 1200,
-        "front": 368
+        "left": 832,
+        "back": 128,
+        "right": 1248,
+        "front": 400
       }
     },
     {
       "object": 16,
       "zone": "office",
-      "kind": "desk",
-      "x": 3008,
-      "y": 2720,
-      "width": 64,
+      "kind": "red-chair",
+      "x": 3792,
+      "y": 2640,
+      "width": 48,
       "height": 64,
-      "collision": [
-        3008,
-        2728,
-        64,
-        48
-      ],
+      "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 64,
-        "back": 272,
-        "right": 2016,
-        "front": 256
+        "left": 848,
+        "back": 192,
+        "right": 1248,
+        "front": 336
       }
     },
     {
       "object": 17,
       "zone": "office",
-      "kind": "red-chair",
-      "x": 3024,
-      "y": 2784,
-      "width": 48,
+      "kind": "meeting",
+      "x": 3632,
+      "y": 2800,
+      "width": 128,
       "height": 64,
-      "collision": null,
+      "collision": [
+        3632,
+        2808,
+        128,
+        48
+      ],
       "clearanceToBuildingPixels": {
-        "left": 80,
-        "back": 336,
-        "right": 2016,
-        "front": 192
+        "left": 688,
+        "back": 352,
+        "right": 1328,
+        "front": 176
       }
     },
     {
       "object": 18,
       "zone": "office",
-      "kind": "desk",
-      "x": 3120,
-      "y": 2720,
-      "width": 64,
+      "kind": "amber-chair",
+      "x": 3648,
+      "y": 2736,
+      "width": 48,
       "height": 64,
-      "collision": [
-        3120,
-        2728,
-        64,
-        48
-      ],
+      "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 176,
-        "back": 272,
-        "right": 1904,
-        "front": 256
+        "left": 704,
+        "back": 288,
+        "right": 1392,
+        "front": 240
       }
     },
     {
       "object": 19,
       "zone": "office",
       "kind": "red-chair",
-      "x": 3136,
-      "y": 2784,
+      "x": 3648,
+      "y": 2864,
       "width": 48,
       "height": 64,
       "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 192,
-        "back": 336,
-        "right": 1904,
-        "front": 192
+        "left": 704,
+        "back": 416,
+        "right": 1392,
+        "front": 112
       }
     },
     {
       "object": 20,
       "zone": "office",
-      "kind": "desk",
-      "x": 3232,
-      "y": 2720,
-      "width": 64,
+      "kind": "amber-chair",
+      "x": 3712,
+      "y": 2736,
+      "width": 48,
       "height": 64,
-      "collision": [
-        3232,
-        2728,
-        64,
-        48
-      ],
+      "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 288,
-        "back": 272,
-        "right": 1792,
-        "front": 256
+        "left": 768,
+        "back": 288,
+        "right": 1328,
+        "front": 240
       }
     },
     {
       "object": 21,
       "zone": "office",
       "kind": "red-chair",
-      "x": 3248,
-      "y": 2784,
+      "x": 3712,
+      "y": 2864,
       "width": 48,
       "height": 64,
       "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 304,
-        "back": 336,
-        "right": 1792,
-        "front": 192
+        "left": 768,
+        "back": 416,
+        "right": 1328,
+        "front": 112
       }
     },
     {
       "object": 22,
-      "zone": "office",
-      "kind": "desk",
-      "x": 3344,
-      "y": 2720,
-      "width": 64,
-      "height": 64,
-      "collision": [
-        3344,
-        2728,
-        64,
-        48
-      ],
-      "clearanceToBuildingPixels": {
-        "left": 400,
-        "back": 272,
-        "right": 1680,
-        "front": 256
-      }
-    },
-    {
-      "object": 23,
-      "zone": "office",
-      "kind": "red-chair",
-      "x": 3360,
-      "y": 2784,
-      "width": 48,
-      "height": 64,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 416,
-        "back": 336,
-        "right": 1680,
-        "front": 192
-      }
-    },
-    {
-      "object": 24,
-      "zone": "office",
-      "kind": "desk",
-      "x": 3488,
-      "y": 2720,
-      "width": 64,
-      "height": 64,
-      "collision": [
-        3488,
-        2728,
-        64,
-        48
-      ],
-      "clearanceToBuildingPixels": {
-        "left": 544,
-        "back": 272,
-        "right": 1536,
-        "front": 256
-      }
-    },
-    {
-      "object": 25,
-      "zone": "office",
-      "kind": "red-chair",
-      "x": 3504,
-      "y": 2784,
-      "width": 48,
-      "height": 64,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 560,
-        "back": 336,
-        "right": 1536,
-        "front": 192
-      }
-    },
-    {
-      "object": 26,
-      "zone": "office",
-      "kind": "desk",
-      "x": 3600,
-      "y": 2720,
-      "width": 64,
-      "height": 64,
-      "collision": [
-        3600,
-        2728,
-        64,
-        48
-      ],
-      "clearanceToBuildingPixels": {
-        "left": 656,
-        "back": 272,
-        "right": 1424,
-        "front": 256
-      }
-    },
-    {
-      "object": 27,
-      "zone": "office",
-      "kind": "red-chair",
-      "x": 3616,
-      "y": 2784,
-      "width": 48,
-      "height": 64,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 672,
-        "back": 336,
-        "right": 1424,
-        "front": 192
-      }
-    },
-    {
-      "object": 28,
-      "zone": "office",
-      "kind": "desk",
-      "x": 3712,
-      "y": 2720,
-      "width": 64,
-      "height": 64,
-      "collision": [
-        3712,
-        2728,
-        64,
-        48
-      ],
-      "clearanceToBuildingPixels": {
-        "left": 768,
-        "back": 272,
-        "right": 1312,
-        "front": 256
-      }
-    },
-    {
-      "object": 29,
-      "zone": "office",
-      "kind": "red-chair",
-      "x": 3728,
-      "y": 2784,
-      "width": 48,
-      "height": 64,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 784,
-        "back": 336,
-        "right": 1312,
-        "front": 192
-      }
-    },
-    {
-      "object": 30,
-      "zone": "office",
-      "kind": "desk",
-      "x": 3824,
-      "y": 2720,
-      "width": 64,
-      "height": 64,
-      "collision": [
-        3824,
-        2728,
-        64,
-        48
-      ],
-      "clearanceToBuildingPixels": {
-        "left": 880,
-        "back": 272,
-        "right": 1200,
-        "front": 256
-      }
-    },
-    {
-      "object": 31,
-      "zone": "office",
-      "kind": "red-chair",
-      "x": 3840,
-      "y": 2784,
-      "width": 48,
-      "height": 64,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 896,
-        "back": 336,
-        "right": 1200,
-        "front": 192
-      }
-    },
-    {
-      "object": 32,
-      "zone": "office",
-      "kind": "meeting",
-      "x": 4416,
-      "y": 2560,
-      "width": 128,
-      "height": 64,
-      "collision": [
-        4416,
-        2568,
-        128,
-        48
-      ],
-      "clearanceToBuildingPixels": {
-        "left": 1472,
-        "back": 112,
-        "right": 544,
-        "front": 416
-      }
-    },
-    {
-      "object": 33,
-      "zone": "office",
-      "kind": "red-chair",
-      "x": 4432,
-      "y": 2624,
-      "width": 48,
-      "height": 64,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 1488,
-        "back": 176,
-        "right": 608,
-        "front": 352
-      }
-    },
-    {
-      "object": 34,
-      "zone": "office",
-      "kind": "amber-chair",
-      "x": 4432,
-      "y": 2496,
-      "width": 48,
-      "height": 64,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 1488,
-        "back": 48,
-        "right": 608,
-        "front": 480
-      }
-    },
-    {
-      "object": 35,
-      "zone": "office",
-      "kind": "red-chair",
-      "x": 4496,
-      "y": 2624,
-      "width": 48,
-      "height": 64,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 1552,
-        "back": 176,
-        "right": 544,
-        "front": 352
-      }
-    },
-    {
-      "object": 36,
-      "zone": "office",
-      "kind": "amber-chair",
-      "x": 4496,
-      "y": 2496,
-      "width": 48,
-      "height": 64,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 1552,
-        "back": 48,
-        "right": 544,
-        "front": 480
-      }
-    },
-    {
-      "object": 37,
-      "zone": "office",
-      "kind": "meeting",
-      "x": 4704,
-      "y": 2560,
-      "width": 128,
-      "height": 64,
-      "collision": [
-        4704,
-        2568,
-        128,
-        48
-      ],
-      "clearanceToBuildingPixels": {
-        "left": 1760,
-        "back": 112,
-        "right": 256,
-        "front": 416
-      }
-    },
-    {
-      "object": 38,
-      "zone": "office",
-      "kind": "red-chair",
-      "x": 4720,
-      "y": 2624,
-      "width": 48,
-      "height": 64,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 1776,
-        "back": 176,
-        "right": 320,
-        "front": 352
-      }
-    },
-    {
-      "object": 39,
-      "zone": "office",
-      "kind": "amber-chair",
-      "x": 4720,
-      "y": 2496,
-      "width": 48,
-      "height": 64,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 1776,
-        "back": 48,
-        "right": 320,
-        "front": 480
-      }
-    },
-    {
-      "object": 40,
-      "zone": "office",
-      "kind": "red-chair",
-      "x": 4784,
-      "y": 2624,
-      "width": 48,
-      "height": 64,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 1840,
-        "back": 176,
-        "right": 256,
-        "front": 352
-      }
-    },
-    {
-      "object": 41,
-      "zone": "office",
-      "kind": "amber-chair",
-      "x": 4784,
-      "y": 2496,
-      "width": 48,
-      "height": 64,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 1840,
-        "back": 48,
-        "right": 256,
-        "front": 480
-      }
-    },
-    {
-      "object": 42,
-      "zone": "office",
-      "kind": "glass",
-      "x": 4336,
-      "y": 2640,
-      "width": 96,
-      "height": 48,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 1392,
-        "back": 192,
-        "right": 656,
-        "front": 352
-      }
-    },
-    {
-      "object": 43,
-      "zone": "office",
-      "kind": "glass",
-      "x": 4464,
-      "y": 2640,
-      "width": 96,
-      "height": 48,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 1520,
-        "back": 192,
-        "right": 528,
-        "front": 352
-      }
-    },
-    {
-      "object": 44,
-      "zone": "office",
-      "kind": "glass",
-      "x": 4592,
-      "y": 2640,
-      "width": 96,
-      "height": 48,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 1648,
-        "back": 192,
-        "right": 400,
-        "front": 352
-      }
-    },
-    {
-      "object": 45,
-      "zone": "office",
-      "kind": "glass",
-      "x": 4720,
-      "y": 2640,
-      "width": 96,
-      "height": 48,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 1776,
-        "back": 192,
-        "right": 272,
-        "front": 352
-      }
-    },
-    {
-      "object": 46,
-      "zone": "office",
-      "kind": "glass",
-      "x": 4848,
-      "y": 2640,
-      "width": 96,
-      "height": 48,
-      "collision": null,
-      "clearanceToBuildingPixels": {
-        "left": 1904,
-        "back": 192,
-        "right": 144,
-        "front": 352
-      }
-    },
-    {
-      "object": 47,
       "zone": "office",
       "kind": "meeting",
       "x": 4416,
@@ -879,7 +429,7 @@
       }
     },
     {
-      "object": 48,
+      "object": 23,
       "zone": "office",
       "kind": "red-chair",
       "x": 4432,
@@ -895,7 +445,7 @@
       }
     },
     {
-      "object": 49,
+      "object": 24,
       "zone": "office",
       "kind": "amber-chair",
       "x": 4432,
@@ -911,7 +461,7 @@
       }
     },
     {
-      "object": 50,
+      "object": 25,
       "zone": "office",
       "kind": "red-chair",
       "x": 4496,
@@ -927,7 +477,7 @@
       }
     },
     {
-      "object": 51,
+      "object": 26,
       "zone": "office",
       "kind": "amber-chair",
       "x": 4496,
@@ -943,7 +493,7 @@
       }
     },
     {
-      "object": 52,
+      "object": 27,
       "zone": "office",
       "kind": "glass",
       "x": 4336,
@@ -959,7 +509,7 @@
       }
     },
     {
-      "object": 53,
+      "object": 28,
       "zone": "office",
       "kind": "glass",
       "x": 4464,
@@ -975,7 +525,7 @@
       }
     },
     {
-      "object": 54,
+      "object": 29,
       "zone": "office",
       "kind": "meeting",
       "x": 4800,
@@ -996,7 +546,7 @@
       }
     },
     {
-      "object": 55,
+      "object": 30,
       "zone": "office",
       "kind": "red-chair",
       "x": 4816,
@@ -1012,7 +562,7 @@
       }
     },
     {
-      "object": 56,
+      "object": 31,
       "zone": "office",
       "kind": "amber-chair",
       "x": 4816,
@@ -1028,7 +578,7 @@
       }
     },
     {
-      "object": 57,
+      "object": 32,
       "zone": "office",
       "kind": "red-chair",
       "x": 4880,
@@ -1044,7 +594,7 @@
       }
     },
     {
-      "object": 58,
+      "object": 33,
       "zone": "office",
       "kind": "amber-chair",
       "x": 4880,
@@ -1060,7 +610,7 @@
       }
     },
     {
-      "object": 59,
+      "object": 34,
       "zone": "office",
       "kind": "glass",
       "x": 4720,
@@ -1076,7 +626,7 @@
       }
     },
     {
-      "object": 60,
+      "object": 35,
       "zone": "office",
       "kind": "glass",
       "x": 4848,
@@ -1092,210 +642,189 @@
       }
     },
     {
-      "object": 61,
+      "object": 36,
+      "zone": "office",
+      "kind": "sofa",
+      "x": 4400,
+      "y": 2560,
+      "width": 128,
+      "height": 80,
+      "collision": [
+        4400,
+        2560,
+        128,
+        32
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1456,
+        "back": 112,
+        "right": 560,
+        "front": 400
+      }
+    },
+    {
+      "object": 37,
+      "zone": "office",
+      "kind": "cafe",
+      "x": 4560,
+      "y": 2592,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        4560,
+        2600,
+        64,
+        48
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1616,
+        "back": 144,
+        "right": 464,
+        "front": 384
+      }
+    },
+    {
+      "object": 38,
+      "zone": "office",
+      "kind": "sofa",
+      "x": 4752,
+      "y": 2560,
+      "width": 128,
+      "height": 80,
+      "collision": [
+        4752,
+        2560,
+        128,
+        32
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1808,
+        "back": 112,
+        "right": 208,
+        "front": 400
+      }
+    },
+    {
+      "object": 39,
+      "zone": "office",
+      "kind": "cafe",
+      "x": 4912,
+      "y": 2592,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        4912,
+        2600,
+        64,
+        48
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1968,
+        "back": 144,
+        "right": 112,
+        "front": 384
+      }
+    },
+    {
+      "object": 40,
       "zone": "office",
       "kind": "desk",
-      "x": 3808,
+      "x": 4128,
       "y": 2864,
       "width": 64,
       "height": 64,
       "collision": [
-        3808,
+        4128,
         2872,
         64,
         48
       ],
       "clearanceToBuildingPixels": {
-        "left": 864,
+        "left": 1184,
         "back": 416,
-        "right": 1216,
+        "right": 896,
         "front": 112
       }
     },
     {
-      "object": 62,
+      "object": 41,
       "zone": "office",
       "kind": "red-chair",
-      "x": 3824,
+      "x": 4144,
       "y": 2928,
       "width": 48,
       "height": 64,
       "collision": null,
       "clearanceToBuildingPixels": {
-        "left": 880,
+        "left": 1200,
         "back": 480,
-        "right": 1216,
+        "right": 896,
         "front": 48
       }
     },
     {
-      "object": 63,
-      "zone": "office",
-      "kind": "sofa",
-      "x": 3040,
-      "y": 2896,
-      "width": 128,
-      "height": 80,
-      "collision": [
-        3040,
-        2896,
-        128,
-        32
-      ],
-      "clearanceToBuildingPixels": {
-        "left": 96,
-        "back": 448,
-        "right": 1920,
-        "front": 64
-      }
-    },
-    {
-      "object": 64,
+      "object": 42,
       "zone": "office",
       "kind": "cafe",
-      "x": 3200,
-      "y": 2912,
-      "width": 64,
-      "height": 64,
-      "collision": [
-        3200,
-        2920,
-        64,
-        48
-      ],
-      "clearanceToBuildingPixels": {
-        "left": 256,
-        "back": 464,
-        "right": 1824,
-        "front": 64
-      }
-    },
-    {
-      "object": 65,
-      "zone": "office",
-      "kind": "sofa",
-      "x": 3392,
-      "y": 2896,
-      "width": 128,
-      "height": 80,
-      "collision": [
-        3392,
-        2896,
-        128,
-        32
-      ],
-      "clearanceToBuildingPixels": {
-        "left": 448,
-        "back": 448,
-        "right": 1568,
-        "front": 64
-      }
-    },
-    {
-      "object": 66,
-      "zone": "office",
-      "kind": "cafe",
-      "x": 3552,
-      "y": 2912,
-      "width": 64,
-      "height": 64,
-      "collision": [
-        3552,
-        2920,
-        64,
-        48
-      ],
-      "clearanceToBuildingPixels": {
-        "left": 608,
-        "back": 464,
-        "right": 1472,
-        "front": 64
-      }
-    },
-    {
-      "object": 67,
-      "zone": "office",
-      "kind": "planter",
-      "x": 2960,
-      "y": 2880,
-      "width": 80,
-      "height": 64,
-      "collision": [
-        2960,
-        2896,
-        80,
-        48
-      ],
-      "clearanceToBuildingPixels": {
-        "left": 16,
-        "back": 432,
-        "right": 2048,
-        "front": 96
-      }
-    },
-    {
-      "object": 68,
-      "zone": "office",
-      "kind": "planter",
-      "x": 4112,
-      "y": 2544,
-      "width": 80,
-      "height": 64,
-      "collision": [
-        4112,
-        2560,
-        80,
-        48
-      ],
-      "clearanceToBuildingPixels": {
-        "left": 1168,
-        "back": 96,
-        "right": 896,
-        "front": 432
-      }
-    },
-    {
-      "object": 69,
-      "zone": "office",
-      "kind": "planter",
-      "x": 4112,
+      "x": 4160,
       "y": 2736,
-      "width": 80,
+      "width": 64,
       "height": 64,
       "collision": [
-        4112,
-        2752,
-        80,
+        4160,
+        2744,
+        64,
         48
       ],
       "clearanceToBuildingPixels": {
-        "left": 1168,
+        "left": 1216,
         "back": 288,
-        "right": 896,
+        "right": 864,
         "front": 240
       }
     },
     {
-      "object": 70,
+      "object": 43,
+      "zone": "office",
+      "kind": "planter",
+      "x": 4240,
+      "y": 2560,
+      "width": 80,
+      "height": 64,
+      "collision": [
+        4240,
+        2576,
+        80,
+        48
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1296,
+        "back": 112,
+        "right": 768,
+        "front": 416
+      }
+    },
+    {
+      "object": 44,
       "zone": "office",
       "kind": "planter",
       "x": 4992,
-      "y": 2816,
+      "y": 2656,
       "width": 80,
       "height": 64,
       "collision": [
         4992,
-        2832,
+        2672,
         80,
         48
       ],
       "clearanceToBuildingPixels": {
         "left": 2048,
-        "back": 368,
+        "back": 208,
         "right": 16,
-        "front": 160
+        "front": 320
       }
     }
   ],
-  "minimumSofaFrontClearance": 64
+  "minimumSofaFrontClearance": 400
 }

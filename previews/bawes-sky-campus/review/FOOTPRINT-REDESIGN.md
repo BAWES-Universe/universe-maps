@@ -1,3 +1,5 @@
+> Historical footprint checkpoint. The later [composition pass](COMPOSITION-PASS.md) supersedes its furnishing counts and no-steam statement.
+
 # Footprint correction and furnished interior — 2026-10-18
 
 The previous candidate was rejected for extending interior space outside the building and for a sparse, flat interior. This report supersedes prior visual-readiness reports. Owner acceptance is still required.

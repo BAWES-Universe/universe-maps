@@ -1,4 +1,6 @@
-# BAWES sky campus — isolated review candidate
+# BAWES sky campus — interior redo pending review
+
+The furnished interior is rejected and frozen. See [the fresh proposal and asset brief](review/INTERIOR-REDO-BRIEF.md). Only popup removal is implemented in this checkpoint; the spatial study is not finished art or an integrated layout.
 
 This candidate follows the approved sky-island concept retrieved from backup/bawes-build-transfer-2026-10-17 (96b79b7). It is a new map on feat/bawes-sky-campus; existing maps and the older rejected glass-campus preview are unchanged. No Azure resources or production deployment are involved.
 
@@ -28,4 +30,4 @@ The script uses local map variables; the local development server explicitly dis
 
 Scenery extends beyond all walkable sides. The engine's unrestricted Explore camera can pan outside any finite map; padding cannot guarantee scenery for arbitrary pan or zoom. Measured supported-view results are recorded separately under `review/` rather than claiming an engine-wide guarantee.
 
-The rear exit and external service floor were removed because they extended into sky behind the building. Existing plaza paving connects the front threshold to outdoor spawn. Reception retains a proximity glow. At the adjacent beverage table, the explicit “Brew a warm drink” action displays three small procedural steam frames for five seconds; it stops on departure or movement and is suppressed by reduced-motion preference. Existing map-layer visibility and the existing action-message API implement the effect. No reusable smoke artwork was found, so the tiny translucent strokes are authored in the map compiler without paid assets or image-generation calls. Entrance leaves use three intermediate map-layer positions; timing is stepped and may be slowed by browser iframe timer throttling.
+The rear exit and external service floor were removed because they extended into sky behind the building. Existing plaza paving connects the front threshold to outdoor spawn. The beverage prompt and its prompt-dependent steam trigger are removed, with no replacement popup or control. Existing native movement and courtesy-lock controls remain. Gate appearance and behavior are unchanged; its stepped motion remains a known limitation.

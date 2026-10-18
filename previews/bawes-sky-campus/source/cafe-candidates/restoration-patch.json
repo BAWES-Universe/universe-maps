@@ -1,13 +1,13 @@
 {
   "candidateCommit": "03de3b07f061d7fbbbb23cf90778e72914b14414",
-  "status": "source preparation; not integrated",
+  "status": "implemented with hand-traced registered masks; see review/cafe-registration.json",
   "groundCandidateWholePlateRejected": true,
   "preserve": "existing pond, waterfall, cliff, bar, bridge and stone connection coordinates",
   "usableTimberSampleCandidateBox": [
-    260,
-    455,
-    620,
-    515
+    480,
+    460,
+    820,
+    500
   ],
   "requiredRegisteredPatch": {
     "source": "campus-site-cutout.png",
@@ -40,5 +40,7 @@
     ],
     "output": "separate current central lamp/planter, front balustrade and foliage occluders; preserve their positions and antialiased boundary"
   },
-  "forbidden": "replace whole generated district, move bridges, nonuniformly stretch candidate or paint timber over foreground objects"
+  "forbidden": "replace whole generated district, move bridges, nonuniformly stretch candidate or paint timber over foreground objects",
+  "registeredDeckMask": "registered-deck-mask.png",
+  "registeredForegroundMask": "registered-foreground-mask.png"
 }

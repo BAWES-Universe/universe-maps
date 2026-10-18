@@ -13,7 +13,7 @@ async function overview(p,file,factor,cx,cy){await p.getByTestId('map-overview-b
 
 (async()=>{b=await chromium.connectOverCDP('http://localhost:9222');try{
 const p=await client('Outdoor Source Audit');
-for(const group of ['outdoor-lounge','west-review','audience','cafe']){
+for(const group of ['outdoor-lounge','west-review','audience','cafe-lounge','cafe-bar']){
  const seat=layout.seats.find(s=>s.group===group);
  await move(p,seat.x-48,seat.y+48);await pointer(p,seat.x,seat.y,false,'outdoor anchor '+group);
  await p.screenshot({path:root+'/review/outdoor-normal-'+group+'.png'});

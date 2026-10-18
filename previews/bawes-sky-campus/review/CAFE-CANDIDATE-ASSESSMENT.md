@@ -1,4 +1,6 @@
-# Cafe source candidates — bounded preparation
+# Cafe source candidates — historical preparation
+
+Superseded for implementation status by [bounded cafe restoration](CAFE-RESTORATION.md). The candidate geometry warnings below still apply; the implemented reconstruction uses traced current-scene masks rather than the full plate.
 
 Received and inspected commit `03de3b07f061d7fbbbb23cf90778e72914b14414`. Original candidate PNGs and QA are preserved under `source/cafe-candidates`. No island pixels, collision, seats, bar, pond, waterfall or bridge were changed by this preparation.
 

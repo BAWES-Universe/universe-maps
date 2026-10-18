@@ -340,39 +340,63 @@
       "facing": "up"
     },
     {
-      "x": 2360,
-      "y": 4368,
-      "group": "cafe",
+      "x": 2392,
+      "y": 4400,
+      "group": "cafe-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 2440,
+      "y": 4400,
+      "group": "cafe-lounge",
       "facing": "down"
     },
     {
       "x": 2488,
-      "y": 4368,
-      "group": "cafe",
-      "facing": "up"
-    },
-    {
-      "x": 2824,
-      "y": 4368,
-      "group": "cafe",
+      "y": 4400,
+      "group": "cafe-lounge",
       "facing": "down"
     },
     {
-      "x": 2952,
-      "y": 4368,
-      "group": "cafe",
-      "facing": "up"
+      "x": 2968,
+      "y": 4384,
+      "group": "cafe-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 3016,
+      "y": 4384,
+      "group": "cafe-lounge",
+      "facing": "down"
     },
     {
       "x": 3064,
-      "y": 4368,
-      "group": "cafe",
+      "y": 4384,
+      "group": "cafe-lounge",
       "facing": "down"
     },
     {
-      "x": 3192,
-      "y": 4368,
-      "group": "cafe",
+      "x": 2616,
+      "y": 4304,
+      "group": "cafe-bar",
+      "facing": "up"
+    },
+    {
+      "x": 2728,
+      "y": 4288,
+      "group": "cafe-bar",
+      "facing": "up"
+    },
+    {
+      "x": 2840,
+      "y": 4272,
+      "group": "cafe-bar",
+      "facing": "up"
+    },
+    {
+      "x": 2952,
+      "y": 4272,
+      "group": "cafe-bar",
       "facing": "up"
     },
     {
@@ -401,39 +425,39 @@
     },
     {
       "x": 3544,
-      "y": 3184,
+      "y": 3168,
       "group": "outdoor-lounge",
-      "facing": "up"
+      "facing": "down"
     },
     {
-      "x": 3608,
-      "y": 3184,
+      "x": 3592,
+      "y": 3168,
       "group": "outdoor-lounge",
-      "facing": "up"
+      "facing": "down"
     },
     {
       "x": 4376,
-      "y": 3184,
+      "y": 3168,
       "group": "outdoor-lounge",
-      "facing": "up"
+      "facing": "down"
     },
     {
-      "x": 4440,
-      "y": 3184,
+      "x": 4424,
+      "y": 3168,
       "group": "outdoor-lounge",
-      "facing": "up"
+      "facing": "down"
     },
     {
       "x": 5160,
-      "y": 4240,
+      "y": 4224,
       "group": "outdoor-lounge",
-      "facing": "up"
+      "facing": "down"
     },
     {
-      "x": 5224,
-      "y": 4240,
+      "x": 5208,
+      "y": 4224,
       "group": "outdoor-lounge",
-      "facing": "up"
+      "facing": "down"
     }
   ],
   "objects": [
@@ -1207,96 +1231,92 @@
     },
     {
       "zone": "campus",
-      "kind": "cafe",
-      "x": 2384,
-      "y": 4320,
-      "width": 64,
-      "height": 64,
+      "kind": "out-lounge-front",
+      "x": 2352,
+      "y": 4352,
+      "width": 176,
+      "height": 80,
       "collision": [
-        2384,
-        4328,
-        64,
-        48
+        2352,
+        4352,
+        176,
+        16
       ]
     },
     {
       "zone": "campus",
-      "kind": "amber-chair",
-      "x": 2336,
-      "y": 4336,
-      "width": 48,
-      "height": 64,
-      "collision": null
-    },
-    {
-      "zone": "campus",
-      "kind": "red-chair",
-      "x": 2464,
-      "y": 4336,
-      "width": 48,
-      "height": 64,
-      "collision": null
-    },
-    {
-      "zone": "campus",
-      "kind": "cafe",
-      "x": 2848,
-      "y": 4320,
-      "width": 64,
-      "height": 64,
-      "collision": [
-        2848,
-        4328,
-        64,
-        48
-      ]
-    },
-    {
-      "zone": "campus",
-      "kind": "amber-chair",
-      "x": 2800,
-      "y": 4336,
-      "width": 48,
-      "height": 64,
-      "collision": null
-    },
-    {
-      "zone": "campus",
-      "kind": "red-chair",
+      "kind": "out-lounge-front",
       "x": 2928,
       "y": 4336,
-      "width": 48,
-      "height": 64,
-      "collision": null
-    },
-    {
-      "zone": "campus",
-      "kind": "cafe",
-      "x": 3088,
-      "y": 4320,
-      "width": 64,
-      "height": 64,
+      "width": 176,
+      "height": 80,
       "collision": [
-        3088,
-        4328,
-        64,
-        48
+        2928,
+        4336,
+        176,
+        16
       ]
     },
     {
       "zone": "campus",
-      "kind": "amber-chair",
-      "x": 3040,
+      "kind": "out-table-cups",
+      "x": 2544,
+      "y": 4352,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        2544,
+        4368,
+        64,
+        32
+      ]
+    },
+    {
+      "zone": "campus",
+      "kind": "out-table-cups",
+      "x": 2816,
       "y": 4336,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        2816,
+        4352,
+        64,
+        32
+      ]
+    },
+    {
+      "zone": "campus",
+      "kind": "out-stool-front",
+      "x": 2592,
+      "y": 4288,
       "width": 48,
       "height": 64,
       "collision": null
     },
     {
       "zone": "campus",
-      "kind": "red-chair",
-      "x": 3168,
-      "y": 4336,
+      "kind": "out-stool-front",
+      "x": 2704,
+      "y": 4272,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "out-stool-front",
+      "x": 2816,
+      "y": 4256,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "out-stool-front",
+      "x": 2928,
+      "y": 4256,
       "width": 48,
       "height": 64,
       "collision": null
@@ -1367,44 +1387,44 @@
     },
     {
       "zone": "campus",
-      "kind": "sofa",
+      "kind": "out-bench-front",
       "x": 3504,
       "y": 3136,
       "width": 128,
-      "height": 80,
+      "height": 64,
       "collision": [
         3504,
         3136,
         128,
-        32
+        16
       ]
     },
     {
       "zone": "campus",
-      "kind": "sofa",
+      "kind": "out-bench-front",
       "x": 4336,
       "y": 3136,
       "width": 128,
-      "height": 80,
+      "height": 64,
       "collision": [
         4336,
         3136,
         128,
-        32
+        16
       ]
     },
     {
       "zone": "campus",
-      "kind": "sofa",
+      "kind": "out-bench-front",
       "x": 5120,
       "y": 4192,
       "width": 128,
-      "height": 80,
+      "height": 64,
       "collision": [
         5120,
         4192,
         128,
-        32
+        16
       ]
     }
   ],

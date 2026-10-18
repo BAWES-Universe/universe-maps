@@ -24,9 +24,9 @@
   ],
   "exterior": [
     2896,
-    2144,
+    2136,
     2240,
-    960
+    968
   ],
   "spawn": [
     4016,
@@ -499,6 +499,42 @@
       "x": 2248,
       "y": 3312,
       "group": "west-review",
+      "facing": "up"
+    },
+    {
+      "x": 3544,
+      "y": 3264,
+      "group": "outdoor-lounge",
+      "facing": "up"
+    },
+    {
+      "x": 3608,
+      "y": 3264,
+      "group": "outdoor-lounge",
+      "facing": "up"
+    },
+    {
+      "x": 4376,
+      "y": 3264,
+      "group": "outdoor-lounge",
+      "facing": "up"
+    },
+    {
+      "x": 4440,
+      "y": 3264,
+      "group": "outdoor-lounge",
+      "facing": "up"
+    },
+    {
+      "x": 5160,
+      "y": 4240,
+      "group": "outdoor-lounge",
+      "facing": "up"
+    },
+    {
+      "x": 5224,
+      "y": 4240,
+      "group": "outdoor-lounge",
       "facing": "up"
     }
   ],
@@ -1562,6 +1598,45 @@
       "width": 48,
       "height": 64,
       "collision": null
+    },
+    {
+      "kind": "sofa",
+      "x": 3504,
+      "y": 3216,
+      "width": 128,
+      "height": 80,
+      "collision": [
+        3504,
+        3216,
+        128,
+        32
+      ]
+    },
+    {
+      "kind": "sofa",
+      "x": 4336,
+      "y": 3216,
+      "width": 128,
+      "height": 80,
+      "collision": [
+        4336,
+        3216,
+        128,
+        32
+      ]
+    },
+    {
+      "kind": "sofa",
+      "x": 5120,
+      "y": 4192,
+      "width": 128,
+      "height": 80,
+      "collision": [
+        5120,
+        4192,
+        128,
+        32
+      ]
     }
   ],
   "doors": [

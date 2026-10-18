@@ -32,7 +32,7 @@ def image_layer(name,im,x=0,y=0):
  layer(name,data)
 # Original arrangement scaled once. Feather only source sky-edge pixels into overscan scenery.
 sky=Image.open(R/'source/sky-original.png').convert('RGBA').resize((W,H),Image.Resampling.LANCZOS)
-concept=Image.open(R/'source/campus-site-cleaned.png').convert('RGBA').resize((4608,3072),Image.Resampling.LANCZOS)
+concept=Image.open(R/'source/campus-site-final.png').convert('RGBA').resize((4608,3072),Image.Resampling.LANCZOS)
 mask=Image.new('L',concept.size,0);ImageDraw.Draw(mask).rectangle((40,40,4567,3031),fill=255);mask=mask.filter(ImageFilter.GaussianBlur(22));concept.putalpha(mask)
 sky.alpha_composite(concept,(PX,PY))
 # Native paths conservatively track visible stone floors, not cliffs or distant islands.
@@ -132,11 +132,15 @@ for sx,sy,sw,sh in [(685,649,17,37),(778,648,19,39),(620,661,51,36),(812,661,43,
 # Cleared western terrace now receives native furniture instead of painted oversized seating.
 for x,y in [(2416,3088),(2144,3264)]:
  item('cafe',x,y,(x,y+8,64,48));chair(x-32,y+48,'down','west-review');chair(x+96,y+48,'up','west-review')
+# Native benches replace the removed oversized painted seating, away from the entry spine.
+for x,y in [(3504,3216),(4336,3216),(5120,4192)]:
+ item('sofa',x,y,(x,y,128,32))
+ for dx in (40,104):seats.append(dict(x=x+dx,y=y+48,group='outdoor-lounge',facing='up'))
 # One exterior, uniformly scaled and anchored at the actual front threshold.
 original=Image.open(R/'source/office-shell-cleaned.png').convert('RGBA')
 bounds=original.getchannel('A').point(lambda a:255 if a>50 else 0).getbbox()
 original=original.crop(bounds)
-SH=round((original.height*OW/original.width)/16)*16;SY=OH-SH
+SH=round(original.height*OW/original.width);SY=OH-SH
 shell=Image.new('RGBA',(OW,OH));shell.alpha_composite(original.resize((OW,SH),Image.Resampling.LANCZOS),(0,SY))
 sa=np.array(shell);sa[:,:,3]=np.where(sa[:,:,3]>=200,255,np.where(sa[:,:,3]<=4,0,sa[:,:,3]))
 sa[OH-208:OH,1024:1216,3]=0;shell=Image.fromarray(sa)
@@ -147,7 +151,8 @@ for x1,y1,x2,y2 in [(145,370,510,465),(1028,370,1394,465),(630,487,907,630),(145
  y1=SY+(y1-bounds[1])*SH/original.height;y2=SY+(y2-bounds[1])*SH/original.height
  md.rectangle((int(x1),int(y1),int(x2),int(y2)),fill=255)
 window_mask=Image.fromarray(np.where(sa[:,:,3]<100,np.asarray(window_mask),0).astype('uint8'))
-window_room=floor.copy();window_room.alpha_composite(walls)
+window_walls=walls.copy();wall_alpha=window_walls.getchannel('A');ImageDraw.Draw(wall_alpha).rectangle((0,0,OW-1,OH-1),outline=0,width=16);window_walls.putalpha(wall_alpha)
+window_room=floor.copy();window_room.alpha_composite(window_walls)
 for n,x,y in placements:
  if OX<=x<OX+OW and OY<=y<OY+OH:window_room.alpha_composite(sprites[n],(x-OX,y-OY))
 window_room.putalpha(window_mask)

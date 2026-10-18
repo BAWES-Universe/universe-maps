@@ -1,0 +1,44 @@
+{
+  "sourceCommit": "f33898d626b146aec02671e3f0339dabd808230d",
+  "sha256": "113568cb5cfc93911a9a3d48485c2810aac94d32081695cd0a4ef16139f2f29e",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "mode": "RGB",
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "fullyOpaque": true,
+  "targetFootprint": [
+    2944,
+    2448,
+    2144,
+    592
+  ],
+  "nativeWoka": 32,
+  "nativeCollisionBody": [
+    16,
+    16
+  ],
+  "manualApproximateArtEnvelope": [
+    32,
+    52,
+    2142,
+    632
+  ],
+  "envelopeIsNotCollisionCalibration": true,
+  "uniformEnvelopeScaleEstimate": 1.0161137440758294,
+  "sourcePlatesPresent": [
+    "single composite concept"
+  ],
+  "sourcePlatesMissing": [
+    "clean continuous floor and threshold",
+    "complete isolated furniture and independent shadows",
+    "chair front/back/side views and seat masks",
+    "complete wall/glass/door layers with transparent apertures",
+    "foreground occlusion pieces",
+    "clean interior windows and entry without duplicate concept doors"
+  ]
+}

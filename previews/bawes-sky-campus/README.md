@@ -1,6 +1,6 @@
 # BAWES sky campus — interior redo pending review
 
-The furnished interior is rejected and frozen. See [the fresh proposal and asset brief](review/INTERIOR-REDO-BRIEF.md). Only popup removal is implemented in this checkpoint; the spatial study is not finished art or an integrated layout.
+The replacement visual direction is approved and its exact source has been received. See [approved-concept integration requirements](review/APPROVED-CONCEPT-INTEGRATION.md). The opaque concept needs matching source plates before clean gameplay integration; the playable map remains the popup-free checkpoint. The earlier spatial schematic is superseded and will not be implemented.
 
 This candidate follows the approved sky-island concept retrieved from backup/bawes-build-transfer-2026-10-17 (96b79b7). It is a new map on feat/bawes-sky-campus; existing maps and the older rejected glass-campus preview are unchanged. No Azure resources or production deployment are involved.
 

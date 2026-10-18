@@ -18,13 +18,13 @@
       "x": 4024,
       "y": 3192,
       "scale": 1,
-      "zoom": 0.28,
+      "zoom": 0.2,
       "view": {
         "type": 5,
-        "x": 1453,
-        "y": 1413,
-        "width": 5143,
-        "height": 3214
+        "x": 0,
+        "y": 302,
+        "width": 7200,
+        "height": 4500
       },
       "cover": true,
       "layers": {
@@ -76,16 +76,16 @@
   {
     "label": "runtime-full-interior",
     "details": {
-      "x": 3096,
-      "y": 2016,
+      "x": 4024,
+      "y": 2480,
       "scale": 1,
-      "zoom": 0.6,
+      "zoom": 0.46,
       "view": {
         "type": 5,
-        "x": 1896,
-        "y": 1186,
-        "width": 2400,
-        "height": 1500
+        "x": 2459,
+        "y": 1397,
+        "width": 3130,
+        "height": 1957
       },
       "cover": false,
       "layers": {
@@ -159,6 +159,28 @@
         "type": 5,
         "x": 2032,
         "y": 2887,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "native replacement plaza sofa",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 370
+      },
+      "x": 3544,
+      "y": 3264,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3184,
+        "y": 3015,
         "width": 720,
         "height": 450
       },

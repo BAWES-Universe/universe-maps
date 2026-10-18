@@ -9,8 +9,8 @@
       "zoom": 1,
       "view": {
         "type": 5,
-        "x": 3664,
-        "y": 2967,
+        "x": 3576,
+        "y": 2903,
         "width": 720,
         "height": 450
       },
@@ -23,7 +23,7 @@
     "details": {
       "point": {
         "x": 720,
-        "y": 322
+        "y": 370
       },
       "x": 3096,
       "y": 2016,
@@ -32,7 +32,7 @@
       "view": {
         "type": 5,
         "x": 2736,
-        "y": 1791,
+        "y": 1767,
         "width": 720,
         "height": 450
       },
@@ -45,7 +45,7 @@
     "details": {
       "point": {
         "x": 848,
-        "y": 578
+        "y": 626
       },
       "x": 3160,
       "y": 2080,
@@ -54,7 +54,7 @@
       "view": {
         "type": 5,
         "x": 2800,
-        "y": 1855,
+        "y": 1831,
         "width": 720,
         "height": 450
       },
@@ -72,7 +72,7 @@
       "view": {
         "type": 5,
         "x": 3984,
-        "y": 2271,
+        "y": 2247,
         "width": 720,
         "height": 450
       },
@@ -90,7 +90,7 @@
       "view": {
         "type": 5,
         "x": 3888,
-        "y": 2271,
+        "y": 2247,
         "width": 720,
         "height": 450
       },
@@ -108,11 +108,11 @@
       "view": {
         "type": 5,
         "x": 3664,
-        "y": 1375,
+        "y": 1351,
         "width": 720,
         "height": 450
       },
-      "cover": true
+      "cover": false
     }
   },
   {
@@ -126,7 +126,7 @@
       "view": {
         "type": 5,
         "x": 3664,
-        "y": 2959,
+        "y": 2935,
         "width": 720,
         "height": 450
       },
@@ -144,7 +144,7 @@
       "view": {
         "type": 5,
         "x": 2128,
-        "y": 3023,
+        "y": 2999,
         "width": 720,
         "height": 450
       },
@@ -156,13 +156,13 @@
     "pass": true,
     "details": {
       "x": 5752,
-      "y": 3104,
+      "y": 3056,
       "scale": 1,
       "zoom": 1,
       "view": {
         "type": 5,
         "x": 5392,
-        "y": 2879,
+        "y": 2807,
         "width": 720,
         "height": 450
       },
@@ -180,7 +180,7 @@
       "view": {
         "type": 5,
         "x": 5392,
-        "y": 3103,
+        "y": 3079,
         "width": 720,
         "height": 450
       },
@@ -198,7 +198,7 @@
       "view": {
         "type": 5,
         "x": 3648,
-        "y": 4079,
+        "y": 4055,
         "width": 720,
         "height": 450
       },
@@ -216,7 +216,7 @@
       "view": {
         "type": 5,
         "x": 2640,
-        "y": 4079,
+        "y": 4055,
         "width": 720,
         "height": 450
       },
@@ -234,9 +234,85 @@
       "view": {
         "type": 5,
         "x": 5280,
-        "y": 4143,
+        "y": 4119,
         "width": 720,
         "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "desktop camera north",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 4024,
+      "y": 1536,
+      "scale": 1,
+      "zoom": 0.6553600000000003,
+      "view": {
+        "type": 5,
+        "x": 2926,
+        "y": 776,
+        "width": 2197,
+        "height": 1373
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "desktop camera south",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 5688,
+      "y": 4576,
+      "scale": 1,
+      "zoom": 0.6553600000000003,
+      "view": {
+        "type": 5,
+        "x": 4590,
+        "y": 3816,
+        "width": 2197,
+        "height": 1373
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "desktop camera west",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 1960,
+      "y": 3280,
+      "scale": 1,
+      "zoom": 0.6553600000000003,
+      "view": {
+        "type": 5,
+        "x": 862,
+        "y": 2520,
+        "width": 2197,
+        "height": 1373
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "desktop camera east",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 6248,
+      "y": 3312,
+      "scale": 1,
+      "zoom": 0.6553600000000003,
+      "view": {
+        "type": 5,
+        "x": 5150,
+        "y": 2552,
+        "width": 2197,
+        "height": 1373
       },
       "cover": true
     }
@@ -247,7 +323,7 @@
     "details": {
       "point": {
         "x": 215,
-        "y": 386
+        "y": 350
       },
       "x": 3096,
       "y": 2016,
@@ -256,7 +332,7 @@
       "view": {
         "type": 5,
         "x": 2881,
-        "y": 1566,
+        "y": 1545,
         "width": 430,
         "height": 900
       },
@@ -269,7 +345,7 @@
     "details": {
       "point": {
         "x": 279,
-        "y": 514
+        "y": 478
       },
       "x": 3160,
       "y": 2080,
@@ -278,9 +354,85 @@
       "view": {
         "type": 5,
         "x": 2945,
-        "y": 1630,
+        "y": 1666,
         "width": 430,
         "height": 900
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "mobile camera north",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 4024,
+      "y": 1536,
+      "scale": 1,
+      "zoom": 0.32768000000000014,
+      "view": {
+        "type": 5,
+        "x": 3368,
+        "y": 272,
+        "width": 1312,
+        "height": 2747
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "mobile camera south",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 5688,
+      "y": 4576,
+      "scale": 1,
+      "zoom": 0.32768000000000014,
+      "view": {
+        "type": 5,
+        "x": 5032,
+        "y": 3312,
+        "width": 1312,
+        "height": 2747
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "mobile camera west",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 1960,
+      "y": 3280,
+      "scale": 1,
+      "zoom": 0.32768000000000014,
+      "view": {
+        "type": 5,
+        "x": 1304,
+        "y": 2016,
+        "width": 1312,
+        "height": 2747
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "mobile camera east",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 6248,
+      "y": 3312,
+      "scale": 1,
+      "zoom": 0.32768000000000014,
+      "view": {
+        "type": 5,
+        "x": 5592,
+        "y": 2048,
+        "width": 1312,
+        "height": 2747
       },
       "cover": false
     }

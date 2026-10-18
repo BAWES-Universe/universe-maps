@@ -1,7 +1,7 @@
 """Package the native16 review map without the repository's 32px-only optimizer."""
 from pathlib import Path
 import json,zipfile,hashlib
-r=Path(__file__).resolve().parents[1];target=Path('/workspace/bawes-sky-campus-review.zip');m=json.loads((r/'campus.tmj').read_text());files=[r/'campus.tmj',r/'runtime.js',r/'README.md',r/'review/VALIDATION.md',r/'review/REFINEMENT.md',r/'source/runtime/run-local.sh',r/'source/runtime/serve-map.py']+[r/t['image'] for t in m['tilesets']]
+r=Path(__file__).resolve().parents[1];target=Path('/workspace/bawes-sky-campus-review.zip');m=json.loads((r/'campus.tmj').read_text());files=[r/'campus.tmj',r/'runtime.js',r/'README.md',r/'review/VALIDATION.md',r/'review/REFINEMENT.md',r/'review/COMPOSITING.md',r/'review/runtime-campus-exterior.png',r/'review/runtime-full-interior.png',r/'review/runtime-native-interior.png',r/'review/runtime-registered-glass.png',r/'source/runtime/run-local.sh',r/'source/runtime/serve-map.py']+[r/t['image'] for t in m['tilesets']]
 with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  for p in sorted(set(files)):z.write(p,p.relative_to(r))
 with zipfile.ZipFile(target) as z:assert z.testzip() is None

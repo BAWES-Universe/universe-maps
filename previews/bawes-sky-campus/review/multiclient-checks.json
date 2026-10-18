@@ -4,8 +4,8 @@
     "pass": true,
     "details": {
       "locked": true,
-      "owner": "3a186109-882c-4ca1-ae7a-c63e47a1e251",
-      "expiresAt": 1792248210137
+      "owner": "e0cd350b-32fd-4ae0-a113-62cecf9311aa",
+      "expiresAt": 1792309127269
     }
   },
   {
@@ -19,7 +19,7 @@
       "view": {
         "type": 5,
         "x": 3888,
-        "y": 2271,
+        "y": 2247,
         "width": 720,
         "height": 450
       },
@@ -37,7 +37,7 @@
       "view": {
         "type": 5,
         "x": 3888,
-        "y": 2208,
+        "y": 2271,
         "width": 720,
         "height": 450
       },
@@ -54,8 +54,8 @@
       "zoom": 1,
       "view": {
         "type": 5,
-        "x": 3947,
-        "y": 2207,
+        "x": 3896,
+        "y": 2206,
         "width": 720,
         "height": 450
       },
@@ -67,28 +67,28 @@
     "pass": true,
     "details": {
       "inside": {
-        "x": 3096,
-        "y": 3008,
+        "x": 3352,
+        "y": 2960,
         "scale": 1,
         "zoom": 1,
         "view": {
           "type": 5,
-          "x": 2736,
-          "y": 2759,
+          "x": 2992,
+          "y": 2711,
           "width": 720,
           "height": 450
         },
         "cover": false
       },
       "outside": {
-        "x": 3096,
-        "y": 3152,
+        "x": 3352,
+        "y": 3136,
         "scale": 1,
         "zoom": 1,
         "view": {
           "type": 5,
-          "x": 2736,
-          "y": 2903,
+          "x": 2992,
+          "y": 2887,
           "width": 720,
           "height": 450
         },
@@ -101,8 +101,14 @@
     "pass": true,
     "details": [
       {
-        "x": 3096,
-        "y": 3008,
+        "x": 3352,
+        "y": 2960,
+        "visible": true,
+        "alpha": 1
+      },
+      {
+        "x": 3217.252708333117,
+        "y": 3160,
         "visible": true,
         "alpha": 1
       }

@@ -4,7 +4,7 @@ This candidate follows the approved sky-island concept retrieved from backup/baw
 
 The 8192×7168 world uses a 16px tile grid with native 32px Wokas at scale 1. The central office has a 2240×1440 full floor, 16 desks, two review tables, four enclosed meeting rooms, two lounges, a wide central aisle, and separate 192px front/rear entrances. The right wing accommodates shared StudentHub use. The surrounding campus retains the café, stage with 32 audience places, portal garden, bridges and outdoor arrival square. Portal scenery has no invented destination.
 
-Furniture, chair fronts, walls, permanent collision, proximity doors and office cover are distinct layers. The cover hides locally inside when movement stops; nearby doors open during approach and close at rest. This avoids the pinned client replanning an active 16px-grid path for every visibility change. Its lower window band is translucent outside; this is a visibility treatment, not a multi-floor building. Shared meeting locks are courtesy controls in the apps menu, expire after 15 minutes, and always permit an inside occupant to exit. They are not access security or private audio rooms. No spawn audio, quests, unsolicited popups or baked navigation labels are added.
+Furniture, chair fronts, walls, permanent collision, proximity doors and office cover are distinct layers. The cover hides locally inside when movement stops; nearby doors open during approach and close at rest. This avoids the pinned client replanning an active 16px-grid path for every visibility change. Outside, opaque structural artwork surrounds transparent window apertures showing clipped native interior art and live occupants. The full floor and service perimeter appear only in the local cutaway; upper façades do not add navigable storeys. Shared meeting locks are courtesy controls in the apps menu, expire after 15 minutes, and always permit an inside occupant to exit. They are not access security or private audio rooms. No spawn audio, quests, unsolicited popups or baked navigation labels are added.
 
 The standalone ZIP is a runtime review bundle. The editable source, original art, compiler and complete evidence live on `feat/bawes-sky-campus`; authoring commands below refer to that checkout. The isolated Vite configuration explicitly sets the optimizer to 16px and preserves the current Universe client API. The shared root configuration still defaults to 32px; it is unchanged.
 
@@ -20,7 +20,7 @@ For the recorded local engine at `274114560c5ec95fdf8e51e67986a53069f3cf06`, run
 
 From this candidate directory, run `node ../../node_modules/vite/bin/vite.js build --config vite.config.ts`, then `python3 source/validation/optimization.py`. Use the saved Node22 binary if the shell Node version differs. The output is `dist/`; the equivalence check compares every used tile pixel and tile property, layer order and map dimensions. The candidate config changes no engine code or shared tooling. It retains `runtime.js` instead of the optimizer's generic remote-API HTML wrapper.
 
-See `review/REFINEMENT.md` for the follow-up review and exact baseline image links.
+See `review/COMPOSITING.md` for current visual evidence; `REFINEMENT.md` and `COMPOSITING-CHECKPOINT.md` describe earlier checkpoints.
 
 ## Review limits
 

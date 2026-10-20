@@ -1,0 +1,63 @@
+{
+  "avatarScale": 1,
+  "body": {
+    "width": 16,
+    "height": 16,
+    "offset": {
+      "x": 0,
+      "y": 8
+    }
+  },
+  "sprites": [
+    {
+      "width": 32,
+      "height": 32,
+      "frame": [
+        32,
+        32
+      ],
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "scale": [
+        1,
+        1
+      ]
+    }
+  ],
+  "cameraZoom": 1,
+  "artBoundsMethod": "Visual inspection of native-resolution pixel coordinates; bounds approximate within 2px, not screenshots scaled by display.",
+  "before": {
+    "stool": [
+      34,
+      50
+    ],
+    "stageChairVisible": [
+      48,
+      48
+    ],
+    "stageChairSourceCanvas": [
+      48,
+      64
+    ],
+    "nookSofa": [
+      144,
+      60
+    ]
+  },
+  "afterSoFar": {
+    "stool": [
+      28,
+      30
+    ],
+    "stageChairVisible": [
+      36,
+      36
+    ],
+    "cafeSofa": [
+      112,
+      42
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "ready for user visual review; independent review cleared reported concrete defects",
+  "candidateSha256": "51a50718a765ed044ed42866d97af2b0f0bdeb1ffe9994d3a668755972be080b",
+  "candidateRuntimeSha256": "093b1299fbabcb9ae61f4c20a00ccafadcd394c207debc8d511400e69807905b",
+  "runs": {
+    "completion-final/interaction-checks.json": {
+      "passed": 35,
+      "total": 35
+    },
+    "arm-corrected/interaction-checks.json": {
+      "passed": 16,
+      "total": 16
+    },
+    "sofa-final/two-occupant-checks.json": {
+      "passed": 5,
+      "total": 5
+    }
+  },
+  "coverageNote": "Completion run used the preceding broad-mask build; final arm-corrected run verifies both armchairs and representative cafe/nook sofas after mask trimming. Runtime, layout, collision, bridges, gate and visibility unchanged by final trim. Earlier sofa-final run contains40 passing seat checks then a failed nook click during simultaneous paired-client activity; failed record retained.",
+  "independentReview": "independent-review.md",
+  "limitations": [
+    "idle-sprite occupancy, not bent-leg animation",
+    "original distant scenery remains softer",
+    "accepted interior material style retained"
+  ],
+  "deployed": false,
+  "userAccepted": false
+}

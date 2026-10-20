@@ -1,6 +1,6 @@
 # Response to independent visual review of cc62f45
 
-This revision is not visually accepted yet. All corrections remain isolated here; primary campus and engine source are unchanged.
+Independent review now finds this revision ready for user visual review; user acceptance is pending. All corrections remain isolated here; primary campus and engine source are unchanged.
 
 ## Measured scale
 
@@ -35,3 +35,15 @@ The `proportion-final` run passed69/71 checks: stool57 and nook63 were captured 
 Café sofa anchors moved from4336 to4320; nook anchors moved from3248 to3232. Low cushion masks begin10px below sprite center, preserving head/upper torso and concealing lower legs. The80px nook sofa now has two anchors32px apart; the third overlapping capacity claim was removed. No sprite scaling or artificial screenshot pose was applied.
 
 Independent review confirms smaller theater seating with rear-facing occupants and clearer west-bridge balusters. The façade review found no remaining registration tear, floating occupant or cutout gap; material contrast with the accepted interior is stylistic, not an established geometry defect. Sofa/stool visual acceptance remains pending.
+
+## Armchair and completion follow-up
+
+Milestone `fa1795a` saved/pushed the corrected sofa anchors and two-seat nook. Independent review accepted café sofa, stool57 and the two-person nook as credible stylized occupancy. `sofa-final/two-occupant-checks.json` passed5/5 with both32px sprites separated32px. The concurrent single-client run stopped at nook63 without moving; other test occupants were present at the time. This suspected test interference is being isolated by the sequential `completion-final` run. Earlier40 seat checks passed, including all four stools.
+
+Both armchairs moved inward16px and upward16px onto their cushions. Initial `completion-final` arm captures exposed a broad sofa foreground rectangle overlapping the nearer armchair head. Sofa depth masks were then trimmed to6px at the cushion edge (nook8px); armchair masks begin10px below their own centers. `arm-corrected` is the authoritative armchair retest; `completion-final` arm captures retain the rejected broad-mask state.
+
+## Completed result
+
+Final `completion-final` passed35/35 checks; `arm-corrected` passed16/16 after the mask trim; paired nook test passed5/5. Failed and superseded intermediate records remain clearly labeled. See `proportion-summary.json` for final asset hashes and exact coverage across builds. Static validation confirms unchanged accepted interior/gate/spawn layers, unchanged exterior alpha and bounded564-cell collision edits.
+
+Independent reviewer’s final verdict: ready for user visual review. Reported scale, pasted-platform, occupied-seat and west-bridge defects are materially resolved; current overview has no obvious panel seam or detached platform. No further high-priority recoverable geometry or registration defect was found. Remaining limitations are the native idle-sprite sitting approximation, softer distant scenery and the accepted interior’s quieter material style. No merge, deployment, engine change or Library upload occurred.

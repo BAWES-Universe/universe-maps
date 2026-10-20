@@ -1,4 +1,4 @@
-> Status: cc62f45 failed independent visual review. The proportion/facing correction is documented in `proportion-revision.md`; latest evidence is under `sofa-final/`; `proportion-final/` retains the previous failed run. Earlier `whole-map/` screenshots are historical. No final visual acceptance is claimed.
+> Status: cc62f45 failed independent visual review. The proportion/facing correction is documented in `proportion-revision.md`; latest evidence is under `arm-corrected/`, `completion-final/` and `sofa-final/`; rejected intermediate runs are retained. Earlier `whole-map/` screenshots are historical. Independent review now finds the corrected candidate ready for user visual review; user acceptance is pending.
 
 # Native outdoor campus candidate
 
@@ -26,6 +26,8 @@ Earlier café records are retained: `bar-corrected-checks.json` passed 18/18 aft
 
 Rebuild with `python build-candidate.py`, verify with `python verify-candidate.py`, and capture the assembled native map with `python export-candidate.py gameplay-map-native.png 1664 2048 4864 3712`. Overview images are downscaled for review only. Gameplay scripts use the local pinned Universe client and Chromium CDP on port 9222.
 
-Current review: independent reviewer confirms improved theater occupants, café sofa registration, west-bridge structure and continuous façade transition. Latest stool/conservatory captures are pending. Historical `whole-map/final-summary.json` describes the earlier candidate, not current acceptance. No user approval or deployment is claimed.
+Current review: independent reviewer confirms improved theater occupants, café sofa registration, west-bridge structure and continuous façade transition. The stool and paired conservatory captures also passed independent review. Both armchairs also passed independent visual review after trimming the overlapping sofa mask. See `independent-review.md` for findings and the idle-sprite limitation. Historical `whole-map/final-summary.json` describes the earlier candidate, not current acceptance. No user approval or deployment is claimed.
 
 The existing draft PR branch received the implementation milestone `efcfcc8`. GitHub GraphQL and REST metadata lookups returned Forbidden in this environment; branch pushes succeeded. No PR title/body update was attempted after those lookup failures.
+
+Final validation:35/35 completion checks,16/16 post-trim seating checks and5/5 paired-occupant checks. See `proportion-summary.json` for exact build coverage and final hashes.

@@ -671,5 +671,56 @@
     },
     "direction": 0,
     "cover": true
+  },
+  {
+    "name": "exit 60",
+    "pass": true,
+    "x": 2872,
+    "y": 4304,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2512,
+      "y": 4079,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": true
+  },
+  {
+    "name": "approach 63",
+    "pass": true,
+    "x": 2248,
+    "y": 3264,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 1888,
+      "y": 3039,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 3,
+    "cover": true
+  },
+  {
+    "name": "seat 63 conservatory-lounge",
+    "pass": false,
+    "x": 2248,
+    "y": 3264,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 1888,
+      "y": 3039,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 3,
+    "cover": true
   }
 ]

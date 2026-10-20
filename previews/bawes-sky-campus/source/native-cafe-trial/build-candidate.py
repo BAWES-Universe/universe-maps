@@ -48,7 +48,7 @@ for box in [(2304,4256,3152,4416),(2512,4176,2944,4272),(1968,3136,2352,3344),(5
  fg.paste(0,(box[0]-X,box[1]-Y,box[2]-X,box[3]-Y))
 for cx in [584,680,792,888]:fg.paste(255,(1984+cx-14-X,3712+506-Y,1984+cx+14-X,3712+526-Y))
 # Low sofa fronts, below heads and upper torsos.
-for bx,by,bw,bh in [(2352,4350,112,6),(2960,4350,112,6),(2100,3260,80,4)]:fg.paste(255,(bx-X,by-Y,bx+bw-X,by+bh-Y))
+for bx,by,bw,bh in [(2352,4330,112,26),(2960,4330,112,26),(2100,3242,80,22)]:fg.paste(255,(bx-X,by-Y,bx+bw-X,by+bh-Y))
 # Rear-facing theater chairs: head/shoulders rise above their low back.
 for row,top in enumerate([232,292,354,416]):
  for cx in [536,600,664,728,888,952,1016,1080]:
@@ -79,7 +79,9 @@ for seat,cx in zip([s for s in layout['seats'] if s['group']=='cafe-bar'],[584,6
 for seat in layout['seats']:
  if seat['group']=='audience':seat['y']-=16
  if seat['group']=='cafe-bar':seat['y']=4208
-for i,x,y,facing in [(51,2392,4336,'down'),(52,2424,4336,'down'),(53,3000,4336,'down'),(54,3032,4336,'down'),(55,2344,4368,'right'),(56,3080,4368,'left'),(63,2120,3248,'down'),(64,2136,3248,'down'),(65,2152,3248,'down')]:layout['seats'][i].update(x=x,y=y,facing=facing)
+for i,x,y,facing in [(51,2392,4320,'down'),(52,2424,4320,'down'),(53,3000,4320,'down'),(54,3032,4320,'down'),(55,2344,4368,'right'),(56,3080,4368,'left'),(63,2120,3232,'down'),(64,2152,3232,'down'),(65,2152,3232,'down')]:layout['seats'][i].update(x=x,y=y,facing=facing)
+# The native 80px nook sofa supports two 32px sprites without overlap.
+del layout['seats'][65]
 # Clear vacated old table supports and register the new low table footprints.
 furniture_rects=[(2320,4288,208,128),(2944,4288,208,128),(2048,3200,192,144)]
 for bx,by,bw,bh in furniture_rects:

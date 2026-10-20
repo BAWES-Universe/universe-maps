@@ -58,6 +58,16 @@
     "cafeSofa": [
       112,
       42
+    ],
+    "nookSofa": [
+      80,
+      32
+    ],
+    "nookTable": [
+      26,
+      22
     ]
-  }
+  },
+  "actualPositionsFile": "candidate-layout.json",
+  "spriteOriginImplication": "Player y is sprite center, not feet; visible frame extends16px above and below. Depth masks must account for this."
 }

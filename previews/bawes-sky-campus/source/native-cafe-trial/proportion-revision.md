@@ -23,3 +23,15 @@ New foreground masks place upper bodies above the smaller rear theater backs and
 ## Validation in progress
 
 `proportion-review/` holds new captures and checks. Prior `whole-map/` results belong to cc62f45 and must not be substituted for this revision. Independent screenshot review is required after the run.
+
+The first runtime attempt failed to initialize seat behavior because a relative JSON fetch resolved against the client script iframe. The fix embeds seat coordinates in the generated candidate runtime. The next run passed70/71 checks; the side-chair56 arrival landed16px from its nominal anchor and escaped the initial12px facing trigger. The revised side-chair trigger accounts for that offset and uses a32px lateral approach. The final run writes `proportion-final/`. Sofa masks were also lowered to keep heads and torsos visible; older `proportion-review/` captures show the superseded masks.
+
+Implementation/source milestone584c781 was pushed to the existing draft branch.
+
+## Follow-up registration correction
+
+The `proportion-final` run passed69/71 checks: stool57 and nook63 were captured at intermediate approach positions with incorrect facing. These failures are retained. Subsequent `sofa-final` waits longer for chained public moveTo calls before capture and repeats affected interactions.
+
+Café sofa anchors moved from4336 to4320; nook anchors moved from3248 to3232. Low cushion masks begin10px below sprite center, preserving head/upper torso and concealing lower legs. The80px nook sofa now has two anchors32px apart; the third overlapping capacity claim was removed. No sprite scaling or artificial screenshot pose was applied.
+
+Independent review confirms smaller theater seating with rear-facing occupants and clearer west-bridge balusters. The façade review found no remaining registration tear, floating occupant or cutout gap; material contrast with the accepted interior is stylistic, not an established geometry defect. Sofa/stool visual acceptance remains pending.

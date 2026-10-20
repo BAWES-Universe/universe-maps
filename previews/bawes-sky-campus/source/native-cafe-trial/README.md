@@ -1,3 +1,5 @@
+> Status: cc62f45 failed independent visual review. The proportion/facing correction is documented in `proportion-revision.md`; latest evidence is under `sofa-final/`; `proportion-final/` retains the previous failed run. Earlier `whole-map/` screenshots are historical. No final visual acceptance is claimed.
+
 # Native outdoor campus candidate
 
 This isolated playable candidate restores the whole outdoor campus at native world-pixel resolution. It preserves the approved island arrangement, accepted office interior, gate, spawn and original runtime. The primary campus map and separate tower worktree are unchanged. No deployment or merge has occurred.
@@ -16,14 +18,14 @@ Opaque exterior artwork is restored while every original exterior alpha value is
 
 ## Validation and limits
 
-`static-checks.json` verifies local asset references, tileset dimensions, valid tile IDs, unchanged original layers and bounded collision changes. The 513 changed collision cells are within the counter approach, conservatory recess/entry and two upper bridge railing strips and eastern lamp plinth. The bridge strips previously allowed the avatar onto painted balustrades; the clear floor route now passes above them.
+`static-checks.json` verifies local asset references, tileset dimensions, valid tile IDs, unchanged original layers and bounded collision changes. The 564 changed collision cells are within the counter approach, conservatory recess/entry and two upper bridge railing strips and eastern lamp plinth, plus corrected furniture footprints. The bridge strips previously allowed the avatar onto painted balustrades; the clear floor route now passes above them.
 
 `whole-map/` contains ten gameplay region captures at camera zoom 1 and avatar scale 1. Those initial captures established reachability of all regions and office entry. The subsequent interaction run checks selected right-click seats, exits, corrected bridge routes, gate entry and two-client occupant visibility. It passed 32/32 checks before the final façade-strip/lamp-depth correction. The shorter final join run rechecks those affected routes, gate and two-client visibility. Results are recorded separately.
 
-Earlier café records are retained: `bar-corrected-checks.json` passed 18/18 after the counter/mask correction; `runtime-checks.json` passed 36/36 on an intermediate café build. These do not establish whole-map acceptance. No sitting animation or automatic facing was added.
+Earlier café records are retained: `bar-corrected-checks.json` passed 18/18 after the counter/mask correction; `runtime-checks.json` passed 36/36 on an intermediate café build. These do not establish whole-map acceptance. No sitting animation was added. The later candidate-only seating runtime adds a directional approach using public movement events/moveTo.
 
 Rebuild with `python build-candidate.py`, verify with `python verify-candidate.py`, and capture the assembled native map with `python export-candidate.py gameplay-map-native.png 1664 2048 4864 3712`. Overview images are downscaled for review only. Gameplay scripts use the local pinned Universe client and Chromium CDP on port 9222.
 
-Current review: assembled sky seams corrected; ready for review: refreshed ten-region traversal completed; final 8/8 bridge, gate and two-client checks passed; corrected façade strip and occupant view visually inspected. See `whole-map/final-summary.json` for the tested candidate hash. Do not describe this as user-approved or deployed.
+Current review: independent reviewer confirms improved theater occupants, café sofa registration, west-bridge structure and continuous façade transition. Latest stool/conservatory captures are pending. Historical `whole-map/final-summary.json` describes the earlier candidate, not current acceptance. No user approval or deployment is claimed.
 
 The existing draft PR branch received the implementation milestone `efcfcc8`. GitHub GraphQL and REST metadata lookups returned Forbidden in this environment; branch pushes succeeded. No PR title/body update was attempted after those lookup failures.

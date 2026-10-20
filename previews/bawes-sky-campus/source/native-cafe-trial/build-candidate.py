@@ -6,7 +6,7 @@ P=Path(__file__).resolve().parent; R=P.parents[1]; O=P/'playable';O.mkdir(exist_
 m=json.loads((R/'campus.tmj').read_text()); base=copy.deepcopy(m)
 X,Y,W,H=1984,3712,2816,1792
 canvas=Image.new('RGBA',(W,H))
-canvas.alpha_composite(Image.open(P/'restored-native.png').convert('RGBA'))
+canvas.alpha_composite(Image.open(P/'counter-floor-edit-2.png').convert('RGBA'))
 canvas.alpha_composite(Image.open(P/'east-restored-native.png').convert('RGBA').crop((128,0,1536,1024)),(1408,0))
 canvas.alpha_composite(Image.open(P/'south-restored-native.png').convert('RGBA').crop((0,128,1536,1024)),(0,896))
 # Hard registered joins, no resizing, feathering or detail upscaling.
@@ -25,6 +25,17 @@ for layer in m['layers']:
    n=gid-s['firstgid']; sx=s.get('margin',0)+(n%s['columns'])*(16+s.get('spacing',0));sy=s.get('margin',0)+(n//s['columns'])*(16+s.get('spacing',0))
    tile=cache[key].crop((sx,sy,sx+16,sy+16)).getchannel('A');old=np.array(fg.crop((xx,yy,xx+16,yy+16)))
    fg.paste(Image.fromarray(np.maximum(old,np.array(tile))),(xx,yy));layer['data'][k]=0
+# Replace the old stool fronts and register the corrected four native stools.
+for bx,by in [(2592,4288),(2704,4272),(2816,4256),(2928,4256)]:
+ fg.paste(0,(bx-X,by-Y,bx-X+48,by-Y+64))
+for cx in [584,680,792,888]:fg.paste(255,(cx-16,490,cx+16,536))
+# Release only the front-of-counter strip needed by the new visible seat row.
+collision=next(l for l in m['layers'] if l['name']=='persistent-collision')
+for ty in range(4192//16,4272//16):
+ for tx in range(2512//16,2928//16):collision['data'][ty*m['width']+tx]=0
+layout=json.loads((R/'source/layout.json').read_text())
+for seat,cx in zip([s for s in layout['seats'] if s['group']=='cafe-bar'],[584,680,792,888]):seat.update(x=X+cx,y=Y+480,facing='up')
+(P/'candidate-layout.json').write_text(json.dumps(layout,indent=2)+'\n')
 front=canvas.copy();front.putalpha(fg);front.save(P/'foreground-trial.png')
 for s in m['tilesets']:
  if 'image' in s:s['image']='../../../'+s['image']
@@ -48,7 +59,7 @@ def pack(name,im):
  layer=dict(id=nextid,name=name,type='tilelayer',x=0,y=0,width=m['width'],height=m['height'],visible=True,opacity=1,data=data);nextid+=1;return layer
 layer=pack('native-cafe-region',canvas);i=next(i for i,l in enumerate(m['layers']) if l['name']=='floorLayer');m['layers'].insert(i,layer);m['layers'].append(pack('native-cafe-foreground',front));m['nextlayerid']=nextid
 (O/'campus.tmj').write_text(json.dumps(m,separators=(',',':')))
-unchanged={name: next(l for l in base['layers'] if l['name']==name)==next(l for l in m['layers'] if l['name']==name) for name in ['persistent-collision','start','office-cover','office-floor','office-furniture','office-front-door','office-front-leaves']}
+unchanged={name: next(l for l in base['layers'] if l['name']==name)==next(l for l in m['layers'] if l['name']==name) for name in ['start','office-cover','office-floor','office-furniture','office-front-door','office-front-leaves']}
 assert all(unchanged.values())
-(P/'candidate-checks.json').write_text(json.dumps({'nativeScale':1,'resampling':False,'worldOrigin':[X,Y],'regionSize':[W,H],'horizontalJoinWorldX':3392,'verticalJoinWorldY':4608,'unchangedLayers':unchanged,'baseMapSha256':hashlib.sha256((R/'campus.tmj').read_bytes()).hexdigest(),'runtimeSha256':hashlib.sha256((R/'runtime.js').read_bytes()).hexdigest(),'foreground':'existing masks reused against new art; runtime visual review required','status':'bounded trial; outer coverage unfinished'},indent=2)+'\n')
-print('Candidate built; collision, spawn, accepted office and gate layers unchanged.')
+(P/'candidate-checks.json').write_text(json.dumps({'nativeScale':1,'resampling':False,'worldOrigin':[X,Y],'regionSize':[W,H],'horizontalJoinWorldX':3392,'verticalJoinWorldY':4608,'unchangedLayers':unchanged,'baseMapSha256':hashlib.sha256((R/'campus.tmj').read_bytes()).hexdigest(),'runtimeSha256':hashlib.sha256((R/'runtime.js').read_bytes()).hexdigest(),'foreground':'lounge masks retained; moved stool fronts registered at native anchors; runtime visual review required','collisionEditRect':[2512,4192,416,80],'status':'bounded trial; outer coverage unfinished'},indent=2)+'\n')
+print('Candidate built; counter-front clearance updated; spawn, accepted office and gate unchanged.')

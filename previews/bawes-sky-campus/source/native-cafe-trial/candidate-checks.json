@@ -12,7 +12,6 @@
   "horizontalJoinWorldX": 3392,
   "verticalJoinWorldY": 4608,
   "unchangedLayers": {
-    "persistent-collision": true,
     "start": true,
     "office-cover": true,
     "office-floor": true,
@@ -22,6 +21,12 @@
   },
   "baseMapSha256": "1676fdab39d82db82b8d6dc1294720806faaddb63196d93a0a4f142ed1b95a74",
   "runtimeSha256": "d365843d861cf2b38452ba55660c2177d7820bf8fc2690cf326ce308cfe0dc7a",
-  "foreground": "existing masks reused against new art; runtime visual review required",
+  "foreground": "lounge masks retained; moved stool fronts registered at native anchors; runtime visual review required",
+  "collisionEditRect": [
+    2512,
+    4192,
+    416,
+    80
+  ],
   "status": "bounded trial; outer coverage unfinished"
 }

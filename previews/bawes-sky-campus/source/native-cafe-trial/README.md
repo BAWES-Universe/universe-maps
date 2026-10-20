@@ -24,3 +24,13 @@ The first click test failed because the leftmost seat was outside the viewport, 
 The main scene is visibly clearer at normal gameplay scale, and both inspected internal joins are continuous. However, the inherited counter remains too large relative to a 32px Woka and the stools remain separated from it. Rectangular timber variations/ghost contours are still visible in the floor. Furniture/foreground registration is provisional, including seat facing on arrival. The outer edges still meet unreworked scenery; upper-left conservatory and other campus regions are not corrected. No whole-map visual acceptance is claimed from the 36 functional checks.
 
 Next: correct the counter and stool relationship and floor artifacts within this complete native region, then inspect actual seated/standing views and masks. Extend only after that visual proof, using the same fixed shared coordinates and native panel approach. Preserve accepted office, gate, island arrangement and clear routes. No paid services, engine changes, merge or deployment.
+
+## Counter/floor correction milestone
+
+The candidate now uses `counter-floor-edit-2.png`: a compact horizontal bar, four stools close to its front and a continuous timber deck without the former rectangular ghost patches. The first edit reduced the bar but moved stools unevenly; the second used a horizontal counter and evenly spaced row. The generator did not obey every requested coordinate, so actual painted anchors were measured and registered instead of claiming exact prompt compliance.
+
+The four bar anchors are now in `candidate-layout.json`. Only the front-of-counter collision strip [2512,4192,416,80] is released to match visible floor; all other original collision cells, accepted interior, gate and spawn remain unchanged. A first foreground placement hid too much of the Woka. The final mask/anchor adjustment keeps the head and upper torso visible, demonstrated by `runtime-seat-57.png` through `runtime-seat-60.png`. It does not add a sitting animation or automatic facing.
+
+The corrected counter passed a fresh 18/18 approach, right-click seating, exit and return-route check in `bar-corrected-checks.json`. The earlier 36-check record belongs to the intermediate correction before the final mask adjustment, and is not final visual acceptance. `runtime-cafe.png` and the final bar captures were inspected. The primary campus map is still untouched.
+
+Two native conservatory panels have also been generated and inspected as sources. They replace the pasted oval with a continuous stone recess and restore the roof at native resolution. They are not yet integrated or gameplay-validated at this milestone. Broader front-plaza, stage and portal correction work is in progress.

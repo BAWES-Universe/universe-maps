@@ -1,0 +1,50 @@
+[
+  {
+    "name": "facade-left",
+    "method": "camera-only exterior inspection at zoom1",
+    "x": 4024,
+    "y": 3264,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2960,
+      "y": 2415,
+      "width": 720,
+      "height": 450
+    },
+    "cover": true
+  },
+  {
+    "name": "tower",
+    "method": "camera-only exterior inspection at zoom1",
+    "x": 4024,
+    "y": 3264,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3656,
+      "y": 2239,
+      "width": 720,
+      "height": 450
+    },
+    "cover": true
+  },
+  {
+    "name": "facade-right",
+    "method": "camera-only exterior inspection at zoom1",
+    "x": 4024,
+    "y": 3264,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4400,
+      "y": 2415,
+      "width": 720,
+      "height": 450
+    },
+    "cover": true
+  }
+]

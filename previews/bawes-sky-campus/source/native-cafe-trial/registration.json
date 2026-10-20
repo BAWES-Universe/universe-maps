@@ -1,0 +1,46 @@
+{
+  "base": "851a243dfe31a1ffe4a18adbb9775b3d97c97fa2",
+  "worldBounds": [
+    1984,
+    3712,
+    1536,
+    1024
+  ],
+  "pixelScale": 1,
+  "sharedEastBridge": {
+    "worldRect": [
+      3280,
+      4240,
+      240,
+      160
+    ],
+    "candidateRect": [
+      1296,
+      528,
+      240,
+      160
+    ]
+  },
+  "southOverlapForNextPanel": {
+    "worldRect": [
+      1984,
+      4480,
+      1536,
+      256
+    ],
+    "candidateRect": [
+      0,
+      768,
+      1536,
+      256
+    ]
+  },
+  "furnitureTargets": {
+    "woka": 32,
+    "sofaWidth": 144,
+    "tableWidth": 64,
+    "chairWidth": 48,
+    "stoolWidth": 32
+  },
+  "status": "reference export; no candidate integration"
+}

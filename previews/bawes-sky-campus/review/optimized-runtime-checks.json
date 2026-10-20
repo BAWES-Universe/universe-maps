@@ -1,0 +1,163 @@
+[
+  {
+    "label": "optimized native spawn",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 3192,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3664,
+        "y": 2967,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "optimized chair",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 322
+      },
+      "x": 3096,
+      "y": 2016,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2736,
+        "y": 1791,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "optimized chair exit",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 848,
+        "y": 578
+      },
+      "x": 3160,
+      "y": 2080,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2800,
+        "y": 1855,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "optimized meeting entrance",
+    "pass": true,
+    "details": {
+      "x": 4344,
+      "y": 2496,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3984,
+        "y": 2271,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "meeting lock actual menu control",
+    "pass": true,
+    "details": {
+      "locked": true,
+      "owner": "ba5d418f-8861-4f85-876b-5311202d4c8c",
+      "expiresAt": 1792249353200
+    }
+  },
+  {
+    "label": "optimized locked room safe exit",
+    "pass": true,
+    "details": {
+      "x": 4248,
+      "y": 2496,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3888,
+        "y": 2271,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "optimized rear exit",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 1600,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3664,
+        "y": 1375,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "clear western promenade",
+    "pass": true,
+    "details": {
+      "x": 2488,
+      "y": 3248,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2128,
+        "y": 3023,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "painted western lounge blocks walking",
+    "pass": true,
+    "details": {
+      "x": 2424,
+      "y": 3248,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2064,
+        "y": 3023,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "label": "exterior hides full floor and office furniture",
+    "pass": true,
+    "details": {
+      "office-window-interior": true,
+      "office-floor": false,
+      "office-walls": false,
+      "campus-furniture": true,
+      "office-furniture": false,
+      "office-chair-fronts": false,
+      "office-cover": true
+    }
+  },
+  {
+    "label": "runtime-campus-exterior",
+    "details": {
+      "x": 4024,
+      "y": 3192,
+      "scale": 1,
+      "zoom": 0.2,
+      "view": {
+        "type": 5,
+        "x": 30,
+        "y": 522,
+        "width": 7200,
+        "height": 4500
+      },
+      "cover": true,
+      "layers": {
+        "office-window-interior": true,
+        "office-floor": false,
+        "office-walls": false,
+        "campus-furniture": true,
+        "office-furniture": false,
+        "office-chair-fronts": false,
+        "office-cover": true
+      }
+    }
+  },
+  {
+    "label": "unchanged native chair",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 370
+      },
+      "x": 3096,
+      "y": 2016,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2736,
+        "y": 1767,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "cutaway reveals complete native interior",
+    "pass": true,
+    "details": {
+      "office-window-interior": false,
+      "office-floor": true,
+      "office-walls": true,
+      "campus-furniture": true,
+      "office-furniture": true,
+      "office-chair-fronts": true,
+      "office-cover": false
+    }
+  },
+  {
+    "label": "runtime-full-interior",
+    "details": {
+      "x": 4024,
+      "y": 2480,
+      "scale": 1,
+      "zoom": 0.46,
+      "view": {
+        "type": 5,
+        "x": 2459,
+        "y": 1397,
+        "width": 3130,
+        "height": 1957
+      },
+      "cover": false,
+      "layers": {
+        "office-window-interior": false,
+        "office-floor": true,
+        "office-walls": true,
+        "campus-furniture": true,
+        "office-furniture": true,
+        "office-chair-fronts": true,
+        "office-cover": false
+      }
+    }
+  },
+  {
+    "label": "independent exterior remains single facade",
+    "pass": true,
+    "details": {
+      "office-window-interior": true,
+      "office-floor": false,
+      "office-walls": false,
+      "campus-furniture": true,
+      "office-furniture": false,
+      "office-chair-fronts": false,
+      "office-cover": true
+    }
+  },
+  {
+    "label": "exiting restores exterior without full floor",
+    "pass": true,
+    "details": {
+      "office-window-interior": true,
+      "office-floor": false,
+      "office-walls": false,
+      "campus-furniture": true,
+      "office-furniture": false,
+      "office-chair-fronts": false,
+      "office-cover": true
+    }
+  },
+  {
+    "label": "western route after cleanup",
+    "pass": true,
+    "details": {
+      "x": 2488,
+      "y": 3264,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2128,
+        "y": 3015,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "native replacement conservatory chair",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 370
+      },
+      "x": 2392,
+      "y": 3136,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2032,
+        "y": 2887,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "native replacement plaza sofa",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 370
+      },
+      "x": 3544,
+      "y": 3264,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3184,
+        "y": 3015,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  }
+]

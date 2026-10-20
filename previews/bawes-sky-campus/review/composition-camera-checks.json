@@ -1,0 +1,59 @@
+[
+  {
+    "label": "roof comparison identical camera and avatar",
+    "pass": true,
+    "details": {
+      "before": {
+        "x": 4024,
+        "y": 2768,
+        "scale": 1,
+        "zoom": 0.54,
+        "view": {
+          "type": 5,
+          "x": 2691,
+          "y": 1846,
+          "width": 2667,
+          "height": 1667
+        },
+        "cover": false
+      },
+      "after": {
+        "x": 4024,
+        "y": 2768,
+        "scale": 1,
+        "zoom": 0.54,
+        "view": {
+          "type": 5,
+          "x": 2691,
+          "y": 1846,
+          "width": 2667,
+          "height": 1667
+        },
+        "cover": true
+      },
+      "method": "stationary inside player; force only roof/floor visibility through map API for comparison"
+    }
+  },
+  {
+    "label": "native work chair",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 402
+      },
+      "x": 3080,
+      "y": 2656,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2720,
+        "y": 2407,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  }
+]

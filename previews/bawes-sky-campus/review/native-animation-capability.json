@@ -1,0 +1,14 @@
+{
+  "method": "source-level harness using installed phaser-animated-tiles 2.0.2; no engine mutation",
+  "sequence": [
+    1,
+    2,
+    3,
+    1,
+    2
+  ],
+  "loopsAutomatically": true,
+  "resetTileToFirstFrame": 1,
+  "actualIndexAfterUpdateAnimatedTiles": 2,
+  "joinsExistingPhase": true
+}

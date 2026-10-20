@@ -1,0 +1,759 @@
+{
+  "floor": [
+    2944,
+    2448,
+    2144,
+    592
+  ],
+  "exteriorCanvas": [
+    2896,
+    2128,
+    2240,
+    976
+  ],
+  "cutawayEqualsFloor": true,
+  "allInteriorLayerTilesContained": true,
+  "unsafeRearExitRemoved": true,
+  "furniture": [
+    {
+      "object": 0,
+      "zone": "office",
+      "kind": "in-desk-paper",
+      "x": 3024,
+      "y": 2560,
+      "width": 112,
+      "height": 64,
+      "collision": [
+        3024,
+        2576,
+        112,
+        48
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 80,
+        "back": 112,
+        "right": 1952,
+        "front": 416
+      }
+    },
+    {
+      "object": 1,
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 3056,
+      "y": 2624,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 112,
+        "back": 176,
+        "right": 1984,
+        "front": 352
+      }
+    },
+    {
+      "object": 2,
+      "zone": "office",
+      "kind": "in-desk-laptop",
+      "x": 3456,
+      "y": 2560,
+      "width": 112,
+      "height": 64,
+      "collision": [
+        3456,
+        2576,
+        112,
+        48
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 512,
+        "back": 112,
+        "right": 1520,
+        "front": 416
+      }
+    },
+    {
+      "object": 3,
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 3488,
+      "y": 2624,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 544,
+        "back": 176,
+        "right": 1552,
+        "front": 352
+      }
+    },
+    {
+      "object": 4,
+      "zone": "office",
+      "kind": "in-project",
+      "x": 3200,
+      "y": 2656,
+      "width": 160,
+      "height": 96,
+      "collision": [
+        3200,
+        2672,
+        160,
+        64
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 256,
+        "back": 208,
+        "right": 1728,
+        "front": 288
+      }
+    },
+    {
+      "object": 5,
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 3216,
+      "y": 2592,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 272,
+        "back": 144,
+        "right": 1824,
+        "front": 384
+      }
+    },
+    {
+      "object": 6,
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 3216,
+      "y": 2736,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 272,
+        "back": 288,
+        "right": 1824,
+        "front": 240
+      }
+    },
+    {
+      "object": 7,
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 3296,
+      "y": 2592,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 352,
+        "back": 144,
+        "right": 1744,
+        "front": 384
+      }
+    },
+    {
+      "object": 8,
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 3296,
+      "y": 2736,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 352,
+        "back": 288,
+        "right": 1744,
+        "front": 240
+      }
+    },
+    {
+      "object": 9,
+      "zone": "office",
+      "kind": "in-sofa",
+      "x": 3040,
+      "y": 2864,
+      "width": 128,
+      "height": 64,
+      "collision": [
+        3040,
+        2864,
+        128,
+        16
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 96,
+        "back": 416,
+        "right": 1920,
+        "front": 112
+      }
+    },
+    {
+      "object": 10,
+      "zone": "office",
+      "kind": "in-side",
+      "x": 3184,
+      "y": 2864,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        3184,
+        2880,
+        48,
+        32
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 240,
+        "back": 416,
+        "right": 1856,
+        "front": 112
+      }
+    },
+    {
+      "object": 11,
+      "zone": "office",
+      "kind": "in-sofa",
+      "x": 3392,
+      "y": 2864,
+      "width": 128,
+      "height": 64,
+      "collision": [
+        3392,
+        2864,
+        128,
+        16
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 448,
+        "back": 416,
+        "right": 1568,
+        "front": 112
+      }
+    },
+    {
+      "object": 12,
+      "zone": "office",
+      "kind": "in-side",
+      "x": 3536,
+      "y": 2864,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        3536,
+        2880,
+        48,
+        32
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 592,
+        "back": 416,
+        "right": 1504,
+        "front": 112
+      }
+    },
+    {
+      "object": 13,
+      "zone": "office",
+      "kind": "in-reception",
+      "x": 3648,
+      "y": 2512,
+      "width": 256,
+      "height": 240,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 704,
+        "back": 64,
+        "right": 1184,
+        "front": 288
+      }
+    },
+    {
+      "object": 14,
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 3776,
+      "y": 2608,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 832,
+        "back": 160,
+        "right": 1264,
+        "front": 368
+      }
+    },
+    {
+      "object": 15,
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 3904,
+      "y": 2480,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        3904,
+        2544,
+        224,
+        32
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 960,
+        "back": 32,
+        "right": 960,
+        "front": 464
+      }
+    },
+    {
+      "object": 16,
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 3024,
+      "y": 2464,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        3024,
+        2512,
+        224,
+        32
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 80,
+        "back": 16,
+        "right": 1840,
+        "front": 480
+      }
+    },
+    {
+      "object": 17,
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 3392,
+      "y": 2464,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        3392,
+        2512,
+        224,
+        32
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 448,
+        "back": 16,
+        "right": 1472,
+        "front": 480
+      }
+    },
+    {
+      "object": 18,
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 4400,
+      "y": 2464,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        4400,
+        2512,
+        224,
+        32
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1456,
+        "back": 16,
+        "right": 464,
+        "front": 480
+      }
+    },
+    {
+      "object": 19,
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 4800,
+      "y": 2464,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        4800,
+        2512,
+        224,
+        32
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1856,
+        "back": 16,
+        "right": 64,
+        "front": 480
+      }
+    },
+    {
+      "object": 20,
+      "zone": "office",
+      "kind": "in-meeting",
+      "x": 4416,
+      "y": 2672,
+      "width": 144,
+      "height": 96,
+      "collision": [
+        4416,
+        2688,
+        144,
+        64
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1472,
+        "back": 224,
+        "right": 528,
+        "front": 272
+      }
+    },
+    {
+      "object": 21,
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 4432,
+      "y": 2608,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 1488,
+        "back": 160,
+        "right": 608,
+        "front": 368
+      }
+    },
+    {
+      "object": 22,
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 4432,
+      "y": 2736,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 1488,
+        "back": 288,
+        "right": 608,
+        "front": 240
+      }
+    },
+    {
+      "object": 23,
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 4512,
+      "y": 2608,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 1568,
+        "back": 160,
+        "right": 528,
+        "front": 368
+      }
+    },
+    {
+      "object": 24,
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 4512,
+      "y": 2736,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 1568,
+        "back": 288,
+        "right": 528,
+        "front": 240
+      }
+    },
+    {
+      "object": 25,
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4368,
+      "y": 2560,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4368,
+        2608,
+        48,
+        16
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1424,
+        "back": 112,
+        "right": 672,
+        "front": 416
+      }
+    },
+    {
+      "object": 26,
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4352,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4352,
+        2864,
+        48,
+        16
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1408,
+        "back": 368,
+        "right": 688,
+        "front": 160
+      }
+    },
+    {
+      "object": 27,
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4576,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4576,
+        2864,
+        48,
+        16
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1632,
+        "back": 368,
+        "right": 464,
+        "front": 160
+      }
+    },
+    {
+      "object": 28,
+      "zone": "office",
+      "kind": "in-meeting",
+      "x": 4816,
+      "y": 2672,
+      "width": 144,
+      "height": 96,
+      "collision": [
+        4816,
+        2688,
+        144,
+        64
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1872,
+        "back": 224,
+        "right": 128,
+        "front": 272
+      }
+    },
+    {
+      "object": 29,
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 4832,
+      "y": 2608,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 1888,
+        "back": 160,
+        "right": 208,
+        "front": 368
+      }
+    },
+    {
+      "object": 30,
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 4832,
+      "y": 2736,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 1888,
+        "back": 288,
+        "right": 208,
+        "front": 240
+      }
+    },
+    {
+      "object": 31,
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 4912,
+      "y": 2608,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 1968,
+        "back": 160,
+        "right": 128,
+        "front": 368
+      }
+    },
+    {
+      "object": 32,
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 4912,
+      "y": 2736,
+      "width": 48,
+      "height": 64,
+      "collision": null,
+      "clearanceToBuildingPixels": {
+        "left": 1968,
+        "back": 288,
+        "right": 128,
+        "front": 240
+      }
+    },
+    {
+      "object": 33,
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4768,
+      "y": 2560,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4768,
+        2608,
+        48,
+        16
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1824,
+        "back": 112,
+        "right": 272,
+        "front": 416
+      }
+    },
+    {
+      "object": 34,
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4752,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4752,
+        2864,
+        48,
+        16
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 1808,
+        "back": 368,
+        "right": 288,
+        "front": 160
+      }
+    },
+    {
+      "object": 35,
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4976,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4976,
+        2864,
+        48,
+        16
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 2032,
+        "back": 368,
+        "right": 64,
+        "front": 160
+      }
+    },
+    {
+      "object": 36,
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 2976,
+      "y": 2672,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        2976,
+        2720,
+        48,
+        16
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 32,
+        "back": 224,
+        "right": 2064,
+        "front": 304
+      }
+    },
+    {
+      "object": 37,
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 2976,
+      "y": 2848,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        2976,
+        2896,
+        48,
+        16
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 32,
+        "back": 400,
+        "right": 2064,
+        "front": 128
+      }
+    },
+    {
+      "object": 38,
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 3600,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        3600,
+        2864,
+        48,
+        16
+      ],
+      "clearanceToBuildingPixels": {
+        "left": 656,
+        "back": 368,
+        "right": 1440,
+        "front": 160
+      }
+    }
+  ],
+  "minimumSofaFrontClearance": 112
+}

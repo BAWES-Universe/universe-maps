@@ -1,0 +1,122 @@
+[
+  {
+    "label": "occupied meeting anchor 0",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 880,
+        "y": 578
+      },
+      "x": 4456,
+      "y": 2928,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4096,
+        "y": 2703,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual occupied anchor 0",
+    "pass": true,
+    "details": {
+      "x": 4456,
+      "y": 2928,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4096,
+        "y": 2703,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false,
+      "declaredFacing": "up",
+      "actualDirection": 3,
+      "note": "native standing Woka at chair anchor, rotated with native R; no seated pose API"
+    }
+  },
+  {
+    "label": "occupied meeting anchor 1",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 194
+      },
+      "x": 4456,
+      "y": 2816,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4096,
+        "y": 2591,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "actual occupied anchor 1",
+    "pass": true,
+    "details": {
+      "x": 4456,
+      "y": 2816,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4096,
+        "y": 2591,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false,
+      "declaredFacing": "down",
+      "actualDirection": 2,
+      "note": "native standing Woka at chair anchor, rotated with native R; no seated pose API"
+    }
+  },
+  {
+    "label": "meeting same-camera views",
+    "pass": true,
+    "details": {
+      "before": {
+        "x": 4376,
+        "y": 2880,
+        "scale": 1,
+        "zoom": 1,
+        "view": {
+          "type": 5,
+          "x": 4016,
+          "y": 2655,
+          "width": 720,
+          "height": 450
+        },
+        "cover": false
+      },
+      "after": {
+        "x": 4376,
+        "y": 2880,
+        "scale": 1,
+        "zoom": 1,
+        "view": {
+          "type": 5,
+          "x": 4016,
+          "y": 2655,
+          "width": 720,
+          "height": 450
+        },
+        "cover": true
+      }
+    }
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "status": "Inspected existing source: extraction possible, clean smaller installation blocked",
+  "source": "campus-site-cutout.png",
+  "referenceBox": [
+    216,
+    676,
+    400,
+    746
+  ],
+  "worldBox": [
+    2440,
+    4076,
+    552,
+    210
+  ],
+  "missing": [
+    "registered clean background behind current countertop/body/props while preserving canopy supports and shelves",
+    "independent complete matching counter with top/body/props and foreground segmentation"
+  ],
+  "proposedNativeCalibration": {
+    "widthRange": [
+      320,
+      384
+    ],
+    "bodyHeightRange": [
+      40,
+      48
+    ],
+    "woka": 32
+  },
+  "whyExistingCandidateIsInsufficient": "Contains another large counter and shifted perspective; no clean registered background. Most of current counter lies above the timber mask.",
+  "doNot": [
+    "shrink avatars",
+    "paint a rectangle over existing counter",
+    "move canopy or island boundaries",
+    "claim stool occupancy fixes counter scale"
+  ],
+  "previousBoxAssessment": "(198,688)-(390,744) includes the left canopy pier but clips taller right-hand counter props/return. Expanded upward/right and tightened left for a complete assembly envelope; preserve all canopy/shelf pixels inside the rectangular delivery crop with a selective counter removal mask.",
+  "requiredViews": [
+    "Registered same-camera clean plate with counter, attached side returns and countertop props removed; retain canopy posts, bottle shelves, rear structure, plants and adjacent floor.",
+    "Complete transparent same-camera front/three-quarter counter assembly; top, front apron, both ends and attached props, plus separate foreground apron/occlusion mask. No rear/side gameplay view required for this fixed placement."
+  ],
+  "existingExtraction": {
+    "fullAssemblyEnvelopeNative": [
+      552,
+      210
+    ],
+    "uniformScaleForWidth384": 0.6956521739130435,
+    "resultingEnvelope": [
+      384,
+      146
+    ],
+    "bodyHeightEstimate": [
+      38,
+      46
+    ],
+    "caveat": "Source includes soft occlusions/joins at posts and shelving; extraction cannot recover hidden end contours or newly exposed background."
+  },
+  "requiredNativeCounter": {
+    "overallWidth": 384,
+    "maximumHeightIncludingProps": 146,
+    "frontBodyHeight": [
+      40,
+      48
+    ],
+    "topDepth": [
+      20,
+      28
+    ],
+    "stoolSeatDiameter": 32,
+    "woka": 32,
+    "clearRouteMinimum": 96
+  },
+  "adjacentPixelsAssessment": "Front deck texture can cover only the newly exposed foreground floor. It cannot supply the hidden rear floor, shelf supports, cabinet-end continuations or canopy-post/counter overlap. Cloning the visible shelf duplicates objects and leaves unsupported geometry; the alternate ground candidate remains occupied and has different perspective. The reused cafe-interior.png is a different enclosed room and material/perspective, not a registered plate."
+}

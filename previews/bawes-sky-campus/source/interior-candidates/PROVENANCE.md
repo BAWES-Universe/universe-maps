@@ -1,0 +1,18 @@
+# Approved-direction source candidates, 2026-10-18
+
+Two targeted built-in image edits from exact approved concept Library libfile_a9e1ab270804819197587d4a65bf51f3, preserved at archive/bawes-interior-direction-2026-10-18/. These are reconstructed candidate assets, NOT original source layers or exact registered exports. No implementation or generation beyond these two edits.
+
+## Clean floor
+clean-floor-candidate.png:2172x724 RGB,2105014 bytes, SHA256 e841f6df9ce1d7cc9bc510c7a6fc5dd00749b677664c7ccb40577d7d9bc616af, Library libfile_155937b925788191b4c81c193b2c2c25.
+Furniture, plants, walls, columns and entry leaves successfully removed. Matching ivory tile and inlay family reconstructed. Useful as clean floor artwork beneath independently placed objects. NOT registered: outer contour changed, top-center notch remains instead of full rectangle, inlay positions/courses drifted, plain opaque outside background remains. Establish actual usable bounds, fill/clip to measured footprint, inspect registration; never claim unchanged coordinates. No nonuniform stretching or Woka shrink.
+
+## Object sheet
+coordinated-object-sheet.png:1536x1024 RGBA,2193838 bytes, SHA256 5ae424e637899ac52f4bd03423c85901df614281f1fd4c7cd4e1ff3982b54e01, Library libfile_987e76206ed08191979488d94a54d0ed.
+Contains separate complete reception,2desks,oval project table,rectangular meeting table,sofa,side table,potted plant,oval planter,4chair views(front/back/left/right),column,lowglasswall,angledtallpartition,corner,door surround,doorleaf. Background alpha0 on785377pixels; remaining787487pixels partially opaque, main furniture alpha253. Preview RGB may show hidden brown background; alpha-composite correctly. Furniture silhouettes are separate and mostly clean, no neighboring floor baked into rectangular crops. Reconstructed chairs include full seats/backs/legs. These can unlock coherent object extraction and native-scale placement; sprite sheet spacing is arbitrary, not original scene coordinates or common world scale. Set each asset's intended physical size without distorting its aspect ratio, validate all against unchanged native32px Wokas. Do not equate atlas pixel widths with world dimensions.
+
+## Remaining blockers and exclusions
+Glass is NOT genuinely transmissive: sampled pane alpha253, with foliage baked into panes. Do not use opaque pane art over avatars and claim transparency. Tall partition and corner are angled, not suitable straight orthogonal room-wall runs. No full continuous room boundaries, declared96pxdoors, independent cast-shadow layers, occupancy anchors, collision polygons, or foreground occlusion masks supplied. Build matching straight frame/glazing with controlled alpha and measured geometry, or obtain proper art; do not splice unrelated kit. Foreground furniture parts still require deliberate segmentation and occupied-Woka inspection. Keep liked existing gate, discard generated replacement doorleaf/surround for entrance use. Sofa visibly presents seat to image bottom; validate actual south-facing player occupancy rather than trusting prior inward-facing note. This pack improves available source but does not certify gameplay or eliminate architecture/glass work.
+
+## Edit prompts (summary)
+1.Precise-object-edit: preserve canvas, orthogonal view, ivory limestone tile/inlays/lighting; remove every furniture/plant/wall/glass/column/door and shadow; reconstruct uninterrupted original floor and threshold, no newdesign.
+2.Background-extraction with completion: exact approved family, transparent separated complete furniture and four chair facings, architecture/glass pieces, nofloor/shadows/text, preserve projection/materials, meaningful glazing alpha requested. Actual results and failures assessed above.

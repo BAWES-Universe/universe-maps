@@ -1,0 +1,84 @@
+[
+  {
+    "label": "interior window approach",
+    "pass": true,
+    "details": {
+      "x": 3352,
+      "y": 2960,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2992,
+        "y": 2735,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "plaza window approach",
+    "pass": true,
+    "details": {
+      "x": 3352,
+      "y": 3136,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2992,
+        "y": 2911,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "cutaway remains local with bounded floor",
+    "pass": true,
+    "details": {
+      "inside": {
+        "x": 3352,
+        "y": 2960,
+        "scale": 1,
+        "zoom": 1,
+        "view": {
+          "type": 5,
+          "x": 2992,
+          "y": 2735,
+          "width": 720,
+          "height": 450
+        },
+        "cover": false
+      },
+      "outside": {
+        "x": 3352,
+        "y": 3136,
+        "scale": 1,
+        "zoom": 1,
+        "view": {
+          "type": 5,
+          "x": 2992,
+          "y": 2911,
+          "width": 720,
+          "height": 450
+        },
+        "cover": true
+      }
+    }
+  },
+  {
+    "label": "outdoor client receives live indoor occupant",
+    "pass": true,
+    "details": [
+      {
+        "x": 3352,
+        "y": 2960,
+        "visible": true,
+        "alpha": 1
+      }
+    ]
+  }
+]

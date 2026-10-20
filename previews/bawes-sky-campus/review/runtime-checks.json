@@ -1,0 +1,440 @@
+[
+  {
+    "label": "outdoor spawn native scale",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 3192,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3664,
+        "y": 2943,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "desktop right-click chair",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 370
+      },
+      "x": 3096,
+      "y": 2016,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2736,
+        "y": 1767,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "desktop chair exit",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 848,
+        "y": 626
+      },
+      "x": 3160,
+      "y": 2080,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2800,
+        "y": 1831,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "meeting entrance",
+    "pass": true,
+    "details": {
+      "x": 4344,
+      "y": 2496,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3984,
+        "y": 2247,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "locked meeting safe exit",
+    "pass": true,
+    "details": {
+      "x": 4248,
+      "y": 2496,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3888,
+        "y": 2247,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "rear exit",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 1600,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3664,
+        "y": 1351,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "front exit",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 3184,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3664,
+        "y": 2935,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "route west-terrace",
+    "pass": true,
+    "details": {
+      "x": 2488,
+      "y": 3248,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2128,
+        "y": 2999,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "route stage",
+    "pass": true,
+    "details": {
+      "x": 5752,
+      "y": 3056,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5392,
+        "y": 2807,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "route audience",
+    "pass": true,
+    "details": {
+      "x": 5752,
+      "y": 3328,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5392,
+        "y": 3079,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "route lower-square",
+    "pass": true,
+    "details": {
+      "x": 4008,
+      "y": 4304,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3648,
+        "y": 4055,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "route cafe",
+    "pass": true,
+    "details": {
+      "x": 3000,
+      "y": 4304,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2640,
+        "y": 4055,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "route portal",
+    "pass": true,
+    "details": {
+      "x": 5640,
+      "y": 4368,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 5280,
+        "y": 4119,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "desktop camera north",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 4024,
+      "y": 1536,
+      "scale": 1,
+      "zoom": 0.6553600000000003,
+      "view": {
+        "type": 5,
+        "x": 2926,
+        "y": 776,
+        "width": 2197,
+        "height": 1373
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "desktop camera south",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 5688,
+      "y": 4576,
+      "scale": 1,
+      "zoom": 0.6553600000000003,
+      "view": {
+        "type": 5,
+        "x": 4590,
+        "y": 3816,
+        "width": 2197,
+        "height": 1373
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "desktop camera west",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 1960,
+      "y": 3280,
+      "scale": 1,
+      "zoom": 0.6553600000000003,
+      "view": {
+        "type": 5,
+        "x": 862,
+        "y": 2520,
+        "width": 2197,
+        "height": 1373
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "desktop camera east",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 6248,
+      "y": 3312,
+      "scale": 1,
+      "zoom": 0.6553600000000003,
+      "view": {
+        "type": 5,
+        "x": 5150,
+        "y": 2552,
+        "width": 2197,
+        "height": 1373
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "touch chair",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 215,
+        "y": 386
+      },
+      "x": 3096,
+      "y": 2016,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2881,
+        "y": 1566,
+        "width": 430,
+        "height": 900
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "touch chair exit",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 279,
+        "y": 514
+      },
+      "x": 3160,
+      "y": 2080,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2945,
+        "y": 1630,
+        "width": 430,
+        "height": 900
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "mobile camera north",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 4024,
+      "y": 1536,
+      "scale": 1,
+      "zoom": 0.32768000000000014,
+      "view": {
+        "type": 5,
+        "x": 3368,
+        "y": 272,
+        "width": 1312,
+        "height": 2747
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "mobile camera south",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 5688,
+      "y": 4576,
+      "scale": 1,
+      "zoom": 0.32768000000000014,
+      "view": {
+        "type": 5,
+        "x": 5032,
+        "y": 3312,
+        "width": 1312,
+        "height": 2747
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "mobile camera west",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 1960,
+      "y": 3280,
+      "scale": 1,
+      "zoom": 0.32768000000000014,
+      "view": {
+        "type": 5,
+        "x": 1304,
+        "y": 2016,
+        "width": 1312,
+        "height": 2747
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "mobile camera east",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 6248,
+      "y": 3312,
+      "scale": 1,
+      "zoom": 0.32768000000000014,
+      "view": {
+        "type": 5,
+        "x": 5592,
+        "y": 2048,
+        "width": 1312,
+        "height": 2747
+      },
+      "cover": false
+    }
+  }
+]

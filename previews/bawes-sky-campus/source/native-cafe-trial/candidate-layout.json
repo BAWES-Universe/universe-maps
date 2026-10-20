@@ -1,0 +1,1534 @@
+{
+  "world": [
+    8192,
+    7168
+  ],
+  "tile": 16,
+  "woka": 32,
+  "conceptOrigin": [
+    1792,
+    2048
+  ],
+  "conceptScale": 3,
+  "office": [
+    2944,
+    2448,
+    2144,
+    592
+  ],
+  "cutaway": [
+    2944,
+    2448,
+    2144,
+    592
+  ],
+  "exterior": [
+    2896,
+    2128,
+    2240,
+    976
+  ],
+  "spawn": [
+    4016,
+    3184
+  ],
+  "seats": [
+    {
+      "x": 3080,
+      "y": 2656,
+      "group": "focus",
+      "facing": "up"
+    },
+    {
+      "x": 3512,
+      "y": 2656,
+      "group": "focus",
+      "facing": "up"
+    },
+    {
+      "x": 3240,
+      "y": 2624,
+      "group": "project",
+      "facing": "down"
+    },
+    {
+      "x": 3240,
+      "y": 2768,
+      "group": "project",
+      "facing": "up"
+    },
+    {
+      "x": 3320,
+      "y": 2624,
+      "group": "project",
+      "facing": "down"
+    },
+    {
+      "x": 3320,
+      "y": 2768,
+      "group": "project",
+      "facing": "up"
+    },
+    {
+      "x": 3080,
+      "y": 2896,
+      "group": "outward-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 3128,
+      "y": 2896,
+      "group": "outward-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 3432,
+      "y": 2896,
+      "group": "outward-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 3480,
+      "y": 2896,
+      "group": "outward-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 3800,
+      "y": 2640,
+      "group": "reception",
+      "facing": "down"
+    },
+    {
+      "x": 4456,
+      "y": 2640,
+      "group": "meeting",
+      "facing": "down"
+    },
+    {
+      "x": 4456,
+      "y": 2768,
+      "group": "meeting",
+      "facing": "up"
+    },
+    {
+      "x": 4536,
+      "y": 2640,
+      "group": "meeting",
+      "facing": "down"
+    },
+    {
+      "x": 4536,
+      "y": 2768,
+      "group": "meeting",
+      "facing": "up"
+    },
+    {
+      "x": 4856,
+      "y": 2640,
+      "group": "meeting",
+      "facing": "down"
+    },
+    {
+      "x": 4856,
+      "y": 2768,
+      "group": "meeting",
+      "facing": "up"
+    },
+    {
+      "x": 4936,
+      "y": 2640,
+      "group": "meeting",
+      "facing": "down"
+    },
+    {
+      "x": 4936,
+      "y": 2768,
+      "group": "meeting",
+      "facing": "up"
+    },
+    {
+      "x": 5528,
+      "y": 3168,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5592,
+      "y": 3168,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5656,
+      "y": 3168,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5720,
+      "y": 3168,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5528,
+      "y": 3232,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5592,
+      "y": 3232,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5656,
+      "y": 3232,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5720,
+      "y": 3232,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5528,
+      "y": 3296,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5592,
+      "y": 3296,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5656,
+      "y": 3296,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5720,
+      "y": 3296,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5528,
+      "y": 3360,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5592,
+      "y": 3360,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5656,
+      "y": 3360,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5720,
+      "y": 3360,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5880,
+      "y": 3168,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5944,
+      "y": 3168,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 6008,
+      "y": 3168,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 6072,
+      "y": 3168,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5880,
+      "y": 3232,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5944,
+      "y": 3232,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 6008,
+      "y": 3232,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 6072,
+      "y": 3232,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5880,
+      "y": 3296,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5944,
+      "y": 3296,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 6008,
+      "y": 3296,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 6072,
+      "y": 3296,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5880,
+      "y": 3360,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 5944,
+      "y": 3360,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 6008,
+      "y": 3360,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 6072,
+      "y": 3360,
+      "group": "audience",
+      "facing": "up"
+    },
+    {
+      "x": 2392,
+      "y": 4320,
+      "group": "cafe-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 2424,
+      "y": 4320,
+      "group": "cafe-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 3000,
+      "y": 4320,
+      "group": "cafe-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 3032,
+      "y": 4320,
+      "group": "cafe-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 2360,
+      "y": 4352,
+      "group": "cafe-armchair",
+      "facing": "right"
+    },
+    {
+      "x": 3064,
+      "y": 4352,
+      "group": "cafe-armchair",
+      "facing": "left"
+    },
+    {
+      "x": 2568,
+      "y": 4208,
+      "group": "cafe-bar",
+      "facing": "up"
+    },
+    {
+      "x": 2664,
+      "y": 4208,
+      "group": "cafe-bar",
+      "facing": "up"
+    },
+    {
+      "x": 2776,
+      "y": 4208,
+      "group": "cafe-bar",
+      "facing": "up"
+    },
+    {
+      "x": 2872,
+      "y": 4208,
+      "group": "cafe-bar",
+      "facing": "up"
+    },
+    {
+      "x": 2392,
+      "y": 3136,
+      "group": "west-review",
+      "facing": "down"
+    },
+    {
+      "x": 2520,
+      "y": 3136,
+      "group": "west-review",
+      "facing": "up"
+    },
+    {
+      "x": 2120,
+      "y": 3232,
+      "group": "conservatory-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 2152,
+      "y": 3232,
+      "group": "conservatory-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 3544,
+      "y": 3168,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 3592,
+      "y": 3168,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 4376,
+      "y": 3168,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 4424,
+      "y": 3168,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 5160,
+      "y": 4240,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    {
+      "x": 5208,
+      "y": 4240,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    }
+  ],
+  "objects": [
+    {
+      "zone": "office",
+      "kind": "in-desk-paper",
+      "x": 3024,
+      "y": 2560,
+      "width": 112,
+      "height": 64,
+      "collision": [
+        3024,
+        2576,
+        112,
+        48
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 3056,
+      "y": 2624,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-desk-laptop",
+      "x": 3456,
+      "y": 2560,
+      "width": 112,
+      "height": 64,
+      "collision": [
+        3456,
+        2576,
+        112,
+        48
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 3488,
+      "y": 2624,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-project",
+      "x": 3200,
+      "y": 2656,
+      "width": 160,
+      "height": 96,
+      "collision": [
+        3200,
+        2672,
+        160,
+        64
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 3216,
+      "y": 2592,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 3216,
+      "y": 2736,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 3296,
+      "y": 2592,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 3296,
+      "y": 2736,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-sofa",
+      "x": 3040,
+      "y": 2864,
+      "width": 128,
+      "height": 64,
+      "collision": [
+        3040,
+        2864,
+        128,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-side",
+      "x": 3184,
+      "y": 2864,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        3184,
+        2880,
+        48,
+        32
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-sofa",
+      "x": 3392,
+      "y": 2864,
+      "width": 128,
+      "height": 64,
+      "collision": [
+        3392,
+        2864,
+        128,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-side",
+      "x": 3536,
+      "y": 2864,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        3536,
+        2880,
+        48,
+        32
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-reception",
+      "x": 3648,
+      "y": 2512,
+      "width": 256,
+      "height": 240,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 3776,
+      "y": 2608,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 3904,
+      "y": 2480,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        3904,
+        2544,
+        224,
+        32
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 3024,
+      "y": 2464,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        3024,
+        2512,
+        224,
+        32
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 3392,
+      "y": 2464,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        3392,
+        2512,
+        224,
+        32
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 4400,
+      "y": 2464,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        4400,
+        2512,
+        224,
+        32
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-planter",
+      "x": 4800,
+      "y": 2464,
+      "width": 224,
+      "height": 96,
+      "collision": [
+        4800,
+        2512,
+        224,
+        32
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-meeting",
+      "x": 4416,
+      "y": 2672,
+      "width": 144,
+      "height": 96,
+      "collision": [
+        4416,
+        2688,
+        144,
+        64
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 4432,
+      "y": 2608,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 4432,
+      "y": 2736,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 4512,
+      "y": 2608,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 4512,
+      "y": 2736,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4368,
+      "y": 2560,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4368,
+        2608,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4352,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4352,
+        2864,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4576,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4576,
+        2864,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-meeting",
+      "x": 4816,
+      "y": 2672,
+      "width": 144,
+      "height": 96,
+      "collision": [
+        4816,
+        2688,
+        144,
+        64
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 4832,
+      "y": 2608,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 4832,
+      "y": 2736,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-down",
+      "x": 4912,
+      "y": 2608,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-chair-up",
+      "x": 4912,
+      "y": 2736,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4768,
+      "y": 2560,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4768,
+        2608,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4752,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4752,
+        2864,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 4976,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        4976,
+        2864,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 2976,
+      "y": 2672,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        2976,
+        2720,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 2976,
+      "y": 2848,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        2976,
+        2896,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "office",
+      "kind": "in-plant",
+      "x": 3600,
+      "y": 2816,
+      "width": 48,
+      "height": 64,
+      "collision": [
+        3600,
+        2864,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5504,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5568,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5632,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5696,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5504,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5568,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5632,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5696,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5504,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5568,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5632,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5696,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5504,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5568,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5632,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5696,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5856,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5920,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5984,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 6048,
+      "y": 3152,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5856,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5920,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5984,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 6048,
+      "y": 3216,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5856,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5920,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5984,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 6048,
+      "y": 3280,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5856,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5920,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 5984,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "audience-up",
+      "x": 6048,
+      "y": 3344,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "out-cafe-curve",
+      "x": 2320,
+      "y": 4304,
+      "width": 144,
+      "height": 64,
+      "collision": [
+        2320,
+        4304,
+        144,
+        16
+      ]
+    },
+    {
+      "zone": "campus",
+      "kind": "out-cafe-curve",
+      "x": 2944,
+      "y": 4288,
+      "width": 144,
+      "height": 64,
+      "collision": [
+        2944,
+        4288,
+        144,
+        16
+      ]
+    },
+    {
+      "zone": "campus",
+      "kind": "out-table-cups",
+      "x": 2400,
+      "y": 4352,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        2400,
+        4368,
+        64,
+        32
+      ]
+    },
+    {
+      "zone": "campus",
+      "kind": "out-table-cups",
+      "x": 2976,
+      "y": 4368,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        2976,
+        4384,
+        64,
+        32
+      ]
+    },
+    {
+      "zone": "campus",
+      "kind": "out-chair-right",
+      "x": 2336,
+      "y": 4352,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "out-chair-left",
+      "x": 3072,
+      "y": 4352,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "out-stool-front",
+      "x": 2592,
+      "y": 4288,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "out-stool-front",
+      "x": 2704,
+      "y": 4272,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "out-stool-front",
+      "x": 2816,
+      "y": 4256,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "out-stool-front",
+      "x": 2928,
+      "y": 4256,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "cafe",
+      "x": 2416,
+      "y": 3088,
+      "width": 64,
+      "height": 64,
+      "collision": [
+        2416,
+        3096,
+        64,
+        48
+      ]
+    },
+    {
+      "zone": "campus",
+      "kind": "amber-chair",
+      "x": 2368,
+      "y": 3104,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "red-chair",
+      "x": 2496,
+      "y": 3104,
+      "width": 48,
+      "height": 64,
+      "collision": null
+    },
+    {
+      "zone": "campus",
+      "kind": "out-cafe-curve",
+      "x": 2048,
+      "y": 3184,
+      "width": 144,
+      "height": 64,
+      "collision": [
+        2048,
+        3184,
+        144,
+        16
+      ]
+    },
+    {
+      "zone": "campus",
+      "kind": "alcove-table",
+      "x": 2160,
+      "y": 3264,
+      "width": 48,
+      "height": 48,
+      "collision": [
+        2160,
+        3280,
+        48,
+        16
+      ]
+    },
+    {
+      "zone": "campus",
+      "kind": "out-bench-front",
+      "x": 3504,
+      "y": 3136,
+      "width": 128,
+      "height": 64,
+      "collision": [
+        3504,
+        3136,
+        128,
+        16
+      ]
+    },
+    {
+      "zone": "campus",
+      "kind": "out-bench-front",
+      "x": 4336,
+      "y": 3136,
+      "width": 128,
+      "height": 64,
+      "collision": [
+        4336,
+        3136,
+        128,
+        16
+      ]
+    },
+    {
+      "zone": "campus",
+      "kind": "out-bench-front",
+      "x": 5120,
+      "y": 4208,
+      "width": 128,
+      "height": 64,
+      "collision": [
+        5120,
+        4208,
+        128,
+        16
+      ]
+    }
+  ],
+  "doors": [
+    {
+      "id": "meeting-1",
+      "box": [
+        4432,
+        2896,
+        96,
+        16
+      ],
+      "inside": [
+        4352,
+        2560,
+        272,
+        336
+      ],
+      "lock": "meetingLock1"
+    },
+    {
+      "id": "meeting-2",
+      "box": [
+        4832,
+        2896,
+        96,
+        16
+      ],
+      "inside": [
+        4752,
+        2560,
+        272,
+        336
+      ],
+      "lock": "meetingLock2"
+    },
+    {
+      "id": "office-front",
+      "box": [
+        3920,
+        3024,
+        192,
+        16
+      ],
+      "inside": [
+        2960,
+        2496,
+        2112,
+        528
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": "meeting-1",
+      "box": [
+        4352,
+        2560,
+        272,
+        336
+      ]
+    },
+    {
+      "id": "meeting-2",
+      "box": [
+        4752,
+        2560,
+        272,
+        336
+      ]
+    }
+  ],
+  "waypoints": {
+    "spawn": [
+      4016,
+      3184
+    ],
+    "office-center": [
+      4016,
+      2768
+    ],
+    "cafe": [
+      2992,
+      4304
+    ],
+    "stage": [
+      5752,
+      3053
+    ],
+    "audience": [
+      5752,
+      3338
+    ],
+    "portal": [
+      5632,
+      4373
+    ],
+    "lower-square": [
+      4012,
+      4313
+    ],
+    "west-terrace": [
+      2482,
+      3263
+    ]
+  }
+}

@@ -1,0 +1,576 @@
+[
+  {
+    "seat": {
+      "x": 5160,
+      "y": 4224,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "clicks": [
+      {
+        "point": {
+          "x": 614,
+          "y": 450,
+          "inverse": {
+            "x": 5160,
+            "y": 4224
+          },
+          "scroll": [
+            4853,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4853,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5205,
+            "y": 4224
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5160,
+                "y": 4224
+              },
+              true
+            ],
+            "start": {
+              "x": 5213,
+              "y": 4224
+            },
+            "result": {
+              "x": 5160,
+              "y": 4224,
+              "cancelled": false
+            }
+          }
+        ],
+        "after": {
+          "x": 5160,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4800,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ]
+  },
+  {
+    "seat": {
+      "x": 5208,
+      "y": 4224,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "clicks": [
+      {
+        "point": {
+          "x": 608,
+          "y": 450,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4904,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4904,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5256,
+            "y": 4224
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5208,
+                "y": 4224
+              },
+              true
+            ],
+            "start": {
+              "x": 5264,
+              "y": 4224
+            },
+            "result": {
+              "x": 5208,
+              "y": 4224,
+              "cancelled": false
+            }
+          }
+        ],
+        "after": {
+          "x": 5216.049844718998,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      },
+      {
+        "point": {
+          "x": 704,
+          "y": 450,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4856,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5208.049844718998,
+            "y": 4224
+          }
+        },
+        "requests": [],
+        "after": {
+          "x": 5216.049844718998,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      },
+      {
+        "point": {
+          "x": 704,
+          "y": 450,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4856,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5208.049844718998,
+            "y": 4224
+          }
+        },
+        "requests": [],
+        "after": {
+          "x": 5216.049844718998,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ]
+  },
+  {
+    "seat": {
+      "x": 5160,
+      "y": 4224,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "clicks": [
+      {
+        "point": {
+          "x": 614,
+          "y": 450,
+          "inverse": {
+            "x": 5160,
+            "y": 4224
+          },
+          "scroll": [
+            4853,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4853,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5205,
+            "y": 4224
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5160,
+                "y": 4224
+              },
+              true
+            ],
+            "start": {
+              "x": 5213,
+              "y": 4224
+            },
+            "result": {
+              "x": 5160,
+              "y": 4224,
+              "cancelled": false
+            }
+          }
+        ],
+        "after": {
+          "x": 5160,
+          "y": 4226.638803417146,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4800,
+            "y": 4001,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      },
+      {
+        "point": {
+          "x": 720,
+          "y": 446,
+          "inverse": {
+            "x": 5160,
+            "y": 4224
+          },
+          "scroll": [
+            4800,
+            4001
+          ],
+          "view": {
+            "type": 5,
+            "x": 4800,
+            "y": 4001,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5152,
+            "y": 4226.638803417146
+          }
+        },
+        "requests": [],
+        "after": {
+          "x": 5160,
+          "y": 4226.638803417146,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4800,
+            "y": 4001,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      },
+      {
+        "point": {
+          "x": 720,
+          "y": 446,
+          "inverse": {
+            "x": 5160,
+            "y": 4224
+          },
+          "scroll": [
+            4800,
+            4001
+          ],
+          "view": {
+            "type": 5,
+            "x": 4800,
+            "y": 4001,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5152,
+            "y": 4226.638803417146
+          }
+        },
+        "requests": [],
+        "after": {
+          "x": 5160,
+          "y": 4226.638803417146,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4800,
+            "y": 4001,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ]
+  },
+  {
+    "seat": {
+      "x": 5208,
+      "y": 4224,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "clicks": [
+      {
+        "point": {
+          "x": 608,
+          "y": 450,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4904,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4904,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5256,
+            "y": 4224
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5208,
+                "y": 4224
+              },
+              true
+            ],
+            "start": {
+              "x": 5264,
+              "y": 4224
+            },
+            "result": {
+              "x": 5208,
+              "y": 4224,
+              "cancelled": false
+            }
+          }
+        ],
+        "after": {
+          "x": 5208,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4848,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ]
+  },
+  {
+    "seat": {
+      "x": 5160,
+      "y": 4224,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "clicks": [
+      {
+        "point": {
+          "x": 608,
+          "y": 450,
+          "inverse": {
+            "x": 5160,
+            "y": 4224
+          },
+          "scroll": [
+            4856,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5208,
+            "y": 4224
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5160,
+                "y": 4224
+              },
+              true
+            ],
+            "start": {
+              "x": 5216,
+              "y": 4224
+            },
+            "result": {
+              "x": 5160,
+              "y": 4224,
+              "cancelled": false
+            }
+          }
+        ],
+        "after": {
+          "x": 5160,
+          "y": 4225.299845912219,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4800,
+            "y": 4000,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ]
+  },
+  {
+    "seat": {
+      "x": 5208,
+      "y": 4224,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "clicks": [
+      {
+        "point": {
+          "x": 614,
+          "y": 450,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4901,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4901,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5253,
+            "y": 4224
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5208,
+                "y": 4224
+              },
+              true
+            ],
+            "start": {
+              "x": 5261,
+              "y": 4224
+            },
+            "result": {
+              "x": 5208,
+              "y": 4224,
+              "cancelled": false
+            }
+          }
+        ],
+        "after": {
+          "x": 5208,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4848,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ]
+  }
+]

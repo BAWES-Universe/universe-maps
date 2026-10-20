@@ -1,0 +1,224 @@
+"""Native sky campus compiler. All coordinates are world pixels; 16px cells, 32px Wokas."""
+from pathlib import Path
+from PIL import Image,ImageDraw,ImageFilter
+import json,math,numpy as np
+R=Path(__file__).resolve().parents[1]; A=R/'assets';A.mkdir(exist_ok=True)
+T=16; W,H=8192,7168; COL,ROW=W//T,H//T; PX,PY=1792,2048; S=3
+OX,OY,OW,OH=2944,2448,2144,592
+EX,EY,EW=2896,2128,2240
+layers=[];tilesets=[];gid=1;walk=Image.new('L',(COL,ROW));wd=ImageDraw.Draw(walk);seats=[];objects=[];doors=[];rooms=[]
+def rectwalk(box,value=255):
+ x,y,w,h=box;wd.rectangle((math.ceil(x/T),math.ceil(y/T),math.floor((x+w)/T)-1,math.floor((y+h)/T)-1),fill=value)
+def polywalk(points):wd.polygon([(round((PX+x*S)/T),round((PY+y*S)/T)) for x,y in points],fill=255)
+def layer(name,data):layers.append(dict(id=len(layers)+1,name=name,type='tilelayer',x=0,y=0,width=COL,height=ROW,visible=True,opacity=1,data=data))
+def image_layer(name,im,x=0,y=0):
+ global gid
+ # Tight source rectangles; image chunks stay below GPU texture limits.
+ x=int(x);y=int(y)
+ data=[0]*(COL*ROW)
+ for cy in range(0,im.height,1024):
+  for cx in range(0,im.width,1024):
+   crop=im.crop((cx,cy,min(cx+1024,im.width),min(cy+1024,im.height))).convert('RGBA')
+   if not crop.getchannel('A').getbbox():continue
+   ww=math.ceil(crop.width/T)*T;hh=math.ceil(crop.height/T)*T
+   page=Image.new('RGBA',(ww,hh));page.alpha_composite(crop)
+   filename=f'{name}-{cx//1024}-{cy//1024}.png'
+   # Extend the edge texels: fractional zoom must not sample beyond a page.
+   padded=Image.fromarray(np.pad(np.asarray(page),((1,1),(1,1),(0,0)),mode='edge'))
+   padded.save(A/filename,compress_level=3)
+   nc=ww//T;nr=hh//T;first=gid;gid+=nc*nr
+   tilesets.append(dict(firstgid=first,name=filename[:-4],image='assets/'+filename,imagewidth=ww+2,imageheight=hh+2,margin=1,spacing=0,tilewidth=T,tileheight=T,tilecount=nc*nr,columns=nc))
+   alpha=np.asarray(page.getchannel('A')).reshape(nr,T,nc,T).max(axis=(1,3))
+   for ry in range(nr):
+    for rx in range(nc):
+     tx=(x+cx)//T+rx;ty=(y+cy)//T+ry
+     if alpha[ry,rx] and 0<=tx<COL and 0<=ty<ROW:data[ty*COL+tx]=first+ry*nc+rx
+ layer(name,data)
+# Original arrangement scaled once. Feather only source sky-edge pixels into overscan scenery.
+sky=Image.open(R/'source/sky-original.png').convert('RGBA').resize((W,H),Image.Resampling.LANCZOS)
+concept=Image.open(R/'source/campus-site-cutout.png').convert('RGBA').resize((4608,3072),Image.Resampling.LANCZOS)
+sky.alpha_composite(concept,(PX,PY))
+exec((R/'source/cafe-ground.py').read_text())
+exec((R/'source/alcove-ground.py').read_text())
+# Native paths conservatively track visible stone floors, not cliffs or distant islands.
+for polygon in [
+ [(340,350),(1138,350),(1138,410),(1000,432),(795,448),(670,448),(480,423),(340,405)],
+ [(300,360),(490,360),(490,397),(300,397)],[(1055,360),(1215,360),(1215,409),(1055,409)],
+ [(70,352),(300,350),(308,414),(264,449),(115,449),(54,413)],
+ [(1200,328),(1475,328),(1484,450),(1410,480),(1240,470),(1192,424)],
+ [(704,435),(778,435),(778,694),(704,694)],
+ [(490,704),(660,680),(815,680),(939,727),(919,797),(590,803),(491,775)],
+ [(433,731),(600,731),(600,777),(433,777)],[(868,739),(1028,739),(1028,786),(868,786)],
+ [(146,758),(206,748),(258,747),(340,732),(387,727),(411,733),(445,750),(453,766),(434,784),(380,791),(325,792),(314,791),(310,789),(288,789),(280,788),(225,789),(180,785),(151,777)],
+ [(990,728),(1195,713),(1385,747),(1395,807),(1295,840),(1040,822),(962,781)],
+ [(1220,710),(1348,710),(1348,782),(1220,782)]]:polywalk(polygon)
+# The navigable interior fits the facade's main wall body. No outdoor service ring.
+rectwalk((OX,OY,OW,OH))
+rectwalk((3920,OY+OH,192,80)) # Existing entry paving, not a perimeter floor.
+# Foreground sprite source atlas: own layers, no authored furniture baked into office floor.
+kit=Image.open(R/'source/furniture-original.png').convert('RGBA')
+spec={'desk':((48,105,390,440),(64,64)),'red-chair':((475,105,735,435),(32,40)),'amber-chair':((805,140,1090,430),(32,40)),'meeting':((1138,120,1760,435),(128,64)),'cafe':((75,500,355,830),(64,64)),'sofa':((390,490,880,830),(128,80)),'planter':((900,490,1300,830),(80,64)),'glass':((1325,540,1740,815),(96,48))}
+sprites={}
+for name,(box,size) in spec.items():
+ im=kit.crop(box);bbox=im.getchannel('A').point(lambda a:255 if a>35 else 0).getbbox();im=im.crop(bbox).resize(size,Image.Resampling.LANCZOS);sprites[name]=im;im.save(A/(name+'.png'))
+for name in ('red-chair','amber-chair'):
+ padded=Image.new('RGBA',(48,64));padded.alpha_composite(sprites[name],(8,8));sprites[name]=padded
+# Furniture placement is editable and explicit in world pixels.
+placements=[];fronts=[];zone="office"
+def item(name,x,y,block=None):
+ placements.append((name,int(x),int(y)))
+ if block:rectwalk(block,0)
+ objects.append(dict(zone=zone,kind=name,x=x,y=y,width=sprites[name].width,height=sprites[name].height,collision=block))
+def chair(x,y,facing='up',group='office'):
+ x=(x//16)*16+8;y=round(y/16)*16
+ name=('in-chair-'+facing) if zone=='office' else ('red-chair' if facing=='up' else 'amber-chair');item(name,x-24,y-32)
+ seats.append(dict(x=x,y=y,group=group,facing=facing))
+ # Small front edge, entirely below torso at the exact floor anchor.
+ if zone!='office':fronts.append((name,x-24,y,48,16))
+exec((R/'source/interior.py').read_text())
+zone='campus'
+# Dark matching timber audience banks; existing stage artwork remains intact.
+exec((R/'source/stage-seating.py').read_text())
+# Removed the unrelated laptop desk restoration substitute; keep the stage open.
+# Mark original stage rear, furniture and planted margins impassable; stage front remains accessible.
+rectwalk((PX+1205*S,PY+282*S,280*S,45*S),0)
+exec((R/'source/cafe-furniture.py').read_text())
+# Portal arch is scenery only; no invented URL. Keep the arch landing freely accessible.
+# Explicit obstacle masks for planters at the bridge ends and garden borders.
+for sx,sy,sw,sh in [(685,649,17,37),(778,648,19,39),(620,661,51,36),(812,661,43,37),(1038,695,45,36),(1100,692,46,35),(1350,745,35,42),(90,353,40,38)]:rectwalk((PX+sx*S,PY+sy*S,sw*S,sh*S),0)
+# Cleared western terrace now receives native furniture instead of painted oversized seating.
+for x,y in [(2416,3088)]:
+ item('cafe',x,y,(x,y+8,64,48));chair(x-32,y+48,'down','west-review');chair(x+96,y+48,'up','west-review')
+exec((R/'source/alcove-furniture.py').read_text())
+# Matching outdoor benches reuse the existing locations.
+for x,y in [(3504,3136),(4336,3136),(5120,4208)]:
+ new_cafe_item('bench-front',x,y,(x,y,128,16))
+ for dx in (40,88):seats.append(dict(x=x+dx,y=y+32,group='outdoor-lounge',facing='down'))
+# One exterior, uniformly scaled and anchored at the actual front threshold.
+original=Image.open(R/'source/office-shell-cleaned.png').convert('RGBA')
+bounds=original.getchannel('A').point(lambda a:255 if a>50 else 0).getbbox()
+original=original.crop(bounds)
+RH=round(original.height*EW/original.width);SH=976;SY=EY+8-OY
+shell=Image.new('RGBA',(EW,SH));shell.alpha_composite(original.resize((EW,RH),Image.Resampling.LANCZOS),(0,8))
+sa=np.array(shell);sa[:,:,3]=np.where(sa[:,:,3]>=200,255,np.where(sa[:,:,3]<=4,0,sa[:,:,3]))
+sa[SH-208:SH,1024:1216,3]=0;shell=Image.fromarray(sa)
+# Ground-floor pane holes expose the same native room, clipped to actual window apertures.
+window_mask=Image.new('L',(OW,OH));md=ImageDraw.Draw(window_mask)
+for x1,y1,x2,y2 in [(145,370,510,465),(1028,370,1394,465),(630,487,907,630),(145,607,510,739),(1028,607,1394,739),(685,636,850,789)]:
+ x1=(x1-bounds[0])*EW/original.width-(OX-EX);x2=(x2-bounds[0])*EW/original.width-(OX-EX)
+ y1=SY+(y1-bounds[1])*RH/original.height;y2=SY+(y2-bounds[1])*RH/original.height
+ md.rectangle((int(x1),int(y1),int(x2),int(y2)),fill=255)
+window_mask=Image.fromarray(np.where(sa[OY-EY:OY-EY+OH,OX-EX:OX-EX+OW,3]<100,np.asarray(window_mask),0).astype('uint8'))
+window_walls=walls.copy();wall_alpha=window_walls.getchannel('A');ImageDraw.Draw(wall_alpha).rectangle((0,0,OW-1,OH-1),outline=0,width=16);window_walls.putalpha(wall_alpha)
+window_room=floor.copy();window_room.alpha_composite(window_walls);window_room.alpha_composite(glazing)
+for n,x,y in placements:
+ if OX<=x<OX+OW and OY<=y<OY+OH:window_room.alpha_composite(sprites[n],(x-OX,y-OY))
+window_room.alpha_composite(office_fronts);window_room.putalpha(window_mask)
+is_office=lambda x,y: OX<=x<OX+OW and OY<=y<OY+OH
+# Offline states mirror runtime visibility; no hidden interior is drawn into the exterior preview.
+sky.resize((2048,1792),Image.Resampling.LANCZOS).save(R/'review/campus-context.png')
+preview=sky.copy();preview.alpha_composite(cafe_ground,(CX,CY));preview.alpha_composite(alcove_ground,(LX,LY));preview.alpha_composite(stage_shadows,(5472,3152));preview.alpha_composite(cutaway_ground,(OX,OY));preview.alpha_composite(walls,(OX,OY));preview.alpha_composite(glazing,(OX,OY))
+for n,x,y in placements:preview.alpha_composite(sprites[n],(x,y))
+preview.alpha_composite(office_fronts,(OX,OY));preview.alpha_composite(glazing,(OX,OY))
+preview.crop((OX-160,OY-160,OX+OW+160,OY+OH+160)).resize((1280,round((OH+320)*1280/(OW+320)))).save(R/'review/office-plan.png');del preview
+preview=sky.copy();preview.alpha_composite(cafe_ground,(CX,CY))
+for n,x,y in placements:
+ if not is_office(x,y):preview.alpha_composite(sprites[n],(x,y))
+preview.alpha_composite(window_room,(OX,OY));preview.alpha_composite(shell,(EX,EY))
+preview.resize((2048,1792),Image.Resampling.LANCZOS).save(R/'review/campus-exterior.png');del preview
+image_layer('scenery-and-campus',sky);del sky
+image_layer('cafe-timber',cafe_ground,CX,CY)
+image_layer('alcove-floor',alcove_ground,LX,LY)
+image_layer('audience-shadows',stage_shadows,5472,3152)
+image_layer('office-window-interior',window_room,OX,OY)
+image_layer('office-floor',cutaway_ground,OX,OY);layers[-1]['visible']=False
+image_layer('office-walls',walls,OX,OY);layers[-1]['visible']=False
+# Pack authored sprites with row-height tracking and place native tile portions.
+atlas=Image.new('RGBA',(1024,1024));sprite_meta={};ax=ay=rowh=0
+for n,im in sprites.items():
+ sw=math.ceil(im.width/16)*16;sh=math.ceil(im.height/16)*16
+ if ax+sw>1024:ax=0;ay+=rowh;rowh=0
+ rowh=max(rowh,sh)
+ assert ay+sh<=1024
+ atlas.alpha_composite(im,(ax,ay));sprite_meta[n]=(ax//16,ay//16,sw//16,sh//16);ax+=sw
+atlas.save(A/'furniture-atlas.png');fg=gid;gid+=4096
+# All placement coordinates must be 16px aligned. Anchors are declared independently for fine pitch.
+tilesets.append(dict(firstgid=fg,name='furniture',image='assets/furniture-atlas.png',imagewidth=1024,imageheight=1024,tilewidth=16,tileheight=16,tilecount=4096,columns=64))
+def placement_data(parts):
+ data=[0]*(COL*ROW)
+ for n,x,y in parts:
+  ax,ay,sw,sh=sprite_meta[n]
+  for ry in range(sh):
+   for rx in range(sw):data[(round(y/16)+ry)*COL+round(x/16)+rx]=fg+(ay+ry)*64+ax+rx
+ return data
+layer('campus-furniture',placement_data([p for p in placements if not is_office(p[1],p[2])]))
+layer('office-furniture',placement_data([p for p in placements if is_office(p[1],p[2]) ]));layers[-1]['visible']=False
+# Collision map: every sky/cliff cell is blocked, independently of visual alpha.
+logic=Image.new('RGBA',(32,16));logic.save(A/'logic.png');lg=gid;gid+=2
+tilesets.append(dict(firstgid=lg,name='logic',image='assets/logic.png',imagewidth=32,imageheight=16,tilewidth=16,tileheight=16,tilecount=2,columns=2,tiles=[dict(id=0,properties=[dict(name='collides',type='bool',value=True)])]))
+grid=np.asarray(walk);layer('persistent-collision',[0 if v else lg for v in grid.flat])
+spawn=[4016,3184];start=[0]*(COL*ROW);start[(spawn[1]//16)*COL+spawn[0]//16]=lg+1;layer('start',start)
+inside=[0]*(COL*ROW)
+for y in range((OY+16)//16,(OY+OH-16)//16):
+ for x in range((OX+16)//16,(OX+OW-16)//16):inside[y*COL+x]=lg+1
+layer('office-interior',inside)
+variables=[dict(id=i+1,name=d['lock'],type='variable',point=True,x=d['box'][0],y=d['box'][1],width=0,height=0,rotation=0,visible=True,properties=[dict(name='default',type='bool',value=False),dict(name='persist',type='bool',value=False)]) for i,d in enumerate(doors) if d.get('lock')]
+layers.append(dict(id=len(layers)+1,type='objectgroup',name='floorLayer',x=0,y=0,visible=True,opacity=1,objects=variables))
+# Reuse shallow foreground sections from sprites, not a full overlay of chair backs.
+front_atlas=Image.new('RGBA',(96,16))
+for i,n in enumerate(['red-chair','amber-chair']):front_atlas.alpha_composite(sprites[n].crop((0,40,48,48)),(i*48,8))
+front_atlas.save(A/'chair-fronts.png');cf=gid;gid+=6
+tilesets.append(dict(firstgid=cf,name='chair-fronts',image='assets/chair-fronts.png',imagewidth=96,imageheight=16,tilewidth=16,tileheight=16,tilecount=6,columns=6))
+frontdata=[0]*(COL*ROW)
+for n,x,y,w,h in fronts:
+ for rx in range(3):frontdata[(round(y/16))*COL+round(x/16)+rx]=cf+(0 if n=='red-chair' else 3)+rx
+layer('campus-chair-fronts',[v if not is_office((i%COL)*16,(i//COL)*16) else 0 for i,v in enumerate(frontdata)])
+image_layer('cafe-foreground',cafe_foreground,CX,CY)
+image_layer('alcove-foreground',alcove_foreground,LX,LY)
+image_layer('audience-fronts',stage_fronts,5472,3152)
+image_layer('campus-bench-fronts',bench_fronts,3504,3136)
+image_layer('office-chair-fronts',office_fronts,OX,OY);layers[-1]['visible']=False
+image_layer('office-glazing',glazing,OX,OY);layers[-1]['visible']=False
+# Door collision lives only in its own removable layer.
+doorim=Image.new('RGBA',(32,16),(150,109,48,45));dd=ImageDraw.Draw(doorim)
+dd.line((0,1,15,1),fill=(198,149,69,175),width=2);dd.line((0,14,15,14),fill=(198,149,69,175),width=2)
+dd.line((17,0,17,15),fill=(198,149,69,175),width=2);dd.line((30,0,30,15),fill=(198,149,69,175),width=2)
+doorim.save(A/'door.png');dg=gid;gid+=2
+tilesets.append(dict(firstgid=dg,name='door',image='assets/door.png',imagewidth=32,imageheight=16,tilewidth=16,tileheight=16,tilecount=2,columns=2,tiles=[dict(id=i,properties=[dict(name='collides',type='bool',value=True)]) for i in range(2)]))
+for d in doors:
+ data=[0]*(COL*ROW);x,y,w,h=d['box']
+ for yy in range(y//16,(y+h)//16):
+  for xx in range(x//16,(x+w)//16):data[yy*COL+xx]=dg+(1 if h>w else 0)
+ layer(d['id']+'-door',data)
+ if d.get('lock'):
+  pane=Image.new('RGBA',(w,48));detailed_horizontal(pane,0,0,w,48)
+  image_layer(d['id']+'-glass',pane,x,y-32);layers[-1]['visible']=False
+# The illustrated sliding entrance leaves share the existing proximity-door state.
+leaves=Image.new('RGBA',(192,96))
+for xx in (0,96):leaves.alpha_composite(sprites['glass'].resize((96,96),Image.Resampling.LANCZOS),(xx,0))
+image_layer('office-front-leaves',leaves,OX+976,OY+OH-96)
+# Existing glass leaves in three intermediate positions, using map-layer animation only.
+for frame in range(1,4):
+ im=Image.new('RGBA',(192,96));shift=frame*24
+ im.alpha_composite(leaves.crop((shift,0,96,96)),(0,0))
+ im.alpha_composite(leaves.crop((96,0,192-shift,96)),(96+shift,0))
+ image_layer('office-front-slide-'+str(frame),im,OX+976,OY+OH-96);layers[-1]['visible']=False
+# Small procedural steam glyphs for the beverage interaction; no image generation/assets purchased.
+for frame in range(3):
+ im=Image.new('RGBA',(32,48));draw=ImageDraw.Draw(im)
+ for strand in range(2):
+  pts=[(10+strand*12+round(math.sin((j+frame*3)*.5)*3),40-j*2-frame*2) for j in range(14)]
+  draw.line(pts,fill=(110,94,78,150-frame*15),width=4)
+  draw.line(pts,fill=(255,248,230,225-frame*20),width=2)
+ image_layer('beverage-steam-'+str(frame),im,OX+1232,OY+256);layers[-1]['visible']=False
+layer('reception-activity',[0]*(COL*ROW));layers[-1]['visible']=False
+image_layer('office-cover',shell,EX,EY)
+mapdata=dict(type='map',version='1.10',tiledversion='1.11.2',orientation='orthogonal',renderorder='right-down',infinite=False,width=COL,height=ROW,tilewidth=16,tileheight=16,nextlayerid=len(layers)+1,nextobjectid=10,layers=layers,tilesets=tilesets,properties=[dict(name='script',type='string',value='runtime.js')])
+(R/'campus.tmj').write_text(json.dumps(mapdata,separators=(',',':'))+'\n')
+layout=dict(world=[W,H],tile=16,woka=32,conceptOrigin=[PX,PY],conceptScale=3,office=[OX,OY,OW,OH],cutaway=[OX,OY,OW,OH],exterior=[EX,EY,EW,SH],spawn=spawn,seats=seats,objects=objects,doors=doors,rooms=rooms,waypoints={'spawn':spawn,'office-center':[4016,OY+320],'cafe':[PX+400*S,PY+752*S],'stage':[PX+1320*S,PY+335*S],'audience':[PX+1320*S,PY+430*S],'portal':[PX+1280*S,PY+775*S],'lower-square':[PX+740*S,PY+755*S],'west-terrace':[PX+230*S,PY+405*S]})
+(R/'source/layout.json').write_text(json.dumps(layout,indent=2)+'\n');walk.resize((COL*2,ROW*2)).save(R/'review/walkable.png')
+print('Built sky campus:',W,H,'native Woka32; seats',len(seats),'walkable',int(np.count_nonzero(grid)))
+
+(R/'runtime.js').write_text((R/'source/runtime.template.js').read_text().replace('__LAYOUT__',json.dumps(dict(office=layout['office'],cutaway=layout['cutaway'],doors=layout['doors']),separators=(',',':'))))
+
+(R/'source/registration.json').write_text(json.dumps(dict(officeFloor=[OX,OY,OW,OH],exterior=[EX,EY,EW,SH],sourceAlphaBounds=bounds,sourceCropSize=list(original.size),frontThreshold=OY+OH,windowMask='actual transparent apertures, including upper wing panes',opaqueStructure=True,cutaway=layout['cutaway']),indent=2)+'\n')

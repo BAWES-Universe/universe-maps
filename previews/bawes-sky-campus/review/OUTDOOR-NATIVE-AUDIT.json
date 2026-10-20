@@ -1,0 +1,37 @@
+{
+  "currentMapOnly": true,
+  "nativeWoka": 32,
+  "renderedChairContent": [
+    32,
+    40
+  ],
+  "chairAtlasPadding": [
+    48,
+    64
+  ],
+  "cafeTable": [
+    64,
+    64
+  ],
+  "replacementSofa": [
+    128,
+    80
+  ],
+  "stageChairPitch": [
+    56,
+    64
+  ],
+  "outdoorSeatCount": 48,
+  "allOutdoorAnchorsConnected": true,
+  "groups": {
+    "audience": 32,
+    "cafe": 6,
+    "west-review": 4,
+    "outdoor-lounge": 6
+  },
+  "limitations": [
+    "reachability is not seated pose or facing validation",
+    "current metadata facing does not rotate player",
+    "no exact source chair bounds or clearances inferred from illustration"
+  ]
+}

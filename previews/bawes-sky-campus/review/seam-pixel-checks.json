@@ -1,0 +1,54 @@
+{
+  "north-seam-baseline": {
+    "pixel": [
+      62,
+      136,
+      252
+    ],
+    "neighbor": [
+      100,
+      164,
+      253
+    ],
+    "maximumChannelDifference": 38
+  },
+  "north-seam-padded": {
+    "pixel": [
+      100,
+      164,
+      253
+    ],
+    "neighbor": [
+      100,
+      164,
+      253
+    ],
+    "maximumChannelDifference": 0
+  },
+  "mobile-edge-north": {
+    "pixel": [
+      100,
+      164,
+      253
+    ],
+    "neighbor": [
+      100,
+      164,
+      253
+    ],
+    "maximumChannelDifference": 0
+  },
+  "optimized-north-seam-padded": {
+    "pixel": [
+      100,
+      164,
+      253
+    ],
+    "neighbor": [
+      100,
+      164,
+      253
+    ],
+    "maximumChannelDifference": 0
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "label": "runtime-campus-exterior",
+    "details": {
+      "x": 4016,
+      "y": 3600,
+      "scale": 1,
+      "zoom": 0.2,
+      "view": {
+        "type": 5,
+        "x": 416,
+        "y": 1110,
+        "width": 7200,
+        "height": 4500
+      },
+      "cover": true,
+      "layers": {
+        "office-window-interior": true,
+        "office-floor": false,
+        "office-walls": false,
+        "campus-furniture": true,
+        "office-furniture": false,
+        "office-chair-fronts": false,
+        "office-cover": true
+      }
+    }
+  }
+]

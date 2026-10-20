@@ -1,0 +1,111 @@
+[
+  {
+    "label": "meeting lock shared across clients",
+    "pass": true,
+    "details": {
+      "locked": true,
+      "owner": "b1118974-ca07-43f1-b612-ec64d3f65a25",
+      "expiresAt": 1792310150246
+    }
+  },
+  {
+    "label": "locked room blocks outside entry",
+    "pass": true,
+    "details": {
+      "x": 4248,
+      "y": 2496,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3888,
+        "y": 2247,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "owner safe exit while locked",
+    "pass": true,
+    "details": {
+      "x": 4248,
+      "y": 2496,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3888,
+        "y": 2271,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "unlocked room entry",
+    "pass": true,
+    "details": {
+      "x": 4344,
+      "y": 2496,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3896,
+        "y": 2207,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "cutaway is client-local",
+    "pass": true,
+    "details": {
+      "inside": {
+        "x": 3352,
+        "y": 2960,
+        "scale": 1,
+        "zoom": 1,
+        "view": {
+          "type": 5,
+          "x": 2992,
+          "y": 2711,
+          "width": 720,
+          "height": 450
+        },
+        "cover": false
+      },
+      "outside": {
+        "x": 3352,
+        "y": 3136,
+        "scale": 1,
+        "zoom": 1,
+        "view": {
+          "type": 5,
+          "x": 2992,
+          "y": 2887,
+          "width": 720,
+          "height": 450
+        },
+        "cover": true
+      }
+    }
+  },
+  {
+    "label": "outside client receives visible occupant",
+    "pass": true,
+    "details": [
+      {
+        "x": 3352,
+        "y": 2960,
+        "visible": true,
+        "alpha": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "baseCommit": "851a243dfe31a1ffe4a18adbb9775b3d97c97fa2",
+  "status": "art-direction alternatives only; not integrated or playable",
+  "requestedWholeCampusPixels": [
+    4608,
+    3072
+  ],
+  "returnedWholeCampusPixels": [
+    1536,
+    1024
+  ],
+  "originalSceneryPixels": [
+    1536,
+    1024
+  ],
+  "originalWorldScale": 3,
+  "candidateImages": {
+    "whole-campus-concept.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "65d2534f600313d977129998a1afa39f2910b25b0e1e5f02976c5bb40f379a58"
+    },
+    "cafe-whole-region-concept.png": {
+      "size": [
+        1281,
+        1228
+      ],
+      "sha256": "58d30a1179ad580af0740090dd52ba8d171b7218839725dd54b3ec0849d0d8da"
+    },
+    "conservatory-whole-region-concept.png": {
+      "size": [
+        1096,
+        1435
+      ],
+      "sha256": "d0061afc7fbb68fcb1524ea3524c99e52741a802e19473a05fcad6593fe43663"
+    }
+  },
+  "blockedReferenceDownload": {
+    "libraryId": "libfile_4bc08b40cc8c819180e25dbd20b44023",
+    "metadataLookup": "success",
+    "download": "proxy tunnel403 Forbidden; no file copied; no repeated download"
+  },
+  "integrationBlockers": [
+    "Full-campus output is1/3 required linear resolution; enlarging repeats the rejected blur.",
+    "Regional renders change bridge/terrace geometry and are not registered to shared seams.",
+    "Baked sofa/table dimensions do not honor native144/64px targets; occupancy/foreground/collision layers are absent.",
+    "The alcove concept improves continuity but does not prove a physically correct recessed entry at existing map coordinates."
+  ],
+  "runtimeMapUnchanged": true,
+  "runtimeScriptUnchanged": true
+}

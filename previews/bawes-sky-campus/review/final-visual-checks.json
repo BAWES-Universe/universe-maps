@@ -1,0 +1,438 @@
+[
+  {
+    "label": "closed entrance has illustrated leaves",
+    "pass": true,
+    "details": {
+      "office-front-door": true,
+      "office-front-leaves": true,
+      "reception-activity": false
+    }
+  },
+  {
+    "label": "front approach",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 3088,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3509,
+        "y": 2732,
+        "width": 1029,
+        "height": 643
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "gate has three intermediate frames over time",
+    "pass": true,
+    "details": {
+      "observedFrames": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "label": "entrance leaves open on approach",
+    "pass": true,
+    "details": {
+      "office-front-door": false,
+      "office-front-leaves": false,
+      "reception-activity": false
+    }
+  },
+  {
+    "label": "roof comparison identical camera and avatar",
+    "pass": true,
+    "details": {
+      "before": {
+        "x": 4024,
+        "y": 2768,
+        "scale": 1,
+        "zoom": 0.54,
+        "view": {
+          "type": 5,
+          "x": 2691,
+          "y": 1846,
+          "width": 2667,
+          "height": 1667
+        },
+        "cover": false
+      },
+      "after": {
+        "x": 4024,
+        "y": 2768,
+        "scale": 1,
+        "zoom": 0.54,
+        "view": {
+          "type": 5,
+          "x": 2691,
+          "y": 1846,
+          "width": 2667,
+          "height": 1667
+        },
+        "cover": true
+      },
+      "method": "stationary inside player; force only roof/floor visibility through map API for comparison"
+    }
+  },
+  {
+    "label": "native work chair",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 402
+      },
+      "x": 3080,
+      "y": 2672,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2720,
+        "y": 2423,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "project room entrance",
+    "pass": true,
+    "details": {
+      "x": 4376,
+      "y": 2864,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4016,
+        "y": 2615,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "reception approach",
+    "pass": true,
+    "details": {
+      "x": 4216,
+      "y": 2960,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3856,
+        "y": 2711,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "reception proximity glow active",
+    "pass": true,
+    "details": {
+      "office-front-door": false,
+      "office-front-leaves": false,
+      "reception-activity": true
+    }
+  },
+  {
+    "label": "reduced motion suppresses activity glow",
+    "pass": true,
+    "details": {
+      "office-front-door": false,
+      "office-front-leaves": false,
+      "reception-activity": false
+    }
+  },
+  {
+    "label": "beverage approach",
+    "pass": true,
+    "details": {
+      "x": 4216,
+      "y": 2816,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3856,
+        "y": 2567,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "beverage action animates three steam frames",
+    "pass": true,
+    "details": [
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": true,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": true,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": true,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": true,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": true,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": true
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      },
+      {
+        "beverage-steam-0": false,
+        "beverage-steam-1": false,
+        "beverage-steam-2": false
+      }
+    ]
+  },
+  {
+    "label": "steam stops after the activity",
+    "pass": true,
+    "details": {}
+  },
+  {
+    "label": "front exit",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 3184,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3664,
+        "y": 2935,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "exterior restores and entrance recloses",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 3184,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3664,
+        "y": 2935,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true,
+      "office-front-door": true,
+      "office-front-leaves": true,
+      "reception-activity": false
+    }
+  },
+  {
+    "label": "runtime-campus-exterior",
+    "details": {
+      "x": 4024,
+      "y": 3600,
+      "scale": 1,
+      "zoom": 0.2,
+      "view": {
+        "type": 5,
+        "x": 424,
+        "y": 1110,
+        "width": 7200,
+        "height": 4500
+      },
+      "cover": true,
+      "layers": {
+        "office-window-interior": true,
+        "office-floor": false,
+        "office-walls": false,
+        "campus-furniture": true,
+        "office-furniture": false,
+        "office-chair-fronts": false,
+        "office-cover": true
+      }
+    }
+  },
+  {
+    "label": "touch chair in bounded interior",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 215,
+        "y": 386
+      },
+      "x": 3080,
+      "y": 2672,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2865,
+        "y": 2222,
+        "width": 430,
+        "height": 900
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "touch chair exit",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 247,
+        "y": 498
+      },
+      "x": 3112,
+      "y": 2720,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2897,
+        "y": 2270,
+        "width": 430,
+        "height": 900
+      },
+      "cover": false
+    }
+  }
+]

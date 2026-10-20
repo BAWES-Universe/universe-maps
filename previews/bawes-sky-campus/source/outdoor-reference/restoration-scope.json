@@ -1,0 +1,104 @@
+{
+  "status": "source preparation only; not integrated or final collision geometry",
+  "referenceCommit": "532e7da29f5c3122974e3be7ac2a9552df5c0a27",
+  "preserveWorldLayout": true,
+  "coordinateMapping": {
+    "sourceOrigin": [
+      0,
+      0
+    ],
+    "worldOrigin": [
+      1792,
+      2048
+    ],
+    "existingSpatialScale": 3,
+    "note": "Mapping identifies existing destination areas. It is not permission to enlarge reference pixels."
+  },
+  "districts": [
+    {
+      "name": "cafe",
+      "approximateReferenceEnvelope": [
+        90,
+        625,
+        480,
+        930
+      ],
+      "existingWorldEnvelope": [
+        2062,
+        3923,
+        1170,
+        915
+      ],
+      "requiredMatchingFeatures": [
+        "timber deck and stepped edge",
+        "counter with separate bar stools",
+        "curved lounge groups and side tables",
+        "pond rim, lily water and waterfall continuity"
+      ],
+      "exports": [
+        "native-detail ground and architecture plate without furniture",
+        "complete furniture and separate shadows",
+        "foreground occlusion masks",
+        "seat/door/edge coordinate manifest"
+      ]
+    },
+    {
+      "name": "left-conversation",
+      "approximateReferenceEnvelope": [
+        40,
+        300,
+        320,
+        490
+      ],
+      "existingWorldEnvelope": [
+        1912,
+        2948,
+        840,
+        570
+      ],
+      "requiredMatchingFeatures": [
+        "conservatory entrance",
+        "curved/sunken conversation alcove",
+        "continuous stone steps and clear approach"
+      ],
+      "exports": [
+        "native-detail ground and architecture plate without furniture",
+        "complete furniture and separate shadows",
+        "foreground occlusion masks",
+        "seat/door/edge coordinate manifest"
+      ]
+    },
+    {
+      "name": "stage",
+      "approximateReferenceEnvelope": [
+        1184,
+        270,
+        1510,
+        520
+      ],
+      "existingWorldEnvelope": [
+        5344,
+        2858,
+        978,
+        750
+      ],
+      "requiredMatchingFeatures": [
+        "warm stage floor and stepped edge",
+        "audience ground with contrast",
+        "two chair banks and clear central aisle",
+        "chair fronts/backs separated for native occupants"
+      ],
+      "exports": [
+        "native-detail ground and architecture plate without furniture",
+        "complete furniture and separate shadows",
+        "foreground occlusion masks",
+        "seat/door/edge coordinate manifest"
+      ]
+    }
+  ],
+  "benches": {
+    "scope": "office terrace and lower arrival/portal-edge seating, preserving planted-edge relationship",
+    "need": "matched bench/curved-lounge components, complete seat/front/back views and clean ground where current baked furniture must be removed",
+    "doNot": "replace benches with unrelated sofas or add furniture over baked seats"
+  }
+}

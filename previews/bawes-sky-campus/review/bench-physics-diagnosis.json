@@ -1,0 +1,2190 @@
+[
+  {
+    "seat": {
+      "x": 5208,
+      "y": 4224,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "clicks": [
+      {
+        "point": {
+          "x": 560,
+          "y": 322,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4928,
+            4063
+          ],
+          "view": {
+            "type": 5,
+            "x": 4928,
+            "y": 4063,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5280,
+            "y": 4288
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5208,
+                "y": 4224
+              },
+              true
+            ],
+            "start": {
+              "x": 5288,
+              "y": 4288
+            },
+            "result": {
+              "x": 5208,
+              "y": 4224,
+              "cancelled": false
+            },
+            "frames": [
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5216,
+                  4222.924803791268,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5207.950155281001,
+                  4222.924803791268
+                ],
+                "delta": [
+                  -8.049844718999339,
+                  1.3362742233539393
+                ],
+                "blocked": {
+                  "none": false,
+                  "up": false,
+                  "down": false,
+                  "left": true,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "after": {
+          "x": 5216.049844718999,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      },
+      {
+        "point": {
+          "x": 704,
+          "y": 450,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4856,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5208.049844718999,
+            "y": 4224
+          }
+        },
+        "requests": [],
+        "after": {
+          "x": 5216.049844718999,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      },
+      {
+        "point": {
+          "x": 704,
+          "y": 450,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4856,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5208.049844718999,
+            "y": 4224
+          }
+        },
+        "requests": [],
+        "after": {
+          "x": 5216.049844718999,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ]
+  },
+  {
+    "seat": {
+      "x": 5208,
+      "y": 4224,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "clicks": [
+      {
+        "point": {
+          "x": 560,
+          "y": 322,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4928,
+            4063
+          ],
+          "view": {
+            "type": 5,
+            "x": 4928,
+            "y": 4063,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5280,
+            "y": 4288
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5208,
+                "y": 4224
+              },
+              true
+            ],
+            "start": {
+              "x": 5288,
+              "y": 4288
+            },
+            "result": {
+              "x": 5208,
+              "y": 4224,
+              "cancelled": false
+            },
+            "frames": [
+              {
+                "x": 5216.033745029561,
+                "y": 4224,
+                "body": [
+                  5216,
+                  4222.932853635986,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5207.966254970439,
+                  4222.932853635986
+                ],
+                "delta": [
+                  -8.033745029561032,
+                  1.3443240680726376
+                ],
+                "blocked": {
+                  "none": false,
+                  "up": false,
+                  "down": false,
+                  "left": true,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.033745029561,
+                "y": 4224,
+                "body": [
+                  5208.033745029561,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.033745029561,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.033745029561,
+                "y": 4224,
+                "body": [
+                  5208.033745029561,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.033745029561,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.033745029561,
+                "y": 4224,
+                "body": [
+                  5208.033745029561,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.033745029561,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.033745029561,
+                "y": 4224,
+                "body": [
+                  5208.033745029561,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.033745029561,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.033745029561,
+                "y": 4224,
+                "body": [
+                  5208.033745029561,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.033745029561,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.033745029561,
+                "y": 4224,
+                "body": [
+                  5208.033745029561,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.033745029561,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.033745029561,
+                "y": 4224,
+                "body": [
+                  5208.033745029561,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.033745029561,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.033745029561,
+                "y": 4224,
+                "body": [
+                  5208.033745029561,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.033745029561,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.033745029561,
+                "y": 4224,
+                "body": [
+                  5208.033745029561,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.033745029561,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.033745029561,
+                "y": 4224,
+                "body": [
+                  5208.033745029561,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.033745029561,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "after": {
+          "x": 5216.033745029561,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      },
+      {
+        "point": {
+          "x": 704,
+          "y": 450,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4856,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5208.033745029561,
+            "y": 4224
+          }
+        },
+        "requests": [],
+        "after": {
+          "x": 5216.033745029561,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      },
+      {
+        "point": {
+          "x": 704,
+          "y": 450,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4856,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5208.033745029561,
+            "y": 4224
+          }
+        },
+        "requests": [],
+        "after": {
+          "x": 5216.033745029561,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ]
+  },
+  {
+    "seat": {
+      "x": 5208,
+      "y": 4224,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "clicks": [
+      {
+        "point": {
+          "x": 560,
+          "y": 322,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4928,
+            4063
+          ],
+          "view": {
+            "type": 5,
+            "x": 4928,
+            "y": 4063,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5280,
+            "y": 4288
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5208,
+                "y": 4224
+              },
+              true
+            ],
+            "start": {
+              "x": 5288,
+              "y": 4288
+            },
+            "result": {
+              "x": 5208,
+              "y": 4224,
+              "cancelled": false
+            },
+            "frames": [
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5216,
+                  4222.924803791267,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5207.950155281001,
+                  4222.924803791267
+                ],
+                "delta": [
+                  -8.049844718999339,
+                  1.3443240680726376
+                ],
+                "blocked": {
+                  "none": false,
+                  "up": false,
+                  "down": false,
+                  "left": true,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "after": {
+          "x": 5216.049844718999,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      },
+      {
+        "point": {
+          "x": 704,
+          "y": 450,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4856,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5208.049844718999,
+            "y": 4224
+          }
+        },
+        "requests": [],
+        "after": {
+          "x": 5216.049844718999,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      },
+      {
+        "point": {
+          "x": 704,
+          "y": 450,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4856,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5208.049844718999,
+            "y": 4224
+          }
+        },
+        "requests": [],
+        "after": {
+          "x": 5216.049844718999,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ]
+  },
+  {
+    "seat": {
+      "x": 5208,
+      "y": 4224,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "clicks": [
+      {
+        "point": {
+          "x": 560,
+          "y": 322,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4928,
+            4063
+          ],
+          "view": {
+            "type": 5,
+            "x": 4928,
+            "y": 4063,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5280,
+            "y": 4288
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5208,
+                "y": 4224
+              },
+              true
+            ],
+            "start": {
+              "x": 5288,
+              "y": 4288
+            },
+            "result": {
+              "x": 5208,
+              "y": 4224,
+              "cancelled": false
+            },
+            "frames": [
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5216,
+                  4222.932853635986,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5207.950155281001,
+                  4222.932853635986
+                ],
+                "delta": [
+                  -8.049844718999339,
+                  1.3443240680726376
+                ],
+                "blocked": {
+                  "none": false,
+                  "up": false,
+                  "down": false,
+                  "left": true,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5216.049844718999,
+                "y": 4224,
+                "body": [
+                  5208.049844718999,
+                  4224,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5208.049844718999,
+                  4224
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "after": {
+          "x": 5216.049844718999,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      },
+      {
+        "point": {
+          "x": 704,
+          "y": 450,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4856,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5208.049844718999,
+            "y": 4224
+          }
+        },
+        "requests": [],
+        "after": {
+          "x": 5216.049844718999,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      },
+      {
+        "point": {
+          "x": 704,
+          "y": 450,
+          "inverse": {
+            "x": 5208,
+            "y": 4224
+          },
+          "scroll": [
+            4856,
+            3999
+          ],
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5208.049844718999,
+            "y": 4224
+          }
+        },
+        "requests": [],
+        "after": {
+          "x": 5216.049844718999,
+          "y": 4224,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4856,
+            "y": 3999,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ]
+  }
+]

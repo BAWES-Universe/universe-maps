@@ -1,0 +1,26 @@
+vite v4.5.14 building for production...
+transforming...
+✓ 1 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/assets/bawes-sky-campus-runtime-307d27ad.js  1.86 kB │ gzip: 0.93 kB
+campus optimization is started!
+Start tiles optimization...
+Layer "scenery-and-campus" uses 229376 tiles, more than the 65536 fitting in a single 4096x4096 tileset.
+It will be split across several tilesets and will NOT be eligible for GPU rendering. Consider raising output.tileset.size or simplifying the layer.
+Chunk 1: 4096x4096px, 65536 tiles — layers: scenery-and-campus
+Chunk 2: 4096x4096px, 65536 tiles — layers: scenery-and-campus
+Chunk 3: 4096x4096px, 65536 tiles — layers: scenery-and-campus
+Chunk 4: 4096x2048px, 32768 tiles — layers: scenery-and-campus
+Chunk 5: 4096x2048px, 24098 tiles — layers: office-floor, office-walls, furniture, persistent-collision, start, office-interior, chair-fronts, meeting-1-door, meeting-2-door, meeting-3-door, meeting-4-door, office-front-door, office-rear-door, office-cover
+Tiles optimization has been done: 5 tileset(s), 253474 unique tiles, 0 duplicated
+campus map file render in progress!
+campus map file rendered!
+✓ built in 8.50s
+
+========================================
+ Map optimization report
+========================================
+  1 map(s) processed, 1 succeeded, 0 failed.
+  ✓ All maps optimized successfully.
+

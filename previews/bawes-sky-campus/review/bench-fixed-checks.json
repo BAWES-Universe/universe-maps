@@ -1,0 +1,3778 @@
+[
+  {
+    "seat": {
+      "x": 5160,
+      "y": 4240,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "approach": [
+      5288,
+      4304
+    ],
+    "clicks": [
+      {
+        "point": {
+          "x": 464,
+          "y": 322,
+          "inverse": {
+            "x": 5160,
+            "y": 4240
+          },
+          "scroll": [
+            4928,
+            4079
+          ],
+          "view": {
+            "type": 5,
+            "x": 4928,
+            "y": 4079,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5280,
+            "y": 4304
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5160,
+                "y": 4240
+              },
+              true
+            ],
+            "start": {
+              "x": 5288,
+              "y": 4304
+            },
+            "result": {
+              "x": 5160,
+              "y": 4240,
+              "cancelled": false
+            },
+            "frames": [
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5154.161125543757,
+                  4238.919437228121,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5154.161125543757,
+                  4238.919437228121
+                ],
+                "delta": [
+                  -5.361196582853154,
+                  2.680598291426577
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "after": {
+          "x": 5160,
+          "y": 4240,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4800,
+            "y": 4015,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ],
+    "pass": true
+  },
+  {
+    "seat": {
+      "x": 5208,
+      "y": 4240,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "approach": [
+      5288,
+      4304
+    ],
+    "clicks": [
+      {
+        "point": {
+          "x": 560,
+          "y": 322,
+          "inverse": {
+            "x": 5208,
+            "y": 4240
+          },
+          "scroll": [
+            4928,
+            4079
+          ],
+          "view": {
+            "type": 5,
+            "x": 4928,
+            "y": 4079,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5280,
+            "y": 4304
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5208,
+                "y": 4240
+              },
+              true
+            ],
+            "start": {
+              "x": 5288,
+              "y": 4304
+            },
+            "result": {
+              "x": 5208,
+              "y": 4240,
+              "cancelled": false
+            },
+            "frames": [
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5202.150392417465,
+                  4238.924803791268,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5202.150392417465,
+                  4238.924803791268
+                ],
+                "delta": [
+                  -2.688648136145275,
+                  1.3443240680726376
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "after": {
+          "x": 5208,
+          "y": 4240,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4848,
+            "y": 4015,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ],
+    "pass": true
+  },
+  {
+    "seat": {
+      "x": 5160,
+      "y": 4240,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "approach": [
+      5080,
+      4304
+    ],
+    "clicks": [
+      {
+        "point": {
+          "x": 880,
+          "y": 322,
+          "inverse": {
+            "x": 5160,
+            "y": 4240
+          },
+          "scroll": [
+            4720,
+            4079
+          ],
+          "view": {
+            "type": 5,
+            "x": 4720,
+            "y": 4079,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5072,
+            "y": 4304
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5160,
+                "y": 4240
+              },
+              true
+            ],
+            "start": {
+              "x": 5080,
+              "y": 4304
+            },
+            "result": {
+              "x": 5160,
+              "y": 4240,
+              "cancelled": false
+            },
+            "frames": [
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5149.8657072719725,
+                  4238.932853635986,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5149.8657072719725,
+                  4238.932853635986
+                ],
+                "delta": [
+                  2.6886481361461847,
+                  1.3443240680726376
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "after": {
+          "x": 5160,
+          "y": 4240,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4800,
+            "y": 4015,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ],
+    "pass": true
+  },
+  {
+    "seat": {
+      "x": 5208,
+      "y": 4240,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "approach": [
+      5080,
+      4304
+    ],
+    "clicks": [
+      {
+        "point": {
+          "x": 976,
+          "y": 322,
+          "inverse": {
+            "x": 5208,
+            "y": 4240
+          },
+          "scroll": [
+            4720,
+            4079
+          ],
+          "view": {
+            "type": 5,
+            "x": 4720,
+            "y": 4079,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5072,
+            "y": 4304
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5208,
+                "y": 4240
+              },
+              true
+            ],
+            "start": {
+              "x": 5080,
+              "y": 4304
+            },
+            "result": {
+              "x": 5208,
+              "y": 4240,
+              "cancelled": false
+            },
+            "frames": [
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5197.854974145681,
+                  4238.92748707284,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5197.854974145681,
+                  4238.92748707284
+                ],
+                "delta": [
+                  2.688648136145275,
+                  1.3443240680726376
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "after": {
+          "x": 5208,
+          "y": 4240,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4848,
+            "y": 4015,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ],
+    "pass": true
+  },
+  {
+    "seat": {
+      "x": 5160,
+      "y": 4240,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "approach": [
+      5184,
+      4352
+    ],
+    "clicks": [
+      {
+        "point": {
+          "x": 656,
+          "y": 226,
+          "inverse": {
+            "x": 5160,
+            "y": 4240
+          },
+          "scroll": [
+            4832,
+            4127
+          ],
+          "view": {
+            "type": 5,
+            "x": 4832,
+            "y": 4127,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5184,
+            "y": 4352
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5160,
+                "y": 4240
+              },
+              true
+            ],
+            "start": {
+              "x": 5192,
+              "y": 4352
+            },
+            "result": {
+              "x": 5160,
+              "y": 4240,
+              "cancelled": false
+            },
+            "frames": [
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4242.242833995939,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4242.242833995939
+                ],
+                "delta": [
+                  0,
+                  -3.0060000000012224
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "after": {
+          "x": 5160,
+          "y": 4240,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4800,
+            "y": 4015,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ],
+    "pass": true
+  },
+  {
+    "seat": {
+      "x": 5208,
+      "y": 4240,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "approach": [
+      5184,
+      4352
+    ],
+    "clicks": [
+      {
+        "point": {
+          "x": 752,
+          "y": 226,
+          "inverse": {
+            "x": 5208,
+            "y": 4240
+          },
+          "scroll": [
+            4832,
+            4127
+          ],
+          "view": {
+            "type": 5,
+            "x": 4832,
+            "y": 4127,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5184,
+            "y": 4352
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5208,
+                "y": 4240
+              },
+              true
+            ],
+            "start": {
+              "x": 5192,
+              "y": 4352
+            },
+            "result": {
+              "x": 5208,
+              "y": 4240,
+              "cancelled": false
+            },
+            "frames": [
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4241.645416997969,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4241.645416997969
+                ],
+                "delta": [
+                  0,
+                  -2.9880000000011933
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "after": {
+          "x": 5208,
+          "y": 4240,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4848,
+            "y": 4015,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ],
+    "pass": true
+  },
+  {
+    "seat": {
+      "x": 5160,
+      "y": 4240,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "approach": [
+      5336,
+      4256
+    ],
+    "clicks": [
+      {
+        "point": {
+          "x": 368,
+          "y": 418,
+          "inverse": {
+            "x": 5160,
+            "y": 4240
+          },
+          "scroll": [
+            4976,
+            4031
+          ],
+          "view": {
+            "type": 5,
+            "x": 4976,
+            "y": 4031,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5328,
+            "y": 4256
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5160,
+                "y": 4240
+              },
+              true
+            ],
+            "start": {
+              "x": 5336,
+              "y": 4256
+            },
+            "result": {
+              "x": 5160,
+              "y": 4240,
+              "cancelled": false
+            },
+            "frames": [
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152.488322200811,
+                  4239.755838899595,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152.488322200811,
+                  4239.755838899595
+                ],
+                "delta": [
+                  -2.672548446706969,
+                  1.3362742233539393
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5160,
+                "y": 4240,
+                "body": [
+                  5152,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5152,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "after": {
+          "x": 5160,
+          "y": 4240,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4800,
+            "y": 4015,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ],
+    "pass": true
+  },
+  {
+    "seat": {
+      "x": 5208,
+      "y": 4240,
+      "group": "outdoor-lounge",
+      "facing": "down"
+    },
+    "approach": [
+      5336,
+      4256
+    ],
+    "clicks": [
+      {
+        "point": {
+          "x": 464,
+          "y": 418,
+          "inverse": {
+            "x": 5208,
+            "y": 4240
+          },
+          "scroll": [
+            4976,
+            4031
+          ],
+          "view": {
+            "type": 5,
+            "x": 4976,
+            "y": 4031,
+            "width": 720,
+            "height": 450
+          },
+          "body": {
+            "x": 5328,
+            "y": 4256
+          }
+        },
+        "requests": [
+          {
+            "args": [
+              {
+                "x": 5208,
+                "y": 4240
+              },
+              true
+            ],
+            "start": {
+              "x": 5336,
+              "y": 4256
+            },
+            "result": {
+              "x": 5208,
+              "y": 4240,
+              "cancelled": false
+            },
+            "frames": [
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200.477589074519,
+                  4239.761205462741,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200.477589074519,
+                  4239.761205462741
+                ],
+                "delta": [
+                  -2.672548446708788,
+                  1.3362742233548488
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "x": 5208,
+                "y": 4240,
+                "body": [
+                  5200,
+                  4240,
+                  16,
+                  16
+                ],
+                "prev": [
+                  5200,
+                  4240
+                ],
+                "delta": [
+                  0,
+                  0
+                ],
+                "blocked": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "touching": {
+                  "none": true,
+                  "up": false,
+                  "down": false,
+                  "left": false,
+                  "right": false
+                },
+                "velocity": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "after": {
+          "x": 5208,
+          "y": 4240,
+          "scale": 1,
+          "zoom": 1,
+          "view": {
+            "type": 5,
+            "x": 4848,
+            "y": 4015,
+            "width": 720,
+            "height": 450
+          },
+          "cover": true
+        }
+      }
+    ],
+    "pass": true
+  }
+]

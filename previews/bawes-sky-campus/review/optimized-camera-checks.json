@@ -1,0 +1,188 @@
+[
+  {
+    "label": "desktop camera north",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 4024,
+      "y": 1536,
+      "scale": 1,
+      "zoom": 0.7057610772277254,
+      "view": {
+        "type": 5,
+        "x": 3004,
+        "y": 830,
+        "width": 2040,
+        "height": 1275
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "desktop camera south",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 5688,
+      "y": 4576,
+      "scale": 1,
+      "zoom": 0.7057610772277254,
+      "view": {
+        "type": 5,
+        "x": 4668,
+        "y": 3870,
+        "width": 2040,
+        "height": 1275
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "desktop camera west",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 1960,
+      "y": 3280,
+      "scale": 1,
+      "zoom": 0.7057610772277254,
+      "view": {
+        "type": 5,
+        "x": 940,
+        "y": 2574,
+        "width": 2040,
+        "height": 1275
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "desktop camera east",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 6248,
+      "y": 3312,
+      "scale": 1,
+      "zoom": 0.7057610772277254,
+      "view": {
+        "type": 5,
+        "x": 5228,
+        "y": 2606,
+        "width": 2040,
+        "height": 1275
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "desktop Explore initial view",
+    "details": {
+      "x": 6248,
+      "y": 3312,
+      "scale": 1,
+      "zoom": 0.7057610772277254,
+      "view": {
+        "type": 5,
+        "x": 5228,
+        "y": 2606,
+        "width": 2040,
+        "height": 1275
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "mobile camera north",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 4024,
+      "y": 1536,
+      "scale": 1,
+      "zoom": 0.32768000000000014,
+      "view": {
+        "type": 5,
+        "x": 3368,
+        "y": 272,
+        "width": 1312,
+        "height": 2747
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "mobile camera south",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 5688,
+      "y": 4576,
+      "scale": 1,
+      "zoom": 0.32768000000000014,
+      "view": {
+        "type": 5,
+        "x": 5032,
+        "y": 3312,
+        "width": 1312,
+        "height": 2747
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "mobile camera west",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 1960,
+      "y": 3280,
+      "scale": 1,
+      "zoom": 0.32768000000000014,
+      "view": {
+        "type": 5,
+        "x": 1304,
+        "y": 2016,
+        "width": 1312,
+        "height": 2747
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "mobile camera east",
+    "pass": true,
+    "details": {
+      "method": "camera-only placement, five supported zoomByFactor(.8) operations",
+      "x": 6248,
+      "y": 3312,
+      "scale": 1,
+      "zoom": 0.32768000000000014,
+      "view": {
+        "type": 5,
+        "x": 5592,
+        "y": 2048,
+        "width": 1312,
+        "height": 2747
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "mobile Explore initial view",
+    "details": {
+      "x": 6248,
+      "y": 3312,
+      "scale": 1,
+      "zoom": 0.32768000000000014,
+      "view": {
+        "type": 5,
+        "x": 5592,
+        "y": 2048,
+        "width": 1312,
+        "height": 2747
+      },
+      "cover": false
+    }
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "label": "west facade transition",
+    "pass": true,
+    "details": {
+      "x": 3512,
+      "y": 3168,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3152,
+        "y": 2943,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "same-camera baked-plant diagnostic",
+    "pass": true,
+    "details": {
+      "before": {
+        "x": 3512,
+        "y": 3168,
+        "scale": 1,
+        "zoom": 1,
+        "view": {
+          "type": 5,
+          "x": 3152,
+          "y": 2943,
+          "width": 720,
+          "height": 450
+        },
+        "cover": true
+      },
+      "after": {
+        "x": 3512,
+        "y": 3168,
+        "scale": 1,
+        "zoom": 1,
+        "view": {
+          "type": 5,
+          "x": 3152,
+          "y": 2943,
+          "width": 720,
+          "height": 450
+        },
+        "cover": false
+      },
+      "diagnostic": "temporarily hide façade/window layers; not a proposed map change"
+    }
+  },
+  {
+    "label": "team work area",
+    "pass": true,
+    "details": {
+      "x": 3448,
+      "y": 2784,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3088,
+        "y": 2559,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "beverage approach without popup",
+    "pass": true,
+    "details": {
+      "x": 4216,
+      "y": 2816,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3856,
+        "y": 2591,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "no map popup on approach dwell or Space",
+    "pass": true,
+    "details": {
+      "popupCalls": [],
+      "bodyText": "Zoom In +\nZoom Out -\nLook around the map\n👍\nExplore\nConsistency Audit\nOnline\nConsistency Audit"
+    }
+  },
+  {
+    "label": "existing deliberate chair control",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 720,
+        "y": 354
+      },
+      "x": 3080,
+      "y": 2672,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2720,
+        "y": 2447,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  },
+  {
+    "label": "native camera scale",
+    "pass": true,
+    "details": {
+      "x": 3080,
+      "y": 2672,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2720,
+        "y": 2447,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    }
+  }
+]

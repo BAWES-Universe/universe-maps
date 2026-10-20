@@ -1,0 +1,142 @@
+[
+  {
+    "name": "east bridge floor",
+    "pass": true,
+    "x": 5176,
+    "y": 3168,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4816,
+      "y": 2943,
+      "width": 720,
+      "height": 450
+    },
+    "cover": true
+  },
+  {
+    "name": "west bridge floor",
+    "pass": true,
+    "x": 2920,
+    "y": 3184,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2560,
+      "y": 2959,
+      "width": 720,
+      "height": 450
+    },
+    "cover": true
+  },
+  {
+    "name": "gate approach",
+    "pass": true,
+    "x": 4024,
+    "y": 3088,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3664,
+      "y": 2863,
+      "width": 720,
+      "height": 450
+    },
+    "cover": true
+  },
+  {
+    "name": "gate entry",
+    "pass": true,
+    "x": 4024,
+    "y": 2992,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3664,
+      "y": 2767,
+      "width": 720,
+      "height": 450
+    },
+    "cover": false
+  },
+  {
+    "name": "inside front lounge",
+    "pass": true,
+    "x": 3352,
+    "y": 2960,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2992,
+      "y": 2735,
+      "width": 720,
+      "height": 450
+    },
+    "cover": false
+  },
+  {
+    "name": "outside observation",
+    "pass": true,
+    "x": 3352,
+    "y": 3136,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2992,
+      "y": 2911,
+      "width": 720,
+      "height": 450
+    },
+    "cover": true
+  },
+  {
+    "name": "cutaway client local",
+    "pass": true,
+    "ownerState": {
+      "x": 3352,
+      "y": 2960,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2992,
+        "y": 2735,
+        "width": 720,
+        "height": 450
+      },
+      "cover": false
+    },
+    "visitorState": {
+      "x": 3352,
+      "y": 3136,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2992,
+        "y": 2911,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "name": "outside receives occupant",
+    "pass": true,
+    "remote": [
+      {
+        "x": 3352,
+        "y": 2960,
+        "visible": true,
+        "alpha": 1
+      }
+    ]
+  }
+]

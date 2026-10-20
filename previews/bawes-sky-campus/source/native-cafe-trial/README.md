@@ -24,4 +24,6 @@ Earlier café records are retained: `bar-corrected-checks.json` passed 18/18 aft
 
 Rebuild with `python build-candidate.py`, verify with `python verify-candidate.py`, and capture the assembled native map with `python export-candidate.py gameplay-map-native.png 1664 2048 4864 3712`. Overview images are downscaled for review only. Gameplay scripts use the local pinned Universe client and Chromium CDP on port 9222.
 
-Current review: assembled sky seams corrected; 32/32 interaction checks passed; final façade-strip/lamp-depth correction and refreshed captures under visual review. Do not describe this as user-approved or deployed.
+Current review: assembled sky seams corrected; ready for review: refreshed ten-region traversal completed; final 8/8 bridge, gate and two-client checks passed; corrected façade strip and occupant view visually inspected. See `whole-map/final-summary.json` for the tested candidate hash. Do not describe this as user-approved or deployed.
+
+The existing draft PR branch received the implementation milestone `efcfcc8`. GitHub GraphQL and REST metadata lookups returned Forbidden in this environment; branch pushes succeeded. No PR title/body update was attempted after those lookup failures.

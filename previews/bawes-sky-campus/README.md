@@ -41,3 +41,5 @@ Latest source assessment and bounded polish: [counter and navigation follow-up](
 Counter source candidates were tested offline and rejected without map changes: [assessment and exact remaining requirements](review/COUNTER-CANDIDATE-ASSESSMENT.md).
 
 October20 source review and fresh local validation: [counter resume assessment](review/COUNTER-RESUME-2026-10-20.md). No counter repair has been integrated; exact unretouched repair crops are in `source/counter-repair-request/`.
+
+Bench71 uncertainty was diagnosed and corrected by moving only the lower east bench16px forward: [diagnosis and repeated native checks](review/BENCH-71-RESOLUTION.md). New built-in counter-edit candidates are in `source/counter-candidates-2026-10-20/`; the refined counter has improved proportions, but the background remains unregistered and no counter integration is claimed.

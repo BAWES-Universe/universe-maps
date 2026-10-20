@@ -91,7 +91,7 @@ for x,y in [(2416,3088)]:
  item('cafe',x,y,(x,y+8,64,48));chair(x-32,y+48,'down','west-review');chair(x+96,y+48,'up','west-review')
 exec((R/'source/alcove-furniture.py').read_text())
 # Matching outdoor benches reuse the existing locations.
-for x,y in [(3504,3136),(4336,3136),(5120,4192)]:
+for x,y in [(3504,3136),(4336,3136),(5120,4208)]:
  new_cafe_item('bench-front',x,y,(x,y,128,16))
  for dx in (40,88):seats.append(dict(x=x+dx,y=y+32,group='outdoor-lounge',facing='down'))
 # One exterior, uniformly scaled and anchored at the actual front threshold.

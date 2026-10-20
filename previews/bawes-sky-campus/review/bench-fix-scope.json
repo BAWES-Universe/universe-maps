@@ -1,0 +1,51 @@
+{
+  "collisionCellsChanged": [
+    [
+      5216,
+      4208,
+      false,
+      true
+    ],
+    [
+      5232,
+      4208,
+      false,
+      true
+    ]
+  ],
+  "changedSeats": [
+    {
+      "index": 70,
+      "before": {
+        "x": 5160,
+        "y": 4224,
+        "group": "outdoor-lounge",
+        "facing": "down"
+      },
+      "after": {
+        "x": 5160,
+        "y": 4240,
+        "group": "outdoor-lounge",
+        "facing": "down"
+      }
+    },
+    {
+      "index": 71,
+      "before": {
+        "x": 5208,
+        "y": 4224,
+        "group": "outdoor-lounge",
+        "facing": "down"
+      },
+      "after": {
+        "x": 5208,
+        "y": 4240,
+        "group": "outdoor-lounge",
+        "facing": "down"
+      }
+    }
+  ],
+  "runtimeUnchanged": true,
+  "collisionChangesConfinedToMovedBench": true,
+  "otherSeatsUnchanged": true
+}

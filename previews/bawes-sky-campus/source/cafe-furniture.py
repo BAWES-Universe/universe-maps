@@ -1,5 +1,5 @@
 """Uniformly calibrated matching outdoor furniture; native32 occupants."""
-bench_fronts=Image.new('RGBA',(1744,1120))
+bench_fronts=Image.new('RGBA',(1744,1136))
 for n in ('lounge-front','table-cups','stool-front','bench-front','chair-right','chair-left'):
  im=Image.open(R/'source/cafe-candidates/extracted'/(n+'.png')).convert('RGBA')
  out=Image.new('RGBA',(48,64) if n=='stool-front' else (math.ceil(im.width/16)*16,math.ceil(im.height/16)*16));out.alpha_composite(im,(8,8) if n=='stool-front' else (0,0))

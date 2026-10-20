@@ -1,36 +1,27 @@
-# Registered native café / bridge pilot — unfinished visual candidate
+# Native outdoor campus candidate
 
-This controlled candidate is separate from the primary `campus.tmj`. It proves that 1536×1024 native panels can be generated and assembled without enlargement. It does **not** finish the whole-map request or meet final café visual acceptance.
+This isolated playable candidate restores the whole outdoor campus at native world-pixel resolution. It preserves the approved island arrangement, accepted office interior, gate, spawn and original runtime. The primary campus map and separate tower worktree are unchanged. No deployment or merge has occurred.
 
-## Sources and registration
+Open `review.html` for the map overview and normal-scale gameplay evidence. Load `playable/campus.tmj` in the pinned local Universe runtime; the local URL is `http://localhost:8000/_/global/localhost:8090/source/native-cafe-trial/playable/campus.tmj`. Keep the candidate inside this repository because it references original assets and runtime by relative paths.
 
-- `registered-reference.png`: direct native-pixel export from playable base `851a243`, at world [1984,3712,1536,1024]. No resampling.
-- `restored-native.png`: built-in image edit of that reference; returned 1536×1024. Prompt fixed camera, silhouette, bridge edges and 32px Woka furniture dimensions (144px sofa, 64px table, 48px armchair, 32px stool).
-- `east-reference.png`: adjoining map export at [3264,3712,1536,1024], with the completed café panel's 256px overlap supplied at the left. `east-restored-native.png` returned 1536×1024.
-- `south-reference.png`: adjoining export at [1984,4480,1536,1024], with the café panel's 256px overlap at the top. `south-restored-native.png` returned 1536×1024.
+## Artwork and registration
 
-Shared specification: same orthographic game camera, cream stone, gold/glass framing, turquoise water, illustrated foliage, warm upper-left daylight, fixed routes and silhouettes. Prompts requested identical overlap pixels. The generator did not satisfy exact pixel retention: east overlap mean absolute RGB difference 5.47/255, 98.86% of pixels changed. Inspection of `bridge-join-detail.png` and `south-join-detail.png` found the principal contours continuous enough for this isolated gameplay trial. This is a visual judgement, not exact pixel equivalence.
+`panels.json` contains 18 generated landscape panels and their world coordinates. Each source is 1536×1024 and integrated at 1:1 scale. `generation-provenance.json` records source files, hashes, dimensions and integration status. The rejected square output returned 1254×1254 instead of 1024×1024; it is retained as evidence and never resized or integrated.
 
-`build-candidate.py` joins at world x3392 and y4608 using hard cuts in the overlaps, with no enlargement, feathering or blur. It writes only `playable/` and trial artifacts. The original map, source builder, assets and runtime remain untouched. Foreground masks are reused provisionally against the new scenery; their final accuracy still needs review. The generated TMJ references the original assets and runtime by relative paths; keep this folder inside its repository for reproduction.
+The café has a compact horizontal counter, four registered stools and a continuous wood floor. The conservatory has an integrated stone recess, low sofa and clear eastern entry. Native stone, foliage, cliffs, roofs and bridge surfaces now extend through the front plaza, central square, stage and portal garden. The stage retains all 32 seats.
 
-## Actual gameplay evidence
+Generated overlaps are not pixel-identical to their references. Hard native joins are used inside overlaps. The initial full assembly showed sky seams; the final integration clips panel backgrounds to the existing registered island alpha and retains the original continuous sky. Only this legacy alpha mask is resized to its existing world registration; generated artwork is not enlarged, blurred or feathered. Distant background islands remain the original softer scenery.
 
-The local pinned Universe client loaded `playable/campus.tmj`. The completed `runtime-checks.json` contains 36/36 successful checks: square and bridge approach, café circulation, ten café seat right-click approaches and exits, and return to the front plaza. Camera zoom and avatar scale remained 1. Captures include `runtime-cafe.png`, `runtime-bridge-join.png`, `runtime-square.png` and `runtime-seat-51.png` through `runtime-seat-60.png`.
+Opaque exterior artwork is restored while every original exterior alpha value is retained, including occupant apertures and translucent panes. Interior and gate layers remain byte-for-byte identical as map layer objects.
 
-The first click test failed because the leftmost seat was outside the viewport, not because movement had been established to fail. Its evidence remains `runtime-first-checks.json` and `runtime-failure.png`. The corrected test approaches within the viewport before clicking; it completed before the environment restart. Those saved results survived, but the temporary console log and local runtime processes did not. Do not describe them as a new post-restart run.
+## Validation and limits
 
-## Remaining visual work — do not propagate as accepted
+`static-checks.json` verifies local asset references, tileset dimensions, valid tile IDs, unchanged original layers and bounded collision changes. The 513 changed collision cells are within the counter approach, conservatory recess/entry and two upper bridge railing strips and eastern lamp plinth. The bridge strips previously allowed the avatar onto painted balustrades; the clear floor route now passes above them.
 
-The main scene is visibly clearer at normal gameplay scale, and both inspected internal joins are continuous. However, the inherited counter remains too large relative to a 32px Woka and the stools remain separated from it. Rectangular timber variations/ghost contours are still visible in the floor. Furniture/foreground registration is provisional, including seat facing on arrival. The outer edges still meet unreworked scenery; upper-left conservatory and other campus regions are not corrected. No whole-map visual acceptance is claimed from the 36 functional checks.
+`whole-map/` contains ten gameplay region captures at camera zoom 1 and avatar scale 1. Those initial captures established reachability of all regions and office entry. The subsequent interaction run checks selected right-click seats, exits, corrected bridge routes, gate entry and two-client occupant visibility. It passed 32/32 checks before the final façade-strip/lamp-depth correction. The shorter final join run rechecks those affected routes, gate and two-client visibility. Results are recorded separately.
 
-Next: correct the counter and stool relationship and floor artifacts within this complete native region, then inspect actual seated/standing views and masks. Extend only after that visual proof, using the same fixed shared coordinates and native panel approach. Preserve accepted office, gate, island arrangement and clear routes. No paid services, engine changes, merge or deployment.
+Earlier café records are retained: `bar-corrected-checks.json` passed 18/18 after the counter/mask correction; `runtime-checks.json` passed 36/36 on an intermediate café build. These do not establish whole-map acceptance. No sitting animation or automatic facing was added.
 
-## Counter/floor correction milestone
+Rebuild with `python build-candidate.py`, verify with `python verify-candidate.py`, and capture the assembled native map with `python export-candidate.py gameplay-map-native.png 1664 2048 4864 3712`. Overview images are downscaled for review only. Gameplay scripts use the local pinned Universe client and Chromium CDP on port 9222.
 
-The candidate now uses `counter-floor-edit-2.png`: a compact horizontal bar, four stools close to its front and a continuous timber deck without the former rectangular ghost patches. The first edit reduced the bar but moved stools unevenly; the second used a horizontal counter and evenly spaced row. The generator did not obey every requested coordinate, so actual painted anchors were measured and registered instead of claiming exact prompt compliance.
-
-The four bar anchors are now in `candidate-layout.json`. Only the front-of-counter collision strip [2512,4192,416,80] is released to match visible floor; all other original collision cells, accepted interior, gate and spawn remain unchanged. A first foreground placement hid too much of the Woka. The final mask/anchor adjustment keeps the head and upper torso visible, demonstrated by `runtime-seat-57.png` through `runtime-seat-60.png`. It does not add a sitting animation or automatic facing.
-
-The corrected counter passed a fresh 18/18 approach, right-click seating, exit and return-route check in `bar-corrected-checks.json`. The earlier 36-check record belongs to the intermediate correction before the final mask adjustment, and is not final visual acceptance. `runtime-cafe.png` and the final bar captures were inspected. The primary campus map is still untouched.
-
-Two native conservatory panels have also been generated and inspected as sources. They replace the pasted oval with a continuous stone recess and restore the roof at native resolution. They are not yet integrated or gameplay-validated at this milestone. Broader front-plaza, stage and portal correction work is in progress.
+Current review: assembled sky seams corrected; 32/32 interaction checks passed; final façade-strip/lamp-depth correction and refreshed captures under visual review. Do not describe this as user-approved or deployed.

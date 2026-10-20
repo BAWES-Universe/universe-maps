@@ -1,0 +1,138 @@
+[
+  {
+    "label": "spawn to cafe bridge",
+    "pass": true,
+    "details": {
+      "x": 3000,
+      "y": 4304,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2640,
+        "y": 4079,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "cafe actual seat 70 outdoor-lounge",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 602,
+        "y": 450
+      },
+      "nativeClickCount": 1,
+      "x": 5160,
+      "y": 4224,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4800,
+        "y": 3999,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "exact anchor 70",
+    "pass": true,
+    "details": {
+      "seat": {
+        "x": 5160,
+        "y": 4224,
+        "group": "outdoor-lounge",
+        "facing": "down"
+      },
+      "x": 5160,
+      "y": 4224,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4800,
+        "y": 3999,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "facing 70",
+    "pass": true,
+    "details": {
+      "seat": {
+        "x": 5160,
+        "y": 4224,
+        "group": "outdoor-lounge",
+        "facing": "down"
+      },
+      "x": 5160,
+      "y": 4224,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4800,
+        "y": 3999,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "cafe actual seat 71 outdoor-lounge",
+    "pass": true,
+    "details": {
+      "point": {
+        "x": 704,
+        "y": 450
+      },
+      "nativeClickCount": 3,
+      "x": 5216.033745029561,
+      "y": 4224,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4856,
+        "y": 3999,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "exact anchor 71",
+    "pass": false,
+    "details": {
+      "seat": {
+        "x": 5208,
+        "y": 4224,
+        "group": "outdoor-lounge",
+        "facing": "down"
+      },
+      "x": 5216.033745029561,
+      "y": 4224,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 4856,
+        "y": 3999,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "sourceImage": "source/campus-site-cutout.png",
+  "sourceGitBlob": "35bf5b5cff3e27ff87de4e40cc965be9535132b5",
+  "sourceSha256": "3b6349c6eefb0634f915959e9b30841b56c4865ddb7d1e971fbec254307b319d",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "worldTransform": {
+    "origin": [
+      1792,
+      2048
+    ],
+    "scale": 3
+  },
+  "counterCropSourceXYXY": [
+    216,
+    676,
+    400,
+    746
+  ],
+  "counterCropWorldXYWH": [
+    2440,
+    4076,
+    552,
+    210
+  ],
+  "counterAndFloorContextSourceXYXY": [
+    128,
+    676,
+    480,
+    826
+  ],
+  "contextWorldXYWH": [
+    2176,
+    4076,
+    1056,
+    450
+  ],
+  "contextIsEditPermission": false,
+  "registeredDeckMask": "source/cafe-candidates/registered-deck-mask.png",
+  "deckMaskWorldXYWH": [
+    2176,
+    4192,
+    1120,
+    352
+  ],
+  "registeredForegroundMask": "source/cafe-candidates/registered-foreground-mask.png",
+  "requirements": {
+    "counterWidth": 384,
+    "frontBodyHeight": [
+      40,
+      48
+    ],
+    "topDepth": [
+      20,
+      28
+    ],
+    "totalHeightMax": 146,
+    "nativeAvatarHeight": 32,
+    "stoolSeatDiameter": 32,
+    "routeMinimum": 96
+  },
+  "rejectedAlternatives": [
+    "Repeat candidate fit/local warp: already rejected; not rerun.",
+    "Preserve original countertop and shorten only front body: leaves approximately552px complete assembly width and oversized top/props; cannot satisfy384px calibration.",
+    "Shrink original complete assembly about fixed upper edge: exposes hidden side/rear structure; original background has no visible samples for those joins.",
+    "Tile neighboring deck under all vacancies: cannot reconstruct shelf/post junctions and erases original structural relationships."
+  ],
+  "decision": "No map artwork changes; precise registered source still required."
+}

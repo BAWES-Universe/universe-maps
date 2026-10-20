@@ -39,3 +39,5 @@ Current outdoor changes and limitations: [conservatory/stage/café correction pa
 Latest source assessment and bounded polish: [counter and navigation follow-up](review/COUNTER-AND-NAVIGATION.md). Exterior entrance animation now waits for the approach to stop, avoiding gate-triggered path drift; accepted interior behavior and artwork remain unchanged.
 
 Counter source candidates were tested offline and rejected without map changes: [assessment and exact remaining requirements](review/COUNTER-CANDIDATE-ASSESSMENT.md).
+
+October20 source review and fresh local validation: [counter resume assessment](review/COUNTER-RESUME-2026-10-20.md). No counter repair has been integrated; exact unretouched repair crops are in `source/counter-repair-request/`.

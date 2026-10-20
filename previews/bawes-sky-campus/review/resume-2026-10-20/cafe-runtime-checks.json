@@ -1,0 +1,118 @@
+[
+  {
+    "label": "spawn to cafe bridge",
+    "pass": true,
+    "details": {
+      "x": 3000,
+      "y": 4304,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2640,
+        "y": 4079,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "portal return to cafe east",
+    "pass": true,
+    "details": {
+      "x": 3160,
+      "y": 4320,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2800,
+        "y": 4095,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "main cafe route",
+    "pass": true,
+    "details": {
+      "x": 2840,
+      "y": 4320,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2480,
+        "y": 4095,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "left lounge approach",
+    "pass": true,
+    "details": {
+      "x": 2568,
+      "y": 4352,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2208,
+        "y": 4127,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  },
+  {
+    "label": "runtime-campus-cafe-restored",
+    "details": {
+      "x": 4024,
+      "y": 3600,
+      "scale": 1,
+      "zoom": 0.2,
+      "view": {
+        "type": 5,
+        "x": 424,
+        "y": 1110,
+        "width": 7200,
+        "height": 4500
+      },
+      "cover": true,
+      "layers": {
+        "office-window-interior": true,
+        "office-floor": false,
+        "office-walls": false,
+        "campus-furniture": true,
+        "office-furniture": false,
+        "office-chair-fronts": false,
+        "office-cover": true
+      }
+    }
+  },
+  {
+    "label": "native avatar scale",
+    "pass": true,
+    "details": {
+      "x": 4024,
+      "y": 3600,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 3664,
+        "y": 3351,
+        "width": 720,
+        "height": 450
+      },
+      "cover": true
+    }
+  }
+]

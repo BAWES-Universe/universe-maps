@@ -160,7 +160,7 @@ m['nextlayerid']=nextid
 from effects import add_effects
 effects=add_effects(m,O)
 (P/'motion-checks.json').write_text(json.dumps(effects,indent=2)+'\n')
-(O/'runtime.js').write_text((R/'runtime.js').read_text()+'\n'+(P/'seat-runtime.js').read_text().replace('__SEATS_JSON__',json.dumps(layout['seats']))+'\n'+(P/'greenhouse-runtime.js').read_text())
+(O/'runtime.js').write_text((P/'campus-runtime-recovery.js').read_text()+'\n'+(P/'seat-runtime.js').read_text().replace('__SEATS_JSON__',json.dumps(layout['seats']))+'\n'+(P/'greenhouse-runtime.js').read_text())
 (O/'campus.tmj').write_text(json.dumps(m,separators=(',',':')))
 unchanged={name: next(l for l in base['layers'] if l['name']==name)==next(l for l in m['layers'] if l['name']==name) for name in ['start','office-floor','office-furniture','office-front-door','office-front-leaves']}
 assert all(unchanged.values())

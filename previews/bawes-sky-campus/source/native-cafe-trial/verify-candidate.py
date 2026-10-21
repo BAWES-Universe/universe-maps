@@ -24,5 +24,5 @@ for l in b['layers']:
  if l['type']=='tilelayer':assert set(l['data'])<=valid,l['name']
 out['tilesetsAndGidsValid']=True;out['tileSize']=b['tilewidth'];out['nativeScale']=checks['nativeScale'];out['exteriorAlphaUnchanged']=checks['exteriorAlphaUnchanged'];out['baseMapSha256']=hashlib.sha256((R/'campus.tmj').read_bytes()).hexdigest();out['runtimeSha256']=hashlib.sha256((R/'runtime.js').read_bytes()).hexdigest();out['candidateSha256']=hashlib.sha256((O/'campus.tmj').read_bytes()).hexdigest()
 assert out['baseMapSha256']==checks['baseMapSha256'];assert out['runtimeSha256']==checks['runtimeSha256']
-candidate_runtime=(O/'runtime.js').read_bytes();assert candidate_runtime.startswith((R/'runtime.js').read_bytes());out['candidateRuntimeSha256']=hashlib.sha256(candidate_runtime).hexdigest();out['originalRuntimePreservedAsPrefix']=True
+candidate_runtime=(O/'runtime.js').read_bytes();assert candidate_runtime.startswith((P/'campus-runtime-recovery.js').read_bytes());out['candidateRuntimeSha256']=hashlib.sha256(candidate_runtime).hexdigest();out['recoveryRuntimePreservedAsPrefix']=True
 (P/'static-checks.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out,indent=2))

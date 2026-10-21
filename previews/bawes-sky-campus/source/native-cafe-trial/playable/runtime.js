@@ -14,7 +14,7 @@
   const frames=open?[1,2,3,4]:[3,2,1,0];
   const paint=frame=>{if(frame===0&&!open)show('office-front-door',true);show('office-front-leaves',frame===0);for(let i=1;i<4;i++)show('office-front-slide-'+i,frame===i)};
   if(reduced()){paint(open?4:0);return;}
-  let index=0;const advance=()=>{if(token!==entranceSequence)return;paint(frames[index++]);if(index<frames.length)setTimeout(advance,180)};advance();
+  let index=0;const advance=()=>{if(token!==entranceSequence)return;if(moving){setTimeout(advance,180);return;}paint(frames[index++]);if(index<frames.length)setTimeout(advance,180)};advance();
  }
  function update(){
   // This pinned client replans active paths whenever any layer visibility changes.

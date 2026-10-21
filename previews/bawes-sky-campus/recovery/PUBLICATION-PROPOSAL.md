@@ -3,7 +3,7 @@
 Target branch observed: `gh-pages` at `17cd44edbfbcdbf5af965e1e8abf0dde1c4f40ce`.
 New directory: `previews/bawes-sky-campus-recovery-20261021/` (absent in the checked branch).
 
-After separate publication authorization, extract the verified recovery ZIP and add its contents under this directory only. Preserve every existing gh-pages entry. Commit the additive tree on the current gh-pages head and update that ref with an expected-head check and `force:false`. If the head changes, reread and rebuild the additive tree. Do not merge this PR into master, overwrite another preview, publish a release, or change any permissions.
+After separate publication authorization, extract only `bawes-sky-campus-native-review.zip` after its acceptance checks pass. Do not use `bawes-sky-campus-recovery.zip`, the superseded optimizer experiment. Extract the verified native ZIP and add its contents under this directory only. Preserve every existing gh-pages entry. Commit the additive tree on the current gh-pages head and update that ref with an expected-head check and `force:false`. If the head changes, reread and rebuild the additive tree. Do not merge this PR into master, overwrite another preview, publish a release, or change any permissions.
 
 The proposed TMJ location after successful publication is:
 `https://bawes-universe.github.io/universe-maps/previews/bawes-sky-campus-recovery-20261021/campus.tmj`

@@ -26,5 +26,13 @@ for(const target of [{x:6008,y:3696},{x:2736,y:4720},{x:3800,y:3712},{x:4016,y:2
 await p.screenshot({path:root+'/evidence/supplemental-mobile.png'});
 await p.context().close();const desktop=await client('Final occupied review');await move(desktop,2568,4208,'final counter occupancy');const dismiss=desktop.getByText('Continue without webcam',{exact:true});if(await dismiss.isVisible().catch(()=>false))await dismiss.click();await desktop.screenshot({path:root+'/evidence/final-review-counter.png'});await move(desktop,2464,3152,'final clear greenhouse landing');await desktop.screenshot({path:root+'/evidence/final-review-entrance.png'});await move(desktop,2464,3024,'final greenhouse entry');await move(desktop,2328,2896,'final greenhouse occupancy');if(await dismiss.isVisible().catch(()=>false))await dismiss.click();await desktop.screenshot({path:root+'/evidence/final-review-greenhouse.png'});
 
+
+const captures=[];
+for(const region of [{name:'waterfall',cx:2448,cy:4640,x:2450,y:4740,w:40,h:100},{name:'pond',cx:2448,cy:4640,x:2384,y:4544,w:32,h:32},{name:'lantern',cx:2448,cy:3024,x:2320,y:3024,w:16,h:16}]){
+ await desktop.evaluate(r=>{gs.cameras.main.stopFollow();gs.cameras.main.centerOn(r.cx,r.cy)},region);await desktop.waitForTimeout(100);
+ const clip=await desktop.evaluate(r=>{const c=gs.cameras.main,b=gs.game.canvas.getBoundingClientRect(),scale=c.zoom*b.width/gs.game.canvas.width;return{x:Math.round(b.x+(r.x-c.worldView.x)*scale),y:Math.round(b.y+(r.y-c.worldView.y)*scale),width:Math.round(r.w*scale),height:Math.round(r.h*scale)}},region);
+ for(let i=0;i<5;i++){const phase=await desktop.evaluate(()=>gs.animatedTiles.animatedTiles[0].animatedTiles.map(a=>a.currentFrame));await desktop.screenshot({path:root+'/evidence/'+region.name+'-motion-'+i+'.png',clip});captures.push({region:region.name,sample:i,phase,clip});await desktop.waitForTimeout(90)}
+}
+fs.writeFileSync(root+'/evidence/motion-capture-phases.json',JSON.stringify(captures,null,2));
 if(results.some(r=>!r.pass))throw Error('Supplemental failure');console.log('Supplemental passed',results.length);
 }catch(e){results.push({name:'supplemental exception',pass:false,error:String(e)});console.error(e);process.exitCode=1}finally{save();for(const c of contexts)await c.close();await b?.close()}})();

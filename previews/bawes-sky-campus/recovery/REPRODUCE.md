@@ -8,16 +8,18 @@ From `previews/bawes-sky-campus`:
 python3 source/native-cafe-trial/build-candidate.py
 python3 source/native-cafe-trial/verify-candidate.py
 python3 recovery/package.py
-cd recovery/package
-node /workspace/universe-maps/node_modules/vite/bin/vite.js build --config vite.config.ts
-python3 ../finish-package.py
-python3 ../verify-package.py
+python3 recovery/compact.py
+node recovery/compact-final-acceptance.cjs
+node recovery/supplemental.cjs
+python3 recovery/archive-native.py
 ```
 
-The root shared 32px optimizer config is unchanged. The isolated package explicitly selects 16px, restores the original Universe JS runtime instead of the generic remote iframe wrapper, and losslessly pads atlas edges. `verify-package.py` checks every used pixel, properties, resolved animation frames, layer order and runtime bytes.
+The root shared 32px optimizer config is unchanged. The delivery package retains native16 assets, removes only empty/inactive unreferenced layers, and composites compatible static background layers. The compiler checks that moved background pixels do not overlap intervening interactive artwork. Interactive layers remain byte-identical. The superseded optimizer experiment passed pixel equivalence. Its runtime run was interrupted by a harness error that tried to serialize the entire Phaser camera/scene; this is not evidence of an intrinsic map memory leak. Publish only the final compact native archive after authorization.
 
 For the client, use a separate pinned worktree with installed workspace dependencies. Fresh setup here required protobuf generation using grpc-tools/ts-proto 2.4.2, `npm run typesafe-i18n`, and `npm run build-iframe-api` in `play`. The recorded `source/runtime/run-local.sh` starts backend, pusher, Vite and CORS map server. Set `BAWES_ENGINE_ROOT` to the pinned worktree and `BAWES_RUN_DIR` to a writable temporary directory. The generated local Vite config needs explicit `server.fs.allow` entries for the worktree and linked dependency directories, so installed fonts are served. No production configuration is required.
 
-Start headless Chromium with CDP port 9222 and a fresh profile, then run `node recovery/final-package-acceptance.cjs`. It opens the actual packaged TMJ at `http://localhost:8000/_/global/localhost:8090/recovery/package/dist/campus.tmj`, travels through proximity doors, visits all 71 seats, checks facing and captures occupied screenshots. It also exercises boundary collisions, animation clocks and a 430×900 touch viewport. The local backend disables persistence/permission checks; meeting locks are courtesy controls, not authorization.
+Start headless Chromium with CDP port 9222 and a fresh profile, then run `node recovery/compact-final-acceptance.cjs`. It opens the actual packaged TMJ at `http://localhost:8000/_/global/localhost:8090/recovery/compact/campus.tmj`, travels through proximity doors, visits all 71 seats, checks facing and captures occupied screenshots. It also exercises boundary collisions, animation clocks and a 430×900 touch viewport. The local backend disables persistence/permission checks; meeting locks are courtesy controls, not authorization.
+
+The delivered 171-check evidence combines the first 165 checks with finish-acceptance.cjs after correcting a camera-object serialization bug in the harness. A fresh full run uses the corrected compact-final-acceptance.cjs above.
 
 Fresh evidence is under `recovery/evidence`. Earlier evidence elsewhere in the repository is historical and was not reused as current acceptance.

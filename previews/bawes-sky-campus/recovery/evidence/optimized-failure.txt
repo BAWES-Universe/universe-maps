@@ -1,3 +1,5 @@
 2026-10-21: optimized packaged map loaded and passed all 71 seat positions/facings, proximity door journeys, two keyboard rail collisions, and eleven animation-clock checks. Run did not complete.
 Chromium renderer 3971 reported approximately 4,000 MB JavaScript heap and V8 javascript OOM (MarkCompactCollector: young object promotion failed) after ~405 seconds. Subsequent CDP connection timed out. No mobile pass or final performance result is claimed for this run.
 The 035c73f1... archive at a3ad353 is therefore a failed optimized candidate, not ready for publication. Pixel equivalence alone did not establish runtime stability.
+
+CORRECTION: The same crash reproduced in the compact run immediately after an evaluate callback returned gs.cameras.main.startFollow(...). That returns the Phaser Camera and causes automation to serialize the whole scene. The harness now returns nothing. The OOM observations above are real, but attributing them to the packaged map was incorrect. The optimizer archive is superseded; no completed optimizer mobile/performance claim is made.

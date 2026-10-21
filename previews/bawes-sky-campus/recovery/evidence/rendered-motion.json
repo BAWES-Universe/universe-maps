@@ -1,6 +1,20 @@
-{
-  "changedPixels": 872,
-  "waterfallCropChangedPixels": 0,
-  "captureIntervalRequestedMs": 260,
-  "sameCamera": true
-}
+[
+  {
+    "region": "waterfall",
+    "changedPixels": 2096,
+    "totalPixels": 16000,
+    "pass": true
+  },
+  {
+    "region": "pond",
+    "changedPixels": 68,
+    "totalPixels": 4096,
+    "pass": true
+  },
+  {
+    "region": "lantern",
+    "changedPixels": 728,
+    "totalPixels": 1024,
+    "pass": true
+  }
+]

@@ -1,0 +1,287 @@
+[
+  {
+    "name": "mobile cafe journey",
+    "pass": true,
+    "x": 2744,
+    "y": 4352,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2529,
+      "y": 3902,
+      "width": 430,
+      "height": 900
+    },
+    "direction": 3,
+    "cover": true
+  },
+  {
+    "name": "mobile viewport performance",
+    "pass": true,
+    "fpsMin": 42.012425914406776,
+    "fpsMedian": 45.00931943580508,
+    "fpsMax": 51.31774218264036,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "viewport": {
+      "width": 430,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "physicalPhone": false
+  },
+  {
+    "name": "seat interruption approach",
+    "pass": true,
+    "x": 2568,
+    "y": 4304,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2353,
+      "y": 3854,
+      "width": 430,
+      "height": 900
+    },
+    "direction": 3,
+    "cover": true
+  },
+  {
+    "name": "user movement cancels seating adjustment",
+    "pass": true,
+    "x": 2568,
+    "y": 4256,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2353,
+      "y": 3806,
+      "width": 430,
+      "height": 900
+    },
+    "direction": 2,
+    "cover": true
+  },
+  {
+    "name": "blocked destination 6008,3696",
+    "pass": true,
+    "target": {
+      "x": 6008,
+      "y": 3696
+    },
+    "before": {
+      "x": 2568,
+      "y": 4256,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2353,
+        "y": 3806,
+        "width": 430,
+        "height": 900
+      },
+      "direction": 2,
+      "cover": true
+    },
+    "after": {
+      "x": 2568,
+      "y": 4256,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2353,
+        "y": 3806,
+        "width": 430,
+        "height": 900
+      },
+      "direction": 2,
+      "cover": true
+    }
+  },
+  {
+    "name": "blocked destination 2736,4720",
+    "pass": true,
+    "target": {
+      "x": 2736,
+      "y": 4720
+    },
+    "before": {
+      "x": 2568,
+      "y": 4256,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2353,
+        "y": 3806,
+        "width": 430,
+        "height": 900
+      },
+      "direction": 2,
+      "cover": true
+    },
+    "after": {
+      "x": 2568,
+      "y": 4256,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2353,
+        "y": 3806,
+        "width": 430,
+        "height": 900
+      },
+      "direction": 2,
+      "cover": true
+    }
+  },
+  {
+    "name": "blocked destination 3800,3712",
+    "pass": true,
+    "target": {
+      "x": 3800,
+      "y": 3712
+    },
+    "before": {
+      "x": 2568,
+      "y": 4256,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2353,
+        "y": 3806,
+        "width": 430,
+        "height": 900
+      },
+      "direction": 2,
+      "cover": true
+    },
+    "after": {
+      "x": 2568,
+      "y": 4256,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2353,
+        "y": 3806,
+        "width": 430,
+        "height": 900
+      },
+      "direction": 2,
+      "cover": true
+    }
+  },
+  {
+    "name": "blocked destination 4016,2368",
+    "pass": true,
+    "target": {
+      "x": 4016,
+      "y": 2368
+    },
+    "before": {
+      "x": 2568,
+      "y": 4256,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2353,
+        "y": 3806,
+        "width": 430,
+        "height": 900
+      },
+      "direction": 2,
+      "cover": true
+    },
+    "after": {
+      "x": 2568,
+      "y": 4256,
+      "scale": 1,
+      "zoom": 1,
+      "view": {
+        "type": 5,
+        "x": 2353,
+        "y": 3806,
+        "width": 430,
+        "height": 900
+      },
+      "direction": 2,
+      "cover": true
+    }
+  },
+  {
+    "name": "final counter occupancy",
+    "pass": true,
+    "x": 2568,
+    "y": 4208,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2208,
+      "y": 3983,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": true
+  },
+  {
+    "name": "final clear greenhouse landing",
+    "pass": true,
+    "x": 2472,
+    "y": 3152,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2112,
+      "y": 2927,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 3,
+    "cover": true
+  },
+  {
+    "name": "final greenhouse entry",
+    "pass": true,
+    "x": 2472,
+    "y": 3024,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2112,
+      "y": 2799,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": true
+  },
+  {
+    "name": "final greenhouse occupancy",
+    "pass": true,
+    "x": 2328,
+    "y": 2896,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 1968,
+      "y": 2671,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": true
+  }
+]

@@ -19,6 +19,15 @@ for name,px,py in json.loads((P/'panels.json').read_text()):
 # Native raster corrections from built-in image editing; crop and register, never resize.
 for filename,box,world in [('cafe-proportion-2.png',(0,0,1408,896),(1984,3712)),('nook-proportion-3.png',(0,0,1536,768),(1664,2944)),('stage-proportion-1.png',(480,208,1136,480),(5472,3152))]:
  full_art.alpha_composite(Image.open(P/filename).convert('RGBA').crop(box),(world[0]-X,world[1]-Y))
+# Registered repairs use only the edited areas; every surrounding source pixel is retained.
+for filename,origin,boxes in [
+ ('nook-entrance-recovery.png',(1664,2944),[(696,152,880,224),(1000,72,1104,288)]),
+ ('east-passage-recovery.png',(4224,2944),[(1000,120,1120,288)]),
+ ('counter-height-recovery.png',(1984,3712),[(528,420,944,492)]),
+]:
+ repair=Image.open(P/filename).convert('RGBA')
+ for box in boxes:
+  full_art.alpha_composite(repair.crop(box),(origin[0]+box[0]-X,origin[1]+box[1]-Y))
 # Reuse the registered island alpha to clip panel sky at the accepted silhouette.
 # Only the existing mask is resized; generated artwork remains native 1:1 pixels.
 canvas=full_art.copy()
@@ -52,10 +61,15 @@ for bx,by,bw,bh in [(2352,4330,112,6),(2960,4330,112,6),(2100,3242,80,8),(2340,4
 # Rear-facing theater chairs: head/shoulders rise above their low back.
 for row,top in enumerate([232,292,354,416]):
  for cx in [536,600,664,728,888,952,1016,1080]:
-  fg.paste(255,(4992+cx-18-X,2944+top-Y,4992+cx+18-X,2944+top+36-Y))
+  from PIL import ImageDraw
+  bx,by=4992+cx-X,2944+top-Y
+  ImageDraw.Draw(fg).polygon([(bx-14,by+1),(bx+14,by+1),(bx+17,by+5),(bx+16,by+28),(bx+14,by+36),(bx+11,by+36),(bx+11,by+29),(bx-11,by+29),(bx-11,by+36),(bx-14,by+36),(bx-16,by+28),(bx-17,by+5)],fill=255)
 # Eastern bridge lamp: foreground depth above its solid plinth.
 from PIL import ImageDraw
-ImageDraw.Draw(fg).polygon([(5256-X,3032-Y),(5320-X,3032-Y),(5312-X,3152-Y),(5336-X,3184-Y),(5328-X,3216-Y),(5248-X,3216-Y),(5248-X,3184-Y),(5272-X,3152-Y)],fill=255)
+# The removed bridge ornaments no longer contribute foreground silhouettes.
+fg.paste(0,(2664-X,3016-Y,2768-X,3232-Y))
+fg.paste(0,(5224-X,3064-Y,5344-X,3216-Y))
+fg.paste(0,(2352-X,3072-Y,2560-X,3216-Y))
 # Release only the front-of-counter strip needed by the new visible seat row.
 collision=next(l for l in m['layers'] if l['name']=='persistent-collision')
 for ty in range(4192//16,4272//16):
@@ -71,6 +85,10 @@ for ty in range(3280//16,3296//16):
 # Keep a 96px clear floor route above them; block only the two rail strips.
 bridge_rail_rects=[(2688,3216,608,112),(4960,3216,432,112),(5248,3200,96,32)]
 solid_gid=next(g for g in oldcoll['data'] if g)
+recovery_clear_rects=[(2352,3072,208,144),(2672,3120,96,96),(5232,3120,112,80),(2208,2880,448,192)]
+for bx,by,bw,bh in recovery_clear_rects:
+ for ty in range(by//16,(by+bh)//16):
+  for tx in range(bx//16,(bx+bw)//16):collision['data'][ty*m['width']+tx]=0
 for bx,by,bw,bh in bridge_rail_rects:
  for ty in range(by//16,(by+bh)//16):
   for tx in range(bx//16,(bx+bw)//16):collision['data'][ty*m['width']+tx]=solid_gid
@@ -82,6 +100,9 @@ for seat in layout['seats']:
 for i,x,y,facing in [(51,2392,4320,'down'),(52,2424,4320,'down'),(53,3000,4320,'down'),(54,3032,4320,'down'),(55,2360,4352,'right'),(56,3064,4352,'left'),(63,2120,3232,'down'),(64,2152,3232,'down'),(65,2152,3232,'down')]:layout['seats'][i].update(x=x,y=y,facing=facing)
 # The native 80px nook sofa supports two 32px sprites without overlap.
 del layout['seats'][65]
+# Move the former entrance bistro seats into the functioning greenhouse room.
+layout['seats'][61].update(x=2328,y=2896,group='greenhouse',facing='down')
+layout['seats'][62].update(x=2584,y=2896,group='greenhouse',facing='down')
 # Clear vacated old table supports and register the new low table footprints.
 furniture_rects=[(2320,4288,208,128),(2944,4288,208,128),(2048,3200,192,144)]
 for bx,by,bw,bh in furniture_rects:
@@ -127,9 +148,21 @@ ca[:,:,:3][eligible]=fresh[:,:,:3][eligible];assert np.array_equal(ca[:,:,3],old
 new_cover=pack('native-office-cover',Image.fromarray(ca));cover_layer['data']=new_cover['data']
 full_art.resize((1536,round(H*1536/W)),Image.Resampling.LANCZOS).save(P/'assembled-review.png')
 layer=pack('native-cafe-region',canvas);i=next(i for i,l in enumerate(m['layers']) if l['name']=='floorLayer');m['layers'].insert(i,layer);m['layers'].append(pack('native-cafe-foreground',front));m['nextlayerid']=nextid
-(O/'runtime.js').write_text((R/'runtime.js').read_text()+'\n'+(P/'seat-runtime.js').read_text().replace('__SEATS_JSON__',json.dumps(layout['seats'])))
+greenhouse=Image.new('RGBA',(W,H))
+greenhouse.alpha_composite(Image.open(P/'greenhouse-interior-recovery.png').convert('RGBA').crop((352,448,1120,944)),(2016-X,2624-Y))
+inside=pack('greenhouse-interior',greenhouse);inside['visible']=False
+m['layers'].insert(next(i for i,l in enumerate(m['layers']) if l['name']=='floorLayer'),inside)
+gfront=Image.new('RGBA',(W,H))
+for bx,by in [(2300,2928),(2556,2928)]:
+ gfront.alpha_composite(greenhouse.crop((bx-X,by-Y,bx+56-X,by+8-Y)),(bx-X,by-Y))
+gl=pack('greenhouse-chair-fronts',gfront);gl['visible']=False;m['layers'].append(gl)
+m['nextlayerid']=nextid
+from effects import add_effects
+effects=add_effects(m,O)
+(P/'motion-checks.json').write_text(json.dumps(effects,indent=2)+'\n')
+(O/'runtime.js').write_text((P/'campus-runtime-recovery.js').read_text()+'\n'+(P/'seat-runtime.js').read_text().replace('__SEATS_JSON__',json.dumps(layout['seats']))+'\n'+(P/'greenhouse-runtime.js').read_text())
 (O/'campus.tmj').write_text(json.dumps(m,separators=(',',':')))
 unchanged={name: next(l for l in base['layers'] if l['name']==name)==next(l for l in m['layers'] if l['name']==name) for name in ['start','office-floor','office-furniture','office-front-door','office-front-leaves']}
 assert all(unchanged.values())
-(P/'candidate-checks.json').write_text(json.dumps({'nativeScale':1,'resampling':False,'worldOrigin':[X,Y],'regionSize':[W,H],'panels':json.loads((P/'panels.json').read_text()),'horizontalJoinWorldX':3392,'verticalJoinWorldY':4608,'unchangedLayers':unchanged,'exteriorAlphaUnchanged':True,'exteriorOpaquePixelsUpdated':int(eligible.sum()),'baseMapSha256':hashlib.sha256((R/'campus.tmj').read_bytes()).hexdigest(),'runtimeSha256':hashlib.sha256((R/'runtime.js').read_bytes()).hexdigest(),'foreground':'lounge masks retained; moved stool fronts registered at native anchors; runtime visual review required','collisionEditRects':[[2512,4192,416,80],[2016,3232,288,112],[2288,3248,96,64],*bridge_rail_rects,*furniture_rects],'status':'full outdoor native candidate; gameplay and silhouette joins under review','skyIntegration':'original registered island alpha; existing continuous background retained'},indent=2)+'\n')
+(P/'candidate-checks.json').write_text(json.dumps({'nativeScale':1,'resampling':False,'worldOrigin':[X,Y],'regionSize':[W,H],'panels':json.loads((P/'panels.json').read_text()),'horizontalJoinWorldX':3392,'verticalJoinWorldY':4608,'unchangedLayers':unchanged,'exteriorAlphaUnchanged':True,'exteriorOpaquePixelsUpdated':int(eligible.sum()),'baseMapSha256':hashlib.sha256((R/'campus.tmj').read_bytes()).hexdigest(),'runtimeSha256':hashlib.sha256((R/'runtime.js').read_bytes()).hexdigest(),'foreground':'lounge masks retained; moved stool fronts registered at native anchors; runtime visual review required','collisionEditRects':[[2512,4192,416,80],[2016,3232,288,112],[2288,3248,96,64],*bridge_rail_rects,*furniture_rects,*recovery_clear_rects],'status':'full outdoor native candidate; gameplay and silhouette joins under review','skyIntegration':'original registered island alpha; existing continuous background retained'},indent=2)+'\n')
 print('Candidate built; counter-front clearance updated; spawn, accepted office and gate unchanged.')

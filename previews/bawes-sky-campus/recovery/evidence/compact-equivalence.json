@@ -1,0 +1,30 @@
+{
+  "sourceLayers": 39,
+  "packagedLayers": 25,
+  "removedEmptyLayers": [
+    "alcove-foreground",
+    "audience-fronts",
+    "cafe-foreground",
+    "campus-bench-fronts",
+    "campus-chair-fronts",
+    "reception-activity"
+  ],
+  "removedInactiveUnreferencedLayers": [
+    "beverage-steam-0",
+    "beverage-steam-1",
+    "beverage-steam-2"
+  ],
+  "mergedBackgroundLayers": [
+    "alcove-floor",
+    "audience-shadows",
+    "cafe-timber",
+    "campus-furniture",
+    "native-cafe-region",
+    "scenery-and-campus"
+  ],
+  "interleavingPixelsDisjoint": true,
+  "compositedEdgeTiles": 32726,
+  "nativeTileSize": 16,
+  "runtimeIdentical": true,
+  "unchangedInteractiveLayers": true
+}

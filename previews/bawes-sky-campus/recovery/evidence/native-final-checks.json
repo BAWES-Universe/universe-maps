@@ -1,0 +1,949 @@
+[
+  {
+    "name": "client startup",
+    "pass": true,
+    "milliseconds": 12727
+  },
+  {
+    "name": "gate approach",
+    "pass": true,
+    "heapBytes": 2218274867,
+    "x": 4024,
+    "y": 3088,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3664,
+      "y": 2863,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": true
+  },
+  {
+    "name": "office entry",
+    "pass": true,
+    "heapBytes": 2242885039,
+    "x": 4024,
+    "y": 2976,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3664,
+      "y": 2751,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 0 focus",
+    "pass": true,
+    "heapBytes": 2066969234,
+    "x": 3080,
+    "y": 2656,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2720,
+      "y": 2431,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "facing 0",
+    "pass": true,
+    "expected": 0,
+    "heapBytes": 2073010938,
+    "x": 3080,
+    "y": 2656,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2720,
+      "y": 2431,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 1 focus",
+    "pass": true,
+    "heapBytes": 2071277224,
+    "x": 3512,
+    "y": 2656,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3152,
+      "y": 2431,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "facing 1",
+    "pass": true,
+    "expected": 0,
+    "heapBytes": 2077745392,
+    "x": 3512,
+    "y": 2656,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3152,
+      "y": 2431,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 2 project",
+    "pass": true,
+    "heapBytes": 2064794604,
+    "x": 3240,
+    "y": 2624,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2880,
+      "y": 2399,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "facing 2",
+    "pass": true,
+    "expected": 2,
+    "heapBytes": 2058151459,
+    "x": 3240,
+    "y": 2624,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2880,
+      "y": 2399,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "seat 3 project",
+    "pass": true,
+    "heapBytes": 2059166177,
+    "x": 3240,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2880,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "facing 3",
+    "pass": true,
+    "expected": 0,
+    "heapBytes": 2060040769,
+    "x": 3240,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2880,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 4 project",
+    "pass": true,
+    "heapBytes": 2058311641,
+    "x": 3320,
+    "y": 2624,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2960,
+      "y": 2399,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "facing 4",
+    "pass": true,
+    "expected": 2,
+    "heapBytes": 2058381241,
+    "x": 3320,
+    "y": 2624,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2960,
+      "y": 2399,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "seat 5 project",
+    "pass": true,
+    "heapBytes": 2058498503,
+    "x": 3320,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2960,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "facing 5",
+    "pass": true,
+    "expected": 0,
+    "heapBytes": 2059269955,
+    "x": 3320,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2960,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 6 outward-lounge",
+    "pass": true,
+    "heapBytes": 2059647923,
+    "x": 3080,
+    "y": 2896,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2720,
+      "y": 2671,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "facing 6",
+    "pass": true,
+    "expected": 2,
+    "heapBytes": 2058763371,
+    "x": 3080,
+    "y": 2896,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2720,
+      "y": 2671,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "seat 7 outward-lounge",
+    "pass": true,
+    "heapBytes": 2060031195,
+    "x": 3128,
+    "y": 2896,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2768,
+      "y": 2671,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "facing 7",
+    "pass": true,
+    "expected": 2,
+    "heapBytes": 2058911487,
+    "x": 3128,
+    "y": 2896,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2768,
+      "y": 2671,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "seat 8 outward-lounge",
+    "pass": true,
+    "heapBytes": 2062589655,
+    "x": 3432,
+    "y": 2896,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3072,
+      "y": 2671,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "facing 8",
+    "pass": true,
+    "expected": 2,
+    "heapBytes": 2061533555,
+    "x": 3432,
+    "y": 2896,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3072,
+      "y": 2671,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "seat 9 outward-lounge",
+    "pass": true,
+    "heapBytes": 2060846943,
+    "x": 3480,
+    "y": 2896,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3120,
+      "y": 2671,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "facing 9",
+    "pass": true,
+    "expected": 2,
+    "heapBytes": 2059569895,
+    "x": 3480,
+    "y": 2896,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3120,
+      "y": 2671,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "seat 10 reception",
+    "pass": true,
+    "heapBytes": 2061072401,
+    "x": 3800,
+    "y": 2640,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3440,
+      "y": 2415,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "facing 10",
+    "pass": true,
+    "expected": 2,
+    "heapBytes": 2061030357,
+    "x": 3800,
+    "y": 2640,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3440,
+      "y": 2415,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "meeting 1 door approach",
+    "pass": true,
+    "heapBytes": 2064787205,
+    "x": 4488,
+    "y": 2976,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4128,
+      "y": 2751,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 1,
+    "cover": false
+  },
+  {
+    "name": "meeting 1 entry",
+    "pass": true,
+    "heapBytes": 2068216597,
+    "x": 4488,
+    "y": 2848,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4128,
+      "y": 2623,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 11 meeting",
+    "pass": true,
+    "heapBytes": 2067362063,
+    "x": 4456,
+    "y": 2640,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4096,
+      "y": 2415,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "facing 11",
+    "pass": true,
+    "expected": 2,
+    "heapBytes": 2067165831,
+    "x": 4456,
+    "y": 2640,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4096,
+      "y": 2415,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "seat 12 meeting",
+    "pass": true,
+    "heapBytes": 2064686721,
+    "x": 4456,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4096,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "facing 12",
+    "pass": true,
+    "expected": 0,
+    "heapBytes": 2064297361,
+    "x": 4456,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4096,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 13 meeting",
+    "pass": true,
+    "heapBytes": 2068370141,
+    "x": 4536,
+    "y": 2640,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4176,
+      "y": 2415,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "facing 13",
+    "pass": true,
+    "expected": 2,
+    "heapBytes": 2068294817,
+    "x": 4536,
+    "y": 2640,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4176,
+      "y": 2415,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "seat 14 meeting",
+    "pass": true,
+    "heapBytes": 2064264043,
+    "x": 4536,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4176,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "facing 14",
+    "pass": true,
+    "expected": 0,
+    "heapBytes": 2064640595,
+    "x": 4536,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4176,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "meeting 1 exit approach",
+    "pass": true,
+    "heapBytes": 2070447579,
+    "x": 4488,
+    "y": 2848,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4128,
+      "y": 2623,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "meeting 1 exit",
+    "pass": true,
+    "heapBytes": 2069001803,
+    "x": 4488,
+    "y": 2960,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4128,
+      "y": 2735,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "meeting 2 door approach",
+    "pass": true,
+    "heapBytes": 2071207583,
+    "x": 4888,
+    "y": 2976,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4528,
+      "y": 2751,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 1,
+    "cover": false
+  },
+  {
+    "name": "meeting 2 entry",
+    "pass": true,
+    "heapBytes": 2077699952,
+    "x": 4888,
+    "y": 2848,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4528,
+      "y": 2623,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 15 meeting",
+    "pass": true,
+    "heapBytes": 2081719964,
+    "x": 4856,
+    "y": 2640,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4496,
+      "y": 2415,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "facing 15",
+    "pass": true,
+    "expected": 2,
+    "heapBytes": 2074587900,
+    "x": 4856,
+    "y": 2640,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4496,
+      "y": 2415,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "seat 16 meeting",
+    "pass": true,
+    "heapBytes": 2077384454,
+    "x": 4856,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4496,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "facing 16",
+    "pass": true,
+    "expected": 0,
+    "heapBytes": 2070389330,
+    "x": 4856,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4496,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 17 meeting",
+    "pass": true,
+    "heapBytes": 2074003798,
+    "x": 4936,
+    "y": 2640,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4576,
+      "y": 2415,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "facing 17",
+    "pass": true,
+    "expected": 2,
+    "heapBytes": 2079730202,
+    "x": 4936,
+    "y": 2640,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4576,
+      "y": 2415,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "seat 18 meeting",
+    "pass": true,
+    "heapBytes": 2069560528,
+    "x": 4936,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4576,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "facing 18",
+    "pass": true,
+    "expected": 0,
+    "heapBytes": 2075372864,
+    "x": 4936,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4576,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "meeting 2 exit approach",
+    "pass": true,
+    "heapBytes": 2073854760,
+    "x": 4888,
+    "y": 2848,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4528,
+      "y": 2623,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "meeting 2 exit",
+    "pass": true,
+    "heapBytes": 2073356824,
+    "x": 4888,
+    "y": 2960,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 4528,
+      "y": 2735,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "office exit approach",
+    "pass": true,
+    "heapBytes": 2084847396,
+    "x": 4024,
+    "y": 2992,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3664,
+      "y": 2767,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 3,
+    "cover": false
+  },
+  {
+    "name": "office exit",
+    "pass": true,
+    "heapBytes": 2100119612,
+    "x": 4024,
+    "y": 3136,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3664,
+      "y": 2911,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": true
+  },
+  {
+    "name": "stage aisle",
+    "pass": false,
+    "heapBytes": 2095874488,
+    "x": 5768,
+    "y": 3280,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 5408,
+      "y": 3055,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 1,
+    "cover": true
+  },
+  {
+    "name": "acceptance exception",
+    "pass": false,
+    "error": "Error: Unreachable stage aisle"
+  }
+]

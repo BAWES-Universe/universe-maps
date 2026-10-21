@@ -1,0 +1,268 @@
+[
+  {
+    "name": "client startup",
+    "pass": true,
+    "milliseconds": 12928
+  },
+  {
+    "name": "gate approach",
+    "pass": true,
+    "x": 4024,
+    "y": 3088,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3664,
+      "y": 2863,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": true
+  },
+  {
+    "name": "office entry",
+    "pass": true,
+    "x": 4024,
+    "y": 2976,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3664,
+      "y": 2751,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 0 focus",
+    "pass": true,
+    "x": 3080,
+    "y": 2656,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2720,
+      "y": 2431,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "facing 0",
+    "pass": true,
+    "expected": 0,
+    "x": 3080,
+    "y": 2656,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2720,
+      "y": 2431,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 1 focus",
+    "pass": true,
+    "x": 3512,
+    "y": 2656,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3152,
+      "y": 2431,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "facing 1",
+    "pass": true,
+    "expected": 0,
+    "x": 3512,
+    "y": 2656,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 3152,
+      "y": 2431,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 2 project",
+    "pass": true,
+    "x": 3240,
+    "y": 2624,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2880,
+      "y": 2399,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "facing 2",
+    "pass": true,
+    "expected": 2,
+    "x": 3240,
+    "y": 2624,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2880,
+      "y": 2399,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "seat 3 project",
+    "pass": true,
+    "x": 3240,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2880,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "facing 3",
+    "pass": true,
+    "expected": 0,
+    "x": 3240,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2880,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 4 project",
+    "pass": true,
+    "x": 3320,
+    "y": 2624,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2960,
+      "y": 2399,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "facing 4",
+    "pass": true,
+    "expected": 2,
+    "x": 3320,
+    "y": 2624,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2960,
+      "y": 2399,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  },
+  {
+    "name": "seat 5 project",
+    "pass": true,
+    "x": 3320,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2960,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "facing 5",
+    "pass": true,
+    "expected": 0,
+    "x": 3320,
+    "y": 2768,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2960,
+      "y": 2543,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 0,
+    "cover": false
+  },
+  {
+    "name": "seat 6 outward-lounge",
+    "pass": true,
+    "x": 3080,
+    "y": 2896,
+    "scale": 1,
+    "zoom": 1,
+    "view": {
+      "type": 5,
+      "x": 2720,
+      "y": 2671,
+      "width": 720,
+      "height": 450
+    },
+    "direction": 2,
+    "cover": false
+  }
+]

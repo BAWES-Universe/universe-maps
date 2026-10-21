@@ -18,7 +18,9 @@ async function clickSeat(p,x,y,name){const point=await p.evaluate(({x,y})=>{cons
  results.push({name:'client startup',pass:true,milliseconds:Date.now()-started});save();
  await move(p,4016,3088,'gate approach');await p.waitForTimeout(1000);await move(p,4016,2976,'office entry');
  for(let i=0;i<layout.seats.length;i++){
-  if(i===19){await move(p,4016,2976,'office exit approach');await move(p,4016,3136,'office exit');await move(p,5768,3248,'stage aisle');}
+  if(i===11){await move(p,4480,2960,'meeting 1 door approach');await p.waitForTimeout(1000);await move(p,4480,2848,'meeting 1 entry');}
+  if(i===15){await move(p,4480,2848,'meeting 1 exit approach');await move(p,4480,2960,'meeting 1 exit');await move(p,4880,2960,'meeting 2 door approach');await p.waitForTimeout(1000);await move(p,4880,2848,'meeting 2 entry');}
+  if(i===19){await move(p,4880,2848,'meeting 2 exit approach');await move(p,4880,2960,'meeting 2 exit');await move(p,4016,2976,'office exit approach');await move(p,4016,3136,'office exit');await move(p,5768,3248,'stage aisle');}
   if(i===51)await move(p,2736,4352,'cafe arrival');
   if(i===61){await move(p,2464,3152,'greenhouse entrance');await move(p,2464,3024,'greenhouse inside');}
   if(i===63)await move(p,2464,3168,'greenhouse exit');
@@ -35,5 +37,5 @@ async function clickSeat(p,x,y,name){const point=await p.evaluate(({x,y})=>{cons
  results.push({name:'mobile viewport emulation only',pass:true,viewport:{width:430,height:900},physicalPhone:false});save();
  if(results.some(r=>!r.pass))throw Error('Failed acceptance checks');
  console.log('Acceptance passed',results.length);
-}catch(e){console.error(e);for(const c of contexts)for(const p of c.pages())await p.screenshot({path:root+'/evidence/acceptance-failure.png'}).catch(()=>{});process.exitCode=1}
+}catch(e){results.push({name:'acceptance exception',pass:false,error:String(e)});console.error(e);for(const c of contexts)for(const p of c.pages())await p.screenshot({path:root+'/evidence/acceptance-failure.png'}).catch(()=>{});process.exitCode=1}
 finally{save();for(const c of contexts)await c.close();await b?.close()}})();

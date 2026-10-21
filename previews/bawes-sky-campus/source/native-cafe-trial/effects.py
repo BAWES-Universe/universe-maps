@@ -34,7 +34,7 @@ def add_effects(m, output):
         for y in range(y0,y1,16):
             for x in range(x0,x1,16):place(x,y,(x//16+y//16)%5)
     for i,(x,y) in enumerate([(2224,4512),(2288,4528),(2384,4560),(2512,4592),(2544,4512),(2288,4480),(2480,4544),(2576,4560)]):place(x,y,5+i%4)
-    for i,(x,y) in enumerate([(2208,3040),(2544,3040),(2144,3360),(2704,3360),(3248,3216),(4032,3376),(4768,3216),(5312,3040),(5904,3088),(2288,4240),(3136,4256),(3632,4288),(4464,4288)]):place(x,y,9+i%2)
+    for i,(x,y) in enumerate([(2320,3024),(2560,3024),(2240,3344),(2128,4032),(2680,4400),(3248,4288),(5304,3040),(4768,3216)]):place(x,y,9+i%2)
     layer=dict(id=m['nextlayerid'],name='water-and-lantern-motion',type='tilelayer',x=0,y=0,width=m['width'],height=m['height'],visible=True,opacity=1,data=data)
     m['nextlayerid']+=1;m['layers'].append(layer)
     return {'animationDefinitions':11,'animatedCells':sum(bool(x) for x in data),'frameCount':4}

@@ -23,6 +23,7 @@ for filename,box,world in [('cafe-proportion-2.png',(0,0,1408,896),(1984,3712)),
 for filename,origin,boxes in [
  ('nook-entrance-recovery.png',(1664,2944),[(696,152,880,224),(1000,72,1104,288)]),
  ('east-passage-recovery.png',(4224,2944),[(1000,120,1120,288)]),
+ ('counter-height-recovery.png',(1984,3712),[(528,420,944,492)]),
 ]:
  repair=Image.open(P/filename).convert('RGBA')
  for box in boxes:
@@ -100,8 +101,8 @@ for i,x,y,facing in [(51,2392,4320,'down'),(52,2424,4320,'down'),(53,3000,4320,'
 # The native 80px nook sofa supports two 32px sprites without overlap.
 del layout['seats'][65]
 # Move the former entrance bistro seats into the functioning greenhouse room.
-layout['seats'][61].update(x=2328,y=2912,group='greenhouse',facing='down')
-layout['seats'][62].update(x=2584,y=2912,group='greenhouse',facing='down')
+layout['seats'][61].update(x=2328,y=2896,group='greenhouse',facing='down')
+layout['seats'][62].update(x=2584,y=2896,group='greenhouse',facing='down')
 # Clear vacated old table supports and register the new low table footprints.
 furniture_rects=[(2320,4288,208,128),(2944,4288,208,128),(2048,3200,192,144)]
 for bx,by,bw,bh in furniture_rects:
